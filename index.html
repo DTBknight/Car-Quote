@@ -2276,7 +2276,7 @@
   </script>
 
   <script>
-    // 车型名称智能搜索（只fetch一次，后续本地筛选）
+    // 车型名称智能搜索（只fetch一次，后续本地筛选，带图片）
     (function() {
       const input = document.getElementById('carModel');
       const resultBox = document.getElementById('carSearchResults');
@@ -2334,8 +2334,17 @@
         }
         lastResults.slice(0, 20).forEach((car, idx) => {
           const div = document.createElement('div');
-          div.className = 'px-4 py-2 cursor-pointer hover:bg-gray-50 border-b last:border-b-0';
-          div.textContent = car.carName + (car.configName ? ' - ' + car.configName : '');
+          div.className = 'flex items-center px-4 py-2 cursor-pointer hover:bg-gray-50 border-b last:border-b-0';
+          // 车型图片
+          const img = document.createElement('img');
+          img.src = car.carImage || 'https://via.placeholder.com/40x28?text=No+Img';
+          img.alt = car.carName;
+          img.className = 'w-10 h-7 object-cover rounded mr-3 flex-shrink-0';
+          div.appendChild(img);
+          // 车型文字
+          const text = document.createElement('span');
+          text.textContent = car.carName + (car.configName ? ' - ' + car.configName : '');
+          div.appendChild(text);
           div.dataset.idx = idx;
           div.onmousedown = function(e) {
             e.preventDefault(); // 防止失焦
