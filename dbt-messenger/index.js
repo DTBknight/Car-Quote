@@ -13,8 +13,8 @@ const {
 // 车型数据结构
 const carData = [];
 
-async function scrapeDongchedi() {
-  console.log('开始爬取懂车帝车型数据...');
+async function collectCarData() {
+  console.log('开始收集车型数据...');
   
   const browser = await puppeteer.launch({
     headless: true,
@@ -151,7 +151,7 @@ async function scrapeDongchedi() {
     ];
     
     for (const car of carSeries) {
-      console.log(`正在爬取 ${car.name} 的配置信息...`);
+      console.log(`正在收集 ${car.name} 的配置信息...`);
       
       try {
         // 使用反爬虫配置的随机延迟
@@ -319,15 +319,15 @@ async function scrapeDongchedi() {
         }, car);
         
         carData.push(...carConfigs);
-        console.log(`成功获取 ${carConfigs.length} 个 ${car.name} 配置`);
+        console.log(`成功收集 ${carConfigs.length} 个 ${car.name} 配置`);
         
         // 使用反爬虫配置的随机延迟
         const randomWait = getRandomDelay(2000, 5000);
         await page.waitForTimeout(randomWait);
         
-      } catch (error) {
-        console.error(`爬取 ${car.name} 失败:`, error.message);
-      }
+              } catch (error) {
+          console.error(`收集 ${car.name} 失败:`, error.message);
+        }
     }
     
     // 尝试使用API接口获取数据
@@ -336,7 +336,7 @@ async function scrapeDongchedi() {
       const apiCars = await fetchCarsFromAPI();
       if (apiCars.length > 0) {
         carData.push(...apiCars);
-        console.log(`通过API获取到 ${apiCars.length} 个车型数据`);
+        console.log(`通过API收集到 ${apiCars.length} 个车型数据`);
       }
     } catch (error) {
       console.log('API获取失败，使用备用数据');
@@ -371,11 +371,11 @@ async function scrapeDongchedi() {
     const dataPath = path.join(__dirname, '..', 'data', 'cars.json');
     fs.writeFileSync(dataPath, JSON.stringify(uniqueCars, null, 2));
     
-    console.log(`爬取完成！共获取 ${uniqueCars.length} 个车型数据`);
+    console.log(`收集完成！共获取 ${uniqueCars.length} 个车型数据`);
     console.log(`数据已保存到: ${dataPath}`);
     
   } catch (error) {
-    console.error('爬虫执行失败:', error);
+    console.error('DBT Messenger执行失败:', error);
     throw error;
   } finally {
     await browser.close();
@@ -384,13 +384,13 @@ async function scrapeDongchedi() {
 
 // 如果直接运行此文件
 if (require.main === module) {
-  scrapeDongchedi()
+  collectCarData()
     .then(() => {
-      console.log('爬虫执行成功！');
+      console.log('DBT Messenger执行成功！');
       process.exit(0);
     })
     .catch((error) => {
-      console.error('爬虫执行失败:', error);
+      console.error('DBT Messenger执行失败:', error);
       process.exit(1);
     });
 }
@@ -445,5 +445,4 @@ async function fetchCarsFromAPI() {
   return cars;
 }
 
-module.exports = { scrapeDongchedi }; 
-module.exports = { scrapeDongchedi }; 
+module.exports = { collectCarData }; 

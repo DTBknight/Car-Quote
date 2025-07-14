@@ -1,14 +1,14 @@
 {
-  "name": "car-scraper",
+  "name": "dbt-messenger",
   "version": "1.0.0",
-  "description": "懂车帝车型数据爬虫",
+  "description": "DBT Messenger - 车型数据收集器",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
     "dev": "node test.js"
   },
-  "keywords": ["scraper", "cars", "dongchedi"],
+  "keywords": ["dbt-messenger", "cars", "data-collector"],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {

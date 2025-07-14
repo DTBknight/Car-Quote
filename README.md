@@ -1,32 +1,32 @@
-# 汽车报价计算器 - GitHub Actions 爬虫
+# 汽车报价计算器 - DBT Messenger
 
-这是一个基于 GitHub Actions 的懂车帝车型数据爬虫项目，自动爬取车型信息并更新数据文件。
+这是一个基于 GitHub Actions 的DBT Messenger项目，自动收集车型信息并更新数据文件。
 
 ## 项目结构
 
 ```
 ├── frontend/                    # 前端文件 (GitHub Pages)
 │   └── index.html              # 汽车报价计算器
-├── scraper/                     # 爬虫代码
-│   ├── index.js                # 爬虫主文件
-│   └── package.json            # 爬虫依赖
+├── dbt-messenger/              # DBT Messenger代码
+│   ├── index.js                # DBT Messenger主文件
+│   └── package.json            # DBT Messenger依赖
 ├── data/                       # 数据文件
 │   └── cars.json              # 车型数据
 ├── .github/
 │   └── workflows/
-│       └── scraper.yml        # GitHub Actions 配置
+│       └── dbt-messenger.yml  # GitHub Actions 配置
 └── README.md
 ```
 
 ## 功能特点
 
-- 🕷️ **自动爬取**: 使用 Puppeteer 爬取懂车帝车型配置数据
-- 🛡️ **反爬虫伪装**: 高级浏览器指纹伪装，避免被检测
-- ⏰ **定时执行**: 每天凌晨2点自动执行爬虫
-- 🔄 **自动更新**: 爬取完成后自动提交数据更新
-- 🚀 **手动触发**: 支持手动触发爬虫执行
+- 🕷️ **自动收集**: 使用 Puppeteer 收集懂车帝车型配置数据
+- 🛡️ **反检测伪装**: 高级浏览器指纹伪装，避免被检测
+- ⏰ **定时执行**: 每天凌晨2点自动执行DBT Messenger
+- 🔄 **自动更新**: 收集完成后自动提交数据更新
+- 🚀 **手动触发**: 支持手动触发DBT Messenger执行
 - 📊 **数据去重**: 自动去除重复的车型配置数据
-- 🔄 **多重策略**: 网页爬取 + API接口双重数据获取
+- 🔄 **多重策略**: 网页收集 + API接口双重数据获取
 - 📋 **详细配置**: 获取车型名称、配置名称、指导价格、车型图片
 
 ## 如何使用
@@ -38,24 +38,24 @@
 
 ### 2. 配置 GitHub Actions
 
-GitHub Actions 会自动检测 `.github/workflows/scraper.yml` 文件并启用工作流。
+GitHub Actions 会自动检测 `.github/workflows/dbt-messenger.yml` 文件并启用工作流。
 
-### 3. 手动触发爬虫
+### 3. 手动触发DBT Messenger
 
 1. 进入 GitHub 仓库页面
 2. 点击 "Actions" 标签
-3. 选择 "Car Data Scraper" 工作流
+3. 选择 "DBT Messenger - Car Data Collector" 工作流
 4. 点击 "Run workflow" 按钮
 
 ### 4. 查看执行结果
 
 - 在 Actions 页面查看执行日志
-- 爬取的数据会保存在 `data/cars.json` 文件中
+- 收集的数据会保存在 `data/cars.json` 文件中
 - 每次执行后会自动提交数据更新
 
 ## 数据格式
 
-爬取的车型配置数据格式如下：
+收集的车型配置数据格式如下：
 
 ```json
 {
@@ -81,15 +81,15 @@ GitHub Actions 会自动检测 `.github/workflows/scraper.yml` 文件并启用�
 
 ## 定时执行
 
-爬虫会在以下时间自动执行：
+DBT Messenger会在以下时间自动执行：
 
 - **每天凌晨2点** (UTC时间)
-- **代码更新时** (当 scraper 目录下的文件有更新)
+- **代码更新时** (当 dbt-messenger 目录下的文件有更新)
 - **手动触发时** (通过 GitHub Actions 界面)
 
-## 反爬虫技术
+## 反检测技术
 
-本爬虫采用了多种反爬虫技术：
+本DBT Messenger采用了多种反检测技术：
 
 1. **浏览器指纹伪装**: 
    - 删除 webdriver 属性
@@ -113,18 +113,18 @@ GitHub Actions 会自动检测 `.github/workflows/scraper.yml` 文件并启用�
 
 ## 注意事项
 
-1. **反爬虫处理**: 爬虫已配置高级反爬虫技术，避免被检测
+1. **反检测处理**: DBT Messenger已配置高级反检测技术，避免被检测
 2. **数据备份**: 每次更新前会自动备份原有数据
-3. **错误处理**: 如果某个品牌爬取失败，会继续爬取其他品牌
-4. **资源优化**: 只加载必要的页面资源，提高爬取速度
+3. **错误处理**: 如果某个品牌收集失败，会继续收集其他品牌
+4. **资源优化**: 只加载必要的页面资源，提高收集速度
 5. **频率控制**: 随机延迟避免请求过于频繁
 
 ## 本地测试
 
-如果需要本地测试爬虫：
+如果需要本地测试DBT Messenger：
 
 ```bash
-cd scraper
+cd dbt-messenger
 npm install
 npm test
 ```
@@ -137,7 +137,7 @@ npm run dev
 
 ## 故障排除
 
-### 爬虫执行失败
+### DBT Messenger执行失败
 
 1. 检查 GitHub Actions 日志
 2. 确认网络连接正常
@@ -146,7 +146,7 @@ npm run dev
 ### 数据未更新
 
 1. 检查是否有新的车型数据
-2. 确认爬虫成功执行
+2. 确认DBT Messenger成功执行
 3. 查看提交历史
 
 ## 贡献
