@@ -5,20 +5,20 @@
 ## 项目结构
 
 ```
-├── frontend/                    # 前端文件 (GitHub Pages)
-│   └── index.html              # 前端页面
-├── dbt-messenger/              # DBT Messenger代码
-│   ├── index.js                # 主文件
-│   ├── config.js               # 配置文件
-│   ├── anti-detection.js       # 反检测配置
-│   ├── package.json            # 依赖配置
-│   ├── env.example             # 环境变量示例
-│   └── .gitignore              # Git忽略文件
-├── data/                       # 数据文件
-│   └── cars.json              # 数据文件
+├── frontend/
+│   └── index.html
+├── dbt-messenger/
+│   ├── index.js
+│   ├── config.js
+│   ├── anti-detection.js
+│   ├── package.json
+│   ├── env.example
+│   └── .gitignore
+├── data/
+│   └── cars.json
 ├── .github/
 │   └── workflows/
-│       └── dbt-messenger.yml  # GitHub Actions 配置
+│       └── dbt-messenger.yml
 └── README.md
 ```
 
