@@ -30,6 +30,9 @@ jobs:
         npm ci
         
     - name: Run DBT Messenger
+      env:
+        TARGET_BASE_URL: ${{ secrets.TARGET_BASE_URL }}
+        TARGET_API_BASE_URL: ${{ secrets.TARGET_API_BASE_URL }}
       run: |
         cd dbt-messenger
         node index.js

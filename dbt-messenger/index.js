@@ -1,6 +1,10 @@
+// 加载环境变量
+require('dotenv').config();
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
+const config = require('./config');
 const { 
   getRandomUserAgent, 
   getRandomViewport, 
@@ -112,43 +116,10 @@ async function collectCarData() {
     });
     
     // 爬取热门车型的具体配置信息
-    const carSeries = [
-      { 
-        name: '比亚迪秦PLUS DM', 
-        url: 'https://www.dongchedi.com/auto/series/4802',
-        brand: '比亚迪'
-      },
-      { 
-        name: '特斯拉Model 3', 
-        url: 'https://www.dongchedi.com/auto/series/4803',
-        brand: '特斯拉'
-      },
-      { 
-        name: '特斯拉Model Y', 
-        url: 'https://www.dongchedi.com/auto/series/4804',
-        brand: '特斯拉'
-      },
-      { 
-        name: '比亚迪汉', 
-        url: 'https://www.dongchedi.com/auto/series/4805',
-        brand: '比亚迪'
-      },
-      { 
-        name: '奔驰C级', 
-        url: 'https://www.dongchedi.com/auto/series/4806',
-        brand: '奔驰'
-      },
-      { 
-        name: '宝马3系', 
-        url: 'https://www.dongchedi.com/auto/series/4807',
-        brand: '宝马'
-      },
-      { 
-        name: '奥迪A4L', 
-        url: 'https://www.dongchedi.com/auto/series/4808',
-        brand: '奥迪'
-      }
-    ];
+    const carSeries = config.carSeries.map(car => ({
+      ...car,
+      url: `${config.targetSite.baseUrl}/auto/series/${car.seriesId}`
+    }));
     
     for (const car of carSeries) {
       console.log(`正在收集 ${car.name} 的配置信息...`);
@@ -159,7 +130,7 @@ async function collectCarData() {
         await page.waitForTimeout(randomDelay);
         
         // 先访问主页，再访问具体页面
-        await page.goto('https://www.dongchedi.com/', { 
+        await page.goto(config.targetSite.baseUrl, { 
           waitUntil: 'networkidle0',
           timeout: 30000 
         });
@@ -402,11 +373,9 @@ async function fetchCarsFromAPI() {
   
   try {
     // 尝试多个可能的API端点
-    const apiEndpoints = [
-      'https://www.dongchedi.com/motor/pc/car/series/get_car_series_list/?brand_id=1&city_id=201',
-      'https://www.dongchedi.com/motor/pc/car/series/get_car_series_list/?brand_id=2&city_id=201',
-      'https://www.dongchedi.com/motor/pc/car/series/get_car_series_list/?brand_id=3&city_id=201'
-    ];
+    const apiEndpoints = config.apiEndpoints.map(endpoint => 
+      `${config.targetSite.apiBaseUrl}${endpoint}`
+    );
     
     for (const endpoint of apiEndpoints) {
       try {
