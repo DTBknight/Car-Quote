@@ -1,21 +1,21 @@
-# 汽车报价计算器 - DBT Messenger
+# DBT Messenger
 
-这是一个基于 GitHub Actions 的DBT Messenger项目，自动收集车型信息并更新数据文件。
+这是一个基于 GitHub Actions 的数据收集项目。
 
 ## 项目结构
 
 ```
 ├── frontend/                    # 前端文件 (GitHub Pages)
-│   └── index.html              # 汽车报价计算器
+│   └── index.html              # 前端页面
 ├── dbt-messenger/              # DBT Messenger代码
-│   ├── index.js                # DBT Messenger主文件
+│   ├── index.js                # 主文件
 │   ├── config.js               # 配置文件
 │   ├── anti-detection.js       # 反检测配置
-│   ├── package.json            # DBT Messenger依赖
+│   ├── package.json            # 依赖配置
 │   ├── env.example             # 环境变量示例
 │   └── .gitignore              # Git忽略文件
 ├── data/                       # 数据文件
-│   └── cars.json              # 车型数据
+│   └── cars.json              # 数据文件
 ├── .github/
 │   └── workflows/
 │       └── dbt-messenger.yml  # GitHub Actions 配置
@@ -24,14 +24,14 @@
 
 ## 功能特点
 
-- 🕷️ **自动收集**: 使用 Puppeteer 收集车型配置数据
+- 🕷️ **自动收集**: 使用 Puppeteer 收集数据
 - 🛡️ **反检测伪装**: 高级浏览器指纹伪装，避免被检测
-- ⏰ **定时执行**: 每天凌晨2点自动执行DBT Messenger
+- ⏰ **定时执行**: 每天凌晨2点自动执行
 - 🔄 **自动更新**: 收集完成后自动提交数据更新
-- 🚀 **手动触发**: 支持手动触发DBT Messenger执行
-- 📊 **数据去重**: 自动去除重复的车型配置数据
+- 🚀 **手动触发**: 支持手动触发执行
+- 📊 **数据去重**: 自动去除重复数据
 - 🔄 **多重策略**: 网页收集 + API接口双重数据获取
-- 📋 **详细配置**: 获取车型名称、配置名称、指导价格、车型图片
+- 📋 **详细配置**: 获取名称、配置、价格、图片等信息
 
 ## 如何使用
 
@@ -49,12 +49,12 @@
 
 **示例配置：**
 ```
-TARGET_BASE_URL=https://www.dongchedi.com
-TARGET_API_BASE_URL=https://www.dongchedi.com
+TARGET_BASE_URL=https://www.example.com
+TARGET_API_BASE_URL=https://www.example.com
 ```
 
 **本地测试时：**
-创建 `dbt-messenger/.env` 文件并设置相同的环境变量。
+创建 `dbt-messenger/.env` 文件并设置相应的环境变量。
 
 ### 3. 配置 GitHub Actions
 
@@ -64,7 +64,7 @@ GitHub Actions 会自动检测 `.github/workflows/dbt-messenger.yml` 文件并�
 
 1. 进入 GitHub 仓库页面
 2. 点击 "Actions" 标签
-3. 选择 "DBT Messenger - Car Data Collector" 工作流
+3. 选择 "DBT Messenger - Data Collector" 工作流
 4. 点击 "Run workflow" 按钮
 
 ### 5. 查看执行结果
@@ -75,33 +75,33 @@ GitHub Actions 会自动检测 `.github/workflows/dbt-messenger.yml` 文件并�
 
 ## 数据格式
 
-收集的车型配置数据格式如下：
+收集的数据格式如下：
 
 ```json
 {
   "id": 1,
-  "carName": "比亚迪秦PLUS DM",
-  "brand": "比亚迪",
-  "configName": "2025款 智驾版 DM-i 55KM 领先型",
-  "price": "79800元",
-  "carImage": "车型图片URL",
-  "category": "新能源车",
+  "name": "示例名称",
+  "brand": "示例品牌",
+  "configName": "示例配置",
+  "price": "示例价格",
+  "image": "图片URL",
+  "category": "分类",
   "created_at": "2024-01-01T00:00:00.000Z"
 }
 ```
 
 ### 数据字段说明
 
-- **carName**: 车型名称（如：比亚迪秦PLUS DM）
-- **brand**: 品牌名称（如：比亚迪）
-- **configName**: 具体配置名称（如：2025款 智驾版 DM-i 55KM 领先型）
-- **price**: 指导价格（如：79800元）
-- **carImage**: 车型图片URL
-- **category**: 车型分类（新车/新能源车/二手车）
+- **name**: 名称
+- **brand**: 品牌
+- **configName**: 配置名称
+- **price**: 价格
+- **image**: 图片URL
+- **category**: 分类
 
 ## 定时执行
 
-DBT Messenger会在以下时间自动执行：
+项目会在以下时间自动执行：
 
 - **每天凌晨2点** (UTC时间)
 - **代码更新时** (当 dbt-messenger 目录下的文件有更新)
@@ -109,7 +109,7 @@ DBT Messenger会在以下时间自动执行：
 
 ## 反检测技术
 
-本DBT Messenger采用了多种反检测技术：
+本项目采用了多种反检测技术：
 
 1. **浏览器指纹伪装**: 
    - 删除 webdriver 属性
@@ -133,15 +133,15 @@ DBT Messenger会在以下时间自动执行：
 
 ## 注意事项
 
-1. **反检测处理**: DBT Messenger已配置高级反检测技术，避免被检测
+1. **反检测处理**: 已配置高级反检测技术，避免被检测
 2. **数据备份**: 每次更新前会自动备份原有数据
-3. **错误处理**: 如果某个品牌收集失败，会继续收集其他品牌
+3. **错误处理**: 如果某个项目收集失败，会继续收集其他项目
 4. **资源优化**: 只加载必要的页面资源，提高收集速度
 5. **频率控制**: 随机延迟避免请求过于频繁
 
 ## 本地测试
 
-如果需要本地测试DBT Messenger：
+如果需要本地测试：
 
 1. 创建环境变量文件：
 ```bash
@@ -164,7 +164,7 @@ npm run dev
 
 ## 故障排除
 
-### DBT Messenger执行失败
+### 执行失败
 
 1. 检查 GitHub Actions 日志
 2. 确认网络连接正常
@@ -172,8 +172,8 @@ npm run dev
 
 ### 数据未更新
 
-1. 检查是否有新的车型数据
-2. 确认DBT Messenger成功执行
+1. 检查是否有新的数据
+2. 确认项目成功执行
 3. 查看提交历史
 
 ## 贡献
