@@ -1,0 +1,23 @@
+{
+  "name": "car-scraper",
+  "version": "1.0.0",
+  "description": "懂车帝车型数据爬虫",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "dev": "node test.js"
+  },
+  "keywords": ["scraper", "cars", "dongchedi"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.5.2",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0",
+    "user-agents": "^1.0.1354"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 

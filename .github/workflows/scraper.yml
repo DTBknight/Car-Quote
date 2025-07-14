@@ -1,0 +1,64 @@
+name: Car Data Scraper
+
+on:
+  schedule:
+    # 每天凌晨2点执行爬虫
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 允许手动触发
+  push:
+    paths:
+      - 'scraper/**' # 当爬虫代码更新时也执行
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: scraper/package-lock.json
+        
+    - name: Install dependencies
+      run: |
+        cd scraper
+        npm ci
+        
+    - name: Run scraper
+      run: |
+        cd scraper
+        node index.js
+        
+    - name: Check for changes
+      id: git-check
+      run: |
+        git add data/cars.json
+        if git diff --staged --quiet; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Update car data $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+        
+    - name: Create summary
+      run: |
+        echo "## 爬虫执行结果" >> $GITHUB_STEP_SUMMARY
+        if [ -f "data/cars.json" ]; then
+          car_count=$(jq length data/cars.json)
+          echo "- 成功爬取 $car_count 个车型数据" >> $GITHUB_STEP_SUMMARY
+          echo "- 数据更新时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "- 爬取失败，未生成数据文件" >> $GITHUB_STEP_SUMMARY
+        fi 
