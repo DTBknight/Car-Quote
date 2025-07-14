@@ -2274,5 +2274,104 @@
       }
     });
   </script>
+
+  <script>
+    // 车型名称智能搜索（只fetch一次，后续本地筛选）
+    (function() {
+      const input = document.getElementById('carModel');
+      const resultBox = document.getElementById('carSearchResults');
+      const guidePriceInput = document.getElementById('guidePrice');
+      let carData = [];
+      let lastResults = [];
+      let loading = true;
+      let fetchFailed = false;
+
+      // 只fetch一次
+      function loadData() {
+        loading = true;
+        resultBox.innerHTML = '<div class="px-4 py-2 text-gray-400">正在加载...</div>';
+        resultBox.classList.remove('hidden');
+        fetch('https://car-quote-zeta.vercel.app/api/cars')
+          .then(res => res.json())
+          .then(data => {
+            carData = data;
+            loading = false;
+            fetchFailed = false;
+            resultBox.classList.add('hidden');
+          })
+          .catch(() => {
+            loading = false;
+            fetchFailed = true;
+            resultBox.innerHTML = '<div class="px-4 py-2 text-red-500">搜索服务不可用</div>';
+            resultBox.classList.remove('hidden');
+          });
+      }
+      loadData();
+
+      // 搜索并显示结果
+      function showResults(keyword) {
+        if (loading) {
+          resultBox.innerHTML = '<div class="px-4 py-2 text-gray-400">正在加载...</div>';
+          resultBox.classList.remove('hidden');
+          return;
+        }
+        if (fetchFailed) {
+          resultBox.innerHTML = '<div class="px-4 py-2 text-red-500">搜索服务不可用</div>';
+          resultBox.classList.remove('hidden');
+          return;
+        }
+        resultBox.innerHTML = '';
+        if (!keyword) {
+          resultBox.classList.add('hidden');
+          return;
+        }
+        // 模糊搜索，忽略大小写
+        lastResults = carData.filter(car => car.carName && car.carName.toLowerCase().includes(keyword.toLowerCase()));
+        if (lastResults.length === 0) {
+          resultBox.innerHTML = '<div class="px-4 py-2 text-gray-400">无匹配车型</div>';
+          resultBox.classList.remove('hidden');
+          return;
+        }
+        lastResults.slice(0, 20).forEach((car, idx) => {
+          const div = document.createElement('div');
+          div.className = 'px-4 py-2 cursor-pointer hover:bg-gray-50 border-b last:border-b-0';
+          div.textContent = car.carName + (car.configName ? ' - ' + car.configName : '');
+          div.dataset.idx = idx;
+          div.onmousedown = function(e) {
+            e.preventDefault(); // 防止失焦
+            input.value = car.carName;
+            // 自动填充指导价
+            if (guidePriceInput && car.price) {
+              // 只提取数字部分
+              const priceNum = (car.price.match(/\d+[.,]?\d*/) || [""])[0].replace(/,/g, '');
+              guidePriceInput.value = priceNum;
+            }
+            resultBox.classList.add('hidden');
+          };
+          resultBox.appendChild(div);
+        });
+        resultBox.classList.remove('hidden');
+      }
+
+      // 输入监听
+      input.addEventListener('input', function() {
+        showResults(this.value.trim());
+      });
+
+      // 失焦隐藏（用mousedown防止点击时提前隐藏）
+      input.addEventListener('blur', function() {
+        setTimeout(() => resultBox.classList.add('hidden'), 200);
+      });
+      resultBox.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+      });
+      // 聚焦时如果有内容则显示
+      input.addEventListener('focus', function() {
+        if (input.value.trim()) {
+          showResults(input.value.trim());
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
