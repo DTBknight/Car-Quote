@@ -6,110 +6,92 @@ const fs = require('fs');
 const path = require('path');
 const { getRandomUserAgent, getRandomViewport, getRandomDelay } = require('./anti-detection');
 
-const carData = [];
-
 async function collectCarData() {
-  console.log('开始采集懂车帝A-Z全品牌在售车型...');
+  console.log('开始采集懂车帝车型ID=9页面...');
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.setUserAgent(getRandomUserAgent());
   await page.setViewport(getRandomViewport());
 
-  // 1. 获取品牌A-Z列表
-  await page.goto('https://www.dongchedi.com/auto/brand/', { waitUntil: 'networkidle2', timeout: 60000 });
-  await page.waitForTimeout(getRandomDelay(2000, 4000));
-  const brands = await page.evaluate(() => {
-    const brandList = [];
-    document.querySelectorAll('.brand-index-list .brand-index-block').forEach(block => {
-      const letter = block.querySelector('.brand-index-title')?.textContent.trim() || '';
-      block.querySelectorAll('.brand-index-list-item').forEach(item => {
-        const name = item.querySelector('.brand-index-list-name')?.textContent.trim() || '';
-        const logo = item.querySelector('img')?.src || '';
-        const href = item.querySelector('a')?.getAttribute('href') || '';
-        // 品牌拼音通常在logo图片url或data-pinyin属性里
-        const pinyin = item.getAttribute('data-pinyin') || '';
-        // 品牌ID通常在链接里
-        const idMatch = href.match(/brand\/(\d+)/);
-        const brandId = idMatch ? idMatch[1] : '';
-        if (name && href) {
-          brandList.push({ name, letter, logo, pinyin, brandId, href });
+  const url = 'https://www.dongchedi.com/auto/series/2890';
+  await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+  await new Promise(resolve => setTimeout(resolve, getRandomDelay(2000, 4000)));
+
+  // 采集数据
+  const carData = await page.evaluate(() => {
+    function getByXpath(xpath) {
+      const result = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
+      return result.singleNodeValue;
+    }
+    // 品牌图片
+    const logoImg = getByXpath('//*[@id="__next"]/div/div[2]/div[2]/div[1]/div[1]/div[1]/img');
+    const brandImage = logoImg ? logoImg.src : '';
+    // 品牌名称
+    const brandSpan = getByXpath('//*[@id="__next"]/div/div[2]/div[2]/div[1]/div[1]/div[1]/span');
+    let brand = brandSpan ? brandSpan.textContent.trim() : '';
+    if (brand.includes('/')) brand = brand.split('/')[0].trim();
+    // 车型名称
+    const carNameH1 = getByXpath('//*[@id=\"__next\"]/div/div[2]/div[2]/div[1]/div[1]/div[1]/h1');
+    let carName = carNameH1 ? carNameH1.textContent.trim() : '';
+
+    // 配置名称和指导价，每个配置单独为一条数据
+    const carList = [];
+    const liNodes = document.querySelectorAll('#carModels ul > li');
+    liNodes.forEach(li => {
+      // 只采集有data-log-click属性的div
+      const configDivs = li.querySelectorAll('div[data-log-click]');
+      configDivs.forEach(div => {
+        // 配置名称优先取data-log-click中的car_style_name
+        let configName = '';
+        try {
+          const logClick = div.getAttribute('data-log-click');
+          if (logClick) {
+            const match = logClick.match(/"car_style_name":"([^"]+)"/);
+            if (match) configName = match[1];
+          }
+        } catch (e) {}
+        // 如果没取到再降级用strong/div
+        if (!configName) {
+          const strong = div.querySelector('strong');
+          if (strong) {
+            configName = strong.textContent.trim();
+          } else {
+            const nameDiv = div.querySelector('div');
+            if (nameDiv) configName = nameDiv.textContent.trim();
+          }
+        }
+        // 指导价，采集div > div:nth-child(2) > div
+        let price = '';
+        const priceNode = div.querySelector('div > div:nth-child(2) > div');
+        if (priceNode) {
+          price = priceNode.textContent.trim();
+        }
+        // 车型主图
+        let mainImage = '';
+        try {
+          const mainImg = getByXpath('//*[@id="__next"]/div/div[2]/div[2]/div[2]/div/div/div[36]/img');
+          if (mainImg) mainImage = mainImg.src;
+        } catch (e) {}
+        if (configName) {
+          carList.push({
+            brand,
+            brandImage,
+            carName,
+            configName,
+            price,
+            mainImage,
+            created_at: new Date().toISOString()
+          });
         }
       });
     });
-    return brandList;
+    return carList;
   });
-  console.log(`共采集到品牌数: ${brands.length}`);
-
-  // 2. 遍历品牌，采集在售车型
-  for (const brand of brands) {
-    try {
-      console.log(`采集品牌: ${brand.name} (${brand.letter})`);
-      await page.goto('https://www.dongchedi.com' + brand.href, { waitUntil: 'networkidle2', timeout: 60000 });
-      await page.waitForTimeout(getRandomDelay(2000, 4000));
-      // 采集在售车型
-      const seriesList = await page.evaluate(() => {
-        const arr = [];
-        document.querySelectorAll('.brand-series-list .brand-series-list-item').forEach(item => {
-          const status = item.querySelector('.brand-series-list-status')?.textContent.trim() || '';
-          if (status !== '在售') return;
-          const carName = item.querySelector('.brand-series-list-name')?.textContent.trim() || '';
-          const carImage = item.querySelector('img')?.src || '';
-          const href = item.querySelector('a')?.getAttribute('href') || '';
-          const energy = item.querySelector('.brand-series-list-tag')?.textContent.trim() || '';
-          if (carName && href) {
-            arr.push({ carName, carImage, href, energy });
-          }
-        });
-        return arr;
-      });
-      console.log(`  在售车型数: ${seriesList.length}`);
-      // 3. 遍历车型，采集配置
-      for (const series of seriesList) {
-        try {
-          await page.goto('https://www.dongchedi.com' + series.href, { waitUntil: 'networkidle2', timeout: 60000 });
-          await page.waitForTimeout(getRandomDelay(2000, 4000));
-          // 采集配置
-          const configs = await page.evaluate(() => {
-            const arr = [];
-            document.querySelectorAll('.config-car-list .config-car-list-item').forEach(item => {
-              const configName = item.querySelector('.config-car-list-title')?.textContent.trim() || '';
-              const price = item.querySelector('.config-car-list-price')?.textContent.trim() || '';
-              if (configName && price) {
-                arr.push({ configName, price });
-              }
-            });
-            return arr;
-          });
-          for (const config of configs) {
-            carData.push({
-              brand: brand.name,
-              brand_pinyin: brand.pinyin,
-              brand_letter: brand.letter,
-              brand_logo: brand.logo,
-              carName: series.carName,
-              configName: config.configName,
-              price: config.price,
-              carImage: series.carImage,
-              energy: series.energy,
-              status: '在售',
-              created_at: new Date().toISOString()
-            });
-          }
-        } catch (e) {
-          console.log(`    采集车型配置失败: ${series.carName}`);
-        }
-        await page.waitForTimeout(getRandomDelay(2000, 5000));
-      }
-    } catch (e) {
-      console.log(`采集品牌失败: ${brand.name}`);
-    }
-    await page.waitForTimeout(getRandomDelay(2000, 5000));
-  }
 
   // 保存数据
   const dataPath = path.join(__dirname, '..', 'data', 'cars.json');
   fs.writeFileSync(dataPath, JSON.stringify(carData, null, 2));
-  console.log(`采集完成！共采集到车型配置数: ${carData.length}`);
+  console.log('采集完成！数据已保存到data/cars.json');
   await browser.close();
 }
 
