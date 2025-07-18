@@ -1,0 +1,2476 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DTB Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind 配置 -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#36CFC9',
+            accent: '#FF7D00',
+            neutral: '#F5F7FA',
+            dark: '#1D2129',
+            // 二手车主题色 - 橙色主题
+            usedCar: '#FF6B35',
+            usedCarLight: '#FF8C42',
+            usedCarDark: '#E55A2B',
+            // 新能源主题色
+            newEnergy: '#22C55E',
+            newEnergyLight: '#4ADE80',
+            newEnergyDark: '#16A34A',
+          },
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+  
+  <style type="text/tailwindcss">
+    :root {
+      --primary-color: #165DFF;
+      --primary-color-rgb: 22, 93, 255;
+      --secondary-color: #36CFC9;
+      --accent-color: #FF7D00;
+      
+      /* 浅色主题变量 */
+      --bg-primary: #ffffff;
+      --bg-secondary: #ffffff;
+      --bg-tertiary: #f9fafb;
+      --text-primary: #111827;
+      --text-secondary: #374151;
+      --text-tertiary: #6b7280;
+      --border-color: #d1d5db;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    /* 深色主题变量 */
+    [data-theme="dark"],
+    [data-theme="dark"] :root {
+      --bg-primary: #1f2937;
+      --bg-secondary: #111827;
+      --bg-tertiary: #374151;
+      --text-primary: #f9fafb;
+      --text-secondary: #d1d5db;
+      --text-tertiary: #9ca3af;
+      --border-color: #4b5563;
+      --shadow-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .card-shadow {
+        box-shadow: 0 10px 30px -5px var(--shadow-color);
+      }
+      .input-focus {
+        @apply focus:ring-2 focus:ring-primary/20 focus:outline-none;
+        border-color: var(--border-color);
+      }
+      .input-focus:focus {
+        border-color: var(--primary-color);
+      }
+      .transition-custom {
+        @apply transition-all duration-300 ease-in-out;
+      }
+      .animate-fadeIn {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      /* 主题切换动画 */
+      .theme-transitioning {
+        opacity: 0.8;
+        transition: opacity 0.15s ease-in-out;
+      }
+      
+      /* 二手车主题样式 */
+      .used-car-theme .card-shadow {
+        box-shadow: 0 10px 30px -5px rgba(255, 107, 53, 0.1);
+      }
+      .used-car-theme .input-focus {
+        @apply focus:border-usedCar focus:ring-2 focus:ring-usedCar/20 focus:outline-none;
+      }
+      
+      /* 新能源主题样式 */
+      .new-energy-theme .card-shadow {
+        box-shadow: 0 10px 30px -5px rgba(34, 197, 94, 0.1);
+      }
+      .new-energy-theme .input-focus {
+        @apply focus:border-newEnergy focus:ring-2 focus:ring-newEnergy/20 focus:outline-none;
+      }
+      
+      /* 动态主题颜色 */
+      .text-primary {
+        color: var(--primary-color) !important;
+      }
+      .bg-primary {
+        background-color: var(--primary-color) !important;
+      }
+      .border-primary {
+        border-color: var(--primary-color) !important;
+      }
+      .hover\:bg-primary:hover {
+        background-color: var(--primary-color) !important;
+      }
+      .focus\:border-primary:focus {
+        border-color: var(--primary-color) !important;
+      }
+      .focus\:ring-primary\/20:focus {
+        --tw-ring-color: var(--primary-color);
+        --tw-ring-opacity: 0.2;
+      }
+      
+      /* 深色主题样式覆盖 */
+      [data-theme="dark"] body {
+        background-color: var(--bg-secondary) !important;
+      }
+      [data-theme="dark"] body.bg-gray-50 {
+        background-color: var(--bg-secondary) !important;
+      }
+      
+      /* Tailwind 暗色模式支持 */
+      .dark body {
+        background-color: #111827 !important;
+      }
+      .dark body.bg-gray-50 {
+        background-color: #111827 !important;
+      }
+      [data-theme="dark"] .bg-white {
+        background-color: var(--bg-primary) !important;
+      }
+      [data-theme="dark"] .bg-gray-50 {
+        background-color: var(--bg-secondary) !important;
+      }
+      [data-theme="dark"] .bg-gray-100 {
+        background-color: var(--bg-tertiary) !important;
+      }
+      [data-theme="dark"] input.bg-gray-50 {
+        background-color: var(--bg-secondary) !important;
+      }
+      [data-theme="dark"] .text-dark {
+        color: var(--text-primary) !important;
+      }
+      [data-theme="dark"] .text-gray-700 {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] .text-gray-600 {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] .text-gray-500 {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] .text-gray-600 {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] .text-gray-700 {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] .border-gray-200 {
+        border-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] .border-gray-300 {
+        border-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] .border-gray-100 {
+        border-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] input[type="text"],
+      [data-theme="dark"] input[type="number"],
+      [data-theme="dark"] select {
+        background-color: var(--bg-primary) !important;
+        color: var(--text-primary) !important;
+        border-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] input[readonly] {
+        background-color: var(--bg-secondary) !important;
+      }
+      [data-theme="dark"] .bg-gray-100 {
+        background-color: var(--bg-tertiary) !important;
+      }
+      [data-theme="dark"] .hover\:bg-gray-200:hover {
+        background-color: var(--bg-secondary) !important;
+      }
+      [data-theme="dark"] .hover\:bg-gray-100:hover {
+        background-color: var(--bg-tertiary) !important;
+      }
+      [data-theme="dark"] .shadow-sm {
+        box-shadow: 0 1px 2px 0 var(--shadow-color) !important;
+      }
+      [data-theme="dark"] .shadow-md {
+        box-shadow: 0 4px 6px -1px var(--shadow-color) !important;
+      }
+      [data-theme="dark"] .shadow-lg {
+        box-shadow: 0 10px 15px -3px var(--shadow-color) !important;
+      }
+      
+      /* 深色主题 - 最终报价卡片样式 */
+      [data-theme="dark"] .bg-primary\/10 {
+        background-color: rgba(var(--primary-color-rgb), 0.15) !important;
+      }
+      [data-theme="dark"] .border-primary\/20 {
+        border-color: rgba(var(--primary-color-rgb), 0.3) !important;
+      }
+      
+      /* 深色主题 - 表单和卡片样式 */
+      [data-theme="dark"] .bg-white {
+        background-color: var(--bg-primary) !important;
+      }
+      [data-theme="dark"] .rounded-xl {
+        background-color: var(--bg-primary) !important;
+      }
+      [data-theme="dark"] .border-b {
+        border-bottom-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] .pb-6 {
+        border-bottom-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] .space-y-8 > * + * {
+        border-top-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] section.border-b {
+        border-bottom-color: var(--border-color) !important;
+      }
+      
+      /* 深色主题 - 标签和文字 */
+      [data-theme="dark"] label {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] .text-xl {
+        color: var(--text-primary) !important;
+      }
+      [data-theme="dark"] .text-lg {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] .text-sm {
+        color: var(--text-secondary) !important;
+      }
+      
+      /* 深色主题 - 占位符文字 */
+      [data-theme="dark"] input::placeholder {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] select::placeholder {
+        color: var(--text-tertiary) !important;
+      }
+      
+      /* 深色主题 - 选项文字 */
+      [data-theme="dark"] option {
+        background-color: var(--bg-primary) !important;
+        color: var(--text-primary) !important;
+      }
+      
+      /* 深色主题 - 搜索结果 */
+      [data-theme="dark"] #carSearchResults {
+        background-color: var(--bg-primary) !important;
+        border-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] #carSearchResults .border-b {
+        border-bottom-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] #carSearchResults .hover\:bg-gray-50:hover {
+        background-color: var(--bg-secondary) !important;
+      }
+      
+      /* 深色主题 - 单选按钮标签 */
+      [data-theme="dark"] .inline-flex.items-center {
+        border-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] .inline-flex.items-center:hover {
+        border-color: var(--primary-color) !important;
+      }
+      
+      /* 深色主题 - 页脚 */
+      [data-theme="dark"] footer {
+        background-color: var(--bg-primary) !important;
+      }
+      [data-theme="dark"] footer .text-gray-500 {
+        color: var(--text-secondary) !important;
+      }
+      
+      /* 深色主题 - 结果卡片 */
+      [data-theme="dark"] #resultCard {
+        background-color: var(--bg-primary) !important;
+      }
+      [data-theme="dark"] #resultCard .border-b {
+        border-bottom-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] #resultCard .border-r {
+        border-right-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] #resultCard .border-t {
+        border-top-color: var(--border-color) !important;
+      }
+      [data-theme="dark"] #resultCard .bg-gray-50 {
+        background-color: var(--bg-secondary) !important;
+      }
+      [data-theme="dark"] #resultCard .bg-primary\/10 {
+        background-color: rgba(var(--primary-color-rgb), 0.1) !important;
+      }
+      [data-theme="dark"] #resultCard .border-primary\/20 {
+        border-color: rgba(var(--primary-color-rgb), 0.2) !important;
+      }
+      
+      /* 深色主题 - 结果卡片文字 */
+      [data-theme="dark"] #resultCard .text-gray-600 {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] #resultCard .text-gray-500 {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] #resultCard .font-medium {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] #resultCard .font-semibold {
+        color: var(--text-primary) !important;
+      }
+      [data-theme="dark"] #resultCard .text-lg {
+        color: var(--text-primary) !important;
+      }
+      [data-theme="dark"] #resultCard .text-primary {
+        color: var(--primary-color) !important;
+      }
+      [data-theme="dark"] #resultCard .text-green-600 {
+        color: #10b981 !important;
+      }
+      
+      /* 深色主题 - 结果卡片所有文字元素 */
+      [data-theme="dark"] #resultCard h3,
+      [data-theme="dark"] #resultCard h4,
+      [data-theme="dark"] #resultCard span,
+      [data-theme="dark"] #resultCard div,
+      [data-theme="dark"] #resultCard li {
+        color: inherit !important;
+      }
+      
+      /* 深色主题 - 结果卡片特定文字颜色 */
+      [data-theme="dark"] #resultCard .text-gray-700 {
+        color: var(--text-secondary) !important;
+      }
+      [data-theme="dark"] #resultCard .text-gray-600 {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] #resultCard .text-gray-500 {
+        color: var(--text-tertiary) !important;
+      }
+      [data-theme="dark"] #resultCard .text-sm {
+        color: var(--text-tertiary) !important;
+      }
+      
+      /* 深色主题 - 报价汇总卡片 */
+      [data-theme="dark"] #resultCard .bg-gray-50 {
+        background-color: var(--bg-tertiary) !important;
+      }
+      [data-theme="dark"] #resultCard .bg-primary\/10 {
+        background-color: rgba(var(--primary-color-rgb), 0.2) !important;
+      }
+      [data-theme="dark"] #resultCard .border-primary\/20 {
+        border-color: rgba(var(--primary-color-rgb), 0.4) !important;
+      }
+      
+      /* 深色主题 - 报价汇总卡片增强对比度 */
+      [data-theme="dark"] #resultCard .p-4.rounded-lg {
+        background-color: var(--bg-tertiary) !important;
+        border: 1px solid var(--border-color) !important;
+      }
+      [data-theme="dark"] #resultCard .bg-primary\/10.p-4.rounded-lg {
+        background-color: rgba(var(--primary-color-rgb), 0.25) !important;
+        border: 1px solid rgba(var(--primary-color-rgb), 0.5) !important;
+      }
+      
+      /* 滑块和单选按钮颜色 */
+      input[type="range"] {
+        accent-color: var(--primary-color);
+      }
+      input[type="radio"] {
+        accent-color: var(--primary-color);
+      }
+      
+      /* 去掉所有数值输入框的上下调节按钮 */
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    }
+    
+    /* ====== 美化报价类型单选框 ====== */
+    .quote-type-radio {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 1.25em;
+      height: 1.25em;
+      border: 2px solid #d1d5db;
+      border-radius: 50%;
+      background: #fff;
+      position: relative;
+      vertical-align: middle;
+      margin-right: 0.5em;
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.2s;
+      box-sizing: border-box;
+    }
+    .quote-type-radio:checked {
+      border-color: var(--primary-color);
+    }
+    .quote-type-radio:checked::after {
+      content: '';
+      display: block;
+      width: 0.65em;
+      height: 0.65em;
+      background: var(--primary-color);
+      border-radius: 50%;
+      position: absolute;
+      top: 0.18em;
+      left: 0.18em;
+    }
+    .quote-type-radio:focus {
+      box-shadow: 0 0 0 2px var(--primary-color, #165DFF33);
+    }
+  </style>
+  <style>
+    /* ...原有样式... */
+    /* 出口类型按钮组等分布局，移动端自动换行 */
+    .export-type-group {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .export-type-group .export-type-btn {
+      flex: 1 1 0%;
+      min-width: 0;
+      max-width: 100%;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .export-type-group {
+        gap: 8px;
+      }
+      .export-type-group .export-type-btn {
+        flex: 1 1 100%;
+        min-width: 100px;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+    }
+    /* 报价类型按钮组等分布局，移动端自动换行 */
+    .quote-type-group {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .quote-type-group label {
+      flex: 1 1 0%;
+      min-width: 0;
+      max-width: 100%;
+      text-align: center;
+    }
+    @media (max-width: 640px) {
+      .quote-type-group {
+        gap: 8px;
+      }
+      .quote-type-group label {
+        flex: 1 1 100%;
+        min-width: 100px;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+    }
+  </style>
+  <!-- 税费及服务费用卡片内输入框宽度与基础信息一致，整体更紧凑 -->
+  <style>
+    .tax-fee-card .space-y-2 label,
+    .tax-fee-card .space-y-2 input {
+      width: 100%;
+      max-width: 180px;
+      display: inline-block;
+    }
+    .tax-fee-card .space-y-2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    @media (max-width: 768px) {
+      .tax-fee-card .space-y-2 label,
+      .tax-fee-card .space-y-2 input {
+        max-width: 100%;
+      }
+      .tax-fee-card .space-y-2 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+      }
+    }
+  </style>
+  <style>
+    /* ...原有样式... */
+    /* 移除税费卡片内横向flex，恢复纵向堆叠 */
+    .tax-fee-card .space-y-2 {
+      display: block;
+      gap: 0;
+      align-items: unset;
+    }
+    .tax-fee-card .space-y-2 label,
+    .tax-fee-card .space-y-2 input {
+      max-width: 100%;
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+
+<body class="font-inter bg-gray-50 text-dark min-h-screen transition-custom" id="mainBody" data-theme="light">
+  <!-- 顶部导航 -->
+  <header class="bg-white shadow-sm sticky top-0 z-50 transition-custom">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i class="fa fa-calculator text-primary text-2xl"></i>
+        <h1 class="text-[clamp(1.25rem,3vw,1.75rem)] font-bold text-dark">DTB Calculator</h1>
+      </div>
+      <!-- 黑夜模式按钮已隐藏 -->
+    </div>
+  </header>
+
+  <!-- 主要内容区 -->
+  <main class="container mx-auto px-4 py-8">
+    <!-- 表单卡片 -->
+    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
+      <form id="carQuoteForm" class="space-y-8">
+        <!-- 新增：基础信息卡片上方的灰色卡片，样式与出口类型、报价类型卡片一致 -->
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm">
+          <!-- 新增品牌搜索 -->
+          <div class="flex w-full gap-4 items-end">
+            <div class="flex-1 min-w-0">
+              <div class="mb-2 text-lg font-semibold text-gray-700 flex items-center">
+                <i class="fa fa-search text-primary mr-2"></i>搜索品牌
+              </div>
+              <div class="relative">
+                <input type="text" id="searchBrandInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入品牌名称进行搜索">
+                <div id="searchBrandResults" class="hidden absolute z-50 mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
+              </div>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="mb-2 text-lg font-semibold text-gray-700 flex items-center">
+                <i class="fa fa-search text-primary mr-2"></i>搜索车型
+              </div>
+              <div class="relative">
+                <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="请先选择品牌" disabled>
+                <div id="searchCarResults" class="hidden absolute z-50 mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 基础信息部分 -->
+        <section id="baseInfoSection" class="border-b border-gray-100 pb-6 hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+            <!-- 基础信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 h-full">
+              <h3 class="text-lg font-medium flex items-center mb-2">
+                <i class="fa fa-info-circle text-primary mr-2"></i>基础信息
+              </h3>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 品牌 -->
+                <div>
+                  <div class="text-sm font-medium text-gray-700 mb-1">厂商/级别</div>
+                  <div class="flex items-center gap-3">
+                    <div id="brandLogoBox2" class="w-12 h-12 flex items-center justify-center"></div>
+                    <input type="text" id="brandName2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="厂商/级别" readonly>
+                  </div>
+                </div>
+                <!-- 车型 -->
+                <div>
+                  <div class="text-sm font-medium text-gray-700 mb-1">车型</div>
+                  <input type="text" id="carModel2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="车型名称" readonly>
+                </div>
+                <!-- 能源类型 -->
+                <div>
+                  <div class="text-sm font-medium text-gray-700 mb-1">能源类型</div>
+                  <input type="text" id="fuelType2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="能源类型" readonly>
+                </div>
+                <!-- 尺寸 -->
+                <div>
+                  <div class="text-sm font-medium text-gray-700 mb-1">尺寸</div>
+                  <input type="text" id="size2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="尺寸" readonly>
+                </div>
+                <!-- 指导价 -->
+                <div>
+                  <div class="text-sm font-medium text-gray-700 mb-1">指导价</div>
+                  <input type="text" id="price2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="指导价" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 新增右侧卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 h-full">
+              <h3 class="text-lg font-medium flex items-center mb-2">
+                <i class="fa fa-car text-primary mr-2"></i>车型图片
+              </h3>
+              <div id="carMainImageBox" class="w-full flex items-center justify-center py-8">
+                <!-- 车型图片自动加载 -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 出口类型与报价类型卡片并排 -->
+        <div class="flex flex-col md:flex-row gap-4 mb-8">
+          <!-- 出口类型卡片 -->
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 w-full md:w-1/2">
+            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+              <i class="fa fa-ship text-primary mr-2"></i>出口类型
+            </h4>
+            <div class="flex gap-4 export-type-group">
+              <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-primary text-primary bg-white shadow-sm transition-custom" data-type="new">
+                <i class="fa fa-car mr-2"></i>新车
+              </button>
+              <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="used">
+                <i class="fa fa-refresh mr-2"></i>二手车
+              </button>
+              <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="newEnergyTax">
+                <i class="fa fa-leaf mr-2"></i>新能源车
+              </button>
+            </div>
+          </div>
+          <!-- 报价类型卡片 -->
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 w-full md:w-1/2">
+            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+              <i class="fa fa-dollar text-primary mr-2"></i>报价类型
+            </h4>
+            <div class="flex gap-4 quote-type-group">
+              <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
+                <input type="radio" name="globalQuoteType" value="EXW" class="quote-type-radio text-primary focus:ring-primary" checked>
+                <span class="ml-2">EXW</span>
+              </label>
+              <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
+                <input type="radio" name="globalQuoteType" value="FOB" class="quote-type-radio text-primary focus:ring-primary">
+                <span class="ml-2">FOB</span>
+              </label>
+              <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
+                <input type="radio" name="globalQuoteType" value="CIF" class="quote-type-radio text-primary focus:ring-primary">
+                <span class="ml-2">CIF</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 新车表单 (默认显示) -->
+        <section id="newCarForm" class="space-y-8">
+          <!-- 第一排：出口类型、报价类型 -->
+          <!-- 删除下方重复的出口类型和报价类型卡片，只保留全局唯一的那一组 -->
+          <!-- 第二排：价格信息、税费信息、运输费用 -->
+          <div class="grid md:grid-cols-3 gap-4">
+            <!-- 价格信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- 指导价 -->
+                <div class="space-y-2">
+                  <label for="guidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
+                  <input type="number" id="guidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                </div>
+                <!-- 优惠 -->
+                <div class="space-y-2">
+                  <label for="discount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
+                  <input type="number" id="discount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                </div>
+                <!-- 选装 -->
+                <div class="space-y-2">
+                  <label for="optionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
+                  <input type="number" id="optionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 交强险 -->
+                <div class="space-y-2">
+                  <label for="compulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
+                  <input type="number" id="compulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 开票价 -->
+                <div class="space-y-2 md:col-span-2">
+                  <label for="invoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
+                  <input type="number" id="invoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 税费信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-calculator text-primary mr-2"></i>税费信息
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="serviceFeeRate" class="block text-sm font-medium text-gray-700 text-left">手续费</label>
+                  <input type="range" id="serviceFeeRate" min="0.04" max="0.1" step="0.01" value="0.04" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                  <div class="flex justify-between mt-1">
+                    <span id="serviceFeeRateValue" class="text-sm text-gray-600">0.04</span>
+                    <span id="serviceFee" class="text-sm font-medium text-primary">0.00 元</span>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="taxRefund" class="block text-sm font-medium text-gray-700 text-left">退税 (元)</label>
+                  <input type="number" id="taxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 运输费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-2">
+                  <label for="domesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
+                  <input type="number" id="domesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                </div>
+                <div id="internationalShippingContainer" class="space-y-2 hidden">
+                  <label for="internationalShipping" class="block text-sm font-medium text-gray-700">国际运输 (元)</label>
+                  <input type="number" id="internationalShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国际运输费用" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 第三排：报价信息、汇率及最终报价 -->
+          <div class="grid md:grid-cols-3 gap-4">
+            <!-- 成本利润卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-dollar text-primary mr-2"></i>成本利润
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label for="purchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
+                  <input type="number" id="purchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="profit" class="block text-sm font-medium text-gray-700">利润 (元)</label>
+                  <input type="number" id="profit" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望利润" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="space-y-2">
+                  <label for="rmbQuote" class="block text-sm font-medium text-gray-700">人民币售价 (元)</label>
+                  <input type="number" id="rmbQuote" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 汇率及最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="currency" class="block text-sm font-medium text-gray-700">选择币种</label>
+                  <div class="flex items-center gap-2 w-full">
+                    <div id="currencyFlag" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">
+                      🇺🇸
+                    </div>
+                    <select 
+                      id="currency" 
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom"
+                    >
+                      <option value="USD" selected>美元 (USD)</option>
+                      <option value="EUR">欧元 (EUR)</option>
+                      <option value="GBP">英镑 (GBP)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="exchangeRate" class="block text-sm font-medium text-gray-700" id="exchangeRateLabel">汇率 实时基准：显示汇率数值</label>
+                  <input 
+                    type="number" 
+                    id="exchangeRate" 
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom"
+                    placeholder="加载中..."
+                    step="0.0001"
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- 新增最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-calculator text-primary mr-2"></i>最终报价
+              </h4>
+              <div class="flex-1 flex flex-col justify-center gap-4">
+                <div class="space-y-2">
+                  <label for="costPrice" class="block text-sm font-medium text-gray-700">成本价格</label>
+                  <input 
+                    type="number" 
+                    id="costPrice" 
+                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="finalQuote" class="block text-sm font-medium text-gray-700">最终报价</label>
+                  <input 
+                    type="number" 
+                    id="finalQuote" 
+                    class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 二手车表单 (默认隐藏) -->
+        <section id="usedCarForm" class="hidden space-y-8">
+          <!-- 第一排：基础价格信息、税费及服务费用、运输费用 -->
+          <div class="grid md:grid-cols-3 gap-4">
+            <!-- 基础价格信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- 指导价 -->
+                <div class="space-y-2">
+                  <label for="usedGuidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
+                  <input type="number" id="usedGuidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                </div>
+                <!-- 优惠 -->
+                <div class="space-y-2">
+                  <label for="usedDiscount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
+                  <input type="number" id="usedDiscount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                </div>
+                <!-- 选装 -->
+                <div class="space-y-2">
+                  <label for="usedOptionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
+                  <input type="number" id="usedOptionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 交强险 -->
+                <div class="space-y-2">
+                  <label for="usedCompulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
+                  <input type="number" id="usedCompulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 开票价 (自动计算) -->
+                <div class="space-y-2 md:col-span-2">
+                  <label for="usedInvoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
+                  <input type="number" id="usedInvoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 税费及服务费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-calculator text-primary mr-2"></i>税费信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="space-y-2">
+                  <label for="usedPurchaseTax" class="block text-sm font-medium text-gray-700">购置税 (元)</label>
+                  <input type="number" id="usedPurchaseTax" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="usedQualificationFee" class="block text-sm font-medium text-gray-700">资质费用 (元)</label>
+                  <input type="number" id="usedQualificationFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入资质费用" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="usedAgencyFee" class="block text-sm font-medium text-gray-700">代办费 (元)</label>
+                  <input type="number" id="usedAgencyFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入代办费用" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div class="space-y-2">
+                  <label for="usedTaxRefund" class="block text-sm font-medium text-gray-700">退税 (元)</label>
+                  <input type="number" id="usedTaxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="usedTaxRefundFee" class="block text-sm font-medium text-gray-700">退税手续费 (元)</label>
+                  <input type="number" id="usedTaxRefundFee" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 运输费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 国内运输 -->
+                <div class="space-y-2">
+                  <label for="usedDomesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
+                  <input type="number" id="usedDomesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                </div>
+                <!-- 国际运输 (条件显示) -->
+                <div id="usedInternationalShippingContainer" class="space-y-2 hidden">
+                  <label for="usedInternationalShipping" class="block text-sm font-medium text-gray-700">国际运输 (元)</label>
+                  <input type="number" id="usedInternationalShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国际运输费用" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 第二排：报价信息和汇率卡片 -->
+          <div class="grid md:grid-cols-3 gap-4">
+            <!-- 成本利润卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-dollar text-primary mr-2"></i>成本利润
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label for="usedPurchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
+                  <input type="number" id="usedPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="usedProfit" class="block text-sm font-medium text-gray-700">利润 (元)</label>
+                  <input type="number" id="usedProfit" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望利润" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="space-y-2">
+                  <label for="usedRmbQuote" class="block text-sm font-medium text-gray-700">人民币售价 (元)</label>
+                  <input type="number" id="usedRmbQuote" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 汇率及最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" id="currencySectionUsed">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="currencyUsed" class="block text-sm font-medium text-gray-700">选择币种</label>
+                  <div class="flex items-center gap-2 w-full">
+                    <div id="currencyFlagUsed" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">🇺🇸</div>
+                    <select id="currencyUsed" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom">
+                      <option value="USD" selected>美元 (USD)</option>
+                      <option value="EUR">欧元 (EUR)</option>
+                      <option value="GBP">英镑 (GBP)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="exchangeRateUsed" class="block text-sm font-medium text-gray-700" id="exchangeRateLabelUsed">汇率 实时基准：显示汇率数值</label>
+                  <input type="number" id="exchangeRateUsed" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="加载中..." step="0.0001">
+                </div>
+              </div>
+            </div>
+            <!-- 新增最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-calculator text-primary mr-2"></i>最终报价
+              </h4>
+              <div class="flex-1 flex flex-col justify-center gap-4">
+                <div class="space-y-2">
+                  <label for="costPriceUsed" class="block text-sm font-medium text-gray-700">成本价格</label>
+                  <input 
+                    type="number" 
+                    id="costPriceUsed" 
+                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="finalQuoteUsed" class="block text-sm font-medium text-gray-700">最终报价</label>
+                  <input type="number" id="finalQuoteUsed" class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 新能源表单 (默认隐藏) -->
+        <section id="newEnergyForm" class="hidden space-y-8">
+          <!-- 第一排：基础价格信息、税费及服务费用、运输费用 -->
+          <div class="grid md:grid-cols-3 gap-4">
+            <!-- 基础价格信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- 指导价 -->
+                <div class="space-y-2">
+                  <label for="newEnergyGuidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
+                  <input type="number" id="newEnergyGuidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                </div>
+                <!-- 优惠 -->
+                <div class="space-y-2">
+                  <label for="newEnergyDiscount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
+                  <input type="number" id="newEnergyDiscount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                </div>
+                <!-- 选装 -->
+                <div class="space-y-2">
+                  <label for="newEnergyOptionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
+                  <input type="number" id="newEnergyOptionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 交强险 -->
+                <div class="space-y-2">
+                  <label for="newEnergyCompulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
+                  <input type="number" id="newEnergyCompulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 开票价 (自动计算) -->
+                <div class="space-y-2 md:col-span-2">
+                  <label for="newEnergyInvoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
+                  <input type="number" id="newEnergyInvoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 税费及服务费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-calculator text-primary mr-2"></i>税费信息
+                <span class="ml-2 text-xs text-gray-600 flex items-center">
+                  <i class="fa fa-info-circle mr-1 text-gray-600"></i>
+                  <span id="newEnergyTaxNote">免征购置税</span>
+                </span>
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="space-y-2">
+                  <label for="newEnergyPurchaseTax" class="block text-sm font-medium text-gray-700">购置税 (元)</label>
+                  <input type="number" id="newEnergyPurchaseTax" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyQualificationFee" class="block text-sm font-medium text-gray-700">资质费用 (元)</label>
+                  <input type="number" id="newEnergyQualificationFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入资质费用" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyAgencyFee" class="block text-sm font-medium text-gray-700">代办费 (元)</label>
+                  <input type="number" id="newEnergyAgencyFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入代办费用" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div class="space-y-2">
+                  <label for="newEnergyTaxRefund" class="block text-sm font-medium text-gray-700">退税 (元)</label>
+                  <input type="number" id="newEnergyTaxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyTaxRefundFee" class="block text-sm font-medium text-gray-700">退税手续费 (元)</label>
+                  <input type="number" id="newEnergyTaxRefundFee" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 运输费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 国内运输 -->
+                <div class="space-y-2">
+                  <label for="newEnergyDomesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
+                  <input type="number" id="newEnergyDomesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                </div>
+                <!-- 国际运输 (条件显示) -->
+                <div id="newEnergyInternationalShippingContainer" class="space-y-2 hidden">
+                  <label for="newEnergyInternationalShipping" class="block text-sm font-medium text-gray-700">国际运输 (元)</label>
+                  <input type="number" id="newEnergyInternationalShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国际运输费用" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 第二排：报价信息和汇率卡片 -->
+          <div class="grid md:grid-cols-3 gap-4">
+            <!-- 成本利润卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-dollar text-primary mr-2"></i>成本利润
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label for="newEnergyPurchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
+                  <input type="number" id="newEnergyPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyProfit" class="block text-sm font-medium text-gray-700">利润 (元)</label>
+                  <input type="number" id="newEnergyProfit" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望利润" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="space-y-2">
+                  <label for="newEnergyRmbQuote" class="block text-sm font-medium text-gray-700">人民币售价 (元)</label>
+                  <input type="number" id="newEnergyRmbQuote" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 汇率及最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" id="currencySectionNewEnergy">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="currencyNewEnergy" class="block text-sm font-medium text-gray-700">选择币种</label>
+                  <div class="flex items-center gap-2 w-full">
+                    <div id="currencyFlagNewEnergy" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">🇺🇸</div>
+                    <select id="currencyNewEnergy" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom">
+                      <option value="USD" selected>美元 (USD)</option>
+                      <option value="EUR">欧元 (EUR)</option>
+                      <option value="GBP">英镑 (GBP)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="exchangeRateNewEnergy" class="block text-sm font-medium text-gray-700" id="exchangeRateLabelNewEnergy">汇率 实时基准：显示汇率数值</label>
+                  <input type="number" id="exchangeRateNewEnergy" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="加载中..." step="0.0001">
+                </div>
+              </div>
+            </div>
+            <!-- 新增最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-calculator text-primary mr-2"></i>最终报价
+              </h4>
+              <div class="flex-1 flex flex-col justify-center gap-4">
+                <div class="space-y-2">
+                  <label for="costPriceNewEnergy" class="block text-sm font-medium text-gray-700">成本价格</label>
+                  <input 
+                    type="number" 
+                    id="costPriceNewEnergy" 
+                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="finalQuoteNewEnergy" class="block text-sm font-medium text-gray-700">最终报价</label>
+                  <input 
+                    type="number" 
+                    id="finalQuoteNewEnergy" 
+                    class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- 提交按钮 -->
+        <div class="flex justify-center pt-4">
+          <button 
+            type="button" 
+            id="calculateBtn"
+            class="px-8 py-3 bg-primary hover:bg-primary/90 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-custom flex items-center"
+          >
+            <i class="fa fa-calculator mr-2"></i>计算报价
+          </button>
+        </div>
+      </form>
+      <!-- 汇率及最终报价卡片全局唯一，移到form外部，始终可见 -->
+      <div id="currencySection" class="mt-8">
+        <!-- ...原有汇率及最终报价卡片内容... -->
+      </div>
+      <!-- 报价结果卡片，确保在主内容区且ID唯一 -->
+      <div id="resultCard" class="hidden bg-white rounded-xl shadow-md p-6 md:p-8 mb-8 transform transition-custom hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-6 flex items-center">
+          <i class="fa fa-file-text-o text-primary mr-2"></i>报价结果
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="border-b border-gray-100 pb-4 md:border-b-0 md:border-r border-gray-100 md:pr-6">
+            <h4 class="text-lg font-medium text-gray-700 mb-4">基础信息</h4>
+            <ul class="space-y-3">
+              <li class="flex justify-between">
+                <span class="text-gray-600">车型名称:</span>
+                <span id="resultCarModel" class="font-medium"></span>
+              </li>
+              <li class="flex justify-between">
+                <span class="text-gray-600">车型类型:</span>
+                <span id="resultCarType" class="font-medium"></span>
+              </li>
+              <li class="flex justify-between">
+                <span class="text-gray-600">报价类型:</span>
+                <span id="resultQuoteType" class="font-medium"></span>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-medium text-gray-700 mb-4">成本明细</h4>
+            <ul class="space-y-3" id="resultCostDetails">
+              <!-- 动态填充 -->
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mt-6 pt-6 border-t border-gray-100">
+          <h4 class="text-lg font-medium text-gray-700 mb-4">报价汇总</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-gray-50 p-4 rounded-lg text-center">
+              <div class="text-sm text-gray-500 mb-1">人民币报价</div>
+              <div id="resultRmbQuote" class="text-lg font-semibold"></div>
+            </div>
+            <div class="bg-primary/10 p-4 rounded-lg text-center border border-primary/20">
+              <div class="text-sm text-gray-500 mb-1" id="resultCurrencyText">最终报价 (USD)</div>
+              <div id="resultFinalQuote" class="text-lg font-semibold text-primary"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="bg-white shadow-sm py-8 transition-custom">
+    <div class="container mx-auto px-4">
+      <div class="text-center text-gray-500 text-sm">
+        Designed by DTBKnight
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 格式化数字为货币格式
+    function formatCurrency(value, currency = 'CNY') {
+      if (isNaN(value) || value === '' || value === null) return '0.00';
+      
+      const options = {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      };
+      
+      if (currency === 'CNY') {
+        options.style = 'currency';
+        options.currency = 'CNY';
+      } else if (currency === 'USD') {
+        options.style = 'currency';
+        options.currency = 'USD';
+      } else if (currency === 'EUR') {
+        options.style = 'currency';
+        options.currency = 'EUR';
+      } else if (currency === 'GBP') {
+        options.style = 'currency';
+        options.currency = 'GBP';
+      }
+      
+      return new Intl.NumberFormat('zh-CN', options).format(value);
+    }
+    
+    // 格式化数字为整数货币格式（不显示小数点）
+    function formatCurrencyInteger(value, currency = 'CNY') {
+      if (isNaN(value) || value === '' || value === null) return '¥0';
+      
+      const options = {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      };
+      
+      if (currency === 'CNY') {
+        options.style = 'currency';
+        options.currency = 'CNY';
+      } else if (currency === 'USD') {
+        options.style = 'currency';
+        options.currency = 'USD';
+      } else if (currency === 'EUR') {
+        options.style = 'currency';
+        options.currency = 'EUR';
+      } else if (currency === 'GBP') {
+        options.style = 'currency';
+        options.currency = 'GBP';
+      }
+      
+      return new Intl.NumberFormat('zh-CN', options).format(value);
+    }
+    
+    // 处理车型类型切换 - 核心修复部分
+    // 切换到新车主题（蓝色）
+    function switchToNewCarTheme() {
+      const body = document.getElementById('mainBody');
+      body.classList.remove('used-car-theme', 'new-energy-theme');
+      updateThemeColors('#165DFF', '#36CFC9', '#FF7D00');
+    }
+    
+    // 切换到二手车主题（橙色）
+    function switchToUsedCarTheme() {
+      const body = document.getElementById('mainBody');
+      body.classList.remove('new-energy-theme');
+      body.classList.add('used-car-theme');
+      
+      // 更新所有主要颜色元素 - 使用橙色主题
+      updateThemeColors('#FF6B35', '#FF8C42', '#FF7D00');
+    }
+    
+    // 切换到新能源主题（绿色）
+    function switchToNewEnergyTheme() {
+      const body = document.getElementById('mainBody');
+      body.classList.remove('used-car-theme');
+      body.classList.add('new-energy-theme');
+      
+      // 更新所有主要颜色元素
+      updateThemeColors('#22C55E', '#4ADE80', '#FF7D00');
+    }
+    
+    // 更新主题颜色
+    function updateThemeColors(primary, secondary, accent) {
+      // 更新CSS变量
+      document.documentElement.style.setProperty('--primary-color', primary);
+      document.documentElement.style.setProperty('--secondary-color', secondary);
+      document.documentElement.style.setProperty('--accent-color', accent);
+      
+      // 更新滑块颜色
+      const sliders = document.querySelectorAll('input[type="range"]');
+      sliders.forEach(slider => {
+        slider.style.setProperty('--tw-accent-color', primary);
+      });
+      
+      // 更新单选按钮颜色
+      const radios = document.querySelectorAll('input[type="radio"]');
+      radios.forEach(radio => {
+        radio.style.setProperty('--tw-accent-color', primary);
+      });
+    }
+    
+    // 主题系统相关代码已移除，始终为白天模式
+    
+    // 处理新车报价类型切换（显示/隐藏国际运输）
+    document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
+      radio.addEventListener('change', function() {
+        const container = document.getElementById('internationalShippingContainer');
+        if (this.value === 'EXW') {
+          container.classList.add('hidden');
+          document.getElementById('internationalShipping').value = '';
+        } else {
+          container.classList.remove('hidden');
+          container.classList.add('animate-fadeIn');
+        }
+        calculateNewCarAll();
+      });
+    });
+    
+    // 新车表单 - 手续费系数滑块
+    const serviceFeeRate = document.getElementById('serviceFeeRate');
+    const serviceFeeRateValue = document.getElementById('serviceFeeRateValue');
+    const serviceFee = document.getElementById('serviceFee');
+    
+    serviceFeeRate.addEventListener('input', function() {
+      const value = parseFloat(this.value).toFixed(2);
+      serviceFeeRateValue.textContent = value;
+      calculateNewCarServiceFee();
+      calculateNewCarPurchaseCost();
+      calculateNewCarRmbQuote();
+      calculateFinalQuote();
+    });
+    
+    // 新车计算 - 开票价
+    function calculateNewCarInvoicePrice() {
+      const guidePrice = parseFloat(document.getElementById('guidePrice').value) || 0;
+      const discount = parseFloat(document.getElementById('discount').value) || 0;
+      const optionalEquipment = parseFloat(document.getElementById('optionalEquipment').value) || 0;
+      const invoicePrice = Math.max(0, guidePrice + optionalEquipment - discount);
+      document.getElementById('invoicePrice').value = Math.round(invoicePrice);
+      return invoicePrice;
+    }
+    
+    // 新车计算 - 退税
+    function calculateNewCarTaxRefund() {
+      const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
+      const taxRefund = invoicePrice / 1.13 * 0.13;
+      document.getElementById('taxRefund').value = taxRefund.toFixed(2);
+      return taxRefund;
+    }
+    
+    // 新车计算 - 手续费
+    function calculateNewCarServiceFee() {
+      const rate = parseFloat(document.getElementById('serviceFeeRate').value);
+      const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
+      const fee = rate * invoicePrice;
+      serviceFee.textContent = formatCurrency(Math.round(fee));
+      return fee;
+    }
+    
+    // 新车计算 - 购车成本
+    function calculateNewCarPurchaseCost() {
+      const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
+      const serviceFee = calculateNewCarServiceFee();
+      const domesticShipping = parseFloat(document.getElementById('domesticShipping').value) || 0;
+      const internationalShipping = parseFloat(document.getElementById('internationalShipping').value) || 0;
+      const compulsoryInsurance = parseFloat(document.getElementById('compulsoryInsurance').value) || 0;
+      const taxRefund = parseFloat(document.getElementById('taxRefund').value) || 0;
+      
+      const purchaseCost = invoicePrice + serviceFee + domesticShipping + internationalShipping + compulsoryInsurance - taxRefund;
+      document.getElementById('purchaseCost').value = Math.round(purchaseCost);
+      return purchaseCost;
+    }
+    
+    // 新车计算 - 人民币报价
+    function calculateNewCarRmbQuote() {
+      const purchaseCost = parseFloat(document.getElementById('purchaseCost').value) || 0;
+      const profit = parseFloat(document.getElementById('profit').value) || 0;
+      const rmbQuote = purchaseCost + profit;
+      document.getElementById('rmbQuote').value = Math.round(rmbQuote);
+      return rmbQuote;
+    }
+    
+    // 二手车计算 - 开票价
+    function calculateUsedCarInvoicePrice() {
+      const guidePrice = parseFloat(document.getElementById('usedGuidePrice').value) || 0;
+      const discount = parseFloat(document.getElementById('usedDiscount').value) || 0;
+      const optionalEquipment = parseFloat(document.getElementById('usedOptionalEquipment').value) || 0;
+      const invoicePrice = Math.max(0, guidePrice + optionalEquipment - discount);
+      document.getElementById('usedInvoicePrice').value = Math.round(invoicePrice);
+      return invoicePrice;
+    }
+    
+    // 二手车计算 - 购置税
+    function calculateUsedCarPurchaseTax() {
+      const invoicePrice = parseFloat(document.getElementById('usedInvoicePrice').value) || 0;
+      const purchaseTax = invoicePrice / 11.3;
+      document.getElementById('usedPurchaseTax').value = purchaseTax.toFixed(2);
+      return purchaseTax;
+    }
+    
+    // 二手车计算 - 退税
+    function calculateUsedCarTaxRefund() {
+      const invoicePrice = parseFloat(document.getElementById('usedInvoicePrice').value) || 0;
+      const taxRefund = invoicePrice / 1.13 * 0.13;
+      document.getElementById('usedTaxRefund').value = taxRefund.toFixed(2);
+      return taxRefund;
+    }
+    
+    // 二手车计算 - 退税手续费
+    function calculateUsedCarTaxRefundFee() {
+      const taxRefund = parseFloat(document.getElementById('usedTaxRefund').value) || 0;
+      const taxRefundFee = taxRefund * 0.025;
+      document.getElementById('usedTaxRefundFee').value = Math.round(taxRefundFee);
+      return taxRefundFee;
+    }
+    
+    // 二手车计算 - 购车成本
+    function calculateUsedCarPurchaseCost() {
+      const invoicePrice = parseFloat(document.getElementById('usedInvoicePrice').value) || 0;
+      const purchaseTax = calculateUsedCarPurchaseTax();
+      const qualificationFee = parseFloat(document.getElementById('usedQualificationFee').value) || 0;
+      const agencyFee = parseFloat(document.getElementById('usedAgencyFee').value) || 0;
+      const taxRefund = parseFloat(document.getElementById('usedTaxRefund').value) || 0;
+      const taxRefundFee = calculateUsedCarTaxRefundFee();
+      const domesticShipping = parseFloat(document.getElementById('usedDomesticShipping').value) || 0;
+      const internationalShipping = parseFloat(document.getElementById('usedInternationalShipping').value) || 0;
+      const compulsoryInsurance = parseFloat(document.getElementById('usedCompulsoryInsurance').value) || 0;
+      
+      const purchaseCost = invoicePrice + purchaseTax + qualificationFee + agencyFee + taxRefundFee + domesticShipping + internationalShipping + compulsoryInsurance - taxRefund;
+      document.getElementById('usedPurchaseCost').value = Math.round(purchaseCost);
+      return purchaseCost;
+    }
+    
+    // 二手车计算 - 人民币报价
+    function calculateUsedCarRmbQuote() {
+      const purchaseCost = parseFloat(document.getElementById('usedPurchaseCost').value) || 0;
+      const profit = parseFloat(document.getElementById('usedProfit').value) || 0;
+      const rmbQuote = purchaseCost + profit;
+      const rmbInput = document.getElementById('usedRmbQuote');
+      rmbInput.value = Math.round(rmbQuote);
+      rmbInput.dispatchEvent(new Event('input'));
+      return rmbQuote;
+    }
+    
+    // 新能源计算 - 开票价
+    function calculateNewEnergyInvoicePrice() {
+      const guidePrice = parseFloat(document.getElementById('newEnergyGuidePrice').value) || 0;
+      const discount = parseFloat(document.getElementById('newEnergyDiscount').value) || 0;
+      const optionalEquipment = parseFloat(document.getElementById('newEnergyOptionalEquipment').value) || 0;
+      const invoicePrice = Math.max(0, guidePrice + optionalEquipment - discount);
+      document.getElementById('newEnergyInvoicePrice').value = Math.round(invoicePrice);
+      return invoicePrice;
+    }
+    
+    // 新能源计算 - 购置税
+    function calculateNewEnergyPurchaseTax() {
+      const invoicePrice = parseFloat(document.getElementById('newEnergyInvoicePrice').value) || 0;
+      const taxNote = document.getElementById('newEnergyTaxNote');
+      const taxNoteContainer = taxNote.parentElement;
+      
+      if (invoicePrice <= 339000) {
+        // 开票价低于33.9万元免征购置税
+        document.getElementById('newEnergyPurchaseTax').value = '0.00';
+        taxNote.textContent = '免征购置税';
+        taxNote.className = 'text-green-600';
+        taxNoteContainer.style.display = 'block';
+        return 0;
+      } else {
+        // 开票价高于33.9万元，购置税 = (开票价 - 339000) / 11.3
+        const purchaseTax = (invoicePrice - 339000) / 11.3;
+        document.getElementById('newEnergyPurchaseTax').value = purchaseTax.toFixed(2);
+        taxNoteContainer.style.display = 'none';
+        return purchaseTax;
+      }
+    }
+    
+    // 新能源计算 - 退税
+    function calculateNewEnergyTaxRefund() {
+      const invoicePrice = parseFloat(document.getElementById('newEnergyInvoicePrice').value) || 0;
+      const taxRefund = invoicePrice / 1.13 * 0.13;
+      document.getElementById('newEnergyTaxRefund').value = taxRefund.toFixed(2);
+      return taxRefund;
+    }
+    
+    // 新能源计算 - 退税手续费
+    function calculateNewEnergyTaxRefundFee() {
+      const taxRefund = parseFloat(document.getElementById('newEnergyTaxRefund').value) || 0;
+      const taxRefundFee = taxRefund * 0.025;
+      document.getElementById('newEnergyTaxRefundFee').value = Math.round(taxRefundFee);
+      return taxRefundFee;
+    }
+    
+    // 新能源计算 - 购车成本
+    function calculateNewEnergyPurchaseCost() {
+      const invoicePrice = parseFloat(document.getElementById('newEnergyInvoicePrice').value) || 0;
+      const purchaseTax = calculateNewEnergyPurchaseTax();
+      const qualificationFee = parseFloat(document.getElementById('newEnergyQualificationFee').value) || 0;
+      const agencyFee = parseFloat(document.getElementById('newEnergyAgencyFee').value) || 0;
+      const taxRefund = parseFloat(document.getElementById('newEnergyTaxRefund').value) || 0;
+      const taxRefundFee = calculateNewEnergyTaxRefundFee();
+      const domesticShipping = parseFloat(document.getElementById('newEnergyDomesticShipping').value) || 0;
+      const internationalShipping = parseFloat(document.getElementById('newEnergyInternationalShipping').value) || 0;
+      const compulsoryInsurance = parseFloat(document.getElementById('newEnergyCompulsoryInsurance').value) || 0;
+      
+      const purchaseCost = invoicePrice + purchaseTax + qualificationFee + agencyFee + taxRefundFee + domesticShipping + internationalShipping + compulsoryInsurance - taxRefund;
+      document.getElementById('newEnergyPurchaseCost').value = Math.round(purchaseCost);
+      return purchaseCost;
+    }
+    
+    // 新能源计算 - 人民币报价
+    function calculateNewEnergyRmbQuote() {
+      const purchaseCost = parseFloat(document.getElementById('newEnergyPurchaseCost').value) || 0;
+      const profit = parseFloat(document.getElementById('newEnergyProfit').value) || 0;
+      const rmbQuote = purchaseCost + profit;
+      const rmbInput = document.getElementById('newEnergyRmbQuote');
+      rmbInput.value = Math.round(rmbQuote);
+      rmbInput.dispatchEvent(new Event('input'));
+      return rmbQuote;
+    }
+    
+    // 计算最终报价（只用新车表单字段）
+    function calculateFinalQuote() {
+      const rmbQuote = parseFloat(document.getElementById('rmbQuote').value) || 0;
+      const exchangeRate = parseFloat(document.getElementById('exchangeRate').value) || 0;
+      const currency = document.getElementById('currency').value;
+      if (currency && exchangeRate > 0 && rmbQuote > 0) {
+        const finalQuote = rmbQuote / exchangeRate;
+        document.getElementById('finalQuote').value = Math.round(finalQuote);
+        
+        // 修改：计算成本价格（新公式）
+        const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
+        const taxRefund = parseFloat(document.getElementById('taxRefund').value) || 0;
+        const domesticShipping = parseFloat(document.getElementById('domesticShipping').value) || 0;
+        const internationalShipping = parseFloat(document.getElementById('internationalShipping').value) || 0;
+        const profit = parseFloat(document.getElementById('profit').value) || 0;
+        
+        const costPrice = (invoicePrice + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + profit) / exchangeRate;
+        document.getElementById('costPrice').value = Math.round(costPrice);
+        
+        return finalQuote;
+      }
+      document.getElementById('finalQuote').value = '';
+      document.getElementById('costPrice').value = '';
+      return 0;
+    }
+    
+    // 新车计算 - 所有计算
+    function calculateNewCarAll() {
+      calculateNewCarInvoicePrice();
+      calculateNewCarTaxRefund();
+      calculateNewCarServiceFee();
+      calculateNewCarPurchaseCost();
+      calculateNewCarRmbQuote();
+      calculateFinalQuote();
+    }
+    
+    // 二手车计算 - 所有计算
+    function calculateUsedCarAll() {
+      calculateUsedCarInvoicePrice();
+      calculateUsedCarPurchaseTax();
+      calculateUsedCarTaxRefund();
+      calculateUsedCarTaxRefundFee();
+      calculateUsedCarPurchaseCost();
+      calculateUsedCarRmbQuote();
+      calculateFinalQuote();
+    }
+    
+    // 新能源计算 - 所有计算
+    function calculateNewEnergyAll() {
+      calculateNewEnergyInvoicePrice();
+      calculateNewEnergyPurchaseTax();
+      calculateNewEnergyTaxRefund();
+      calculateNewEnergyTaxRefundFee();
+      calculateNewEnergyPurchaseCost();
+      calculateNewEnergyRmbQuote();
+      calculateFinalQuote();
+    }
+    
+    // 绑定新车表单输入事件
+    document.getElementById('guidePrice').addEventListener('input', calculateNewCarAll);
+    document.getElementById('discount').addEventListener('input', calculateNewCarAll);
+    document.getElementById('optionalEquipment').addEventListener('input', calculateNewCarAll);
+    document.getElementById('compulsoryInsurance').addEventListener('input', calculateNewCarAll);
+    document.getElementById('domesticShipping').addEventListener('input', calculateNewCarAll);
+    document.getElementById('internationalShipping').addEventListener('input', calculateNewCarAll);
+    document.getElementById('profit').addEventListener('input', calculateNewCarAll);
+    
+    // 绑定二手车表单输入事件
+    document.getElementById('usedGuidePrice').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedDiscount').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedOptionalEquipment').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedCompulsoryInsurance').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedQualificationFee').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedAgencyFee').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedDomesticShipping').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedInternationalShipping').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedProfit').addEventListener('input', calculateUsedCarAll);
+    
+    // 绑定新能源表单输入事件
+    document.getElementById('newEnergyGuidePrice').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyDiscount').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyOptionalEquipment').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyCompulsoryInsurance').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyQualificationFee').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyAgencyFee').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyDomesticShipping').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyInternationalShipping').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyProfit').addEventListener('input', calculateNewEnergyAll);
+    
+    // 新车、二手车输入变动时都重新计算最终报价
+    document.getElementById('rmbQuote').addEventListener('input', calculateFinalQuote);
+    document.getElementById('usedRmbQuote').addEventListener('input', calculateFinalQuote);
+    
+    // 让汇率和最终报价在新车/二手车/新能源表单下方显示
+    function moveCurrencySection() {
+      var el = document.getElementById('currencySection');
+      if (el) {
+        el.classList.remove('hidden');
+      }
+    }
+    window.addEventListener('DOMContentLoaded', moveCurrencySection);
+
+    // 绑定币种和汇率事件（新车、二手车都适用）
+    document.getElementById('currency').addEventListener('change', function() {
+      const currency = this.value;
+      if (currency) {
+        fetchExchangeRate(currency);
+      } else {
+        document.getElementById('exchangeRate').value = '';
+        document.getElementById('finalQuote').value = '';
+      }
+    });
+    
+    // 汇率输入框手动输入事件
+    document.getElementById('exchangeRate').addEventListener('input', function() {
+      calculateFinalQuote();
+    });
+    
+    // 计算按钮点击事件（只用新车表单字段）
+    document.getElementById('calculateBtn').addEventListener('click', function() {
+      calculateNewCarAll();
+      calculateFinalQuote();
+      // 显示结果卡片
+      const resultCard = document.getElementById('resultCard');
+      resultCard.classList.remove('hidden');
+      resultCard.classList.add('animate-fadeIn');
+      // 填充结果数据
+      fillResultData();
+      // 滚动到结果区域
+      resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    
+    // 填充结果数据（只用新车表单字段）
+    function fillResultData() {
+      // 基础信息
+      document.getElementById('resultCarModel').textContent = document.getElementById('carModel2').value || '未填写';
+      // 出口类型（修正：通过按钮组获取）
+      const carTypeBtn = document.querySelector('.export-type-btn.border-primary.text-primary');
+      const carTypeText = carTypeBtn ? carTypeBtn.textContent.trim() : '未选择';
+      document.getElementById('resultCarType').textContent = carTypeText;
+      // 报价类型
+      let quoteTypeText = '未选择';
+      document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
+        if (radio.checked) quoteTypeText = radio.value;
+      });
+      document.getElementById('resultQuoteType').textContent = quoteTypeText;
+      // 填充成本明细
+      const costDetails = document.getElementById('resultCostDetails');
+      costDetails.innerHTML = '';
+      addCostDetail(costDetails, '开票价', document.getElementById('invoicePrice').value);
+      const optionalEquipment = document.getElementById('optionalEquipment').value;
+      if (optionalEquipment && parseFloat(optionalEquipment) > 0) {
+        addCostDetail(costDetails, '选装', optionalEquipment);
+      }
+      addCostDetail(costDetails, '国内运输', document.getElementById('domesticShipping').value);
+      const internationalShipping = document.getElementById('internationalShipping').value;
+      if (internationalShipping) {
+        addCostDetail(costDetails, '国际运输', internationalShipping);
+      }
+      const compulsoryInsurance = document.getElementById('compulsoryInsurance').value;
+      if (compulsoryInsurance && parseFloat(compulsoryInsurance) > 0) {
+        addCostDetail(costDetails, '交强险', compulsoryInsurance);
+      }
+      addCostDetail(costDetails, '退税', document.getElementById('taxRefund').value, true);
+      addCostDetail(costDetails, '购车成本', document.getElementById('purchaseCost').value, false, true);
+      // 报价汇总
+      document.getElementById('resultRmbQuote').textContent = formatCurrencyInteger(Math.round(parseFloat(document.getElementById('rmbQuote').value) || 0));
+      // 最终报价
+      const currency = document.getElementById('currency').value;
+      const currencyText = currency === 'USD' ? '美元 (USD)' : currency === 'EUR' ? '欧元 (EUR)' : currency === 'GBP' ? '英镑 (GBP)' : '未选择';
+      document.getElementById('resultCurrencyText').textContent = `最终报价 (${currencyText})`;
+      document.getElementById('resultFinalQuote').textContent = formatCurrencyInteger(Math.round(parseFloat(document.getElementById('finalQuote').value) || 0), currency);
+    }
+    
+    // 添加成本明细项
+    function addCostDetail(container, label, value, isNegative = false, isTotal = false) {
+      const li = document.createElement('li');
+      li.className = `flex justify-between ${isTotal ? 'pt-2 border-t border-gray-100 font-medium' : ''}`;
+      
+      const spanLabel = document.createElement('span');
+      spanLabel.className = 'text-gray-600';
+      spanLabel.textContent = `${label}:`;
+      
+      const spanValue = document.createElement('span');
+      spanValue.className = isNegative ? 'text-green-600' : isTotal ? 'text-primary' : 'text-gray-700';
+      
+      // 购置税和退税保留小数点后两位，其他取整数
+      let displayValue;
+      if (label === '购置税' || label === '退税') {
+        displayValue = formatCurrency(parseFloat(value) || 0);
+      } else {
+        displayValue = formatCurrencyInteger(Math.round(parseFloat(value) || 0));
+      }
+      spanValue.textContent = displayValue;
+      
+      li.appendChild(spanLabel);
+      li.appendChild(spanValue);
+      container.appendChild(li);
+    }
+    
+    // 初始化页面时设置默认值
+    window.addEventListener('load', function() {
+      // 设置手续费滑块默认值
+      const serviceFeeRate = document.getElementById('serviceFeeRate');
+      const serviceFeeRateValue = document.getElementById('serviceFeeRateValue');
+      serviceFeeRate.value = '0.04';
+      serviceFeeRateValue.textContent = '0.04';
+      // 自动获取美元汇率
+      var currencySelect = document.getElementById('currency');
+      if (currencySelect) {
+        currencySelect.value = currencySelect.options[0].value;
+      }
+      fetchExchangeRate(document.getElementById('currency').value);
+      // 设置默认主题（新车主题）
+      switchToNewCarTheme();
+      // 初始化主题系统
+      initThemeSystem();
+      // 优先级最高：页面一进入就fetch汇率
+      var currencySelect = document.getElementById('currency');
+      var currencyValue = currencySelect ? currencySelect.value : 'USD';
+      fetchExchangeRate(currencyValue);
+    });
+
+    // 获取汇率
+    function fetchExchangeRate(currency) {
+      const exchangeRateInput = document.getElementById('exchangeRate');
+      const exchangeRateLabel = document.getElementById('exchangeRateLabel');
+      exchangeRateInput.value = '加载中...';
+      
+      // 主/备 key
+      const mainAppId = '9625bee048bd4599842279906b9ca677';
+      const backupAppId = '145b3ca7abb2474f9e1f30b2ed19b77f';
+      const apiBase = 'https://openexchangerates.org/api/latest.json?symbols=USD,EUR,GBP,CNY';
+
+      function handleRateData(data) {
+        let rate = 0;
+        if (currency === 'USD') {
+          rate = data.rates.CNY / data.rates.USD;
+        } else if (currency === 'EUR') {
+          rate = data.rates.CNY / data.rates.EUR;
+        } else if (currency === 'GBP') {
+          rate = data.rates.CNY / data.rates.GBP;
+        }
+        exchangeRateLabel.textContent = `汇率 实时基准：${rate.toFixed(2)}`;
+        exchangeRateInput.value = (rate - 0.05).toFixed(2);
+        calculateFinalQuote();
+      }
+
+      function handleError() {
+        exchangeRateInput.value = '';
+        exchangeRateLabel.textContent = '汇率 实时基准：获取失败';
+        alert('汇率获取失败，请稍后重试');
+      }
+
+      // 主 key 请求
+      fetch(`${apiBase}&app_id=${mainAppId}`)
+        .then(res => {
+          if (res.status === 403) throw new Error('403');
+          return res.json();
+        })
+        .then(data => {
+          if (data && data.rates) {
+            handleRateData(data);
+          } else {
+            throw new Error('no rates');
+          }
+        })
+        .catch(err => {
+          // 403 或其他错误，尝试备用 key
+          fetch(`${apiBase}&app_id=${backupAppId}`)
+            .then(res => {
+              if (res.status === 403) throw new Error('403');
+              return res.json();
+            })
+            .then(data => {
+              if (data && data.rates) {
+                handleRateData(data);
+              } else {
+                handleError();
+              }
+            })
+            .catch(handleError);
+        });
+    }
+
+    // 记录每个表单的报价类型
+    const quoteTypeState = {
+      new: 'EXW',
+      used: 'EXW',
+      newEnergyTax: 'EXW'
+    };
+
+    // 切换表单时同步报价类型单选框
+    function syncGlobalQuoteType(type) {
+      const value = quoteTypeState[type] || 'EXW';
+      document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
+        radio.checked = (radio.value === value);
+      });
+    }
+
+    // 出口类型按钮组切换逻辑（增强：同步报价类型单选框）
+    function showFormByType(type) {
+      document.getElementById('newCarForm').classList.add('hidden');
+      document.getElementById('usedCarForm').classList.add('hidden');
+      document.getElementById('newEnergyForm').classList.add('hidden');
+      // 按钮高亮
+      document.querySelectorAll('.export-type-btn').forEach(btn => {
+        if (btn.getAttribute('data-type') === type) {
+          btn.classList.add('border-primary', 'text-primary');
+          btn.classList.remove('border-gray-300', 'text-gray-700');
+        } else {
+          btn.classList.remove('border-primary', 'text-primary');
+          btn.classList.add('border-gray-300', 'text-gray-700');
+        }
+      });
+      if (type === 'new') {
+        document.getElementById('newCarForm').classList.remove('hidden');
+        document.getElementById('newCarForm').classList.add('animate-fadeIn');
+        switchToNewCarTheme();
+      } else if (type === 'used') {
+        document.getElementById('usedCarForm').classList.remove('hidden');
+        document.getElementById('usedCarForm').classList.add('animate-fadeIn');
+        switchToUsedCarTheme();
+      } else if (type === 'newEnergyTax') {
+        document.getElementById('newEnergyForm').classList.remove('hidden');
+        document.getElementById('newEnergyForm').classList.add('animate-fadeIn');
+        switchToNewEnergyTheme();
+      }
+      // 同步报价类型单选框
+      syncGlobalQuoteType(type);
+      // 触发报价类型相关逻辑
+      handleQuoteTypeChange(type);
+    }
+
+    // 监听按钮组
+    document.querySelectorAll('.export-type-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        showFormByType(this.getAttribute('data-type'));
+      });
+    });
+
+    // 监听全局报价类型单选框
+    document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
+      radio.addEventListener('change', function() {
+        if (!this.checked) return;
+        const type = getCurrentFormType();
+        quoteTypeState[type] = this.value;
+        handleQuoteTypeChange(type);
+      });
+    });
+
+    // 处理报价类型切换相关逻辑（国际运输区块显示/隐藏+重新计算）
+    function handleQuoteTypeChange(type) {
+      // 新车
+      if (type === 'new') {
+        const container = document.getElementById('internationalShippingContainer');
+        if (quoteTypeState.new === 'EXW') {
+          container.classList.add('hidden');
+          document.getElementById('internationalShipping').value = '';
+        } else {
+          container.classList.remove('hidden');
+          container.classList.add('animate-fadeIn');
+        }
+        calculateNewCarAll();
+      } else if (type === 'used') {
+        const container = document.getElementById('usedInternationalShippingContainer');
+        if (quoteTypeState.used === 'EXW') {
+          container.classList.add('hidden');
+          document.getElementById('usedInternationalShipping').value = '';
+        } else {
+          container.classList.remove('hidden');
+          container.classList.add('animate-fadeIn');
+        }
+        calculateUsedCarAll();
+      } else if (type === 'newEnergyTax') {
+        const container = document.getElementById('newEnergyInternationalShippingContainer');
+        if (quoteTypeState.newEnergyTax === 'EXW') {
+          container.classList.add('hidden');
+          document.getElementById('newEnergyInternationalShipping').value = '';
+        } else {
+          container.classList.remove('hidden');
+          container.classList.add('animate-fadeIn');
+        }
+        calculateNewEnergyAll();
+      }
+    }
+
+    // 获取当前活动表单类型
+    function getCurrentFormType() {
+      const activeBtn = document.querySelector('.export-type-btn.border-primary.text-primary');
+      return activeBtn ? activeBtn.dataset.type : 'new';
+    }
+
+    // 页面初始化时默认显示新车表单并高亮按钮、同步报价类型
+    window.addEventListener('DOMContentLoaded', function() {
+      showFormByType('new');
+    });
+
+    // 币种切换时同步国旗
+    const currencySelect = document.getElementById('currency');
+    const currencyFlag = document.getElementById('currencyFlag');
+    function updateCurrencyFlag() {
+      const val = currencySelect.value;
+      let flag = '🇺🇸';
+      if (val === 'USD') flag = '🇺🇸';
+      else if (val === 'EUR') flag = '🇪🇺';
+      else if (val === 'GBP') flag = '🇬🇧';
+      currencyFlag.textContent = flag;
+    }
+    currencySelect.addEventListener('change', updateCurrencyFlag);
+    window.addEventListener('DOMContentLoaded', updateCurrencyFlag);
+
+    // 二手车币种切换
+    const currencySelectUsed = document.getElementById('currencyUsed');
+    const currencyFlagUsed = document.getElementById('currencyFlagUsed');
+    function updateCurrencyFlagUsed() {
+      const val = currencySelectUsed.value;
+      let flag = '🇺🇸';
+      if (val === 'USD') flag = '🇺🇸';
+      else if (val === 'EUR') flag = '🇪🇺';
+      else if (val === 'GBP') flag = '🇬🇧';
+      currencyFlagUsed.textContent = flag;
+      fetchExchangeRateUsed(val);
+    }
+    currencySelectUsed.addEventListener('change', updateCurrencyFlagUsed);
+    window.addEventListener('DOMContentLoaded', updateCurrencyFlagUsed);
+
+    // 新能源币种切换
+    const currencySelectNewEnergy = document.getElementById('currencyNewEnergy');
+    const currencyFlagNewEnergy = document.getElementById('currencyFlagNewEnergy');
+    function updateCurrencyFlagNewEnergy() {
+      const val = currencySelectNewEnergy.value;
+      let flag = '🇺🇸';
+      if (val === 'USD') flag = '🇺🇸';
+      else if (val === 'EUR') flag = '🇪🇺';
+      else if (val === 'GBP') flag = '🇬🇧';
+      currencyFlagNewEnergy.textContent = flag;
+      fetchExchangeRateNewEnergy(val);
+    }
+    currencySelectNewEnergy.addEventListener('change', updateCurrencyFlagNewEnergy);
+    window.addEventListener('DOMContentLoaded', updateCurrencyFlagNewEnergy);
+
+    // fetchExchangeRate 用于新车，下面为二手车和新能源车实现
+    function fetchExchangeRateUsed(currency) {
+      const exchangeRateInput = document.getElementById('exchangeRateUsed');
+      const exchangeRateLabel = document.getElementById('exchangeRateLabelUsed');
+      exchangeRateInput.value = '加载中...';
+      const mainAppId = '9625bee048bd4599842279906b9ca677';
+      const backupAppId = '145b3ca7abb2474f9e1f30b2ed19b77f';
+      const apiBase = 'https://openexchangerates.org/api/latest.json?symbols=USD,EUR,GBP,CNY';
+      function handleRateData(data) {
+        let rate = 0;
+        if (currency === 'USD') {
+          rate = data.rates.CNY / data.rates.USD;
+        } else if (currency === 'EUR') {
+          rate = data.rates.CNY / data.rates.EUR;
+        } else if (currency === 'GBP') {
+          rate = data.rates.CNY / data.rates.GBP;
+        }
+        exchangeRateLabel.textContent = `汇率 实时基准：${rate.toFixed(2)}`;
+        exchangeRateInput.value = (rate - 0.05).toFixed(2);
+      }
+      function handleError() {
+        exchangeRateInput.value = '';
+        exchangeRateLabel.textContent = '汇率 实时基准：获取失败';
+      }
+      fetch(`${apiBase}&app_id=${mainAppId}`)
+        .then(res => {
+          if (res.status === 403) throw new Error('403');
+          return res.json();
+        })
+        .then(data => {
+          if (data && data.rates) {
+            handleRateData(data);
+          } else {
+            throw new Error('no rates');
+          }
+        })
+        .catch(err => {
+          fetch(`${apiBase}&app_id=${backupAppId}`)
+            .then(res => {
+              if (res.status === 403) throw new Error('403');
+              return res.json();
+            })
+            .then(data => {
+              if (data && data.rates) {
+                handleRateData(data);
+              } else {
+                handleError();
+              }
+            })
+            .catch(handleError);
+        });
+    }
+    function fetchExchangeRateNewEnergy(currency) {
+      const exchangeRateInput = document.getElementById('exchangeRateNewEnergy');
+      const exchangeRateLabel = document.getElementById('exchangeRateLabelNewEnergy');
+      exchangeRateInput.value = '加载中...';
+      const mainAppId = '9625bee048bd4599842279906b9ca677';
+      const backupAppId = '145b3ca7abb2474f9e1f30b2ed19b77f';
+      const apiBase = 'https://openexchangerates.org/api/latest.json?symbols=USD,EUR,GBP,CNY';
+      function handleRateData(data) {
+        let rate = 0;
+        if (currency === 'USD') {
+          rate = data.rates.CNY / data.rates.USD;
+        } else if (currency === 'EUR') {
+          rate = data.rates.CNY / data.rates.EUR;
+        } else if (currency === 'GBP') {
+          rate = data.rates.CNY / data.rates.GBP;
+        }
+        exchangeRateLabel.textContent = `汇率 实时基准：${rate.toFixed(2)}`;
+        exchangeRateInput.value = (rate - 0.05).toFixed(2);
+      }
+      function handleError() {
+        exchangeRateInput.value = '';
+        exchangeRateLabel.textContent = '汇率 实时基准：获取失败';
+      }
+      fetch(`${apiBase}&app_id=${mainAppId}`)
+        .then(res => {
+          if (res.status === 403) throw new Error('403');
+          return res.json();
+        })
+        .then(data => {
+          if (data && data.rates) {
+            handleRateData(data);
+          } else {
+            throw new Error('no rates');
+          }
+        })
+        .catch(err => {
+          fetch(`${apiBase}&app_id=${backupAppId}`)
+            .then(res => {
+              if (res.status === 403) throw new Error('403');
+              return res.json();
+            })
+            .then(data => {
+              if (data && data.rates) {
+                handleRateData(data);
+              } else {
+                handleError();
+              }
+            })
+            .catch(handleError);
+        });
+    }
+
+    // 二手车最终报价计算
+    function calculateUsedCarFinalQuote() {
+      const purchaseCost = parseFloat(document.getElementById('usedPurchaseCost').value) || 0;
+      const rmbQuote = parseFloat(document.getElementById('usedRmbQuote').value) || 0;
+      const exchangeRate = parseFloat(document.getElementById('exchangeRateUsed').value) || 0;
+      if (exchangeRate > 0) {
+        document.getElementById('costPriceUsed').value = Math.round(purchaseCost / exchangeRate);
+        document.getElementById('finalQuoteUsed').value = Math.round(rmbQuote / exchangeRate);
+      } else {
+        document.getElementById('costPriceUsed').value = '';
+        document.getElementById('finalQuoteUsed').value = '';
+      }
+    }
+    // 新能源车最终报价计算
+    function calculateNewEnergyFinalQuote() {
+      const purchaseCost = parseFloat(document.getElementById('newEnergyPurchaseCost').value) || 0;
+      const rmbQuote = parseFloat(document.getElementById('newEnergyRmbQuote').value) || 0;
+      const exchangeRate = parseFloat(document.getElementById('exchangeRateNewEnergy').value) || 0;
+      if (exchangeRate > 0) {
+        document.getElementById('costPriceNewEnergy').value = Math.round(purchaseCost / exchangeRate);
+        document.getElementById('finalQuoteNewEnergy').value = Math.round(rmbQuote / exchangeRate);
+      } else {
+        document.getElementById('costPriceNewEnergy').value = '';
+        document.getElementById('finalQuoteNewEnergy').value = '';
+      }
+    }
+    // 事件监听
+    ['usedPurchaseCost', 'usedRmbQuote', 'exchangeRateUsed'].forEach(id => {
+      document.getElementById(id).addEventListener('input', calculateUsedCarFinalQuote);
+    });
+    ['newEnergyPurchaseCost', 'newEnergyRmbQuote', 'exchangeRateNewEnergy'].forEach(id => {
+      document.getElementById(id).addEventListener('input', calculateNewEnergyFinalQuote);
+    });
+  </script>
+
+  <script>
+    // 品牌和车型智能搜索
+    (function() {
+      const brandInput = document.getElementById('searchBrandInput');
+      const brandResultBox = document.getElementById('searchBrandResults');
+      const carInput = document.getElementById('searchCarInput');
+      const carResultBox = document.getElementById('searchCarResults');
+      
+      // 品牌数据映射（品牌名 -> json文件名）
+      // 新增：品牌列表数据（可从/brands.json加载）
+      let brandData = [];
+      // 品牌名到json文件名的映射
+      let brandFileMap = {};
+
+      // 初始化：加载所有可用的品牌数据
+      async function loadBrandList() {
+        try {
+          // 假设有/brands.json，结构为[{name, brandImage, file}]
+          const response = await fetch('/data/brands.json');
+          if (!response.ok) throw new Error('品牌列表加载失败');
+          const brands = await response.json();
+          brandData = brands;
+          brandFileMap = {};
+          brands.forEach(b => { brandFileMap[b.name] = b.file; });
+        } catch (error) {
+          console.error('加载品牌列表失败:', error);
+        }
+      }
+
+      // 显示品牌搜索结果
+      function showBrandResults(keyword) {
+        if (!keyword) {
+          brandResultBox.classList.add('hidden');
+          return;
+        }
+
+        const results = brandData.filter(brand => 
+          brand.name.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        brandResultBox.innerHTML = '';
+        
+        if (results.length === 0) {
+          brandResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关品牌</div>';
+          brandResultBox.classList.remove('hidden');
+          return;
+        }
+
+        results.forEach(brand => {
+          const div = document.createElement('div');
+          div.className = 'flex items-center gap-3 px-4 py-2 cursor-pointer hover:bg-gray-50 border-b last:border-b-0';
+          // 品牌logo
+          if (brand.brandImage) {
+            const img = document.createElement('img');
+            img.src = brand.brandImage;
+            img.alt = brand.name;
+            img.className = 'w-8 h-8 object-contain rounded mr-2';
+            div.appendChild(img);
+          } else {
+            const icon = document.createElement('div');
+            icon.className = 'w-8 h-8 bg-gray-200 rounded mr-2 flex items-center justify-center';
+            icon.innerHTML = '<i class="fa fa-car text-gray-400"></i>';
+            div.appendChild(icon);
+          }
+          // 品牌名称
+          const nameSpan = document.createElement('span');
+          nameSpan.textContent = brand.name;
+          nameSpan.className = 'font-medium';
+          div.appendChild(nameSpan);
+          // 点击选择品牌
+          div.onmousedown = function(e) {
+            e.preventDefault();
+            selectBrand(brand);
+          };
+          brandResultBox.appendChild(div);
+        });
+        brandResultBox.classList.remove('hidden');
+      }
+
+      // 选择品牌
+      async function selectBrand(brand) {
+        selectedBrand = brand.name;
+        brandInput.value = brand.name;
+        brandResultBox.classList.add('hidden');
+        
+        // 启用车型搜索
+        carInput.disabled = false;
+        carInput.placeholder = '输入车型名称进行搜索';
+        
+        // 加载该品牌的数据
+        await loadBrandData(brand.name);
+      }
+
+      // 加载品牌数据
+      async function loadBrandData(brandName) {
+        const fileName = brandFileMap[brandName];
+        if (!fileName) {
+          console.error('未找到品牌文件映射:', brandName);
+          return;
+        }
+
+        try {
+          loading = true;
+          carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">正在加载品牌数据...</div>';
+          carResultBox.classList.remove('hidden');
+          
+          const response = await fetch(`/data/${fileName}`);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          currentBrandData = await response.json();
+          loading = false;
+          carResultBox.classList.add('hidden');
+          
+          console.log(`成功加载 ${brandName} 品牌数据，共 ${currentBrandData.length} 个车型`);
+        } catch (error) {
+          console.error('加载品牌数据失败:', error);
+          loading = false;
+          carResultBox.innerHTML = '<div class="px-4 py-2 text-red-500 text-center">加载品牌数据失败</div>';
+          carResultBox.classList.remove('hidden');
+        }
+      }
+
+      // 显示车型搜索结果
+      function showCarResults(keyword) {
+        if (loading) {
+          carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">正在加载...</div>';
+          carResultBox.classList.remove('hidden');
+          return;
+        }
+
+        if (!selectedBrand || !currentBrandData || !currentBrandData.cars || currentBrandData.cars.length === 0) {
+          carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">请先选择品牌</div>';
+          carResultBox.classList.remove('hidden');
+          return;
+        }
+
+        carResultBox.innerHTML = '';
+        
+        if (!keyword) {
+          carResultBox.classList.add('hidden');
+          return;
+        }
+
+        // 搜索车型和配置
+        const results = [];
+        currentBrandData.cars.forEach(car => {
+          // 搜索车型名
+          if (car.carName && car.carName.toLowerCase().includes(keyword.toLowerCase())) {
+            if (car.configs && car.configs.length > 0) {
+              car.configs.forEach(config => {
+                results.push({
+                  car: car,
+                  config: config,
+                  displayText: config.configName // 只显示配置名
+                });
+              });
+            } else {
+              results.push({
+                car: car,
+                config: null,
+                displayText: car.carName
+              });
+            }
+          }
+          // 搜索配置名
+          else if (car.configs) {
+            car.configs.forEach(config => {
+              if (config.configName && config.configName.toLowerCase().includes(keyword.toLowerCase())) {
+                results.push({
+                  car: car,
+                  config: config,
+                  displayText: config.configName // 只显示配置名
+                });
+              }
+            });
+          }
+        });
+
+        if (results.length === 0) {
+          carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
+          carResultBox.classList.remove('hidden');
+          return;
+        }
+
+        // 显示前20个结果
+        results.slice(0, 20).forEach(result => {
+          const div = document.createElement('div');
+          div.className = 'flex items-center gap-3 px-4 py-2 cursor-pointer hover:bg-gray-50 border-b last:border-b-0';
+          
+          // 车型和配置名称分色显示
+          let mainName = '';
+          let subName = '';
+          if (result.config && result.car && result.config.configName && result.car.carName && result.config.configName.startsWith(result.car.carName)) {
+            mainName = result.car.carName;
+            subName = result.config.configName.slice(result.car.carName.length);
+          } else if (result.car && result.car.carName) {
+            mainName = result.car.carName;
+            subName = '';
+          } else {
+            mainName = result.displayText;
+            subName = '';
+          }
+          const nameSpan = document.createElement('span');
+          nameSpan.className = 'font-medium flex-1';
+          nameSpan.innerHTML = `<span>${mainName}</span><span class='text-gray-400'>${subName}</span>`;
+          div.appendChild(nameSpan);
+          
+          // 指导价
+          if (result.config && result.config.price) {
+            const priceSpan = document.createElement('span');
+            priceSpan.textContent = result.config.price;
+            priceSpan.className = 'text-red-500 text-sm font-medium';
+            div.appendChild(priceSpan);
+          }
+          
+          // 点击选择
+          div.onmousedown = function(e) {
+            e.preventDefault();
+            selectCar(result.car, result.config);
+          };
+          
+          carResultBox.appendChild(div);
+        });
+        
+        carResultBox.classList.remove('hidden');
+      }
+
+      // 选择车型
+      function selectCar(car, config) {
+        const displayText = config ? config.configName : car.carName;
+        carInput.value = displayText;
+        carResultBox.classList.add('hidden');
+        
+        // 填充基础信息，补充品牌logo和品牌名
+        fillBaseInfo({
+          ...car,
+          ...config,
+          brandImage: currentBrandData.brandImage,
+          brand: currentBrandData.brand
+        });
+      }
+
+      // 统一处理价格字符串为数字（元）
+      function parsePriceToNumber(priceStr) {
+        if (!priceStr) return '';
+        priceStr = priceStr.trim();
+        if (priceStr.endsWith('万')) {
+          return Math.round(parseFloat(priceStr.replace('万', '')) * 10000);
+        } else {
+          return Math.round(parseFloat(priceStr.replace(/[^\d.]/g, '')));
+        }
+      }
+      function fillBaseInfo(car) {
+        document.getElementById('brandName2').value = car.seriesName || '';
+        const logoBox = document.getElementById('brandLogoBox2');
+        logoBox.innerHTML = '';
+        if (car.brandImage) {
+          const logoImg = document.createElement('img');
+          logoImg.src = car.brandImage;
+          logoImg.alt = car.brand;
+          logoImg.className = 'w-12 h-12 object-contain';
+          logoBox.appendChild(logoImg);
+        }
+        document.getElementById('carModel2').value = car.carName || '';
+        document.getElementById('fuelType2').value = car.fuelType || '';
+        document.getElementById('size2').value = car.size || '';
+        document.getElementById('price2').value = car.price || '';
+        // 统一转换
+        const priceNum = parsePriceToNumber(car.price);
+        if(document.getElementById('guidePrice')) document.getElementById('guidePrice').value = priceNum || '';
+        if(document.getElementById('usedGuidePrice')) document.getElementById('usedGuidePrice').value = priceNum || '';
+        if(document.getElementById('newEnergyGuidePrice')) document.getElementById('newEnergyGuidePrice').value = priceNum || '';
+        // 车型图片卡片赋值
+        const carImgBox = document.getElementById('carMainImageBox');
+        carImgBox.innerHTML = '';
+        if (car.mainImage) {
+          const carImg = document.createElement('img');
+          carImg.src = car.mainImage;
+          carImg.alt = car.carName;
+          carImg.className = 'max-h-96 max-w-full object-contain rounded shadow';
+          carImgBox.appendChild(carImg);
+        }
+        // 显示基础信息和车型图片卡片
+        document.getElementById('baseInfoSection').classList.remove('hidden');
+      }
+
+      // 事件监听
+      brandInput.addEventListener('input', function() {
+        showBrandResults(this.value.trim());
+      });
+      
+      brandInput.addEventListener('blur', function() {
+        setTimeout(() => brandResultBox && brandResultBox.classList.add('hidden'), 200);
+      });
+      
+      brandInput.addEventListener('focus', function() {
+        if (brandInput.value.trim()) {
+          showBrandResults(brandInput.value.trim());
+        }
+      });
+
+      carInput.addEventListener('input', function() {
+        showCarResults(this.value.trim());
+      });
+      
+      carInput.addEventListener('blur', function() {
+        setTimeout(() => carResultBox && carResultBox.classList.add('hidden'), 200);
+      });
+      
+      carInput.addEventListener('focus', function() {
+        if (carInput.value.trim()) {
+          showCarResults(carInput.value.trim());
+        }
+      });
+
+      // 点击其他地方隐藏搜索结果
+      document.addEventListener('click', function(event) {
+        if (!brandInput.contains(event.target) && !brandResultBox.contains(event.target)) {
+          brandResultBox.classList.add('hidden');
+        }
+        if (!carInput.contains(event.target) && !carResultBox.contains(event.target)) {
+          carResultBox.classList.add('hidden');
+        }
+      });
+
+      // 初始化
+      loadBrandList();
+    })();
+  </script>
+</body>
+</html>
