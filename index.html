@@ -2182,25 +2182,47 @@
           carResultBox.classList.add('hidden');
           return;
         }
-        // 模糊匹配车型名和配置名
         const results = [];
+        // 新增：品牌名匹配，优先展示该品牌下所有车型
+        const matchedBrands = new Set();
         allCars.forEach(car => {
-          if (car.carName && car.carName.toLowerCase().includes(keyword.toLowerCase())) {
-            if (car.configs && car.configs.length > 0) {
-              car.configs.forEach(config => {
-                results.push({ car, config, displayText: config.configName });
-              });
-            } else {
-              results.push({ car, config: null, displayText: car.carName });
-            }
-          } else if (car.configs) {
-            car.configs.forEach(config => {
-              if (config.configName && config.configName.toLowerCase().includes(keyword.toLowerCase())) {
-                results.push({ car, config, displayText: config.configName });
-              }
-            });
+          if (car.brand && car.brand.toLowerCase().includes(keyword.toLowerCase())) {
+            matchedBrands.add(car.brand);
           }
         });
+        if (matchedBrands.size > 0) {
+          // 展示所有匹配品牌下的车型
+          allCars.forEach(car => {
+            if (matchedBrands.has(car.brand)) {
+              if (car.configs && car.configs.length > 0) {
+                car.configs.forEach(config => {
+                  results.push({ car, config, displayText: config.configName });
+                });
+              } else {
+                results.push({ car, config: null, displayText: car.carName });
+              }
+            }
+          });
+        } else {
+          // 原有车型名/配置名模糊匹配
+          allCars.forEach(car => {
+            if (car.carName && car.carName.toLowerCase().includes(keyword.toLowerCase())) {
+              if (car.configs && car.configs.length > 0) {
+                car.configs.forEach(config => {
+                  results.push({ car, config, displayText: config.configName });
+                });
+              } else {
+                results.push({ car, config: null, displayText: car.carName });
+              }
+            } else if (car.configs) {
+              car.configs.forEach(config => {
+                if (config.configName && config.configName.toLowerCase().includes(keyword.toLowerCase())) {
+                  results.push({ car, config, displayText: config.configName });
+                }
+              });
+            }
+          });
+        }
         if (results.length === 0) {
           carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
           carResultBox.classList.remove('hidden');

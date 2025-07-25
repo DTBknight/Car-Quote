@@ -3,25 +3,6 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/84c01ab4bb1f55a4809781b3a16586ff~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "奔驰A级AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8a7b7fed989c430ebe0ad3b07848cdbe~1200x0.png",
-      "seriesName": "北京奔驰/紧凑型车",
-      "configs": [
-        {
-          "configName": "奔驰A级AMG 2025款 AMG A 35 L 4MATIC",
-          "price": "41.13万",
-          "fuelType": "48V轻混系统",
-          "size": "4630x1796x1416"
-        },
-        {
-          "configName": "奔驰A级AMG 2025款 改款 AMG A 35 L 4MATIC",
-          "price": "41.66万",
-          "fuelType": "48V轻混系统",
-          "size": "4630x1796x1416"
-        }
-      ]
-    },
-    {
       "carName": "奔驰C级PHEV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/96224ec2c98945c08b6819adddc66fc4~1200x0.png",
       "seriesName": "北京奔驰/中型车",
@@ -37,6 +18,25 @@
           "price": "41.06万",
           "fuelType": "插电式混合动力",
           "size": "4882x1820x1450"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰A级AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8a7b7fed989c430ebe0ad3b07848cdbe~1200x0.png",
+      "seriesName": "北京奔驰/紧凑型车",
+      "configs": [
+        {
+          "configName": "奔驰A级AMG 2025款 AMG A 35 L 4MATIC",
+          "price": "41.13万",
+          "fuelType": "48V轻混系统",
+          "size": "4630x1796x1416"
+        },
+        {
+          "configName": "奔驰A级AMG 2025款 改款 AMG A 35 L 4MATIC",
+          "price": "41.66万",
+          "fuelType": "48V轻混系统",
+          "size": "4630x1796x1416"
         }
       ]
     },
@@ -123,25 +123,6 @@
           "price": "38.06万",
           "fuelType": "48V轻混系统",
           "size": "4882x1820x1461"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰E级PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/87fb68a3361b48ffa54e233a1507ed3c~1200x0.png",
-      "seriesName": "北京奔驰/中大型车",
-      "configs": [
-        {
-          "configName": "奔驰E级PHEV 2024款 E 350 e L 轿车",
-          "price": "53.86万",
-          "fuelType": "插电式混合动力",
-          "size": "5092x1880x1489"
-        },
-        {
-          "configName": "奔驰E级PHEV 2024款 E 350 e L 运动轿车",
-          "price": "53.86万",
-          "fuelType": "插电式混合动力",
-          "size": "5092x1880x1489"
         }
       ]
     },
@@ -273,6 +254,73 @@
       ]
     },
     {
+      "carName": "奔驰CLA",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/beb048a2ec734dc78aa29bb7daa9e735~1200x0.png",
+      "seriesName": "奔驰(进口)/紧凑型车",
+      "configs": [
+        {
+          "configName": "奔驰CLA 2025款 CLA 200 四门轿跑车",
+          "price": "30.92万",
+          "fuelType": "汽油",
+          "size": "4692x1830x1431"
+        },
+        {
+          "configName": "奔驰CLA 2025款 改款 CLA 200 四门轿跑车",
+          "price": "30.92万",
+          "fuelType": "汽油",
+          "size": "4692x1830x1431"
+        },
+        {
+          "configName": "奔驰CLA 2025款 CLA 200 五门猎跑车",
+          "price": "30.92万",
+          "fuelType": "汽油",
+          "size": "4692x1830x1435"
+        },
+        {
+          "configName": "奔驰CLA 2025款 CLA 220 四门轿跑车",
+          "price": "34.74万",
+          "fuelType": "48V轻混系统",
+          "size": "4692x1830x1431"
+        },
+        {
+          "configName": "奔驰CLA 2025款 改款 CLA 220 四门轿跑车",
+          "price": "34.92万",
+          "fuelType": "48V轻混系统",
+          "size": "4692x1830x1431"
+        },
+        {
+          "configName": "奔驰CLA 2025款 CLA 260 4MATIC 四门轿跑车典藏版",
+          "price": "38.3万",
+          "fuelType": "48V轻混系统",
+          "size": "4692x1830x1431"
+        },
+        {
+          "configName": "奔驰CLA 2025款 CLA  260 4MATIC 四门轿跑车",
+          "price": "39.14万",
+          "fuelType": "48V轻混系统",
+          "size": "4692x1830x1431"
+        },
+        {
+          "configName": "奔驰CLA 2025款 CLA 260 4MATIC 五门猎跑车",
+          "price": "39.44万",
+          "fuelType": "48V轻混系统",
+          "size": "4692x1830x1435"
+        },
+        {
+          "configName": "奔驰CLA 2024款 CLA 200 五门猎跑车",
+          "price": "30.92万",
+          "fuelType": "汽油",
+          "size": "4692x1830x1435"
+        },
+        {
+          "configName": "奔驰CLA 2024款 改款 CLA 260 4MATIC 五门猎跑车",
+          "price": "39.4万",
+          "fuelType": "48V轻混系统",
+          "size": "4692x1830x1435"
+        }
+      ]
+    },
+    {
       "carName": "奔驰E级(进口)",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9f7953a45ee74a839b359daf468346c8~1200x0.png",
       "seriesName": "奔驰(进口)/中大型车",
@@ -316,82 +364,21 @@
       ]
     },
     {
-      "carName": "奔驰CLA",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/beb048a2ec734dc78aa29bb7daa9e735~1200x0.png",
-      "seriesName": "奔驰(进口)/紧凑型车",
+      "carName": "奔驰E级PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/87fb68a3361b48ffa54e233a1507ed3c~1200x0.png",
+      "seriesName": "北京奔驰/中大型车",
       "configs": [
         {
-          "configName": "奔驰CLA 2025款 CLA 200 四门轿跑车",
-          "price": "30.92万",
-          "fuelType": "汽油",
-          "size": "4692x1830x1431"
+          "configName": "奔驰E级PHEV 2024款 E 350 e L 轿车",
+          "price": "53.86万",
+          "fuelType": "插电式混合动力",
+          "size": "5092x1880x1489"
         },
         {
-          "configName": "奔驰CLA 2025款 CLA 220 四门轿跑车",
-          "price": "34.74万",
-          "fuelType": "48V轻混系统",
-          "size": "4692x1830x1431"
-        },
-        {
-          "configName": "奔驰CLA 2025款 CLA  260 4MATIC 四门轿跑车",
-          "price": "39.14万",
-          "fuelType": "48V轻混系统",
-          "size": "4692x1830x1431"
-        },
-        {
-          "configName": "奔驰CLA 2024款 CLA 200 四门轿跑车",
-          "price": "30.92万",
-          "fuelType": "汽油",
-          "size": "4692x1830x1452"
-        },
-        {
-          "configName": "奔驰CLA 2024款 CLA 200 五门猎跑车",
-          "price": "30.92万",
-          "fuelType": "汽油",
-          "size": "4692x1830x1435"
-        },
-        {
-          "configName": "奔驰CLA 2024款 改款 CLA 220 四门轿跑车",
-          "price": "34.74万",
-          "fuelType": "48V轻混系统",
-          "size": "4692x1830x1452"
-        },
-        {
-          "configName": "奔驰CLA 2024款 改款 CLA  260 4MATIC 四门轿跑车",
-          "price": "39.1万",
-          "fuelType": "48V轻混系统",
-          "size": "4692x1830x1452"
-        },
-        {
-          "configName": "奔驰CLA 2024款 改款 CLA 260 4MATIC 五门猎跑车",
-          "price": "39.4万",
-          "fuelType": "48V轻混系统",
-          "size": "4692x1830x1435"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰EQS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a81a3376e9a24980bd643a263b62dbc2~1200x0.png",
-      "seriesName": "梅赛德斯-EQ/大型车",
-      "configs": [
-        {
-          "configName": "奔驰EQS 2023款 改款 EQS 450+ 先锋版",
-          "price": "88.1万",
-          "fuelType": "纯电动",
-          "size": "5227x1926x1512"
-        },
-        {
-          "configName": "奔驰EQS 2023款 EQS 450+ 豪华版",
-          "price": "99.2万",
-          "fuelType": "纯电动",
-          "size": "5224x1926x1512"
-        },
-        {
-          "configName": "奔驰EQS 2023款 EQS 580 4MATIC",
-          "price": "133.9万",
-          "fuelType": "纯电动",
-          "size": "5224x1926x1517"
+          "configName": "奔驰E级PHEV 2024款 E 350 e L 运动轿车",
+          "price": "53.86万",
+          "fuelType": "插电式混合动力",
+          "size": "5092x1880x1489"
         }
       ]
     },
@@ -494,6 +481,31 @@
       ]
     },
     {
+      "carName": "奔驰EQS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a81a3376e9a24980bd643a263b62dbc2~1200x0.png",
+      "seriesName": "梅赛德斯-EQ/大型车",
+      "configs": [
+        {
+          "configName": "奔驰EQS 2023款 改款 EQS 450+ 先锋版",
+          "price": "88.1万",
+          "fuelType": "纯电动",
+          "size": "5227x1926x1512"
+        },
+        {
+          "configName": "奔驰EQS 2023款 EQS 450+ 豪华版",
+          "price": "99.2万",
+          "fuelType": "纯电动",
+          "size": "5224x1926x1512"
+        },
+        {
+          "configName": "奔驰EQS 2023款 EQS 580 4MATIC",
+          "price": "133.9万",
+          "fuelType": "纯电动",
+          "size": "5224x1926x1517"
+        }
+      ]
+    },
+    {
       "carName": "奔驰S级PHEV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7f7ffc30fcc24c4589c4ebb37c4560fd~1200x0.png",
       "seriesName": "奔驰(进口)/大型车",
@@ -509,6 +521,19 @@
           "price": "130.83万",
           "fuelType": "插电式混合动力",
           "size": "5290x1921x1503"
+        }
+      ]
+    },
+    {
+      "carName": "迈巴赫S级 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b8635456c0fe4b5499c65ecb146a349c~1200x0.png",
+      "seriesName": "梅赛德斯-迈巴赫/大型车",
+      "configs": [
+        {
+          "configName": "迈巴赫S级 PHEV 2023款 S 580 e",
+          "price": "201.6万",
+          "fuelType": "插电式混合动力",
+          "size": "5470x1921x1510"
         }
       ]
     },
@@ -636,15 +661,28 @@
       ]
     },
     {
-      "carName": "迈巴赫S级 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b8635456c0fe4b5499c65ecb146a349c~1200x0.png",
-      "seriesName": "梅赛德斯-迈巴赫/大型车",
+      "carName": "奔驰C级AMG PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/265bb78b2c6b42769f5b095d9bf7e7dd~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/中型车",
       "configs": [
         {
-          "configName": "迈巴赫S级 PHEV 2023款 S 580 e",
-          "price": "201.6万",
+          "configName": "奔驰C级AMG PHEV 2024款 AMG C 63 S E Performance F1 特别版",
+          "price": "119.18万",
           "fuelType": "插电式混合动力",
-          "size": "5470x1921x1510"
+          "size": "4842x1900x1457"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰EQE AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/734c43c61bf94c68b270308dfc307e57~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/中大型车",
+      "configs": [
+        {
+          "configName": "奔驰EQE AMG 2023款 EQE 53 4MATIC+",
+          "price": "86.2万",
+          "fuelType": "纯电动",
+          "size": "4969x1906x1493"
         }
       ]
     },
@@ -699,51 +737,6 @@
       ]
     },
     {
-      "carName": "奔驰C级AMG PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/265bb78b2c6b42769f5b095d9bf7e7dd~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/中型车",
-      "configs": [
-        {
-          "configName": "奔驰C级AMG PHEV 2024款 AMG C 63 S E Performance F1 特别版",
-          "price": "119.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4842x1900x1457"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰EQE AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/734c43c61bf94c68b270308dfc307e57~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/中大型车",
-      "configs": [
-        {
-          "configName": "奔驰EQE AMG 2023款 EQE 53 4MATIC+",
-          "price": "86.2万",
-          "fuelType": "纯电动",
-          "size": "4969x1906x1493"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰EQB",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bea3650402834474ae644434c0c6dae6~1200x0.png",
-      "seriesName": "北京奔驰/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "奔驰EQB 2025款 EQB 260",
-          "price": "35.2万",
-          "fuelType": "纯电动",
-          "size": "4684x1834x1693"
-        },
-        {
-          "configName": "奔驰EQB 2025款 EQB 350 4MATIC",
-          "price": "42.8万",
-          "fuelType": "纯电动",
-          "size": "4684x1834x1706"
-        }
-      ]
-    },
-    {
       "carName": "奔驰EQA",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/17abf5ebde4f481ab6599025213295a3~1200x0.png",
       "seriesName": "北京奔驰/紧凑型SUV",
@@ -759,19 +752,6 @@
           "price": "32.2万",
           "fuelType": "纯电动",
           "size": "4463x1849x1619"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰EQS AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4de7f091a3164e7ab83129d6bbe1ef51~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/大型车",
-      "configs": [
-        {
-          "configName": "奔驰EQS AMG 2023款 AMG EQS 53 4MATIC+",
-          "price": "156.6万",
-          "fuelType": "纯电动",
-          "size": "5224x1926x1520"
         }
       ]
     },
@@ -819,15 +799,77 @@
       ]
     },
     {
-      "carName": "奔驰GLC PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5ee8ff5a38be489aad98138d0b626248~1200x0.png",
-      "seriesName": "北京奔驰/中型SUV",
+      "carName": "奔驰EQB",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bea3650402834474ae644434c0c6dae6~1200x0.png",
+      "seriesName": "北京奔驰/紧凑型SUV",
       "configs": [
         {
-          "configName": "奔驰GLC PHEV 2025款 GLC 350 e L  4MATIC 典藏版",
-          "price": "51.8万",
-          "fuelType": "插电式混合动力",
-          "size": "4826x1938x1696"
+          "configName": "奔驰EQB 2025款 EQB 260",
+          "price": "35.2万",
+          "fuelType": "纯电动",
+          "size": "4684x1834x1693"
+        },
+        {
+          "configName": "奔驰EQB 2025款 EQB 350 4MATIC",
+          "price": "42.8万",
+          "fuelType": "纯电动",
+          "size": "4684x1834x1706"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰EQS AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4de7f091a3164e7ab83129d6bbe1ef51~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/大型车",
+      "configs": [
+        {
+          "configName": "奔驰EQS AMG 2023款 AMG EQS 53 4MATIC+",
+          "price": "156.6万",
+          "fuelType": "纯电动",
+          "size": "5224x1926x1520"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰GLC轿跑",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/97a690d34d764da394673f7f831b5cf4~1200x0.png",
+      "seriesName": "奔驰(进口)/中型SUV",
+      "configs": [
+        {
+          "configName": "奔驰GLC轿跑 2025款 GLC 260 4MATIC 轿跑SUV",
+          "price": "48.95万",
+          "fuelType": "48V轻混系统",
+          "size": "4769x1920x1603"
+        },
+        {
+          "configName": "奔驰GLC轿跑 2025款 改款 GLC 260 4MATIC 轿跑SUV",
+          "price": "48.95万",
+          "fuelType": "48V轻混系统",
+          "size": "4769x1920x1627"
+        },
+        {
+          "configName": "奔驰GLC轿跑 2025款 GLC 300 4MATIC 轿跑SUV",
+          "price": "56.6万",
+          "fuelType": "48V轻混系统",
+          "size": "4769x1920x1603"
+        },
+        {
+          "configName": "奔驰GLC轿跑 2025款 改款 GLC 300 4MATIC 轿跑SUV",
+          "price": "56.6万",
+          "fuelType": "48V轻混系统",
+          "size": "4769x1920x1628"
+        },
+        {
+          "configName": "奔驰GLC轿跑 2024款 GLC 260 4MATIC 轿跑SUV",
+          "price": "48.95万",
+          "fuelType": "48V轻混系统",
+          "size": "4769x1920x1603"
+        },
+        {
+          "configName": "奔驰GLC轿跑 2024款 GLC 300 4MATIC 轿跑SUV",
+          "price": "56.6万",
+          "fuelType": "48V轻混系统",
+          "size": "4769x1920x1603"
         }
       ]
     },
@@ -911,6 +953,19 @@
       ]
     },
     {
+      "carName": "奔驰GLC PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5ee8ff5a38be489aad98138d0b626248~1200x0.png",
+      "seriesName": "北京奔驰/中型SUV",
+      "configs": [
+        {
+          "configName": "奔驰GLC PHEV 2025款 GLC 350 e L  4MATIC 典藏版",
+          "price": "51.8万",
+          "fuelType": "插电式混合动力",
+          "size": "4826x1938x1696"
+        }
+      ]
+    },
+    {
       "carName": "奔驰GLB",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1211170065784501a0e6af5a8c528ebf~1200x0.png",
       "seriesName": "北京奔驰/紧凑型SUV",
@@ -978,148 +1033,6 @@
       ]
     },
     {
-      "carName": "奔驰GLC轿跑",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/97a690d34d764da394673f7f831b5cf4~1200x0.png",
-      "seriesName": "奔驰(进口)/中型SUV",
-      "configs": [
-        {
-          "configName": "奔驰GLC轿跑 2025款 GLC 260 4MATIC 轿跑SUV",
-          "price": "48.95万",
-          "fuelType": "48V轻混系统",
-          "size": "4769x1920x1603"
-        },
-        {
-          "configName": "奔驰GLC轿跑 2025款 改款 GLC 260 4MATIC 轿跑SUV",
-          "price": "48.95万",
-          "fuelType": "48V轻混系统",
-          "size": "4769x1920x1627"
-        },
-        {
-          "configName": "奔驰GLC轿跑 2025款 GLC 300 4MATIC 轿跑SUV",
-          "price": "56.6万",
-          "fuelType": "48V轻混系统",
-          "size": "4769x1920x1603"
-        },
-        {
-          "configName": "奔驰GLC轿跑 2025款 改款 GLC 300 4MATIC 轿跑SUV",
-          "price": "56.6万",
-          "fuelType": "48V轻混系统",
-          "size": "4769x1920x1628"
-        },
-        {
-          "configName": "奔驰GLC轿跑 2024款 GLC 260 4MATIC 轿跑SUV",
-          "price": "48.95万",
-          "fuelType": "48V轻混系统",
-          "size": "4769x1920x1603"
-        },
-        {
-          "configName": "奔驰GLC轿跑 2024款 GLC 300 4MATIC 轿跑SUV",
-          "price": "56.6万",
-          "fuelType": "48V轻混系统",
-          "size": "4769x1920x1603"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰GLE PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ba6f48e38a774f939b5df8a2d16f0f36~1200x0.png",
-      "seriesName": "奔驰(进口)/中大型SUV",
-      "configs": [
-        {
-          "configName": "奔驰GLE PHEV 2025款 GLE 400e 4MATIC",
-          "price": "82.48万",
-          "fuelType": "插电式混合动力",
-          "size": "4927x2018x1782"
-        },
-        {
-          "configName": "奔驰GLE PHEV 2024款 GLE 400e 4MATIC",
-          "price": "82.48万",
-          "fuelType": "插电式混合动力",
-          "size": "4927x2018x1782"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰GLE",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bd9e10aa20b14ab897b435712b031121~1200x0.png",
-      "seriesName": "奔驰(进口)/中大型SUV",
-      "configs": [
-        {
-          "configName": "奔驰GLE 2025款 改款 GLE 350 4MATIC 动感型",
-          "price": "69.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1797"
-        },
-        {
-          "configName": "奔驰GLE 2025款 改款  GLE 350 4MATIC 时尚型",
-          "price": "74.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1797"
-        },
-        {
-          "configName": "奔驰GLE 2025款 改款 GLE 450 4MATIC 时尚型",
-          "price": "83.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1782"
-        },
-        {
-          "configName": "奔驰GLE 2025款 改款 GLE 450 4MATIC 豪华型",
-          "price": "88.28万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1797"
-        },
-        {
-          "configName": "奔驰GLE 2025款 GLE 350 4MATIC 动感型",
-          "price": "69.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1797"
-        },
-        {
-          "configName": "奔驰GLE 2025款 GLE 350 4MATIC 时尚型",
-          "price": "74.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1797"
-        },
-        {
-          "configName": "奔驰GLE 2025款 GLE 450 4MATIC 时尚型",
-          "price": "83.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1782"
-        },
-        {
-          "configName": "奔驰GLE 2025款 GLE 450 4MATIC 豪华型",
-          "price": "88.28万",
-          "fuelType": "48V轻混系统",
-          "size": "4927x2018x1797"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰EQE SUV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/04acbe20743048a68771758d53af832c~1200x0.png",
-      "seriesName": "北京奔驰/中大型SUV",
-      "configs": [
-        {
-          "configName": "奔驰EQE SUV 2024款 EQE SUV 500 4MATIC 先锋版",
-          "price": "48.6万",
-          "fuelType": "纯电动",
-          "size": "4880x2032x1679"
-        },
-        {
-          "configName": "奔驰EQE SUV 2024款 EQE SUV 500 4MATIC 豪华版",
-          "price": "51万",
-          "fuelType": "纯电动",
-          "size": "4880x2032x1679"
-        },
-        {
-          "configName": "奔驰EQE SUV 2024款 EQE SUV 500 4MATIC 旗舰版",
-          "price": "63.06万",
-          "fuelType": "纯电动",
-          "size": "4880x2032x1679"
-        }
-      ]
-    },
-    {
       "carName": "奔驰GLE轿跑",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/45f71fcedd7b4c9daa0f3cab1ea13ab4~1200x0.png",
       "seriesName": "奔驰(进口)/中大型SUV",
@@ -1175,6 +1088,119 @@
       ]
     },
     {
+      "carName": "奔驰GLE",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bd9e10aa20b14ab897b435712b031121~1200x0.png",
+      "seriesName": "奔驰(进口)/中大型SUV",
+      "configs": [
+        {
+          "configName": "奔驰GLE 2025款 改款 GLE 350 4MATIC 动感型",
+          "price": "69.98万",
+          "fuelType": "48V轻混系统",
+          "size": "4927x2018x1797"
+        },
+        {
+          "configName": "奔驰GLE 2025款 改款  GLE 350 4MATIC 时尚型",
+          "price": "74.88万",
+          "fuelType": "48V轻混系统",
+          "size": "4927x2018x1797"
+        },
+        {
+          "configName": "奔驰GLE 2025款 二次改款  GLE 350 4MATIC 时尚型",
+          "price": "74.88万",
+          "fuelType": "48V轻混系统",
+          "size": "4927x2018x1782"
+        },
+        {
+          "configName": "奔驰GLE 2025款 改款 GLE 450 4MATIC 时尚型",
+          "price": "83.98万",
+          "fuelType": "48V轻混系统",
+          "size": "4927x2018x1782"
+        },
+        {
+          "configName": "奔驰GLE 2025款 改款 GLE 450 4MATIC 豪华型",
+          "price": "88.28万",
+          "fuelType": "48V轻混系统",
+          "size": "4927x2018x1797"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰EQE SUV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/04acbe20743048a68771758d53af832c~1200x0.png",
+      "seriesName": "北京奔驰/中大型SUV",
+      "configs": [
+        {
+          "configName": "奔驰EQE SUV 2024款 EQE SUV 500 4MATIC 先锋版",
+          "price": "48.6万",
+          "fuelType": "纯电动",
+          "size": "4880x2032x1679"
+        },
+        {
+          "configName": "奔驰EQE SUV 2024款 EQE SUV 500 4MATIC 豪华版",
+          "price": "51万",
+          "fuelType": "纯电动",
+          "size": "4880x2032x1679"
+        },
+        {
+          "configName": "奔驰EQE SUV 2024款 EQE SUV 500 4MATIC 旗舰版",
+          "price": "63.06万",
+          "fuelType": "纯电动",
+          "size": "4880x2032x1679"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰GLE PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2a68f7b0d4f64ecca04780afdf92eeae~1200x0.png",
+      "seriesName": "奔驰(进口)/中大型SUV",
+      "configs": [
+        {
+          "configName": "奔驰GLE PHEV 2025款 GLE 400e 4MATIC",
+          "price": "82.48万",
+          "fuelType": "插电式混合动力",
+          "size": "4927x2018x1782"
+        },
+        {
+          "configName": "奔驰GLE PHEV 2025款 改款 GLE 400e 4MATIC",
+          "price": "82.48万",
+          "fuelType": "插电式混合动力",
+          "size": "4927x2018x1782"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰G级",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b54254f5b274aeca9d32620da4c5b2a~1200x0.png",
+      "seriesName": "奔驰(进口)/中大型SUV",
+      "configs": [
+        {
+          "configName": "奔驰G级 2025款 G 500",
+          "price": "186.8万",
+          "fuelType": "48V轻混系统",
+          "size": "4875x1931x1978"
+        },
+        {
+          "configName": "奔驰G级 2025款 改款 G 500",
+          "price": "186.8万",
+          "fuelType": "48V轻混系统",
+          "size": "4875x1931x1978"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰纯电G级",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ee0efc681445446bad4b5f2d7a05c73f~1200x0.png",
+      "seriesName": "梅赛德斯-EQ/中大型SUV",
+      "configs": [
+        {
+          "configName": "奔驰纯电G级 2025款 G 580 首发特别版",
+          "price": "217万",
+          "fuelType": "纯电动",
+          "size": "4728x1984x1992"
+        }
+      ]
+    },
+    {
       "carName": "奔驰EQS SUV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f452316387874b19b232faf940ce01d0~1200x0.png",
       "seriesName": "梅赛德斯-EQ/大型SUV",
@@ -1213,34 +1239,64 @@
       ]
     },
     {
-      "carName": "奔驰纯电G级",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ee0efc681445446bad4b5f2d7a05c73f~1200x0.png",
-      "seriesName": "梅赛德斯-EQ/中大型SUV",
+      "carName": "迈巴赫GLS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9f1ddfc66b6842b2ae923e084dcf8c46~1200x0.png",
+      "seriesName": "梅赛德斯-迈巴赫/大型SUV",
       "configs": [
         {
-          "configName": "奔驰纯电G级 2025款 G 580 首发特别版",
-          "price": "217万",
-          "fuelType": "纯电动",
-          "size": "4728x1984x1992"
+          "configName": "迈巴赫GLS 2025款 GLS 480 4MATIC",
+          "price": "183.3万",
+          "fuelType": "48V轻混系统",
+          "size": "5208x2030x1838"
+        },
+        {
+          "configName": "迈巴赫GLS 2025款 GLS 600 4MATIC礼乐版",
+          "price": "248.8万",
+          "fuelType": "48V轻混系统",
+          "size": "5208x2030x1838"
+        },
+        {
+          "configName": "迈巴赫GLS 2025款 GLS 600 4MATIC极夜版",
+          "price": "278.8万",
+          "fuelType": "48V轻混系统",
+          "size": "5208x2030x1838"
+        },
+        {
+          "configName": "迈巴赫GLS 2024款 GLS 480 4MATIC",
+          "price": "183.3万",
+          "fuelType": "48V轻混系统",
+          "size": "5208x2030x1838"
+        },
+        {
+          "configName": "迈巴赫GLS 2024款 GLS 600 4MATIC礼乐版",
+          "price": "248.8万",
+          "fuelType": "48V轻混系统",
+          "size": "5208x2030x1838"
+        },
+        {
+          "configName": "迈巴赫GLS 2024款 GLS 600 4MATIC极夜版",
+          "price": "278.8万",
+          "fuelType": "48V轻混系统",
+          "size": "5208x2030x1838"
         }
       ]
     },
     {
-      "carName": "奔驰G级",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b54254f5b274aeca9d32620da4c5b2a~1200x0.png",
-      "seriesName": "奔驰(进口)/中大型SUV",
+      "carName": "迈巴赫EQS SUV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b682d5be75741369863573f7a8653cd~1200x0.png",
+      "seriesName": "梅赛德斯-迈巴赫/大型SUV",
       "configs": [
         {
-          "configName": "奔驰G级 2025款 G 500",
-          "price": "186.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4875x1931x1978"
+          "configName": "迈巴赫EQS SUV 2024款 EQS 680 礼乐版",
+          "price": "159.5万",
+          "fuelType": "纯电动",
+          "size": "5135x2034x1721"
         },
         {
-          "configName": "奔驰G级 2025款 改款 G 500",
-          "price": "186.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4875x1931x1978"
+          "configName": "迈巴赫EQS SUV 2024款 EQS 680 礼尚版",
+          "price": "191.5万",
+          "fuelType": "纯电动",
+          "size": "5135x2034x1721"
         }
       ]
     },
@@ -1313,90 +1369,21 @@
       ]
     },
     {
-      "carName": "迈巴赫GLS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9f1ddfc66b6842b2ae923e084dcf8c46~1200x0.png",
-      "seriesName": "梅赛德斯-迈巴赫/大型SUV",
+      "carName": "奔驰GLC AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/58aabe7174944a13bb8434d5263ac739~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/中型SUV",
       "configs": [
         {
-          "configName": "迈巴赫GLS 2025款 GLS 480 4MATIC",
-          "price": "183.3万",
+          "configName": "奔驰GLC AMG 2025款 AMG GLC 43 4MATIC",
+          "price": "66.67万",
           "fuelType": "48V轻混系统",
-          "size": "5208x2030x1838"
+          "size": "4749x1938x1640"
         },
         {
-          "configName": "迈巴赫GLS 2025款 GLS 600 4MATIC礼乐版",
-          "price": "248.8万",
+          "configName": "奔驰GLC AMG 2024款 AMG GLC 43 4MATIC",
+          "price": "66.67万",
           "fuelType": "48V轻混系统",
-          "size": "5208x2030x1838"
-        },
-        {
-          "configName": "迈巴赫GLS 2025款 GLS 600 4MATIC极夜版",
-          "price": "278.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5208x2030x1838"
-        },
-        {
-          "configName": "迈巴赫GLS 2024款 GLS 480 4MATIC",
-          "price": "183.3万",
-          "fuelType": "48V轻混系统",
-          "size": "5208x2030x1838"
-        },
-        {
-          "configName": "迈巴赫GLS 2024款 GLS 600 4MATIC礼乐版",
-          "price": "248.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5208x2030x1838"
-        },
-        {
-          "configName": "迈巴赫GLS 2024款 GLS 600 4MATIC极夜版",
-          "price": "278.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5208x2030x1838"
-        }
-      ]
-    },
-    {
-      "carName": "迈巴赫EQS SUV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b682d5be75741369863573f7a8653cd~1200x0.png",
-      "seriesName": "梅赛德斯-迈巴赫/大型SUV",
-      "configs": [
-        {
-          "configName": "迈巴赫EQS SUV 2024款 EQS 680 礼乐版",
-          "price": "159.5万",
-          "fuelType": "纯电动",
-          "size": "5135x2034x1721"
-        },
-        {
-          "configName": "迈巴赫EQS SUV 2024款 EQS 680 礼尚版",
-          "price": "191.5万",
-          "fuelType": "纯电动",
-          "size": "5135x2034x1721"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰EQE SUV AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c7a741f0eec946949480fd1ee2b94e6f~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/中大型SUV",
-      "configs": [
-        {
-          "configName": "奔驰EQE SUV AMG 2024款 EQE 53 4MATIC+ 纯电SUV",
-          "price": "86.34万",
-          "fuelType": "纯电动",
-          "size": "4880x2032x1672"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰GLB AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d5230db226f94da79ca6a560d1dc077d~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "奔驰GLB AMG 2024款 AMG GLB 35 4MATIC",
-          "price": "46.37万",
-          "fuelType": "48V轻混系统",
-          "size": "4658x1845x1662"
+          "size": "4749x1938x1640"
         }
       ]
     },
@@ -1420,59 +1407,47 @@
       ]
     },
     {
-      "carName": "奔驰GLC AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/58aabe7174944a13bb8434d5263ac739~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/中型SUV",
+      "carName": "奔驰GLB AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d5230db226f94da79ca6a560d1dc077d~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/紧凑型SUV",
       "configs": [
         {
-          "configName": "奔驰GLC AMG 2025款 AMG GLC 43 4MATIC",
-          "price": "66.67万",
+          "configName": "奔驰GLB AMG 2024款 AMG GLB 35 4MATIC",
+          "price": "46.37万",
           "fuelType": "48V轻混系统",
-          "size": "4749x1938x1640"
-        },
-        {
-          "configName": "奔驰GLC AMG 2024款 AMG GLC 43 4MATIC",
-          "price": "66.67万",
-          "fuelType": "48V轻混系统",
-          "size": "4749x1938x1640"
+          "size": "4658x1845x1662"
         }
       ]
     },
     {
-      "carName": "奔驰GLS AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b3953a6f0a4470c883bd7292746ad55~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/大型SUV",
-      "configs": [
-        {
-          "configName": "奔驰GLS AMG 2024款 AMG GLS 63 4MATIC+",
-          "price": "247.1万",
-          "fuelType": "48V轻混系统",
-          "size": "5234x2030x1836"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰GLE AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a3827fbebefb4f978bba16ee50d46df4~1200x0.png",
+      "carName": "奔驰EQE SUV AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c7a741f0eec946949480fd1ee2b94e6f~1200x0.png",
       "seriesName": "梅赛德斯-AMG/中大型SUV",
       "configs": [
         {
-          "configName": "奔驰GLE AMG 2025款 改款 AMG GLE 53 4MATIC+",
-          "price": "99.88万",
+          "configName": "奔驰EQE SUV AMG 2024款 EQE 53 4MATIC+ 纯电SUV",
+          "price": "86.34万",
+          "fuelType": "纯电动",
+          "size": "4880x2032x1672"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰GLE轿跑 AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1889dba613694bc9a3106f14b023c5d4~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/中大型SUV",
+      "configs": [
+        {
+          "configName": "奔驰GLE轿跑 AMG 2025款 AMG GLE 53 4MATIC+ 轿跑SUV",
+          "price": "117.08万",
           "fuelType": "48V轻混系统",
-          "size": "4937x2015x1782"
+          "size": "4944x2018x1716"
         },
         {
-          "configName": "奔驰GLE AMG 2025款 AMG GLE 53 4MATIC+",
-          "price": "110.28万",
+          "configName": "奔驰GLE轿跑 AMG 2024款 AMG GLE 53 4MATIC+ 轿跑SUV",
+          "price": "117.08万",
           "fuelType": "48V轻混系统",
-          "size": "4937x2015x1782"
-        },
-        {
-          "configName": "奔驰GLE AMG 2025款 AMG GLE 63 S 4MATIC+",
-          "price": "162.68万",
-          "fuelType": "48V轻混系统",
-          "size": "4947x2015x1782"
+          "size": "4944x2018x1716"
         }
       ]
     },
@@ -1502,95 +1477,40 @@
       ]
     },
     {
-      "carName": "奔驰GLE轿跑 AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1889dba613694bc9a3106f14b023c5d4~1200x0.png",
+      "carName": "奔驰GLE AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a3827fbebefb4f978bba16ee50d46df4~1200x0.png",
       "seriesName": "梅赛德斯-AMG/中大型SUV",
       "configs": [
         {
-          "configName": "奔驰GLE轿跑 AMG 2025款 AMG GLE 53 4MATIC+ 轿跑SUV",
-          "price": "117.08万",
+          "configName": "奔驰GLE AMG 2025款 改款 AMG GLE 53 4MATIC+",
+          "price": "99.88万",
           "fuelType": "48V轻混系统",
-          "size": "4944x2018x1716"
+          "size": "4937x2015x1782"
         },
         {
-          "configName": "奔驰GLE轿跑 AMG 2024款 AMG GLE 53 4MATIC+ 轿跑SUV",
-          "price": "117.08万",
+          "configName": "奔驰GLE AMG 2025款 AMG GLE 53 4MATIC+",
+          "price": "110.28万",
           "fuelType": "48V轻混系统",
-          "size": "4944x2018x1716"
+          "size": "4937x2015x1782"
+        },
+        {
+          "configName": "奔驰GLE AMG 2025款 AMG GLE 63 S 4MATIC+",
+          "price": "162.68万",
+          "fuelType": "48V轻混系统",
+          "size": "4947x2015x1782"
         }
       ]
     },
     {
-      "carName": "奔驰CLE级AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8623a00c6cfd42bdabb94bcddaeb59b5~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/-",
+      "carName": "奔驰GLS AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b3953a6f0a4470c883bd7292746ad55~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/大型SUV",
       "configs": [
         {
-          "configName": "奔驰CLE级AMG 2025款 AMG CLE 53 4MATIC+ 轿跑车",
-          "price": "71.88万",
+          "configName": "奔驰GLS AMG 2024款 AMG GLS 63 4MATIC+",
+          "price": "247.1万",
           "fuelType": "48V轻混系统",
-          "size": "4853x1935x1430"
-        },
-        {
-          "configName": "奔驰CLE级AMG 2024款 AMG CLE 53 4MATIC+ 轿跑车",
-          "price": "71.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4853x1935x1430"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰V级",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0777cf99a82444d5aa695acb00fadf73~1200x0.png",
-      "seriesName": "福建奔驰/中大型MPV",
-      "configs": [
-        {
-          "configName": "奔驰V级 2024款 V 300 领航版",
-          "price": "49.68万",
-          "fuelType": "48V轻混系统",
-          "size": "5140x1928x1880"
-        },
-        {
-          "configName": "奔驰V级 2024款 V 300 尊贵版",
-          "price": "60.98万",
-          "fuelType": "48V轻混系统",
-          "size": "5140x1928x1920"
-        },
-        {
-          "configName": "奔驰V级 2024款 V 300 L 长轴距尊贵版",
-          "price": "63.98万",
-          "fuelType": "48V轻混系统",
-          "size": "5370x1928x1920"
-        },
-        {
-          "configName": "奔驰V级 2024款 V 300 L 长轴距豪华版",
-          "price": "66.98万",
-          "fuelType": "48V轻混系统",
-          "size": "5370x1928x1920"
-        },
-        {
-          "configName": "奔驰V级 2022款 V 260 领航版",
-          "price": "47.88万",
-          "fuelType": "汽油",
-          "size": "5140x1928x1880"
-        },
-        {
-          "configName": "奔驰V级 2022款 V 260 尊贵版",
-          "price": "58.68万",
-          "fuelType": "汽油",
-          "size": "5140x1928x1920"
-        },
-        {
-          "configName": "奔驰V级 2022款 V 260 L 长轴距尊贵版",
-          "price": "61.68万",
-          "fuelType": "汽油",
-          "size": "5370x1928x1920"
-        },
-        {
-          "configName": "奔驰V级 2022款 V 260 L 长轴距豪华版",
-          "price": "64.68万",
-          "fuelType": "汽油",
-          "size": "5400x1928x1920"
+          "size": "5234x2030x1836"
         }
       ]
     },
@@ -1658,6 +1578,25 @@
           "price": "59.63万",
           "fuelType": "48V轻混系统",
           "size": "4850x1861x1425"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰CLE级AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8623a00c6cfd42bdabb94bcddaeb59b5~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/-",
+      "configs": [
+        {
+          "configName": "奔驰CLE级AMG 2025款 AMG CLE 53 4MATIC+ 轿跑车",
+          "price": "71.88万",
+          "fuelType": "48V轻混系统",
+          "size": "4853x1935x1430"
+        },
+        {
+          "configName": "奔驰CLE级AMG 2024款 AMG CLE 53 4MATIC+ 轿跑车",
+          "price": "71.88万",
+          "fuelType": "48V轻混系统",
+          "size": "4853x1935x1430"
         }
       ]
     },
@@ -1741,6 +1680,87 @@
       ]
     },
     {
+      "carName": "奔驰V级",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0777cf99a82444d5aa695acb00fadf73~1200x0.png",
+      "seriesName": "福建奔驰/中大型MPV",
+      "configs": [
+        {
+          "configName": "奔驰V级 2024款 V 300 领航版",
+          "price": "49.68万",
+          "fuelType": "48V轻混系统",
+          "size": "5140x1928x1880"
+        },
+        {
+          "configName": "奔驰V级 2024款 V 300 尊贵版",
+          "price": "60.98万",
+          "fuelType": "48V轻混系统",
+          "size": "5140x1928x1920"
+        },
+        {
+          "configName": "奔驰V级 2024款 V 300 L 长轴距尊贵版",
+          "price": "63.98万",
+          "fuelType": "48V轻混系统",
+          "size": "5370x1928x1920"
+        },
+        {
+          "configName": "奔驰V级 2024款 V 300 L 长轴距豪华版",
+          "price": "66.98万",
+          "fuelType": "48V轻混系统",
+          "size": "5370x1928x1920"
+        },
+        {
+          "configName": "奔驰V级 2022款 V 260 领航版",
+          "price": "47.88万",
+          "fuelType": "汽油",
+          "size": "5140x1928x1880"
+        },
+        {
+          "configName": "奔驰V级 2022款 V 260 尊贵版",
+          "price": "58.68万",
+          "fuelType": "汽油",
+          "size": "5140x1928x1920"
+        },
+        {
+          "configName": "奔驰V级 2022款 V 260 L 长轴距尊贵版",
+          "price": "61.68万",
+          "fuelType": "汽油",
+          "size": "5370x1928x1920"
+        },
+        {
+          "configName": "奔驰V级 2022款 V 260 L 长轴距豪华版",
+          "price": "64.68万",
+          "fuelType": "汽油",
+          "size": "5400x1928x1920"
+        }
+      ]
+    },
+    {
+      "carName": "AMG GT PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b889ef8325b744bfa4a26c29b55cf81d~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/-",
+      "configs": [
+        {
+          "configName": "AMG GT PHEV 2025款  AMG GT 63 S E PERFORMANCE",
+          "price": "228.55万",
+          "fuelType": "插电式混合动力",
+          "size": "4729x1984x1354"
+        }
+      ]
+    },
+    {
+      "carName": "奔驰SL级AMG",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/543c242fc9774602bf91e767d362c15b~1200x0.png",
+      "seriesName": "梅赛德斯-AMG/-",
+      "configs": [
+        {
+          "configName": "奔驰SL级AMG 2024款 AMG SL 63 4MATIC+",
+          "price": "199.98万",
+          "fuelType": "汽油",
+          "size": "4705x1915x1360"
+        }
+      ]
+    },
+    {
       "carName": "AMG GT",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/386247607b0c45ba8dc877af599e9963~1200x0.png",
       "seriesName": "梅赛德斯-AMG/-",
@@ -1774,32 +1794,6 @@
           "price": "114.18万",
           "fuelType": "48V轻混系统",
           "size": "5054x1953x1460"
-        }
-      ]
-    },
-    {
-      "carName": "奔驰SL级AMG",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/543c242fc9774602bf91e767d362c15b~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/-",
-      "configs": [
-        {
-          "configName": "奔驰SL级AMG 2024款 AMG SL 63 4MATIC+",
-          "price": "199.98万",
-          "fuelType": "汽油",
-          "size": "4705x1915x1360"
-        }
-      ]
-    },
-    {
-      "carName": "AMG GT PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b889ef8325b744bfa4a26c29b55cf81d~1200x0.png",
-      "seriesName": "梅赛德斯-AMG/-",
-      "configs": [
-        {
-          "configName": "AMG GT PHEV 2025款  AMG GT 63 S E PERFORMANCE",
-          "price": "228.55万",
-          "fuelType": "插电式混合动力",
-          "size": "4729x1984x1354"
         }
       ]
     }

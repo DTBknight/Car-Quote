@@ -540,22 +540,90 @@ if (require.main === module && process.argv[2] === 'autoSyncBrands') {
 }
 
 if (require.main === module) {
-  const brand = process.argv[2]; // node index.js Volkswagen
+  const brand = process.argv[2]; // node index.js Volkswagen 或 node index.js all
   if (!brand) {
-    console.error('请在命令行参数中指定品牌名');
+    console.error('请在命令行参数中指定品牌名或 all');
     console.log('可用品牌:', Object.keys(brandIdsMap).join(', '));
     process.exit(1);
   }
-  
-  collectCarData(brand)
-    .then(() => {
-      console.log('DBT Messenger执行成功！');
+
+  if (brand === 'all') {
+    // 全品牌采集
+    (async () => {
+      const brandList = Object.keys(brandIdsMap);
+      const total = brandList.length;
+      for (let idx = 0; idx < total; idx++) {
+        const brandName = brandList[idx];
+        const dest = path.join(__dirname, '..', 'data', `${brandName}.json`);
+        console.log(`\n[${idx + 1}/${total}] 正在采集品牌: ${brandName}`);
+        if (fs.existsSync(dest)) {
+          try {
+            const content = JSON.parse(fs.readFileSync(dest, 'utf-8'));
+            if (content && content.cars && content.cars.length > 0) {
+              console.log(`⚠️  ${brandName} 已存在且有数据，跳过采集`);
+              continue;
+            } else {
+              fs.unlinkSync(dest);
+              console.log(`⚠️  ${brandName} 已存在但无有效数据，重新采集`);
+            }
+          } catch (e) {
+            fs.unlinkSync(dest);
+            console.log(`⚠️  ${brandName} 已存在但读取失败，重新采集`);
+          }
+        }
+        try {
+          await collectCarData(brandName);
+          const newPath = path.join(dataDir, 'cars.json');
+          if (fs.existsSync(newPath)) {
+            let shouldSave = true;
+            if (fs.existsSync(dest)) {
+              try {
+                const oldContent = JSON.parse(fs.readFileSync(dest, 'utf-8'));
+                const newContent = JSON.parse(fs.readFileSync(newPath, 'utf-8'));
+                // 简单对比：车型数量或内容不同则覆盖
+                const oldCars = oldContent.cars || [];
+                const newCars = newContent.cars || [];
+                if (oldCars.length === newCars.length) {
+                  // 进一步对比内容
+                  const isSame = JSON.stringify(oldCars) === JSON.stringify(newCars);
+                  if (isSame) {
+                    shouldSave = false;
+                    console.log(`🟡 [${idx + 1}/${total}] ${brandName} 新旧数据一致，跳过保存`);
+                  }
+                }
+              } catch (e) {
+                // 旧文件损坏，强制覆盖
+                shouldSave = true;
+                console.log(`⚠️  [${idx + 1}/${total}] ${brandName} 旧数据读取失败，强制覆盖`);
+              }
+            }
+            if (shouldSave) {
+              fs.renameSync(newPath, dest);
+              console.log(`✅ [${idx + 1}/${total}] ${brandName} 新数据已保存到 ${dest}`);
+            } else {
+              fs.unlinkSync(newPath);
+            }
+          } else {
+            console.log(`❌ [${idx + 1}/${total}] ${brandName} 未采集到数据`);
+          }
+        } catch (e) {
+          console.error(`💥 [${idx + 1}/${total}] 采集品牌 ${brandName} 失败:`, e.message);
+        }
+      }
+      console.log('\n🎉 全部品牌采集完成！');
       process.exit(0);
-    })
-    .catch((error) => {
-      console.error('DBT Messenger执行失败:', error);
-      process.exit(1);
-    });
+    })();
+  } else {
+    collectCarData(brand)
+      .then(() => {
+        console.log('DBT Messenger执行成功！');
+        process.exit(0);
+      })
+      .catch((error) => {
+        console.error('DBT Messenger执行失败:', error);
+        process.exit(1);
+      });
+  }
 }
 
 module.exports = { collectCarData }; 

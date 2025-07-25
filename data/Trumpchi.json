@@ -3,6 +3,37 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/dfddc97d247ec51e0fa082ebcfd7ad4e~tplv-resize:100:100.image",
   "cars": [
     {
+      "carName": "传祺GS4",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8f2da857d4654d9498e80ea30171e0c7~1200x0.png",
+      "seriesName": "广汽传祺/紧凑型SUV",
+      "configs": [
+        {
+          "configName": "传祺GS4 2024款 MAX 1.5TGDI 领航版",
+          "price": "11.58万",
+          "fuelType": "汽油",
+          "size": "4685x1901x1690"
+        },
+        {
+          "configName": "传祺GS4 2024款 MAX 1.5TGDI 旗舰版",
+          "price": "12.58万",
+          "fuelType": "汽油",
+          "size": "4685x1901x1690"
+        },
+        {
+          "configName": "传祺GS4 2023款 270T 自动智行领航版",
+          "price": "11.98万",
+          "fuelType": "汽油",
+          "size": "4545x1856x1700"
+        },
+        {
+          "configName": "传祺GS4 2023款 270T 自动智行科技版",
+          "price": "12.68万",
+          "fuelType": "汽油",
+          "size": "4545x1856x1700"
+        }
+      ]
+    },
+    {
       "carName": "传祺GS3",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8732330b52304946a811bee104592aba~1200x0.png",
       "seriesName": "广汽传祺/小型SUV",
@@ -71,37 +102,6 @@
       ]
     },
     {
-      "carName": "传祺GS4",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8f2da857d4654d9498e80ea30171e0c7~1200x0.png",
-      "seriesName": "广汽传祺/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "传祺GS4 2024款 MAX 1.5TGDI 领航版",
-          "price": "11.58万",
-          "fuelType": "汽油",
-          "size": "4685x1901x1690"
-        },
-        {
-          "configName": "传祺GS4 2024款 MAX 1.5TGDI 旗舰版",
-          "price": "12.58万",
-          "fuelType": "汽油",
-          "size": "4685x1901x1690"
-        },
-        {
-          "configName": "传祺GS4 2023款 270T 自动智行领航版",
-          "price": "11.98万",
-          "fuelType": "汽油",
-          "size": "4545x1856x1700"
-        },
-        {
-          "configName": "传祺GS4 2023款 270T 自动智行科技版",
-          "price": "12.68万",
-          "fuelType": "汽油",
-          "size": "4545x1856x1700"
-        }
-      ]
-    },
-    {
       "carName": "影豹",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5d1ae5def02440b194ba7742cd369f65~1200x0.png",
       "seriesName": "广汽传祺/紧凑型车",
@@ -151,45 +151,52 @@
       ]
     },
     {
-      "carName": "传祺向往S7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/88c2ae5dfbcb4d4fba7ad392a377443a~1200x0.png",
+      "carName": "传祺GS4 PLUS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c699549e46a74e41b51c8383c0f09ee3~1200x0.png",
+      "seriesName": "广汽传祺/紧凑型SUV",
+      "configs": [
+        {
+          "configName": "传祺GS4 PLUS 2023款 390T 自动星系版",
+          "price": "13.68万",
+          "fuelType": "汽油",
+          "size": "4710x1885x1726"
+        },
+        {
+          "configName": "传祺GS4 PLUS 2023款 390T 自动星云版",
+          "price": "14.28万",
+          "fuelType": "汽油",
+          "size": "4710x1885x1726"
+        }
+      ]
+    },
+    {
+      "carName": "传祺ES9 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7ec7bbf1b8c340cc8a09d29aba96fe71~1200x0.png",
       "seriesName": "广汽传祺/中大型SUV",
       "configs": [
         {
-          "configName": "传祺向往S7 2025款 115km Pro版",
-          "price": "17.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780"
-        },
-        {
-          "configName": "传祺向往S7 2025款 205km Max版",
-          "price": "19.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780"
-        },
-        {
-          "configName": "传祺向往S7 2025款 205km Max智驾版",
-          "price": "20.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780"
-        },
-        {
-          "configName": "传祺向往S7 2025款 205km Max激光雷达版",
-          "price": "21.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780"
-        },
-        {
-          "configName": "传祺向往S7 2025款 180km Ultra四驱版",
-          "price": "20.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780"
-        },
-        {
-          "configName": "传祺向往S7 2025款 180km Ultra四驱激光雷达版",
+          "configName": "传祺ES9 PHEV 2024款 143km PRO+",
           "price": "22.98万",
           "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780"
+          "size": "5015x1950x1780"
+        },
+        {
+          "configName": "传祺ES9 PHEV 2024款 143km MAX+",
+          "price": "24.98万",
+          "fuelType": "插电式混合动力",
+          "size": "5015x1950x1780"
+        },
+        {
+          "configName": "传祺ES9 PHEV 2024款 143km 旅行者 Pro",
+          "price": "25.98万",
+          "fuelType": "插电式混合动力",
+          "size": "5110x1976x1780"
+        },
+        {
+          "configName": "传祺ES9 PHEV 2024款 143km 旅行者 Max",
+          "price": "26.98万",
+          "fuelType": "插电式混合动力",
+          "size": "5110x1976x1780"
         }
       ]
     },
@@ -249,71 +256,45 @@
       ]
     },
     {
-      "carName": "传祺ES9 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7ec7bbf1b8c340cc8a09d29aba96fe71~1200x0.png",
+      "carName": "传祺向往S7",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/88c2ae5dfbcb4d4fba7ad392a377443a~1200x0.png",
       "seriesName": "广汽传祺/中大型SUV",
       "configs": [
         {
-          "configName": "传祺ES9 PHEV 2024款 143km PRO+",
+          "configName": "传祺向往S7 2025款 115km Pro版",
+          "price": "17.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4900x1950x1780"
+        },
+        {
+          "configName": "传祺向往S7 2025款 205km Max版",
+          "price": "19.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4900x1950x1780"
+        },
+        {
+          "configName": "传祺向往S7 2025款 205km Max智驾版",
+          "price": "20.88万",
+          "fuelType": "插电式混合动力",
+          "size": "4900x1950x1780"
+        },
+        {
+          "configName": "传祺向往S7 2025款 205km Max激光雷达版",
+          "price": "21.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4900x1950x1780"
+        },
+        {
+          "configName": "传祺向往S7 2025款 180km Ultra四驱版",
+          "price": "20.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4900x1950x1780"
+        },
+        {
+          "configName": "传祺向往S7 2025款 180km Ultra四驱激光雷达版",
           "price": "22.98万",
           "fuelType": "插电式混合动力",
-          "size": "5015x1950x1780"
-        },
-        {
-          "configName": "传祺ES9 PHEV 2024款 143km MAX+",
-          "price": "24.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5015x1950x1780"
-        },
-        {
-          "configName": "传祺ES9 PHEV 2024款 143km 旅行者 Pro",
-          "price": "25.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5110x1976x1780"
-        },
-        {
-          "configName": "传祺ES9 PHEV 2024款 143km 旅行者 Max",
-          "price": "26.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5110x1976x1780"
-        }
-      ]
-    },
-    {
-      "carName": "传祺GS4 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c699549e46a74e41b51c8383c0f09ee3~1200x0.png",
-      "seriesName": "广汽传祺/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "传祺GS4 PLUS 2023款 390T 自动星系版",
-          "price": "13.68万",
-          "fuelType": "汽油",
-          "size": "4710x1885x1726"
-        },
-        {
-          "configName": "传祺GS4 PLUS 2023款 390T 自动星云版",
-          "price": "14.28万",
-          "fuelType": "汽油",
-          "size": "4710x1885x1726"
-        }
-      ]
-    },
-    {
-      "carName": "传祺E8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f696e908d7b845c3bd8a781a3bd8703f~1200x0.png",
-      "seriesName": "广汽传祺/中型MPV",
-      "configs": [
-        {
-          "configName": "传祺E8 2024款 荣耀系列 2.0ATK 智在版",
-          "price": "16.68万",
-          "fuelType": "油电混合",
-          "size": "4920x1900x1760"
-        },
-        {
-          "configName": "传祺E8 2024款 荣耀系列 2.0ATK 荣耀版",
-          "price": "17.98万",
-          "fuelType": "油电混合",
-          "size": "4920x1900x1760"
+          "size": "4900x1950x1780"
         }
       ]
     },
@@ -351,6 +332,25 @@
           "price": "13.98万",
           "fuelType": "汽油",
           "size": "4793x1837x1765"
+        }
+      ]
+    },
+    {
+      "carName": "传祺E8",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f696e908d7b845c3bd8a781a3bd8703f~1200x0.png",
+      "seriesName": "广汽传祺/中型MPV",
+      "configs": [
+        {
+          "configName": "传祺E8 2024款 荣耀系列 2.0ATK 智在版",
+          "price": "16.68万",
+          "fuelType": "油电混合",
+          "size": "4920x1900x1760"
+        },
+        {
+          "configName": "传祺E8 2024款 荣耀系列 2.0ATK 荣耀版",
+          "price": "17.98万",
+          "fuelType": "油电混合",
+          "size": "4920x1900x1760"
         }
       ]
     },
@@ -445,24 +445,6 @@
           "size": "5212x1893x1823"
         },
         {
-          "configName": "传祺M8 2024款 宗师系列 2.0TM 双擎 至尊版",
-          "price": "29.98万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823"
-        },
-        {
-          "configName": "传祺M8 2024款 宗师系列 2.0TM 双擎 旗舰版",
-          "price": "32.28万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823"
-        },
-        {
-          "configName": "传祺M8 2024款 宗师系列 2.0TM 双擎 御尊版",
-          "price": "34.28万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823"
-        },
-        {
           "configName": "传祺M8 2023款 领秀系列 390T 豪华版",
           "price": "17.98万",
           "fuelType": "汽油",
@@ -509,6 +491,31 @@
           "price": "34.28万",
           "fuelType": "油电混合",
           "size": "5212x1893x1823"
+        }
+      ]
+    },
+    {
+      "carName": "传祺向往M8",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4a8fe3f10c754d51a939dd6d836044f8~1200x0.png",
+      "seriesName": "广汽传祺/中大型MPV",
+      "configs": [
+        {
+          "configName": "传祺向往M8 2025款 乾崑 Pro 舒享舱",
+          "price": "35.99万",
+          "fuelType": "插电式混合动力",
+          "size": "5251x1893x1823"
+        },
+        {
+          "configName": "传祺向往M8 2025款 乾崑 Max 奢享舱",
+          "price": "37.99万",
+          "fuelType": "插电式混合动力",
+          "size": "5251x1893x1823"
+        },
+        {
+          "configName": "传祺向往M8 2025款 乾崑 Ultra 头等舱",
+          "price": "40.99万",
+          "fuelType": "插电式混合动力",
+          "size": "5251x1893x1823"
         }
       ]
     },
@@ -564,31 +571,6 @@
           "price": "40.98万",
           "fuelType": "插电式混合动力",
           "size": "5193x1893x1823"
-        }
-      ]
-    },
-    {
-      "carName": "传祺向往M8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4a8fe3f10c754d51a939dd6d836044f8~1200x0.png",
-      "seriesName": "广汽传祺/中大型MPV",
-      "configs": [
-        {
-          "configName": "传祺向往M8 2025款 乾崑 Pro 舒享舱",
-          "price": "35.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5251x1893x1823"
-        },
-        {
-          "configName": "传祺向往M8 2025款 乾崑 Max 奢享舱",
-          "price": "37.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5251x1893x1823"
-        },
-        {
-          "configName": "传祺向往M8 2025款 乾崑 Ultra 头等舱",
-          "price": "40.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5251x1893x1823"
         }
       ]
     }

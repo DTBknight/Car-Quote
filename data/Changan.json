@@ -3,6 +3,56 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/7460909912f44a8391ba22a7fd008867~tplv-resize:0:0.png",
   "cars": [
     {
+      "carName": "逸动PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b4a398039a54d3dbd0bc5acbfea212d~1200x0.png",
+      "seriesName": "长安汽车/紧凑型车",
+      "configs": [
+        {
+          "configName": "逸动PHEV 2025款 智慧新蓝鲸 70KM 超越版",
+          "price": "8.49万",
+          "fuelType": "插电式混合动力",
+          "size": "4770x1840x1460"
+        },
+        {
+          "configName": "逸动PHEV 2025款 智慧新蓝鲸 145KM 高能版",
+          "price": "9.39万",
+          "fuelType": "插电式混合动力",
+          "size": "4770x1840x1460"
+        },
+        {
+          "configName": "逸动PHEV 2025款 智慧新蓝鲸 145KM 战舰版",
+          "price": "9.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4770x1840x1460"
+        }
+      ]
+    },
+    {
+      "carName": "锐程CC",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2351a9dbcd1a9855712c0bbc91e2b40~1200x0.png",
+      "seriesName": "长安汽车/紧凑型车",
+      "configs": [
+        {
+          "configName": "锐程CC 2022款 蓝鲸版 1.5T DCT精英型",
+          "price": "9.79万",
+          "fuelType": "汽油",
+          "size": "4800x1825x1465"
+        },
+        {
+          "configName": "锐程CC 2022款 蓝鲸版 1.5T DCT豪华型",
+          "price": "10.49万",
+          "fuelType": "汽油",
+          "size": "4800x1825x1465"
+        },
+        {
+          "configName": "锐程CC 2022款 蓝鲸版 1.5T DCT尊贵型",
+          "price": "11.29万",
+          "fuelType": "汽油",
+          "size": "4800x1825x1465"
+        }
+      ]
+    },
+    {
       "carName": "逸动",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9ae4f7b6516549fdb89c9e17eb19629e~1200x0.png",
       "seriesName": "长安汽车/紧凑型车",
@@ -64,56 +114,6 @@
       ]
     },
     {
-      "carName": "逸动PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b4a398039a54d3dbd0bc5acbfea212d~1200x0.png",
-      "seriesName": "长安汽车/紧凑型车",
-      "configs": [
-        {
-          "configName": "逸动PHEV 2025款 智慧新蓝鲸 70KM 超越版",
-          "price": "8.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4770x1840x1460"
-        },
-        {
-          "configName": "逸动PHEV 2025款 智慧新蓝鲸 145KM 高能版",
-          "price": "9.39万",
-          "fuelType": "插电式混合动力",
-          "size": "4770x1840x1460"
-        },
-        {
-          "configName": "逸动PHEV 2025款 智慧新蓝鲸 145KM 战舰版",
-          "price": "9.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4770x1840x1460"
-        }
-      ]
-    },
-    {
-      "carName": "锐程CC",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2351a9dbcd1a9855712c0bbc91e2b40~1200x0.png",
-      "seriesName": "长安汽车/紧凑型车",
-      "configs": [
-        {
-          "configName": "锐程CC 2022款 蓝鲸版 1.5T DCT精英型",
-          "price": "9.79万",
-          "fuelType": "汽油",
-          "size": "4800x1825x1465"
-        },
-        {
-          "configName": "锐程CC 2022款 蓝鲸版 1.5T DCT豪华型",
-          "price": "10.49万",
-          "fuelType": "汽油",
-          "size": "4800x1825x1465"
-        },
-        {
-          "configName": "锐程CC 2022款 蓝鲸版 1.5T DCT尊贵型",
-          "price": "11.29万",
-          "fuelType": "汽油",
-          "size": "4800x1825x1465"
-        }
-      ]
-    },
-    {
       "carName": "逸动EV",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d480a46ffd73bc1690426e7878a8f214~1200x0.png",
       "seriesName": "长安汽车/紧凑型车",
@@ -154,6 +154,43 @@
           "price": "12.69万",
           "fuelType": "插电式混合动力",
           "size": "4720x1838x1435"
+        }
+      ]
+    },
+    {
+      "carName": "逸达",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1e02552d04404d928c0185816778c246~1200x0.png",
+      "seriesName": "长安汽车/紧凑型车",
+      "configs": [
+        {
+          "configName": "逸达 2023款 1.5T GDI 自动畅享版",
+          "price": "8.39万",
+          "fuelType": "汽油",
+          "size": "4770x1840x1440"
+        },
+        {
+          "configName": "逸达 2023款 1.5T GDI 自动尊贵型",
+          "price": "8.79万",
+          "fuelType": "汽油",
+          "size": "4770x1840x1440"
+        },
+        {
+          "configName": "逸达 2023款 1.5T GDI 自动尊享型",
+          "price": "8.99万",
+          "fuelType": "汽油",
+          "size": "4770x1840x1440"
+        },
+        {
+          "configName": "逸达 2023款 1.5T GDI 自动领航型",
+          "price": "9.69万",
+          "fuelType": "汽油",
+          "size": "4770x1840x1440"
+        },
+        {
+          "configName": "逸达 2023款 1.5T GDI 自动旗舰型",
+          "price": "10.79万",
+          "fuelType": "汽油",
+          "size": "4770x1840x1450"
         }
       ]
     },
@@ -286,43 +323,6 @@
       ]
     },
     {
-      "carName": "逸达",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1e02552d04404d928c0185816778c246~1200x0.png",
-      "seriesName": "长安汽车/紧凑型车",
-      "configs": [
-        {
-          "configName": "逸达 2023款 1.5T GDI 自动畅享版",
-          "price": "8.39万",
-          "fuelType": "汽油",
-          "size": "4770x1840x1440"
-        },
-        {
-          "configName": "逸达 2023款 1.5T GDI 自动尊贵型",
-          "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4770x1840x1440"
-        },
-        {
-          "configName": "逸达 2023款 1.5T GDI 自动尊享型",
-          "price": "8.99万",
-          "fuelType": "汽油",
-          "size": "4770x1840x1440"
-        },
-        {
-          "configName": "逸达 2023款 1.5T GDI 自动领航型",
-          "price": "9.69万",
-          "fuelType": "汽油",
-          "size": "4770x1840x1440"
-        },
-        {
-          "configName": "逸达 2023款 1.5T GDI 自动旗舰型",
-          "price": "10.79万",
-          "fuelType": "汽油",
-          "size": "4770x1840x1450"
-        }
-      ]
-    },
-    {
       "carName": "长安X7 PLUS",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/71873d12b81643e78b3e931f2316da59~1200x0.png",
       "seriesName": "长安汽车/紧凑型SUV",
@@ -393,6 +393,49 @@
           "price": "9.99万",
           "fuelType": "汽油",
           "size": "4330x1825x1660"
+        }
+      ]
+    },
+    {
+      "carName": "长安CS55 PLUS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/63b253313754419ea467cc131fc0dafb~1200x0.png",
+      "seriesName": "长安汽车/紧凑型SUV",
+      "configs": [
+        {
+          "configName": "长安CS55 PLUS 2025款 第三代 1.5T 500Bar 卓越型",
+          "price": "10.69万",
+          "fuelType": "汽油",
+          "size": "4539x1865x1680"
+        },
+        {
+          "configName": "长安CS55 PLUS 2025款 第三代 1.5T 500Bar 尊贵型",
+          "price": "11.39万",
+          "fuelType": "汽油",
+          "size": "4539x1865x1680"
+        },
+        {
+          "configName": "长安CS55 PLUS 2024款 第三代 1.5T DCT轻年版",
+          "price": "9.99万",
+          "fuelType": "汽油",
+          "size": "4539x1865x1680"
+        },
+        {
+          "configName": "长安CS55 PLUS 2024款 第三代 1.5T DCT卓越型",
+          "price": "10.69万",
+          "fuelType": "汽油",
+          "size": "4539x1865x1680"
+        },
+        {
+          "configName": "长安CS55 PLUS 2024款 第三代 1.5T DCT尊贵型",
+          "price": "11.39万",
+          "fuelType": "汽油",
+          "size": "4539x1865x1680"
+        },
+        {
+          "configName": "长安CS55 PLUS 2023款 第二代 1.5T DCT轻年版",
+          "price": "10.39万",
+          "fuelType": "汽油",
+          "size": "4515x1865x1680"
         }
       ]
     },
@@ -476,51 +519,27 @@
       ]
     },
     {
-      "carName": "长安CS55 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/63b253313754419ea467cc131fc0dafb~1200x0.png",
+      "carName": "长安CS55 PLUS PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c4f9629d25fb46cbb2c5769246a6407e~1200x0.png",
       "seriesName": "长安汽车/紧凑型SUV",
       "configs": [
         {
-          "configName": "长安CS55 PLUS 2025款 第三代 1.5T 500Bar 卓越型",
-          "price": "10.69万",
-          "fuelType": "汽油",
+          "configName": "长安CS55 PLUS PHEV 2025款 智慧新蓝鲸 125km 战舰版",
+          "price": "10.49万",
+          "fuelType": "插电式混合动力",
           "size": "4539x1865x1680"
         },
         {
-          "configName": "长安CS55 PLUS 2025款 第三代 1.5T 500Bar 尊贵型",
-          "price": "11.39万",
-          "fuelType": "汽油",
+          "configName": "长安CS55 PLUS PHEV 2025款 智慧新蓝鲸 125km 超能版",
+          "price": "10.99万",
+          "fuelType": "插电式混合动力",
           "size": "4539x1865x1680"
-        },
-        {
-          "configName": "长安CS55 PLUS 2024款 第三代 1.5T DCT轻年版",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4539x1865x1680"
-        },
-        {
-          "configName": "长安CS55 PLUS 2024款 第三代 1.5T DCT卓越型",
-          "price": "10.69万",
-          "fuelType": "汽油",
-          "size": "4539x1865x1680"
-        },
-        {
-          "configName": "长安CS55 PLUS 2024款 第三代 1.5T DCT尊贵型",
-          "price": "11.39万",
-          "fuelType": "汽油",
-          "size": "4539x1865x1680"
-        },
-        {
-          "configName": "长安CS55 PLUS 2023款 第二代 1.5T DCT轻年版",
-          "price": "10.39万",
-          "fuelType": "汽油",
-          "size": "4515x1865x1680"
         }
       ]
     },
     {
       "carName": "长安CS75 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d717c52424cc47098a7a40842e2aea0f~1200x0.png",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/eda5bc5a70364be2b74a02eace0dc163~1200x0.png",
       "seriesName": "长安汽车/紧凑型SUV",
       "configs": [
         {
@@ -630,25 +649,6 @@
           "price": "14.99万",
           "fuelType": "汽油",
           "size": "4710x1865x1710"
-        }
-      ]
-    },
-    {
-      "carName": "长安CS55 PLUS PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c4f9629d25fb46cbb2c5769246a6407e~1200x0.png",
-      "seriesName": "长安汽车/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "长安CS55 PLUS PHEV 2025款 智慧新蓝鲸 125km 战舰版",
-          "price": "10.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4539x1865x1680"
-        },
-        {
-          "configName": "长安CS55 PLUS PHEV 2025款 智慧新蓝鲸 125km 超能版",
-          "price": "10.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4539x1865x1680"
         }
       ]
     },
@@ -900,7 +900,7 @@
     },
     {
       "carName": "长安UNI-K 智电iDD",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a946cc0bad52441b83d7ffa7b5a9cdd9~1200x0.png",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/15e9e77074194f5e89c086eaea8e6861~1200x0.png",
       "seriesName": "长安汽车/中型SUV",
       "configs": [
         {

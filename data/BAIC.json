@@ -3,45 +3,106 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/6e45af447ab741c2862fd7e91c027432~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
-      "carName": "北京EU5 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/235210efc2f34b7eb0991b9f073525a0~1200x0.png",
+      "carName": "北京U7",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39c0238e5d23f534a293315a321b8101~1200x0.png",
+      "seriesName": "北京汽车/中型车",
+      "configs": [
+        {
+          "configName": "北京U7 2019款 1.5T 手动精英版 国VI",
+          "price": "8.79万",
+          "fuelType": "汽油",
+          "size": "4785x1835x1490"
+        },
+        {
+          "configName": "北京U7 2019款 1.5T 手动新智版 国VI",
+          "price": "9.29万",
+          "fuelType": "汽油",
+          "size": "4785x1835x1490"
+        },
+        {
+          "configName": "北京U7 2019款 1.5T CVT精英版 国VI",
+          "price": "9.99万",
+          "fuelType": "汽油",
+          "size": "4785x1835x1490"
+        },
+        {
+          "configName": "北京U7 2019款 1.5T CVT新智版 国VI",
+          "price": "10.99万",
+          "fuelType": "汽油",
+          "size": "4785x1835x1490"
+        },
+        {
+          "configName": "北京U7 2019款 1.5T CVT智领版 国VI",
+          "price": "12.29万",
+          "fuelType": "汽油",
+          "size": "4785x1835x1490"
+        }
+      ]
+    },
+    {
+      "carName": "北京U5 PLUS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3f2d90923fd84b1a8143706dad7d8533~1200x0.png",
       "seriesName": "北京汽车/紧凑型车",
       "configs": [
         {
-          "configName": "北京EU5 PLUS 2024款 R500 标准出行版",
-          "price": "17.59万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520"
+          "configName": "北京U5 PLUS 2023款 1.5L CVT豪华版",
+          "price": "7.99万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
         },
         {
-          "configName": "北京EU5 PLUS 2024款 R600 优享出行版",
-          "price": "18.59万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520"
+          "configName": "北京U5 PLUS 2023款 1.5L CVT豪华运动版",
+          "price": "7.99万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R500 优享版",
-          "price": "12.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520"
+          "configName": "北京U5 PLUS 2023款 1.5L CVT尊贵版",
+          "price": "8.79万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R500 尊享版",
-          "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520"
+          "configName": "北京U5 PLUS 2023款 1.5L CVT尊贵运动版",
+          "price": "8.79万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R600 优享版",
-          "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520"
+          "configName": "北京U5 PLUS 2021款 1.5L 手动豪华版",
+          "price": "6.99万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R600 尊享版",
-          "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520"
+          "configName": "北京U5 PLUS 2021款 1.5L 手动尊贵版",
+          "price": "7.79万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
+        },
+        {
+          "configName": "北京U5 PLUS 2021款 1.5L CVT豪华版",
+          "price": "7.99万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
+        },
+        {
+          "configName": "北京U5 PLUS 2021款 1.5L CVT尊贵版",
+          "price": "8.79万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
+        },
+        {
+          "configName": "北京U5 PLUS 2021款 1.5T CVT尊贵版",
+          "price": "9.19万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
+        },
+        {
+          "configName": "北京U5 PLUS 2021款 1.5T CVT旗舰版",
+          "price": "10.09万",
+          "fuelType": "汽油",
+          "size": "4660x1820x1480"
         }
       ]
     },
@@ -137,106 +198,70 @@
       ]
     },
     {
-      "carName": "北京U5 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3f2d90923fd84b1a8143706dad7d8533~1200x0.png",
+      "carName": "北京EU5 PLUS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/235210efc2f34b7eb0991b9f073525a0~1200x0.png",
       "seriesName": "北京汽车/紧凑型车",
       "configs": [
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT豪华版",
-          "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
+          "configName": "北京EU5 PLUS 2024款 R500 标准出行版",
+          "price": "17.59万",
+          "fuelType": "纯电动",
+          "size": "4670x1820x1520"
         },
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT豪华运动版",
-          "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
+          "configName": "北京EU5 PLUS 2024款 R600 优享出行版",
+          "price": "18.59万",
+          "fuelType": "纯电动",
+          "size": "4670x1820x1520"
         },
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT尊贵版",
-          "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
+          "configName": "北京EU5 PLUS 2023款 R500 优享版",
+          "price": "12.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1820x1520"
         },
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT尊贵运动版",
-          "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
+          "configName": "北京EU5 PLUS 2023款 R500 尊享版",
+          "price": "13.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1820x1520"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5L 手动豪华版",
-          "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
+          "configName": "北京EU5 PLUS 2023款 R600 优享版",
+          "price": "13.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1820x1520"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5L 手动尊贵版",
-          "price": "7.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
-        },
-        {
-          "configName": "北京U5 PLUS 2021款 1.5L CVT豪华版",
-          "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
-        },
-        {
-          "configName": "北京U5 PLUS 2021款 1.5L CVT尊贵版",
-          "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
-        },
-        {
-          "configName": "北京U5 PLUS 2021款 1.5T CVT尊贵版",
-          "price": "9.19万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
-        },
-        {
-          "configName": "北京U5 PLUS 2021款 1.5T CVT旗舰版",
-          "price": "10.09万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480"
+          "configName": "北京EU5 PLUS 2023款 R600 尊享版",
+          "price": "14.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1820x1520"
         }
       ]
     },
     {
-      "carName": "北京U7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39c0238e5d23f534a293315a321b8101~1200x0.png",
+      "carName": "北京EU7",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a8a1e4d18f0ab3b08ee546753301f52~1200x0.png",
       "seriesName": "北京汽车/中型车",
       "configs": [
         {
-          "configName": "北京U7 2019款 1.5T 手动精英版 国VI",
-          "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490"
+          "configName": "北京EU7 2022款 逸风版",
+          "price": "15.99万",
+          "fuelType": "纯电动",
+          "size": "4815x1835x1528"
         },
         {
-          "configName": "北京U7 2019款 1.5T 手动新智版 国VI",
-          "price": "9.29万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490"
+          "configName": "北京EU7 2022款 逸尚版",
+          "price": "16.59万",
+          "fuelType": "纯电动",
+          "size": "4815x1835x1528"
         },
         {
-          "configName": "北京U7 2019款 1.5T CVT精英版 国VI",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490"
-        },
-        {
-          "configName": "北京U7 2019款 1.5T CVT新智版 国VI",
-          "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490"
-        },
-        {
-          "configName": "北京U7 2019款 1.5T CVT智领版 国VI",
-          "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490"
+          "configName": "北京EU7 2022款 逸潮版",
+          "price": "17.59万",
+          "fuelType": "纯电动",
+          "size": "4815x1835x1528"
         }
       ]
     },
@@ -280,31 +305,6 @@
           "price": "8.79万",
           "fuelType": "汽油",
           "size": "4325x1830x1640"
-        }
-      ]
-    },
-    {
-      "carName": "北京EU7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a8a1e4d18f0ab3b08ee546753301f52~1200x0.png",
-      "seriesName": "北京汽车/中型车",
-      "configs": [
-        {
-          "configName": "北京EU7 2022款 逸风版",
-          "price": "15.99万",
-          "fuelType": "纯电动",
-          "size": "4815x1835x1528"
-        },
-        {
-          "configName": "北京EU7 2022款 逸尚版",
-          "price": "16.59万",
-          "fuelType": "纯电动",
-          "size": "4815x1835x1528"
-        },
-        {
-          "configName": "北京EU7 2022款 逸潮版",
-          "price": "17.59万",
-          "fuelType": "纯电动",
-          "size": "4815x1835x1528"
         }
       ]
     },
