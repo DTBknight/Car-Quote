@@ -735,6 +735,10 @@
                   <label for="internationalShipping" class="block text-sm font-medium text-gray-700">国际运输 (元)</label>
                   <input type="number" id="internationalShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国际运输费用" step="0.01" min="0">
                 </div>
+                <div id="seaFreightContainer" class="space-y-2 hidden">
+                  <label for="seaFreight" class="block text-sm font-medium text-gray-700">海运费 (美元)</label>
+                  <input type="number" id="seaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费（美元）" step="0.01" min="0">
+                </div>
               </div>
             </div>
           </div>
@@ -912,6 +916,10 @@
                   <label for="usedInternationalShipping" class="block text-sm font-medium text-gray-700">国际运输 (元)</label>
                   <input type="number" id="usedInternationalShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国际运输费用" step="0.01" min="0">
                 </div>
+                <div id="usedSeaFreightContainer" class="space-y-2 hidden">
+                  <label for="usedSeaFreight" class="block text-sm font-medium text-gray-700">海运费 (美元)</label>
+                  <input type="number" id="usedSeaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费（美元）" step="0.01" min="0">
+                </div>
               </div>
             </div>
           </div>
@@ -1074,6 +1082,10 @@
                 <div id="newEnergyInternationalShippingContainer" class="space-y-2 hidden">
                   <label for="newEnergyInternationalShipping" class="block text-sm font-medium text-gray-700">国际运输 (元)</label>
                   <input type="number" id="newEnergyInternationalShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国际运输费用" step="0.01" min="0">
+                </div>
+                <div id="newEnergySeaFreightContainer" class="space-y-2 hidden">
+                  <label for="newEnergySeaFreight" class="block text-sm font-medium text-gray-700">海运费 (美元)</label>
+                  <input type="number" id="newEnergySeaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费（美元）" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -1557,8 +1569,10 @@
       const rmbQuote = parseFloat(document.getElementById('rmbQuote').value) || 0;
       const exchangeRate = parseFloat(document.getElementById('exchangeRate').value) || 0;
       const currency = document.getElementById('currency').value;
+      let seaFreight = parseFloat(document.getElementById('seaFreight').value) || 0;
       if (currency && exchangeRate > 0 && rmbQuote > 0) {
-        const finalQuote = rmbQuote / exchangeRate;
+        let finalQuote = rmbQuote / exchangeRate;
+        if (seaFreight > 0) finalQuote += seaFreight;
         document.getElementById('finalQuote').value = Math.round(finalQuote);
         
         // 修改：计算成本价格（新公式）
@@ -1938,6 +1952,45 @@
         }
         calculateNewEnergyAll();
       }
+      // 新车
+      if (quoteTypeState.new === 'CIF') {
+        document.getElementById('seaFreightContainer').classList.remove('hidden');
+      } else {
+        document.getElementById('seaFreightContainer').classList.add('hidden');
+        document.getElementById('seaFreight').value = '';
+      }
+      // 二手车
+      if (quoteTypeState.used === 'CIF') {
+        document.getElementById('usedSeaFreightContainer').classList.remove('hidden');
+      } else {
+        document.getElementById('usedSeaFreightContainer').classList.add('hidden');
+        document.getElementById('usedSeaFreight').value = '';
+      }
+      // 新能源
+      if (quoteTypeState.newEnergyTax === 'CIF') {
+        document.getElementById('newEnergySeaFreightContainer').classList.remove('hidden');
+      } else {
+        document.getElementById('newEnergySeaFreightContainer').classList.add('hidden');
+        document.getElementById('newEnergySeaFreight').value = '';
+      }
+      // 新车运输费用布局
+      const shippingGrid = document.getElementById('shippingGrid');
+      let newCols = 1;
+      if (!document.getElementById('internationalShippingContainer').classList.contains('hidden')) newCols++;
+      if (!document.getElementById('seaFreightContainer').classList.contains('hidden')) newCols++;
+      shippingGrid.className = `grid grid-cols-${newCols} gap-4`;
+      // 二手车运输费用布局
+      const usedShippingGrid = document.getElementById('usedShippingGrid');
+      let usedCols = 1;
+      if (!document.getElementById('usedInternationalShippingContainer').classList.contains('hidden')) usedCols++;
+      if (!document.getElementById('usedSeaFreightContainer').classList.contains('hidden')) usedCols++;
+      usedShippingGrid.className = `grid grid-cols-${usedCols} gap-4`;
+      // 新能源运输费用布局
+      const newEnergyShippingGrid = document.getElementById('newEnergyShippingGrid');
+      let newEnergyCols = 1;
+      if (!document.getElementById('newEnergyInternationalShippingContainer').classList.contains('hidden')) newEnergyCols++;
+      if (!document.getElementById('newEnergySeaFreightContainer').classList.contains('hidden')) newEnergyCols++;
+      newEnergyShippingGrid.className = `grid grid-cols-${newEnergyCols} gap-4`;
     }
 
     // 获取当前活动表单类型
@@ -2104,9 +2157,12 @@
       const purchaseCost = parseFloat(document.getElementById('usedPurchaseCost').value) || 0;
       const rmbQuote = parseFloat(document.getElementById('usedRmbQuote').value) || 0;
       const exchangeRate = parseFloat(document.getElementById('exchangeRateUsed').value) || 0;
+      let seaFreight = parseFloat(document.getElementById('usedSeaFreight').value) || 0;
       if (exchangeRate > 0) {
         document.getElementById('costPriceUsed').value = Math.round(purchaseCost / exchangeRate);
-        document.getElementById('finalQuoteUsed').value = Math.round(rmbQuote / exchangeRate);
+        let finalQuote = rmbQuote / exchangeRate;
+        if (seaFreight > 0) finalQuote += seaFreight;
+        document.getElementById('finalQuoteUsed').value = Math.round(finalQuote);
       } else {
         document.getElementById('costPriceUsed').value = '';
         document.getElementById('finalQuoteUsed').value = '';
@@ -2117,9 +2173,12 @@
       const purchaseCost = parseFloat(document.getElementById('newEnergyPurchaseCost').value) || 0;
       const rmbQuote = parseFloat(document.getElementById('newEnergyRmbQuote').value) || 0;
       const exchangeRate = parseFloat(document.getElementById('exchangeRateNewEnergy').value) || 0;
+      let seaFreight = parseFloat(document.getElementById('newEnergySeaFreight').value) || 0;
       if (exchangeRate > 0) {
         document.getElementById('costPriceNewEnergy').value = Math.round(purchaseCost / exchangeRate);
-        document.getElementById('finalQuoteNewEnergy').value = Math.round(rmbQuote / exchangeRate);
+        let finalQuote = rmbQuote / exchangeRate;
+        if (seaFreight > 0) finalQuote += seaFreight;
+        document.getElementById('finalQuoteNewEnergy').value = Math.round(finalQuote);
       } else {
         document.getElementById('costPriceNewEnergy').value = '';
         document.getElementById('finalQuoteNewEnergy').value = '';
@@ -2132,6 +2191,9 @@
     ['newEnergyPurchaseCost', 'newEnergyRmbQuote', 'exchangeRateNewEnergy'].forEach(id => {
       document.getElementById(id).addEventListener('input', calculateNewEnergyFinalQuote);
     });
+    document.getElementById('seaFreight').addEventListener('input', calculateFinalQuote);
+    document.getElementById('usedSeaFreight').addEventListener('input', calculateUsedCarFinalQuote);
+    document.getElementById('newEnergySeaFreight').addEventListener('input', calculateNewEnergyFinalQuote);
   </script>
 
   <script>
