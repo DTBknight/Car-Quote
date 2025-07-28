@@ -1563,12 +1563,13 @@
         
         // 修改：计算成本价格（新公式）
         const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
+        const compulsoryInsurance = parseFloat(document.getElementById('compulsoryInsurance').value) || 0;
         const taxRefund = parseFloat(document.getElementById('taxRefund').value) || 0;
         const domesticShipping = parseFloat(document.getElementById('domesticShipping').value) || 0;
         const internationalShipping = parseFloat(document.getElementById('internationalShipping').value) || 0;
         const profit = parseFloat(document.getElementById('profit').value) || 0;
         
-        const costPrice = (invoicePrice + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + profit) / exchangeRate;
+        const costPrice = (invoicePrice + compulsoryInsurance + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + profit) / exchangeRate;
         document.getElementById('costPrice').value = Math.round(costPrice);
         
         return finalQuote;
