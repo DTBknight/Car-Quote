@@ -1583,7 +1583,7 @@
         const internationalShipping = parseFloat(document.getElementById('internationalShipping').value) || 0;
         const profit = parseFloat(document.getElementById('profit').value) || 0;
         
-        const costPrice = (invoicePrice + compulsoryInsurance + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + profit) / exchangeRate;
+        const costPrice = (invoicePrice + compulsoryInsurance + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + profit) / exchangeRate + seaFreight;
         document.getElementById('costPrice').value = Math.round(costPrice);
         
         return finalQuote;
@@ -2159,7 +2159,7 @@
       const exchangeRate = parseFloat(document.getElementById('exchangeRateUsed').value) || 0;
       let seaFreight = parseFloat(document.getElementById('usedSeaFreight').value) || 0;
       if (exchangeRate > 0) {
-        document.getElementById('costPriceUsed').value = Math.round(purchaseCost / exchangeRate);
+        document.getElementById('costPriceUsed').value = Math.round(purchaseCost / exchangeRate + seaFreight);
         let finalQuote = rmbQuote / exchangeRate;
         if (seaFreight > 0) finalQuote += seaFreight;
         document.getElementById('finalQuoteUsed').value = Math.round(finalQuote);
@@ -2175,7 +2175,7 @@
       const exchangeRate = parseFloat(document.getElementById('exchangeRateNewEnergy').value) || 0;
       let seaFreight = parseFloat(document.getElementById('newEnergySeaFreight').value) || 0;
       if (exchangeRate > 0) {
-        document.getElementById('costPriceNewEnergy').value = Math.round(purchaseCost / exchangeRate);
+        document.getElementById('costPriceNewEnergy').value = Math.round(purchaseCost / exchangeRate + seaFreight);
         let finalQuote = rmbQuote / exchangeRate;
         if (seaFreight > 0) finalQuote += seaFreight;
         document.getElementById('finalQuoteNewEnergy').value = Math.round(finalQuote);
