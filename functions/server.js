@@ -142,8 +142,9 @@ app.get('/api/brands/:brand', async (req, res) => {
       );
     }
     
+    // 暂时禁用分页，返回所有数据
     // 如果有分页参数，进行分页
-    if (page && limit) {
+    if (page && limit && false) { // 暂时禁用分页
       const startIndex = (page - 1) * limit;
       const endIndex = startIndex + parseInt(limit);
       result.cars = result.cars.slice(startIndex, endIndex);
