@@ -696,30 +696,6 @@
               </div>
               <div class="relative" style="z-index: 99999;">
                 <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入车型名称进行搜索">
-                <div id="searchCarResults" class="hidden absolute z-[99999] mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
-                
-                <!-- 搜索历史记录面板 -->
-                <div id="searchHistoryPanel" class="hidden absolute z-[99999] mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;">
-                  <div class="p-3 border-b border-gray-100">
-                    <div class="flex items-center justify-between">
-                      <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
-                      <button 
-                        type="button" 
-                        id="clearHistoryBtn" 
-                        class="text-xs text-red-500 hover:text-red-700 transition-colors"
-                        title="清除所有历史记录"
-                      >
-                        <i class="fa fa-trash mr-1"></i>清除历史
-                      </button>
-                    </div>
-                  </div>
-                  <div id="searchHistoryList" class="max-h-48 overflow-y-auto">
-                    <!-- 历史记录项将在这里动态生成 -->
-                  </div>
-                  <div id="noHistoryMessage" class="hidden p-4 text-center text-gray-500 text-sm">
-                    <i class="fa fa-info-circle mr-1"></i>暂无搜索历史
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1389,6 +1365,32 @@
       </div>
     </div>
   </main>
+  
+  <!-- 搜索下拉菜单 - 移到body级别避免被容器限制 -->
+  <div id="searchCarResults" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
+  
+  <!-- 搜索历史记录面板 - 移到body级别避免被容器限制 -->
+  <div id="searchHistoryPanel" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
+    <div class="p-3 border-b border-gray-100">
+      <div class="flex items-center justify-between">
+        <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
+        <button 
+          type="button" 
+          id="clearHistoryBtn" 
+          class="text-xs text-red-500 hover:text-red-700 transition-colors"
+          title="清除所有历史记录"
+        >
+          <i class="fa fa-trash mr-1"></i>清除历史
+        </button>
+      </div>
+    </div>
+    <div id="searchHistoryList" class="max-h-48 overflow-y-auto">
+      <!-- 历史记录项将在这里动态生成 -->
+    </div>
+    <div id="noHistoryMessage" class="hidden p-4 text-center text-gray-500 text-sm">
+      <i class="fa fa-info-circle mr-1"></i>暂无搜索历史
+    </div>
+  </div>
 
   <!-- 页脚 -->
   <footer class="bg-white shadow-sm py-8 transition-custom">
@@ -2393,6 +2395,7 @@
         if (!allCarsLoaded) {
           carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">正在加载车型数据...</div>';
           carResultBox.classList.remove('hidden');
+          positionDropdown();
           return;
         }
         carResultBox.innerHTML = '';
@@ -2447,6 +2450,7 @@
         if (results.length === 0) {
           carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
           carResultBox.classList.remove('hidden');
+          positionDropdown();
           return;
         }
         results.slice(0, 20).forEach(result => {
@@ -2492,6 +2496,32 @@
           carResultBox.appendChild(div);
         });
         carResultBox.classList.remove('hidden');
+        positionDropdown();
+      }
+
+      // 定位下拉菜单到搜索输入框下方
+      function positionDropdown() {
+        const input = document.getElementById('searchCarInput');
+        const dropdown = document.getElementById('searchCarResults');
+        const historyPanel = document.getElementById('searchHistoryPanel');
+        
+        if (input && dropdown) {
+          const rect = input.getBoundingClientRect();
+          dropdown.style.position = 'fixed';
+          dropdown.style.top = (rect.bottom + 5) + 'px';
+          dropdown.style.left = rect.left + 'px';
+          dropdown.style.width = rect.width + 'px';
+          dropdown.style.maxWidth = rect.width + 'px';
+        }
+        
+        if (input && historyPanel) {
+          const rect = input.getBoundingClientRect();
+          historyPanel.style.position = 'fixed';
+          historyPanel.style.top = (rect.bottom + 5) + 'px';
+          historyPanel.style.left = rect.left + 'px';
+          historyPanel.style.width = rect.width + 'px';
+          historyPanel.style.maxWidth = rect.width + 'px';
+        }
       }
 
       // 选择车型
@@ -2715,6 +2745,7 @@
         resultsPanel.classList.add('hidden');
         historyPanel.classList.remove('hidden');
         renderSearchHistory();
+        positionDropdown();
       }
       
       // 隐藏搜索历史面板
