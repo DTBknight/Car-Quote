@@ -560,13 +560,14 @@
       display: block;
     }
     
-    /* 卡片悬浮效果 */
-    .card-hover {
-      transition: all 0.3s ease;
-      cursor: pointer;
-      position: relative;
-      overflow: hidden;
-    }
+          /* 卡片悬浮效果 */
+      .card-hover {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+      }
     
     .card-hover:hover {
       transform: translateY(-4px);
@@ -663,12 +664,12 @@
                   <i class="fa fa-history mr-1"></i>历史记录
                 </button>
               </div>
-              <div class="relative">
+              <div class="relative" style="z-index: 10000;">
                 <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入车型名称进行搜索">
-                <div id="searchCarResults" class="hidden absolute z-50 mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
+                <div id="searchCarResults" class="hidden absolute z-[9999] mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
                 
                 <!-- 搜索历史记录面板 -->
-                <div id="searchHistoryPanel" class="hidden absolute z-50 mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;">
+                <div id="searchHistoryPanel" class="hidden absolute z-[9999] mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;">
                   <div class="p-3 border-b border-gray-100">
                     <div class="flex items-center justify-between">
                       <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
