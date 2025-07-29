@@ -26,8 +26,8 @@ app.get('/api/cars', async (req, res) => {
     return res.json(carsCache);
   }
 
-  const dataDir = path.join(__dirname, '..', 'data');
-  
+    const dataDir = path.join(__dirname, 'data');
+
   try {
     const files = await fs.promises.readdir(dataDir);
     const jsonFiles = files.filter(file => file.endsWith('.json') && file !== 'brands.json');
@@ -77,7 +77,7 @@ app.get('/api/brands', async (req, res) => {
     return res.json(brandsCache);
   }
 
-  const dataDir = path.join(__dirname, '..', 'data');
+  const dataDir = path.join(__dirname, 'data');
   
   try {
     // 直接读取brands.json文件
@@ -103,7 +103,7 @@ app.get('/api/brands/:brand', async (req, res) => {
   
   try {
     // 首先读取brands.json来找到对应的文件名
-    const brandsPath = path.join(__dirname, '..', 'data', 'brands.json');
+    const brandsPath = path.join(__dirname, 'data', 'brands.json');
     const brandsData = await fs.promises.readFile(brandsPath, 'utf-8');
     const brands = JSON.parse(brandsData);
     
@@ -113,7 +113,7 @@ app.get('/api/brands/:brand', async (req, res) => {
       return res.status(404).json({ error: '品牌不存在' });
     }
     
-    const dataPath = path.join(__dirname, '..', 'data', brandInfo.file);
+    const dataPath = path.join(__dirname, 'data', brandInfo.file);
     const data = await fs.promises.readFile(dataPath, 'utf-8');
     const carData = JSON.parse(data);
     
