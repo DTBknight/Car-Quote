@@ -1,13 +1,13 @@
 [build]
   publish = "."
-  command = "echo 'No build command needed'"
+  command = "npm install"
 
 [build.environment]
   NODE_VERSION = "18"
 
 [[redirects]]
   from = "/api/*"
-  to = "/server.js"
+  to = "/.netlify/functions/server"
   status = 200
 
 [[redirects]]
@@ -16,5 +16,4 @@
   status = 200
 
 [functions]
-  directory = "."
-  node_bundler = "esbuild" 
+  directory = "functions" 

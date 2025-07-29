@@ -1,7 +1,7 @@
 {
   "name": "car-api-server",
   "version": "1.0.0",
-  "description": "API server for car data (for Vercel deployment)",
+  "description": "API server for car data (for Netlify deployment)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -13,7 +13,8 @@
     "dotenv": "^17.2.0",
     "express": "^4.18.2",
     "puppeteer": "^24.12.1",
-    "user-agents": "^1.1.600"
+    "user-agents": "^1.1.600",
+    "serverless-http": "^3.2.0"
   },
   "engines": {
     "node": ">=18.0.0"

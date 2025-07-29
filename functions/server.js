@@ -1,20 +1,20 @@
 const express = require('express');
+const serverless = require('serverless-http');
 const fs = require('fs');
 const path = require('path');
+
 const app = express();
-const PORT = process.env.PORT || 3000;
 
-// 静态托管根目录下所有文件（如 index.html、js、css、图片等）
-app.use(express.static(__dirname));
-
-// 允许跨域，方便本地前端调试
+// 允许跨域
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
 
+// 获取所有汽车数据
 app.get('/api/cars', (req, res) => {
-  const dataDir = path.join(__dirname, 'data');
+  const dataDir = path.join(__dirname, '..', 'data');
   fs.readdir(dataDir, (err, files) => {
     if (err) return res.status(500).json({ error: '读取数据目录失败' });
     
@@ -22,6 +22,10 @@ app.get('/api/cars', (req, res) => {
     const allCars = [];
     
     let processedFiles = 0;
+    if (jsonFiles.length === 0) {
+      return res.json(allCars);
+    }
+    
     jsonFiles.forEach(file => {
       const filePath = path.join(dataDir, file);
       fs.readFile(filePath, 'utf-8', (err, data) => {
@@ -49,7 +53,7 @@ app.get('/api/cars', (req, res) => {
 
 // 获取所有品牌列表
 app.get('/api/brands', (req, res) => {
-  const dataDir = path.join(__dirname, 'data');
+  const dataDir = path.join(__dirname, '..', 'data');
   fs.readdir(dataDir, (err, files) => {
     if (err) return res.status(500).json({ error: '读取数据目录失败' });
     
@@ -64,7 +68,7 @@ app.get('/api/brands', (req, res) => {
 // 获取特定品牌的车数据
 app.get('/api/brands/:brand', (req, res) => {
   const brand = req.params.brand;
-  const dataPath = path.join(__dirname, 'data', `${brand}.json`);
+  const dataPath = path.join(__dirname, '..', 'data', `${brand}.json`);
   
   fs.readFile(dataPath, 'utf-8', (err, data) => {
     if (err) return res.status(404).json({ error: '品牌不存在' });
@@ -78,15 +82,9 @@ app.get('/api/brands/:brand', (req, res) => {
   });
 });
 
-// 首页路由，返回 index.html
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+// 健康检查
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', message: 'Server is running' });
 });
 
-// 导出app实例供Vercel使用
-module.exports = app;
-
-// 启动服务器
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-}); 
+module.exports.handler = serverless(app); 

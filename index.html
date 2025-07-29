@@ -2209,11 +2209,11 @@
       async function loadAllCars() {
         if (allCarsLoaded) return;
         try {
-          const brandsRes = await fetch('https://dtbknight.github.io/Car-Quote/data/brands.json');
+          const brandsRes = await fetch('/api/brands');
           const brands = await brandsRes.json();
           let carPromises = brands.map(async b => {
             try {
-              const res = await fetch(`https://dtbknight.github.io/Car-Quote/data/${b.file}`);
+              const res = await fetch(`/api/brands/${b.name}`);
               const data = await res.json();
               if (data.cars && Array.isArray(data.cars)) {
                 return data.cars.map(car => ({
