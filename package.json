@@ -4,7 +4,9 @@
   "description": "API server for car data (for Vercel deployment)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "axios": "^1.10.0",
