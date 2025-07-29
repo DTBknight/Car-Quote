@@ -568,6 +568,11 @@
       z-index: 1;
     }
     
+    /* 确保搜索卡片的下拉菜单始终在最顶层 */
+    .search-card .relative {
+      z-index: 99999 !important;
+    }
+    
     .search-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
@@ -586,6 +591,12 @@
       position: relative;
       overflow: hidden;
       z-index: 1;
+    }
+    
+    /* 确保所有其他卡片的z-index都很低，不干扰搜索 */
+    .card-hover,
+    .bg-gray-50.p-6.rounded-lg.border.border-gray-200 {
+      z-index: 1 !important;
     }
     
     .card-hover:hover {
@@ -661,10 +672,10 @@
   <!-- 主要内容区 -->
   <main class="container mx-auto px-4 py-8">
     <!-- 表单卡片 -->
-    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8" style="position: relative;">
+    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
       <form id="carQuoteForm" class="space-y-8">
         <!-- 新增：基础信息卡片上方的灰色卡片，样式与出口类型、报价类型卡片一致 -->
-        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm search-card" style="position: relative; z-index: 10001;">
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm search-card" style="z-index: 99999;">
           <!-- 新增品牌搜索 -->
           <div class="flex w-full gap-4 items-end">
             <!-- 只保留车型搜索栏 -->
@@ -683,8 +694,32 @@
                   <i class="fa fa-history mr-1"></i>历史记录
                 </button>
               </div>
-              <div class="relative" style="z-index: 10000;">
+              <div class="relative" style="z-index: 99999;">
                 <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入车型名称进行搜索">
+                <div id="searchCarResults" class="hidden absolute z-[99999] mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
+                
+                <!-- 搜索历史记录面板 -->
+                <div id="searchHistoryPanel" class="hidden absolute z-[99999] mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;">
+                  <div class="p-3 border-b border-gray-100">
+                    <div class="flex items-center justify-between">
+                      <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
+                      <button 
+                        type="button" 
+                        id="clearHistoryBtn" 
+                        class="text-xs text-red-500 hover:text-red-700 transition-colors"
+                        title="清除所有历史记录"
+                      >
+                        <i class="fa fa-trash mr-1"></i>清除历史
+                      </button>
+                    </div>
+                  </div>
+                  <div id="searchHistoryList" class="max-h-48 overflow-y-auto">
+                    <!-- 历史记录项将在这里动态生成 -->
+                  </div>
+                  <div id="noHistoryMessage" class="hidden p-4 text-center text-gray-500 text-sm">
+                    <i class="fa fa-info-circle mr-1"></i>暂无搜索历史
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -2353,37 +2388,11 @@
         }
       }
 
-      // 定位搜索下拉菜单
-      function positionSearchDropdown() {
-        const input = document.getElementById('searchCarInput');
-        const results = document.getElementById('searchCarResults');
-        const history = document.getElementById('searchHistoryPanel');
-        
-        if (input && results) {
-          const rect = input.getBoundingClientRect();
-          results.style.position = 'fixed';
-          results.style.top = (rect.bottom + 4) + 'px';
-          results.style.left = rect.left + 'px';
-          results.style.width = rect.width + 'px';
-          results.style.zIndex = '99999';
-        }
-        
-        if (input && history) {
-          const rect = input.getBoundingClientRect();
-          history.style.position = 'fixed';
-          history.style.top = (rect.bottom + 4) + 'px';
-          history.style.left = rect.left + 'px';
-          history.style.width = rect.width + 'px';
-          history.style.zIndex = '99999';
-        }
-      }
-      
       // 展示车型搜索结果
       function showCarResults(keyword) {
         if (!allCarsLoaded) {
           carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">正在加载车型数据...</div>';
           carResultBox.classList.remove('hidden');
-          positionSearchDropdown();
           return;
         }
         carResultBox.innerHTML = '';
@@ -2706,7 +2715,6 @@
         resultsPanel.classList.add('hidden');
         historyPanel.classList.remove('hidden');
         renderSearchHistory();
-        positionSearchDropdown();
       }
       
       // 隐藏搜索历史面板
@@ -2832,31 +2840,5 @@
       
     })();
   </script>
-  
-  <!-- 搜索下拉菜单 - 移到body层级避免被遮挡 -->
-  <div id="searchCarResults" class="hidden fixed z-[99999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
-  
-  <!-- 搜索历史记录面板 - 移到body层级避免被遮挡 -->
-  <div id="searchHistoryPanel" class="hidden fixed z-[99999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
-    <div class="p-3 border-b border-gray-100">
-      <div class="flex items-center justify-between">
-        <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
-        <button 
-          type="button" 
-          id="clearHistoryBtn" 
-          class="text-xs text-red-500 hover:text-red-700 transition-colors"
-          title="清除所有历史记录"
-        >
-          <i class="fa fa-trash mr-1"></i>清除历史
-        </button>
-      </div>
-    </div>
-    <div id="searchHistoryList" class="max-h-48 overflow-y-auto">
-      <!-- 历史记录项将在这里动态生成 -->
-    </div>
-    <div id="noHistoryMessage" class="hidden p-4 text-center text-gray-500 text-sm">
-      <i class="fa fa-info-circle mr-1"></i>暂无搜索历史
-    </div>
-  </div>
 </body>
 </html>
