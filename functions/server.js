@@ -83,7 +83,10 @@ app.get('/api/brands', async (req, res) => {
     const files = await fs.promises.readdir(dataDir);
     const brands = files
       .filter(file => file.endsWith('.json') && file !== 'brands.json')
-      .map(file => file.replace('.json', ''));
+      .map(file => ({
+        name: file.replace('.json', ''),
+        file: file
+      }));
     
     // 更新缓存
     brandsCache = brands;
@@ -106,28 +109,32 @@ app.get('/api/brands/:brand', async (req, res) => {
     const data = await fs.promises.readFile(dataPath, 'utf-8');
     const carData = JSON.parse(data);
     
-    let cars = carData.cars || carData || [];
+    // 保持原始数据结构，添加品牌信息
+    const result = {
+      brand: brand,
+      brandImage: carData.brandImage || '',
+      cars: carData.cars || carData || []
+    };
     
-    // 搜索过滤
+    // 如果有搜索参数，进行过滤
     if (search) {
-      cars = cars.filter(car => 
+      result.cars = result.cars.filter(car => 
         car.name && car.name.toLowerCase().includes(search.toLowerCase()) ||
         car.configName && car.configName.toLowerCase().includes(search.toLowerCase())
       );
     }
     
-    // 分页
-    const startIndex = (page - 1) * limit;
-    const endIndex = startIndex + parseInt(limit);
-    const paginatedCars = cars.slice(startIndex, endIndex);
+    // 如果有分页参数，进行分页
+    if (page && limit) {
+      const startIndex = (page - 1) * limit;
+      const endIndex = startIndex + parseInt(limit);
+      result.cars = result.cars.slice(startIndex, endIndex);
+      result.total = result.cars.length;
+      result.page = parseInt(page);
+      result.limit = parseInt(limit);
+    }
     
-    res.json({
-      cars: paginatedCars,
-      total: cars.length,
-      page: parseInt(page),
-      limit: parseInt(limit),
-      totalPages: Math.ceil(cars.length / limit)
-    });
+    res.json(result);
   } catch (err) {
     if (err.code === 'ENOENT') {
       res.status(404).json({ error: '品牌不存在' });
