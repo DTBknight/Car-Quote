@@ -86,9 +86,7 @@ app.get('/', (req, res) => {
 // 导出app实例供Vercel使用
 module.exports = app;
 
-// 只在非Vercel环境下启动服务器
-if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
-  app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-  });
-} 
+// 启动服务器
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+}); 
