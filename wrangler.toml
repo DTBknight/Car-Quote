@@ -1,0 +1,18 @@
+name = "car-quote"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "."
+
+[functions]
+directory = "."
+
+[[redirects]]
+from = "/api/*"
+to = "/server.js"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200 
