@@ -448,52 +448,45 @@
     }
   </style>
   <style>
-    /* ...原有样式... */
-    /* 出口类型按钮组等分布局，移动端自动换行 */
-    .export-type-group {
+    /* 三个卡片等宽布局 */
+    .card-row {
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
     }
-    .export-type-group .export-type-btn {
+    .card-row > div {
       flex: 1 1 0%;
       min-width: 0;
-      max-width: 100%;
-      text-align: center;
     }
-    @media (max-width: 640px) {
-      .export-type-group {
-        gap: 8px;
+    @media (max-width: 768px) {
+      .card-row {
+        flex-direction: column;
       }
-      .export-type-group .export-type-btn {
+      .card-row > div {
         flex: 1 1 100%;
-        min-width: 100px;
-        max-width: 100%;
-        margin: 0 auto;
       }
     }
-    /* 报价类型按钮组等分布局，移动端自动换行 */
-    .quote-type-group {
+    
+    /* 出口类型按钮垂直布局 */
+    .export-type-vertical {
       display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 8px;
     }
-    .quote-type-group label {
-      flex: 1 1 0%;
-      min-width: 0;
-      max-width: 100%;
+    .export-type-vertical .export-type-btn {
+      width: 100%;
       text-align: center;
     }
-    @media (max-width: 640px) {
-      .quote-type-group {
-        gap: 8px;
-      }
-      .quote-type-group label {
-        flex: 1 1 100%;
-        min-width: 100px;
-        max-width: 100%;
-        margin: 0 auto;
-      }
+    
+    /* 报价类型按钮垂直布局 */
+    .quote-type-vertical {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .quote-type-vertical label {
+      width: 100%;
+      text-align: center;
     }
   </style>
   <!-- 税费及服务费用卡片内输入框宽度与基础信息一致，整体更紧凑 -->
@@ -555,22 +548,59 @@
     <!-- 表单卡片 -->
     <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
       <form id="carQuoteForm" class="space-y-8">
-        <!-- 新增：基础信息卡片上方的灰色卡片，样式与出口类型、报价类型卡片一致 -->
-        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm">
-          <!-- 新增品牌搜索 -->
-          <div class="flex w-full gap-4 items-end">
-            <!-- 只保留车型搜索栏 -->
-            <div class="flex-1 min-w-0">
-              <div class="mb-2 text-lg font-semibold text-gray-700 flex items-center">
-                <i class="fa fa-search text-primary mr-2"></i>搜索车型
-              </div>
-              <div class="relative">
-                <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入车型名称进行搜索">
-                <div id="searchCarResults" class="hidden absolute z-50 mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
-              </div>
+        <!-- 搜索车型、出口类型、报价类型卡片并排显示 -->
+        <div class="card-row mb-8">
+          <!-- 搜索车型卡片 -->
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+              <i class="fa fa-search text-primary mr-2"></i>搜索车型
+            </h4>
+            <div class="relative">
+              <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入车型名称进行搜索">
+              <div id="searchCarResults" class="hidden absolute z-50 mt-1 w-full max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="top:100%;left:0;"></div>
+            </div>
+          </div>
+          
+          <!-- 出口类型卡片 -->
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+              <i class="fa fa-ship text-primary mr-2"></i>出口类型
+            </h4>
+            <div class="export-type-vertical">
+              <button type="button" class="export-type-btn h-12 flex items-center justify-center px-4 py-2 rounded-lg font-medium border border-primary text-primary bg-white shadow-sm transition-custom" data-type="new">
+                <i class="fa fa-car mr-2"></i>新车
+              </button>
+              <button type="button" class="export-type-btn h-12 flex items-center justify-center px-4 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="used">
+                <i class="fa fa-refresh mr-2"></i>二手车
+              </button>
+              <button type="button" class="export-type-btn h-12 flex items-center justify-center px-4 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="newEnergyTax">
+                <i class="fa fa-leaf mr-2"></i>新能源车
+              </button>
+            </div>
+          </div>
+          
+          <!-- 报价类型卡片 -->
+          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+              <i class="fa fa-dollar text-primary mr-2"></i>报价类型
+            </h4>
+            <div class="quote-type-vertical">
+              <label class="inline-flex items-center h-12 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom">
+                <input type="radio" name="globalQuoteType" value="EXW" class="quote-type-radio text-primary focus:ring-primary" checked>
+                <span class="ml-2">EXW</span>
+              </label>
+              <label class="inline-flex items-center h-12 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom">
+                <input type="radio" name="globalQuoteType" value="FOB" class="quote-type-radio text-primary focus:ring-primary">
+                <span class="ml-2">FOB</span>
+              </label>
+              <label class="inline-flex items-center h-12 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom">
+                <input type="radio" name="globalQuoteType" value="CIF" class="quote-type-radio text-primary focus:ring-primary">
+                <span class="ml-2">CIF</span>
+              </label>
             </div>
           </div>
         </div>
+        
         <!-- 基础信息部分 -->
         <section id="baseInfoSection" class="border-b border-gray-100 pb-6 hidden">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
@@ -621,46 +651,6 @@
             </div>
           </div>
         </section>
-        <!-- 出口类型与报价类型卡片并排 -->
-        <div class="flex flex-col md:flex-row gap-4 mb-8">
-          <!-- 出口类型卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 w-full md:w-1/2">
-            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-ship text-primary mr-2"></i>出口类型
-            </h4>
-            <div class="flex gap-4 export-type-group">
-              <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-primary text-primary bg-white shadow-sm transition-custom" data-type="new">
-                <i class="fa fa-car mr-2"></i>新车
-              </button>
-              <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="used">
-                <i class="fa fa-refresh mr-2"></i>二手车
-              </button>
-              <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="newEnergyTax">
-                <i class="fa fa-leaf mr-2"></i>新能源车
-              </button>
-            </div>
-          </div>
-          <!-- 报价类型卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 w-full md:w-1/2">
-            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-dollar text-primary mr-2"></i>报价类型
-            </h4>
-            <div class="flex gap-4 quote-type-group">
-              <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
-                <input type="radio" name="globalQuoteType" value="EXW" class="quote-type-radio text-primary focus:ring-primary" checked>
-                <span class="ml-2">EXW</span>
-              </label>
-              <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
-                <input type="radio" name="globalQuoteType" value="FOB" class="quote-type-radio text-primary focus:ring-primary">
-                <span class="ml-2">FOB</span>
-              </label>
-              <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
-                <input type="radio" name="globalQuoteType" value="CIF" class="quote-type-radio text-primary focus:ring-primary">
-                <span class="ml-2">CIF</span>
-              </label>
-            </div>
-          </div>
-        </div>
         
         <!-- 新车表单 (默认显示) -->
         <section id="newCarForm" class="space-y-8">
