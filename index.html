@@ -560,14 +560,33 @@
       display: block;
     }
     
-          /* 卡片悬浮效果 */
-      .card-hover {
-        transition: all 0.3s ease;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-        z-index: 1;
-      }
+    /* 搜索卡片特殊样式 - 不包含overflow hidden */
+    .search-card {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .search-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      border-color: var(--primary-color);
+    }
+    
+    .search-card:active {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+    
+    /* 卡片悬浮效果 */
+    .card-hover {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
     
     .card-hover:hover {
       transform: translateY(-4px);
@@ -645,7 +664,7 @@
     <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
       <form id="carQuoteForm" class="space-y-8">
         <!-- 新增：基础信息卡片上方的灰色卡片，样式与出口类型、报价类型卡片一致 -->
-        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm card-hover">
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm search-card">
           <!-- 新增品牌搜索 -->
           <div class="flex w-full gap-4 items-end">
             <!-- 只保留车型搜索栏 -->
@@ -2754,6 +2773,11 @@
         const cards = document.querySelectorAll('.bg-gray-50.p-6.rounded-lg.border.border-gray-200');
         
         cards.forEach(card => {
+          // 跳过搜索卡片，因为它已经有search-card类
+          if (card.classList.contains('search-card')) {
+            return;
+          }
+          
           // 添加悬浮类
           if (!card.classList.contains('card-hover')) {
             card.classList.add('card-hover');
