@@ -559,6 +559,70 @@
       width: 100%;
       display: block;
     }
+    
+    /* 卡片悬浮效果 */
+    .card-hover {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      border-color: var(--primary-color);
+    }
+    
+    .card-hover:active {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+    
+    /* 卡片点击悬浮动画 */
+    .card-float {
+      animation: cardFloat 0.6s ease-out;
+    }
+    
+    @keyframes cardFloat {
+      0% {
+        transform: translateY(0);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      50% {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(22, 93, 255, 0.3);
+      }
+      100% {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      }
+    }
+    
+    /* 深色模式卡片悬浮效果 */
+    [data-theme="dark"] .card-hover:hover {
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      border-color: var(--primary-color);
+    }
+    
+    [data-theme="dark"] .card-float {
+      animation: darkCardFloat 0.6s ease-out;
+    }
+    
+    @keyframes darkCardFloat {
+      0% {
+        transform: translateY(0);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      }
+      50% {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(22, 93, 255, 0.4);
+      }
+      100% {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      }
+    }
   </style>
 </head>
 
@@ -580,7 +644,7 @@
     <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
       <form id="carQuoteForm" class="space-y-8">
         <!-- 新增：基础信息卡片上方的灰色卡片，样式与出口类型、报价类型卡片一致 -->
-        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm">
+        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm card-hover">
           <!-- 新增品牌搜索 -->
           <div class="flex w-full gap-4 items-end">
             <!-- 只保留车型搜索栏 -->
@@ -629,11 +693,11 @@
             </div>
           </div>
         </div>
-        <!-- 基础信息部分 -->
-        <section id="baseInfoSection" class="mb-6 hidden">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- 基础信息卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                  <!-- 基础信息部分 -->
+          <section id="baseInfoSection" class="mb-6 hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- 基础信息卡片 -->
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover">
               <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
@@ -670,8 +734,8 @@
                 </div>
               </div>
             </div>
-            <!-- 车型图片卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                          <!-- 车型图片卡片 -->
+              <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover">
               <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-car text-primary mr-2"></i>车型图片
               </h3>
@@ -2682,6 +2746,61 @@
           }
         }, 200);
       });
+      
+      // 卡片悬浮效果
+      function initCardHoverEffects() {
+        // 为所有卡片添加悬浮效果
+        const cards = document.querySelectorAll('.bg-gray-50.p-6.rounded-lg.border.border-gray-200');
+        
+        cards.forEach(card => {
+          // 添加悬浮类
+          if (!card.classList.contains('card-hover')) {
+            card.classList.add('card-hover');
+          }
+          
+          // 添加点击悬浮动画
+          card.addEventListener('click', function(e) {
+            // 如果点击的是输入框、按钮或其他交互元素，不触发悬浮效果
+            if (e.target.tagName === 'INPUT' || 
+                e.target.tagName === 'BUTTON' || 
+                e.target.tagName === 'SELECT' || 
+                e.target.tagName === 'LABEL' ||
+                e.target.closest('input') ||
+                e.target.closest('button') ||
+                e.target.closest('select') ||
+                e.target.closest('label')) {
+              return;
+            }
+            
+            // 移除之前的动画类
+            card.classList.remove('card-float');
+            
+            // 触发重排以重新开始动画
+            void card.offsetWidth;
+            
+            // 添加悬浮动画类
+            card.classList.add('card-float');
+            
+            // 动画结束后移除类
+            setTimeout(() => {
+              card.classList.remove('card-float');
+            }, 600);
+          });
+        });
+      }
+      
+      // 页面加载完成后初始化卡片悬浮效果
+      document.addEventListener('DOMContentLoaded', function() {
+        initCardHoverEffects();
+      });
+      
+      // 当动态内容加载后重新初始化悬浮效果
+      const originalFillBaseInfo = fillBaseInfo;
+      fillBaseInfo = function(carData) {
+        originalFillBaseInfo(carData);
+        // 延迟一点时间确保DOM更新完成
+        setTimeout(initCardHoverEffects, 100);
+      };
       
     })();
   </script>
