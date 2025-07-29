@@ -2,6 +2,7 @@ const express = require('express');
 const serverless = require('serverless-http');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
 const app = express();
 
@@ -686,9 +687,10 @@ app.get('/api/brands/:brand', async (req, res) => {
       return res.status(404).json({ error: '品牌不存在' });
     }
     
-    const dataPath = path.join('./data', brandInfo.file);
-    const data = await fs.promises.readFile(dataPath, 'utf-8');
-    const carData = JSON.parse(data);
+    // 通过HTTP请求获取车型数据
+    const dataUrl = `https://dbtknight.netlify.app/data/${brandInfo.file}`;
+    const response = await axios.get(dataUrl);
+    const carData = response.data;
     
     // 保持原始数据结构，添加品牌信息
     const result = {
