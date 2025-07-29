@@ -1,4 +1,4 @@
-name: DBT Messenger - Data Collector
+name: Data Update
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # 允许手动触发
   push:
     paths:
-      - 'dbt-messenger/**' # 当DBT Messenger代码更新时也执行
+      - 'data-processor/**' # 当数据处理器代码更新时也执行
 
 jobs:
   scrape:
@@ -22,19 +22,19 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: dbt-messenger/package-lock.json
+        cache-dependency-path: data-processor/package-lock.json
         
     - name: Install dependencies
       run: |
-        cd dbt-messenger
+        cd data-processor
         npm ci
         
-    - name: Run DBT Messenger
+    - name: Run Data Processor
       env:
         TARGET_BASE_URL: ${{ secrets.TARGET_BASE_URL }}
         TARGET_API_BASE_URL: ${{ secrets.TARGET_API_BASE_URL }}
       run: |
-        cd dbt-messenger
+        cd data-processor
         node index.js
         
     - name: Check for changes
@@ -52,16 +52,16 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Update car data $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "Update data $(date '+%Y-%m-%d %H:%M:%S')"
         git push
         
     - name: Create summary
       run: |
-        echo "## DBT Messenger执行结果" >> $GITHUB_STEP_SUMMARY
+        echo "## 数据更新结果" >> $GITHUB_STEP_SUMMARY
         if [ -f "data/cars.json" ]; then
           car_count=$(jq length data/cars.json)
-          echo "- 成功收集 $car_count 个车型数据" >> $GITHUB_STEP_SUMMARY
-          echo "- 数据更新时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+          echo "- 更新了 $car_count 条数据" >> $GITHUB_STEP_SUMMARY
+          echo "- 更新时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
         else
-          echo "- 收集失败，未生成数据文件" >> $GITHUB_STEP_SUMMARY
+          echo "- 更新失败" >> $GITHUB_STEP_SUMMARY
         fi 

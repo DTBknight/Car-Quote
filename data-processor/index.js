@@ -555,20 +555,20 @@ if (require.main === module) {
       for (let idx = 0; idx < total; idx++) {
         const brandName = brandList[idx];
         const dest = path.join(__dirname, '..', 'data', `${brandName}.json`);
-        console.log(`\n[${idx + 1}/${total}] 正在采集品牌: ${brandName}`);
+        console.log(`\n[${idx + 1}/${total}] 正在处理: ${brandName}`);
         if (fs.existsSync(dest)) {
           try {
             const content = JSON.parse(fs.readFileSync(dest, 'utf-8'));
             if (content && content.cars && content.cars.length > 0) {
-              console.log(`⚠️  ${brandName} 已存在且有数据，跳过采集`);
+              console.log(`⚠️  ${brandName} 已存在且有数据，跳过处理`);
               continue;
             } else {
               fs.unlinkSync(dest);
-              console.log(`⚠️  ${brandName} 已存在但无有效数据，重新采集`);
+              console.log(`⚠️  ${brandName} 已存在但无有效数据，重新处理`);
             }
           } catch (e) {
             fs.unlinkSync(dest);
-            console.log(`⚠️  ${brandName} 已存在但读取失败，重新采集`);
+                          console.log(`⚠️  ${brandName} 已存在但读取失败，重新处理`);
           }
         }
         try {
@@ -604,23 +604,23 @@ if (require.main === module) {
               fs.unlinkSync(newPath);
             }
           } else {
-            console.log(`❌ [${idx + 1}/${total}] ${brandName} 未采集到数据`);
+            console.log(`❌ [${idx + 1}/${total}] ${brandName} 未获取到数据`);
           }
         } catch (e) {
-          console.error(`💥 [${idx + 1}/${total}] 采集品牌 ${brandName} 失败:`, e.message);
+          console.error(`💥 [${idx + 1}/${total}] 处理品牌 ${brandName} 失败:`, e.message);
         }
       }
-      console.log('\n🎉 全部品牌采集完成！');
+      console.log('\n🎉 全部品牌处理完成！');
       process.exit(0);
     })();
   } else {
     collectCarData(brand)
       .then(() => {
-        console.log('DBT Messenger执行成功！');
+        console.log('数据处理完成！');
         process.exit(0);
       })
       .catch((error) => {
-        console.error('DBT Messenger执行失败:', error);
+        console.error('数据处理失败:', error);
         process.exit(1);
       });
   }
