@@ -633,11 +633,11 @@
         <section id="baseInfoSection" class="mb-6 hidden">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- 基础信息卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col">
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
-              <div class="grid grid-cols-1 gap-2 flex-1">
+              <div class="grid grid-cols-1 gap-3">
                 <!-- 第一行：厂商/级别 -->
                 <div>
                   <div class="text-sm font-medium text-gray-700 mb-1">厂商/级别</div>
@@ -671,11 +671,11 @@
               </div>
             </div>
             <!-- 车型图片卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col">
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-car text-primary mr-2"></i>车型图片
               </h3>
-              <div id="carMainImageBox" class="flex-1 flex items-center justify-center min-h-0">
+              <div id="carMainImageBox" class="h-48 flex items-center justify-center">
                 <!-- 车型图片自动加载 -->
               </div>
             </div>
@@ -2439,7 +2439,7 @@
           const carImg = document.createElement('img');
           carImg.src = car.mainImage;
           carImg.alt = car.carName;
-          carImg.className = 'w-full h-full object-contain rounded shadow';
+          carImg.className = 'max-w-full max-h-full object-contain rounded shadow';
           carImgBox.appendChild(carImg);
         } else {
           // 如果没有图片，显示占位符
