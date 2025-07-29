@@ -875,10 +875,10 @@
           </div>
           <!-- 第三排：报价信息、汇率及最终报价 -->
           <div class="grid md:grid-cols-3 gap-4">
-            <!-- 成本加价卡片 -->
+            <!-- 人民币价格卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-dollar text-primary mr-2"></i>成本加价
+                <i class="fa fa-dollar text-primary mr-2"></i>人民币价格
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -892,8 +892,8 @@
               </div>
               <div class="mt-4">
                 <div class="space-y-2">
-                  <label for="rmbQuote" class="block text-sm font-medium text-gray-700">人民币售价 (元)</label>
-                  <input type="number" id="rmbQuote" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <label for="rmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
+                  <input type="number" id="rmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -1056,10 +1056,10 @@
           </div>
           <!-- 第二排：报价信息和汇率卡片 -->
           <div class="grid md:grid-cols-3 gap-4">
-            <!-- 成本加价卡片 -->
+            <!-- 人民币价格卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-dollar text-primary mr-2"></i>成本加价
+                <i class="fa fa-dollar text-primary mr-2"></i>人民币价格
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -1073,8 +1073,8 @@
               </div>
               <div class="mt-4">
                 <div class="space-y-2">
-                  <label for="usedRmbQuote" class="block text-sm font-medium text-gray-700">人民币售价 (元)</label>
-                  <input type="number" id="usedRmbQuote" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <label for="usedRmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
+                  <input type="number" id="usedRmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -1223,10 +1223,10 @@
           </div>
           <!-- 第二排：报价信息和汇率卡片 -->
           <div class="grid md:grid-cols-3 gap-4">
-            <!-- 成本加价卡片 -->
+            <!-- 人民币价格卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-dollar text-primary mr-2"></i>成本加价
+                <i class="fa fa-dollar text-primary mr-2"></i>人民币价格
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -1240,8 +1240,8 @@
               </div>
               <div class="mt-4">
                 <div class="space-y-2">
-                  <label for="newEnergyRmbQuote" class="block text-sm font-medium text-gray-700">人民币售价 (元)</label>
-                  <input type="number" id="newEnergyRmbQuote" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <label for="newEnergyRmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
+                  <input type="number" id="newEnergyRmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -1579,7 +1579,7 @@
       const purchaseCost = parseFloat(document.getElementById('purchaseCost').value) || 0;
       const markup = parseFloat(document.getElementById('markup').value) || 0;
       const rmbQuote = purchaseCost + markup;
-      document.getElementById('rmbQuote').value = Math.round(rmbQuote);
+      document.getElementById('rmbPrice').value = Math.round(rmbQuote);
       return rmbQuote;
     }
     
@@ -1639,7 +1639,7 @@
       const purchaseCost = parseFloat(document.getElementById('usedPurchaseCost').value) || 0;
       const markup = parseFloat(document.getElementById('usedMarkup').value) || 0;
       const rmbQuote = purchaseCost + markup;
-      const rmbInput = document.getElementById('usedRmbQuote');
+      const rmbInput = document.getElementById('usedRmbPrice');
       rmbInput.value = Math.round(rmbQuote);
       rmbInput.dispatchEvent(new Event('input'));
       return rmbQuote;
@@ -1715,7 +1715,7 @@
       const purchaseCost = parseFloat(document.getElementById('newEnergyPurchaseCost').value) || 0;
       const markup = parseFloat(document.getElementById('newEnergyMarkup').value) || 0;
       const rmbQuote = purchaseCost + markup;
-      const rmbInput = document.getElementById('newEnergyRmbQuote');
+      const rmbInput = document.getElementById('newEnergyRmbPrice');
       rmbInput.value = Math.round(rmbQuote);
       rmbInput.dispatchEvent(new Event('input'));
       return rmbQuote;
@@ -1723,7 +1723,7 @@
     
     // 计算最终报价（只用新车表单字段）
     function calculateFinalQuote() {
-      const rmbQuote = parseFloat(document.getElementById('rmbQuote').value) || 0;
+      const rmbQuote = parseFloat(document.getElementById('rmbPrice').value) || 0;
       const exchangeRate = parseFloat(document.getElementById('exchangeRate').value) || 0;
       const currency = document.getElementById('currency').value;
       let seaFreight = parseFloat(document.getElementById('seaFreight').value) || 0;
@@ -1814,8 +1814,8 @@
     document.getElementById('newEnergyMarkup').addEventListener('input', calculateNewEnergyAll);
     
     // 新车、二手车输入变动时都重新计算最终报价
-    document.getElementById('rmbQuote').addEventListener('input', calculateFinalQuote);
-    document.getElementById('usedRmbQuote').addEventListener('input', calculateFinalQuote);
+    document.getElementById('rmbPrice').addEventListener('input', calculateFinalQuote);
+    document.getElementById('usedRmbPrice').addEventListener('input', calculateFinalQuote);
     
     // 让汇率和最终报价在新车/二手车/新能源表单下方显示
     function moveCurrencySection() {
@@ -1890,7 +1890,7 @@
       addCostDetail(costDetails, '退税', document.getElementById('taxRefund').value, true);
       addCostDetail(costDetails, '购车成本', document.getElementById('purchaseCost').value, false, true);
       // 报价汇总
-      document.getElementById('resultRmbQuote').textContent = formatCurrencyInteger(Math.round(parseFloat(document.getElementById('rmbQuote').value) || 0));
+      document.getElementById('resultRmbQuote').textContent = formatCurrencyInteger(Math.round(parseFloat(document.getElementById('rmbPrice').value) || 0));
       // 最终报价
       const currency = document.getElementById('currency').value;
       const currencyText = currency === 'USD' ? '美元 (USD)' : currency === 'EUR' ? '欧元 (EUR)' : currency === 'GBP' ? '英镑 (GBP)' : '未选择';
@@ -2312,7 +2312,7 @@
     // 二手车最终报价计算
     function calculateUsedCarFinalQuote() {
       const purchaseCost = parseFloat(document.getElementById('usedPurchaseCost').value) || 0;
-      const rmbQuote = parseFloat(document.getElementById('usedRmbQuote').value) || 0;
+      const rmbQuote = parseFloat(document.getElementById('usedRmbPrice').value) || 0;
       const exchangeRate = parseFloat(document.getElementById('exchangeRateUsed').value) || 0;
       let seaFreight = parseFloat(document.getElementById('usedSeaFreight').value) || 0;
       if (exchangeRate > 0) {
@@ -2328,7 +2328,7 @@
     // 新能源车最终报价计算
     function calculateNewEnergyFinalQuote() {
       const purchaseCost = parseFloat(document.getElementById('newEnergyPurchaseCost').value) || 0;
-      const rmbQuote = parseFloat(document.getElementById('newEnergyRmbQuote').value) || 0;
+      const rmbQuote = parseFloat(document.getElementById('newEnergyRmbPrice').value) || 0;
       const exchangeRate = parseFloat(document.getElementById('exchangeRateNewEnergy').value) || 0;
       let seaFreight = parseFloat(document.getElementById('newEnergySeaFreight').value) || 0;
       if (exchangeRate > 0) {
@@ -2342,10 +2342,10 @@
       }
     }
     // 事件监听
-    ['usedPurchaseCost', 'usedRmbQuote', 'exchangeRateUsed'].forEach(id => {
+    ['usedPurchaseCost', 'usedRmbPrice', 'exchangeRateUsed'].forEach(id => {
       document.getElementById(id).addEventListener('input', calculateUsedCarFinalQuote);
     });
-    ['newEnergyPurchaseCost', 'newEnergyRmbQuote', 'exchangeRateNewEnergy'].forEach(id => {
+    ['newEnergyPurchaseCost', 'newEnergyRmbPrice', 'exchangeRateNewEnergy'].forEach(id => {
       document.getElementById(id).addEventListener('input', calculateNewEnergyFinalQuote);
     });
     document.getElementById('seaFreight').addEventListener('input', calculateFinalQuote);
