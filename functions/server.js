@@ -80,13 +80,10 @@ app.get('/api/brands', async (req, res) => {
   const dataDir = path.join(__dirname, '..', 'data');
   
   try {
-    const files = await fs.promises.readdir(dataDir);
-    const brands = files
-      .filter(file => file.endsWith('.json') && file !== 'brands.json')
-      .map(file => ({
-        name: file.replace('.json', ''),
-        file: file
-      }));
+    // 直接读取brands.json文件
+    const brandsPath = path.join(dataDir, 'brands.json');
+    const brandsData = await fs.promises.readFile(brandsPath, 'utf-8');
+    const brands = JSON.parse(brandsData);
     
     // 更新缓存
     brandsCache = brands;
@@ -94,7 +91,8 @@ app.get('/api/brands', async (req, res) => {
     
     res.json(brands);
   } catch (err) {
-    res.status(500).json({ error: '读取数据目录失败' });
+    console.error('读取brands.json失败:', err);
+    res.status(500).json({ error: '读取品牌数据失败' });
   }
 });
 
@@ -103,9 +101,19 @@ app.get('/api/brands/:brand', async (req, res) => {
   const brand = req.params.brand;
   const { page = 1, limit = 20, search = '' } = req.query;
   
-  const dataPath = path.join(__dirname, '..', 'data', `${brand}.json`);
-  
   try {
+    // 首先读取brands.json来找到对应的文件名
+    const brandsPath = path.join(__dirname, '..', 'data', 'brands.json');
+    const brandsData = await fs.promises.readFile(brandsPath, 'utf-8');
+    const brands = JSON.parse(brandsData);
+    
+    // 查找匹配的品牌
+    const brandInfo = brands.find(b => b.name === brand);
+    if (!brandInfo) {
+      return res.status(404).json({ error: '品牌不存在' });
+    }
+    
+    const dataPath = path.join(__dirname, '..', 'data', brandInfo.file);
     const data = await fs.promises.readFile(dataPath, 'utf-8');
     const carData = JSON.parse(data);
     
