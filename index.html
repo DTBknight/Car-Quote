@@ -2306,45 +2306,48 @@
           return;
         }
         const results = [];
-        // 新增：品牌名匹配，优先展示该品牌下所有车型
-        const matchedBrands = new Set();
+        
+        // 首先尝试车型名和配置名匹配（优先级更高）
         allCars.forEach(car => {
-          if (car.brand && car.brand.toLowerCase().includes(keyword.toLowerCase())) {
-            matchedBrands.add(car.brand);
+          if (car.carName && car.carName.toLowerCase().includes(keyword.toLowerCase())) {
+            if (car.configs && car.configs.length > 0) {
+              car.configs.forEach(config => {
+                results.push({ car, config, displayText: config.configName });
+              });
+            } else {
+              results.push({ car, config: null, displayText: car.carName });
+            }
+          } else if (car.configs) {
+            car.configs.forEach(config => {
+              if (config.configName && config.configName.toLowerCase().includes(keyword.toLowerCase())) {
+                results.push({ car, config, displayText: config.configName });
+              }
+            });
           }
         });
-        if (matchedBrands.size > 0) {
-          // 展示所有匹配品牌下的车型
+        
+        // 如果车型名和配置名都没有匹配到，再尝试品牌名匹配
+        if (results.length === 0) {
+          const matchedBrands = new Set();
           allCars.forEach(car => {
-            if (matchedBrands.has(car.brand)) {
-              if (car.configs && car.configs.length > 0) {
-                car.configs.forEach(config => {
-                  results.push({ car, config, displayText: config.configName });
-                });
-              } else {
-                results.push({ car, config: null, displayText: car.carName });
-              }
+            if (car.brand && car.brand.toLowerCase().includes(keyword.toLowerCase())) {
+              matchedBrands.add(car.brand);
             }
           });
-        } else {
-          // 原有车型名/配置名模糊匹配
-          allCars.forEach(car => {
-            if (car.carName && car.carName.toLowerCase().includes(keyword.toLowerCase())) {
-              if (car.configs && car.configs.length > 0) {
-                car.configs.forEach(config => {
-                  results.push({ car, config, displayText: config.configName });
-                });
-              } else {
-                results.push({ car, config: null, displayText: car.carName });
-              }
-            } else if (car.configs) {
-              car.configs.forEach(config => {
-                if (config.configName && config.configName.toLowerCase().includes(keyword.toLowerCase())) {
-                  results.push({ car, config, displayText: config.configName });
+          if (matchedBrands.size > 0) {
+            // 展示所有匹配品牌下的车型
+            allCars.forEach(car => {
+              if (matchedBrands.has(car.brand)) {
+                if (car.configs && car.configs.length > 0) {
+                  car.configs.forEach(config => {
+                    results.push({ car, config, displayText: config.configName });
+                  });
+                } else {
+                  results.push({ car, config: null, displayText: car.carName });
                 }
-              });
-            }
-          });
+              }
+            });
+          }
         }
         if (results.length === 0) {
           carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
