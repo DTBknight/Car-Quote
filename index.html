@@ -875,10 +875,10 @@
           </div>
           <!-- 第三排：报价信息、汇率及最终报价 -->
           <div class="grid md:grid-cols-3 gap-4">
-            <!-- 成本利润卡片 -->
+            <!-- 成本加价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-dollar text-primary mr-2"></i>成本利润
+                <i class="fa fa-dollar text-primary mr-2"></i>成本加价
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -886,8 +886,8 @@
                   <input type="number" id="purchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
-                  <label for="profit" class="block text-sm font-medium text-gray-700">利润 (元)</label>
-                  <input type="number" id="profit" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望利润" step="0.01" min="0">
+                  <label for="markup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
+                  <input type="number" id="markup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
                 </div>
               </div>
               <div class="mt-4">
@@ -1056,10 +1056,10 @@
           </div>
           <!-- 第二排：报价信息和汇率卡片 -->
           <div class="grid md:grid-cols-3 gap-4">
-            <!-- 成本利润卡片 -->
+            <!-- 成本加价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-dollar text-primary mr-2"></i>成本利润
+                <i class="fa fa-dollar text-primary mr-2"></i>成本加价
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -1067,8 +1067,8 @@
                   <input type="number" id="usedPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
-                  <label for="usedProfit" class="block text-sm font-medium text-gray-700">利润 (元)</label>
-                  <input type="number" id="usedProfit" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望利润" step="0.01" min="0">
+                  <label for="usedMarkup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
+                  <input type="number" id="usedMarkup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
                 </div>
               </div>
               <div class="mt-4">
@@ -1223,10 +1223,10 @@
           </div>
           <!-- 第二排：报价信息和汇率卡片 -->
           <div class="grid md:grid-cols-3 gap-4">
-            <!-- 成本利润卡片 -->
+            <!-- 成本加价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-dollar text-primary mr-2"></i>成本利润
+                <i class="fa fa-dollar text-primary mr-2"></i>成本加价
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -1234,8 +1234,8 @@
                   <input type="number" id="newEnergyPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
-                  <label for="newEnergyProfit" class="block text-sm font-medium text-gray-700">利润 (元)</label>
-                  <input type="number" id="newEnergyProfit" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望利润" step="0.01" min="0">
+                  <label for="newEnergyMarkup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
+                  <input type="number" id="newEnergyMarkup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
                 </div>
               </div>
               <div class="mt-4">
@@ -1577,8 +1577,8 @@
     // 新车计算 - 人民币报价
     function calculateNewCarRmbQuote() {
       const purchaseCost = parseFloat(document.getElementById('purchaseCost').value) || 0;
-      const profit = parseFloat(document.getElementById('profit').value) || 0;
-      const rmbQuote = purchaseCost + profit;
+      const markup = parseFloat(document.getElementById('markup').value) || 0;
+      const rmbQuote = purchaseCost + markup;
       document.getElementById('rmbQuote').value = Math.round(rmbQuote);
       return rmbQuote;
     }
@@ -1637,8 +1637,8 @@
     // 二手车计算 - 人民币报价
     function calculateUsedCarRmbQuote() {
       const purchaseCost = parseFloat(document.getElementById('usedPurchaseCost').value) || 0;
-      const profit = parseFloat(document.getElementById('usedProfit').value) || 0;
-      const rmbQuote = purchaseCost + profit;
+      const markup = parseFloat(document.getElementById('usedMarkup').value) || 0;
+      const rmbQuote = purchaseCost + markup;
       const rmbInput = document.getElementById('usedRmbQuote');
       rmbInput.value = Math.round(rmbQuote);
       rmbInput.dispatchEvent(new Event('input'));
@@ -1713,8 +1713,8 @@
     // 新能源计算 - 人民币报价
     function calculateNewEnergyRmbQuote() {
       const purchaseCost = parseFloat(document.getElementById('newEnergyPurchaseCost').value) || 0;
-      const profit = parseFloat(document.getElementById('newEnergyProfit').value) || 0;
-      const rmbQuote = purchaseCost + profit;
+      const markup = parseFloat(document.getElementById('newEnergyMarkup').value) || 0;
+      const rmbQuote = purchaseCost + markup;
       const rmbInput = document.getElementById('newEnergyRmbQuote');
       rmbInput.value = Math.round(rmbQuote);
       rmbInput.dispatchEvent(new Event('input'));
@@ -1738,9 +1738,9 @@
         const taxRefund = parseFloat(document.getElementById('taxRefund').value) || 0;
         const domesticShipping = parseFloat(document.getElementById('domesticShipping').value) || 0;
         const internationalShipping = parseFloat(document.getElementById('internationalShipping').value) || 0;
-        const profit = parseFloat(document.getElementById('profit').value) || 0;
+        const markup = parseFloat(document.getElementById('markup').value) || 0;
         
-        const costPrice = (invoicePrice + compulsoryInsurance + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + profit) / exchangeRate + seaFreight;
+        const costPrice = (invoicePrice + compulsoryInsurance + invoicePrice * 0.022 - taxRefund + domesticShipping + internationalShipping + markup) / exchangeRate + seaFreight;
         document.getElementById('costPrice').value = Math.round(costPrice);
         
         return finalQuote;
@@ -1789,7 +1789,7 @@
     document.getElementById('compulsoryInsurance').addEventListener('input', calculateNewCarAll);
     document.getElementById('domesticShipping').addEventListener('input', calculateNewCarAll);
     document.getElementById('internationalShipping').addEventListener('input', calculateNewCarAll);
-    document.getElementById('profit').addEventListener('input', calculateNewCarAll);
+    document.getElementById('markup').addEventListener('input', calculateNewCarAll);
     
     // 绑定二手车表单输入事件
     document.getElementById('usedGuidePrice').addEventListener('input', calculateUsedCarAll);
@@ -1800,7 +1800,7 @@
     document.getElementById('usedAgencyFee').addEventListener('input', calculateUsedCarAll);
     document.getElementById('usedDomesticShipping').addEventListener('input', calculateUsedCarAll);
     document.getElementById('usedInternationalShipping').addEventListener('input', calculateUsedCarAll);
-    document.getElementById('usedProfit').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedMarkup').addEventListener('input', calculateUsedCarAll);
     
     // 绑定新能源表单输入事件
     document.getElementById('newEnergyGuidePrice').addEventListener('input', calculateNewEnergyAll);
@@ -1811,7 +1811,7 @@
     document.getElementById('newEnergyAgencyFee').addEventListener('input', calculateNewEnergyAll);
     document.getElementById('newEnergyDomesticShipping').addEventListener('input', calculateNewEnergyAll);
     document.getElementById('newEnergyInternationalShipping').addEventListener('input', calculateNewEnergyAll);
-    document.getElementById('newEnergyProfit').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyMarkup').addEventListener('input', calculateNewEnergyAll);
     
     // 新车、二手车输入变动时都重新计算最终报价
     document.getElementById('rmbQuote').addEventListener('input', calculateFinalQuote);
