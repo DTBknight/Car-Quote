@@ -638,7 +638,7 @@
                 <i class="fa fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
               <div class="grid grid-cols-1 gap-4">
-                <!-- 品牌 -->
+                <!-- 第一行：厂商/级别 -->
                 <div>
                   <div class="text-sm font-medium text-gray-700 mb-1">厂商/级别</div>
                   <div class="flex items-center gap-3">
@@ -646,34 +646,36 @@
                     <input type="text" id="brandName2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="厂商/级别" readonly>
                   </div>
                 </div>
-                <!-- 车型 -->
-                <div>
-                  <div class="text-sm font-medium text-gray-700 mb-1">车型</div>
-                  <input type="text" id="carModel2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="车型名称" readonly>
+                <!-- 第二行：车型和能源类型并列 -->
+                <div class="grid grid-cols-2 gap-4">
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">车型</div>
+                    <input type="text" id="carModel2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="车型名称" readonly>
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">能源类型</div>
+                    <input type="text" id="fuelType2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="能源类型" readonly>
+                  </div>
                 </div>
-                <!-- 能源类型 -->
-                <div>
-                  <div class="text-sm font-medium text-gray-700 mb-1">能源类型</div>
-                  <input type="text" id="fuelType2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="能源类型" readonly>
-                </div>
-                <!-- 尺寸 -->
-                <div>
-                  <div class="text-sm font-medium text-gray-700 mb-1">尺寸</div>
-                  <input type="text" id="size2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="尺寸" readonly>
-                </div>
-                <!-- 指导价 -->
-                <div>
-                  <div class="text-sm font-medium text-gray-700 mb-1">指导价</div>
-                  <input type="text" id="price2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="指导价" readonly>
+                <!-- 第三行：尺寸和指导价并列 -->
+                <div class="grid grid-cols-2 gap-4">
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">尺寸</div>
+                    <input type="text" id="size2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="尺寸" readonly>
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">指导价</div>
+                    <input type="text" id="price2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="指导价" readonly>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- 新增右侧卡片 -->
+            <!-- 车型图片卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 h-full">
               <h3 class="text-lg font-medium flex items-center mb-2">
                 <i class="fa fa-car text-primary mr-2"></i>车型图片
               </h3>
-              <div id="carMainImageBox" class="w-full flex items-center justify-center py-8">
+              <div id="carMainImageBox" class="w-full h-full flex items-center justify-center">
                 <!-- 车型图片自动加载 -->
               </div>
             </div>
@@ -2437,8 +2439,17 @@
           const carImg = document.createElement('img');
           carImg.src = car.mainImage;
           carImg.alt = car.carName;
-          carImg.className = 'max-h-96 max-w-full object-contain rounded shadow';
+          carImg.className = 'max-h-full max-w-full object-contain rounded shadow';
           carImgBox.appendChild(carImg);
+        } else {
+          // 如果没有图片，显示占位符
+          const placeholder = document.createElement('div');
+          placeholder.className = 'flex flex-col items-center justify-center text-gray-400 h-full';
+          placeholder.innerHTML = `
+            <i class="fa fa-car text-4xl mb-2"></i>
+            <span class="text-sm">暂无图片</span>
+          `;
+          carImgBox.appendChild(placeholder);
         }
         document.getElementById('baseInfoSection').classList.remove('hidden');
       }
