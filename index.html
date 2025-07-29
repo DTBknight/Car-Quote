@@ -634,10 +634,10 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- 基础信息卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
-              <h3 class="text-lg font-medium flex items-center mb-4">
+              <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
-              <div class="grid grid-cols-1 gap-4">
+              <div class="grid grid-cols-1 gap-3">
                 <!-- 第一行：厂商/级别 -->
                 <div>
                   <div class="text-sm font-medium text-gray-700 mb-1">厂商/级别</div>
@@ -672,7 +672,7 @@
             </div>
             <!-- 车型图片卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col">
-              <h3 class="text-lg font-medium flex items-center mb-4">
+              <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-car text-primary mr-2"></i>车型图片
               </h3>
               <div id="carMainImageBox" class="flex-1 flex items-center justify-center min-h-0">
@@ -2581,9 +2581,16 @@
           // 点击历史记录项
           historyItem.onclick = () => {
             carInput.value = searchTerm;
-            carInput.focus();
-            showCarResults(searchTerm);
             hideSearchHistory();
+            // 直接触发搜索并填充基础信息
+            showCarResults(searchTerm);
+            // 模拟选择第一个搜索结果
+            setTimeout(() => {
+              const firstResult = document.querySelector('#searchCarResults .border-b');
+              if (firstResult) {
+                firstResult.click();
+              }
+            }, 100);
           };
           
           historyList.appendChild(historyItem);
@@ -2656,17 +2663,10 @@
         }
       });
       
-      // 搜索输入框获得焦点时，如果有内容则显示搜索结果，否则显示历史记录
+      // 搜索输入框获得焦点时，只显示搜索结果，不自动显示历史记录
       carInput.addEventListener('focus', function() {
         if (carInput.value.trim()) {
           showCarResults(carInput.value.trim());
-        } else {
-          // 延迟显示历史记录，避免与搜索结果冲突
-          setTimeout(() => {
-            if (!carInput.value.trim()) {
-              showSearchHistory();
-            }
-          }, 100);
         }
       });
       
