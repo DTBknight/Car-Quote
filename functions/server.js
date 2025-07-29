@@ -82,6 +82,9 @@ app.get('/api/brands', async (req, res) => {
   try {
     // 直接读取brands.json文件
     const brandsPath = path.join(dataDir, 'brands.json');
+    console.log('尝试读取文件路径:', brandsPath);
+    console.log('__dirname:', __dirname);
+    console.log('dataDir:', dataDir);
     const brandsData = await fs.promises.readFile(brandsPath, 'utf-8');
     const brands = JSON.parse(brandsData);
     
