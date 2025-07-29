@@ -675,7 +675,7 @@
               <h3 class="text-lg font-medium flex items-center mb-3">
                 <i class="fa fa-car text-primary mr-2"></i>车型图片
               </h3>
-              <div id="carMainImageBox" class="h-48 flex items-center justify-center">
+              <div id="carMainImageBox" class="h-64 flex items-center justify-center">
                 <!-- 车型图片自动加载 -->
               </div>
             </div>
@@ -2439,7 +2439,7 @@
           const carImg = document.createElement('img');
           carImg.src = car.mainImage;
           carImg.alt = car.carName;
-          carImg.className = 'max-w-full max-h-full object-contain rounded shadow';
+          carImg.className = 'w-full h-full object-contain rounded shadow';
           carImgBox.appendChild(carImg);
         } else {
           // 如果没有图片，显示占位符
