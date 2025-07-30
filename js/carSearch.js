@@ -480,10 +480,10 @@ export class CarSearch {
       historyList.innerHTML = this.searchHistory.map(item => `
         <div class="history-item p-3 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition-colors" data-car='${JSON.stringify(item)}'>
           <div class="flex items-center gap-3">
-            <img src="${item.brandImage || '/placeholder.png'}" alt="${item.brand}" class="w-6 h-6 rounded object-cover">
+            <img src="${item.brandImage || '/placeholder.png'}" alt="${item.brand || item.seriesName || ''}" class="w-6 h-6 rounded object-cover">
             <div class="flex-1">
-              <div class="font-medium text-gray-900 text-sm">${item.name}</div>
-              <div class="text-xs text-gray-500">${item.brand}</div>
+              <div class="font-medium text-gray-900 text-sm">${item.name || item.carName || item.configName || '未知车型'}</div>
+              <div class="text-xs text-gray-500">${item.brand || item.seriesName || '未知品牌'}</div>
             </div>
           </div>
         </div>
@@ -495,7 +495,9 @@ export class CarSearch {
           const carData = JSON.parse(item.dataset.car);
           const carInput = Utils.getElement('searchCarInput');
           if (carInput) {
-            carInput.value = `${carData.brand} ${carData.name}`;
+            const brand = carData.brand || carData.seriesName || '';
+            const name = carData.name || carData.carName || carData.configName || '';
+            carInput.value = `${brand} ${name}`.trim();
             Utils.toggleElement('searchHistoryPanel', false);
           }
         });
