@@ -1,4 +1,4 @@
-name: 汽车数据爬虫
+name: 数据同步任务
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # 允许手动触发
 
 jobs:
-  crawl:
+  sync:
     runs-on: ubuntu-latest
     
     steps:
@@ -31,15 +31,15 @@ jobs:
         cd data-processor
         npm ci
         
-    - name: 运行爬虫
+    - name: 执行数据同步
       run: |
         cd data-processor
-        node index-optimized.js all
+        node index-production.js
       env:
         # 设置环境变量
         NODE_ENV: production
         
-    - name: 验证数据
+    - name: 验证数据完整性
       run: |
         cd data-processor
         node scripts/validate.js
@@ -49,5 +49,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/*.json
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 自动更新汽车数据 - $(date)"
+        git diff --quiet && git diff --staged --quiet || git commit -m "📊 数据同步更新 - $(date)"
         git push 
