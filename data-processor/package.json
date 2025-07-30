@@ -1,14 +1,19 @@
 {
   "name": "data-processor",
-  "version": "1.0.0",
-  "description": "Data Processor - 数据处理器",
+  "version": "2.0.0",
+  "description": "Data Processor - 优化的数据处理器",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "node index.js",
     "test": "node test.js",
-    "dev": "node test.js"
+    "sync": "node index.js autoSyncBrands",
+    "single": "node index.js",
+    "all": "node index.js all",
+    "clean": "node scripts/clean.js",
+    "validate": "node scripts/validate.js"
   },
-      "keywords": ["data-processor", "data", "processor"],
+  "keywords": ["data-processor", "data", "processor", "crawler", "puppeteer"],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
@@ -16,7 +21,13 @@
     "cheerio": "^1.0.0-rc.12",
     "axios": "^1.6.0",
     "user-agents": "^1.0.1354",
-    "dotenv": "^16.3.0"
+    "dotenv": "^16.3.0",
+    "p-limit": "^4.0.0",
+    "p-retry": "^5.0.0",
+    "p-timeout": "^4.0.0",
+    "cli-progress": "^3.12.0",
+    "colors": "^1.4.0",
+    "winston": "^3.11.0"
   },
   "engines": {
     "node": ">=18.0.0"
