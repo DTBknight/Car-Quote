@@ -286,15 +286,13 @@ export class EventManager {
           this.debouncedNewEnergyCalculation();
         }
       }
-    });
-    
-    // 人民币报价变化时重新计算最终报价
-    document.addEventListener('input', (e) => {
-      if (e.target.id === 'rmbPrice') {
+      
+      // 人民币报价变化时重新计算最终报价
+      if (fieldId === 'rmbPrice') {
         this.calculationEngine.calculateFinalQuote();
-      } else if (e.target.id === 'usedRmbPrice') {
+      } else if (fieldId === 'usedRmbPrice') {
         this.calculationEngine.calculateUsedCarFinalQuote();
-      } else if (e.target.id === 'newEnergyRmbPrice') {
+      } else if (fieldId === 'newEnergyRmbPrice') {
         this.calculationEngine.calculateNewEnergyFinalQuote();
       }
     });

@@ -167,7 +167,7 @@ export class CalculationEngine {
     const cacheKey = this.getCacheKey('new', 'taxRefund', { invoicePrice });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
-      Utils.setElementValue('taxRefund', cached);
+      Utils.setElementValue('taxRefund', cached.toFixed(2));
       return cached;
     }
     
@@ -277,7 +277,7 @@ export class CalculationEngine {
     const cacheKey = this.getCacheKey('used', 'purchaseTax', { invoicePrice });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
-      Utils.setElementValue('usedPurchaseTax', cached);
+      Utils.setElementValue('usedPurchaseTax', cached.toFixed(2));
       return cached;
     }
     
@@ -295,7 +295,7 @@ export class CalculationEngine {
     const cacheKey = this.getCacheKey('used', 'taxRefund', { invoicePrice });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
-      Utils.setElementValue('usedTaxRefund', cached);
+      Utils.setElementValue('usedTaxRefund', cached.toFixed(2));
       return cached;
     }
     
@@ -412,7 +412,11 @@ export class CalculationEngine {
     const cacheKey = this.getCacheKey('newEnergy', 'purchaseTax', { invoicePrice });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
-      Utils.setElementValue('newEnergyPurchaseTax', cached);
+      if (cached === 0) {
+        Utils.setElementValue('newEnergyPurchaseTax', '0.00');
+      } else {
+        Utils.setElementValue('newEnergyPurchaseTax', cached.toFixed(2));
+      }
       return cached;
     }
     
@@ -448,7 +452,7 @@ export class CalculationEngine {
     const cacheKey = this.getCacheKey('newEnergy', 'taxRefund', { invoicePrice });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
-      Utils.setElementValue('newEnergyTaxRefund', cached);
+      Utils.setElementValue('newEnergyTaxRefund', cached.toFixed(2));
       return cached;
     }
     
@@ -558,8 +562,9 @@ export class CalculationEngine {
       const otherExpenses = Utils.getElementValue('otherExpenses');
       const taxRefund = Utils.getElementValue('taxRefund');
       
-      // 新车成本价格 = (开票价 + 开票价×0.022 + 国内运输 + 港杂费 + 交强险 + 其他费用 - 退税) ÷ 汇率 + 海运费
-      const serviceFee = invoicePrice * CONFIG.CALCULATION.SERVICE_FEE_RATE; // 使用固定的2.2%费率
+      // 新车成本价格 = (开票价 + 开票价×手续费率 + 国内运输 + 港杂费 + 交强险 + 其他费用 - 退税) ÷ 汇率 + 海运费
+      const serviceFeeRate = Utils.getElementValue('serviceFeeRate');
+      const serviceFee = invoicePrice * serviceFeeRate; // 使用动态手续费率
       const costPrice = (invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund) / exchangeRate + seaFreight;
       Utils.setElementValue('costPrice', Math.round(costPrice));
       
