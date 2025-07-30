@@ -391,7 +391,7 @@ export class CarSearch {
     if (carMainImageBox && (carData.image || carData.mainImage)) {
       const imageUrl = carData.image || carData.mainImage;
       const imageAlt = carData.name || carData.carName;
-      carMainImageBox.innerHTML = `<img src="${imageUrl}" alt="${imageAlt}" class="max-w-full max-h-full object-contain">`;
+      carMainImageBox.innerHTML = `<img src="${imageUrl}" alt="${imageAlt}" class="max-w-full max-h-full object-contain rounded bg-gray-50">`;
     } else {
       // 如果没有图片，显示占位符
       carMainImageBox.innerHTML = `
