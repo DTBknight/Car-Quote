@@ -590,8 +590,8 @@ export class CalculationEngine {
       const otherExpenses = Utils.getElementValue('otherExpenses');
       const taxRefund = Utils.getElementValue('taxRefund');
       
-      // 新车成本价格 = (开票价 + 开票价×手续费率 + 国内运输 + 港杂费 + 交强险 + 其他费用 - 退税) ÷ 汇率 + 海运费
-      const serviceFee = invoicePrice * serviceFeeRate; // 使用动态手续费率
+      // 新车成本价格 = (开票价 + 开票价×0.022 + 国内运输 + 港杂费 + 交强险 + 其他费用 - 退税) ÷ 汇率 + 海运费
+      const serviceFee = invoicePrice * 0.022; // 使用固定手续费率 0.022
       const costPrice = (invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund) / exchangeRate + seaFreight;
       Utils.setElementValue('costPrice', Math.round(costPrice));
       
