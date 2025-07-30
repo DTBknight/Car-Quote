@@ -35,8 +35,11 @@ export class ContractManager {
   }
 
   showDevelopmentMessage() {
+    console.log('🔧 正在初始化合同管理模块...');
     const contractContent = document.getElementById('contractContent');
+    console.log('📋 找到合同内容容器:', contractContent);
     if (contractContent) {
+      console.log('✅ 开始生成开发中页面...');
       contractContent.innerHTML = `
         <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
           <div class="flex flex-col items-center justify-center py-16 text-center">
@@ -83,6 +86,9 @@ export class ContractManager {
           </div>
         </div>
       `;
+      console.log('🎉 开发中页面生成完成！');
+    } else {
+      console.error('❌ 未找到合同内容容器！');
     }
   }
 } 
