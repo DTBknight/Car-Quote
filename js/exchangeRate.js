@@ -150,7 +150,9 @@ export class ExchangeRateManager {
   // 更新货币标签
   updateCurrencyLabels(currency, formType = 'new') {
     const flag = Utils.getCurrencyFlag(currency);
+    const currencyText = currency || 'USD';
     
+    // 更新货币标志
     if (formType === 'new') {
       Utils.setElementText('currencyFlag', flag);
     } else if (formType === 'used') {
@@ -158,6 +160,43 @@ export class ExchangeRateManager {
     } else if (formType === 'newEnergy') {
       Utils.setElementText('currencyFlagNewEnergy', flag);
     }
+    
+    // 更新所有相关标签文本
+    const profitRateLabels = [
+      document.querySelector('label[for="profitRate"]'),
+      document.querySelector('label[for="usedProfitRate"]'),
+      document.querySelector('label[for="newEnergyProfitRate"]')
+    ];
+    
+    profitRateLabels.forEach(label => {
+      if (label) {
+        label.textContent = `外币利润 (${currencyText})`;
+      }
+    });
+    
+    const costPriceLabels = [
+      document.querySelector('label[for="costPrice"]'),
+      document.querySelector('label[for="costPriceUsed"]'),
+      document.querySelector('label[for="costPriceNewEnergy"]')
+    ];
+    
+    costPriceLabels.forEach(label => {
+      if (label) {
+        label.textContent = `成本价格 (${currencyText})`;
+      }
+    });
+    
+    const finalQuoteLabels = [
+      document.querySelector('label[for="finalQuote"]'),
+      document.querySelector('label[for="finalQuoteUsed"]'),
+      document.querySelector('label[for="finalQuoteNewEnergy"]')
+    ];
+    
+    finalQuoteLabels.forEach(label => {
+      if (label) {
+        label.textContent = `最终报价 (${currencyText})`;
+      }
+    });
   }
   
   // 初始化汇率
