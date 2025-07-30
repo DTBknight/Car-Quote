@@ -129,6 +129,11 @@ export class EventManager {
     
     // 重新应用当前报价类型的显示逻辑
     this.handleQuoteTypeChange(type);
+    
+    // 重新初始化卡片悬浮效果（确保动态内容也有悬浮效果）
+    setTimeout(() => {
+      this.initCardHoverEffects();
+    }, 100);
   }
   
   // 绑定报价类型切换事件
@@ -534,6 +539,62 @@ export class EventManager {
     container.appendChild(li);
   }
   
+  // 初始化卡片悬浮效果
+  initCardHoverEffects() {
+    console.log('🎨 重新初始化卡片悬浮效果...');
+    
+    const cards = document.querySelectorAll('.bg-gray-50.p-6.rounded-lg.border.border-gray-200');
+    
+    cards.forEach(card => {
+      // 跳过搜索卡片，因为它已经有search-card类
+      if (card.classList.contains('search-card')) {
+        return;
+      }
+      
+      // 添加悬浮类
+      if (!card.classList.contains('card-hover')) {
+        card.classList.add('card-hover');
+      }
+      
+      // 移除之前的事件监听器（避免重复绑定）
+      card.removeEventListener('click', this.cardClickHandler);
+      
+      // 添加点击悬浮动画
+      card.addEventListener('click', this.cardClickHandler);
+    });
+    
+    console.log(`✅ 已为 ${cards.length} 个卡片重新添加悬浮效果`);
+  }
+  
+  // 卡片点击处理函数
+  cardClickHandler(e) {
+    // 如果点击的是输入框、按钮或其他交互元素，不触发悬浮效果
+    if (e.target.tagName === 'INPUT' || 
+        e.target.tagName === 'BUTTON' || 
+        e.target.tagName === 'SELECT' || 
+        e.target.tagName === 'LABEL' ||
+        e.target.closest('input') ||
+        e.target.closest('button') ||
+        e.target.closest('select') ||
+        e.target.closest('label')) {
+      return;
+    }
+    
+    // 移除之前的动画类
+    this.classList.remove('card-float');
+    
+    // 触发重排以重新开始动画
+    void this.offsetWidth;
+    
+    // 添加悬浮动画类
+    this.classList.add('card-float');
+    
+    // 动画结束后移除类
+    setTimeout(() => {
+      this.classList.remove('card-float');
+    }, 600);
+  }
+  
   // 清理资源
   cleanup() {
     // 清除所有事件监听器
@@ -542,5 +603,11 @@ export class EventManager {
     document.removeEventListener('input', this.debouncedNewCarCalculation);
     document.removeEventListener('input', this.debouncedUsedCarCalculation);
     document.removeEventListener('input', this.debouncedNewEnergyCalculation);
+    
+    // 清理卡片点击事件
+    const cards = document.querySelectorAll('.card-hover');
+    cards.forEach(card => {
+      card.removeEventListener('click', this.cardClickHandler);
+    });
   }
 } 

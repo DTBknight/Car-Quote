@@ -54,6 +54,9 @@ export class CarQuoteApp {
       // 6. 统一触发一次新车全表单计算，避免页面闪烁
       this.calculationEngine.calculateNewCarAll();
 
+      // 7. 初始化卡片悬浮效果
+      this.initCardHoverEffects();
+
       this.initialized = true;
       this.performanceMetrics.initTime = performance.now() - startTime;
       this.performanceMetrics.lastUpdate = Date.now();
@@ -110,6 +113,11 @@ export class CarQuoteApp {
     // 隐藏其他表单
     Utils.toggleElement('usedCarForm', false);
     Utils.toggleElement('newEnergyForm', false);
+    
+    // 重新初始化卡片悬浮效果（确保动态内容也有悬浮效果）
+    setTimeout(() => {
+      this.initCardHoverEffects();
+    }, 100);
   }
   
   // 显示汇率区域
@@ -153,6 +161,56 @@ export class CarQuoteApp {
     } catch (error) {
       console.error('❌ 应用重置失败:', error);
     }
+  }
+  
+  // 初始化卡片悬浮效果
+  initCardHoverEffects() {
+    console.log('🎨 初始化卡片悬浮效果...');
+    
+    const cards = document.querySelectorAll('.bg-gray-50.p-6.rounded-lg.border.border-gray-200');
+    
+    cards.forEach(card => {
+      // 跳过搜索卡片，因为它已经有search-card类
+      if (card.classList.contains('search-card')) {
+        return;
+      }
+      
+      // 添加悬浮类
+      if (!card.classList.contains('card-hover')) {
+        card.classList.add('card-hover');
+      }
+      
+      // 添加点击悬浮动画
+      card.addEventListener('click', function(e) {
+        // 如果点击的是输入框、按钮或其他交互元素，不触发悬浮效果
+        if (e.target.tagName === 'INPUT' || 
+            e.target.tagName === 'BUTTON' || 
+            e.target.tagName === 'SELECT' || 
+            e.target.tagName === 'LABEL' ||
+            e.target.closest('input') ||
+            e.target.closest('button') ||
+            e.target.closest('select') ||
+            e.target.closest('label')) {
+          return;
+        }
+        
+        // 移除之前的动画类
+        card.classList.remove('card-float');
+        
+        // 触发重排以重新开始动画
+        void card.offsetWidth;
+        
+        // 添加悬浮动画类
+        card.classList.add('card-float');
+        
+        // 动画结束后移除类
+        setTimeout(() => {
+          card.classList.remove('card-float');
+        }, 600);
+      });
+    });
+    
+    console.log(`✅ 已为 ${cards.length} 个卡片添加悬浮效果`);
   }
   
   // 开始缓存清理
