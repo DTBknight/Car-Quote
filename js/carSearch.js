@@ -129,6 +129,13 @@ export class CarSearch {
       carResultBox.innerHTML = '<div class="p-4 text-center text-gray-500">未找到相关车型</div>';
     } else {
       carResultBox.innerHTML = results.map(car => this.createResultItem(car)).join('');
+      
+      // 为搜索结果项添加点击事件
+      carResultBox.querySelectorAll('.search-result-item').forEach(item => {
+        item.addEventListener('click', () => {
+          this.selectCar(item);
+        });
+      });
     }
     
     Utils.toggleElement('searchCarResults', true);
@@ -177,12 +184,40 @@ export class CarSearch {
       carInput.value = `${carData.brand} ${carData.name}`;
       this.hideResults();
       this.addToSearchHistory(carData);
+      
+      // 填充车型详细信息
+      this.fillCarDetails(carData);
+    }
+  }
+  
+  // 填充车型详细信息
+  fillCarDetails(carData) {
+    // 填充基础信息
+    Utils.setElementValue('brandName2', carData.brand);
+    Utils.setElementValue('carModel2', carData.name);
+    Utils.setElementValue('fuelType2', carData.fuelType || '未知');
+    Utils.setElementValue('size2', carData.size || '未知');
+    Utils.setElementValue('price2', carData.price ? `${carData.price}万元` : '未知');
+    
+    // 显示基础信息区域
+    Utils.toggleElement('baseInfoSection', true);
+    
+    // 设置品牌logo
+    const brandLogoBox = Utils.getElement('brandLogoBox2');
+    if (brandLogoBox && carData.brandImage) {
+      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${carData.brand}" class="w-12 h-12 object-contain">`;
+    }
+    
+    // 设置车型图片
+    const carMainImageBox = Utils.getElement('carMainImageBox');
+    if (carMainImageBox && carData.image) {
+      carMainImageBox.innerHTML = `<img src="${carData.image}" alt="${carData.name}" class="max-w-full max-h-full object-contain">`;
     }
   }
   
   // 绑定历史记录事件
   bindHistoryEvents() {
-    const historyBtn = Utils.getElement('searchHistoryBtn');
+    const historyBtn = Utils.getElement('showHistoryBtn');
     const historyPanel = Utils.getElement('searchHistoryPanel');
     const clearHistoryBtn = Utils.getElement('clearHistoryBtn');
     

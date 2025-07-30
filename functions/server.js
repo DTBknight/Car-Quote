@@ -26,29 +26,36 @@ app.get('/api/cars', async (req, res) => {
     return res.json(carsCache);
   }
 
-    try {
+  try {
     // 首先获取品牌列表
-    const brandsResponse = await fetch('https://dbtknight.netlify.app/data/brands.json');
-    if (!brandsResponse.ok) {
-      throw new Error(`HTTP error! status: ${brandsResponse.status}`);
-    }
-    const brandsData = await brandsResponse.text();
+    const brandsPath = path.join(__dirname, '..', 'data', 'brands.json');
+    const brandsData = fs.readFileSync(brandsPath, 'utf8');
     const brands = JSON.parse(brandsData);
     
     // 并行读取所有品牌文件
     const readPromises = brands.map(async (brand) => {
       try {
-        const dataResponse = await fetch(`https://dbtknight.netlify.app/data/${brand.file}`);
-        if (!dataResponse.ok) {
-          console.error(`获取文件 ${brand.file} 失败:`, dataResponse.status);
+        const brandPath = path.join(__dirname, '..', 'data', brand.file);
+        if (!fs.existsSync(brandPath)) {
+          console.error(`文件不存在: ${brand.file}`);
           return [];
         }
-        const data = await dataResponse.text();
+        
+        const data = fs.readFileSync(brandPath, 'utf8');
         const carData = JSON.parse(data);
+        
         if (Array.isArray(carData)) {
-          return carData;
+          return carData.map(car => ({
+            ...car,
+            brand: brand.name,
+            brandImage: brand.image
+          }));
         } else if (carData.cars && Array.isArray(carData.cars)) {
-          return carData.cars;
+          return carData.cars.map(car => ({
+            ...car,
+            brand: carData.brand || brand.name,
+            brandImage: carData.brandImage || brand.image
+          }));
         }
         return [];
       } catch (err) {
@@ -80,12 +87,9 @@ app.get('/api/brands', async (req, res) => {
   }
 
   try {
-    // 从静态文件URL获取brands.json
-    const response = await fetch('https://dbtknight.netlify.app/data/brands.json');
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const brandsData = await response.text();
+    // 从本地文件读取brands.json
+    const brandsPath = path.join(__dirname, '..', 'data', 'brands.json');
+    const brandsData = fs.readFileSync(brandsPath, 'utf8');
     const brands = JSON.parse(brandsData);
     
     // 更新缓存
@@ -105,12 +109,9 @@ app.get('/api/brands/:brand', async (req, res) => {
   const { page = 1, limit = 20, search = '' } = req.query;
   
   try {
-    // 首先从静态文件URL获取brands.json
-    const brandsResponse = await fetch('https://dbtknight.netlify.app/data/brands.json');
-    if (!brandsResponse.ok) {
-      throw new Error(`HTTP error! status: ${brandsResponse.status}`);
-    }
-    const brandsData = await brandsResponse.text();
+    // 首先从本地文件获取brands.json
+    const brandsPath = path.join(__dirname, '..', 'data', 'brands.json');
+    const brandsData = fs.readFileSync(brandsPath, 'utf8');
     const brands = JSON.parse(brandsData);
     
     // 查找匹配的品牌
@@ -119,18 +120,19 @@ app.get('/api/brands/:brand', async (req, res) => {
       return res.status(404).json({ error: '品牌不存在' });
     }
     
-    // 从静态文件URL获取品牌数据
-    const dataResponse = await fetch(`https://dbtknight.netlify.app/data/${brandInfo.file}`);
-    if (!dataResponse.ok) {
-      throw new Error(`HTTP error! status: ${dataResponse.status}`);
+    // 从本地文件获取品牌数据
+    const brandPath = path.join(__dirname, '..', 'data', brandInfo.file);
+    if (!fs.existsSync(brandPath)) {
+      return res.status(404).json({ error: '品牌数据文件不存在' });
     }
-    const data = await dataResponse.text();
+    
+    const data = fs.readFileSync(brandPath, 'utf8');
     const carData = JSON.parse(data);
     
     // 保持原始数据结构，添加品牌信息
     const result = {
       brand: brand,
-      brandImage: carData.brandImage || '',
+      brandImage: carData.brandImage || brandInfo.image || '',
       cars: carData.cars || carData || []
     };
     
