@@ -59,7 +59,7 @@ jobs:
     - name: 环境测试
       run: |
         cd data-processor
-        node test-github-actions.js
+        node debug-github-actions.js
         
     - name: 执行数据同步
       run: |
@@ -79,6 +79,16 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        echo "检查文件状态..."
+        git status --porcelain
+        echo "添加数据文件..."
         git add data/*.json
-        git diff --quiet && git diff --staged --quiet || git commit -m "📊 数据同步更新 - $(date)"
-        git push 
+        echo "检查是否有变更..."
+        if git diff --staged --quiet; then
+          echo "没有变更需要提交"
+        else
+          echo "提交变更..."
+          git commit -m "📊 数据同步更新 - $(date)"
+          echo "推送到远程仓库..."
+          git push
+        fi 
