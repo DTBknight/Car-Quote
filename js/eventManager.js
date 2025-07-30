@@ -29,7 +29,7 @@ export class EventManager {
       },
       newCarFields: [
         'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance',
-        'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight'
+        'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight', 'serviceFeeRate'
       ],
       usedCarFields: [
         'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
