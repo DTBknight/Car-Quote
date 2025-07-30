@@ -8,7 +8,7 @@ const config = require('./config');
 class DataCollector {
   constructor(browserManager) {
     this.browserManager = browserManager;
-    this.limit = pLimit(config.crawler.maxConcurrency);
+    this.limit = pLimit(config.crawler.concurrency);
   }
 
   async collectCarData(brand, brandIds) {

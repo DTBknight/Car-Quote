@@ -1,5 +1,4 @@
 // 优化的数据处理器
-require('dotenv').config();
 
 const cliProgress = require('cli-progress');
 const BrowserManager = require('./browser-manager');
