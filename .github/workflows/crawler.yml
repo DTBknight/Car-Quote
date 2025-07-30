@@ -1,4 +1,4 @@
-name: 数据同步任务
+name: Data Sync Task
 
 on:
   schedule:
@@ -21,14 +21,14 @@ jobs:
         cache: 'npm'
         cache-dependency-path: data-processor/package-lock.json
         
-    - name: 显示系统信息
+    - name: Display System Info
       run: |
-        echo "Node.js版本: $(node --version)"
-        echo "npm版本: $(npm --version)"
-        echo "系统信息: $(uname -a)"
-        echo "内存信息: $(free -h)"
+        echo "Node.js version: $(node --version)"
+        echo "npm version: $(npm --version)"
+        echo "System info: $(uname -a)"
+        echo "Memory info: $(free -h)"
         
-    - name: 安装Chrome依赖
+    - name: Install Chrome Dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y wget gnupg2
@@ -36,59 +36,59 @@ jobs:
         echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
-        echo "Chrome版本: $(google-chrome --version)"
+        echo "Chrome version: $(google-chrome --version)"
         
-    - name: 进入工作目录
+    - name: Navigate to Working Directory
       run: |
         cd data-processor
         pwd
         ls -la
         
-    - name: 安装依赖
+    - name: Install Dependencies
       run: |
         cd data-processor
         npm ci --verbose
-        echo "依赖安装完成"
+        echo "Dependencies installation completed"
         
-    - name: 验证依赖
+    - name: Verify Dependencies
       run: |
         cd data-processor
         node --version
         npm list --depth=0
         
-    - name: 环境测试
+    - name: Environment Test
       run: |
         cd data-processor
         node debug-github-actions.js
         
-    - name: 执行数据同步
+    - name: Execute Data Sync
       run: |
         cd data-processor
         node index-production.js
       env:
-        # 设置环境变量
+        # Set environment variables
         NODE_ENV: production
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
         
-    - name: 验证数据完整性
+    - name: Validate Data Integrity
       run: |
         cd data-processor
         node scripts/validate.js
         
-    - name: 提交更新
+    - name: Commit Updates
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        echo "检查文件状态..."
+        echo "Checking file status..."
         git status --porcelain
-        echo "添加数据文件..."
+        echo "Adding data files..."
         git add data/*.json
-        echo "检查是否有变更..."
+        echo "Checking for changes..."
         if git diff --staged --quiet; then
-          echo "没有变更需要提交"
+          echo "No changes to commit"
         else
-          echo "提交变更..."
-          git commit -m "📊 数据同步更新 - $(date)"
-          echo "推送到远程仓库..."
+          echo "Committing changes..."
+          git commit -m "📊 Data sync update - $(date)"
+          echo "Pushing to remote repository..."
           git push
         fi 
