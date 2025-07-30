@@ -302,12 +302,15 @@ export class EventManager {
   bindExchangeRateEvents() {
     // 货币选择变化
     this.eventConfig.currencyFields.forEach(currencyId => {
-      Utils.getElement(currencyId)?.addEventListener('change', (e) => {
+      Utils.getElement(currencyId)?.addEventListener('change', async (e) => {
         const currency = e.target.value;
         const formType = this.getFormTypeFromCurrencyId(currencyId);
         
         if (currency) {
-          this.exchangeRateManager.fetchExchangeRate(currency, formType);
+          // 获取新汇率并等待完成
+          await this.exchangeRateManager.fetchExchangeRate(currency, formType);
+          // 汇率更新后重新计算最终报价和成本价格
+          this.recalculateFinalQuote(formType);
         } else {
           this.clearExchangeRate(formType);
         }
