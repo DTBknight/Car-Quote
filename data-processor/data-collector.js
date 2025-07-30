@@ -1,5 +1,5 @@
-const pLimit = require('p-limit');
-const pRetry = require('p-retry');
+const pLimit = require('p-limit').default;
+const pRetry = require('p-retry').default;
 const pTimeout = require('p-timeout');
 const cliProgress = require('cli-progress');
 const { getSmartDelay, simulateHumanBehavior, smartWait } = require('./anti-detection');

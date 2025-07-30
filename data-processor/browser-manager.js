@@ -11,6 +11,7 @@ class BrowserManager {
   async createBrowser() {
     const browser = await puppeteer.launch({
       headless: config.crawler.headless,
+      executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',

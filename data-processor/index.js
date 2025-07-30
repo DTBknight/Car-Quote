@@ -264,7 +264,11 @@ async function collectCarData(brand) {
   let brandInfo = null;
   let brandIdUsed = null;
   for (const brandId of brandIds) {
-    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ 
+      headless: true, 
+      executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+      args: ['--no-sandbox'] 
+    });
     const page = await browser.newPage();
     await page.setUserAgent(getRandomUserAgent());
     await page.setViewport(getRandomViewport());

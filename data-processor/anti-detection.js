@@ -18,11 +18,16 @@ function getRandomUserAgent() {
 
 // 智能用户代理生成器
 function getSmartUserAgent() {
-  const userAgent = new UserAgent({
-    deviceCategory: 'desktop',
-    platform: ['Windows', 'macOS', 'Linux']
-  });
-  return userAgent.toString();
+  try {
+    const userAgent = new UserAgent({
+      deviceCategory: 'desktop',
+      platform: ['Windows', 'macOS', 'Linux']
+    });
+    return userAgent.toString();
+  } catch (error) {
+    // 如果智能生成失败，使用随机用户代理
+    return getRandomUserAgent();
+  }
 }
 
 // 随机视口大小
