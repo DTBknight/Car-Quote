@@ -1967,7 +1967,7 @@
     document.getElementById('usedDomesticShipping').addEventListener('input', calculateUsedCarAll);
           document.getElementById('usedPortCharges').addEventListener('input', calculateUsedCarAll);
     document.getElementById('usedPortChargesFob').addEventListener('input', calculateUsedCarAll);
-    // document.getElementById('usedMarkup').addEventListener('input', calculateUsedCarAll); // 移除，因为现在是只读字段
+    document.getElementById('usedMarkup').addEventListener('input', calculateUsedCarAll);
     
     // 绑定新能源表单输入事件
     document.getElementById('newEnergyGuidePrice').addEventListener('input', calculateNewEnergyAll);
@@ -1980,7 +1980,7 @@
     document.getElementById('newEnergyDomesticShipping').addEventListener('input', calculateNewEnergyAll);
           document.getElementById('newEnergyPortCharges').addEventListener('input', calculateNewEnergyAll);
     document.getElementById('newEnergyPortChargesFob').addEventListener('input', calculateNewEnergyAll);
-    // document.getElementById('newEnergyMarkup').addEventListener('input', calculateNewEnergyAll); // 移除，因为现在是只读字段
+    document.getElementById('newEnergyMarkup').addEventListener('input', calculateNewEnergyAll);
     
     // 新车、二手车输入变动时都重新计算最终报价
     document.getElementById('rmbPrice').addEventListener('input', calculateFinalQuote);
