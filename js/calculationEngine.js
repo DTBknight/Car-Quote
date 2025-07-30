@@ -364,8 +364,9 @@ export class CalculationEngine {
     const purchaseCost = Utils.getElementValue('usedPurchaseCost');
     const markup = Utils.getElementValue('usedMarkup');
     const rmbQuote = purchaseCost + markup;
-    Utils.setElementValue('usedRmbPrice', Math.round(rmbQuote));
-    Utils.triggerEvent('usedRmbPrice');
+    const rmbInput = Utils.getElement('usedRmbPrice');
+    rmbInput.value = Math.round(rmbQuote);
+    rmbInput.dispatchEvent(new Event('input'));
     return rmbQuote;
   }
   
@@ -516,8 +517,9 @@ export class CalculationEngine {
     const purchaseCost = Utils.getElementValue('newEnergyPurchaseCost');
     const markup = Utils.getElementValue('newEnergyMarkup');
     const rmbQuote = purchaseCost + markup;
-    Utils.setElementValue('newEnergyRmbPrice', Math.round(rmbQuote));
-    Utils.triggerEvent('newEnergyRmbPrice');
+    const rmbInput = Utils.getElement('newEnergyRmbPrice');
+    rmbInput.value = Math.round(rmbQuote);
+    rmbInput.dispatchEvent(new Event('input'));
     return rmbQuote;
   }
   
@@ -541,7 +543,8 @@ export class CalculationEngine {
     let seaFreight = Utils.getElementValue('seaFreight');
     
     if (currency && exchangeRate > 0 && rmbQuote > 0) {
-      const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
+      let finalQuote = rmbQuote / exchangeRate;
+      if (seaFreight > 0) finalQuote += seaFreight;
       Utils.setElementValue('finalQuote', Math.round(finalQuote));
       
       // 计算成本价格（新车专用公式）
@@ -585,7 +588,8 @@ export class CalculationEngine {
       const costPrice = purchaseCost / exchangeRate + seaFreight;
       Utils.setElementValue('costPriceUsed', Math.round(costPrice));
       
-      const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
+      let finalQuote = rmbQuote / exchangeRate;
+      if (seaFreight > 0) finalQuote += seaFreight;
       Utils.setElementValue('finalQuoteUsed', Math.round(finalQuote));
       
       // 触发利润计算
@@ -610,7 +614,8 @@ export class CalculationEngine {
       const costPrice = purchaseCost / exchangeRate + seaFreight;
       Utils.setElementValue('costPriceNewEnergy', Math.round(costPrice));
       
-      const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
+      let finalQuote = rmbQuote / exchangeRate;
+      if (seaFreight > 0) finalQuote += seaFreight;
       Utils.setElementValue('finalQuoteNewEnergy', Math.round(finalQuote));
       
       // 触发利润计算

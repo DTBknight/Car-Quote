@@ -323,6 +323,19 @@ export class EventManager {
         this.recalculateFinalQuote(formType);
       });
     });
+    
+    // 海运费事件绑定
+    Utils.getElement('seaFreight')?.addEventListener('input', () => {
+      this.calculationEngine.calculateFinalQuote();
+    });
+    
+    Utils.getElement('usedSeaFreight')?.addEventListener('input', () => {
+      this.calculationEngine.calculateUsedCarFinalQuote();
+    });
+    
+    Utils.getElement('newEnergySeaFreight')?.addEventListener('input', () => {
+      this.calculationEngine.calculateNewEnergyFinalQuote();
+    });
   }
   
   // 根据货币ID获取表单类型
