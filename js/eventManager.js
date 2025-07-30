@@ -211,7 +211,7 @@ export class EventManager {
   bindNewCarEvents() {
     const newCarFields = [
       'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance',
-      'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob'
+      'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight'
     ];
     
     newCarFields.forEach(fieldId => {
@@ -234,7 +234,7 @@ export class EventManager {
     const usedCarFields = [
       'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
       'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
-      'usedPortCharges', 'usedPortChargesFob', 'usedMarkup'
+      'usedPortCharges', 'usedPortChargesFob', 'usedSeaFreight', 'usedMarkup'
     ];
     
     usedCarFields.forEach(fieldId => {
@@ -258,7 +258,7 @@ export class EventManager {
       'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment',
       'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee',
       'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges',
-      'newEnergyPortChargesFob', 'newEnergyMarkup'
+      'newEnergyPortChargesFob', 'newEnergySeaFreight', 'newEnergyMarkup'
     ];
     
     newEnergyFields.forEach(fieldId => {
