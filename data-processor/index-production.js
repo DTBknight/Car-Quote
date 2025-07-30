@@ -95,7 +95,7 @@ class ProductionCrawler {
     // 返回所有品牌名称列表
     return [
       'Volkswagen', 'Audi', 'Benz', 'BMW', 'Toyota', 'Ford', 'Honda', 'GWM', 'Changan', 'Chery',
-      'Buick', 'Jeep', 'Mazda', 'Kia', 'LandRover', 'BYD', 'Haval', 'Chery', 'Besturn', 'Porsche',
+      'Buick', 'Jeep', 'Mazda', 'Kia', 'LandRover', 'BYD', 'Haval', 'Chery', 'Bestune', 'Porsche',
       'Lexus', 'Lincoln', 'Bentley', 'RollsRoyce', 'Lamborghini', 'Ferrari', 'Maserati', 'AstonMartin',
       'AlfaRomeo', 'Cadillac', 'Jaguar', 'Peugeot', 'Mini', 'McLaren', 'Lotus', 'ChanganNevo',
       'Aeolus', 'DS', 'Dongfeng', 'Fengon', 'eπ', 'Nami', '_212', 'RisingAuto', 'FormulaLeopard',

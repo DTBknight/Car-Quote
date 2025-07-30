@@ -21,7 +21,7 @@ const brandIdsMap = {
   Buick: 12,    // 别克
   BYD: 16,      // 比亚迪
   Porsche: 20,  // 保时捷
-  Besturn: 27,  // 奔腾
+  Bestune: 27,  // 奔腾
   Bentley: 47,  // 宾利
   Baojun: 366,  // 宝骏
   Peugeot: 61,  // 标致
