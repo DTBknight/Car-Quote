@@ -872,7 +872,7 @@
                   <label for="domesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
                   <input type="number" id="domesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
                 </div>
-                <!-- CIF报价类型：第二行显示国际运输+海运费 -->
+                <!-- CIF报价类型：第二行显示港杂费+海运费 -->
                 <div id="cifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
                   <div class="space-y-2">
                     <label for="portCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
@@ -885,8 +885,8 @@
                 </div>
                 <!-- FOB报价类型：第二行只显示港杂费 -->
                 <div id="fobShippingContainer" class="space-y-2 hidden">
-                  <label for="portCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                  <input type="number" id="portCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  <label for="portChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                  <input type="number" id="portChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -1096,8 +1096,8 @@
                 </div>
                 <!-- FOB报价类型：第二行只显示港杂费 -->
                 <div id="usedFobShippingContainer" class="space-y-2 hidden">
-                  <label for="usedPortCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                  <input type="number" id="usedPortCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  <label for="usedPortChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                  <input type="number" id="usedPortChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -1299,8 +1299,8 @@
                 </div>
                 <!-- FOB报价类型：第二行只显示港杂费 -->
                 <div id="newEnergyFobShippingContainer" class="space-y-2 hidden">
-                  <label for="newEnergyPortCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                  <input type="number" id="newEnergyPortCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  <label for="newEnergyPortChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                  <input type="number" id="newEnergyPortChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -1611,6 +1611,7 @@
         if (this.value === 'EXW') {
           container.classList.add('hidden');
           document.getElementById('portCharges').value = '';
+          document.getElementById('portChargesFob').value = '';
         } else {
           container.classList.remove('hidden');
           container.classList.add('animate-fadeIn');
@@ -1665,7 +1666,10 @@
       const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
       const serviceFee = calculateNewCarServiceFee();
       const domesticShipping = parseFloat(document.getElementById('domesticShipping').value) || 0;
-      const portCharges = parseFloat(document.getElementById('portCharges').value) || 0;
+      // 获取港杂费值（检查CIF和FOB两个输入框）
+      const portChargesCif = parseFloat(document.getElementById('portCharges').value) || 0;
+      const portChargesFob = parseFloat(document.getElementById('portChargesFob').value) || 0;
+      const portCharges = portChargesCif + portChargesFob;
       const compulsoryInsurance = parseFloat(document.getElementById('compulsoryInsurance').value) || 0;
       const otherExpenses = parseFloat(document.getElementById('otherExpenses').value) || 0;
       const taxRefund = parseFloat(document.getElementById('taxRefund').value) || 0;
@@ -1740,7 +1744,10 @@
       const agencyFee = parseFloat(document.getElementById('usedAgencyFee').value) || 0;
       const taxRefundFee = calculateUsedCarTaxRefundFee();
       const domesticShipping = parseFloat(document.getElementById('usedDomesticShipping').value) || 0;
-      const portCharges = parseFloat(document.getElementById('usedPortCharges').value) || 0;
+      // 获取港杂费值（检查CIF和FOB两个输入框）
+      const portChargesCif = parseFloat(document.getElementById('usedPortCharges').value) || 0;
+      const portChargesFob = parseFloat(document.getElementById('usedPortChargesFob').value) || 0;
+      const portCharges = portChargesCif + portChargesFob;
       const taxRefund = parseFloat(document.getElementById('usedTaxRefund').value) || 0;
       
       const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges - taxRefund;
@@ -1830,7 +1837,10 @@
       const agencyFee = parseFloat(document.getElementById('newEnergyAgencyFee').value) || 0;
       const taxRefundFee = calculateNewEnergyTaxRefundFee();
       const domesticShipping = parseFloat(document.getElementById('newEnergyDomesticShipping').value) || 0;
-      const portCharges = parseFloat(document.getElementById('newEnergyPortCharges').value) || 0;
+      // 获取港杂费值（检查CIF和FOB两个输入框）
+      const portChargesCif = parseFloat(document.getElementById('newEnergyPortCharges').value) || 0;
+      const portChargesFob = parseFloat(document.getElementById('newEnergyPortChargesFob').value) || 0;
+      const portCharges = portChargesCif + portChargesFob;
       const taxRefund = parseFloat(document.getElementById('newEnergyTaxRefund').value) || 0;
       
       const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges - taxRefund;
@@ -1876,7 +1886,10 @@
         // 修改：计算成本价格（新公式）
         const invoicePrice = parseFloat(document.getElementById('invoicePrice').value) || 0;
         const domesticShipping = parseFloat(document.getElementById('domesticShipping').value) || 0;
-        const portCharges = parseFloat(document.getElementById('portCharges').value) || 0;
+        // 获取港杂费值（检查CIF和FOB两个输入框）
+        const portChargesCif = parseFloat(document.getElementById('portCharges').value) || 0;
+        const portChargesFob = parseFloat(document.getElementById('portChargesFob').value) || 0;
+        const portCharges = portChargesCif + portChargesFob;
         const compulsoryInsurance = parseFloat(document.getElementById('compulsoryInsurance').value) || 0;
         const otherExpenses = parseFloat(document.getElementById('otherExpenses').value) || 0;
         const taxRefund = parseFloat(document.getElementById('taxRefund').value) || 0;
@@ -1940,6 +1953,7 @@
     document.getElementById('otherExpenses').addEventListener('input', calculateNewCarAll);
     document.getElementById('domesticShipping').addEventListener('input', calculateNewCarAll);
           document.getElementById('portCharges').addEventListener('input', calculateNewCarAll);
+    document.getElementById('portChargesFob').addEventListener('input', calculateNewCarAll);
     // document.getElementById('markup').addEventListener('input', calculateNewCarAll); // 移除，因为现在是只读字段
     
     // 绑定二手车表单输入事件
@@ -1952,6 +1966,7 @@
     document.getElementById('usedAgencyFee').addEventListener('input', calculateUsedCarAll);
     document.getElementById('usedDomesticShipping').addEventListener('input', calculateUsedCarAll);
           document.getElementById('usedPortCharges').addEventListener('input', calculateUsedCarAll);
+    document.getElementById('usedPortChargesFob').addEventListener('input', calculateUsedCarAll);
     // document.getElementById('usedMarkup').addEventListener('input', calculateUsedCarAll); // 移除，因为现在是只读字段
     
     // 绑定新能源表单输入事件
@@ -1964,6 +1979,7 @@
     document.getElementById('newEnergyAgencyFee').addEventListener('input', calculateNewEnergyAll);
     document.getElementById('newEnergyDomesticShipping').addEventListener('input', calculateNewEnergyAll);
           document.getElementById('newEnergyPortCharges').addEventListener('input', calculateNewEnergyAll);
+    document.getElementById('newEnergyPortChargesFob').addEventListener('input', calculateNewEnergyAll);
     // document.getElementById('newEnergyMarkup').addEventListener('input', calculateNewEnergyAll); // 移除，因为现在是只读字段
     
     // 新车、二手车输入变动时都重新计算最终报价
@@ -2032,8 +2048,10 @@
         addCostDetail(costDetails, '选装', optionalEquipment);
       }
       addCostDetail(costDetails, '国内运输', document.getElementById('domesticShipping').value);
-              const portCharges = document.getElementById('portCharges').value;
-        if (portCharges) {
+              const portChargesCif = document.getElementById('portCharges').value;
+        const portChargesFob = document.getElementById('portChargesFob').value;
+        const portCharges = parseFloat(portChargesCif) + parseFloat(portChargesFob);
+        if (portCharges > 0) {
           addCostDetail(costDetails, '港杂费', portCharges);
         }
       const compulsoryInsurance = document.getElementById('compulsoryInsurance').value;
