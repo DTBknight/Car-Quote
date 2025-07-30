@@ -1,13 +1,19 @@
 // 配置文件
-export const CONFIG = {
+const CONFIG = {
   // API配置
   API: {
-    MAIN_APP_ID: '9625bee048bd4599842279906b9ca677',
-    BACKUP_APP_ID: '145b3ca7abb2474f9e1f30b2ed19b77f',
-    BASE_URL: 'https://openexchangerates.org/api/latest.json?symbols=USD,EUR,GBP,CNY'
+    EXCHANGE_RATE: {
+      BASE_URL: 'https://openexchangerates.org/api/latest.json?symbols=USD,EUR,GBP,CNY',
+      MAIN_APP_ID: '9625bee048bd4599842279906b9ca677',
+      BACKUP_APP_ID: '145b3ca7abb2474f9e1f30b2ed19b77f'
+    },
+    CAR_DATA: {
+      BRANDS_URL: 'https://dbtknight.netlify.app/data/brands.json',
+      BASE_URL: 'https://dbtknight.netlify.app/data/'
+    }
   },
   
-  // 主题颜色配置
+  // 主题配置
   THEMES: {
     NEW_CAR: {
       primary: '#165DFF',
@@ -26,37 +32,22 @@ export const CONFIG = {
     }
   },
   
-  // 新能源车购置税免征门槛
-  NEW_ENERGY_TAX_THRESHOLD: 339000,
-  
-  // 税率配置
-  TAX_RATES: {
-    VAT_RATE: 0.13,
+  // 计算常量
+  CALCULATION: {
+    TAX_RATE: 0.13,
+    TAX_DIVISOR: 1.13,
     PURCHASE_TAX_RATE: 11.3,
-    TAX_REFUND_FEE_RATE: 0.025
+    TAX_REFUND_FEE_RATE: 0.025,
+    SERVICE_FEE_RATE: 0.022,
+    EXCHANGE_RATE_OFFSET: 0.05,
+    NEW_ENERGY_TAX_THRESHOLD: 339000
   },
   
-  // 默认手续费系数
-  DEFAULT_SERVICE_FEE_RATE: 0.022,
-  
-  // 货币配置
-  CURRENCIES: {
-    USD: { symbol: 'USD', flag: '🇺🇸', name: '美元' },
-    EUR: { symbol: 'EUR', flag: '🇪🇺', name: '欧元' },
-    GBP: { symbol: 'GBP', flag: '🇬🇧', name: '英镑' }
+  // 默认值
+  DEFAULTS: {
+    SERVICE_FEE_RATE: 0.04,
+    CURRENCY: 'USD'
   }
 };
 
-// 表单类型枚举
-export const FORM_TYPES = {
-  NEW_CAR: 'newCar',
-  USED_CAR: 'usedCar',
-  NEW_ENERGY: 'newEnergy'
-};
-
-// 报价类型枚举
-export const QUOTE_TYPES = {
-  EXW: 'EXW',
-  FOB: 'FOB',
-  CIF: 'CIF'
-}; 
+export default CONFIG; 
