@@ -1,0 +1,53 @@
+name: 汽车数据爬虫
+
+on:
+  schedule:
+    # 每天凌晨2点运行 (UTC时间)
+    - cron: '0 18 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+      
+    - name: 设置Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: data-processor/package-lock.json
+        
+    - name: 安装Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
+    - name: 安装依赖
+      run: |
+        cd data-processor
+        npm ci
+        
+    - name: 运行爬虫
+      run: |
+        cd data-processor
+        node index-optimized.js all
+      env:
+        # 设置环境变量
+        NODE_ENV: production
+        
+    - name: 验证数据
+      run: |
+        cd data-processor
+        node scripts/validate.js
+        
+    - name: 提交更新
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/*.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 自动更新汽车数据 - $(date)"
+        git push 

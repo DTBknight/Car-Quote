@@ -1,35 +1,45 @@
 {
-  "name": "data-processor",
+  "name": "car-data-crawler",
   "version": "2.0.0",
-  "description": "Data Processor - 优化的数据处理器",
-  "main": "index.js",
+  "description": "汽车数据爬虫 - 支持自动化运行",
+  "main": "index-optimized.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
-    "test": "node test.js",
-    "sync": "node index.js autoSyncBrands",
-    "single": "node index.js",
-    "all": "node index.js all",
+    "start": "node index-optimized.js",
+    "dev": "node index-optimized.js BYD",
+    "sync": "node scripts/sync-brands.js",
+    "single": "node index-optimized.js",
+    "all": "node index-optimized.js all",
+    "production": "node index-production.js",
     "clean": "node scripts/clean.js",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "test": "node test-simple.js"
   },
-  "keywords": ["data-processor", "data", "processor", "crawler", "puppeteer"],
-  "author": "Your Name",
+  "keywords": [
+    "crawler",
+    "puppeteer",
+    "car-data",
+    "automation",
+    "github-actions"
+  ],
+  "author": "Car Quote Team",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^21.5.2",
+    "puppeteer": "^21.0.0",
     "cheerio": "^1.0.0-rc.12",
     "axios": "^1.6.0",
-    "user-agents": "^1.0.1354",
-    "dotenv": "^16.3.0",
     "p-limit": "^4.0.0",
     "p-retry": "^5.0.0",
-    "p-timeout": "^4.0.0",
+    "p-timeout": "^5.0.0",
     "cli-progress": "^3.12.0",
     "colors": "^1.4.0",
-    "winston": "^3.11.0"
+    "winston": "^3.11.0",
+    "user-agents": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DTBknight/Car-Quote.git"
   }
 } 
