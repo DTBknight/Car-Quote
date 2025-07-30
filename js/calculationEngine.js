@@ -42,12 +42,11 @@ export class CalculationEngine {
     const portChargesCif = Utils.getElementValue('portCharges');
     const portChargesFob = Utils.getElementValue('portChargesFob');
     const portCharges = portChargesCif + portChargesFob;
-    const seaFreight = Utils.getElementValue('seaFreight');
     const compulsoryInsurance = Utils.getElementValue('compulsoryInsurance');
     const otherExpenses = Utils.getElementValue('otherExpenses');
     const taxRefund = Utils.getElementValue('taxRefund');
     
-    const purchaseCost = invoicePrice + serviceFee + domesticShipping + portCharges + seaFreight + compulsoryInsurance + otherExpenses - taxRefund;
+    const purchaseCost = invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund;
     Utils.setElementValue('purchaseCost', Math.round(purchaseCost));
     return purchaseCost;
   }
@@ -120,10 +119,9 @@ export class CalculationEngine {
     const portChargesCif = Utils.getElementValue('usedPortCharges');
     const portChargesFob = Utils.getElementValue('usedPortChargesFob');
     const portCharges = portChargesCif + portChargesFob;
-    const seaFreight = Utils.getElementValue('usedSeaFreight');
     const taxRefund = Utils.getElementValue('usedTaxRefund');
     
-    const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges + seaFreight - taxRefund;
+    const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges - taxRefund;
     Utils.setElementValue('usedPurchaseCost', Math.round(purchaseCost));
     return purchaseCost;
   }
@@ -218,10 +216,9 @@ export class CalculationEngine {
     const portChargesCif = Utils.getElementValue('newEnergyPortCharges');
     const portChargesFob = Utils.getElementValue('newEnergyPortChargesFob');
     const portCharges = portChargesCif + portChargesFob;
-    const seaFreight = Utils.getElementValue('newEnergySeaFreight');
     const taxRefund = Utils.getElementValue('newEnergyTaxRefund');
     
-    const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges + seaFreight - taxRefund;
+    const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges - taxRefund;
     Utils.setElementValue('newEnergyPurchaseCost', Math.round(purchaseCost));
     return purchaseCost;
   }
