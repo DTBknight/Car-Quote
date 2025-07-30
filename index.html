@@ -1060,11 +1060,11 @@
     </div>
   </main>
   
-  <!-- 搜索下拉菜单 -->
-  <div id="searchCarResults" class="hidden max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
+  <!-- 搜索下拉菜单 - 移到body级别避免被容器限制 -->
+  <div id="searchCarResults" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
   
-  <!-- 搜索历史记录面板 -->
-  <div id="searchHistoryPanel" class="hidden max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
+  <!-- 搜索历史记录面板 - 移到body级别避免被容器限制 -->
+  <div id="searchHistoryPanel" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
     <div class="p-3 border-b border-gray-100">
       <div class="flex items-center justify-between">
         <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
