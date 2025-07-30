@@ -405,36 +405,658 @@
         
         <!-- 新车表单 (默认显示) -->
         <section id="newCarForm" class="space-y-8">
-          <!-- 这里包含新车表单的完整HTML结构 -->
-          <!-- 为了简化，这里只显示一个示例卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-tag text-primary mr-2"></i>新车表单
-            </h4>
-            <p class="text-gray-600">新车表单内容将在这里显示</p>
+          <!-- 第一排：价格信息、税费信息、其余支出、运输费用 -->
+          <div class="grid md:grid-cols-4 gap-4">
+            <!-- 价格信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 第一行：指导价，优惠 -->
+                <div class="space-y-2">
+                  <label for="guidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
+                  <input type="number" id="guidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="discount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
+                  <input type="number" id="discount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                </div>
+                <!-- 第二行：选装，开票价 -->
+                <div class="space-y-2">
+                  <label for="optionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
+                  <input type="number" id="optionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="invoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
+                  <input type="number" id="invoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 税费信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-bank text-primary mr-2"></i>税费信息
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="serviceFeeRate" class="block text-sm font-medium text-gray-700 text-left">手续费</label>
+                  <input type="range" id="serviceFeeRate" min="0.04" max="0.1" step="0.01" value="0.04" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary">
+                  <div class="flex justify-between mt-1">
+                    <span id="serviceFeeRateValue" class="text-sm text-gray-600">0.04</span>
+                    <span id="serviceFee" class="text-sm font-medium text-primary">0.00 元</span>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="taxRefund" class="block text-sm font-medium text-gray-700 text-left">退税 (元)</label>
+                  <input type="number" id="taxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 其余支出卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-list text-primary mr-2"></i>其余支出
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-2">
+                  <label for="compulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
+                  <input type="number" id="compulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="otherExpenses" class="block text-sm font-medium text-gray-700">其他费用 (元)</label>
+                  <input type="number" id="otherExpenses" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入其他费用" step="0.01" min="0" value="0">
+                </div>
+              </div>
+            </div>
+            <!-- 运输费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 第一行：国内运输 (所有报价类型都显示) -->
+                <div class="space-y-2">
+                  <label for="domesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
+                  <input type="number" id="domesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                </div>
+                <!-- CIF报价类型：第二行显示港杂费+海运费 -->
+                <div id="cifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
+                  <div class="space-y-2">
+                    <label for="portCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                    <input type="number" id="portCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  </div>
+                  <div class="space-y-2">
+                    <label for="seaFreight" class="block text-sm font-medium text-gray-700">海运费 (USD)</label>
+                    <input type="number" id="seaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费" step="0.01" min="0">
+                  </div>
+                </div>
+                <!-- FOB报价类型：第二行只显示港杂费 -->
+                <div id="fobShippingContainer" class="space-y-2 hidden">
+                  <label for="portChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                  <input type="number" id="portChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 第二排：报价信息、汇率、利润及最终报价 -->
+          <div class="grid md:grid-cols-4 gap-4">
+            <!-- 人民币价格卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-cny text-primary mr-2"></i>人民币价格
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-2">
+                  <label for="purchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
+                  <input type="number" id="purchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="rmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
+                  <input type="number" id="rmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 汇率及最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="currency" class="block text-sm font-medium text-gray-700">选择币种</label>
+                  <div class="flex items-center gap-2 w-full">
+                    <div id="currencyFlag" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">
+                      🇺🇸
+                    </div>
+                    <select 
+                      id="currency" 
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom"
+                    >
+                      <option value="USD" selected>美元 (USD)</option>
+                      <option value="EUR">欧元 (EUR)</option>
+                      <option value="GBP">英镑 (GBP)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="exchangeRate" class="block text-sm font-medium text-gray-700" id="exchangeRateLabel">汇率 实时基准：显示汇率数值</label>
+                  <input 
+                    type="number" 
+                    id="exchangeRate" 
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom"
+                    placeholder="加载中..."
+                    step="0.0001"
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- 利润卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-line-chart text-primary mr-2"></i>利润
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-2">
+                  <label for="profit" class="block text-sm font-medium text-gray-700">人民币利润 (元)</label>
+                  <input type="number" id="profit" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="profitRate" class="block text-sm font-medium text-gray-700">外币利润</label>
+                  <input type="number" id="profitRate" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-bullseye text-primary mr-2"></i>最终报价
+              </h4>
+              <div class="flex-1 flex flex-col justify-center gap-4">
+                <div class="space-y-2">
+                  <label for="costPrice" class="block text-sm font-medium text-gray-700">成本价格</label>
+                  <input 
+                    type="number" 
+                    id="costPrice" 
+                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="finalQuote" class="block text-sm font-medium text-gray-700">最终报价</label>
+                  <input 
+                    type="number" 
+                    id="finalQuote" 
+                    class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         
         <!-- 二手车表单 (默认隐藏) -->
         <section id="usedCarForm" class="hidden space-y-8">
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-refresh text-primary mr-2"></i>二手车表单
-            </h4>
-            <p class="text-gray-600">二手车表单内容将在这里显示</p>
+          <!-- 第一排：基础价格信息、税费及服务费用、其余支出、运输费用 -->
+          <div class="grid md:grid-cols-4 gap-4">
+            <!-- 基础价格信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 第一行：指导价，优惠 -->
+                <div class="space-y-2">
+                  <label for="usedGuidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
+                  <input type="number" id="usedGuidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="usedDiscount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
+                  <input type="number" id="usedDiscount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                </div>
+                <!-- 第二行：选装，开票价 -->
+                <div class="space-y-2">
+                  <label for="usedOptionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
+                  <input type="number" id="usedOptionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="usedInvoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
+                  <input type="number" id="usedInvoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 税费及服务费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-bank text-primary mr-2"></i>税费信息
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 第一行：购置税 -->
+                <div class="space-y-2">
+                  <label for="usedPurchaseTax" class="block text-sm font-medium text-gray-700">购置税 (元)</label>
+                  <input type="number" id="usedPurchaseTax" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <!-- 第二行：退税，退税手续费 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="space-y-2">
+                    <label for="usedTaxRefund" class="block text-sm font-medium text-gray-700">退税 (元)</label>
+                    <input type="number" id="usedTaxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  </div>
+                  <div class="space-y-2">
+                    <label for="usedTaxRefundFee" class="block text-sm font-medium text-gray-700">退税手续费 (元)</label>
+                    <input type="number" id="usedTaxRefundFee" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 其余支出卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-list text-primary mr-2"></i>其余支出
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 第一行：交强险，其他费用 -->
+                <div class="space-y-2">
+                  <label for="usedCompulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
+                  <input type="number" id="usedCompulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="usedOtherExpenses" class="block text-sm font-medium text-gray-700">其他费用 (元)</label>
+                  <input type="number" id="usedOtherExpenses" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入其他费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 第二行：资质费用，代办费 -->
+                <div class="space-y-2">
+                  <label for="usedQualificationFee" class="block text-sm font-medium text-gray-700">资质费用 (元)</label>
+                  <input type="number" id="usedQualificationFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入资质费用" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="usedAgencyFee" class="block text-sm font-medium text-gray-700">代办费 (元)</label>
+                  <input type="number" id="usedAgencyFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入代办费用" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+            <!-- 运输费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 第一行：国内运输 (所有报价类型都显示) -->
+                <div class="space-y-2">
+                  <label for="usedDomesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
+                  <input type="number" id="usedDomesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                </div>
+                <!-- CIF报价类型：第二行显示国际运输+海运费 -->
+                <div id="usedCifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
+                  <div class="space-y-2">
+                    <label for="usedPortCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                    <input type="number" id="usedPortCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  </div>
+                  <div class="space-y-2">
+                    <label for="usedSeaFreight" class="block text-sm font-medium text-gray-700">海运费 (USD)</label>
+                    <input type="number" id="usedSeaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费" step="0.01" min="0">
+                  </div>
+                </div>
+                <!-- FOB报价类型：第二行只显示港杂费 -->
+                <div id="usedFobShippingContainer" class="space-y-2 hidden">
+                  <label for="usedPortChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                  <input type="number" id="usedPortChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 第二排：报价信息、汇率、利润及最终报价卡片 -->
+          <div class="grid md:grid-cols-4 gap-4">
+            <!-- 人民币价格卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-cny text-primary mr-2"></i>人民币价格
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label for="usedPurchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
+                  <input type="number" id="usedPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="usedMarkup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
+                  <input type="number" id="usedMarkup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="space-y-2">
+                  <label for="usedRmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
+                  <input type="number" id="usedRmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 汇率及最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" id="currencySectionUsed">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="currencyUsed" class="block text-sm font-medium text-gray-700">选择币种</label>
+                  <div class="flex items-center gap-2 w-full">
+                    <div id="currencyFlagUsed" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">🇺🇸</div>
+                    <select id="currencyUsed" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom">
+                      <option value="USD" selected>美元 (USD)</option>
+                      <option value="EUR">欧元 (EUR)</option>
+                      <option value="GBP">英镑 (GBP)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="exchangeRateUsed" class="block text-sm font-medium text-gray-700" id="exchangeRateLabelUsed">汇率 实时基准：显示汇率数值</label>
+                  <input type="number" id="exchangeRateUsed" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="加载中..." step="0.0001">
+                </div>
+              </div>
+            </div>
+            <!-- 利润卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-line-chart text-primary mr-2"></i>利润
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-2">
+                  <label for="usedProfit" class="block text-sm font-medium text-gray-700">人民币利润 (元)</label>
+                  <input type="number" id="usedProfit" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="usedProfitRate" class="block text-sm font-medium text-gray-700">外币利润</label>
+                  <input type="number" id="usedProfitRate" class="w-full px-2 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-bullseye text-primary mr-2"></i>最终报价
+              </h4>
+              <div class="flex-1 flex flex-col justify-center gap-4">
+                <div class="space-y-2">
+                  <label for="costPriceUsed" class="block text-sm font-medium text-gray-700">成本价格</label>
+                  <input 
+                    type="number" 
+                    id="costPriceUsed" 
+                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="finalQuoteUsed" class="block text-sm font-medium text-gray-700">最终报价</label>
+                  <input type="number" id="finalQuoteUsed" class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         
         <!-- 新能源表单 (默认隐藏) -->
         <section id="newEnergyForm" class="hidden space-y-8">
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
-            <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-leaf text-primary mr-2"></i>新能源表单
-            </h4>
-            <p class="text-gray-600">新能源表单内容将在这里显示</p>
+          <!-- 第一排：基础价格信息、税费及服务费用、其余支出、运输费用 -->
+          <div class="grid md:grid-cols-4 gap-4">
+            <!-- 基础价格信息卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 第一行：指导价，优惠 -->
+                <div class="space-y-2">
+                  <label for="newEnergyGuidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
+                  <input type="number" id="newEnergyGuidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyDiscount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
+                  <input type="number" id="newEnergyDiscount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                </div>
+                <!-- 第二行：选装，开票价 -->
+                <div class="space-y-2">
+                  <label for="newEnergyOptionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
+                  <input type="number" id="newEnergyOptionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyInvoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
+                  <input type="number" id="newEnergyInvoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 税费及服务费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-bank text-primary mr-2"></i>税费信息
+                <span class="ml-2 text-xs text-gray-600 flex items-center">
+                  <i class="fa fa-info-circle mr-1 text-gray-600"></i>
+                  <span id="newEnergyTaxNote">免征购置税</span>
+                </span>
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 第一行：购置税 -->
+                <div class="space-y-2">
+                  <label for="newEnergyPurchaseTax" class="block text-sm font-medium text-gray-700">购置税 (元)</label>
+                  <input type="number" id="newEnergyPurchaseTax" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <!-- 第二行：退税，退税手续费 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="space-y-2">
+                    <label for="newEnergyTaxRefund" class="block text-sm font-medium text-gray-700">退税 (元)</label>
+                    <input type="number" id="newEnergyTaxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  </div>
+                  <div class="space-y-2">
+                    <label for="newEnergyTaxRefundFee" class="block text-sm font-medium text-gray-700">退税手续费 (元)</label>
+                    <input type="number" id="newEnergyTaxRefundFee" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 其余支出卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-list text-primary mr-2"></i>其余支出
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 第一行：交强险，其他费用 -->
+                <div class="space-y-2">
+                  <label for="newEnergyCompulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
+                  <input type="number" id="newEnergyCompulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyOtherExpenses" class="block text-sm font-medium text-gray-700">其他费用 (元)</label>
+                  <input type="number" id="newEnergyOtherExpenses" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入其他费用" step="0.01" min="0" value="0">
+                </div>
+                <!-- 第二行：资质费用，代办费 -->
+                <div class="space-y-2">
+                  <label for="newEnergyQualificationFee" class="block text-sm font-medium text-gray-700">资质费用 (元)</label>
+                  <input type="number" id="newEnergyQualificationFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入资质费用" step="0.01" min="0">
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyAgencyFee" class="block text-sm font-medium text-gray-700">代办费 (元)</label>
+                  <input type="number" id="newEnergyAgencyFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入代办费用" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+            <!-- 运输费用卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <!-- 第一行：国内运输 (所有报价类型都显示) -->
+                <div class="space-y-2">
+                  <label for="newEnergyDomesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
+                  <input type="number" id="newEnergyDomesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                </div>
+                <!-- CIF报价类型：第二行显示国际运输+海运费 -->
+                <div id="newEnergyCifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
+                  <div class="space-y-2">
+                    <label for="newEnergyPortCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                    <input type="number" id="newEnergyPortCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  </div>
+                  <div class="space-y-2">
+                    <label for="newEnergySeaFreight" class="block text-sm font-medium text-gray-700">海运费 (USD)</label>
+                    <input type="number" id="newEnergySeaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费" step="0.01" min="0">
+                  </div>
+                </div>
+                <!-- FOB报价类型：第二行只显示港杂费 -->
+                <div id="newEnergyFobShippingContainer" class="space-y-2 hidden">
+                  <label for="newEnergyPortChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
+                  <input type="number" id="newEnergyPortChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 第二排：报价信息、汇率、利润及最终报价卡片 -->
+          <div class="grid md:grid-cols-4 gap-4">
+            <!-- 人民币价格卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-cny text-primary mr-2"></i>人民币价格
+              </h4>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                  <label for="newEnergyPurchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
+                  <input type="number" id="newEnergyPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyMarkup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
+                  <input type="number" id="newEnergyMarkup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="space-y-2">
+                  <label for="newEnergyRmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
+                  <input type="number" id="newEnergyRmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 汇率及最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" id="currencySectionNewEnergy">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+              </h4>
+              <div class="grid grid-cols-1 gap-6">
+                <div class="space-y-2">
+                  <label for="currencyNewEnergy" class="block text-sm font-medium text-gray-700">选择币种</label>
+                  <div class="flex items-center gap-2 w-full">
+                    <div id="currencyFlagNewEnergy" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">🇺🇸</div>
+                    <select id="currencyNewEnergy" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom">
+                      <option value="USD" selected>美元 (USD)</option>
+                      <option value="EUR">欧元 (EUR)</option>
+                      <option value="GBP">英镑 (GBP)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="space-y-2">
+                  <label for="exchangeRateNewEnergy" class="block text-sm font-medium text-gray-700" id="exchangeRateLabelNewEnergy">汇率 实时基准：显示汇率数值</label>
+                  <input type="number" id="exchangeRateNewEnergy" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="加载中..." step="0.0001">
+                </div>
+              </div>
+            </div>
+            <!-- 利润卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-line-chart text-primary mr-2"></i>利润
+              </h4>
+              <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-2">
+                  <label for="newEnergyProfit" class="block text-sm font-medium text-gray-700">人民币利润 (元)</label>
+                  <input type="number" id="newEnergyProfit" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+                <div class="space-y-2">
+                  <label for="newEnergyProfitRate" class="block text-sm font-medium text-gray-700">外币利润</label>
+                  <input type="number" id="newEnergyProfitRate" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                </div>
+              </div>
+            </div>
+            <!-- 最终报价卡片 -->
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
+              <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
+                <i class="fa fa-bullseye text-primary mr-2"></i>最终报价
+              </h4>
+              <div class="flex-1 flex flex-col justify-center gap-4">
+                <div class="space-y-2">
+                  <label for="costPriceNewEnergy" class="block text-sm font-medium text-gray-700">成本价格</label>
+                  <input 
+                    type="number" 
+                    id="costPriceNewEnergy" 
+                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+                <div class="space-y-2">
+                  <label for="finalQuoteNewEnergy" class="block text-sm font-medium text-gray-700">最终报价</label>
+                  <input 
+                    type="number" 
+                    id="finalQuoteNewEnergy" 
+                    class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom"
+                    placeholder="自动计算"
+                    step="0.01"
+                    readonly
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </form>
+      
+      <!-- 报价结果卡片 -->
+      <div id="resultCard" class="hidden bg-white rounded-xl shadow-md p-6 md:p-8 mb-8 transform transition-custom hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-6 flex items-center">
+          <i class="fa fa-file-text-o text-primary mr-2"></i>报价结果
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="border-b border-gray-100 pb-4 md:border-b-0 md:border-r border-gray-100 md:pr-6">
+            <h4 class="text-lg font-medium text-gray-700 mb-4">基础信息</h4>
+            <ul class="space-y-3">
+              <li class="flex justify-between">
+                <span class="text-gray-600">车型名称:</span>
+                <span id="resultCarModel" class="font-medium"></span>
+              </li>
+              <li class="flex justify-between">
+                <span class="text-gray-600">车型类型:</span>
+                <span id="resultCarType" class="font-medium"></span>
+              </li>
+              <li class="flex justify-between">
+                <span class="text-gray-600">报价类型:</span>
+                <span id="resultQuoteType" class="font-medium"></span>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-medium text-gray-700 mb-4">成本明细</h4>
+            <ul class="space-y-3" id="resultCostDetails">
+              <!-- 动态填充 -->
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mt-6 pt-6 border-t border-gray-100">
+          <h4 class="text-lg font-medium text-gray-700 mb-4">报价汇总</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-gray-50 p-4 rounded-lg text-center">
+              <div class="text-sm text-gray-500 mb-1">人民币报价</div>
+              <div id="resultRmbQuote" class="text-lg font-semibold"></div>
+            </div>
+            <div class="bg-primary/10 p-4 rounded-lg text-center border border-primary/20">
+              <div class="text-sm text-gray-500 mb-1" id="resultCurrencyText">最终报价 (USD)</div>
+              <div id="resultFinalQuote" class="text-lg font-semibold text-primary"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
   

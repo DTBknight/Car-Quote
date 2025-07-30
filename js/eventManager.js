@@ -12,7 +12,7 @@ export class EventManager {
     this.quoteTypeState = {
       new: 'EXW',
       used: 'EXW',
-      newEnergy: 'EXW'
+      newEnergyTax: 'EXW'
     };
   }
   
@@ -82,114 +82,41 @@ export class EventManager {
       Utils.addClass(formId, 'animate-fadeIn');
     }
     
-    // 同步报价类型
+    // 同步报价类型并重新应用当前报价类型的显示逻辑
     this.syncGlobalQuoteType(type);
+    
+    // 重新应用当前报价类型的显示逻辑
+    this.handleQuoteTypeChange(type);
+  }
+  
+  // 获取当前报价类型
+  getCurrentQuoteType() {
+    const checkedRadio = document.querySelector('input[name="globalQuoteType"]:checked');
+    return checkedRadio ? checkedRadio.value : 'EXW';
   }
   
   // 绑定报价类型切换事件
   bindQuoteTypeEvents() {
     document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
       radio.addEventListener('change', (e) => {
+        if (!e.target.checked) return;
         const value = e.target.value;
-        this.handleQuoteTypeChange(value);
+        const type = this.getActiveFormType();
+        this.quoteTypeState[type] = value;
+        this.handleQuoteTypeChange(type);
       });
     });
   }
   
   // 处理报价类型变化
-  handleQuoteTypeChange(value) {
-    // 处理新车表单的报价类型切换
-    this.handleNewCarQuoteTypeChange(value);
-    
-    // 处理二手车表单的报价类型切换
-    this.handleUsedCarQuoteTypeChange(value);
-    
-    // 处理新能源表单的报价类型切换
-    this.handleNewEnergyQuoteTypeChange(value);
-    
-    // 根据当前激活的表单类型进行相应计算
-    const activeForm = this.getActiveFormType();
-    if (activeForm === 'new') {
-      this.calculationEngine.calculateNewCarAll();
-    } else if (activeForm === 'used') {
-      this.calculationEngine.calculateUsedCarAll();
-    } else if (activeForm === 'newEnergy') {
-      this.calculationEngine.calculateNewEnergyAll();
-    }
-  }
-  
-  // 处理新车表单的报价类型切换
-  handleNewCarQuoteTypeChange(value) {
-    const cifContainer = Utils.getElement('cifShippingContainer');
-    const fobContainer = Utils.getElement('fobShippingContainer');
-    
-    if (value === 'EXW') {
-      if (cifContainer) Utils.toggleElement('cifShippingContainer', false);
-      if (fobContainer) Utils.toggleElement('fobShippingContainer', false);
-      Utils.setElementValue('portCharges', '');
-      Utils.setElementValue('portChargesFob', '');
-    } else if (value === 'CIF') {
-      if (cifContainer) {
-        Utils.toggleElement('cifShippingContainer', true);
-        Utils.addClass('cifShippingContainer', 'animate-fadeIn');
-      }
-      if (fobContainer) Utils.toggleElement('fobShippingContainer', false);
-    } else if (value === 'FOB') {
-      if (cifContainer) Utils.toggleElement('cifShippingContainer', false);
-      if (fobContainer) {
-        Utils.toggleElement('fobShippingContainer', true);
-        Utils.addClass('fobShippingContainer', 'animate-fadeIn');
-      }
-    }
-  }
-  
-  // 处理二手车表单的报价类型切换
-  handleUsedCarQuoteTypeChange(value) {
-    const cifContainer = Utils.getElement('usedCifShippingContainer');
-    const fobContainer = Utils.getElement('usedFobShippingContainer');
-    
-    if (value === 'EXW') {
-      if (cifContainer) Utils.toggleElement('usedCifShippingContainer', false);
-      if (fobContainer) Utils.toggleElement('usedFobShippingContainer', false);
-      Utils.setElementValue('usedPortCharges', '');
-      Utils.setElementValue('usedPortChargesFob', '');
-    } else if (value === 'CIF') {
-      if (cifContainer) {
-        Utils.toggleElement('usedCifShippingContainer', true);
-        Utils.addClass('usedCifShippingContainer', 'animate-fadeIn');
-      }
-      if (fobContainer) Utils.toggleElement('usedFobShippingContainer', false);
-    } else if (value === 'FOB') {
-      if (cifContainer) Utils.toggleElement('usedCifShippingContainer', false);
-      if (fobContainer) {
-        Utils.toggleElement('usedFobShippingContainer', true);
-        Utils.addClass('usedFobShippingContainer', 'animate-fadeIn');
-      }
-    }
-  }
-  
-  // 处理新能源表单的报价类型切换
-  handleNewEnergyQuoteTypeChange(value) {
-    const cifContainer = Utils.getElement('newEnergyCifShippingContainer');
-    const fobContainer = Utils.getElement('newEnergyFobShippingContainer');
-    
-    if (value === 'EXW') {
-      if (cifContainer) Utils.toggleElement('newEnergyCifShippingContainer', false);
-      if (fobContainer) Utils.toggleElement('newEnergyFobShippingContainer', false);
-      Utils.setElementValue('newEnergyPortCharges', '');
-      Utils.setElementValue('newEnergyPortChargesFob', '');
-    } else if (value === 'CIF') {
-      if (cifContainer) {
-        Utils.toggleElement('newEnergyCifShippingContainer', true);
-        Utils.addClass('newEnergyCifShippingContainer', 'animate-fadeIn');
-      }
-      if (fobContainer) Utils.toggleElement('newEnergyFobShippingContainer', false);
-    } else if (value === 'FOB') {
-      if (cifContainer) Utils.toggleElement('newEnergyCifShippingContainer', false);
-      if (fobContainer) {
-        Utils.toggleElement('newEnergyFobShippingContainer', true);
-        Utils.addClass('newEnergyFobShippingContainer', 'animate-fadeIn');
-      }
+  handleQuoteTypeChange(type) {
+    // 根据表单类型处理相应的容器
+    if (type === 'new') {
+      this.handleNewCarQuoteTypeChange();
+    } else if (type === 'used') {
+      this.handleUsedCarQuoteTypeChange();
+    } else if (type === 'newEnergyTax') {
+      this.handleNewEnergyQuoteTypeChange();
     }
   }
   
@@ -197,6 +124,87 @@ export class EventManager {
   getActiveFormType() {
     const activeBtn = document.querySelector('.export-type-btn.border-primary.text-primary');
     return activeBtn ? activeBtn.getAttribute('data-type') : 'new';
+  }
+  
+  // 处理新车表单的报价类型切换
+  handleNewCarQuoteTypeChange() {
+    const cifContainer = Utils.getElement('cifShippingContainer');
+    const fobContainer = Utils.getElement('fobShippingContainer');
+    const value = this.quoteTypeState.new;
+    
+    // 隐藏所有容器
+    if (cifContainer) Utils.toggleElement('cifShippingContainer', false);
+    if (fobContainer) Utils.toggleElement('fobShippingContainer', false);
+    
+    // 根据报价类型显示对应容器
+    if (value === 'CIF') {
+      if (cifContainer) {
+        Utils.toggleElement('cifShippingContainer', true);
+        Utils.addClass('cifShippingContainer', 'animate-fadeIn');
+      }
+    } else if (value === 'FOB') {
+      if (fobContainer) {
+        Utils.toggleElement('fobShippingContainer', true);
+        Utils.addClass('fobShippingContainer', 'animate-fadeIn');
+      }
+    }
+    // EXW时只显示国内运输，不需要额外容器
+    
+    this.calculationEngine.calculateNewCarAll();
+  }
+  
+  // 处理二手车表单的报价类型切换
+  handleUsedCarQuoteTypeChange() {
+    const cifContainer = Utils.getElement('usedCifShippingContainer');
+    const fobContainer = Utils.getElement('usedFobShippingContainer');
+    const value = this.quoteTypeState.used;
+    
+    // 隐藏所有容器
+    if (cifContainer) Utils.toggleElement('usedCifShippingContainer', false);
+    if (fobContainer) Utils.toggleElement('usedFobShippingContainer', false);
+    
+    // 根据报价类型显示对应容器
+    if (value === 'CIF') {
+      if (cifContainer) {
+        Utils.toggleElement('usedCifShippingContainer', true);
+        Utils.addClass('usedCifShippingContainer', 'animate-fadeIn');
+      }
+    } else if (value === 'FOB') {
+      if (fobContainer) {
+        Utils.toggleElement('usedFobShippingContainer', true);
+        Utils.addClass('usedFobShippingContainer', 'animate-fadeIn');
+      }
+    }
+    // EXW时只显示国内运输，不需要额外容器
+    
+    this.calculationEngine.calculateUsedCarAll();
+  }
+  
+  // 处理新能源表单的报价类型切换
+  handleNewEnergyQuoteTypeChange() {
+    const cifContainer = Utils.getElement('newEnergyCifShippingContainer');
+    const fobContainer = Utils.getElement('newEnergyFobShippingContainer');
+    const value = this.quoteTypeState.newEnergyTax;
+    
+    // 隐藏所有容器
+    if (cifContainer) Utils.toggleElement('newEnergyCifShippingContainer', false);
+    if (fobContainer) Utils.toggleElement('newEnergyFobShippingContainer', false);
+    
+    // 根据报价类型显示对应容器
+    if (value === 'CIF') {
+      if (cifContainer) {
+        Utils.toggleElement('newEnergyCifShippingContainer', true);
+        Utils.addClass('newEnergyCifShippingContainer', 'animate-fadeIn');
+      }
+    } else if (value === 'FOB') {
+      if (fobContainer) {
+        Utils.toggleElement('newEnergyFobShippingContainer', true);
+        Utils.addClass('newEnergyFobShippingContainer', 'animate-fadeIn');
+      }
+    }
+    // EXW时只显示国内运输，不需要额外容器
+    
+    this.calculationEngine.calculateNewEnergyAll();
   }
   
   // 绑定新车表单事件
