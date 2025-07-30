@@ -263,6 +263,7 @@ export class EventManager {
           // 其他字段使用防抖
           this.debouncedNewCarCalculation();
         }
+        return; // 避免重复处理
       }
       
       // 二手车字段
@@ -274,6 +275,7 @@ export class EventManager {
           // 其他字段使用防抖
           this.debouncedUsedCarCalculation();
         }
+        return; // 避免重复处理
       }
       
       // 新能源字段
@@ -285,6 +287,7 @@ export class EventManager {
           // 其他字段使用防抖
           this.debouncedNewEnergyCalculation();
         }
+        return; // 避免重复处理
       }
       
       // 人民币报价变化时重新计算最终报价
@@ -322,18 +325,7 @@ export class EventManager {
       });
     });
     
-    // 海运费事件绑定
-    Utils.getElement('seaFreight')?.addEventListener('input', () => {
-      this.calculationEngine.calculateFinalQuote();
-    });
-    
-    Utils.getElement('usedSeaFreight')?.addEventListener('input', () => {
-      this.calculationEngine.calculateUsedCarFinalQuote();
-    });
-    
-    Utils.getElement('newEnergySeaFreight')?.addEventListener('input', () => {
-      this.calculationEngine.calculateNewEnergyFinalQuote();
-    });
+    // 海运费事件已经在bindFormFieldEvents中通过事件委托处理，这里不需要重复绑定
   }
   
   // 根据货币ID获取表单类型

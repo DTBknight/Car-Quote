@@ -233,7 +233,9 @@ export class CalculationEngine {
   calculateNewCarRmbQuote() {
     const purchaseCost = Utils.getElementValue('purchaseCost');
     const rmbQuote = purchaseCost; // 人民币报价 = 采购费用
-    Utils.setElementValue('rmbPrice', Math.round(rmbQuote));
+    const rmbInput = Utils.getElement('rmbPrice');
+    rmbInput.value = Math.round(rmbQuote);
+    rmbInput.dispatchEvent(new Event('input'));
     return rmbQuote;
   }
   
@@ -563,7 +565,6 @@ export class CalculationEngine {
       const taxRefund = Utils.getElementValue('taxRefund');
       
       // 新车成本价格 = (开票价 + 开票价×手续费率 + 国内运输 + 港杂费 + 交强险 + 其他费用 - 退税) ÷ 汇率 + 海运费
-      const serviceFeeRate = Utils.getElementValue('serviceFeeRate');
       const serviceFee = invoicePrice * serviceFeeRate; // 使用动态手续费率
       const costPrice = (invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund) / exchangeRate + seaFreight;
       Utils.setElementValue('costPrice', Math.round(costPrice));
