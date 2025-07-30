@@ -112,6 +112,9 @@ export class CarSearch {
   performSearch(query) {
     if (!this.allCarsLoaded) return;
     
+    console.log('performSearch query:', query); // 调试信息
+    console.log('allCars length:', this.allCars.length); // 调试信息
+    
     const results = [];
     
     // 首先尝试车型名和配置名匹配（优先级更高）
@@ -157,6 +160,7 @@ export class CarSearch {
       }
     }
     
+    console.log('search results:', results); // 调试信息
     this.displayResults(results.slice(0, 20)); // 限制结果数量
   }
   
@@ -254,7 +258,18 @@ export class CarSearch {
   
   // 选择车型
   selectCar(car, config) {
-    const displayText = config ? config.configName : car.carName;
+    // 确保displayText不为undefined
+    let displayText = '';
+    if (config && config.configName) {
+      displayText = config.configName;
+    } else if (car && car.carName) {
+      displayText = car.carName;
+    } else if (car && car.name) {
+      displayText = car.name;
+    } else {
+      displayText = '未知车型';
+    }
+    
     const carInput = Utils.getElement('searchCarInput');
     
     if (carInput) {
@@ -269,6 +284,8 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
+    console.log('fillCarDetails carData:', carData); // 调试信息
+    
     // 填充基础信息
     Utils.setElementValue('brandName2', carData.brand || carData.seriesName || '');
     Utils.setElementValue('carModel2', carData.name || carData.carName || '');
