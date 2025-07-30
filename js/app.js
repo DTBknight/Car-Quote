@@ -5,6 +5,7 @@ import { ThemeManager } from './themeManager.js';
 import { CalculationEngine } from './calculationEngine.js';
 import { EventManager } from './eventManager.js';
 import { CarSearch } from './carSearch.js';
+import { ContractManager } from './contractManager.js';
 
 // 主应用类
 export class CarQuoteApp {
@@ -18,6 +19,7 @@ export class CarQuoteApp {
       this.themeManager
     );
     this.carSearch = new CarSearch();
+    this.contractManager = new ContractManager();
     this.initialized = false;
     this.performanceMetrics = {
       initTime: 0,

@@ -325,6 +325,83 @@
     #baseInfoSection .card-hover {
       z-index: 20 !important;
     }
+    
+    /* 分区导航样式 */
+    .tab-button {
+      background-color: #f3f4f6;
+      color: #6b7280;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .tab-button:hover {
+      background-color: #e5e7eb;
+      color: #374151;
+    }
+    
+    .tab-button.active {
+      background-color: var(--primary-color);
+      color: white;
+      border-color: var(--primary-color);
+    }
+    
+    /* 分区内容样式 */
+    .tab-content {
+      display: none;
+    }
+    
+    .tab-content.active {
+      display: block;
+    }
+    
+    /* Excel表格样式 */
+    .excel-table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .excel-table th,
+    .excel-table td {
+      border: 1px solid #d1d5db;
+      padding: 8px 12px;
+      text-align: left;
+      vertical-align: middle;
+    }
+    
+    .excel-table th {
+      background-color: #f9fafb;
+      font-weight: 600;
+      color: #374151;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    
+    .excel-table td input,
+    .excel-table td select {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 14px;
+      padding: 4px;
+    }
+    
+    .excel-table td input:focus,
+    .excel-table td select:focus {
+      background-color: #f0f9ff;
+      border: 1px solid var(--primary-color);
+      border-radius: 4px;
+    }
+    
+    .excel-table td select {
+      cursor: pointer;
+    }
+    
+    .excel-table tr:hover {
+      background-color: #f8fafc;
+    }
   </style>
 </head>
 
@@ -336,13 +413,32 @@
         <i class="fa-solid fa-rocket text-primary text-2xl"></i>
         <h1 class="text-[clamp(1.25rem,3vw,1.75rem)] font-bold text-dark">DTB Calculator</h1>
       </div>
+      <!-- 分区导航 -->
+      <div class="flex items-center space-x-4">
+        <button 
+          id="calculatorTab" 
+          class="px-4 py-2 rounded-lg font-medium transition-custom tab-button active"
+          data-tab="calculator"
+        >
+          <i class="fa-solid fa-calculator mr-2"></i>计算器
+        </button>
+        <button 
+          id="contractTab" 
+          class="px-4 py-2 rounded-lg font-medium transition-custom tab-button"
+          data-tab="contract"
+        >
+          <i class="fa-solid fa-file-contract mr-2"></i>合同
+        </button>
+      </div>
     </div>
   </header>
 
   <!-- 主要内容区 -->
   <main class="container mx-auto px-4 py-8">
-    <!-- 表单卡片 -->
-    <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
+    <!-- 计算器分区 -->
+    <div id="calculatorContent" class="tab-content active">
+      <!-- 表单卡片 -->
+      <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
       <form id="carQuoteForm" class="space-y-8">
         <!-- 搜索卡片 -->
         <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 mb-6 flex flex-col items-start shadow-sm search-card" style="z-index: 99999;">
@@ -1117,6 +1213,97 @@
         </div>
       </div>
     </div>
+    
+    <!-- Contract分区 -->
+    <div id="contractContent" class="tab-content">
+      <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-2xl font-bold text-dark flex items-center">
+            <i class="fa-solid fa-file-contract text-primary mr-3"></i>合同管理
+          </h2>
+          <div class="flex space-x-3">
+            <button 
+              id="addRowBtn" 
+              class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-custom flex items-center"
+            >
+              <i class="fa-solid fa-plus mr-2"></i>添加行
+            </button>
+            <button 
+              id="deleteRowBtn" 
+              class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-custom flex items-center"
+            >
+              <i class="fa-solid fa-trash mr-2"></i>删除行
+            </button>
+            <button 
+              id="exportExcelBtn" 
+              class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-custom flex items-center"
+            >
+              <i class="fa-solid fa-file-excel mr-2"></i>导出Excel
+            </button>
+            <button 
+              id="clearTableBtn" 
+              class="px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-custom flex items-center"
+            >
+              <i class="fa-solid fa-eraser mr-2"></i>清空表格
+            </button>
+          </div>
+        </div>
+        
+        <!-- Excel表格容器 -->
+        <div class="overflow-x-auto">
+          <table id="contractTable" class="excel-table">
+            <thead>
+              <tr>
+                <th>序号</th>
+                <th>合同编号</th>
+                <th>客户名称</th>
+                <th>车型</th>
+                <th>数量</th>
+                <th>单价 (USD)</th>
+                <th>总价 (USD)</th>
+                <th>交货期</th>
+                <th>付款方式</th>
+                <th>状态</th>
+                <th>备注</th>
+              </tr>
+            </thead>
+            <tbody id="contractTableBody">
+              <!-- 初始行 -->
+              <tr>
+                <td>1</td>
+                <td><input type="text" placeholder="输入合同编号"></td>
+                <td><input type="text" placeholder="输入客户名称"></td>
+                <td><input type="text" placeholder="输入车型"></td>
+                <td><input type="number" placeholder="数量" min="1" class="quantity-input"></td>
+                <td><input type="number" placeholder="单价" step="0.01" min="0" class="price-input"></td>
+                <td><input type="number" placeholder="总价" step="0.01" min="0" readonly class="total-input"></td>
+                <td><input type="date"></td>
+                <td>
+                  <select>
+                    <option value="">选择付款方式</option>
+                    <option value="T/T">T/T</option>
+                    <option value="L/C">L/C</option>
+                    <option value="D/P">D/P</option>
+                    <option value="Cash">Cash</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                    <option value="">选择状态</option>
+                    <option value="待确认">待确认</option>
+                    <option value="已确认">已确认</option>
+                    <option value="生产中">生产中</option>
+                    <option value="已发货">已发货</option>
+                    <option value="已完成">已完成</option>
+                  </select>
+                </td>
+                <td><input type="text" placeholder="备注"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </main>
   
   <!-- 搜索下拉菜单 - 移到body级别避免被容器限制 -->
@@ -1154,6 +1341,9 @@
     </div>
   </footer>
 
+  <!-- SheetJS库 - Excel导出功能 -->
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+  
   <!-- 模块化JavaScript -->
   <script type="module" src="js/app.js"></script>
 </body>
