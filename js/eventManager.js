@@ -248,6 +248,7 @@ export class EventManager {
     // 使用事件委托绑定所有表单字段
     document.addEventListener('input', (e) => {
       const fieldId = e.target.id;
+      console.log('事件触发:', fieldId, e.target.value);
       
       // 关键字段即时计算（无防抖）
       const instantFields = ['guidePrice', 'discount', 'optionalEquipment', 'serviceFeeRate'];
@@ -256,11 +257,14 @@ export class EventManager {
       
       // 新车字段
       if (this.eventConfig.newCarFields.includes(fieldId)) {
+        console.log('新车字段事件:', fieldId);
         if (instantFields.includes(fieldId)) {
           // 关键字段即时计算
+          console.log('触发即时计算:', fieldId);
           this.calculationEngine.calculateNewCarAll();
         } else {
           // 其他字段使用防抖
+          console.log('触发防抖计算:', fieldId);
           this.debouncedNewCarCalculation();
         }
         return; // 避免重复处理
