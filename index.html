@@ -272,12 +272,12 @@
       cursor: pointer;
       position: relative;
       overflow: hidden;
-      z-index: 1;
+      z-index: 10;
     }
     
     .card-hover,
     .bg-gray-50.p-6.rounded-lg.border.border-gray-200 {
-      z-index: 1 !important;
+      z-index: 10 !important;
     }
     
     .card-hover:hover {
@@ -312,6 +312,18 @@
 
     .final-quote-highlight {
       @apply border-2 border-primary !important;
+    }
+    
+    /* 确保卡片标题不被遮挡 */
+    .card-hover h3,
+    .card-hover h4 {
+      position: relative;
+      z-index: 25;
+    }
+    
+    /* 确保基础信息部分的卡片有足够高的层级 */
+    #baseInfoSection .card-hover {
+      z-index: 20 !important;
     }
   </style>
 </head>
@@ -360,8 +372,8 @@
         <section id="baseInfoSection" class="mb-6 hidden">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <!-- 基础信息卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover">
-              <h3 class="text-lg font-medium flex items-center mb-3">
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+              <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
                 <i class="fa-solid fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
               <div class="grid grid-cols-1 gap-3">
@@ -395,8 +407,8 @@
               </div>
             </div>
             <!-- 车型图片卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover">
-              <h3 class="text-lg font-medium flex items-center mb-3">
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+              <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
                 <i class="fa-solid fa-images text-primary mr-2"></i>车型图片
               </h3>
               <div id="carMainImageBox" class="h-64 flex items-center justify-center">
