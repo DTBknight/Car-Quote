@@ -33,24 +33,27 @@ export class CarQuoteApp {
     try {
       console.log('🚗 汽车报价系统初始化中...');
       
-      // 初始化主题
+      // 1. 先设置默认值
+      this.setDefaultValues();
+      
+      // 2. 初始化主题
       this.themeManager.initializeTheme();
       
-      // 并行初始化汇率和车辆搜索
+      // 3. 并行初始化汇率和车辆搜索
       await Promise.allSettled([
         this.exchangeRateManager.initializeExchangeRates(),
         this.carSearch.initialize()
       ]);
       
-      // 初始化事件监听器
+      // 4. 初始化事件监听器
       this.eventManager.initializeEvents();
       
-      // 设置默认值
-      this.setDefaultValues();
-      
-      // 显示汇率区域
+      // 5. 显示汇率区域
       this.showCurrencySection();
       
+      // 6. 统一触发一次新车全表单计算，避免页面闪烁
+      this.calculationEngine.calculateNewCarAll();
+
       this.initialized = true;
       this.performanceMetrics.initTime = performance.now() - startTime;
       this.performanceMetrics.lastUpdate = Date.now();
