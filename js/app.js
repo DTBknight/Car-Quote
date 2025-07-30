@@ -59,6 +59,8 @@ export class CarQuoteApp {
       // 7. 初始化卡片悬浮效果
       this.initCardHoverEffects();
 
+      // 8. 合同管理模块已在构造函数中初始化
+
       this.initialized = true;
       this.performanceMetrics.initTime = performance.now() - startTime;
       this.performanceMetrics.lastUpdate = Date.now();
