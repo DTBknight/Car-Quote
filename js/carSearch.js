@@ -123,7 +123,16 @@ export class CarSearch {
   // 显示搜索结果
   displayResults(results) {
     const carResultBox = Utils.getElement('searchCarResults');
-    if (!carResultBox) return;
+    const searchInput = Utils.getElement('searchCarInput');
+    if (!carResultBox || !searchInput) return;
+    
+    // 定位下拉菜单
+    const inputRect = searchInput.getBoundingClientRect();
+    carResultBox.style.position = 'fixed';
+    carResultBox.style.top = `${inputRect.bottom + 5}px`;
+    carResultBox.style.left = `${inputRect.left}px`;
+    carResultBox.style.width = `${inputRect.width}px`;
+    carResultBox.style.zIndex = '999999';
     
     if (results.length === 0) {
       carResultBox.innerHTML = '<div class="p-4 text-center text-gray-500">未找到相关车型</div>';
@@ -244,12 +253,21 @@ export class CarSearch {
   // 切换历史面板
   toggleHistoryPanel() {
     const historyPanel = Utils.getElement('searchHistoryPanel');
-    if (!historyPanel) return;
+    const historyBtn = Utils.getElement('showHistoryBtn');
+    if (!historyPanel || !historyBtn) return;
     
     const isVisible = !historyPanel.classList.contains('hidden');
     if (isVisible) {
       Utils.toggleElement('searchHistoryPanel', false);
     } else {
+      // 定位历史面板
+      const btnRect = historyBtn.getBoundingClientRect();
+      historyPanel.style.position = 'fixed';
+      historyPanel.style.top = `${btnRect.bottom + 5}px`;
+      historyPanel.style.right = `${window.innerWidth - btnRect.right}px`;
+      historyPanel.style.width = '300px';
+      historyPanel.style.zIndex = '999999';
+      
       this.displaySearchHistory();
       Utils.toggleElement('searchHistoryPanel', true);
     }

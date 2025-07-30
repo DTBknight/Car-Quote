@@ -5,19 +5,11 @@
 [build.environment]
   NODE_VERSION = "18"
 
-# API路由重定向到Netlify Functions
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/server"
   status = 200
 
-# 静态文件路由
-[[redirects]]
-  from = "/data/*"
-  to = "/data/:splat"
-  status = 200
-
-# SPA路由 - 所有其他路由都指向index.html
 [[redirects]]
   from = "/*"
   to = "/index.html"
