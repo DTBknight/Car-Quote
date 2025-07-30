@@ -5,6 +5,138 @@ import { Utils } from './utils.js';
 export class CalculationEngine {
   constructor() {
     this.formTypes = ['new', 'used', 'newEnergy'];
+    this.calculationCache = new Map(); // 计算缓存
+    this.dependencies = new Map(); // 依赖关系
+    this.cacheTimeout = 1 * 60 * 1000; // 1分钟缓存
+    this.setupDependencies();
+  }
+  
+  // 设置依赖关系
+  setupDependencies() {
+    // 新车依赖关系
+    this.dependencies.set('new', {
+      'invoicePrice': ['guidePrice', 'discount', 'optionalEquipment'],
+      'taxRefund': ['invoicePrice'],
+      'serviceFee': ['serviceFeeRate', 'invoicePrice'],
+      'purchaseCost': ['invoicePrice', 'serviceFee', 'domesticShipping', 'portCharges', 'portChargesFob', 'compulsoryInsurance', 'otherExpenses', 'taxRefund'],
+      'rmbQuote': ['purchaseCost'],
+      'finalQuote': ['rmbQuote', 'exchangeRate', 'seaFreight'],
+      'profit': ['finalQuote', 'costPrice', 'exchangeRate']
+    });
+    
+    // 二手车依赖关系
+    this.dependencies.set('used', {
+      'invoicePrice': ['usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment'],
+      'purchaseTax': ['invoicePrice'],
+      'taxRefund': ['invoicePrice'],
+      'taxRefundFee': ['taxRefund'],
+      'purchaseCost': ['invoicePrice', 'purchaseTax', 'usedCompulsoryInsurance', 'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'taxRefundFee', 'usedDomesticShipping', 'usedPortCharges', 'usedPortChargesFob', 'taxRefund'],
+      'rmbQuote': ['purchaseCost', 'usedMarkup'],
+      'finalQuote': ['rmbQuote', 'exchangeRate', 'usedSeaFreight'],
+      'profit': ['finalQuote', 'costPrice', 'exchangeRate']
+    });
+    
+    // 新能源车依赖关系
+    this.dependencies.set('newEnergy', {
+      'invoicePrice': ['newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment'],
+      'purchaseTax': ['invoicePrice'],
+      'taxRefund': ['invoicePrice'],
+      'taxRefundFee': ['taxRefund'],
+      'purchaseCost': ['invoicePrice', 'purchaseTax', 'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee', 'newEnergyAgencyFee', 'taxRefundFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges', 'newEnergyPortChargesFob', 'taxRefund'],
+      'rmbQuote': ['purchaseCost', 'newEnergyMarkup'],
+      'finalQuote': ['rmbQuote', 'exchangeRate', 'newEnergySeaFreight'],
+      'profit': ['finalQuote', 'costPrice', 'exchangeRate']
+    });
+  }
+  
+  // 获取缓存键
+  getCacheKey(formType, calculation, params = {}) {
+    const paramStr = Object.keys(params).sort().map(key => `${key}:${params[key]}`).join('|');
+    return `${formType}_${calculation}_${paramStr}`;
+  }
+  
+  // 检查缓存
+  getCachedResult(cacheKey) {
+    const cached = this.calculationCache.get(cacheKey);
+    if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
+      return cached.result;
+    }
+    return null;
+  }
+  
+  // 设置缓存
+  setCachedResult(cacheKey, result) {
+    this.calculationCache.set(cacheKey, {
+      result,
+      timestamp: Date.now()
+    });
+  }
+  
+  // 清除缓存
+  clearCache(formType = null) {
+    if (formType) {
+      for (const key of this.calculationCache.keys()) {
+        if (key.startsWith(formType)) {
+          this.calculationCache.delete(key);
+        }
+      }
+    } else {
+      this.calculationCache.clear();
+    }
+  }
+  
+  // 通用开票价计算
+  calculateInvoicePrice(guidePrice, discount, optionalEquipment) {
+    return Math.max(0, guidePrice + optionalEquipment - discount);
+  }
+  
+  // 通用退税计算
+  calculateTaxRefund(invoicePrice) {
+    return invoicePrice / CONFIG.CALCULATION.TAX_DIVISOR * CONFIG.CALCULATION.TAX_RATE;
+  }
+  
+  // 通用手续费计算
+  calculateServiceFee(rate, invoicePrice) {
+    return rate * invoicePrice;
+  }
+  
+  // 通用购置税计算
+  calculatePurchaseTax(invoicePrice, isNewEnergy = false) {
+    if (isNewEnergy && invoicePrice <= CONFIG.CALCULATION.NEW_ENERGY_TAX_THRESHOLD) {
+      return 0;
+    }
+    if (isNewEnergy) {
+      return (invoicePrice - CONFIG.CALCULATION.NEW_ENERGY_TAX_THRESHOLD) / CONFIG.CALCULATION.PURCHASE_TAX_RATE;
+    }
+    return invoicePrice / CONFIG.CALCULATION.PURCHASE_TAX_RATE;
+  }
+  
+  // 通用退税手续费计算
+  calculateTaxRefundFee(taxRefund) {
+    return taxRefund * CONFIG.CALCULATION.TAX_REFUND_FEE_RATE;
+  }
+  
+  // 通用购车成本计算
+  calculatePurchaseCost(components) {
+    const { invoicePrice, serviceFee = 0, domesticShipping, portCharges = 0, compulsoryInsurance, otherExpenses, qualificationFee = 0, agencyFee = 0, taxRefundFee = 0, taxRefund } = components;
+    return invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee - taxRefund;
+  }
+  
+  // 通用最终报价计算
+  calculateFinalQuote(rmbQuote, exchangeRate, seaFreight = 0) {
+    if (exchangeRate > 0 && rmbQuote > 0) {
+      let finalQuote = rmbQuote / exchangeRate;
+      if (seaFreight > 0) finalQuote += seaFreight;
+      return finalQuote;
+    }
+    return 0;
+  }
+  
+  // 通用利润计算
+  calculateProfit(finalQuote, costPrice, exchangeRate) {
+    const foreignProfit = finalQuote - costPrice;
+    const rmbProfit = foreignProfit * exchangeRate;
+    return { foreignProfit, rmbProfit };
   }
   
   // 新车计算 - 开票价
@@ -12,16 +144,37 @@ export class CalculationEngine {
     const guidePrice = Utils.getElementValue('guidePrice');
     const discount = Utils.getElementValue('discount');
     const optionalEquipment = Utils.getElementValue('optionalEquipment');
-    const invoicePrice = Math.max(0, guidePrice + optionalEquipment - discount);
-    Utils.setElementValue('invoicePrice', Math.round(invoicePrice));
-    return invoicePrice;
+    
+    const cacheKey = this.getCacheKey('new', 'invoicePrice', { guidePrice, discount, optionalEquipment });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('invoicePrice', cached);
+      return cached;
+    }
+    
+    const invoicePrice = this.calculateInvoicePrice(guidePrice, discount, optionalEquipment);
+    const roundedPrice = Math.round(invoicePrice);
+    
+    Utils.setElementValue('invoicePrice', roundedPrice);
+    this.setCachedResult(cacheKey, roundedPrice);
+    return roundedPrice;
   }
   
   // 新车计算 - 退税
   calculateNewCarTaxRefund() {
     const invoicePrice = Utils.getElementValue('invoicePrice');
-    const taxRefund = invoicePrice / CONFIG.CALCULATION.TAX_DIVISOR * CONFIG.CALCULATION.TAX_RATE;
+    
+    const cacheKey = this.getCacheKey('new', 'taxRefund', { invoicePrice });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('taxRefund', cached);
+      return cached;
+    }
+    
+    const taxRefund = this.calculateTaxRefund(invoicePrice);
+    
     Utils.setElementValue('taxRefund', taxRefund.toFixed(2));
+    this.setCachedResult(cacheKey, taxRefund);
     return taxRefund;
   }
   
@@ -29,9 +182,20 @@ export class CalculationEngine {
   calculateNewCarServiceFee() {
     const rate = Utils.getElementValue('serviceFeeRate');
     const invoicePrice = Utils.getElementValue('invoicePrice');
-    const fee = rate * invoicePrice;
-    Utils.setElementText('serviceFee', Utils.formatCurrency(Math.round(fee)));
-    return fee;
+    
+    const cacheKey = this.getCacheKey('new', 'serviceFee', { rate, invoicePrice });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementText('serviceFee', Utils.formatCurrency(Math.round(cached)));
+      return cached;
+    }
+    
+    const fee = this.calculateServiceFee(rate, invoicePrice);
+    const roundedFee = Math.round(fee);
+    
+    Utils.setElementText('serviceFee', Utils.formatCurrency(roundedFee));
+    this.setCachedResult(cacheKey, roundedFee);
+    return roundedFee;
   }
   
   // 新车计算 - 购车成本
@@ -46,9 +210,23 @@ export class CalculationEngine {
     const otherExpenses = Utils.getElementValue('otherExpenses');
     const taxRefund = Utils.getElementValue('taxRefund');
     
-    const purchaseCost = invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund;
-    Utils.setElementValue('purchaseCost', Math.round(purchaseCost));
-    return purchaseCost;
+    const cacheKey = this.getCacheKey('new', 'purchaseCost', { 
+      invoicePrice, serviceFee, domesticShipping, portCharges, compulsoryInsurance, otherExpenses, taxRefund 
+    });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('purchaseCost', cached);
+      return cached;
+    }
+    
+    const purchaseCost = this.calculatePurchaseCost({
+      invoicePrice, serviceFee, domesticShipping, portCharges, compulsoryInsurance, otherExpenses, taxRefund
+    });
+    const roundedCost = Math.round(purchaseCost);
+    
+    Utils.setElementValue('purchaseCost', roundedCost);
+    this.setCachedResult(cacheKey, roundedCost);
+    return roundedCost;
   }
   
   // 新车计算 - 人民币报价
@@ -65,8 +243,7 @@ export class CalculationEngine {
     const costPrice = Utils.getElementValue('costPrice');
     const exchangeRate = Utils.getElementValue('exchangeRate');
     
-    const foreignProfit = finalQuote - costPrice; // 外币利润
-    const rmbProfit = foreignProfit * exchangeRate; // 人民币利润
+    const { foreignProfit, rmbProfit } = this.calculateProfit(finalQuote, costPrice, exchangeRate);
     
     Utils.setElementValue('profit', Math.round(rmbProfit));
     Utils.setElementValue('profitRate', Math.round(foreignProfit));
@@ -77,33 +254,75 @@ export class CalculationEngine {
     const guidePrice = Utils.getElementValue('usedGuidePrice');
     const discount = Utils.getElementValue('usedDiscount');
     const optionalEquipment = Utils.getElementValue('usedOptionalEquipment');
-    const invoicePrice = Math.max(0, guidePrice + optionalEquipment - discount);
-    Utils.setElementValue('usedInvoicePrice', Math.round(invoicePrice));
-    return invoicePrice;
+    
+    const cacheKey = this.getCacheKey('used', 'invoicePrice', { guidePrice, discount, optionalEquipment });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('usedInvoicePrice', cached);
+      return cached;
+    }
+    
+    const invoicePrice = this.calculateInvoicePrice(guidePrice, discount, optionalEquipment);
+    const roundedPrice = Math.round(invoicePrice);
+    
+    Utils.setElementValue('usedInvoicePrice', roundedPrice);
+    this.setCachedResult(cacheKey, roundedPrice);
+    return roundedPrice;
   }
   
   // 二手车计算 - 购置税
   calculateUsedCarPurchaseTax() {
     const invoicePrice = Utils.getElementValue('usedInvoicePrice');
-    const purchaseTax = invoicePrice / CONFIG.CALCULATION.PURCHASE_TAX_RATE;
+    
+    const cacheKey = this.getCacheKey('used', 'purchaseTax', { invoicePrice });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('usedPurchaseTax', cached);
+      return cached;
+    }
+    
+    const purchaseTax = this.calculatePurchaseTax(invoicePrice);
+    
     Utils.setElementValue('usedPurchaseTax', purchaseTax.toFixed(2));
+    this.setCachedResult(cacheKey, purchaseTax);
     return purchaseTax;
   }
   
   // 二手车计算 - 退税
   calculateUsedCarTaxRefund() {
     const invoicePrice = Utils.getElementValue('usedInvoicePrice');
-    const taxRefund = invoicePrice / CONFIG.CALCULATION.TAX_DIVISOR * CONFIG.CALCULATION.TAX_RATE;
+    
+    const cacheKey = this.getCacheKey('used', 'taxRefund', { invoicePrice });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('usedTaxRefund', cached);
+      return cached;
+    }
+    
+    const taxRefund = this.calculateTaxRefund(invoicePrice);
+    
     Utils.setElementValue('usedTaxRefund', taxRefund.toFixed(2));
+    this.setCachedResult(cacheKey, taxRefund);
     return taxRefund;
   }
   
   // 二手车计算 - 退税手续费
   calculateUsedCarTaxRefundFee() {
     const taxRefund = Utils.getElementValue('usedTaxRefund');
-    const taxRefundFee = taxRefund * CONFIG.CALCULATION.TAX_REFUND_FEE_RATE;
-    Utils.setElementValue('usedTaxRefundFee', Math.round(taxRefundFee));
-    return taxRefundFee;
+    
+    const cacheKey = this.getCacheKey('used', 'taxRefundFee', { taxRefund });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('usedTaxRefundFee', cached);
+      return cached;
+    }
+    
+    const taxRefundFee = this.calculateTaxRefundFee(taxRefund);
+    const roundedFee = Math.round(taxRefundFee);
+    
+    Utils.setElementValue('usedTaxRefundFee', roundedFee);
+    this.setCachedResult(cacheKey, roundedFee);
+    return roundedFee;
   }
   
   // 二手车计算 - 购车成本
@@ -121,9 +340,23 @@ export class CalculationEngine {
     const portCharges = portChargesCif + portChargesFob;
     const taxRefund = Utils.getElementValue('usedTaxRefund');
     
-    const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges - taxRefund;
-    Utils.setElementValue('usedPurchaseCost', Math.round(purchaseCost));
-    return purchaseCost;
+    const cacheKey = this.getCacheKey('used', 'purchaseCost', { 
+      invoicePrice, purchaseTax, compulsoryInsurance, otherExpenses, qualificationFee, agencyFee, taxRefundFee, domesticShipping, portCharges, taxRefund 
+    });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('usedPurchaseCost', cached);
+      return cached;
+    }
+    
+    const purchaseCost = this.calculatePurchaseCost({
+      invoicePrice, purchaseTax, compulsoryInsurance, otherExpenses, qualificationFee, agencyFee, taxRefundFee, domesticShipping, portCharges, taxRefund
+    });
+    const roundedCost = Math.round(purchaseCost);
+    
+    Utils.setElementValue('usedPurchaseCost', roundedCost);
+    this.setCachedResult(cacheKey, roundedCost);
+    return roundedCost;
   }
   
   // 二手车计算 - 人民币报价
@@ -142,8 +375,7 @@ export class CalculationEngine {
     const costPrice = Utils.getElementValue('costPriceUsed');
     const exchangeRate = Utils.getElementValue('exchangeRateUsed');
     
-    const foreignProfit = finalQuote - costPrice; // 外币利润
-    const rmbProfit = foreignProfit * exchangeRate; // 人民币利润
+    const { foreignProfit, rmbProfit } = this.calculateProfit(finalQuote, costPrice, exchangeRate);
     
     Utils.setElementValue('usedProfit', Math.round(rmbProfit));
     Utils.setElementValue('usedProfitRate', Math.round(foreignProfit));
@@ -154,9 +386,20 @@ export class CalculationEngine {
     const guidePrice = Utils.getElementValue('newEnergyGuidePrice');
     const discount = Utils.getElementValue('newEnergyDiscount');
     const optionalEquipment = Utils.getElementValue('newEnergyOptionalEquipment');
-    const invoicePrice = Math.max(0, guidePrice + optionalEquipment - discount);
-    Utils.setElementValue('newEnergyInvoicePrice', Math.round(invoicePrice));
-    return invoicePrice;
+    
+    const cacheKey = this.getCacheKey('newEnergy', 'invoicePrice', { guidePrice, discount, optionalEquipment });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('newEnergyInvoicePrice', cached);
+      return cached;
+    }
+    
+    const invoicePrice = this.calculateInvoicePrice(guidePrice, discount, optionalEquipment);
+    const roundedPrice = Math.round(invoicePrice);
+    
+    Utils.setElementValue('newEnergyInvoicePrice', roundedPrice);
+    this.setCachedResult(cacheKey, roundedPrice);
+    return roundedPrice;
   }
   
   // 新能源计算 - 购置税
@@ -164,6 +407,15 @@ export class CalculationEngine {
     const invoicePrice = Utils.getElementValue('newEnergyInvoicePrice');
     const taxNote = Utils.getElement('newEnergyTaxNote');
     const taxNoteContainer = taxNote?.parentElement;
+    
+    const cacheKey = this.getCacheKey('newEnergy', 'purchaseTax', { invoicePrice });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('newEnergyPurchaseTax', cached);
+      return cached;
+    }
+    
+    const purchaseTax = this.calculatePurchaseTax(invoicePrice, true);
     
     if (invoicePrice <= CONFIG.CALCULATION.NEW_ENERGY_TAX_THRESHOLD) {
       // 开票价低于33.9万元免征购置税
@@ -175,14 +427,15 @@ export class CalculationEngine {
       if (taxNoteContainer) {
         Utils.toggleElement(taxNoteContainer.id, true);
       }
+      this.setCachedResult(cacheKey, 0);
       return 0;
     } else {
       // 开票价高于33.9万元，购置税 = (开票价 - 339000) / 11.3
-      const purchaseTax = (invoicePrice - CONFIG.CALCULATION.NEW_ENERGY_TAX_THRESHOLD) / CONFIG.CALCULATION.PURCHASE_TAX_RATE;
       Utils.setElementValue('newEnergyPurchaseTax', purchaseTax.toFixed(2));
       if (taxNoteContainer) {
         Utils.toggleElement(taxNoteContainer.id, false);
       }
+      this.setCachedResult(cacheKey, purchaseTax);
       return purchaseTax;
     }
   }
@@ -190,17 +443,38 @@ export class CalculationEngine {
   // 新能源计算 - 退税
   calculateNewEnergyTaxRefund() {
     const invoicePrice = Utils.getElementValue('newEnergyInvoicePrice');
-    const taxRefund = invoicePrice / CONFIG.CALCULATION.TAX_DIVISOR * CONFIG.CALCULATION.TAX_RATE;
+    
+    const cacheKey = this.getCacheKey('newEnergy', 'taxRefund', { invoicePrice });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('newEnergyTaxRefund', cached);
+      return cached;
+    }
+    
+    const taxRefund = this.calculateTaxRefund(invoicePrice);
+    
     Utils.setElementValue('newEnergyTaxRefund', taxRefund.toFixed(2));
+    this.setCachedResult(cacheKey, taxRefund);
     return taxRefund;
   }
   
   // 新能源计算 - 退税手续费
   calculateNewEnergyTaxRefundFee() {
     const taxRefund = Utils.getElementValue('newEnergyTaxRefund');
-    const taxRefundFee = taxRefund * CONFIG.CALCULATION.TAX_REFUND_FEE_RATE;
-    Utils.setElementValue('newEnergyTaxRefundFee', Math.round(taxRefundFee));
-    return taxRefundFee;
+    
+    const cacheKey = this.getCacheKey('newEnergy', 'taxRefundFee', { taxRefund });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('newEnergyTaxRefundFee', cached);
+      return cached;
+    }
+    
+    const taxRefundFee = this.calculateTaxRefundFee(taxRefund);
+    const roundedFee = Math.round(taxRefundFee);
+    
+    Utils.setElementValue('newEnergyTaxRefundFee', roundedFee);
+    this.setCachedResult(cacheKey, roundedFee);
+    return roundedFee;
   }
   
   // 新能源计算 - 购车成本
@@ -218,9 +492,23 @@ export class CalculationEngine {
     const portCharges = portChargesCif + portChargesFob;
     const taxRefund = Utils.getElementValue('newEnergyTaxRefund');
     
-    const purchaseCost = invoicePrice + purchaseTax + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee + domesticShipping + portCharges - taxRefund;
-    Utils.setElementValue('newEnergyPurchaseCost', Math.round(purchaseCost));
-    return purchaseCost;
+    const cacheKey = this.getCacheKey('newEnergy', 'purchaseCost', { 
+      invoicePrice, purchaseTax, compulsoryInsurance, otherExpenses, qualificationFee, agencyFee, taxRefundFee, domesticShipping, portCharges, taxRefund 
+    });
+    const cached = this.getCachedResult(cacheKey);
+    if (cached !== null) {
+      Utils.setElementValue('newEnergyPurchaseCost', cached);
+      return cached;
+    }
+    
+    const purchaseCost = this.calculatePurchaseCost({
+      invoicePrice, purchaseTax, compulsoryInsurance, otherExpenses, qualificationFee, agencyFee, taxRefundFee, domesticShipping, portCharges, taxRefund
+    });
+    const roundedCost = Math.round(purchaseCost);
+    
+    Utils.setElementValue('newEnergyPurchaseCost', roundedCost);
+    this.setCachedResult(cacheKey, roundedCost);
+    return roundedCost;
   }
   
   // 新能源计算 - 人民币报价
@@ -239,8 +527,7 @@ export class CalculationEngine {
     const costPrice = Utils.getElementValue('costPriceNewEnergy');
     const exchangeRate = Utils.getElementValue('exchangeRateNewEnergy');
     
-    const foreignProfit = finalQuote - costPrice; // 外币利润
-    const rmbProfit = foreignProfit * exchangeRate; // 人民币利润
+    const { foreignProfit, rmbProfit } = this.calculateProfit(finalQuote, costPrice, exchangeRate);
     
     Utils.setElementValue('newEnergyProfit', Math.round(rmbProfit));
     Utils.setElementValue('newEnergyProfitRate', Math.round(foreignProfit));
@@ -254,8 +541,7 @@ export class CalculationEngine {
     let seaFreight = Utils.getElementValue('seaFreight');
     
     if (currency && exchangeRate > 0 && rmbQuote > 0) {
-      let finalQuote = rmbQuote / exchangeRate;
-      if (seaFreight > 0) finalQuote += seaFreight;
+      const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
       Utils.setElementValue('finalQuote', Math.round(finalQuote));
       
       // 计算成本价格（使用购车成本）
@@ -287,8 +573,8 @@ export class CalculationEngine {
       // 成本价格 = 购车成本 / 汇率 + 海运费
       const costPrice = purchaseCost / exchangeRate + seaFreight;
       Utils.setElementValue('costPriceUsed', Math.round(costPrice));
-      let finalQuote = rmbQuote / exchangeRate;
-      if (seaFreight > 0) finalQuote += seaFreight;
+      
+      const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
       Utils.setElementValue('finalQuoteUsed', Math.round(finalQuote));
       
       // 触发利润计算
@@ -312,8 +598,8 @@ export class CalculationEngine {
       // 成本价格 = 购车成本 / 汇率 + 海运费
       const costPrice = purchaseCost / exchangeRate + seaFreight;
       Utils.setElementValue('costPriceNewEnergy', Math.round(costPrice));
-      let finalQuote = rmbQuote / exchangeRate;
-      if (seaFreight > 0) finalQuote += seaFreight;
+      
+      const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
       Utils.setElementValue('finalQuoteNewEnergy', Math.round(finalQuote));
       
       // 触发利润计算
@@ -359,5 +645,11 @@ export class CalculationEngine {
     this.calculateNewEnergyRmbQuote();
     this.calculateNewEnergyFinalQuote();
     this.calculateNewEnergyProfit();
+  }
+  
+  // 清理资源
+  cleanup() {
+    this.calculationCache.clear();
+    this.dependencies.clear();
   }
 } 

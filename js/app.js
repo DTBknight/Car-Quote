@@ -18,21 +18,29 @@ export class CarQuoteApp {
       this.themeManager
     );
     this.carSearch = new CarSearch();
+    this.initialized = false;
+    this.performanceMetrics = {
+      initTime: 0,
+      memoryUsage: 0,
+      lastUpdate: Date.now()
+    };
   }
   
   // 初始化应用
   async initialize() {
+    const startTime = performance.now();
+    
     try {
       console.log('🚗 汽车报价系统初始化中...');
       
       // 初始化主题
       this.themeManager.initializeTheme();
       
-      // 初始化汇率
-      await this.exchangeRateManager.initializeExchangeRates();
-      
-      // 初始化车辆搜索
-      await this.carSearch.initialize();
+      // 并行初始化汇率和车辆搜索
+      await Promise.allSettled([
+        this.exchangeRateManager.initializeExchangeRates(),
+        this.carSearch.initialize()
+      ]);
       
       // 初始化事件监听器
       this.eventManager.initializeEvents();
@@ -43,9 +51,19 @@ export class CarQuoteApp {
       // 显示汇率区域
       this.showCurrencySection();
       
+      this.initialized = true;
+      this.performanceMetrics.initTime = performance.now() - startTime;
+      this.performanceMetrics.lastUpdate = Date.now();
+      
       console.log('✅ 汽车报价系统初始化完成');
+      console.log(`⏱️ 初始化耗时: ${this.performanceMetrics.initTime.toFixed(2)}ms`);
+      
+      // 定期清理缓存
+      this.startCacheCleanup();
+      
     } catch (error) {
       console.error('❌ 应用初始化失败:', error);
+      throw error;
     }
   }
   
@@ -102,22 +120,104 @@ export class CarQuoteApp {
   // 获取应用状态
   getAppState() {
     return {
+      initialized: this.initialized,
       currentTheme: this.themeManager.getCurrentTheme(),
       exchangeRateCache: this.exchangeRateManager.cache.size,
       carsLoaded: this.carSearch.allCarsLoaded,
-      searchHistoryCount: this.carSearch.searchHistory.length
+      searchHistoryCount: this.carSearch.searchHistory.length,
+      calculationCacheSize: this.calculationEngine.calculationCache.size,
+      performanceMetrics: this.performanceMetrics
     };
   }
   
   // 重置应用
-  reset() {
-    // 清除汇率缓存
-    this.exchangeRateManager.clearCache();
+  async reset() {
+    try {
+      console.log('🔄 开始重置应用...');
+      
+      // 清除所有缓存
+      this.exchangeRateManager.clearCache();
+      this.calculationEngine.clearCache();
+      this.carSearch.searchCache.clear();
+      
+      // 重新初始化汇率
+      await this.exchangeRateManager.initializeExchangeRates();
+      
+      // 重新设置默认值
+      this.setDefaultValues();
+      
+      console.log('✅ 应用重置完成');
+    } catch (error) {
+      console.error('❌ 应用重置失败:', error);
+    }
+  }
+  
+  // 开始缓存清理
+  startCacheCleanup() {
+    // 每10分钟清理一次过期缓存
+    setInterval(() => {
+      this.cleanupExpiredCache();
+    }, 10 * 60 * 1000);
+  }
+  
+  // 清理过期缓存
+  cleanupExpiredCache() {
+    const now = Date.now();
+    let cleanedCount = 0;
     
-    // 重新初始化汇率
-    this.exchangeRateManager.initializeExchangeRates();
+    // 清理汇率缓存
+    for (const [key, value] of this.exchangeRateManager.cache.entries()) {
+      if (now - value.timestamp > this.exchangeRateManager.cacheTimeout) {
+        this.exchangeRateManager.cache.delete(key);
+        cleanedCount++;
+      }
+    }
     
-    console.log('🔄 应用已重置');
+    // 清理计算缓存
+    for (const [key, value] of this.calculationEngine.calculationCache.entries()) {
+      if (now - value.timestamp > this.calculationEngine.cacheTimeout) {
+        this.calculationEngine.calculationCache.delete(key);
+        cleanedCount++;
+      }
+    }
+    
+    // 清理搜索缓存
+    for (const [key, value] of this.carSearch.searchCache.entries()) {
+      if (now - value.timestamp > this.carSearch.cacheTimeout) {
+        this.carSearch.searchCache.delete(key);
+        cleanedCount++;
+      }
+    }
+    
+    if (cleanedCount > 0) {
+      console.log(`🧹 清理了 ${cleanedCount} 个过期缓存项`);
+    }
+  }
+  
+  // 获取性能指标
+  getPerformanceMetrics() {
+    return {
+      ...this.performanceMetrics,
+      memoryUsage: this.getMemoryUsage(),
+      cacheSizes: {
+        exchangeRate: this.exchangeRateManager.cache.size,
+        calculation: this.calculationEngine.calculationCache.size,
+        search: this.carSearch.searchCache.size,
+        element: Utils.elementCache.size
+      }
+    };
+  }
+  
+  // 获取内存使用情况
+  getMemoryUsage() {
+    if ('memory' in performance) {
+      return {
+        used: performance.memory.usedJSHeapSize,
+        total: performance.memory.totalJSHeapSize,
+        limit: performance.memory.jsHeapSizeLimit
+      };
+    }
+    return null;
   }
   
   // 导出应用实例（用于调试）
@@ -126,6 +226,26 @@ export class CarQuoteApp {
       CarQuoteApp.instance = new CarQuoteApp();
     }
     return CarQuoteApp.instance;
+  }
+  
+  // 清理资源
+  cleanup() {
+    try {
+      console.log('🧹 开始清理应用资源...');
+      
+      // 清理各个模块
+      this.exchangeRateManager.cleanup();
+      this.calculationEngine.cleanup();
+      this.carSearch.cleanup();
+      this.eventManager.cleanup();
+      
+      // 清理工具类缓存
+      Utils.clearElementCache();
+      
+      console.log('✅ 应用资源清理完成');
+    } catch (error) {
+      console.error('❌ 应用资源清理失败:', error);
+    }
   }
 }
 
@@ -142,6 +262,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     window.carQuoteApp = app;
     
     console.log('🎉 汽车报价系统已就绪');
+    
+    // 输出性能指标
+    setTimeout(() => {
+      const metrics = app.getPerformanceMetrics();
+      console.log('📊 性能指标:', metrics);
+    }, 1000);
+    
   } catch (error) {
     console.error('❌ 应用启动失败:', error);
   }
@@ -150,7 +277,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 // 页面卸载时清理资源
 window.addEventListener('beforeunload', () => {
   if (app) {
-    app.exchangeRateManager.clearCache();
+    app.cleanup();
+  }
+});
+
+// 页面可见性变化时处理
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) {
+    // 页面隐藏时，可以暂停一些非关键操作
+    console.log('📱 页面已隐藏');
+  } else {
+    // 页面显示时，可以恢复操作
+    console.log('📱 页面已显示');
+    if (app && app.initialized) {
+      // 刷新汇率等实时数据
+      app.exchangeRateManager.refreshExchangeRates();
+    }
   }
 });
 

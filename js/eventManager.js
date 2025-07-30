@@ -14,15 +14,57 @@ export class EventManager {
       used: 'EXW',
       newEnergyTax: 'EXW'
     };
+    
+    // 事件配置
+    this.eventConfig = {
+      formTypeEvents: {
+        selector: '.export-type-btn',
+        event: 'click',
+        handler: this.handleFormTypeSwitch.bind(this)
+      },
+      quoteTypeEvents: {
+        selector: 'input[name="globalQuoteType"]',
+        event: 'change',
+        handler: this.handleQuoteTypeChange.bind(this)
+      },
+      newCarFields: [
+        'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance',
+        'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight'
+      ],
+      usedCarFields: [
+        'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
+        'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
+        'usedPortCharges', 'usedPortChargesFob', 'usedSeaFreight', 'usedMarkup'
+      ],
+      newEnergyFields: [
+        'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment',
+        'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee',
+        'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges',
+        'newEnergyPortChargesFob', 'newEnergySeaFreight', 'newEnergyMarkup'
+      ],
+      currencyFields: ['currency', 'currencyUsed', 'currencyNewEnergy'],
+      exchangeRateFields: ['exchangeRate', 'exchangeRateUsed', 'exchangeRateNewEnergy']
+    };
+    
+    // 防抖计算函数
+    this.debouncedNewCarCalculation = Utils.debounce(() => {
+      this.calculationEngine.calculateNewCarAll();
+    }, 300);
+    
+    this.debouncedUsedCarCalculation = Utils.debounce(() => {
+      this.calculationEngine.calculateUsedCarAll();
+    }, 300);
+    
+    this.debouncedNewEnergyCalculation = Utils.debounce(() => {
+      this.calculationEngine.calculateNewEnergyAll();
+    }, 300);
   }
   
   // 初始化所有事件监听器
   initializeEvents() {
     this.bindFormTypeEvents();
     this.bindQuoteTypeEvents();
-    this.bindNewCarEvents();
-    this.bindUsedCarEvents();
-    this.bindNewEnergyEvents();
+    this.bindFormFieldEvents();
     this.bindExchangeRateEvents();
     this.bindServiceFeeEvents();
     this.bindCalculateButtonEvents();
@@ -31,17 +73,17 @@ export class EventManager {
   
   // 绑定表单类型切换事件
   bindFormTypeEvents() {
-    document.querySelectorAll('.export-type-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => {
+    document.addEventListener('click', (e) => {
+      if (e.target.matches(this.eventConfig.formTypeEvents.selector)) {
         e.preventDefault();
-        const type = btn.getAttribute('data-type');
-        this.switchFormType(type);
-      });
+        const type = e.target.getAttribute('data-type');
+        this.handleFormTypeSwitch(type);
+      }
     });
   }
   
-  // 切换表单类型
-  switchFormType(type) {
+  // 处理表单类型切换
+  handleFormTypeSwitch(type) {
     // 移除所有按钮的激活状态
     document.querySelectorAll('.export-type-btn').forEach(btn => {
       btn.classList.remove('border-primary', 'text-primary');
@@ -89,22 +131,16 @@ export class EventManager {
     this.handleQuoteTypeChange(type);
   }
   
-  // 获取当前报价类型
-  getCurrentQuoteType() {
-    const checkedRadio = document.querySelector('input[name="globalQuoteType"]:checked');
-    return checkedRadio ? checkedRadio.value : 'EXW';
-  }
-  
   // 绑定报价类型切换事件
   bindQuoteTypeEvents() {
-    document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
-      radio.addEventListener('change', (e) => {
+    document.addEventListener('change', (e) => {
+      if (e.target.matches(this.eventConfig.quoteTypeEvents.selector)) {
         if (!e.target.checked) return;
         const value = e.target.value;
         const type = this.getActiveFormType();
         this.quoteTypeState[type] = value;
         this.handleQuoteTypeChange(type);
-      });
+      }
     });
   }
   
@@ -207,122 +243,113 @@ export class EventManager {
     this.calculationEngine.calculateNewEnergyAll();
   }
   
-  // 绑定新车表单事件
-  bindNewCarEvents() {
-    const newCarFields = [
-      'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance',
-      'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight'
-    ];
-    
-    newCarFields.forEach(fieldId => {
-      const element = Utils.getElement(fieldId);
-      if (element) {
-        element.addEventListener('input', () => {
-          this.calculationEngine.calculateNewCarAll();
-        });
+  // 绑定表单字段事件
+  bindFormFieldEvents() {
+    // 使用事件委托绑定所有表单字段
+    document.addEventListener('input', (e) => {
+      const fieldId = e.target.id;
+      
+      // 新车字段
+      if (this.eventConfig.newCarFields.includes(fieldId)) {
+        this.debouncedNewCarCalculation();
+      }
+      
+      // 二手车字段
+      if (this.eventConfig.usedCarFields.includes(fieldId)) {
+        this.debouncedUsedCarCalculation();
+      }
+      
+      // 新能源字段
+      if (this.eventConfig.newEnergyFields.includes(fieldId)) {
+        this.debouncedNewEnergyCalculation();
       }
     });
     
     // 人民币报价变化时重新计算最终报价
-    Utils.getElement('rmbPrice')?.addEventListener('input', () => {
-      this.calculationEngine.calculateFinalQuote();
-    });
-  }
-  
-  // 绑定二手车表单事件
-  bindUsedCarEvents() {
-    const usedCarFields = [
-      'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
-      'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
-      'usedPortCharges', 'usedPortChargesFob', 'usedSeaFreight', 'usedMarkup'
-    ];
-    
-    usedCarFields.forEach(fieldId => {
-      const element = Utils.getElement(fieldId);
-      if (element) {
-        element.addEventListener('input', () => {
-          this.calculationEngine.calculateUsedCarAll();
-        });
+    document.addEventListener('input', (e) => {
+      if (e.target.id === 'rmbPrice') {
+        this.calculationEngine.calculateFinalQuote();
+      } else if (e.target.id === 'usedRmbPrice') {
+        this.calculationEngine.calculateUsedCarFinalQuote();
+      } else if (e.target.id === 'newEnergyRmbPrice') {
+        this.calculationEngine.calculateNewEnergyFinalQuote();
       }
-    });
-    
-    // 人民币报价变化时重新计算最终报价
-    Utils.getElement('usedRmbPrice')?.addEventListener('input', () => {
-      this.calculationEngine.calculateUsedCarFinalQuote();
-    });
-  }
-  
-  // 绑定新能源表单事件
-  bindNewEnergyEvents() {
-    const newEnergyFields = [
-      'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment',
-      'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee',
-      'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges',
-      'newEnergyPortChargesFob', 'newEnergySeaFreight', 'newEnergyMarkup'
-    ];
-    
-    newEnergyFields.forEach(fieldId => {
-      const element = Utils.getElement(fieldId);
-      if (element) {
-        element.addEventListener('input', () => {
-          this.calculationEngine.calculateNewEnergyAll();
-        });
-      }
-    });
-    
-    // 人民币报价变化时重新计算最终报价
-    Utils.getElement('newEnergyRmbPrice')?.addEventListener('input', () => {
-      this.calculationEngine.calculateNewEnergyFinalQuote();
     });
   }
   
   // 绑定汇率相关事件
   bindExchangeRateEvents() {
-    // 新车汇率
-    Utils.getElement('currency')?.addEventListener('change', (e) => {
-      const currency = e.target.value;
-      if (currency) {
-        this.exchangeRateManager.fetchExchangeRate(currency, 'new');
-      } else {
-        Utils.setElementValue('exchangeRate', '');
-        Utils.setElementValue('finalQuote', '');
-      }
-    });
-    
-    // 二手车汇率
-    Utils.getElement('currencyUsed')?.addEventListener('change', (e) => {
-      const currency = e.target.value;
-      if (currency) {
-        this.exchangeRateManager.fetchExchangeRate(currency, 'used');
-      } else {
-        Utils.setElementValue('exchangeRateUsed', '');
-        Utils.setElementValue('finalQuoteUsed', '');
-      }
-    });
-    
-    // 新能源汇率
-    Utils.getElement('currencyNewEnergy')?.addEventListener('change', (e) => {
-      const currency = e.target.value;
-      if (currency) {
-        this.exchangeRateManager.fetchExchangeRate(currency, 'newEnergy');
-      } else {
-        Utils.setElementValue('exchangeRateNewEnergy', '');
-        Utils.setElementValue('finalQuoteNewEnergy', '');
-      }
+    // 货币选择变化
+    this.eventConfig.currencyFields.forEach(currencyId => {
+      Utils.getElement(currencyId)?.addEventListener('change', (e) => {
+        const currency = e.target.value;
+        const formType = this.getFormTypeFromCurrencyId(currencyId);
+        
+        if (currency) {
+          this.exchangeRateManager.fetchExchangeRate(currency, formType);
+        } else {
+          this.clearExchangeRate(formType);
+        }
+      });
     });
     
     // 汇率输入框手动输入事件
-    Utils.getElement('exchangeRate')?.addEventListener('input', () => {
-      this.calculationEngine.calculateFinalQuote();
+    this.eventConfig.exchangeRateFields.forEach(fieldId => {
+      Utils.getElement(fieldId)?.addEventListener('input', () => {
+        const formType = this.getFormTypeFromExchangeRateId(fieldId);
+        this.recalculateFinalQuote(formType);
+      });
     });
+  }
+  
+  // 根据货币ID获取表单类型
+  getFormTypeFromCurrencyId(currencyId) {
+    switch (currencyId) {
+      case 'currency': return 'new';
+      case 'currencyUsed': return 'used';
+      case 'currencyNewEnergy': return 'newEnergy';
+      default: return 'new';
+    }
+  }
+  
+  // 根据汇率ID获取表单类型
+  getFormTypeFromExchangeRateId(exchangeRateId) {
+    switch (exchangeRateId) {
+      case 'exchangeRate': return 'new';
+      case 'exchangeRateUsed': return 'used';
+      case 'exchangeRateNewEnergy': return 'newEnergy';
+      default: return 'new';
+    }
+  }
+  
+  // 清除汇率
+  clearExchangeRate(formType) {
+    const fieldMap = {
+      new: { rate: 'exchangeRate', quote: 'finalQuote' },
+      used: { rate: 'exchangeRateUsed', quote: 'finalQuoteUsed' },
+      newEnergy: { rate: 'exchangeRateNewEnergy', quote: 'finalQuoteNewEnergy' }
+    };
     
-    Utils.getElement('exchangeRateUsed')?.addEventListener('input', () => {
-      this.calculationEngine.calculateUsedCarFinalQuote();
-    });
-    
-    Utils.getElement('exchangeRateNewEnergy')?.addEventListener('input', () => {
-      this.calculationEngine.calculateNewEnergyFinalQuote();
-    });
+    const fields = fieldMap[formType];
+    if (fields) {
+      Utils.setElementValue(fields.rate, '');
+      Utils.setElementValue(fields.quote, '');
+    }
+  }
+  
+  // 重新计算最终报价
+  recalculateFinalQuote(formType) {
+    switch (formType) {
+      case 'new':
+        this.calculationEngine.calculateFinalQuote();
+        break;
+      case 'used':
+        this.calculationEngine.calculateUsedCarFinalQuote();
+        break;
+      case 'newEnergy':
+        this.calculationEngine.calculateNewEnergyFinalQuote();
+        break;
+    }
   }
   
   // 绑定手续费滑块事件
@@ -366,17 +393,20 @@ export class EventManager {
   // 绑定货币事件
   bindCurrencyEvents() {
     // 更新货币标志
-    ['currency', 'currencyUsed', 'currencyNewEnergy'].forEach(currencyId => {
+    this.eventConfig.currencyFields.forEach(currencyId => {
       Utils.getElement(currencyId)?.addEventListener('change', (e) => {
         const currency = e.target.value;
         const flag = Utils.getCurrencyFlag(currency);
         
-        if (currencyId === 'currency') {
-          Utils.setElementText('currencyFlag', flag);
-        } else if (currencyId === 'currencyUsed') {
-          Utils.setElementText('currencyFlagUsed', flag);
-        } else if (currencyId === 'currencyNewEnergy') {
-          Utils.setElementText('currencyFlagNewEnergy', flag);
+        const flagMap = {
+          currency: 'currencyFlag',
+          currencyUsed: 'currencyFlagUsed',
+          currencyNewEnergy: 'currencyFlagNewEnergy'
+        };
+        
+        const flagId = flagMap[currencyId];
+        if (flagId) {
+          Utils.setElementText(flagId, flag);
         }
       });
     });
@@ -476,5 +506,15 @@ export class EventManager {
     li.appendChild(spanLabel);
     li.appendChild(spanValue);
     container.appendChild(li);
+  }
+  
+  // 清理资源
+  cleanup() {
+    // 清除所有事件监听器
+    document.removeEventListener('click', this.handleFormTypeSwitch);
+    document.removeEventListener('change', this.handleQuoteTypeChange);
+    document.removeEventListener('input', this.debouncedNewCarCalculation);
+    document.removeEventListener('input', this.debouncedUsedCarCalculation);
+    document.removeEventListener('input', this.debouncedNewEnergyCalculation);
   }
 } 

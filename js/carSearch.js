@@ -6,11 +6,16 @@ export class CarSearch {
     this.allCars = [];
     this.allCarsLoaded = false;
     this.searchHistory = this.loadSearchHistory();
+    this.searchIndex = new Map(); // 搜索索引
+    this.searchCache = new Map(); // 搜索结果缓存
+    this.cacheTimeout = 5 * 60 * 1000; // 5分钟缓存
+    this.debouncedSearch = Utils.debounce(this.performSearch.bind(this), 300); // 防抖搜索
   }
   
   // 初始化搜索功能
   async initialize() {
     await this.loadAllCars();
+    this.buildSearchIndex();
     this.bindSearchEvents();
     this.bindHistoryEvents();
   }
@@ -49,6 +54,57 @@ export class CarSearch {
     }
   }
   
+  // 构建搜索索引
+  buildSearchIndex() {
+    this.searchIndex.clear();
+    
+    this.allCars.forEach((car, carIndex) => {
+      // 索引车型名
+      if (car.carName) {
+        const carNameLower = car.carName.toLowerCase();
+        this.addToIndex(carNameLower, carIndex);
+        
+        // 索引车型名的每个词
+        carNameLower.split(/\s+/).forEach(word => {
+          if (word.length > 1) {
+            this.addToIndex(word, carIndex);
+          }
+        });
+      }
+      
+      // 索引品牌名
+      if (car.brand) {
+        const brandLower = car.brand.toLowerCase();
+        this.addToIndex(brandLower, carIndex);
+      }
+      
+      // 索引配置名
+      if (car.configs && Array.isArray(car.configs)) {
+        car.configs.forEach((config, configIndex) => {
+          if (config.configName) {
+            const configNameLower = config.configName.toLowerCase();
+            this.addToIndex(configNameLower, carIndex);
+            
+            // 索引配置名的每个词
+            configNameLower.split(/\s+/).forEach(word => {
+              if (word.length > 1) {
+                this.addToIndex(word, carIndex);
+              }
+            });
+          }
+        });
+      }
+    });
+  }
+  
+  // 添加到搜索索引
+  addToIndex(term, carIndex) {
+    if (!this.searchIndex.has(term)) {
+      this.searchIndex.set(term, new Set());
+    }
+    this.searchIndex.get(term).add(carIndex);
+  }
+  
   // 绑定搜索事件
   bindSearchEvents() {
     const carInput = Utils.getElement('searchCarInput');
@@ -56,11 +112,11 @@ export class CarSearch {
     
     if (!carInput || !carResultBox) return;
     
-    // 输入事件
+    // 输入事件（使用防抖）
     carInput.addEventListener('input', (e) => {
       const query = e.target.value.trim();
       if (query.length >= 1) {
-        this.performSearch(query);
+        this.debouncedSearch(query);
       } else {
         this.hideResults();
       }
@@ -108,60 +164,84 @@ export class CarSearch {
     });
   }
   
-  // 执行搜索
+  // 执行搜索（优化版本）
   performSearch(query) {
     if (!this.allCarsLoaded) return;
     
-    console.log('performSearch query:', query); // 调试信息
-    console.log('allCars length:', this.allCars.length); // 调试信息
+    // 检查缓存
+    const cacheKey = query.toLowerCase();
+    const cached = this.searchCache.get(cacheKey);
+    if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
+      this.displayResults(cached.results);
+      return;
+    }
     
-    const results = [];
+    const results = this.searchWithIndex(query);
     
-    // 首先尝试车型名和配置名匹配（优先级更高）
-    this.allCars.forEach(car => {
-      if (car.carName && car.carName.toLowerCase().includes(query.toLowerCase())) {
-        if (car.configs && car.configs.length > 0) {
-          car.configs.forEach(config => {
-            results.push({ car, config, displayText: config.configName });
-          });
-        } else {
-          results.push({ car, config: null, displayText: car.carName });
-        }
-      } else if (car.configs) {
-        car.configs.forEach(config => {
-          if (config.configName && config.configName.toLowerCase().includes(query.toLowerCase())) {
-            results.push({ car, config, displayText: config.configName });
-          }
+    // 缓存结果
+    this.searchCache.set(cacheKey, {
+      results: results.slice(0, 20),
+      timestamp: Date.now()
+    });
+    
+    this.displayResults(results.slice(0, 20));
+  }
+  
+  // 使用索引进行搜索
+  searchWithIndex(query) {
+    const queryLower = query.toLowerCase();
+    const queryWords = queryLower.split(/\s+/).filter(word => word.length > 0);
+    
+    // 计算每个车型的匹配分数
+    const carScores = new Map();
+    
+    queryWords.forEach(word => {
+      // 完全匹配
+      if (this.searchIndex.has(word)) {
+        this.searchIndex.get(word).forEach(carIndex => {
+          carScores.set(carIndex, (carScores.get(carIndex) || 0) + 10);
         });
+      }
+      
+      // 前缀匹配
+      for (const [term, carIndices] of this.searchIndex) {
+        if (term.startsWith(word)) {
+          carIndices.forEach(carIndex => {
+            carScores.set(carIndex, (carScores.get(carIndex) || 0) + 5);
+          });
+        }
       }
     });
     
-    // 如果车型名和配置名都没有匹配到，再尝试品牌名匹配
-    if (results.length === 0) {
-      const matchedBrands = new Set();
-      this.allCars.forEach(car => {
-        if (car.brand && car.brand.toLowerCase().includes(query.toLowerCase())) {
-          matchedBrands.add(car.brand);
+    // 构建结果
+    const results = [];
+    carScores.forEach((score, carIndex) => {
+      const car = this.allCars[carIndex];
+      if (car && score > 0) {
+        if (car.configs && car.configs.length > 0) {
+          car.configs.forEach(config => {
+            results.push({ 
+              car, 
+              config, 
+              displayText: config.configName,
+              score: score + (config.configName.toLowerCase().includes(queryLower) ? 5 : 0)
+            });
+          });
+        } else {
+          results.push({ 
+            car, 
+            config: null, 
+            displayText: car.carName,
+            score: score + (car.carName.toLowerCase().includes(queryLower) ? 5 : 0)
+          });
         }
-      });
-      if (matchedBrands.size > 0) {
-        // 展示所有匹配品牌下的车型
-        this.allCars.forEach(car => {
-          if (matchedBrands.has(car.brand)) {
-            if (car.configs && car.configs.length > 0) {
-              car.configs.forEach(config => {
-                results.push({ car, config, displayText: config.configName });
-              });
-            } else {
-              results.push({ car, config: null, displayText: car.carName });
-            }
-          }
-        });
       }
-    }
+    });
     
-    console.log('search results:', results); // 调试信息
-    this.displayResults(results.slice(0, 20)); // 限制结果数量
+    // 按分数排序
+    results.sort((a, b) => b.score - a.score);
+    
+    return results;
   }
   
   // 显示搜索结果
@@ -235,8 +315,6 @@ export class CarSearch {
     Utils.toggleElement('searchCarResults', true);
   }
   
-
-  
   // 隐藏搜索结果
   hideResults() {
     Utils.toggleElement('searchCarResults', false);
@@ -284,8 +362,6 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
-    console.log('fillCarDetails carData:', carData); // 调试信息
-    
     // 填充基础信息
     Utils.setElementValue('brandName2', carData.brand || carData.seriesName || '');
     Utils.setElementValue('carModel2', carData.name || carData.carName || '');
@@ -470,5 +546,12 @@ export class CarSearch {
       console.error('加载搜索历史失败:', e);
       return [];
     }
+  }
+  
+  // 清理资源
+  cleanup() {
+    this.searchCache.clear();
+    this.searchIndex.clear();
+    Utils.clearElementCache();
   }
 } 

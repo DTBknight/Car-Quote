@@ -2,56 +2,38 @@ import CONFIG from './config.js';
 
 // 工具函数模块
 export class Utils {
-  // 格式化数字为货币格式
-  static formatCurrency(value, currency = 'CNY') {
+  // 货币格式化配置
+  static CURRENCY_CONFIG = {
+    CNY: { symbol: '¥', locale: 'zh-CN', currency: 'CNY' },
+    USD: { symbol: '$', locale: 'en-US', currency: 'USD' },
+    EUR: { symbol: '€', locale: 'de-DE', currency: 'EUR' },
+    GBP: { symbol: '£', locale: 'en-GB', currency: 'GBP' }
+  };
+
+  // 统一的货币格式化方法
+  static formatCurrency(value, currency = 'CNY', showDecimals = true) {
     if (isNaN(value) || value === '' || value === null) return '0.00';
     
+    const config = this.CURRENCY_CONFIG[currency] || this.CURRENCY_CONFIG.CNY;
+    
     const options = {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2,
+      style: 'currency',
+      currency: config.currency,
+      minimumFractionDigits: showDecimals ? 2 : 0,
+      maximumFractionDigits: showDecimals ? 2 : 0,
     };
     
-    if (currency === 'CNY') {
-      options.style = 'currency';
-      options.currency = 'CNY';
-    } else if (currency === 'USD') {
-      options.style = 'currency';
-      options.currency = 'USD';
-    } else if (currency === 'EUR') {
-      options.style = 'currency';
-      options.currency = 'EUR';
-    } else if (currency === 'GBP') {
-      options.style = 'currency';
-      options.currency = 'GBP';
-    }
-    
-    return new Intl.NumberFormat('zh-CN', options).format(value);
+    return new Intl.NumberFormat(config.locale, options).format(value);
+  }
+  
+  // 格式化数字为货币格式（保留小数点）
+  static formatCurrency(value, currency = 'CNY') {
+    return this.formatCurrency(value, currency, true);
   }
   
   // 格式化数字为整数货币格式（不显示小数点）
   static formatCurrencyInteger(value, currency = 'CNY') {
-    if (isNaN(value) || value === '' || value === null) return '¥0';
-    
-    const options = {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    };
-    
-    if (currency === 'CNY') {
-      options.style = 'currency';
-      options.currency = 'CNY';
-    } else if (currency === 'USD') {
-      options.style = 'currency';
-      options.currency = 'USD';
-    } else if (currency === 'EUR') {
-      options.style = 'currency';
-      options.currency = 'EUR';
-    } else if (currency === 'GBP') {
-      options.style = 'currency';
-      options.currency = 'GBP';
-    }
-    
-    return new Intl.NumberFormat('zh-CN', options).format(value);
+    return this.formatCurrency(value, currency, false);
   }
   
   // 安全解析数字
@@ -60,9 +42,45 @@ export class Utils {
     return isNaN(parsed) ? defaultValue : parsed;
   }
   
-  // 获取DOM元素
+  // 防抖函数
+  static debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout);
+        func(...args);
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+    };
+  }
+  
+  // 节流函数
+  static throttle(func, limit) {
+    let inThrottle;
+    return function() {
+      const args = arguments;
+      const context = this;
+      if (!inThrottle) {
+        func.apply(context, args);
+        inThrottle = true;
+        setTimeout(() => inThrottle = false, limit);
+      }
+    };
+  }
+  
+  // 获取DOM元素（带缓存）
+  static elementCache = new Map();
   static getElement(id) {
-    return document.getElementById(id);
+    if (!this.elementCache.has(id)) {
+      this.elementCache.set(id, document.getElementById(id));
+    }
+    return this.elementCache.get(id);
+  }
+  
+  // 清除元素缓存
+  static clearElementCache() {
+    this.elementCache.clear();
   }
   
   // 获取DOM元素值
@@ -146,5 +164,26 @@ export class Utils {
       'GBP': '英镑 (GBP)'
     };
     return names[currency] || '美元 (USD)';
+  }
+  
+  // 深拷贝对象
+  static deepClone(obj) {
+    if (obj === null || typeof obj !== 'object') return obj;
+    if (obj instanceof Date) return new Date(obj.getTime());
+    if (obj instanceof Array) return obj.map(item => this.deepClone(item));
+    if (typeof obj === 'object') {
+      const clonedObj = {};
+      for (const key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          clonedObj[key] = this.deepClone(obj[key]);
+        }
+      }
+      return clonedObj;
+    }
+  }
+  
+  // 生成唯一ID
+  static generateId() {
+    return Date.now().toString(36) + Math.random().toString(36).substr(2);
   }
 } 
