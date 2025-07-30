@@ -21,15 +21,45 @@ jobs:
         cache: 'npm'
         cache-dependency-path: data-processor/package-lock.json
         
-    - name: 安装Chrome
+    - name: 显示系统信息
+      run: |
+        echo "Node.js版本: $(node --version)"
+        echo "npm版本: $(npm --version)"
+        echo "系统信息: $(uname -a)"
+        echo "内存信息: $(free -h)"
+        
+    - name: 安装Chrome依赖
       run: |
         sudo apt-get update
+        sudo apt-get install -y wget gnupg2
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        sudo apt-get update
         sudo apt-get install -y google-chrome-stable
+        echo "Chrome版本: $(google-chrome --version)"
+        
+    - name: 进入工作目录
+      run: |
+        cd data-processor
+        pwd
+        ls -la
         
     - name: 安装依赖
       run: |
         cd data-processor
-        npm ci
+        npm ci --verbose
+        echo "依赖安装完成"
+        
+    - name: 验证依赖
+      run: |
+        cd data-processor
+        node --version
+        npm list --depth=0
+        
+    - name: 环境测试
+      run: |
+        cd data-processor
+        node test-github-actions.js
         
     - name: 执行数据同步
       run: |
@@ -38,6 +68,7 @@ jobs:
       env:
         # 设置环境变量
         NODE_ENV: production
+        PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
         
     - name: 验证数据完整性
       run: |
