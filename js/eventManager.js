@@ -290,14 +290,7 @@ export class EventManager {
         return; // 避免重复处理
       }
       
-      // 人民币报价变化时重新计算最终报价
-      if (fieldId === 'rmbPrice') {
-        this.calculationEngine.calculateFinalQuote();
-      } else if (fieldId === 'usedRmbPrice') {
-        this.calculationEngine.calculateUsedCarFinalQuote();
-      } else if (fieldId === 'newEnergyRmbPrice') {
-        this.calculationEngine.calculateNewEnergyFinalQuote();
-      }
+      // 人民币报价字段是只读的，不应该有input事件，计算在各自的RmbQuote方法中直接调用
     });
   }
   

@@ -200,6 +200,7 @@ export class CalculationEngine {
   
   // 新车计算 - 购车成本
   calculateNewCarPurchaseCost() {
+    console.log('计算新车购车成本开始');
     const invoicePrice = Utils.getElementValue('invoicePrice');
     const serviceFee = this.calculateNewCarServiceFee();
     const domesticShipping = Utils.getElementValue('domesticShipping');
@@ -210,12 +211,18 @@ export class CalculationEngine {
     const otherExpenses = Utils.getElementValue('otherExpenses');
     const taxRefund = Utils.getElementValue('taxRefund');
     
+    console.log('购车成本计算参数:', {
+      invoicePrice, serviceFee, domesticShipping, portCharges, 
+      compulsoryInsurance, otherExpenses, taxRefund
+    });
+    
     const cacheKey = this.getCacheKey('new', 'purchaseCost', { 
       invoicePrice, serviceFee, domesticShipping, portCharges, compulsoryInsurance, otherExpenses, taxRefund 
     });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
       Utils.setElementValue('purchaseCost', cached);
+      console.log('使用缓存的购车成本:', cached);
       return cached;
     }
     
@@ -224,6 +231,7 @@ export class CalculationEngine {
     });
     const roundedCost = Math.round(purchaseCost);
     
+    console.log('计算出的购车成本:', purchaseCost, '四舍五入后:', roundedCost);
     Utils.setElementValue('purchaseCost', roundedCost);
     this.setCachedResult(cacheKey, roundedCost);
     return roundedCost;
@@ -231,11 +239,16 @@ export class CalculationEngine {
   
   // 新车计算 - 人民币报价
   calculateNewCarRmbQuote() {
+    console.log('计算新车人民币报价开始');
     const purchaseCost = Utils.getElementValue('purchaseCost');
     const rmbQuote = purchaseCost; // 人民币报价 = 采购费用
+    console.log('人民币报价计算:', { purchaseCost, rmbQuote });
     const rmbInput = Utils.getElement('rmbPrice');
     rmbInput.value = Math.round(rmbQuote);
-    rmbInput.dispatchEvent(new Event('input'));
+    console.log('设置人民币报价字段值:', Math.round(rmbQuote));
+    // 直接调用最终报价计算，而不是触发事件
+    this.calculateFinalQuote();
+    console.log('直接调用最终报价计算');
     return rmbQuote;
   }
   
@@ -368,7 +381,8 @@ export class CalculationEngine {
     const rmbQuote = purchaseCost + markup;
     const rmbInput = Utils.getElement('usedRmbPrice');
     rmbInput.value = Math.round(rmbQuote);
-    rmbInput.dispatchEvent(new Event('input'));
+    // 直接调用最终报价计算，而不是触发事件
+    this.calculateUsedCarFinalQuote();
     return rmbQuote;
   }
   
@@ -525,7 +539,8 @@ export class CalculationEngine {
     const rmbQuote = purchaseCost + markup;
     const rmbInput = Utils.getElement('newEnergyRmbPrice');
     rmbInput.value = Math.round(rmbQuote);
-    rmbInput.dispatchEvent(new Event('input'));
+    // 直接调用最终报价计算，而不是触发事件
+    this.calculateNewEnergyFinalQuote();
     return rmbQuote;
   }
   
