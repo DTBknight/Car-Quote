@@ -27,7 +27,7 @@ export class Utils {
   }
   
   // 格式化数字为货币格式（保留小数点）
-  static formatCurrency(value, currency = 'CNY') {
+  static formatCurrencyWithDecimals(value, currency = 'CNY') {
     return this.formatCurrency(value, currency, true);
   }
   

@@ -520,7 +520,7 @@ export class EventManager {
     // 购置税和退税保留小数点后两位，其他取整数
     let displayValue;
     if (label === '购置税' || label === '退税') {
-      displayValue = Utils.formatCurrency(value);
+      displayValue = Utils.formatCurrencyWithDecimals(value);
     } else {
       displayValue = Utils.formatCurrencyInteger(Math.round(value));
     }

@@ -194,7 +194,7 @@ export class CalculationEngine {
     const cached = this.getCachedResult(cacheKey);
     console.log('手续费缓存结果:', cached);
     if (cached !== null) {
-      Utils.setElementText('serviceFee', Utils.formatCurrency(Math.round(cached)));
+      Utils.setElementText('serviceFee', Utils.formatCurrencyWithDecimals(Math.round(cached)));
       console.log('使用缓存的手续费:', cached);
       return cached;
     }
@@ -203,7 +203,7 @@ export class CalculationEngine {
     const roundedFee = Math.round(fee);
     
     console.log('计算出的手续费:', fee, '四舍五入后:', roundedFee);
-    Utils.setElementText('serviceFee', Utils.formatCurrency(roundedFee));
+    Utils.setElementText('serviceFee', Utils.formatCurrencyWithDecimals(roundedFee));
     this.setCachedResult(cacheKey, roundedFee);
     console.log('设置手续费缓存:', roundedFee);
     return roundedFee;
