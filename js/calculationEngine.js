@@ -574,14 +574,11 @@ export class CalculationEngine {
     const currency = Utils.getElement('currency')?.value;
     let seaFreight = Utils.getElementValue('seaFreight');
     
-    if (currency && exchangeRate > 0 && rmbQuote > 0) {
-      let finalQuote = rmbQuote / exchangeRate;
-      if (seaFreight > 0) finalQuote += seaFreight;
-      Utils.setElementValue('finalQuote', Math.round(finalQuote));
-      
-      // 计算成本价格（新车专用公式）
+    console.log('计算最终报价参数:', { rmbQuote, exchangeRate, currency, seaFreight });
+    
+    if (currency && exchangeRate > 0) {
+      // 计算成本价格（新车专用公式）- 只要有汇率就可以计算
       const invoicePrice = Utils.getElementValue('invoicePrice');
-      const serviceFeeRate = Utils.getElementValue('serviceFeeRate');
       const domesticShipping = Utils.getElementValue('domesticShipping');
       const portChargesCif = Utils.getElementValue('portCharges');
       const portChargesFob = Utils.getElementValue('portChargesFob');
@@ -595,10 +592,23 @@ export class CalculationEngine {
       const costPrice = (invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund) / exchangeRate + seaFreight;
       Utils.setElementValue('costPrice', Math.round(costPrice));
       
-      // 触发利润计算
-      this.calculateNewCarProfit();
-      
-      return finalQuote;
+      // 如果有人民币报价，计算最终报价
+      if (rmbQuote > 0) {
+        let finalQuote = rmbQuote / exchangeRate;
+        if (seaFreight > 0) finalQuote += seaFreight;
+        Utils.setElementValue('finalQuote', Math.round(finalQuote));
+        
+        // 触发利润计算
+        this.calculateNewCarProfit();
+        
+        return finalQuote;
+      } else {
+        // 没有人民币报价时，清空最终报价和利润
+        Utils.setElementValue('finalQuote', '');
+        Utils.setElementValue('profit', '');
+        Utils.setElementValue('profitRate', '');
+        return 0;
+      }
     }
     
     Utils.setElementValue('finalQuote', '');
@@ -620,12 +630,20 @@ export class CalculationEngine {
       const costPrice = purchaseCost / exchangeRate + seaFreight;
       Utils.setElementValue('costPriceUsed', Math.round(costPrice));
       
-      let finalQuote = rmbQuote / exchangeRate;
-      if (seaFreight > 0) finalQuote += seaFreight;
-      Utils.setElementValue('finalQuoteUsed', Math.round(finalQuote));
-      
-      // 触发利润计算
-      this.calculateUsedCarProfit();
+      // 如果有人民币报价，计算最终报价
+      if (rmbQuote > 0) {
+        let finalQuote = rmbQuote / exchangeRate;
+        if (seaFreight > 0) finalQuote += seaFreight;
+        Utils.setElementValue('finalQuoteUsed', Math.round(finalQuote));
+        
+        // 触发利润计算
+        this.calculateUsedCarProfit();
+      } else {
+        // 没有人民币报价时，清空最终报价和利润
+        Utils.setElementValue('finalQuoteUsed', '');
+        Utils.setElementValue('usedProfit', '');
+        Utils.setElementValue('usedProfitRate', '');
+      }
     } else {
       Utils.setElementValue('costPriceUsed', '');
       Utils.setElementValue('finalQuoteUsed', '');
@@ -646,12 +664,20 @@ export class CalculationEngine {
       const costPrice = purchaseCost / exchangeRate + seaFreight;
       Utils.setElementValue('costPriceNewEnergy', Math.round(costPrice));
       
-      let finalQuote = rmbQuote / exchangeRate;
-      if (seaFreight > 0) finalQuote += seaFreight;
-      Utils.setElementValue('finalQuoteNewEnergy', Math.round(finalQuote));
-      
-      // 触发利润计算
-      this.calculateNewEnergyProfit();
+      // 如果有人民币报价，计算最终报价
+      if (rmbQuote > 0) {
+        let finalQuote = rmbQuote / exchangeRate;
+        if (seaFreight > 0) finalQuote += seaFreight;
+        Utils.setElementValue('finalQuoteNewEnergy', Math.round(finalQuote));
+        
+        // 触发利润计算
+        this.calculateNewEnergyProfit();
+      } else {
+        // 没有人民币报价时，清空最终报价和利润
+        Utils.setElementValue('finalQuoteNewEnergy', '');
+        Utils.setElementValue('newEnergyProfit', '');
+        Utils.setElementValue('newEnergyProfitRate', '');
+      }
     } else {
       Utils.setElementValue('costPriceNewEnergy', '');
       Utils.setElementValue('finalQuoteNewEnergy', '');
