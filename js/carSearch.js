@@ -202,11 +202,19 @@ export class CarSearch {
   // 填充车型详细信息
   fillCarDetails(carData) {
     // 填充基础信息
-    Utils.setElementValue('brandName2', carData.brand);
-    Utils.setElementValue('carModel2', carData.name);
+    Utils.setElementValue('brandName2', carData.brand || carData.seriesName || '');
+    Utils.setElementValue('carModel2', carData.name || carData.carName || '');
     Utils.setElementValue('fuelType2', carData.fuelType || '未知');
     Utils.setElementValue('size2', carData.size || '未知');
-    Utils.setElementValue('price2', carData.price ? `${carData.price}万元` : '未知');
+    Utils.setElementValue('price2', carData.price || '未知');
+    
+    // 解析价格并填充指导价格
+    const priceNum = this.parsePriceToNumber(carData.price);
+    if (priceNum) {
+      Utils.setElementValue('guidePrice', priceNum);
+      Utils.setElementValue('usedGuidePrice', priceNum);
+      Utils.setElementValue('newEnergyGuidePrice', priceNum);
+    }
     
     // 显示基础信息区域
     Utils.toggleElement('baseInfoSection', true);
@@ -214,13 +222,34 @@ export class CarSearch {
     // 设置品牌logo
     const brandLogoBox = Utils.getElement('brandLogoBox2');
     if (brandLogoBox && carData.brandImage) {
-      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${carData.brand}" class="w-12 h-12 object-contain">`;
+      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${carData.brand || carData.seriesName}" class="w-12 h-12 object-contain">`;
     }
     
     // 设置车型图片
     const carMainImageBox = Utils.getElement('carMainImageBox');
-    if (carMainImageBox && carData.image) {
-      carMainImageBox.innerHTML = `<img src="${carData.image}" alt="${carData.name}" class="max-w-full max-h-full object-contain">`;
+    if (carMainImageBox && (carData.image || carData.mainImage)) {
+      const imageUrl = carData.image || carData.mainImage;
+      const imageAlt = carData.name || carData.carName;
+      carMainImageBox.innerHTML = `<img src="${imageUrl}" alt="${imageAlt}" class="max-w-full max-h-full object-contain rounded shadow">`;
+    } else {
+      // 如果没有图片，显示占位符
+      carMainImageBox.innerHTML = `
+        <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+          <i class="fa fa-car text-4xl mb-2"></i>
+          <span class="text-sm">暂无图片</span>
+        </div>
+      `;
+    }
+  }
+  
+  // 解析价格字符串为数字
+  parsePriceToNumber(priceStr) {
+    if (!priceStr) return '';
+    priceStr = priceStr.trim();
+    if (priceStr.endsWith('万')) {
+      return Math.round(parseFloat(priceStr.replace('万', '')) * 10000);
+    } else {
+      return Math.round(parseFloat(priceStr.replace(/[^\d.]/g, '')));
     }
   }
   
