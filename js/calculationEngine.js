@@ -544,9 +544,20 @@ export class CalculationEngine {
       const finalQuote = this.calculateFinalQuote(rmbQuote, exchangeRate, seaFreight);
       Utils.setElementValue('finalQuote', Math.round(finalQuote));
       
-      // 计算成本价格（使用购车成本）
-      const purchaseCost = Utils.getElementValue('purchaseCost');
-      const costPrice = purchaseCost / exchangeRate + seaFreight;
+      // 计算成本价格（新车专用公式）
+      const invoicePrice = Utils.getElementValue('invoicePrice');
+      const serviceFeeRate = Utils.getElementValue('serviceFeeRate');
+      const domesticShipping = Utils.getElementValue('domesticShipping');
+      const portChargesCif = Utils.getElementValue('portCharges');
+      const portChargesFob = Utils.getElementValue('portChargesFob');
+      const portCharges = portChargesCif + portChargesFob;
+      const compulsoryInsurance = Utils.getElementValue('compulsoryInsurance');
+      const otherExpenses = Utils.getElementValue('otherExpenses');
+      const taxRefund = Utils.getElementValue('taxRefund');
+      
+      // 新车成本价格 = (开票价 + 开票价×0.022 + 国内运输 + 港杂费 + 交强险 + 其他费用 - 退税) ÷ 汇率 + 海运费
+      const serviceFee = invoicePrice * CONFIG.CALCULATION.SERVICE_FEE_RATE; // 使用固定的2.2%费率
+      const costPrice = (invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses - taxRefund) / exchangeRate + seaFreight;
       Utils.setElementValue('costPrice', Math.round(costPrice));
       
       // 触发利润计算
