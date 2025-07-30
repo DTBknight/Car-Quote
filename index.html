@@ -65,6 +65,32 @@
       .input-focus:focus {
         border-color: var(--primary-color);
       }
+      
+      /* 统一输入框高度 */
+      .form-input {
+        @apply w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom;
+        box-sizing: border-box;
+      }
+      
+      .form-input-readonly {
+        @apply w-full h-12 px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom;
+        box-sizing: border-box;
+      }
+      
+      .form-input-large {
+        @apply w-full h-14 px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom;
+        box-sizing: border-box;
+      }
+      
+      .form-input-primary {
+        @apply w-full h-14 px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom;
+        box-sizing: border-box;
+      }
+      
+      .form-select {
+        @apply w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom;
+        box-sizing: border-box;
+      }
       .transition-custom {
         @apply transition-all duration-300 ease-in-out;
       }
@@ -306,7 +332,7 @@
                 </button>
               </div>
               <div class="relative" style="z-index: 99999;">
-                <input type="text" id="searchCarInput" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入车型名称进行搜索">
+                <input type="text" id="searchCarInput" class="form-input" placeholder="输入车型名称进行搜索">
               </div>
             </div>
           </div>
@@ -325,27 +351,27 @@
                   <div class="text-sm font-medium text-gray-700 mb-1">厂商/级别</div>
                   <div class="flex items-center gap-3">
                     <div id="brandLogoBox2" class="w-12 h-12 flex items-center justify-center"></div>
-                    <input type="text" id="brandName2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="厂商/级别" readonly>
+                    <input type="text" id="brandName2" class="form-input-readonly" placeholder="厂商/级别" readonly>
                   </div>
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">车型</div>
-                    <input type="text" id="carModel2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="车型名称" readonly>
+                    <input type="text" id="carModel2" class="form-input-readonly" placeholder="车型名称" readonly>
                   </div>
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">能源类型</div>
-                    <input type="text" id="fuelType2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="能源类型" readonly>
+                    <input type="text" id="fuelType2" class="form-input-readonly" placeholder="能源类型" readonly>
                   </div>
                 </div>
                 <div class="grid grid-cols-2 gap-4">
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">尺寸</div>
-                    <input type="text" id="size2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="尺寸" readonly>
+                    <input type="text" id="size2" class="form-input-readonly" placeholder="尺寸" readonly>
                   </div>
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">指导价</div>
-                    <input type="text" id="price2" class="w-full h-12 px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="指导价" readonly>
+                    <input type="text" id="price2" class="form-input-readonly" placeholder="指导价" readonly>
                   </div>
                 </div>
               </div>
@@ -416,20 +442,20 @@
                 <!-- 第一行：指导价，优惠 -->
                 <div class="space-y-2">
                   <label for="guidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
-                  <input type="number" id="guidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                  <input type="number" id="guidePrice" class="form-input" placeholder="输入指导价" step="0.01" min="0">
                 </div>
                 <div class="space-y-2">
                   <label for="discount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
-                  <input type="number" id="discount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                  <input type="number" id="discount" class="form-input" placeholder="输入优惠金额" step="0.01" min="0">
                 </div>
                 <!-- 第二行：选装，开票价 -->
                 <div class="space-y-2">
                   <label for="optionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
-                  <input type="number" id="optionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                  <input type="number" id="optionalEquipment" class="form-input" placeholder="输入选装费用" step="0.01" min="0" value="0">
                 </div>
                 <div class="space-y-2">
                   <label for="invoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
-                  <input type="number" id="invoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="invoicePrice" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -449,7 +475,7 @@
                 </div>
                 <div class="space-y-2">
                   <label for="taxRefund" class="block text-sm font-medium text-gray-700 text-left">退税 (元)</label>
-                  <input type="number" id="taxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="taxRefund" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -461,11 +487,11 @@
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
                   <label for="compulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
-                  <input type="number" id="compulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                  <input type="number" id="compulsoryInsurance" class="form-input" placeholder="输入交强险费用" step="0.01" min="0" value="0">
                 </div>
                 <div class="space-y-2">
                   <label for="otherExpenses" class="block text-sm font-medium text-gray-700">其他费用 (元)</label>
-                  <input type="number" id="otherExpenses" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入其他费用" step="0.01" min="0" value="0">
+                  <input type="number" id="otherExpenses" class="form-input" placeholder="输入其他费用" step="0.01" min="0" value="0">
                 </div>
               </div>
             </div>
@@ -478,23 +504,23 @@
                 <!-- 第一行：国内运输 (所有报价类型都显示) -->
                 <div class="space-y-2">
                   <label for="domesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
-                  <input type="number" id="domesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                  <input type="number" id="domesticShipping" class="form-input" placeholder="输入国内运输费用" step="0.01" min="0">
                 </div>
                 <!-- CIF报价类型：第二行显示港杂费+海运费 -->
                 <div id="cifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
                   <div class="space-y-2">
                     <label for="portCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                    <input type="number" id="portCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                    <input type="number" id="portCharges" class="form-input" placeholder="输入港杂费" step="0.01" min="0">
                   </div>
                   <div class="space-y-2">
                     <label for="seaFreight" class="block text-sm font-medium text-gray-700">海运费 (USD)</label>
-                    <input type="number" id="seaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费" step="0.01" min="0">
+                    <input type="number" id="seaFreight" class="form-input" placeholder="输入海运费" step="0.01" min="0">
                   </div>
                 </div>
                 <!-- FOB报价类型：第二行只显示港杂费 -->
                 <div id="fobShippingContainer" class="space-y-2 hidden">
                   <label for="portChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                  <input type="number" id="portChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  <input type="number" id="portChargesFob" class="form-input" placeholder="输入港杂费" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -509,11 +535,11 @@
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
                   <label for="purchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
-                  <input type="number" id="purchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="purchaseCost" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
                   <label for="rmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
-                  <input type="number" id="rmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="rmbPrice" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -531,7 +557,7 @@
                     </div>
                     <select 
                       id="currency" 
-                      class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom"
+                      class="form-select"
                     >
                       <option value="USD" selected>美元 (USD)</option>
                       <option value="EUR">欧元 (EUR)</option>
@@ -544,7 +570,7 @@
                   <input 
                     type="number" 
                     id="exchangeRate" 
-                    class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom"
+                    class="form-input"
                     placeholder="加载中..."
                     step="0.0001"
                   >
@@ -559,11 +585,11 @@
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
                   <label for="profit" class="block text-sm font-medium text-gray-700">人民币利润 (元)</label>
-                  <input type="number" id="profit" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="profit" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
                   <label for="profitRate" class="block text-sm font-medium text-gray-700">外币利润</label>
-                  <input type="number" id="profitRate" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="profitRate" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -578,7 +604,7 @@
                   <input 
                     type="number" 
                     id="costPrice" 
-                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    class="form-input-large"
                     placeholder="自动计算"
                     step="0.01"
                     readonly
@@ -589,7 +615,7 @@
                   <input 
                     type="number" 
                     id="finalQuote" 
-                    class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom"
+                    class="form-input-primary"
                     placeholder="自动计算"
                     step="0.01"
                     readonly
@@ -613,20 +639,20 @@
                 <!-- 第一行：指导价，优惠 -->
                 <div class="space-y-2">
                   <label for="usedGuidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
-                  <input type="number" id="usedGuidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                  <input type="number" id="usedGuidePrice" class="form-input" placeholder="输入指导价" step="0.01" min="0">
                 </div>
                 <div class="space-y-2">
                   <label for="usedDiscount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
-                  <input type="number" id="usedDiscount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                  <input type="number" id="usedDiscount" class="form-input" placeholder="输入优惠金额" step="0.01" min="0">
                 </div>
                 <!-- 第二行：选装，开票价 -->
                 <div class="space-y-2">
                   <label for="usedOptionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
-                  <input type="number" id="usedOptionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                  <input type="number" id="usedOptionalEquipment" class="form-input" placeholder="输入选装费用" step="0.01" min="0" value="0">
                 </div>
                 <div class="space-y-2">
                   <label for="usedInvoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
-                  <input type="number" id="usedInvoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="usedInvoicePrice" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -639,17 +665,17 @@
                 <!-- 第一行：购置税 -->
                 <div class="space-y-2">
                   <label for="usedPurchaseTax" class="block text-sm font-medium text-gray-700">购置税 (元)</label>
-                  <input type="number" id="usedPurchaseTax" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="usedPurchaseTax" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <!-- 第二行：退税，退税手续费 -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div class="space-y-2">
                     <label for="usedTaxRefund" class="block text-sm font-medium text-gray-700">退税 (元)</label>
-                    <input type="number" id="usedTaxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                    <input type="number" id="usedTaxRefund" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                   </div>
                   <div class="space-y-2">
                     <label for="usedTaxRefundFee" class="block text-sm font-medium text-gray-700">退税手续费 (元)</label>
-                    <input type="number" id="usedTaxRefundFee" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                    <input type="number" id="usedTaxRefundFee" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                   </div>
                 </div>
               </div>
@@ -663,20 +689,20 @@
                 <!-- 第一行：交强险，其他费用 -->
                 <div class="space-y-2">
                   <label for="usedCompulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
-                  <input type="number" id="usedCompulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                  <input type="number" id="usedCompulsoryInsurance" class="form-input" placeholder="输入交强险费用" step="0.01" min="0" value="0">
                 </div>
                 <div class="space-y-2">
                   <label for="usedOtherExpenses" class="block text-sm font-medium text-gray-700">其他费用 (元)</label>
-                  <input type="number" id="usedOtherExpenses" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入其他费用" step="0.01" min="0" value="0">
+                  <input type="number" id="usedOtherExpenses" class="form-input" placeholder="输入其他费用" step="0.01" min="0" value="0">
                 </div>
                 <!-- 第二行：资质费用，代办费 -->
                 <div class="space-y-2">
                   <label for="usedQualificationFee" class="block text-sm font-medium text-gray-700">资质费用 (元)</label>
-                  <input type="number" id="usedQualificationFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入资质费用" step="0.01" min="0">
+                  <input type="number" id="usedQualificationFee" class="form-input" placeholder="输入资质费用" step="0.01" min="0">
                 </div>
                 <div class="space-y-2">
                   <label for="usedAgencyFee" class="block text-sm font-medium text-gray-700">代办费 (元)</label>
-                  <input type="number" id="usedAgencyFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入代办费用" step="0.01" min="0">
+                  <input type="number" id="usedAgencyFee" class="form-input" placeholder="输入代办费用" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -689,23 +715,23 @@
                 <!-- 第一行：国内运输 (所有报价类型都显示) -->
                 <div class="space-y-2">
                   <label for="usedDomesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
-                  <input type="number" id="usedDomesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                  <input type="number" id="usedDomesticShipping" class="form-input" placeholder="输入国内运输费用" step="0.01" min="0">
                 </div>
                 <!-- CIF报价类型：第二行显示国际运输+海运费 -->
                 <div id="usedCifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
                   <div class="space-y-2">
                     <label for="usedPortCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                    <input type="number" id="usedPortCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                    <input type="number" id="usedPortCharges" class="form-input" placeholder="输入港杂费" step="0.01" min="0">
                   </div>
                   <div class="space-y-2">
                     <label for="usedSeaFreight" class="block text-sm font-medium text-gray-700">海运费 (USD)</label>
-                    <input type="number" id="usedSeaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费" step="0.01" min="0">
+                    <input type="number" id="usedSeaFreight" class="form-input" placeholder="输入海运费" step="0.01" min="0">
                   </div>
                 </div>
                 <!-- FOB报价类型：第二行只显示港杂费 -->
                 <div id="usedFobShippingContainer" class="space-y-2 hidden">
                   <label for="usedPortChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                  <input type="number" id="usedPortChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  <input type="number" id="usedPortChargesFob" class="form-input" placeholder="输入港杂费" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -720,17 +746,17 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
                   <label for="usedPurchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
-                  <input type="number" id="usedPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="usedPurchaseCost" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
                   <label for="usedMarkup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
-                  <input type="number" id="usedMarkup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
+                  <input type="number" id="usedMarkup" class="form-input" placeholder="输入期望加价" step="0.01" min="0">
                 </div>
               </div>
               <div class="mt-4">
                 <div class="space-y-2">
                   <label for="usedRmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
-                  <input type="number" id="usedRmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="usedRmbPrice" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -744,7 +770,7 @@
                   <label for="currencyUsed" class="block text-sm font-medium text-gray-700">选择币种</label>
                   <div class="flex items-center gap-2 w-full">
                     <div id="currencyFlagUsed" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">🇺🇸</div>
-                    <select id="currencyUsed" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom">
+                    <select id="currencyUsed" class="form-input">
                       <option value="USD" selected>美元 (USD)</option>
                       <option value="EUR">欧元 (EUR)</option>
                       <option value="GBP">英镑 (GBP)</option>
@@ -753,7 +779,7 @@
                 </div>
                 <div class="space-y-2">
                   <label for="exchangeRateUsed" class="block text-sm font-medium text-gray-700" id="exchangeRateLabelUsed">汇率 实时基准：显示汇率数值</label>
-                  <input type="number" id="exchangeRateUsed" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="加载中..." step="0.0001">
+                  <input type="number" id="exchangeRateUsed" class="form-input" placeholder="加载中..." step="0.0001">
                 </div>
               </div>
             </div>
@@ -765,7 +791,7 @@
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
                   <label for="usedProfit" class="block text-sm font-medium text-gray-700">人民币利润 (元)</label>
-                  <input type="number" id="usedProfit" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="usedProfit" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
                   <label for="usedProfitRate" class="block text-sm font-medium text-gray-700">外币利润</label>
@@ -784,7 +810,7 @@
                   <input 
                     type="number" 
                     id="costPriceUsed" 
-                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    class="form-input-large"
                     placeholder="自动计算"
                     step="0.01"
                     readonly
@@ -792,7 +818,7 @@
                 </div>
                 <div class="space-y-2">
                   <label for="finalQuoteUsed" class="block text-sm font-medium text-gray-700">最终报价</label>
-                  <input type="number" id="finalQuoteUsed" class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="finalQuoteUsed" class="form-input-primary" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -812,20 +838,20 @@
                 <!-- 第一行：指导价，优惠 -->
                 <div class="space-y-2">
                   <label for="newEnergyGuidePrice" class="block text-sm font-medium text-gray-700">指导价 (元)</label>
-                  <input type="number" id="newEnergyGuidePrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入指导价" step="0.01" min="0">
+                  <input type="number" id="newEnergyGuidePrice" class="form-input" placeholder="输入指导价" step="0.01" min="0">
                 </div>
                 <div class="space-y-2">
                   <label for="newEnergyDiscount" class="block text-sm font-medium text-gray-700">优惠 (元)</label>
-                  <input type="number" id="newEnergyDiscount" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入优惠金额" step="0.01" min="0">
+                  <input type="number" id="newEnergyDiscount" class="form-input" placeholder="输入优惠金额" step="0.01" min="0">
                 </div>
                 <!-- 第二行：选装，开票价 -->
                 <div class="space-y-2">
                   <label for="newEnergyOptionalEquipment" class="block text-sm font-medium text-gray-700">选装 (元)</label>
-                  <input type="number" id="newEnergyOptionalEquipment" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入选装费用" step="0.01" min="0" value="0">
+                  <input type="number" id="newEnergyOptionalEquipment" class="form-input" placeholder="输入选装费用" step="0.01" min="0" value="0">
                 </div>
                 <div class="space-y-2">
                   <label for="newEnergyInvoicePrice" class="block text-sm font-medium text-gray-700">开票价 (元)</label>
-                  <input type="number" id="newEnergyInvoicePrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="newEnergyInvoicePrice" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -842,17 +868,17 @@
                 <!-- 第一行：购置税 -->
                 <div class="space-y-2">
                   <label for="newEnergyPurchaseTax" class="block text-sm font-medium text-gray-700">购置税 (元)</label>
-                  <input type="number" id="newEnergyPurchaseTax" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="newEnergyPurchaseTax" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <!-- 第二行：退税，退税手续费 -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div class="space-y-2">
                     <label for="newEnergyTaxRefund" class="block text-sm font-medium text-gray-700">退税 (元)</label>
-                    <input type="number" id="newEnergyTaxRefund" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                    <input type="number" id="newEnergyTaxRefund" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                   </div>
                   <div class="space-y-2">
                     <label for="newEnergyTaxRefundFee" class="block text-sm font-medium text-gray-700">退税手续费 (元)</label>
-                    <input type="number" id="newEnergyTaxRefundFee" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                    <input type="number" id="newEnergyTaxRefundFee" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                   </div>
                 </div>
               </div>
@@ -866,20 +892,20 @@
                 <!-- 第一行：交强险，其他费用 -->
                 <div class="space-y-2">
                   <label for="newEnergyCompulsoryInsurance" class="block text-sm font-medium text-gray-700">交强险 (元)</label>
-                  <input type="number" id="newEnergyCompulsoryInsurance" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入交强险费用" step="0.01" min="0" value="0">
+                  <input type="number" id="newEnergyCompulsoryInsurance" class="form-input" placeholder="输入交强险费用" step="0.01" min="0" value="0">
                 </div>
                 <div class="space-y-2">
                   <label for="newEnergyOtherExpenses" class="block text-sm font-medium text-gray-700">其他费用 (元)</label>
-                  <input type="number" id="newEnergyOtherExpenses" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入其他费用" step="0.01" min="0" value="0">
+                  <input type="number" id="newEnergyOtherExpenses" class="form-input" placeholder="输入其他费用" step="0.01" min="0" value="0">
                 </div>
                 <!-- 第二行：资质费用，代办费 -->
                 <div class="space-y-2">
                   <label for="newEnergyQualificationFee" class="block text-sm font-medium text-gray-700">资质费用 (元)</label>
-                  <input type="number" id="newEnergyQualificationFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入资质费用" step="0.01" min="0">
+                  <input type="number" id="newEnergyQualificationFee" class="form-input" placeholder="输入资质费用" step="0.01" min="0">
                 </div>
                 <div class="space-y-2">
                   <label for="newEnergyAgencyFee" class="block text-sm font-medium text-gray-700">代办费 (元)</label>
-                  <input type="number" id="newEnergyAgencyFee" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入代办费用" step="0.01" min="0">
+                  <input type="number" id="newEnergyAgencyFee" class="form-input" placeholder="输入代办费用" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -892,23 +918,23 @@
                 <!-- 第一行：国内运输 (所有报价类型都显示) -->
                 <div class="space-y-2">
                   <label for="newEnergyDomesticShipping" class="block text-sm font-medium text-gray-700">国内运输 (元)</label>
-                  <input type="number" id="newEnergyDomesticShipping" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入国内运输费用" step="0.01" min="0">
+                  <input type="number" id="newEnergyDomesticShipping" class="form-input" placeholder="输入国内运输费用" step="0.01" min="0">
                 </div>
                 <!-- CIF报价类型：第二行显示国际运输+海运费 -->
                 <div id="newEnergyCifShippingContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
                   <div class="space-y-2">
                     <label for="newEnergyPortCharges" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                    <input type="number" id="newEnergyPortCharges" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                    <input type="number" id="newEnergyPortCharges" class="form-input" placeholder="输入港杂费" step="0.01" min="0">
                   </div>
                   <div class="space-y-2">
                     <label for="newEnergySeaFreight" class="block text-sm font-medium text-gray-700">海运费 (USD)</label>
-                    <input type="number" id="newEnergySeaFreight" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入海运费" step="0.01" min="0">
+                    <input type="number" id="newEnergySeaFreight" class="form-input" placeholder="输入海运费" step="0.01" min="0">
                   </div>
                 </div>
                 <!-- FOB报价类型：第二行只显示港杂费 -->
                 <div id="newEnergyFobShippingContainer" class="space-y-2 hidden">
                   <label for="newEnergyPortChargesFob" class="block text-sm font-medium text-gray-700">港杂费 (元)</label>
-                  <input type="number" id="newEnergyPortChargesFob" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入港杂费" step="0.01" min="0">
+                  <input type="number" id="newEnergyPortChargesFob" class="form-input" placeholder="输入港杂费" step="0.01" min="0">
                 </div>
               </div>
             </div>
@@ -923,17 +949,17 @@
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
                   <label for="newEnergyPurchaseCost" class="block text-sm font-medium text-gray-700">采购费用 (元)</label>
-                  <input type="number" id="newEnergyPurchaseCost" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="newEnergyPurchaseCost" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
                   <label for="newEnergyMarkup" class="block text-sm font-medium text-gray-700">加价 (元)</label>
-                  <input type="number" id="newEnergyMarkup" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="输入期望加价" step="0.01" min="0">
+                  <input type="number" id="newEnergyMarkup" class="form-input" placeholder="输入期望加价" step="0.01" min="0">
                 </div>
               </div>
               <div class="mt-4">
                 <div class="space-y-2">
                   <label for="newEnergyRmbPrice" class="block text-sm font-medium text-gray-700">人民币报价 (元)</label>
-                  <input type="number" id="newEnergyRmbPrice" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="newEnergyRmbPrice" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -947,7 +973,7 @@
                   <label for="currencyNewEnergy" class="block text-sm font-medium text-gray-700">选择币种</label>
                   <div class="flex items-center gap-2 w-full">
                     <div id="currencyFlagNewEnergy" class="flex items-center justify-center rounded-full border border-gray-300 bg-white text-2xl" style="width: 2.5rem; height: 2.5rem; min-width: 2.5rem; min-height: 2.5rem;">🇺🇸</div>
-                    <select id="currencyNewEnergy" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom">
+                    <select id="currencyNewEnergy" class="form-input">
                       <option value="USD" selected>美元 (USD)</option>
                       <option value="EUR">欧元 (EUR)</option>
                       <option value="GBP">英镑 (GBP)</option>
@@ -956,7 +982,7 @@
                 </div>
                 <div class="space-y-2">
                   <label for="exchangeRateNewEnergy" class="block text-sm font-medium text-gray-700" id="exchangeRateLabelNewEnergy">汇率 实时基准：显示汇率数值</label>
-                  <input type="number" id="exchangeRateNewEnergy" class="w-full px-4 py-2 border border-gray-300 rounded-lg input-focus transition-custom" placeholder="加载中..." step="0.0001">
+                  <input type="number" id="exchangeRateNewEnergy" class="form-input" placeholder="加载中..." step="0.0001">
                 </div>
               </div>
             </div>
@@ -968,11 +994,11 @@
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
                   <label for="newEnergyProfit" class="block text-sm font-medium text-gray-700">人民币利润 (元)</label>
-                  <input type="number" id="newEnergyProfit" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="newEnergyProfit" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
                 <div class="space-y-2">
                   <label for="newEnergyProfitRate" class="block text-sm font-medium text-gray-700">外币利润</label>
-                  <input type="number" id="newEnergyProfitRate" class="w-full px-4 py-2 border border-gray-300 bg-gray-50 rounded-lg input-focus transition-custom" placeholder="自动计算" step="0.01" readonly>
+                  <input type="number" id="newEnergyProfitRate" class="form-input-readonly" placeholder="自动计算" step="0.01" readonly>
                 </div>
               </div>
             </div>
@@ -987,7 +1013,7 @@
                   <input 
                     type="number" 
                     id="costPriceNewEnergy" 
-                    class="w-full px-4 py-2 border-2 border-gray-300 bg-gray-50 rounded-lg text-lg font-medium input-focus transition-custom"
+                    class="form-input-large"
                     placeholder="自动计算"
                     step="0.01"
                     readonly
@@ -998,7 +1024,7 @@
                   <input 
                     type="number" 
                     id="finalQuoteNewEnergy" 
-                    class="w-full px-4 py-2 border-2 border-primary bg-primary/5 rounded-lg text-lg font-medium input-focus transition-custom"
+                    class="form-input-primary"
                     placeholder="自动计算"
                     step="0.01"
                     readonly
