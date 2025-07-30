@@ -5,8 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DTB Calculator</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- FontAwesome 6 Free CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- FontAwesome 6 Free CDN - 优化加载速度 -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"></noscript>
+    <!-- 备用CDN -->
+    <script>
+      // 如果主CDN加载失败，自动切换到备用CDN
+      setTimeout(function() {
+        if (!document.querySelector('.fa-solid')) {
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css';
+          document.head.appendChild(link);
+        }
+      }, 3000);
+    </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <!-- Tailwind 配置 -->
