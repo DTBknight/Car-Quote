@@ -180,19 +180,27 @@ export class CalculationEngine {
   
   // 新车计算 - 手续费
   calculateNewCarServiceFee() {
+    console.log('计算新车手续费开始');
     const rate = Utils.getElementValue('serviceFeeRate');
     const invoicePrice = Utils.getElementValue('invoicePrice');
+    
+    // 检查滑块元素的原始值
+    const serviceFeeRateElement = Utils.getElement('serviceFeeRate');
+    console.log('手续费滑块原始值:', serviceFeeRateElement?.value);
+    console.log('手续费计算参数:', { rate, invoicePrice });
     
     const cacheKey = this.getCacheKey('new', 'serviceFee', { rate, invoicePrice });
     const cached = this.getCachedResult(cacheKey);
     if (cached !== null) {
       Utils.setElementText('serviceFee', Utils.formatCurrency(Math.round(cached)));
+      console.log('使用缓存的手续费:', cached);
       return cached;
     }
     
     const fee = this.calculateServiceFee(rate, invoicePrice);
     const roundedFee = Math.round(fee);
     
+    console.log('计算出的手续费:', fee, '四舍五入后:', roundedFee);
     Utils.setElementText('serviceFee', Utils.formatCurrency(roundedFee));
     this.setCachedResult(cacheKey, roundedFee);
     return roundedFee;
