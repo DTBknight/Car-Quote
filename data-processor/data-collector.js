@@ -73,12 +73,76 @@ class DataCollector {
           brandImage: ''
         };
 
-        const carIds = Array.from(document.querySelectorAll('a[href*="/auto/series/"]'))
-          .map(a => {
-            const match = a.href.match(/\/auto\/series\/(\d+)/);
-            return match ? match[1] : null;
-          })
-          .filter(id => id);
+        // 查找所有可能的车型容器
+        const possibleContainers = [
+          '.series-card',
+          '[class*="series-card"]',
+          '[class*="car-item"]',
+          '.car-item',
+          'div[class*="card"]'
+        ];
+
+        let carIds = [];
+        let foundContainer = false;
+        
+        for (const selector of possibleContainers) {
+          const elements = document.querySelectorAll(selector);
+          
+          if (elements.length > 0 && !foundContainer) {
+            foundContainer = true;
+            console.log('使用选择器:', selector);
+            
+            elements.forEach((item, index) => {
+              // 检查价格信息
+              const priceSelectors = ['.series-card-price', '.price', '[class*="price"]'];
+              let hasPrice = false;
+              
+              for (const priceSelector of priceSelectors) {
+                const priceElement = item.querySelector(priceSelector);
+                if (priceElement) {
+                  const priceText = priceElement.textContent.trim();
+                  if (priceText && priceText !== '暂无报价' && priceText !== '暂无') {
+                    hasPrice = true;
+                    break;
+                  }
+                }
+              }
+              
+              if (hasPrice) {
+                // 查找车型链接
+                const linkSelectors = [
+                  '.series-card_name__3QIlf',
+                  'a[href*="/auto/series/"]',
+                  '[class*="name"] a',
+                  'a'
+                ];
+                
+                for (const linkSelector of linkSelectors) {
+                  const link = item.querySelector(linkSelector);
+                  if (link && link.href) {
+                    const match = link.href.match(/\/auto\/series\/(\d+)/);
+                    if (match) {
+                      const carId = parseInt(match[1]);
+                      carIds.push(carId);
+                      break;
+                    }
+                  }
+                }
+              }
+            });
+          }
+        }
+        
+        // 如果没有找到容器，使用备用方法
+        if (carIds.length === 0) {
+          console.log('使用备用方法采集车型ID');
+          carIds = Array.from(document.querySelectorAll('a[href*="/auto/series/"]'))
+            .map(a => {
+              const match = a.href.match(/\/auto\/series\/(\d+)/);
+              return match ? parseInt(match[1]) : null;
+            })
+            .filter(id => id);
+        }
 
         return { brandInfo, carIds: [...new Set(carIds)] };
       });
@@ -230,12 +294,16 @@ class DataCollector {
           .slice(1)
           .map(e => e.textContent.trim());
         
+        // 过滤掉没有价格或价格为"暂无报价"的配置
         return configNames.map((name, idx) => ({
           configName: name,
           price: prices[idx] || '',
           fuelType: fuelTypes[idx] || '',
           size: sizes[idx] || ''
-        }));
+        })).filter(config => {
+          const price = config.price.trim();
+          return price && price !== '暂无报价' && price !== '暂无' && price !== '-';
+        });
       });
 
       return {
