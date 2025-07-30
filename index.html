@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DTB Calculator</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- FontAwesome 6 Free CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <!-- Tailwind 配置 -->
@@ -307,7 +308,7 @@
   <header class="bg-white shadow-sm sticky top-0 z-50 transition-custom">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <div class="flex items-center space-x-2">
-        <i class="fa fa-rocket text-primary text-2xl"></i>
+        <i class="fa-solid fa-rocket text-primary text-2xl"></i>
         <h1 class="text-[clamp(1.25rem,3vw,1.75rem)] font-bold text-dark">DTB Calculator</h1>
       </div>
     </div>
@@ -324,7 +325,7 @@
             <div class="flex-1 min-w-0">
               <div class="mb-2 text-lg font-semibold text-gray-700 flex items-center justify-between">
                 <div class="flex items-center">
-                  <i class="fa fa-search text-primary mr-2"></i>搜索车型
+                  <i class="fa-solid fa-search text-primary mr-2"></i>搜索车型
                 </div>
                 <button 
                   type="button" 
@@ -332,7 +333,7 @@
                   class="text-sm text-primary hover:text-primary/80 transition-colors flex items-center"
                   title="查看搜索历史"
                 >
-                  <i class="fa fa-history mr-1"></i>历史记录
+                  <i class="fa-solid fa-history mr-1"></i>历史记录
                 </button>
               </div>
               <div class="relative" style="z-index: 99999;">
@@ -348,7 +349,7 @@
             <!-- 基础信息卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover">
               <h3 class="text-lg font-medium flex items-center mb-3">
-                <i class="fa fa-info-circle text-primary mr-2"></i>基础信息
+                <i class="fa-solid fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
               <div class="grid grid-cols-1 gap-3">
                 <div>
@@ -383,7 +384,7 @@
             <!-- 车型图片卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover">
               <h3 class="text-lg font-medium flex items-center mb-3">
-                <i class="fa fa-car text-primary mr-2"></i>车型图片
+                <i class="fa-solid fa-car text-primary mr-2"></i>车型图片
               </h3>
               <div id="carMainImageBox" class="h-64 flex items-center justify-center">
                 <!-- 车型图片自动加载 -->
@@ -397,39 +398,39 @@
           <!-- 出口类型卡片 -->
           <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 w-full md:w-1/2">
             <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-ship text-primary mr-2"></i>出口类型
+              <i class="fa-solid fa-ship text-primary mr-2"></i>出口类型
             </h4>
             <div class="flex gap-4 export-type-group">
               <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-primary text-primary bg-white shadow-sm transition-custom" data-type="new">
-                <i class="fa fa-car mr-2"></i>新车
+                <i class="fa-solid fa-car mr-2"></i>新车
               </button>
               <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="used">
-                <i class="fa fa-refresh mr-2"></i>二手车
+                <i class="fa-solid fa-refresh mr-2"></i>二手车
               </button>
               <button type="button" class="export-type-btn h-14 flex items-center justify-center px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom" data-type="newEnergyTax">
-                <i class="fa fa-leaf mr-2"></i>新能源车
+                <i class="fa-solid fa-leaf mr-2"></i>新能源车
               </button>
             </div>
           </div>
           <!-- 报价类型卡片 -->
           <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 w-full md:w-1/2">
             <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-              <i class="fa fa-cog text-primary mr-2"></i>报价类型
+              <i class="fa-solid fa-cog text-primary mr-2"></i>报价类型
             </h4>
             <div class="flex gap-4 quote-type-group">
               <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
                 <input type="radio" name="globalQuoteType" value="EXW" class="quote-type-radio text-primary focus:ring-primary" checked>
-                <span class="mr-1 text-primary">🏭</span>
+                <i class="fa-solid fa-industry text-primary mr-2"></i>
                 <span class="ml-1">EXW</span>
               </label>
               <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
                 <input type="radio" name="globalQuoteType" value="FOB" class="quote-type-radio text-primary focus:ring-primary">
-                <span class="mr-1 text-primary">🚢</span>
+                <i class="fa-solid fa-ship text-primary mr-2"></i>
                 <span class="ml-1">FOB</span>
               </label>
               <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
                 <input type="radio" name="globalQuoteType" value="CIF" class="quote-type-radio text-primary focus:ring-primary">
-                <span class="mr-1 text-primary">🚢🛡️</span>
+                <i class="fa-solid fa-ship text-primary mr-1"></i><i class="fa-solid fa-shield-halved text-primary"></i>
                 <span class="ml-1">CIF</span>
               </label>
             </div>
@@ -443,7 +444,7 @@
             <!-- 价格信息卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+                <i class="fa-solid fa-tag text-primary mr-2"></i>价格信息
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- 第一行：指导价，优惠 -->
@@ -469,7 +470,7 @@
             <!-- 税费信息卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-bank text-primary mr-2"></i>税费信息
+                <i class="fa-solid fa-bank text-primary mr-2"></i>税费信息
               </h4>
               <div class="grid grid-cols-1 gap-6">
                 <div class="space-y-2">
@@ -489,7 +490,7 @@
             <!-- 其余支出卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-list text-primary mr-2"></i>其余支出
+                <i class="fa-solid fa-list text-primary mr-2"></i>其余支出
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -505,7 +506,7 @@
             <!-- 运输费用卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+                <i class="fa-solid fa-truck text-primary mr-2"></i>运输费用
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <!-- 第一行：国内运输 (所有报价类型都显示) -->
@@ -537,7 +538,7 @@
             <!-- 人民币价格卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-cny text-primary mr-2"></i>人民币价格
+                <i class="fa-solid fa-cny text-primary mr-2"></i>人民币价格
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -553,7 +554,7 @@
             <!-- 汇率及最终报价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+                <i class="fa-solid fa-exchange text-primary mr-2"></i>汇率
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -587,7 +588,7 @@
             <!-- 利润卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-line-chart text-primary mr-2"></i>利润
+                <i class="fa-solid fa-line-chart text-primary mr-2"></i>利润
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -603,7 +604,7 @@
             <!-- 最终报价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-bullseye text-primary mr-2"></i>最终报价
+                <i class="fa-solid fa-bullseye text-primary mr-2"></i>最终报价
               </h4>
               <div class="flex-1 flex flex-col justify-center gap-4">
                 <div class="space-y-2">
@@ -640,7 +641,7 @@
             <!-- 基础价格信息卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+                <i class="fa-solid fa-tag text-primary mr-2"></i>价格信息
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- 第一行：指导价，优惠 -->
@@ -666,7 +667,7 @@
             <!-- 税费及服务费用卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-bank text-primary mr-2"></i>税费信息
+                <i class="fa-solid fa-bank text-primary mr-2"></i>税费信息
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <!-- 第一行：购置税 -->
@@ -690,7 +691,7 @@
             <!-- 其余支出卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-list text-primary mr-2"></i>其余支出
+                <i class="fa-solid fa-list text-primary mr-2"></i>其余支出
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- 第一行：交强险，其他费用 -->
@@ -716,7 +717,7 @@
             <!-- 运输费用卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+                <i class="fa-solid fa-truck text-primary mr-2"></i>运输费用
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <!-- 第一行：国内运输 (所有报价类型都显示) -->
@@ -748,7 +749,7 @@
             <!-- 人民币价格卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-cny text-primary mr-2"></i>人民币价格
+                <i class="fa-solid fa-cny text-primary mr-2"></i>人民币价格
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -770,7 +771,7 @@
             <!-- 汇率及最终报价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" id="currencySectionUsed">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+                <i class="fa-solid fa-exchange text-primary mr-2"></i>汇率
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -793,7 +794,7 @@
             <!-- 利润卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-line-chart text-primary mr-2"></i>利润
+                <i class="fa-solid fa-line-chart text-primary mr-2"></i>利润
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -809,7 +810,7 @@
             <!-- 最终报价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-bullseye text-primary mr-2"></i>最终报价
+                <i class="fa-solid fa-bullseye text-primary mr-2"></i>最终报价
               </h4>
               <div class="flex-1 flex flex-col justify-center gap-4">
                 <div class="space-y-2">
@@ -839,7 +840,7 @@
             <!-- 基础价格信息卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-tag text-primary mr-2"></i>价格信息
+                <i class="fa-solid fa-tag text-primary mr-2"></i>价格信息
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- 第一行：指导价，优惠 -->
@@ -865,9 +866,9 @@
             <!-- 税费及服务费用卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 tax-fee-card">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-bank text-primary mr-2"></i>税费信息
+                <i class="fa-solid fa-bank text-primary mr-2"></i>税费信息
                 <span class="ml-2 text-xs text-gray-600 flex items-center">
-                  <i class="fa fa-info-circle mr-1 text-gray-600"></i>
+                  <i class="fa-solid fa-info-circle mr-1 text-gray-600"></i>
                   <span id="newEnergyTaxNote">免征购置税</span>
                 </span>
               </h4>
@@ -893,7 +894,7 @@
             <!-- 其余支出卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-list text-primary mr-2"></i>其余支出
+                <i class="fa-solid fa-list text-primary mr-2"></i>其余支出
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <!-- 第一行：交强险，其他费用 -->
@@ -919,7 +920,7 @@
             <!-- 运输费用卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-truck text-primary mr-2"></i>运输费用
+                <i class="fa-solid fa-truck text-primary mr-2"></i>运输费用
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <!-- 第一行：国内运输 (所有报价类型都显示) -->
@@ -951,7 +952,7 @@
             <!-- 人民币价格卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-cny text-primary mr-2"></i>人民币价格
+                <i class="fa-solid fa-cny text-primary mr-2"></i>人民币价格
               </h4>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="space-y-2">
@@ -973,7 +974,7 @@
             <!-- 汇率及最终报价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" id="currencySectionNewEnergy">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-exchange text-primary mr-2"></i>汇率
+                <i class="fa-solid fa-exchange text-primary mr-2"></i>汇率
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -996,7 +997,7 @@
             <!-- 利润卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-line-chart text-primary mr-2"></i>利润
+                <i class="fa-solid fa-line-chart text-primary mr-2"></i>利润
               </h4>
               <div class="grid grid-cols-1 gap-4">
                 <div class="space-y-2">
@@ -1012,7 +1013,7 @@
             <!-- 最终报价卡片 -->
             <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 flex flex-col justify-between">
               <h4 class="text-lg font-medium text-gray-700 mb-4 flex items-center">
-                <i class="fa fa-bullseye text-primary mr-2"></i>最终报价
+                <i class="fa-solid fa-bullseye text-primary mr-2"></i>最终报价
               </h4>
               <div class="flex-1 flex flex-col justify-center gap-4">
                 <div class="space-y-2">
@@ -1046,7 +1047,7 @@
       <!-- 报价结果卡片 -->
       <div id="resultCard" class="hidden bg-white rounded-xl shadow-md p-6 md:p-8 mb-8 transform transition-custom hover:shadow-lg">
         <h3 class="text-xl font-semibold mb-6 flex items-center">
-          <i class="fa fa-file-text-o text-primary mr-2"></i>报价结果
+          <i class="fa-solid fa-file-text-o text-primary mr-2"></i>报价结果
         </h3>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1107,7 +1108,7 @@
           class="text-xs text-red-500 hover:text-red-700 transition-colors"
           title="清除所有历史记录"
         >
-          <i class="fa fa-trash mr-1"></i>清除历史
+          <i class="fa-solid fa-trash mr-1"></i>清除历史
         </button>
       </div>
     </div>
@@ -1115,7 +1116,7 @@
       <!-- 历史记录项将在这里动态生成 -->
     </div>
     <div id="noHistoryMessage" class="hidden p-4 text-center text-gray-500 text-sm">
-      <i class="fa fa-info-circle mr-1"></i>暂无搜索历史
+      <i class="fa-solid fa-info-circle mr-1"></i>暂无搜索历史
     </div>
   </div>
 
