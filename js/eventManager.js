@@ -46,18 +46,18 @@ export class EventManager {
       exchangeRateFields: ['exchangeRate', 'exchangeRateUsed', 'exchangeRateNewEnergy']
     };
     
-    // 防抖计算函数
+    // 防抖计算函数 - 减少延迟时间提高响应性
     this.debouncedNewCarCalculation = Utils.debounce(() => {
       this.calculationEngine.calculateNewCarAll();
-    }, 300);
+    }, 100);
     
     this.debouncedUsedCarCalculation = Utils.debounce(() => {
       this.calculationEngine.calculateUsedCarAll();
-    }, 300);
+    }, 100);
     
     this.debouncedNewEnergyCalculation = Utils.debounce(() => {
       this.calculationEngine.calculateNewEnergyAll();
-    }, 300);
+    }, 100);
   }
   
   // 初始化所有事件监听器
@@ -249,19 +249,42 @@ export class EventManager {
     document.addEventListener('input', (e) => {
       const fieldId = e.target.id;
       
+      // 关键字段即时计算（无防抖）
+      const instantFields = ['guidePrice', 'discount', 'optionalEquipment', 'serviceFeeRate'];
+      const instantUsedFields = ['usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment'];
+      const instantNewEnergyFields = ['newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment'];
+      
       // 新车字段
       if (this.eventConfig.newCarFields.includes(fieldId)) {
-        this.debouncedNewCarCalculation();
+        if (instantFields.includes(fieldId)) {
+          // 关键字段即时计算
+          this.calculationEngine.calculateNewCarAll();
+        } else {
+          // 其他字段使用防抖
+          this.debouncedNewCarCalculation();
+        }
       }
       
       // 二手车字段
       if (this.eventConfig.usedCarFields.includes(fieldId)) {
-        this.debouncedUsedCarCalculation();
+        if (instantUsedFields.includes(fieldId)) {
+          // 关键字段即时计算
+          this.calculationEngine.calculateUsedCarAll();
+        } else {
+          // 其他字段使用防抖
+          this.debouncedUsedCarCalculation();
+        }
       }
       
       // 新能源字段
       if (this.eventConfig.newEnergyFields.includes(fieldId)) {
-        this.debouncedNewEnergyCalculation();
+        if (instantNewEnergyFields.includes(fieldId)) {
+          // 关键字段即时计算
+          this.calculationEngine.calculateNewEnergyAll();
+        } else {
+          // 其他字段使用防抖
+          this.debouncedNewEnergyCalculation();
+        }
       }
     });
     
