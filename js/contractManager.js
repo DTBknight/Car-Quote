@@ -256,18 +256,30 @@ export class ContractManager {
   }
 
   // 生成合同
-  generateContract() {
+  async generateContract() {
     try {
+      console.log('🔄 开始生成合同...');
+      
       // 收集表单数据
       const formData = this.collectFormData();
+      console.log('📋 收集的表单数据:', formData);
       
       // 验证数据
       if (!this.validateFormData(formData)) {
+        console.log('❌ 表单数据验证失败');
         return;
+      }
+
+      // 确保合同生成器已创建
+      if (!this.contractGenerator) {
+        console.log('🔄 创建合同生成器...');
+        const { ContractGenerator } = await import('./contractGenerator.js');
+        this.contractGenerator = new ContractGenerator();
       }
 
       // 生成合同数据
       const contractData = this.contractGenerator.generateFromCalculator(formData);
+      console.log('📄 生成的合同数据:', contractData);
       
       // 显示合同预览
       this.showContractPreview(contractData);

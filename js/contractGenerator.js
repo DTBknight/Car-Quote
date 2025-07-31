@@ -63,6 +63,8 @@ export class ContractGenerator {
 
   // 从计算器结果生成合同数据
   generateFromCalculator(calculatorResult) {
+    console.log('🔄 开始生成合同数据，输入:', calculatorResult);
+    
     const contractData = {
       parties: {
         buyer: {
@@ -77,9 +79,10 @@ export class ContractGenerator {
         signedAt: 'Chongqing, China'
       },
       goods: this.generateGoodsList(calculatorResult),
-      totalAmount: calculatorResult.finalQuote || 0
+      totalAmount: calculatorResult.finalQuote || calculatorResult.totalAmount || 0
     };
 
+    console.log('📄 生成的合同数据:', contractData);
     this.setContractData(contractData);
     return contractData;
   }

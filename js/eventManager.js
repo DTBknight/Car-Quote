@@ -726,37 +726,53 @@ export class EventManager {
     // 更新内容显示
     document.querySelectorAll('.tab-content').forEach(content => {
       content.classList.remove('active');
-      console.log(`🔍 移除active类: ${content.id}`);
+      content.style.display = 'none';
     });
     const contentElement = document.getElementById(`${tabName}Content`);
     if (contentElement) {
       contentElement.classList.add('active');
+      contentElement.style.display = 'block';
       console.log(`✅ 内容区域已激活: ${tabName}Content`);
       
-      // 强制显示内容区域
-      contentElement.style.display = 'block';
-      
-      // 如果是合同标签，确保合同管理器已初始化
-      if (tabName === 'contract') {
-        console.log('🔄 检测到合同标签，检查合同管理器状态...');
-        // 延迟初始化合同管理器
-        setTimeout(() => {
-          const app = window.carQuoteApp;
-          if (app) {
-            // 如果合同管理器不存在，先创建它
-            if (!app.contractManager) {
-              console.log('🔄 创建合同管理器...');
-              app.contractManager = new (await import('./contractManager.js')).ContractManager();
-            }
-            console.log('🔄 延迟初始化合同管理器...');
-            app.contractManager.initialize();
-          } else {
-            console.error('❌ 未找到应用实例');
-          }
-        }, 100);
+      // 按需加载功能
+      if (tabName === 'calculator') {
+        console.log('🔄 加载计算器功能...');
+        this.loadCalculatorFeatures();
+      } else if (tabName === 'contract') {
+        console.log('🔄 加载合同功能...');
+        this.loadContractFeatures();
       }
     } else {
       console.error(`❌ 未找到内容区域: ${tabName}Content`);
     }
+  }
+
+  // 加载计算器功能
+  loadCalculatorFeatures() {
+    // 计算器功能已经在主应用初始化时加载，这里只需要确保显示
+    console.log('✅ 计算器功能已就绪');
+  }
+
+  // 加载合同功能
+  loadContractFeatures() {
+    setTimeout(async () => {
+      try {
+        const app = window.carQuoteApp;
+        if (app) {
+          // 如果合同管理器不存在，先创建它
+          if (!app.contractManager) {
+            console.log('🔄 创建合同管理器...');
+            const { ContractManager } = await import('./contractManager.js');
+            app.contractManager = new ContractManager();
+          }
+          console.log('🔄 初始化合同管理器...');
+          app.contractManager.initialize();
+        } else {
+          console.error('❌ 未找到应用实例');
+        }
+      } catch (error) {
+        console.error('❌ 合同管理器初始化失败:', error);
+      }
+    }, 100);
   }
 } 
