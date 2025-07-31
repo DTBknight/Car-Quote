@@ -357,7 +357,18 @@ export class CarSearch {
       
       // 填充车型详细信息
       this.fillCarDetails({ ...car, ...config });
+      
+      // 触发车型选择事件，通知其他模块重置计算
+      this.triggerCarSelectionEvent({ ...car, ...config });
     }
+  }
+
+  // 触发车型选择事件
+  triggerCarSelectionEvent(carData) {
+    const event = new CustomEvent('carSelected', {
+      detail: { carData }
+    });
+    document.dispatchEvent(event);
   }
   
   // 填充车型详细信息

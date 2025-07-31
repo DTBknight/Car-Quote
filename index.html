@@ -541,7 +541,7 @@
             <div class="flex gap-4 quote-type-group">
               <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
                 <input type="radio" name="globalQuoteType" value="EXW" class="quote-type-radio text-primary focus:ring-primary" checked>
-                <i class="fa-solid fa-industry text-primary mr-2"></i>
+                <i class="fa-solid fa-truck text-primary mr-2"></i>
                 <span class="ml-1">EXW</span>
               </label>
               <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
@@ -551,7 +551,7 @@
               </label>
               <label class="inline-flex items-center h-14 justify-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:border-primary transition-custom flex-1">
                 <input type="radio" name="globalQuoteType" value="CIF" class="quote-type-radio text-primary focus:ring-primary">
-                <i class="fa-solid fa-boxes-stacked text-primary mr-2"></i>
+                <i class="fa-solid fa-ship text-primary mr-2"></i>
                 <span class="ml-1">CIF</span>
               </label>
             </div>
@@ -1220,8 +1220,8 @@
     </div>
   </main>
   
-  <!-- 搜索下拉菜单 - 移到body级别避免被容器限制 -->
-  <div id="searchCarResults" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
+  <!-- 搜索下拉菜单 - 固定定位，不随页面滚动 -->
+  <div id="searchCarResults" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="position: fixed !important;"></div>
   
   <!-- 搜索历史记录面板 - 移到body级别避免被容器限制 -->
   <div id="searchHistoryPanel" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">

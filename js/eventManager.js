@@ -69,6 +69,7 @@ export class EventManager {
     this.bindServiceFeeEvents();
     this.bindCalculateButtonEvents();
     this.bindCurrencyEvents();
+    this.bindCarSelectionEvents();
   }
   
   // 绑定表单类型切换事件
@@ -603,11 +604,92 @@ export class EventManager {
     document.removeEventListener('input', this.debouncedNewCarCalculation);
     document.removeEventListener('input', this.debouncedUsedCarCalculation);
     document.removeEventListener('input', this.debouncedNewEnergyCalculation);
+    document.removeEventListener('carSelected', this.handleCarSelection);
     
     // 清理卡片点击事件
     const cards = document.querySelectorAll('.card-hover');
     cards.forEach(card => {
       card.removeEventListener('click', this.cardClickHandler);
     });
+  }
+
+  // 绑定车型选择事件
+  bindCarSelectionEvents() {
+    document.addEventListener('carSelected', this.handleCarSelection.bind(this));
+  }
+
+  // 处理车型选择事件 - 重置所有计算
+  handleCarSelection(event) {
+    console.log('🚗 车型已选择，正在重置计算...', event.detail.carData);
+    
+    // 重置所有表单字段
+    this.resetAllFormFields();
+    
+    // 清除计算缓存
+    this.calculationEngine.clearCache();
+    
+    // 重新计算当前激活的表单类型
+    const activeFormType = this.getActiveFormType();
+    if (activeFormType === 'new') {
+      this.calculationEngine.calculateNewCarAll();
+    } else if (activeFormType === 'used') {
+      this.calculationEngine.calculateUsedCarAll();
+    } else if (activeFormType === 'newEnergyTax') {
+      this.calculationEngine.calculateNewEnergyAll();
+    }
+  }
+
+  // 重置所有表单字段
+  resetAllFormFields() {
+    // 重置新车表单字段
+    const newCarFields = [
+      'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
+      'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight'
+    ];
+    
+    // 重置二手车表单字段
+    const usedCarFields = [
+      'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
+      'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee',
+      'usedDomesticShipping', 'usedPortCharges', 'usedPortChargesFob',
+      'usedSeaFreight', 'usedMarkup'
+    ];
+    
+    // 重置新能源表单字段
+    const newEnergyFields = [
+      'newEnergyDiscount', 'newEnergyOptionalEquipment',
+      'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses',
+      'newEnergyQualificationFee', 'newEnergyAgencyFee',
+      'newEnergyDomesticShipping', 'newEnergyPortCharges',
+      'newEnergyPortChargesFob', 'newEnergySeaFreight', 'newEnergyMarkup'
+    ];
+    
+    // 重置所有字段
+    [...newCarFields, ...usedCarFields, ...newEnergyFields].forEach(fieldId => {
+      const element = Utils.getElement(fieldId);
+      if (element) {
+        element.value = '';
+      }
+    });
+    
+    // 重置只读字段
+    const readonlyFields = [
+      'invoicePrice', 'taxRefund', 'serviceFee', 'purchaseCost', 'rmbPrice',
+      'profit', 'profitRate', 'costPrice', 'finalQuote',
+      'usedInvoicePrice', 'usedTaxRefund', 'usedTaxRefundFee', 'usedPurchaseCost',
+      'usedRmbPrice', 'usedProfit', 'usedProfitRate', 'costPriceUsed', 'finalQuoteUsed',
+      'newEnergyInvoicePrice', 'newEnergyTaxRefund', 'newEnergyTaxRefundFee',
+      'newEnergyPurchaseCost', 'newEnergyRmbPrice', 'newEnergyProfit',
+      'newEnergyProfitRate', 'costPriceNewEnergy', 'finalQuoteNewEnergy'
+    ];
+    
+    readonlyFields.forEach(fieldId => {
+      const element = Utils.getElement(fieldId);
+      if (element) {
+        element.value = '';
+      }
+    });
+    
+    console.log('✅ 所有表单字段已重置');
   }
 } 
