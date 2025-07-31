@@ -185,9 +185,16 @@ def generate_contract():
                 pi_sheet[f'F{current_row}'] = goods.get('unitPrice', 0)  # 单价
                 pi_sheet[f'G{current_row}'] = goods.get('totalAmount', 0)  # 金额
         
-        # 生成输出文件名
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        output_filename = f'contract_{timestamp}.xlsx'
+        # 生成输出文件名 - 使用合同编号
+        if contract_number:
+            # 清理合同编号中的特殊字符，确保文件名安全
+            safe_contract_number = "".join(c for c in contract_number if c.isalnum() or c in ('-', '_'))
+            output_filename = f'{safe_contract_number}_Contract.xlsx'
+        else:
+            # 如果没有合同编号，使用时间戳作为备用
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            output_filename = f'contract_{timestamp}.xlsx'
+        
         output_path = os.path.join(OUTPUT_DIR, output_filename)
         
         # 保存文件
