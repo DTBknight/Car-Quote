@@ -17,6 +17,15 @@ export class ContractManager {
     }
     
     console.log('🔄 开始初始化合同管理器...');
+    
+    // 检查合同内容容器是否存在
+    const contractContent = document.getElementById('contractContent');
+    if (!contractContent) {
+      console.error('❌ 未找到合同内容容器，延迟初始化');
+      setTimeout(() => this.initialize(), 200);
+      return;
+    }
+    
     this.createContractInterface();
     this.bindEvents();
     this.isInitialized = true;
@@ -32,7 +41,20 @@ export class ContractManager {
     }
 
     console.log('✅ 开始创建合同界面');
+    
+    // 先创建一个简单的测试内容
     contractContent.innerHTML = `
+      <div class="bg-white rounded-xl shadow-md p-6 md:p-8">
+        <h3 class="text-xl font-semibold mb-6 flex items-center">
+          <i class="fa-solid fa-file-contract text-primary mr-2"></i>合同生成器
+        </h3>
+        <p class="text-gray-600">合同界面正在加载中...</p>
+      </div>
+    `;
+    
+    // 延迟加载完整界面
+    setTimeout(() => {
+      contractContent.innerHTML = `
       <div class="space-y-8">
         <!-- 合同生成器卡片 -->
         <div class="bg-white rounded-xl shadow-md p-6 md:p-8">
@@ -156,6 +178,8 @@ export class ContractManager {
         </div>
       </div>
     `;
+      console.log('✅ 完整合同界面已加载');
+    }, 500);
   }
 
   // 绑定事件

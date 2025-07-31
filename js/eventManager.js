@@ -726,16 +726,29 @@ export class EventManager {
     // 更新内容显示
     document.querySelectorAll('.tab-content').forEach(content => {
       content.classList.remove('active');
+      console.log(`🔍 移除active类: ${content.id}`);
     });
     const contentElement = document.getElementById(`${tabName}Content`);
     if (contentElement) {
       contentElement.classList.add('active');
       console.log(`✅ 内容区域已激活: ${tabName}Content`);
       
+      // 强制显示内容区域
+      contentElement.style.display = 'block';
+      
       // 如果是合同标签，确保合同管理器已初始化
       if (tabName === 'contract') {
         console.log('🔄 检测到合同标签，检查合同管理器状态...');
-        // 这里可以添加合同管理器的延迟初始化逻辑
+        // 延迟初始化合同管理器
+        setTimeout(() => {
+          const app = window.carQuoteApp;
+          if (app && app.contractManager) {
+            console.log('🔄 延迟初始化合同管理器...');
+            app.contractManager.initialize();
+          } else {
+            console.error('❌ 未找到应用实例或合同管理器');
+          }
+        }, 100);
       }
     } else {
       console.error(`❌ 未找到内容区域: ${tabName}Content`);
