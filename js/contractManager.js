@@ -4,7 +4,7 @@ import { Utils } from './utils.js';
 
 export class ContractManager {
   constructor() {
-    this.contractGenerator = new ContractGenerator();
+    this.contractGenerator = null; // 延迟创建
     this.currentContractData = null;
     this.isInitialized = false;
   }
@@ -24,6 +24,12 @@ export class ContractManager {
       console.error('❌ 未找到合同内容容器，延迟初始化');
       setTimeout(() => this.initialize(), 200);
       return;
+    }
+    
+    // 延迟创建合同生成器
+    if (!this.contractGenerator) {
+      this.contractGenerator = new ContractGenerator();
+      console.log('✅ 合同生成器已创建');
     }
     
     this.createContractInterface();

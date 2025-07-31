@@ -742,11 +742,16 @@ export class EventManager {
         // 延迟初始化合同管理器
         setTimeout(() => {
           const app = window.carQuoteApp;
-          if (app && app.contractManager) {
+          if (app) {
+            // 如果合同管理器不存在，先创建它
+            if (!app.contractManager) {
+              console.log('🔄 创建合同管理器...');
+              app.contractManager = new (await import('./contractManager.js')).ContractManager();
+            }
             console.log('🔄 延迟初始化合同管理器...');
             app.contractManager.initialize();
           } else {
-            console.error('❌ 未找到应用实例或合同管理器');
+            console.error('❌ 未找到应用实例');
           }
         }, 100);
       }

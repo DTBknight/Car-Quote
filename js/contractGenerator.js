@@ -1,13 +1,17 @@
 // 合同生成器模块
 export class ContractGenerator {
   constructor() {
-    this.contractTemplate = this.getContractTemplate();
+    this.contractTemplate = null; // 延迟创建模板
     this.currentContractData = {};
   }
 
   // 获取合同模板
   getContractTemplate() {
-    return {
+    if (this.contractTemplate) {
+      return this.contractTemplate;
+    }
+    
+    this.contractTemplate = {
       header: {
         companyName: 'SMAI CO., LTD',
         contractType: '外销合同 / SALES CONTRACT'
