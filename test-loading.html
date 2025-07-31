@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据加载测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .status { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .loading { background-color: #fff3cd; color: #856404; }
+    </style>
+</head>
+<body>
+    <h1>数据加载测试</h1>
+    <div id="status"></div>
+    <div id="results"></div>
+
+    <script>
+        async function testDataLoading() {
+            const statusDiv = document.getElementById('status');
+            const resultsDiv = document.getElementById('results');
+            
+            function updateStatus(message, type = 'loading') {
+                statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+            }
+            
+            try {
+                updateStatus('正在测试品牌数据加载...', 'loading');
+                
+                // 测试品牌数据
+                const brandsRes = await fetch('https://dbtknight.netlify.app/data/brands.json');
+                if (!brandsRes.ok) {
+                    throw new Error(`品牌数据请求失败: ${brandsRes.status}`);
+                }
+                
+                const brands = await brandsRes.json();
+                updateStatus(`✅ 品牌数据加载成功，共 ${brands.length} 个品牌`, 'success');
+                
+                // 测试第一个品牌的数据
+                if (brands.length > 0) {
+                    const firstBrand = brands[0];
+                    updateStatus(`正在测试 ${firstBrand.name} 的数据...`, 'loading');
+                    
+                    const brandRes = await fetch(`https://dbtknight.netlify.app/data/${firstBrand.file}`);
+                    if (!brandRes.ok) {
+                        throw new Error(`${firstBrand.name} 数据请求失败: ${brandRes.status}`);
+                    }
+                    
+                    const brandData = await brandRes.json();
+                    updateStatus(`✅ ${firstBrand.name} 数据加载成功，共 ${brandData.cars ? brandData.cars.length : 0} 个车型`, 'success');
+                    
+                    // 显示结果
+                    resultsDiv.innerHTML = `
+                        <h3>测试结果:</h3>
+                        <p><strong>品牌数量:</strong> ${brands.length}</p>
+                        <p><strong>示例品牌:</strong> ${firstBrand.name}</p>
+                        <p><strong>车型数量:</strong> ${brandData.cars ? brandData.cars.length : 0}</p>
+                        <p><strong>数据状态:</strong> 所有数据加载正常 ✅</p>
+                    `;
+                }
+                
+            } catch (error) {
+                updateStatus(`❌ 数据加载失败: ${error.message}`, 'error');
+                resultsDiv.innerHTML = `
+                    <h3>错误信息:</h3>
+                    <p><strong>错误:</strong> ${error.message}</p>
+                    <p><strong>时间:</strong> ${new Date().toLocaleString()}</p>
+                `;
+            }
+        }
+        
+        // 页面加载完成后开始测试
+        document.addEventListener('DOMContentLoaded', testDataLoading);
+    </script>
+</body>
+</html> 

@@ -7,6 +7,7 @@ from datetime import datetime
 import logging
 import tempfile
 import json
+import base64
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
@@ -215,7 +216,7 @@ def generate_contract_handler(request):
                     'Access-Control-Allow-Methods': 'POST, OPTIONS',
                     'Access-Control-Allow-Headers': 'Content-Type'
                 },
-                'body': file_content.encode('base64'),
+                'body': base64.b64encode(file_content).decode('utf-8'),
                 'isBase64Encoded': True
             }
         
@@ -233,6 +234,7 @@ def generate_contract_handler(request):
 # Vercel函数入口点
 def handler(request, context):
     """Vercel函数入口点"""
+    # 处理OPTIONS请求（CORS预检）
     if request.method == 'OPTIONS':
         return {
             'statusCode': 200,
@@ -243,4 +245,27 @@ def handler(request, context):
             }
         }
     
-    return generate_contract_handler(request) 
+    # 处理POST请求
+    if request.method == 'POST':
+        return generate_contract_handler(request)
+    
+    # 处理GET请求（健康检查）
+    if request.method == 'GET':
+        return {
+            'statusCode': 200,
+            'headers': {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+            'body': json.dumps({'status': 'ok', 'message': 'Contract API is running'})
+        }
+    
+    # 其他方法返回405
+    return {
+        'statusCode': 405,
+        'headers': {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+        'body': json.dumps({'error': 'Method not allowed'})
+    } 

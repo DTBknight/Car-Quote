@@ -10,14 +10,14 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
-    // 生产环境 - Vercel后端
-    PRODUCTION: {
-      BASE_URL: 'https://your-vercel-app.vercel.app', // 替换为您的Vercel域名
-      ENDPOINTS: {
-        GENERATE_CONTRACT: '/api/generate-contract',
-        HEALTH: '/api/health'
-      }
+      // 生产环境 - Vercel后端
+  PRODUCTION: {
+    BASE_URL: 'https://api-2xaz3sa47-jonathan-jins-projects-32f77fb6.vercel.app', // Vercel后端域名
+    ENDPOINTS: {
+      GENERATE_CONTRACT: '/api/generate-contract',
+      HEALTH: '/api/health'
     }
+  }
   },
   
   // 应用配置
