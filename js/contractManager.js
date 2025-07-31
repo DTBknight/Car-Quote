@@ -1,4 +1,6 @@
 // 合同管理器模块
+import { getApiUrl } from './config.js';
+
 export class ContractManager {
   constructor() {
     console.log('🔧 合同管理器初始化');
@@ -597,15 +599,12 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       // 显示加载状态
       this.showContractStatus(true);
       
-      // 动态确定API地址
-      const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
-      const apiBaseUrl = isProduction ? '/api' : 'http://localhost:5001';
-      const apiEndpoint = isProduction ? '/generate-contract' : '/generate-contract';
-      
-      console.log('🌐 API地址:', `${apiBaseUrl}${apiEndpoint}`);
+      // 使用配置的API地址
+      const apiUrl = getApiUrl('GENERATE_CONTRACT');
+      console.log('🌐 API地址:', apiUrl);
       
       // 调用后端API
-      const response = await fetch(`${apiBaseUrl}${apiEndpoint}`, {
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

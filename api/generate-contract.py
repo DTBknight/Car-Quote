@@ -1,3 +1,5 @@
+from flask import Flask, request, jsonify, send_file
+from flask_cors import CORS
 import openpyxl
 from openpyxl import load_workbook
 import os
@@ -5,11 +7,13 @@ from datetime import datetime
 import logging
 import tempfile
 import json
-import base64
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+app = Flask(__name__)
+CORS(app)  # 允许跨域请求
 
 # 配置
 TEMPLATE_PATH = 'template.xlsx'
@@ -18,51 +22,15 @@ def generate_contract_handler(request):
     """Vercel函数处理合同生成"""
     try:
         # 获取请求数据
-        if request.method == 'GET':
-            return {
-                'statusCode': 405,
-                'headers': {
-                    'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin': '*'
-                },
-                'body': json.dumps({'error': '只支持POST请求'})
-            }
-        
-        # 解析JSON数据
-        try:
-            data = json.loads(request.body)
-        except:
-            return {
-                'statusCode': 400,
-                'headers': {
-                    'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin': '*'
-                },
-                'body': json.dumps({'error': '无效的JSON数据'})
-            }
-        
+        data = request.get_json()
         logger.info(f"收到合同数据: {data}")
         
         if not data:
-            return {
-                'statusCode': 400,
-                'headers': {
-                    'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin': '*'
-                },
-                'body': json.dumps({'error': '未收到数据'})
-            }
+            return jsonify({'error': '未收到数据'}), 400
         
         # 加载模板文件
         if not os.path.exists(TEMPLATE_PATH):
-            return {
-                'statusCode': 404,
-                'headers': {
-                    'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin': '*'
-                },
-                'body': json.dumps({'error': '模板文件不存在'})
-            }
+            return jsonify({'error': '模板文件不存在'}), 404
         
         # 使用openpyxl加载工作簿
         workbook = load_workbook(TEMPLATE_PATH)
@@ -247,7 +215,7 @@ def generate_contract_handler(request):
                     'Access-Control-Allow-Methods': 'POST, OPTIONS',
                     'Access-Control-Allow-Headers': 'Content-Type'
                 },
-                'body': base64.b64encode(file_content).decode('utf-8'),
+                'body': file_content.encode('base64'),
                 'isBase64Encoded': True
             }
         

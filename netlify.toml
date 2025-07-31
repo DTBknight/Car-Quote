@@ -1,19 +1,29 @@
 [build]
+  # 发布目录
   publish = "."
-  command = "npm install"
+  
+  # 构建命令（静态文件，无需构建）
+  command = ""
 
-[build.environment]
-  NODE_VERSION = "18"
+[[headers]]
+  # 为所有路由设置CORS头
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
 
+# 重定向规则
 [[redirects]]
+  # 将API请求重定向到Vercel后端
   from = "/api/*"
-  to = "/.netlify/functions/server"
+  to = "https://your-vercel-app.vercel.app/api/:splat"
   status = 200
+  force = true
+  headers = {Access-Control-Allow-Origin = "*"}
 
+# 单页应用路由
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
-
-[functions]
-  directory = "functions" 
+  status = 200 

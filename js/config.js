@@ -2,15 +2,36 @@
 const CONFIG = {
   // API配置
   API: {
-    EXCHANGE_RATE: {
-      BASE_URL: 'https://openexchangerates.org/api/latest.json?symbols=USD,EUR,GBP,CNY',
-      MAIN_APP_ID: '9625bee048bd4599842279906b9ca677',
-      BACKUP_APP_ID: '145b3ca7abb2474f9e1f30b2ed19b77f'
+    // 开发环境
+    DEVELOPMENT: {
+      BASE_URL: 'http://localhost:5001',
+      ENDPOINTS: {
+        GENERATE_CONTRACT: '/generate-contract',
+        HEALTH: '/health'
+      }
     },
-    CAR_DATA: {
-      BRANDS_URL: 'https://dbtknight.netlify.app/data/brands.json',
-      BASE_URL: 'https://dbtknight.netlify.app/data/'
+    // 生产环境 - Vercel后端
+    PRODUCTION: {
+      BASE_URL: 'https://your-vercel-app.vercel.app', // 替换为您的Vercel域名
+      ENDPOINTS: {
+        GENERATE_CONTRACT: '/api/generate-contract',
+        HEALTH: '/api/health'
+      }
     }
+  },
+  
+  // 应用配置
+  APP: {
+    NAME: 'Car-Quote',
+    VERSION: '2.0.0',
+    DEBUG: false
+  },
+  
+  // 功能开关
+  FEATURES: {
+    CONTRACT_MANAGEMENT: true,
+    CAR_CALCULATOR: true,
+    EXCHANGE_RATE: true
   },
   
   // 主题配置
@@ -50,4 +71,26 @@ const CONFIG = {
   }
 };
 
-export default CONFIG; 
+// 获取当前环境
+const getEnvironment = () => {
+  const hostname = window.location.hostname;
+  if (hostname === 'localhost' || hostname === '127.0.0.1') {
+    return 'DEVELOPMENT';
+  }
+  return 'PRODUCTION';
+};
+
+// 获取API配置
+const getApiConfig = () => {
+  const env = getEnvironment();
+  return CONFIG.API[env];
+};
+
+// 获取API URL
+const getApiUrl = (endpoint) => {
+  const apiConfig = getApiConfig();
+  return `${apiConfig.BASE_URL}${apiConfig.ENDPOINTS[endpoint]}`;
+};
+
+// 导出配置
+export { CONFIG, getEnvironment, getApiConfig, getApiUrl }; 
