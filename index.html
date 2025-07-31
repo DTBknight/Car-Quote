@@ -1420,12 +1420,19 @@
       }
     });
     
+    // 测试模块加载
+    import('./js/test-modules.js').catch(error => {
+      console.error('模块测试加载失败:', error);
+    });
+    
     // 导入并初始化应用
     import('./js/app.js').then(({ CarQuoteApp }) => {
       const app = CarQuoteApp.getInstance();
       app.initialize().catch(error => {
         console.error('应用初始化失败:', error);
       });
+    }).catch(error => {
+      console.error('app.js 加载失败:', error);
     });
   </script>
 </body>
