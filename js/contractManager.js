@@ -1,12 +1,8 @@
 // 合同管理模块
 export class ContractManager {
   constructor() {
-    // 延迟初始化，确保DOM已加载
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => this.init());
-    } else {
-      this.init();
-    }
+    // 等待手动调用init()方法
+    console.log('📋 合同管理器构造函数执行');
   }
 
   init() {

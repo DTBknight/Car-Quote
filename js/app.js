@@ -68,7 +68,9 @@ export class CarQuoteApp {
       this.loadingManager.nextStep();
       this.initCardHoverEffects();
 
-      // 8. 合同管理模块已在构造函数中初始化
+      // 8. 初始化合同管理模块
+      this.loadingManager.nextStep();
+      this.contractManager.init();
 
       this.initialized = true;
       this.performanceMetrics.initTime = performance.now() - startTime;
