@@ -36,13 +36,28 @@ export class ContractManager {
   switchTab(tabName) {
     console.log(`🔄 切换到标签: ${tabName}`);
     
-    // 确保主内容区域可见
+    // 隐藏所有主内容区域
     const mainContent = document.getElementById('mainContent');
+    const contractMainContent = document.getElementById('contractMainContent');
+    
     if (mainContent) {
-      mainContent.style.display = 'block';
-      console.log('✅ 主内容区域已设置为可见');
-    } else {
-      console.error('❌ 未找到 mainContent');
+      mainContent.style.setProperty('display', 'none', 'important');
+    }
+    if (contractMainContent) {
+      contractMainContent.style.setProperty('display', 'none', 'important');
+    }
+    
+    // 显示对应的主内容区域
+    if (tabName === 'calculator') {
+      if (mainContent) {
+        mainContent.style.setProperty('display', 'block', 'important');
+        console.log('✅ 计算器主内容区域已设置为可见');
+      }
+    } else if (tabName === 'contract') {
+      if (contractMainContent) {
+        contractMainContent.style.setProperty('display', 'block', 'important');
+        console.log('✅ 合同主内容区域已设置为可见');
+      }
     }
     
     // 更新按钮状态
@@ -61,14 +76,12 @@ export class ContractManager {
     // 更新内容显示
     document.querySelectorAll('.tab-content').forEach(content => {
       content.classList.remove('active');
-      content.style.display = 'none';
     });
     
     const activeContent = document.getElementById(`${tabName}Content`);
     if (activeContent) {
       activeContent.classList.add('active');
-      activeContent.style.display = 'block';
-      console.log(`✅ 内容区已显示: ${tabName}Content`);
+      console.log(`✅ 内容区已激活: ${tabName}Content`);
       
       // 如果是合同标签，生成内容
       if (tabName === 'contract') {
@@ -88,11 +101,11 @@ export class ContractManager {
       console.error('❌ 未找到合同内容容器');
       return;
     }
-    // 强制显示和样式，便于调试
-    contractContent.style.display = 'block';
+    
+    // 合同内容区域现在有独立的容器，不需要强制设置显示
     contractContent.classList.add('active');
     contractContent.style.minHeight = '300px';
-    contractContent.style.border = '2px solid red'; // 调试用，后续可去掉
+    // contractContent.style.border = '2px solid red'; // 调试用，已注释
 
     // 生成带有扳手动画的开发中页面
     const content = `
@@ -150,5 +163,14 @@ export class ContractManager {
     `;
     contractContent.innerHTML = content;
     console.log('✅ 合同页面内容生成完成，innerHTML长度:', contractContent.innerHTML.length);
+    
+    // 额外的调试信息
+    console.log('🔍 合同内容区域状态检查:');
+    console.log('- display:', contractContent.style.display);
+    console.log('- computed display:', window.getComputedStyle(contractContent).display);
+    console.log('- classList:', contractContent.classList.toString());
+    console.log('- offsetHeight:', contractContent.offsetHeight);
+    console.log('- clientHeight:', contractContent.clientHeight);
+    console.log('- scrollHeight:', contractContent.scrollHeight);
   }
 } 
