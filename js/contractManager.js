@@ -59,11 +59,18 @@ export class ContractManager {
       // 更新内容显示
       document.querySelectorAll('.tab-content').forEach(content => {
         content.classList.remove('active');
+        content.style.display = 'none';
       });
       const activeContent = document.getElementById(`${tabName}Content`);
       if (activeContent) {
         activeContent.classList.add('active');
+        activeContent.style.display = 'block';
         console.log(`✅ 内容显示更新成功: ${tabName}`);
+        
+        // 如果是合同标签，确保内容已生成
+        if (tabName === 'contract') {
+          this.showDevelopmentMessage();
+        }
       } else {
         console.error(`❌ 未找到内容区域: ${tabName}Content`);
       }
