@@ -93,6 +93,25 @@ export class ContractManager {
     console.log('📋 合同内容容器样式:', contractContent ? contractContent.style.display : 'null');
     console.log('📋 合同内容容器类名:', contractContent ? contractContent.className : 'null');
     console.log('📋 合同内容容器父元素:', contractContent ? contractContent.parentElement : 'null');
+    
+    // 添加内容变化监听器
+    if (contractContent) {
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.type === 'childList') {
+            console.log('⚠️ 检测到内容变化:', mutation.type);
+            console.log('⚠️ 变化后的innerHTML长度:', contractContent.innerHTML.length);
+          }
+        });
+      });
+      
+      observer.observe(contractContent, {
+        childList: true,
+        subtree: true
+      });
+      
+      console.log('📋 已添加内容变化监听器');
+    }
     if (contractContent) {
       console.log('✅ 开始生成开发中页面...');
       // 确保容器可见
@@ -102,6 +121,8 @@ export class ContractManager {
       // 先测试最简单的内容
       contractContent.innerHTML = '<h1 style="color: red; font-size: 48px;">测试内容</h1>';
       console.log('🎉 简单测试内容设置完成！');
+      console.log('📋 设置后的innerHTML:', contractContent.innerHTML);
+      console.log('📋 设置后的innerHTML长度:', contractContent.innerHTML.length);
       
       // 等待一秒后再设置完整内容
       setTimeout(() => {
@@ -136,6 +157,8 @@ export class ContractManager {
         contractContent.innerHTML = htmlContent;
         console.log('🎉 开发中页面生成完成！');
         console.log('📋 设置的内容长度:', htmlContent.length);
+        console.log('📋 设置后的innerHTML长度:', contractContent.innerHTML.length);
+        console.log('📋 设置后的innerHTML前100字符:', contractContent.innerHTML.substring(0, 100));
       }, 1000);
     } else {
       console.error('❌ 未找到合同内容容器！');
