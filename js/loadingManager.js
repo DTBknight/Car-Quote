@@ -21,9 +21,14 @@ export class LoadingManager {
 
   // 开始加载
   startLoading() {
-    // 显示加载进度
-    this.updateProgress(0, this.loadingSteps[0].text);
-    this.createMagicParticles();
+    // 立即隐藏加载屏幕，显示主内容
+    if (this.loadingScreen) {
+      this.loadingScreen.style.display = 'none';
+    }
+    if (this.mainContent) {
+      this.mainContent.style.display = 'block';
+      this.mainContent.style.opacity = '1';
+    }
   }
 
   // 更新加载进度
@@ -48,35 +53,8 @@ export class LoadingManager {
   // 完成加载
   completeLoading() {
     return new Promise((resolve) => {
-      // 更新到100%
-      this.updateProgress(100, '启动完成！');
-      
-      // 等待一小段时间让用户看到完成状态
-      setTimeout(() => {
-        // 淡出加载动画
-        if (this.loadingScreen) {
-          this.loadingScreen.classList.add('loading-fade-out');
-        }
-        
-        // 淡入主内容
-        if (this.mainContent) {
-          this.mainContent.style.display = 'block';
-          this.mainContent.classList.add('loading-fade-in');
-        }
-        
-        // 动画完成后隐藏加载屏幕
-        setTimeout(() => {
-          if (this.loadingScreen) {
-            this.loadingScreen.style.display = 'none';
-            this.loadingScreen.classList.remove('loading-fade-out');
-          }
-          if (this.mainContent) {
-            this.mainContent.classList.remove('loading-fade-in');
-          }
-          this.cleanupMagicParticles();
-          resolve();
-        }, 500);
-      }, 800);
+      // 立即完成，不显示加载动画
+      resolve();
     });
   }
 

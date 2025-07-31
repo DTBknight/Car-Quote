@@ -1438,40 +1438,12 @@
   <script type="module">
     // 导入并初始化应用
     import('./js/app.js').then(({ CarQuoteApp }) => {
-      try {
-        const app = CarQuoteApp.getInstance();
-        
-        // 将应用实例挂载到全局对象（用于调试）
-        window.carQuoteApp = app;
-        
-        app.initialize().then(() => {
-          console.log('🎉 汽车报价系统已就绪');
-          
-          // 输出性能指标
-          setTimeout(() => {
-            const metrics = app.getPerformanceMetrics();
-            console.log('📊 性能指标:', metrics);
-          }, 1000);
-        }).catch(error => {
-          console.error('❌ 应用初始化失败:', error);
-          // 显示错误信息给用户
-          const loadingText = document.getElementById('loadingText');
-          if (loadingText) {
-            loadingText.textContent = `初始化失败: ${error.message}`;
-            loadingText.classList.add('text-red-500');
-          }
-        });
-      } catch (error) {
-        console.error('❌ 应用创建失败:', error);
-      }
+      const app = CarQuoteApp.getInstance();
+      app.initialize().catch(error => {
+        console.error('应用初始化失败:', error);
+      });
     }).catch(error => {
-      console.error('❌ 模块加载失败:', error);
-      // 显示错误信息给用户
-      const loadingText = document.getElementById('loadingText');
-      if (loadingText) {
-        loadingText.textContent = `模块加载失败: ${error.message}`;
-        loadingText.classList.add('text-red-500');
-      }
+      console.error('模块加载失败:', error);
     });
   </script>
 </body>
