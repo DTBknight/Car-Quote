@@ -44,6 +44,13 @@ export class ContractManager {
   switchTab(tabName) {
     console.log(`🔄 切换到标签: ${tabName}`);
     try {
+      // 确保主内容区域可见
+      const mainContent = document.getElementById('mainContent');
+      if (mainContent) {
+        mainContent.style.display = 'block';
+        console.log('✅ 主内容区域已设置为可见');
+      }
+      
       // 更新按钮状态
       document.querySelectorAll('.tab-button').forEach(btn => {
         btn.classList.remove('active');
