@@ -21,7 +21,7 @@ export class CarQuoteApp {
       this.themeManager
     );
     this.carSearch = new CarSearch();
-    this.contractManager = null; // 延迟创建合同管理器
+    this.contractManager = new ContractManager();
     this.initialized = false;
     this.performanceMetrics = {
       initTime: 0,
@@ -68,9 +68,7 @@ export class CarQuoteApp {
       this.loadingManager.nextStep();
       this.initCardHoverEffects();
 
-      // 8. 跳过合同管理模块初始化（延迟到需要时）
-      // this.loadingManager.nextStep();
-      // 不在这里初始化合同管理器，改为在切换到合同标签时初始化
+      // 8. 合同管理模块已在构造函数中初始化
 
       this.initialized = true;
       this.performanceMetrics.initTime = performance.now() - startTime;

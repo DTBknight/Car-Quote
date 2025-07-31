@@ -70,7 +70,6 @@ export class EventManager {
     this.bindCalculateButtonEvents();
     this.bindCurrencyEvents();
     this.bindCarSelectionEvents();
-    this.bindTabEvents();
   }
   
   // 绑定表单类型切换事件
@@ -692,87 +691,5 @@ export class EventManager {
     });
     
     console.log('✅ 所有表单字段已重置');
-  }
-
-  // 绑定标签切换事件
-  bindTabEvents() {
-    const calculatorTab = document.getElementById('calculatorTab');
-    const contractTab = document.getElementById('contractTab');
-    
-    if (calculatorTab) {
-      calculatorTab.addEventListener('click', () => this.switchTab('calculator'));
-    }
-    if (contractTab) {
-      contractTab.addEventListener('click', () => this.switchTab('contract'));
-    }
-  }
-
-  // 切换标签
-  switchTab(tabName) {
-    console.log(`🔄 切换到标签: ${tabName}`);
-    
-    // 更新按钮状态
-    document.querySelectorAll('.tab-button').forEach(btn => {
-      btn.classList.remove('active');
-    });
-    const activeButton = document.querySelector(`[data-tab="${tabName}"]`);
-    if (activeButton) {
-      activeButton.classList.add('active');
-      console.log(`✅ 按钮状态已更新: ${tabName}`);
-    } else {
-      console.error(`❌ 未找到标签按钮: ${tabName}`);
-    }
-
-    // 更新内容显示
-    document.querySelectorAll('.tab-content').forEach(content => {
-      content.classList.remove('active');
-      content.style.display = 'none';
-    });
-    const contentElement = document.getElementById(`${tabName}Content`);
-    if (contentElement) {
-      contentElement.classList.add('active');
-      contentElement.style.display = 'block';
-      console.log(`✅ 内容区域已激活: ${tabName}Content`);
-      
-      // 按需加载功能
-      if (tabName === 'calculator') {
-        console.log('🔄 加载计算器功能...');
-        this.loadCalculatorFeatures();
-      } else if (tabName === 'contract') {
-        console.log('🔄 加载合同功能...');
-        this.loadContractFeatures();
-      }
-    } else {
-      console.error(`❌ 未找到内容区域: ${tabName}Content`);
-    }
-  }
-
-  // 加载计算器功能
-  loadCalculatorFeatures() {
-    // 计算器功能已经在主应用初始化时加载，这里只需要确保显示
-    console.log('✅ 计算器功能已就绪');
-  }
-
-  // 加载合同功能
-  loadContractFeatures() {
-    setTimeout(async () => {
-      try {
-        const app = window.carQuoteApp;
-        if (app) {
-          // 如果合同管理器不存在，先创建它
-          if (!app.contractManager) {
-            console.log('🔄 创建合同管理器...');
-            const { ContractManager } = await import('./contractManager.js');
-            app.contractManager = new ContractManager();
-          }
-          console.log('🔄 初始化合同管理器...');
-          app.contractManager.initialize();
-        } else {
-          console.error('❌ 未找到应用实例');
-        }
-      } catch (error) {
-        console.error('❌ 合同管理器初始化失败:', error);
-      }
-    }, 100);
   }
 } 
