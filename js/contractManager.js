@@ -13,15 +13,21 @@ export class ContractManager {
   initialize() {
     if (this.isInitialized) return;
     
+    console.log('🚀 开始初始化合同管理器...');
     this.createContractInterface();
     this.bindEvents();
     this.isInitialized = true;
+    console.log('✅ 合同管理器初始化完成');
   }
 
   // 创建合同界面
   createContractInterface() {
     const contractContent = document.getElementById('contractContent');
-    if (!contractContent) return;
+    console.log('🔍 查找合同内容容器:', contractContent);
+    if (!contractContent) {
+      console.error('❌ 未找到合同内容容器');
+      return;
+    }
 
     contractContent.innerHTML = `
       <div class="space-y-8">
@@ -140,7 +146,7 @@ export class ContractManager {
                 </button>
               </div>
             </div>
-            <div id="contractContent" class="border rounded-lg p-4 bg-gray-50 max-h-96 overflow-y-auto">
+            <div id="contractPreviewContent" class="border rounded-lg p-4 bg-gray-50 max-h-96 overflow-y-auto">
               <!-- 合同内容将在这里显示 -->
             </div>
           </div>
@@ -329,7 +335,7 @@ export class ContractManager {
   // 显示合同预览
   showContractPreview(contractData) {
     const previewDiv = document.getElementById('contractPreview');
-    const contentDiv = document.getElementById('contractContent');
+    const contentDiv = document.getElementById('contractPreviewContent');
     
     if (previewDiv && contentDiv) {
       contentDiv.innerHTML = this.contractGenerator.generateContractHTML();

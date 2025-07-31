@@ -709,16 +709,27 @@ export class EventManager {
 
   // 切换标签
   switchTab(tabName) {
+    console.log('🔄 切换到标签:', tabName);
+    
     // 更新按钮状态
     document.querySelectorAll('.tab-button').forEach(btn => {
       btn.classList.remove('active');
     });
-    document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+    const activeButton = document.querySelector(`[data-tab="${tabName}"]`);
+    if (activeButton) {
+      activeButton.classList.add('active');
+    }
 
     // 更新内容显示
     document.querySelectorAll('.tab-content').forEach(content => {
       content.classList.remove('active');
     });
-    document.getElementById(`${tabName}Content`).classList.add('active');
+    const activeContent = document.getElementById(`${tabName}Content`);
+    if (activeContent) {
+      activeContent.classList.add('active');
+      console.log('✅ 标签切换成功:', tabName);
+    } else {
+      console.error('❌ 未找到内容容器:', `${tabName}Content`);
+    }
   }
 } 
