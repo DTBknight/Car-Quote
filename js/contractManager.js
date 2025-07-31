@@ -597,8 +597,15 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       // 显示加载状态
       this.showContractStatus(true);
       
+      // 动态确定API地址
+      const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+      const apiBaseUrl = isProduction ? '/api' : 'http://localhost:5001';
+      const apiEndpoint = isProduction ? '/generate-contract' : '/generate-contract';
+      
+      console.log('🌐 API地址:', `${apiBaseUrl}${apiEndpoint}`);
+      
       // 调用后端API
-      const response = await fetch('http://localhost:5001/generate-contract', {
+      const response = await fetch(`${apiBaseUrl}${apiEndpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
