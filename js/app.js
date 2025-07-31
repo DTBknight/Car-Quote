@@ -6,10 +6,12 @@ import { CalculationEngine } from './calculationEngine.js';
 import { EventManager } from './eventManager.js';
 import { CarSearch } from './carSearch.js';
 import { ContractManager } from './contractManager.js';
+import { LoadingManager } from './loadingManager.js';
 
 // 主应用类
 export class CarQuoteApp {
   constructor() {
+    this.loadingManager = new LoadingManager();
     this.exchangeRateManager = new ExchangeRateManager();
     this.themeManager = new ThemeManager();
     this.calculationEngine = new CalculationEngine();
@@ -33,21 +35,27 @@ export class CarQuoteApp {
     const startTime = performance.now();
     
     try {
+      // 开始加载动画
+      this.loadingManager.startLoading();
       console.log('🚗 汽车报价系统初始化中...');
       
       // 1. 先设置默认值
+      this.loadingManager.nextStep();
       this.setDefaultValues();
       
       // 2. 初始化主题
+      this.loadingManager.nextStep();
       this.themeManager.initializeTheme();
       
       // 3. 并行初始化汇率和车辆搜索
+      this.loadingManager.nextStep();
       await Promise.allSettled([
         this.exchangeRateManager.initializeExchangeRates(),
         this.carSearch.initialize()
       ]);
       
       // 4. 初始化事件监听器
+      this.loadingManager.nextStep();
       this.eventManager.initializeEvents();
       
       // 5. 显示汇率区域
@@ -57,6 +65,7 @@ export class CarQuoteApp {
       this.calculationEngine.calculateNewCarAll();
 
       // 7. 初始化卡片悬浮效果
+      this.loadingManager.nextStep();
       this.initCardHoverEffects();
 
       // 8. 合同管理模块已在构造函数中初始化
@@ -71,8 +80,12 @@ export class CarQuoteApp {
       // 定期清理缓存
       this.startCacheCleanup();
       
+      // 完成加载动画
+      await this.loadingManager.completeLoading();
+      
     } catch (error) {
       console.error('❌ 应用初始化失败:', error);
+      this.loadingManager.showError(error.message);
       throw error;
     }
   }

@@ -402,6 +402,54 @@
     .excel-table tr:hover {
       background-color: #f8fafc;
     }
+    
+    /* 加载动画样式 */
+    .loading-fade-in {
+      animation: fadeIn 0.8s ease-in-out;
+    }
+    
+    .loading-fade-out {
+      animation: fadeOut 0.5s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+      from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+      }
+      to { 
+        opacity: 1; 
+        transform: translateY(0); 
+      }
+    }
+    
+    @keyframes fadeOut {
+      from { 
+        opacity: 1; 
+        transform: translateY(0); 
+      }
+      to { 
+        opacity: 0; 
+        transform: translateY(-20px); 
+      }
+    }
+    
+    /* 加载进度条动画 */
+    .loading-progress {
+      width: 200px;
+      height: 4px;
+      background-color: #e5e7eb;
+      border-radius: 2px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    
+    .loading-progress-bar {
+      height: 100%;
+      background-color: var(--primary-color);
+      border-radius: 2px;
+      transition: width 0.3s ease;
+    }
   </style>
 </head>
 
@@ -433,8 +481,27 @@
     </div>
   </header>
 
+  <!-- 加载动画 -->
+  <div id="loadingScreen" class="fixed inset-0 bg-white z-50 flex items-center justify-center">
+    <div class="text-center">
+      <div class="mb-6">
+        <i class="fa-solid fa-rocket text-primary text-6xl animate-bounce"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">DTB Calculator</h2>
+      <div class="flex items-center justify-center space-x-2 mb-4">
+        <div class="w-3 h-3 bg-primary rounded-full animate-pulse"></div>
+        <div class="w-3 h-3 bg-primary rounded-full animate-pulse" style="animation-delay: 0.2s;"></div>
+        <div class="w-3 h-3 bg-primary rounded-full animate-pulse" style="animation-delay: 0.4s;"></div>
+      </div>
+      <div class="loading-progress mb-4">
+        <div class="loading-progress-bar" id="loadingProgressBar" style="width: 0%;"></div>
+      </div>
+      <p class="text-gray-600" id="loadingText">正在初始化系统...</p>
+    </div>
+  </div>
+
   <!-- 主要内容区 -->
-  <main class="container mx-auto px-4 py-8">
+  <main class="container mx-auto px-4 py-8" id="mainContent" style="display: none;">
     <!-- 计算器分区 -->
     <div id="calculatorContent" class="tab-content active">
       <!-- 表单卡片 -->
@@ -1259,6 +1326,27 @@
   <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
   
   <!-- 模块化JavaScript -->
-  <script type="module" src="js/app.js"></script>
+  <script type="module">
+    // 立即显示加载动画
+    document.addEventListener('DOMContentLoaded', () => {
+      const loadingScreen = document.getElementById('loadingScreen');
+      const mainContent = document.getElementById('mainContent');
+      
+      if (loadingScreen) {
+        loadingScreen.style.display = 'flex';
+      }
+      if (mainContent) {
+        mainContent.style.display = 'none';
+      }
+    });
+    
+    // 导入并初始化应用
+    import('./js/app.js').then(({ CarQuoteApp }) => {
+      const app = CarQuoteApp.getInstance();
+      app.initialize().catch(error => {
+        console.error('应用初始化失败:', error);
+      });
+    });
+  </script>
 </body>
 </html> 
