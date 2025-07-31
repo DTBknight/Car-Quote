@@ -88,6 +88,12 @@ export class ContractManager {
       console.error('❌ 未找到合同内容容器');
       return;
     }
+    // 强制显示和样式，便于调试
+    contractContent.style.display = 'block';
+    contractContent.classList.add('active');
+    contractContent.style.minHeight = '300px';
+    contractContent.style.border = '2px solid red'; // 调试用，后续可去掉
+
     // 生成带有扳手动画的开发中页面
     const content = `
       <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
