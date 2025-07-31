@@ -8,10 +8,11 @@ export class LoadingManager {
     this.magicParticles = document.getElementById('magicParticles');
     this.loadingSteps = [
       { text: '正在初始化系统...', progress: 10 },
-      { text: '加载车型数据...', progress: 30 },
-      { text: '初始化汇率服务...', progress: 50 },
-      { text: '设置计算引擎...', progress: 70 },
-      { text: '配置用户界面...', progress: 90 },
+      { text: '加载车型数据...', progress: 25 },
+      { text: '初始化汇率服务...', progress: 40 },
+      { text: '设置计算引擎...', progress: 55 },
+      { text: '配置用户界面...', progress: 70 },
+      { text: '初始化合同管理...', progress: 85 },
       { text: '启动完成！', progress: 100 }
     ];
     this.currentStep = 0;
