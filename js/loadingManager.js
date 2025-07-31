@@ -21,14 +21,16 @@ export class LoadingManager {
 
   // 开始加载
   startLoading() {
+    // 暂时跳过加载动画，直接显示主内容
     if (this.loadingScreen) {
-      this.loadingScreen.style.display = 'flex';
+      this.loadingScreen.style.display = 'none';
     }
     if (this.mainContent) {
-      this.mainContent.style.display = 'none';
+      this.mainContent.style.display = 'block';
+      this.mainContent.style.opacity = '1';
     }
-    this.updateProgress(0, this.loadingSteps[0].text);
-    this.createMagicParticles();
+    // this.updateProgress(0, this.loadingSteps[0].text);
+    // this.createMagicParticles();
   }
 
   // 更新加载进度
@@ -53,6 +55,11 @@ export class LoadingManager {
   // 完成加载
   completeLoading() {
     return new Promise((resolve) => {
+      // 暂时跳过加载动画，直接完成
+      resolve();
+      
+      // 原始代码（已注释）
+      /*
       // 更新到100%
       this.updateProgress(100, '启动完成！');
       
@@ -82,6 +89,7 @@ export class LoadingManager {
           resolve();
         }, 500);
       }, 800);
+      */
     });
   }
 
