@@ -1436,19 +1436,6 @@
   
   <!-- 模块化JavaScript -->
   <script type="module">
-    // 立即显示加载动画
-    document.addEventListener('DOMContentLoaded', () => {
-      const loadingScreen = document.getElementById('loadingScreen');
-      const mainContent = document.getElementById('mainContent');
-      
-      if (loadingScreen) {
-        loadingScreen.style.display = 'flex';
-      }
-      if (mainContent) {
-        mainContent.style.display = 'none';
-      }
-    });
-    
     // 导入并初始化应用
     import('./js/app.js').then(({ CarQuoteApp }) => {
       const app = CarQuoteApp.getInstance();
