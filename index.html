@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
       <title>ONE BIG BEAUTIFUL TOOL</title>
   <script src="https://cdn.tailwindcss.com"></script>
       <!-- FontAwesome 6 Free CDN - 优化加载速度 -->
@@ -1398,6 +1401,12 @@
   
   <!-- 模块化JavaScript -->
   <script type="module">
+    // 强制刷新缓存
+    if (performance.navigation.type === 1) {
+      // 如果是刷新页面，清除缓存
+      window.location.reload(true);
+    }
+    
     // 立即显示加载动画
     document.addEventListener('DOMContentLoaded', () => {
       const loadingScreen = document.getElementById('loadingScreen');
