@@ -332,28 +332,6 @@ export class CarQuoteApp {
 // 全局应用实例
 let app;
 
-// 页面加载完成后初始化应用
-document.addEventListener('DOMContentLoaded', async () => {
-  try {
-    app = CarQuoteApp.getInstance();
-    await app.initialize();
-    
-    // 将应用实例挂载到全局对象（用于调试）
-    window.carQuoteApp = app;
-    
-    console.log('🎉 汽车报价系统已就绪');
-    
-    // 输出性能指标
-    setTimeout(() => {
-      const metrics = app.getPerformanceMetrics();
-      console.log('📊 性能指标:', metrics);
-    }, 1000);
-    
-  } catch (error) {
-    console.error('❌ 应用启动失败:', error);
-  }
-});
-
 // 页面卸载时清理资源
 window.addEventListener('beforeunload', () => {
   if (app) {
