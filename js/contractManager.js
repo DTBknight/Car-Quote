@@ -9,7 +9,7 @@ export class ContractManager {
     console.log('🔧 合同管理器初始化开始...');
     try {
       this.bindEvents();
-      this.showDevelopmentMessage();
+      // 不在这里调用showDevelopmentMessage，而是在切换标签时调用
       console.log('✅ 合同管理器初始化完成');
     } catch (error) {
       console.error('❌ 合同管理器初始化失败:', error);
@@ -91,10 +91,13 @@ export class ContractManager {
     const contractContent = document.getElementById('contractContent');
     console.log('📋 找到合同内容容器:', contractContent);
     console.log('📋 合同内容容器样式:', contractContent ? contractContent.style.display : 'null');
+    console.log('📋 合同内容容器类名:', contractContent ? contractContent.className : 'null');
+    console.log('📋 合同内容容器父元素:', contractContent ? contractContent.parentElement : 'null');
     if (contractContent) {
       console.log('✅ 开始生成开发中页面...');
       // 确保容器可见
       contractContent.style.display = 'block';
+      contractContent.classList.add('active');
       contractContent.innerHTML = `
         <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
           <div class="flex flex-col items-center justify-center py-16 text-center">
