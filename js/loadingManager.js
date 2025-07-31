@@ -7,11 +7,12 @@ export class LoadingManager {
     this.loadingProgressBar = document.getElementById('loadingProgressBar');
     this.magicParticles = document.getElementById('magicParticles');
     this.loadingSteps = [
-      { text: '正在初始化系统...', progress: 15 },
-      { text: '加载车型数据...', progress: 30 },
-      { text: '初始化汇率服务...', progress: 45 },
-      { text: '设置计算引擎...', progress: 60 },
-      { text: '配置用户界面...', progress: 75 },
+      { text: '正在初始化系统...', progress: 12 },
+      { text: '加载车型数据...', progress: 25 },
+      { text: '初始化汇率服务...', progress: 38 },
+      { text: '设置计算引擎...', progress: 50 },
+      { text: '配置用户界面...', progress: 62 },
+      { text: '初始化合同管理...', progress: 75 },
       { text: '启动完成！', progress: 100 }
     ];
     this.currentStep = 0;

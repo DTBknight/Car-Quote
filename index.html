@@ -398,6 +398,41 @@
     .excel-table td select {
       cursor: pointer;
     }
+
+    /* 扳手动画样式 */
+    .wrench-animation {
+      position: relative;
+      display: inline-block;
+    }
+
+    .wrench-animation i {
+      animation: wrenchBounce 2s ease-in-out infinite;
+    }
+
+    @keyframes wrenchBounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+      40% {
+        transform: translateY(-10px) rotate(10deg);
+      }
+      60% {
+        transform: translateY(-5px) rotate(-5deg);
+      }
+    }
+
+    .wrench-animation i.fa-spin {
+      animation: wrenchSpin 1s linear infinite;
+    }
+
+    @keyframes wrenchSpin {
+      from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
     
     .excel-table tr:hover {
       background-color: #f8fafc;
@@ -537,6 +572,13 @@
           data-tab="calculator"
         >
           <i class="fa-solid fa-calculator mr-2"></i>计算器
+        </button>
+        <button 
+          id="contractTab" 
+          class="px-4 py-2 rounded-lg font-medium transition-custom tab-button"
+          data-tab="contract"
+        >
+          <i class="fa-solid fa-file-contract mr-2"></i>合同
         </button>
 
       </div>
@@ -1346,7 +1388,10 @@
       </div>
     </div>
     
-
+    <!-- Contract分区 -->
+    <div id="contractContent" class="tab-content">
+      <!-- 正在开发中页面内容将由JavaScript动态生成 -->
+    </div>
   </main>
   
   <!-- 搜索下拉菜单 - 固定定位，不随页面滚动 -->
