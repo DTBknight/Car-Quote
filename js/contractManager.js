@@ -19,10 +19,16 @@ export class ContractManager {
     
     if (calculatorTab) {
       calculatorTab.addEventListener('click', () => this.switchTab('calculator'));
+      console.log('✅ calculatorTab 事件已绑定');
+    } else {
+      console.error('❌ 未找到 calculatorTab');
     }
     
     if (contractTab) {
       contractTab.addEventListener('click', () => this.switchTab('contract'));
+      console.log('✅ contractTab 事件已绑定');
+    } else {
+      console.error('❌ 未找到 contractTab');
     }
   }
 
@@ -34,6 +40,9 @@ export class ContractManager {
     const mainContent = document.getElementById('mainContent');
     if (mainContent) {
       mainContent.style.display = 'block';
+      console.log('✅ 主内容区域已设置为可见');
+    } else {
+      console.error('❌ 未找到 mainContent');
     }
     
     // 更新按钮状态
@@ -44,6 +53,9 @@ export class ContractManager {
     const activeButton = document.querySelector(`[data-tab="${tabName}"]`);
     if (activeButton) {
       activeButton.classList.add('active');
+      console.log(`✅ 按钮状态已更新: ${tabName}`);
+    } else {
+      console.error(`❌ 未找到按钮: [data-tab=${tabName}]`);
     }
 
     // 更新内容显示
@@ -56,11 +68,14 @@ export class ContractManager {
     if (activeContent) {
       activeContent.classList.add('active');
       activeContent.style.display = 'block';
+      console.log(`✅ 内容区已显示: ${tabName}Content`);
       
       // 如果是合同标签，生成内容
       if (tabName === 'contract') {
         this.generateContractContent();
       }
+    } else {
+      console.error(`❌ 未找到内容区: ${tabName}Content`);
     }
   }
 
@@ -73,7 +88,6 @@ export class ContractManager {
       console.error('❌ 未找到合同内容容器');
       return;
     }
-
     // 生成带有扳手动画的开发中页面
     const content = `
       <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
@@ -85,7 +99,6 @@ export class ContractManager {
             <h2 class="text-3xl font-bold text-gray-700 mb-4">正在开发中</h2>
             <p class="text-lg text-gray-600 mb-8">合同管理功能正在紧锣密鼓地开发中，敬请期待！</p>
           </div>
-          
           <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 max-w-md mb-8">
             <h3 class="text-lg font-semibold text-blue-800 mb-3 flex items-center">
               <i class="fa-solid fa-lightbulb text-blue-600 mr-2"></i>
@@ -110,7 +123,6 @@ export class ContractManager {
               </li>
             </ul>
           </div>
-          
           <div class="flex gap-4">
             <button 
               onclick="document.getElementById('calculatorTab').click()"
@@ -130,8 +142,7 @@ export class ContractManager {
         </div>
       </div>
     `;
-
     contractContent.innerHTML = content;
-    console.log('✅ 合同页面内容生成完成');
+    console.log('✅ 合同页面内容生成完成，innerHTML长度:', contractContent.innerHTML.length);
   }
 } 
