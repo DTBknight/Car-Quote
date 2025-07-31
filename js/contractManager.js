@@ -11,35 +11,27 @@ export class ContractManager {
 
   // 初始化合同管理器
   initialize() {
-    if (this.isInitialized) return;
-    
-    console.log('🚀 开始初始化合同管理器...');
-    
-    // 确保DOM已加载
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => {
-        this.createContractInterface();
-        this.bindEvents();
-        this.isInitialized = true;
-        console.log('✅ 合同管理器初始化完成');
-      });
-    } else {
-      this.createContractInterface();
-      this.bindEvents();
-      this.isInitialized = true;
-      console.log('✅ 合同管理器初始化完成');
+    if (this.isInitialized) {
+      console.log('✅ 合同管理器已初始化');
+      return;
     }
+    
+    console.log('🔄 开始初始化合同管理器...');
+    this.createContractInterface();
+    this.bindEvents();
+    this.isInitialized = true;
+    console.log('✅ 合同管理器初始化完成');
   }
 
   // 创建合同界面
   createContractInterface() {
     const contractContent = document.getElementById('contractContent');
-    console.log('🔍 查找合同内容容器:', contractContent);
     if (!contractContent) {
       console.error('❌ 未找到合同内容容器');
       return;
     }
 
+    console.log('✅ 开始创建合同界面');
     contractContent.innerHTML = `
       <div class="space-y-8">
         <!-- 合同生成器卡片 -->
@@ -168,34 +160,51 @@ export class ContractManager {
 
   // 绑定事件
   bindEvents() {
+    console.log('🔄 开始绑定合同事件...');
+    
     // 生成合同按钮
     const generateBtn = document.getElementById('generateContractBtn');
     if (generateBtn) {
       generateBtn.addEventListener('click', () => this.generateContract());
+      console.log('✅ 生成合同按钮事件已绑定');
+    } else {
+      console.error('❌ 未找到生成合同按钮');
     }
 
     // 从计算器加载按钮
     const loadBtn = document.getElementById('loadFromCalculatorBtn');
     if (loadBtn) {
       loadBtn.addEventListener('click', () => this.loadFromCalculator());
+      console.log('✅ 从计算器加载按钮事件已绑定');
+    } else {
+      console.error('❌ 未找到从计算器加载按钮');
     }
 
     // 清空表单按钮
     const clearBtn = document.getElementById('clearContractBtn');
     if (clearBtn) {
       clearBtn.addEventListener('click', () => this.clearForm());
+      console.log('✅ 清空表单按钮事件已绑定');
+    } else {
+      console.error('❌ 未找到清空表单按钮');
     }
 
     // 打印合同按钮
     const printBtn = document.getElementById('printContractBtn');
     if (printBtn) {
       printBtn.addEventListener('click', () => this.printContract());
+      console.log('✅ 打印合同按钮事件已绑定');
+    } else {
+      console.error('❌ 未找到打印合同按钮');
     }
 
     // 下载合同按钮
     const downloadBtn = document.getElementById('downloadContractBtn');
     if (downloadBtn) {
       downloadBtn.addEventListener('click', () => this.downloadContract());
+      console.log('✅ 下载合同按钮事件已绑定');
+    } else {
+      console.error('❌ 未找到下载合同按钮');
     }
 
     // 数量变化时自动计算总金额
@@ -354,6 +363,8 @@ export class ContractManager {
       
       // 滚动到预览区域
       previewDiv.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.error('❌ 未找到预览容器:', { previewDiv, contentDiv });
     }
   }
 

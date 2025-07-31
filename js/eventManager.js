@@ -709,6 +709,8 @@ export class EventManager {
 
   // 切换标签
   switchTab(tabName) {
+    console.log(`🔄 切换到标签: ${tabName}`);
+    
     // 更新按钮状态
     document.querySelectorAll('.tab-button').forEach(btn => {
       btn.classList.remove('active');
@@ -716,15 +718,27 @@ export class EventManager {
     const activeButton = document.querySelector(`[data-tab="${tabName}"]`);
     if (activeButton) {
       activeButton.classList.add('active');
+      console.log(`✅ 按钮状态已更新: ${tabName}`);
+    } else {
+      console.error(`❌ 未找到标签按钮: ${tabName}`);
     }
 
     // 更新内容显示
     document.querySelectorAll('.tab-content').forEach(content => {
       content.classList.remove('active');
     });
-    const activeContent = document.getElementById(`${tabName}Content`);
-    if (activeContent) {
-      activeContent.classList.add('active');
+    const contentElement = document.getElementById(`${tabName}Content`);
+    if (contentElement) {
+      contentElement.classList.add('active');
+      console.log(`✅ 内容区域已激活: ${tabName}Content`);
+      
+      // 如果是合同标签，确保合同管理器已初始化
+      if (tabName === 'contract') {
+        console.log('🔄 检测到合同标签，检查合同管理器状态...');
+        // 这里可以添加合同管理器的延迟初始化逻辑
+      }
+    } else {
+      console.error(`❌ 未找到内容区域: ${tabName}Content`);
     }
   }
 } 
