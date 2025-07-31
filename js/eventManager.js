@@ -70,6 +70,7 @@ export class EventManager {
     this.bindCalculateButtonEvents();
     this.bindCurrencyEvents();
     this.bindCarSelectionEvents();
+    this.bindTabEvents();
   }
   
   // 绑定表单类型切换事件
@@ -691,5 +692,33 @@ export class EventManager {
     });
     
     console.log('✅ 所有表单字段已重置');
+  }
+
+  // 绑定标签切换事件
+  bindTabEvents() {
+    const calculatorTab = document.getElementById('calculatorTab');
+    const contractTab = document.getElementById('contractTab');
+    
+    if (calculatorTab) {
+      calculatorTab.addEventListener('click', () => this.switchTab('calculator'));
+    }
+    if (contractTab) {
+      contractTab.addEventListener('click', () => this.switchTab('contract'));
+    }
+  }
+
+  // 切换标签
+  switchTab(tabName) {
+    // 更新按钮状态
+    document.querySelectorAll('.tab-button').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+
+    // 更新内容显示
+    document.querySelectorAll('.tab-content').forEach(content => {
+      content.classList.remove('active');
+    });
+    document.getElementById(`${tabName}Content`).classList.add('active');
   }
 } 
