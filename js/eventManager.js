@@ -709,8 +709,6 @@ export class EventManager {
 
   // 切换标签
   switchTab(tabName) {
-    console.log('🔄 切换到标签:', tabName);
-    
     // 更新按钮状态
     document.querySelectorAll('.tab-button').forEach(btn => {
       btn.classList.remove('active');
@@ -727,9 +725,6 @@ export class EventManager {
     const activeContent = document.getElementById(`${tabName}Content`);
     if (activeContent) {
       activeContent.classList.add('active');
-      console.log('✅ 标签切换成功:', tabName);
-    } else {
-      console.error('❌ 未找到内容容器:', `${tabName}Content`);
     }
   }
 } 

@@ -14,10 +14,21 @@ export class ContractManager {
     if (this.isInitialized) return;
     
     console.log('🚀 开始初始化合同管理器...');
-    this.createContractInterface();
-    this.bindEvents();
-    this.isInitialized = true;
-    console.log('✅ 合同管理器初始化完成');
+    
+    // 确保DOM已加载
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        this.createContractInterface();
+        this.bindEvents();
+        this.isInitialized = true;
+        console.log('✅ 合同管理器初始化完成');
+      });
+    } else {
+      this.createContractInterface();
+      this.bindEvents();
+      this.isInitialized = true;
+      console.log('✅ 合同管理器初始化完成');
+    }
   }
 
   // 创建合同界面
