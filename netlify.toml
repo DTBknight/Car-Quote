@@ -7,6 +7,9 @@
   
   # 构建命令（静态文件，无需构建）
   command = ""
+  
+  # 忽略Python相关文件，避免Netlify误认为这是Python项目
+  ignore = "runtime.txt, requirements.txt, render.py, render.yaml, api/, data-processor/"
 
 [functions]
   # 使用esbuild打包函数
