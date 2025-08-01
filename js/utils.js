@@ -1,4 +1,4 @@
-import CONFIG from './config.js';
+import { CONFIG } from './config.js';
 
 // 工具函数模块
 export class Utils {

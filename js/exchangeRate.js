@@ -1,4 +1,4 @@
-import CONFIG from './config.js';
+import { CONFIG } from './config.js';
 import { Utils } from './utils.js';
 
 // 汇率管理模块

@@ -1,4 +1,4 @@
-import CONFIG from './config.js';
+import { CONFIG } from './config.js';
 import { Utils } from './utils.js';
 import { ExchangeRateManager } from './exchangeRate.js';
 import { ThemeManager } from './themeManager.js';
