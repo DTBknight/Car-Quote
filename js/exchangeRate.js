@@ -13,6 +13,14 @@ export class ExchangeRateManager {
       EUR: 7.8,
       GBP: 9.1
     };
+    
+    // 检查配置是否正确加载
+    console.log('汇率管理模块初始化，配置状态:', {
+      CONFIG: !!CONFIG,
+      API: !!(CONFIG && CONFIG.API),
+      EXCHANGE_RATE: !!(CONFIG && CONFIG.API && CONFIG.API.EXCHANGE_RATE),
+      BASE_URL: CONFIG?.API?.EXCHANGE_RATE?.BASE_URL
+    });
   }
   
   // 获取汇率（通用方法）
@@ -66,6 +74,12 @@ export class ExchangeRateManager {
   
   // 从API获取汇率
   async fetchFromAPI(currency) {
+    // 检查配置是否存在
+    if (!CONFIG || !CONFIG.API || !CONFIG.API.EXCHANGE_RATE) {
+      console.error('汇率配置未找到:', { CONFIG: !!CONFIG, API: !!(CONFIG && CONFIG.API), EXCHANGE_RATE: !!(CONFIG && CONFIG.API && CONFIG.API.EXCHANGE_RATE) });
+      throw new Error('汇率配置未正确加载');
+    }
+    
     const { BASE_URL, MAIN_APP_ID, BACKUP_APP_ID } = CONFIG.API.EXCHANGE_RATE;
     
     try {
@@ -201,6 +215,22 @@ export class ExchangeRateManager {
   
   // 初始化汇率
   async initializeExchangeRates() {
+    // 检查配置是否正确加载
+    if (!CONFIG || !CONFIG.DEFAULTS) {
+      console.warn('配置未完全加载，使用默认货币USD');
+      const currency = 'USD';
+      try {
+        await Promise.allSettled([
+          this.fetchExchangeRate(currency, 'new'),
+          this.fetchExchangeRate(currency, 'used'),
+          this.fetchExchangeRate(currency, 'newEnergy')
+        ]);
+      } catch (error) {
+        console.error('初始化汇率失败:', error);
+      }
+      return;
+    }
+    
     const currency = CONFIG.DEFAULTS.CURRENCY;
     try {
       await Promise.allSettled([
