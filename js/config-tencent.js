@@ -1,4 +1,4 @@
-// 配置文件
+// 腾讯云云开发配置文件
 const CONFIG = {
   // API配置
   API: {
@@ -10,14 +10,14 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
-      // 生产环境 - Vercel后端
-  PRODUCTION: {
-    BASE_URL: 'https://api-4jz2qfhwq-jonathan-jins-projects-32f77fb6.vercel.app', // Vercel后端域名
-    ENDPOINTS: {
-      GENERATE_CONTRACT: '/api/generate-contract',
-      HEALTH: '/api/generate-contract'
+    // 生产环境 - 腾讯云云开发
+    PRODUCTION: {
+      BASE_URL: 'https://your-env-id.service.tcloudbase.com', // 替换为您的云开发环境域名
+      ENDPOINTS: {
+        GENERATE_CONTRACT: '/generate-contract',
+        HEALTH: '/generate-contract'
+      }
     }
-  }
   },
   
   // 应用配置

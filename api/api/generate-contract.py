@@ -14,10 +14,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app)  # 允许跨域请求
+CORS(app, origins=['*'], methods=['GET', 'POST', 'OPTIONS'], allow_headers=['Content-Type', 'Authorization'])  # 允许跨域请求
 
 # 配置
-TEMPLATE_PATH = 'template.xlsx'
+TEMPLATE_PATH = 'api/template.xlsx'
 
 def generate_contract_handler(request):
     """Vercel函数处理合同生成"""
@@ -240,8 +240,9 @@ def handler(request, context):
             'statusCode': 200,
             'headers': {
                 'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Methods': 'POST, OPTIONS',
-                'Access-Control-Allow-Headers': 'Content-Type'
+                'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+                'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+                'Access-Control-Max-Age': '86400'
             }
         }
     
