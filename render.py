@@ -96,10 +96,66 @@ def generate_contract():
         # 填充开户行信息
         bank_info = data.get('bankInfo', '')
         
-        # 安全地填充单元格，避免合并单元格问题
-        def safe_set_cell(sheet, cell_ref, value):
+        # 高级合并单元格处理函数
+        def advanced_set_cell(sheet, cell_ref, value):
+            """
+            智能处理合并单元格，保持模板格式不变
+            """
             try:
                 # 检查是否是合并单元格
+                for merged_range in sheet.merged_cells.ranges:
+                    if cell_ref in merged_range:
+                        # 找到合并区域的主单元格（左上角）
+                        master_cell = sheet.cell(merged_range.min_row, merged_range.min_col)
+                        
+                        # 检查主单元格是否可写
+                        if hasattr(master_cell, 'value') and not getattr(master_cell, '_read_only', False):
+                            # 直接设置主单元格的值，保持合并状态
+                            master_cell.value = value
+                            return True
+                        else:
+                            # 如果主单元格只读，尝试其他方法
+                            logger.warning(f"合并单元格主单元格只读: {cell_ref}")
+                            return False
+                
+                # 如果不是合并单元格，直接设置
+                cell = sheet[cell_ref]
+                if hasattr(cell, 'value'):
+                    cell.value = value
+                    return True
+                else:
+                    sheet[cell_ref] = value
+                    return True
+                    
+            except Exception as e:
+                logger.error(f"高级设置单元格 {cell_ref} 失败: {e}")
+                return False
+        
+        # 批量设置合并单元格的函数
+        def batch_set_merged_cells(sheet, cell_mappings):
+            """
+            批量设置多个合并单元格，保持格式
+            cell_mappings: [{'cell': 'C3', 'value': 'buyer_name'}, ...]
+            """
+            success_count = 0
+            for mapping in cell_mappings:
+                if advanced_set_cell(sheet, mapping['cell'], mapping['value']):
+                    success_count += 1
+                else:
+                    logger.error(f"批量设置失败: {mapping['cell']}")
+            return success_count
+        
+        # 安全设置单元格的备用函数
+        def safe_set_cell(sheet, cell_ref, value):
+            """
+            备用函数，如果高级函数失败则使用此函数
+            """
+            try:
+                # 先尝试高级方法
+                if advanced_set_cell(sheet, cell_ref, value):
+                    return True
+                
+                # 如果高级方法失败，使用传统方法
                 for merged_range in sheet.merged_cells.ranges:
                     if cell_ref in merged_range:
                         # 临时取消合并单元格
@@ -109,48 +165,33 @@ def generate_contract():
                         sheet[master_cell] = value
                         # 重新合并单元格
                         sheet.merge_cells(str(merged_range))
-                        return
+                        return True
                 
                 # 如果不是合并单元格，直接设置
                 sheet[cell_ref] = value
+                return True
+                
             except Exception as e:
                 logger.error(f"设置单元格 {cell_ref} 失败: {e}")
-                # 最后的尝试：直接设置值
-                try:
-                    sheet[cell_ref] = value
-                except Exception as e2:
-                    logger.error(f"最终设置单元格失败 {cell_ref}: {e2}")
+                return False
         
-        # 填充Excel单元格到SC sheet
-        # 买方名称 - C3-D3合并单元格
-        safe_set_cell(sc_sheet, 'C3', buyer_name)
+        # 使用批量设置函数填充Excel单元格到SC sheet
+        basic_cell_mappings = [
+            {'cell': 'C3', 'value': buyer_name, 'desc': '买方名称 - C3-D3合并单元格'},
+            {'cell': 'C4', 'value': buyer_address, 'desc': '买方地址 - C4-D4合并单元格'},
+            {'cell': 'C5', 'value': buyer_phone, 'desc': '买方电话 - C5-D5合并单元格'},
+            {'cell': 'C6', 'value': seller_name, 'desc': '卖方名称 - C6-D6合并单元格'},
+            {'cell': 'C7', 'value': seller_address, 'desc': '卖方地址 - C7-D7合并单元格'},
+            {'cell': 'C8', 'value': seller_phone, 'desc': '卖方电话 - C8-D8合并单元格'},
+            {'cell': 'G3', 'value': contract_number, 'desc': '合同编号 - G3'},
+            {'cell': 'G4', 'value': contract_date, 'desc': '合同日期 - G4'},
+            {'cell': 'G5', 'value': contract_location, 'desc': '签署地点 - G5'},
+            {'cell': 'E7', 'value': bank_info, 'desc': '开户行信息 - E7-G8合并单元格'}
+        ]
         
-        # 买方地址 - C4-D4合并单元格
-        safe_set_cell(sc_sheet, 'C4', buyer_address)
-        
-        # 买方电话 - C5-D5合并单元格
-        safe_set_cell(sc_sheet, 'C5', buyer_phone)
-        
-        # 卖方名称 - C6-D6合并单元格
-        safe_set_cell(sc_sheet, 'C6', seller_name)
-        
-        # 卖方地址 - C7-D7合并单元格
-        safe_set_cell(sc_sheet, 'C7', seller_address)
-        
-        # 卖方电话 - C8-D8合并单元格
-        safe_set_cell(sc_sheet, 'C8', seller_phone)
-        
-        # 合同编号 - G3
-        safe_set_cell(sc_sheet, 'G3', contract_number)
-        
-        # 合同日期 - G4
-        safe_set_cell(sc_sheet, 'G4', contract_date)
-        
-        # 签署地点 - G5
-        safe_set_cell(sc_sheet, 'G5', contract_location)
-        
-        # 开户行信息 - E7-G8合并单元格
-        safe_set_cell(sc_sheet, 'E7', bank_info)
+        # 批量设置基础信息
+        success_count = batch_set_merged_cells(sc_sheet, basic_cell_mappings)
+        logger.info(f"基础信息设置成功: {success_count}/{len(basic_cell_mappings)}")
         
         # 处理货物信息
         goods_data = data.get('goodsData', [])
@@ -180,31 +221,33 @@ def generate_contract():
                 safe_set_cell(sc_sheet, f'F{row_num}', goods_item.get('unitPrice', ''))
                 safe_set_cell(sc_sheet, f'G{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
         
-        # 处理运输信息 - 只填充到SC sheet
+        # 处理运输信息 - 使用批量设置函数
+        transport_cell_mappings = []
+        
         # D21-E21 - 装运港（合并单元格）
         port_of_loading = data.get('portOfLoading', '')
         if port_of_loading:
-            safe_set_cell(sc_sheet, 'D21', port_of_loading)
+            transport_cell_mappings.append({'cell': 'D21', 'value': port_of_loading, 'desc': '装运港'})
         
         # D22-E22 - 目的港（合并单元格）
         final_destination = data.get('finalDestination', '')
         if final_destination:
-            safe_set_cell(sc_sheet, 'D22', final_destination)
+            transport_cell_mappings.append({'cell': 'D22', 'value': final_destination, 'desc': '目的港'})
         
         # B23-G23 - 金额大写
         amount_in_words = data.get('amountInWords', '')
         if amount_in_words:
-            safe_set_cell(sc_sheet, 'B23', amount_in_words)
+            transport_cell_mappings.append({'cell': 'B23', 'value': amount_in_words, 'desc': '金额大写'})
         
         # D24-G24 - 付款条件（合并单元格）
         payment_terms = data.get('paymentTerms', '')
         if payment_terms:
-            safe_set_cell(sc_sheet, 'D24', payment_terms)
+            transport_cell_mappings.append({'cell': 'D24', 'value': payment_terms, 'desc': '付款条件'})
         
         # D25-G25 - 运输路线（合并单元格）
         transport_route = data.get('transportRoute', '')
         if transport_route:
-            safe_set_cell(sc_sheet, 'D25', transport_route)
+            transport_cell_mappings.append({'cell': 'D25', 'value': transport_route, 'desc': '运输路线'})
         
         # D26-G26 - 运输方式（合并单元格）
         mode_of_shipment = data.get('modeOfShipment', '')
@@ -216,7 +259,12 @@ def generate_contract():
                 'AIR': '空运 AIR'
             }
             shipment_text = shipment_mapping.get(mode_of_shipment.upper(), mode_of_shipment)
-            safe_set_cell(sc_sheet, 'D26', shipment_text)
+            transport_cell_mappings.append({'cell': 'D26', 'value': shipment_text, 'desc': '运输方式'})
+        
+        # 批量设置运输信息
+        if transport_cell_mappings:
+            transport_success_count = batch_set_merged_cells(sc_sheet, transport_cell_mappings)
+            logger.info(f"运输信息设置成功: {transport_success_count}/{len(transport_cell_mappings)}")
         
         # 生成输出文件名 - 使用合同编号
         if contract_number:
