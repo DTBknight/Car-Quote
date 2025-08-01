@@ -9,15 +9,16 @@ Car-Quote/
 ├── index.html              # 主页面（Netlify部署）
 ├── js/                     # 前端JavaScript模块
 ├── data/                   # 车辆数据
-├── render-backend/         # Render后端API
-│   ├── render.py          # 主应用文件
-│   ├── render.yaml        # Render配置
+├── render-backend/         # Render后端API（独立部署目录）
+│   ├── app.py             # Flask应用入口
 │   ├── requirements.txt   # Python依赖
 │   ├── runtime.txt        # Python版本
+│   ├── .renderignore      # Render忽略文件
 │   └── api/               # API模块
 ├── data-processor/         # 数据处理工具
 ├── netlify.toml           # Netlify配置
 ├── package.json           # Node.js配置
+├── render.yaml            # Render配置文件
 └── .netlifyignore         # Netlify忽略文件
 ```
 
