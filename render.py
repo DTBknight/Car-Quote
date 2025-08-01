@@ -98,35 +98,49 @@ def generate_contract():
         
         # 填充Excel单元格到两个sheet
         for sheet in [sc_sheet, pi_sheet]:
+            # 安全地填充单元格，避免合并单元格问题
+            def safe_set_cell(cell_ref, value):
+                try:
+                    sheet[cell_ref] = value
+                except Exception as e:
+                    logger.warning(f"无法设置单元格 {cell_ref}: {e}")
+                    # 尝试设置合并单元格的主单元格
+                    try:
+                        cell = sheet[cell_ref]
+                        if hasattr(cell, 'coordinate'):
+                            sheet[cell.coordinate] = value
+                    except Exception as e2:
+                        logger.error(f"设置合并单元格主单元格失败 {cell_ref}: {e2}")
+            
             # 买方名称 - C3-D3合并单元格
-            sheet['C3'] = buyer_name
+            safe_set_cell('C3', buyer_name)
             
             # 买方地址 - C4-D4合并单元格
-            sheet['C4'] = buyer_address
+            safe_set_cell('C4', buyer_address)
             
             # 买方电话 - C5-D5合并单元格
-            sheet['C5'] = buyer_phone
+            safe_set_cell('C5', buyer_phone)
             
             # 卖方名称 - C6-D6合并单元格
-            sheet['C6'] = seller_name
+            safe_set_cell('C6', seller_name)
             
             # 卖方地址 - C7-D7合并单元格
-            sheet['C7'] = seller_address
+            safe_set_cell('C7', seller_address)
             
             # 卖方电话 - C8-D8合并单元格
-            sheet['C8'] = seller_phone
+            safe_set_cell('C8', seller_phone)
             
             # 合同编号 - G3
-            sheet['G3'] = contract_number
+            safe_set_cell('G3', contract_number)
             
             # 合同日期 - G4
-            sheet['G4'] = contract_date
+            safe_set_cell('G4', contract_date)
             
             # 签署地点 - G5
-            sheet['G5'] = contract_location
+            safe_set_cell('G5', contract_location)
             
             # 开户行信息 - E7
-            sheet['E7'] = bank_info
+            safe_set_cell('E7', bank_info)
         
         # 处理货物信息
         goods_data = data.get('goodsData', [])
@@ -149,35 +163,31 @@ def generate_contract():
                 # 填充货物数据到两个sheet
                 goods_item = goods_data[i]
                 for sheet in [sc_sheet, pi_sheet]:
-                    # 货物名称 - B列
-                    sheet[f'B{row_num}'] = goods_item.get('name', '')
-                    # 规格型号 - C列
-                    sheet[f'C{row_num}'] = goods_item.get('specification', '')
-                    # 数量 - D列
-                    sheet[f'D{row_num}'] = goods_item.get('quantity', '')
-                    # 单价 - E列
-                    sheet[f'E{row_num}'] = goods_item.get('unitPrice', '')
-                    # 金额 - F列
-                    sheet[f'F{row_num}'] = goods_item.get('amount', '')
+                    # 安全地填充货物数据
+                    safe_set_cell(f'B{row_num}', goods_item.get('name', ''))
+                    safe_set_cell(f'C{row_num}', goods_item.get('specification', ''))
+                    safe_set_cell(f'D{row_num}', goods_item.get('quantity', ''))
+                    safe_set_cell(f'E{row_num}', goods_item.get('unitPrice', ''))
+                    safe_set_cell(f'F{row_num}', goods_item.get('amount', ''))
         
         # 处理运输信息
         # D21 - 装运港
         port_of_loading = data.get('portOfLoading', '')
         if port_of_loading:
-            sc_sheet['D21'] = port_of_loading
-            pi_sheet['D21'] = port_of_loading
+            for sheet in [sc_sheet, pi_sheet]:
+                safe_set_cell('D21', port_of_loading)
         
         # D22 - 目的港
         final_destination = data.get('finalDestination', '')
         if final_destination:
-            sc_sheet['D22'] = final_destination
-            pi_sheet['D22'] = final_destination
+            for sheet in [sc_sheet, pi_sheet]:
+                safe_set_cell('D22', final_destination)
         
         # D25 - 运输路线
         transport_route = data.get('transportRoute', '')
         if transport_route:
-            sc_sheet['D25'] = transport_route
-            pi_sheet['D25'] = transport_route
+            for sheet in [sc_sheet, pi_sheet]:
+                safe_set_cell('D25', transport_route)
         
         # D26 - 运输方式
         mode_of_shipment = data.get('modeOfShipment', '')
