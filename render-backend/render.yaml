@@ -2,6 +2,7 @@ services:
   - type: web
     name: car-quote-backend
     env: python
+    rootDir: render-backend
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn render:app
     envVars:
