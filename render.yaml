@@ -3,7 +3,7 @@ services:
     name: car-quote-backend
     env: python
     rootDir: render-backend
-    buildCommand: pip install -r requirements.txt
+    buildCommand: ls -la && pip install -r requirements.txt
     startCommand: gunicorn --bind 0.0.0.0:$PORT app:app
     envVars:
       - key: PYTHON_VERSION
