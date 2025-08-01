@@ -2,6 +2,9 @@
 render-backend/
 data-processor/
 
+# 保留根目录的render.yaml供Render使用
+# render.yaml
+
 # 测试文件
 test-*.html
 *.test.js
