@@ -150,7 +150,7 @@ def generate_contract():
             # 签署地点 - G5
             safe_set_cell(sheet, 'G5', contract_location)
             
-            # 开户行信息 - E7
+            # 开户行信息 - E7-G8合并单元格
             safe_set_cell(sheet, 'E7', bank_info)
         
         # 处理货物信息
@@ -177,9 +177,10 @@ def generate_contract():
                     # 安全地填充货物数据 - 适配前端字段名
                     safe_set_cell(sheet, f'B{row_num}', goods_item.get('model', goods_item.get('name', '')))
                     safe_set_cell(sheet, f'C{row_num}', goods_item.get('description', goods_item.get('specification', '')))
-                    safe_set_cell(sheet, f'D{row_num}', goods_item.get('quantity', ''))
-                    safe_set_cell(sheet, f'E{row_num}', goods_item.get('unitPrice', ''))
-                    safe_set_cell(sheet, f'F{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
+                    safe_set_cell(sheet, f'D{row_num}', goods_item.get('color', ''))  # 颜色字段
+                    safe_set_cell(sheet, f'E{row_num}', goods_item.get('quantity', ''))
+                    safe_set_cell(sheet, f'F{row_num}', goods_item.get('unitPrice', ''))
+                    safe_set_cell(sheet, f'G{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
         
         # 处理运输信息
         # D21 - 装运港
@@ -200,11 +201,18 @@ def generate_contract():
             for sheet in [sc_sheet, pi_sheet]:
                 safe_set_cell(sheet, 'D25', transport_route)
         
-        # D26 - 运输方式
+        # D26-G26 - 运输方式（合并单元格）
         mode_of_shipment = data.get('modeOfShipment', '')
         if mode_of_shipment:
+            # 转换运输方式为中文+英文
+            shipment_mapping = {
+                'SEA': '海运 SEA',
+                'LAND': '陆运 LAND',
+                'AIR': '空运 AIR'
+            }
+            shipment_text = shipment_mapping.get(mode_of_shipment.upper(), mode_of_shipment)
             for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell(sheet, 'D26', mode_of_shipment)
+                safe_set_cell(sheet, 'D26', shipment_text)
         
         # 生成输出文件名 - 使用合同编号
         if contract_number:
