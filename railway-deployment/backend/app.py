@@ -119,67 +119,72 @@ def generate_contract():
                 except Exception as e2:
                     logger.error(f"直接设置单元格 {cell_address} 也失败: {str(e2)}")
         
-        # 填充SC sheet
-        safe_set_cell_value(sc_sheet, 'B3', buyer_name)
-        safe_set_cell_value(sc_sheet, 'B4', buyer_phone)
-        safe_set_cell_value(sc_sheet, 'B5', buyer_address)
-        safe_set_cell_value(sc_sheet, 'D3', seller_name)
-        safe_set_cell_value(sc_sheet, 'D4', seller_phone)
-        safe_set_cell_value(sc_sheet, 'D5', seller_address)
-        safe_set_cell_value(sc_sheet, 'B7', contract_number)
-        safe_set_cell_value(sc_sheet, 'D7', contract_date)
-        safe_set_cell_value(sc_sheet, 'B9', contract_location)
-        safe_set_cell_value(sc_sheet, 'D9', bank_info)
+        # 填充Excel单元格到两个sheet
+        for sheet in [sc_sheet, pi_sheet]:
+            try:
+                safe_set_cell_value(sheet, 'C3', buyer_name)
+                safe_set_cell_value(sheet, 'C4', buyer_address)
+                safe_set_cell_value(sheet, 'C5', buyer_phone)
+                safe_set_cell_value(sheet, 'C6', seller_name)
+                safe_set_cell_value(sheet, 'C7', seller_address)
+                safe_set_cell_value(sheet, 'C8', seller_phone)
+                safe_set_cell_value(sheet, 'G3', contract_number)
+                safe_set_cell_value(sheet, 'G4', contract_date)
+                safe_set_cell_value(sheet, 'G5', contract_location)
+                safe_set_cell_value(sheet, 'E7', bank_info)
+            except Exception as e:
+                logger.error(f"设置基础信息失败: {e}")
         
-        # 填充PI sheet
-        safe_set_cell_value(pi_sheet, 'B3', buyer_name)
-        safe_set_cell_value(pi_sheet, 'B4', buyer_phone)
-        safe_set_cell_value(pi_sheet, 'B5', buyer_address)
-        safe_set_cell_value(pi_sheet, 'D3', seller_name)
-        safe_set_cell_value(pi_sheet, 'D4', seller_phone)
-        safe_set_cell_value(pi_sheet, 'D5', seller_address)
-        safe_set_cell_value(pi_sheet, 'B7', contract_number)
-        safe_set_cell_value(pi_sheet, 'D7', contract_date)
-        safe_set_cell_value(pi_sheet, 'B9', contract_location)
-        safe_set_cell_value(pi_sheet, 'D9', bank_info)
+        # 处理货物信息
+        goods_data = data.get('goodsData', [])
+        if goods_data:
+            for i, goods in enumerate(goods_data[:10]):  # 最多10行
+                current_row = 11 + i
+                try:
+                    for sheet in [sc_sheet, pi_sheet]:
+                        safe_set_cell_value(sheet, f'B{current_row}', goods.get('model', ''))
+                        safe_set_cell_value(sheet, f'C{current_row}', goods.get('description', ''))
+                        safe_set_cell_value(sheet, f'D{current_row}', goods.get('color', ''))
+                        safe_set_cell_value(sheet, f'E{current_row}', goods.get('quantity', 0))
+                        safe_set_cell_value(sheet, f'F{current_row}', goods.get('unitPrice', 0))
+                        safe_set_cell_value(sheet, f'G{current_row}', goods.get('totalAmount', 0))
+                except Exception as e:
+                    logger.error(f"设置货物信息失败: {e}")
         
-        # 填充车辆信息
-        vehicles = data.get('vehicles', [])
-        if vehicles:
-            # 填充SC sheet的车辆信息
-            for i, vehicle in enumerate(vehicles[:10]):  # 最多10辆车
-                row = 12 + i
-                if row <= 21:  # SC sheet的车辆信息范围
-                    safe_set_cell_value(sc_sheet, f'A{row}', vehicle.get('brand', ''))
-                    safe_set_cell_value(sc_sheet, f'B{row}', vehicle.get('model', ''))
-                    safe_set_cell_value(sc_sheet, f'C{row}', vehicle.get('year', ''))
-                    safe_set_cell_value(sc_sheet, f'D{row}', vehicle.get('vin', ''))
-                    safe_set_cell_value(sc_sheet, f'E{row}', vehicle.get('price', ''))
-            
-            # 填充PI sheet的车辆信息
-            for i, vehicle in enumerate(vehicles[:10]):  # 最多10辆车
-                row = 12 + i
-                if row <= 21:  # PI sheet的车辆信息范围
-                    safe_set_cell_value(pi_sheet, f'A{row}', vehicle.get('brand', ''))
-                    safe_set_cell_value(pi_sheet, f'B{row}', vehicle.get('model', ''))
-                    safe_set_cell_value(pi_sheet, f'C{row}', vehicle.get('year', ''))
-                    safe_set_cell_value(pi_sheet, f'D{row}', vehicle.get('vin', ''))
-                    safe_set_cell_value(pi_sheet, f'E{row}', vehicle.get('price', ''))
-        
-        # 计算总价
-        total_price = sum(float(vehicle.get('price', 0)) for vehicle in vehicles)
-        
-        # 填充总价
-        safe_set_cell_value(sc_sheet, 'E22', f"${total_price:,.2f}")
-        safe_set_cell_value(pi_sheet, 'E22', f"${total_price:,.2f}")
+        # 填充其他字段
+        for sheet in [sc_sheet, pi_sheet]:
+            try:
+                if data.get('f22Value'):
+                    safe_set_cell_value(sheet, 'F22', data['f22Value'])
+                if data.get('paymentTerms'):
+                    safe_set_cell_value(sheet, 'D24', data['paymentTerms'])
+                if data.get('totalAmount'):
+                    safe_set_cell_value(sheet, 'G21', data['totalAmount'])
+                if data.get('amountInWords'):
+                    safe_set_cell_value(sheet, 'B23', data['amountInWords'])
+                if data.get('portOfLoading'):
+                    safe_set_cell_value(sheet, 'D21', data['portOfLoading'])
+                if data.get('finalDestination'):
+                    safe_set_cell_value(sheet, 'D22', data['finalDestination'])
+                if data.get('transportRoute'):
+                    safe_set_cell_value(sheet, 'D25', data['transportRoute'])
+                if data.get('modeOfShipment'):
+                    safe_set_cell_value(sheet, 'D26', data['modeOfShipment'])
+            except Exception as e:
+                logger.error(f"设置其他字段失败: {e}")
         
         # 保存到临时文件
         with tempfile.NamedTemporaryFile(delete=False, suffix='.xlsx') as tmp_file:
             workbook.save(tmp_file.name)
             tmp_file_path = tmp_file.name
         
-        # 生成文件名
-        filename = f"contract_{contract_number}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx"
+        # 生成输出文件名
+        if contract_number:
+            safe_contract_number = "".join(c for c in contract_number if c.isalnum() or c in ('-', '_'))
+            filename = f'{safe_contract_number}_Contract.xlsx'
+        else:
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            filename = f'contract_{timestamp}.xlsx'
         
         # 返回文件
         return send_file(
