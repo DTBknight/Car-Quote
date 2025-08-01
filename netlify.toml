@@ -6,10 +6,9 @@
   functions = "netlify/functions"
   
   # 构建命令（静态文件，无需构建）
-  command = ""
+  command = "echo 'Static site - no build required'"
   
-  # 忽略Python相关文件，避免Netlify误认为这是Python项目
-  ignore = "runtime.txt, requirements.txt, render.py, render.yaml, api/, data-processor/"
+  # 明确指定这是静态站点，不是Python项目
 
 [functions]
   # 使用esbuild打包函数
