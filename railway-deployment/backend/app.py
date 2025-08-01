@@ -98,29 +98,50 @@ def generate_contract():
         else:
             contract_date = datetime.now().strftime('%Y.%m.%d')
         
+        # 安全填充单元格的函数
+        def safe_set_cell_value(sheet, cell_address, value):
+            """安全地设置单元格值，处理合并单元格"""
+            try:
+                # 检查是否是合并单元格
+                for merged_range in sheet.merged_cells.ranges:
+                    if cell_address in merged_range:
+                        # 如果是合并单元格，设置主单元格的值
+                        sheet[merged_range.start_cell.coordinate].value = value
+                        return
+                
+                # 如果不是合并单元格，直接设置
+                sheet[cell_address].value = value
+            except Exception as e:
+                logger.warning(f"设置单元格 {cell_address} 失败: {str(e)}")
+                # 尝试直接设置值
+                try:
+                    sheet[cell_address] = value
+                except Exception as e2:
+                    logger.error(f"直接设置单元格 {cell_address} 也失败: {str(e2)}")
+        
         # 填充SC sheet
-        sc_sheet['B3'] = buyer_name
-        sc_sheet['B4'] = buyer_phone
-        sc_sheet['B5'] = buyer_address
-        sc_sheet['D3'] = seller_name
-        sc_sheet['D4'] = seller_phone
-        sc_sheet['D5'] = seller_address
-        sc_sheet['B7'] = contract_number
-        sc_sheet['D7'] = contract_date
-        sc_sheet['B9'] = contract_location
-        sc_sheet['D9'] = bank_info
+        safe_set_cell_value(sc_sheet, 'B3', buyer_name)
+        safe_set_cell_value(sc_sheet, 'B4', buyer_phone)
+        safe_set_cell_value(sc_sheet, 'B5', buyer_address)
+        safe_set_cell_value(sc_sheet, 'D3', seller_name)
+        safe_set_cell_value(sc_sheet, 'D4', seller_phone)
+        safe_set_cell_value(sc_sheet, 'D5', seller_address)
+        safe_set_cell_value(sc_sheet, 'B7', contract_number)
+        safe_set_cell_value(sc_sheet, 'D7', contract_date)
+        safe_set_cell_value(sc_sheet, 'B9', contract_location)
+        safe_set_cell_value(sc_sheet, 'D9', bank_info)
         
         # 填充PI sheet
-        pi_sheet['B3'] = buyer_name
-        pi_sheet['B4'] = buyer_phone
-        pi_sheet['B5'] = buyer_address
-        pi_sheet['D3'] = seller_name
-        pi_sheet['D4'] = seller_phone
-        pi_sheet['D5'] = seller_address
-        pi_sheet['B7'] = contract_number
-        pi_sheet['D7'] = contract_date
-        pi_sheet['B9'] = contract_location
-        pi_sheet['D9'] = bank_info
+        safe_set_cell_value(pi_sheet, 'B3', buyer_name)
+        safe_set_cell_value(pi_sheet, 'B4', buyer_phone)
+        safe_set_cell_value(pi_sheet, 'B5', buyer_address)
+        safe_set_cell_value(pi_sheet, 'D3', seller_name)
+        safe_set_cell_value(pi_sheet, 'D4', seller_phone)
+        safe_set_cell_value(pi_sheet, 'D5', seller_address)
+        safe_set_cell_value(pi_sheet, 'B7', contract_number)
+        safe_set_cell_value(pi_sheet, 'D7', contract_date)
+        safe_set_cell_value(pi_sheet, 'B9', contract_location)
+        safe_set_cell_value(pi_sheet, 'D9', bank_info)
         
         # 填充车辆信息
         vehicles = data.get('vehicles', [])
@@ -129,28 +150,28 @@ def generate_contract():
             for i, vehicle in enumerate(vehicles[:10]):  # 最多10辆车
                 row = 12 + i
                 if row <= 21:  # SC sheet的车辆信息范围
-                    sc_sheet[f'A{row}'] = vehicle.get('brand', '')
-                    sc_sheet[f'B{row}'] = vehicle.get('model', '')
-                    sc_sheet[f'C{row}'] = vehicle.get('year', '')
-                    sc_sheet[f'D{row}'] = vehicle.get('vin', '')
-                    sc_sheet[f'E{row}'] = vehicle.get('price', '')
+                    safe_set_cell_value(sc_sheet, f'A{row}', vehicle.get('brand', ''))
+                    safe_set_cell_value(sc_sheet, f'B{row}', vehicle.get('model', ''))
+                    safe_set_cell_value(sc_sheet, f'C{row}', vehicle.get('year', ''))
+                    safe_set_cell_value(sc_sheet, f'D{row}', vehicle.get('vin', ''))
+                    safe_set_cell_value(sc_sheet, f'E{row}', vehicle.get('price', ''))
             
             # 填充PI sheet的车辆信息
             for i, vehicle in enumerate(vehicles[:10]):  # 最多10辆车
                 row = 12 + i
                 if row <= 21:  # PI sheet的车辆信息范围
-                    pi_sheet[f'A{row}'] = vehicle.get('brand', '')
-                    pi_sheet[f'B{row}'] = vehicle.get('model', '')
-                    pi_sheet[f'C{row}'] = vehicle.get('year', '')
-                    pi_sheet[f'D{row}'] = vehicle.get('vin', '')
-                    pi_sheet[f'E{row}'] = vehicle.get('price', '')
+                    safe_set_cell_value(pi_sheet, f'A{row}', vehicle.get('brand', ''))
+                    safe_set_cell_value(pi_sheet, f'B{row}', vehicle.get('model', ''))
+                    safe_set_cell_value(pi_sheet, f'C{row}', vehicle.get('year', ''))
+                    safe_set_cell_value(pi_sheet, f'D{row}', vehicle.get('vin', ''))
+                    safe_set_cell_value(pi_sheet, f'E{row}', vehicle.get('price', ''))
         
         # 计算总价
         total_price = sum(float(vehicle.get('price', 0)) for vehicle in vehicles)
         
         # 填充总价
-        sc_sheet['E22'] = f"${total_price:,.2f}"
-        pi_sheet['E22'] = f"${total_price:,.2f}"
+        safe_set_cell_value(sc_sheet, 'E22', f"${total_price:,.2f}")
+        safe_set_cell_value(pi_sheet, 'E22', f"${total_price:,.2f}")
         
         # 保存到临时文件
         with tempfile.NamedTemporaryFile(delete=False, suffix='.xlsx') as tmp_file:
