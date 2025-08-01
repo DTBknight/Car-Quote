@@ -24,9 +24,9 @@
 
 # 重定向规则
 [[redirects]]
-  # 将API请求重定向到Render后端
+  # 将API请求重定向到Railway后端
   from = "/api/*"
-  to = "https://dbtknight.onrender.com/api/:splat"
+  to = "https://dbtknight-production.up.railway.app/api/:splat"
   status = 200
   force = true
   headers = {Access-Control-Allow-Origin = "*"}
