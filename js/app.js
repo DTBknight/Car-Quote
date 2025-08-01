@@ -245,7 +245,7 @@ export class CarQuoteApp {
   }
   
   // 清理过期缓存
-  cleanupExpiredCache() {
+  async cleanupExpiredCache() {
     try {
       // 使用缓存管理器清理过期缓存
       const { cacheManager } = await import('./cacheManager.js');
