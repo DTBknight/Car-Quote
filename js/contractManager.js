@@ -590,6 +590,12 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       console.log('🔍 发送的货物数据:', this.goodsRows);
       console.log('🔍 货物数据详情:', JSON.stringify(this.goodsRows, null, 2));
       
+      // 调试：打印F22值
+      console.log('🔍 F22值:', formData.f22Value);
+      console.log('🔍 出口类型:', formData.exportType);
+      console.log('🔍 起运港英文:', this.getLocationEnglishOnly('portOfLoading'));
+      console.log('🔍 目的国英文:', this.getLocationEnglishOnly('finalDestination'));
+      
       // 验证必填字段
       if (!formData.buyerName || !formData.contractNumber) {
         alert('请填写买方名称和合同编号');

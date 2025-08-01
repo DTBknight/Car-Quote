@@ -174,8 +174,12 @@ def generate_contract():
         
         # F22 - 出口类型（F22单元格）
         f22_value = data.get('f22Value', '')
+        logger.info(f"收到的F22值: {f22_value}")
         if f22_value:
             transport_cell_mappings.append({'cell': 'F22', 'value': f22_value, 'desc': '出口类型'})
+            logger.info(f"已添加F22值到映射: {f22_value}")
+        else:
+            logger.warning("F22值为空，跳过设置")
         
         # D21-E21 - 装运港（合并单元格）
         port_of_loading = data.get('portOfLoading', '')
