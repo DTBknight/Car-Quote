@@ -172,6 +172,11 @@ def generate_contract():
         # 处理运输信息 - 使用批量设置函数
         transport_cell_mappings = []
         
+        # F22 - 出口类型（F22单元格）
+        f22_value = data.get('f22Value', '')
+        if f22_value:
+            transport_cell_mappings.append({'cell': 'F22', 'value': f22_value, 'desc': '出口类型'})
+        
         # D21-E21 - 装运港（合并单元格）
         port_of_loading = data.get('portOfLoading', '')
         if port_of_loading:
