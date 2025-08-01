@@ -99,11 +99,22 @@ def generate_contract():
         # 最简单的单元格设置函数 - 直接设置值，不破坏合并单元格
         def simple_set_cell(sheet, cell_ref, value):
             """
-            最简单的单元格设置方法，直接设置值，让openpyxl自己处理合并单元格
+            设置单元格值，保持原有格式不变
             """
             try:
-                # 直接使用sheet索引设置值，让openpyxl自动处理合并单元格
-                sheet[cell_ref] = value
+                # 获取目标单元格
+                cell = sheet[cell_ref]
+                
+                # 保存原有的字体格式
+                original_font = cell.font
+                
+                # 设置值
+                cell.value = value
+                
+                # 恢复原有的字体格式，确保不加粗
+                if original_font:
+                    cell.font = original_font
+                
                 return True
             except Exception as e:
                 logger.error(f"设置单元格 {cell_ref} 失败: {e}")
