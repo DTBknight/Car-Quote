@@ -118,8 +118,8 @@ export class CalculationEngine {
   
   // 通用购车成本计算
   calculatePurchaseCost(components) {
-    const { invoicePrice, serviceFee = 0, domesticShipping, portCharges = 0, compulsoryInsurance, otherExpenses, qualificationFee = 0, agencyFee = 0, taxRefundFee = 0, taxRefund } = components;
-    return invoicePrice + serviceFee + domesticShipping + portCharges + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee - taxRefund;
+    const { invoicePrice, serviceFee = 0, purchaseTax = 0, domesticShipping, portCharges = 0, compulsoryInsurance, otherExpenses, qualificationFee = 0, agencyFee = 0, taxRefundFee = 0, taxRefund } = components;
+    return invoicePrice + serviceFee + purchaseTax + domesticShipping + portCharges + compulsoryInsurance + otherExpenses + qualificationFee + agencyFee + taxRefundFee - taxRefund;
   }
   
   // 通用最终报价计算
