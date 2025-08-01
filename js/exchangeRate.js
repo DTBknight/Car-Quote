@@ -69,7 +69,7 @@ export class ExchangeRateManager {
     const { BASE_URL, MAIN_APP_ID, BACKUP_APP_ID } = CONFIG.API.EXCHANGE_RATE;
     
     try {
-      const response = await fetch(`${BASE_URL}&app_id=${MAIN_APP_ID}`);
+      const response = await fetch(`${BASE_URL}?app_id=${MAIN_APP_ID}`);
       if (response.status === 403) {
         throw new Error('403');
       }
@@ -83,7 +83,7 @@ export class ExchangeRateManager {
     } catch (error) {
       // 尝试备用API
       console.warn('主API失败，尝试备用API:', error.message);
-      const response = await fetch(`${BASE_URL}&app_id=${BACKUP_APP_ID}`);
+      const response = await fetch(`${BASE_URL}?app_id=${BACKUP_APP_ID}`);
       if (response.status === 403) {
         throw new Error('403');
       }

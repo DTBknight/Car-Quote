@@ -258,8 +258,8 @@ export class EventManager {
       
       // 关键字段即时计算（无防抖）
       const instantFields = ['guidePrice', 'discount', 'optionalEquipment', 'serviceFeeRate'];
-      const instantUsedFields = ['usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment'];
-      const instantNewEnergyFields = ['newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment'];
+      const instantUsedFields = ['usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedMarkup'];
+      const instantNewEnergyFields = ['newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment', 'newEnergyMarkup'];
       
       // 新车字段
       if (this.eventConfig.newCarFields.includes(fieldId)) {

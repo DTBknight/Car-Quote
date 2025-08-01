@@ -390,8 +390,12 @@ export class CalculationEngine {
     const purchaseCost = Utils.getElementValue('usedPurchaseCost');
     const markup = Utils.getElementValue('usedMarkup');
     const rmbQuote = purchaseCost + markup;
-    const rmbInput = Utils.getElement('usedRmbPrice');
-    rmbInput.value = Math.round(rmbQuote);
+    
+    // 确保采购费用显示为购车成本
+    Utils.setElementValue('usedPurchaseCost', Math.round(purchaseCost));
+    // 人民币报价 = 购车成本 + 加价
+    Utils.setElementValue('usedRmbPrice', Math.round(rmbQuote));
+    
     // 直接调用最终报价计算，而不是触发事件
     this.calculateUsedCarFinalQuote();
     return rmbQuote;
@@ -548,8 +552,12 @@ export class CalculationEngine {
     const purchaseCost = Utils.getElementValue('newEnergyPurchaseCost');
     const markup = Utils.getElementValue('newEnergyMarkup');
     const rmbQuote = purchaseCost + markup;
-    const rmbInput = Utils.getElement('newEnergyRmbPrice');
-    rmbInput.value = Math.round(rmbQuote);
+    
+    // 确保采购费用显示为购车成本
+    Utils.setElementValue('newEnergyPurchaseCost', Math.round(purchaseCost));
+    // 人民币报价 = 购车成本 + 加价
+    Utils.setElementValue('newEnergyRmbPrice', Math.round(rmbQuote));
+    
     // 直接调用最终报价计算，而不是触发事件
     this.calculateNewEnergyFinalQuote();
     return rmbQuote;

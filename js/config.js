@@ -10,14 +10,20 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
-      // 生产环境 - Render后端
-  PRODUCTION: {
-    BASE_URL: 'https://dbtknight.onrender.com', // Render后端域名
-    ENDPOINTS: {
-      GENERATE_CONTRACT: '/api/generate-contract',
-      HEALTH: '/health'
+    // 生产环境 - Render后端
+    PRODUCTION: {
+      BASE_URL: 'https://dbtknight.onrender.com', // Render后端域名
+      ENDPOINTS: {
+        GENERATE_CONTRACT: '/api/generate-contract',
+        HEALTH: '/health'
+      }
+    },
+    // 汇率API配置
+    EXCHANGE_RATE: {
+      BASE_URL: 'https://openexchangerates.org/api/latest.json',
+      MAIN_APP_ID: '9625bee048bd4599842279906b9ca677', // Open Exchange Rates API密钥
+      BACKUP_APP_ID: '145b3ca7abb2474f9e1f30b2ed19b77f' // 备用API密钥
     }
-  }
   },
   
   // 应用配置
