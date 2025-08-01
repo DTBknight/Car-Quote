@@ -108,17 +108,23 @@ def generate_contract():
                         # 如果是合并单元格，设置主单元格的值
                         cell = sheet[merged_range.start_cell.coordinate]
                         cell.value = value
-                        # 确保字体不加粗
+                        # 确保字体不加粗（使用copy避免不可变对象错误）
                         if cell.font:
-                            cell.font.bold = False
+                            from copy import copy
+                            new_font = copy(cell.font)
+                            new_font.bold = False
+                            cell.font = new_font
                         return
                 
                 # 如果不是合并单元格，直接设置
                 cell = sheet[cell_address]
                 cell.value = value
-                # 确保字体不加粗
+                # 确保字体不加粗（使用copy避免不可变对象错误）
                 if cell.font:
-                    cell.font.bold = False
+                    from copy import copy
+                    new_font = copy(cell.font)
+                    new_font.bold = False
+                    cell.font = new_font
             except Exception as e:
                 logger.warning(f"设置单元格 {cell_address} 失败: {str(e)}")
                 # 尝试直接设置值
@@ -126,7 +132,10 @@ def generate_contract():
                     cell = sheet[cell_address]
                     cell.value = value
                     if cell.font:
-                        cell.font.bold = False
+                        from copy import copy
+                        new_font = copy(cell.font)
+                        new_font.bold = False
+                        cell.font = new_font
                 except Exception as e2:
                     logger.error(f"直接设置单元格 {cell_address} 也失败: {str(e2)}")
         
@@ -160,15 +169,19 @@ def generate_contract():
                 except Exception as e:
                     logger.error(f"设置货物信息失败: {e}")
             
-            # 隐藏没有填写的商品栏（第12行开始，最多10行）
-            for i in range(len(goods_data), 10):
-                row_to_hide = 12 + i
-                if row_to_hide <= 21:  # 确保在合理范围内，但不超过21行（起运港行）
-                    sc_sheet.row_dimensions[row_to_hide].hidden = True
+            # 隐藏没有填写的商品栏
+            # 如果有1个商品，显示第11行，隐藏第12-20行
+            # 如果有2个商品，显示第11-12行，隐藏第13-20行
+            # 以此类推
+            start_hide_row = 11 + len(goods_data)  # 从第一个未使用的商品行开始隐藏
+            for i in range(start_hide_row, 21):  # 隐藏从start_hide_row到第20行
+                sc_sheet.row_dimensions[i].hidden = True
+                pi_sheet.row_dimensions[i].hidden = True
         else:
-            # 如果没有货物数据，隐藏所有商品行（第12-21行）
-            for row in range(12, 22):
+            # 如果没有货物数据，隐藏所有商品行（第11-20行）
+            for row in range(11, 21):
                 sc_sheet.row_dimensions[row].hidden = True
+                pi_sheet.row_dimensions[row].hidden = True
         
         # 填充其他字段
         try:
@@ -191,18 +204,31 @@ def generate_contract():
                     # 更智能的去重处理
                     # 先按空格分割
                     parts = transport_route.split()
-                    # 创建一个字典来跟踪每个词的出现次数
-                    word_count = {}
-                    for part in parts:
-                        word_count[part] = word_count.get(part, 0) + 1
                     
-                    # 重建路线，每个词只出现一次
+                    # 重建路线，每个词只出现一次，保持顺序
                     clean_parts = []
+                    seen_words = set()
                     for part in parts:
-                        if part not in clean_parts:
+                        if part not in seen_words:
                             clean_parts.append(part)
+                            seen_words.add(part)
                     
-                    clean_route = ' '.join(clean_parts)
+                    # 进一步处理：如果结果包含多个"交车"或"Delivery"，只保留第一个
+                    final_parts = []
+                    has_jiaoche = False
+                    has_delivery = False
+                    
+                    for part in clean_parts:
+                        if part == '交车' and not has_jiaoche:
+                            final_parts.append(part)
+                            has_jiaoche = True
+                        elif part == 'Delivery' and not has_delivery:
+                            final_parts.append(part)
+                            has_delivery = True
+                        elif part not in ['交车', 'Delivery']:
+                            final_parts.append(part)
+                    
+                    clean_route = ' '.join(final_parts)
                     safe_set_cell_value(sc_sheet, 'D25', clean_route)
             if data.get('modeOfShipment'):
                 # 处理运输方式，显示中文+英文

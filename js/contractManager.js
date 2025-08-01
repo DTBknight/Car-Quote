@@ -1621,11 +1621,11 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       }
     });
     
-    // 监听失焦事件
+    // 监听失焦事件 - 移除重复处理，避免数据重复
     transportRouteInput.addEventListener('blur', (e) => {
       const value = e.target.value;
       
-      // 如果用户输入的是纯中文地名，自动格式化
+      // 只处理纯中文地名，如果已经包含"交车"或"Delivery"则不处理
       if (value && !value.includes('交车') && !value.includes('Delivery')) {
         const formattedRoute = this.formatTransportRoute(value);
         if (formattedRoute && formattedRoute !== value) {
