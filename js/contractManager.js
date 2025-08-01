@@ -863,8 +863,8 @@ export class ContractManager {
                    <input type="text" id="buyerName" class="form-input" placeholder="请输入买方名称">
                  </div>
                  <div>
-                   <div class="text-sm font-medium text-gray-700 mb-1">买方电话 / Buyer Phone</div>
-                   <input type="tel" id="buyerPhone" class="form-input" placeholder="请输入买方电话">
+                   <div class="text-sm font-medium text-gray-700 mb-1">买方电话 / Buyer Phone <span class="text-gray-500 text-xs">(可选)</span></div>
+                   <input type="tel" id="buyerPhone" class="form-input" placeholder="请输入买方电话（可选）">
                  </div>
                </div>
                <div>
@@ -912,8 +912,8 @@ export class ContractManager {
                    <input type="text" id="sellerName" class="form-input" placeholder="请输入卖方名称" value="Smai Co., LTD">
                  </div>
                  <div>
-                   <div class="text-sm font-medium text-gray-700 mb-1">卖方电话 / Seller Phone</div>
-                   <input type="tel" id="sellerPhone" class="form-input" placeholder="请输入卖方电话">
+                   <div class="text-sm font-medium text-gray-700 mb-1">卖方电话 / Seller Phone <span class="text-gray-500 text-xs">(可选)</span></div>
+                   <input type="tel" id="sellerPhone" class="form-input" placeholder="请输入卖方电话（可选）">
                  </div>
                </div>
                <div>
