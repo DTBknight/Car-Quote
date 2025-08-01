@@ -1,34 +1,29 @@
-# Python相关文件（用于Render后端，不适用于Netlify）
-render-backend/
+# Python相关文件（不适用于Netlify）
+railway-deployment/
+
+# 部署相关文件
+DEPLOYMENT_SUMMARY.md
+verify-deployment.sh
+
+# 开发工具
 data-processor/
-
-# 保留根目录的Render配置文件
-# render.yaml
-
-# 测试文件
-test-*.html
-*.test.js
-*.spec.js
-
-# 开发文件
-.git/
-.github/
-node_modules/
 *.log
 .env
 .env.local
-.env.development
-.env.test
-.env.production
+.env.development.local
+.env.test.local
+.env.production.local
 
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
 *.swp
 *.swo
-*~
 
 # 临时文件
 *.tmp
-*.temp
-.cache/ 
+*.temp 

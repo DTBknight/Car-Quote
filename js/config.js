@@ -10,9 +10,9 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
-    // 生产环境 - Render后端
+    // 生产环境 - Railway后端（备用）
     PRODUCTION: {
-      BASE_URL: 'https://dbtknight.onrender.com', // Render后端域名
+      BASE_URL: 'https://dbtknight-production.up.railway.app', // Railway后端域名
       ENDPOINTS: {
         GENERATE_CONTRACT: '/api/generate-contract',
         HEALTH: '/health'
