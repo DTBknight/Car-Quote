@@ -101,16 +101,21 @@ def generate_contract():
             # 安全地填充单元格，避免合并单元格问题
             def safe_set_cell(cell_ref, value):
                 try:
-                    sheet[cell_ref] = value
+                    # 检查是否是合并单元格
+                    cell = sheet[cell_ref]
+                    if hasattr(cell, 'coordinate') and cell.coordinate != cell_ref:
+                        # 这是合并单元格，设置主单元格
+                        sheet[cell.coordinate] = value
+                    else:
+                        # 普通单元格，直接设置
+                        sheet[cell_ref] = value
                 except Exception as e:
                     logger.warning(f"无法设置单元格 {cell_ref}: {e}")
-                    # 尝试设置合并单元格的主单元格
+                    # 尝试直接设置值
                     try:
-                        cell = sheet[cell_ref]
-                        if hasattr(cell, 'coordinate'):
-                            sheet[cell.coordinate] = value
+                        sheet[cell_ref] = value
                     except Exception as e2:
-                        logger.error(f"设置合并单元格主单元格失败 {cell_ref}: {e2}")
+                        logger.error(f"设置单元格失败 {cell_ref}: {e2}")
             
             # 买方名称 - C3-D3合并单元格
             safe_set_cell('C3', buyer_name)
