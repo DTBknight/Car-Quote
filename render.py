@@ -99,21 +99,36 @@ def generate_contract():
         # 最简单的单元格设置函数 - 直接设置值，不破坏合并单元格
         def simple_set_cell(sheet, cell_ref, value):
             """
-            设置单元格值，保持原有格式不变
+            设置单元格值，完全保持原有格式不变
             """
             try:
                 # 获取目标单元格
                 cell = sheet[cell_ref]
                 
-                # 保存原有的字体格式
+                # 保存原有的所有格式属性
                 original_font = cell.font
+                original_alignment = cell.alignment
+                original_border = cell.border
+                original_fill = cell.fill
+                original_number_format = cell.number_format
+                original_protection = cell.protection
                 
                 # 设置值
                 cell.value = value
                 
-                # 恢复原有的字体格式，确保不加粗
+                # 完全恢复原有的所有格式属性
                 if original_font:
                     cell.font = original_font
+                if original_alignment:
+                    cell.alignment = original_alignment
+                if original_border:
+                    cell.border = original_border
+                if original_fill:
+                    cell.fill = original_fill
+                if original_number_format:
+                    cell.number_format = original_number_format
+                if original_protection:
+                    cell.protection = original_protection
                 
                 return True
             except Exception as e:

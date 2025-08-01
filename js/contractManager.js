@@ -1464,12 +1464,20 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
     const portOfLoading = this.getLocationEnglishOnly('portOfLoading');
     const finalDestination = this.getLocationEnglishOnly('finalDestination');
     
+    // 格式化地名，确保首字母大写，其余小写
+    const formatLocation = (location) => {
+      if (!location) return '';
+      return location.split(' ').map(word => 
+        word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+      ).join(' ');
+    };
+    
     let f22Value = '';
     if (exportType) {
       if (exportType === 'EXW' || exportType === 'FOB') {
-        f22Value = portOfLoading ? `${exportType} ${portOfLoading}` : exportType;
+        f22Value = portOfLoading ? `${exportType} ${formatLocation(portOfLoading)}` : exportType;
       } else if (exportType === 'CIF' || exportType === 'CFR') {
-        f22Value = finalDestination ? `${exportType} ${finalDestination}` : exportType;
+        f22Value = finalDestination ? `${exportType} ${formatLocation(finalDestination)}` : exportType;
       }
     }
     
