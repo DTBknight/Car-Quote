@@ -10,12 +10,12 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
-      // 生产环境 - Netlify Functions
+      // 生产环境 - Render后端
   PRODUCTION: {
-    BASE_URL: 'https://dbtknight.netlify.app', // Netlify域名
+    BASE_URL: 'https://dbtknight.onrender.com', // Render后端域名
     ENDPOINTS: {
       GENERATE_CONTRACT: '/api/generate-contract',
-      HEALTH: '/api/generate-contract'
+      HEALTH: '/health'
     }
   }
   },
