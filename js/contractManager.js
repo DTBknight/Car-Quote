@@ -1094,6 +1094,9 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
     
     // 绑定地名翻译事件
     this.bindLocationTranslationEvents();
+    
+    // 设置运输路线智能输入功能
+    this.setupTransportRouteInput();
   }
   
   // 生成合同
@@ -1120,7 +1123,7 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         f22Value: this.updateF22Value(),
         portOfLoading: this.getLocationWithTranslation('portOfLoading'),
         finalDestination: this.getLocationWithTranslation('finalDestination'),
-        transportRoute: document.getElementById('transportRoute')?.value || '',
+        transportRoute: this.formatTransportRoute(document.getElementById('transportRoute')?.value || ''),
         modeOfShipment: document.getElementById('modeOfShipment')?.value || ''
       };
       
@@ -1565,6 +1568,61 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       
       if (translated && translated !== value) {
         englishInput.value = translated;
+      }
+    });
+  }
+  
+  // 格式化运输路线
+  formatTransportRoute(chineseLocation) {
+    if (!chineseLocation || chineseLocation.trim() === '') {
+      return '';
+    }
+    
+    // 获取英文翻译
+    const englishLocation = this.translateLocation(chineseLocation.trim());
+    
+    // 如果翻译成功，返回格式化的运输路线
+    if (englishLocation && englishLocation !== chineseLocation.trim()) {
+      return `${chineseLocation.trim()}交车 ${englishLocation} Delivery`;
+    }
+    
+    // 如果没有找到翻译，返回原文本
+    return chineseLocation.trim();
+  }
+  
+  // 设置运输路线智能输入功能
+  setupTransportRouteInput() {
+    const transportRouteInput = document.getElementById('transportRoute');
+    if (!transportRouteInput) return;
+    
+    // 监听输入事件
+    transportRouteInput.addEventListener('input', (e) => {
+      const value = e.target.value;
+      
+      // 如果用户输入的是纯中文地名（不包含"交车"或"Delivery"）
+      if (value && !value.includes('交车') && !value.includes('Delivery')) {
+        const formattedRoute = this.formatTransportRoute(value);
+        if (formattedRoute && formattedRoute !== value) {
+          // 延迟设置，避免光标跳转问题
+          setTimeout(() => {
+            transportRouteInput.value = formattedRoute;
+            // 将光标移到文本末尾
+            transportRouteInput.setSelectionRange(formattedRoute.length, formattedRoute.length);
+          }, 100);
+        }
+      }
+    });
+    
+    // 监听失焦事件
+    transportRouteInput.addEventListener('blur', (e) => {
+      const value = e.target.value;
+      
+      // 如果用户输入的是纯中文地名，自动格式化
+      if (value && !value.includes('交车') && !value.includes('Delivery')) {
+        const formattedRoute = this.formatTransportRoute(value);
+        if (formattedRoute && formattedRoute !== value) {
+          transportRouteInput.value = formattedRoute;
+        }
       }
     });
   }
