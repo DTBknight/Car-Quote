@@ -610,6 +610,9 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       console.log('🌐 API地址:', apiUrl);
       
       // 调用后端API
+      console.log('🌐 发送请求到:', apiUrl);
+      console.log('📦 请求数据:', JSON.stringify(formData, null, 2));
+      
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
@@ -617,6 +620,9 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         },
         body: JSON.stringify(formData)
       });
+      
+      console.log('📡 响应状态:', response.status);
+      console.log('📡 响应头:', Object.fromEntries(response.headers.entries()));
       
       if (response.ok) {
         // 下载文件
@@ -650,6 +656,12 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       
     } catch (error) {
       console.error('生成合同失败:', error);
+      console.error('错误详情:', {
+        name: error.name,
+        message: error.message,
+        stack: error.stack
+      });
+      
       let errorMessage = error.message;
       
       // 处理网络错误
@@ -657,6 +669,8 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         errorMessage = '网络连接失败，请检查网络连接或稍后重试';
       } else if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
         errorMessage = '无法连接到服务器，请检查网络连接';
+      } else if (error.message.includes('Load failed')) {
+        errorMessage = '请求加载失败，可能是网络问题或服务器暂时不可用';
       }
       
       alert(`生成合同失败: ${errorMessage}`);
