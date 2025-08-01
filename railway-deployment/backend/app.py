@@ -100,40 +100,50 @@ def generate_contract():
         
         # 安全填充单元格的函数
         def safe_set_cell_value(sheet, cell_address, value):
-            """安全地设置单元格值，处理合并单元格"""
+            """安全地设置单元格值，处理合并单元格，并确保字体不加粗"""
             try:
                 # 检查是否是合并单元格
                 for merged_range in sheet.merged_cells.ranges:
                     if cell_address in merged_range:
                         # 如果是合并单元格，设置主单元格的值
-                        sheet[merged_range.start_cell.coordinate].value = value
+                        cell = sheet[merged_range.start_cell.coordinate]
+                        cell.value = value
+                        # 确保字体不加粗
+                        if cell.font:
+                            cell.font.bold = False
                         return
                 
                 # 如果不是合并单元格，直接设置
-                sheet[cell_address].value = value
+                cell = sheet[cell_address]
+                cell.value = value
+                # 确保字体不加粗
+                if cell.font:
+                    cell.font.bold = False
             except Exception as e:
                 logger.warning(f"设置单元格 {cell_address} 失败: {str(e)}")
                 # 尝试直接设置值
                 try:
-                    sheet[cell_address] = value
+                    cell = sheet[cell_address]
+                    cell.value = value
+                    if cell.font:
+                        cell.font.bold = False
                 except Exception as e2:
                     logger.error(f"直接设置单元格 {cell_address} 也失败: {str(e2)}")
         
-        # 填充Excel单元格到两个sheet
-        for sheet in [sc_sheet, pi_sheet]:
-            try:
-                safe_set_cell_value(sheet, 'C3', buyer_name)
-                safe_set_cell_value(sheet, 'C4', buyer_address)
-                safe_set_cell_value(sheet, 'C5', buyer_phone)
-                safe_set_cell_value(sheet, 'C6', seller_name)
-                safe_set_cell_value(sheet, 'C7', seller_address)
-                safe_set_cell_value(sheet, 'C8', seller_phone)
-                safe_set_cell_value(sheet, 'G3', contract_number)
-                safe_set_cell_value(sheet, 'G4', contract_date)
-                safe_set_cell_value(sheet, 'G5', contract_location)
-                safe_set_cell_value(sheet, 'E7', bank_info)
-            except Exception as e:
-                logger.error(f"设置基础信息失败: {e}")
+        # 填充Excel单元格到SC sheet（不填充PI sheet）
+        try:
+            safe_set_cell_value(sc_sheet, 'C3', buyer_name)
+            safe_set_cell_value(sc_sheet, 'C4', buyer_address)
+            safe_set_cell_value(sc_sheet, 'C5', buyer_phone)
+            safe_set_cell_value(sc_sheet, 'C6', seller_name)
+            safe_set_cell_value(sc_sheet, 'C7', seller_address)
+            safe_set_cell_value(sc_sheet, 'C8', seller_phone)
+            safe_set_cell_value(sc_sheet, 'G3', contract_number)
+            safe_set_cell_value(sc_sheet, 'G4', contract_date)
+            safe_set_cell_value(sc_sheet, 'G5', contract_location)
+            safe_set_cell_value(sc_sheet, 'E7', bank_info)
+        except Exception as e:
+            logger.error(f"设置基础信息失败: {e}")
         
         # 处理货物信息
         goods_data = data.get('goodsData', [])
@@ -141,58 +151,84 @@ def generate_contract():
             for i, goods in enumerate(goods_data[:10]):  # 最多10行
                 current_row = 11 + i
                 try:
-                    for sheet in [sc_sheet, pi_sheet]:
-                        safe_set_cell_value(sheet, f'B{current_row}', goods.get('model', ''))
-                        safe_set_cell_value(sheet, f'C{current_row}', goods.get('description', ''))
-                        safe_set_cell_value(sheet, f'D{current_row}', goods.get('color', ''))
-                        safe_set_cell_value(sheet, f'E{current_row}', goods.get('quantity', 0))
-                        safe_set_cell_value(sheet, f'F{current_row}', goods.get('unitPrice', 0))
-                        safe_set_cell_value(sheet, f'G{current_row}', goods.get('totalAmount', 0))
+                    safe_set_cell_value(sc_sheet, f'B{current_row}', goods.get('model', ''))
+                    safe_set_cell_value(sc_sheet, f'C{current_row}', goods.get('description', ''))
+                    safe_set_cell_value(sc_sheet, f'D{current_row}', goods.get('color', ''))
+                    safe_set_cell_value(sc_sheet, f'E{current_row}', goods.get('quantity', 0))
+                    safe_set_cell_value(sc_sheet, f'F{current_row}', goods.get('unitPrice', 0))
+                    safe_set_cell_value(sc_sheet, f'G{current_row}', goods.get('totalAmount', 0))
                 except Exception as e:
                     logger.error(f"设置货物信息失败: {e}")
+            
+            # 隐藏没有填写的商品栏（第12行开始，最多10行）
+            for i in range(len(goods_data), 10):
+                row_to_hide = 12 + i
+                if row_to_hide <= 21:  # 确保在合理范围内
+                    sc_sheet.row_dimensions[row_to_hide].hidden = True
         
         # 填充其他字段
-        for sheet in [sc_sheet, pi_sheet]:
-            try:
-                if data.get('f22Value'):
-                    safe_set_cell_value(sheet, 'F22', data['f22Value'])
-                if data.get('paymentTerms'):
-                    safe_set_cell_value(sheet, 'D24', data['paymentTerms'])
-                if data.get('totalAmount'):
-                    safe_set_cell_value(sheet, 'G21', data['totalAmount'])
-                if data.get('amountInWords'):
-                    safe_set_cell_value(sheet, 'B23', data['amountInWords'])
-                if data.get('portOfLoading'):
-                    safe_set_cell_value(sheet, 'D21', data['portOfLoading'])
-                if data.get('finalDestination'):
-                    safe_set_cell_value(sheet, 'D22', data['finalDestination'])
-                if data.get('transportRoute'):
-                    safe_set_cell_value(sheet, 'D25', data['transportRoute'])
-                if data.get('modeOfShipment'):
-                    safe_set_cell_value(sheet, 'D26', data['modeOfShipment'])
-            except Exception as e:
-                logger.error(f"设置其他字段失败: {e}")
-        
-        # 保存到临时文件
-        with tempfile.NamedTemporaryFile(delete=False, suffix='.xlsx') as tmp_file:
-            workbook.save(tmp_file.name)
-            tmp_file_path = tmp_file.name
+        try:
+            if data.get('f22Value'):
+                safe_set_cell_value(sc_sheet, 'F22', data['f22Value'])
+            if data.get('paymentTerms'):
+                safe_set_cell_value(sc_sheet, 'D24', data['paymentTerms'])
+            if data.get('totalAmount'):
+                safe_set_cell_value(sc_sheet, 'G21', data['totalAmount'])
+            if data.get('amountInWords'):
+                safe_set_cell_value(sc_sheet, 'B23', data['amountInWords'])
+            if data.get('portOfLoading'):
+                safe_set_cell_value(sc_sheet, 'D21', data['portOfLoading'])
+            if data.get('finalDestination'):
+                safe_set_cell_value(sc_sheet, 'D22', data['finalDestination'])
+            if data.get('transportRoute'):
+                # 处理运输路线，避免重复
+                transport_route = data['transportRoute']
+                if transport_route:
+                    # 移除可能的重复内容
+                    route_parts = transport_route.split()
+                    unique_parts = []
+                    for part in route_parts:
+                        if part not in unique_parts:
+                            unique_parts.append(part)
+                    clean_route = ' '.join(unique_parts)
+                    safe_set_cell_value(sc_sheet, 'D25', clean_route)
+            if data.get('modeOfShipment'):
+                # 处理运输方式，确保显示中文
+                mode = data['modeOfShipment']
+                if mode == 'Land':
+                    mode = '陆运'
+                elif mode == 'Sea':
+                    mode = '海运'
+                elif mode == 'Air':
+                    mode = '空运'
+                safe_set_cell_value(sc_sheet, 'D26', mode)
+        except Exception as e:
+            logger.error(f"设置其他字段失败: {e}")
         
         # 生成输出文件名
         if contract_number:
             safe_contract_number = "".join(c for c in contract_number if c.isalnum() or c in ('-', '_'))
-            filename = f'{safe_contract_number}_Contract.xlsx'
+            output_filename = f'{safe_contract_number}_Contract.xlsx'
         else:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-            filename = f'contract_{timestamp}.xlsx'
+            output_filename = f'contract_{timestamp}.xlsx'
         
-        # 返回文件
-        return send_file(
-            tmp_file_path,
-            as_attachment=True,
-            download_name=filename,
-            mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        )
+        # 创建临时文件并返回
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.xlsx') as tmp_file:
+            output_path = tmp_file.name
+            workbook.save(output_path)
+            
+            with open(output_path, 'rb') as f:
+                file_content = f.read()
+            
+            os.unlink(output_path)
+            
+            return send_file(
+                io.BytesIO(file_content),
+                mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                as_attachment=True,
+                download_name=output_filename
+            )
         
     except Exception as e:
         logger.error(f"生成合同时出错: {str(e)}")
