@@ -1,5 +1,6 @@
 // 合同管理器模块
 import { getApiUrl } from './config.js';
+import { translationService } from './translationService.js';
 
 export class ContractManager {
   constructor() {
@@ -46,6 +47,181 @@ export class ContractManager {
       '拉萨': 'Lhasa',
       '乌鲁木齐': 'Urumqi',
       '呼和浩特': 'Hohhot',
+      
+      // 新疆及中亚贸易重要城市
+      '霍尔果斯': 'Khorgos',
+      '喀什': 'Kashgar',
+      '阿拉山口': 'Alashankou',
+      '巴克图': 'Bakhtu',
+      '吉木乃': 'Jeminay',
+      '塔城': 'Tacheng',
+      '伊宁': 'Yining',
+      '阿勒泰': 'Altay',
+      '博乐': 'Bole',
+      '石河子': 'Shihezi',
+      '奎屯': 'Kuitun',
+      '克拉玛依': 'Karamay',
+      '吐鲁番': 'Turpan',
+      '哈密': 'Hami',
+      '库尔勒': 'Korla',
+      '阿克苏': 'Aksu',
+      '和田': 'Hotan',
+      '阿图什': 'Artux',
+      '图木舒克': 'Tumxuk',
+      '五家渠': 'Wujiaqu',
+      '北屯': 'Beitun',
+      '铁门关': 'Tiemenguan',
+      '双河': 'Shuanghe',
+      '可克达拉': 'Kokdala',
+      '胡杨河': 'Huyanghe',
+      '新星': 'Xinxing',
+      '白杨': 'Baiyang',
+      '昆玉': 'Kunyu',
+      '胡杨': 'Huyang',
+      '阿拉尔': 'Aral',
+      
+      // 中亚国家及主要城市
+      '哈萨克斯坦': 'Kazakhstan',
+      '阿拉木图': 'Almaty',
+      '阿斯塔纳': 'Astana',
+      '努尔苏丹': 'Nur-Sultan',
+      '奇姆肯特': 'Shymkent',
+      '阿克套': 'Aktau',
+      '阿特劳': 'Atyrau',
+      '卡拉干达': 'Karaganda',
+      '巴甫洛达尔': 'Pavlodar',
+      '塞米伊': 'Semey',
+      '乌斯季卡缅诺戈尔斯克': 'Ust-Kamenogorsk',
+      '塔拉兹': 'Taraz',
+      '科斯塔奈': 'Kostanay',
+      '彼得罗巴甫洛夫斯克': 'Petropavl',
+      '乌拉尔': 'Oral',
+      '阿克托别': 'Aktobe',
+      '克孜洛尔达': 'Kyzylorda',
+      '科克舍套': 'Kokshetau',
+      
+      '吉尔吉斯斯坦': 'Kyrgyzstan',
+      '比什凯克': 'Bishkek',
+      '奥什': 'Osh',
+      '贾拉拉巴德': 'Jalal-Abad',
+      '卡拉科尔': 'Karakol',
+      '托克马克': 'Tokmok',
+      '纳伦': 'Naryn',
+      '塔拉斯': 'Talas',
+      '巴特肯': 'Batken',
+      '伊塞克湖': 'Issyk-Kul',
+      '楚河': 'Chuy',
+      
+      '乌兹别克斯坦': 'Uzbekistan',
+      '塔什干': 'Tashkent',
+      '撒马尔罕': 'Samarkand',
+      '布哈拉': 'Bukhara',
+      '纳曼干': 'Namangan',
+      '安集延': 'Andijan',
+      '费尔干纳': 'Fergana',
+      '卡什卡达里亚': 'Kashkadarya',
+      '苏尔汉河': 'Surkhandarya',
+      '纳沃伊': 'Navoiy',
+      '花拉子模': 'Khorezm',
+      '卡拉卡尔帕克斯坦': 'Karakalpakstan',
+      
+      '塔吉克斯坦': 'Tajikistan',
+      '杜尚别': 'Dushanbe',
+      '苦盏': 'Khujand',
+      '库利亚布': 'Kulob',
+      '库尔干秋别': 'Kurgan-Tyube',
+      '彭吉肯特': 'Panjakent',
+      '伊斯塔拉夫尚': 'Istaravshan',
+      '瓦赫什': 'Vakhsh',
+      '努雷克': 'Nurek',
+      '罗贡': 'Rogun',
+      
+      '土库曼斯坦': 'Turkmenistan',
+      '阿什哈巴德': 'Ashgabat',
+      '土库曼巴什': 'Türkmenbaşy',
+      '马雷': 'Mary',
+      '达什古兹': 'Daşoguz',
+      '巴尔坎纳巴德': 'Balkanabat',
+      '土库曼纳巴德': 'Türkmenabat',
+      '阿巴丹': 'Abadan',
+      '卡阿赫塔': 'Kaakhka',
+      '拜拉姆阿里': 'Bayramaly',
+      
+      // 俄罗斯中亚地区
+      '新西伯利亚': 'Novosibirsk',
+      '鄂木斯克': 'Omsk',
+      '托木斯克': 'Tomsk',
+      '克拉斯诺亚尔斯克': 'Krasnoyarsk',
+      '伊尔库茨克': 'Irkutsk',
+      '乌兰乌德': 'Ulan-Ude',
+      '赤塔': 'Chita',
+      '布拉戈维申斯克': 'Blagoveshchensk',
+      '符拉迪沃斯托克': 'Vladivostok',
+      '哈巴罗夫斯克': 'Khabarovsk',
+      '雅库茨克': 'Yakutsk',
+      
+      // 蒙古
+      '蒙古': 'Mongolia',
+      '乌兰巴托': 'Ulaanbaatar',
+      '额尔登特': 'Erdenet',
+      '达尔汗': 'Darkhan',
+      '乔巴山': 'Choibalsan',
+      '木伦': 'Mörön',
+      '乌列盖': 'Ölgii',
+      '科布多': 'Khovd',
+      
+      // 阿富汗
+      '阿富汗': 'Afghanistan',
+      '喀布尔': 'Kabul',
+      '坎大哈': 'Kandahar',
+      '赫拉特': 'Herat',
+      '马扎里沙里夫': 'Mazar-i-Sharif',
+      '贾拉拉巴德': 'Jalalabad',
+      '昆都士': 'Kunduz',
+      '加兹尼': 'Ghazni',
+      '巴米扬': 'Bamiyan',
+      '巴达赫尚': 'Badakhshan',
+      
+      // 巴基斯坦
+      '巴基斯坦': 'Pakistan',
+      '伊斯兰堡': 'Islamabad',
+      '卡拉奇': 'Karachi',
+      '拉合尔': 'Lahore',
+      '费萨拉巴德': 'Faisalabad',
+      '拉瓦尔品第': 'Rawalpindi',
+      '白沙瓦': 'Peshawar',
+      '奎达': 'Quetta',
+      '木尔坦': 'Multan',
+      '海得拉巴': 'Hyderabad',
+      '苏库尔': 'Sukkur',
+      
+      // 印度
+      '印度': 'India',
+      '新德里': 'New Delhi',
+      '孟买': 'Mumbai',
+      '加尔各答': 'Kolkata',
+      '班加罗尔': 'Bangalore',
+      '海得拉巴': 'Hyderabad',
+      '金奈': 'Chennai',
+      '艾哈迈达巴德': 'Ahmedabad',
+      '浦那': 'Pune',
+      '苏拉特': 'Surat',
+      '斋浦尔': 'Jaipur',
+      '勒克瑙': 'Lucknow',
+      
+      // 伊朗
+      '伊朗': 'Iran',
+      '德黑兰': 'Tehran',
+      '马什哈德': 'Mashhad',
+      '伊斯法罕': 'Isfahan',
+      '设拉子': 'Shiraz',
+      '大不里士': 'Tabriz',
+      '库姆': 'Qom',
+      '克尔曼': 'Kerman',
+      '亚兹德': 'Yazd',
+      '阿瓦士': 'Ahvaz',
+      '布什尔': 'Bushehr',
+      '阿巴斯港': 'Bandar Abbas',
       
       // 港口城市
       '青岛港': 'Qingdao Port',
@@ -959,23 +1135,17 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
   }
   
   // 地名翻译方法
-  translateLocation(chineseText) {
+  async translateLocation(chineseText) {
     if (!chineseText) return '';
     
-    // 检查是否有完全匹配
-    if (this.locationTranslations[chineseText]) {
-      return this.locationTranslations[chineseText];
+    try {
+      // 使用智能翻译服务
+      const result = await translationService.smartTranslate(chineseText, 'zh', 'en');
+      return result;
+    } catch (error) {
+      console.error('翻译失败:', error);
+      return chineseText; // 如果翻译失败，返回原文本
     }
-    
-    // 检查是否包含已知地名
-    for (const [chinese, english] of Object.entries(this.locationTranslations)) {
-      if (chineseText.includes(chinese)) {
-        return chineseText.replace(chinese, english);
-      }
-    }
-    
-    // 如果没有匹配，返回原文本
-    return chineseText;
   }
   
   // 绑定地名翻译事件
@@ -998,35 +1168,51 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
   
   // 设置双输入框翻译功能
   setupDualInputTranslation(chineseInput, englishInput) {
+    let translateTimeout = null;
+    
+    // 防抖翻译函数
+    const debouncedTranslate = async (value) => {
+      if (translateTimeout) {
+        clearTimeout(translateTimeout);
+      }
+      
+      translateTimeout = setTimeout(async () => {
+        if (value && value.trim() !== '') {
+          try {
+            const translated = await this.translateLocation(value);
+            if (translated && translated !== value) {
+              englishInput.value = translated;
+            } else {
+              englishInput.value = '';
+            }
+          } catch (error) {
+            console.error('翻译失败:', error);
+            englishInput.value = '';
+          }
+        } else {
+          englishInput.value = '';
+        }
+      }, 500); // 500ms防抖延迟
+    };
+    
     // 监听中文输入框的输入事件
     chineseInput.addEventListener('input', (e) => {
       const value = e.target.value;
-      const translated = this.translateLocation(value);
-      
-      if (translated && translated !== value) {
-        englishInput.value = translated;
-      } else {
-        englishInput.value = '';
-      }
+      debouncedTranslate(value);
     });
     
     // 监听中文输入框的失焦事件
-    chineseInput.addEventListener('blur', (e) => {
+    chineseInput.addEventListener('blur', async (e) => {
       const value = e.target.value;
-      const translated = this.translateLocation(value);
-      
-      if (translated && translated !== value) {
-        englishInput.value = translated;
-      }
-    });
-    
-    // 监听中文输入框的聚焦事件
-    chineseInput.addEventListener('focus', (e) => {
-      const value = e.target.value;
-      const translated = this.translateLocation(value);
-      
-      if (translated && translated !== value) {
-        englishInput.value = translated;
+      if (value && value.trim() !== '') {
+        try {
+          const translated = await this.translateLocation(value);
+          if (translated && translated !== value) {
+            englishInput.value = translated;
+          }
+        } catch (error) {
+          console.error('翻译失败:', error);
+        }
       }
     });
   }
