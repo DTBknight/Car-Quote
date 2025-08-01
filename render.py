@@ -96,59 +96,59 @@ def generate_contract():
         # 填充开户行信息
         bank_info = data.get('bankInfo', '')
         
+        # 安全地填充单元格，避免合并单元格问题
+        def safe_set_cell(sheet, cell_ref, value):
+            try:
+                # 获取合并单元格的主单元格坐标
+                for merged_range in sheet.merged_cells.ranges:
+                    if cell_ref in merged_range:
+                        # 找到合并单元格的主单元格（左上角）
+                        master_cell = f"{merged_range.min_col_abs}{merged_range.min_row}"
+                        logger.info(f"合并单元格 {cell_ref} 的主单元格是 {master_cell}")
+                        sheet[master_cell] = value
+                        return
+                
+                # 如果不是合并单元格，直接设置
+                sheet[cell_ref] = value
+            except Exception as e:
+                logger.error(f"设置单元格 {cell_ref} 失败: {e}")
+                # 最后的尝试：直接设置值
+                try:
+                    sheet[cell_ref] = value
+                except Exception as e2:
+                    logger.error(f"最终设置单元格失败 {cell_ref}: {e2}")
+        
         # 填充Excel单元格到两个sheet
         for sheet in [sc_sheet, pi_sheet]:
-            # 安全地填充单元格，避免合并单元格问题
-            def safe_set_cell(cell_ref, value):
-                try:
-                    # 获取合并单元格的主单元格坐标
-                    for merged_range in sheet.merged_cells.ranges:
-                        if cell_ref in merged_range:
-                            # 找到合并单元格的主单元格（左上角）
-                            master_cell = f"{merged_range.min_col_abs}{merged_range.min_row}"
-                            logger.info(f"合并单元格 {cell_ref} 的主单元格是 {master_cell}")
-                            sheet[master_cell] = value
-                            return
-                    
-                    # 如果不是合并单元格，直接设置
-                    sheet[cell_ref] = value
-                except Exception as e:
-                    logger.error(f"设置单元格 {cell_ref} 失败: {e}")
-                    # 最后的尝试：直接设置值
-                    try:
-                        sheet[cell_ref] = value
-                    except Exception as e2:
-                        logger.error(f"最终设置单元格失败 {cell_ref}: {e2}")
-            
             # 买方名称 - C3-D3合并单元格
-            safe_set_cell('C3', buyer_name)
+            safe_set_cell(sheet, 'C3', buyer_name)
             
             # 买方地址 - C4-D4合并单元格
-            safe_set_cell('C4', buyer_address)
+            safe_set_cell(sheet, 'C4', buyer_address)
             
             # 买方电话 - C5-D5合并单元格
-            safe_set_cell('C5', buyer_phone)
+            safe_set_cell(sheet, 'C5', buyer_phone)
             
             # 卖方名称 - C6-D6合并单元格
-            safe_set_cell('C6', seller_name)
+            safe_set_cell(sheet, 'C6', seller_name)
             
             # 卖方地址 - C7-D7合并单元格
-            safe_set_cell('C7', seller_address)
+            safe_set_cell(sheet, 'C7', seller_address)
             
             # 卖方电话 - C8-D8合并单元格
-            safe_set_cell('C8', seller_phone)
+            safe_set_cell(sheet, 'C8', seller_phone)
             
             # 合同编号 - G3
-            safe_set_cell('G3', contract_number)
+            safe_set_cell(sheet, 'G3', contract_number)
             
             # 合同日期 - G4
-            safe_set_cell('G4', contract_date)
+            safe_set_cell(sheet, 'G4', contract_date)
             
             # 签署地点 - G5
-            safe_set_cell('G5', contract_location)
+            safe_set_cell(sheet, 'G5', contract_location)
             
             # 开户行信息 - E7
-            safe_set_cell('E7', bank_info)
+            safe_set_cell(sheet, 'E7', bank_info)
         
         # 处理货物信息
         goods_data = data.get('goodsData', [])
@@ -172,36 +172,36 @@ def generate_contract():
                 goods_item = goods_data[i]
                 for sheet in [sc_sheet, pi_sheet]:
                     # 安全地填充货物数据
-                    safe_set_cell(f'B{row_num}', goods_item.get('name', ''))
-                    safe_set_cell(f'C{row_num}', goods_item.get('specification', ''))
-                    safe_set_cell(f'D{row_num}', goods_item.get('quantity', ''))
-                    safe_set_cell(f'E{row_num}', goods_item.get('unitPrice', ''))
-                    safe_set_cell(f'F{row_num}', goods_item.get('amount', ''))
+                    safe_set_cell(sheet, f'B{row_num}', goods_item.get('name', ''))
+                    safe_set_cell(sheet, f'C{row_num}', goods_item.get('specification', ''))
+                    safe_set_cell(sheet, f'D{row_num}', goods_item.get('quantity', ''))
+                    safe_set_cell(sheet, f'E{row_num}', goods_item.get('unitPrice', ''))
+                    safe_set_cell(sheet, f'F{row_num}', goods_item.get('amount', ''))
         
         # 处理运输信息
         # D21 - 装运港
         port_of_loading = data.get('portOfLoading', '')
         if port_of_loading:
             for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell('D21', port_of_loading)
+                safe_set_cell(sheet, 'D21', port_of_loading)
         
         # D22 - 目的港
         final_destination = data.get('finalDestination', '')
         if final_destination:
             for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell('D22', final_destination)
+                safe_set_cell(sheet, 'D22', final_destination)
         
         # D25 - 运输路线
         transport_route = data.get('transportRoute', '')
         if transport_route:
             for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell('D25', transport_route)
+                safe_set_cell(sheet, 'D25', transport_route)
         
         # D26 - 运输方式
         mode_of_shipment = data.get('modeOfShipment', '')
         if mode_of_shipment:
             for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell('D26', mode_of_shipment)
+                safe_set_cell(sheet, 'D26', mode_of_shipment)
         
         # 生成输出文件名 - 使用合同编号
         if contract_number:
