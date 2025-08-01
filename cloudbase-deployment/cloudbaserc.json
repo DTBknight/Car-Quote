@@ -1,5 +1,5 @@
 {
-  "envId": "car-quote-env",
+  "envId": "cloud1-6g282xr43b918251",
   "functionRoot": "./functions",
   "functions": [
     {
@@ -7,13 +7,7 @@
       "runtime": "Python3.9",
       "memory": 512,
       "timeout": 60,
-      "triggers": [
-        {
-          "name": "apiTrigger",
-          "type": "http",
-          "config": "http://api.car-quote.com"
-        }
-      ],
+      "triggers": [],
       "installDependency": true,
       "ignore": [
         "node_modules/**/*",
