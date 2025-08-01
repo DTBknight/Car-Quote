@@ -18,6 +18,14 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
+    // 生产环境 - Railway后端
+    RAILWAY: {
+      BASE_URL: 'https://dbtknight-production.up.railway.app', // Railway后端域名
+      ENDPOINTS: {
+        GENERATE_CONTRACT: '/api/generate-contract',
+        HEALTH: '/health'
+      }
+    },
     // 汇率API配置
     EXCHANGE_RATE: {
       BASE_URL: 'https://openexchangerates.org/api/latest.json',
@@ -80,10 +88,14 @@ const CONFIG = {
 // 获取当前环境
 const getEnvironment = () => {
   const hostname = window.location.hostname;
+  
+  // 检查是否为开发环境
   if (hostname === 'localhost' || hostname === '127.0.0.1') {
     return 'DEVELOPMENT';
   }
-  return 'PRODUCTION';
+  
+  // 生产环境优先使用Railway后端
+  return 'RAILWAY';
 };
 
 // 获取API配置
