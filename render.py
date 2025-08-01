@@ -99,14 +99,9 @@ def generate_contract():
         # 安全地填充单元格，避免合并单元格问题
         def safe_set_cell(sheet, cell_ref, value):
             try:
-                # 检查是否是合并单元格
+                # 直接使用cell.value属性设置值
                 cell = sheet[cell_ref]
-                if hasattr(cell, 'coordinate'):
-                    # 这是合并单元格，直接设置主单元格
-                    sheet[cell.coordinate] = value
-                else:
-                    # 普通单元格，直接设置
-                    sheet[cell_ref] = value
+                cell.value = value
             except Exception as e:
                 logger.error(f"设置单元格 {cell_ref} 失败: {e}")
                 # 最后的尝试：直接设置值
