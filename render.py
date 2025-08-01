@@ -99,9 +99,20 @@ def generate_contract():
         # 安全地填充单元格，避免合并单元格问题
         def safe_set_cell(sheet, cell_ref, value):
             try:
-                # 直接使用cell.value属性设置值
-                cell = sheet[cell_ref]
-                cell.value = value
+                # 检查是否是合并单元格
+                for merged_range in sheet.merged_cells.ranges:
+                    if cell_ref in merged_range:
+                        # 临时取消合并单元格
+                        sheet.unmerge_cells(str(merged_range))
+                        # 设置主单元格的值
+                        master_cell = f"{merged_range.min_col}{merged_range.min_row}"
+                        sheet[master_cell] = value
+                        # 重新合并单元格
+                        sheet.merge_cells(str(merged_range))
+                        return
+                
+                # 如果不是合并单元格，直接设置
+                sheet[cell_ref] = value
             except Exception as e:
                 logger.error(f"设置单元格 {cell_ref} 失败: {e}")
                 # 最后的尝试：直接设置值
@@ -163,12 +174,12 @@ def generate_contract():
                 # 填充货物数据到两个sheet
                 goods_item = goods_data[i]
                 for sheet in [sc_sheet, pi_sheet]:
-                    # 安全地填充货物数据
-                    safe_set_cell(sheet, f'B{row_num}', goods_item.get('name', ''))
-                    safe_set_cell(sheet, f'C{row_num}', goods_item.get('specification', ''))
+                    # 安全地填充货物数据 - 适配前端字段名
+                    safe_set_cell(sheet, f'B{row_num}', goods_item.get('model', goods_item.get('name', '')))
+                    safe_set_cell(sheet, f'C{row_num}', goods_item.get('description', goods_item.get('specification', '')))
                     safe_set_cell(sheet, f'D{row_num}', goods_item.get('quantity', ''))
                     safe_set_cell(sheet, f'E{row_num}', goods_item.get('unitPrice', ''))
-                    safe_set_cell(sheet, f'F{row_num}', goods_item.get('amount', ''))
+                    safe_set_cell(sheet, f'F{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
         
         # 处理运输信息
         # D21 - 装运港
