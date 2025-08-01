@@ -200,8 +200,8 @@ def generate_contract():
         # D26 - 运输方式
         mode_of_shipment = data.get('modeOfShipment', '')
         if mode_of_shipment:
-            sc_sheet['D26'] = mode_of_shipment
-            pi_sheet['D26'] = mode_of_shipment
+            for sheet in [sc_sheet, pi_sheet]:
+                safe_set_cell('D26', mode_of_shipment)
         
         # 生成输出文件名 - 使用合同编号
         if contract_number:
