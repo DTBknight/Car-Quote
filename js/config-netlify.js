@@ -1,4 +1,4 @@
-// 配置文件
+// Netlify配置文件
 const CONFIG = {
   // API配置
   API: {
@@ -10,14 +10,14 @@ const CONFIG = {
         HEALTH: '/health'
       }
     },
-      // 生产环境 - Netlify Functions
-  PRODUCTION: {
-    BASE_URL: 'https://dbtknight.netlify.app', // Netlify域名
-    ENDPOINTS: {
-      GENERATE_CONTRACT: '/api/generate-contract',
-      HEALTH: '/api/generate-contract'
+    // 生产环境 - Netlify Functions
+    PRODUCTION: {
+      BASE_URL: '', // 部署时自动获取Netlify域名
+      ENDPOINTS: {
+        GENERATE_CONTRACT: '/api/generate-contract',
+        HEALTH: '/api/generate-contract'
+      }
     }
-  }
   },
   
   // 应用配置
@@ -83,7 +83,14 @@ const getEnvironment = () => {
 // 获取API配置
 const getApiConfig = () => {
   const env = getEnvironment();
-  return CONFIG.API[env];
+  const config = CONFIG.API[env];
+  
+  // 如果是生产环境且BASE_URL为空，自动设置为当前域名
+  if (env === 'PRODUCTION' && !config.BASE_URL) {
+    config.BASE_URL = window.location.origin;
+  }
+  
+  return config;
 };
 
 // 获取API URL

@@ -1,21 +1,21 @@
-// 腾讯云云开发配置文件
+// Render配置文件
 const CONFIG = {
   // API配置
   API: {
     // 开发环境
     DEVELOPMENT: {
-      BASE_URL: 'http://localhost:5001',
+      BASE_URL: 'http://localhost:5000',
       ENDPOINTS: {
-        GENERATE_CONTRACT: '/generate-contract',
+        GENERATE_CONTRACT: '/api/generate-contract',
         HEALTH: '/health'
       }
     },
-    // 生产环境 - 腾讯云云开发
+    // 生产环境 - Render
     PRODUCTION: {
-      BASE_URL: 'https://your-env-id.service.tcloudbase.com', // 替换为您的云开发环境域名
+      BASE_URL: '', // 部署时自动获取Render域名
       ENDPOINTS: {
-        GENERATE_CONTRACT: '/generate-contract',
-        HEALTH: '/generate-contract'
+        GENERATE_CONTRACT: '/api/generate-contract',
+        HEALTH: '/health'
       }
     }
   },
@@ -83,7 +83,14 @@ const getEnvironment = () => {
 // 获取API配置
 const getApiConfig = () => {
   const env = getEnvironment();
-  return CONFIG.API[env];
+  const config = CONFIG.API[env];
+  
+  // 如果是生产环境且BASE_URL为空，自动设置为当前域名
+  if (env === 'PRODUCTION' && !config.BASE_URL) {
+    config.BASE_URL = window.location.origin;
+  }
+  
+  return config;
 };
 
 // 获取API URL
