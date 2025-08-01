@@ -121,37 +121,36 @@ def generate_contract():
                 except Exception as e2:
                     logger.error(f"最终设置单元格失败 {cell_ref}: {e2}")
         
-        # 填充Excel单元格到两个sheet
-        for sheet in [sc_sheet, pi_sheet]:
-            # 买方名称 - C3-D3合并单元格
-            safe_set_cell(sheet, 'C3', buyer_name)
-            
-            # 买方地址 - C4-D4合并单元格
-            safe_set_cell(sheet, 'C4', buyer_address)
-            
-            # 买方电话 - C5-D5合并单元格
-            safe_set_cell(sheet, 'C5', buyer_phone)
-            
-            # 卖方名称 - C6-D6合并单元格
-            safe_set_cell(sheet, 'C6', seller_name)
-            
-            # 卖方地址 - C7-D7合并单元格
-            safe_set_cell(sheet, 'C7', seller_address)
-            
-            # 卖方电话 - C8-D8合并单元格
-            safe_set_cell(sheet, 'C8', seller_phone)
-            
-            # 合同编号 - G3
-            safe_set_cell(sheet, 'G3', contract_number)
-            
-            # 合同日期 - G4
-            safe_set_cell(sheet, 'G4', contract_date)
-            
-            # 签署地点 - G5
-            safe_set_cell(sheet, 'G5', contract_location)
-            
-            # 开户行信息 - E7-G8合并单元格
-            safe_set_cell(sheet, 'E7', bank_info)
+        # 填充Excel单元格到SC sheet
+        # 买方名称 - C3-D3合并单元格
+        safe_set_cell(sc_sheet, 'C3', buyer_name)
+        
+        # 买方地址 - C4-D4合并单元格
+        safe_set_cell(sc_sheet, 'C4', buyer_address)
+        
+        # 买方电话 - C5-D5合并单元格
+        safe_set_cell(sc_sheet, 'C5', buyer_phone)
+        
+        # 卖方名称 - C6-D6合并单元格
+        safe_set_cell(sc_sheet, 'C6', seller_name)
+        
+        # 卖方地址 - C7-D7合并单元格
+        safe_set_cell(sc_sheet, 'C7', seller_address)
+        
+        # 卖方电话 - C8-D8合并单元格
+        safe_set_cell(sc_sheet, 'C8', seller_phone)
+        
+        # 合同编号 - G3
+        safe_set_cell(sc_sheet, 'G3', contract_number)
+        
+        # 合同日期 - G4
+        safe_set_cell(sc_sheet, 'G4', contract_date)
+        
+        # 签署地点 - G5
+        safe_set_cell(sc_sheet, 'G5', contract_location)
+        
+        # 开户行信息 - E7-G8合并单元格
+        safe_set_cell(sc_sheet, 'E7', bank_info)
         
         # 处理货物信息
         goods_data = data.get('goodsData', [])
@@ -171,35 +170,41 @@ def generate_contract():
                 sc_sheet.row_dimensions[row_num].hidden = False
                 pi_sheet.row_dimensions[row_num].hidden = False
                 
-                # 填充货物数据到两个sheet
+                # 只填充货物数据到SC sheet，PI sheet保持原样
                 goods_item = goods_data[i]
-                for sheet in [sc_sheet, pi_sheet]:
-                    # 安全地填充货物数据 - 适配前端字段名
-                    safe_set_cell(sheet, f'B{row_num}', goods_item.get('model', goods_item.get('name', '')))
-                    safe_set_cell(sheet, f'C{row_num}', goods_item.get('description', goods_item.get('specification', '')))
-                    safe_set_cell(sheet, f'D{row_num}', goods_item.get('color', ''))  # 颜色字段
-                    safe_set_cell(sheet, f'E{row_num}', goods_item.get('quantity', ''))
-                    safe_set_cell(sheet, f'F{row_num}', goods_item.get('unitPrice', ''))
-                    safe_set_cell(sheet, f'G{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
+                # 安全地填充货物数据 - 适配前端字段名
+                safe_set_cell(sc_sheet, f'B{row_num}', goods_item.get('model', goods_item.get('name', '')))
+                safe_set_cell(sc_sheet, f'C{row_num}', goods_item.get('description', goods_item.get('specification', '')))
+                safe_set_cell(sc_sheet, f'D{row_num}', goods_item.get('color', ''))  # 颜色字段
+                safe_set_cell(sc_sheet, f'E{row_num}', goods_item.get('quantity', ''))
+                safe_set_cell(sc_sheet, f'F{row_num}', goods_item.get('unitPrice', ''))
+                safe_set_cell(sc_sheet, f'G{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
         
-        # 处理运输信息
-        # D21 - 装运港
+        # 处理运输信息 - 只填充到SC sheet
+        # D21-E21 - 装运港（合并单元格）
         port_of_loading = data.get('portOfLoading', '')
         if port_of_loading:
-            for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell(sheet, 'D21', port_of_loading)
+            safe_set_cell(sc_sheet, 'D21', port_of_loading)
         
-        # D22 - 目的港
+        # D22-E22 - 目的港（合并单元格）
         final_destination = data.get('finalDestination', '')
         if final_destination:
-            for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell(sheet, 'D22', final_destination)
+            safe_set_cell(sc_sheet, 'D22', final_destination)
         
-        # D25 - 运输路线
+        # B23-G23 - 金额大写
+        amount_in_words = data.get('amountInWords', '')
+        if amount_in_words:
+            safe_set_cell(sc_sheet, 'B23', amount_in_words)
+        
+        # D24-G24 - 付款条件（合并单元格）
+        payment_terms = data.get('paymentTerms', '')
+        if payment_terms:
+            safe_set_cell(sc_sheet, 'D24', payment_terms)
+        
+        # D25-G25 - 运输路线（合并单元格）
         transport_route = data.get('transportRoute', '')
         if transport_route:
-            for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell(sheet, 'D25', transport_route)
+            safe_set_cell(sc_sheet, 'D25', transport_route)
         
         # D26-G26 - 运输方式（合并单元格）
         mode_of_shipment = data.get('modeOfShipment', '')
@@ -211,8 +216,7 @@ def generate_contract():
                 'AIR': '空运 AIR'
             }
             shipment_text = shipment_mapping.get(mode_of_shipment.upper(), mode_of_shipment)
-            for sheet in [sc_sheet, pi_sheet]:
-                safe_set_cell(sheet, 'D26', shipment_text)
+            safe_set_cell(sc_sheet, 'D26', shipment_text)
         
         # 生成输出文件名 - 使用合同编号
         if contract_number:
