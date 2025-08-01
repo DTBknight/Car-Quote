@@ -1,6 +1,5 @@
 // 合同管理器模块
 import { getApiUrl } from './config.js';
-import { translationService } from './translationService.js';
 
 export class ContractManager {
   constructor() {
@@ -45,183 +44,546 @@ export class ContractManager {
       '银川': 'Yinchuan',
       '西宁': 'Xining',
       '拉萨': 'Lhasa',
-      '乌鲁木齐': 'Urumqi',
-      '呼和浩特': 'Hohhot',
-      
-      // 新疆及中亚贸易重要城市
-      '霍尔果斯': 'Khorgos',
-      '喀什': 'Kashgar',
-      '阿拉山口': 'Alashankou',
-      '巴克图': 'Bakhtu',
-      '吉木乃': 'Jeminay',
-      '塔城': 'Tacheng',
-      '伊宁': 'Yining',
-      '阿勒泰': 'Altay',
-      '博乐': 'Bole',
-      '石河子': 'Shihezi',
-      '奎屯': 'Kuitun',
-      '克拉玛依': 'Karamay',
-      '吐鲁番': 'Turpan',
-      '哈密': 'Hami',
-      '库尔勒': 'Korla',
-      '阿克苏': 'Aksu',
-      '和田': 'Hotan',
-      '阿图什': 'Artux',
-      '图木舒克': 'Tumxuk',
-      '五家渠': 'Wujiaqu',
-      '北屯': 'Beitun',
-      '铁门关': 'Tiemenguan',
-      '双河': 'Shuanghe',
-      '可克达拉': 'Kokdala',
-      '胡杨河': 'Huyanghe',
-      '新星': 'Xinxing',
-      '白杨': 'Baiyang',
-      '昆玉': 'Kunyu',
-      '胡杨': 'Huyang',
-      '阿拉尔': 'Aral',
-      
-      // 中亚国家及主要城市
-      '哈萨克斯坦': 'Kazakhstan',
-      '阿拉木图': 'Almaty',
-      '阿斯塔纳': 'Astana',
-      '努尔苏丹': 'Nur-Sultan',
-      '奇姆肯特': 'Shymkent',
-      '阿克套': 'Aktau',
-      '阿特劳': 'Atyrau',
-      '卡拉干达': 'Karaganda',
-      '巴甫洛达尔': 'Pavlodar',
-      '塞米伊': 'Semey',
-      '乌斯季卡缅诺戈尔斯克': 'Ust-Kamenogorsk',
-      '塔拉兹': 'Taraz',
-      '科斯塔奈': 'Kostanay',
-      '彼得罗巴甫洛夫斯克': 'Petropavl',
-      '乌拉尔': 'Oral',
-      '阿克托别': 'Aktobe',
-      '克孜洛尔达': 'Kyzylorda',
-      '科克舍套': 'Kokshetau',
-      
-      '吉尔吉斯斯坦': 'Kyrgyzstan',
-      '比什凯克': 'Bishkek',
-      '奥什': 'Osh',
-      '贾拉拉巴德': 'Jalal-Abad',
-      '卡拉科尔': 'Karakol',
-      '托克马克': 'Tokmok',
-      '纳伦': 'Naryn',
-      '塔拉斯': 'Talas',
-      '巴特肯': 'Batken',
-      '伊塞克湖': 'Issyk-Kul',
-      '楚河': 'Chuy',
-      
-      '乌兹别克斯坦': 'Uzbekistan',
-      '塔什干': 'Tashkent',
-      '撒马尔罕': 'Samarkand',
-      '布哈拉': 'Bukhara',
-      '纳曼干': 'Namangan',
-      '安集延': 'Andijan',
-      '费尔干纳': 'Fergana',
-      '卡什卡达里亚': 'Kashkadarya',
-      '苏尔汉河': 'Surkhandarya',
-      '纳沃伊': 'Navoiy',
-      '花拉子模': 'Khorezm',
-      '卡拉卡尔帕克斯坦': 'Karakalpakstan',
-      
-      '塔吉克斯坦': 'Tajikistan',
-      '杜尚别': 'Dushanbe',
-      '苦盏': 'Khujand',
-      '库利亚布': 'Kulob',
-      '库尔干秋别': 'Kurgan-Tyube',
-      '彭吉肯特': 'Panjakent',
-      '伊斯塔拉夫尚': 'Istaravshan',
-      '瓦赫什': 'Vakhsh',
-      '努雷克': 'Nurek',
-      '罗贡': 'Rogun',
-      
-      '土库曼斯坦': 'Turkmenistan',
-      '阿什哈巴德': 'Ashgabat',
-      '土库曼巴什': 'Türkmenbaşy',
-      '马雷': 'Mary',
-      '达什古兹': 'Daşoguz',
-      '巴尔坎纳巴德': 'Balkanabat',
-      '土库曼纳巴德': 'Türkmenabat',
-      '阿巴丹': 'Abadan',
-      '卡阿赫塔': 'Kaakhka',
-      '拜拉姆阿里': 'Bayramaly',
-      
-      // 俄罗斯中亚地区
-      '新西伯利亚': 'Novosibirsk',
-      '鄂木斯克': 'Omsk',
-      '托木斯克': 'Tomsk',
-      '克拉斯诺亚尔斯克': 'Krasnoyarsk',
-      '伊尔库茨克': 'Irkutsk',
-      '乌兰乌德': 'Ulan-Ude',
-      '赤塔': 'Chita',
-      '布拉戈维申斯克': 'Blagoveshchensk',
-      '符拉迪沃斯托克': 'Vladivostok',
-      '哈巴罗夫斯克': 'Khabarovsk',
-      '雅库茨克': 'Yakutsk',
-      
-      // 蒙古
-      '蒙古': 'Mongolia',
-      '乌兰巴托': 'Ulaanbaatar',
-      '额尔登特': 'Erdenet',
-      '达尔汗': 'Darkhan',
-      '乔巴山': 'Choibalsan',
-      '木伦': 'Mörön',
-      '乌列盖': 'Ölgii',
-      '科布多': 'Khovd',
-      
-      // 阿富汗
-      '阿富汗': 'Afghanistan',
-      '喀布尔': 'Kabul',
-      '坎大哈': 'Kandahar',
-      '赫拉特': 'Herat',
-      '马扎里沙里夫': 'Mazar-i-Sharif',
-      '贾拉拉巴德': 'Jalalabad',
-      '昆都士': 'Kunduz',
-      '加兹尼': 'Ghazni',
-      '巴米扬': 'Bamiyan',
-      '巴达赫尚': 'Badakhshan',
-      
-      // 巴基斯坦
-      '巴基斯坦': 'Pakistan',
-      '伊斯兰堡': 'Islamabad',
-      '卡拉奇': 'Karachi',
-      '拉合尔': 'Lahore',
-      '费萨拉巴德': 'Faisalabad',
-      '拉瓦尔品第': 'Rawalpindi',
-      '白沙瓦': 'Peshawar',
-      '奎达': 'Quetta',
-      '木尔坦': 'Multan',
-      '海得拉巴': 'Hyderabad',
-      '苏库尔': 'Sukkur',
-      
-      // 印度
-      '印度': 'India',
-      '新德里': 'New Delhi',
-      '孟买': 'Mumbai',
-      '加尔各答': 'Kolkata',
-      '班加罗尔': 'Bangalore',
-      '海得拉巴': 'Hyderabad',
-      '金奈': 'Chennai',
-      '艾哈迈达巴德': 'Ahmedabad',
-      '浦那': 'Pune',
-      '苏拉特': 'Surat',
-      '斋浦尔': 'Jaipur',
-      '勒克瑙': 'Lucknow',
-      
-      // 伊朗
-      '伊朗': 'Iran',
-      '德黑兰': 'Tehran',
-      '马什哈德': 'Mashhad',
-      '伊斯法罕': 'Isfahan',
-      '设拉子': 'Shiraz',
-      '大不里士': 'Tabriz',
-      '库姆': 'Qom',
-      '克尔曼': 'Kerman',
-      '亚兹德': 'Yazd',
-      '阿瓦士': 'Ahvaz',
-      '布什尔': 'Bushehr',
-      '阿巴斯港': 'Bandar Abbas',
+              '乌鲁木齐': 'Urumqi',
+        '呼和浩特': 'Hohhot',
+        
+        // 中国重要口岸城市
+        '霍尔果斯': 'Khorgos',
+        '阿拉山口': 'Alashankou',
+        '巴克图': 'Bakhtu',
+        '吉木乃': 'Jeminay',
+        '塔城': 'Tacheng',
+        '伊宁': 'Yining',
+        '阿勒泰': 'Altay',
+        '博乐': 'Bole',
+        '石河子': 'Shihezi',
+        '奎屯': 'Kuitun',
+        '克拉玛依': 'Karamay',
+        '吐鲁番': 'Turpan',
+        '哈密': 'Hami',
+        '库尔勒': 'Korla',
+        '阿克苏': 'Aksu',
+        '和田': 'Hotan',
+        '阿图什': 'Artux',
+        '图木舒克': 'Tumxuk',
+        '五家渠': 'Wujiaqu',
+        '北屯': 'Beitun',
+        '铁门关': 'Tiemenguan',
+        '双河': 'Shuanghe',
+        '可克达拉': 'Kokdala',
+        '胡杨河': 'Huyanghe',
+        '新星': 'Xinxing',
+        '白杨': 'Baiyang',
+        '昆玉': 'Kunyu',
+        '胡杨': 'Huyang',
+        '阿拉尔': 'Aral',
+        
+        // 中亚国家及主要城市
+        '哈萨克斯坦': 'Kazakhstan',
+        '阿拉木图': 'Almaty',
+        '阿斯塔纳': 'Astana',
+        '努尔苏丹': 'Nur-Sultan',
+        '奇姆肯特': 'Shymkent',
+        '阿克套': 'Aktau',
+        '阿特劳': 'Atyrau',
+        '卡拉干达': 'Karaganda',
+        '巴甫洛达尔': 'Pavlodar',
+        '塞米伊': 'Semey',
+        '乌斯季卡缅诺戈尔斯克': 'Ust-Kamenogorsk',
+        '塔拉兹': 'Taraz',
+        '科斯塔奈': 'Kostanay',
+        '彼得罗巴甫洛夫斯克': 'Petropavl',
+        '乌拉尔': 'Oral',
+        '阿克托别': 'Aktobe',
+        '克孜洛尔达': 'Kyzylorda',
+        '科克舍套': 'Kokshetau',
+        
+        '吉尔吉斯斯坦': 'Kyrgyzstan',
+        '比什凯克': 'Bishkek',
+        '奥什': 'Osh',
+        '贾拉拉巴德': 'Jalal-Abad',
+        '卡拉科尔': 'Karakol',
+        '托克马克': 'Tokmok',
+        '纳伦': 'Naryn',
+        '塔拉斯': 'Talas',
+        '巴特肯': 'Batken',
+        '伊塞克湖': 'Issyk-Kul',
+        '楚河': 'Chuy',
+        
+        '乌兹别克斯坦': 'Uzbekistan',
+        '塔什干': 'Tashkent',
+        '撒马尔罕': 'Samarkand',
+        '布哈拉': 'Bukhara',
+        '纳曼干': 'Namangan',
+        '安集延': 'Andijan',
+        '费尔干纳': 'Fergana',
+        '卡什卡达里亚': 'Kashkadarya',
+        '苏尔汉河': 'Surkhandarya',
+        '纳沃伊': 'Navoiy',
+        '花拉子模': 'Khorezm',
+        '卡拉卡尔帕克斯坦': 'Karakalpakstan',
+        
+        '塔吉克斯坦': 'Tajikistan',
+        '杜尚别': 'Dushanbe',
+        '苦盏': 'Khujand',
+        '库利亚布': 'Kulob',
+        '库尔干秋别': 'Kurgan-Tyube',
+        '彭吉肯特': 'Panjakent',
+        '伊斯塔拉夫尚': 'Istaravshan',
+        '瓦赫什': 'Vakhsh',
+        '努雷克': 'Nurek',
+        '罗贡': 'Rogun',
+        
+        '土库曼斯坦': 'Turkmenistan',
+        '阿什哈巴德': 'Ashgabat',
+        '土库曼巴什': 'Türkmenbaşy',
+        '马雷': 'Mary',
+        '达什古兹': 'Daşoguz',
+        '巴尔坎纳巴德': 'Balkanabat',
+        '土库曼纳巴德': 'Türkmenabat',
+        '阿巴丹': 'Abadan',
+        '卡阿赫塔': 'Kaakhka',
+        '拜拉姆阿里': 'Bayramaly',
+        
+        // 东南亚国家及主要城市
+        '越南': 'Vietnam',
+        '河内': 'Hanoi',
+        '胡志明市': 'Ho Chi Minh City',
+        '海防': 'Haiphong',
+        '岘港': 'Da Nang',
+        '芹苴': 'Can Tho',
+        '顺化': 'Hue',
+        '芽庄': 'Nha Trang',
+        '大叻': 'Da Lat',
+        '下龙湾': 'Ha Long Bay',
+        '富国岛': 'Phu Quoc',
+        
+        '泰国': 'Thailand',
+        '曼谷': 'Bangkok',
+        '清迈': 'Chiang Mai',
+        '普吉岛': 'Phuket',
+        '芭堤雅': 'Pattaya',
+        '华欣': 'Hua Hin',
+        '苏梅岛': 'Koh Samui',
+        '甲米': 'Krabi',
+        '清莱': 'Chiang Rai',
+        '孔敬': 'Khon Kaen',
+        '乌汶': 'Ubon Ratchathani',
+        
+        '马来西亚': 'Malaysia',
+        '吉隆坡': 'Kuala Lumpur',
+        '槟城': 'Penang',
+        '马六甲': 'Malacca',
+        '新山': 'Johor Bahru',
+        '怡保': 'Ipoh',
+        '关丹': 'Kuantan',
+        '古晋': 'Kuching',
+        '亚庇': 'Kota Kinabalu',
+        '兰卡威': 'Langkawi',
+        '沙巴': 'Sabah',
+        '砂拉越': 'Sarawak',
+        
+        '新加坡': 'Singapore',
+        '新加坡市': 'Singapore City',
+        '樟宜': 'Changi',
+        '裕廊': 'Jurong',
+        '圣淘沙': 'Sentosa',
+        '乌节路': 'Orchard Road',
+        
+        '印度尼西亚': 'Indonesia',
+        '雅加达': 'Jakarta',
+        '泗水': 'Surabaya',
+        '万隆': 'Bandung',
+        '日惹': 'Yogyakarta',
+        '棉兰': 'Medan',
+        '三宝垄': 'Semarang',
+        '巴厘岛': 'Bali',
+        '龙目岛': 'Lombok',
+        '苏门答腊': 'Sumatra',
+        '爪哇': 'Java',
+        '加里曼丹': 'Kalimantan',
+        '苏拉威西': 'Sulawesi',
+        
+        '菲律宾': 'Philippines',
+        '马尼拉': 'Manila',
+        '宿务': 'Cebu',
+        '达沃': 'Davao',
+        '碧瑶': 'Baguio',
+        '长滩岛': 'Boracay',
+        '巴拉望': 'Palawan',
+        '薄荷岛': 'Bohol',
+        '棉兰老岛': 'Mindanao',
+        '吕宋岛': 'Luzon',
+        '维萨亚斯': 'Visayas',
+        
+        '缅甸': 'Myanmar',
+        '仰光': 'Yangon',
+        '内比都': 'Naypyidaw',
+        '曼德勒': 'Mandalay',
+        '蒲甘': 'Bagan',
+        '茵莱湖': 'Inle Lake',
+        '毛淡棉': 'Mawlamyine',
+        '勃固': 'Bago',
+        '实兑': 'Sittwe',
+        
+        '柬埔寨': 'Cambodia',
+        '金边': 'Phnom Penh',
+        '暹粒': 'Siem Reap',
+        '西哈努克港': 'Sihanoukville',
+        '马德望': 'Battambang',
+        '贡布': 'Kampot',
+        '磅湛': 'Kampong Cham',
+        
+        '老挝': 'Laos',
+        '万象': 'Vientiane',
+        '琅勃拉邦': 'Luang Prabang',
+        '巴色': 'Pakse',
+        '沙湾拿吉': 'Savannakhet',
+        '琅南塔': 'Luang Namtha',
+        
+        '文莱': 'Brunei',
+        '斯里巴加湾市': 'Bandar Seri Begawan',
+        '诗里亚': 'Seria',
+        '瓜拉贝拉特': 'Kuala Belait',
+        
+        '东帝汶': 'East Timor',
+        '帝力': 'Dili',
+        '包考': 'Baucau',
+        '利基萨': 'Liquiçá',
+        
+        // 非洲主要国家及城市
+        '埃及': 'Egypt',
+        '开罗': 'Cairo',
+        '亚历山大': 'Alexandria',
+        '吉萨': 'Giza',
+        '卢克索': 'Luxor',
+        '阿斯旺': 'Aswan',
+        '沙姆沙伊赫': 'Sharm El Sheikh',
+        '赫尔格达': 'Hurghada',
+        '苏伊士': 'Suez',
+        '塞得港': 'Port Said',
+        
+        '南非': 'South Africa',
+        '约翰内斯堡': 'Johannesburg',
+        '开普敦': 'Cape Town',
+        '比勒陀利亚': 'Pretoria',
+        '德班': 'Durban',
+        '布隆方丹': 'Bloemfontein',
+        '伊丽莎白港': 'Port Elizabeth',
+        '东伦敦': 'East London',
+        '金伯利': 'Kimberley',
+        
+        '尼日利亚': 'Nigeria',
+        '拉各斯': 'Lagos',
+        '阿布贾': 'Abuja',
+        '卡诺': 'Kano',
+        '伊巴丹': 'Ibadan',
+        '卡杜纳': 'Kaduna',
+        '哈科特港': 'Port Harcourt',
+        '贝宁城': 'Benin City',
+        '扎里亚': 'Zaria',
+        
+        '肯尼亚': 'Kenya',
+        '内罗毕': 'Nairobi',
+        '蒙巴萨': 'Mombasa',
+        '基苏木': 'Kisumu',
+        '纳库鲁': 'Nakuru',
+        '埃尔多雷特': 'Eldoret',
+        '马林迪': 'Malindi',
+        '拉穆': 'Lamu',
+        
+        '埃塞俄比亚': 'Ethiopia',
+        '亚的斯亚贝巴': 'Addis Ababa',
+        '德雷达瓦': 'Dire Dawa',
+        '贡德尔': 'Gondar',
+        '阿克苏姆': 'Axum',
+        '拉利贝拉': 'Lalibela',
+        '巴赫达尔': 'Bahir Dar',
+        
+        '摩洛哥': 'Morocco',
+        '拉巴特': 'Rabat',
+        '卡萨布兰卡': 'Casablanca',
+        '马拉喀什': 'Marrakech',
+        '非斯': 'Fez',
+        '丹吉尔': 'Tangier',
+        '阿加迪尔': 'Agadir',
+        '梅克内斯': 'Meknes',
+        
+        '阿尔及利亚': 'Algeria',
+        '阿尔及尔': 'Algiers',
+        '奥兰': 'Oran',
+        '君士坦丁': 'Constantine',
+        '安纳巴': 'Annaba',
+        '贝贾亚': 'Bejaia',
+        '斯基克达': 'Skikda',
+        
+        '突尼斯': 'Tunisia',
+        '突尼斯市': 'Tunis',
+        '斯法克斯': 'Sfax',
+        '苏塞': 'Sousse',
+        '莫纳斯提尔': 'Monastir',
+        '加贝斯': 'Gabes',
+        '比塞大': 'Bizerte',
+        
+        '加纳': 'Ghana',
+        '阿克拉': 'Accra',
+        '库马西': 'Kumasi',
+        '塔马利': 'Tamale',
+        '特马': 'Tema',
+        '塞康第': 'Sekondi',
+        '海岸角': 'Cape Coast',
+        
+        '科特迪瓦': 'Ivory Coast',
+        '阿比让': 'Abidjan',
+        '亚穆苏克罗': 'Yamoussoukro',
+        '布瓦凯': 'Bouake',
+        '圣佩德罗': 'San Pedro',
+        '科霍戈': 'Korhogo',
+        
+        '塞内加尔': 'Senegal',
+        '达喀尔': 'Dakar',
+        '图巴': 'Touba',
+        '蒂埃斯': 'Thies',
+        '考拉克': 'Kaolack',
+        '济金绍尔': 'Ziguinchor',
+        
+        '马里': 'Mali',
+        '巴马科': 'Bamako',
+        '锡卡索': 'Sikasso',
+        '莫普提': 'Mopti',
+        '通布图': 'Timbuktu',
+        '加奥': 'Gao',
+        
+        '布基纳法索': 'Burkina Faso',
+        '瓦加杜古': 'Ouagadougou',
+        '博博迪乌拉索': 'Bobo-Dioulasso',
+        '库杜古': 'Koudougou',
+        '瓦希古亚': 'Ouahigouya',
+        
+        '乍得': 'Chad',
+        '恩贾梅纳': 'N\'Djamena',
+        '蒙杜': 'Moundou',
+        '萨尔': 'Sarh',
+        '阿贝歇': 'Abéché',
+        
+        '苏丹': 'Sudan',
+        '喀土穆': 'Khartoum',
+        '恩图曼': 'Omdurman',
+        '北喀土穆': 'Khartoum North',
+        '苏丹港': 'Port Sudan',
+        '瓦德迈达尼': 'Wad Madani',
+        
+        '南苏丹': 'South Sudan',
+        '朱巴': 'Juba',
+        '瓦乌': 'Wau',
+        '马拉卡勒': 'Malakal',
+        '伦拜克': 'Rumbek',
+        
+        '乌干达': 'Uganda',
+        '坎帕拉': 'Kampala',
+        '金贾': 'Jinja',
+        '姆巴莱': 'Mbale',
+        '阿鲁阿': 'Arua',
+        '古卢': 'Gulu',
+        
+        '坦桑尼亚': 'Tanzania',
+        '达累斯萨拉姆': 'Dar es Salaam',
+        '多多马': 'Dodoma',
+        '阿鲁沙': 'Arusha',
+        '姆万扎': 'Mwanza',
+        '坦噶': 'Tanga',
+        '桑给巴尔': 'Zanzibar',
+        
+        '赞比亚': 'Zambia',
+        '卢萨卡': 'Lusaka',
+        '基特韦': 'Kitwe',
+        '恩多拉': 'Ndola',
+        '卡布韦': 'Kabwe',
+        '钦戈拉': 'Chingola',
+        
+        '津巴布韦': 'Zimbabwe',
+        '哈拉雷': 'Harare',
+        '布拉瓦约': 'Bulawayo',
+        '奇通圭扎': 'Chitungwiza',
+        '穆塔雷': 'Mutare',
+        '埃普沃思': 'Epworth',
+        
+        '安哥拉': 'Angola',
+        '罗安达': 'Luanda',
+        '本格拉': 'Benguela',
+        '洛比托': 'Lobito',
+        '纳米贝': 'Namibe',
+        '卢班戈': 'Lubango',
+        
+        '刚果民主共和国': 'Democratic Republic of the Congo',
+        '金沙萨': 'Kinshasa',
+        '卢本巴希': 'Lubumbashi',
+        '姆班达卡': 'Mbandaka',
+        '基桑加尼': 'Kisangani',
+        '布卡武': 'Bukavu',
+        
+        '刚果共和国': 'Republic of the Congo',
+        '布拉柴维尔': 'Brazzaville',
+        '黑角': 'Pointe-Noire',
+        '多利西': 'Dolisie',
+        '恩卡伊': 'Nkayi',
+        
+        '加蓬': 'Gabon',
+        '利伯维尔': 'Libreville',
+        '让蒂尔港': 'Port-Gentil',
+        '弗朗斯维尔': 'Franceville',
+        '奥耶姆': 'Oyem',
+        
+        '喀麦隆': 'Cameroon',
+        '雅温得': 'Yaoundé',
+        '杜阿拉': 'Douala',
+        '加鲁阿': 'Garoua',
+        '巴门达': 'Bamenda',
+        '马鲁阿': 'Maroua',
+        
+        // 南美洲主要国家及城市
+        '巴西': 'Brazil',
+        '圣保罗': 'São Paulo',
+        '里约热内卢': 'Rio de Janeiro',
+        '巴西利亚': 'Brasília',
+        '萨尔瓦多': 'Salvador',
+        '福塔雷萨': 'Fortaleza',
+        '贝洛奥里藏特': 'Belo Horizonte',
+        '马瑙斯': 'Manaus',
+        '库里蒂巴': 'Curitiba',
+        '累西腓': 'Recife',
+        '阿雷格里港': 'Porto Alegre',
+        '贝伦': 'Belém',
+        '戈亚尼亚': 'Goiânia',
+        '瓜鲁柳斯': 'Guarulhos',
+        '坎皮纳斯': 'Campinas',
+        '新伊瓜苏': 'Nova Iguaçu',
+        
+        '阿根廷': 'Argentina',
+        '布宜诺斯艾利斯': 'Buenos Aires',
+        '科尔多瓦': 'Córdoba',
+        '罗萨里奥': 'Rosario',
+        '门多萨': 'Mendoza',
+        '拉普拉塔': 'La Plata',
+        '圣菲': 'Santa Fe',
+        '圣胡安': 'San Juan',
+        '萨尔塔': 'Salta',
+        '图库曼': 'Tucumán',
+        '马德普拉塔': 'Mar del Plata',
+        
+        '智利': 'Chile',
+        '圣地亚哥': 'Santiago',
+        '瓦尔帕莱索': 'Valparaíso',
+        '康塞普西翁': 'Concepción',
+        '拉塞雷纳': 'La Serena',
+        '安托法加斯塔': 'Antofagasta',
+        '特木科': 'Temuco',
+        '伊基克': 'Iquique',
+        '阿里卡': 'Arica',
+        '蓬塔阿雷纳斯': 'Punta Arenas',
+        
+        '哥伦比亚': 'Colombia',
+        '波哥大': 'Bogotá',
+        '麦德林': 'Medellín',
+        '卡利': 'Cali',
+        '巴兰基亚': 'Barranquilla',
+        '卡塔赫纳': 'Cartagena',
+        '布卡拉曼加': 'Bucaramanga',
+        '佩雷拉': 'Pereira',
+        '马尼萨莱斯': 'Manizales',
+        '比亚维森西奥': 'Villavicencio',
+        '库库塔': 'Cúcuta',
+        
+        '秘鲁': 'Peru',
+        '利马': 'Lima',
+        '阿雷基帕': 'Arequipa',
+        '特鲁希略': 'Trujillo',
+        '奇克拉约': 'Chiclayo',
+        '皮乌拉': 'Piura',
+        '伊基托斯': 'Iquitos',
+        '库斯科': 'Cusco',
+        '钦博特': 'Chimbote',
+        '塔克纳': 'Tacna',
+        '卡哈马卡': 'Cajamarca',
+        
+        '委内瑞拉': 'Venezuela',
+        '加拉加斯': 'Caracas',
+        '马拉开波': 'Maracaibo',
+        '巴伦西亚': 'Valencia',
+        '巴基西梅托': 'Barquisimeto',
+        '马图林': 'Maturín',
+        '梅里达': 'Mérida',
+        '圣克里斯托瓦尔': 'San Cristóbal',
+        '巴塞罗那': 'Barcelona',
+        '马拉凯': 'Maracay',
+        '库马纳': 'Cumaná',
+        
+        '厄瓜多尔': 'Ecuador',
+        '基多': 'Quito',
+        '瓜亚基尔': 'Guayaquil',
+        '昆卡': 'Cuenca',
+        '圣多明各': 'Santo Domingo',
+        '马查拉': 'Machala',
+        '杜兰': 'Durán',
+        '曼塔': 'Manta',
+        '波托维耶霍': 'Portoviejo',
+        '洛哈': 'Loja',
+        '安巴托': 'Ambato',
+        
+        '玻利维亚': 'Bolivia',
+        '拉巴斯': 'La Paz',
+        '圣克鲁斯': 'Santa Cruz',
+        '科恰班巴': 'Cochabamba',
+        '奥鲁罗': 'Oruro',
+        '苏克雷': 'Sucre',
+        '塔里哈': 'Tarija',
+        '波托西': 'Potosí',
+        '特立尼达': 'Trinidad',
+        '科罗伊科': 'Coroico',
+        
+        '巴拉圭': 'Paraguay',
+        '亚松森': 'Asunción',
+        '东方市': 'Ciudad del Este',
+        '圣洛伦索': 'San Lorenzo',
+        '卢克': 'Luque',
+        '卡皮亚塔': 'Capiatá',
+        '兰巴雷': 'Lambaré',
+        '费尔南多': 'Fernando de la Mora',
+        '利姆皮奥': 'Limpio',
+        '涅姆比': 'Ñemby',
+        
+        '乌拉圭': 'Uruguay',
+        '蒙得维的亚': 'Montevideo',
+        '萨尔托': 'Salto',
+        '派桑杜': 'Paysandú',
+        '拉斯彼德拉斯': 'Las Piedras',
+        '里韦拉': 'Rivera',
+        '梅洛': 'Melo',
+        '塔夸伦博': 'Tacuarembó',
+        '马尔多纳多': 'Maldonado',
+        '罗恰': 'Rocha',
+        
+        '圭亚那': 'Guyana',
+        '乔治敦': 'Georgetown',
+        '林登': 'Linden',
+        '新阿姆斯特丹': 'New Amsterdam',
+        '安娜女王村': 'Anna Regina',
+        '巴蒂卡': 'Bartica',
+        '马巴鲁马': 'Mabaruma',
+        
+        '苏里南': 'Suriname',
+        '帕拉马里博': 'Paramaribo',
+        '莱利多普': 'Lelydorp',
+        '新尼克里': 'Nieuw Nickerie',
+        '蒙戈': 'Mungo',
+        '布朗斯堡': 'Brownsweg',
+        
+        '法属圭亚那': 'French Guiana',
+        '卡宴': 'Cayenne',
+        '库鲁': 'Kourou',
+        '圣洛朗': 'Saint-Laurent-du-Maroni',
+        '马图里': 'Matoury',
+        '雷米雷': 'Rémire-Montjoly',
       
       // 港口城市
       '青岛港': 'Qingdao Port',
@@ -1135,17 +1497,23 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
   }
   
   // 地名翻译方法
-  async translateLocation(chineseText) {
+  translateLocation(chineseText) {
     if (!chineseText) return '';
     
-    try {
-      // 使用智能翻译服务
-      const result = await translationService.smartTranslate(chineseText, 'zh', 'en');
-      return result;
-    } catch (error) {
-      console.error('翻译失败:', error);
-      return chineseText; // 如果翻译失败，返回原文本
+    // 检查是否有完全匹配
+    if (this.locationTranslations[chineseText]) {
+      return this.locationTranslations[chineseText];
     }
+    
+    // 检查是否包含已知地名
+    for (const [chinese, english] of Object.entries(this.locationTranslations)) {
+      if (chineseText.includes(chinese)) {
+        return chineseText.replace(chinese, english);
+      }
+    }
+    
+    // 如果没有匹配，返回原文本
+    return chineseText;
   }
   
   // 绑定地名翻译事件
@@ -1168,51 +1536,35 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
   
   // 设置双输入框翻译功能
   setupDualInputTranslation(chineseInput, englishInput) {
-    let translateTimeout = null;
-    
-    // 防抖翻译函数
-    const debouncedTranslate = async (value) => {
-      if (translateTimeout) {
-        clearTimeout(translateTimeout);
-      }
-      
-      translateTimeout = setTimeout(async () => {
-        if (value && value.trim() !== '') {
-          try {
-            const translated = await this.translateLocation(value);
-            if (translated && translated !== value) {
-              englishInput.value = translated;
-            } else {
-              englishInput.value = '';
-            }
-          } catch (error) {
-            console.error('翻译失败:', error);
-            englishInput.value = '';
-          }
-        } else {
-          englishInput.value = '';
-        }
-      }, 500); // 500ms防抖延迟
-    };
-    
     // 监听中文输入框的输入事件
     chineseInput.addEventListener('input', (e) => {
       const value = e.target.value;
-      debouncedTranslate(value);
+      const translated = this.translateLocation(value);
+      
+      if (translated && translated !== value) {
+        englishInput.value = translated;
+      } else {
+        englishInput.value = '';
+      }
     });
     
     // 监听中文输入框的失焦事件
-    chineseInput.addEventListener('blur', async (e) => {
+    chineseInput.addEventListener('blur', (e) => {
       const value = e.target.value;
-      if (value && value.trim() !== '') {
-        try {
-          const translated = await this.translateLocation(value);
-          if (translated && translated !== value) {
-            englishInput.value = translated;
-          }
-        } catch (error) {
-          console.error('翻译失败:', error);
-        }
+      const translated = this.translateLocation(value);
+      
+      if (translated && translated !== value) {
+        englishInput.value = translated;
+      }
+    });
+    
+    // 监听中文输入框的聚焦事件
+    chineseInput.addEventListener('focus', (e) => {
+      const value = e.target.value;
+      const translated = this.translateLocation(value);
+      
+      if (translated && translated !== value) {
+        englishInput.value = translated;
       }
     });
   }
