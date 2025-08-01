@@ -96,137 +96,50 @@ def generate_contract():
         # 填充开户行信息
         bank_info = data.get('bankInfo', '')
         
-        # 全新的模板数据填充方法
-        def fill_template_data(sheet, data_mappings):
+        # 最简单的单元格设置函数 - 直接设置值，不破坏合并单元格
+        def simple_set_cell(sheet, cell_ref, value):
             """
-            使用全新的方法填充模板数据，完全避免合并单元格问题
-            """
-            success_count = 0
-            total_count = len(data_mappings)
-            
-            for mapping in data_mappings:
-                try:
-                    cell_ref = mapping['cell']
-                    value = mapping['value']
-                    
-                    # 方法1: 直接使用sheet的索引访问
-                    try:
-                        sheet[cell_ref] = value
-                        success_count += 1
-                        logger.debug(f"成功设置 {cell_ref}: {value}")
-                        continue
-                    except Exception as e1:
-                        logger.debug(f"方法1失败 {cell_ref}: {e1}")
-                    
-                    # 方法2: 使用cell()方法
-                    try:
-                        from openpyxl.utils import column_index_from_string
-                        col = column_index_from_string(cell_ref.replace('0', '').replace('1', '').replace('2', '').replace('3', '').replace('4', '').replace('5', '').replace('6', '').replace('7', '').replace('8', '').replace('9', ''))
-                        row = int(''.join(filter(str.isdigit, cell_ref)))
-                        cell = sheet.cell(row=row, column=col)
-                        cell.value = value
-                        success_count += 1
-                        logger.debug(f"方法2成功设置 {cell_ref}: {value}")
-                        continue
-                    except Exception as e2:
-                        logger.debug(f"方法2失败 {cell_ref}: {e2}")
-                    
-                    # 方法3: 使用坐标转换
-                    try:
-                        from openpyxl.utils import coordinate_from_string
-                        coord = coordinate_from_string(cell_ref)
-                        cell = sheet.cell(row=coord[1], column=coord[0])
-                        cell.value = value
-                        success_count += 1
-                        logger.debug(f"方法3成功设置 {cell_ref}: {value}")
-                        continue
-                    except Exception as e3:
-                        logger.debug(f"方法3失败 {cell_ref}: {e3}")
-                    
-                    logger.error(f"所有方法都失败: {cell_ref}")
-                    
-                except Exception as e:
-                    logger.error(f"填充数据失败 {mapping.get('cell', 'unknown')}: {e}")
-            
-            logger.info(f"数据填充完成: {success_count}/{total_count}")
-            return success_count
-        
-        # 创建模板副本的方法
-        def create_template_copy():
-            """
-            创建模板的完整副本，避免修改原始模板
+            最简单的单元格设置方法，直接设置值，让openpyxl自己处理合并单元格
             """
             try:
-                # 加载原始模板
-                template_workbook = openpyxl.load_workbook(TEMPLATE_PATH)
-                
-                # 创建新的工作簿
-                new_workbook = openpyxl.Workbook()
-                
-                # 复制所有工作表
-                for sheet_name in template_workbook.sheetnames:
-                    if sheet_name in new_workbook.sheetnames:
-                        new_workbook.remove(new_workbook[sheet_name])
-                    
-                    # 复制工作表
-                    source_sheet = template_workbook[sheet_name]
-                    new_sheet = new_workbook.create_sheet(title=sheet_name)
-                    
-                    # 复制所有单元格数据
-                    for row in source_sheet.iter_rows():
-                        for cell in row:
-                            new_sheet[cell.coordinate] = cell.value
-                    
-                    # 复制合并单元格
-                    for merged_range in source_sheet.merged_cells.ranges:
-                        new_sheet.merge_cells(str(merged_range))
-                    
-                    # 复制行高和列宽
-                    for row_num in range(1, source_sheet.max_row + 1):
-                        if source_sheet.row_dimensions[row_num].height:
-                            new_sheet.row_dimensions[row_num].height = source_sheet.row_dimensions[row_num].height
-                    
-                    for col_num in range(1, source_sheet.max_column + 1):
-                        col_letter = openpyxl.utils.get_column_letter(col_num)
-                        if source_sheet.column_dimensions[col_letter].width:
-                            new_sheet.column_dimensions[col_letter].width = source_sheet.column_dimensions[col_letter].width
-                
-                # 删除默认的Sheet
-                if 'Sheet' in new_workbook.sheetnames:
-                    new_workbook.remove(new_workbook['Sheet'])
-                
-                return new_workbook
-                
+                # 直接使用sheet索引设置值，让openpyxl自动处理合并单元格
+                sheet[cell_ref] = value
+                return True
             except Exception as e:
-                logger.error(f"创建模板副本失败: {e}")
-                return None
+                logger.error(f"设置单元格 {cell_ref} 失败: {e}")
+                return False
         
-        # 创建模板副本
-        workbook = create_template_copy()
-        if not workbook:
-            return jsonify({'error': '创建模板副本失败'}), 500
+        # 批量设置单元格的函数
+        def batch_set_cells(sheet, cell_mappings):
+            """
+            批量设置多个单元格
+            """
+            success_count = 0
+            for mapping in cell_mappings:
+                if simple_set_cell(sheet, mapping['cell'], mapping['value']):
+                    success_count += 1
+                    logger.debug(f"成功设置 {mapping['cell']}: {mapping['value']}")
+                else:
+                    logger.error(f"设置失败: {mapping['cell']}")
+            return success_count
         
-        # 获取工作表
-        sc_sheet = workbook['SC']
-        pi_sheet = workbook['PI']
-        
-        # 准备基础信息数据
+        # 使用批量设置函数填充Excel单元格到SC sheet
         basic_cell_mappings = [
-            {'cell': 'C3', 'value': buyer_name},
-            {'cell': 'C4', 'value': buyer_address},
-            {'cell': 'C5', 'value': buyer_phone},
-            {'cell': 'C6', 'value': seller_name},
-            {'cell': 'C7', 'value': seller_address},
-            {'cell': 'C8', 'value': seller_phone},
-            {'cell': 'G3', 'value': contract_number},
-            {'cell': 'G4', 'value': contract_date},
-            {'cell': 'G5', 'value': contract_location},
-            {'cell': 'E7', 'value': bank_info}
+            {'cell': 'C3', 'value': buyer_name, 'desc': '买方名称 - C3-D3合并单元格'},
+            {'cell': 'C4', 'value': buyer_address, 'desc': '买方地址 - C4-D4合并单元格'},
+            {'cell': 'C5', 'value': buyer_phone, 'desc': '买方电话 - C5-D5合并单元格'},
+            {'cell': 'C6', 'value': seller_name, 'desc': '卖方名称 - C6-D6合并单元格'},
+            {'cell': 'C7', 'value': seller_address, 'desc': '卖方地址 - C7-D7合并单元格'},
+            {'cell': 'C8', 'value': seller_phone, 'desc': '卖方电话 - C8-D8合并单元格'},
+            {'cell': 'G3', 'value': contract_number, 'desc': '合同编号 - G3'},
+            {'cell': 'G4', 'value': contract_date, 'desc': '合同日期 - G4'},
+            {'cell': 'G5', 'value': contract_location, 'desc': '签署地点 - G5'},
+            {'cell': 'E7', 'value': bank_info, 'desc': '开户行信息 - E7-G8合并单元格'}
         ]
         
-        # 使用新方法填充基础信息
-        basic_success = fill_template_data(sc_sheet, basic_cell_mappings)
-        logger.info(f"基础信息填充成功: {basic_success}/{len(basic_cell_mappings)}")
+        # 批量设置基础信息
+        success_count = batch_set_cells(sc_sheet, basic_cell_mappings)
+        logger.info(f"基础信息设置成功: {success_count}/{len(basic_cell_mappings)}")
         
         # 处理货物信息
         goods_data = data.get('goodsData', [])
@@ -248,43 +161,41 @@ def generate_contract():
                 
                 # 只填充货物数据到SC sheet，PI sheet保持原样
                 goods_item = goods_data[i]
-                goods_cell_mappings = [
-                    {'cell': f'B{row_num}', 'value': goods_item.get('model', goods_item.get('name', ''))},
-                    {'cell': f'C{row_num}', 'value': goods_item.get('description', goods_item.get('specification', ''))},
-                    {'cell': f'D{row_num}', 'value': goods_item.get('color', '')},  # 颜色字段
-                    {'cell': f'E{row_num}', 'value': goods_item.get('quantity', '')},
-                    {'cell': f'F{row_num}', 'value': goods_item.get('unitPrice', '')},
-                    {'cell': f'G{row_num}', 'value': goods_item.get('totalAmount', goods_item.get('amount', ''))}
-                ]
-                fill_template_data(sc_sheet, goods_cell_mappings)
+                # 简单填充货物数据 - 适配前端字段名
+                simple_set_cell(sc_sheet, f'B{row_num}', goods_item.get('model', goods_item.get('name', '')))
+                simple_set_cell(sc_sheet, f'C{row_num}', goods_item.get('description', goods_item.get('specification', '')))
+                simple_set_cell(sc_sheet, f'D{row_num}', goods_item.get('color', ''))  # 颜色字段
+                simple_set_cell(sc_sheet, f'E{row_num}', goods_item.get('quantity', ''))
+                simple_set_cell(sc_sheet, f'F{row_num}', goods_item.get('unitPrice', ''))
+                simple_set_cell(sc_sheet, f'G{row_num}', goods_item.get('totalAmount', goods_item.get('amount', '')))
         
-        # 处理运输信息 - 使用新方法
+        # 处理运输信息 - 使用批量设置函数
         transport_cell_mappings = []
         
         # D21-E21 - 装运港（合并单元格）
         port_of_loading = data.get('portOfLoading', '')
         if port_of_loading:
-            transport_cell_mappings.append({'cell': 'D21', 'value': port_of_loading})
+            transport_cell_mappings.append({'cell': 'D21', 'value': port_of_loading, 'desc': '装运港'})
         
         # D22-E22 - 目的港（合并单元格）
         final_destination = data.get('finalDestination', '')
         if final_destination:
-            transport_cell_mappings.append({'cell': 'D22', 'value': final_destination})
+            transport_cell_mappings.append({'cell': 'D22', 'value': final_destination, 'desc': '目的港'})
         
         # B23-G23 - 金额大写
         amount_in_words = data.get('amountInWords', '')
         if amount_in_words:
-            transport_cell_mappings.append({'cell': 'B23', 'value': amount_in_words})
+            transport_cell_mappings.append({'cell': 'B23', 'value': amount_in_words, 'desc': '金额大写'})
         
         # D24-G24 - 付款条件（合并单元格）
         payment_terms = data.get('paymentTerms', '')
         if payment_terms:
-            transport_cell_mappings.append({'cell': 'D24', 'value': payment_terms})
+            transport_cell_mappings.append({'cell': 'D24', 'value': payment_terms, 'desc': '付款条件'})
         
         # D25-G25 - 运输路线（合并单元格）
         transport_route = data.get('transportRoute', '')
         if transport_route:
-            transport_cell_mappings.append({'cell': 'D25', 'value': transport_route})
+            transport_cell_mappings.append({'cell': 'D25', 'value': transport_route, 'desc': '运输路线'})
         
         # D26-G26 - 运输方式（合并单元格）
         mode_of_shipment = data.get('modeOfShipment', '')
@@ -296,12 +207,12 @@ def generate_contract():
                 'AIR': '空运 AIR'
             }
             shipment_text = shipment_mapping.get(mode_of_shipment.upper(), mode_of_shipment)
-            transport_cell_mappings.append({'cell': 'D26', 'value': shipment_text})
+            transport_cell_mappings.append({'cell': 'D26', 'value': shipment_text, 'desc': '运输方式'})
         
-        # 使用新方法填充运输信息
+        # 批量设置运输信息
         if transport_cell_mappings:
-            transport_success = fill_template_data(sc_sheet, transport_cell_mappings)
-            logger.info(f"运输信息填充成功: {transport_success}/{len(transport_cell_mappings)}")
+            transport_success_count = batch_set_cells(sc_sheet, transport_cell_mappings)
+            logger.info(f"运输信息设置成功: {transport_success_count}/{len(transport_cell_mappings)}")
         
         # 生成输出文件名 - 使用合同编号
         if contract_number:
