@@ -13,14 +13,35 @@ export class ExchangeRateManager {
       EUR: 7.8,
       GBP: 9.1
     };
+    this.initialized = false;
     
-    // 检查配置是否正确加载
+    console.log('汇率管理模块构造函数完成');
+  }
+  
+  // 延迟初始化，等待配置加载完成
+  async initialize() {
+    // 等待配置加载
+    let attempts = 0;
+    const maxAttempts = 50; // 最多等待5秒
+    
+    while (!CONFIG || !CONFIG.API || !CONFIG.API.EXCHANGE_RATE) {
+      attempts++;
+      if (attempts >= maxAttempts) {
+        console.error('配置加载超时，使用降级汇率');
+        this.initialized = true;
+        return;
+      }
+      await new Promise(resolve => setTimeout(resolve, 100)); // 等待100ms
+    }
+    
     console.log('汇率管理模块初始化，配置状态:', {
       CONFIG: !!CONFIG,
       API: !!(CONFIG && CONFIG.API),
       EXCHANGE_RATE: !!(CONFIG && CONFIG.API && CONFIG.API.EXCHANGE_RATE),
       BASE_URL: CONFIG?.API?.EXCHANGE_RATE?.BASE_URL
     });
+    
+    this.initialized = true;
   }
   
   // 获取汇率（通用方法）
@@ -74,10 +95,15 @@ export class ExchangeRateManager {
   
   // 从API获取汇率
   async fetchFromAPI(currency) {
+    // 确保已初始化
+    if (!this.initialized) {
+      await this.initialize();
+    }
+    
     // 检查配置是否存在
     if (!CONFIG || !CONFIG.API || !CONFIG.API.EXCHANGE_RATE) {
-      console.error('汇率配置未找到:', { CONFIG: !!CONFIG, API: !!(CONFIG && CONFIG.API), EXCHANGE_RATE: !!(CONFIG && CONFIG.API && CONFIG.API.EXCHANGE_RATE) });
-      throw new Error('汇率配置未正确加载');
+      console.error('汇率配置未找到，使用降级汇率');
+      return this.getFallbackRate(currency);
     }
     
     const { BASE_URL, MAIN_APP_ID, BACKUP_APP_ID } = CONFIG.API.EXCHANGE_RATE;
@@ -215,6 +241,11 @@ export class ExchangeRateManager {
   
   // 初始化汇率
   async initializeExchangeRates() {
+    // 确保已初始化
+    if (!this.initialized) {
+      await this.initialize();
+    }
+    
     // 检查配置是否正确加载
     if (!CONFIG || !CONFIG.DEFAULTS) {
       console.warn('配置未完全加载，使用默认货币USD');
