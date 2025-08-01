@@ -626,13 +626,34 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         
         alert('合同文件生成成功！');
       } else {
-        const errorData = await response.json();
-        throw new Error(errorData.error || '生成合同失败');
+        let errorMessage = '生成合同失败';
+        try {
+          const errorData = await response.json();
+          errorMessage = errorData.error || errorMessage;
+        } catch (parseError) {
+          // 如果无法解析JSON，尝试获取文本内容
+          try {
+            const errorText = await response.text();
+            errorMessage = `HTTP ${response.status}: ${errorText.substring(0, 200)}`;
+          } catch (textError) {
+            errorMessage = `HTTP ${response.status}: 无法获取错误详情`;
+          }
+        }
+        throw new Error(errorMessage);
       }
       
     } catch (error) {
       console.error('生成合同失败:', error);
-      alert(`生成合同失败: ${error.message}`);
+      let errorMessage = error.message;
+      
+      // 处理网络错误
+      if (error.name === 'TypeError' && error.message.includes('fetch')) {
+        errorMessage = '网络连接失败，请检查网络连接或稍后重试';
+      } else if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
+        errorMessage = '无法连接到服务器，请检查网络连接';
+      }
+      
+      alert(`生成合同失败: ${errorMessage}`);
     } finally {
       this.showContractStatus(false);
     }
