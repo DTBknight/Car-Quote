@@ -163,8 +163,12 @@ def generate_contract():
             # 隐藏没有填写的商品栏（第12行开始，最多10行）
             for i in range(len(goods_data), 10):
                 row_to_hide = 12 + i
-                if row_to_hide <= 21:  # 确保在合理范围内
+                if row_to_hide <= 21:  # 确保在合理范围内，但不超过21行（起运港行）
                     sc_sheet.row_dimensions[row_to_hide].hidden = True
+        else:
+            # 如果没有货物数据，隐藏所有商品行（第12-21行）
+            for row in range(12, 22):
+                sc_sheet.row_dimensions[row].hidden = True
         
         # 填充其他字段
         try:
@@ -184,23 +188,31 @@ def generate_contract():
                 # 处理运输路线，避免重复
                 transport_route = data['transportRoute']
                 if transport_route:
-                    # 移除可能的重复内容
-                    route_parts = transport_route.split()
-                    unique_parts = []
-                    for part in route_parts:
-                        if part not in unique_parts:
-                            unique_parts.append(part)
-                    clean_route = ' '.join(unique_parts)
+                    # 更智能的去重处理
+                    # 先按空格分割
+                    parts = transport_route.split()
+                    # 创建一个字典来跟踪每个词的出现次数
+                    word_count = {}
+                    for part in parts:
+                        word_count[part] = word_count.get(part, 0) + 1
+                    
+                    # 重建路线，每个词只出现一次
+                    clean_parts = []
+                    for part in parts:
+                        if part not in clean_parts:
+                            clean_parts.append(part)
+                    
+                    clean_route = ' '.join(clean_parts)
                     safe_set_cell_value(sc_sheet, 'D25', clean_route)
             if data.get('modeOfShipment'):
-                # 处理运输方式，确保显示中文
+                # 处理运输方式，显示中文+英文
                 mode = data['modeOfShipment']
                 if mode == 'Land':
-                    mode = '陆运'
+                    mode = '陆运 Land'
                 elif mode == 'Sea':
-                    mode = '海运'
+                    mode = '海运 Sea'
                 elif mode == 'Air':
-                    mode = '空运'
+                    mode = '空运 Air'
                 safe_set_cell_value(sc_sheet, 'D26', mode)
         except Exception as e:
             logger.error(f"设置其他字段失败: {e}")
