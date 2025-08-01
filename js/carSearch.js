@@ -1,4 +1,5 @@
 import { Utils } from './utils.js';
+import { cacheManager } from './cacheManager.js';
 
 // 车辆搜索模块
 export class CarSearch {
@@ -7,8 +8,6 @@ export class CarSearch {
     this.allCarsLoaded = false;
     this.searchHistory = this.loadSearchHistory();
     this.searchIndex = new Map(); // 搜索索引
-    this.searchCache = new Map(); // 搜索结果缓存
-    this.cacheTimeout = 5 * 60 * 1000; // 5分钟缓存
     this.debouncedSearch = Utils.debounce(this.performSearch.bind(this), 300); // 防抖搜索
   }
   
@@ -25,24 +24,48 @@ export class CarSearch {
     if (this.allCarsLoaded) return;
     
     try {
-      // 使用Netlify上的静态数据
+      // 首先尝试从缓存加载
+      const cachedCars = cacheManager.get('allCars', 'localStorage');
+      if (cachedCars) {
+        this.allCars = cachedCars;
+        this.allCarsLoaded = true;
+        console.log(`✅ 从缓存加载 ${this.allCars.length} 个车型数据`);
+        return;
+      }
+      
+      // 从网络加载
+      console.log('🔄 从网络加载车型数据...');
       const brandsRes = await fetch('https://dbtknight.netlify.app/data/brands.json');
       const brands = await brandsRes.json();
       
-      let carPromises = brands.map(async (brand) => {
-        try {
-          const res = await fetch(`https://dbtknight.netlify.app/data/${brand.file}`);
-          const data = await res.json();
-          if (data.cars && Array.isArray(data.cars)) {
-            return data.cars.map(car => ({
-              ...car,
-              brand: data.brand || brand.name,
-              brandImage: data.brandImage || brand.brandImage
-            }));
+      // 并行加载所有品牌数据，使用缓存
+      const carPromises = brands.map(async (brand) => {
+        const cacheKey = `brand:${brand.name}`;
+        let brandData = cacheManager.get(cacheKey, 'memory');
+        
+        if (!brandData) {
+          try {
+            const res = await fetch(`https://dbtknight.netlify.app/data/${brand.file}`);
+            brandData = await res.json();
+            
+            // 缓存品牌数据
+            cacheManager.set(cacheKey, brandData, {
+              level: 'memory',
+              ttl: 30 * 60 * 1000, // 30分钟
+              priority: 2
+            });
+          } catch (e) {
+            console.error(`加载品牌 ${brand.name} 失败:`, e);
+            return [];
           }
-        } catch (e) {
-          console.error(`加载品牌 ${brand.name} 失败:`, e);
-          return [];
+        }
+        
+        if (brandData.cars && Array.isArray(brandData.cars)) {
+          return brandData.cars.map(car => ({
+            ...car,
+            brand: brandData.brand || brand.name,
+            brandImage: brandData.brandImage || brand.brandImage
+          }));
         }
         return [];
       });
@@ -50,7 +73,15 @@ export class CarSearch {
       const carsArr = await Promise.all(carPromises);
       this.allCars = carsArr.flat();
       this.allCarsLoaded = true;
-      console.log(`✅ 成功加载 ${this.allCars.length} 个车型数据`);
+      
+      // 缓存所有车型数据
+      cacheManager.set('allCars', this.allCars, {
+        level: 'localStorage',
+        ttl: 24 * 60 * 60 * 1000, // 24小时
+        priority: 3
+      });
+      
+      console.log(`✅ 成功加载并缓存 ${this.allCars.length} 个车型数据`);
     } catch (e) {
       console.error('加载所有车型失败', e);
       // 如果加载失败，设置一个标志避免无限重试
@@ -173,22 +204,24 @@ export class CarSearch {
     if (!this.allCarsLoaded) return;
     
     // 检查缓存
-    const cacheKey = query.toLowerCase();
-    const cached = this.searchCache.get(cacheKey);
-    if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
-      this.displayResults(cached.results);
+    const cacheKey = `search:${query.toLowerCase()}`;
+    const cached = cacheManager.get(cacheKey, 'memory');
+    if (cached) {
+      this.displayResults(cached);
       return;
     }
     
     const results = this.searchWithIndex(query);
+    const limitedResults = results.slice(0, 20);
     
-    // 缓存结果
-    this.searchCache.set(cacheKey, {
-      results: results.slice(0, 20),
-      timestamp: Date.now()
+    // 缓存搜索结果
+    cacheManager.set(cacheKey, limitedResults, {
+      level: 'memory',
+      ttl: 10 * 60 * 1000, // 10分钟
+      priority: 1
     });
     
-    this.displayResults(results.slice(0, 20));
+    this.displayResults(limitedResults);
   }
   
   // 使用索引进行搜索

@@ -7,6 +7,7 @@ import { EventManager } from './eventManager.js';
 import { CarSearch } from './carSearch.js';
 import { ContractManager } from './contractManager.js';
 import { LoadingManager } from './loadingManager.js';
+import { cacheMonitor } from './cacheMonitor.js';
 
 // 主应用类
 export class CarQuoteApp {
@@ -81,6 +82,9 @@ export class CarQuoteApp {
       
       // 定期清理缓存
       this.startCacheCleanup();
+      
+      // 初始化缓存监控
+      this.initCacheMonitor();
       
       // 完成加载动画
       await this.loadingManager.completeLoading();
@@ -242,35 +246,32 @@ export class CarQuoteApp {
   
   // 清理过期缓存
   cleanupExpiredCache() {
-    const now = Date.now();
-    let cleanedCount = 0;
-    
-    // 清理汇率缓存
-    for (const [key, value] of this.exchangeRateManager.cache.entries()) {
-      if (now - value.timestamp > this.exchangeRateManager.cacheTimeout) {
-        this.exchangeRateManager.cache.delete(key);
-        cleanedCount++;
-      }
+    try {
+      // 使用缓存管理器清理过期缓存
+      const { cacheManager } = await import('./cacheManager.js');
+      cacheManager.cleanup();
+      console.log('✅ 缓存清理完成');
+    } catch (error) {
+      console.error('❌ 缓存清理失败:', error);
     }
-    
-    // 清理计算缓存
-    for (const [key, value] of this.calculationEngine.calculationCache.entries()) {
-      if (now - value.timestamp > this.calculationEngine.cacheTimeout) {
-        this.calculationEngine.calculationCache.delete(key);
-        cleanedCount++;
-      }
-    }
-    
-    // 清理搜索缓存
-    for (const [key, value] of this.carSearch.searchCache.entries()) {
-      if (now - value.timestamp > this.carSearch.cacheTimeout) {
-        this.carSearch.searchCache.delete(key);
-        cleanedCount++;
-      }
-    }
-    
-    if (cleanedCount > 0) {
-      console.log(`🧹 清理了 ${cleanedCount} 个过期缓存项`);
+  }
+  
+  // 初始化缓存监控
+  initCacheMonitor() {
+    try {
+      // 缓存监控已经在cacheMonitor.js中自动初始化
+      console.log('📊 缓存监控已初始化');
+      
+      // 添加键盘快捷键显示缓存监控
+      document.addEventListener('keydown', (e) => {
+        // Ctrl+Shift+C 显示缓存监控
+        if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+          e.preventDefault();
+          cacheMonitor.show();
+        }
+      });
+    } catch (error) {
+      console.error('❌ 缓存监控初始化失败:', error);
     }
   }
   
