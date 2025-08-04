@@ -365,8 +365,6 @@ export class CarSearch {
         // 点击选择
         div.onmousedown = (e) => {
           e.preventDefault();
-          console.log('点击选择 - result.car:', result.car);
-          console.log('点击选择 - result.config:', result.config);
           this.selectCar(result.car, result.config);
         };
         
@@ -415,13 +413,17 @@ export class CarSearch {
     if (carInput) {
       carInput.value = displayText;
       this.hideResults();
-      this.addToSearchHistory({ ...car, ...config });
+      
+      // 合并car和config数据，确保config数据优先
+      const mergedData = { ...car, ...config };
+      
+      this.addToSearchHistory(mergedData);
       
       // 填充车型详细信息
-      this.fillCarDetails({ ...car, ...config });
+      this.fillCarDetails(mergedData);
       
       // 触发车型选择事件，通知其他模块重置计算
-      this.triggerCarSelectionEvent({ ...car, ...config });
+      this.triggerCarSelectionEvent(mergedData);
     }
   }
 
@@ -435,11 +437,6 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
-    // 调试信息
-    console.log('fillCarDetails - carData:', carData);
-    console.log('fillCarDetails - class:', carData.class);
-    console.log('fillCarDetails - power:', carData.power);
-    
     // 填充基础信息
     Utils.setElementValue('brandName2', carData.manufacturer || carData.brand || carData.seriesName || '');
     Utils.setElementValue('carClass2', carData.class || '未知');
