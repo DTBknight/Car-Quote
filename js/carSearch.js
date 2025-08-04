@@ -400,12 +400,6 @@ export class CarSearch {
   
   // 选择车型
   selectCar(car, config) {
-    // 调试信息
-    console.log('=== selectCar 调试 ===');
-    console.log('car:', car);
-    console.log('config:', config);
-    console.log('config.class:', config?.class);
-    console.log('config.power:', config?.power);
     
     // 确保displayText不为undefined
     let displayText = '';
@@ -438,9 +432,7 @@ export class CarSearch {
         price: config?.price || car?.price || '未知'
       };
       
-      console.log('mergedData:', mergedData);
-      console.log('mergedData.class:', mergedData.class);
-      console.log('mergedData.power:', mergedData.power);
+
       
       this.addToSearchHistory(mergedData);
       
@@ -462,30 +454,23 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
-    // 调试信息
-    console.log('=== fillCarDetails 调试 ===');
-    console.log('carData:', carData);
-    console.log('carData.class:', carData.class);
-    console.log('carData.power:', carData.power);
     
-    // 填充基础信息
-    const brandName = carData.manufacturer || carData.brand || carData.seriesName || '';
-    const carClass = carData.class || '未知';
+    // 填充基础信息 - 修复映射逻辑
+    const manufacturer = carData.manufacturer || '';  // 厂商
+    const carClass = carData.class || '未知';        // 级别
     const carModel = carData.name || carData.carName || '';
     const fuelType = carData.fuelType || '未知';
-    const power = carData.power || '未知';
+    const power = carData.power || '未知';           // 动力
     const size = carData.size || '未知';
     
-    console.log('设置字段值:');
-    console.log('carClass:', carClass);
-    console.log('power:', power);
+
     
-    // 设置元素值
-    Utils.setElementValue('brandName2', brandName);
-    Utils.setElementValue('carClass2', carClass);
+    // 设置元素值 - 修复映射逻辑
+    Utils.setElementValue('brandName2', manufacturer);  // 厂商输入框
+    Utils.setElementValue('carClass2', carClass);       // 级别输入框
     Utils.setElementValue('carModel2', carModel);
     Utils.setElementValue('fuelType2', fuelType);
-    Utils.setElementValue('power2', power);
+    Utils.setElementValue('power2', power);             // 动力输入框
     Utils.setElementValue('size2', size);
     
     // 计算并填充CBM
@@ -505,10 +490,10 @@ export class CarSearch {
     // 显示基础信息区域
     Utils.toggleElement('baseInfoSection', true);
     
-    // 设置品牌logo
+    // 设置品牌logo - 保持brandImage映射
     const brandLogoBox = Utils.getElement('brandLogoBox2');
     if (brandLogoBox && carData.brandImage) {
-      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${carData.manufacturer || carData.brand || carData.seriesName}" class="w-12 h-12 object-contain">`;
+      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${manufacturer || carData.brand || carData.seriesName}" class="w-12 h-12 object-contain">`;
     }
     
     // 设置车型图片
