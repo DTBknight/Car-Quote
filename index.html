@@ -652,29 +652,9 @@
       filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.5));
     }
     
-    .tech-icon-overlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      animation: techIconPulse 2s ease-in-out infinite;
-      filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6));
-    }
-    
     @keyframes techIconFloat {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-10px); }
-    }
-    
-    @keyframes techIconPulse {
-      0%, 100% { 
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 0.8;
-      }
-      50% { 
-        transform: translate(-50%, -50%) scale(1.1);
-        opacity: 1;
-      }
     }
     
     /* 脉冲环 */
@@ -882,11 +862,10 @@
     <div class="tech-grid"></div>
     
     <div class="text-center relative z-10 px-4">
-      <!-- 主图标 - 汽车与计算器结合 -->
+      <!-- 主图标 - 只保留汽车 -->
       <div class="mb-6 md:mb-8">
         <div class="tech-icon-container">
           <i class="fa-solid fa-car text-blue-400 text-4xl md:text-6xl tech-icon-main"></i>
-          <i class="fa-solid fa-calculator text-cyan-400 text-2xl md:text-4xl tech-icon-overlay"></i>
           <div class="tech-pulse-ring"></div>
           <div class="tech-pulse-ring" style="animation-delay: 0.5s;"></div>
           <div class="tech-pulse-ring" style="animation-delay: 1s;"></div>
@@ -894,8 +873,7 @@
       </div>
       
       <!-- 标题 -->
-      <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 tech-title">汽车报价计算系统</h2>
-      <p class="text-blue-300 text-sm md:text-base mb-4 md:mb-6">Car Quote Calculator System</p>
+      <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 tech-title">ONE BIG BEAUTIFUL TOOL</h2>
       
       <!-- 科技感加载点 -->
       <div class="flex items-center justify-center space-x-2 mb-4 md:mb-6">
@@ -914,21 +892,21 @@
       </div>
       
       <!-- 加载文本 -->
-      <p class="text-blue-200 text-sm md:text-base tech-loading-text" id="loadingText">正在初始化系统...</p>
+      <p class="text-blue-200 text-sm md:text-base tech-loading-text" id="loadingText">Initializing system...</p>
       
       <!-- 科技状态指示器 -->
       <div class="tech-status-indicators mt-4 md:mt-6">
         <div class="tech-status-item">
           <div class="tech-status-dot active"></div>
-          <span class="tech-status-text">数据加载</span>
+          <span class="tech-status-text">Data Loading</span>
         </div>
         <div class="tech-status-item">
           <div class="tech-status-dot"></div>
-          <span class="tech-status-text">系统初始化</span>
+          <span class="tech-status-text">System Init</span>
         </div>
         <div class="tech-status-item">
           <div class="tech-status-dot"></div>
-          <span class="tech-status-text">计算引擎</span>
+          <span class="tech-status-text">Engine Ready</span>
         </div>
       </div>
     </div>

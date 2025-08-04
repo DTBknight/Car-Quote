@@ -7,13 +7,13 @@ export class LoadingManager {
     this.loadingProgressBar = document.getElementById('loadingProgressBar');
     this.techParticles = document.getElementById('techParticles');
     this.loadingSteps = [
-      { text: '正在初始化系统...', progress: 12, status: 0 },
-      { text: '加载车型数据...', progress: 25, status: 0 },
-      { text: '初始化汇率服务...', progress: 38, status: 1 },
-      { text: '设置计算引擎...', progress: 50, status: 1 },
-      { text: '配置用户界面...', progress: 62, status: 2 },
-      { text: '初始化合同管理...', progress: 75, status: 2 },
-      { text: '启动完成！', progress: 100, status: 2 }
+      { text: 'Initializing system...', progress: 12, status: 0 },
+      { text: 'Loading car data...', progress: 25, status: 0 },
+      { text: 'Initializing exchange rates...', progress: 38, status: 1 },
+      { text: 'Setting up calculation engine...', progress: 50, status: 1 },
+      { text: 'Configuring user interface...', progress: 62, status: 2 },
+      { text: 'Initializing contract management...', progress: 75, status: 2 },
+      { text: 'System ready!', progress: 100, status: 2 }
     ];
     this.currentStep = 0;
     this.particles = [];
