@@ -24,6 +24,9 @@ export class CarSearch {
     if (this.allCarsLoaded) return;
     
     try {
+      // 清除缓存，强制重新加载
+      cacheManager.remove('allCars', 'localStorage');
+      
       // 首先尝试从缓存加载
       const cachedCars = cacheManager.get('allCars', 'localStorage');
       if (cachedCars) {
@@ -61,11 +64,15 @@ export class CarSearch {
         }
         
         if (brandData.cars && Array.isArray(brandData.cars)) {
-          return brandData.cars.map(car => ({
-            ...car,
-            brand: brandData.brand || brand.name,
-            brandImage: brandData.brandImage || brand.brandImage
-          }));
+          return brandData.cars.map(car => {
+            // 移除seriesName字段，确保数据结构正确
+            const { seriesName, ...carWithoutSeriesName } = car;
+            return {
+              ...carWithoutSeriesName,
+              brand: brandData.brand || brand.name,
+              brandImage: brandData.brandImage || brand.brandImage
+            };
+          });
         }
         return [];
       });
@@ -432,7 +439,11 @@ export class CarSearch {
         price: config?.price || car?.price || '未知'
       };
       
-
+      // 调试日志
+      console.log('🔍 selectCar 调试信息:');
+      console.log('原始 car:', car);
+      console.log('原始 config:', config);
+      console.log('合并后数据:', mergedData);
       
       this.addToSearchHistory(mergedData);
       
@@ -455,6 +466,10 @@ export class CarSearch {
   // 填充车型详细信息
   fillCarDetails(carData) {
     
+    // 调试日志
+    console.log('🔍 fillCarDetails 调试信息:');
+    console.log('接收到的 carData:', carData);
+    
     // 填充基础信息 - 修复映射逻辑
     const manufacturer = carData.manufacturer || '';  // 厂商
     const carClass = carData.class || '未知';        // 级别
@@ -463,7 +478,11 @@ export class CarSearch {
     const power = carData.power || '未知';           // 动力
     const size = carData.size || '未知';
     
-
+    console.log('提取的字段值:');
+    console.log('manufacturer:', manufacturer);
+    console.log('carClass:', carClass);
+    console.log('power:', power);
+    console.log('fuelType:', fuelType);
     
     // 设置元素值 - 修复映射逻辑
     Utils.setElementValue('brandName2', manufacturer);  // 厂商输入框
@@ -493,7 +512,7 @@ export class CarSearch {
     // 设置品牌logo - 保持brandImage映射
     const brandLogoBox = Utils.getElement('brandLogoBox2');
     if (brandLogoBox && carData.brandImage) {
-      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${manufacturer || carData.brand || carData.seriesName}" class="w-12 h-12 object-contain">`;
+      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${manufacturer || carData.brand}" class="w-12 h-12 object-contain">`;
     }
     
     // 设置车型图片
