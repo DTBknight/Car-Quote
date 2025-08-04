@@ -61,11 +61,19 @@ export class CarSearch {
         }
         
         if (brandData.cars && Array.isArray(brandData.cars)) {
-          return brandData.cars.map(car => ({
-            ...car,
-            brand: brandData.brand || brand.name,
-            brandImage: brandData.brandImage || brand.brandImage
-          }));
+          return brandData.cars.map(car => {
+            // 调试信息
+            if (car.carName && car.configs && car.configs.length > 0) {
+              console.log(`加载车型 ${car.carName} 的配置:`, car.configs.length);
+              console.log('第一个配置:', car.configs[0]);
+            }
+            
+            return {
+              ...car,
+              brand: brandData.brand || brand.name,
+              brandImage: brandData.brandImage || brand.brandImage
+            };
+          });
         }
         return [];
       });
@@ -257,6 +265,12 @@ export class CarSearch {
       if (car && score > 0) {
         if (car.configs && car.configs.length > 0) {
           car.configs.forEach(config => {
+            // 调试信息
+            console.log('搜索结果 - car:', car.carName);
+            console.log('搜索结果 - config:', config);
+            console.log('搜索结果 - config.class:', config.class);
+            console.log('搜索结果 - config.power:', config.power);
+            
             results.push({ 
               car, 
               config, 
