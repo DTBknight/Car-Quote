@@ -342,13 +342,13 @@ export class CarSearch {
         // 构建显示内容
         let displayContent = '';
         if (brandName) {
-          displayContent += `<div class="text-sm text-gray-600">${brandName}</div>`;
+          displayContent += `<span class="text-sm text-gray-600">${brandName}</span>`;
         }
         if (carName) {
-          displayContent += `<div class="font-medium text-gray-900">${carName}</div>`;
+          displayContent += `<span class="font-medium text-gray-900 ml-1">${carName}</span>`;
         }
         if (configName) {
-          displayContent += `<div class="text-sm text-gray-500">${configName}</div>`;
+          displayContent += `<span class="text-sm text-gray-500 ml-1">${configName}</span>`;
         }
         
         contentDiv.innerHTML = displayContent;
@@ -600,8 +600,8 @@ export class CarSearch {
             <div class="flex items-center gap-3">
               <img src="${brandImage}" alt="${brandName}" class="w-8 h-8 object-contain rounded">
               <div class="flex-1 min-w-0">
-                <div class="text-sm text-gray-600">${brandName}</div>
-                <div class="font-medium text-gray-900">${carName || '未知车型'}</div>
+                <span class="text-sm text-gray-600">${brandName}</span>
+                <span class="font-medium text-gray-900 ml-1">${carName || '未知车型'}</span>
               </div>
               ${price ? `<span class="text-red-500 text-sm font-medium whitespace-nowrap">${price}</span>` : ''}
             </div>
