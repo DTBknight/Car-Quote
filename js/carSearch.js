@@ -344,7 +344,7 @@ export class CarSearch {
         const parts = [];
         
         if (brandName) {
-          parts.push(`<span class="text-blue-600 font-medium">${brandName}</span>`);
+          parts.push(`<span class="text-black font-medium">${brandName}</span>`);
         }
         if (carName) {
           parts.push(`<span class="text-gray-900 font-semibold">${carName}</span>`);
