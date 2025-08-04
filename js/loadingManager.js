@@ -7,13 +7,13 @@ export class LoadingManager {
     this.loadingProgressBar = document.getElementById('loadingProgressBar');
     this.magicParticles = document.getElementById('magicParticles');
     this.loadingSteps = [
-      { text: '正在初始化系统...', progress: 12 },
-      { text: '加载车型数据...', progress: 25 },
-      { text: '初始化汇率服务...', progress: 38 },
-      { text: '设置计算引擎...', progress: 50 },
-      { text: '配置用户界面...', progress: 62 },
-      { text: '初始化合同管理...', progress: 75 },
-      { text: '启动完成！', progress: 100 }
+      { text: '猫咪正在追逐老鼠...', progress: 12 },
+      { text: '老鼠在收集车型数据...', progress: 25 },
+      { text: '猫咪在追赶汇率服务...', progress: 38 },
+      { text: '老鼠在设置计算引擎...', progress: 50 },
+      { text: '猫咪在配置用户界面...', progress: 62 },
+      { text: '老鼠在初始化合同管理...', progress: 75 },
+      { text: '猫咪抓到老鼠了！启动完成！', progress: 100 }
     ];
     this.currentStep = 0;
     this.particles = [];
@@ -49,7 +49,7 @@ export class LoadingManager {
   completeLoading() {
     return new Promise((resolve) => {
       // 更新到100%
-      this.updateProgress(100, '启动完成！');
+      this.updateProgress(100, '猫咪抓到老鼠了！启动完成！');
       
       // 等待一小段时间让用户看到完成状态
       setTimeout(() => {
