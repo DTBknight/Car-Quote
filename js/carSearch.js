@@ -61,19 +61,11 @@ export class CarSearch {
         }
         
         if (brandData.cars && Array.isArray(brandData.cars)) {
-          return brandData.cars.map(car => {
-            // 调试信息
-            if (car.carName && car.configs && car.configs.length > 0) {
-              console.log(`加载车型 ${car.carName} 的配置:`, car.configs.length);
-              console.log('第一个配置:', car.configs[0]);
-            }
-            
-            return {
-              ...car,
-              brand: brandData.brand || brand.name,
-              brandImage: brandData.brandImage || brand.brandImage
-            };
-          });
+          return brandData.cars.map(car => ({
+            ...car,
+            brand: brandData.brand || brand.name,
+            brandImage: brandData.brandImage || brand.brandImage
+          }));
         }
         return [];
       });
@@ -265,12 +257,6 @@ export class CarSearch {
       if (car && score > 0) {
         if (car.configs && car.configs.length > 0) {
           car.configs.forEach(config => {
-            // 调试信息
-            console.log('搜索结果 - car:', car.carName);
-            console.log('搜索结果 - config:', config);
-            console.log('搜索结果 - config.class:', config.class);
-            console.log('搜索结果 - config.power:', config.power);
-            
             results.push({ 
               car, 
               config, 
@@ -356,13 +342,13 @@ export class CarSearch {
         // 构建显示内容
         let displayContent = '';
         if (brandName) {
-          displayContent += `<span class="text-sm text-gray-600">${brandName}</span>`;
+          displayContent += `<div class="text-sm text-gray-600">${brandName}</div>`;
         }
         if (carName) {
-          displayContent += `<span class="font-medium text-gray-900 ml-1">${carName}</span>`;
+          displayContent += `<div class="font-medium text-gray-900">${carName}</div>`;
         }
         if (configName) {
-          displayContent += `<span class="text-sm text-gray-500 ml-1">${configName}</span>`;
+          displayContent += `<div class="text-sm text-gray-500">${configName}</div>`;
         }
         
         contentDiv.innerHTML = displayContent;
@@ -410,10 +396,12 @@ export class CarSearch {
   
   // 选择车型
   selectCar(car, config) {
-    // 调试信息
-    console.log('=== selectCar 调试信息 ===');
+    // 临时调试信息
+    console.log('=== selectCar 调试 ===');
     console.log('car:', car);
     console.log('config:', config);
+    console.log('config.class:', config?.class);
+    console.log('config.power:', config?.power);
     
     // 确保displayText不为undefined
     let displayText = '';
@@ -433,7 +421,6 @@ export class CarSearch {
       carInput.value = displayText;
       this.hideResults();
       
-      // 合并car和config数据，确保config数据优先
       const mergedData = { ...car, ...config };
       console.log('mergedData:', mergedData);
       console.log('mergedData.class:', mergedData.class);
@@ -459,34 +446,21 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
-    // 调试信息
-    console.log('=== fillCarDetails 调试信息 ===');
+    // 临时调试信息
+    console.log('=== fillCarDetails 调试 ===');
     console.log('carData:', carData);
     console.log('carData.class:', carData.class);
     console.log('carData.power:', carData.power);
+    console.log('carData.fuelType:', carData.fuelType);
+    console.log('carData.size:', carData.size);
     
     // 填充基础信息
-    const brandName = carData.manufacturer || carData.brand || carData.seriesName || '';
-    const carClass = carData.class || '未知';
-    const carModel = carData.name || carData.carName || '';
-    const fuelType = carData.fuelType || '未知';
-    const power = carData.power || '未知';
-    const size = carData.size || '未知';
-    
-    console.log('设置字段值:');
-    console.log('brandName2:', brandName);
-    console.log('carClass2:', carClass);
-    console.log('carModel2:', carModel);
-    console.log('fuelType2:', fuelType);
-    console.log('power2:', power);
-    console.log('size2:', size);
-    
-    Utils.setElementValue('brandName2', brandName);
-    Utils.setElementValue('carClass2', carClass);
-    Utils.setElementValue('carModel2', carModel);
-    Utils.setElementValue('fuelType2', fuelType);
-    Utils.setElementValue('power2', power);
-    Utils.setElementValue('size2', size);
+    Utils.setElementValue('brandName2', carData.manufacturer || carData.brand || carData.seriesName || '');
+    Utils.setElementValue('carClass2', carData.class || '未知');
+    Utils.setElementValue('carModel2', carData.name || carData.carName || '');
+    Utils.setElementValue('fuelType2', carData.fuelType || '未知');
+    Utils.setElementValue('power2', carData.power || '未知');
+    Utils.setElementValue('size2', carData.size || '未知');
     
     // 计算并填充CBM
     const cbm = this.calculateCBM(carData.size);
@@ -647,8 +621,8 @@ export class CarSearch {
             <div class="flex items-center gap-3">
               <img src="${brandImage}" alt="${brandName}" class="w-8 h-8 object-contain rounded">
               <div class="flex-1 min-w-0">
-                <span class="text-sm text-gray-600">${brandName}</span>
-                <span class="font-medium text-gray-900 ml-1">${carName || '未知车型'}</span>
+                <div class="text-sm text-gray-600">${brandName}</div>
+                <div class="font-medium text-gray-900">${carName || '未知车型'}</div>
               </div>
               ${price ? `<span class="text-red-500 text-sm font-medium whitespace-nowrap">${price}</span>` : ''}
             </div>
