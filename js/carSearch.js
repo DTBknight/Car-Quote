@@ -339,23 +339,23 @@ export class CarSearch {
           }
         }
         
-        // 构建显示内容 - 改为单行显示
+        // 构建显示内容 - 为不同字段设置不同颜色
         let displayContent = '';
         const parts = [];
         
         if (brandName) {
-          parts.push(brandName);
+          parts.push(`<span class="text-blue-600 font-medium">${brandName}</span>`);
         }
         if (carName) {
-          parts.push(carName);
+          parts.push(`<span class="text-gray-900 font-semibold">${carName}</span>`);
         }
         if (configName) {
-          parts.push(configName);
+          parts.push(`<span class="text-gray-600">${configName}</span>`);
         }
         
-        displayContent = parts.join(' - ');
+        displayContent = parts.join(' <span class="text-gray-400">-</span> ');
         
-        contentDiv.innerHTML = `<div class="text-sm text-gray-900 truncate">${displayContent}</div>`;
+        contentDiv.innerHTML = `<div class="text-sm truncate">${displayContent}</div>`;
         div.appendChild(contentDiv);
         
         // 指导价
@@ -430,12 +430,12 @@ export class CarSearch {
         ...car, 
         ...config,
         // 确保这些关键字段来自config（如果存在）
-        class: config?.class || car?.class,
-        power: config?.power || car?.power,
-        fuelType: config?.fuelType || car?.fuelType,
-        size: config?.size || car?.size,
-        manufacturer: config?.manufacturer || car?.manufacturer,
-        price: config?.price || car?.price
+        class: config?.class || car?.class || '未知',
+        power: config?.power || car?.power || '未知',
+        fuelType: config?.fuelType || car?.fuelType || '未知',
+        size: config?.size || car?.size || '未知',
+        manufacturer: config?.manufacturer || car?.manufacturer || '',
+        price: config?.price || car?.price || '未知'
       };
       
       console.log('mergedData:', mergedData);
@@ -689,12 +689,12 @@ export class CarSearch {
         ...matchedResult.car, 
         ...matchedResult.config,
         // 确保这些关键字段来自config（如果存在）
-        class: matchedResult.config?.class || matchedResult.car?.class,
-        power: matchedResult.config?.power || matchedResult.car?.power,
-        fuelType: matchedResult.config?.fuelType || matchedResult.car?.fuelType,
-        size: matchedResult.config?.size || matchedResult.car?.size,
-        manufacturer: matchedResult.config?.manufacturer || matchedResult.car?.manufacturer,
-        price: matchedResult.config?.price || matchedResult.car?.price
+        class: matchedResult.config?.class || matchedResult.car?.class || '未知',
+        power: matchedResult.config?.power || matchedResult.car?.power || '未知',
+        fuelType: matchedResult.config?.fuelType || matchedResult.car?.fuelType || '未知',
+        size: matchedResult.config?.size || matchedResult.car?.size || '未知',
+        manufacturer: matchedResult.config?.manufacturer || matchedResult.car?.manufacturer || '',
+        price: matchedResult.config?.price || matchedResult.car?.price || '未知'
       };
       
       // 填充车型详细信息
