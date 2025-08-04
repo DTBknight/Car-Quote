@@ -287,13 +287,13 @@ export class CarSearch {
     const searchInput = Utils.getElement('searchCarInput');
     if (!carResultBox || !searchInput) return;
     
-    // 定位下拉菜单
+    // 定位下拉菜单 - 相对定位，固定在搜索栏下方
     const inputRect = searchInput.getBoundingClientRect();
-    carResultBox.style.position = 'fixed';
+    carResultBox.style.position = 'absolute';
     carResultBox.style.top = `${inputRect.bottom + 5}px`;
     carResultBox.style.left = `${inputRect.left}px`;
     carResultBox.style.width = `${inputRect.width}px`;
-    carResultBox.style.zIndex = '999999';
+    carResultBox.style.zIndex = '40';
     
     if (results.length === 0) {
       carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
@@ -498,13 +498,13 @@ export class CarSearch {
     if (isVisible) {
       Utils.toggleElement('searchHistoryPanel', false);
     } else {
-      // 定位历史面板
+      // 定位历史面板 - 相对定位，固定在历史记录按钮下方
       const btnRect = historyBtn.getBoundingClientRect();
-      historyPanel.style.position = 'fixed';
+      historyPanel.style.position = 'absolute';
       historyPanel.style.top = `${btnRect.bottom + 5}px`;
       historyPanel.style.right = `${window.innerWidth - btnRect.right}px`;
       historyPanel.style.width = '300px';
-      historyPanel.style.zIndex = '999999';
+      historyPanel.style.zIndex = '40';
       
       this.displaySearchHistory();
       Utils.toggleElement('searchHistoryPanel', true);

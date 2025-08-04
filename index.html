@@ -677,7 +677,7 @@
       <div class="bg-white rounded-xl shadow-md p-4 md:p-6 lg:p-8 mb-6 md:mb-8">
       <form id="carQuoteForm" class="space-y-8">
         <!-- 搜索卡片 -->
-        <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 mb-4 md:mb-6 flex flex-col items-start shadow-sm search-card" style="z-index: 99999;">
+        <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 mb-4 md:mb-6 flex flex-col items-start shadow-sm search-card" style="z-index: 10;">
           <div class="flex w-full gap-3 md:gap-4 items-end">
             <div class="flex-1 min-w-0">
               <div class="mb-2 text-base md:text-lg font-semibold text-gray-700 flex items-center justify-between">
@@ -693,7 +693,7 @@
                   <i class="fa-solid fa-history mr-1"></i><span class="hidden sm:inline">历史记录</span>
                 </button>
               </div>
-              <div class="relative" style="z-index: 99999;">
+              <div class="relative" style="z-index: 20;">
                 <input type="text" id="searchCarInput" class="form-input" placeholder="输入车型名称进行搜索">
               </div>
             </div>
@@ -1458,11 +1458,11 @@
     </div>
   </main>
   
-  <!-- 搜索下拉菜单 - 固定定位，不随页面滚动 -->
-  <div id="searchCarResults" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg" style="position: fixed !important;"></div>
+  <!-- 搜索下拉菜单 - 相对定位，固定在搜索栏下方 -->
+  <div id="searchCarResults" class="hidden absolute z-40 max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
   
-  <!-- 搜索历史记录面板 - 移到body级别避免被容器限制 -->
-  <div id="searchHistoryPanel" class="hidden fixed z-[999999] max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
+  <!-- 搜索历史记录面板 - 相对定位，固定在搜索栏下方 -->
+  <div id="searchHistoryPanel" class="hidden absolute z-40 max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
     <div class="p-3 border-b border-gray-100">
       <div class="flex items-center justify-between">
         <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>
