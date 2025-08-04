@@ -78,6 +78,237 @@ export class ContractManager {
         '胡杨': 'Huyang',
         '阿拉尔': 'Aral',
         
+        // 中国主要港口
+        '南沙': 'Nansha',
+        '洋山': 'Yangshan',
+        '外高桥': 'Waigaoqiao',
+        '吴淞': 'Wusong',
+        '罗泾': 'Luojing',
+        '宝山': 'Baoshan',
+        '张华浜': 'Zhanghuabang',
+        '军工路': 'Jungong Road',
+        '龙吴': 'Longwu',
+        '闵行': 'Minhang',
+        '松江': 'Songjiang',
+        '青浦': 'Qingpu',
+        '嘉定': 'Jiading',
+        '金山': 'Jinshan',
+        '奉贤': 'Fengxian',
+        '崇明': 'Chongming',
+        '长兴岛': 'Changxing Island',
+        '横沙岛': 'Hengsha Island',
+        '九段沙': 'Jiuduansha',
+        '佘山岛': 'Sheshan Island',
+        '大戢山': 'Dajishan',
+        '小戢山': 'Xiaojishan',
+        '鸡骨礁': 'Jigujiao',
+        '海礁': 'Haijiao',
+        '浪岗山': 'Langgangshan',
+        '嵊山': 'Shengshan',
+        '枸杞岛': 'Gouqi Island',
+        '花鸟山': 'Huaniaoshan',
+        '绿华山': 'Lvhuashan',
+        '徐公岛': 'Xugong Island',
+        '黄龙岛': 'Huanglong Island',
+        '大洋山': 'Dayangshan',
+        '小洋山': 'Xiaoyangshan',
+        '岱山': 'Daishan',
+        '长涂': 'Changtu',
+        '秀山': 'Xiushan',
+        '衢山': 'Qushan',
+        '长白': 'Changbai',
+        '虾峙': 'Xiazhi',
+        '六横': 'Liuheng',
+        '佛渡': 'Fodu',
+        '梅山': 'Meishan',
+        '大榭': 'Daxie',
+        '穿山': 'Chuanshan',
+        '北仑': 'Beilun',
+        '镇海': 'Zhenhai',
+        '大榭岛': 'Daxie Island',
+        '穿山港': 'Chuanshan Port',
+        '北仑港': 'Beilun Port',
+        '镇海港': 'Zhenhai Port',
+        '舟山': 'Zhoushan',
+        '定海': 'Dinghai',
+        '普陀': 'Putuo',
+        '岱山港': 'Daishan Port',
+        '嵊泗': 'Shengsi',
+        '洋山港': 'Yangshan Port',
+        '南沙港': 'Nansha Port',
+        '盐田': 'Yantian',
+        '蛇口': 'Shekou',
+        '赤湾': 'Chiwan',
+        '妈湾': 'Mawan',
+        '大铲湾': 'Dachan Bay',
+        '前海湾': 'Qianhai Bay',
+        '宝安': 'Bao\'an',
+        '龙岗': 'Longgang',
+        '坪山': 'Pingshan',
+        '光明': 'Guangming',
+        '大鹏': 'Dapeng',
+        '深汕': 'Shenshan',
+        '惠州': 'Huizhou',
+        '大亚湾': 'Dayawan',
+        '巽寮湾': 'Xunliao Bay',
+        '双月湾': 'Shuangyue Bay',
+        '海丰': 'Haifeng',
+        '陆丰': 'Lufeng',
+        '汕尾': 'Shanwei',
+        '红海湾': 'Honghai Bay',
+        '碣石湾': 'Jieshi Bay',
+        '甲子港': 'Jiazi Port',
+        '湖东港': 'Hudong Port',
+        '汕尾港': 'Shanwei Port',
+        '红海湾港': 'Honghai Bay Port',
+        '碣石港': 'Jieshi Port',
+        '甲子': 'Jiazi',
+        '湖东': 'Hudong',
+        '海丰港': 'Haifeng Port',
+        '陆丰港': 'Lufeng Port',
+        '惠东': 'Huidong',
+        '惠阳': 'Huiyang',
+        '博罗': 'Boluo',
+        '龙门': 'Longmen',
+        '惠城': 'Huicheng',
+        '仲恺': 'Zhongkai',
+        '大亚湾港': 'Dayawan Port',
+        '巽寮港': 'Xunliao Port',
+        '双月港': 'Shuangyue Port',
+        '惠东港': 'Huidong Port',
+        '惠阳港': 'Huiyang Port',
+        '博罗港': 'Boluo Port',
+        '龙门港': 'Longmen Port',
+        '惠城港': 'Huicheng Port',
+        '仲恺港': 'Zhongkai Port',
+        '广州港': 'Guangzhou Port',
+        '黄埔港': 'Huangpu Port',
+        '新沙港': 'Xinsha Port',
+        '新港': 'Xingang Port',
+        '南沙港区': 'Nansha Port Area',
+        '黄埔港区': 'Huangpu Port Area',
+        '新沙港区': 'Xinsha Port Area',
+        '新港港区': 'Xingang Port Area',
+        '虎门港': 'Humen Port',
+        '沙田港': 'Shatian Port',
+        '麻涌港': 'Mayong Port',
+        '洪梅港': 'Hongmei Port',
+        '道滘港': 'Daojiao Port',
+        '中堂港': 'Zhongtang Port',
+        '望牛墩港': 'Wangniudun Port',
+        '高埗港': 'Gaobu Port',
+        '石碣港': 'Shijie Port',
+        '石龙港': 'Shilong Port',
+        '茶山港': 'Chashan Port',
+        '寮步港': 'Liaobu Port',
+        '大朗港': 'Dalang Port',
+        '黄江港': 'Huangjiang Port',
+        '清溪港': 'Qingxi Port',
+        '塘厦港': 'Tangxia Port',
+        '凤岗港': 'Fenggang Port',
+        '谢岗港': 'Xiegang Port',
+        '常平港': 'Changping Port',
+        '桥头港': 'Qiaotou Port',
+        '横沥港': 'Hengli Port',
+        '东坑港': 'Dongkeng Port',
+        '企石港': 'Qishi Port',
+        '石排港': 'Shipai Port',
+        '长安港': 'Changan Port',
+        '虎门港区': 'Humen Port Area',
+        '沙田港区': 'Shatian Port Area',
+        '麻涌港区': 'Mayong Port Area',
+        '洪梅港区': 'Hongmei Port Area',
+        '道滘港区': 'Daojiao Port Area',
+        '中堂港区': 'Zhongtang Port Area',
+        '望牛墩港区': 'Wangniudun Port Area',
+        '高埗港区': 'Gaobu Port Area',
+        '石碣港区': 'Shijie Port Area',
+        '石龙港区': 'Shilong Port Area',
+        '茶山港区': 'Chashan Port Area',
+        '寮步港区': 'Liaobu Port Area',
+        '大朗港区': 'Dalang Port Area',
+        '黄江港区': 'Huangjiang Port Area',
+        '清溪港区': 'Qingxi Port Area',
+        '塘厦港区': 'Tangxia Port Area',
+        '凤岗港区': 'Fenggang Port Area',
+        '谢岗港区': 'Xiegang Port Area',
+        '常平港区': 'Changping Port Area',
+        '桥头港区': 'Qiaotou Port Area',
+        '横沥港区': 'Hengli Port Area',
+        '东坑港区': 'Dongkeng Port Area',
+        '企石港区': 'Qishi Port Area',
+        '石排港区': 'Shipai Port Area',
+        '长安港区': 'Changan Port Area',
+        '天津港': 'Tianjin Port',
+        '新港港': 'Xingang Port',
+        '南疆港': 'Nanjiang Port',
+        '北疆港': 'Beijiang Port',
+        '东疆港': 'Dongjiang Port',
+        '临港港': 'Lingang Port',
+        '大沽口港': 'Dagukou Port',
+        '塘沽港': 'Tanggu Port',
+        '汉沽港': 'Hangu Port',
+        '大港港': 'Dagang Port',
+        '海河港': 'Haihe Port',
+        '蓟运河港': 'Jiyunhe Port',
+        '永定新河港': 'Yongdingxinhe Port',
+        '独流减河港': 'Duliujianhe Port',
+        '子牙河港': 'Ziyahe Port',
+        '大清河港': 'Daqinghe Port',
+        '北运河港': 'Beiyunhe Port',
+        '南运河港': 'Nanyunhe Port',
+        '马厂减河港': 'Machangjianhe Port',
+        '潮白新河港': 'Chaobaixinhe Port',
+        '青龙湾减河港': 'Qinglongwanjianhe Port',
+        '引滦入津港': 'Yinluanrujin Port',
+        '引黄济津港': 'Yinhuangjijin Port',
+        '南水北调港': 'Nanshuibeidiao Port',
+        '东线港': 'Dongxian Port',
+        '中线港': 'Zhongxian Port',
+        '西线港': 'Xixian Port',
+        '秦皇岛港': 'Qinhuangdao Port',
+        '山海关港': 'Shanhaiguan Port',
+        '北戴河港': 'Beidaihe Port',
+        '南戴河港': 'Nandaihe Port',
+        '黄金海岸港': 'Huangjinhaian Port',
+        '昌黎港': 'Changli Port',
+        '抚宁港': 'Funing Port',
+        '卢龙港': 'Lulong Port',
+        '青龙港': 'Qinglong Port',
+        '海港区港': 'Haigangqu Port',
+        '山海关区港': 'Shanhaiguanqu Port',
+        '北戴河区港': 'Beidaihequ Port',
+        '抚宁区港': 'Funingqu Port',
+        '昌黎县港': 'Changlixian Port',
+        '卢龙县港': 'Lulongxian Port',
+        '青龙满族自治县港': 'Qinglongmanzuzizhixian Port',
+        '唐山港': 'Tangshan Port',
+        '京唐港': 'Jingtang Port',
+        '曹妃甸港': 'Caofeidian Port',
+        '乐亭港': 'Leting Port',
+        '滦南港': 'Luannan Port',
+        '滦州港': 'Luanzhou Port',
+        '迁安港': 'Qianan Port',
+        '迁西港': 'Qianxi Port',
+        '遵化港': 'Zunhua Port',
+        '玉田港': 'Yutian Port',
+        '丰润港': 'Fengrun Port',
+        '丰南港': 'Fengnan Port',
+        '路北区港': 'Lubeiqu Port',
+        '路南区港': 'Lunanqu Port',
+        '古冶区港': 'Guyequ Port',
+        '开平区港': 'Kaipingqu Port',
+        '曹妃甸区港': 'Caofeidianqu Port',
+        '乐亭县港': 'Letingxian Port',
+        '滦南县港': 'Luannanxian Port',
+        '滦州市港': 'Luanzhoushi Port',
+        '迁安市港': 'Qiananshi Port',
+        '迁西县港': 'Qianxixian Port',
+        '遵化市港': 'Zunhuashi Port',
+        '玉田县港': 'Yutianxian Port',
+        '丰润区港': 'Fengrunqu Port',
+        '丰南区港': 'Fengnanqu Port',
+        
         // 中亚国家及主要城市
         '哈萨克斯坦': 'Kazakhstan',
         '阿拉木图': 'Almaty',
@@ -848,16 +1079,17 @@ export class ContractManager {
 
     // 生成合同管理表单
     const content = `
-      <div class="space-y-8">
+      <div class="bg-white rounded-xl shadow-md p-4 md:p-6 lg:p-8 mb-6 md:mb-8">
+        <div class="space-y-6 md:space-y-8">
         <!-- 买方信息和合同信息卡片并排显示 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           <!-- 买方信息卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
-            <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
+          <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <h3 class="text-base md:text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-user text-primary mr-2"></i>买方信息
             </h3>
             <div class="grid grid-cols-1 gap-3">
-                             <div class="grid grid-cols-2 gap-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                  <div>
                    <div class="text-sm font-medium text-gray-700 mb-1">买方名称 / Buyer Name</div>
                    <input type="text" id="buyerName" class="form-input" placeholder="请输入买方名称">
@@ -875,12 +1107,12 @@ export class ContractManager {
           </div>
           
           <!-- 合同信息卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
-            <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
+          <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <h3 class="text-base md:text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-file-contract text-primary mr-2"></i>合同信息
             </h3>
             <div class="grid grid-cols-1 gap-3">
-                             <div class="grid grid-cols-2 gap-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                  <div>
                    <div class="text-sm font-medium text-gray-700 mb-1">合同编号 / Contract Number</div>
                    <input type="text" id="contractNumber" class="form-input" placeholder="请输入合同编号">
@@ -899,14 +1131,14 @@ export class ContractManager {
         </div>
         
         <!-- 卖方信息和开户行卡片并排显示 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           <!-- 卖方信息卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
-            <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
+          <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <h3 class="text-base md:text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-building text-primary mr-2"></i>卖方信息
             </h3>
             <div class="grid grid-cols-1 gap-3">
-                             <div class="grid grid-cols-2 gap-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                  <div>
                    <div class="text-sm font-medium text-gray-700 mb-1">卖方名称 / Seller Name</div>
                    <input type="text" id="sellerName" class="form-input" placeholder="请输入卖方名称" value="Smai Co., LTD">
@@ -924,8 +1156,8 @@ export class ContractManager {
           </div>
           
           <!-- 开户行卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
-            <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
+          <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <h3 class="text-base md:text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-university text-primary mr-2"></i>开户行
             </h3>
             <div class="grid grid-cols-1 gap-3">
@@ -941,27 +1173,27 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         </div>
         
         <!-- 商品信息卡片 -->
-        <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover mt-6" style="z-index: 20;">
-          <div class="flex justify-between items-center mb-4">
-            <h3 class="text-lg font-medium flex items-center" style="z-index: 25; position: relative;">
+        <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover mt-4 md:mt-6" style="z-index: 20;">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-3">
+            <h3 class="text-base md:text-lg font-medium flex items-center" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-shopping-cart text-primary mr-2"></i>商品信息
             </h3>
-            <button id="addGoodsRow" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors flex items-center">
-              <i class="fa-solid fa-plus mr-2"></i>增加商品
+            <button id="addGoodsRow" class="bg-primary text-white px-3 md:px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors flex items-center text-sm md:text-base mobile-btn">
+              <i class="fa-solid fa-plus mr-1 md:mr-2"></i>增加商品
             </button>
           </div>
           
           <div class="overflow-x-auto">
-            <table class="w-full border-collapse border border-gray-300">
+            <table class="w-full border-collapse border border-gray-300 mobile-table">
               <thead>
                 <tr class="bg-gray-100">
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 12%;">型号<br>Model</th>
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 35%;">货物名称及规格<br>Description & Specification</th>
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 10%;">颜色<br>Color</th>
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 8%;">数量<br>Quantity</th>
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 12%;">单价<br>Unit Price (USD)</th>
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 12%;">金额<br>Total Amount (USD)</th>
-                  <th class="border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700" style="width: 11%;">操作</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 12%;">型号<br>Model</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 35%;">货物名称及规格<br>Description & Specification</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 10%;">颜色<br>Color</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 8%;">数量<br>Quantity</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 12%;">单价<br>Unit Price (USD)</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 12%;">金额<br>Total Amount (USD)</th>
+                  <th class="border border-gray-300 px-2 md:px-3 py-2 text-xs md:text-sm font-medium text-gray-700" style="width: 11%;">操作</th>
                 </tr>
               </thead>
               <tbody id="goodsTableBody">
@@ -972,10 +1204,10 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         </div>
         
         <!-- 出口信息和运输信息卡片并排显示 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-4 md:mt-6">
           <!-- 支付信息卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
-            <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
+          <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <h3 class="text-base md:text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-credit-card text-primary mr-2"></i>支付信息
             </h3>
             <div class="grid grid-cols-1 gap-3">
@@ -1008,8 +1240,8 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
           </div>
           
           <!-- 运输信息卡片 -->
-          <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
-            <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
+          <div class="bg-gray-50 p-4 md:p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <h3 class="text-base md:text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
               <i class="fa-solid fa-truck text-primary mr-2"></i>运输信息
             </h3>
             <div class="grid grid-cols-1 gap-3">
@@ -1050,10 +1282,11 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         <div class="flex justify-center">
             <button 
             id="generateContractBtn"
-            class="px-8 py-4 bg-primary text-white rounded-lg hover:bg-primary/90 transition-custom flex items-center text-lg font-medium shadow-lg hover:shadow-xl"
+            class="px-4 md:px-8 py-3 md:py-4 bg-primary text-white rounded-lg hover:bg-primary/90 transition-custom flex items-center text-base md:text-lg font-medium shadow-lg hover:shadow-xl mobile-btn"
             >
-            <i class="fa-solid fa-file-excel mr-3"></i>
-            生成合同Excel文件
+            <i class="fa-solid fa-file-excel mr-2 md:mr-3"></i>
+            <span class="hidden sm:inline">生成合同Excel文件</span>
+            <span class="sm:hidden">生成合同</span>
             </button>
         </div>
         
@@ -1065,6 +1298,7 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
               <span class="text-blue-800">正在生成合同文件，请稍候...</span>
             </div>
           </div>
+        </div>
         </div>
       </div>
     `;
@@ -1123,7 +1357,7 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         f22Value: this.updateF22Value(),
         portOfLoading: this.getLocationWithTranslation('portOfLoading'),
         finalDestination: this.getLocationWithTranslation('finalDestination'),
-        transportRoute: this.formatTransportRoute(document.getElementById('transportRoute')?.value || ''),
+        transportRoute: document.getElementById('transportRoute')?.value || '',
         modeOfShipment: document.getElementById('modeOfShipment')?.value || ''
       };
       
@@ -1586,16 +1820,23 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
       return '';
     }
     
+    const trimmedLocation = chineseLocation.trim();
+    
+    // 如果已经包含"交车"或"Delivery"，说明已经格式化过了，直接返回
+    if (trimmedLocation.includes('交车') || trimmedLocation.includes('Delivery')) {
+      return trimmedLocation;
+    }
+    
     // 获取英文翻译
-    const englishLocation = this.translateLocation(chineseLocation.trim());
+    const englishLocation = this.translateLocation(trimmedLocation);
     
     // 如果翻译成功，返回格式化的运输路线
-    if (englishLocation && englishLocation !== chineseLocation.trim()) {
-      return `${chineseLocation.trim()}交车 ${englishLocation} Delivery`;
+    if (englishLocation && englishLocation !== trimmedLocation) {
+      return `${trimmedLocation}交车 ${englishLocation} Delivery`;
     }
     
     // 如果没有找到翻译，返回原文本
-    return chineseLocation.trim();
+    return trimmedLocation;
   }
   
   // 设置运输路线智能输入功能
@@ -1603,25 +1844,7 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
     const transportRouteInput = document.getElementById('transportRoute');
     if (!transportRouteInput) return;
     
-    // 监听输入事件
-    transportRouteInput.addEventListener('input', (e) => {
-      const value = e.target.value;
-      
-      // 如果用户输入的是纯中文地名（不包含"交车"或"Delivery"）
-      if (value && !value.includes('交车') && !value.includes('Delivery')) {
-        const formattedRoute = this.formatTransportRoute(value);
-        if (formattedRoute && formattedRoute !== value) {
-          // 延迟设置，避免光标跳转问题
-          setTimeout(() => {
-            transportRouteInput.value = formattedRoute;
-            // 将光标移到文本末尾
-            transportRouteInput.setSelectionRange(formattedRoute.length, formattedRoute.length);
-          }, 100);
-        }
-      }
-    });
-    
-    // 监听失焦事件 - 移除重复处理，避免数据重复
+    // 只保留失焦事件处理，避免重复格式化
     transportRouteInput.addEventListener('blur', (e) => {
       const value = e.target.value;
       
