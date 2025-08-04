@@ -94,9 +94,6 @@ export class Utils {
     const element = this.getElement(id);
     if (element) {
       element.value = value;
-      console.log(`✅ 成功设置 ${id} = "${value}"`);
-    } else {
-      console.error(`❌ 找不到元素: ${id}`);
     }
   }
   

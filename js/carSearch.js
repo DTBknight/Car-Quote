@@ -396,13 +396,6 @@ export class CarSearch {
   
   // 选择车型
   selectCar(car, config) {
-    // 临时调试信息
-    console.log('=== selectCar 调试 ===');
-    console.log('car:', car);
-    console.log('config:', config);
-    console.log('config.class:', config?.class);
-    console.log('config.power:', config?.power);
-    
     // 确保displayText不为undefined
     let displayText = '';
     if (config && config.configName) {
@@ -421,10 +414,18 @@ export class CarSearch {
       carInput.value = displayText;
       this.hideResults();
       
-      const mergedData = { ...car, ...config };
-      console.log('mergedData:', mergedData);
-      console.log('mergedData.class:', mergedData.class);
-      console.log('mergedData.power:', mergedData.power);
+      // 修复数据合并逻辑：确保config的字段优先于car的字段
+      const mergedData = { 
+        ...car, 
+        ...config,
+        // 确保这些关键字段来自config（如果存在）
+        class: config?.class || car?.class,
+        power: config?.power || car?.power,
+        fuelType: config?.fuelType || car?.fuelType,
+        size: config?.size || car?.size,
+        manufacturer: config?.manufacturer || car?.manufacturer,
+        price: config?.price || car?.price
+      };
       
       this.addToSearchHistory(mergedData);
       
@@ -446,14 +447,6 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
-    // 临时调试信息
-    console.log('=== fillCarDetails 调试 ===');
-    console.log('carData:', carData);
-    console.log('carData.class:', carData.class);
-    console.log('carData.power:', carData.power);
-    console.log('carData.fuelType:', carData.fuelType);
-    console.log('carData.size:', carData.size);
-    
     // 填充基础信息
     const brandName = carData.manufacturer || carData.brand || carData.seriesName || '';
     const carClass = carData.class || '未知';
@@ -462,30 +455,7 @@ export class CarSearch {
     const power = carData.power || '未知';
     const size = carData.size || '未知';
     
-    console.log('设置字段值:');
-    console.log('brandName2:', brandName);
-    console.log('carClass2:', carClass);
-    console.log('carModel2:', carModel);
-    console.log('fuelType2:', fuelType);
-    console.log('power2:', power);
-    console.log('size2:', size);
-    
-    // 检查元素是否存在
-    const brandNameElement = Utils.getElement('brandName2');
-    const carClassElement = Utils.getElement('carClass2');
-    const carModelElement = Utils.getElement('carModel2');
-    const fuelTypeElement = Utils.getElement('fuelType2');
-    const powerElement = Utils.getElement('power2');
-    const sizeElement = Utils.getElement('size2');
-    
-    console.log('元素检查:');
-    console.log('brandName2 element:', brandNameElement);
-    console.log('carClass2 element:', carClassElement);
-    console.log('carModel2 element:', carModelElement);
-    console.log('fuelType2 element:', fuelTypeElement);
-    console.log('power2 element:', powerElement);
-    console.log('size2 element:', sizeElement);
-    
+    // 设置元素值
     Utils.setElementValue('brandName2', brandName);
     Utils.setElementValue('carClass2', carClass);
     Utils.setElementValue('carModel2', carModel);
@@ -689,11 +659,24 @@ export class CarSearch {
       const displayText = matchedResult.config?.configName || matchedResult.car?.carName || carName;
       carInput.value = displayText;
       
+      // 修复数据合并逻辑：确保config的字段优先于car的字段
+      const mergedData = { 
+        ...matchedResult.car, 
+        ...matchedResult.config,
+        // 确保这些关键字段来自config（如果存在）
+        class: matchedResult.config?.class || matchedResult.car?.class,
+        power: matchedResult.config?.power || matchedResult.car?.power,
+        fuelType: matchedResult.config?.fuelType || matchedResult.car?.fuelType,
+        size: matchedResult.config?.size || matchedResult.car?.size,
+        manufacturer: matchedResult.config?.manufacturer || matchedResult.car?.manufacturer,
+        price: matchedResult.config?.price || matchedResult.car?.price
+      };
+      
       // 填充车型详细信息
-      this.fillCarDetails({ ...matchedResult.car, ...matchedResult.config });
+      this.fillCarDetails(mergedData);
       
       // 触发车型选择事件
-      this.triggerCarSelectionEvent({ ...matchedResult.car, ...matchedResult.config });
+      this.triggerCarSelectionEvent(mergedData);
     } else {
       // 没有找到匹配的配置，使用原始数据
       const displayText = carData.configName || carData.carName || carData.name || '';
