@@ -5,15 +5,15 @@ export class LoadingManager {
     this.mainContent = document.getElementById('mainContent');
     this.loadingText = document.getElementById('loadingText');
     this.loadingProgressBar = document.getElementById('loadingProgressBar');
-    this.magicParticles = document.getElementById('magicParticles');
+    this.techParticles = document.getElementById('techParticles');
     this.loadingSteps = [
-      { text: '正在施展魔法...', progress: 12 },
-      { text: '召唤车型数据...', progress: 25 },
-      { text: '激活汇率服务...', progress: 38 },
-      { text: '启动计算引擎...', progress: 50 },
-      { text: '构建用户界面...', progress: 62 },
-      { text: '初始化合同管理...', progress: 75 },
-      { text: '魔法完成！', progress: 100 }
+      { text: '正在初始化系统...', progress: 12, status: 0 },
+      { text: '加载车型数据...', progress: 25, status: 0 },
+      { text: '初始化汇率服务...', progress: 38, status: 1 },
+      { text: '设置计算引擎...', progress: 50, status: 1 },
+      { text: '配置用户界面...', progress: 62, status: 2 },
+      { text: '初始化合同管理...', progress: 75, status: 2 },
+      { text: '启动完成！', progress: 100, status: 2 }
     ];
     this.currentStep = 0;
     this.particles = [];
@@ -23,27 +23,31 @@ export class LoadingManager {
   startLoading() {
     // 显示加载进度
     this.updateProgress(0, this.loadingSteps[0].text);
-    this.createMagicParticles();
+    this.createTechParticles();
+    this.updateStatusIndicators(0);
   }
 
   // 更新加载进度
   updateProgress(progress, text) {
     if (this.loadingProgressBar) {
-      // 更新魔法进度条的填充部分
-      const progressFill = this.loadingProgressBar.querySelector('.magic-progress-fill');
-      if (progressFill) {
-        progressFill.style.width = `${progress}%`;
-      }
+      this.loadingProgressBar.style.width = `${progress}%`;
     }
     if (this.loadingText) {
-      // 更新魔法文字动画
-      const textAnimation = this.loadingText.querySelector('.magic-text-animation');
-      if (textAnimation) {
-        textAnimation.textContent = text;
-      } else {
-        this.loadingText.innerHTML = `<span class="magic-text-animation">${text}</span>`;
-      }
+      this.loadingText.textContent = text;
     }
+  }
+
+  // 更新状态指示器
+  updateStatusIndicators(activeIndex) {
+    const statusItems = document.querySelectorAll('.tech-status-item');
+    statusItems.forEach((item, index) => {
+      const dot = item.querySelector('.tech-status-dot');
+      if (index <= activeIndex) {
+        dot.classList.add('active');
+      } else {
+        dot.classList.remove('active');
+      }
+    });
   }
 
   // 下一步加载
@@ -52,6 +56,7 @@ export class LoadingManager {
     if (this.currentStep < this.loadingSteps.length) {
       const step = this.loadingSteps[this.currentStep];
       this.updateProgress(step.progress, step.text);
+      this.updateStatusIndicators(step.status);
     }
   }
 
@@ -59,7 +64,8 @@ export class LoadingManager {
   completeLoading() {
     return new Promise((resolve) => {
       // 更新到100%
-      this.updateProgress(100, '魔法完成！');
+      this.updateProgress(100, '启动完成！');
+      this.updateStatusIndicators(2);
       
       // 等待一小段时间让用户看到完成状态
       setTimeout(() => {
@@ -83,7 +89,7 @@ export class LoadingManager {
           if (this.mainContent) {
             this.mainContent.classList.remove('loading-fade-in');
           }
-          this.cleanupMagicParticles();
+          this.cleanupTechParticles();
           resolve();
         }, 500);
       }, 800);
@@ -101,99 +107,63 @@ export class LoadingManager {
     }
   }
 
-  // 创建魔法粒子效果
-  createMagicParticles() {
-    if (!this.magicParticles) return;
+  // 创建科技粒子效果
+  createTechParticles() {
+    if (!this.techParticles) return;
     
     // 清除现有粒子
-    this.magicParticles.innerHTML = '';
+    this.techParticles.innerHTML = '';
     this.particles = [];
     
-    // 创建多个魔法粒子
-    for (let i = 0; i < 15; i++) {
-      this.createParticle();
+    // 创建粒子
+    for (let i = 0; i < 30; i++) {
+      this.createTechParticle();
     }
-    
-    // 定期创建新粒子
-    this.particleInterval = setInterval(() => {
-      if (this.particles.length < 20) {
-        this.createParticle();
-      }
-    }, 500);
   }
-  
-  // 创建单个粒子
-  createParticle() {
+
+  // 创建单个科技粒子
+  createTechParticle() {
     const particle = document.createElement('div');
-    particle.className = 'magic-particle';
+    particle.className = 'tech-particle';
     
-    // 随机位置
-    const x = Math.random() * 100;
-    const y = Math.random() * 100;
+    // 随机位置和延迟
+    const startX = Math.random() * window.innerWidth;
+    const delay = Math.random() * 6;
     
-    // 随机大小
-    const size = Math.random() * 6 + 2;
+    particle.style.left = `${startX}px`;
+    particle.style.animationDelay = `${delay}s`;
     
-    // 随机颜色
-    const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#feca57', '#ff9ff3'];
-    const color = colors[Math.floor(Math.random() * colors.length)];
-    
-    // 设置样式
-    particle.style.cssText = `
-      position: absolute;
-      left: ${x}%;
-      top: ${y}%;
-      width: ${size}px;
-      height: ${size}px;
-      background: ${color};
-      border-radius: 50%;
-      pointer-events: none;
-      opacity: 0;
-      animation: magicParticleFloat 4s ease-in-out infinite;
-      animation-delay: ${Math.random() * 2}s;
-      filter: blur(0.5px);
-      box-shadow: 0 0 10px ${color};
-    `;
-    
-    this.magicParticles.appendChild(particle);
+    this.techParticles.appendChild(particle);
     this.particles.push(particle);
     
-    // 粒子消失后移除
+    // 粒子动画结束后重新创建
     setTimeout(() => {
       if (particle.parentNode) {
-        particle.parentNode.removeChild(particle);
+        particle.remove();
         this.particles = this.particles.filter(p => p !== particle);
+        this.createTechParticle();
       }
-    }, 4000);
+    }, 6000 + delay * 1000);
   }
-  
-  // 清理魔法粒子
-  cleanupMagicParticles() {
-    if (this.particleInterval) {
-      clearInterval(this.particleInterval);
-      this.particleInterval = null;
+
+  // 清理科技粒子
+  cleanupTechParticles() {
+    if (this.techParticles) {
+      this.techParticles.innerHTML = '';
     }
-    
-    if (this.magicParticles) {
-      this.magicParticles.innerHTML = '';
-    }
-    
     this.particles = [];
   }
 
   // 重置加载状态
   reset() {
     this.currentStep = 0;
-    this.cleanupMagicParticles();
-    
-    if (this.loadingScreen) {
-      this.loadingScreen.style.display = 'flex';
-      this.loadingScreen.classList.remove('loading-fade-out');
+    this.updateProgress(0, this.loadingSteps[0].text);
+    this.updateStatusIndicators(0);
+    if (this.loadingText) {
+      this.loadingText.classList.remove('text-red-500');
     }
-    
-    if (this.mainContent) {
-      this.mainContent.style.display = 'none';
-      this.mainContent.classList.remove('loading-fade-in');
+    if (this.loadingProgressBar) {
+      this.loadingProgressBar.style.backgroundColor = '';
     }
   }
 } 
