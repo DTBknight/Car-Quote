@@ -470,6 +470,22 @@ export class CarSearch {
     console.log('power2:', power);
     console.log('size2:', size);
     
+    // 检查元素是否存在
+    const brandNameElement = Utils.getElement('brandName2');
+    const carClassElement = Utils.getElement('carClass2');
+    const carModelElement = Utils.getElement('carModel2');
+    const fuelTypeElement = Utils.getElement('fuelType2');
+    const powerElement = Utils.getElement('power2');
+    const sizeElement = Utils.getElement('size2');
+    
+    console.log('元素检查:');
+    console.log('brandName2 element:', brandNameElement);
+    console.log('carClass2 element:', carClassElement);
+    console.log('carModel2 element:', carModelElement);
+    console.log('fuelType2 element:', fuelTypeElement);
+    console.log('power2 element:', powerElement);
+    console.log('size2 element:', sizeElement);
+    
     Utils.setElementValue('brandName2', brandName);
     Utils.setElementValue('carClass2', carClass);
     Utils.setElementValue('carModel2', carModel);
