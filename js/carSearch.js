@@ -365,6 +365,8 @@ export class CarSearch {
         // 点击选择
         div.onmousedown = (e) => {
           e.preventDefault();
+          console.log('点击选择 - result.car:', result.car);
+          console.log('点击选择 - result.config:', result.config);
           this.selectCar(result.car, result.config);
         };
         
@@ -433,6 +435,11 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
+    // 调试信息
+    console.log('fillCarDetails - carData:', carData);
+    console.log('fillCarDetails - class:', carData.class);
+    console.log('fillCarDetails - power:', carData.power);
+    
     // 填充基础信息
     Utils.setElementValue('brandName2', carData.manufacturer || carData.brand || carData.seriesName || '');
     Utils.setElementValue('carClass2', carData.class || '未知');
