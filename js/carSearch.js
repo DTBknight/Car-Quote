@@ -455,12 +455,27 @@ export class CarSearch {
     console.log('carData.size:', carData.size);
     
     // 填充基础信息
-    Utils.setElementValue('brandName2', carData.manufacturer || carData.brand || carData.seriesName || '');
-    Utils.setElementValue('carClass2', carData.class || '未知');
-    Utils.setElementValue('carModel2', carData.name || carData.carName || '');
-    Utils.setElementValue('fuelType2', carData.fuelType || '未知');
-    Utils.setElementValue('power2', carData.power || '未知');
-    Utils.setElementValue('size2', carData.size || '未知');
+    const brandName = carData.manufacturer || carData.brand || carData.seriesName || '';
+    const carClass = carData.class || '未知';
+    const carModel = carData.name || carData.carName || '';
+    const fuelType = carData.fuelType || '未知';
+    const power = carData.power || '未知';
+    const size = carData.size || '未知';
+    
+    console.log('设置字段值:');
+    console.log('brandName2:', brandName);
+    console.log('carClass2:', carClass);
+    console.log('carModel2:', carModel);
+    console.log('fuelType2:', fuelType);
+    console.log('power2:', power);
+    console.log('size2:', size);
+    
+    Utils.setElementValue('brandName2', brandName);
+    Utils.setElementValue('carClass2', carClass);
+    Utils.setElementValue('carModel2', carModel);
+    Utils.setElementValue('fuelType2', fuelType);
+    Utils.setElementValue('power2', power);
+    Utils.setElementValue('size2', size);
     
     // 计算并填充CBM
     const cbm = this.calculateCBM(carData.size);
