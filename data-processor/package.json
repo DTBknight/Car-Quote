@@ -9,10 +9,9 @@
     "sync": "node scripts/sync-brands.js",
     "single": "node index-optimized.js",
     "all": "node index-optimized.js all",
-    "production": "node index-production.js",
+    "sync": "node index-sync.js",
     "clean": "node scripts/clean.js",
-    "validate": "node scripts/validate.js",
-    "test": "node test-simple.js"
+    "validate": "node scripts/validate.js"
   },
   "keywords": [
     "data-sync",
@@ -28,6 +27,7 @@
     "cheerio": "^1.1.2",
     "cli-progress": "^3.12.0",
     "colors": "^1.4.0",
+    "dotenv": "^17.2.1",
     "p-limit": "^6.2.0",
     "p-retry": "^6.2.1",
     "p-timeout": "^6.1.4",

@@ -3,363 +3,521 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/2c52e02dd202db11ffaf361a38ca44ac~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "发现运动",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7bc08e41a607485e96fc9a812fd7c256~1200x0.png",
-      "seriesName": "奇瑞捷豹路虎/中型SUV",
-      "configs": [
-        {
-          "configName": "发现运动 2025款 249PS 性能科技版",
-          "price": "38.83万",
-          "fuelType": "48V轻混系统",
-          "size": "4597x1904x1727"
-        },
-        {
-          "configName": "发现运动 2025款 249PS 探享特别版",
-          "price": "39.99万",
-          "fuelType": "48V轻混系统",
-          "size": "4597x1904x1727"
-        },
-        {
-          "configName": "发现运动 2025款 249PS 35周年纪念版",
-          "price": "39.99万",
-          "fuelType": "48V轻混系统",
-          "size": "4597x1904x1727"
-        }
-      ]
-    },
-    {
       "carName": "揽胜极光",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9f59d57b14ad4aa082093782718ce8d8~1200x0.png",
-      "seriesName": "奇瑞捷豹路虎/中型SUV",
       "configs": [
         {
           "configName": "揽胜极光 2024款 极光L 2.0T 200PS 流光熠雅版",
           "price": "39.28万",
           "fuelType": "48V轻混系统",
-          "size": "4531x1904x1650"
+          "size": "4531x1904x1650",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
+          "power": "2.0T 200马力 L4 48V轻混"
         },
         {
           "configName": "揽胜极光 2024款 极光L 2.0T 249PS 驭光尊耀版",
           "price": "42.98万",
           "fuelType": "48V轻混系统",
-          "size": "4531x1904x1650"
+          "size": "4531x1904x1650",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
+          "power": "2.0T 249马力 L4 48V轻混"
         },
         {
           "configName": "揽胜极光 2024款 极光L 2.0T 249PS 凝光限定版",
           "price": "47.58万",
           "fuelType": "48V轻混系统",
-          "size": "4531x1904x1650"
+          "size": "4531x1904x1650",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
+          "power": "2.0T 249马力 L4 48V轻混"
+        }
+      ]
+    },
+    {
+      "carName": "发现运动",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7bc08e41a607485e96fc9a812fd7c256~1200x0.png",
+      "configs": [
+        {
+          "configName": "发现运动 2025款 249PS 性能科技版",
+          "price": "38.83万",
+          "fuelType": "48V轻混系统",
+          "size": "4597x1904x1727",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
+          "power": "2.0T 249马力 L4 48V轻混"
+        },
+        {
+          "configName": "发现运动 2025款 249PS 探享特别版",
+          "price": "39.99万",
+          "fuelType": "48V轻混系统",
+          "size": "4597x1904x1727",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
+          "power": "2.0T 249马力 L4 48V轻混"
+        },
+        {
+          "configName": "发现运动 2025款 249PS 35周年纪念版",
+          "price": "39.99万",
+          "fuelType": "48V轻混系统",
+          "size": "4597x1904x1727",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
+          "power": "2.0T 249马力 L4 48V轻混"
         }
       ]
     },
     {
       "carName": "发现",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f606c9329582424f84d6009843521d42~1200x0.png",
-      "seriesName": "路虎(进口)/中大型SUV",
       "configs": [
         {
           "configName": "发现 2025款 300PS S",
           "price": "65.88万",
           "fuelType": "汽油",
-          "size": "4956x2073x1888"
+          "size": "4956x2073x1888",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "2.0T 300马力 L4"
         },
         {
           "configName": "发现 2025款 360PS S",
           "price": "71.88万",
           "fuelType": "48V轻混系统",
-          "size": "4956x2073x1888"
+          "size": "4956x2073x1888",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 360马力 L6"
         },
         {
           "configName": "发现 2025款 360PS R-Dynamic SE",
           "price": "75.88万",
           "fuelType": "48V轻混系统",
-          "size": "4956x2073x1888"
+          "size": "4956x2073x1888",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 360马力 L6"
         },
         {
           "configName": "发现 2025款 360PS R-Dynamic HSE",
           "price": "79.88万",
           "fuelType": "48V轻混系统",
-          "size": "4956x2073x1888"
+          "size": "4956x2073x1888",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 360马力 L6"
         }
       ]
     },
     {
       "carName": "揽胜星脉",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8c6601c7ecd94979b68ab29c711ae8df~1200x0.png",
-      "seriesName": "路虎(进口)/中型SUV",
       "configs": [
         {
           "configName": "揽胜星脉 2026款 250PS S",
           "price": "56.8万",
           "fuelType": "汽油",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 250马力 L4"
         },
         {
           "configName": "揽胜星脉 2026款 250PS Dynamic SE",
           "price": "63.8万",
           "fuelType": "汽油",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 250马力 L4"
         },
         {
           "configName": "揽胜星脉 2026款 250PS 典范版",
           "price": "68.8万",
           "fuelType": "汽油",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 250马力 L4"
         },
         {
           "configName": "揽胜星脉 2026款 400PS 典范版",
           "price": "78.8万",
           "fuelType": "48V轻混系统",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "3.0T 400马力 L6 48V轻混系统"
         },
         {
           "configName": "揽胜星脉 2025款 S",
           "price": "56.8万",
           "fuelType": "汽油",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 250马力 L4"
         },
         {
           "configName": "揽胜星脉 2025款 Dynamic SE",
           "price": "63.8万",
           "fuelType": "汽油",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 250马力 L4"
         },
         {
           "configName": "揽胜星脉 2025款 Dynamic HSE",
           "price": "67.8万",
           "fuelType": "汽油",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 250马力 L4"
         },
         {
           "configName": "揽胜星脉 2025款 典范版",
           "price": "78.8万",
           "fuelType": "48V轻混系统",
-          "size": "4811x1930x1684"
+          "size": "4811x1930x1684",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
+          "power": "3.0T 400马力 L6 48V轻混系统"
         }
       ]
     },
     {
       "carName": "卫士",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d359131c965043b7b8f73a50781c40fb~1200x0.png",
-      "seriesName": "路虎(进口)/中大型SUV",
       "configs": [
-        {
-          "configName": "卫士 2026款 90 3.0T 英伦之声特别版",
-          "price": "81.8万",
-          "fuelType": "",
-          "size": ""
-        },
         {
           "configName": "卫士 2025款 90 2.0T P300 S",
           "price": "68.8万",
           "fuelType": "汽油",
-          "size": "4323x2008x1969"
+          "size": "4323x2008x1969",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "2.0T 300马力 L4"
         },
         {
           "configName": "卫士 2025款 90 3.0T P400 X-DYNAMIC HSE",
           "price": "81.8万",
           "fuelType": "48V轻混系统",
-          "size": "4323x2008x1969"
+          "size": "4323x2008x1969",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
+        },
+        {
+          "configName": "卫士 2025款 90 3.0T 英伦之声特别版",
+          "price": "81.8万",
+          "fuelType": "48V轻混系统",
+          "size": "4323x2008x1969",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 90 5.0T V8",
           "price": "126.6万",
           "fuelType": "汽油",
-          "size": "4323x2008x1969"
+          "size": "4323x2008x1969",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "5.0T 525马力 V8"
         },
         {
           "configName": "卫士 2025款 110 3.0T P400 SE X-DYNAMIC",
           "price": "79.8万",
           "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967"
+          "size": "4758x2008x1967",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 110 3.0T P400 HSE X-DYNAMIC",
           "price": "88.8万",
           "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967"
+          "size": "4758x2008x1967",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 110 3.0T P400 X",
           "price": "103.8万",
           "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967"
+          "size": "4758x2008x1967",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 110 3.0T P400 暗黑特别版",
           "price": "93.8万",
           "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967"
+          "size": "4758x2008x1967",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 130 3.0T P400 SE X-DYNAMIC",
           "price": "90.8万",
           "fuelType": "48V轻混系统",
-          "size": "5099x2008x1970"
+          "size": "5099x2008x1970",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T  400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 110 5.0T V8",
           "price": "146.6万",
           "fuelType": "汽油",
-          "size": "4758x2008x1967"
+          "size": "4758x2008x1967",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "5.0T 525马力 V8"
         },
         {
           "configName": "卫士 2025款 130 3.0T P400 七座奢享版",
           "price": "102.8万",
           "fuelType": "48V轻混系统",
-          "size": "5099x2008x1970"
+          "size": "5099x2008x1970",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T  400马力 L6 48V轻混"
         },
         {
           "configName": "卫士 2025款 130 3.0T P400 远征特别版",
           "price": "101.8万",
           "fuelType": "48V轻混系统",
-          "size": "5099x2008x1970"
+          "size": "5099x2008x1970",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T  400马力 L6 48V轻混"
         }
       ]
     },
     {
       "carName": "揽胜",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a6e3de550b9d439484b9d05859551b07~1200x0.png",
-      "seriesName": "路虎(进口)/中大型SUV",
       "configs": [
         {
           "configName": "揽胜 2025款 3.0 L6 360PS 盛世版",
           "price": "141.2万",
           "fuelType": "48V轻混系统",
-          "size": "5052x2047x1870"
+          "size": "5052x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 360马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2025款 3.0 L6 400PS 盛世加长版 7座",
           "price": "145.2万",
           "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870"
+          "size": "5252x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2025款 3.0 L6 400PS 盛世加长版",
           "price": "145.2万",
           "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870"
+          "size": "5252x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2025款 3.0 L6 400PS 创世加长版",
           "price": "173.2万",
           "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870"
+          "size": "5252x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2025款 3.0 L6 400PS 典范加长版",
           "price": "206.2万",
           "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870"
+          "size": "5252x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2025款 4.4 V8 SV 中国十周年高定版",
           "price": "379.5万",
           "fuelType": "48V轻混系统",
-          "size": "5258x2047x1870"
+          "size": "5258x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "4.4T 615马力 V8 48V轻混系统"
         },
         {
           "configName": "揽胜 2024款 3.0 L6 400PS SV尊荣创世加长版",
           "price": "236.8万",
           "fuelType": "48V轻混系统",
-          "size": "5258x2047x1870"
+          "size": "5258x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2024款 3.0 L6 400PS SV尊荣创世加长版 4座",
           "price": "245.8万",
           "fuelType": "48V轻混系统",
-          "size": "5258x2047x1870"
+          "size": "5258x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜 2024款 4.4 V8 SV尊荣创世版",
           "price": "296.8万",
           "fuelType": "汽油",
-          "size": "5058x2047x1870"
+          "size": "5058x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "4.4T 615马力 V8"
         },
         {
           "configName": "揽胜 2024款 4.4 V8 SV尊荣创世加长版 4座",
           "price": "335.8万",
           "fuelType": "汽油",
-          "size": "5258x2047x1870"
+          "size": "5258x2047x1870",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "4.4T 615马力 V8"
         }
       ]
     },
     {
       "carName": "揽胜运动",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/75fbfacccc5a427d8ffc265b4b711193~1200x0.png",
-      "seriesName": "路虎(进口)/中大型SUV",
       "configs": [
         {
           "configName": "揽胜运动 2025款 360PS S",
           "price": "89.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 360马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2025款 400PS DYNAMIC SE",
           "price": "99.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2025款 400PS DYNAMIC HSE",
           "price": "116万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2025款 400PS 典范版",
           "price": "129万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
+        },
+        {
+          "configName": "揽胜运动 2025款 蓝焰特别版",
+          "price": "103.6万",
+          "fuelType": "48V轻混系统",
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混系统"
         },
         {
           "configName": "揽胜运动 2025款 藏锋特别版",
           "price": "106.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混系统"
         },
         {
           "configName": "揽胜运动 2025款 SV Edition Two",
           "price": "218万",
           "fuelType": "48V轻混系统",
-          "size": "4970x2047x1814"
+          "size": "4970x2047x1814",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "4.4T 635马力 V8 48V轻混"
         },
         {
           "configName": "揽胜运动 2024款 360PS S",
           "price": "96.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 360马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2024款 400PS DYNAMIC SE",
           "price": "106.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2024款 400PS DYNAMIC HSE",
           "price": "117.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2024款 400PS 典范版",
           "price": "130.8万",
           "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820"
+          "size": "4946x2047x1820",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "3.0T 400马力 L6 48V轻混"
         },
         {
           "configName": "揽胜运动 2024款 富勒银SV Edition One",
           "price": "243.8万",
           "fuelType": "48V轻混系统",
-          "size": "4970x2047x1814"
+          "size": "4970x2047x1814",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "4.4T 635马力 V8 48V轻混"
         },
         {
           "configName": "揽胜运动 2024款 碳纤金SV Edition One",
           "price": "243.8万",
           "fuelType": "48V轻混系统",
-          "size": "4970x2047x1814"
+          "size": "4970x2047x1814",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
+          "power": "4.4T 635马力 V8 48V轻混"
         }
       ]
     }

@@ -266,23 +266,7 @@ export class CacheManager {
     }
   }
 
-  // 获取缓存统计信息
-  getStats() {
-    return {
-      memory: {
-        size: this.memoryCache.size,
-        maxSize: this.cacheConfig.memory.maxSize
-      },
-      sessionStorage: {
-        size: this.sessionStorageCache.size,
-        maxSize: this.cacheConfig.sessionStorage.maxSize
-      },
-      localStorage: {
-        size: this.localStorageCache.size,
-        maxSize: this.cacheConfig.localStorage.maxSize
-      }
-    };
-  }
+
 
   // 清理过期缓存
   cleanup() {

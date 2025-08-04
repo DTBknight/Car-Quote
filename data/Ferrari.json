@@ -3,78 +3,98 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/30f928f03a9e85dc1d6ce484cb0e938f~tplv-resize:100:100.image",
   "cars": [
     {
+      "carName": "法拉利296",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6f90994f0b824190a2a5764d64407735~1200x0.png",
+      "configs": [
+        {
+          "configName": "法拉利296 2025款 3.0T V6 Speciale",
+          "price": "398.88万",
+          "fuelType": "插电式混合动力",
+          "size": "4625x1968x1181",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "插电式混动 154马力"
+        },
+        {
+          "configName": "法拉利296 2025款 3.0T V6 Speciale A",
+          "price": "439.88万",
+          "fuelType": "插电式混合动力",
+          "size": "4625x1968x1181",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "插电式混动 154马力"
+        },
+        {
+          "configName": "法拉利296 2022款 3.0T V6 GTS",
+          "price": "348.8万",
+          "fuelType": "插电式混合动力",
+          "size": "4565x1958x1191",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "插电式混合动力 166马力"
+        },
+        {
+          "configName": "法拉利296 2021款 3.0T V6 GTB",
+          "price": "298.8万",
+          "fuelType": "插电式混合动力",
+          "size": "4565x1958x1187",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "插电式混动 166马力"
+        }
+      ]
+    },
+    {
       "carName": "Purosangue",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/26b65118644a422ebf832d23a25232d8~1200x0.png",
-      "seriesName": "法拉利/中大型SUV",
       "configs": [
         {
           "configName": "Purosangue 2022款 6.5L V12",
           "price": "498.8万",
           "fuelType": "汽油",
-          "size": "4973x2028x1589"
+          "size": "4973x2028x1589",
+          "manufacturer": "法拉利",
+          "class": "中大型SUV",
+          "power": "6.5L 725马力 V12"
         }
       ]
     },
     {
       "carName": "法拉利Roma",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/da729895b4aa4e79899acffa69880cd6~1200x0.png",
-      "seriesName": "法拉利/-",
       "configs": [
         {
           "configName": "法拉利Roma 2023款 Spider",
           "price": "276.2万",
           "fuelType": "汽油",
-          "size": "4656x1974x1306"
-        }
-      ]
-    },
-    {
-      "carName": "法拉利296",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6f90994f0b824190a2a5764d64407735~1200x0.png",
-      "seriesName": "法拉利/-",
-      "configs": [
-        {
-          "configName": "法拉利296 2025款 3.0T V6 Speciale",
-          "price": "398.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4625x1968x1181"
-        },
-        {
-          "configName": "法拉利296 2025款 3.0T V6 Speciale A",
-          "price": "439.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4625x1968x1181"
-        },
-        {
-          "configName": "法拉利296 2022款 3.0T V6 GTS",
-          "price": "348.8万",
-          "fuelType": "插电式混合动力",
-          "size": "4565x1958x1191"
-        },
-        {
-          "configName": "法拉利296 2021款 3.0T V6 GTB",
-          "price": "298.8万",
-          "fuelType": "插电式混合动力",
-          "size": "4565x1958x1187"
+          "size": "4656x1974x1306",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "3.9T 620马力 V8"
         }
       ]
     },
     {
       "carName": "法拉利12Cilindri",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e230f88f76940da86e8c29a607f6171~1200x0.png",
-      "seriesName": "法拉利/-",
       "configs": [
         {
           "configName": "法拉利12Cilindri 2024款 6.5L V12 Coupe",
           "price": "598.8万",
           "fuelType": "汽油",
-          "size": "4733x2176x1292"
+          "size": "4733x2176x1292",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "6.5L 830马力 V12"
         },
         {
           "configName": "法拉利12Cilindri 2024款 6.5L V12 Spider",
           "price": "658.68万",
           "fuelType": "汽油",
-          "size": "4733x2176x1292"
+          "size": "4733x2176x1292",
+          "manufacturer": "法拉利",
+          "class": "跑车",
+          "power": "6.5L 830马力 V12"
         }
       ]
     }

@@ -3,46 +3,59 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/bc0b6d995581dc7821541b0d83256f92~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "Polestar 2",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5c9d34303f948cf9938d51b5f184985~1200x0.png",
-      "seriesName": "Polestar/紧凑型车",
-      "configs": [
-        {
-          "configName": "Polestar 2 2024款 单电机标准续航",
-          "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "4606x1859x1482"
-        },
-        {
-          "configName": "Polestar 2 2024款 单电机长续航",
-          "price": "32.98万",
-          "fuelType": "纯电动",
-          "size": "4606x1859x1482"
-        },
-        {
-          "configName": "Polestar 2 2024款 双电机长续航",
-          "price": "35.88万",
-          "fuelType": "纯电动",
-          "size": "4606x1859x1482"
-        }
-      ]
-    },
-    {
       "carName": "Polestar 4",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/928324fd61bf4b82857f357d3ce0af8d~1200x0.png",
-      "seriesName": "Polestar/中型SUV",
       "configs": [
         {
           "configName": "Polestar 4 2025款 豪华版",
           "price": "33.8万",
           "fuelType": "纯电动",
-          "size": "4845x1994x1544"
+          "size": "4845x1994x1544",
+          "manufacturer": "Polestar",
+          "class": "中型SUV",
+          "power": "纯电动 272马力"
         },
         {
           "configName": "Polestar 4 2025款 性能版",
           "price": "39.8万",
           "fuelType": "纯电动",
-          "size": "4845x1994x1544"
+          "size": "4845x1994x1544",
+          "manufacturer": "Polestar",
+          "class": "中型SUV",
+          "power": "纯电动 544马力"
+        }
+      ]
+    },
+    {
+      "carName": "Polestar 2",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5c9d34303f948cf9938d51b5f184985~1200x0.png",
+      "configs": [
+        {
+          "configName": "Polestar 2 2024款 单电机标准续航",
+          "price": "29.98万",
+          "fuelType": "纯电动",
+          "size": "4606x1859x1482",
+          "manufacturer": "Polestar",
+          "class": "紧凑型车",
+          "power": "纯电动 272马力"
+        },
+        {
+          "configName": "Polestar 2 2024款 单电机长续航",
+          "price": "32.98万",
+          "fuelType": "纯电动",
+          "size": "4606x1859x1482",
+          "manufacturer": "Polestar",
+          "class": "紧凑型车",
+          "power": "纯电动 299马力"
+        },
+        {
+          "configName": "Polestar 2 2024款 双电机长续航",
+          "price": "35.88万",
+          "fuelType": "纯电动",
+          "size": "4606x1859x1482",
+          "manufacturer": "Polestar",
+          "class": "紧凑型车",
+          "power": "纯电动 421马力"
         }
       ]
     }

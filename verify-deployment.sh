@@ -29,7 +29,7 @@ fi
 
 # 检查Netlify前端（通过GitHub Pages或直接访问）
 echo -e "\n${YELLOW}检查Netlify前端...${NC}"
-NETLIFY_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://car-quote-dtbknight.netlify.app)
+NETLIFY_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://dbtknight.netlify.app)
 if [[ $NETLIFY_STATUS == "200" ]]; then
     echo -e "${GREEN}✅ Netlify前端可访问${NC}"
 else
@@ -48,5 +48,5 @@ fi
 echo -e "\n${GREEN}🎉 部署验证完成！${NC}"
 echo -e "\n📋 部署信息："
 echo -e "  后端: ${GREEN}https://dbtknight-production.up.railway.app${NC}"
-echo -e "  前端: ${GREEN}https://car-quote-dtbknight.netlify.app${NC}"
+echo -e "  前端: ${GREEN}https://dbtknight.netlify.app${NC}"
 echo -e "  仓库: ${GREEN}https://github.com/DTBknight/Car-Quote${NC}" 

@@ -3,460 +3,644 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/ef40e34ea01b91d1be9f49d71d0cb0b4~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "领克03",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b50a367aad634c2489f4b2ddb1ac53f0~1200x0.png",
-      "seriesName": "领克/紧凑型车",
-      "configs": [
-        {
-          "configName": "领克03 2025款 1.5TD DCT冠军版Plus",
-          "price": "12.78万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1460"
-        },
-        {
-          "configName": "领克03 2025款 1.5TD DCT冠军版Pro",
-          "price": "13.98万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1460"
-        },
-        {
-          "configName": "领克03 2025款 2.0TD DCT冠军版Pro",
-          "price": "15.68万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1460"
-        },
-        {
-          "configName": "领克03 2025款 03+ 2.0TD 自动驭风版",
-          "price": "19.88万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1448"
-        },
-        {
-          "configName": "领克03 2025款 03+ 2.0TD 自动性能套装",
-          "price": "21.88万",
-          "fuelType": "汽油",
-          "size": "4697x1843x1448"
-        },
-        {
-          "configName": "领克03 2025款 03+ 2.0TD 自动性能进阶版",
-          "price": "23.88万",
-          "fuelType": "汽油",
-          "size": "4679x1843x1456"
-        },
-        {
-          "configName": "领克03 2023款 1.5T EM-F PM",
-          "price": "15.98万",
-          "fuelType": "油电混合",
-          "size": "4684x1843x1460"
-        },
-        {
-          "configName": "领克03 2023款 03+ Racing 四驱版",
-          "price": "28.58万",
-          "fuelType": "汽油",
-          "size": "4697x1843x1456"
-        },
-        {
-          "configName": "领克03 2023款 03+ TCR Cyan 前驱版",
-          "price": "42.03万",
-          "fuelType": "汽油",
-          "size": "4720x1877x1446"
-        }
-      ]
-    },
-    {
-      "carName": "领克Z10",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d5a8037bfe0442488349bc4813acf4e2~1200x0.png",
-      "seriesName": "领克/中大型车",
-      "configs": [
-        {
-          "configName": "领克Z10 2025款 95kWh 702km四驱Halo",
-          "price": "22.98万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468"
-        },
-        {
-          "configName": "领克Z10 2024款 71kWh 602km后驱Pro",
-          "price": "18.68万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468"
-        },
-        {
-          "configName": "领克Z10 2024款 95kWh 766km后驱Max",
-          "price": "20.68万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468"
-        },
-        {
-          "configName": "领克Z10 2024款 STARBUFF 95kWh 766km后驱",
-          "price": "21.68万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468"
-        },
-        {
-          "configName": "领克Z10 2024款 95kWh 806km后驱智驾Max",
-          "price": "22.88万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468"
-        },
-        {
-          "configName": "领克Z10 2024款 95kWh 702km四驱智驾Ultra",
-          "price": "26.28万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1463"
-        },
-        {
-          "configName": "领克Z10 2024款 STARBUFF 95kWh 680km四驱智驾",
-          "price": "28.28万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1463"
-        }
-      ]
-    },
-    {
       "carName": "领克07 EM-P",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b96a03e7fb3f406b8d0b85f116a9eafd~1200x0.png",
-      "seriesName": "领克/中型车",
       "configs": [
         {
           "configName": "领克07 EM-P 2024款 126长续航 Pro",
           "price": "15.98万",
           "fuelType": "插电式混合动力",
-          "size": "4827x1900x1480"
+          "size": "4827x1900x1480",
+          "manufacturer": "领克",
+          "class": "中型车",
+          "power": "插电式混合动力 218马力"
         },
         {
           "configName": "领克07 EM-P 2024款 126长续航 Halo",
           "price": "16.98万",
           "fuelType": "插电式混合动力",
-          "size": "4827x1900x1480"
+          "size": "4827x1900x1480",
+          "manufacturer": "领克",
+          "class": "中型车",
+          "power": "插电式混合动力 218马力"
         },
         {
           "configName": "领克07 EM-P 2024款 126长续航 Ultra",
           "price": "17.98万",
           "fuelType": "插电式混合动力",
-          "size": "4827x1900x1480"
+          "size": "4827x1900x1480",
+          "manufacturer": "领克",
+          "class": "中型车",
+          "power": "插电式混合动力 218马力"
+        }
+      ]
+    },
+    {
+      "carName": "领克03",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b50a367aad634c2489f4b2ddb1ac53f0~1200x0.png",
+      "configs": [
+        {
+          "configName": "领克03 2025款 1.5TD DCT冠军版Plus",
+          "price": "12.78万",
+          "fuelType": "汽油",
+          "size": "4684x1843x1460",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "领克03 2025款 1.5TD DCT冠军版Pro",
+          "price": "13.98万",
+          "fuelType": "汽油",
+          "size": "4684x1843x1460",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "领克03 2025款 2.0TD DCT冠军版Pro",
+          "price": "15.68万",
+          "fuelType": "汽油",
+          "size": "4684x1843x1460",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "2.0T 254马力 L4"
+        },
+        {
+          "configName": "领克03 2025款 03+ 2.0TD 自动驭风版",
+          "price": "19.88万",
+          "fuelType": "汽油",
+          "size": "4684x1843x1448",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "2.0T 265马力 L4"
+        },
+        {
+          "configName": "领克03 2025款 03+ 2.0TD 自动性能套装",
+          "price": "21.88万",
+          "fuelType": "汽油",
+          "size": "4697x1843x1448",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "2.0T 265马力 L4"
+        },
+        {
+          "configName": "领克03 2025款 03+ 2.0TD 自动性能进阶版",
+          "price": "23.88万",
+          "fuelType": "汽油",
+          "size": "4679x1843x1456",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "2.0T 309马力 L4"
+        },
+        {
+          "configName": "领克03 2023款 1.5T EM-F PM",
+          "price": "15.98万",
+          "fuelType": "油电混合",
+          "size": "4684x1843x1460",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "1.5T 150马力 L3 油电混动"
+        },
+        {
+          "configName": "领克03 2023款 03+ Racing 四驱版",
+          "price": "28.58万",
+          "fuelType": "汽油",
+          "size": "4697x1843x1456",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "2.0T 350马力 L4"
+        },
+        {
+          "configName": "领克03 2023款 03+ TCR Cyan 前驱版",
+          "price": "42.03万",
+          "fuelType": "汽油",
+          "size": "4720x1877x1446",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
+          "power": "2.0T 350马力 L4"
         }
       ]
     },
     {
       "carName": "领克01",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4e874cc635cc45679c7ebb8256294f8f~1200x0.png",
-      "seriesName": "领克/紧凑型SUV",
       "configs": [
         {
           "configName": "领克01 2025款 2.0TD 两驱焕新版",
           "price": "14.98万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
           "configName": "领克01 2025款 2.0TD 两驱焕新Pro版",
           "price": "16.58万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
           "configName": "领克01 2025款 2.0TD 四驱焕新Pro版",
           "price": "18.18万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
           "configName": "领克01 2024款 2.0TD 两驱全球版",
           "price": "15.58万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
           "configName": "领克01 2024款 2.0TD 两驱全球Pro",
           "price": "16.98万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
           "configName": "领克01 2024款 2.0TD 四驱劲Halo",
           "price": "18.98万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
           "configName": "领克01 2024款 2.0TD 四驱暗夜版",
           "price": "19.68万",
           "fuelType": "汽油",
-          "size": "4549x1860x1689"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         }
       ]
     },
     {
-      "carName": "领克05",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a0d397940999417bad372d48e8b3231c~1200x0.png",
-      "seriesName": "领克/紧凑型SUV",
+      "carName": "领克Z10",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d5a8037bfe0442488349bc4813acf4e2~1200x0.png",
       "configs": [
         {
-          "configName": "领克05 2023款 2.0TD 两驱耀Halo",
-          "price": "18.88万",
-          "fuelType": "汽油",
-          "size": "4592x1879x1628"
+          "configName": "领克Z10 2025款 95kWh 702km四驱Halo",
+          "price": "22.98万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1468",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 789马力"
         },
         {
-          "configName": "领克05 2023款 2.0TD 四驱劲Halo",
-          "price": "20.28万",
-          "fuelType": "汽油",
-          "size": "4592x1879x1628"
+          "configName": "领克Z10 2024款 71kWh 602km后驱Pro",
+          "price": "18.68万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1468",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 272马力"
         },
         {
-          "configName": "领克05 2023款 05+ 2.0TD 探索版",
-          "price": "22.68万",
-          "fuelType": "汽油",
-          "size": "4614x1879x1628"
-        }
-      ]
-    },
-    {
-      "carName": "领克01 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79782a91dfba82f7c2e541ea4c565bbc~1200x0.png",
-      "seriesName": "领克/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "领克01 EM-P 2023款 1.5TD EM-P AM",
-          "price": "19.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4549x1860x1689"
+          "configName": "领克Z10 2024款 95kWh 766km后驱Max",
+          "price": "20.68万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1468",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 272马力"
         },
         {
-          "configName": "领克01 EM-P 2023款 1.5TD EM-P PM",
-          "price": "21.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4549x1860x1689"
+          "configName": "领克Z10 2024款 STARBUFF 95kWh 766km后驱",
+          "price": "21.68万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1468",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 272马力"
         },
         {
-          "configName": "领克01 EM-P 2023款 1.5TD EM-P 晨曦版",
-          "price": "22.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4549x1860x1689"
+          "configName": "领克Z10 2024款 95kWh 806km后驱智驾Max",
+          "price": "22.88万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1468",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 422马力"
+        },
+        {
+          "configName": "领克Z10 2024款 95kWh 702km四驱智驾Ultra",
+          "price": "26.28万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1463",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 789马力"
+        },
+        {
+          "configName": "领克Z10 2024款 STARBUFF 95kWh 680km四驱智驾",
+          "price": "28.28万",
+          "fuelType": "纯电动",
+          "size": "5028x1966x1463",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "power": "纯电动 789马力"
         }
       ]
     },
     {
       "carName": "领克Z20",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c75ed0f53976405a824725fcbd4b22f2~1200x0.png",
-      "seriesName": "领克/紧凑型SUV",
       "configs": [
         {
-          "configName": "领克Z20 2025款 530 后驱Pro",
+          "configName": "领克Z20 2026款 430km 后驱Plus",
+          "price": "10.99万",
+          "fuelType": "纯电动",
+          "size": "4460x1845x1573",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "纯电动 238马力"
+        },
+        {
+          "configName": "领克Z20 2026款 430km 后驱Pro",
+          "price": "12.19万",
+          "fuelType": "纯电动",
+          "size": "4460x1845x1573",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "纯电动 238马力"
+        },
+        {
+          "configName": "领克Z20 2025款 530km 后驱Pro",
           "price": "13.59万",
           "fuelType": "纯电动",
-          "size": "4460x1845x1573"
+          "size": "4460x1845x1573",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "纯电动 340马力"
         },
         {
-          "configName": "领克Z20 2025款 530 后驱Max",
+          "configName": "领克Z20 2025款 530km 后驱Max",
           "price": "14.59万",
           "fuelType": "纯电动",
-          "size": "4460x1845x1573"
+          "size": "4460x1845x1573",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "纯电动 340马力"
         },
         {
-          "configName": "领克Z20 2025款 530 后驱Max逐日版",
+          "configName": "领克Z20 2025款 530km 后驱Max逐日版",
           "price": "15.09万",
           "fuelType": "纯电动",
-          "size": "4460x1845x1573"
+          "size": "4460x1845x1573",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "纯电动 340马力"
         }
       ]
     },
     {
       "carName": "领克05 EM-P",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ce85f9c89ea6402da82629c02a5ef87b~1200x0.png",
-      "seriesName": "领克/紧凑型SUV",
       "configs": [
         {
           "configName": "领克05 EM-P 2023款  EM-P 1.5TD PM",
           "price": "22.38万",
           "fuelType": "插电式混合动力",
-          "size": "4592x1879x1628"
+          "size": "4592x1879x1628",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 136马力"
         }
       ]
     },
     {
-      "carName": "领克08 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1f64eece36064d869797d01a638c2b78~1200x0.png",
-      "seriesName": "领克/中型SUV",
+      "carName": "领克01 EM-P",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79782a91dfba82f7c2e541ea4c565bbc~1200x0.png",
       "configs": [
         {
-          "configName": "领克08 EM-P 2025款 120长续航Plus",
-          "price": "18.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 120长续航Pro",
+          "configName": "领克01 EM-P 2023款 1.5TD EM-P AM",
           "price": "19.58万",
           "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
         },
         {
-          "configName": "领克08 EM-P 2025款 120长续航Halo",
-          "price": "20.58万",
+          "configName": "领克01 EM-P 2023款 1.5TD EM-P PM",
+          "price": "21.18万",
           "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
         },
         {
-          "configName": "领克08 EM-P 2025款 245超长续航Pro",
-          "price": "21.58万",
+          "configName": "领克01 EM-P 2023款 1.5TD EM-P 晨曦版",
+          "price": "22.38万",
           "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 245超长续航Halo",
-          "price": "22.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 220四驱性能Halo",
-          "price": "24.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685"
+          "size": "4549x1860x1689",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
         }
       ]
     },
     {
-      "carName": "领克06",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4ff7b758559f43a28be6854aab112e1d~1200x0.png",
-      "seriesName": "领克/小型SUV",
+      "carName": "领克05",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a0d397940999417bad372d48e8b3231c~1200x0.png",
       "configs": [
         {
-          "configName": "领克06 2025款 Renew 1.5T Plus",
-          "price": "10.86万",
+          "configName": "领克05 2023款 2.0TD 两驱耀Halo",
+          "price": "18.88万",
           "fuelType": "汽油",
-          "size": "4350x1820x1625"
+          "size": "4592x1879x1628",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
-          "configName": "领克06 2025款 Renew 1.5T Pro",
-          "price": "11.86万",
+          "configName": "领克05 2023款 2.0TD 四驱劲Halo",
+          "price": "20.28万",
           "fuelType": "汽油",
-          "size": "4350x1820x1625"
+          "size": "4592x1879x1628",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 254马力 L4"
         },
         {
-          "configName": "领克06 2025款 Renew 1.5T Halo",
-          "price": "12.86万",
+          "configName": "领克05 2023款 05+ 2.0TD 探索版",
+          "price": "22.68万",
           "fuelType": "汽油",
-          "size": "4350x1820x1625"
-        },
-        {
-          "configName": "领克06 2025款 Renew 1.5T Shero特别版",
-          "price": "12.98万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625"
-        }
-      ]
-    },
-    {
-      "carName": "领克06 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e1608fe950164835ab94176b7669ff0e~1200x0.png",
-      "seriesName": "领克/小型SUV",
-      "configs": [
-        {
-          "configName": "领克06 EM-P 2025款 EM-P 126长续航Max",
-          "price": "14.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4350x1820x1625"
-        },
-        {
-          "configName": "领克06 EM-P 2025款 EM-P 126长续航Halo",
-          "price": "15.68万",
-          "fuelType": "插电式混合动力",
-          "size": "4350x1820x1625"
+          "size": "4614x1879x1628",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "power": "2.0T 265马力 L4"
         }
       ]
     },
     {
       "carName": "领克09",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/983570e325894c458f5ab0709b05a144~1200x0.png",
-      "seriesName": "领克/中大型SUV",
       "configs": [
         {
           "configName": "领克09 2024款 2.0T 四驱运动版",
           "price": "25.88万",
           "fuelType": "48V轻混系统",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "2.0T 254马力 L4 48V轻混系统"
         },
         {
           "configName": "领克09 2024款 2.0T 四驱全球版",
           "price": "26.58万",
           "fuelType": "48V轻混系统",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "2.0T 254马力 L4 48V轻混系统"
+        }
+      ]
+    },
+    {
+      "carName": "领克06",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4ff7b758559f43a28be6854aab112e1d~1200x0.png",
+      "configs": [
+        {
+          "configName": "领克06 2025款 Renew 1.5T Plus",
+          "price": "10.86万",
+          "fuelType": "汽油",
+          "size": "4350x1820x1625",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "领克06 2025款 Renew 1.5T Pro",
+          "price": "11.86万",
+          "fuelType": "汽油",
+          "size": "4350x1820x1625",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "领克06 2025款 Renew 1.5T Halo",
+          "price": "12.86万",
+          "fuelType": "汽油",
+          "size": "4350x1820x1625",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "领克06 2025款 Renew 1.5T Shero特别版",
+          "price": "12.98万",
+          "fuelType": "汽油",
+          "size": "4350x1820x1625",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "power": "1.5T 181马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "领克06 EM-P",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e1608fe950164835ab94176b7669ff0e~1200x0.png",
+      "configs": [
+        {
+          "configName": "领克06 EM-P 2025款 EM-P 126长续航Max",
+          "price": "14.78万",
+          "fuelType": "插电式混合动力",
+          "size": "4350x1820x1625",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "power": "插电式混合动力 218马力"
+        },
+        {
+          "configName": "领克06 EM-P 2025款 EM-P 126长续航Halo",
+          "price": "15.68万",
+          "fuelType": "插电式混合动力",
+          "size": "4350x1820x1625",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "power": "插电式混合动力 218马力"
+        }
+      ]
+    },
+    {
+      "carName": "领克08 EM-P",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1f64eece36064d869797d01a638c2b78~1200x0.png",
+      "configs": [
+        {
+          "configName": "领克08 EM-P 2025款 120长续航Plus",
+          "price": "18.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1915x1685",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "power": "插电式混合动力 218马力"
+        },
+        {
+          "configName": "领克08 EM-P 2025款 120长续航Pro",
+          "price": "19.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1915x1685",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "power": "插电式混合动力 218马力"
+        },
+        {
+          "configName": "领克08 EM-P 2025款 120长续航Halo",
+          "price": "20.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1915x1685",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "power": "插电式混合动力 218马力"
+        },
+        {
+          "configName": "领克08 EM-P 2025款 245超长续航Pro",
+          "price": "21.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1915x1685",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "power": "插电式混合动力 218马力"
+        },
+        {
+          "configName": "领克08 EM-P 2025款 245超长续航Halo",
+          "price": "22.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1915x1685",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "power": "插电式混合动力 218马力"
+        },
+        {
+          "configName": "领克08 EM-P 2025款 220四驱性能Halo",
+          "price": "24.88万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1915x1685",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "power": "插电式混合动力 430马力"
         }
       ]
     },
     {
       "carName": "领克09 EM-P",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3cc61acfed7443e38f0b198e1eb080e7~1200x0.png",
-      "seriesName": "领克/中大型SUV",
       "configs": [
         {
           "configName": "领克09 EM-P 2025款 EM-P 2.0TD 五座MAX",
           "price": "27.58万",
           "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "插电式混动 348马力"
         },
         {
           "configName": "领克09 EM-P 2024款 EM-P 2.0TD  七座PLUS",
           "price": "30.78万",
           "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "插电式混动 348马力"
         },
         {
           "configName": "领克09 EM-P 2024款 EM-P 2.0TD 七座PRO",
           "price": "31.78万",
           "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "插电式混动 348马力"
         },
         {
           "configName": "领克09 EM-P 2024款 EM-P 2.0TD 六座HALO",
           "price": "32.78万",
           "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "插电式混动 348马力"
         },
         {
           "configName": "领克09 EM-P 2024款 EM-P 2.0TD 六座ULTRA",
           "price": "34.78万",
           "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "插电式混动 348马力"
         },
         {
           "configName": "领克09 EM-P 2023款 EM-P 2.0TD 亚运行政版 五座",
           "price": "28.99万",
           "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780"
+          "size": "5042x1977x1780",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 177马力"
         }
       ]
     },
     {
       "carName": "领克900",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7c92add77ed3484bbb0c7f319be60373~1200x0.png",
-      "seriesName": "领克/大型SUV",
       "configs": [
         {
           "configName": "领克900 2025款 1.5T Halo",
           "price": "30.99万",
           "fuelType": "插电式混合动力",
-          "size": "5240x1999x1800"
+          "size": "5240x1999x1800",
+          "manufacturer": "领克",
+          "class": "大型SUV",
+          "power": "插电式混动 530马力"
         },
         {
           "configName": "领克900 2025款 1.5T Ultra",
           "price": "33.69万",
           "fuelType": "插电式混合动力",
-          "size": "5240x1999x1810"
+          "size": "5240x1999x1810",
+          "manufacturer": "领克",
+          "class": "大型SUV",
+          "power": "插电式混动 530马力"
         },
         {
           "configName": "领克900 2025款 2.0T Ultra",
           "price": "36.69万",
           "fuelType": "插电式混合动力",
-          "size": "5240x1999x1810"
+          "size": "5240x1999x1810",
+          "manufacturer": "领克",
+          "class": "大型SUV",
+          "power": "插电式混动 480马力"
         },
         {
           "configName": "领克900 2025款 2.0T 探索版",
           "price": "41.69万",
           "fuelType": "插电式混合动力",
-          "size": "5240x1999x1810"
+          "size": "5240x1999x1810",
+          "manufacturer": "领克",
+          "class": "大型SUV",
+          "power": "插电式混动 630马力"
         }
       ]
     }

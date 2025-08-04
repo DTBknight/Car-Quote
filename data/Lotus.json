@@ -3,204 +3,287 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/46343be41125443aac7d0faa9be02eda~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
-      "carName": "Evija",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b341bc5efb356996440031c148d3f4be~1200x0.png",
-      "seriesName": "路特斯（进口）",
+      "carName": "Emeya",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/efdaff1491b5410b8f7016776ec0a641~1200x0.png",
       "configs": [
         {
-          "configName": "Evija 2024款 FITTIPALDI 高级定制限量版",
-          "price": "2688万",
-          "fuelType": "",
-          "size": ""
+          "configName": "Emeya 2025款 600 旅行版",
+          "price": "52.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1459",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2025款 600 豪华版",
+          "price": "56.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2025款 首发限量版",
+          "price": "58.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2025款 600 行政版",
+          "price": "70.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2025款 900 性能版",
+          "price": "80.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2025款 900 行政版",
+          "price": "100.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1467",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya L+",
+          "price": "66.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1459",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya L+ 6活塞卡钳白金版",
+          "price": "69.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1459",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya S+",
+          "price": "76.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya S+ 6活塞卡钳白金版",
+          "price": "78.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya S+ 10活塞卡钳白金版",
+          "price": "86.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 612马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya R+",
+          "price": "96.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya R+10活塞卡钳白金版",
+          "price": "106.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya R+暗黑版",
+          "price": "108万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1464",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya R+黑金版",
+          "price": "118万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1467",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2024款 Emeya TYPE79 高级定制版",
+          "price": "130.88万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1467",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
+        },
+        {
+          "configName": "Emeya 2024款 高级定制限量版",
+          "price": "136.8万",
+          "fuelType": "纯电动",
+          "size": "5139x2005x1467",
+          "manufacturer": "路特斯",
+          "class": "大型车",
+          "power": "纯电动 918马力"
         }
       ]
     },
     {
       "carName": "Eletre",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e2a6a5d3b0204729a7579547e2324713~1200x0.png",
-      "seriesName": "路特斯/大型SUV",
       "configs": [
         {
           "configName": "Eletre 2025款 600 旅行版",
           "price": "54.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1630"
+          "size": "5103x2019x1630",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 612马力"
         },
         {
           "configName": "Eletre 2025款 600 豪华版",
           "price": "58.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 612马力"
         },
         {
           "configName": "Eletre 2025款 首发限量版",
           "price": "60.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 612马力"
         },
         {
           "configName": "Eletre 2025款 600 行政版",
           "price": "71.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 612马力"
         },
         {
           "configName": "Eletre 2025款 900 性能版",
           "price": "81.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 918马力"
         },
         {
           "configName": "Eletre 2025款 900 行政版",
           "price": "101.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 918马力"
         },
         {
           "configName": "Eletre 2024款 Eletre L+",
           "price": "72.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 612马力"
         },
         {
           "configName": "Eletre 2024款 Eletre TYPE79 高级定制版",
           "price": "123.88万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 918马力"
         },
         {
           "configName": "Eletre 2023款 Eletre S+",
           "price": "82.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 612马力"
         },
         {
           "configName": "Eletre 2023款 Eletre R+",
           "price": "102.8万",
           "fuelType": "纯电动",
-          "size": "5103x2019x1636"
+          "size": "5103x2019x1636",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
+          "power": "纯电动 918马力"
         }
       ]
     },
     {
       "carName": "Emira",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/733e5809cbe545f3bc3c9b6deae6cccf~1200x0.png",
-      "seriesName": "路特斯（进口）/-",
       "configs": [
         {
           "configName": "Emira 2025款 Turbo SE",
           "price": "90.28万",
           "fuelType": "汽油",
-          "size": "4413x1896x1235"
+          "size": "4413x1896x1235",
+          "manufacturer": "路特斯（进口）",
+          "class": "跑车",
+          "power": "2.0T 405马力 L4"
         }
       ]
     },
     {
-      "carName": "Emeya",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/efdaff1491b5410b8f7016776ec0a641~1200x0.png",
-      "seriesName": "路特斯/大型车",
+      "carName": "Evija",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b341bc5efb356996440031c148d3f4be~1200x0.png",
       "configs": [
         {
-          "configName": "Emeya 2025款 600 旅行版",
-          "price": "52.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1459"
-        },
-        {
-          "configName": "Emeya 2025款 600 豪华版",
-          "price": "56.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2025款 首发限量版",
-          "price": "58.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2025款 600 行政版",
-          "price": "70.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2025款 900 性能版",
-          "price": "80.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2025款 900 行政版",
-          "price": "100.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya L+",
-          "price": "66.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1459"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya L+ 6活塞卡钳白金版",
-          "price": "69.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1459"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya S+",
-          "price": "76.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya S+ 6活塞卡钳白金版",
-          "price": "78.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya S+ 10活塞卡钳白金版",
-          "price": "86.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya R+",
-          "price": "96.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya R+10活塞卡钳白金版",
-          "price": "106.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya R+暗黑版",
-          "price": "108万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya R+黑金版",
-          "price": "118万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467"
-        },
-        {
-          "configName": "Emeya 2024款 Emeya TYPE79 高级定制版",
-          "price": "130.88万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467"
-        },
-        {
-          "configName": "Emeya 2024款 高级定制限量版",
-          "price": "136.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467"
+          "configName": "Evija 2024款 FITTIPALDI 高级定制限量版",
+          "price": "2688万",
+          "fuelType": "",
+          "size": "",
+          "manufacturer": "",
+          "class": "",
+          "power": ""
         }
       ]
     }

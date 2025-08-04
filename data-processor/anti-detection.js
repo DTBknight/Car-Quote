@@ -240,7 +240,7 @@ async function simulateHumanBehavior(page) {
     const x = (point.x / 100) * viewport.width;
     const y = (point.y / 100) * viewport.height;
     await page.mouse.move(x, y);
-    await page.waitForTimeout(Math.random() * 100 + 50);
+    await new Promise(resolve => setTimeout(resolve, Math.random() * 100 + 50));
   }
   
   // 随机滚动
@@ -249,7 +249,7 @@ async function simulateHumanBehavior(page) {
     await page.evaluate((distance) => {
       window.scrollBy(0, distance);
     }, scrollBehavior.scrollDistance);
-    await page.waitForTimeout(scrollBehavior.scrollDelay);
+    await new Promise(resolve => setTimeout(resolve, scrollBehavior.scrollDelay));
   }
 }
 

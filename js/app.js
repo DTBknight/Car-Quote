@@ -7,7 +7,7 @@ import { EventManager } from './eventManager.js';
 import { CarSearch } from './carSearch.js';
 import { ContractManager } from './contractManager.js';
 import { LoadingManager } from './loadingManager.js';
-import { cacheMonitor } from './cacheMonitor.js';
+
 
 // 主应用类
 export class CarQuoteApp {
@@ -83,8 +83,7 @@ export class CarQuoteApp {
       // 定期清理缓存
       this.startCacheCleanup();
       
-      // 初始化缓存监控
-      this.initCacheMonitor();
+
       
       // 完成加载动画
       await this.loadingManager.completeLoading();
@@ -256,24 +255,8 @@ export class CarQuoteApp {
     }
   }
   
-  // 初始化缓存监控
-  initCacheMonitor() {
-    try {
-      // 缓存监控已经在cacheMonitor.js中自动初始化
-      console.log('📊 缓存监控已初始化');
-      
-      // 添加键盘快捷键显示缓存监控
-      document.addEventListener('keydown', (e) => {
-        // Ctrl+Shift+C 显示缓存监控
-        if (e.ctrlKey && e.shiftKey && e.key === 'C') {
-          e.preventDefault();
-          cacheMonitor.show();
-        }
-      });
-    } catch (error) {
-      console.error('❌ 缓存监控初始化失败:', error);
-    }
-  }
+  
+
   
   // 获取性能指标
   getPerformanceMetrics() {

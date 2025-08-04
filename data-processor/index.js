@@ -4,6 +4,8 @@ require('dotenv').config();
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
+const cliProgress = require('cli-progress');
+const colors = require('colors');
 const { getRandomUserAgent, getRandomViewport, getRandomDelay } = require('./anti-detection');
 
 // 品牌ID映射
@@ -260,10 +262,15 @@ async function collectCarData(brand) {
     console.error('未找到该品牌ID，请检查品牌名');
     process.exit(1);
   }
+  
+  console.log(colors.cyan(`🚗 开始采集品牌: ${brand}`));
+  
   let allCars = [];
   let brandInfo = null;
   let brandIdUsed = null;
+  
   for (const brandId of brandIds) {
+    console.log(colors.yellow(`📡 正在连接浏览器...`));
     const browser = await puppeteer.launch({ 
       headless: true, 
       executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
@@ -272,17 +279,23 @@ async function collectCarData(brand) {
     const page = await browser.newPage();
     await page.setUserAgent(getRandomUserAgent());
     await page.setViewport(getRandomViewport());
+    
     try {
+      console.log(colors.blue(`🔍 正在获取品牌信息和车型列表...`));
       const result = await getBrandInfoAndCarIds(page, brandId);
+      
       if (!brandInfo) {
-        // 品牌名写死
         brandInfo = result.brandInfo;
         brandInfo.brand = brandNameMap[brandId] || '';
         brandIdUsed = brandId;
       }
+      
+      console.log(colors.green(`✅ 找到 ${result.carIds.length} 个车型`));
+      
       // 车型页面logo采集逻辑
       let brandLogo = '';
       if (result.carIds.length > 0) {
+        console.log(colors.blue(`🖼️  正在获取品牌Logo...`));
         const firstCarId = result.carIds[0];
         const urlSeries = `https://www.dongchedi.com/auto/series/${firstCarId}`;
         await page.goto(urlSeries, { waitUntil: 'networkidle2', timeout: 60000 });
@@ -295,11 +308,25 @@ async function collectCarData(brand) {
       } else {
         brandInfo.brandImage = '';
       }
+      
       if (result.carIds.length > 0) {
         // 车型并发采集
         let cars = [];
         const uniqueCarIds = [...new Set(result.carIds)];
         const concurrency = 4;
+        
+        console.log(colors.blue(`🔄 正在并发采集车型数据 (并发数: ${concurrency})...`));
+        
+        // 创建进度条
+        const progressBar = new cliProgress.SingleBar({
+          format: '📊 车型采集进度 |' + colors.cyan('{bar}') + '| {percentage}% | {value}/{total} | 当前: {currentCar}',
+          barCompleteChar: '\u2588',
+          barIncompleteChar: '\u2591',
+          hideCursor: true
+        });
+        
+        progressBar.start(uniqueCarIds.length, 0, { currentCar: '准备中...' });
+        
         const pages = await Promise.all(Array(concurrency).fill(0).map(async () => {
           const p = await browser.newPage();
           await p.setUserAgent(getRandomUserAgent());
@@ -307,35 +334,51 @@ async function collectCarData(brand) {
           await setupRequestInterception(p);
           return p;
         }));
+        
+        let completedCount = 0;
         await Promise.all(pages.map(async (page, idx) => {
           for (let i = idx; i < uniqueCarIds.length; i += concurrency) {
             try {
-              const carData = await collectSingleCarData(page, uniqueCarIds[i]);
+              const carId = uniqueCarIds[i];
+              progressBar.update(completedCount, { currentCar: `车型ID: ${carId}` });
+              
+              const carData = await collectSingleCarData(page, carId);
               if (carData) {
                 cars.push(carData);
               }
+              
+              completedCount++;
+              progressBar.update(completedCount, { currentCar: carData ? carData.carName : `车型ID: ${carId}` });
+              
             } catch (error) {
+              completedCount++;
+              progressBar.update(completedCount, { currentCar: `错误: ${error.message}` });
               continue;
             }
           }
           await page.close();
         }));
+        
+        progressBar.stop();
         allCars = allCars.concat(cars);
+        
+        console.log(colors.green(`✅ 成功采集 ${cars.length} 个车型数据`));
       }
     } catch (error) {
-      console.error('采集过程中发生错误:', error);
+      console.error(colors.red(`❌ 采集过程中发生错误: ${error.message}`));
     } finally {
       await browser.close();
     }
   }
+  
   // 保存数据
   if (allCars.length > 0 && brandInfo) {
     const dataPath = path.join(__dirname, '..', 'data', `${brand}.json`);
     const result = { ...brandInfo, cars: allCars };
     fs.writeFileSync(dataPath, JSON.stringify(result, null, 2));
-    console.log(`采集完成！共采集 ${allCars.length} 个车型，数据已保存到 data/${brand}.json`);
+    console.log(colors.green(`🎉 采集完成！共采集 ${allCars.length} 个车型，数据已保存到 data/${brand}.json`));
   } else {
-    console.log('没有成功采集到任何车型数据');
+    console.log(colors.yellow(`⚠️  没有成功采集到任何车型数据`));
   }
 }
 
@@ -460,23 +503,12 @@ async function collectSingleCarData(page, carId) {
     const mainImg = getByXpath('//*[@id="__next"]/div/div[2]/div[2]/div[2]/div/div/div[2]/img');
     if (mainImg) mainImage = mainImg.src;
     
-    // 新增采集seriesName（厂商/级别）
-    let seriesName = '';
-    const seriesSpan = document.querySelector('span.tw-leading-50.tw-text-12');
-    if (seriesSpan) {
-      // 拼接所有纯文本内容，去除注释
-      seriesName = Array.from(seriesSpan.childNodes)
-        .filter(n => n.nodeType === Node.TEXT_NODE)
-        .map(n => n.textContent.trim())
-        .filter(Boolean)
-        .join('');
-    }
-    
-    return { carName, mainImage, seriesName };
+    return { carName, mainImage };
   });
 
   // 跳过无效车型
   if (!carBasicInfo.carName || !carBasicInfo.mainImage) {
+    console.log(colors.yellow(`⚠️  车型 ${carId} 基本信息不完整，跳过`));
     return null;
   }
 
@@ -491,18 +523,66 @@ async function collectSingleCarData(page, carId) {
     const sizes = Array.from(document.querySelectorAll('div[data-row-anchor="length_width_height"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
     const fuelTypes = Array.from(document.querySelectorAll('div[data-row-anchor="fuel_form"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
     
-    return configNames.map((name, idx) => ({
-      configName: name,
-      price: prices[idx] || '',
-      fuelType: fuelTypes[idx] || '',
-      size: sizes[idx] || ''
-    }));
+    // 新增：采集厂商信息
+    const manufacturers = Array.from(document.querySelectorAll('div[data-row-anchor="sub_brand_name"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+    
+    // 新增：采集车型级别
+    const classes = Array.from(document.querySelectorAll('div[data-row-anchor="jb"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+    
+    // 新增：采集发动机信息（尝试多个可能的字段）
+    const engineSelectors = [
+      'div[data-row-anchor="engine"]',
+      'div[data-row-anchor="displacement"]',
+      'div[data-row-anchor="engine_description"]',
+      'div[data-row-anchor="engine_type"]'
+    ];
+    
+    let engines = [];
+    for (const selector of engineSelectors) {
+      const elements = document.querySelectorAll(selector + ' div[class*="table_col__"]');
+      if (elements.length > 0) {
+        engines = Array.from(elements).slice(1).map(e => e.textContent.trim());
+        break;
+      }
+    }
+    
+    // 新增：采集电动机信息
+    const motors = Array.from(document.querySelectorAll('div[data-row-anchor="electric_description"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+    
+    return configNames.map((name, idx) => {
+      const fuelType = fuelTypes[idx] || '';
+      
+      // 根据能源类型决定抓取发动机还是电动机
+      let power = '';
+      if (fuelType === '汽油' || fuelType === '柴油') {
+        // 燃油车：使用发动机信息
+        power = engines[idx] || '';
+      } else if (fuelType === '纯电动' || fuelType === '插电式混合动力' || fuelType === '增程式') {
+        // 新能源车：使用电动机信息
+        power = motors[idx] || '';
+      } else {
+        // 其他类型：尝试获取发动机信息，如果没有则获取电动机信息
+        power = engines[idx] || motors[idx] || '';
+      }
+      
+      return {
+        configName: name,
+        price: prices[idx] || '',
+        fuelType: fuelType,
+        size: sizes[idx] || '',
+        manufacturer: manufacturers[idx] || '',
+        class: classes[idx] || '',
+        power: power
+      };
+    }).filter(config => {
+      const price = config.price.trim();
+      return price && price !== '暂无报价' && price !== '暂无' && price !== '-';
+    });
   });
 
   return {
     carName: carBasicInfo.carName,
     mainImage: carBasicInfo.mainImage,
-    seriesName: carBasicInfo.seriesName,
     configs
   };
 }
@@ -556,27 +636,45 @@ if (require.main === module) {
     (async () => {
       const brandList = Object.keys(brandIdsMap);
       const total = brandList.length;
+      
+      console.log(colors.cyan(`🚀 开始全品牌采集，共 ${total} 个品牌`));
+      
+      // 创建品牌采集进度条
+      const brandProgressBar = new cliProgress.SingleBar({
+        format: '📊 品牌采集进度 |' + colors.cyan('{bar}') + '| {percentage}% | {value}/{total} | 当前: {currentBrand}',
+        barCompleteChar: '\u2588',
+        barIncompleteChar: '\u2591',
+        hideCursor: true
+      });
+      
+      brandProgressBar.start(total, 0, { currentBrand: '准备中...' });
+      
       for (let idx = 0; idx < total; idx++) {
         const brandName = brandList[idx];
         const dest = path.join(__dirname, '..', 'data', `${brandName}.json`);
-        console.log(`\n[${idx + 1}/${total}] 正在处理: ${brandName}`);
+        
+        brandProgressBar.update(idx, { currentBrand: brandName });
+        
         if (fs.existsSync(dest)) {
           try {
             const content = JSON.parse(fs.readFileSync(dest, 'utf-8'));
             if (content && content.cars && content.cars.length > 0) {
-              console.log(`⚠️  ${brandName} 已存在且有数据，跳过处理`);
+              console.log(colors.yellow(`\n⚠️  ${brandName} 已存在且有数据，跳过处理`));
               continue;
             } else {
               fs.unlinkSync(dest);
-              console.log(`⚠️  ${brandName} 已存在但无有效数据，重新处理`);
+              console.log(colors.yellow(`\n⚠️  ${brandName} 已存在但无有效数据，重新处理`));
             }
           } catch (e) {
             fs.unlinkSync(dest);
-                          console.log(`⚠️  ${brandName} 已存在但读取失败，重新处理`);
+            console.log(colors.yellow(`\n⚠️  ${brandName} 已存在但读取失败，重新处理`));
           }
         }
+        
         try {
+          console.log(colors.blue(`\n🔄 [${idx + 1}/${total}] 正在处理: ${brandName}`));
           await collectCarData(brandName);
+          
           const newPath = path.join(dataDir, 'cars.json');
           if (fs.existsSync(newPath)) {
             let shouldSave = true;
@@ -592,29 +690,31 @@ if (require.main === module) {
                   const isSame = JSON.stringify(oldCars) === JSON.stringify(newCars);
                   if (isSame) {
                     shouldSave = false;
-                    console.log(`🟡 [${idx + 1}/${total}] ${brandName} 新旧数据一致，跳过保存`);
+                    console.log(colors.blue(`🟡 [${idx + 1}/${total}] ${brandName} 新旧数据一致，跳过保存`));
                   }
                 }
               } catch (e) {
                 // 旧文件损坏，强制覆盖
                 shouldSave = true;
-                console.log(`⚠️  [${idx + 1}/${total}] ${brandName} 旧数据读取失败，强制覆盖`);
+                console.log(colors.yellow(`⚠️  [${idx + 1}/${total}] ${brandName} 旧数据读取失败，强制覆盖`));
               }
             }
             if (shouldSave) {
               fs.renameSync(newPath, dest);
-              console.log(`✅ [${idx + 1}/${total}] ${brandName} 新数据已保存到 ${dest}`);
+              console.log(colors.green(`✅ [${idx + 1}/${total}] ${brandName} 新数据已保存到 ${dest}`));
             } else {
               fs.unlinkSync(newPath);
             }
           } else {
-            console.log(`❌ [${idx + 1}/${total}] ${brandName} 未获取到数据`);
+            console.log(colors.red(`❌ [${idx + 1}/${total}] ${brandName} 未获取到数据`));
           }
         } catch (e) {
-          console.error(`💥 [${idx + 1}/${total}] 处理品牌 ${brandName} 失败:`, e.message);
+          console.error(colors.red(`💥 [${idx + 1}/${total}] 处理品牌 ${brandName} 失败: ${e.message}`));
         }
       }
-      console.log('\n🎉 全部品牌处理完成！');
+      
+      brandProgressBar.stop();
+      console.log(colors.green('\n🎉 全部品牌处理完成！'));
       process.exit(0);
     })();
   } else {

@@ -3,159 +3,206 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/28df10b415f192d7045cf645fea11f30~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "MINI",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bbeff1cb0ff24116b3342f04577a71f8~1200x0.png",
-      "seriesName": "MINI/小型车",
-      "configs": [
-        {
-          "configName": "MINI 2025款 1.5T COOPER 三门版 经典派",
-          "price": "23.38万",
-          "fuelType": "汽油",
-          "size": "3875x1744x1454"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S 三门版 艺术家",
-          "price": "27.28万",
-          "fuelType": "汽油",
-          "size": "3875x1744x1454"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S 三门版 赛车手",
-          "price": "28.28万",
-          "fuelType": "汽油",
-          "size": "3875x1744x1454"
-        },
-        {
-          "configName": "MINI 2025款 1.5T COOPER 五门版 经典派",
-          "price": "24.38万",
-          "fuelType": "汽油",
-          "size": "4035x1744x1467"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S 五门版 艺术家",
-          "price": "28.28万",
-          "fuelType": "汽油",
-          "size": "4035x1744x1467"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S CABRIO 艺术家",
-          "price": "30.98万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S CABRIO 赛车手",
-          "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S CABRIO 白日星尘 限定配色",
-          "price": "32.48万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435"
-        }
-      ]
-    },
-    {
-      "carName": "MINI JCW",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6e8f314c005e42029a5377cbf91fe7af~1200x0.png",
-      "seriesName": "MINI JCW/小型车",
-      "configs": [
-        {
-          "configName": "MINI JCW 2025款 JOHN COOPER WORKS",
-          "price": "31.08万",
-          "fuelType": "汽油",
-          "size": "3875x1744x1454"
-        },
-        {
-          "configName": "MINI JCW 2025款 JOHN COOPER WORKS CABRIO",
-          "price": "34.98万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435"
-        }
-      ]
-    },
-    {
       "carName": "电动MINI JCW",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd5aee02e9a54de6b01dcc71f76eb259~1200x0.png",
-      "seriesName": "光束汽车/小型车",
       "configs": [
         {
           "configName": "电动MINI JCW 2025款 JOHN COOPER WORKS",
           "price": "29.98万",
           "fuelType": "纯电动",
-          "size": "3858x1756x1458"
+          "size": "3858x1756x1458",
+          "manufacturer": "光束汽车",
+          "class": "小型车",
+          "power": "纯电动 258马力"
         }
       ]
     },
     {
       "carName": "电动MINI COOPER",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/40fa6213effc4416abdefaf9b34cd5bf~1200x0.png",
-      "seriesName": "光束汽车/小型车",
       "configs": [
         {
           "configName": "电动MINI COOPER 2024款 改款 COOPER E 经典派",
           "price": "20.98万",
           "fuelType": "纯电动",
-          "size": "3858x1756x1458"
+          "size": "3858x1756x1458",
+          "manufacturer": "光束汽车",
+          "class": "小型车",
+          "power": "纯电动 184马力"
         },
         {
           "configName": "电动MINI COOPER 2024款 COOPER SE 艺术家",
           "price": "23.98万",
           "fuelType": "纯电动",
-          "size": "3858x1756x1458"
+          "size": "3858x1756x1458",
+          "manufacturer": "光束汽车",
+          "class": "小型车",
+          "power": "纯电动 218马力"
         }
       ]
     },
     {
-      "carName": "电动MINI ACEMAN",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/75a9bb7810094e78878b93762b86f2ee~1200x0.png",
-      "seriesName": "光束汽车/小型SUV",
+      "carName": "MINI JCW",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6e8f314c005e42029a5377cbf91fe7af~1200x0.png",
       "configs": [
         {
-          "configName": "电动MINI ACEMAN 2024款 ACEMAN E 经典派",
-          "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "4076x1754x1515"
+          "configName": "MINI JCW 2025款 JOHN COOPER WORKS",
+          "price": "31.08万",
+          "fuelType": "汽油",
+          "size": "3875x1744x1454",
+          "manufacturer": "MINI JCW",
+          "class": "小型车",
+          "power": "2.0T 231马力 L4"
         },
         {
-          "configName": "电动MINI ACEMAN 2024款 ACEMAN SE 艺术家",
-          "price": "25.99万",
-          "fuelType": "纯电动",
-          "size": "4076x1754x1515"
+          "configName": "MINI JCW 2025款 JOHN COOPER WORKS CABRIO",
+          "price": "34.98万",
+          "fuelType": "汽油",
+          "size": "3878x1744x1435",
+          "manufacturer": "MINI JCW",
+          "class": "小型车",
+          "power": "2.0T 231马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "MINI",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bbeff1cb0ff24116b3342f04577a71f8~1200x0.png",
+      "configs": [
+        {
+          "configName": "MINI 2025款 1.5T COOPER 三门版 经典派",
+          "price": "23.38万",
+          "fuelType": "汽油",
+          "size": "3875x1744x1454",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "1.5T 156马力 L3"
         },
         {
-          "configName": "电动MINI ACEMAN 2024款 ACEMAN SE 赛车手",
-          "price": "27.99万",
-          "fuelType": "纯电动",
-          "size": "4094x1754x1515"
+          "configName": "MINI 2025款 2.0T COOPER S 三门版 艺术家",
+          "price": "27.28万",
+          "fuelType": "汽油",
+          "size": "3875x1744x1454",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "2.0T 204马力 L4"
+        },
+        {
+          "configName": "MINI 2025款 2.0T COOPER S 三门版 赛车手",
+          "price": "28.28万",
+          "fuelType": "汽油",
+          "size": "3875x1744x1454",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "2.0T 204马力 L4"
+        },
+        {
+          "configName": "MINI 2025款 1.5T COOPER 五门版 经典派",
+          "price": "24.38万",
+          "fuelType": "汽油",
+          "size": "4035x1744x1467",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "1.5T 156马力 L3"
+        },
+        {
+          "configName": "MINI 2025款 2.0T COOPER S 五门版 艺术家",
+          "price": "28.28万",
+          "fuelType": "汽油",
+          "size": "4035x1744x1467",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "2.0T 204马力 L4"
+        },
+        {
+          "configName": "MINI 2025款 2.0T COOPER S CABRIO 艺术家",
+          "price": "30.98万",
+          "fuelType": "汽油",
+          "size": "3878x1744x1435",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "2.0T 204马力 L4"
+        },
+        {
+          "configName": "MINI 2025款 2.0T COOPER S CABRIO 赛车手",
+          "price": "31.98万",
+          "fuelType": "汽油",
+          "size": "3878x1744x1435",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "2.0T 204马力 L4"
+        },
+        {
+          "configName": "MINI 2025款 2.0T COOPER S CABRIO 白日星尘 限定配色",
+          "price": "32.48万",
+          "fuelType": "汽油",
+          "size": "3878x1744x1435",
+          "manufacturer": "MINI",
+          "class": "小型车",
+          "power": "2.0T 204马力 L4"
         }
       ]
     },
     {
       "carName": "电动MINI JCW ACEMAN",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f277454649b34edfad95cb77e5a7878d~1200x0.png",
-      "seriesName": "光束汽车/小型SUV",
       "configs": [
         {
           "configName": "电动MINI JCW ACEMAN 2025款 JOHN COOPER WORKS",
           "price": "32.09万",
           "fuelType": "纯电动",
-          "size": "4094x1754x1515"
+          "size": "4094x1754x1515",
+          "manufacturer": "光束汽车",
+          "class": "小型SUV",
+          "power": "纯电动 258马力"
         }
       ]
     },
     {
       "carName": "MINI JCW COUNTRYMAN",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e4b75b5b006345278dca379bb6a2c9d0~1200x0.png",
-      "seriesName": "MINI JCW/紧凑型SUV",
       "configs": [
         {
           "configName": "MINI JCW COUNTRYMAN 2024款 2.0T JOHN COOPER WORKS ALL4",
           "price": "39.98万",
           "fuelType": "汽油",
-          "size": "4447x1843x1643"
+          "size": "4447x1843x1643",
+          "manufacturer": "MINI JCW",
+          "class": "紧凑型SUV",
+          "power": "2.0T 300马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "电动MINI ACEMAN",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/75a9bb7810094e78878b93762b86f2ee~1200x0.png",
+      "configs": [
+        {
+          "configName": "电动MINI ACEMAN 2024款 ACEMAN E 经典派",
+          "price": "22.99万",
+          "fuelType": "纯电动",
+          "size": "4076x1754x1515",
+          "manufacturer": "光束汽车",
+          "class": "小型SUV",
+          "power": "纯电动 184马力"
+        },
+        {
+          "configName": "电动MINI ACEMAN 2024款 ACEMAN SE 艺术家",
+          "price": "25.99万",
+          "fuelType": "纯电动",
+          "size": "4076x1754x1515",
+          "manufacturer": "光束汽车",
+          "class": "小型SUV",
+          "power": "纯电动 218马力"
+        },
+        {
+          "configName": "电动MINI ACEMAN 2024款 ACEMAN SE 赛车手",
+          "price": "27.99万",
+          "fuelType": "纯电动",
+          "size": "4094x1754x1515",
+          "manufacturer": "光束汽车",
+          "class": "小型SUV",
+          "power": "纯电动 218马力"
         }
       ]
     }

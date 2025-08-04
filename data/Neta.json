@@ -3,321 +3,449 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/1f5e4e807a24a6355201bea736d3baf7~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "哪吒U",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f3c9b9343406488086907aad19e2323c~1200x0.png",
-      "seriesName": "合众汽车/紧凑型SUV",
-      "configs": [
-        {
-          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 400 U秀",
-          "price": "11.88万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 400 Lite",
-          "price": "12.58万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 400",
-          "price": "13.28万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 500 U秀",
-          "price": "13.18万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 500",
-          "price": "14.28万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 智400 三元锂",
-          "price": "12.38万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 智400 磷酸铁锂",
-          "price": "12.38万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 智400 Pro 三元锂",
-          "price": "12.78万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 U-Ⅱ 400 行业版",
-          "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 智400 Pro 磷酸铁锂",
-          "price": "12.78万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 U-Ⅱ 610",
-          "price": "16.58万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 改款 Pro 400 畅行网约版",
-          "price": "15.58万",
-          "fuelType": "纯电动",
-          "size": "4530x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 U-Ⅱ 400 尊享版",
-          "price": "17.08万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 U-Ⅱ 500 行业版",
-          "price": "17.68万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 U-Ⅱ 500 尊享版",
-          "price": "18.58万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        },
-        {
-          "configName": "哪吒U 2022款 U-Ⅱ 610 尊享版",
-          "price": "20.68万",
-          "fuelType": "纯电动",
-          "size": "4549x1860x1628"
-        }
-      ]
-    },
-    {
       "carName": "哪吒AYA",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/686466a245594a649cf4ee6ccbd8febf~1200x0.png",
-      "seriesName": "合众汽车/小型SUV",
       "configs": [
         {
           "configName": "哪吒AYA 2023款 318 Lite",
           "price": "6.58万",
           "fuelType": "纯电动",
-          "size": "4070x1690x1540"
+          "size": "4070x1690x1540",
+          "manufacturer": "合众汽车",
+          "class": "小型SUV",
+          "power": "纯电动 54马力"
         },
         {
           "configName": "哪吒AYA 2023款 401 Lite",
           "price": "6.98万",
           "fuelType": "纯电动",
-          "size": "4070x1690x1540"
+          "size": "4070x1690x1540",
+          "manufacturer": "合众汽车",
+          "class": "小型SUV",
+          "power": "纯电动 95马力"
         },
         {
           "configName": "哪吒AYA 2023款 401",
           "price": "8.08万",
           "fuelType": "纯电动",
-          "size": "4070x1690x1540"
+          "size": "4070x1690x1540",
+          "manufacturer": "合众汽车",
+          "class": "小型SUV",
+          "power": "纯电动 95马力"
         }
       ]
     },
     {
       "carName": "哪吒S猎装",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5db0d1837344a51a338031750b9b574~1200x0.png",
-      "seriesName": "合众汽车/中大型车",
       "configs": [
         {
           "configName": "哪吒S猎装 2024款 纯电 510 Air版",
           "price": "15.99万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1480"
+          "size": "4980x1980x1480",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 272马力"
         },
         {
           "configName": "哪吒S猎装 2024款 纯电 510 标准版",
           "price": "16.99万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1480"
+          "size": "4980x1980x1480",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 272马力"
         },
         {
           "configName": "哪吒S猎装 2024款 纯电 510 Pro版",
           "price": "17.99万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1480"
+          "size": "4980x1980x1480",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 272马力"
         },
         {
           "configName": "哪吒S猎装 2024款 纯电 640 AWD Max版",
           "price": "20.99万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1480"
+          "size": "4980x1980x1480",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 503马力"
         },
         {
           "configName": "哪吒S猎装 2024款 增程式 300 标准版",
           "price": "16.99万",
           "fuelType": "增程式",
-          "size": "4980x1980x1480"
+          "size": "4980x1980x1480",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "增程式 272马力"
         },
         {
           "configName": "哪吒S猎装 2024款 增程式 300 Pro版",
           "price": "17.99万",
           "fuelType": "增程式",
-          "size": "4980x1980x1480"
+          "size": "4980x1980x1480",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "增程式 272马力"
         }
       ]
     },
     {
       "carName": "哪吒S",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/42b41a9e09da4efdadde274caafe3c64~1200x0.png",
-      "seriesName": "合众汽车/中大型车",
       "configs": [
         {
           "configName": "哪吒S 2024款 增程式 1060 Lite版",
           "price": "15.48万",
           "fuelType": "增程式",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒S 2024款 改款 增程式 1060版",
           "price": "17.93万",
           "fuelType": "增程式",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒S 2024款 改款 增程式 1160版",
           "price": "18.93万",
           "fuelType": "增程式",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒S 2024款 纯电 520 Lite版",
           "price": "15.48万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 231马力"
         },
         {
           "configName": "哪吒S 2024款 改款 纯电 520版",
           "price": "17.33万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 231马力"
         },
         {
           "configName": "哪吒S 2024款 纯电 715 新享版",
           "price": "19.48万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 231马力"
         },
         {
           "configName": "哪吒S 2024款 纯电 650 四驱新享版",
           "price": "22.48万",
           "fuelType": "纯电动",
-          "size": "4980x1980x1450"
+          "size": "4980x1980x1450",
+          "manufacturer": "合众汽车",
+          "class": "中大型车",
+          "power": "纯电动 462马力"
+        }
+      ]
+    },
+    {
+      "carName": "哪吒U",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f3c9b9343406488086907aad19e2323c~1200x0.png",
+      "configs": [
+        {
+          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 400 U秀",
+          "price": "11.88万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 400 Lite",
+          "price": "12.58万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 400",
+          "price": "13.28万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 500 U秀",
+          "price": "13.18万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2023款 挑战版 U-Ⅱ 500",
+          "price": "14.28万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 智400 三元锂",
+          "price": "12.38万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 智400 磷酸铁锂",
+          "price": "12.38万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 智400 Pro 三元锂",
+          "price": "12.78万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 U-Ⅱ 400 行业版",
+          "price": "16.18万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 智400 Pro 磷酸铁锂",
+          "price": "12.78万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 U-Ⅱ 610",
+          "price": "16.58万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 231马力"
+        },
+        {
+          "configName": "哪吒U 2022款 改款 Pro 400 畅行网约版",
+          "price": "15.58万",
+          "fuelType": "纯电动",
+          "size": "4530x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 U-Ⅱ 400 尊享版",
+          "price": "17.08万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 U-Ⅱ 500 行业版",
+          "price": "17.68万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 U-Ⅱ 500 尊享版",
+          "price": "18.58万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "哪吒U 2022款 U-Ⅱ 610 尊享版",
+          "price": "20.68万",
+          "fuelType": "纯电动",
+          "size": "4549x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 231马力"
         }
       ]
     },
     {
       "carName": "哪吒GT",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d3f2d113936944f883092f90adb65ebf~1200x0.png",
-      "seriesName": "合众汽车/-",
       "configs": [
         {
           "configName": "哪吒GT 2023款 560版",
           "price": "18.88万",
           "fuelType": "纯电动",
-          "size": "4715x1979x1415"
+          "size": "4715x1979x1415",
+          "manufacturer": "合众汽车",
+          "class": "跑车",
+          "power": "纯电动 231马力"
         },
         {
           "configName": "哪吒GT 2023款 580 四驱版",
           "price": "22.68万",
           "fuelType": "纯电动",
-          "size": "4715x1979x1415"
+          "size": "4715x1979x1415",
+          "manufacturer": "合众汽车",
+          "class": "跑车",
+          "power": "纯电动 462马力"
         }
       ]
     },
     {
       "carName": "哪吒L",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/620fc14a180d4c33a8e8300963eec887~1200x0.png",
-      "seriesName": "合众汽车/中型SUV",
       "configs": [
         {
           "configName": "哪吒L 2024款 增程版 220闪充版",
           "price": "12.99万",
           "fuelType": "增程式",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒L 2024款 增程版 310闪充版",
           "price": "13.69万",
           "fuelType": "增程式",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒L 2024款 增程版 310闪充PRO版",
           "price": "14.99万",
           "fuelType": "增程式",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒L 2024款 增程版 310闪充红衣版",
           "price": "15.99万",
           "fuelType": "增程式",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "增程式 231马力"
         },
         {
           "configName": "哪吒L 2024款 510闪充版",
           "price": "13.99万",
           "fuelType": "纯电动",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "纯电动 231马力"
         },
         {
           "configName": "哪吒L 2024款 510闪充PRO版",
           "price": "15.29万",
           "fuelType": "纯电动",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "纯电动 231马力"
         },
         {
           "configName": "哪吒L 2024款 510闪充红衣版",
           "price": "16.29万",
           "fuelType": "纯电动",
-          "size": "4770x1900x1660"
+          "size": "4770x1900x1660",
+          "manufacturer": "合众汽车",
+          "class": "中型SUV",
+          "power": "纯电动 231马力"
         }
       ]
     },
     {
       "carName": "哪吒X",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4ec17e23f65d4a6e9b0ef1db7f222e7d~1200x0.png",
-      "seriesName": "合众汽车/紧凑型SUV",
       "configs": [
         {
           "configName": "哪吒X 2025款 400 Air",
           "price": "8.98万",
           "fuelType": "纯电动",
-          "size": "4619x1860x1628"
+          "size": "4619x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
         },
         {
           "configName": "哪吒X 2025款 500 Air",
           "price": "9.98万",
           "fuelType": "纯电动",
-          "size": "4619x1860x1628"
+          "size": "4619x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
         },
         {
           "configName": "哪吒X 2025款 500 Plus",
           "price": "11.48万",
           "fuelType": "纯电动",
-          "size": "4619x1860x1628"
+          "size": "4619x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
         },
         {
           "configName": "哪吒X 2025款 500 Pro",
           "price": "12.48万",
           "fuelType": "纯电动",
-          "size": "4619x1860x1628"
+          "size": "4619x1860x1628",
+          "manufacturer": "合众汽车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
         }
       ]
     }

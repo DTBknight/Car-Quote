@@ -293,7 +293,7 @@ export class CarSearch {
     carResultBox.style.top = `${inputRect.bottom + 5}px`;
     carResultBox.style.left = `${inputRect.left}px`;
     carResultBox.style.width = `${inputRect.width}px`;
-    carResultBox.style.zIndex = '40';
+    carResultBox.style.zIndex = '999999';
     
     if (results.length === 0) {
       carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
@@ -308,34 +308,57 @@ export class CarSearch {
           const img = document.createElement('img');
           img.src = result.car.brandImage;
           img.alt = result.car.brand;
-          img.className = 'w-8 h-8 object-contain rounded mr-2';
+          img.className = 'w-8 h-8 object-contain rounded';
           div.appendChild(img);
         }
         
-        // 车型和配置名称分色显示
-        let mainName = '';
-        let subName = '';
-        if (result.config && result.car && result.config.configName && result.car.carName && result.config.configName.startsWith(result.car.carName)) {
-          mainName = result.car.carName;
-          subName = result.config.configName.slice(result.car.carName.length);
-        } else if (result.car && result.car.carName) {
-          mainName = result.car.carName;
-          subName = '';
-        } else {
-          mainName = result.displayText;
-          subName = '';
+        // 创建内容容器
+        const contentDiv = document.createElement('div');
+        contentDiv.className = 'flex-1 min-w-0';
+        
+        // 品牌名
+        const brandName = result.car.brand || result.car.seriesName || '';
+        
+        // 车型名（去重处理）
+        let carName = result.car.carName || result.car.name || '';
+        if (brandName && carName.includes(brandName)) {
+          carName = carName.replace(brandName, '').trim();
         }
         
-        const nameSpan = document.createElement('span');
-        nameSpan.className = 'font-medium flex-1';
-        nameSpan.innerHTML = `<span>${mainName}</span><span class='text-gray-400'>${subName}</span>`;
-        div.appendChild(nameSpan);
+        // 配置名
+        let configName = '';
+        if (result.config && result.config.configName) {
+          configName = result.config.configName;
+          // 如果配置名包含车型名，则只显示配置名的差异部分
+          if (carName && configName.includes(carName)) {
+            configName = configName.replace(carName, '').trim();
+          }
+          // 如果配置名包含品牌名，也去除品牌名
+          if (brandName && configName.includes(brandName)) {
+            configName = configName.replace(brandName, '').trim();
+          }
+        }
+        
+        // 构建显示内容
+        let displayContent = '';
+        if (brandName) {
+          displayContent += `<div class="text-sm text-gray-600">${brandName}</div>`;
+        }
+        if (carName) {
+          displayContent += `<div class="font-medium text-gray-900">${carName}</div>`;
+        }
+        if (configName) {
+          displayContent += `<div class="text-sm text-gray-500">${configName}</div>`;
+        }
+        
+        contentDiv.innerHTML = displayContent;
+        div.appendChild(contentDiv);
         
         // 指导价
         if (result.config && result.config.price) {
           const priceSpan = document.createElement('span');
           priceSpan.textContent = result.config.price;
-          priceSpan.className = 'text-red-500 text-sm font-medium';
+          priceSpan.className = 'text-red-500 text-sm font-medium whitespace-nowrap';
           div.appendChild(priceSpan);
         }
         
@@ -411,10 +434,17 @@ export class CarSearch {
   // 填充车型详细信息
   fillCarDetails(carData) {
     // 填充基础信息
-    Utils.setElementValue('brandName2', carData.brand || carData.seriesName || '');
+    Utils.setElementValue('brandName2', carData.manufacturer || carData.brand || carData.seriesName || '');
+    Utils.setElementValue('carClass2', carData.class || '未知');
     Utils.setElementValue('carModel2', carData.name || carData.carName || '');
     Utils.setElementValue('fuelType2', carData.fuelType || '未知');
+    Utils.setElementValue('power2', carData.power || '未知');
     Utils.setElementValue('size2', carData.size || '未知');
+    
+    // 计算并填充CBM
+    const cbm = this.calculateCBM(carData.size);
+    Utils.setElementValue('cbm2', cbm);
+    
     Utils.setElementValue('price2', carData.price || '未知');
     
     // 解析价格并填充指导价格
@@ -431,7 +461,7 @@ export class CarSearch {
     // 设置品牌logo
     const brandLogoBox = Utils.getElement('brandLogoBox2');
     if (brandLogoBox && carData.brandImage) {
-      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${carData.brand || carData.seriesName}" class="w-12 h-12 object-contain">`;
+      brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${carData.manufacturer || carData.brand || carData.seriesName}" class="w-12 h-12 object-contain">`;
     }
     
     // 设置车型图片
@@ -449,6 +479,32 @@ export class CarSearch {
         </div>
       `;
     }
+  }
+  
+  // 计算CBM (立方米)
+  calculateCBM(sizeStr) {
+    if (!sizeStr || typeof sizeStr !== 'string') return '未知';
+    
+    // 解析尺寸字符串，格式如: "4053x1740x1449"
+    const sizeMatch = sizeStr.match(/^(\d+(?:\.\d+)?)x(\d+(?:\.\d+)?)x(\d+(?:\.\d+)?)$/);
+    if (!sizeMatch) return '未知';
+    
+    const length = parseFloat(sizeMatch[1]);
+    const width = parseFloat(sizeMatch[2]);
+    const height = parseFloat(sizeMatch[3]);
+    
+    // 检查数值是否有效
+    if (isNaN(length) || isNaN(width) || isNaN(height)) return '未知';
+    
+    // 将毫米转换为米，然后计算体积
+    const lengthM = length / 1000;
+    const widthM = width / 1000;
+    const heightM = height / 1000;
+    
+    const cbm = lengthM * widthM * heightM;
+    
+    // 保留两位小数
+    return cbm.toFixed(2);
   }
   
   // 解析价格字符串为数字
@@ -504,7 +560,7 @@ export class CarSearch {
       historyPanel.style.top = `${btnRect.bottom + 5}px`;
       historyPanel.style.right = `${window.innerWidth - btnRect.right}px`;
       historyPanel.style.width = '300px';
-      historyPanel.style.zIndex = '40';
+      historyPanel.style.zIndex = '999999';
       
       this.displaySearchHistory();
       Utils.toggleElement('searchHistoryPanel', true);
@@ -525,32 +581,105 @@ export class CarSearch {
       Utils.toggleElement('searchHistoryList', true);
       Utils.toggleElement('noHistoryMessage', false);
       
-      historyList.innerHTML = this.searchHistory.map(item => `
-        <div class="history-item p-3 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition-colors" data-car='${JSON.stringify(item)}'>
-          <div class="flex items-center gap-3">
-            <img src="${item.brandImage || '/placeholder.png'}" alt="${item.brand || item.seriesName || ''}" class="w-6 h-6 rounded object-cover">
-            <div class="flex-1">
-              <div class="font-medium text-gray-900 text-sm">${item.name || item.carName || item.configName || '未知车型'}</div>
-              <div class="text-xs text-gray-500">${item.brand || item.seriesName || '未知品牌'}</div>
+      historyList.innerHTML = this.searchHistory.map(item => {
+        // 处理历史记录显示数据
+        const brandName = item.brand || item.seriesName || '';
+        const brandImage = item.brandImage || '/placeholder.png';
+        
+        // 车型名（去重处理）
+        let carName = item.carName || item.name || item.configName || '';
+        if (brandName && carName.includes(brandName)) {
+          carName = carName.replace(brandName, '').trim();
+        }
+        
+        // 指导价
+        const price = item.price || '';
+        
+        return `
+          <div class="history-item p-3 hover:bg-gray-50 cursor-pointer border-b border-gray-100 last:border-b-0 transition-colors" data-car='${JSON.stringify(item)}'>
+            <div class="flex items-center gap-3">
+              <img src="${brandImage}" alt="${brandName}" class="w-8 h-8 object-contain rounded">
+              <div class="flex-1 min-w-0">
+                <div class="text-sm text-gray-600">${brandName}</div>
+                <div class="font-medium text-gray-900">${carName || '未知车型'}</div>
+              </div>
+              ${price ? `<span class="text-red-500 text-sm font-medium whitespace-nowrap">${price}</span>` : ''}
             </div>
           </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
       
       // 绑定历史项点击事件
       historyList.querySelectorAll('.history-item').forEach(item => {
         item.addEventListener('click', () => {
           const carData = JSON.parse(item.dataset.car);
-          const carInput = Utils.getElement('searchCarInput');
-          if (carInput) {
-            const brand = carData.brand || carData.seriesName || '';
-            const name = carData.name || carData.carName || carData.configName || '';
-            carInput.value = `${brand} ${name}`.trim();
-            Utils.toggleElement('searchHistoryPanel', false);
-          }
+          this.handleHistoryItemClick(carData);
         });
       });
     }
+  }
+  
+  // 处理历史记录项点击
+  handleHistoryItemClick(carData) {
+    const carInput = Utils.getElement('searchCarInput');
+    if (!carInput) return;
+    
+    // 获取品牌和车型信息
+    const brand = carData.brand || carData.seriesName || '';
+    const carName = carData.carName || carData.name || '';
+    const price = carData.price || '';
+    
+    // 查找匹配的车型和配置
+    const matchedResult = this.findMatchingCarConfig(brand, carName, price);
+    
+    if (matchedResult) {
+      // 找到匹配的配置，使用完整的车型和配置信息
+      const displayText = matchedResult.config?.configName || matchedResult.car?.carName || carName;
+      carInput.value = displayText;
+      
+      // 填充车型详细信息
+      this.fillCarDetails({ ...matchedResult.car, ...matchedResult.config });
+      
+      // 触发车型选择事件
+      this.triggerCarSelectionEvent({ ...matchedResult.car, ...matchedResult.config });
+    } else {
+      // 没有找到匹配的配置，使用原始数据
+      const displayText = carData.configName || carData.carName || carData.name || '';
+      carInput.value = displayText;
+      
+      // 尝试填充基础信息（如果有的话）
+      if (carData.brand || carData.carName) {
+        this.fillCarDetails(carData);
+      }
+    }
+    
+    // 关闭历史记录面板
+    Utils.toggleElement('searchHistoryPanel', false);
+  }
+  
+  // 根据品牌、车型和价格查找匹配的配置
+  findMatchingCarConfig(brand, carName, price) {
+    if (!brand || !carName || !price) return null;
+    
+    // 在所有车型中查找匹配的
+    for (const car of this.allCars) {
+      // 检查品牌和车型是否匹配
+      const carBrand = car.brand || car.seriesName || '';
+      const carModelName = car.carName || car.name || '';
+      
+      if (carBrand === brand && carModelName === carName) {
+        // 找到匹配的车型，现在查找匹配价格的配置
+        if (car.configs && Array.isArray(car.configs)) {
+          for (const config of car.configs) {
+            if (config.price === price) {
+              return { car, config };
+            }
+          }
+        }
+      }
+    }
+    
+    return null;
   }
   
   // 添加到搜索历史

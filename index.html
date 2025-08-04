@@ -311,6 +311,12 @@
       z-index: 99999 !important;
     }
     
+    /* 确保搜索下拉菜单和历史记录面板有最高优先级 */
+    #searchCarResults,
+    #searchHistoryPanel {
+      z-index: 999999 !important;
+    }
+    
     .search-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
@@ -709,14 +715,20 @@
                 <i class="fa-solid fa-info-circle text-primary mr-2"></i>基础信息
               </h3>
               <div class="grid grid-cols-1 gap-3">
-                <div>
-                  <div class="text-sm font-medium text-gray-700 mb-1">厂商/级别</div>
-                  <div class="flex items-center gap-3">
-                    <div id="brandLogoBox2" class="w-12 h-12 flex items-center justify-center"></div>
-                    <input type="text" id="brandName2" class="form-input-readonly" placeholder="厂商/级别" readonly>
+                <div class="grid grid-cols-2 gap-4">
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">厂商</div>
+                    <div class="flex items-center gap-3">
+                      <div id="brandLogoBox2" class="w-12 h-12 flex items-center justify-center"></div>
+                      <input type="text" id="brandName2" class="form-input-readonly" placeholder="厂商" readonly>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">级别</div>
+                    <input type="text" id="carClass2" class="form-input-readonly" placeholder="级别" readonly>
                   </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">车型</div>
                     <input type="text" id="carModel2" class="form-input-readonly" placeholder="车型名称" readonly>
@@ -725,11 +737,19 @@
                     <div class="text-sm font-medium text-gray-700 mb-1">能源类型</div>
                     <input type="text" id="fuelType2" class="form-input-readonly" placeholder="能源类型" readonly>
                   </div>
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">动力</div>
+                    <input type="text" id="power2" class="form-input-readonly" placeholder="动力" readonly>
+                  </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">尺寸</div>
                     <input type="text" id="size2" class="form-input-readonly" placeholder="尺寸" readonly>
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium text-gray-700 mb-1">CBM</div>
+                    <input type="text" id="cbm2" class="form-input-readonly" placeholder="CBM" readonly>
                   </div>
                   <div>
                     <div class="text-sm font-medium text-gray-700 mb-1">指导价</div>
@@ -1459,10 +1479,10 @@
   </main>
   
   <!-- 搜索下拉菜单 - 相对定位，固定在搜索栏下方 -->
-  <div id="searchCarResults" class="hidden absolute z-40 max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
+  <div id="searchCarResults" class="hidden absolute z-50 max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg"></div>
   
   <!-- 搜索历史记录面板 - 相对定位，固定在搜索栏下方 -->
-  <div id="searchHistoryPanel" class="hidden absolute z-40 max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
+  <div id="searchHistoryPanel" class="hidden absolute z-50 max-h-60 overflow-y-auto border border-gray-200 rounded-lg bg-white shadow-lg">
     <div class="p-3 border-b border-gray-100">
       <div class="flex items-center justify-between">
         <h4 class="text-sm font-medium text-gray-700">搜索历史</h4>

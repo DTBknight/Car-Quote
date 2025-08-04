@@ -18,8 +18,17 @@ class DataManager {
     const filePath = path.join(this.dataDir, `${brand}.json`);
     const result = { ...data.brandInfo, cars: data.cars };
     
+    // 检查是否为更新操作
+    const existingData = this.checkExistingData(brand);
+    const isUpdate = existingData.exists && existingData.hasData;
+    
     fs.writeFileSync(filePath, JSON.stringify(result, null, 2));
-    console.log(`✅ 品牌 ${brand} 数据已保存: ${data.cars.length} 个车型`);
+    
+    if (isUpdate) {
+      console.log(`✅ 品牌 ${brand} 数据已更新: ${data.cars.length} 个车型`);
+    } else {
+      console.log(`✅ 品牌 ${brand} 数据已保存: ${data.cars.length} 个车型`);
+    }
     
     return filePath;
   }

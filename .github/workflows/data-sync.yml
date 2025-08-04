@@ -2,8 +2,12 @@ name: Data Sync Task
 
 on:
   schedule:
-    # 每天凌晨2点运行 (UTC时间)
-    - cron: '0 18 * * *'
+    # 每周一凌晨执行选项：
+    # 1. 每周一凌晨0点 (UTC时间，即北京时间上午8点)
+    # 2. 每周一凌晨2点 (UTC时间，即北京时间上午10点) 
+    # 3. 每周一凌晨6点 (UTC时间，即北京时间下午2点)
+    # 当前设置：每周一凌晨0点 (UTC时间)
+    - cron: '0 0 * * 1'
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -21,13 +25,6 @@ jobs:
         cache: 'npm'
         cache-dependency-path: data-processor/package-lock.json
         
-    - name: Display System Info
-      run: |
-        echo "Node.js version: $(node --version)"
-        echo "npm version: $(npm --version)"
-        echo "System info: $(uname -a)"
-        echo "Memory info: $(free -h)"
-        
     - name: Install Chrome Dependencies
       run: |
         sudo apt-get update
@@ -36,35 +33,16 @@ jobs:
         echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
-        echo "Chrome version: $(google-chrome --version)"
-        
-    - name: Navigate to Working Directory
-      run: |
-        cd data-processor
-        pwd
-        ls -la
         
     - name: Install Dependencies
       run: |
         cd data-processor
-        npm ci --verbose
-        echo "Dependencies installation completed"
-        
-    - name: Verify Dependencies
-      run: |
-        cd data-processor
-        node --version
-        npm list --depth=0
-        
-    - name: Environment Test
-      run: |
-        cd data-processor
-        node debug-github-actions.js
+        npm ci
         
     - name: Execute Data Sync
       run: |
         cd data-processor
-        node index-production.js
+        node index-sync.js
       env:
         # Set environment variables
         NODE_ENV: production
@@ -75,6 +53,26 @@ jobs:
         cd data-processor
         node scripts/validate.js
         
+    - name: Generate Summary
+      run: |
+        cd data-processor
+        if [ -f "weekly-execution.log" ]; then
+          echo "## 数据同步结果" >> $GITHUB_STEP_SUMMARY
+          echo "- 执行时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+          echo "- 日志文件: weekly-execution.log" >> $GITHUB_STEP_SUMMARY
+          
+          # 查找最新的报告文件
+          latest_report=$(ls -t weekly-report-*.json 2>/dev/null | head -1)
+          if [ -n "$latest_report" ]; then
+            echo "- 执行报告: $latest_report" >> $GITHUB_STEP_SUMMARY
+            success_rate=$(jq -r '.successRate' "$latest_report" 2>/dev/null || echo "N/A")
+            echo "- 成功率: $success_rate" >> $GITHUB_STEP_SUMMARY
+          fi
+        else
+          echo "## 数据同步结果" >> $GITHUB_STEP_SUMMARY
+          echo "- 执行失败: 未找到日志文件" >> $GITHUB_STEP_SUMMARY
+        fi
+        
     - name: Commit Updates
       run: |
         git config --local user.email "action@github.com"
@@ -83,12 +81,14 @@ jobs:
         git status --porcelain
         echo "Adding data files..."
         git add data/*.json
+        echo "Adding weekly logs and reports..."
+        git add data-processor/weekly-execution.log data-processor/weekly-report-*.json data-processor/weekly-progress.json
         echo "Checking for changes..."
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
           echo "Committing changes..."
-          git commit -m "📊 Data sync update - $(date)"
+          git commit -m "📊 Data sync update - $(date '+%Y-%m-%d')"
           echo "Pushing to remote repository..."
           git push
         fi 

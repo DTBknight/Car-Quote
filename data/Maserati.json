@@ -3,197 +3,254 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/ad3fe8a317d543a68cb8ab1c5925d283~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "Grecale Folgore",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/071113a36dc1453eb653413ded146a9e~1200x0.png",
-      "seriesName": "玛莎拉蒂/中型SUV",
-      "configs": [
-        {
-          "configName": "Grecale Folgore 2025款 Folgore",
-          "price": "89.88万",
-          "fuelType": "纯电动",
-          "size": "4865x1948x1651"
-        }
-      ]
-    },
-    {
       "carName": "Ghibli",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e41afaf0eb64c01c1a10b32bb0f257aa~1200x0.png",
-      "seriesName": "玛莎拉蒂/中大型车",
       "configs": [
         {
           "configName": "Ghibli 2023款 2.0T GT",
           "price": "86.98万",
           "fuelType": "48V轻混系统",
-          "size": "4971x1945x1461"
+          "size": "4971x1945x1461",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型车",
+          "power": "2.0T 330马力 L4 48V轻混"
         },
         {
           "configName": "Ghibli 2023款 3.0T Modena",
           "price": "94.88万",
           "fuelType": "汽油",
-          "size": "4971x1945x1461"
+          "size": "4971x1945x1461",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型车",
+          "power": "3.0T 350马力 V6"
+        }
+      ]
+    },
+    {
+      "carName": "Grecale Folgore",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/071113a36dc1453eb653413ded146a9e~1200x0.png",
+      "configs": [
+        {
+          "configName": "Grecale Folgore 2025款 Folgore",
+          "price": "89.88万",
+          "fuelType": "纯电动",
+          "size": "4865x1948x1651",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
+          "power": "纯电动 550马力"
         }
       ]
     },
     {
       "carName": "Grecale",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1285e253663fca662a37c64a6946f19~1200x0.png",
-      "seriesName": "玛莎拉蒂/中型SUV",
       "configs": [
         {
           "configName": "Grecale 2024款 2.0T Modena",
           "price": "73.58万",
           "fuelType": "48V轻混系统",
-          "size": "4847x1979x1667"
+          "size": "4847x1979x1667",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
+          "power": "2.0T 330马力 L4 48V轻混"
         },
         {
           "configName": "Grecale 2024款 3.0T Trofeo",
           "price": "103.88万",
           "fuelType": "汽油",
-          "size": "4859x1979x1659"
+          "size": "4859x1979x1659",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
+          "power": "3.0T 530马力 V6"
         },
         {
           "configName": "Grecale 2023款 2.0T GT",
           "price": "65.08万",
           "fuelType": "48V轻混系统",
-          "size": "4846x1948x1670"
+          "size": "4846x1948x1670",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
+          "power": "2.0T 300马力 L4 48V轻混"
         }
       ]
     },
     {
       "carName": "总裁",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47724b5b8d4b6bfd134563540b8e8079~1200x0.png",
-      "seriesName": "玛莎拉蒂/大型车",
       "configs": [
         {
           "configName": "总裁 2022款 3.0T GT",
           "price": "150.18万",
           "fuelType": "汽油",
-          "size": "5262x1948x1476"
+          "size": "5262x1948x1476",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "power": "3.0T 350马力 V6"
         },
         {
           "configName": "总裁 2022款 3.0T Modena Q4",
           "price": "171.08万",
           "fuelType": "汽油",
-          "size": "5262x1948x1476"
+          "size": "5262x1948x1476",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "power": "3.0T 430马力 V6"
         },
         {
           "configName": "总裁 2021款 3.0T 标准版",
           "price": "141.75万",
           "fuelType": "汽油",
-          "size": "5262x1948x1476"
+          "size": "5262x1948x1476",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "power": "3.0T 350马力 V6"
         },
         {
           "configName": "总裁 2021款 3.0T S Q4 豪华版",
           "price": "162.05万",
           "fuelType": "汽油",
-          "size": "5262x1948x1476"
-        }
-      ]
-    },
-    {
-      "carName": "GranTurismo",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c731a86c09e348cd9a5a14555306a8a7~1200x0.png",
-      "seriesName": "玛莎拉蒂/-",
-      "configs": [
-        {
-          "configName": "GranTurismo 2024款 3.0T Modena",
-          "price": "146万",
-          "fuelType": "汽油",
-          "size": "4960x1957x1409"
-        },
-        {
-          "configName": "GranTurismo 2024款 3.0T Trofeo",
-          "price": "229.8万",
-          "fuelType": "汽油",
-          "size": "4966x1957x1410"
-        }
-      ]
-    },
-    {
-      "carName": "GranTurismo Folgore",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e568207a0584c9e90291a14aadd5f3b~1200x0.png",
-      "seriesName": "玛莎拉蒂/-",
-      "configs": [
-        {
-          "configName": "GranTurismo Folgore 2024款 Folgore",
-          "price": "198.8万",
-          "fuelType": "纯电动",
-          "size": "4960x1957x1416"
+          "size": "5262x1948x1476",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "power": "3.0T 430马力 V6"
         }
       ]
     },
     {
       "carName": "Levante",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7466c214e6928a1769569da1c1a62b0b~1200x0.png",
-      "seriesName": "玛莎拉蒂/中大型SUV",
       "configs": [
         {
           "configName": "Levante 2024款 2.0T GT ULTIMA",
           "price": "97.18万",
           "fuelType": "48V轻混系统",
-          "size": "5005x1981x1693"
+          "size": "5005x1981x1693",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型SUV",
+          "power": "2.0T 330马力 L4 48V轻混"
         },
         {
           "configName": "Levante 2023款 2.0T GT",
           "price": "91.78万",
           "fuelType": "48V轻混系统",
-          "size": "5005x1981x1693"
+          "size": "5005x1981x1693",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型SUV",
+          "power": "2.0T 330马力 L4 48V轻混"
         },
         {
           "configName": "Levante 2022款 2.0T GT锋芒版",
           "price": "86.68万",
           "fuelType": "48V轻混系统",
-          "size": "5005x1981x1696"
+          "size": "5005x1981x1696",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型SUV",
+          "power": "2.0T 330马力 L4 48V轻混"
         }
       ]
     },
     {
       "carName": "GranCabrio",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3bc8dc6fb185482583aca4ff186de884~1200x0.png",
-      "seriesName": "玛莎拉蒂/-",
       "configs": [
         {
           "configName": "GranCabrio 2024款 3.0T Trofeo",
           "price": "243.8万",
           "fuelType": "汽油",
-          "size": "4966x1957x1365"
+          "size": "4966x1957x1365",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 550马力 V6"
+        }
+      ]
+    },
+    {
+      "carName": "GranTurismo Folgore",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e568207a0584c9e90291a14aadd5f3b~1200x0.png",
+      "configs": [
+        {
+          "configName": "GranTurismo Folgore 2024款 Folgore",
+          "price": "198.8万",
+          "fuelType": "纯电动",
+          "size": "4960x1957x1416",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "纯电动 1224马力"
+        }
+      ]
+    },
+    {
+      "carName": "GranTurismo",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c731a86c09e348cd9a5a14555306a8a7~1200x0.png",
+      "configs": [
+        {
+          "configName": "GranTurismo 2024款 3.0T Modena",
+          "price": "146万",
+          "fuelType": "汽油",
+          "size": "4960x1957x1409",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 490马力 V6"
+        },
+        {
+          "configName": "GranTurismo 2024款 3.0T Trofeo",
+          "price": "229.8万",
+          "fuelType": "汽油",
+          "size": "4966x1957x1410",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 550马力 V6"
         }
       ]
     },
     {
       "carName": "玛莎拉蒂MC20",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3131d42ef0084fd1b681bcc0e9823286~1200x0.png",
-      "seriesName": "玛莎拉蒂/-",
       "configs": [
         {
           "configName": "玛莎拉蒂MC20 2024款 3.0T 标准版",
           "price": "253.88万",
           "fuelType": "汽油",
-          "size": "4669x2178x1224"
+          "size": "4669x2178x1224",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 630马力 V6"
         },
         {
           "configName": "玛莎拉蒂MC20 2024款 3.0T Cielo",
           "price": "288.88万",
           "fuelType": "汽油",
-          "size": "4669x2178x1224"
+          "size": "4669x2178x1224",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 630马力 V6"
         },
         {
           "configName": "玛莎拉蒂MC20 2024款 3.0T Icona",
           "price": "304.88万",
           "fuelType": "汽油",
-          "size": "4669x2178x1224"
+          "size": "4669x2178x1224",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 630马力 V6"
         },
         {
           "configName": "玛莎拉蒂MC20 2024款 3.0T Leggenda",
           "price": "304.88万",
           "fuelType": "汽油",
-          "size": "4669x2178x1224"
+          "size": "4669x2178x1224",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "3.0T 630马力 V6"
         },
         {
           "configName": "玛莎拉蒂MC20 2024款 GT2 Stradale",
           "price": "414.5万",
           "fuelType": "",
-          "size": ""
+          "size": "",
+          "manufacturer": "",
+          "class": "",
+          "power": ""
         }
       ]
     }

@@ -9,7 +9,7 @@ const { getSmartDelay } = require('./anti-detection');
 // 品牌ID映射
 const brandIdsMap = {
   Volkswagen: 1, // 大众
-  Audi: 2,      // 奥迪
+  Audi: [2, 10362],      // 奥迪
   Benz: 3,      // 奔驰
   BMW: 4,       // 宝马
   Aion: 242,    // 埃安
@@ -118,10 +118,10 @@ const brandIdsMap = {
   Wuling: 25, // 五菱
   Xpeng: 203, // 小鹏
   Yangwang: 546, // 仰望
-  10363: '萤火虫',
-  419: '智己',
-  883: '智界',
-  10293: '尊界',
+  Firefly: 10363, // 萤火虫
+  IM: 419, // 智己
+  Luxeed: 883, // 智界
+  Maextro: 10293, // 尊界
 };
 
 // 主处理器
@@ -138,8 +138,7 @@ class CarDataProcessor {
     // 检查现有数据
     const existingData = this.dataManager.checkExistingData(brand);
     if (existingData.exists && existingData.hasData) {
-      console.log(`⚠️ 品牌 ${brand} 已存在且有数据，跳过处理`);
-      return true;
+      console.log(`🔄 品牌 ${brand} 已存在数据，将抓取最新数据进行更新`);
     }
     
     const brandIds = Array.isArray(brandIdsMap[brand]) ? brandIdsMap[brand] : [brandIdsMap[brand]];
@@ -187,6 +186,7 @@ class CarDataProcessor {
       progressBar.update(idx, { brand: brandName });
 
       try {
+        console.log(`🚗 开始处理品牌: ${brandName}`);
         const success = await this.processBrand(brandName);
         if (success) {
           successCount++;
@@ -198,9 +198,11 @@ class CarDataProcessor {
         failCount++;
       }
 
-      // 品牌间延迟
+      // 品牌间延迟 - 大幅减少延迟时间
       if (idx < total - 1) {
-        await new Promise(resolve => setTimeout(resolve, getSmartDelay(3000, 5000)));
+        const delay = getSmartDelay(1000, 2000); // 从3-5秒减少到1-2秒
+        console.log(`⏳ 等待 ${delay/1000} 秒后处理下一个品牌...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
       }
     }
 

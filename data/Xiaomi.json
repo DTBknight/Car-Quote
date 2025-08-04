@@ -3,65 +3,83 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/a2994c3b381f4abfba82e8ee7a372b38~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "小米SU7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/604ea6fb6eed45a9aa0c39b3b43f923d~1200x0.png",
-      "seriesName": "小米汽车/中大型车",
-      "configs": [
-        {
-          "configName": "小米SU7 2024款 后驱标准长续航版",
-          "price": "21.59万",
-          "fuelType": "纯电动",
-          "size": "4997x1963x1455"
-        },
-        {
-          "configName": "小米SU7 2024款 后驱超长续航Pro版",
-          "price": "24.59万",
-          "fuelType": "纯电动",
-          "size": "4997x1963x1455"
-        },
-        {
-          "configName": "小米SU7 2024款 四驱超长续航Max版",
-          "price": "29.99万",
-          "fuelType": "纯电动",
-          "size": "4997x1963x1440"
-        }
-      ]
-    },
-    {
       "carName": "小米YU7",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6b63b46379e14698a8e57f1ce35fb503~1200x0.png",
-      "seriesName": "小米汽车/中大型SUV",
       "configs": [
         {
           "configName": "小米YU7 2025款 超长续航后驱版",
           "price": "25.35万",
           "fuelType": "纯电动",
-          "size": "4999x1996x1608"
+          "size": "4999x1996x1608",
+          "manufacturer": "小米汽车",
+          "class": "中大型SUV",
+          "power": "纯电动 320马力"
         },
         {
           "configName": "小米YU7 2025款 超长续航四驱Pro版",
           "price": "27.99万",
           "fuelType": "纯电动",
-          "size": "4999x1996x1600"
+          "size": "4999x1996x1600",
+          "manufacturer": "小米汽车",
+          "class": "中大型SUV",
+          "power": "纯电动 496马力"
         },
         {
           "configName": "小米YU7 2025款 超长续航高性能四驱Max版",
           "price": "32.99万",
           "fuelType": "纯电动",
-          "size": "4999x1996x1600"
+          "size": "4999x1996x1600",
+          "manufacturer": "小米汽车",
+          "class": "中大型SUV",
+          "power": "纯电动 690马力"
+        }
+      ]
+    },
+    {
+      "carName": "小米SU7",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/604ea6fb6eed45a9aa0c39b3b43f923d~1200x0.png",
+      "configs": [
+        {
+          "configName": "小米SU7 2024款 后驱标准长续航版",
+          "price": "21.59万",
+          "fuelType": "纯电动",
+          "size": "4997x1963x1455",
+          "manufacturer": "小米汽车",
+          "class": "中大型车",
+          "power": "纯电动 299马力"
+        },
+        {
+          "configName": "小米SU7 2024款 后驱超长续航Pro版",
+          "price": "24.59万",
+          "fuelType": "纯电动",
+          "size": "4997x1963x1455",
+          "manufacturer": "小米汽车",
+          "class": "中大型车",
+          "power": "纯电动 299马力"
+        },
+        {
+          "configName": "小米SU7 2024款 四驱超长续航Max版",
+          "price": "29.99万",
+          "fuelType": "纯电动",
+          "size": "4997x1963x1440",
+          "manufacturer": "小米汽车",
+          "class": "中大型车",
+          "power": "纯电动 673马力"
         }
       ]
     },
     {
       "carName": "小米SU7 Ultra",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/02038e81caf640c394f0b1dc3448def4~1200x0.png",
-      "seriesName": "小米汽车/中大型车",
       "configs": [
         {
           "configName": "小米SU7 Ultra 2025款 标准版",
           "price": "52.99万",
           "fuelType": "纯电动",
-          "size": "5070x1970x1465"
+          "size": "5070x1970x1465",
+          "manufacturer": "小米汽车",
+          "class": "中大型车",
+          "power": "纯电动 1548马力"
         }
       ]
     }
