@@ -339,19 +339,23 @@ export class CarSearch {
           }
         }
         
-        // 构建显示内容
+        // 构建显示内容 - 改为单行显示
         let displayContent = '';
+        const parts = [];
+        
         if (brandName) {
-          displayContent += `<div class="text-sm text-gray-600">${brandName}</div>`;
+          parts.push(brandName);
         }
         if (carName) {
-          displayContent += `<div class="font-medium text-gray-900">${carName}</div>`;
+          parts.push(carName);
         }
         if (configName) {
-          displayContent += `<div class="text-sm text-gray-500">${configName}</div>`;
+          parts.push(configName);
         }
         
-        contentDiv.innerHTML = displayContent;
+        displayContent = parts.join(' - ');
+        
+        contentDiv.innerHTML = `<div class="text-sm text-gray-900 truncate">${displayContent}</div>`;
         div.appendChild(contentDiv);
         
         // 指导价
@@ -396,6 +400,13 @@ export class CarSearch {
   
   // 选择车型
   selectCar(car, config) {
+    // 调试信息
+    console.log('=== selectCar 调试 ===');
+    console.log('car:', car);
+    console.log('config:', config);
+    console.log('config.class:', config?.class);
+    console.log('config.power:', config?.power);
+    
     // 确保displayText不为undefined
     let displayText = '';
     if (config && config.configName) {
@@ -427,6 +438,10 @@ export class CarSearch {
         price: config?.price || car?.price
       };
       
+      console.log('mergedData:', mergedData);
+      console.log('mergedData.class:', mergedData.class);
+      console.log('mergedData.power:', mergedData.power);
+      
       this.addToSearchHistory(mergedData);
       
       // 填充车型详细信息
@@ -447,6 +462,12 @@ export class CarSearch {
   
   // 填充车型详细信息
   fillCarDetails(carData) {
+    // 调试信息
+    console.log('=== fillCarDetails 调试 ===');
+    console.log('carData:', carData);
+    console.log('carData.class:', carData.class);
+    console.log('carData.power:', carData.power);
+    
     // 填充基础信息
     const brandName = carData.manufacturer || carData.brand || carData.seriesName || '';
     const carClass = carData.class || '未知';
@@ -454,6 +475,10 @@ export class CarSearch {
     const fuelType = carData.fuelType || '未知';
     const power = carData.power || '未知';
     const size = carData.size || '未知';
+    
+    console.log('设置字段值:');
+    console.log('carClass:', carClass);
+    console.log('power:', power);
     
     // 设置元素值
     Utils.setElementValue('brandName2', brandName);
