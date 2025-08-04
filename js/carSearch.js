@@ -24,22 +24,16 @@ export class CarSearch {
     if (this.allCarsLoaded) return;
     
     try {
-      // 清除缓存，强制重新加载
-      cacheManager.remove('allCars', 'localStorage');
-      
-      // 首先尝试从缓存加载
-      const cachedCars = cacheManager.get('allCars', 'localStorage');
-      if (cachedCars) {
-        this.allCars = cachedCars;
-        this.allCarsLoaded = true;
-        console.log(`✅ 从缓存加载 ${this.allCars.length} 个车型数据`);
-        return;
-      }
-      
       // 从网络加载
       console.log('🔄 从网络加载车型数据...');
       const brandsRes = await fetch('https://dbtknight.netlify.app/data/brands.json');
+      
+      if (!brandsRes.ok) {
+        throw new Error(`加载brands.json失败: ${brandsRes.status} ${brandsRes.statusText}`);
+      }
+      
       const brands = await brandsRes.json();
+      console.log(`📋 找到 ${brands.length} 个品牌`);
       
       // 并行加载所有品牌数据，使用缓存
       const carPromises = brands.map(async (brand) => {
@@ -48,7 +42,14 @@ export class CarSearch {
         
         if (!brandData) {
           try {
+            console.log(`📥 加载品牌: ${brand.name} (${brand.file})`);
             const res = await fetch(`https://dbtknight.netlify.app/data/${brand.file}`);
+            
+            if (!res.ok) {
+              console.error(`加载品牌文件 ${brand.file} 失败: ${res.status} ${res.statusText}`);
+              return [];
+            }
+            
             brandData = await res.json();
             
             // 缓存品牌数据
@@ -439,12 +440,6 @@ export class CarSearch {
         price: config?.price || car?.price || '未知'
       };
       
-      // 调试日志
-      console.log('🔍 selectCar 调试信息:');
-      console.log('原始 car:', car);
-      console.log('原始 config:', config);
-      console.log('合并后数据:', mergedData);
-      
       this.addToSearchHistory(mergedData);
       
       // 填充车型详细信息
@@ -466,10 +461,6 @@ export class CarSearch {
   // 填充车型详细信息
   fillCarDetails(carData) {
     
-    // 调试日志
-    console.log('🔍 fillCarDetails 调试信息:');
-    console.log('接收到的 carData:', carData);
-    
     // 填充基础信息 - 修复映射逻辑
     const manufacturer = carData.manufacturer || '';  // 厂商
     const carClass = carData.class || '未知';        // 级别
@@ -477,12 +468,6 @@ export class CarSearch {
     const fuelType = carData.fuelType || '未知';
     const power = carData.power || '未知';           // 动力
     const size = carData.size || '未知';
-    
-    console.log('提取的字段值:');
-    console.log('manufacturer:', manufacturer);
-    console.log('carClass:', carClass);
-    console.log('power:', power);
-    console.log('fuelType:', fuelType);
     
     // 设置元素值 - 修复映射逻辑
     Utils.setElementValue('brandName2', manufacturer);  // 厂商输入框
