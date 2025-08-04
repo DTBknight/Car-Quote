@@ -25,7 +25,14 @@ export class CarSearch {
     
     try {
       // 从网络加载
-      console.log('🔄 从网络加载车型数据...');
+      console.log('🔄 开始加载车型数据...');
+      
+      // 测试网络连接
+      const testRes = await fetch('https://dbtknight.netlify.app/data/brands.json', {
+        method: 'HEAD'
+      });
+      console.log('🌐 网络连接测试:', testRes.ok ? '成功' : '失败');
+      
       const brandsRes = await fetch('https://dbtknight.netlify.app/data/brands.json');
       
       if (!brandsRes.ok) {
@@ -35,8 +42,16 @@ export class CarSearch {
       const brands = await brandsRes.json();
       console.log(`📋 找到 ${brands.length} 个品牌`);
       
-      // 并行加载所有品牌数据，使用缓存
-      const carPromises = brands.map(async (brand) => {
+      if (brands.length === 0) {
+        throw new Error('brands.json 为空或格式错误');
+      }
+      
+      // 只加载前5个品牌进行测试
+      const testBrands = brands.slice(0, 5);
+      console.log(`🧪 测试加载前 ${testBrands.length} 个品牌`);
+      
+      // 并行加载品牌数据
+      const carPromises = testBrands.map(async (brand) => {
         const cacheKey = `brand:${brand.name}`;
         let brandData = cacheManager.get(cacheKey, 'memory');
         
@@ -90,8 +105,14 @@ export class CarSearch {
       });
       
       console.log(`✅ 成功加载并缓存 ${this.allCars.length} 个车型数据`);
+      
+      // 测试搜索索引
+      this.buildSearchIndex();
+      console.log(`🔍 搜索索引构建完成，包含 ${this.searchIndex.size} 个索引项`);
+      
     } catch (e) {
-      console.error('加载所有车型失败', e);
+      console.error('❌ 加载所有车型失败:', e);
+      console.error('错误详情:', e.stack);
       // 如果加载失败，设置一个标志避免无限重试
       this.allCarsLoaded = true;
     }
