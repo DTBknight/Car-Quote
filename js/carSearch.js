@@ -303,42 +303,67 @@ export class CarSearch {
     const queryLower = query.toLowerCase();
     const queryWords = queryLower.split(/\s+/).filter(word => word.length > 0);
     
+    console.log(`🔍 搜索查询: "${query}" -> "${queryLower}"`);
+    console.log(`🔍 搜索词: [${queryWords.join(', ')}]`);
+    
     // 计算每个车型的匹配分数
     const carScores = new Map();
     
     // 完全匹配查询字符串
     if (this.searchIndex.has(queryLower)) {
-      this.searchIndex.get(queryLower).forEach(carIndex => {
+      const carIndices = this.searchIndex.get(queryLower);
+      console.log(`✅ 完全匹配 "${queryLower}": ${carIndices.size} 个车型`);
+      carIndices.forEach(carIndex => {
         carScores.set(carIndex, (carScores.get(carIndex) || 0) + 20);
       });
+    } else {
+      console.log(`❌ 完全匹配 "${queryLower}": 未找到`);
     }
     
     queryWords.forEach(word => {
+      console.log(`🔍 处理搜索词: "${word}"`);
+      
       // 完全匹配单个词
       if (this.searchIndex.has(word)) {
-        this.searchIndex.get(word).forEach(carIndex => {
+        const carIndices = this.searchIndex.get(word);
+        console.log(`✅ 词匹配 "${word}": ${carIndices.size} 个车型`);
+        carIndices.forEach(carIndex => {
           carScores.set(carIndex, (carScores.get(carIndex) || 0) + 10);
         });
+      } else {
+        console.log(`❌ 词匹配 "${word}": 未找到`);
       }
       
       // 前缀匹配
+      let prefixMatches = 0;
       for (const [term, carIndices] of this.searchIndex) {
         if (term.startsWith(word)) {
+          prefixMatches += carIndices.size;
           carIndices.forEach(carIndex => {
             carScores.set(carIndex, (carScores.get(carIndex) || 0) + 5);
           });
         }
       }
+      if (prefixMatches > 0) {
+        console.log(`✅ 前缀匹配 "${word}": ${prefixMatches} 个车型`);
+      }
       
       // 包含匹配
+      let containsMatches = 0;
       for (const [term, carIndices] of this.searchIndex) {
         if (term.includes(word)) {
+          containsMatches += carIndices.size;
           carIndices.forEach(carIndex => {
             carScores.set(carIndex, (carScores.get(carIndex) || 0) + 3);
           });
         }
       }
+      if (containsMatches > 0) {
+        console.log(`✅ 包含匹配 "${word}": ${containsMatches} 个车型`);
+      }
     });
+    
+    console.log(`📊 匹配分数统计: ${carScores.size} 个车型有分数`);
     
     // 构建结果
     const results = [];
@@ -391,6 +416,8 @@ export class CarSearch {
     
     // 按分数排序
     results.sort((a, b) => b.score - a.score);
+    
+    console.log(`🎯 最终结果: ${results.length} 个配置，最高分数: ${results[0]?.score || 0}`);
     
     return results;
   }

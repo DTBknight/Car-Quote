@@ -59,13 +59,15 @@ export class ExchangeRateManager {
   }
   
   // 获取汇率（通用方法）
-  async fetchExchangeRate(currency, formType = 'new') {
+  async fetchExchangeRate(currency, formType = 'new', updateUI = true) {
     const cacheKey = `${currency}_${formType}`;
     const cached = this.cache.get(cacheKey);
     
     if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
       console.log(`📦 使用缓存的汇率: ${currency}`);
-      this.updateUI(currency, cached.rate, formType);
+      if (updateUI) {
+        this.updateUI(currency, cached.rate, formType);
+      }
       return cached.rate;
     }
     
@@ -76,7 +78,9 @@ export class ExchangeRateManager {
     if (globalCached && (Date.now() - globalCached.timestamp) < this.cacheTimeout) {
       console.log(`📦 使用全局缓存的汇率: ${currency}`);
       this.cache.set(cacheKey, globalCached);
-      this.updateUI(currency, globalCached.rate, formType);
+      if (updateUI) {
+        this.updateUI(currency, globalCached.rate, formType);
+      }
       return globalCached.rate;
     }
     
@@ -93,13 +97,17 @@ export class ExchangeRateManager {
       // 保存到本地存储
       this.saveCacheToStorage();
       
-      this.updateUI(currency, rate, formType);
+      if (updateUI) {
+        this.updateUI(currency, rate, formType);
+      }
       return rate;
     } catch (error) {
       console.error('获取汇率失败:', error);
       // 使用降级汇率
       const fallbackRate = this.getFallbackRate(currency);
-      this.updateUI(currency, fallbackRate, formType, true);
+      if (updateUI) {
+        this.updateUI(currency, fallbackRate, formType, true);
+      }
       return fallbackRate;
     }
   }
@@ -347,12 +355,12 @@ export class ExchangeRateManager {
     try {
       await this.initializeAllExchangeRates();
       
-      // 后台加载其他货币汇率（不立即显示）
+      // 后台加载其他货币汇率（不更新UI）
       const otherCurrencies = ['EUR', 'GBP'];
       for (const currency of otherCurrencies) {
         for (const formType of formTypes) {
           try {
-            await this.fetchExchangeRate(currency, formType);
+            await this.fetchExchangeRate(currency, formType, false); // 不更新UI
           } catch (error) {
             console.warn(`后台汇率加载失败 ${currency} ${formType}:`, error);
           }
