@@ -5,7 +5,7 @@ import { Utils } from './utils.js';
 export class ExchangeRateManager {
   constructor() {
     this.cache = new Map();
-    this.cacheTimeout = 5 * 60 * 1000; // 5分钟缓存
+    this.cacheTimeout = 24 * 60 * 60 * 1000; // 24小时缓存（一天）
     this.retryAttempts = 3; // 重试次数
     this.retryDelay = 1000; // 重试延迟（毫秒）
     this.fallbackRates = {
@@ -66,7 +66,7 @@ export class ExchangeRateManager {
   
   // 从API获取汇率
   async fetchFromAPI(currency) {
-    const { PRIMARY, BACKUP_1, BACKUP_2, BACKUP_3, BACKUP_4 } = CONFIG.API.EXCHANGE_RATE;
+    const { PRIMARY, BACKUP_1, BACKUP_2, BACKUP_3 } = CONFIG.API.EXCHANGE_RATE;
     
     // 尝试主API
     try {
@@ -90,9 +90,8 @@ export class ExchangeRateManager {
     // 尝试备用API列表
     const backupAPIs = [
       { name: 'Exchange Rate API', url: BACKUP_1.BASE_URL, handler: this.parseExchangeRateAPI },
-      { name: 'Exchange Rates API', url: BACKUP_2.BASE_URL, handler: this.parseExchangeRatesAPI },
-      { name: 'Rates API', url: BACKUP_3.BASE_URL, handler: this.parseRatesAPI },
-      { name: 'Frankfurter API', url: BACKUP_4.BASE_URL, handler: this.parseFrankfurterAPI }
+      { name: 'Rates API', url: BACKUP_2.BASE_URL, handler: this.parseRatesAPI },
+      { name: 'Frankfurter API', url: BACKUP_3.BASE_URL, handler: this.parseFrankfurterAPI }
     ];
     
     for (const api of backupAPIs) {
@@ -118,14 +117,6 @@ export class ExchangeRateManager {
   
   // 解析 Exchange Rate API 响应
   async parseExchangeRateAPI(data, currency) {
-    if (data && data.rates && data.rates[currency]) {
-      return data.rates[currency];
-    }
-    return null;
-  }
-  
-  // 解析 Exchange Rates API 响应
-  async parseExchangeRatesAPI(data, currency) {
     if (data && data.rates && data.rates[currency]) {
       return data.rates[currency];
     }

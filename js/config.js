@@ -38,18 +38,13 @@ const CONFIG = {
         BASE_URL: 'https://api.exchangerate-api.com/v4/latest/CNY',
         NAME: 'Exchange Rate API'
       },
-      // 备用API - 免费汇率API (免费，无需密钥)
-      BACKUP_2: {
-        BASE_URL: 'https://api.exchangeratesapi.io/v1/latest?base=CNY',
-        NAME: 'Exchange Rates API'
-      },
       // 备用API - 汇率数据 (免费，无需密钥)
-      BACKUP_3: {
+      BACKUP_2: {
         BASE_URL: 'https://api.ratesapi.io/api/latest?base=CNY',
         NAME: 'Rates API'
       },
       // 备用API - 货币转换API (免费，无需密钥)
-      BACKUP_4: {
+      BACKUP_3: {
         BASE_URL: 'https://api.frankfurter.app/latest?from=CNY',
         NAME: 'Frankfurter API'
       }
