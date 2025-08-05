@@ -120,6 +120,7 @@ export class CarSearch {
   // 构建搜索索引
   buildSearchIndex() {
     this.searchIndex.clear();
+    console.log('🔧 开始构建搜索索引...');
     
     this.allCars.forEach((car, carIndex) => {
       // 索引车型名
@@ -178,6 +179,18 @@ export class CarSearch {
             });
           }
         });
+      }
+    });
+    
+    console.log(`✅ 搜索索引构建完成，索引大小: ${this.searchIndex.size}`);
+    
+    // 调试：检查特定索引
+    const testTerms = ['起亚', '赛图斯', '起亚赛图斯', '极狐', '阿尔法'];
+    testTerms.forEach(term => {
+      if (this.searchIndex.has(term)) {
+        console.log(`🔍 索引 "${term}": ${this.searchIndex.get(term).size} 个车型`);
+      } else {
+        console.log(`❌ 索引 "${term}": 未找到`);
       }
     });
   }
@@ -251,18 +264,28 @@ export class CarSearch {
   
   // 执行搜索（优化版本）
   performSearch(query) {
-    if (!this.allCarsLoaded) return;
+    if (!this.allCarsLoaded) {
+      console.log('⚠️ 车型数据未加载完成，无法搜索');
+      return;
+    }
+    
+    console.log(`🔍 搜索查询: "${query}"`);
+    console.log(`📊 已加载车型数量: ${this.allCars.length}`);
+    console.log(`📋 搜索索引大小: ${this.searchIndex.size}`);
     
     // 检查缓存
     const cacheKey = `search:${query.toLowerCase()}`;
     const cached = cacheManager.get(cacheKey, 'memory');
     if (cached) {
+      console.log(`📦 使用缓存的搜索结果: ${cached.length} 个结果`);
       this.displayResults(cached);
       return;
     }
     
     const results = this.searchWithIndex(query);
     const limitedResults = results.slice(0, 20);
+    
+    console.log(`🔍 搜索结果: ${results.length} 个，显示前 ${limitedResults.length} 个`);
     
     // 缓存搜索结果
     cacheManager.set(cacheKey, limitedResults, {

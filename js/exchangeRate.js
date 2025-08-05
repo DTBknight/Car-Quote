@@ -315,9 +315,6 @@ export class ExchangeRateManager {
   async initializeExchangeRates() {
     console.log('🚀 初始化汇率系统...');
     
-    // 首先尝试初始化所有汇率
-    await this.initializeAllExchangeRates();
-    
     // 默认显示美元汇率
     const defaultCurrency = 'USD';
     const formTypes = ['new', 'used', 'newEnergy'];
@@ -325,8 +322,19 @@ export class ExchangeRateManager {
     // 优先设置美元为默认显示
     for (const formType of formTypes) {
       try {
-        await this.fetchExchangeRate(defaultCurrency, formType);
-        console.log(`✅ 默认汇率设置完成: ${defaultCurrency} (${formType})`);
+        // 先尝试从缓存获取美元汇率
+        const cacheKey = `${defaultCurrency}_${formType}`;
+        const cached = this.cache.get(cacheKey);
+        
+        if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
+          console.log(`📦 使用缓存的美元汇率: ${cached.rate}`);
+          this.updateUI(defaultCurrency, cached.rate, formType);
+        } else {
+          // 使用降级汇率确保立即显示
+          const fallbackRate = this.getFallbackRate(defaultCurrency);
+          this.updateUI(defaultCurrency, fallbackRate, formType, true);
+          console.log(`✅ 默认汇率设置完成: ${defaultCurrency} (${formType}) - 使用降级汇率`);
+        }
       } catch (error) {
         console.warn(`默认汇率设置失败 ${defaultCurrency} ${formType}:`, error);
         // 使用降级汇率
@@ -335,16 +343,23 @@ export class ExchangeRateManager {
       }
     }
     
-    // 后台加载其他货币汇率（不立即显示）
-    const otherCurrencies = ['EUR', 'GBP'];
-    for (const currency of otherCurrencies) {
-      for (const formType of formTypes) {
-        try {
-          await this.fetchExchangeRate(currency, formType);
-        } catch (error) {
-          console.warn(`后台汇率加载失败 ${currency} ${formType}:`, error);
+    // 后台初始化所有汇率数据
+    try {
+      await this.initializeAllExchangeRates();
+      
+      // 后台加载其他货币汇率（不立即显示）
+      const otherCurrencies = ['EUR', 'GBP'];
+      for (const currency of otherCurrencies) {
+        for (const formType of formTypes) {
+          try {
+            await this.fetchExchangeRate(currency, formType);
+          } catch (error) {
+            console.warn(`后台汇率加载失败 ${currency} ${formType}:`, error);
+          }
         }
       }
+    } catch (error) {
+      console.warn('后台汇率初始化失败，但不影响默认显示:', error);
     }
     
     console.log('✅ 汇率系统初始化完成');
