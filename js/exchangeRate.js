@@ -318,16 +318,31 @@ export class ExchangeRateManager {
     // 首先尝试初始化所有汇率
     await this.initializeAllExchangeRates();
     
-    // 为所有表单类型初始化汇率显示
-    const currencies = ['USD', 'EUR', 'GBP'];
+    // 默认显示美元汇率
+    const defaultCurrency = 'USD';
     const formTypes = ['new', 'used', 'newEnergy'];
     
-    for (const currency of currencies) {
+    // 优先设置美元为默认显示
+    for (const formType of formTypes) {
+      try {
+        await this.fetchExchangeRate(defaultCurrency, formType);
+        console.log(`✅ 默认汇率设置完成: ${defaultCurrency} (${formType})`);
+      } catch (error) {
+        console.warn(`默认汇率设置失败 ${defaultCurrency} ${formType}:`, error);
+        // 使用降级汇率
+        const fallbackRate = this.getFallbackRate(defaultCurrency);
+        this.updateUI(defaultCurrency, fallbackRate, formType, true);
+      }
+    }
+    
+    // 后台加载其他货币汇率（不立即显示）
+    const otherCurrencies = ['EUR', 'GBP'];
+    for (const currency of otherCurrencies) {
       for (const formType of formTypes) {
         try {
           await this.fetchExchangeRate(currency, formType);
         } catch (error) {
-          console.warn(`初始化汇率失败 ${currency} ${formType}:`, error);
+          console.warn(`后台汇率加载失败 ${currency} ${formType}:`, error);
         }
       }
     }
