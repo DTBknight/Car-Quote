@@ -141,6 +141,28 @@ export class CarSearch {
         this.addToIndex(brandLower, carIndex);
       }
       
+      // 索引品牌名+车型名的组合
+      if (car.brand && car.carName) {
+        const brandCarCombination = `${car.brand.toLowerCase()} ${car.carName.toLowerCase()}`;
+        this.addToIndex(brandCarCombination, carIndex);
+        
+        // 索引品牌名+车型名的每个词组合
+        const brandWords = car.brand.toLowerCase().split(/\s+/);
+        const carWords = car.carName.toLowerCase().split(/\s+/);
+        
+        // 生成品牌词和车型词的组合
+        brandWords.forEach(brandWord => {
+          if (brandWord.length > 1) {
+            carWords.forEach(carWord => {
+              if (carWord.length > 1) {
+                const combination = `${brandWord} ${carWord}`;
+                this.addToIndex(combination, carIndex);
+              }
+            });
+          }
+        });
+      }
+      
       // 索引配置名
       if (car.configs && Array.isArray(car.configs)) {
         car.configs.forEach((config, configIndex) => {
@@ -260,8 +282,15 @@ export class CarSearch {
     // 计算每个车型的匹配分数
     const carScores = new Map();
     
+    // 完全匹配查询字符串
+    if (this.searchIndex.has(queryLower)) {
+      this.searchIndex.get(queryLower).forEach(carIndex => {
+        carScores.set(carIndex, (carScores.get(carIndex) || 0) + 20);
+      });
+    }
+    
     queryWords.forEach(word => {
-      // 完全匹配
+      // 完全匹配单个词
       if (this.searchIndex.has(word)) {
         this.searchIndex.get(word).forEach(carIndex => {
           carScores.set(carIndex, (carScores.get(carIndex) || 0) + 10);
@@ -276,6 +305,15 @@ export class CarSearch {
           });
         }
       }
+      
+      // 包含匹配
+      for (const [term, carIndices] of this.searchIndex) {
+        if (term.includes(word)) {
+          carIndices.forEach(carIndex => {
+            carScores.set(carIndex, (carScores.get(carIndex) || 0) + 3);
+          });
+        }
+      }
     });
     
     // 构建结果
@@ -285,19 +323,43 @@ export class CarSearch {
       if (car && score > 0) {
         if (car.configs && car.configs.length > 0) {
           car.configs.forEach(config => {
+            let configScore = score;
+            
+            // 配置名匹配加分
+            if (config.configName) {
+              const configNameLower = config.configName.toLowerCase();
+              if (configNameLower.includes(queryLower)) {
+                configScore += 8;
+              } else if (queryWords.some(word => configNameLower.includes(word))) {
+                configScore += 4;
+              }
+            }
+            
             results.push({ 
               car, 
               config, 
               displayText: config.configName,
-              score: score + (config.configName.toLowerCase().includes(queryLower) ? 5 : 0)
+              score: configScore
             });
           });
         } else {
+          let carScore = score;
+          
+          // 车型名匹配加分
+          if (car.carName) {
+            const carNameLower = car.carName.toLowerCase();
+            if (carNameLower.includes(queryLower)) {
+              carScore += 8;
+            } else if (queryWords.some(word => carNameLower.includes(word))) {
+              carScore += 4;
+            }
+          }
+          
           results.push({ 
             car, 
             config: null, 
             displayText: car.carName,
-            score: score + (car.carName.toLowerCase().includes(queryLower) ? 5 : 0)
+            score: carScore
           });
         }
       }
