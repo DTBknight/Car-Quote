@@ -28,27 +28,9 @@ const CONFIG = {
     },
     // 汇率API配置
     EXCHANGE_RATE: {
-      // 主API - Open Exchange Rates (有免费额度限制)
-      PRIMARY: {
-        BASE_URL: 'https://openexchangerates.org/api/latest.json',
-        APP_ID: '9625bee048bd4599842279906b9ca677'
-      },
-      // 备用API - Exchange Rate API (需要API密钥)
-      BACKUP_1: {
-        BASE_URL: 'https://v6.exchangerate-api.com/v6',
-        API_KEY: 'cbfa76d3ad3174d4e6209429',
-        NAME: 'Exchange Rate API'
-      },
-      // 备用API - 汇率数据 (免费，无需密钥)
-      BACKUP_2: {
-        BASE_URL: 'https://api.ratesapi.io/api/latest?base=CNY',
-        NAME: 'Rates API'
-      },
-      // 备用API - 货币转换API (免费，无需密钥)
-      BACKUP_3: {
-        BASE_URL: 'https://api.frankfurter.app/latest?from=CNY',
-        NAME: 'Frankfurter API'
-      }
+      BASE_URL: 'https://openexchangerates.org/api/latest.json',
+      MAIN_APP_ID: '9625bee048bd4599842279906b9ca677', // Open Exchange Rates API密钥
+      BACKUP_APP_ID: '145b3ca7abb2474f9e1f30b2ed19b77f' // 备用API密钥
     }
   },
   

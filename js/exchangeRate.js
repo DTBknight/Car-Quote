@@ -5,7 +5,7 @@ import { Utils } from './utils.js';
 export class ExchangeRateManager {
   constructor() {
     this.cache = new Map();
-    this.cacheTimeout = 24 * 60 * 60 * 1000; // 24小时缓存（一天）
+    this.cacheTimeout = 5 * 60 * 1000; // 5分钟缓存
     this.retryAttempts = 3; // 重试次数
     this.retryDelay = 1000; // 重试延迟（毫秒）
     this.fallbackRates = {
@@ -13,101 +13,28 @@ export class ExchangeRateManager {
       EUR: 7.8,
       GBP: 9.1
     };
-    this.storageKey = 'exchangeRatesCache';
-    this.lastUpdateKey = 'exchangeRatesLastUpdate';
-    
-    // 初始化时加载缓存
-    this.loadCacheFromStorage();
-  }
-  
-  // 从本地存储加载缓存
-  loadCacheFromStorage() {
-    try {
-      const cachedData = localStorage.getItem(this.storageKey);
-      const lastUpdate = localStorage.getItem(this.lastUpdateKey);
-      
-      if (cachedData && lastUpdate) {
-        const data = JSON.parse(cachedData);
-        const lastUpdateTime = parseInt(lastUpdate);
-        const now = Date.now();
-        
-        // 检查缓存是否在24小时内
-        if (now - lastUpdateTime < this.cacheTimeout) {
-          console.log('📦 从本地存储加载汇率缓存');
-          this.cache = new Map(Object.entries(data));
-          return true;
-        } else {
-          console.log('⏰ 汇率缓存已过期，需要重新获取');
-        }
-      }
-    } catch (error) {
-      console.warn('⚠️ 加载汇率缓存失败:', error);
-    }
-    return false;
-  }
-  
-  // 保存缓存到本地存储
-  saveCacheToStorage() {
-    try {
-      const cacheData = Object.fromEntries(this.cache);
-      localStorage.setItem(this.storageKey, JSON.stringify(cacheData));
-      localStorage.setItem(this.lastUpdateKey, Date.now().toString());
-      console.log('💾 汇率缓存已保存到本地存储');
-    } catch (error) {
-      console.warn('⚠️ 保存汇率缓存失败:', error);
-    }
   }
   
   // 获取汇率（通用方法）
-  async fetchExchangeRate(currency, formType = 'new', updateUI = true) {
+  async fetchExchangeRate(currency, formType = 'new') {
     const cacheKey = `${currency}_${formType}`;
     const cached = this.cache.get(cacheKey);
     
     if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
-      console.log(`📦 使用缓存的汇率: ${currency}`);
-      if (updateUI) {
-        this.updateUI(currency, cached.rate, formType);
-      }
+      this.updateUI(currency, cached.rate, formType);
       return cached.rate;
     }
     
-    // 检查是否有全局汇率数据
-    const globalKey = `global_${currency}`;
-    const globalCached = this.cache.get(globalKey);
-    
-    if (globalCached && (Date.now() - globalCached.timestamp) < this.cacheTimeout) {
-      console.log(`📦 使用全局缓存的汇率: ${currency}`);
-      this.cache.set(cacheKey, globalCached);
-      if (updateUI) {
-        this.updateUI(currency, globalCached.rate, formType);
-      }
-      return globalCached.rate;
-    }
-    
-    // 需要获取新的汇率数据
     try {
-      console.log(`🔄 获取新的汇率数据: ${currency}`);
       const rate = await this.fetchFromAPIWithRetry(currency);
-      
-      // 同时保存到全局缓存和特定缓存
-      const cacheData = { rate, timestamp: Date.now() };
-      this.cache.set(globalKey, cacheData);
-      this.cache.set(cacheKey, cacheData);
-      
-      // 保存到本地存储
-      this.saveCacheToStorage();
-      
-      if (updateUI) {
-        this.updateUI(currency, rate, formType);
-      }
+      this.cache.set(cacheKey, { rate, timestamp: Date.now() });
+      this.updateUI(currency, rate, formType);
       return rate;
     } catch (error) {
       console.error('获取汇率失败:', error);
       // 使用降级汇率
       const fallbackRate = this.getFallbackRate(currency);
-      if (updateUI) {
-        this.updateUI(currency, fallbackRate, formType, true);
-      }
+      this.updateUI(currency, fallbackRate, formType, true);
       return fallbackRate;
     }
   }
@@ -139,82 +66,35 @@ export class ExchangeRateManager {
   
   // 从API获取汇率
   async fetchFromAPI(currency) {
-    const { PRIMARY, BACKUP_1, BACKUP_2, BACKUP_3 } = CONFIG.API.EXCHANGE_RATE;
+    const { BASE_URL, MAIN_APP_ID, BACKUP_APP_ID } = CONFIG.API.EXCHANGE_RATE;
     
-    // 尝试主API
     try {
-      console.log('🔄 尝试主API: Open Exchange Rates');
-      const response = await fetch(`${PRIMARY.BASE_URL}?app_id=${PRIMARY.APP_ID}`);
-      
-      if (response.ok) {
-        const data = await response.json();
-        if (data && data.rates) {
-          return this.calculateRate(data.rates, currency);
-        }
-      }
-      
+      const response = await fetch(`${BASE_URL}?app_id=${MAIN_APP_ID}`);
       if (response.status === 403) {
-        console.warn('⚠️ 主API超额，切换到备用API');
+        throw new Error('403');
       }
+      const data = await response.json();
+      
+      if (!data || !data.rates) {
+        throw new Error('no rates');
+      }
+      
+      return this.calculateRate(data.rates, currency);
     } catch (error) {
-      console.warn('⚠️ 主API失败:', error.message);
-    }
-    
-    // 尝试备用API列表
-    const backupAPIs = [
-      { name: 'Exchange Rate API', url: `${BACKUP_1.BASE_URL}/${BACKUP_1.API_KEY}/latest/CNY`, handler: this.parseExchangeRateAPI },
-      { name: 'Rates API', url: BACKUP_2.BASE_URL, handler: this.parseRatesAPI },
-      { name: 'Frankfurter API', url: BACKUP_3.BASE_URL, handler: this.parseFrankfurterAPI }
-    ];
-    
-    for (const api of backupAPIs) {
-      try {
-        console.log(`🔄 尝试备用API: ${api.name}`);
-        const response = await fetch(api.url);
-        
-        if (response.ok) {
-          const data = await response.json();
-          const rate = await api.handler.call(this, data, currency);
-          if (rate) {
-            console.log(`✅ 成功从 ${api.name} 获取汇率`);
-            return rate;
-          }
-        }
-      } catch (error) {
-        console.warn(`⚠️ ${api.name} 失败:`, error.message);
+      // 尝试备用API
+      console.warn('主API失败，尝试备用API:', error.message);
+      const response = await fetch(`${BASE_URL}?app_id=${BACKUP_APP_ID}`);
+      if (response.status === 403) {
+        throw new Error('403');
       }
+      const data = await response.json();
+      
+      if (!data || !data.rates) {
+        throw new Error('no rates');
+      }
+      
+      return this.calculateRate(data.rates, currency);
     }
-    
-    throw new Error('所有API都失败了');
-  }
-  
-  // 解析 Exchange Rate API 响应
-  async parseExchangeRateAPI(data, currency) {
-    // 处理 v6 版本的响应格式
-    if (data && data.conversion_rates && data.conversion_rates[currency]) {
-      return data.conversion_rates[currency];
-    }
-    // 兼容旧版本的响应格式
-    if (data && data.rates && data.rates[currency]) {
-      return data.rates[currency];
-    }
-    return null;
-  }
-  
-  // 解析 Rates API 响应
-  async parseRatesAPI(data, currency) {
-    if (data && data.rates && data.rates[currency]) {
-      return data.rates[currency];
-    }
-    return null;
-  }
-  
-  // 解析 Frankfurter API 响应
-  async parseFrankfurterAPI(data, currency) {
-    if (data && data.rates && data.rates[currency]) {
-      return data.rates[currency];
-    }
-    return null;
   }
   
   // 计算汇率
@@ -319,149 +199,41 @@ export class ExchangeRateManager {
     });
   }
   
-  // 初始化汇率系统
+  // 初始化汇率
   async initializeExchangeRates() {
-    console.log('🚀 初始化汇率系统...');
-    
-    // 默认显示美元汇率
-    const defaultCurrency = 'USD';
-    const formTypes = ['new', 'used', 'newEnergy'];
-    
-    // 优先设置美元为默认显示
-    for (const formType of formTypes) {
-      try {
-        // 先尝试从缓存获取美元汇率
-        const cacheKey = `${defaultCurrency}_${formType}`;
-        const cached = this.cache.get(cacheKey);
-        
-        if (cached && (Date.now() - cached.timestamp) < this.cacheTimeout) {
-          console.log(`📦 使用缓存的美元汇率: ${cached.rate}`);
-          this.updateUI(defaultCurrency, cached.rate, formType);
-        } else {
-          // 使用降级汇率确保立即显示
-          const fallbackRate = this.getFallbackRate(defaultCurrency);
-          this.updateUI(defaultCurrency, fallbackRate, formType, true);
-          console.log(`✅ 默认汇率设置完成: ${defaultCurrency} (${formType}) - 使用降级汇率`);
-        }
-      } catch (error) {
-        console.warn(`默认汇率设置失败 ${defaultCurrency} ${formType}:`, error);
-        // 使用降级汇率
-        const fallbackRate = this.getFallbackRate(defaultCurrency);
-        this.updateUI(defaultCurrency, fallbackRate, formType, true);
-      }
-    }
-    
-    // 后台初始化所有汇率数据
+    const currency = CONFIG.DEFAULTS.CURRENCY;
     try {
-      await this.initializeAllExchangeRates();
-      
-      // 后台加载其他货币汇率（不更新UI）
-      const otherCurrencies = ['EUR', 'GBP'];
-      for (const currency of otherCurrencies) {
-        for (const formType of formTypes) {
-          try {
-            await this.fetchExchangeRate(currency, formType, false); // 不更新UI
-          } catch (error) {
-            console.warn(`后台汇率加载失败 ${currency} ${formType}:`, error);
-          }
-        }
-      }
+      await Promise.allSettled([
+        this.fetchExchangeRate(currency, 'new'),
+        this.fetchExchangeRate(currency, 'used'),
+        this.fetchExchangeRate(currency, 'newEnergy')
+      ]);
     } catch (error) {
-      console.warn('后台汇率初始化失败，但不影响默认显示:', error);
+      console.error('初始化汇率失败:', error);
     }
-    
-    console.log('✅ 汇率系统初始化完成');
   }
   
-  // 初始化所有汇率（一天只执行一次）
-  async initializeAllExchangeRates() {
-    console.log('🚀 初始化汇率系统...');
-    
-    // 检查是否需要更新
-    const lastUpdate = localStorage.getItem(this.lastUpdateKey);
-    if (lastUpdate) {
-      const lastUpdateTime = parseInt(lastUpdate);
-      const now = Date.now();
-      
-      if (now - lastUpdateTime < this.cacheTimeout) {
-        console.log('📦 汇率数据仍然有效，无需重新获取');
-        return;
-      }
-    }
-    
-    console.log('🔄 开始获取所有汇率数据...');
-    
-    // 获取所有支持的货币汇率
-    const currencies = ['USD', 'EUR', 'GBP'];
-    const ratePromises = currencies.map(async (currency) => {
-      try {
-        const rate = await this.fetchFromAPIWithRetry(currency);
-        const globalKey = `global_${currency}`;
-        this.cache.set(globalKey, { rate, timestamp: Date.now() });
-        console.log(`✅ ${currency} 汇率获取成功: ${rate}`);
-        return { currency, rate, success: true };
-      } catch (error) {
-        console.error(`❌ ${currency} 汇率获取失败:`, error);
-        return { currency, success: false, error };
-      }
-    });
-    
-    // 等待所有汇率获取完成
-    const results = await Promise.allSettled(ratePromises);
-    
-    // 统计结果
-    const successCount = results.filter(r => r.status === 'fulfilled' && r.value.success).length;
-    const totalCount = currencies.length;
-    
-    console.log(`📊 汇率获取完成: ${successCount}/${totalCount} 成功`);
-    
-    // 保存到本地存储
-    this.saveCacheToStorage();
-    
-    return results;
+  // 清除缓存
+  clearCache() {
+    this.cache.clear();
   }
   
-  // 获取缓存状态信息
+  // 获取缓存状态
   getCacheStatus() {
-    const lastUpdate = localStorage.getItem(this.lastUpdateKey);
-    const cachedData = localStorage.getItem(this.storageKey);
-    
-    if (!lastUpdate || !cachedData) {
-      return {
-        hasCache: false,
-        lastUpdate: null,
-        cacheAge: null,
-        isValid: false
-      };
-    }
-    
-    const lastUpdateTime = parseInt(lastUpdate);
-    const now = Date.now();
-    const cacheAge = now - lastUpdateTime;
-    const isValid = cacheAge < this.cacheTimeout;
-    
     return {
-      hasCache: true,
-      lastUpdate: new Date(lastUpdateTime),
-      cacheAge: cacheAge,
-      isValid: isValid,
-      cacheSize: cachedData.length
+      size: this.cache.size,
+      entries: Array.from(this.cache.entries()).map(([key, value]) => ({
+        key,
+        timestamp: value.timestamp,
+        age: Date.now() - value.timestamp
+      }))
     };
   }
   
-  // 清除所有缓存
-  clearAllCache() {
-    this.cache.clear();
-    localStorage.removeItem(this.storageKey);
-    localStorage.removeItem(this.lastUpdateKey);
-    console.log('🗑️ 所有汇率缓存已清除');
-  }
-  
-  // 强制刷新汇率
-  async forceRefreshRates() {
-    console.log('🔄 强制刷新汇率数据...');
-    this.clearAllCache();
-    return await this.initializeAllExchangeRates();
+  // 手动刷新汇率
+  async refreshExchangeRates() {
+    this.clearCache();
+    await this.initializeExchangeRates();
   }
   
   // 设置降级汇率
@@ -472,67 +244,5 @@ export class ExchangeRateManager {
   // 清理资源
   cleanup() {
     this.clearCache();
-  }
-
-
-  
-  // 获取汇率统计信息
-  getExchangeRateStats() {
-    const status = this.getCacheStatus();
-    const cacheEntries = Array.from(this.cache.entries());
-    
-    return {
-      cacheStatus: status,
-      cacheEntries: cacheEntries.length,
-      supportedCurrencies: ['USD', 'EUR', 'GBP'],
-      lastUpdate: status.lastUpdate,
-      isValid: status.isValid,
-      cacheAge: status.cacheAge
-    };
-  }
-  
-  // 强制刷新汇率（清除缓存并重新获取）
-  async forceRefreshAllRates() {
-    console.log('🔄 强制刷新所有汇率...');
-    
-    // 清除所有缓存
-    this.cache.clear();
-    localStorage.removeItem(this.storageKey);
-    localStorage.removeItem(this.lastUpdateKey);
-    
-    console.log('🗑️ 已清除所有汇率缓存');
-    
-    // 重新初始化汇率
-    await this.initializeExchangeRates();
-    
-    console.log('✅ 汇率强制刷新完成');
-  }
-  
-  // 检查汇率状态
-  checkExchangeRateStatus() {
-    console.log('🔍 检查汇率状态...');
-    
-    const cacheStatus = this.getCacheStatus();
-    console.log('📊 缓存状态:', cacheStatus);
-    
-    const stats = this.getExchangeRateStats();
-    console.log('📈 汇率统计:', stats);
-    
-    // 检查当前显示的汇率
-    const exchangeRateInput = document.getElementById('exchangeRate');
-    const exchangeRateLabel = document.getElementById('exchangeRateLabel');
-    const currencyFlag = document.getElementById('currencyFlag');
-    
-    if (exchangeRateInput) {
-      console.log('💱 当前汇率输入框值:', exchangeRateInput.value);
-    }
-    if (exchangeRateLabel) {
-      console.log('🏷️ 当前汇率标签:', exchangeRateLabel.textContent);
-    }
-    if (currencyFlag) {
-      console.log('🚩 当前货币图标:', currencyFlag.textContent);
-    }
-    
-    return { cacheStatus, stats };
   }
 } 
