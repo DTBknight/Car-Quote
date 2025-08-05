@@ -154,7 +154,7 @@ export class ExchangeRateManager {
     
     // 尝试备用API列表
     const backupAPIs = [
-      { name: 'Exchange Rate API', url: BACKUP_1.BASE_URL, handler: this.parseExchangeRateAPI },
+      { name: 'Exchange Rate API', url: `${BACKUP_1.BASE_URL}/${BACKUP_1.API_KEY}/latest/CNY`, handler: this.parseExchangeRateAPI },
       { name: 'Rates API', url: BACKUP_2.BASE_URL, handler: this.parseRatesAPI },
       { name: 'Frankfurter API', url: BACKUP_3.BASE_URL, handler: this.parseFrankfurterAPI }
     ];
@@ -182,6 +182,11 @@ export class ExchangeRateManager {
   
   // 解析 Exchange Rate API 响应
   async parseExchangeRateAPI(data, currency) {
+    // 处理 v6 版本的响应格式
+    if (data && data.conversion_rates && data.conversion_rates[currency]) {
+      return data.conversion_rates[currency];
+    }
+    // 兼容旧版本的响应格式
     if (data && data.rates && data.rates[currency]) {
       return data.rates[currency];
     }
