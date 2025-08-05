@@ -333,9 +333,6 @@ export class ExchangeRateManager {
     }
     
     console.log('✅ 汇率系统初始化完成');
-    
-    // 显示汇率状态信息
-    this.showExchangeRateStatus();
   }
   
   // 初始化所有汇率（一天只执行一次）
@@ -439,51 +436,7 @@ export class ExchangeRateManager {
     this.clearCache();
   }
 
-  // 显示汇率状态信息
-  showExchangeRateStatus() {
-    const status = this.getCacheStatus();
-    
-    if (!status.hasCache) {
-      console.log('📊 汇率状态: 无缓存数据');
-      return;
-    }
-    
-    const hours = Math.floor(status.cacheAge / (1000 * 60 * 60));
-    const minutes = Math.floor((status.cacheAge % (1000 * 60 * 60)) / (1000 * 60));
-    
-    console.log(`📊 汇率状态:`);
-    console.log(`   - 最后更新: ${status.lastUpdate.toLocaleString()}`);
-    console.log(`   - 缓存年龄: ${hours}小时${minutes}分钟`);
-    console.log(`   - 缓存有效: ${status.isValid ? '✅ 是' : '❌ 否'}`);
-    console.log(`   - 缓存大小: ${status.cacheSize} 字节`);
-    
-    // 在页面上显示状态（可选）
-    this.updateStatusDisplay(status);
-  }
-  
-  // 更新状态显示
-  updateStatusDisplay(status) {
-    try {
-      const statusElement = document.getElementById('exchangeRateStatus');
-      if (statusElement) {
-        if (status.hasCache) {
-          const hours = Math.floor(status.cacheAge / (1000 * 60 * 60));
-          const minutes = Math.floor((status.cacheAge % (1000 * 60 * 60)) / (1000 * 60));
-          const statusText = status.isValid ? 
-            `✅ 汇率数据有效 (${hours}小时${minutes}分钟前更新)` : 
-            `⚠️ 汇率数据已过期 (${hours}小时${minutes}分钟前更新)`;
-          
-          statusElement.textContent = statusText;
-          statusElement.className = status.isValid ? 'status-valid' : 'status-expired';
-        } else {
-          statusElement.textContent = '🔄 正在获取汇率数据...';
-          statusElement.className = 'status-loading';
-        }
-      }
-    } catch (error) {
-      console.warn('更新汇率状态显示失败:', error);
-    }
-  }
+
   
   // 获取汇率统计信息
   getExchangeRateStats() {
