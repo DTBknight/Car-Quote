@@ -105,10 +105,6 @@ export class CarSearch {
       
       console.log(`✅ 成功加载并缓存 ${this.allCars.length} 个车型数据`);
       
-      // 测试搜索索引
-      this.buildSearchIndex();
-      console.log(`🔍 搜索索引构建完成，包含 ${this.searchIndex.size} 个索引项`);
-      
     } catch (e) {
       console.error('❌ 加载所有车型失败:', e);
       console.error('错误详情:', e.stack);
@@ -121,6 +117,11 @@ export class CarSearch {
   buildSearchIndex() {
     this.searchIndex.clear();
     console.log('🔧 开始构建搜索索引...');
+    
+    if (!this.allCars || this.allCars.length === 0) {
+      console.warn('⚠️ 没有车型数据，无法构建搜索索引');
+      return;
+    }
     
     this.allCars.forEach((car, carIndex) => {
       // 索引车型名
@@ -886,5 +887,39 @@ export class CarSearch {
     this.searchCache.clear();
     this.searchIndex.clear();
     Utils.clearElementCache();
+  }
+  
+  // 强制刷新搜索功能
+  async forceRefreshSearch() {
+    console.log('🔄 强制刷新搜索功能...');
+    
+    // 清除缓存
+    this.searchIndex.clear();
+    this.allCarsLoaded = false;
+    
+    // 重新加载数据
+    await this.loadAllCars();
+    this.buildSearchIndex();
+    
+    console.log('✅ 搜索功能刷新完成');
+  }
+  
+  // 测试搜索功能
+  testSearch(query) {
+    console.log(`🧪 测试搜索: "${query}"`);
+    console.log(`📊 车型数据: ${this.allCars.length} 个`);
+    console.log(`📋 搜索索引: ${this.searchIndex.size} 个`);
+    
+    if (this.searchIndex.has(query.toLowerCase())) {
+      const carIndices = this.searchIndex.get(query.toLowerCase());
+      console.log(`✅ 找到索引 "${query}": ${carIndices.size} 个车型`);
+      
+      carIndices.forEach(carIndex => {
+        const car = this.allCars[carIndex];
+        console.log(`  - ${car.brand} ${car.carName}`);
+      });
+    } else {
+      console.log(`❌ 未找到索引 "${query}"`);
+    }
   }
 } 

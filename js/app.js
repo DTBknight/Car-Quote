@@ -115,8 +115,37 @@ export class CarQuoteApp {
       }
     });
     
+    // 立即设置默认汇率显示（不等待API）
+    this.setDefaultExchangeRateDisplay();
+    
     // 设置默认表单类型为新车
     this.setDefaultFormType();
+  }
+  
+  // 设置默认汇率显示
+  setDefaultExchangeRateDisplay() {
+    const defaultCurrency = 'USD';
+    const defaultRate = 7.20;
+    const formTypes = ['new', 'used', 'newEnergy'];
+    
+    formTypes.forEach(formType => {
+      // 设置汇率标签
+      const labelId = formType === 'new' ? 'exchangeRateLabel' : 
+                     formType === 'used' ? 'exchangeRateLabelUsed' : 'exchangeRateLabelNewEnergy';
+      Utils.setElementText(labelId, `汇率 实时基准：${defaultRate.toFixed(2)}`);
+      
+      // 设置汇率输入框
+      const inputId = formType === 'new' ? 'exchangeRate' : 
+                     formType === 'used' ? 'exchangeRateUsed' : 'exchangeRateNewEnergy';
+      Utils.setElementValue(inputId, defaultRate.toFixed(2));
+      
+      // 设置货币图标
+      const flagId = formType === 'new' ? 'currencyFlag' : 
+                    formType === 'used' ? 'currencyFlagUsed' : 'currencyFlagNewEnergy';
+      Utils.setElementText(flagId, '🇺🇸');
+    });
+    
+    console.log('✅ 默认汇率显示设置完成');
   }
   
   // 设置默认表单类型
