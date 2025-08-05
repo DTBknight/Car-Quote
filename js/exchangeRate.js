@@ -490,4 +490,49 @@ export class ExchangeRateManager {
       cacheAge: status.cacheAge
     };
   }
+  
+  // 强制刷新汇率（清除缓存并重新获取）
+  async forceRefreshAllRates() {
+    console.log('🔄 强制刷新所有汇率...');
+    
+    // 清除所有缓存
+    this.cache.clear();
+    localStorage.removeItem(this.storageKey);
+    localStorage.removeItem(this.lastUpdateKey);
+    
+    console.log('🗑️ 已清除所有汇率缓存');
+    
+    // 重新初始化汇率
+    await this.initializeExchangeRates();
+    
+    console.log('✅ 汇率强制刷新完成');
+  }
+  
+  // 检查汇率状态
+  checkExchangeRateStatus() {
+    console.log('🔍 检查汇率状态...');
+    
+    const cacheStatus = this.getCacheStatus();
+    console.log('📊 缓存状态:', cacheStatus);
+    
+    const stats = this.getExchangeRateStats();
+    console.log('📈 汇率统计:', stats);
+    
+    // 检查当前显示的汇率
+    const exchangeRateInput = document.getElementById('exchangeRate');
+    const exchangeRateLabel = document.getElementById('exchangeRateLabel');
+    const currencyFlag = document.getElementById('currencyFlag');
+    
+    if (exchangeRateInput) {
+      console.log('💱 当前汇率输入框值:', exchangeRateInput.value);
+    }
+    if (exchangeRateLabel) {
+      console.log('🏷️ 当前汇率标签:', exchangeRateLabel.textContent);
+    }
+    if (currencyFlag) {
+      console.log('🚩 当前货币图标:', currencyFlag.textContent);
+    }
+    
+    return { cacheStatus, stats };
+  }
 } 
