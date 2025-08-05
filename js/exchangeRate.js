@@ -66,35 +66,86 @@ export class ExchangeRateManager {
   
   // 从API获取汇率
   async fetchFromAPI(currency) {
-    const { BASE_URL, MAIN_APP_ID, BACKUP_APP_ID } = CONFIG.API.EXCHANGE_RATE;
+    const { PRIMARY, BACKUP_1, BACKUP_2, BACKUP_3, BACKUP_4 } = CONFIG.API.EXCHANGE_RATE;
     
+    // 尝试主API
     try {
-      const response = await fetch(`${BASE_URL}?app_id=${MAIN_APP_ID}`);
+      console.log('🔄 尝试主API: Open Exchange Rates');
+      const response = await fetch(`${PRIMARY.BASE_URL}?app_id=${PRIMARY.APP_ID}`);
+      
+      if (response.ok) {
+        const data = await response.json();
+        if (data && data.rates) {
+          return this.calculateRate(data.rates, currency);
+        }
+      }
+      
       if (response.status === 403) {
-        throw new Error('403');
+        console.warn('⚠️ 主API超额，切换到备用API');
       }
-      const data = await response.json();
-      
-      if (!data || !data.rates) {
-        throw new Error('no rates');
-      }
-      
-      return this.calculateRate(data.rates, currency);
     } catch (error) {
-      // 尝试备用API
-      console.warn('主API失败，尝试备用API:', error.message);
-      const response = await fetch(`${BASE_URL}?app_id=${BACKUP_APP_ID}`);
-      if (response.status === 403) {
-        throw new Error('403');
-      }
-      const data = await response.json();
-      
-      if (!data || !data.rates) {
-        throw new Error('no rates');
-      }
-      
-      return this.calculateRate(data.rates, currency);
+      console.warn('⚠️ 主API失败:', error.message);
     }
+    
+    // 尝试备用API列表
+    const backupAPIs = [
+      { name: 'Exchange Rate API', url: BACKUP_1.BASE_URL, handler: this.parseExchangeRateAPI },
+      { name: 'Exchange Rates API', url: BACKUP_2.BASE_URL, handler: this.parseExchangeRatesAPI },
+      { name: 'Rates API', url: BACKUP_3.BASE_URL, handler: this.parseRatesAPI },
+      { name: 'Frankfurter API', url: BACKUP_4.BASE_URL, handler: this.parseFrankfurterAPI }
+    ];
+    
+    for (const api of backupAPIs) {
+      try {
+        console.log(`🔄 尝试备用API: ${api.name}`);
+        const response = await fetch(api.url);
+        
+        if (response.ok) {
+          const data = await response.json();
+          const rate = await api.handler.call(this, data, currency);
+          if (rate) {
+            console.log(`✅ 成功从 ${api.name} 获取汇率`);
+            return rate;
+          }
+        }
+      } catch (error) {
+        console.warn(`⚠️ ${api.name} 失败:`, error.message);
+      }
+    }
+    
+    throw new Error('所有API都失败了');
+  }
+  
+  // 解析 Exchange Rate API 响应
+  async parseExchangeRateAPI(data, currency) {
+    if (data && data.rates && data.rates[currency]) {
+      return data.rates[currency];
+    }
+    return null;
+  }
+  
+  // 解析 Exchange Rates API 响应
+  async parseExchangeRatesAPI(data, currency) {
+    if (data && data.rates && data.rates[currency]) {
+      return data.rates[currency];
+    }
+    return null;
+  }
+  
+  // 解析 Rates API 响应
+  async parseRatesAPI(data, currency) {
+    if (data && data.rates && data.rates[currency]) {
+      return data.rates[currency];
+    }
+    return null;
+  }
+  
+  // 解析 Frankfurter API 响应
+  async parseFrankfurterAPI(data, currency) {
+    if (data && data.rates && data.rates[currency]) {
+      return data.rates[currency];
+    }
+    return null;
   }
   
   // 计算汇率
