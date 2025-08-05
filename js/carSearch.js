@@ -46,12 +46,11 @@ export class CarSearch {
         throw new Error('brands.json 为空或格式错误');
       }
       
-      // 只加载前5个品牌进行测试
-      const testBrands = brands.slice(0, 5);
-      console.log(`🧪 测试加载前 ${testBrands.length} 个品牌`);
+      // 加载所有品牌
+      console.log(`📥 开始加载 ${brands.length} 个品牌的数据`);
       
       // 并行加载品牌数据
-      const carPromises = testBrands.map(async (brand) => {
+      const carPromises = brands.map(async (brand) => {
         const cacheKey = `brand:${brand.name}`;
         let brandData = cacheManager.get(cacheKey, 'memory');
         
