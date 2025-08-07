@@ -50,11 +50,12 @@ jobs:
     - name: Execute Data Sync
       run: |
         cd data-processor
-        node index-sync.js
+        timeout 5h node index-sync.js
       env:
         # Set environment variables
         NODE_ENV: production
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+      timeout-minutes: 300
         
     - name: Validate Data Integrity
       run: |

@@ -2,12 +2,12 @@
 const config = {
   // 爬虫配置
   crawler: {
-    concurrency: 8, // 并发数 - 从4增加到8
-    maxRetries: 2, // 最大重试次数 - 从3减少到2
-    timeout: 30000, // 超时时间 (ms) - 从60秒减少到30秒
+    concurrency: 4, // 并发数 - 减少到4以避免资源不足
+    maxRetries: 1, // 最大重试次数 - 减少到1以节省时间
+    timeout: 20000, // 超时时间 (ms) - 减少到20秒
     delays: {
-      min: 500, // 最小延迟 (ms) - 从1000减少到500
-      max: 1500  // 最大延迟 (ms) - 从3000减少到1500
+      min: 300, // 最小延迟 (ms) - 减少到300ms
+      max: 800  // 最大延迟 (ms) - 减少到800ms
     },
     headless: true, // 无头模式
     resourceBlocking: true, // 资源拦截

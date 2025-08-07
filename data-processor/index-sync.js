@@ -65,24 +65,40 @@ class DataSyncProcessor {
     progress.failed = [];
     
     try {
-      for (const brandId of brandsToProcess) {
+      for (let i = 0; i < brandsToProcess.length; i++) {
+        const brandId = brandsToProcess[i];
+        
         try {
-          await this.log(`\n🚗 处理品牌 ID: ${brandId}`);
+          await this.log(`\n🚗 处理品牌 ID: ${brandId} (${i + 1}/${brandsToProcess.length})`);
           
-          await processor.processBrand(brandId);
+          // 设置超时处理
+          const timeoutPromise = new Promise((_, reject) => {
+            setTimeout(() => reject(new Error('处理超时')), 300000); // 5分钟超时
+          });
+          
+          const processPromise = processor.processBrand(brandId);
+          
+          await Promise.race([processPromise, timeoutPromise]);
+          
           progress.completed.push(brandId);
           await this.log(`✅ 品牌 ${brandId} 完成`);
           
           // 保存进度
           await this.saveProgress(progress);
           
-          // 定期执行，可以适当减少延迟
-          await this.delay(1500);
+          // 减少延迟以节省时间
+          await this.delay(800);
           
         } catch (error) {
           await this.log(`❌ 品牌 ${brandId} 处理失败: ${error.message}`);
           progress.failed.push(brandId);
           await this.saveProgress(progress);
+          
+          // 如果连续失败太多，暂停一下
+          if (progress.failed.length > 5 && progress.failed.length % 5 === 0) {
+            await this.log(`⚠️ 连续失败较多，暂停30秒...`);
+            await this.delay(30000);
+          }
         }
       }
     } finally {
