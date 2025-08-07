@@ -97,6 +97,8 @@ jobs:
         else
           echo "Committing changes..."
           git commit -m "📊 Data sync update - $(date '+%Y-%m-%d')"
+          echo "Pulling latest changes..."
+          git pull origin main --rebase
           echo "Pushing to remote repository..."
           git push origin HEAD:main
         fi 
