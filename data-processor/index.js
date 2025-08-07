@@ -271,9 +271,20 @@ async function collectCarData(brand) {
   
   for (const brandId of brandIds) {
     console.log(colors.yellow(`📡 正在连接浏览器...`));
+    
+    // 根据环境自动检测Chrome路径
+    let executablePath = null;
+    if (process.platform === 'darwin') {
+      executablePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+    } else if (process.platform === 'linux') {
+      executablePath = '/usr/bin/google-chrome-stable';
+    } else if (process.platform === 'win32') {
+      executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+    }
+    
     const browser = await puppeteer.launch({ 
       headless: true, 
-      executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+      executablePath: executablePath,
       args: ['--no-sandbox'] 
     });
     const page = await browser.newPage();

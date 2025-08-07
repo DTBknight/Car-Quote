@@ -9,9 +9,23 @@ class BrowserManager {
   }
 
   async createBrowser() {
+    // 根据环境自动检测Chrome路径
+    let executablePath = null;
+    
+    if (process.platform === 'darwin') {
+      // macOS
+      executablePath = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+    } else if (process.platform === 'linux') {
+      // Linux (Ubuntu)
+      executablePath = '/usr/bin/google-chrome-stable';
+    } else if (process.platform === 'win32') {
+      // Windows
+      executablePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+    }
+    
     const browser = await puppeteer.launch({
       headless: config.crawler.headless,
-      executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+      executablePath: executablePath,
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
