@@ -16,12 +16,15 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
+      checks: write
     
     steps:
     - name: 检出代码
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
       
     - name: 设置Node.js
       uses: actions/setup-node@v4
@@ -80,8 +83,8 @@ jobs:
         
     - name: Commit Updates
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         echo "Checking file status..."
         git status --porcelain
         echo "Adding data files..."
@@ -95,5 +98,5 @@ jobs:
           echo "Committing changes..."
           git commit -m "📊 Data sync update - $(date '+%Y-%m-%d')"
           echo "Pushing to remote repository..."
-          git push
+          git push origin HEAD:main
         fi 
