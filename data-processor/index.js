@@ -11,7 +11,7 @@ const { getRandomUserAgent, getRandomViewport, getRandomDelay } = require('./ant
 // 品牌ID映射
 const brandIdsMap = {
   Volkswagen: 1, // 大众
-  Audi: 2,      // 奥迪
+  Audi: [2, 10362],      // 奥迪
   Benz: 3,      // 奔驰
   BMW: 4,       // 宝马
   Aion: 242,    // 埃安
@@ -134,6 +134,7 @@ const brandIdsMap = {
 const brandNameMap = {
   1: '大众',
   2: '奥迪',
+  10362: '奥迪', // 奥迪的第二个ID
   3: '奔驰',
   4: '宝马',
   242: '埃安',
