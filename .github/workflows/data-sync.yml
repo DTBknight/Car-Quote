@@ -82,7 +82,7 @@ jobs:
         echo "Adding data files..."
         git add data/*.json
         echo "Adding weekly logs and reports..."
-        git add data-processor/weekly-execution.log data-processor/weekly-report-*.json data-processor/weekly-progress.json
+        git add -f data-processor/weekly-execution.log data-processor/weekly-report-*.json data-processor/weekly-progress.json
         echo "Checking for changes..."
         if git diff --staged --quiet; then
           echo "No changes to commit"
