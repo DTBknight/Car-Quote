@@ -129,13 +129,11 @@ class DataSyncProcessor {
       'Denza', 'Aion', 'Arcfox', 'Dongfeng', 'FAW', 'Geely', 'GeelyGalaxy', 'LynkCo', 'Roewe',
       'Trumpchi', 'Jetour', 'JAC', 'JMC', 'Foton', 'Forthing', 'FormulaLeopard', 'Firefly',
       'Hama', 'Hengchi', 'GMC', 'Genesis', 'Hyundai', 'Infiniti', 'Nissan', 'Subaru', 'Mitsubishi',
-      'Suzuki', 'Daihatsu', 'Isuzu', 'Mazda', 'Subaru', 'Mitsubishi', 'Suzuki', 'Daihatsu', 'Isuzu',
-      'Volvo', 'Skoda', 'Seat', 'Citroen', 'DS', 'Renault', 'Fiat', 'Lancia', 'AlfaRomeo',
-      'Lancia', 'Opel', 'Vauxhall', 'Saab', 'Koenigsegg', 'Volvo', 'Polestar', 'Smart',
-      'Maybach', 'AMG', 'M', 'RS', 'S', 'GT', 'Turbo', 'GTS', 'GT3', 'GT4', 'Cup',
-      'Wuling', 'Baojun', 'Hongqi', 'Ora', 'Tank', 'Wey', 'Voyah', 'Yangwang', 'Xiaomi',
+      'Suzuki', 'Daihatsu', 'Isuzu', 'Volvo', 'Skoda', 'Seat', 'Citroen', 'DS', 'Renault', 'Fiat', 'Lancia',
+      'Opel', 'Vauxhall', 'Saab', 'Koenigsegg', 'Polestar', 'Smart',
+      'Wuling', 'Baojun', 'Ora', 'Tank', 'Wey', 'Voyah', 'Yangwang', 'Xiaomi',
       'iCAR', 'Luxeed', 'Stelato', 'Onvo', 'RisingAuto', 'Rox', 'Maextro', 'Landian',
-      'Kaicene', 'Kaiyi', 'Mhero', 'Nami', 'Geome', 'Livan', 'Hengchi', 'Hama',
+      'Kaicene', 'Kaiyi', 'Mhero', 'Nami', 'Geome', 'Livan',
       'Fengon', 'BJSUV', 'BAW', 'BAIC', 'Aeolus', 'Aito', 'eπ', 'Hycan', 'Hyper'
     ];
   }
