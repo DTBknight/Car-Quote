@@ -172,6 +172,8 @@ async function main() {
   try {
     const processor = new DataSyncProcessor();
     await processor.processData();
+    // 显式退出，避免残留异步句柄导致步骤卡住
+    process.exit(0);
   } catch (error) {
     console.error('❌ 数据同步执行失败:', error);
     process.exit(1);

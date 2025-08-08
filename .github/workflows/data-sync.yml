@@ -59,11 +59,13 @@ jobs:
         
     - name: Validate Data Integrity
       run: |
+        set -e
         cd data-processor
         node scripts/validate.js
         
     - name: Generate Summary
       run: |
+        set -e
         cd data-processor
         if [ -f "weekly-execution.log" ]; then
           echo "## 数据同步结果" >> $GITHUB_STEP_SUMMARY
@@ -84,22 +86,17 @@ jobs:
         
     - name: Commit Updates
       run: |
+        set -e
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        echo "Checking file status..."
-        git status --porcelain
         echo "Adding data files..."
-        git add data/*.json
+        git add data/*.json || true
         echo "Adding weekly logs and reports..."
-        git add -f data-processor/weekly-execution.log data-processor/weekly-report-*.json data-processor/weekly-progress.json
-        echo "Checking for changes..."
+        git add -f data-processor/weekly-execution.log data-processor/weekly-report-*.json data-processor/weekly-progress.json || true
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          echo "Committing changes..."
           git commit -m "📊 Data sync update - $(date '+%Y-%m-%d')"
-          echo "Pulling latest changes..."
-          git pull origin main --rebase
-          echo "Pushing to remote repository..."
+          git pull origin main --rebase --autostash
           git push origin HEAD:main
-        fi 
+        fi
