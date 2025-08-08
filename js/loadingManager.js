@@ -5,7 +5,6 @@ export class LoadingManager {
     this.mainContent = document.getElementById('mainContent');
     this.loadingText = document.getElementById('loadingText');
     this.loadingProgressBar = document.getElementById('loadingProgressBar');
-    this.techParticles = document.getElementById('techParticles');
     this.loadingSteps = [
       { text: 'Initializing system...', progress: 12, status: 0 },
       { text: 'Loading car data...', progress: 25, status: 0 },
@@ -23,7 +22,6 @@ export class LoadingManager {
   startLoading() {
     // 显示加载进度
     this.updateProgress(0, this.loadingSteps[0].text);
-    this.createTechParticles();
     this.updateStatusIndicators(0);
   }
 
@@ -89,7 +87,6 @@ export class LoadingManager {
           if (this.mainContent) {
             this.mainContent.classList.remove('loading-fade-in');
           }
-          this.cleanupTechParticles();
           resolve();
         }, 500);
       }, 800);
@@ -107,52 +104,7 @@ export class LoadingManager {
     }
   }
 
-  // 创建科技粒子效果
-  createTechParticles() {
-    if (!this.techParticles) return;
-    
-    // 清除现有粒子
-    this.techParticles.innerHTML = '';
-    this.particles = [];
-    
-    // 创建粒子
-    for (let i = 0; i < 30; i++) {
-      this.createTechParticle();
-    }
-  }
-
-  // 创建单个科技粒子
-  createTechParticle() {
-    const particle = document.createElement('div');
-    particle.className = 'tech-particle';
-    
-    // 随机位置和延迟
-    const startX = Math.random() * window.innerWidth;
-    const delay = Math.random() * 6;
-    
-    particle.style.left = `${startX}px`;
-    particle.style.animationDelay = `${delay}s`;
-    
-    this.techParticles.appendChild(particle);
-    this.particles.push(particle);
-    
-    // 粒子动画结束后重新创建
-    setTimeout(() => {
-      if (particle.parentNode) {
-        particle.remove();
-        this.particles = this.particles.filter(p => p !== particle);
-        this.createTechParticle();
-      }
-    }, 6000 + delay * 1000);
-  }
-
-  // 清理科技粒子
-  cleanupTechParticles() {
-    if (this.techParticles) {
-      this.techParticles.innerHTML = '';
-    }
-    this.particles = [];
-  }
+  // 极简风移除粒子相关实现
 
   // 重置加载状态
   reset() {

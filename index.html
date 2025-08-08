@@ -55,10 +55,6 @@
       }
     }
   </script>
-  <script>
-    // 可选：覆盖数据源，便于本地/第三方部署指向任意静态目录
-    // window.__CARQUOTE_DATA_BASE__ = '/data/';
-  </script>
   
   <style type="text/tailwindcss">
     :root {
@@ -218,6 +214,72 @@
         -moz-appearance: textfield;
       }
     }
+    /* 极简科技风加载动画 */
+    .loading-wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+    }
+    .loading-orb {
+      width: 96px;
+      height: 96px;
+      position: relative;
+      display: grid;
+      place-items: center;
+      filter: drop-shadow(0 6px 24px rgba(59,130,246,0.25));
+    }
+    .loading-ring {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, rgba(59,130,246,0.15), rgba(99,102,241,0.4), rgba(59,130,246,0.15));
+      animation: loading-rotate 2.4s linear infinite;
+      -webkit-mask: radial-gradient(circle 38px at 50% 50%, transparent 41px, #000 41px);
+              mask: radial-gradient(circle 38px at 50% 50%, transparent 41px, #000 41px);
+    }
+    .loading-core {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: radial-gradient(120px 120px at 30% 30%, rgba(255,255,255,0.18), rgba(255,255,255,0.06));
+      border: 1px solid rgba(255,255,255,0.16);
+      display: grid;
+      place-items: center;
+      backdrop-filter: blur(2px);
+    }
+    .loading-glow {
+      position: absolute;
+      width: 140px;
+      height: 30px;
+      background: radial-gradient(60px 20px at 50% 50%, rgba(59,130,246,0.35), rgba(59,130,246,0));
+      transform: translateY(56px);
+      filter: blur(14px);
+      opacity: 0.9;
+      pointer-events: none;
+    }
+    .progress-thin {
+      width: min(72vw, 520px);
+      height: 2px;
+      border-radius: 9999px;
+      background: rgba(255,255,255,0.12);
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #60a5fa, #a78bfa);
+      box-shadow: 0 0 18px rgba(96,165,250,0.45);
+      transition: width 380ms ease;
+    }
+    .tech-status-indicators { display: flex; gap: 12px; align-items: center; justify-content: center; }
+    .tech-status-item { display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.7); font-size: 12px; }
+    .tech-status-dot { width: 8px; height: 8px; border-radius: 9999px; background: rgba(255,255,255,0.25); box-shadow: 0 0 0 0 rgba(99,102,241,0.0); }
+    .tech-status-dot.active { background: #93c5fd; box-shadow: 0 0 0 6px rgba(147,197,253,0.12); }
+    .tech-title { color: white; letter-spacing: 0.4px; }
+    .tech-loading-text { color: rgba(255,255,255,0.8); }
+    @keyframes loading-rotate { to { transform: rotate(360deg); } }
     
     .quote-type-radio {
       appearance: none;
@@ -864,61 +926,29 @@
     </div>
   </header>
 
-  <!-- 加载动画 -->
-  <div id="loadingScreen" class="fixed inset-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 z-50 flex items-center justify-center" style="display: flex;">
-    <!-- 科技粒子背景 -->
-    <div class="tech-particles" id="techParticles"></div>
-    
-    <!-- 科技网格背景 -->
-    <div class="tech-grid"></div>
-    
-    <div class="text-center relative z-10 px-4">
-      <!-- 主图标 - 只保留汽车 -->
-      <div class="mb-6 md:mb-8">
-        <div class="tech-icon-container">
-          <i class="fa-solid fa-car text-blue-400 text-4xl md:text-6xl tech-icon-main"></i>
-          <div class="tech-pulse-ring"></div>
-          <div class="tech-pulse-ring" style="animation-delay: 0.5s;"></div>
-          <div class="tech-pulse-ring" style="animation-delay: 1s;"></div>
+  <!-- 加载动画（极简科技风） -->
+  <div id="loadingScreen" class="fixed inset-0 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 z-50 flex items-center justify-center" style="display: flex;">
+    <div class="loading-wrapper text-center relative z-10 px-4">
+      <div class="loading-orb">
+        <div class="loading-ring"></div>
+        <div class="loading-core">
+          <i class="fa-solid fa-car text-blue-300 text-2xl md:text-3xl"></i>
         </div>
+        <div class="loading-glow"></div>
       </div>
-      
-      <!-- 标题 -->
-      <h2 class="text-xl md:text-3xl font-bold mb-4 md:mb-6 tech-title">ONE BIG BEAUTIFUL TOOL</h2>
-      
-      <!-- 科技感加载点 -->
-      <div class="flex items-center justify-center space-x-2 mb-4 md:mb-6">
-        <div class="tech-dot"></div>
-        <div class="tech-dot" style="animation-delay: 0.2s;"></div>
-        <div class="tech-dot" style="animation-delay: 0.4s;"></div>
-        <div class="tech-dot" style="animation-delay: 0.6s;"></div>
-        <div class="tech-dot" style="animation-delay: 0.8s;"></div>
+
+      <h2 class="text-xl md:text-3xl font-semibold md:font-bold tech-title">ONE BIG BEAUTIFUL TOOL</h2>
+
+      <div class="progress-thin">
+        <div class="progress-bar" id="loadingProgressBar" style="width: 0%;"></div>
       </div>
-      
-      <!-- 科技进度条 -->
-      <div class="tech-progress-container mb-4 md:mb-6">
-        <div class="tech-progress-bar" id="loadingProgressBar" style="width: 0%;">
-          <div class="tech-progress-glow"></div>
-        </div>
-      </div>
-      
-      <!-- 加载文本 -->
-      <p class="text-blue-200 text-sm md:text-base tech-loading-text" id="loadingText">Initializing system...</p>
-      
-      <!-- 科技状态指示器 -->
-      <div class="tech-status-indicators mt-4 md:mt-6">
-        <div class="tech-status-item">
-          <div class="tech-status-dot active"></div>
-          <span class="tech-status-text">Data Loading</span>
-        </div>
-        <div class="tech-status-item">
-          <div class="tech-status-dot"></div>
-          <span class="tech-status-text">System Init</span>
-        </div>
-        <div class="tech-status-item">
-          <div class="tech-status-dot"></div>
-          <span class="tech-status-text">Engine Ready</span>
-        </div>
+
+      <p class="text-sm md:text-base tech-loading-text" id="loadingText">Initializing system...</p>
+
+      <div class="tech-status-indicators mt-2 md:mt-3">
+        <div class="tech-status-item"><div class="tech-status-dot active"></div><span>Data Loading</span></div>
+        <div class="tech-status-item"><div class="tech-status-dot"></div><span>System Init</span></div>
+        <div class="tech-status-item"><div class="tech-status-dot"></div><span>Engine Ready</span></div>
       </div>
     </div>
   </div>
