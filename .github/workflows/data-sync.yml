@@ -2,13 +2,8 @@ name: Data Sync Task
 
 on:
   schedule:
-    # 改为每6小时运行一次，保证自动采集更及时
-    - cron: '0 */6 * * *'
-  push:
-    paths:
-      - 'data-processor/**'
-      - '.github/workflows/data-sync.yml'
-      - 'data/**'
+    # 每周一凌晨0点 (UTC时间)
+    - cron: '0 0 * * 1'
   workflow_dispatch: # 允许手动触发
 
 jobs:
