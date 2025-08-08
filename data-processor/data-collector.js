@@ -169,8 +169,8 @@ class DataCollector {
           brandIdUsed = brandId;
         }
 
-        // 获取品牌logo
-        brandInfo.brandImage = await this.getBrandLogo(browser, result.carIds[0]);
+        // 获取品牌logo，优先从车型详情页；失败则回退到品牌页
+        brandInfo.brandImage = await this.getBrandLogo(browser, result.carIds[0], brandId);
 
         if (result.carIds.length > 0) {
           const cars = await this.collectCarsConcurrently(browser, result.carIds, brand);
@@ -349,32 +349,111 @@ class DataCollector {
     }
   }
 
-  async getBrandLogo(browser, carId) {
-    if (!carId) return '';
-    
-    const page = await this.browserManager.createPage(browser);
-    
-    try {
-      const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
-      await pTimeout(
-        page.goto(urlSeries, { waitUntil: 'domcontentloaded' }), // 改为更快的加载策略
-        { milliseconds: config.crawler.timeout }
-      );
-      
-      await new Promise(resolve => setTimeout(resolve, 1000)); // 固定1秒等待
+  async getBrandLogo(browser, carId, brandId) {
+    const tryExtractLogo = async (page) => {
+      return page.evaluate(() => {
+        const extractFromImg = (img) => {
+          if (!img) return '';
+          // 优先 data-src / srcset / src
+          const dataSrc = img.getAttribute('data-src') || img.getAttribute('data-original');
+          if (dataSrc && /\.(png|jpg|jpeg|webp)/i.test(dataSrc)) return dataSrc;
+          const srcset = img.getAttribute('srcset');
+          if (srcset) {
+            const first = srcset.split(',')[0]?.trim().split(' ')?.[0];
+            if (first) return first;
+          }
+          return img.src || '';
+        };
 
-      const brandLogo = await page.evaluate(() => {
-        const logoImg = document.querySelector('[class^="header-left_logo"]');
-        return logoImg ? logoImg.src : '';
+        const extractFromBg = (el) => {
+          if (!el) return '';
+          const style = window.getComputedStyle(el);
+          const bg = style.backgroundImage || '';
+          const match = bg.match(/url\(("|')?(.*?)("|')?\)/);
+          return match ? match[2] : '';
+        };
+
+        // 1) 常见 logo 图片选择器
+        const imgSelectors = [
+          'img[class*="logo"]',
+          '[class*="logo"] img',
+          'img[alt*="logo" i]',
+          'img[src*="motor-mis-img"]',
+          'img[srcset*="motor-mis-img"]',
+          'img[class*="brand" i]',
+        ];
+        for (const sel of imgSelectors) {
+          const img = document.querySelector(sel);
+          const url = extractFromImg(img);
+          if (url) return url;
+        }
+
+        // 2) 常见 logo 容器（背景图）
+        const bgSelectors = [
+          '[class^="header-left_logo"]',
+          '[class*="logo"]',
+          '[class*="brand"]',
+        ];
+        for (const sel of bgSelectors) {
+          const el = document.querySelector(sel);
+          const url = extractFromBg(el);
+          if (url) return url;
+          // 尝试子元素图片
+          if (el) {
+            const img = el.querySelector('img');
+            const imgUrl = extractFromImg(img);
+            if (imgUrl) return imgUrl;
+          }
+        }
+        return '';
       });
+    };
 
-      return brandLogo;
-    } catch (error) {
-      console.warn(`⚠️ 获取品牌logo失败: ${error.message}`);
-      return '';
-    } finally {
-      await page.close();
+    // 优先从车型详情页尝试
+    if (carId) {
+      const page = await this.browserManager.createPage(browser);
+      try {
+        const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
+        try {
+          await pTimeout(page.goto(urlSeries, { waitUntil: 'domcontentloaded' }), { milliseconds: config.crawler.timeout });
+        } catch (_) {
+          try {
+            await pTimeout(page.goto(urlSeries, { waitUntil: 'load' }), { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) });
+          } catch (_) {
+            await pTimeout(page.goto(urlSeries), { milliseconds: Math.min(config.crawler.timeout + 15000, 40000) });
+          }
+        }
+        await new Promise(r => setTimeout(r, 800));
+        const logo1 = await tryExtractLogo(page);
+        if (logo1) return logo1;
+      } catch (error) {
+        console.warn(`⚠️ 车型页获取品牌logo失败: ${error.message}`);
+      } finally {
+        await page.close();
+      }
     }
+
+    // 回退到品牌页尝试
+    if (brandId) {
+      const page = await this.browserManager.createPage(browser);
+      try {
+        const brandUrl = `https://www.dongchedi.com/auto/library-brand/${brandId}`;
+        try {
+          await pTimeout(page.goto(brandUrl, { waitUntil: 'domcontentloaded' }), { milliseconds: config.crawler.timeout });
+        } catch (_) {
+          await pTimeout(page.goto(brandUrl, { waitUntil: 'load' }), { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) });
+        }
+        await new Promise(r => setTimeout(r, 800));
+        const logo2 = await tryExtractLogo(page);
+        if (logo2) return logo2;
+      } catch (error) {
+        console.warn(`⚠️ 品牌页获取品牌logo失败: ${error.message}`);
+      } finally {
+        await page.close();
+      }
+    }
+
+    return '';
   }
 
   async collectCarsConcurrently(browser, carIds, brand) {

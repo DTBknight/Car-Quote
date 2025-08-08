@@ -11,7 +11,9 @@
     "all": "node index-optimized.js all",
     "sync": "node index-sync.js",
     "clean": "node scripts/clean.js",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "logos:scan": "node scripts/fetch-logos.js",
+    "logos:fix": "node scripts/fetch-logos.js --write"
   },
   "keywords": [
     "data-sync",

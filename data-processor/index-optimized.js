@@ -268,4 +268,6 @@ if (require.main === module && process.argv[2] !== 'autoSyncBrands') {
   main();
 }
 
-module.exports = { CarDataProcessor }; 
+module.exports = { CarDataProcessor };
+// 导出品牌ID映射，供外部工具脚本使用（如 logo 修复扫描）
+module.exports.brandIdsMap = brandIdsMap;
