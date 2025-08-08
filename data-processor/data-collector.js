@@ -203,9 +203,10 @@ class DataCollector {
       // 首先尝试点击"在售"标签
       let carIds = [];
       
+      let onSaleLink = null;
       try {
         // 动态查找"在售"标签
-        const onSaleLink = await page.evaluateHandle(() => {
+        onSaleLink = await page.evaluateHandle(() => {
           const categoryLinks = document.querySelectorAll('a.category_item__1bH-x');
           for (const link of categoryLinks) {
             if (link.textContent.trim() === '在售') {

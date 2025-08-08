@@ -105,7 +105,7 @@ const brandIdsMap = {
   Porsche: 20, // 保时捷
   Qoros: 67, // 观致
   Renault: 63, // 雷诺
-  Roewe: 39, // 荣威
+  Roewe: 36, // 荣威
   Skoda: 6, // 斯柯达
   Smart: 66, // Smart
   Subaru: 23, // 斯巴鲁
@@ -115,7 +115,7 @@ const brandIdsMap = {
   Volkswagen: 1, // 大众
   Volvo: 21, // 沃尔沃
   Wey: 24, // WEY
-  Wuling: 25, // 五菱
+  Wuling: 39, // 五菱
   Xpeng: 203, // 小鹏
   Yangwang: 546, // 仰望
   Firefly: 10363, // 萤火虫
