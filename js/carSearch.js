@@ -24,32 +24,53 @@ export class CarSearch {
     if (this.allCarsLoaded) return;
     
     try {
-      // 从网络加载
+      // 数据源候选（优先远程，其次本地）
+      const dataBases = [
+        'https://dbtknight.netlify.app/data/',
+        `${window.location.origin}/data/`
+      ];
+
+      const fetchWithTimeout = async (url, options = {}, timeoutMs = 10000) => {
+        const controller = new AbortController();
+        const id = setTimeout(() => controller.abort(), timeoutMs);
+        try {
+          const res = await fetch(url, { ...options, signal: controller.signal });
+          return res;
+        } finally {
+          clearTimeout(id);
+        }
+      };
+
+      const loadBrandsJson = async () => {
+        let lastError;
+        for (const base of dataBases) {
+          const url = `${base}brands.json`;
+          try {
+            if (CONFIG.APP.DEBUG) console.log(`🌐 尝试加载: ${url}`);
+            const res = await fetchWithTimeout(url, {}, 12000);
+            if (res.ok) {
+              const json = await res.json();
+              return { base, brands: json };
+            } else {
+              lastError = new Error(`HTTP ${res.status} ${res.statusText}`);
+            }
+          } catch (e) {
+            lastError = e;
+            if (CONFIG.APP.DEBUG) console.warn(`⚠️ 加载失败: ${url}`, e.message);
+          }
+        }
+        throw lastError || new Error('无法加载 brands.json');
+      };
+
       if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
-      
-      // 测试网络连接
-      const testRes = await fetch('https://dbtknight.netlify.app/data/brands.json', {
-        method: 'HEAD'
-      });
-      if (CONFIG.APP.DEBUG) console.log('🌐 网络连接测试:', testRes.ok ? '成功' : '失败');
-      
-      const brandsRes = await fetch('https://dbtknight.netlify.app/data/brands.json');
-      
-      if (!brandsRes.ok) {
-        throw new Error(`加载brands.json失败: ${brandsRes.status} ${brandsRes.statusText}`);
-      }
-      
-      const brands = await brandsRes.json();
-      if (CONFIG.APP.DEBUG) console.log(`📋 找到 ${brands.length} 个品牌`);
-      
-      if (brands.length === 0) {
+      const { base: dataBaseUrl, brands } = await loadBrandsJson();
+      if (!Array.isArray(brands) || brands.length === 0) {
         throw new Error('brands.json 为空或格式错误');
       }
-      
-      // 加载所有品牌
+      if (CONFIG.APP.DEBUG) console.log(`📋 找到 ${brands.length} 个品牌，数据源: ${dataBaseUrl}`);
+
+      // 并行加载品牌数据（基于选定的数据源）
       if (CONFIG.APP.DEBUG) console.log(`📥 开始加载 ${brands.length} 个品牌的数据`);
-      
-      // 并行加载品牌数据
       const carPromises = brands.map(async (brand) => {
         const cacheKey = `brand:${brand.name}`;
         let brandData = cacheManager.get(cacheKey, 'memory');
@@ -57,7 +78,7 @@ export class CarSearch {
         if (!brandData) {
           try {
             if (CONFIG.APP.DEBUG) console.log(`📥 加载品牌: ${brand.name} (${brand.file})`);
-            const res = await fetch(`https://dbtknight.netlify.app/data/${brand.file}`);
+            const res = await fetchWithTimeout(`${dataBaseUrl}${brand.file}`, {}, 15000);
             
             if (!res.ok) {
               console.error(`加载品牌文件 ${brand.file} 失败: ${res.status} ${res.statusText}`);
