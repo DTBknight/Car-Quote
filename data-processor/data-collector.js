@@ -555,7 +555,55 @@ class DataCollector {
         return null;
       }
 
-      // 2. 采集配置信息
+      // 2. 采集可选颜色及对应主图
+      let colorImages = [];
+      try {
+        colorImages = await page.evaluate(async () => {
+          const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+          const getMainImg = () => {
+            // 优先系列页主图
+            const img1 = document.querySelector('img[src^="http"]');
+            return img1?.src || '';
+          };
+          // 选取可能的颜色可点击元素
+          let candidates = Array.from(document.querySelectorAll('button,li,div,span,a'))
+            .filter(el => {
+              const cls = (el.className || '').toString();
+              const hasColorCls = /color|paint|外观|内饰|颜色/i.test(cls);
+              const title = el.getAttribute('title') || '';
+              const txt = el.textContent.trim();
+              const style = window.getComputedStyle(el);
+              const isCircle = (style.borderRadius && parseFloat(style.borderRadius) >= 8);
+              const clickable = el.onclick || el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || style.cursor === 'pointer' || el.getAttribute('tabindex') !== null;
+              return (hasColorCls || title.includes('色') || /色$/.test(txt) || isCircle) && clickable;
+            });
+          // 去重
+          candidates = Array.from(new Set(candidates)).slice(0, 12);
+          const base = getMainImg();
+          const results = [];
+          for (const el of candidates) {
+            const before = getMainImg();
+            const label = el.getAttribute('title') || el.textContent.trim();
+            try { el.click(); } catch (_) {}
+            await sleep(400);
+            const after = getMainImg();
+            if (after && after !== before && after !== base) {
+              results.push({ colorName: label || '颜色', image: after });
+            }
+          }
+          // 去重（按图片地址）
+          const seen = new Set();
+          const uniq = [];
+          for (const r of results) {
+            if (!seen.has(r.image)) { seen.add(r.image); uniq.push(r); }
+          }
+          return uniq.slice(0, 12);
+        });
+      } catch (e) {
+        console.warn(`⚠️ 提取颜色图片失败: ${e.message}`);
+      }
+
+      // 3. 采集配置信息
       const urlParams = `https://www.dongchedi.com/auto/params-carIds-x-${carId}`;
       try {
         await pTimeout(
@@ -650,6 +698,7 @@ class DataCollector {
       return {
         carName: cleanedCarName,
         mainImage: carBasicInfo.mainImage,
+        colorImages,
         configs
       };
     } catch (error) {

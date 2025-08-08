@@ -660,20 +660,46 @@ export class CarSearch {
       brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${manufacturer || carData.brand}" class="w-12 h-12 object-contain">`;
     }
     
-    // 设置车型图片
+    // 设置车型图片与颜色切换
     const carMainImageBox = Utils.getElement('carMainImageBox');
-    if (carMainImageBox && (carData.image || carData.mainImage)) {
-      const imageUrl = carData.image || carData.mainImage;
-      const imageAlt = carData.name || carData.carName;
-      carMainImageBox.innerHTML = `<img src="${imageUrl}" alt="${imageAlt}" class="w-full h-full object-contain rounded bg-gray-50 scale-150 -z-10">`;
-    } else {
-      // 如果没有图片，显示占位符
-      carMainImageBox.innerHTML = `
-        <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
-          <i class="fa fa-car text-4xl mb-2"></i>
-          <span class="text-sm">暂无图片</span>
-        </div>
-      `;
+    const carColorList = Utils.getElement('carColorList');
+    const renderImage = (url, alt) => {
+      if (!carMainImageBox) return;
+      if (url) {
+        carMainImageBox.innerHTML = `<img src="${url}" alt="${alt}" class="w-full h-full object-contain rounded bg-gray-50">`;
+      } else {
+        carMainImageBox.innerHTML = `
+          <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+            <i class="fa fa-car text-4xl mb-2"></i>
+            <span class="text-sm">暂无图片</span>
+          </div>`;
+      }
+    };
+
+    // 主图
+    const baseImage = carData.image || carData.mainImage || '';
+    const imageAlt = carData.name || carData.carName || '';
+    renderImage(baseImage, imageAlt);
+
+    // 颜色图片
+    if (carColorList) {
+      carColorList.innerHTML = '';
+      const colors = Array.isArray(carData.colorImages) ? carData.colorImages : [];
+      if (colors.length > 0) {
+        const frag = document.createDocumentFragment();
+        colors.forEach((c, idx) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'w-6 h-6 rounded-full ring-2 ring-offset-1 ring-transparent hover:ring-primary transition';
+          btn.title = c.colorName || `颜色${idx+1}`;
+          btn.style.backgroundImage = `url(${c.image})`;
+          btn.style.backgroundSize = 'cover';
+          btn.style.backgroundPosition = 'center';
+          btn.addEventListener('click', () => renderImage(c.image, imageAlt));
+          frag.appendChild(btn);
+        });
+        carColorList.appendChild(frag);
+      }
     }
   }
   
