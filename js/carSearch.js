@@ -29,11 +29,21 @@ export class CarSearch {
       if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
 
       const httpOrigin = /^https?:\/\//i.test(window.location.origin || '');
+      const preferredLocalBases = httpOrigin
+        ? [
+            `${window.location.origin}/data/`,
+            '/data/',
+            './data/'
+          ]
+        : ['./data/'];
+      const remoteBases = ['https://dbtknight.netlify.app/data/'];
+      const overrideBase = (typeof window !== 'undefined' && window.__CARQUOTE_DATA_BASE__)
+        ? (window.__CARQUOTE_DATA_BASE__.endsWith('/') ? window.__CARQUOTE_DATA_BASE__ : `${window.__CARQUOTE_DATA_BASE__}/`)
+        : null;
       const dataBases = [
-        'https://dbtknight.netlify.app/data/',
-        httpOrigin ? `${window.location.origin}/data/` : null,
-        httpOrigin ? '/data/' : null,
-        './data/'
+        ...(overrideBase ? [overrideBase] : []),
+        ...preferredLocalBases,
+        ...remoteBases
       ].filter(Boolean);
 
       const fetchWithTimeout = async (url, options = {}, timeoutMs = 12000) => {
@@ -47,24 +57,23 @@ export class CarSearch {
       };
 
       const loadBrandsJson = async () => {
-        let lastError;
-        for (const base of dataBases) {
+        const attempts = dataBases.map(base => {
           const url = `${base}brands.json`;
-          try {
+          return (async () => {
             if (CONFIG.APP.DEBUG) console.log(`🌐 尝试加载: ${url}`);
             const res = await fetchWithTimeout(url, {}, 15000);
-            if (res.ok) {
-              const json = await res.json();
-              return { base, brands: json };
-            } else {
-              lastError = new Error(`HTTP ${res.status} ${res.statusText}`);
-            }
-          } catch (e) {
-            lastError = e;
-            if (CONFIG.APP.DEBUG) console.warn(`⚠️ 加载失败: ${url}`, e.message);
-          }
+            if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+            const json = await res.json();
+            if (!Array.isArray(json) || json.length === 0) throw new Error('empty brands');
+            return { base, brands: json };
+          })();
+        });
+        // 竞争获取，谁先成功用谁
+        try {
+          return await Promise.any(attempts);
+        } catch (err) {
+          throw new Error('无法加载 brands.json（所有数据源均失败）');
         }
-        throw lastError || new Error('无法加载 brands.json');
       };
 
       const { base: dataBaseUrl, brands } = await loadBrandsJson();
