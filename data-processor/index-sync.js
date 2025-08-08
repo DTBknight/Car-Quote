@@ -59,6 +59,15 @@ class DataSyncProcessor {
     await this.log(`📊 本次处理 ${brandsToProcess.length} 个品牌（完整更新）`);
 
     const processor = new CarDataProcessor();
+    // 优雅退出：捕获SIGTERM/SIGINT，保存进度
+    const handleSignal = async (signal) => {
+      await this.log(`⚠️ 收到 ${signal}，保存进度并安全退出...`);
+      await this.saveProgress(progress);
+      await processor.cleanup();
+      process.exit(0);
+    };
+    process.on('SIGTERM', handleSignal);
+    process.on('SIGINT', handleSignal);
     
     // 重置进度（定期重新开始）
     progress.completed = [];

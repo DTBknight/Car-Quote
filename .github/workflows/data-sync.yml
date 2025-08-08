@@ -9,6 +9,9 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    concurrency:
+      group: data-sync
+      cancel-in-progress: false
     permissions:
       contents: write
       pull-requests: write
@@ -32,7 +35,7 @@ jobs:
     - name: Install Chrome Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y wget gnupg2
+        sudo apt-get install -y wget gnupg2 jq
         wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
         echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
         sudo apt-get update
@@ -46,11 +49,12 @@ jobs:
     - name: Execute Data Sync
       run: |
         cd data-processor
-        timeout 5h node index-sync.js
+        node index-sync.js
       env:
         # Set environment variables
         NODE_ENV: production
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+        PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
       timeout-minutes: 300
         
     - name: Validate Data Integrity

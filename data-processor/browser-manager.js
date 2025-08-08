@@ -25,7 +25,10 @@ class BrowserManager {
     
     const browser = await puppeteer.launch({
       headless: config.crawler.headless,
-      executablePath: executablePath,
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || executablePath,
+      ignoreHTTPSErrors: true,
+      protocolTimeout: 120000,
+      defaultViewport: { width: 1280, height: 800 },
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
@@ -54,6 +57,13 @@ class BrowserManager {
     
     // 优化页面加载
     await optimizePageLoad(page);
+
+    // 设置更高的协议超时，兼容 Network.enable 超时
+    try {
+      await page._client().send('Network.enable');
+    } catch (e) {
+      // 忽略此处异常，由外层重试处理
+    }
     
     // 设置请求拦截
     await this.setupRequestInterception(page);
@@ -65,11 +75,9 @@ class BrowserManager {
     await page.setRequestInterception(true);
     page.on('request', (req) => {
       const resourceType = req.resourceType();
-      const shouldBlock = (
-        (config.crawler.blockImages && resourceType === 'image') ||
-        (config.crawler.blockStylesheets && resourceType === 'stylesheet') ||
-        (config.crawler.blockFonts && resourceType === 'font') ||
-        resourceType === 'media'
+      const block = config.crawler.resourceBlocking;
+      const shouldBlock = block && (
+        resourceType === 'media' || resourceType === 'eventsource' || resourceType === 'websocket'
       );
       
       if (shouldBlock) {
@@ -81,8 +89,13 @@ class BrowserManager {
   }
 
   async closeBrowser(browser) {
-    if (browser && !browser.isConnected()) {
-      await browser.close();
+    if (!browser) return;
+    try {
+      if (browser.isConnected()) {
+        await browser.close();
+      }
+    } catch (e) {
+      // 忽略关闭异常，避免影响流程
     }
   }
 }

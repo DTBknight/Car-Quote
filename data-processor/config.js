@@ -2,15 +2,19 @@
 const config = {
   // 爬虫配置
   crawler: {
-    concurrency: 4, // 并发数 - 减少到4以避免资源不足
-    maxRetries: 1, // 最大重试次数 - 减少到1以节省时间
-    timeout: 20000, // 超时时间 (ms) - 减少到20秒
+    concurrency: 4, // 并发数 - 保持适中
+    maxRetries: 2, // 最大重试次数 - 适度容错
+    timeout: 25000, // 单次页面超时 (ms)
+    protocolTimeout: 120000, // 协议层超时 (ms)，处理 Network.enable timed out
     delays: {
-      min: 300, // 最小延迟 (ms) - 减少到300ms
-      max: 800  // 最大延迟 (ms) - 减少到800ms
+      min: 300, // 最小延迟 (ms)
+      max: 900  // 最大延迟 (ms)
     },
     headless: true, // 无头模式
     resourceBlocking: true, // 资源拦截
+    blockImages: false,
+    blockStylesheets: false,
+    blockFonts: false,
     userAgentRotation: false, // 用户代理轮换 - 关闭以提升速度
     viewportRotation: false, // 视口轮换 - 关闭以提升速度
     humanBehavior: false // 人类行为模拟 - 关闭以提升速度
