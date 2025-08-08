@@ -555,49 +555,124 @@ class DataCollector {
         return null;
       }
 
-      // 2. 采集可选颜色及对应主图
+      // 2. 采集可选颜色及对应主图（使用 ElementHandle 点击，避免 SPA 造成的执行上下文销毁）
       let colorImages = [];
       try {
-        colorImages = await page.evaluate(async () => {
-          const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-          const getMainImg = () => {
-            // 优先系列页主图
-            const img1 = document.querySelector('img[src^="http"]');
-            return img1?.src || '';
-          };
-          // 选取可能的颜色可点击元素
-          let candidates = Array.from(document.querySelectorAll('button,li,div,span,a'))
-            .filter(el => {
-              const cls = (el.className || '').toString();
-              const hasColorCls = /color|paint|外观|内饰|颜色/i.test(cls);
-              const title = el.getAttribute('title') || '';
-              const txt = el.textContent.trim();
-              const style = window.getComputedStyle(el);
-              const isCircle = (style.borderRadius && parseFloat(style.borderRadius) >= 8);
-              const clickable = el.onclick || el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || style.cursor === 'pointer' || el.getAttribute('tabindex') !== null;
-              return (hasColorCls || title.includes('色') || /色$/.test(txt) || isCircle) && clickable;
-            });
-          // 去重
-          candidates = Array.from(new Set(candidates)).slice(0, 12);
-          const base = getMainImg();
-          const results = [];
-          for (const el of candidates) {
-            const before = getMainImg();
-            const label = el.getAttribute('title') || el.textContent.trim();
-            try { el.click(); } catch (_) {}
-            await sleep(400);
-            const after = getMainImg();
-            if (after && after !== before && after !== base) {
-              results.push({ colorName: label || '颜色', image: after });
+        const getMainImageSrc = async () => {
+          return await page.evaluate(() => {
+            // 优先使用页面主视图区域的较大图片
+            const byXpath = (xp) => {
+              try {
+                const res = document.evaluate(xp, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
+                const node = res.singleNodeValue;
+                if (node && node.tagName === 'IMG' && node.src) return node.src;
+              } catch (_) {}
+              return '';
+            };
+            const fromXpath = byXpath('//*[@id="__next"]/div/div[2]/div[2]/div[2]/div/div/div[2]/img');
+            if (fromXpath) return fromXpath;
+            const imgs = Array.from(document.querySelectorAll('img'))
+              .filter(img => img.src && /https?:/.test(img.src));
+            if (imgs.length === 0) return '';
+            // 选择尺寸较大的图片
+            let best = imgs[0];
+            let bestSize = (best.naturalWidth || best.width || 0) * (best.naturalHeight || best.height || 0);
+            for (const img of imgs) {
+              const area = (img.naturalWidth || img.width || 0) * (img.naturalHeight || img.height || 0);
+              if (area > bestSize) { best = img; bestSize = area; }
             }
+            return best.src;
+          });
+        };
+
+        // 尝试切换到“外观/颜色”相关tab，方便出现颜色入口
+        try {
+          const tabByText = await page.$x("//*/text()[contains(., '外观') or contains(., '颜色')]/parent::*");
+          if (tabByText && tabByText[0]) {
+            await tabByText[0].click().catch(() => {});
+            await page.waitForTimeout(500);
           }
-          // 去重（按图片地址）
-          const seen = new Set();
-          const uniq = [];
-          for (const r of results) {
-            if (!seen.has(r.image)) { seen.add(r.image); uniq.push(r); }
+        } catch (_) {}
+
+        // 收集候选颜色元素
+        const candidateSelectors = [
+          'button[class*="color" i]',
+          '[class*="color" i] button',
+          '[class*="color" i] li',
+          'li[class*="color" i]',
+          'button[title*="色"]',
+          'li[title*="色"]',
+          '[role="button"][aria-label*="色"]',
+          '[class*="paint" i] button',
+          // 一些站点用背景色/背景图做圆点
+          '[style*="background"]',
+          // 兼容仅通过边框颜色/圆角作为色块的结构（如帝豪示例）
+          'div[style*="border-color"][style*="border-radius"]'
+        ];
+        const handles = [];
+        for (const sel of candidateSelectors) {
+          const list = await page.$$(sel);
+          for (const h of list) handles.push(h);
+        }
+        // 去重 + 过滤不可见
+        const unique = [];
+        const seenJSHandles = new Set();
+        for (const h of handles) {
+          const box = await h.boundingBox();
+          if (!box) continue;
+          const id = await h._remoteObject?.objectId || Math.random().toString(36);
+          if (seenJSHandles.has(id)) continue;
+          seenJSHandles.add(id);
+          unique.push(h);
+        }
+
+        const baseSrc = await getMainImageSrc();
+        const collected = [];
+        for (const h of unique.slice(0, 12)) {
+          // 确保在可视区域
+          try { await h.evaluate(el => el.scrollIntoView({ behavior: 'instant', block: 'center', inline: 'center' })); } catch (_) {}
+          const before = await getMainImageSrc();
+          let clicked = false;
+          try { await h.click({ delay: 20 }); clicked = true; } catch (_) {}
+          if (!clicked) {
+            try {
+              const parentClickable = await h.evaluateHandle(el => el.closest('button,[role="button"],a,li,div'));
+              const el2 = parentClickable.asElement();
+              if (el2) { await el2.click({ delay: 20 }); clicked = true; }
+            } catch (_) {}
           }
-          return uniq.slice(0, 12);
+          if (!clicked) {
+            // 退一步派发原生事件
+            try {
+              await h.evaluate(el => {
+                ['pointerdown','mousedown','mouseup','click'].forEach(type => el.dispatchEvent(new MouseEvent(type, {bubbles:true,cancelable:true,view:window})));
+              });
+            } catch(_) {}
+          }
+          // 等待主图变更或可能的轻微导航
+          await Promise.race([
+            page.waitForFunction((prev) => {
+              const img = Array.from(document.querySelectorAll('img'))
+                .find(i => i.src && (/https?:|^\/\//.test(i.src)) && (i.className.includes('absolute') || i.getAttribute('draggable') === 'false' || i.width > 300));
+              return img && img.src && (img.src !== prev);
+            }, { timeout: 2000 }, before).catch(() => {}),
+            page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 2000 }).catch(() => {})
+          ]);
+          const after = await getMainImageSrc();
+          if (after && after !== before && after !== baseSrc) {
+            const label = await h.evaluate(el => {
+              const t = el.getAttribute('title');
+              if (t) return t;
+              const nearSpan = el.closest('li,div')?.querySelector('span');
+              return (nearSpan?.textContent || '').trim() || '颜色';
+            });
+            collected.push({ colorName: label, image: after });
+          }
+        }
+        // 去重（按图片地址）
+        const seen = new Set();
+        colorImages = collected.filter(c => {
+          if (seen.has(c.image)) return false; seen.add(c.image); return true;
         });
       } catch (e) {
         console.warn(`⚠️ 提取颜色图片失败: ${e.message}`);
