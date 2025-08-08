@@ -1,3 +1,4 @@
+import { CONFIG } from './config.js';
 import { Utils } from './utils.js';
 import { cacheManager } from './cacheManager.js';
 
@@ -24,18 +25,22 @@ export class CarSearch {
     if (this.allCarsLoaded) return;
     
     try {
-      // 数据源候选（优先远程，其次本地）
+      // 从网络加载（带多源与超时回退）
+      if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
+
+      const httpOrigin = /^https?:\/\//i.test(window.location.origin || '');
       const dataBases = [
         'https://dbtknight.netlify.app/data/',
-        `${window.location.origin}/data/`
-      ];
+        httpOrigin ? `${window.location.origin}/data/` : null,
+        httpOrigin ? '/data/' : null,
+        './data/'
+      ].filter(Boolean);
 
-      const fetchWithTimeout = async (url, options = {}, timeoutMs = 10000) => {
+      const fetchWithTimeout = async (url, options = {}, timeoutMs = 12000) => {
         const controller = new AbortController();
         const id = setTimeout(() => controller.abort(), timeoutMs);
         try {
-          const res = await fetch(url, { ...options, signal: controller.signal });
-          return res;
+          return await fetch(url, { ...options, signal: controller.signal });
         } finally {
           clearTimeout(id);
         }
@@ -47,7 +52,7 @@ export class CarSearch {
           const url = `${base}brands.json`;
           try {
             if (CONFIG.APP.DEBUG) console.log(`🌐 尝试加载: ${url}`);
-            const res = await fetchWithTimeout(url, {}, 12000);
+            const res = await fetchWithTimeout(url, {}, 15000);
             if (res.ok) {
               const json = await res.json();
               return { base, brands: json };
@@ -62,7 +67,6 @@ export class CarSearch {
         throw lastError || new Error('无法加载 brands.json');
       };
 
-      if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
       const { base: dataBaseUrl, brands } = await loadBrandsJson();
       if (!Array.isArray(brands) || brands.length === 0) {
         throw new Error('brands.json 为空或格式错误');
