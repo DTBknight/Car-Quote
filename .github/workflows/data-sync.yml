@@ -2,12 +2,13 @@ name: Data Sync Task
 
 on:
   schedule:
-    # 每周一凌晨执行选项：
-    # 1. 每周一凌晨0点 (UTC时间，即北京时间上午8点)
-    # 2. 每周一凌晨2点 (UTC时间，即北京时间上午10点) 
-    # 3. 每周一凌晨6点 (UTC时间，即北京时间下午2点)
-    # 当前设置：每周一凌晨0点 (UTC时间)
-    - cron: '0 0 * * 1'
+    # 改为每6小时运行一次，保证自动采集更及时
+    - cron: '0 */6 * * *'
+  push:
+    paths:
+      - 'data-processor/**'
+      - '.github/workflows/data-sync.yml'
+      - 'data/**'
   workflow_dispatch: # 允许手动触发
 
 jobs:
