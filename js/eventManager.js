@@ -542,7 +542,7 @@ export class EventManager {
   
   // 初始化卡片悬浮效果
   initCardHoverEffects() {
-    console.log('🎨 重新初始化卡片悬浮效果...');
+    if (CONFIG.APP.DEBUG) console.log('🎨 重新初始化卡片悬浮效果...');
     
     const cards = document.querySelectorAll('.bg-gray-50.p-6.rounded-lg.border.border-gray-200');
     
@@ -564,7 +564,7 @@ export class EventManager {
       card.addEventListener('click', this.cardClickHandler);
     });
     
-    console.log(`✅ 已为 ${cards.length} 个卡片重新添加悬浮效果`);
+    if (CONFIG.APP.DEBUG) console.log(`✅ 已为 ${cards.length} 个卡片重新添加悬浮效果`);
   }
   
   // 卡片点击处理函数

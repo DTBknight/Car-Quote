@@ -48,7 +48,11 @@ export class Utils {
     return function executedFunction(...args) {
       const later = () => {
         clearTimeout(timeout);
-        func(...args);
+        try {
+          func(...args);
+        } catch (e) {
+          if (CONFIG?.APP?.DEBUG) console.warn('debounce 执行出错:', e);
+        }
       };
       clearTimeout(timeout);
       timeout = setTimeout(later, wait);

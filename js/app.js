@@ -38,7 +38,7 @@ export class CarQuoteApp {
     try {
       // 开始加载动画
       this.loadingManager.startLoading();
-      console.log('🚗 汽车报价系统初始化中...');
+      if (CONFIG.APP.DEBUG) console.log('🚗 汽车报价系统初始化中...');
       
       // 1. 先设置默认值
       this.loadingManager.nextStep();
@@ -77,8 +77,8 @@ export class CarQuoteApp {
       this.performanceMetrics.initTime = performance.now() - startTime;
       this.performanceMetrics.lastUpdate = Date.now();
       
-      console.log('✅ 汽车报价系统初始化完成');
-      console.log(`⏱️ 初始化耗时: ${this.performanceMetrics.initTime.toFixed(2)}ms`);
+      if (CONFIG.APP.DEBUG) console.log('✅ 汽车报价系统初始化完成');
+      if (CONFIG.APP.DEBUG) console.log(`⏱️ 初始化耗时: ${this.performanceMetrics.initTime.toFixed(2)}ms`);
       
       // 定期清理缓存
       this.startCacheCleanup();
@@ -187,7 +187,7 @@ export class CarQuoteApp {
   
   // 初始化卡片悬浮效果
   initCardHoverEffects() {
-    console.log('🎨 初始化卡片悬浮效果...');
+    if (CONFIG.APP.DEBUG) console.log('🎨 初始化卡片悬浮效果...');
     
     const cards = document.querySelectorAll('.bg-gray-50.p-6.rounded-lg.border.border-gray-200');
     
@@ -232,7 +232,7 @@ export class CarQuoteApp {
       });
     });
     
-    console.log(`✅ 已为 ${cards.length} 个卡片添加悬浮效果`);
+    if (CONFIG.APP.DEBUG) console.log(`✅ 已为 ${cards.length} 个卡片添加悬浮效果`);
   }
   
   // 开始缓存清理
@@ -249,7 +249,7 @@ export class CarQuoteApp {
       // 使用缓存管理器清理过期缓存
       const { cacheManager } = await import('./cacheManager.js');
       cacheManager.cleanup();
-      console.log('✅ 缓存清理完成');
+      if (CONFIG.APP.DEBUG) console.log('✅ 缓存清理完成');
     } catch (error) {
       console.error('❌ 缓存清理失败:', error);
     }

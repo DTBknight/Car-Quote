@@ -25,13 +25,13 @@ export class CarSearch {
     
     try {
       // 从网络加载
-      console.log('🔄 开始加载车型数据...');
+      if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
       
       // 测试网络连接
       const testRes = await fetch('https://dbtknight.netlify.app/data/brands.json', {
         method: 'HEAD'
       });
-      console.log('🌐 网络连接测试:', testRes.ok ? '成功' : '失败');
+      if (CONFIG.APP.DEBUG) console.log('🌐 网络连接测试:', testRes.ok ? '成功' : '失败');
       
       const brandsRes = await fetch('https://dbtknight.netlify.app/data/brands.json');
       
@@ -40,14 +40,14 @@ export class CarSearch {
       }
       
       const brands = await brandsRes.json();
-      console.log(`📋 找到 ${brands.length} 个品牌`);
+      if (CONFIG.APP.DEBUG) console.log(`📋 找到 ${brands.length} 个品牌`);
       
       if (brands.length === 0) {
         throw new Error('brands.json 为空或格式错误');
       }
       
       // 加载所有品牌
-      console.log(`📥 开始加载 ${brands.length} 个品牌的数据`);
+      if (CONFIG.APP.DEBUG) console.log(`📥 开始加载 ${brands.length} 个品牌的数据`);
       
       // 并行加载品牌数据
       const carPromises = brands.map(async (brand) => {
@@ -56,7 +56,7 @@ export class CarSearch {
         
         if (!brandData) {
           try {
-            console.log(`📥 加载品牌: ${brand.name} (${brand.file})`);
+            if (CONFIG.APP.DEBUG) console.log(`📥 加载品牌: ${brand.name} (${brand.file})`);
             const res = await fetch(`https://dbtknight.netlify.app/data/${brand.file}`);
             
             if (!res.ok) {
@@ -103,11 +103,11 @@ export class CarSearch {
         priority: 3
       });
       
-      console.log(`✅ 成功加载并缓存 ${this.allCars.length} 个车型数据`);
+      if (CONFIG.APP.DEBUG) console.log(`✅ 成功加载并缓存 ${this.allCars.length} 个车型数据`);
       
       // 测试搜索索引
       this.buildSearchIndex();
-      console.log(`🔍 搜索索引构建完成，包含 ${this.searchIndex.size} 个索引项`);
+      if (CONFIG.APP.DEBUG) console.log(`🔍 搜索索引构建完成，包含 ${this.searchIndex.size} 个索引项`);
       
     } catch (e) {
       console.error('❌ 加载所有车型失败:', e);
@@ -202,6 +202,7 @@ export class CarSearch {
     // 键盘导航
     carInput.addEventListener('keydown', (e) => {
       const results = carResultBox.querySelectorAll('div[onmousedown]');
+      // 不能直接在选择器中使用包含斜杠的类名，改为运行时检查
       const currentIndex = Array.from(results).findIndex(item => item.classList.contains('bg-primary/10'));
       
       switch (e.key) {
@@ -215,9 +216,9 @@ export class CarSearch {
           break;
         case 'Enter':
           e.preventDefault();
-          const selectedItem = carResultBox.querySelector('div[onmousedown].bg-primary/10');
+          const selectedItem = Array.from(results).find(item => item.classList.contains('bg-primary/10'));
           if (selectedItem) {
-            selectedItem.click();
+            selectedItem.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
           }
           break;
         case 'Escape':
@@ -433,11 +434,13 @@ export class CarSearch {
     const searchInput = Utils.getElement('searchCarInput');
     if (!carResultBox || !searchInput) return;
     
-    // 定位下拉菜单 - 相对定位，固定在搜索栏下方
+    // 定位下拉菜单 - 考虑滚动偏移，确保滚动后位置正确
     const inputRect = searchInput.getBoundingClientRect();
+    const top = window.scrollY + inputRect.bottom + 5;
+    const left = window.scrollX + inputRect.left;
     carResultBox.style.position = 'absolute';
-    carResultBox.style.top = `${inputRect.bottom + 5}px`;
-    carResultBox.style.left = `${inputRect.left}px`;
+    carResultBox.style.top = `${top}px`;
+    carResultBox.style.left = `${left}px`;
     carResultBox.style.width = `${inputRect.width}px`;
     carResultBox.style.zIndex = '999999';
     
@@ -445,6 +448,7 @@ export class CarSearch {
       carResultBox.innerHTML = '<div class="px-4 py-2 text-gray-400 text-center">未找到相关车型</div>';
     } else {
       carResultBox.innerHTML = '';
+      const frag = document.createDocumentFragment();
       results.forEach(result => {
         const div = document.createElement('div');
         div.className = 'flex items-center gap-3 px-4 py-2 cursor-pointer hover:bg-gray-50 border-b last:border-b-0';
@@ -455,6 +459,8 @@ export class CarSearch {
           img.src = result.car.brandImage;
           img.alt = result.car.brand;
           img.className = 'w-8 h-8 object-contain rounded';
+          img.loading = 'lazy';
+          img.decoding = 'async';
           div.appendChild(img);
         }
         
@@ -518,8 +524,9 @@ export class CarSearch {
           this.selectCar(result.car, result.config);
         };
         
-        carResultBox.appendChild(div);
+        frag.appendChild(div);
       });
+      carResultBox.appendChild(frag);
     }
     
     Utils.toggleElement('searchCarResults', true);
