@@ -676,15 +676,17 @@ export class CarSearch {
       }
     };
 
-    // 主图
-    const baseImage = carData.image || carData.mainImage || '';
+    // 主图（兼容新结构 images.main）
+    const baseImage = (carData.images?.main) || carData.image || carData.mainImage || '';
     const imageAlt = carData.name || carData.carName || '';
     renderImage(baseImage, imageAlt);
 
-    // 颜色图片
+    // 颜色图片（兼容新结构 images.colors）
     if (carColorList) {
       carColorList.innerHTML = '';
-      const colors = Array.isArray(carData.colorImages) ? carData.colorImages : [];
+      const colors = Array.isArray(carData.images?.colors)
+        ? carData.images.colors.map(c => ({ colorName: c.name, image: c.url, colorHex: c.hex }))
+        : (Array.isArray(carData.colorImages) ? carData.colorImages : []);
       if (colors.length > 0) {
         const frag = document.createDocumentFragment();
         colors.forEach((c, idx) => {
@@ -692,9 +694,14 @@ export class CarSearch {
           btn.type = 'button';
           btn.className = 'w-6 h-6 rounded-full ring-2 ring-offset-1 ring-transparent hover:ring-primary transition';
           btn.title = c.colorName || `颜色${idx+1}`;
-          btn.style.backgroundImage = `url(${c.image})`;
-          btn.style.backgroundSize = 'cover';
-          btn.style.backgroundPosition = 'center';
+          // 如果有色值，优先用纯色背景；否则回退为背景图预览
+          if (c.colorHex) {
+            btn.style.background = c.colorHex;
+          } else if (c.image) {
+            btn.style.backgroundImage = `url(${c.image})`;
+            btn.style.backgroundSize = 'cover';
+            btn.style.backgroundPosition = 'center';
+          }
           btn.addEventListener('click', () => renderImage(c.image, imageAlt));
           frag.appendChild(btn);
         });

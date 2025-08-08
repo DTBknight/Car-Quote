@@ -660,13 +660,25 @@ class DataCollector {
           ]);
           const after = await getMainImageSrc();
           if (after && after !== before && after !== baseSrc) {
-            const label = await h.evaluate(el => {
+            const info = await h.evaluate(el => {
+              const toHex = (rgb) => {
+                if (!rgb) return '';
+                const m = rgb.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+                if (!m) return '';
+                const r = Number(m[1]).toString(16).padStart(2, '0');
+                const g = Number(m[2]).toString(16).padStart(2, '0');
+                const b = Number(m[3]).toString(16).padStart(2, '0');
+                return `#${r}${g}${b}`;
+              };
               const t = el.getAttribute('title');
-              if (t) return t;
-              const nearSpan = el.closest('li,div')?.querySelector('span');
-              return (nearSpan?.textContent || '').trim() || '颜色';
+              const span = el.closest('li,div')?.querySelector('span');
+              const label = (t || (span?.textContent || '')).trim() || '颜色';
+              const style = window.getComputedStyle(el);
+              const hex = toHex(style.borderColor || style.backgroundColor || '');
+              return { label, hex };
             });
-            collected.push({ colorName: label, image: after });
+            const url = after.startsWith('//') ? `https:${after}` : after;
+            collected.push({ colorName: info.label, image: url, colorHex: info.hex });
           }
         }
         // 去重（按图片地址）
@@ -770,10 +782,21 @@ class DataCollector {
       // 清理车型名称，如果包含品牌名则只保留车型名称
       const cleanedCarName = this.cleanCarName(carBasicInfo.carName, brand);
       
+      // 构造更规范的 images 结构，保持向后兼容
+      const normalizedColorImages = (colorImages || []).map(c => ({
+        colorName: c.colorName || '',
+        image: (c.image && c.image.startsWith('//')) ? `https:${c.image}` : c.image || '',
+        colorHex: c.colorHex || ''
+      }));
+
       return {
         carName: cleanedCarName,
-        mainImage: carBasicInfo.mainImage,
-        colorImages,
+        mainImage: (carBasicInfo.mainImage && carBasicInfo.mainImage.startsWith('//')) ? `https:${carBasicInfo.mainImage}` : carBasicInfo.mainImage,
+        colorImages: normalizedColorImages,
+        images: {
+          main: (carBasicInfo.mainImage && carBasicInfo.mainImage.startsWith('//')) ? `https:${carBasicInfo.mainImage}` : carBasicInfo.mainImage,
+          colors: normalizedColorImages.map(c => ({ name: c.colorName, url: c.image, hex: c.colorHex }))
+        },
         configs
       };
     } catch (error) {
