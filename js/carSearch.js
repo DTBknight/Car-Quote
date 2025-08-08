@@ -28,23 +28,13 @@ export class CarSearch {
       // 从网络加载（带多源与超时回退）
       if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
 
-      const httpOrigin = /^https?:\/\//i.test(window.location.origin || '');
-      const preferredLocalBases = httpOrigin
-        ? [
-            `${window.location.origin}/data/`,
-            '/data/',
-            './data/'
-          ]
-        : ['./data/'];
-      const remoteBases = ['https://dbtknight.netlify.app/data/'];
+      // 仅使用线上数据源，默认使用 Netlify；允许通过 window.__CARQUOTE_DATA_BASE__ 覆盖
       const overrideBase = (typeof window !== 'undefined' && window.__CARQUOTE_DATA_BASE__)
         ? (window.__CARQUOTE_DATA_BASE__.endsWith('/') ? window.__CARQUOTE_DATA_BASE__ : `${window.__CARQUOTE_DATA_BASE__}/`)
         : null;
       const dataBases = [
-        ...(overrideBase ? [overrideBase] : []),
-        ...preferredLocalBases,
-        ...remoteBases
-      ].filter(Boolean);
+        overrideBase || 'https://dbtknight.netlify.app/data/'
+      ];
 
       const fetchWithTimeout = async (url, options = {}, timeoutMs = 12000) => {
         const controller = new AbortController();
@@ -57,23 +47,14 @@ export class CarSearch {
       };
 
       const loadBrandsJson = async () => {
-        const attempts = dataBases.map(base => {
-          const url = `${base}brands.json`;
-          return (async () => {
-            if (CONFIG.APP.DEBUG) console.log(`🌐 尝试加载: ${url}`);
-            const res = await fetchWithTimeout(url, {}, 15000);
-            if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-            const json = await res.json();
-            if (!Array.isArray(json) || json.length === 0) throw new Error('empty brands');
-            return { base, brands: json };
-          })();
-        });
-        // 竞争获取，谁先成功用谁
-        try {
-          return await Promise.any(attempts);
-        } catch (err) {
-          throw new Error('无法加载 brands.json（所有数据源均失败）');
-        }
+        const base = dataBases[0];
+        const url = `${base}brands.json`;
+        if (CONFIG.APP.DEBUG) console.log(`🌐 加载: ${url}`);
+        const res = await fetchWithTimeout(url, {}, 15000);
+        if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+        const json = await res.json();
+        if (!Array.isArray(json) || json.length === 0) throw new Error('brands.json 为空或格式错误');
+        return { base, brands: json };
       };
 
       const { base: dataBaseUrl, brands } = await loadBrandsJson();
