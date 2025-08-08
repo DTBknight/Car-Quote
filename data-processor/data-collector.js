@@ -428,10 +428,27 @@ class DataCollector {
     try {
       // 1. 采集车型基本信息
       const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
-      await pTimeout(
-        page.goto(urlSeries, { waitUntil: 'networkidle2' }),
-        { milliseconds: config.crawler.timeout }
-      );
+      // 更稳健的加载策略：domcontentloaded -> load -> 无 waitUntil
+      try {
+        await pTimeout(
+          page.goto(urlSeries, { waitUntil: 'domcontentloaded' }),
+          { milliseconds: config.crawler.timeout }
+        );
+      } catch (e1) {
+        console.warn(`⚠️ 车型 ${carId} domcontentloaded 超时，回退到 load: ${e1.message}`);
+        try {
+          await pTimeout(
+            page.goto(urlSeries, { waitUntil: 'load' }),
+            { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) }
+          );
+        } catch (e2) {
+          console.warn(`⚠️ 车型 ${carId} load 仍超时，最后尝试不设置 waitUntil: ${e2.message}`);
+          await pTimeout(
+            page.goto(urlSeries),
+            { milliseconds: Math.min(config.crawler.timeout + 15000, 40000) }
+          );
+        }
+      }
       
       await new Promise(resolve => setTimeout(resolve, 1000)); // 固定1秒等待
       
@@ -461,10 +478,18 @@ class DataCollector {
 
       // 2. 采集配置信息
       const urlParams = `https://www.dongchedi.com/auto/params-carIds-x-${carId}`;
-      await pTimeout(
-        page.goto(urlParams, { waitUntil: 'domcontentloaded' }), // 改为更快的加载策略
-        { milliseconds: config.crawler.timeout }
-      );
+      try {
+        await pTimeout(
+          page.goto(urlParams, { waitUntil: 'domcontentloaded' }), // 更快的加载策略
+          { milliseconds: config.crawler.timeout }
+        );
+      } catch (e3) {
+        console.warn(`⚠️ 车型 ${carId} 参数页 domcontentloaded 超时，回退到 load: ${e3.message}`);
+        await pTimeout(
+          page.goto(urlParams, { waitUntil: 'load' }),
+          { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) }
+        );
+      }
       
       await new Promise(resolve => setTimeout(resolve, 1000)); // 固定1秒等待
 
