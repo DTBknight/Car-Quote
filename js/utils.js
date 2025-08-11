@@ -155,7 +155,8 @@ export class Utils {
     const flags = {
       'USD': '🇺🇸',
       'EUR': '🇪🇺',
-      'GBP': '🇬🇧'
+      'GBP': '🇬🇧',
+      'CNY': '🇨🇳'
     };
     return flags[currency] || '🇺🇸';
   }
@@ -165,7 +166,8 @@ export class Utils {
     const names = {
       'USD': '美元 (USD)',
       'EUR': '欧元 (EUR)',
-      'GBP': '英镑 (GBP)'
+      'GBP': '英镑 (GBP)',
+      'CNY': '人民币 (CNY)'
     };
     return names[currency] || '美元 (USD)';
   }

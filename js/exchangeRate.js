@@ -11,7 +11,8 @@ export class ExchangeRateManager {
     this.fallbackRates = {
       USD: 7.2,
       EUR: 7.8,
-      GBP: 9.1
+      GBP: 9.1,
+      CNY: 1.0
     };
   }
   
@@ -106,6 +107,9 @@ export class ExchangeRateManager {
       rate = rates.CNY / rates.EUR;
     } else if (currency === 'GBP') {
       rate = rates.CNY / rates.GBP;
+    } else if (currency === 'CNY') {
+      // 人民币对人民币，固定为 1
+      rate = 1;
     }
     
     // 验证汇率是否合理
