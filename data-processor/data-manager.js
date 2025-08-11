@@ -21,16 +21,44 @@ class DataManager {
     // 检查是否为更新操作
     const existingData = this.checkExistingData(brand);
     const isUpdate = existingData.exists && existingData.hasData;
+
+    // 计算变更摘要
+    const summarizeChanges = (oldContent, newContent) => {
+      const oldCars = (oldContent && Array.isArray(oldContent.cars)) ? oldContent.cars : [];
+      const newCars = Array.isArray(newContent.cars) ? newContent.cars : [];
+      const toConfigSig = (c) => (c.configs || []).map(cfg => `${cfg.configName}::${cfg.price}`).sort();
+      const oldMap = new Map(oldCars.map(c => [c.carName, toConfigSig(c)]));
+      const newMap = new Map(newCars.map(c => [c.carName, toConfigSig(c)]));
+      const oldNames = new Set(oldMap.keys());
+      const newNames = new Set(newMap.keys());
+      const addedCars = [...newNames].filter(n => !oldNames.has(n));
+      const removedCars = [...oldNames].filter(n => !newNames.has(n));
+      const updatedCars = [...newNames]
+        .filter(n => oldNames.has(n))
+        .filter(n => JSON.stringify(oldMap.get(n)) !== JSON.stringify(newMap.get(n)));
+      return {
+        addedCars,
+        removedCars,
+        updatedCars,
+        counts: {
+          added: addedCars.length,
+          removed: removedCars.length,
+          updated: updatedCars.length,
+          total: newCars.length,
+        }
+      };
+    };
+    const changeSummary = summarizeChanges(existingData.content, result);
     
     fs.writeFileSync(filePath, JSON.stringify(result, null, 2));
     
     if (isUpdate) {
-      console.log(`✅ 品牌 ${brand} 数据已更新: ${data.cars.length} 个车型`);
+      console.log(`✅ 品牌 ${brand} 数据已更新: ${data.cars.length} 个车型 (新增 ${changeSummary.counts.added} / 删除 ${changeSummary.counts.removed} / 变更 ${changeSummary.counts.updated})`);
     } else {
       console.log(`✅ 品牌 ${brand} 数据已保存: ${data.cars.length} 个车型`);
     }
     
-    return filePath;
+    return { filePath, changeSummary };
   }
 
   async validateBrandData(brand, data) {

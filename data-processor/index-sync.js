@@ -144,6 +144,18 @@ class DataSyncProcessor {
       completedBrands: progress.completed,
       failedBrands: progress.failed
     };
+    // 合并 latest 变化明细
+    try {
+      const fs = require('fs');
+      const path = require('path');
+      const latestPath = path.join(__dirname, 'weekly-report-latest.json');
+      if (fs.existsSync(latestPath)) {
+        const latest = JSON.parse(fs.readFileSync(latestPath, 'utf-8'));
+        report.changes = latest.changes || [];
+        // 清理 latest 以便下次重新累积
+        fs.unlinkSync(latestPath);
+      }
+    } catch (_) {}
     
     const reportFile = path.join(__dirname, `weekly-report-${new Date().toISOString().split('T')[0]}.json`);
     fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));

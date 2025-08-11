@@ -159,9 +159,28 @@ class CarDataProcessor {
     try {
       const data = await this.dataCollector.collectCarData(brand, brandIds);
       
-      if (await this.dataManager.validateBrandData(brand, data)) {
-        await this.dataManager.saveBrandData(brand, data);
-        return true;
+       if (await this.dataManager.validateBrandData(brand, data)) {
+         const { changeSummary } = await this.dataManager.saveBrandData(brand, data);
+         // 写入每周报告增量条目
+         try {
+           const fs = require('fs');
+           const path = require('path');
+           const reportPath = path.join(__dirname, 'weekly-report-latest.json');
+           let report = { changes: [] };
+           if (fs.existsSync(reportPath)) {
+             try { report = JSON.parse(fs.readFileSync(reportPath, 'utf-8')) || { changes: [] }; } catch (_) {}
+           }
+           report.changes.push({
+             brand,
+             timestamp: new Date().toISOString(),
+             counts: changeSummary.counts,
+             addedCars: changeSummary.addedCars.slice(0, 20),
+             removedCars: changeSummary.removedCars.slice(0, 20),
+             updatedCars: changeSummary.updatedCars.slice(0, 20)
+           });
+           fs.writeFileSync(reportPath, JSON.stringify(report, null, 2));
+         } catch (_) {}
+         return true;
       } else {
         console.warn(`⚠️ 品牌 ${brand} 数据验证失败`);
         return false;
