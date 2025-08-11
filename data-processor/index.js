@@ -8,8 +8,8 @@ const cliProgress = require('cli-progress');
 const colors = require('colors');
 const { getRandomUserAgent, getRandomViewport, getRandomDelay } = require('./anti-detection');
 
-// 品牌ID映射
-const brandIdsMap = {
+// 品牌ID映射（原始，后续按ID排序生成有序映射）
+const brandIdsMapRaw = {
   Volkswagen: 1, // 大众
   Audi: [2, 10362],      // 奥迪
   Benz: 3,      // 奔驰
@@ -129,9 +129,14 @@ const brandIdsMap = {
   Luxeed: 883, // 智界
   Maextro: 10293, // 尊界
 };
+// 生成按主ID升序的有序映射（多ID取首个ID参与排序）
+const __getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
+const brandIdsMap = Object.fromEntries(
+  Object.entries(brandIdsMapRaw).sort((a, b) => __getPrimaryId(a[1]) - __getPrimaryId(b[1]))
+);
 
-// 品牌ID与中文名映射
-const brandNameMap = {
+// 品牌ID与中文名映射（原始，后续按ID排序生成有序映射）
+const brandNameMapRaw = {
   1: '大众',
   2: '奥迪',
   10362: '奥迪', // 奥迪的第二个ID
@@ -256,6 +261,10 @@ const brandNameMap = {
   883: '智界',
   10293: '尊界',
 };
+// 生成按数值ID升序的有序映射
+const brandNameMap = Object.fromEntries(
+  Object.entries(brandNameMapRaw).sort((a, b) => Number(a[0]) - Number(b[0]))
+);
 
 async function collectCarData(brand) {
   const brandIds = Array.isArray(brandIdsMap[brand]) ? brandIdsMap[brand] : [brandIdsMap[brand]];
