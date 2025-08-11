@@ -106,22 +106,31 @@ const brandIdsMap = {
   Qoros: 67, // 观致
   Renault: 63, // 雷诺
   Roewe: 36, // 荣威
-  Skoda: 6, // 斯柯达
-  Smart: 66, // Smart
-  Subaru: 23, // 斯巴鲁
+  Skoda: 23, // 斯柯达
+  Smart: 48, // Smart
+  Subaru: 33, // 斯巴鲁
   Suzuki: 11, // 铃木
-  Tesla: 200, // 特斯拉
+  Tesla: 63, // 特斯拉
   Toyota: 5, // 丰田
   Volkswagen: 1, // 大众
-  Volvo: 21, // 沃尔沃
-  Wey: 24, // WEY
+  Volvo: 24, // 沃尔沃
+  Wey: 66, // WEY
   Wuling: 39, // 五菱
-  Xpeng: 203, // 小鹏
+  Xpeng: 195, // 小鹏
   Yangwang: 546, // 仰望
   Firefly: 10363, // 萤火虫
   IM: 419, // 智己
   Luxeed: 883, // 智界
   Maextro: 10293, // 尊界
+  // 以下为补齐的缺失品牌，来自 index.js 的权威映射
+  Livan: 381, // 睿蓝
+  Tank: 425, // 坦克
+  Citroen: 21, // 雪铁龙
+  Hyundai: 11, // 现代
+  Infiniti: 29, // 英菲尼迪
+  FAW: 67, // 一汽
+  Denza: 159, // 腾势
+  Deepal: 515, // 深蓝
 };
 
 // 主处理器

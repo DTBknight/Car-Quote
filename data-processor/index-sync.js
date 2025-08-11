@@ -51,8 +51,9 @@ class DataSyncProcessor {
     const startTime = Date.now();
     const progress = await this.loadProgress();
     
-    // 获取所有品牌ID
-    const allBrandIds = this.getAllBrandIds();
+    // 获取所有品牌ID（从权威映射中动态读取，避免硬编码缺失）
+    const { brandIdsMap } = require('./index-optimized');
+    const allBrandIds = Object.keys(brandIdsMap);
     
     // 定期执行时，处理所有品牌（完整更新）
     const brandsToProcess = allBrandIds;
@@ -143,25 +144,7 @@ class DataSyncProcessor {
     await this.log(`📊 执行报告已保存: ${reportFile}`);
   }
 
-  getAllBrandIds() {
-    // 返回所有品牌名称列表
-    return [
-      'Volkswagen', 'Audi', 'Benz', 'BMW', 'Toyota', 'Ford', 'Honda', 'GWM', 'Changan', 'Chery',
-      'Buick', 'Jeep', 'Mazda', 'Kia', 'LandRover', 'BYD', 'Haval', 'Bestune', 'Porsche',
-      'Lexus', 'Lincoln', 'Bentley', 'RollsRoyce', 'Lamborghini', 'Ferrari', 'Maserati', 'AstonMartin',
-      'AlfaRomeo', 'Cadillac', 'Jaguar', 'Peugeot', 'Mini', 'McLaren', 'Lotus', 'ChanganNevo',
-      'Hongqi', 'Nio', 'Xpeng', 'LiAuto', 'Zeekr', 'Leapmotor', 'Neta', 'IM', 'Avatr', 'Deepal',
-      'Denza', 'Aion', 'Arcfox', 'Dongfeng', 'FAW', 'Geely', 'GeelyGalaxy', 'LynkCo', 'Roewe',
-      'Trumpchi', 'Jetour', 'JAC', 'JMC', 'Foton', 'Forthing', 'FormulaLeopard', 'Firefly',
-      'Hama', 'Hengchi', 'GMC', 'Genesis', 'Hyundai', 'Infiniti', 'Nissan', 'Subaru', 'Mitsubishi',
-      'Suzuki', 'Daihatsu', 'Isuzu', 'Volvo', 'Skoda', 'Seat', 'Citroen', 'DS', 'Renault', 'Fiat', 'Lancia',
-      'Opel', 'Vauxhall', 'Saab', 'Koenigsegg', 'Polestar', 'Smart',
-      'Wuling', 'Baojun', 'Ora', 'Tank', 'Wey', 'Voyah', 'Yangwang', 'Xiaomi',
-      'iCAR', 'Luxeed', 'Stelato', 'Onvo', 'RisingAuto', 'Rox', 'Maextro', 'Landian',
-      'Kaicene', 'Kaiyi', 'Mhero', 'Nami', 'Geome', 'Livan',
-      'Fengon', 'BJSUV', 'BAW', 'BAIC', 'Aeolus', 'Aito', 'eπ', 'Hycan', 'Hyper'
-    ];
-  }
+  // 移除硬编码品牌列表，统一从 index-optimized 的 brandIdsMap 读取
 
   async delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
