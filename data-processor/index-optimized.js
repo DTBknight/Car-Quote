@@ -253,7 +253,19 @@ async function main() {
     
     if (!brand) {
       console.error('❌ 请在命令行参数中指定品牌名或 all');
-      console.log('📋 可用品牌:', Object.keys(brandIdsMap).join(', '));
+      // 按 index.js 的品牌ID顺序输出可用品牌列表（多ID取首个ID）
+      try {
+        const { brandIdsMap: referenceMap } = require('./index');
+        const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
+        const orderMap = Object.entries(referenceMap)
+          .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))
+          .sort((a, b) => a.id - b.id)
+          .reduce((acc, cur, idx) => { acc[cur.name] = idx; return acc; }, {});
+        const sortedBrands = Object.keys(brandIdsMap).sort((a, b) => (orderMap[a] ?? Number.MAX_SAFE_INTEGER) - (orderMap[b] ?? Number.MAX_SAFE_INTEGER));
+        console.log('📋 可用品牌:', sortedBrands.join(', '));
+      } catch (_) {
+        console.log('📋 可用品牌:', Object.keys(brandIdsMap).join(', '));
+      }
       process.exit(1);
     }
 
