@@ -1,9 +1,69 @@
 {
-  "brand": "哈弗",
+  "brand": "Haval",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/d557b170618043b5911d036fa7c8263f~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "哈弗赤兔",
+      "carName": "大狗",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/571c86de68d746fa9abc8035deff29b4~1200x0.png",
+      "configs": [
+        {
+          "configName": "哈弗大狗 2026款 1.5T 两驱 拉布拉多版",
+          "price": "12.39万",
+          "fuelType": "汽油",
+          "size": "4620x1890x1780",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "哈弗大狗 2026款 1.5T 两驱 边牧版",
+          "price": "12.99万",
+          "fuelType": "汽油",
+          "size": "4620x1890x1780",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "哈弗大狗 2026款 2.0T 四驱 中华田园犬版",
+          "price": "14.99万",
+          "fuelType": "汽油",
+          "size": "4620x1890x1780",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "哈弗大狗 2024款 1.5T 两驱 拉布拉多版",
+          "price": "12.39万",
+          "fuelType": "汽油",
+          "size": "4620x1890x1780",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "哈弗大狗 2024款 1.5T 两驱 边牧版",
+          "price": "12.99万",
+          "fuelType": "汽油",
+          "size": "4620x1890x1780",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "哈弗大狗 2024款 2.0T 四驱 中华田园犬版",
+          "price": "14.99万",
+          "fuelType": "汽油",
+          "size": "4620x1890x1780",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "赤兔",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5e76331b96f4f09b57169626a434913~1200x0.png",
       "configs": [
         {
@@ -58,12 +118,99 @@
           "size": "4470x1898x1625",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5L 101马力 L4 油电混动"
+          "power": "油电混合 156马力"
         }
       ]
     },
     {
-      "carName": "哈弗H6",
+      "carName": "H9",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a29e89dd1330408d8ffd98418164e3fb~1200x0.png",
+      "configs": [
+        {
+          "configName": "哈弗H9 2024款 2.0T 汽油四驱探境版 5座",
+          "price": "19.99万",
+          "fuelType": "汽油",
+          "size": "5070x1976x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "2.0T 224马力 L4"
+        },
+        {
+          "configName": "哈弗H9 2024款 2.0T 汽油四驱拓境版 5座",
+          "price": "21.59万",
+          "fuelType": "汽油",
+          "size": "5070x1976x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "2.0T 224马力 L4"
+        },
+        {
+          "configName": "哈弗H9 2024款 2.0T 汽油四驱拓境版 7座",
+          "price": "22.39万",
+          "fuelType": "汽油",
+          "size": "5070x1976x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "2.0T 224马力 L4"
+        },
+        {
+          "configName": "哈弗H9 2024款 2.0T 汽油四驱极境版 5座",
+          "price": "22.99万",
+          "fuelType": "汽油",
+          "size": "5070x1960x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "2.0T 224马力 L4"
+        },
+        {
+          "configName": "哈弗H9 2024款 2.0T 汽油四驱极境版 7座",
+          "price": "23.79万",
+          "fuelType": "汽油",
+          "size": "5070x1960x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "2.0T 224马力 L4"
+        },
+        {
+          "configName": "哈弗H9 2024款 2.4T 柴油四驱拓境版 5座",
+          "price": "23.39万",
+          "fuelType": "柴油",
+          "size": "5070x1976x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": ""
+        },
+        {
+          "configName": "哈弗H9 2024款 2.4T 柴油四驱拓境版 7座",
+          "price": "24.19万",
+          "fuelType": "柴油",
+          "size": "5070x1976x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": ""
+        },
+        {
+          "configName": "哈弗H9 2024款 2.4T 柴油四驱极境版 5座",
+          "price": "24.79万",
+          "fuelType": "柴油",
+          "size": "5070x1960x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": ""
+        },
+        {
+          "configName": "哈弗H9 2024款 2.4T 柴油四驱极境版 7座",
+          "price": "25.59万",
+          "fuelType": "柴油",
+          "size": "5070x1960x1930",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": ""
+        }
+      ]
+    },
+    {
+      "carName": "H6",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2ec7229b3295428dbbcc545492eaba29~1200x0.png",
       "configs": [
         {
@@ -159,40 +306,7 @@
       ]
     },
     {
-      "carName": "哈弗H6 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ed165fadd59bfaabda900ba03b3aaf7~1200x0.png",
-      "configs": [
-        {
-          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 55km 悦行版",
-          "price": "15.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4683x1886x1730",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电混动 177马力"
-        },
-        {
-          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 110km 悦行版",
-          "price": "16.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4683x1886x1730",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电混动 177马力"
-        },
-        {
-          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 110km 畅行版",
-          "price": "17.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4683x1886x1730",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电混动 177马力"
-        }
-      ]
-    },
-    {
-      "carName": "哈弗H5",
+      "carName": "H5",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5c44ea3c9d3b4b1c94140147636ddc67~1200x0.png",
       "configs": [
         {
@@ -229,7 +343,7 @@
           "size": "5190x1905x1864",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 166马力 L4"
+          "power": ""
         },
         {
           "configName": "哈弗H5 2025款 2.0T 柴油 领航自动四驱",
@@ -238,7 +352,7 @@
           "size": "5190x1905x1864",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 166马力 L4"
+          "power": ""
         },
         {
           "configName": "哈弗H5 2024款 2.0T 汽油 领创自动四驱",
@@ -283,7 +397,7 @@
           "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 166马力 L4"
+          "power": ""
         },
         {
           "configName": "哈弗H5 2023款 2.0T 汽油 回归定制版手动两驱",
@@ -301,12 +415,87 @@
           "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 166马力 L4"
+          "power": ""
         }
       ]
     },
     {
-      "carName": "哈弗神兽",
+      "carName": "H6 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ed165fadd59bfaabda900ba03b3aaf7~1200x0.png",
+      "configs": [
+        {
+          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 55km 悦行版",
+          "price": "15.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4683x1886x1730",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "插电混动 177马力"
+        },
+        {
+          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 110km 悦行版",
+          "price": "16.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4683x1886x1730",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "插电混动 177马力"
+        },
+        {
+          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 110km 畅行版",
+          "price": "17.38万",
+          "fuelType": "插电式混合动力",
+          "size": "4683x1886x1730",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "插电混动 177马力"
+        }
+      ]
+    },
+    {
+      "carName": "二代大狗",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5e6be09924d41e9804fdec8ca855b1a~1200x0.png",
+      "configs": [
+        {
+          "configName": "哈弗二代大狗 2023款 1.5T 两驱潮野版Plus",
+          "price": "13.58万",
+          "fuelType": "汽油",
+          "size": "4705x1908x1780",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "哈弗二代大狗 2023款 2.0T 两驱潮野版",
+          "price": "13.78万",
+          "fuelType": "汽油",
+          "size": "4705x1908x1780",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "哈弗二代大狗 2023款 2.0T 两驱潮野版Plus",
+          "price": "14.68万",
+          "fuelType": "汽油",
+          "size": "4705x1908x1780",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "哈弗二代大狗 2023款 2.0T 四驱潮野Plus",
+          "price": "15.68万",
+          "fuelType": "汽油",
+          "size": "4705x1908x1780",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "power": "2.0T 238马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "神兽",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/840d45663eb34f4ba160d8b0866d6737~1200x0.png",
       "configs": [
         {
@@ -370,7 +559,7 @@
           "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 154马力 L4"
+          "power": "油电混动 177马力"
         },
         {
           "configName": "哈弗神兽 2023款 1.5T 智擎版DHT",
@@ -379,7 +568,7 @@
           "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 154马力 L4"
+          "power": "油电混动 177马力"
         },
         {
           "configName": "哈弗神兽 2023款 1.5T 智享版DHT",
@@ -388,54 +577,12 @@
           "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 154马力 L4"
+          "power": "油电混动 177马力"
         }
       ]
     },
     {
-      "carName": "哈弗二代大狗",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5e6be09924d41e9804fdec8ca855b1a~1200x0.png",
-      "configs": [
-        {
-          "configName": "哈弗二代大狗 2023款 1.5T 两驱潮野版Plus",
-          "price": "13.58万",
-          "fuelType": "汽油",
-          "size": "4705x1908x1780",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
-        },
-        {
-          "configName": "哈弗二代大狗 2023款 2.0T 两驱潮野版",
-          "price": "13.78万",
-          "fuelType": "汽油",
-          "size": "4705x1908x1780",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "哈弗二代大狗 2023款 2.0T 两驱潮野版Plus",
-          "price": "14.68万",
-          "fuelType": "汽油",
-          "size": "4705x1908x1780",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "哈弗二代大狗 2023款 2.0T 四驱潮野Plus",
-          "price": "15.68万",
-          "fuelType": "汽油",
-          "size": "4705x1908x1780",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "2.0T 238马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "哈弗二代大狗PHEV",
+      "carName": "二代大狗PHEV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/006097e8992d467e9a7fda00683bd9a8~1200x0.png",
       "configs": [
         {
@@ -477,176 +624,8 @@
       ]
     },
     {
-      "carName": "哈弗大狗",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/571c86de68d746fa9abc8035deff29b4~1200x0.png",
-      "configs": [
-        {
-          "configName": "哈弗大狗 2026款 1.5T 两驱 拉布拉多版",
-          "price": "12.39万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
-        },
-        {
-          "configName": "哈弗大狗 2026款 1.5T 两驱 边牧版",
-          "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
-        },
-        {
-          "configName": "哈弗大狗 2026款 2.0T 四驱 中华田园犬版",
-          "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "哈弗大狗 2024款 1.5T 两驱 拉布拉多版",
-          "price": "12.39万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
-        },
-        {
-          "configName": "哈弗大狗 2024款 1.5T 两驱 边牧版",
-          "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
-        },
-        {
-          "configName": "哈弗大狗 2024款 2.0T 四驱 中华田园犬版",
-          "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "哈弗猛龙",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5b7e26353a0248dda588fb0ab93f517f~1200x0.png",
-      "configs": [
-        {
-          "configName": "哈弗猛龙 2025款 2.0T 四驱Pro",
-          "price": "15.69万",
-          "fuelType": "汽油",
-          "size": "4800x1950x1822",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "哈弗猛龙 2025款 2.0T 四驱Ultra",
-          "price": "16.69万",
-          "fuelType": "汽油",
-          "size": "4800x1950x1843",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "哈弗枭龙",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dbea055d8ff44e90a99542fc2cf7a8a4~1200x0.png",
-      "configs": [
-        {
-          "configName": "哈弗枭龙 2023款 1.5L 52km 领航版",
-          "price": "13.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4600x1877x1675",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 156马力"
-        },
-        {
-          "configName": "哈弗枭龙 2023款 1.5L 110km 领动版",
-          "price": "14.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4600x1877x1675",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 156马力"
-        },
-        {
-          "configName": "哈弗枭龙 2023款 1.5L 110km 领航版",
-          "price": "15.68万",
-          "fuelType": "插电式混合动力",
-          "size": "4600x1877x1675",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 156马力"
-        }
-      ]
-    },
-    {
-      "carName": "哈弗枭龙MAX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c10b13cc940841ed90f9c6390b615684~1200x0.png",
-      "configs": [
-        {
-          "configName": "哈弗枭龙MAX 2025款 1.5L Hi4 110 Air",
-          "price": "13.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 299马力"
-        },
-        {
-          "configName": "哈弗枭龙MAX 2025款 1.5L Hi4 110 Pro",
-          "price": "14.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 299马力"
-        },
-        {
-          "configName": "哈弗枭龙MAX 2025款 1.5L Hi4 110 Plus智驾版",
-          "price": "15.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 299马力"
-        },
-        {
-          "configName": "哈弗枭龙MAX 2025款 1.5L Hi4 165 Plus长续航版",
-          "price": "15.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 299马力"
-        },
-        {
-          "configName": "哈弗枭龙MAX 2025款 1.5L Hi4 165 Ultra智驾版",
-          "price": "16.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
-          "manufacturer": "长城汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 299马力"
-        }
-      ]
-    },
-    {
-      "carName": "哈弗猛龙PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/db62825dcd9e441b9035aac0d198bbb5~1200x0.png",
+      "carName": "猛龙PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e65004d1546f4606ba126f21286152e6~1200x0.png",
       "configs": [
         {
           "configName": "哈弗猛龙PHEV 2024款 1.5T Hi4 102 Air",
@@ -687,89 +666,110 @@
       ]
     },
     {
-      "carName": "哈弗H9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a29e89dd1330408d8ffd98418164e3fb~1200x0.png",
+      "carName": "猛龙",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5b7e26353a0248dda588fb0ab93f517f~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱探境版 5座",
-          "price": "19.99万",
+          "configName": "哈弗猛龙 2025款 2.0T 四驱Pro",
+          "price": "15.69万",
           "fuelType": "汽油",
-          "size": "5070x1976x1930",
+          "size": "4800x1950x1822",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱拓境版 5座",
-          "price": "21.59万",
+          "configName": "哈弗猛龙 2025款 2.0T 四驱Ultra",
+          "price": "16.69万",
           "fuelType": "汽油",
-          "size": "5070x1976x1930",
+          "size": "4800x1950x1843",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "枭龙",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dbea055d8ff44e90a99542fc2cf7a8a4~1200x0.png",
+      "configs": [
+        {
+          "configName": "哈弗枭龙 2023款 1.5L 52km 领航版",
+          "price": "13.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4600x1877x1675",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 156马力"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱拓境版 7座",
-          "price": "22.39万",
-          "fuelType": "汽油",
-          "size": "5070x1976x1930",
+          "configName": "哈弗枭龙 2023款 1.5L 110km 领动版",
+          "price": "14.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4600x1877x1675",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 156马力"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱极境版 5座",
-          "price": "22.99万",
-          "fuelType": "汽油",
-          "size": "5070x1960x1930",
+          "configName": "哈弗枭龙 2023款 1.5L 110km 领航版",
+          "price": "15.68万",
+          "fuelType": "插电式混合动力",
+          "size": "4600x1877x1675",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 156马力"
+        }
+      ]
+    },
+    {
+      "carName": "枭龙MAX PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c10b13cc940841ed90f9c6390b615684~1200x0.png",
+      "configs": [
+        {
+          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 110 Air",
+          "price": "13.18万",
+          "fuelType": "插电式混合动力",
+          "size": "4780x1895x1725",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "power": "插电式混动 299马力"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱极境版 7座",
-          "price": "23.79万",
-          "fuelType": "汽油",
-          "size": "5070x1960x1930",
+          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 110 Pro",
+          "price": "14.38万",
+          "fuelType": "插电式混合动力",
+          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "class": "中型SUV",
+          "power": "插电式混动 299马力"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱拓境版 5座",
-          "price": "23.39万",
-          "fuelType": "柴油",
-          "size": "5070x1976x1930",
+          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 110 Plus智驾版",
+          "price": "15.28万",
+          "fuelType": "插电式混合动力",
+          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.4T 186马力 L4"
+          "class": "中型SUV",
+          "power": "插电式混动 299马力"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱拓境版 7座",
-          "price": "24.19万",
-          "fuelType": "柴油",
-          "size": "5070x1976x1930",
+          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 165 Plus长续航版",
+          "price": "15.38万",
+          "fuelType": "插电式混合动力",
+          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.4T 186马力 L4"
+          "class": "中型SUV",
+          "power": "插电式混动 299马力"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱极境版 5座",
-          "price": "24.79万",
-          "fuelType": "柴油",
-          "size": "5070x1960x1930",
+          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 165 Ultra智驾版",
+          "price": "16.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.4T 186马力 L4"
-        },
-        {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱极境版 7座",
-          "price": "25.59万",
-          "fuelType": "柴油",
-          "size": "5070x1960x1930",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.4T 186马力 L4"
+          "class": "中型SUV",
+          "power": "插电式混动 299马力"
         }
       ]
     }

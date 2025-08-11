@@ -1,7 +1,22 @@
 {
-  "brand": "阿斯顿马丁",
+  "brand": "AstonMartin",
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/c60f4d8c5cd7418093eb6fee4729d2bf~tplv-resize:0:0.png",
   "cars": [
+    {
+      "carName": "Valiant",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0930c8199b394e24bd62d2bd3e9636be~1200x0.png",
+      "configs": [
+        {
+          "configName": "Valiant 2025款 5.2T 标准版",
+          "price": "3052.5万",
+          "fuelType": "",
+          "size": "",
+          "manufacturer": "",
+          "class": "",
+          "power": ""
+        }
+      ]
+    },
     {
       "carName": "阿斯顿·马丁DBX",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f02677c3f1cd4d6f8c50b3a2849545c0~1200x0.png",
@@ -13,7 +28,7 @@
           "size": "5039x1998x1680",
           "manufacturer": "阿斯顿·马丁",
           "class": "中大型SUV",
-          "power": "4.0T 707马力 V8 48V轻混"
+          "power": ""
         },
         {
           "configName": "阿斯顿·马丁DBX 2024款 3.0T STRAIGHT SIX",
@@ -22,7 +37,7 @@
           "size": "5039x1998x1680",
           "manufacturer": "阿斯顿·马丁",
           "class": "中大型SUV",
-          "power": "3.0T 435马力 L6 48V轻混"
+          "power": ""
         },
         {
           "configName": "阿斯顿·马丁DBX 2024款 4.0T V8",
@@ -45,17 +60,17 @@
       ]
     },
     {
-      "carName": "Valiant",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0930c8199b394e24bd62d2bd3e9636be~1200x0.png",
+      "carName": "Vantage",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6b4cc41400e3437fbf4024bc37f11401~1200x0.png",
       "configs": [
         {
-          "configName": "Valiant 2025款 5.2T 标准版",
-          "price": "3052.5万",
-          "fuelType": "",
-          "size": "",
-          "manufacturer": "",
-          "class": "",
-          "power": ""
+          "configName": "Vantage 2024款 4.0T V8 Coupe",
+          "price": "223.8万",
+          "fuelType": "汽油",
+          "size": "4495x1980x1275",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "跑车",
+          "power": "4.0T 665马力 V8"
         }
       ]
     },
@@ -80,21 +95,6 @@
           "manufacturer": "阿斯顿·马丁",
           "class": "跑车",
           "power": "4.0T 535马力 V8"
-        }
-      ]
-    },
-    {
-      "carName": "Vantage",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6b4cc41400e3437fbf4024bc37f11401~1200x0.png",
-      "configs": [
-        {
-          "configName": "Vantage 2024款 4.0T V8 Coupe",
-          "price": "223.8万",
-          "fuelType": "汽油",
-          "size": "4495x1980x1275",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "跑车",
-          "power": "4.0T 665马力 V8"
         }
       ]
     },

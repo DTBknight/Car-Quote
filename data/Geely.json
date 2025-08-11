@@ -1,7 +1,103 @@
 {
-  "brand": "吉利",
+  "brand": "Geely",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/1badee776354a960ac16444f51dad339~tplv-resize:100:100.image",
   "cars": [
+    {
+      "carName": "星越L",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/668512e1695c47809e77e628a72b661a~1200x0.png",
+      "configs": [
+        {
+          "configName": "星越L 2025款 2.0TD 两驱行云版",
+          "price": "15.67万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "星越L 2025款 2.0TD 高功自动两驱东方曜今朝版",
+          "price": "16.37万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "星越L 2025款 2.0TD 高功自动两驱东方曜揽星版",
+          "price": "16.97万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "星越L 2025款 2.0TD 高功自动四驱东方曜望月版",
+          "price": "17.97万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "星越L 2024款 油混 1.5T 星云版",
+          "price": "15.97万",
+          "fuelType": "油电混合",
+          "size": "4795x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "油电混合 136马力"
+        },
+        {
+          "configName": "星越L 2024款 油混 1.5T 星河版",
+          "price": "16.77万",
+          "fuelType": "油电混合",
+          "size": "4795x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "油电混合 136马力"
+        },
+        {
+          "configName": "星越L 2024款 油混 1.5T 天宫版",
+          "price": "17.77万",
+          "fuelType": "油电混合",
+          "size": "4795x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "油电混合 136马力"
+        },
+        {
+          "configName": "星越L 2024款 2.0TD DCT EVO两驱长风版",
+          "price": "14.77万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 218马力 L4"
+        },
+        {
+          "configName": "星越L 2024款 2.0TD 高功自动两驱云起版",
+          "price": "15.77万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        },
+        {
+          "configName": "星越L 2024款 2.0TD 高功自动两驱天际版",
+          "price": "16.87万",
+          "fuelType": "汽油",
+          "size": "4770x1895x1689",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 238马力 L4"
+        }
+      ]
+    },
     {
       "carName": "缤瑞",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1e32e2230ed7412d94b4abec86e1a6c9~1200x0.png",
@@ -40,30 +136,6 @@
           "size": "4710x1795x1455",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.5T 181马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "牛仔",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8bc2da9a1c134414bf09f882f8fb1fbd~1200x0.png",
-      "configs": [
-        {
-          "configName": "牛仔 2025款 1.5TD 潮玩版",
-          "price": "9.39万",
-          "fuelType": "汽油",
-          "size": "4442x1860x1770",
-          "manufacturer": "吉利汽车",
-          "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "牛仔 2025款 1.5TD 趣野版",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4442x1860x1770",
-          "manufacturer": "吉利汽车",
-          "class": "小型SUV",
           "power": "1.5T 181马力 L4"
         }
       ]
@@ -169,7 +241,7 @@
           "size": "4638x1820x1460",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.8L 132马力 L4"
+          "power": ""
         },
         {
           "configName": "帝豪 2024款 第4代 1.8L DHT醇享版",
@@ -178,7 +250,7 @@
           "size": "4638x1820x1460",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.8L 132马力 L4"
+          "power": ""
         },
         {
           "configName": "帝豪 2023款 第4代 冠军版 1.5L 手动豪华型",
@@ -223,7 +295,7 @@
           "size": "4638x1820x1460",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.8L 132马力 L4"
+          "power": ""
         }
       ]
     },
@@ -301,7 +373,7 @@
           "size": "4825x1880x1469",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.5T 163马力 L4 油电混动"
+          "power": "油电混合 136马力"
         },
         {
           "configName": "星瑞 2024款 2.0T 青云版",
@@ -328,7 +400,7 @@
           "size": "4825x1880x1469",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.5T 163马力 L4 油电混动"
+          "power": "油电混合 136马力"
         },
         {
           "configName": "星瑞 2024款 油混 1.5TD 天宫版",
@@ -337,12 +409,36 @@
           "size": "4825x1880x1469",
           "manufacturer": "吉利汽车",
           "class": "紧凑型车",
-          "power": "1.5T 163马力 L4 油电混动"
+          "power": "油电混合 136马力"
         }
       ]
     },
     {
-      "carName": "吉利ICON",
+      "carName": "牛仔",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8bc2da9a1c134414bf09f882f8fb1fbd~1200x0.png",
+      "configs": [
+        {
+          "configName": "牛仔 2025款 1.5TD 潮玩版",
+          "price": "9.39万",
+          "fuelType": "汽油",
+          "size": "4442x1860x1770",
+          "manufacturer": "吉利汽车",
+          "class": "小型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "牛仔 2025款 1.5TD 趣野版",
+          "price": "9.99万",
+          "fuelType": "汽油",
+          "size": "4442x1860x1770",
+          "manufacturer": "吉利汽车",
+          "class": "小型SUV",
+          "power": "1.5T 181马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "ICON",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3a9c247c6e234f30ba3395dacb0160e2~1200x0.png",
       "configs": [
         {
@@ -366,89 +462,44 @@
       ]
     },
     {
-      "carName": "博越L",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b98e6453000649b281a16bf4cbfd1500~1200x0.png",
+      "carName": "博越",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5cd4a11e209e43ef8bcab19198fa6483~1200x0.png",
       "configs": [
         {
-          "configName": "博越L 2025款 第四代 1.5TD DCT 扬帆",
-          "price": "9.99万",
+          "configName": "博越 2024款 1.5TD 龙腾版",
+          "price": "9.28万",
           "fuelType": "汽油",
-          "size": "4730x1910x1710",
+          "size": "4510x1865x1650",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
         },
         {
-          "configName": "博越L 2025款 第四代 1.5TD DCT 启程",
-          "price": "10.69万",
+          "configName": "博越 2024款 1.5TD 智联+",
+          "price": "10.28万",
           "fuelType": "汽油",
-          "size": "4730x1910x1710",
+          "size": "4510x1865x1650",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
         },
         {
-          "configName": "博越L 2025款 第四代 1.5TD DCT 山河",
-          "price": "11.69万",
+          "configName": "博越 2024款 1.5TD 智慧版",
+          "price": "10.88万",
           "fuelType": "汽油",
-          "size": "4730x1910x1710",
+          "size": "4510x1865x1650",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
         },
         {
-          "configName": "博越L 2025款 第四代 1.5TD DCT 锦绣",
-          "price": "12.69万",
+          "configName": "博越 2024款 1.5TD 智尊版",
+          "price": "11.88万",
           "fuelType": "汽油",
-          "size": "4730x1910x1710",
+          "size": "4510x1865x1650",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "博越L 2025款 第四代 2.0TD DCT 热爱",
-          "price": "12.69万",
-          "fuelType": "汽油",
-          "size": "4730x1910x1710",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 218马力 L4"
-        },
-        {
-          "configName": "博越L 2024款 1.5TD DCT龙腾版",
-          "price": "11.57万",
-          "fuelType": "汽油",
-          "size": "4670x1900x1705",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "博越L 2024款 1.5TD DCT尊贵版",
-          "price": "12.57万",
-          "fuelType": "汽油",
-          "size": "4670x1900x1705",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "博越L 2024款 1.5TD DCT旗舰版",
-          "price": "13.57万",
-          "fuelType": "汽油",
-          "size": "4670x1900x1705",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "博越L 2024款 2.0TD DCT智驾版",
-          "price": "14.97万",
-          "fuelType": "汽油",
-          "size": "4670x1900x1705",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 218马力 L4"
         }
       ]
     },
@@ -609,41 +660,119 @@
       ]
     },
     {
-      "carName": "博越",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2c8d6bbdfdbb45f29266faafd4857c90~1200x0.png",
+      "carName": "博越L",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b98e6453000649b281a16bf4cbfd1500~1200x0.png",
       "configs": [
         {
-          "configName": "博越 2024款 1.5TD 龙腾版",
-          "price": "9.28万",
+          "configName": "博越L 2025款 第四代 1.5TD DCT 扬帆",
+          "price": "9.99万",
           "fuelType": "汽油",
-          "size": "4510x1865x1650",
+          "size": "4730x1910x1710",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
         },
         {
-          "configName": "博越 2024款 1.5TD 智联+",
-          "price": "10.28万",
+          "configName": "博越L 2025款 第四代 1.5TD DCT 启程",
+          "price": "10.69万",
           "fuelType": "汽油",
-          "size": "4510x1865x1650",
+          "size": "4730x1910x1710",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
         },
         {
-          "configName": "博越 2024款 1.5TD 智慧版",
-          "price": "10.88万",
+          "configName": "博越L 2025款 第四代 1.5TD DCT 山河",
+          "price": "11.69万",
           "fuelType": "汽油",
-          "size": "4510x1865x1650",
+          "size": "4730x1910x1710",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
         },
         {
-          "configName": "博越 2024款 1.5TD 智尊版",
-          "price": "11.88万",
+          "configName": "博越L 2025款 第四代 1.5TD DCT 锦绣",
+          "price": "12.69万",
           "fuelType": "汽油",
-          "size": "4510x1865x1650",
+          "size": "4730x1910x1710",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "博越L 2025款 第四代 2.0TD DCT 热爱",
+          "price": "12.69万",
+          "fuelType": "汽油",
+          "size": "4730x1910x1710",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 218马力 L4"
+        },
+        {
+          "configName": "博越L 2024款 1.5TD DCT龙腾版",
+          "price": "11.57万",
+          "fuelType": "汽油",
+          "size": "4670x1900x1705",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "博越L 2024款 1.5TD DCT尊贵版",
+          "price": "12.57万",
+          "fuelType": "汽油",
+          "size": "4670x1900x1705",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "博越L 2024款 1.5TD DCT旗舰版",
+          "price": "13.57万",
+          "fuelType": "汽油",
+          "size": "4670x1900x1705",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "博越L 2024款 2.0TD DCT智驾版",
+          "price": "14.97万",
+          "fuelType": "汽油",
+          "size": "4670x1900x1705",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 218马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "豪越PRO",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/995f4838f95242dbb7fe9c6c3eff5f44~1200x0.png",
+      "configs": [
+        {
+          "configName": "豪越PRO 2025款 1.5TD DCT纵横+新春至尊版",
+          "price": "11.69万",
+          "fuelType": "汽油",
+          "size": "4518x1834x1715",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "豪越PRO 2024款 1.5TD DCT纵横版",
+          "price": "8.69万",
+          "fuelType": "汽油",
+          "size": "4518x1834x1715",
+          "manufacturer": "吉利汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 181马力 L4"
+        },
+        {
+          "configName": "豪越PRO 2024款 1.5TD DCT纵横+",
+          "price": "8.99万",
+          "fuelType": "汽油",
+          "size": "4518x1834x1715",
           "manufacturer": "吉利汽车",
           "class": "紧凑型SUV",
           "power": "1.5T 181马力 L4"
@@ -698,135 +827,6 @@
           "manufacturer": "吉利汽车",
           "class": "紧凑型MPV",
           "power": "1.5T 181马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "豪越PRO",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/995f4838f95242dbb7fe9c6c3eff5f44~1200x0.png",
-      "configs": [
-        {
-          "configName": "豪越PRO 2025款 1.5TD DCT纵横+新春至尊版",
-          "price": "11.69万",
-          "fuelType": "汽油",
-          "size": "4518x1834x1715",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "豪越PRO 2024款 1.5TD DCT纵横版",
-          "price": "8.69万",
-          "fuelType": "汽油",
-          "size": "4518x1834x1715",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
-        },
-        {
-          "configName": "豪越PRO 2024款 1.5TD DCT纵横+",
-          "price": "8.99万",
-          "fuelType": "汽油",
-          "size": "4518x1834x1715",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "星越L",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/668512e1695c47809e77e628a72b661a~1200x0.png",
-      "configs": [
-        {
-          "configName": "星越L 2025款 2.0TD 两驱行云版",
-          "price": "15.67万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "星越L 2025款 2.0TD 高功自动两驱东方曜今朝版",
-          "price": "16.37万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "星越L 2025款 2.0TD 高功自动两驱东方曜揽星版",
-          "price": "16.97万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "星越L 2025款 2.0TD 高功自动四驱东方曜望月版",
-          "price": "17.97万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "星越L 2024款 油混 1.5T 星云版",
-          "price": "15.97万",
-          "fuelType": "油电混合",
-          "size": "4795x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 163马力 L4 油电混动"
-        },
-        {
-          "configName": "星越L 2024款 油混 1.5T 星河版",
-          "price": "16.77万",
-          "fuelType": "油电混合",
-          "size": "4795x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 163马力 L4 油电混动"
-        },
-        {
-          "configName": "星越L 2024款 油混 1.5T 天宫版",
-          "price": "17.77万",
-          "fuelType": "油电混合",
-          "size": "4795x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 163马力 L4 油电混动"
-        },
-        {
-          "configName": "星越L 2024款 2.0TD DCT EVO两驱长风版",
-          "price": "14.77万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 218马力 L4"
-        },
-        {
-          "configName": "星越L 2024款 2.0TD 高功自动两驱云起版",
-          "price": "15.77万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
-        },
-        {
-          "configName": "星越L 2024款 2.0TD 高功自动两驱天际版",
-          "price": "16.87万",
-          "fuelType": "汽油",
-          "size": "4770x1895x1689",
-          "manufacturer": "吉利汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
         }
       ]
     }

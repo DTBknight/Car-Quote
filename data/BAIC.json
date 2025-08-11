@@ -1,54 +1,96 @@
 {
-  "brand": "北京汽车",
+  "brand": "BAIC",
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/6e45af447ab741c2862fd7e91c027432~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
-      "carName": "北京U7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39c0238e5d23f534a293315a321b8101~1200x0.png",
+      "carName": "北京X7 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e2e2004198f74765da22b6576fa5983~1200x0.png",
       "configs": [
         {
-          "configName": "北京U7 2019款 1.5T 手动精英版 国VI",
+          "configName": "北京X7 PHEV 2020款 1.5TD DCT致风版",
+          "price": "18.49万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 150马力"
+        },
+        {
+          "configName": "北京X7 PHEV 2020款 1.5TD DCT致潮版",
+          "price": "19.49万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 150马力"
+        },
+        {
+          "configName": "北京X7 PHEV 2020款 1.5TD DCT致领版",
+          "price": "21.69万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 150马力"
+        }
+      ]
+    },
+    {
+      "carName": "北京X3",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a706b5f340ca296181c9c32d5c45d45~1200x0.png",
+      "configs": [
+        {
+          "configName": "北京X3 2021款 1.5T 手动荣耀版",
+          "price": "5.99万",
+          "fuelType": "汽油",
+          "size": "4325x1830x1640",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "power": "1.5T 150马力 L4"
+        },
+        {
+          "configName": "北京X3 2021款 1.5T 手动荣耀版PLUS",
+          "price": "6.59万",
+          "fuelType": "汽油",
+          "size": "4325x1830x1640",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "power": "1.5T 150马力 L4"
+        },
+        {
+          "configName": "北京X3 2021款 1.5T 手动星耀版",
+          "price": "7.59万",
+          "fuelType": "汽油",
+          "size": "4325x1830x1640",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "power": "1.5T 150马力 L4"
+        },
+        {
+          "configName": "北京X3 2021款 1.5T CVT荣耀版",
+          "price": "6.99万",
+          "fuelType": "汽油",
+          "size": "4325x1830x1640",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "power": "1.5T 150马力 L4"
+        },
+        {
+          "configName": "北京X3 2021款 1.5T CVT荣耀版PLUS",
+          "price": "7.79万",
+          "fuelType": "汽油",
+          "size": "4325x1830x1640",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "power": "1.5T 150马力 L4"
+        },
+        {
+          "configName": "北京X3 2021款 1.5T CVT星耀版",
           "price": "8.79万",
           "fuelType": "汽油",
-          "size": "4785x1835x1490",
+          "size": "4325x1830x1640",
           "manufacturer": "北京汽车",
-          "class": "中型车",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京U7 2019款 1.5T 手动新智版 国VI",
-          "price": "9.29万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
-          "manufacturer": "北京汽车",
-          "class": "中型车",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京U7 2019款 1.5T CVT精英版 国VI",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
-          "manufacturer": "北京汽车",
-          "class": "中型车",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京U7 2019款 1.5T CVT新智版 国VI",
-          "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
-          "manufacturer": "北京汽车",
-          "class": "中型车",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京U7 2019款 1.5T CVT智领版 国VI",
-          "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
-          "manufacturer": "北京汽车",
-          "class": "中型车",
+          "class": "小型SUV",
           "power": "1.5T 150马力 L4"
         }
       ]
@@ -342,131 +384,53 @@
       ]
     },
     {
-      "carName": "北京X3",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a706b5f340ca296181c9c32d5c45d45~1200x0.png",
+      "carName": "北京U7",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39c0238e5d23f534a293315a321b8101~1200x0.png",
       "configs": [
         {
-          "configName": "北京X3 2021款 1.5T 手动荣耀版",
-          "price": "5.99万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T 手动荣耀版PLUS",
-          "price": "6.59万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T 手动星耀版",
-          "price": "7.59万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T CVT荣耀版",
-          "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T CVT荣耀版PLUS",
-          "price": "7.79万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T CVT星耀版",
+          "configName": "北京U7 2019款 1.5T 手动精英版 国VI",
           "price": "8.79万",
           "fuelType": "汽油",
-          "size": "4325x1830x1640",
+          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
-          "class": "小型SUV",
+          "class": "中型车",
           "power": "1.5T 150马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "北京X7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8e4e6266b6cb488293b705d89c8ab378~1200x0.png",
-      "configs": [
-        {
-          "configName": "北京X7 2025款 1.5TD 乐享",
-          "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
         },
         {
-          "configName": "北京X7 2024款 1.5TD 惠融版",
-          "price": "13.69万",
+          "configName": "北京U7 2019款 1.5T 手动新智版 国VI",
+          "price": "9.29万",
           "fuelType": "汽油",
-          "size": "4745x1892x1715",
+          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "class": "中型车",
+          "power": "1.5T 150马力 L4"
         },
         {
-          "configName": "北京X7 2024款 1.5TD 优享+PLUS",
-          "price": "12.99万",
+          "configName": "北京U7 2019款 1.5T CVT精英版 国VI",
+          "price": "9.99万",
           "fuelType": "汽油",
-          "size": "4745x1892x1715",
+          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "class": "中型车",
+          "power": "1.5T 150马力 L4"
         },
         {
-          "configName": "北京X7 2023款 1.5TD 优享+",
-          "price": "11.99万",
+          "configName": "北京U7 2019款 1.5T CVT新智版 国VI",
+          "price": "10.99万",
           "fuelType": "汽油",
-          "size": "4745x1892x1715",
+          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "class": "中型车",
+          "power": "1.5T 150马力 L4"
         },
         {
-          "configName": "北京X7 2023款 1.5TD 喜享+",
-          "price": "12.49万",
+          "configName": "北京U7 2019款 1.5T CVT智领版 国VI",
+          "price": "12.29万",
           "fuelType": "汽油",
-          "size": "4745x1892x1715",
+          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
-        },
-        {
-          "configName": "北京X7 2023款 1.5TD 超享+",
-          "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
-        },
-        {
-          "configName": "北京X7 2023款 1.5TD 尊享+",
-          "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "class": "中型车",
+          "power": "1.5T 150马力 L4"
         }
       ]
     },
@@ -555,35 +519,71 @@
       ]
     },
     {
-      "carName": "北京X7 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e2e2004198f74765da22b6576fa5983~1200x0.png",
+      "carName": "北京X7",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8e4e6266b6cb488293b705d89c8ab378~1200x0.png",
       "configs": [
         {
-          "configName": "北京X7 PHEV 2020款 1.5TD DCT致风版",
-          "price": "18.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1892x1715",
+          "configName": "北京X7 2025款 1.5TD 乐享",
+          "price": "11.99万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混动 150马力"
+          "power": "1.5T 188马力 L4"
         },
         {
-          "configName": "北京X7 PHEV 2020款 1.5TD DCT致潮版",
-          "price": "19.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1892x1715",
+          "configName": "北京X7 2024款 1.5TD 惠融版",
+          "price": "13.69万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混动 150马力"
+          "power": "1.5T 188马力"
         },
         {
-          "configName": "北京X7 PHEV 2020款 1.5TD DCT致领版",
-          "price": "21.69万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1892x1715",
+          "configName": "北京X7 2024款 1.5TD 优享+PLUS",
+          "price": "12.99万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混动 150马力"
+          "power": "1.5T 188马力"
+        },
+        {
+          "configName": "北京X7 2023款 1.5TD 优享+",
+          "price": "11.99万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力"
+        },
+        {
+          "configName": "北京X7 2023款 1.5TD 喜享+",
+          "price": "12.49万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力"
+        },
+        {
+          "configName": "北京X7 2023款 1.5TD 超享+",
+          "price": "12.99万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力"
+        },
+        {
+          "configName": "北京X7 2023款 1.5TD 尊享+",
+          "price": "13.99万",
+          "fuelType": "汽油",
+          "size": "4745x1892x1715",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力"
         }
       ]
     }

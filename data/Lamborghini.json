@@ -1,7 +1,22 @@
 {
-  "brand": "兰博基尼",
+  "brand": "Lamborghini",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/8cd3841160b7fbfbc06547175e2aa7c1~tplv-resize:100:100.image",
   "cars": [
+    {
+      "carName": "Urus SE",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5bbc7070fd0c4360821d2a2eb61c40b4~1200x0.png",
+      "configs": [
+        {
+          "configName": "Urus SE 2025款 4.0T 标准型",
+          "price": "297.1万",
+          "fuelType": "插电式混合动力",
+          "size": "5123x2022x1638",
+          "manufacturer": "兰博基尼",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 192马力"
+        }
+      ]
+    },
     {
       "carName": "Urus",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6ccf5dff2ebdb9ba8cd92587be510d4~1200x0.png",
@@ -92,21 +107,6 @@
           "manufacturer": "兰博基尼",
           "class": "跑车",
           "power": "5.2L 640马力 V10"
-        }
-      ]
-    },
-    {
-      "carName": "Urus SE",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5bbc7070fd0c4360821d2a2eb61c40b4~1200x0.png",
-      "configs": [
-        {
-          "configName": "Urus SE 2025款 4.0T 标准型",
-          "price": "297.1万",
-          "fuelType": "插电式混合动力",
-          "size": "5123x2022x1638",
-          "manufacturer": "兰博基尼",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 192马力"
         }
       ]
     },

@@ -1,66 +1,9 @@
 {
-  "brand": "岚图",
+  "brand": "Voyah",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/986dac13d0d128da9aabb3df683e9b34~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "岚图追光 EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/52051987ed504153981efbb8b4fcb038~1200x0.png",
-      "configs": [
-        {
-          "configName": "岚图追光 EV 2023款 580km 标准续航版",
-          "price": "32.29万",
-          "fuelType": "纯电动",
-          "size": "5088x1970x1515",
-          "manufacturer": "岚图汽车",
-          "class": "中大型车",
-          "power": "纯电动 510马力"
-        },
-        {
-          "configName": "岚图追光 EV 2023款 730km 长续航版",
-          "price": "38.59万",
-          "fuelType": "纯电动",
-          "size": "5088x1970x1515",
-          "manufacturer": "岚图汽车",
-          "class": "中大型车",
-          "power": "纯电动 510马力"
-        }
-      ]
-    },
-    {
-      "carName": "岚图知音",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d296fddf0a0347edad763565f877f302~1200x0.png",
-      "configs": [
-        {
-          "configName": "岚图知音 2024款 长续航智享版",
-          "price": "19.69万",
-          "fuelType": "纯电动",
-          "size": "4725x1900x1636",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "岚图知音 2024款 长续航超充版",
-          "price": "20.29万",
-          "fuelType": "纯电动",
-          "size": "4725x1900x1636",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "power": "纯电动 313马力"
-        },
-        {
-          "configName": "岚图知音 2024款 超长续航智享版",
-          "price": "23.69万",
-          "fuelType": "纯电动",
-          "size": "4725x1900x1636",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "power": "纯电动 313马力"
-        }
-      ]
-    },
-    {
-      "carName": "岚图FREE",
+      "carName": "FREE",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/16fb413cad854b87b8a36d683461f856~1200x0.png",
       "configs": [
         {
@@ -111,7 +54,31 @@
       ]
     },
     {
-      "carName": "岚图追光 PHEV",
+      "carName": "追光 EV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/52051987ed504153981efbb8b4fcb038~1200x0.png",
+      "configs": [
+        {
+          "configName": "岚图追光 EV 2023款 580km 标准续航版",
+          "price": "32.29万",
+          "fuelType": "纯电动",
+          "size": "5088x1970x1515",
+          "manufacturer": "岚图汽车",
+          "class": "中大型车",
+          "power": "纯电动 510马力"
+        },
+        {
+          "configName": "岚图追光 EV 2023款 730km 长续航版",
+          "price": "38.59万",
+          "fuelType": "纯电动",
+          "size": "5088x1970x1515",
+          "manufacturer": "岚图汽车",
+          "class": "中大型车",
+          "power": "纯电动 510马力"
+        }
+      ]
+    },
+    {
+      "carName": "追光 PHEV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd4b018e7b614459bab8dcacfa56d2ce~1200x0.png",
       "configs": [
         {
@@ -135,7 +102,40 @@
       ]
     },
     {
-      "carName": "岚图梦想家 EV",
+      "carName": "知音",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d296fddf0a0347edad763565f877f302~1200x0.png",
+      "configs": [
+        {
+          "configName": "岚图知音 2024款 长续航智享版",
+          "price": "19.69万",
+          "fuelType": "纯电动",
+          "size": "4725x1900x1636",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "power": "纯电动 292马力"
+        },
+        {
+          "configName": "岚图知音 2024款 长续航超充版",
+          "price": "20.29万",
+          "fuelType": "纯电动",
+          "size": "4725x1900x1636",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "power": "纯电动 313马力"
+        },
+        {
+          "configName": "岚图知音 2024款 超长续航智享版",
+          "price": "23.69万",
+          "fuelType": "纯电动",
+          "size": "4725x1900x1636",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "power": "纯电动 313马力"
+        }
+      ]
+    },
+    {
+      "carName": "梦想家 EV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/82631cc50443460d8aedbd61287360a1~1200x0.png",
       "configs": [
         {
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "carName": "岚图梦想家 PHEV",
+      "carName": "梦想家 PHEV",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7a9647a2dd6a4ac5984a5634d9603c8b~1200x0.png",
       "configs": [
         {

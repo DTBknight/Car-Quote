@@ -1,217 +1,478 @@
 {
-  "brand": "斯柯达",
-  "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/3ec788e28d2647bec8fc7b6f0f551a69~tplv-resize:100:100.image",
+  "brand": "Skoda",
+  "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/ae65202f5d1e39a2052acdf18afa5d14~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "明锐",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4081ccea69bd42558ce454f079c77387~1200x0.png",
+      "carName": "雪佛兰畅巡",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8283fd1dbcb3df4f9df9d43986f082f~1200x0.png",
       "configs": [
         {
-          "configName": "明锐 2025款 PRO TSI280 DSG尊享版",
-          "price": "14.39万",
-          "fuelType": "汽油",
-          "size": "4753x1832x1469",
-          "manufacturer": "上汽大众斯柯达",
+          "configName": "雪佛兰畅巡 2023款 星河版",
+          "price": "18.29万",
+          "fuelType": "纯电动",
+          "size": "4665x1813x1513",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "紧凑型车",
-          "power": "1.4T 150马力 L4"
+          "power": "纯电动 177马力"
         },
         {
-          "configName": "明锐 2025款 PRO TSI280 DSG奢享版",
-          "price": "15.49万",
-          "fuelType": "汽油",
-          "size": "4753x1832x1469",
-          "manufacturer": "上汽大众斯柯达",
+          "configName": "雪佛兰畅巡 2023款 星云版",
+          "price": "19.29万",
+          "fuelType": "纯电动",
+          "size": "4665x1813x1538",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "紧凑型车",
-          "power": "1.4T 150马力 L4"
+          "power": "纯电动 177马力"
         },
         {
-          "configName": "明锐 2024款 PRO TSI280 DSG尊享版",
-          "price": "14.39万",
-          "fuelType": "汽油",
-          "size": "4753x1832x1469",
-          "manufacturer": "上汽大众斯柯达",
+          "configName": "雪佛兰畅巡 2023款 星宇版",
+          "price": "19.79万",
+          "fuelType": "纯电动",
+          "size": "4665x1813x1538",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "紧凑型车",
-          "power": "1.4T 150马力 L4"
-        },
+          "power": "纯电动 177马力"
+        }
+      ]
+    },
+    {
+      "carName": "科鲁泽",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/df4eabd099724505b04b8ec98dc7d08d~1200x0.png",
+      "configs": [
         {
-          "configName": "明锐 2024款 PRO TSI280 DSG奢享版",
-          "price": "15.49万",
+          "configName": "科鲁泽 2024款 1.5L 双离合乐享版",
+          "price": "9.49万",
           "fuelType": "汽油",
-          "size": "4753x1832x1469",
-          "manufacturer": "上汽大众斯柯达",
+          "size": "4656x1798x1465",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "紧凑型车",
-          "power": "1.4T 150马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "柯米克",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6a95c3acc8a640628a7e67e3e83969ca~1200x0.png",
-      "configs": [
-        {
-          "configName": "柯米克 2025款 1.5L 自动实力版",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4390x1781x1593",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "小型SUV",
-          "power": "1.5L 109马力 L4"
+          "power": "1.5L 113马力 L4"
         },
         {
-          "configName": "柯米克 2025款 1.5L 自动舒享版",
-          "price": "11.19万",
+          "configName": "科鲁泽 2024款 1.5L 双离合悦享版",
+          "price": "10.09万",
           "fuelType": "汽油",
-          "size": "4390x1781x1606",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "小型SUV",
-          "power": "1.5L 109马力 L4"
+          "size": "4656x1798x1465",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型车",
+          "power": "1.5L 113马力 L4"
+        },
+        {
+          "configName": "科鲁泽 2024款 1.3T 轻混自动尊享版",
+          "price": "10.89万",
+          "fuelType": "48V轻混系统",
+          "size": "4656x1798x1465",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型车",
+          "power": ""
         }
       ]
     },
     {
-      "carName": "柯米克GT",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56d6c60fe59524ce3853b6ea21781f21~1200x0.png",
+      "carName": "迈锐宝XL",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6a7135e46d574e9a871cf1156a1c48c7~1200x0.png",
       "configs": [
         {
-          "configName": "柯米克GT 2025款 1.5L 自动臻享版",
-          "price": "11.99万",
+          "configName": "迈锐宝XL 2023款 1.5T 锐动版",
+          "price": "17.59万",
           "fuelType": "汽油",
-          "size": "4409x1781x1606",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "小型SUV",
-          "power": "1.5L 109马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "速派",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d8ede51e991b49ab9e6857131b49d0a0~1200x0.png",
-      "configs": [
-        {
-          "configName": "速派 2025款 TSI280 DSG尊享版",
-          "price": "17.49万",
-          "fuelType": "汽油",
-          "size": "4869x1865x1489",
-          "manufacturer": "上汽大众斯柯达",
+          "size": "4933x1854x1476",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "中型车",
-          "power": "1.4T 150马力 L4"
+          "power": "1.5T 169马力 L4"
         },
         {
-          "configName": "速派 2025款 TSI330 DSG奢享版",
-          "price": "19.49万",
+          "configName": "迈锐宝XL 2023款 1.5T 锐联版",
+          "price": "18.49万",
           "fuelType": "汽油",
-          "size": "4869x1865x1489",
-          "manufacturer": "上汽大众斯柯达",
+          "size": "4933x1854x1476",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "中型车",
-          "power": "2.0T 186马力 L4"
+          "power": "1.5T 169马力 L4"
         },
         {
-          "configName": "速派 2024款 TSI280 DSG尊享版",
-          "price": "17.49万",
+          "configName": "迈锐宝XL 2023款 Redline 2.0T 锐动版",
+          "price": "19.59万",
           "fuelType": "汽油",
-          "size": "4869x1865x1489",
-          "manufacturer": "上汽大众斯柯达",
+          "size": "4933x1854x1473",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "中型车",
-          "power": "1.4T 150马力 L4"
+          "power": "2.0T 237马力 L4"
         },
         {
-          "configName": "速派 2024款 TSI330 DSG奢享版",
-          "price": "19.49万",
-          "fuelType": "汽油",
-          "size": "4869x1865x1489",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型车",
-          "power": "2.0T 186马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "柯珞克",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5fe305ebe38a4eb78b2116185784cdb6~1200x0.png",
-      "configs": [
-        {
-          "configName": "柯珞克 2025款 TSI280 尊享版",
-          "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4432x1841x1614",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "紧凑型SUV",
-          "power": "1.4T 150马力 L4"
-        },
-        {
-          "configName": "柯珞克 2025款 TSI280 奢享版",
-          "price": "15.49万",
-          "fuelType": "汽油",
-          "size": "4432x1841x1614",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "紧凑型SUV",
-          "power": "1.4T 150马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "柯迪亚克GT",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5785a2ebf3a83c01afd622cea1b0fc5b~1200x0.png",
-      "configs": [
-        {
-          "configName": "柯迪亚克GT 2024款 TSI330 两驱奢享版",
-          "price": "20.89万",
-          "fuelType": "汽油",
-          "size": "4634x1883x1649",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "power": "2.0T 186马力 L4"
-        },
-        {
-          "configName": "柯迪亚克GT 2024款 TSI380 四驱旗舰版",
-          "price": "24.39万",
-          "fuelType": "汽油",
-          "size": "4634x1883x1649",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "power": "2.0T 220马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "柯迪亚克",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b3217adf64354264aff96ad9553bedc6~1200x0.png",
-      "configs": [
-        {
-          "configName": "柯迪亚克 2025款 TSI330 5座两驱实力版",
-          "price": "19.19万",
-          "fuelType": "汽油",
-          "size": "4701x1883x1676",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "power": "2.0T 186马力 L4"
-        },
-        {
-          "configName": "柯迪亚克 2025款 TSI330 5座两驱奢享版",
+          "configName": "迈锐宝XL 2023款 Redline 2.0T 锐联版",
           "price": "20.49万",
           "fuelType": "汽油",
-          "size": "4701x1883x1676",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "power": "2.0T 186马力 L4"
+          "size": "4933x1854x1473",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型车",
+          "power": "2.0T 237马力 L4"
         },
         {
-          "configName": "柯迪亚克 2025款 TSI330 7座两驱奢享版",
-          "price": "20.89万",
+          "configName": "迈锐宝XL 2023款 Redline 2.0T 锐智版",
+          "price": "21.99万",
           "fuelType": "汽油",
-          "size": "4701x1883x1676",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "power": "2.0T 186马力 L4"
+          "size": "4933x1854x1473",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型车",
+          "power": "2.0T 237马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "创酷",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ad7a816269cc4e60adeb60d6d5b0a243~1200x0.png",
+      "configs": [
+        {
+          "configName": "创酷 2023款 RS 1.5T CVT 酷",
+          "price": "10.99万",
+          "fuelType": "汽油",
+          "size": "4270x1791x1610",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "小型SUV",
+          "power": "1.5T 184马力 L4"
         },
         {
-          "configName": "柯迪亚克 2025款 TSI380 7座四驱旗舰版",
-          "price": "24.39万",
+          "configName": "创酷 2023款 RS 1.5T CVT 酷Pro",
+          "price": "12.39万",
           "fuelType": "汽油",
-          "size": "4701x1883x1676",
-          "manufacturer": "上汽大众斯柯达",
+          "size": "4270x1791x1627",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "小型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "创酷 2023款 RS 1.5T CVT 酷Max",
+          "price": "12.89万",
+          "fuelType": "汽油",
+          "size": "4270x1791x1627",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "小型SUV",
+          "power": "1.5T 184马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "探界者",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c4004d2d8e034f0daa08a53881a6e4a8~1200x0.png",
+      "configs": [
+        {
+          "configName": "探界者 2023款 1.5T 驰界版",
+          "price": "18.49万",
+          "fuelType": "汽油",
+          "size": "4646x1843x1688",
+          "manufacturer": "上汽通用雪佛兰",
           "class": "中型SUV",
-          "power": "2.0T 220马力 L4"
+          "power": "1.5T 169马力 L4"
+        },
+        {
+          "configName": "探界者 2023款 1.5T 驭界版",
+          "price": "19.49万",
+          "fuelType": "汽油",
+          "size": "4646x1843x1688",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": "1.5T 169马力 L4"
+        },
+        {
+          "configName": "探界者 2023款 轻混 2.0T RS 智能拓界版",
+          "price": "21.99万",
+          "fuelType": "48V轻混系统",
+          "size": "4646x1843x1688",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": ""
+        },
+        {
+          "configName": "探界者 2023款 轻混 2.0T RS 四驱智能拓界版",
+          "price": "22.99万",
+          "fuelType": "48V轻混系统",
+          "size": "4646x1843x1695",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": ""
+        },
+        {
+          "configName": "探界者 2023款 轻混 2.0T RS 四驱智能捍界版",
+          "price": "23.99万",
+          "fuelType": "48V轻混系统",
+          "size": "4646x1843x1695",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": ""
+        }
+      ]
+    },
+    {
+      "carName": "星迈罗",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a62372386a6e4804af0bbaa57ebe0ea6~1200x0.png",
+      "configs": [
+        {
+          "configName": "星迈罗 2023款 Redline 1.5T 专属定制版",
+          "price": "14.19万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1564",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "星迈罗 2023款 Redline 1.5T 曜黑威蜂版",
+          "price": "14.19万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1564",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "星迈罗 2022款 1.5T 潮启版",
+          "price": "13.99万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1564",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "星迈罗 2022款 1.5T 潮智版",
+          "price": "14.99万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1564",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "星迈罗 2022款 1.5T 潮享版",
+          "price": "15.49万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1572",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "星迈罗 2022款 RS 1.5T 蜂潮版",
+          "price": "15.99万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1572",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        },
+        {
+          "configName": "星迈罗 2022款 RS 1.5T 蜂芒版",
+          "price": "16.49万",
+          "fuelType": "汽油",
+          "size": "4537x1823x1572",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "紧凑型SUV",
+          "power": "1.5T 184马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "开拓者",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8c623ad659a44d748604d63777b6fb36~1200x0.png",
+      "configs": [
+        {
+          "configName": "开拓者 2023款 轻混 2.0T 7座型版",
+          "price": "19.49万",
+          "fuelType": "48V轻混系统",
+          "size": "5011x1953x1717",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中大型SUV",
+          "power": ""
+        },
+        {
+          "configName": "开拓者 2023款 轻混 Redline 2.0T 7座霆版",
+          "price": "22.99万",
+          "fuelType": "48V轻混系统",
+          "size": "5011x1953x1722",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中大型SUV",
+          "power": ""
+        },
+        {
+          "configName": "开拓者 2023款 轻混 RS 2.0T Twin-Clutch四驱 7座擎版",
+          "price": "26.49万",
+          "fuelType": "48V轻混系统",
+          "size": "5011x1953x1726",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中大型SUV",
+          "power": ""
+        },
+        {
+          "configName": "开拓者 2023款 轻混 RS 2.0T Twin-Clutch四驱 7座白夜版",
+          "price": "26.69万",
+          "fuelType": "48V轻混系统",
+          "size": "5011x1953x1726",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中大型SUV",
+          "power": ""
+        }
+      ]
+    },
+    {
+      "carName": "探界者Plus",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c5340f645f0e4d7497a88d41152e8c07~1200x0.png",
+      "configs": [
+        {
+          "configName": "探界者Plus 2024款 1.5T 102km RS豪华版",
+          "price": "14.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4653x1902x1714",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": "插电式混合动力 190马力"
+        },
+        {
+          "configName": "探界者Plus 2024款 1.5T 102km RS旗舰版",
+          "price": "15.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4653x1902x1714",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": "插电式混合动力 190马力"
+        },
+        {
+          "configName": "探界者Plus 2024款 1.5T 102km RS至臻版",
+          "price": "16.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4653x1902x1714",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": "插电式混合动力 190马力"
+        },
+        {
+          "configName": "探界者Plus 2024款 1.5T 155km ACTIV 至臻版",
+          "price": "17.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4653x1902x1728",
+          "manufacturer": "上汽通用雪佛兰",
+          "class": "中型SUV",
+          "power": "插电式混合动力 190马力"
+        }
+      ]
+    },
+    {
+      "carName": "TAHOE太浩",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/21616161898e4a3894b33cd373d6763b~1200x0.png",
+      "configs": [
+        {
+          "configName": "TAHOE太浩 2025款 2.7T 经典版",
+          "price": "64.8万",
+          "fuelType": "汽油",
+          "size": "5382x2058x1940",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "大型SUV",
+          "power": "2.7T 303马力 L4"
+        },
+        {
+          "configName": "TAHOE太浩 2025款 2.7T 高地版",
+          "price": "72.8万",
+          "fuelType": "汽油",
+          "size": "5382x2058x1940",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "大型SUV",
+          "power": "2.7T 303马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "科尔维特",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5d3e8fd6a5d04fd09c6b4c22d47a8990~1200x0.png",
+      "configs": [
+        {
+          "configName": "科尔维特 2010款 Z06 Carbon 7.0 手动 限量版",
+          "price": "180万",
+          "fuelType": "汽油",
+          "size": "4460x1928x1245",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "7.0L 505马力 V8"
+        },
+        {
+          "configName": "科尔维特 2009款 C6 Convertible 6.2 手自一体",
+          "price": "174万",
+          "fuelType": "汽油",
+          "size": "4435x1844x1245",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "6.2L 437马力 V8"
+        },
+        {
+          "configName": "科尔维特 2009款 C6 Coupe 6.2 手自一体 全玻璃顶棚",
+          "price": "177万",
+          "fuelType": "汽油",
+          "size": "4435x1844x1245",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "6.2L 437马力 V8"
+        },
+        {
+          "configName": "科尔维特 2008款 C6 Convertible 6.2 手动",
+          "price": "156万",
+          "fuelType": "汽油",
+          "size": "4435x1844x1245",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "6.2L 437马力 V8"
+        },
+        {
+          "configName": "科尔维特 2008款 Z06 7.0 手动 V8",
+          "price": "177万",
+          "fuelType": "汽油",
+          "size": "4460x1928x1245",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "7.0L 505马力 V8"
+        },
+        {
+          "configName": "科尔维特 2008款 ZR1 6.2 手动",
+          "price": "180万",
+          "fuelType": "汽油",
+          "size": "4476x1928x1245",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "6.2T 647马力 V8"
+        },
+        {
+          "configName": "科尔维特 2004款 C6 Convertible 6.0 手动 V8",
+          "price": "173万",
+          "fuelType": "汽油",
+          "size": "4435x1844x1246",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "6.0L 405马力 V8"
+        },
+        {
+          "configName": "科尔维特 2004款 C6 Coupe 6.0 手动 V8",
+          "price": "173万",
+          "fuelType": "汽油",
+          "size": "4435x1844x1246",
+          "manufacturer": "雪佛兰(进口)",
+          "class": "跑车",
+          "power": "6.0L 405马力 V8"
+        },
+        {
+          "configName": "科尔维特 2004款 C6 Convertible 7.0 手动 V8",
+          "price": "174万",
+          "fuelType": "",
+          "size": "",
+          "manufacturer": "",
+          "class": "",
+          "power": ""
+        },
+        {
+          "configName": "科尔维特 2004款 C6 Coupe 7.0 手动 V8",
+          "price": "174万",
+          "fuelType": "",
+          "size": "",
+          "manufacturer": "",
+          "class": "",
+          "power": ""
         }
       ]
     }

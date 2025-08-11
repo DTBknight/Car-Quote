@@ -1,7 +1,49 @@
 {
-  "brand": "起亚",
+  "brand": "Kia",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/9997244f9934fdebe915cde58bb2ddf2~tplv-resize:100:100.image",
   "cars": [
+    {
+      "carName": "K5 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bec84032e6ea7ccb3884221c97f3c1f2~1200x0.png",
+      "configs": [
+        {
+          "configName": "起亚K5 PHEV 2019款 2.0L GLS",
+          "price": "22.28万",
+          "fuelType": "插电式混合动力",
+          "size": "4855x1835x1475",
+          "manufacturer": "起亚",
+          "class": "中型车",
+          "power": "插电式混动 68马力"
+        },
+        {
+          "configName": "起亚K5 PHEV 2019款 2.0L LUX",
+          "price": "23.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4855x1835x1475",
+          "manufacturer": "起亚",
+          "class": "中型车",
+          "power": "插电式混动 68马力"
+        },
+        {
+          "configName": "起亚K5 PHEV 2018款 2.0L 智享版",
+          "price": "22.28万",
+          "fuelType": "插电式混合动力",
+          "size": "4855x1835x1475",
+          "manufacturer": "起亚",
+          "class": "中型车",
+          "power": "插电式混动 68马力"
+        },
+        {
+          "configName": "起亚K5 PHEV 2018款 2.0L 智尊版",
+          "price": "23.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4855x1835x1475",
+          "manufacturer": "起亚",
+          "class": "中型车",
+          "power": "插电式混动 68马力"
+        }
+      ]
+    },
     {
       "carName": "焕驰",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aabb6b58b6be4f5ffaed15233c9c7d95~1200x0.png",
@@ -27,7 +69,7 @@
       ]
     },
     {
-      "carName": "起亚K3",
+      "carName": "K3",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5d62ac39f2694cc3b0007f5834f79e24~1200x0.png",
       "configs": [
         {
@@ -105,40 +147,7 @@
       ]
     },
     {
-      "carName": "奕跑",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bff7289dee1d2aaa47a9f95dbff38aa~1200x0.png",
-      "configs": [
-        {
-          "configName": "奕跑 2021款 改款 1.4L 手动趣享版",
-          "price": "6.98万",
-          "fuelType": "汽油",
-          "size": "4100x1735x1533",
-          "manufacturer": "起亚",
-          "class": "小型SUV",
-          "power": "1.4L 100马力 L4"
-        },
-        {
-          "configName": "奕跑 2021款 改款 1.4L CVT趣享版",
-          "price": "7.98万",
-          "fuelType": "汽油",
-          "size": "4100x1735x1533",
-          "manufacturer": "起亚",
-          "class": "小型SUV",
-          "power": "1.4L 100马力 L4"
-        },
-        {
-          "configName": "奕跑 2021款 改款 1.4L CVT天窗款",
-          "price": "8.38万",
-          "fuelType": "汽油",
-          "size": "4100x1735x1533",
-          "manufacturer": "起亚",
-          "class": "小型SUV",
-          "power": "1.4L 100马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "起亚K5",
+      "carName": "K5",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/47d11fc362674c2481edbfe0531e6c7b~1200x0.png",
       "configs": [
         {
@@ -180,49 +189,40 @@
       ]
     },
     {
-      "carName": "起亚EV6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ae58292d58fa470eb35f0042bbd94bb6~1200x0.png",
+      "carName": "奕跑",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bff7289dee1d2aaa47a9f95dbff38aa~1200x0.png",
       "configs": [
         {
-          "configName": "起亚EV6 2023款 GT-Line",
-          "price": "28.28万",
-          "fuelType": "纯电动",
-          "size": "4695x1890x1575",
-          "manufacturer": "起亚(进口)",
-          "class": "紧凑型SUV",
-          "power": "纯电动 229马力"
+          "configName": "奕跑 2021款 改款 1.4L 手动趣享版",
+          "price": "6.98万",
+          "fuelType": "汽油",
+          "size": "4100x1735x1533",
+          "manufacturer": "起亚",
+          "class": "小型SUV",
+          "power": "1.4L 100马力 L4"
         },
         {
-          "configName": "起亚EV6 2023款 GT-Line eAWD",
-          "price": "31.28万",
-          "fuelType": "纯电动",
-          "size": "4695x1890x1575",
-          "manufacturer": "起亚(进口)",
-          "class": "紧凑型SUV",
-          "power": "纯电动 325马力"
+          "configName": "奕跑 2021款 改款 1.4L CVT趣享版",
+          "price": "7.98万",
+          "fuelType": "汽油",
+          "size": "4100x1735x1533",
+          "manufacturer": "起亚",
+          "class": "小型SUV",
+          "power": "1.4L 100马力 L4"
         },
         {
-          "configName": "起亚EV6 2023款 GT",
-          "price": "41.98万",
-          "fuelType": "纯电动",
-          "size": "4695x1890x1570",
-          "manufacturer": "起亚(进口)",
-          "class": "紧凑型SUV",
-          "power": "纯电动 585马力"
-        },
-        {
-          "configName": "起亚EV6 2023款 GT Opt",
-          "price": "43.98万",
-          "fuelType": "纯电动",
-          "size": "4695x1890x1570",
-          "manufacturer": "起亚(进口)",
-          "class": "紧凑型SUV",
-          "power": "纯电动 585马力"
+          "configName": "奕跑 2021款 改款 1.4L CVT天窗款",
+          "price": "8.38万",
+          "fuelType": "汽油",
+          "size": "4100x1735x1533",
+          "manufacturer": "起亚",
+          "class": "小型SUV",
+          "power": "1.4L 100马力 L4"
         }
       ]
     },
     {
-      "carName": "起亚EV5",
+      "carName": "EV5",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd45275c8dfc4a3b90f2d0e17b6660ba~1200x0.png",
       "configs": [
         {
@@ -386,6 +386,48 @@
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
           "power": "纯电动 218马力"
+        }
+      ]
+    },
+    {
+      "carName": "EV6",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ae58292d58fa470eb35f0042bbd94bb6~1200x0.png",
+      "configs": [
+        {
+          "configName": "起亚EV6 2023款 GT-Line",
+          "price": "28.28万",
+          "fuelType": "纯电动",
+          "size": "4695x1890x1575",
+          "manufacturer": "起亚(进口)",
+          "class": "紧凑型SUV",
+          "power": "纯电动 229马力"
+        },
+        {
+          "configName": "起亚EV6 2023款 GT-Line eAWD",
+          "price": "31.28万",
+          "fuelType": "纯电动",
+          "size": "4695x1890x1575",
+          "manufacturer": "起亚(进口)",
+          "class": "紧凑型SUV",
+          "power": "纯电动 325马力"
+        },
+        {
+          "configName": "起亚EV6 2023款 GT",
+          "price": "41.98万",
+          "fuelType": "纯电动",
+          "size": "4695x1890x1570",
+          "manufacturer": "起亚(进口)",
+          "class": "紧凑型SUV",
+          "power": "纯电动 585马力"
+        },
+        {
+          "configName": "起亚EV6 2023款 GT Opt",
+          "price": "43.98万",
+          "fuelType": "纯电动",
+          "size": "4695x1890x1570",
+          "manufacturer": "起亚(进口)",
+          "class": "紧凑型SUV",
+          "power": "纯电动 585马力"
         }
       ]
     },
@@ -760,7 +802,7 @@
           "size": "4670x1865x1678",
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
-          "power": "2.0L 150马力 L4 油电混动"
+          "power": "油电混合 60马力"
         },
         {
           "configName": "狮铂拓界 2025款 2.0L HEV 两驱尊贵版",
@@ -769,7 +811,7 @@
           "size": "4670x1865x1680",
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
-          "power": "2.0L 150马力 L4 油电混动"
+          "power": "油电混合 60马力"
         },
         {
           "configName": "狮铂拓界 2025款 2.0L HEV 两驱旗舰版",
@@ -778,7 +820,7 @@
           "size": "4670x1865x1680",
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
-          "power": "2.0L 150马力 L4 油电混动"
+          "power": "油电混合 60马力"
         },
         {
           "configName": "狮铂拓界 2023款 1.5T 两驱豪华版",
@@ -859,7 +901,7 @@
           "size": "4670x1865x1678",
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
-          "power": "2.0L 150马力 L4 油电混动"
+          "power": "油电混合 60马力"
         },
         {
           "configName": "狮铂拓界 2023款 2.0L HEV 两驱尊贵版",
@@ -868,7 +910,7 @@
           "size": "4670x1865x1680",
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
-          "power": "2.0L 150马力 L4 油电混动"
+          "power": "油电混合 60马力"
         },
         {
           "configName": "狮铂拓界 2023款 2.0L HEV 两驱旗舰版",
@@ -877,7 +919,7 @@
           "size": "4670x1865x1680",
           "manufacturer": "起亚",
           "class": "紧凑型SUV",
-          "power": "2.0L 150马力 L4 油电混动"
+          "power": "油电混合 60马力"
         }
       ]
     }

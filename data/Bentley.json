@@ -1,7 +1,151 @@
 {
-  "brand": "宾利",
+  "brand": "Bentley",
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/0e5eb93d307048938f67924863f8d7b3~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
+    {
+      "carName": "飞驰",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4e979637d84b4e22947b2dcdeabd5754~1200x0.png",
+      "configs": [
+        {
+          "configName": "飞驰 2024款 4.0T V8 标准版",
+          "price": "279.3万",
+          "fuelType": "汽油",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "4.0T 550马力 V8"
+        },
+        {
+          "configName": "飞驰 2024款 4.0T V8 Edition 8",
+          "price": "320.5万",
+          "fuelType": "汽油",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "4.0T 550马力 V8"
+        },
+        {
+          "configName": "飞驰 2024款 4.0T V8 S",
+          "price": "323.3万",
+          "fuelType": "汽油",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "4.0T 550马力 V8"
+        },
+        {
+          "configName": "飞驰 2024款 4.0T V8 雅度版",
+          "price": "336.5万",
+          "fuelType": "汽油",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "4.0T 550马力 V8"
+        },
+        {
+          "configName": "飞驰 2024款 4.0T V8 Mulliner",
+          "price": "377.4万",
+          "fuelType": "汽油",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "4.0T 550马力 V8"
+        }
+      ]
+    },
+    {
+      "carName": "飞驰PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/39e9eb9c663a420083a4f890a0bc788f~1200x0.png",
+      "configs": [
+        {
+          "configName": "飞驰PHEV 2025款 4.0T V8 Mulliner",
+          "price": "336.4万",
+          "fuelType": "插电式混合动力",
+          "size": "5316x2220x1474",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "插电式混合动力 190马力"
+        },
+        {
+          "configName": "飞驰PHEV 2024款 Hybrid",
+          "price": "253万",
+          "fuelType": "插电式混合动力",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "插电式混动 136马力"
+        },
+        {
+          "configName": "飞驰PHEV 2024款 2.9T V6 Hybrid S",
+          "price": "281.3万",
+          "fuelType": "插电式混合动力",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "飞驰PHEV 2024款 2.9T V6 Hybrid 雅度版",
+          "price": "291.9万",
+          "fuelType": "插电式混合动力",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "飞驰PHEV 2024款 Hybrid Mulliner",
+          "price": "333.7万",
+          "fuelType": "插电式混合动力",
+          "size": "5316x1978x1483",
+          "manufacturer": "宾利",
+          "class": "大型车",
+          "power": "插电式混动 136马力"
+        }
+      ]
+    },
+    {
+      "carName": "添越PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6fe68ac74b7c4eda864652116623df87~1200x0.png",
+      "configs": [
+        {
+          "configName": "添越PHEV 2024款 3.0T 标准版",
+          "price": "263万",
+          "fuelType": "插电式混合动力",
+          "size": "5125x2222x1710",
+          "manufacturer": "宾利",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "添越PHEV 2024款 3.0T S",
+          "price": "290万",
+          "fuelType": "插电式混合动力",
+          "size": "5144x2222x1710",
+          "manufacturer": "宾利",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "添越PHEV 2024款 3.0T 雅度版",
+          "price": "290.6万",
+          "fuelType": "插电式混合动力",
+          "size": "5125x2222x1710",
+          "manufacturer": "宾利",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "添越PHEV 2024款 3.0T S 炫黑版",
+          "price": "330.8万",
+          "fuelType": "插电式混合动力",
+          "size": "5144x2222x1710",
+          "manufacturer": "宾利",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 136马力"
+        }
+      ]
+    },
     {
       "carName": "添越",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2a2cb94ed32a4e848423b673c419beff~1200x0.png",
@@ -68,150 +212,6 @@
           "manufacturer": "宾利",
           "class": "中大型SUV",
           "power": "4.0T 550马力 V8"
-        }
-      ]
-    },
-    {
-      "carName": "飞驰",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4e979637d84b4e22947b2dcdeabd5754~1200x0.png",
-      "configs": [
-        {
-          "configName": "飞驰 2024款 4.0T V8 标准版",
-          "price": "279.3万",
-          "fuelType": "汽油",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "4.0T 550马力 V8"
-        },
-        {
-          "configName": "飞驰 2024款 4.0T V8 Edition 8",
-          "price": "320.5万",
-          "fuelType": "汽油",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "4.0T 550马力 V8"
-        },
-        {
-          "configName": "飞驰 2024款 4.0T V8 S",
-          "price": "323.3万",
-          "fuelType": "汽油",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "4.0T 550马力 V8"
-        },
-        {
-          "configName": "飞驰 2024款 4.0T V8 雅度版",
-          "price": "336.5万",
-          "fuelType": "汽油",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "4.0T 550马力 V8"
-        },
-        {
-          "configName": "飞驰 2024款 4.0T V8 Mulliner",
-          "price": "377.4万",
-          "fuelType": "汽油",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "4.0T 550马力 V8"
-        }
-      ]
-    },
-    {
-      "carName": "添越PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6fe68ac74b7c4eda864652116623df87~1200x0.png",
-      "configs": [
-        {
-          "configName": "添越PHEV 2024款 3.0T 标准版",
-          "price": "263万",
-          "fuelType": "插电式混合动力",
-          "size": "5125x2222x1710",
-          "manufacturer": "宾利",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "添越PHEV 2024款 3.0T S",
-          "price": "290万",
-          "fuelType": "插电式混合动力",
-          "size": "5144x2222x1710",
-          "manufacturer": "宾利",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "添越PHEV 2024款 3.0T 雅度版",
-          "price": "290.6万",
-          "fuelType": "插电式混合动力",
-          "size": "5125x2222x1710",
-          "manufacturer": "宾利",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "添越PHEV 2024款 3.0T S 炫黑版",
-          "price": "330.8万",
-          "fuelType": "插电式混合动力",
-          "size": "5144x2222x1710",
-          "manufacturer": "宾利",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 136马力"
-        }
-      ]
-    },
-    {
-      "carName": "飞驰PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/39e9eb9c663a420083a4f890a0bc788f~1200x0.png",
-      "configs": [
-        {
-          "configName": "飞驰PHEV 2025款 4.0T V8 Mulliner",
-          "price": "336.4万",
-          "fuelType": "插电式混合动力",
-          "size": "5316x2220x1474",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "插电式混合动力 190马力"
-        },
-        {
-          "configName": "飞驰PHEV 2024款 Hybrid",
-          "price": "253万",
-          "fuelType": "插电式混合动力",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "插电式混动 136马力"
-        },
-        {
-          "configName": "飞驰PHEV 2024款 2.9T V6 Hybrid S",
-          "price": "281.3万",
-          "fuelType": "插电式混合动力",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "飞驰PHEV 2024款 2.9T V6 Hybrid 雅度版",
-          "price": "291.9万",
-          "fuelType": "插电式混合动力",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "飞驰PHEV 2024款 Hybrid Mulliner",
-          "price": "333.7万",
-          "fuelType": "插电式混合动力",
-          "size": "5316x1978x1483",
-          "manufacturer": "宾利",
-          "class": "大型车",
-          "power": "插电式混动 136马力"
         }
       ]
     },
