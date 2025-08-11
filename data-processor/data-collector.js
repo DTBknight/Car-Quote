@@ -50,7 +50,7 @@ class DataCollector {
       'eπ': '东风奕派',
       'Dongfeng': '东风',
       'Nami': '东风纳米',
-      '_212': '212',
+      '212': '212',
       'Toyota': '丰田',
       'Ford': '福特',
       'RisingAuto': '飞凡',

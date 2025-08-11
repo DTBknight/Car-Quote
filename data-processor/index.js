@@ -122,7 +122,7 @@ const brandIdsMapRaw = {
   iCAR: 909, // iCAR
   Onvo: 918, // 乐道
   Stelato: 931, // 享界
-  _212: 10012, // 212
+  '212': 10012, // 212
   Maextro: 10293, // 尊界
   Firefly: 10363, // 萤火虫
   Saic: 10419, // 尚界
