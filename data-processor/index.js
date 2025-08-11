@@ -646,7 +646,12 @@ if (require.main === module) {
   if (brand === 'all') {
     // 全品牌采集
     (async () => {
-      const brandList = Object.keys(brandIdsMap);
+      // 按品牌ID顺序排列（多ID按首个ID排序）
+      const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
+      const brandList = Object.entries(brandIdsMap)
+        .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))
+        .sort((a, b) => a.id - b.id)
+        .map(item => item.name);
       const total = brandList.length;
       
       console.log(colors.cyan(`🚀 开始全品牌采集，共 ${total} 个品牌`));
