@@ -173,7 +173,19 @@ class CarDataProcessor {
   }
 
   async processAllBrands() {
-    const brandList = Object.keys(brandIdsMap);
+    // 按照 index.js 中的品牌ID顺序排序（多ID按第一个ID）
+    let brandList = Object.keys(brandIdsMap);
+    try {
+      const { brandIdsMap: referenceMap } = require('./index');
+      const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
+      const orderMap = Object.entries(referenceMap)
+        .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))
+        .sort((a, b) => a.id - b.id)
+        .reduce((acc, cur, idx) => { acc[cur.name] = idx; return acc; }, {});
+      brandList.sort((a, b) => (orderMap[a] ?? Number.MAX_SAFE_INTEGER) - (orderMap[b] ?? Number.MAX_SAFE_INTEGER));
+    } catch (_) {
+      // 回退：保持现有顺序
+    }
     const total = brandList.length;
     
     console.log(`🎯 开始处理所有品牌，共 ${total} 个`);

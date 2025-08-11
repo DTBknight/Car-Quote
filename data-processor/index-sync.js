@@ -53,7 +53,13 @@ class DataSyncProcessor {
     
     // 获取所有品牌ID（从权威映射中动态读取，避免硬编码缺失）
     const { brandIdsMap } = require('./index-optimized');
-    const allBrandIds = Object.keys(brandIdsMap);
+    const { brandIdsMap: referenceMap } = require('./index');
+    const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
+    const orderMap = Object.entries(referenceMap)
+      .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))
+      .sort((a, b) => a.id - b.id)
+      .reduce((acc, cur, idx) => { acc[cur.name] = idx; return acc; }, {});
+    const allBrandIds = Object.keys(brandIdsMap).sort((a, b) => (orderMap[a] ?? Number.MAX_SAFE_INTEGER) - (orderMap[b] ?? Number.MAX_SAFE_INTEGER));
     
     // 定期执行时，处理所有品牌（完整更新）
     const brandsToProcess = allBrandIds;

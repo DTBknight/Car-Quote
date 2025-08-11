@@ -742,4 +742,6 @@ if (require.main === module) {
   }
 }
 
-module.exports = { collectCarData }; 
+module.exports = { collectCarData };
+// 导出品牌ID映射供排序使用
+module.exports.brandIdsMap = brandIdsMap;
