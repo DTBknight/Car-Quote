@@ -99,7 +99,11 @@ export class CarSearch {
             const { seriesName, ...carWithoutSeriesName } = car;
             return {
               ...carWithoutSeriesName,
-              brand: brandData.brand || brand.name,
+              // 优先使用 brands.json 内的中文名称作为展示与存储字段
+              brand: brand.name || brandData.brand,
+              // 同时保留中英文两个字段以便搜索
+              brandCn: brand.name || '',
+              brandEn: brandData.brand || '',
               brandImage: brandData.brandImage || brand.brandImage
             };
           });
@@ -150,10 +154,18 @@ export class CarSearch {
         });
       }
       
-      // 索引品牌名
+      // 索引品牌名（中英文都加入索引）
       if (car.brand) {
-        const brandLower = car.brand.toLowerCase();
-        this.addToIndex(brandLower, carIndex);
+        const brandLower = (car.brand || '').toLowerCase();
+        if (brandLower) this.addToIndex(brandLower, carIndex);
+      }
+      if (car.brandCn) {
+        const brandCnLower = (car.brandCn || '').toLowerCase();
+        if (brandCnLower) this.addToIndex(brandCnLower, carIndex);
+      }
+      if (car.brandEn) {
+        const brandEnLower = (car.brandEn || '').toLowerCase();
+        if (brandEnLower) this.addToIndex(brandEnLower, carIndex);
       }
       
       // 索引配置名
@@ -285,7 +297,7 @@ export class CarSearch {
       
       // 在所有车型中搜索品牌+车型组合
       this.allCars.forEach((car, carIndex) => {
-        const carBrand = (car.brand || '').toLowerCase();
+        const carBrand = (car.brand || car.brandCn || car.brandEn || '').toLowerCase();
         const carName = (car.carName || car.name || '').toLowerCase();
         const fullCarName = `${carBrand}${carName}`;
         
@@ -311,7 +323,7 @@ export class CarSearch {
       const singleWord = queryWords[0];
       
       this.allCars.forEach((car, carIndex) => {
-        const carBrand = (car.brand || '').toLowerCase();
+        const carBrand = (car.brand || car.brandCn || car.brandEn || '').toLowerCase();
         const carName = (car.carName || car.name || '').toLowerCase();
         
         // 检查车型名是否包含查询词
@@ -371,7 +383,7 @@ export class CarSearch {
     
     // 额外搜索：在所有车型中直接搜索
     this.allCars.forEach((car, carIndex) => {
-      const carBrand = (car.brand || '').toLowerCase();
+      const carBrand = (car.brand || car.brandCn || car.brandEn || '').toLowerCase();
       const carName = (car.carName || car.name || '').toLowerCase();
       const fullCarName = `${carBrand}${carName}`;
       
@@ -484,7 +496,7 @@ export class CarSearch {
         contentDiv.className = 'flex-1 min-w-0';
         
         // 品牌名
-        const brandName = result.car.brand || result.car.seriesName || '';
+        const brandName = result.car.brand || result.car.brandCn || result.car.brandEn || result.car.seriesName || '';
         
         // 车型名（去重处理）
         let carName = result.car.carName || result.car.name || '';
@@ -821,7 +833,7 @@ export class CarSearch {
     if (!carInput) return;
     
     // 获取品牌和车型信息
-    const brand = carData.brand || carData.seriesName || '';
+    const brand = carData.brand || carData.brandCn || carData.brandEn || carData.seriesName || '';
     const carName = carData.carName || carData.name || '';
     const price = carData.price || '';
     
@@ -873,7 +885,7 @@ export class CarSearch {
     // 在所有车型中查找匹配的
     for (const car of this.allCars) {
       // 检查品牌和车型是否匹配
-      const carBrand = car.brand || car.seriesName || '';
+      const carBrand = car.brand || car.brandCn || car.brandEn || car.seriesName || '';
       const carModelName = car.carName || car.name || '';
       
       if (carBrand === brand && carModelName === carName) {
