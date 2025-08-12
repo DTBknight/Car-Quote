@@ -29,18 +29,18 @@ export class EventManager {
       },
       newCarFields: [
         'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance',
-        'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight', 'serviceFeeRate'
+        'otherExpenses', 'domesticShipping', 'portCharges', 'portChargesFob', 'internationalShipping', 'serviceFeeRate'
       ],
       usedCarFields: [
         'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
         'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
-        'usedPortCharges', 'usedPortChargesFob', 'usedSeaFreight', 'usedMarkup'
+        'usedPortCharges', 'usedPortChargesFob', 'usedInternationalShipping', 'usedMarkup'
       ],
       newEnergyFields: [
         'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment',
         'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee',
         'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges',
-        'newEnergyPortChargesFob', 'newEnergySeaFreight', 'newEnergyMarkup'
+        'newEnergyPortChargesFob', 'newEnergyInternationalShipping', 'newEnergyMarkup'
       ],
       currencyFields: ['currency', 'currencyUsed', 'currencyNewEnergy'],
       exchangeRateFields: ['exchangeRate', 'exchangeRateUsed', 'exchangeRateNewEnergy']

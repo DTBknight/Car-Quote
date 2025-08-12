@@ -130,18 +130,44 @@ export class ExchangeRateManager {
     const adjustedRate = rate - CONFIG.CALCULATION.EXCHANGE_RATE_OFFSET;
     const rateText = isFallback ? `${rate.toFixed(2)} (离线)` : rate.toFixed(2);
     
+    // 确保存在用于保存“USD基准汇率”的隐藏输入（每个表单独立）
+    const ensureUsdBaseInput = (id) => {
+      if (!document.getElementById(id)) {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.id = id;
+        document.body.appendChild(input);
+      }
+    };
+    ensureUsdBaseInput('exchangeRateUSDBase');
+    ensureUsdBaseInput('exchangeRateUSDBaseUsed');
+    ensureUsdBaseInput('exchangeRateUSDBaseNewEnergy');
+
     if (formType === 'new') {
       Utils.setElementText('exchangeRateLabel', `汇率 实时基准：${rateText}`);
       Utils.setElementValue('exchangeRate', adjustedRate.toFixed(2));
       this.updateCurrencyLabels(currency);
+      // 若当前选择为USD，则同步写入USD基准汇率供后续换算海运费使用
+      if (currency === 'USD') {
+        const usdBase = document.getElementById('exchangeRateUSDBase');
+        if (usdBase) usdBase.value = adjustedRate.toFixed(2);
+      }
     } else if (formType === 'used') {
       Utils.setElementText('exchangeRateLabelUsed', `汇率 实时基准：${rateText}`);
       Utils.setElementValue('exchangeRateUsed', adjustedRate.toFixed(2));
       this.updateCurrencyLabels(currency, 'used');
+      if (currency === 'USD') {
+        const usdBase = document.getElementById('exchangeRateUSDBaseUsed');
+        if (usdBase) usdBase.value = adjustedRate.toFixed(2);
+      }
     } else if (formType === 'newEnergy') {
       Utils.setElementText('exchangeRateLabelNewEnergy', `汇率 实时基准：${rateText}`);
       Utils.setElementValue('exchangeRateNewEnergy', adjustedRate.toFixed(2));
       this.updateCurrencyLabels(currency, 'newEnergy');
+      if (currency === 'USD') {
+        const usdBase = document.getElementById('exchangeRateUSDBaseNewEnergy');
+        if (usdBase) usdBase.value = adjustedRate.toFixed(2);
+      }
     }
   }
   

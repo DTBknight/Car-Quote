@@ -580,7 +580,19 @@ export class CalculationEngine {
     const rmbQuote = Utils.getElementValue('rmbPrice');
     const exchangeRate = Utils.getElementValue('exchangeRate');
     const currency = Utils.getElement('currency')?.value;
-    let seaFreight = Utils.getElementValue('seaFreight');
+    let seaFreight = Utils.getElementValue('internationalShipping');
+
+    // 海运费以美元为基准，若所选外币非USD，需要将USD海运费换算到所选外币
+    if (seaFreight > 0 && currency && currency !== 'USD') {
+      // exchangeRate 为 CNY / (选定外币)，而 USD 基准为 CNY / USD
+      const usdBaseRateStr = document.getElementById('exchangeRateUSDBase')?.value;
+      const usdBaseRate = usdBaseRateStr ? parseFloat(usdBaseRateStr) : NaN;
+      if (!isNaN(usdBaseRate) && exchangeRate > 0) {
+        // USD -> 选定外币 比率 = usdBaseRate / exchangeRate
+        const usdToSelected = usdBaseRate / exchangeRate;
+        seaFreight = seaFreight * usdToSelected;
+      }
+    }
     
     console.log('计算最终报价参数:', { rmbQuote, exchangeRate, currency, seaFreight });
     
@@ -631,7 +643,18 @@ export class CalculationEngine {
     const purchaseCost = Utils.getElementValue('usedPurchaseCost');
     const rmbQuote = Utils.getElementValue('usedRmbPrice');
     const exchangeRate = Utils.getElementValue('exchangeRateUsed');
-    let seaFreight = Utils.getElementValue('usedSeaFreight');
+    const currency = Utils.getElement('currencyUsed')?.value;
+    let seaFreight = Utils.getElementValue('usedInternationalShipping');
+
+    // 海运费以美元为基准，换算到所选外币
+    if (seaFreight > 0 && currency && currency !== 'USD') {
+      const usdBaseRateStr = document.getElementById('exchangeRateUSDBaseUsed')?.value;
+      const usdBaseRate = usdBaseRateStr ? parseFloat(usdBaseRateStr) : NaN;
+      if (!isNaN(usdBaseRate) && exchangeRate > 0) {
+        const usdToSelected = usdBaseRate / exchangeRate;
+        seaFreight = seaFreight * usdToSelected;
+      }
+    }
     
     if (exchangeRate > 0) {
       // 成本价格 = 购车成本 / 汇率 + 海运费
@@ -665,7 +688,18 @@ export class CalculationEngine {
     const purchaseCost = Utils.getElementValue('newEnergyPurchaseCost');
     const rmbQuote = Utils.getElementValue('newEnergyRmbPrice');
     const exchangeRate = Utils.getElementValue('exchangeRateNewEnergy');
-    let seaFreight = Utils.getElementValue('newEnergySeaFreight');
+    const currency = Utils.getElement('currencyNewEnergy')?.value;
+    let seaFreight = Utils.getElementValue('newEnergyInternationalShipping');
+
+    // 海运费以美元为基准，换算到所选外币
+    if (seaFreight > 0 && currency && currency !== 'USD') {
+      const usdBaseRateStr = document.getElementById('exchangeRateUSDBaseNewEnergy')?.value;
+      const usdBaseRate = usdBaseRateStr ? parseFloat(usdBaseRateStr) : NaN;
+      if (!isNaN(usdBaseRate) && exchangeRate > 0) {
+        const usdToSelected = usdBaseRate / exchangeRate;
+        seaFreight = seaFreight * usdToSelected;
+      }
+    }
     
     if (exchangeRate > 0) {
       // 成本价格 = 购车成本 / 汇率 + 海运费
