@@ -75,9 +75,10 @@ export class EventManager {
   // 绑定表单类型切换事件
   bindFormTypeEvents() {
     document.addEventListener('click', (e) => {
-      if (e.target.matches(this.eventConfig.formTypeEvents.selector)) {
+      const btn = e.target.closest(this.eventConfig.formTypeEvents.selector);
+      if (btn) {
         e.preventDefault();
-        const type = e.target.getAttribute('data-type');
+        const type = btn.getAttribute('data-type');
         this.handleFormTypeSwitch(type);
       }
     });
@@ -644,7 +645,7 @@ export class EventManager {
     // 重置新车表单字段
     const newCarFields = [
       'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
-      'domesticShipping', 'portCharges', 'portChargesFob', 'seaFreight'
+      'domesticShipping', 'portCharges', 'portChargesFob', 'internationalShipping'
     ];
     
     // 重置二手车表单字段
@@ -652,7 +653,7 @@ export class EventManager {
       'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance',
       'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee',
       'usedDomesticShipping', 'usedPortCharges', 'usedPortChargesFob',
-      'usedSeaFreight', 'usedMarkup'
+      'usedInternationalShipping', 'usedMarkup'
     ];
     
     // 重置新能源表单字段
@@ -661,7 +662,7 @@ export class EventManager {
       'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses',
       'newEnergyQualificationFee', 'newEnergyAgencyFee',
       'newEnergyDomesticShipping', 'newEnergyPortCharges',
-      'newEnergyPortChargesFob', 'newEnergySeaFreight', 'newEnergyMarkup'
+      'newEnergyPortChargesFob', 'newEnergyInternationalShipping', 'newEnergyMarkup'
     ];
     
     // 重置所有字段
