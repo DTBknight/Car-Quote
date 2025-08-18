@@ -994,12 +994,25 @@ export class ContractManager {
       console.error('❌ 未找到 calculatorTab');
     }
     
+    // 合同功能升级开发中提示
     if (contractTab) {
       contractTab.addEventListener('click', () => {
-        console.log('🖱️ 点击了合同标签');
-        this.switchTab('contract');
+        console.log('🖱️ 点击了合同标签 - 显示升级提示');
+        this.showUpgradeMessage();
       });
       console.log('✅ contractTab 事件已绑定');
+      
+      // 添加视觉提示，表明合同功能已升级
+      contractTab.title = '合同功能升级开发中 - 点击查看详情';
+      contractTab.style.cursor = 'pointer';
+      
+      // 在合同标签上添加一个小提示
+      const upgradeBadge = document.createElement('span');
+      upgradeBadge.className = 'ml-1 px-2 py-1 text-xs bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full';
+      upgradeBadge.textContent = '升级中';
+      contractTab.appendChild(upgradeBadge);
+      
+      console.log('✅ 合同标签已添加升级提示样式');
     } else {
       console.error('❌ 未找到 contractTab');
     }
@@ -1011,14 +1024,17 @@ export class ContractManager {
     
     // 隐藏所有主内容区域
     const mainContent = document.getElementById('mainContent');
-    const contractMainContent = document.getElementById('contractMainContent');
+    // const contractMainContent = document.getElementById('contractMainContent'); // 合同功能已隐藏
     
     if (mainContent) {
       mainContent.style.setProperty('display', 'none', 'important');
     }
+    // 合同功能已隐藏，但代码保留
+    /*
     if (contractMainContent) {
       contractMainContent.style.setProperty('display', 'none', 'important');
     }
+    */
     
     // 显示对应的主内容区域
     if (tabName === 'calculator') {
@@ -1026,15 +1042,19 @@ export class ContractManager {
         mainContent.style.setProperty('display', 'block', 'important');
         console.log('✅ 计算器主内容区域已设置为可见');
       }
+    }
+    // 合同功能已隐藏，但代码保留
+    /*
     } else if (tabName === 'contract') {
       if (contractMainContent) {
         contractMainContent.style.setProperty('display', 'block', 'important');
         console.log('✅ 合同主内容区域已设置为可见');
         
-        // 生成合同内容
-        this.generateContractContent();
+        // 生成合同内容 (已注释，但方法保留)
+        // this.generateContractContent();
       }
     }
+    */
     
     // 更新按钮状态
     document.querySelectorAll('.tab-button').forEach(btn => {
@@ -1856,5 +1876,83 @@ Bank Address:  NO. 5, WEST STREET, JIANGBEI CITY, JIANGBEI DISTRICT, CHONGQING</
         }
       }
     });
+  }
+
+  // 显示合同功能升级开发中提示
+  showUpgradeMessage() {
+    console.log('🔧 显示合同功能升级开发中提示...');
+    console.log('📍 当前页面URL:', window.location.href);
+    console.log('📍 当前时间:', new Date().toISOString());
+    
+    // 创建升级提示模态框
+    const modal = document.createElement('div');
+    modal.id = 'upgradeModal';
+    modal.className = 'fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center';
+    modal.innerHTML = `
+      <div class="bg-white rounded-xl shadow-2xl p-8 max-w-md mx-4 text-center">
+        <div class="mb-6">
+          <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fa-solid fa-tools text-white text-3xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-gray-800 mb-2">功能升级中</h3>
+          <p class="text-gray-600 text-lg">合同功能正在全面升级开发中</p>
+        </div>
+        
+        <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-lg mb-6">
+          <div class="flex items-center justify-center space-x-2 text-blue-600">
+            <i class="fa-solid fa-spinner fa-spin"></i>
+            <span class="font-medium">敬请期待</span>
+          </div>
+        </div>
+        
+        <div class="space-y-3 text-sm text-gray-500">
+          <div class="flex items-center justify-center">
+            <i class="fa-solid fa-check-circle text-green-500 mr-2"></i>
+            <span>更智能的合同生成</span>
+          </div>
+          <div class="flex items-center justify-center">
+            <i class="fa-solid fa-check-circle text-green-500 mr-2"></i>
+            <span>更丰富的模板选择</span>
+          </div>
+          <div class="flex items-center justify-center">
+            <i class="fa-solid fa-check-circle text-green-500 mr-2"></i>
+            <span>更便捷的操作体验</span>
+          </div>
+        </div>
+        
+        <button id="closeUpgradeModal" class="mt-6 w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 px-6 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105">
+          知道了
+        </button>
+      </div>
+    `;
+    
+    // 添加到页面
+    document.body.appendChild(modal);
+    console.log('✅ 模态框已添加到页面');
+    
+    // 绑定关闭事件
+    const closeBtn = modal.querySelector('#closeUpgradeModal');
+    closeBtn.addEventListener('click', () => {
+      document.body.removeChild(modal);
+      console.log('✅ 模态框已关闭');
+    });
+    
+    // 点击背景关闭
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        document.body.removeChild(modal);
+        console.log('✅ 模态框已通过背景点击关闭');
+      }
+    });
+    
+    // 按ESC键关闭
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && document.getElementById('upgradeModal')) {
+        document.body.removeChild(modal);
+        console.log('✅ 模态框已通过ESC键关闭');
+      }
+    });
+    
+    console.log('✅ 升级提示模态框已显示');
   }
 } 
