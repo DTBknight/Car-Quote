@@ -3,6 +3,66 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/603dedb8f70ad1ec6cd3fc97c0cbbb11~tplv-resize:100:100.image",
   "cars": [
     {
+      "carName": "SKY EV01",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4c46e148649448c08973cce5e527149c~1200x0.png",
+      "configs": [
+        {
+          "configName": "SKY EV01 2025款 445km AIR",
+          "price": "14.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1900x1613",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "SKY EV01 2025款 530km AIR精英版",
+          "price": "16.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1900x1613",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "SKY EV01 2024款 445km PRO",
+          "price": "14.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1900x1613",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "SKY EV01 2024款 440km PRO精英版",
+          "price": "14.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1900x1613",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        },
+        {
+          "configName": "SKY EV01 2024款 530km PRO",
+          "price": "16.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1900x1617",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 218马力"
+        },
+        {
+          "configName": "SKY EV01 2024款 530km PRO精英版",
+          "price": "16.99万",
+          "fuelType": "纯电动",
+          "size": "4670x1900x1613",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "纯电动 163马力"
+        }
+      ]
+    },
+    {
       "carName": "奕炫",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/72b5e989dc6146a887119d969a8699bd~1200x0.png",
       "configs": [
@@ -72,144 +132,6 @@
       ]
     },
     {
-      "carName": "SKY EV01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4c46e148649448c08973cce5e527149c~1200x0.png",
-      "configs": [
-        {
-          "configName": "SKY EV01 2025款 445km AIR",
-          "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "SKY EV01 2025款 530km AIR精英版",
-          "price": "16.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "SKY EV01 2024款 445km PRO",
-          "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "SKY EV01 2024款 440km PRO精英版",
-          "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "SKY EV01 2024款 530km PRO",
-          "price": "16.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1617",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "SKY EV01 2024款 530km PRO精英版",
-          "price": "16.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        }
-      ]
-    },
-    {
-      "carName": "风神L7 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3c264e8af1a747b4afdb8d39b0f7f235~1200x0.png",
-      "configs": [
-        {
-          "configName": "风神L7 PHEV 2025款 110长续航舒享型",
-          "price": "9.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1610",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2025款 205超长续航畅享型",
-          "price": "11.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1610",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2025款 205超长续航纵享型",
-          "price": "12.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1625",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2025款 205超长续航尊享型",
-          "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4670x1900x1625",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2024款 110 Pro",
-          "price": "12.89万",
-          "fuelType": "插电式混合动力",
-          "size": "4670x1900x1625",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2024款 205 Air",
-          "price": "13.69万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1625",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2024款 205 Pro",
-          "price": "14.19万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1625",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
-        },
-        {
-          "configName": "风神L7 PHEV 2024款 205 Plus",
-          "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4670x1900x1625",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
-        }
-      ]
-    },
-    {
       "carName": "奕炫MAX",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/56b3fe94e42343f2a22bddce5274e99a~1200x0.png",
       "configs": [
@@ -266,36 +188,6 @@
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
           "power": "油电混合 177马力"
-        }
-      ]
-    },
-    {
-      "carName": "奕炫GS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/52a268dc56ec4f3f8ee9dc8b4ad5d9a7~1200x0.png",
-      "configs": [
-        {
-          "configName": "奕炫GS 2025款 马赫版 1.5L 自动星耀版",
-          "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4630x1830x1610",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5L 125马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "AX7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a678276c9eee47a98e0872bd572ff88e~1200x0.png",
-      "configs": [
-        {
-          "configName": "东风风神AX7 2023款 冠军传奇版",
-          "price": "13.98万",
-          "fuelType": "汽油",
-          "size": "4660x1880x1690",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 190马力 L4"
         }
       ]
     },
@@ -405,62 +297,22 @@
       ]
     },
     {
-      "carName": "皓极",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1c7e91b0e2a1dab8fe4bd4c2f2197a9~1200x0.png",
+      "carName": "L8 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e38291059a848559362f97bbcc4ebe9~1200x0.png",
+      "configs": []
+    },
+    {
+      "carName": "奕炫GS",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/52a268dc56ec4f3f8ee9dc8b4ad5d9a7~1200x0.png",
       "configs": [
         {
-          "configName": "皓极 2025款 马赫动力 1.5T 豪华型",
-          "price": "12.99万",
+          "configName": "奕炫GS 2025款 马赫版 1.5L 自动星耀版",
+          "price": "11.59万",
           "fuelType": "汽油",
-          "size": "4720x1910x1702",
+          "size": "4630x1830x1610",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
-        },
-        {
-          "configName": "皓极 2025款 马赫动力 1.5T 尊贵型",
-          "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
-        },
-        {
-          "configName": "皓极 2024款 马赫动力 1.5T 豪华型",
-          "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
-        },
-        {
-          "configName": "皓极 2024款 马赫动力 1.5T 尊贵型",
-          "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
-        },
-        {
-          "configName": "皓极 2022款 马赫双擎 1.5T MHD 敢梦版",
-          "price": "13.99万",
-          "fuelType": "油电混合",
-          "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
-        },
-        {
-          "configName": "皓极 2022款 马赫双擎 1.5T MHD 敢创版",
-          "price": "14.69万",
-          "fuelType": "油电混合",
-          "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
+          "power": "1.5L 125马力 L4"
         }
       ]
     },
@@ -548,6 +400,159 @@
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
           "power": "油电混合 143马力"
+        }
+      ]
+    },
+    {
+      "carName": "AX7",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a678276c9eee47a98e0872bd572ff88e~1200x0.png",
+      "configs": [
+        {
+          "configName": "东风风神AX7 2023款 冠军传奇版",
+          "price": "13.98万",
+          "fuelType": "汽油",
+          "size": "4660x1880x1690",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 190马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "皓极",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1c7e91b0e2a1dab8fe4bd4c2f2197a9~1200x0.png",
+      "configs": [
+        {
+          "configName": "皓极 2025款 马赫动力 1.5T 豪华型",
+          "price": "12.99万",
+          "fuelType": "汽油",
+          "size": "4720x1910x1702",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 204马力 L4"
+        },
+        {
+          "configName": "皓极 2025款 马赫动力 1.5T 尊贵型",
+          "price": "13.99万",
+          "fuelType": "汽油",
+          "size": "4720x1910x1702",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 204马力 L4"
+        },
+        {
+          "configName": "皓极 2024款 马赫动力 1.5T 豪华型",
+          "price": "12.99万",
+          "fuelType": "汽油",
+          "size": "4720x1910x1702",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 204马力 L4"
+        },
+        {
+          "configName": "皓极 2024款 马赫动力 1.5T 尊贵型",
+          "price": "13.99万",
+          "fuelType": "汽油",
+          "size": "4720x1910x1702",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 204马力 L4"
+        },
+        {
+          "configName": "皓极 2022款 马赫双擎 1.5T MHD 敢梦版",
+          "price": "13.99万",
+          "fuelType": "油电混合",
+          "size": "4720x1910x1702",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "油电混动 177马力"
+        },
+        {
+          "configName": "皓极 2022款 马赫双擎 1.5T MHD 敢创版",
+          "price": "14.69万",
+          "fuelType": "油电混合",
+          "size": "4720x1910x1702",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "油电混动 177马力"
+        }
+      ]
+    },
+    {
+      "carName": "风神L7 PHEV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3c264e8af1a747b4afdb8d39b0f7f235~1200x0.png",
+      "configs": [
+        {
+          "configName": "风神L7 PHEV 2025款 110长续航舒享型",
+          "price": "9.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4685x1900x1610",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2025款 205超长续航畅享型",
+          "price": "11.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4685x1900x1610",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2025款 205超长续航纵享型",
+          "price": "12.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4685x1900x1625",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2025款 205超长续航尊享型",
+          "price": "13.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4670x1900x1625",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混动 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2024款 110 Pro",
+          "price": "12.89万",
+          "fuelType": "插电式混合动力",
+          "size": "4670x1900x1625",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2024款 205 Air",
+          "price": "13.69万",
+          "fuelType": "插电式混合动力",
+          "size": "4685x1900x1625",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2024款 205 Pro",
+          "price": "14.19万",
+          "fuelType": "插电式混合动力",
+          "size": "4685x1900x1625",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 136马力"
+        },
+        {
+          "configName": "风神L7 PHEV 2024款 205 Plus",
+          "price": "14.99万",
+          "fuelType": "插电式混合动力",
+          "size": "4670x1900x1625",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 136马力"
         }
       ]
     },

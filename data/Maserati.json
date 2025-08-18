@@ -3,30 +3,6 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/ad3fe8a317d543a68cb8ab1c5925d283~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "Ghibli",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e41afaf0eb64c01c1a10b32bb0f257aa~1200x0.png",
-      "configs": [
-        {
-          "configName": "Ghibli 2023款 2.0T GT",
-          "price": "86.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4971x1945x1461",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中大型车",
-          "power": ""
-        },
-        {
-          "configName": "Ghibli 2023款 3.0T Modena",
-          "price": "94.88万",
-          "fuelType": "汽油",
-          "size": "4971x1945x1461",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中大型车",
-          "power": "3.0T 350马力 V6"
-        }
-      ]
-    },
-    {
       "carName": "总裁",
       "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47724b5b8d4b6bfd134563540b8e8079~1200x0.png",
       "configs": [
@@ -65,6 +41,30 @@
           "manufacturer": "玛莎拉蒂",
           "class": "大型车",
           "power": "3.0T 430马力 V6"
+        }
+      ]
+    },
+    {
+      "carName": "Ghibli",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e41afaf0eb64c01c1a10b32bb0f257aa~1200x0.png",
+      "configs": [
+        {
+          "configName": "Ghibli 2023款 2.0T GT",
+          "price": "86.98万",
+          "fuelType": "48V轻混系统",
+          "size": "4971x1945x1461",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型车",
+          "power": ""
+        },
+        {
+          "configName": "Ghibli 2023款 3.0T Modena",
+          "price": "94.88万",
+          "fuelType": "汽油",
+          "size": "4971x1945x1461",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型车",
+          "power": "3.0T 350马力 V6"
         }
       ]
     },
@@ -174,21 +174,6 @@
       ]
     },
     {
-      "carName": "GranTurismo Folgore",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e568207a0584c9e90291a14aadd5f3b~1200x0.png",
-      "configs": [
-        {
-          "configName": "GranTurismo Folgore 2024款 Folgore",
-          "price": "198.8万",
-          "fuelType": "纯电动",
-          "size": "4960x1957x1416",
-          "manufacturer": "玛莎拉蒂",
-          "class": "跑车",
-          "power": "纯电动 1224马力"
-        }
-      ]
-    },
-    {
       "carName": "GranCabrio",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3bc8dc6fb185482583aca4ff186de884~1200x0.png",
       "configs": [
@@ -200,6 +185,21 @@
           "manufacturer": "玛莎拉蒂",
           "class": "跑车",
           "power": "3.0T 550马力 V6"
+        }
+      ]
+    },
+    {
+      "carName": "GranTurismo Folgore",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e568207a0584c9e90291a14aadd5f3b~1200x0.png",
+      "configs": [
+        {
+          "configName": "GranTurismo Folgore 2024款 Folgore",
+          "price": "198.8万",
+          "fuelType": "纯电动",
+          "size": "4960x1957x1416",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "power": "纯电动 1224马力"
         }
       ]
     },

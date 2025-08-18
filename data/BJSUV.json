@@ -3,6 +3,81 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/27aaa6f467454c4bb26fed0a212640bc~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carName": "BJ90",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a9079871847143e79dabfef14d53b161~1200x0.png",
+      "configs": [
+        {
+          "configName": "北京越野BJ90 2023款 山河经典版 3.0T 侠客版",
+          "price": "47.8万",
+          "fuelType": "汽油",
+          "size": "5171x1995x1902",
+          "manufacturer": "北京汽车",
+          "class": "大型SUV",
+          "power": "3.0T 333马力 V6"
+        },
+        {
+          "configName": "北京越野BJ90 2023款 山河经典版 3.0T 至尊版",
+          "price": "49.8万",
+          "fuelType": "汽油",
+          "size": "5171x1995x1902",
+          "manufacturer": "北京汽车",
+          "class": "大型SUV",
+          "power": "3.0T 333马力 V6"
+        }
+      ]
+    },
+    {
+      "carName": "BJ30",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/536fc0335ca84e408297ea95f03fff65~1200x0.png",
+      "configs": [
+        {
+          "configName": "北京越野BJ30 2024款 1.5T DCT两驱轻野Air版",
+          "price": "9.99万",
+          "fuelType": "汽油",
+          "size": "4730x1910x1790",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力 L4"
+        },
+        {
+          "configName": "北京越野BJ30 2024款 1.5T DCT两驱轻野Pro版",
+          "price": "10.99万",
+          "fuelType": "汽油",
+          "size": "4730x1910x1790",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力 L4"
+        },
+        {
+          "configName": "北京越野BJ30 2024款 1.5T DCT两驱轻野Max版",
+          "price": "11.99万",
+          "fuelType": "汽油",
+          "size": "4730x1910x1790",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "1.5T 188马力 L4"
+        },
+        {
+          "configName": "北京越野BJ30 2024款 1.5T DHT魔核电驱标准版",
+          "price": "12.59万",
+          "fuelType": "油电混合",
+          "size": "4730x1910x1790",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "油电混合 177马力"
+        },
+        {
+          "configName": "北京越野BJ30 2024款 1.5T DHT 4WD 魔核电驱进阶版",
+          "price": "13.69万",
+          "fuelType": "油电混合",
+          "size": "4730x1910x1790",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "power": "油电混合 252马力"
+        }
+      ]
+    },
+    {
       "carName": "BJ40",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7671c74fac0a4eb3804f913160505749~1200x0.png",
       "configs": [
@@ -113,81 +188,6 @@
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
           "power": ""
-        }
-      ]
-    },
-    {
-      "carName": "BJ90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a9079871847143e79dabfef14d53b161~1200x0.png",
-      "configs": [
-        {
-          "configName": "北京越野BJ90 2023款 山河经典版 3.0T 侠客版",
-          "price": "47.8万",
-          "fuelType": "汽油",
-          "size": "5171x1995x1902",
-          "manufacturer": "北京汽车",
-          "class": "大型SUV",
-          "power": "3.0T 333马力 V6"
-        },
-        {
-          "configName": "北京越野BJ90 2023款 山河经典版 3.0T 至尊版",
-          "price": "49.8万",
-          "fuelType": "汽油",
-          "size": "5171x1995x1902",
-          "manufacturer": "北京汽车",
-          "class": "大型SUV",
-          "power": "3.0T 333马力 V6"
-        }
-      ]
-    },
-    {
-      "carName": "BJ30",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/536fc0335ca84e408297ea95f03fff65~1200x0.png",
-      "configs": [
-        {
-          "configName": "北京越野BJ30 2024款 1.5T DCT两驱轻野Air版",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4730x1910x1790",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
-        },
-        {
-          "configName": "北京越野BJ30 2024款 1.5T DCT两驱轻野Pro版",
-          "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4730x1910x1790",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
-        },
-        {
-          "configName": "北京越野BJ30 2024款 1.5T DCT两驱轻野Max版",
-          "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4730x1910x1790",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
-        },
-        {
-          "configName": "北京越野BJ30 2024款 1.5T DHT魔核电驱标准版",
-          "price": "12.59万",
-          "fuelType": "油电混合",
-          "size": "4730x1910x1790",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "油电混合 177马力"
-        },
-        {
-          "configName": "北京越野BJ30 2024款 1.5T DHT 4WD 魔核电驱进阶版",
-          "price": "13.69万",
-          "fuelType": "油电混合",
-          "size": "4730x1910x1790",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "油电混合 252马力"
         }
       ]
     },
@@ -306,30 +306,6 @@
       ]
     },
     {
-      "carName": "BJ40增程",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/694cc389bec148ddb234898d43fe8fbb~1200x0.png",
-      "configs": [
-        {
-          "configName": "北京越野BJ40增程 2025款 标准版",
-          "price": "17.98万",
-          "fuelType": "增程式",
-          "size": "4790x1940x1964",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "增程式 548马力"
-        },
-        {
-          "configName": "北京越野BJ40增程 2025款 进阶版",
-          "price": "19.98万",
-          "fuelType": "增程式",
-          "size": "4790x1940x1964",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "增程式 548马力"
-        }
-      ]
-    },
-    {
       "carName": "BJ60",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2d9544ca617d4bf695e421a064f0d4f0~1200x0.png",
       "configs": [
@@ -399,52 +375,25 @@
       ]
     },
     {
-      "carName": "BJ60雷霆",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e5c40bd9c2e042b99d4cc5928b5c5d24~1200x0.png",
+      "carName": "BJ40增程",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/694cc389bec148ddb234898d43fe8fbb~1200x0.png",
       "configs": [
         {
-          "configName": "北京越野BJ60雷霆 2024款 魔核电驱标准版五座",
-          "price": "25.98万",
+          "configName": "北京越野BJ40增程 2025款 标准版",
+          "price": "17.98万",
           "fuelType": "增程式",
-          "size": "5040x1955x1925",
+          "size": "4790x1940x1964",
           "manufacturer": "北京汽车",
-          "class": "中大型SUV",
+          "class": "紧凑型SUV",
           "power": "增程式 548马力"
         },
         {
-          "configName": "北京越野BJ60雷霆 2024款 魔核电驱进阶版五座",
-          "price": "27.98万",
+          "configName": "北京越野BJ40增程 2025款 进阶版",
+          "price": "19.98万",
           "fuelType": "增程式",
-          "size": "5040x1955x1925",
+          "size": "4790x1940x1964",
           "manufacturer": "北京汽车",
-          "class": "中大型SUV",
-          "power": "增程式 548马力"
-        },
-        {
-          "configName": "北京越野BJ60雷霆 2024款 魔核电驱进阶版七座",
-          "price": "28.58万",
-          "fuelType": "增程式",
-          "size": "5040x1955x1925",
-          "manufacturer": "北京汽车",
-          "class": "中大型SUV",
-          "power": "增程式 548马力"
-        },
-        {
-          "configName": "北京越野BJ60雷霆 2024款 魔核电驱珠峰版五座",
-          "price": "30.18万",
-          "fuelType": "增程式",
-          "size": "5040x1955x1925",
-          "manufacturer": "北京汽车",
-          "class": "中大型SUV",
-          "power": "增程式 548马力"
-        },
-        {
-          "configName": "北京越野BJ60雷霆 2024款 魔核电驱珠峰进阶版五座",
-          "price": "30.48万",
-          "fuelType": "增程式",
-          "size": "5040x1955x1925",
-          "manufacturer": "北京汽车",
-          "class": "中大型SUV",
+          "class": "紧凑型SUV",
           "power": "增程式 548马力"
         }
       ]
@@ -506,6 +455,57 @@
           "manufacturer": "北京汽车",
           "class": "中大型SUV",
           "power": "3.0T 280马力 V6"
+        }
+      ]
+    },
+    {
+      "carName": "BJ60雷霆",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e5c40bd9c2e042b99d4cc5928b5c5d24~1200x0.png",
+      "configs": [
+        {
+          "configName": "北京越野BJ60雷霆 2024款 魔核电驱标准版五座",
+          "price": "25.98万",
+          "fuelType": "增程式",
+          "size": "5040x1955x1925",
+          "manufacturer": "北京汽车",
+          "class": "中大型SUV",
+          "power": "增程式 548马力"
+        },
+        {
+          "configName": "北京越野BJ60雷霆 2024款 魔核电驱进阶版五座",
+          "price": "27.98万",
+          "fuelType": "增程式",
+          "size": "5040x1955x1925",
+          "manufacturer": "北京汽车",
+          "class": "中大型SUV",
+          "power": "增程式 548马力"
+        },
+        {
+          "configName": "北京越野BJ60雷霆 2024款 魔核电驱进阶版七座",
+          "price": "28.58万",
+          "fuelType": "增程式",
+          "size": "5040x1955x1925",
+          "manufacturer": "北京汽车",
+          "class": "中大型SUV",
+          "power": "增程式 548马力"
+        },
+        {
+          "configName": "北京越野BJ60雷霆 2024款 魔核电驱珠峰版五座",
+          "price": "30.18万",
+          "fuelType": "增程式",
+          "size": "5040x1955x1925",
+          "manufacturer": "北京汽车",
+          "class": "中大型SUV",
+          "power": "增程式 548马力"
+        },
+        {
+          "configName": "北京越野BJ60雷霆 2024款 魔核电驱珠峰进阶版五座",
+          "price": "30.48万",
+          "fuelType": "增程式",
+          "size": "5040x1955x1925",
+          "manufacturer": "北京汽车",
+          "class": "中大型SUV",
+          "power": "增程式 548马力"
         }
       ]
     }

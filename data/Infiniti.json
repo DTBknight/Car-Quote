@@ -1,7 +1,58 @@
 {
-  "brand": "英菲尼迪",
+  "brand": "Infiniti",
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/2458a930c2c04a9c9f6bf6897840c491~tplv-resize:0:0.png",
   "cars": [
+    {
+      "carName": "英菲尼迪Q50L",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cb83777fe845aa4962849fbbfe51b46~1200x0.png",
+      "configs": [
+        {
+          "configName": "英菲尼迪Q50L 2022款 2.0T 舒适版",
+          "price": "26.48万",
+          "fuelType": "汽油",
+          "size": "4867x1823x1456",
+          "manufacturer": "东风英菲尼迪",
+          "class": "中型车",
+          "power": "2.0T 211马力 L4"
+        },
+        {
+          "configName": "英菲尼迪Q50L 2022款 2.0T 逸享版",
+          "price": "29.48万",
+          "fuelType": "汽油",
+          "size": "4867x1823x1456",
+          "manufacturer": "东风英菲尼迪",
+          "class": "中型车",
+          "power": "2.0T 211马力 L4"
+        },
+        {
+          "configName": "英菲尼迪Q50L 2022款 2.0T 进享版",
+          "price": "30.48万",
+          "fuelType": "汽油",
+          "size": "4867x1823x1456",
+          "manufacturer": "东风英菲尼迪",
+          "class": "中型车",
+          "power": "2.0T 211马力 L4"
+        },
+        {
+          "configName": "英菲尼迪Q50L 2022款 2.0T 进享运动版",
+          "price": "31.98万",
+          "fuelType": "汽油",
+          "size": "4867x1823x1456",
+          "manufacturer": "东风英菲尼迪",
+          "class": "中型车",
+          "power": "2.0T 211马力 L4"
+        },
+        {
+          "configName": "英菲尼迪Q50L 2022款 2.0T 豪华运动版",
+          "price": "38.98万",
+          "fuelType": "汽油",
+          "size": "4867x1823x1456",
+          "manufacturer": "东风英菲尼迪",
+          "class": "中型车",
+          "power": "2.0T 211马力 L4"
+        }
+      ]
+    },
     {
       "carName": "英菲尼迪QX50",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3e5f30a68edb47dda4e885cc35216085~1200x0.png",
@@ -63,6 +114,72 @@
       ]
     },
     {
+      "carName": "英菲尼迪QX55",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9303fe35774b68066bfc762b807208e3~1200x0.png",
+      "configs": [
+        {
+          "configName": "英菲尼迪QX55 2022款 2.0T 两驱耀型版",
+          "price": "38.98万",
+          "fuelType": "汽油",
+          "size": "4736x1903x1622",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 245马力 L4"
+        },
+        {
+          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀动版",
+          "price": "42.88万",
+          "fuelType": "汽油",
+          "size": "4736x1903x1620",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 261马力 L4"
+        },
+        {
+          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀享版",
+          "price": "45.53万",
+          "fuelType": "汽油",
+          "size": "4736x1903x1620",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 261马力 L4"
+        },
+        {
+          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀奢版",
+          "price": "47.53万",
+          "fuelType": "汽油",
+          "size": "4736x1903x1620",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "中型SUV",
+          "power": "2.0T 261马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "英菲尼迪QX80",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/92170e571ff9459896ed34f2361af36e~1200x0.png",
+      "configs": [
+        {
+          "configName": "英菲尼迪QX80 2025款 Sensory AWD",
+          "price": "119.8万",
+          "fuelType": "汽油",
+          "size": "5365x2030x1945",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "大型SUV",
+          "power": "3.5T 450马力 V6"
+        },
+        {
+          "configName": "英菲尼迪QX80 2025款 Autograph AWD",
+          "price": "136.8万",
+          "fuelType": "汽油",
+          "size": "5365x2030x1945",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "大型SUV",
+          "power": "3.5T 450马力 V6"
+        }
+      ]
+    },
+    {
       "carName": "英菲尼迪QX60",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4ec075e8d8ef4d3aad68fee135b0bec5~1200x0.png",
       "configs": [
@@ -119,123 +236,6 @@
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
           "power": "2.0T 252马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "英菲尼迪QX55",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9303fe35774b68066bfc762b807208e3~1200x0.png",
-      "configs": [
-        {
-          "configName": "英菲尼迪QX55 2022款 2.0T 两驱耀型版",
-          "price": "38.98万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1622",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "中型SUV",
-          "power": "2.0T 245马力 L4"
-        },
-        {
-          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀动版",
-          "price": "42.88万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1620",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
-        },
-        {
-          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀享版",
-          "price": "45.53万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1620",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
-        },
-        {
-          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀奢版",
-          "price": "47.53万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1620",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "英菲尼迪Q50L",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cb83777fe845aa4962849fbbfe51b46~1200x0.png",
-      "configs": [
-        {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 舒适版",
-          "price": "26.48万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
-          "manufacturer": "东风英菲尼迪",
-          "class": "中型车",
-          "power": "2.0T 211马力 L4"
-        },
-        {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 逸享版",
-          "price": "29.48万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
-          "manufacturer": "东风英菲尼迪",
-          "class": "中型车",
-          "power": "2.0T 211马力 L4"
-        },
-        {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 进享版",
-          "price": "30.48万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
-          "manufacturer": "东风英菲尼迪",
-          "class": "中型车",
-          "power": "2.0T 211马力 L4"
-        },
-        {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 进享运动版",
-          "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
-          "manufacturer": "东风英菲尼迪",
-          "class": "中型车",
-          "power": "2.0T 211马力 L4"
-        },
-        {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 豪华运动版",
-          "price": "38.98万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
-          "manufacturer": "东风英菲尼迪",
-          "class": "中型车",
-          "power": "2.0T 211马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "英菲尼迪QX80",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/92170e571ff9459896ed34f2361af36e~1200x0.png",
-      "configs": [
-        {
-          "configName": "英菲尼迪QX80 2025款 Sensory AWD",
-          "price": "119.8万",
-          "fuelType": "汽油",
-          "size": "5365x2030x1945",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 450马力 V6"
-        },
-        {
-          "configName": "英菲尼迪QX80 2025款 Autograph AWD",
-          "price": "136.8万",
-          "fuelType": "汽油",
-          "size": "5365x2030x1945",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 450马力 V6"
         }
       ]
     }

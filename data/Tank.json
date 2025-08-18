@@ -1,7 +1,61 @@
 {
-  "brand": "坦克",
+  "brand": "Tank",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/17fca7e0dec078194be0cf6248c79706~tplv-resize:100:100.image",
   "cars": [
+    {
+      "carName": "坦克500 Hi4-T",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/18ee743191d544479236fe86fb8effc0~1200x0.png",
+      "configs": [
+        {
+          "configName": "坦克500 Hi4-T 2024款 2.0T Hi4-T",
+          "price": "33.5万",
+          "fuelType": "插电式混合动力",
+          "size": "5078x1934x1905",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 163马力"
+        },
+        {
+          "configName": "坦克500 Hi4-T 2024款 2.0T Hi4-T 黑武士",
+          "price": "34.5万",
+          "fuelType": "插电式混合动力",
+          "size": "5078x1934x1905",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "power": "插电式混合动力 163马力"
+        }
+      ]
+    },
+    {
+      "carName": "赛博坦克300",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/938dc57d321f46c69d62aef5f4856e79~1200x0.png",
+      "configs": [
+        {
+          "configName": "赛博坦克300 2023款 2.0T 赛博骑士",
+          "price": "33.8万",
+          "fuelType": "汽油",
+          "size": "4679x1967x1958",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "2.0T 227马力 L4"
+        }
+      ]
+    },
+    {
+      "carName": "坦克300 Hi4-T",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/77ed1c178f084c6eb33ffa104aaadd54~1200x0.png",
+      "configs": [
+        {
+          "configName": "坦克300 Hi4-T 2025款 2.0T 标准型",
+          "price": "24.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4760x1930x1903",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "power": "插电式混合动力 163马力"
+        }
+      ]
+    },
     {
       "carName": "坦克300",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9da16ffafea4416e8ec402492ca9c75a~1200x0.png",
@@ -31,7 +85,7 @@
           "size": "4750x1930x1903",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.4T 186马力 L4"
+          "power": ""
         },
         {
           "configName": "坦克300 2024款 2.0T 挑战者",
@@ -58,7 +112,7 @@
           "size": "4760x1930x1903",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克300 2024款 330 3.0T V6",
@@ -67,22 +121,7 @@
           "size": "4772x1970x1960",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
-        }
-      ]
-    },
-    {
-      "carName": "赛博坦克300",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/938dc57d321f46c69d62aef5f4856e79~1200x0.png",
-      "configs": [
-        {
-          "configName": "赛博坦克300 2023款 2.0T 赛博骑士",
-          "price": "33.8万",
-          "fuelType": "汽油",
-          "size": "4679x1967x1958",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 227马力 L4"
+          "power": ""
         }
       ]
     },
@@ -97,7 +136,7 @@
           "size": "4985x1960x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4 48V轻混系统"
+          "power": ""
         },
         {
           "configName": "坦克400 2025款 2.4T 柴油版",
@@ -106,22 +145,7 @@
           "size": "4985x1960x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "2.4T 186马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "坦克300 Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/77ed1c178f084c6eb33ffa104aaadd54~1200x0.png",
-      "configs": [
-        {
-          "configName": "坦克300 Hi4-T 2025款 2.0T 标准型",
-          "price": "24.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1930x1903",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 163马力"
+          "power": ""
         }
       ]
     },
@@ -143,30 +167,6 @@
           "price": "28.98万",
           "fuelType": "插电式混合动力",
           "size": "4985x1960x1900",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 163马力"
-        }
-      ]
-    },
-    {
-      "carName": "坦克500 Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/18ee743191d544479236fe86fb8effc0~1200x0.png",
-      "configs": [
-        {
-          "configName": "坦克500 Hi4-T 2024款 2.0T Hi4-T",
-          "price": "33.5万",
-          "fuelType": "插电式混合动力",
-          "size": "5078x1934x1905",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 163马力"
-        },
-        {
-          "configName": "坦克500 Hi4-T 2024款 2.0T Hi4-T 黑武士",
-          "price": "34.5万",
-          "fuelType": "插电式混合动力",
-          "size": "5078x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
           "power": "插电式混合动力 163马力"
@@ -208,7 +208,7 @@
           "size": "5070x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 运动版 登峰 7座",
@@ -217,7 +217,7 @@
           "size": "5070x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 运动版 造境 5座",
@@ -226,7 +226,7 @@
           "size": "5070x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 运动版 造境 7座",
@@ -235,7 +235,7 @@
           "size": "5070x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 商务版 登峰 5座",
@@ -244,7 +244,7 @@
           "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 商务版 登峰 7座",
@@ -253,7 +253,7 @@
           "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 商务版 造境 5座",
@@ -262,7 +262,7 @@
           "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 商务版 造境 7座",
@@ -271,7 +271,7 @@
           "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         },
         {
           "configName": "坦克500 2023款 定制版 5座",
@@ -280,7 +280,7 @@
           "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "3.0T 360马力 V6 48V轻混"
+          "power": ""
         }
       ]
     },

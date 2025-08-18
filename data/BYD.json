@@ -3,6 +3,75 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/10a76eee736808997549bbb0f716e1cb~tplv-resize:100:100.image",
   "cars": [
     {
+      "carName": "海豚",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/47867748101c4e35b09685f14e346d15~1200x0.png",
+      "configs": [
+        {
+          "configName": "海豚 2025款 智驾版 420KM自由版",
+          "price": "9.98万",
+          "fuelType": "纯电动",
+          "size": "4280x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 95马力"
+        },
+        {
+          "configName": "海豚 2025款 智驾版 410KM时尚版",
+          "price": "10.98万",
+          "fuelType": "纯电动",
+          "size": "4280x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 177马力"
+        },
+        {
+          "configName": "海豚 2025款 智驾版 520KM骑士版",
+          "price": "12.58万",
+          "fuelType": "纯电动",
+          "size": "4280x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 204马力"
+        },
+        {
+          "configName": "海豚 2025款 420KM 活力版",
+          "price": "9.98万",
+          "fuelType": "纯电动",
+          "size": "4125x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 95马力"
+        },
+        {
+          "configName": "海豚 2025款 420KM 自由版",
+          "price": "10.68万",
+          "fuelType": "纯电动",
+          "size": "4125x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 95马力"
+        },
+        {
+          "configName": "海豚 2025款 420KM 时尚版",
+          "price": "11.38万",
+          "fuelType": "纯电动",
+          "size": "4125x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 95马力"
+        },
+        {
+          "configName": "海豚 2025款 520KM 骑士版",
+          "price": "12.98万",
+          "fuelType": "纯电动",
+          "size": "4150x1770x1570",
+          "manufacturer": "比亚迪",
+          "class": "小型车",
+          "power": "纯电动 204马力"
+        }
+      ]
+    },
+    {
       "carName": "海鸥",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/36d69ec734524877ba5aae2ab10704d7~1200x0.png",
       "configs": [
@@ -77,75 +146,6 @@
           "manufacturer": "比亚迪",
           "class": "小型车",
           "power": "纯电动 75马力"
-        }
-      ]
-    },
-    {
-      "carName": "海豚",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/47867748101c4e35b09685f14e346d15~1200x0.png",
-      "configs": [
-        {
-          "configName": "海豚 2025款 智驾版 420KM自由版",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "4280x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "海豚 2025款 智驾版 410KM时尚版",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4280x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 177马力"
-        },
-        {
-          "configName": "海豚 2025款 智驾版 520KM骑士版",
-          "price": "12.58万",
-          "fuelType": "纯电动",
-          "size": "4280x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "海豚 2025款 420KM 活力版",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "4125x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "海豚 2025款 420KM 自由版",
-          "price": "10.68万",
-          "fuelType": "纯电动",
-          "size": "4125x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "海豚 2025款 420KM 时尚版",
-          "price": "11.38万",
-          "fuelType": "纯电动",
-          "size": "4125x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "海豚 2025款 520KM 骑士版",
-          "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4150x1770x1570",
-          "manufacturer": "比亚迪",
-          "class": "小型车",
-          "power": "纯电动 204马力"
         }
       ]
     },
@@ -228,98 +228,113 @@
       ]
     },
     {
-      "carName": "汉EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ca2999760b754ecf86ad2eea25faf8fc~1200x0.png",
+      "carName": "宋PLUS DM",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5188c9fdac58415ebc5496f5ce30c14c~1200x0.png",
       "configs": [
         {
-          "configName": "汉EV 2025款 智驾版 506KM尊贵型",
-          "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 智驾版 DM-i  75KM豪华型",
+          "price": "13.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 204马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 智驾版 605KM尊荣型",
-          "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 智驾版 DM-i 112KM尊贵型",
+          "price": "14.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 228马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 智驾版 605KM领航版",
-          "price": "21.88万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 智驾版 DM-i 112KM尊荣型",
+          "price": "15.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 228马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 智驾版 701KM尊荣型",
-          "price": "19.98万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 智驾版 DM-i 160KM旗舰型",
+          "price": "16.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 245马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 智驾版 701KM激光雷达尊享型",
-          "price": "21.98万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 智驾版 DM-i 160KM旗舰型PLUS",
+          "price": "17.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 245马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 智驾版 701KM激光雷达旗舰型",
-          "price": "23.58万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 DM-i  75KM豪华型",
+          "price": "13.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 245马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 506KM尊贵型",
-          "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 DM-i 112KM尊贵型",
+          "price": "14.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 204马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 605KM尊贵型",
-          "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 DM-i 112KM尊荣型",
+          "price": "15.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 228马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 701KM尊享型",
-          "price": "20.98万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 DM-i 160KM旗舰型",
+          "price": "16.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 245马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
         },
         {
-          "configName": "汉EV 2025款 701KM激光雷达智驾型",
-          "price": "23.58万",
-          "fuelType": "纯电动",
-          "size": "4995x1910x1495",
+          "configName": "宋PLUS DM 2025款 DM-i 160KM旗舰型PLUS",
+          "price": "17.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4775x1890x1670",
           "manufacturer": "比亚迪",
-          "class": "中大型车",
-          "power": "纯电动 245马力"
+          "class": "紧凑型SUV",
+          "power": "插电式混动 218马力"
+        }
+      ]
+    },
+    {
+      "carName": "e3",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fbef91bbffed022384af55ef34f1534~1200x0.png",
+      "configs": [
+        {
+          "configName": "比亚迪e3 2021款 领畅版",
+          "price": "15.48万",
+          "fuelType": "纯电动",
+          "size": "4450x1760x1520",
+          "manufacturer": "比亚迪",
+          "class": "紧凑型车",
+          "power": "纯电动 136马力"
         }
       ]
     },
@@ -353,21 +368,6 @@
           "manufacturer": "比亚迪",
           "class": "紧凑型车",
           "power": "纯电动 95马力"
-        }
-      ]
-    },
-    {
-      "carName": "e3",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fbef91bbffed022384af55ef34f1534~1200x0.png",
-      "configs": [
-        {
-          "configName": "比亚迪e3 2021款 领畅版",
-          "price": "15.48万",
-          "fuelType": "纯电动",
-          "size": "4450x1760x1520",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型车",
-          "power": "纯电动 136马力"
         }
       ]
     },
@@ -561,6 +561,111 @@
       ]
     },
     {
+      "carName": "秦L DM",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/27f2c3208177474a906260c54b1b9607~1200x0.png",
+      "configs": [
+        {
+          "configName": "秦L DM 2025款 智驾版 DM-i 80KM领先型",
+          "price": "9.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 163马力"
+        },
+        {
+          "configName": "秦L DM 2025款 智驾版 DM-i 80KM超越型",
+          "price": "10.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 163马力"
+        },
+        {
+          "configName": "秦L DM 2025款 智驾版 DM-i 120KM领先型",
+          "price": "11.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        },
+        {
+          "configName": "秦L DM 2025款 智驾版 DM-i 120KM领航版",
+          "price": "15.38万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        },
+        {
+          "configName": "秦L DM 2025款 智驾版 DM-i 120KM超越型",
+          "price": "12.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        },
+        {
+          "configName": "秦L DM 2025款 智驾版 DM-i 120KM卓越型",
+          "price": "13.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        },
+        {
+          "configName": "秦L DM 2024款 DM-i 80KM领先型",
+          "price": "9.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 163马力"
+        },
+        {
+          "configName": "秦L DM 2024款 DM-i 80KM超越型",
+          "price": "10.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 163马力"
+        },
+        {
+          "configName": "秦L DM 2024款 DM-i 120KM领先型",
+          "price": "11.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        },
+        {
+          "configName": "秦L DM 2024款 DM-i 120KM超越型",
+          "price": "12.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        },
+        {
+          "configName": "秦L DM 2024款 DM-i 120KM卓越型",
+          "price": "13.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4830x1900x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "插电式混动 218马力"
+        }
+      ]
+    },
+    {
       "carName": "驱逐舰05",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fa892c4fafcf4ce5aebeb78c9115c2f6~1200x0.png",
       "configs": [
@@ -717,111 +822,6 @@
       ]
     },
     {
-      "carName": "秦L DM",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/27f2c3208177474a906260c54b1b9607~1200x0.png",
-      "configs": [
-        {
-          "configName": "秦L DM 2025款 智驾版 DM-i 80KM领先型",
-          "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 163马力"
-        },
-        {
-          "configName": "秦L DM 2025款 智驾版 DM-i 80KM超越型",
-          "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 163马力"
-        },
-        {
-          "configName": "秦L DM 2025款 智驾版 DM-i 120KM领先型",
-          "price": "11.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "秦L DM 2025款 智驾版 DM-i 120KM领航版",
-          "price": "15.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "秦L DM 2025款 智驾版 DM-i 120KM超越型",
-          "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "秦L DM 2025款 智驾版 DM-i 120KM卓越型",
-          "price": "13.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "秦L DM 2024款 DM-i 80KM领先型",
-          "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 163马力"
-        },
-        {
-          "configName": "秦L DM 2024款 DM-i 80KM超越型",
-          "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 163马力"
-        },
-        {
-          "configName": "秦L DM 2024款 DM-i 120KM领先型",
-          "price": "11.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "秦L DM 2024款 DM-i 120KM超越型",
-          "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "秦L DM 2024款 DM-i 120KM卓越型",
-          "price": "13.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4830x1900x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "插电式混动 218马力"
-        }
-      ]
-    },
-    {
       "carName": "海豹05DM",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/62b415d05703416291cc01a2fd07deae~1200x0.png",
       "configs": [
@@ -933,39 +933,6 @@
       ]
     },
     {
-      "carName": "海豹06EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/041f884fbee14f059773d1036d53adf8~1200x0.png",
-      "configs": [
-        {
-          "configName": "海豹06EV 2025款 470KM 尊荣型",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4720x1880x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 150马力"
-        },
-        {
-          "configName": "海豹06EV 2025款 545KM 尊享型",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4720x1880x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "海豹06EV 2025款 545KM 旗舰型",
-          "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4720x1880x1495",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 218马力"
-        }
-      ]
-    },
-    {
       "carName": "海豹06DM",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8c917bb3d44a407ca19e048afcc643c6~1200x0.png",
       "configs": [
@@ -1058,6 +1025,39 @@
           "manufacturer": "比亚迪",
           "class": "中型车",
           "power": "插电式混动 218马力"
+        }
+      ]
+    },
+    {
+      "carName": "海豹06EV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/041f884fbee14f059773d1036d53adf8~1200x0.png",
+      "configs": [
+        {
+          "configName": "海豹06EV 2025款 470KM 尊荣型",
+          "price": "10.98万",
+          "fuelType": "纯电动",
+          "size": "4720x1880x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 150马力"
+        },
+        {
+          "configName": "海豹06EV 2025款 545KM 尊享型",
+          "price": "11.98万",
+          "fuelType": "纯电动",
+          "size": "4720x1880x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 218马力"
+        },
+        {
+          "configName": "海豹06EV 2025款 545KM 旗舰型",
+          "price": "12.98万",
+          "fuelType": "纯电动",
+          "size": "4720x1880x1495",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 218马力"
         }
       ]
     },
@@ -1173,6 +1173,66 @@
       ]
     },
     {
+      "carName": "e7",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9590eb857d9742c0bc4835f696d2eef3~1200x0.png",
+      "configs": [
+        {
+          "configName": "比亚迪e7 2025款 450km 智惠版",
+          "price": "10.38万",
+          "fuelType": "纯电动",
+          "size": "4780x1900x1515",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 136马力"
+        },
+        {
+          "configName": "比亚迪e7 2025款 450km 智惠出行版",
+          "price": "12.98万",
+          "fuelType": "纯电动",
+          "size": "4780x1900x1515",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 136马力"
+        },
+        {
+          "configName": "比亚迪e7 2025款 520km 智惠版",
+          "price": "10.98万",
+          "fuelType": "纯电动",
+          "size": "4780x1900x1515",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 136马力"
+        },
+        {
+          "configName": "比亚迪e7 2025款 520km 智惠出行版",
+          "price": "13.58万",
+          "fuelType": "纯电动",
+          "size": "4780x1900x1515",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 136马力"
+        },
+        {
+          "configName": "比亚迪e7 2025款 520km 智行版",
+          "price": "11.58万",
+          "fuelType": "纯电动",
+          "size": "4780x1900x1515",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 136马力"
+        },
+        {
+          "configName": "比亚迪e7 2025款 520km 智行出行版",
+          "price": "13.98万",
+          "fuelType": "纯电动",
+          "size": "4780x1900x1515",
+          "manufacturer": "比亚迪",
+          "class": "中型车",
+          "power": "纯电动 136马力"
+        }
+      ]
+    },
+    {
       "carName": "海豹07DM",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a8eff4597aaa4202aef35424c13cd14f~1200x0.png",
       "configs": [
@@ -1265,66 +1325,6 @@
           "manufacturer": "比亚迪",
           "class": "中型车",
           "power": "插电式混动 272马力"
-        }
-      ]
-    },
-    {
-      "carName": "e7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9590eb857d9742c0bc4835f696d2eef3~1200x0.png",
-      "configs": [
-        {
-          "configName": "比亚迪e7 2025款 450km 智惠版",
-          "price": "10.38万",
-          "fuelType": "纯电动",
-          "size": "4780x1900x1515",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "比亚迪e7 2025款 450km 智惠出行版",
-          "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1900x1515",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "比亚迪e7 2025款 520km 智惠版",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1900x1515",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "比亚迪e7 2025款 520km 智惠出行版",
-          "price": "13.58万",
-          "fuelType": "纯电动",
-          "size": "4780x1900x1515",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "比亚迪e7 2025款 520km 智行版",
-          "price": "11.58万",
-          "fuelType": "纯电动",
-          "size": "4780x1900x1515",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "比亚迪e7 2025款 520km 智行出行版",
-          "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1900x1515",
-          "manufacturer": "比亚迪",
-          "class": "中型车",
-          "power": "纯电动 136马力"
         }
       ]
     },
@@ -1482,35 +1482,98 @@
       ]
     },
     {
-      "carName": "汉L EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2a215a2e598d444a9f29ff4a6fbabfe1~1200x0.png",
+      "carName": "汉EV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ca2999760b754ecf86ad2eea25faf8fc~1200x0.png",
       "configs": [
         {
-          "configName": "汉L EV 2025款 701KM 后驱激光雷达尊享型",
+          "configName": "汉EV 2025款 智驾版 506KM尊贵型",
+          "price": "17.98万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 204马力"
+        },
+        {
+          "configName": "汉EV 2025款 智驾版 605KM尊荣型",
+          "price": "18.98万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 228马力"
+        },
+        {
+          "configName": "汉EV 2025款 智驾版 605KM领航版",
+          "price": "21.88万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 228马力"
+        },
+        {
+          "configName": "汉EV 2025款 智驾版 701KM尊荣型",
+          "price": "19.98万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 245马力"
+        },
+        {
+          "configName": "汉EV 2025款 智驾版 701KM激光雷达尊享型",
           "price": "21.98万",
           "fuelType": "纯电动",
-          "size": "5050x1960x1505",
+          "size": "4995x1910x1495",
           "manufacturer": "比亚迪",
           "class": "中大型车",
-          "power": "纯电动 680马力"
+          "power": "纯电动 245马力"
         },
         {
-          "configName": "汉L EV 2025款 701KM 后驱激光雷达旗舰型",
-          "price": "23.98万",
+          "configName": "汉EV 2025款 智驾版 701KM激光雷达旗舰型",
+          "price": "23.58万",
           "fuelType": "纯电动",
-          "size": "5050x1960x1505",
+          "size": "4995x1910x1495",
           "manufacturer": "比亚迪",
           "class": "中大型车",
-          "power": "纯电动 680马力"
+          "power": "纯电动 245马力"
         },
         {
-          "configName": "汉L EV 2025款 601KM 四驱激光雷达旗舰型",
-          "price": "27.98万",
+          "configName": "汉EV 2025款 506KM尊贵型",
+          "price": "17.98万",
           "fuelType": "纯电动",
-          "size": "5050x1960x1505",
+          "size": "4995x1910x1495",
           "manufacturer": "比亚迪",
           "class": "中大型车",
-          "power": "纯电动 1102马力"
+          "power": "纯电动 204马力"
+        },
+        {
+          "configName": "汉EV 2025款 605KM尊贵型",
+          "price": "19.58万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 228马力"
+        },
+        {
+          "configName": "汉EV 2025款 701KM尊享型",
+          "price": "20.98万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 245马力"
+        },
+        {
+          "configName": "汉EV 2025款 701KM激光雷达智驾型",
+          "price": "23.58万",
+          "fuelType": "纯电动",
+          "size": "4995x1910x1495",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 245马力"
         }
       ]
     },
@@ -1586,6 +1649,39 @@
           "manufacturer": "比亚迪",
           "class": "小型SUV",
           "power": "纯电动 177马力"
+        }
+      ]
+    },
+    {
+      "carName": "汉L EV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2a215a2e598d444a9f29ff4a6fbabfe1~1200x0.png",
+      "configs": [
+        {
+          "configName": "汉L EV 2025款 701KM 后驱激光雷达尊享型",
+          "price": "21.98万",
+          "fuelType": "纯电动",
+          "size": "5050x1960x1505",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 680马力"
+        },
+        {
+          "configName": "汉L EV 2025款 701KM 后驱激光雷达旗舰型",
+          "price": "23.98万",
+          "fuelType": "纯电动",
+          "size": "5050x1960x1505",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 680马力"
+        },
+        {
+          "configName": "汉L EV 2025款 601KM 四驱激光雷达旗舰型",
+          "price": "27.98万",
+          "fuelType": "纯电动",
+          "size": "5050x1960x1505",
+          "manufacturer": "比亚迪",
+          "class": "中大型车",
+          "power": "纯电动 1102马力"
         }
       ]
     },
@@ -1764,6 +1860,84 @@
       ]
     },
     {
+      "carName": "宋L EV",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d039b13f378646e5ba050a7f91f0044a~1200x0.png",
+      "configs": [
+        {
+          "configName": "宋L EV 2025款 智驾版 550KM 卓越型",
+          "price": "18.98万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 204马力"
+        },
+        {
+          "configName": "宋L EV 2025款 智驾版 662KM 超越型",
+          "price": "19.98万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 313马力"
+        },
+        {
+          "configName": "宋L EV 2025款 智驾版 662KM 激光雷达卓越型",
+          "price": "22.58万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 313马力"
+        },
+        {
+          "configName": "宋L EV 2025款 智驾版 602KM 激光雷达四驱型",
+          "price": "24.98万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 517马力"
+        },
+        {
+          "configName": "宋L EV 2025款 550KM 卓越型",
+          "price": "18.98万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 204马力"
+        },
+        {
+          "configName": "宋L EV 2025款 662KM 超越型",
+          "price": "19.98万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 313马力"
+        },
+        {
+          "configName": "宋L EV 2025款 662KM 卓越智驾型",
+          "price": "22.58万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 313马力"
+        },
+        {
+          "configName": "宋L EV 2025款 602KM 四驱智驾型",
+          "price": "24.98万",
+          "fuelType": "纯电动",
+          "size": "4840x1950x1560",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "纯电动 517马力"
+        }
+      ]
+    },
+    {
       "carName": "宋L DM",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e27c558d83c446e7817c5617f8a9a662~1200x0.png",
       "configs": [
@@ -1855,180 +2029,6 @@
           "size": "4780x1898x1670",
           "manufacturer": "比亚迪",
           "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        }
-      ]
-    },
-    {
-      "carName": "宋L EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d039b13f378646e5ba050a7f91f0044a~1200x0.png",
-      "configs": [
-        {
-          "configName": "宋L EV 2025款 智驾版 550KM 卓越型",
-          "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "宋L EV 2025款 智驾版 662KM 超越型",
-          "price": "19.98万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 313马力"
-        },
-        {
-          "configName": "宋L EV 2025款 智驾版 662KM 激光雷达卓越型",
-          "price": "22.58万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 313马力"
-        },
-        {
-          "configName": "宋L EV 2025款 智驾版 602KM 激光雷达四驱型",
-          "price": "24.98万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 517马力"
-        },
-        {
-          "configName": "宋L EV 2025款 550KM 卓越型",
-          "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "宋L EV 2025款 662KM 超越型",
-          "price": "19.98万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 313马力"
-        },
-        {
-          "configName": "宋L EV 2025款 662KM 卓越智驾型",
-          "price": "22.58万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 313马力"
-        },
-        {
-          "configName": "宋L EV 2025款 602KM 四驱智驾型",
-          "price": "24.98万",
-          "fuelType": "纯电动",
-          "size": "4840x1950x1560",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "纯电动 517马力"
-        }
-      ]
-    },
-    {
-      "carName": "宋PLUS DM",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5188c9fdac58415ebc5496f5ce30c14c~1200x0.png",
-      "configs": [
-        {
-          "configName": "宋PLUS DM 2025款 智驾版 DM-i  75KM豪华型",
-          "price": "13.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 智驾版 DM-i 112KM尊贵型",
-          "price": "14.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 智驾版 DM-i 112KM尊荣型",
-          "price": "15.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 智驾版 DM-i 160KM旗舰型",
-          "price": "16.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 智驾版 DM-i 160KM旗舰型PLUS",
-          "price": "17.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 DM-i  75KM豪华型",
-          "price": "13.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 DM-i 112KM尊贵型",
-          "price": "14.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 DM-i 112KM尊荣型",
-          "price": "15.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 DM-i 160KM旗舰型",
-          "price": "16.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "宋PLUS DM 2025款 DM-i 160KM旗舰型PLUS",
-          "price": "17.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4775x1890x1670",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型SUV",
           "power": "插电式混动 218马力"
         }
       ]
@@ -2391,111 +2391,6 @@
       ]
     },
     {
-      "carName": "护卫舰07",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd9b36d64702481e948516813b67846d~1200x0.png",
-      "configs": [
-        {
-          "configName": "护卫舰07 2024款 荣耀版 DM-i 100KM 精英型",
-          "price": "17.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2024款 荣耀版 DM-i 100KM 豪华型",
-          "price": "18.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2024款 荣耀版 DM-i 100KM 尊贵型",
-          "price": "20.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2024款 荣耀版 DM-i 205KM 旗舰型",
-          "price": "22.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2024款 荣耀版 DM-p 175KM 四驱旗舰型",
-          "price": "25.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 401马力"
-        },
-        {
-          "configName": "护卫舰07 2023款 DM-i 100KM 豪华型",
-          "price": "20.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2023款 DM-i 100KM 尊贵型",
-          "price": "21.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2023款 DM-i 100KM 旗舰型",
-          "price": "22.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "护卫舰07 2023款 DM-i 205KM 尊贵型",
-          "price": "24.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混合动力 197马力"
-        },
-        {
-          "configName": "护卫舰07 2023款 DM-i 205KM 旗舰型",
-          "price": "25.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混合动力 197马力"
-        },
-        {
-          "configName": "护卫舰07 2023款 DM-p 175KM 四驱旗舰型",
-          "price": "28.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1920x1750",
-          "manufacturer": "比亚迪",
-          "class": "中型SUV",
-          "power": "插电式混合动力 401马力"
-        }
-      ]
-    },
-    {
       "carName": "唐DM",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/de0226bcf1d44e35ad7c690e6698d2be~1200x0.png",
       "configs": [
@@ -2597,6 +2492,111 @@
           "manufacturer": "比亚迪",
           "class": "中型SUV",
           "power": "插电式混动 490马力"
+        }
+      ]
+    },
+    {
+      "carName": "护卫舰07",
+      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd9b36d64702481e948516813b67846d~1200x0.png",
+      "configs": [
+        {
+          "configName": "护卫舰07 2024款 荣耀版 DM-i 100KM 精英型",
+          "price": "17.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2024款 荣耀版 DM-i 100KM 豪华型",
+          "price": "18.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2024款 荣耀版 DM-i 100KM 尊贵型",
+          "price": "20.28万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2024款 荣耀版 DM-i 205KM 旗舰型",
+          "price": "22.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2024款 荣耀版 DM-p 175KM 四驱旗舰型",
+          "price": "25.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 401马力"
+        },
+        {
+          "configName": "护卫舰07 2023款 DM-i 100KM 豪华型",
+          "price": "20.28万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2023款 DM-i 100KM 尊贵型",
+          "price": "21.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2023款 DM-i 100KM 旗舰型",
+          "price": "22.88万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "护卫舰07 2023款 DM-i 205KM 尊贵型",
+          "price": "24.58万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混合动力 197马力"
+        },
+        {
+          "configName": "护卫舰07 2023款 DM-i 205KM 旗舰型",
+          "price": "25.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混合动力 197马力"
+        },
+        {
+          "configName": "护卫舰07 2023款 DM-p 175KM 四驱旗舰型",
+          "price": "28.98万",
+          "fuelType": "插电式混合动力",
+          "size": "4820x1920x1750",
+          "manufacturer": "比亚迪",
+          "class": "中型SUV",
+          "power": "插电式混合动力 401马力"
         }
       ]
     },
@@ -2724,57 +2724,6 @@
       ]
     },
     {
-      "carName": "宋MAX DM",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/780e77ca23324e390b901df93bf3c6d4~1200x0.png",
-      "configs": [
-        {
-          "configName": "宋MAX DM 2022款 DM-i 51KM 豪华型",
-          "price": "14.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1810x1690",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型MPV",
-          "power": "插电式混动 180马力"
-        },
-        {
-          "configName": "宋MAX DM 2022款 DM-i 51KM 尊贵型",
-          "price": "15.48万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1810x1880",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型MPV",
-          "power": "插电式混动 180马力"
-        },
-        {
-          "configName": "宋MAX DM 2022款 DM-i 105KM 尊荣型",
-          "price": "15.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1810x1690",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型MPV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "宋MAX DM 2022款 DM-i 105KM 旗舰型",
-          "price": "16.48万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1810x1690",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型MPV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "宋MAX DM 2022款 DM-i 105KM 行政版",
-          "price": "17.48万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1810x1880",
-          "manufacturer": "比亚迪",
-          "class": "紧凑型MPV",
-          "power": "插电式混动 197马力"
-        }
-      ]
-    },
-    {
       "carName": "夏",
       "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8aa8bab2aa024eeba7ccaf0136ac9b4a~1200x0.png",
       "configs": [
@@ -2822,6 +2771,57 @@
           "manufacturer": "比亚迪",
           "class": "中大型MPV",
           "power": "插电式混合动力 272马力"
+        }
+      ]
+    },
+    {
+      "carName": "宋MAX DM",
+      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/780e77ca23324e390b901df93bf3c6d4~1200x0.png",
+      "configs": [
+        {
+          "configName": "宋MAX DM 2022款 DM-i 51KM 豪华型",
+          "price": "14.78万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1810x1690",
+          "manufacturer": "比亚迪",
+          "class": "紧凑型MPV",
+          "power": "插电式混动 180马力"
+        },
+        {
+          "configName": "宋MAX DM 2022款 DM-i 51KM 尊贵型",
+          "price": "15.48万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1810x1880",
+          "manufacturer": "比亚迪",
+          "class": "紧凑型MPV",
+          "power": "插电式混动 180马力"
+        },
+        {
+          "configName": "宋MAX DM 2022款 DM-i 105KM 尊荣型",
+          "price": "15.78万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1810x1690",
+          "manufacturer": "比亚迪",
+          "class": "紧凑型MPV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "宋MAX DM 2022款 DM-i 105KM 旗舰型",
+          "price": "16.48万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1810x1690",
+          "manufacturer": "比亚迪",
+          "class": "紧凑型MPV",
+          "power": "插电式混动 197马力"
+        },
+        {
+          "configName": "宋MAX DM 2022款 DM-i 105KM 行政版",
+          "price": "17.48万",
+          "fuelType": "插电式混合动力",
+          "size": "4710x1810x1880",
+          "manufacturer": "比亚迪",
+          "class": "紧凑型MPV",
+          "power": "插电式混动 197马力"
         }
       ]
     }
