@@ -1,11 +1,13 @@
 const puppeteer = require('puppeteer');
 const { getSmartUserAgent, getRandomViewport, optimizePageLoad } = require('./anti-detection');
 const config = require('./config');
+const NetworkProtocolManager = require('./network-protocol-manager');
 
 class BrowserManager {
   constructor() {
     this.browsers = new Map();
     this.pagePool = [];
+    this.networkProtocolManager = new NetworkProtocolManager();
   }
 
   async createBrowser() {
@@ -60,41 +62,69 @@ class BrowserManager {
   async createPage(browser) {
     const page = await browser.newPage();
     
-    // 设置用户代理和视口
-    await page.setUserAgent(getSmartUserAgent());
-    await page.setViewport(getRandomViewport());
-    
-    // 优化页面加载
-    await optimizePageLoad(page);
-
-    // 设置更高的协议超时，兼容 Network.enable 超时
     try {
-      await page._client().send('Network.enable');
-    } catch (e) {
-      // 忽略此处异常，由外层重试处理
+      // 使用网络协议管理器优化页面
+      await this.networkProtocolManager.optimizePageForCrawling(page);
+      
+      // 设置用户代理和视口
+      await page.setUserAgent(getSmartUserAgent());
+      await page.setViewport(getRandomViewport());
+      
+      // 优化页面加载
+      await optimizePageLoad(page);
+
+      // 安全地初始化页面协议
+      await this.networkProtocolManager.initializePageProtocols(page);
+      
+      // 设置请求拦截
+      await this.setupRequestInterception(page);
+      
+      console.log('✅ 页面创建和配置完成');
+      return page;
+      
+    } catch (error) {
+      console.warn('⚠️ 页面配置过程中出现错误:', error.message);
+      // 即使配置失败，也返回页面，让后续逻辑处理
+      return page;
     }
-    
-    // 设置请求拦截
-    await this.setupRequestInterception(page);
-    
-    return page;
   }
 
   async setupRequestInterception(page) {
-    await page.setRequestInterception(true);
-    page.on('request', (req) => {
-      const resourceType = req.resourceType();
-      const block = config.crawler.resourceBlocking;
-      const shouldBlock = block && (
-        resourceType === 'media' || resourceType === 'eventsource' || resourceType === 'websocket'
-      );
+    try {
+      await page.setRequestInterception(true);
       
-      if (shouldBlock) {
-        req.abort();
-      } else {
-        req.continue();
-      }
-    });
+      page.on('request', (req) => {
+        try {
+          const resourceType = req.resourceType();
+          const block = config.crawler.resourceBlocking;
+          const shouldBlock = block && (
+            resourceType === 'media' || 
+            resourceType === 'eventsource' || 
+            resourceType === 'websocket' ||
+            (config.crawler.blockImages && resourceType === 'image')
+          );
+          
+          if (shouldBlock) {
+            req.abort();
+          } else {
+            req.continue();
+          }
+        } catch (error) {
+          console.warn('⚠️ 请求拦截处理失败:', error.message);
+          // 如果拦截失败，继续请求
+          try {
+            req.continue();
+          } catch (e) {
+            console.warn('⚠️ 请求继续失败:', e.message);
+          }
+        }
+      });
+      
+      console.log('✅ 请求拦截设置完成');
+    } catch (error) {
+      console.warn('⚠️ 设置请求拦截失败:', error.message);
+      // 即使拦截失败，也继续执行
+    }
   }
 
   async closeBrowser(browser) {

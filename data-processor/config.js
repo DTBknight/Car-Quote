@@ -5,7 +5,7 @@ const config = {
     concurrency: 1, // 并发数 - 降低到1，避免资源竞争
     maxRetries: 2, // 最大重试次数 - 减少重试，避免无限循环
     timeout: 30000, // 单次页面超时 (ms) - 设置30秒超时，避免无限等待
-    protocolTimeout: 30000, // 协议层超时 (ms) - 设置30秒超时
+    protocolTimeout: 60000, // 协议层超时 (ms) - 设置60秒超时，避免Network.enable超时
     pageWaitTime: 5000, // 页面加载后等待时间 (ms)
     imageWaitTime: 3000, // 图片加载后等待时间 (ms)
     delays: {
