@@ -27,7 +27,7 @@ class BrowserManager {
       headless: config.crawler.headless,
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || executablePath,
       ignoreHTTPSErrors: true,
-      protocolTimeout: 0, // 无超时限制
+      protocolTimeout: config.crawler.protocolTimeout || 30000, // 使用配置的超时时间
       defaultViewport: { width: 1280, height: 800 },
       args: [
         '--no-sandbox',
@@ -46,8 +46,11 @@ class BrowserManager {
         '--disable-features=VizDisplayCompositor', // 禁用显示合成器
         '--memory-pressure-off', // 关闭内存压力检测
         '--max_old_space_size=4096', // 增加内存限制
-        '--disable-timeouts', // 禁用所有超时
-        '--disable-hang-monitor' // 禁用挂起监控
+        '--disable-background-timer-throttling',
+        '--disable-backgrounding-occluded-windows',
+        '--disable-renderer-backgrounding',
+        '--disable-features=TranslateUI',
+        '--disable-ipc-flooding-protection'
       ]
     });
 

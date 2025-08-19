@@ -195,14 +195,21 @@ class DataCollector {
       
       if (config.crawler.timeout > 0) {
         await pTimeout(
-          page.goto(brandUrl, { waitUntil: 'domcontentloaded' }), // 改为更快的加载策略
+          page.goto(brandUrl, { 
+            waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded',
+            timeout: config.crawler.maxWaitTime || 10000
+          }),
           { milliseconds: config.crawler.timeout }
         );
       } else {
-        await page.goto(brandUrl, { waitUntil: 'domcontentloaded' });
+        await page.goto(brandUrl, { 
+          waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded',
+          timeout: config.crawler.maxWaitTime || 10000
+        });
       }
       
-      await new Promise(resolve => setTimeout(resolve, 1000)); // 固定1秒等待
+      // 等待页面加载完成，使用配置的等待时间
+      await new Promise(resolve => setTimeout(resolve, config.crawler.pageWaitTime || 2000));
 
       // 首先尝试点击"在售"标签
       let carIds = [];
@@ -226,7 +233,7 @@ class DataCollector {
         if (onSaleLink && !(await onSaleLink.evaluate(el => el === null))) {
           console.log('找到"在售"标签，点击进入...');
           await onSaleLink.click();
-          await new Promise(resolve => setTimeout(resolve, 1000)); // 减少等待时间到1秒
+          await new Promise(resolve => setTimeout(resolve, config.crawler.pageWaitTime || 2000));
           
           // 在"在售"页面收集车型ID - 只获取车型主链接，排除评分和图片链接
           carIds = await page.evaluate(() => {
@@ -257,7 +264,7 @@ class DataCollector {
         // 回到原始页面（如果之前点击了"在售"标签）
         if (onSaleLink && !(await onSaleLink.evaluate(el => el === null))) {
           await page.goBack();
-          await new Promise(resolve => setTimeout(resolve, 2000));
+          await new Promise(resolve => setTimeout(resolve, config.crawler.pageWaitTime || 2000));
         }
         
         const result = await page.evaluate(() => {

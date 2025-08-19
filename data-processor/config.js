@@ -2,22 +2,27 @@
 const config = {
   // 爬虫配置
   crawler: {
-    concurrency: 2, // 并发数 - 进一步降低以减少超时风险
-    maxRetries: 3, // 最大重试次数 - 增加重试次数
-    timeout: 0, // 单次页面超时 (ms) - 0表示无限制
-    protocolTimeout: 0, // 协议层超时 (ms) - 0表示无限制
+    concurrency: 1, // 并发数 - 降低到1，避免资源竞争
+    maxRetries: 2, // 最大重试次数 - 减少重试，避免无限循环
+    timeout: 30000, // 单次页面超时 (ms) - 设置30秒超时，避免无限等待
+    protocolTimeout: 30000, // 协议层超时 (ms) - 设置30秒超时
+    pageWaitTime: 5000, // 页面加载后等待时间 (ms)
+    imageWaitTime: 3000, // 图片加载后等待时间 (ms)
     delays: {
-      min: 1000, // 最小延迟 (ms) - 增加延迟确保稳定性
-      max: 2000  // 最大延迟 (ms) - 增加延迟确保稳定性
+      min: 500, // 最小延迟 (ms) - 减少延迟，提升速度
+      max: 1000  // 最大延迟 (ms) - 减少延迟，提升速度
     },
     headless: true, // 无头模式
     resourceBlocking: true, // 资源拦截
-    blockImages: false,
+    blockImages: true, // 阻塞图片加载，提升速度
     blockStylesheets: false,
     blockFonts: false,
     userAgentRotation: false, // 用户代理轮换 - 关闭以提升速度
     viewportRotation: false, // 视口轮换 - 关闭以提升速度
-    humanBehavior: false // 人类行为模拟 - 关闭以提升速度
+    humanBehavior: false, // 人类行为模拟 - 关闭以提升速度
+    // 新增：页面加载策略
+    pageLoadStrategy: 'domcontentloaded', // 使用更快的加载策略
+    maxWaitTime: 10000 // 最大等待时间，避免无限等待
   },
 
   // 日志配置
