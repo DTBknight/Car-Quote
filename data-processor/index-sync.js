@@ -81,26 +81,51 @@ class DataSyncProcessor {
     progress.failed = [];
     
     try {
+      // 添加心跳机制，每处理5个品牌输出一次进度
+      let lastHeartbeat = 0;
+      
       for (let i = 0; i < brandsToProcess.length; i++) {
         const brandId = brandsToProcess[i];
         
+        // 心跳输出
+        if (i - lastHeartbeat >= 5) {
+          await this.log(`💓 心跳: 已处理 ${i}/${brandsToProcess.length} 个品牌，成功: ${progress.completed.length}，失败: ${progress.failed.length}`);
+          lastHeartbeat = i;
+        }
+        
         try {
           await this.log(`\n🚗 处理品牌 ID: ${brandId} (${i + 1}/${brandsToProcess.length})`);
+          await this.log(`⏰ 开始时间: ${new Date().toISOString()}`);
           
-          // 移除超时限制，让每个品牌有足够时间完成采集
-          await processor.processBrand(brandId);
+          // 添加品牌处理进度监控
+          const startBrandTime = Date.now();
+          
+          // 添加全局超时保护（30分钟），防止某个品牌无限期卡住
+          const brandTimeoutPromise = new Promise((_, reject) => {
+            setTimeout(() => reject(new Error(`品牌 ${brandId} 处理超时（30分钟）`)), 30 * 60 * 1000);
+          });
+          
+          const brandProcessPromise = processor.processBrand(brandId);
+          
+          await Promise.race([brandProcessPromise, brandTimeoutPromise]);
+          
+          const brandDuration = Math.round((Date.now() - startBrandTime) / 1000);
+          await this.log(`✅ 品牌 ${brandId} 完成，耗时: ${brandDuration} 秒`);
           
           progress.completed.push(brandId);
-          await this.log(`✅ 品牌 ${brandId} 完成`);
           
           // 保存进度
           await this.saveProgress(progress);
           
           // 减少延迟以节省时间
+          await this.log(`⏳ 等待800ms后继续下一个品牌...`);
           await this.delay(800);
           
         } catch (error) {
-          await this.log(`❌ 品牌 ${brandId} 处理失败: ${error.message}`);
+          const errorTime = new Date().toISOString();
+          await this.log(`❌ 品牌 ${brandId} 处理失败 (${errorTime}): ${error.message}`);
+          await this.log(`🔍 错误堆栈: ${error.stack || '无堆栈信息'}`);
+          
           progress.failed.push(brandId);
           await this.saveProgress(progress);
           
