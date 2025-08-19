@@ -621,6 +621,16 @@ async function collectSingleCarData(page, carId, brand) {
             }
             prices = nextElements;
           }
+          
+          // 实时显示采集到的配置信息
+          console.log('📋 采集到配置信息:');
+          configNames.forEach((name, idx) => {
+            const price = prices[idx] || '暂无价格';
+            const configId = configIds[idx] || '暂无ID';
+            console.log(`   ${idx + 1}. ${name}`);
+            console.log(`      配置ID: ${configId}`);
+            console.log(`      指导价: ${price}`);
+          });
         }
     
     // 方法2：Fallback到索奈等特殊结构 - ul > li
@@ -687,6 +697,7 @@ async function collectSingleCarData(page, carId, brand) {
   
   try {
     // 为每个配置添加颜色信息，使用统一的超时设置
+    console.log(`🖼️ 开始为 ${configs.length} 个配置采集图片...`);
     const configsWithColors = await dataCollector.getConfigImages(
       await browserManager.createBrowser(), 
       configs.map(config => ({

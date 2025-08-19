@@ -28,12 +28,16 @@ export class CarSearch {
       // 从网络加载（带多源与超时回退）
       if (CONFIG.APP.DEBUG) console.log('🔄 开始加载车型数据...');
 
-      // 仅使用线上数据源，默认使用 Netlify；允许通过 window.__CARQUOTE_DATA_BASE__ 覆盖
+      // 智能选择数据源：本地开发使用本地数据，生产环境使用线上数据
+      const isLocalhost = typeof window !== 'undefined' && 
+        (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+      
       const overrideBase = (typeof window !== 'undefined' && window.__CARQUOTE_DATA_BASE__)
         ? (window.__CARQUOTE_DATA_BASE__.endsWith('/') ? window.__CARQUOTE_DATA_BASE__ : `${window.__CARQUOTE_DATA_BASE__}/`)
         : null;
+      
       const dataBases = [
-        overrideBase || 'https://dbtknight.netlify.app/data/'
+        overrideBase || (isLocalhost ? 'http://localhost:8000/data/' : 'https://dbtknight.netlify.app/data/')
       ];
 
       const fetchWithTimeout = async (url, options = {}, timeoutMs = 12000) => {
@@ -672,20 +676,65 @@ export class CarSearch {
       brandLogoBox.innerHTML = `<img src="${carData.brandImage}" alt="${manufacturer || carData.brand}" class="w-12 h-12 object-contain">`;
     }
     
-    // 设置车型图片
-    const carMainImageBox = Utils.getElement('carMainImageBox');
-    if (carMainImageBox && (carData.image || carData.mainImage)) {
-      const imageUrl = carData.image || carData.mainImage;
-      const imageAlt = carData.name || carData.carName;
-      carMainImageBox.innerHTML = `<img src="${imageUrl}" alt="${imageAlt}" class="w-full h-full object-contain rounded bg-gray-50 scale-150 -z-10">`;
-    } else {
-      // 如果没有图片，显示占位符
-      carMainImageBox.innerHTML = `
-        <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
-          <i class="fa fa-car text-4xl mb-2"></i>
-          <span class="text-sm">暂无图片</span>
-        </div>
-      `;
+    // 设置外观和内饰图片 - 支持新的exteriorImages和interiorImages数据结构
+    const exteriorImageBox = Utils.getElement('exteriorImageBox');
+    const interiorImageBox = Utils.getElement('interiorImageBox');
+    const colorSwatchesContainer = Utils.getElement('colorSwatches');
+    
+    // 设置外观图片
+    if (exteriorImageBox) {
+      let exteriorImageUrl = '';
+      let imageAlt = carData.name || carData.carName || '';
+      
+      if (carData.exteriorImages && carData.exteriorImages.length > 0) {
+        exteriorImageUrl = carData.exteriorImages[0].mainImage;
+      } else if (carData.configImage) {
+        exteriorImageUrl = carData.configImage;
+      } else if (carData.image || carData.mainImage) {
+        exteriorImageUrl = carData.image || carData.mainImage;
+      }
+      
+      if (exteriorImageUrl) {
+        exteriorImageBox.innerHTML = `<img src="${exteriorImageUrl}" alt="${imageAlt}" class="w-full h-full object-cover">`;
+      } else {
+        exteriorImageBox.innerHTML = `
+          <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+            <i class="fa fa-car text-2xl mb-1"></i>
+            <span class="text-xs">暂无外观图片</span>
+          </div>
+        `;
+      }
+    }
+    
+    // 设置内饰图片
+    if (interiorImageBox) {
+      let interiorImageUrl = '';
+      let imageAlt = carData.name || carData.carName || '';
+      
+      if (carData.interiorImages && carData.interiorImages.length > 0) {
+        interiorImageUrl = carData.interiorImages[0].mainImage;
+      }
+      
+      if (interiorImageUrl) {
+        interiorImageBox.innerHTML = `<img src="${interiorImageUrl}" alt="${imageAlt}" class="w-full h-full object-cover">`;
+      } else {
+        interiorImageBox.innerHTML = `
+          <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+            <i class="fa fa-car-side text-2xl mb-1"></i>
+            <span class="text-xs">暂无内饰图片</span>
+          </div>
+        `;
+      }
+    }
+    
+    // 设置外观颜色选择器
+    if (carData.exteriorImages && carData.exteriorImages.length > 0) {
+      this.setupExteriorColorSelector(carData);
+    }
+    
+    // 设置内饰颜色选择器
+    if (carData.interiorImages && carData.interiorImages.length > 0) {
+      this.setupInteriorColorSelector(carData);
     }
   }
   
@@ -1017,5 +1066,190 @@ export class CarSearch {
     this.searchCache.clear();
     this.searchIndex.clear();
     Utils.clearElementCache();
+  }
+  
+  // 设置颜色选择器
+  setupColorSelector(carData, colorSwatchesContainer, carMainImageBox) {
+    if (!carData.exteriorImages || carData.exteriorImages.length === 0) {
+      colorSwatchesContainer.innerHTML = '';
+      return;
+    }
+    
+    const exteriorImages = carData.exteriorImages;
+    const maxVisible = 5; // 最多显示5个颜色块
+    
+    // 创建颜色选择器HTML
+    let colorSwatchesHTML = '';
+    
+    // 添加左箭头（如果颜色数量超过5个）
+    if (exteriorImages.length > maxVisible) {
+      colorSwatchesHTML += `
+        <button class="color-nav-btn left-arrow text-gray-400 hover:text-gray-600 transition-colors" onclick="this.parentElement.scrollBy(-100, 0)">
+          <i class="fa fa-chevron-left"></i>
+        </button>
+      `;
+    }
+    
+    // 添加颜色块
+    exteriorImages.forEach((colorData, index) => {
+      const isActive = index === 0; // 第一个颜色为默认选中
+      const colorCode = colorData.colors && colorData.colors.length > 0 ? colorData.colors[0] : '#ccc';
+      const colorName = colorData.name || `颜色${index + 1}`;
+      
+      colorSwatchesHTML += `
+        <div class="color-swatch ${isActive ? 'active' : ''}" 
+             data-index="${index}" 
+             data-image="${colorData.mainImage}"
+             data-color-name="${colorName}"
+             style="background-color: ${colorCode}; cursor: pointer;"
+             onclick="this.parentElement.parentElement.querySelector('.color-swatch.active')?.classList.remove('active'); this.classList.add('active'); this.parentElement.parentElement.parentElement.querySelector('#exteriorImageBox img').src='${colorData.mainImage}'; this.parentElement.parentElement.parentElement.querySelector('#selectedColorName').textContent='${colorName}'">
+        </div>
+      `;
+    });
+    
+    // 添加右箭头（如果颜色数量超过5个）
+    if (exteriorImages.length > maxVisible) {
+      colorSwatchesHTML += `
+        <button class="color-nav-btn right-arrow text-gray-400 hover:text-gray-600 transition-colors" onclick="this.parentElement.scrollBy(100, 0)">
+          <i class="fa fa-chevron-right"></i>
+        </button>
+      `;
+    }
+    
+    // 添加颜色名称显示
+    colorSwatchesHTML += `
+      <div id="selectedColorName" class="text-sm text-gray-600 mt-2 text-center w-full">
+        ${exteriorImages[0]?.name || ''}
+      </div>
+    `;
+    
+    colorSwatchesContainer.innerHTML = colorSwatchesHTML;
+    
+    // 设置样式
+    colorSwatchesContainer.style.display = 'flex';
+    colorSwatchesContainer.style.flexDirection = 'column';
+    colorSwatchesContainer.style.alignItems = 'center';
+    colorSwatchesContainer.style.gap = '8px';
+    
+    // 设置颜色块的样式
+    const colorSwatches = colorSwatchesContainer.querySelectorAll('.color-swatch');
+    colorSwatches.forEach(swatch => {
+      swatch.style.width = '24px';
+      swatch.style.height = '24px';
+      swatch.style.borderRadius = '50%';
+      swatch.style.border = '2px solid #fff';
+      swatch.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+      swatch.style.transition = 'all 0.2s ease';
+    });
+    
+    // 设置活动状态的样式
+    const activeSwatch = colorSwatchesContainer.querySelector('.color-swatch.active');
+    if (activeSwatch) {
+      activeSwatch.style.border = '2px solid #3b82f6';
+      activeSwatch.style.transform = 'scale(1.1)';
+    }
+  }
+  
+  // 生成双色色块的CSS样式
+  generateColorSwatchStyle(colorData, isActive) {
+    const colors = colorData.colors || [];
+    const colorName = colorData.name || '';
+    
+    if (colors.length === 0) {
+      // 没有颜色信息，使用默认灰色
+      return `width: 20px; height: 20px; border-radius: 50%; background-color: #ccc; cursor: pointer; border: 1px solid #000; ${isActive ? 'border: 2px solid #3b82f6; transform: scale(1.1);' : ''}; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;`;
+    }
+    
+    if (colors.length === 1) {
+      // 单色
+      return `width: 20px; height: 20px; border-radius: 50%; background-color: ${colors[0]}; cursor: pointer; border: 1px solid #000; ${isActive ? 'border: 2px solid #3b82f6; transform: scale(1.1);' : ''}; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;`;
+    }
+    
+    if (colors.length === 2) {
+      // 双色 - 使用CSS渐变创建一半一半的效果
+      const color1 = colors[0] || '#ccc';
+      const color2 = colors[1] || '#ccc';
+      return `width: 20px; height: 20px; border-radius: 50%; background: linear-gradient(90deg, ${color1} 50%, ${color2} 50%); cursor: pointer; border: 1px solid #000; ${isActive ? 'border: 2px solid #3b82f6; transform: scale(1.1);' : ''}; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;`;
+    }
+    
+    // 多色 - 使用径向渐变
+    const gradientColors = colors.map((color, index) => {
+      const percentage = (index / (colors.length - 1)) * 100;
+      return `${color} ${percentage}%`;
+    }).join(', ');
+    
+    return `width: 20px; height: 20px; border-radius: 50%; background: radial-gradient(circle, ${gradientColors}); cursor: pointer; border: 1px solid #000; ${isActive ? 'border: 2px solid #3b82f6; transform: scale(1.1);' : ''}; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;`;
+  }
+  
+  // 设置外观颜色选择器
+  setupExteriorColorSelector(carData) {
+    const colorSwatchesContainer = Utils.getElement('exteriorColorSwatches');
+    const colorNameContainer = Utils.getElement('exteriorColorName');
+    
+    if (!colorSwatchesContainer || !colorNameContainer) return;
+    
+    const exteriorImages = carData.exteriorImages;
+    if (!exteriorImages || exteriorImages.length === 0) {
+      colorSwatchesContainer.innerHTML = '';
+      colorNameContainer.textContent = '';
+      return;
+    }
+    
+    // 创建颜色选择器HTML
+    let colorSwatchesHTML = '';
+    
+    exteriorImages.forEach((colorData, index) => {
+      const isActive = index === 0; // 第一个颜色为默认选中
+      const colorName = colorData.name || `颜色${index + 1}`;
+      
+      colorSwatchesHTML += `
+        <div class="color-swatch ${isActive ? 'active' : ''}" 
+             data-index="${index}" 
+             data-image="${colorData.mainImage}"
+             data-color-name="${colorName}"
+             style="${this.generateColorSwatchStyle(colorData, isActive)}"
+             onclick="const activeSwatch = this.parentElement.querySelector('.color-swatch.active'); if (activeSwatch && activeSwatch !== this) { activeSwatch.classList.remove('active'); activeSwatch.style.border='1px solid #000'; activeSwatch.style.transform='scale(1)'; } this.classList.add('active'); this.style.border='2px solid #3b82f6'; this.style.transform='scale(1.1)'; document.querySelector('#exteriorImageBox img').src='${colorData.mainImage}'; document.querySelector('#exteriorColorName').textContent='${colorName}'">
+        </div>
+      `;
+    });
+    
+    colorSwatchesContainer.innerHTML = colorSwatchesHTML;
+    colorNameContainer.textContent = exteriorImages[0]?.name || '';
+  }
+  
+  // 设置内饰颜色选择器
+  setupInteriorColorSelector(carData) {
+    const colorSwatchesContainer = Utils.getElement('interiorColorSwatches');
+    const colorNameContainer = Utils.getElement('interiorColorName');
+    
+    if (!colorSwatchesContainer || !colorNameContainer) return;
+    
+    const interiorImages = carData.interiorImages;
+    if (!interiorImages || interiorImages.length === 0) {
+      colorSwatchesContainer.innerHTML = '';
+      colorNameContainer.textContent = '';
+      return;
+    }
+    
+    // 创建颜色选择器HTML
+    let colorSwatchesHTML = '';
+    
+    interiorImages.forEach((colorData, index) => {
+      const isActive = index === 0; // 第一个颜色为默认选中
+      const colorName = colorData.name || `颜色${index + 1}`;
+      
+      colorSwatchesHTML += `
+        <div class="color-swatch ${isActive ? 'active' : ''}" 
+             data-index="${index}" 
+             data-image="${colorData.mainImage}"
+             data-color-name="${colorName}"
+             style="${this.generateColorSwatchStyle(colorData, isActive)}"
+             onclick="const activeSwatch = this.parentElement.querySelector('.color-swatch.active'); if (activeSwatch && activeSwatch !== this) { activeSwatch.classList.remove('active'); activeSwatch.style.border='1px solid #000'; activeSwatch.style.transform='scale(1)'; } this.classList.add('active'); this.style.border='2px solid #3b82f6'; this.style.transform='scale(1.1)'; document.querySelector('#interiorImageBox img').src='${colorData.mainImage}'; document.querySelector('#interiorColorName').textContent='${colorName}'">
+        </div>
+      `;
+    });
+    
+    colorSwatchesContainer.innerHTML = colorSwatchesHTML;
+    colorNameContainer.textContent = interiorImages[0]?.name || '';
   }
 } 

@@ -553,6 +553,11 @@ export class EventManager {
         return;
       }
       
+      // 跳过车型图片区域，不添加悬浮效果
+      if (card.querySelector('h3') && card.querySelector('h3').textContent.includes('车型图片')) {
+        return;
+      }
+      
       // 添加悬浮类
       if (!card.classList.contains('card-hover')) {
         card.classList.add('card-hover');

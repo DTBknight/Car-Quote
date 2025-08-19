@@ -617,6 +617,16 @@ class DataCollector {
             }
             prices = nextElements;
           }
+          
+          // 实时显示采集到的配置信息
+          console.log('📋 采集到配置信息:');
+          configNames.forEach((name, idx) => {
+            const price = prices[idx] || '暂无价格';
+            const configId = configIds[idx] || '暂无ID';
+            console.log(`   ${idx + 1}. ${name}`);
+            console.log(`      配置ID: ${configId}`);
+            console.log(`      指导价: ${price}`);
+          });
         }
         
         // 方法2：Fallback到索奈等特殊结构 - ul > li
@@ -687,6 +697,7 @@ class DataCollector {
       });
 
       // 为每个配置抓取专属图片
+      console.log(`🖼️ 开始为 ${configs.length} 个配置采集图片...`);
       const configsWithImages = await this.getConfigImages(browser, configs, carId, brand);
 
       // 验证配置数量
@@ -826,9 +837,17 @@ class DataCollector {
 
   async getConfigImages(browser, configs, carId, brand) {
     const configsWithImages = [];
-    for (const config of configs) {
+    console.log(`🔄 开始为 ${configs.length} 个配置采集图片...`);
+    
+    for (let i = 0; i < configs.length; i++) {
+      const config = configs[i];
+      console.log(`📸 采集配置 ${i + 1}/${configs.length}: ${config.configName}`);
+      console.log(`   指导价: ${config.price || '暂无'}`);
+      console.log(`   配置ID: ${config.configId || '暂无'}`);
+      
       // 如果没有配置ID，跳过图片采集，但保留基本信息
       if (!config.configId) {
+        console.log(`   ⚠️ 配置ID为空，跳过图片采集`);
         configsWithImages.push({
           ...config,
           exteriorImages: [],
@@ -849,9 +868,15 @@ class DataCollector {
       };
       
       // 外观图片
+      console.log(`   🎨 采集外观图片...`);
       const exteriorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'wg');
+      console.log(`   ✅ 外观图片采集完成，找到 ${exteriorImages.length} 个颜色`);
+      
       // 内饰图片
+      console.log(`   🎨 采集内饰图片...`);
       const interiorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'ns');
+      console.log(`   ✅ 内饰图片采集完成，找到 ${interiorImages.length} 个颜色`);
+      
       // 过滤掉crawler字段
       const { crawler, ...pureConfig } = config;
       configsWithImages.push({
@@ -860,7 +885,11 @@ class DataCollector {
         interiorImages,
         configImage: exteriorImages.length > 0 ? exteriorImages[0].mainImage : ''
       });
+      
+      console.log(`   ✅ 配置 ${i + 1} 采集完成`);
     }
+    
+    console.log(`🎉 所有配置图片采集完成，共 ${configsWithImages.length} 个配置`);
     return configsWithImages;
   }
 

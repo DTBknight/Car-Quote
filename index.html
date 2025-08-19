@@ -1037,12 +1037,74 @@
               </div>
             </div>
             <!-- 车型图片卡片 -->
-            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200 card-hover" style="z-index: 20;">
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200" style="z-index: 20;">
               <h3 class="text-lg font-medium flex items-center mb-3" style="z-index: 25; position: relative;">
                 <i class="fa-solid fa-images text-primary mr-2"></i>车型图片
               </h3>
-              <div id="carMainImageBox" class="h-64 flex items-center justify-center">
+              <!-- 外观和内饰图片并排显示 -->
+              <div class="grid grid-cols-2 gap-4">
+                <!-- 外观图片 -->
+                <div class="space-y-2">
+                  <div id="exteriorImageBox" class="h-48 flex items-center justify-center bg-gray-100 rounded-lg border border-gray-200 overflow-hidden">
+                    <!-- 外观图片自动加载 -->
+                  </div>
+                  <!-- 外观颜色选择器 -->
+                  <div id="exteriorColorSelector" class="flex flex-col items-center">
+                    <div id="exteriorColorSwatches" class="flex items-center space-x-2 mb-2">
+                      <!-- 外观颜色色块动态生成 -->
+                    </div>
+                    <div id="exteriorColorName" class="text-xs text-gray-600 text-center">
+                      <!-- 外观颜色名称动态显示 -->
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- 内饰图片 -->
+                <div class="space-y-2">
+                  <div id="interiorImageBox" class="h-48 flex items-center justify-center bg-gray-100 rounded-lg border border-gray-200 overflow-hidden">
+                    <!-- 内饰图片自动加载 -->
+                  </div>
+                  <!-- 内饰颜色选择器 -->
+                  <div id="interiorColorSelector" class="flex flex-col items-center">
+                    <div id="interiorColorSwatches" class="flex items-center space-x-2 mb-2">
+                      <!-- 内饰颜色色块动态生成 -->
+                    </div>
+                    <div id="interiorColorName" class="text-xs text-gray-600 text-center">
+                      <!-- 内饰颜色名称动态显示 -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 保留原有的carMainImageBox用于兼容性 -->
+              <div id="carMainImageBox" class="hidden">
                 <!-- 车型图片自动加载 -->
+              </div>
+              
+              <!-- 保留原有的颜色选择器用于兼容性 -->
+              <div id="colorSelector" class="mt-4 hidden">
+                <!-- 颜色选择器主体：箭头 + 色块 + 箭头 -->
+                <div class="flex items-center justify-center space-x-4 mb-3">
+                  <!-- 左箭头 -->
+                  <button id="colorPrevBtn" class="text-gray-400 hover:text-gray-600 transition-colors p-2">
+                    <i class="fa-solid fa-chevron-left text-lg"></i>
+                  </button>
+                  
+                  <!-- 颜色色块容器 -->
+                  <div id="colorSwatches" class="flex items-center space-x-2 overflow-hidden">
+                    <!-- 颜色色块动态生成 -->
+                  </div>
+                  
+                  <!-- 右箭头 -->
+                  <button id="colorNextBtn" class="text-gray-600 hover:text-gray-800 transition-colors p-2">
+                    <i class="fa-solid fa-chevron-right text-lg"></i>
+                  </button>
+                </div>
+                
+                <!-- 当前选中颜色名称 -->
+                <div id="selectedColorName" class="text-center text-sm font-medium text-gray-800">
+                  <!-- 颜色名称动态显示 -->
+                </div>
               </div>
             </div>
           </div>
