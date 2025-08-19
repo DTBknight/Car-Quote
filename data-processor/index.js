@@ -7,6 +7,9 @@ const path = require('path');
 const cliProgress = require('cli-progress');
 const colors = require('colors');
 const { getRandomUserAgent, getRandomViewport, getRandomDelay } = require('./anti-detection');
+const DataCollector = require('./data-collector');
+const BrowserManager = require('./browser-manager');
+const pTimeout = require('p-timeout');
 
 // 品牌ID映射（原始，已按主ID从小到大静态排序；多ID按首个ID排序）
 const brandIdsMapRaw = {
@@ -356,7 +359,7 @@ async function collectCarData(brand) {
               const carId = uniqueCarIds[i];
               progressBar.update(completedCount, { currentCar: `车型ID: ${carId}` });
               
-              const carData = await collectSingleCarData(page, carId);
+              const carData = await collectSingleCarData(page, carId, brand);
               if (carData) {
                 cars.push(carData);
               }
@@ -491,6 +494,44 @@ async function getBrandInfoAndCarIds(page, brandId) {
     }
     
     console.log('最终找到的车型ID:', carIds);
+    
+    // 兜底逻辑：如果常规方法没有找到车型ID，尝试其他方法
+    if (carIds.length === 0) {
+      console.log('⚠️  常规方法未找到车型ID，尝试兜底方法...');
+      
+      // 方法1：直接搜索页面中的所有系列链接
+      const allSeriesLinks = document.querySelectorAll('a[href*="/auto/series/"]');
+      console.log(`找到 ${allSeriesLinks.length} 个系列链接`);
+      
+      allSeriesLinks.forEach(link => {
+        const match = link.href.match(/\/auto\/series\/(\d+)/);
+        if (match) {
+          const carId = parseInt(match[1]);
+          if (!carIds.includes(carId)) {
+            carIds.push(carId);
+            console.log(`兜底方法找到车型ID: ${carId} (链接: ${link.href})`);
+          }
+        }
+      });
+      
+      // 方法2：搜索页面中的所有数字ID（作为最后的兜底）
+      if (carIds.length === 0) {
+        console.log('⚠️  兜底方法1未找到车型ID，尝试搜索页面中的数字ID...');
+        const pageText = document.body.textContent;
+        const idMatches = pageText.match(/\/auto\/series\/(\d+)/g);
+        if (idMatches) {
+          idMatches.forEach(match => {
+            const carId = parseInt(match.match(/\d+/)[0]);
+            if (!carIds.includes(carId) && carId > 1000) { // 过滤掉太小的ID
+              carIds.push(carId);
+              console.log(`兜底方法2找到车型ID: ${carId}`);
+            }
+          });
+        }
+      }
+    }
+    
+    console.log('最终找到的车型ID（包含兜底）:', carIds);
     return { brandInfo, carIds };
   });
 
@@ -498,107 +539,179 @@ async function getBrandInfoAndCarIds(page, brandId) {
 }
 
 // 采集单个车型的详细信息
-async function collectSingleCarData(page, carId) {
+async function collectSingleCarData(page, carId, brand) {
   // 1. 采集车型基本信息（车型名、主图、厂商/级别）
   const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
-  await page.goto(urlSeries, { waitUntil: 'networkidle2', timeout: 60000 });
-  await new Promise(resolve => setTimeout(resolve, getRandomDelay(2000, 4000)));
-  
+  await page.goto(urlSeries, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await new Promise(resolve => setTimeout(resolve, 2500)); // 固定等待时间，确保页面完全加载
+
+  // 多选择器兜底采集车型名，兼容索奈等特殊页面
   const carBasicInfo = await page.evaluate(() => {
-    function getByXpath(xpath) {
-      const result = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
-      return result.singleNodeValue;
+    let carName = '';
+    const selectors = [
+      'h1[title]',
+      'h1[class*="series-name"]',
+      'h1[class*="line-1"]',
+      'h1'
+    ];
+    for (const sel of selectors) {
+      const el = document.querySelector(sel);
+      if (el && el.textContent.trim().length > 1) {
+        carName = el.textContent.trim();
+        break;
+      }
     }
-    
-    const carNameH1 = getByXpath('//*[@id="__next"]/div/div[2]/div[2]/div[1]/div[1]/div[1]/h1');
-    let carName = carNameH1 ? carNameH1.textContent.trim() : '';
-    
-    let mainImage = '';
-    const mainImg = getByXpath('//*[@id="__next"]/div/div[2]/div[2]/div[2]/div/div/div[2]/img');
-    if (mainImg) mainImage = mainImg.src;
-    
-    return { carName, mainImage };
+    return { carName };
   });
 
   // 跳过无效车型
-  if (!carBasicInfo.carName || !carBasicInfo.mainImage) {
+  if (!carBasicInfo.carName) {
     console.log(colors.yellow(`⚠️  车型 ${carId} 基本信息不完整，跳过`));
     return null;
   }
 
   // 2. 采集配置名称和指导价等
   const urlParams = `https://www.dongchedi.com/auto/params-carIds-x-${carId}`;
-  await page.goto(urlParams, { waitUntil: 'networkidle2', timeout: 60000 });
-  await new Promise(resolve => setTimeout(resolve, getRandomDelay(2000, 4000)));
+  await page.goto(urlParams, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await new Promise(resolve => setTimeout(resolve, 2500)); // 固定等待时间，确保页面完全加载
   
   const configs = await page.evaluate(() => {
-    const configNames = Array.from(document.querySelectorAll('a[class^="cell_car__"]')).map(a => a.textContent.trim());
-    const prices = Array.from(document.querySelectorAll('div[class*="official-price"]')).map(e => e.textContent.trim());
-    const sizes = Array.from(document.querySelectorAll('div[data-row-anchor="length_width_height"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
-    const fuelTypes = Array.from(document.querySelectorAll('div[data-row-anchor="fuel_form"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+    // 统一配置采集逻辑 - 兼容所有结构
+    let configNames = [];
+    let configIds = [];
+    let prices = [];
     
-    // 新增：采集厂商信息
-    const manufacturers = Array.from(document.querySelectorAll('div[data-row-anchor="sub_brand_name"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+            // 方法1：优先采集参数配置页面的结构
+        // 从页面顶部的车型标题获取配置名称
+        const titleElements = Array.from(document.querySelectorAll('h1, h2, h3')).filter(el => 
+          el.textContent.includes('款') && el.textContent.length > 10
+        );
+        
+        if (titleElements.length > 0) {
+          console.log('使用参数配置页面结构采集配置信息');
+          configNames = titleElements.map(el => el.textContent.trim());
+          
+          // 从页面URL或其他地方提取配置ID（暂时使用索引作为占位符）
+          configIds = Array(configNames.length).fill('').map((_, idx) => `config_${idx + 1}`);
+          
+          // 从"基本信息"部分的"官方指导价"行获取价格
+          const basicInfoSection = Array.from(document.querySelectorAll('h3')).find(h3 => 
+            h3.textContent.includes('基本信息')
+          );
+          
+          if (basicInfoSection) {
+            const nextElements = [];
+            let currentElement = basicInfoSection.nextElementSibling;
+            while (currentElement && nextElements.length < 20) {
+              if (currentElement.textContent.includes('官方指导价')) {
+                // 找到官方指导价行，获取下一行的价格
+                let priceElement = currentElement.nextElementSibling;
+                while (priceElement && nextElements.length < configNames.length) {
+                  const priceText = priceElement.textContent.trim();
+                  if (/^[\d.]+万(?:元)?$/.test(priceText)) {
+                    nextElements.push(priceText);
+                    priceElement = priceElement.nextElementSibling;
+                  } else {
+                    priceElement = priceElement.nextElementSibling;
+                  }
+                }
+                break;
+              }
+              currentElement = currentElement.nextElementSibling;
+            }
+            prices = nextElements;
+          }
+        }
     
-    // 新增：采集车型级别
-    const classes = Array.from(document.querySelectorAll('div[data-row-anchor="jb"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+    // 方法2：Fallback到索奈等特殊结构 - ul > li
+    if (configNames.length === 0) {
+      console.log('常规结构未找到，使用索奈等特殊结构');
+      const liNodes = Array.from(document.querySelectorAll('ul > li'));
+      configNames = liNodes.map(li => {
+        const a = li.querySelector('a[href*="model-"]');
+        return a ? a.textContent.trim() : '';
+      });
+      configIds = liNodes.map(li => {
+        const a = li.querySelector('a[href*="model-"]');
+        if (a && a.href) {
+          const match = a.href.match(/model-(\d+)/);
+          return match ? match[1] : '';
+        }
+        return '';
+      });
+      
+      // 使用索奈页面的价格选择器
+      prices = liNodes.map(li => {
+        const priceDiv = li.querySelector('div.tw-text-color-gray-800.tw-text-16');
+        return priceDiv ? priceDiv.textContent.trim() : '';
+      });
+    }
     
-    // 新增：采集发动机信息（尝试多个可能的字段）
-    const engineSelectors = [
-      'div[data-row-anchor="engine"]',
-      'div[data-row-anchor="displacement"]',
-      'div[data-row-anchor="engine_description"]',
-      'div[data-row-anchor="engine_type"]'
-    ];
-    
-    let engines = [];
-    for (const selector of engineSelectors) {
-      const elements = document.querySelectorAll(selector + ' div[class*="table_col__"]');
-      if (elements.length > 0) {
-        engines = Array.from(elements).slice(1).map(e => e.textContent.trim());
-        break;
+    // 方法3：兜底搜索页面文本中的价格信息
+    if (prices.length === 0) {
+      console.log('特殊结构未找到价格，搜索页面文本');
+      const allDivs = Array.from(document.querySelectorAll('div, span')).map(e => e.textContent.trim());
+      const priceIndex = allDivs.findIndex(t => t === '官方指导价');
+      if (priceIndex !== -1) {
+        for (let i = priceIndex + 1; i < allDivs.length && prices.length < configNames.length; i++) {
+          if (/^[\d.]+万$/.test(allDivs[i]) || /^[\d.]+万元$/.test(allDivs[i])) {
+            prices.push(allDivs[i]);
+          }
+        }
       }
     }
     
-    // 新增：采集电动机信息
-    const motors = Array.from(document.querySelectorAll('div[data-row-anchor="electric_description"] div[class*="table_col__"]')).slice(1).map(e => e.textContent.trim());
+    // 长度对齐
+    const maxLen = Math.max(configNames.length, configIds.length, prices.length);
+    while (configNames.length < maxLen) configNames.push('');
+    while (configIds.length < maxLen) configIds.push('');
+    while (prices.length < maxLen) prices.push('');
     
-    return configNames.map((name, idx) => {
-      const fuelType = fuelTypes[idx] || '';
-      
-      // 根据能源类型决定抓取发动机还是电动机
-      let power = '';
-      if (fuelType === '汽油' || fuelType === '柴油') {
-        // 燃油车：使用发动机信息
-        power = engines[idx] || '';
-      } else if (fuelType === '纯电动' || fuelType === '插电式混合动力' || fuelType === '增程式') {
-        // 新能源车：使用电动机信息
-        power = motors[idx] || '';
-      } else {
-        // 其他类型：尝试获取发动机信息，如果没有则获取电动机信息
-        power = engines[idx] || motors[idx] || '';
-      }
-      
-      return {
-        configName: name,
-        price: prices[idx] || '',
-        fuelType: fuelType,
-        size: sizes[idx] || '',
-        manufacturer: manufacturers[idx] || '',
-        class: classes[idx] || '',
-        power: power
-      };
-    }).filter(config => {
-      const price = config.price.trim();
-      return price && price !== '暂无报价' && price !== '暂无' && price !== '-';
+    // 返回结构（统一过滤机制）
+    return configNames.map((name, idx) => ({
+      configName: name,
+      configId: configIds[idx],
+      price: prices[idx]
+    })).filter(cfg => {
+      // 统一过滤机制：必须有配置名、配置ID和有效价格
+      return cfg.configName && 
+             cfg.configId && 
+             cfg.price && 
+             !['暂无报价', '暂无', '-'].includes(cfg.price.trim());
     });
   });
 
-  return {
-    carName: carBasicInfo.carName,
-    mainImage: carBasicInfo.mainImage,
-    configs
-  };
+  // 使用新的DataCollector来抓取颜色信息
+  const browserManager = new BrowserManager();
+  const dataCollector = new DataCollector(browserManager);
+  
+  try {
+    // 为每个配置添加颜色信息，使用统一的超时设置
+    const configsWithColors = await dataCollector.getConfigImages(
+      await browserManager.createBrowser(), 
+      configs.map(config => ({
+        ...config,
+        crawler: { 
+          timeout: 60000,  // 增加超时时间到60秒，确保抓取完整
+          pageWaitTime: 3000,  // 页面加载等待时间
+          imageWaitTime: 2000   // 图片加载等待时间
+        }
+      })), 
+      carId, 
+      brand
+    );
+    
+    return {
+      carName: carBasicInfo.carName,
+      configs: configsWithColors || configs
+    };
+  } catch (error) {
+    console.log(colors.yellow(`⚠️  车型 ${carId} 颜色信息抓取失败: ${error.message}`));
+    return {
+      carName: carBasicInfo.carName,
+      configs
+    };
+  }
 }
 
 // 设置请求拦截，屏蔽图片等资源，减少流量和反爬
@@ -613,6 +726,30 @@ async function setupRequestInterception(page) {
       req.continue();
     }
   });
+}
+
+// 品牌名参数兼容处理
+function normalizeBrandName(input) {
+  if (!input) return '';
+  let brand = input.trim();
+  console.log('[normalizeBrandName] 原始输入:', input, 'trim后:', brand);
+  if (brandIdsMap[brand] !== undefined) { console.log('[normalizeBrandName] 直接命中:', brand); return brand; }
+  const brandCap = brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase();
+  if (brandIdsMap[brandCap] !== undefined) { console.log('[normalizeBrandName] 首字母大写命中:', brandCap); return brandCap; }
+  const brandUp = brand.toUpperCase();
+  if (brandIdsMap[brandUp] !== undefined) { console.log('[normalizeBrandName] 全大写命中:', brandUp); return brandUp; }
+  const brandLow = brand.toLowerCase();
+  if (brandIdsMap[brandLow] !== undefined) { console.log('[normalizeBrandName] 全小写命中:', brandLow); return brandLow; }
+  try {
+    const brandFile = require('../data/brands.json');
+    const found = brandFile.find(b => b.name.replace(/\s/g, '') === brand.replace(/\s/g, ''));
+    if (found && found.file) {
+      const fileKey = found.file.replace('.json','');
+      if (brandIdsMap[fileKey] !== undefined) { console.log('[normalizeBrandName] 中文名命中:', fileKey); return fileKey; }
+    }
+  } catch (e) { console.log('[normalizeBrandName] 读取brands.json失败', e); }
+  console.log('[normalizeBrandName] 未匹配，输入:', input, '可用key:', Object.keys(brandIdsMap));
+  return brand;
 }
 
 // 自动同步brands.json脚本
@@ -638,13 +775,18 @@ if (require.main === module && process.argv[2] === 'autoSyncBrands') {
 }
 
 if (require.main === module) {
-  const brand = process.argv[2]; // node index.js Volkswagen 或 node index.js all
+  let brand = process.argv[2];
   if (!brand) {
     console.error('请在命令行参数中指定品牌名或 all');
     console.log('可用品牌:', Object.keys(brandIdsMap).join(', '));
     process.exit(1);
   }
-
+  brand = normalizeBrandName(brand);
+  console.log('[入口] normalize后品牌名:', brand);
+  if (!brandIdsMap[brand] && brand !== 'all') {
+    console.error('未找到该品牌ID，请检查品牌名。可用品牌:', Object.keys(brandIdsMap));
+    process.exit(1);
+  }
   if (brand === 'all') {
     // 全品牌采集
     (async () => {
@@ -669,7 +811,8 @@ if (require.main === module) {
       brandProgressBar.start(total, 0, { currentBrand: '准备中...' });
       
       for (let idx = 0; idx < total; idx++) {
-        const brandName = brandList[idx];
+        let brandName = brandList[idx];
+        brandName = normalizeBrandName(brandName);
         const dest = path.join(__dirname, '..', 'data', `${brandName}.json`);
         
         brandProgressBar.update(idx, { currentBrand: brandName });

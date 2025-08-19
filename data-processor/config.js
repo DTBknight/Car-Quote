@@ -4,7 +4,7 @@ const config = {
   crawler: {
     concurrency: 4, // 并发数 - 保持适中
     maxRetries: 2, // 最大重试次数 - 适度容错
-    timeout: 25000, // 单次页面超时 (ms)
+    timeout: 60000, // 单次页面超时 (ms) - 增加到60秒以兼容索奈等特殊页面
     protocolTimeout: 120000, // 协议层超时 (ms)，处理 Network.enable timed out
     delays: {
       min: 300, // 最小延迟 (ms)
@@ -30,7 +30,7 @@ const config = {
 
   // 验证配置
   validation: {
-    requireImages: true, // 是否需要图片
+    requireImages: false, // 不需要强制要求图片
     minConfigs: 1, // 最少配置数量
     maxRetries: 3 // 验证重试次数
   },
