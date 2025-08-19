@@ -209,11 +209,14 @@ class DataCollector {
       
       let onSaleLink = null;
       try {
-        // 动态查找"在售"标签
+        // 动态查找"在售"标签 - 增强匹配逻辑
         onSaleLink = await page.evaluateHandle(() => {
-          const categoryLinks = document.querySelectorAll('a.category_item__1bH-x');
+          const categoryLinks = document.querySelectorAll('a.category_item__1bH-x, a[class*="category"], a[class*="tab"]');
           for (const link of categoryLinks) {
-            if (link.textContent.trim() === '在售') {
+            const text = link.textContent.trim();
+            // 匹配多种"在售"相关标签
+            if (text === '在售' || text === '在售车型' || text === '在售车' || 
+                text === '销售中' || text === '可购买' || text === '可订车') {
               return link;
             }
           }
@@ -283,19 +286,34 @@ class DataCollector {
               console.log('使用选择器:', selector);
               
               elements.forEach((item, index) => {
-                // 检查价格信息
+                // 检查价格信息 - 增强过滤逻辑
                 const priceSelectors = ['.series-card-price', '.price', '[class*="price"]'];
                 let hasPrice = false;
+                let isDiscontinued = false;
                 
                 for (const priceSelector of priceSelectors) {
                   const priceElement = item.querySelector(priceSelector);
                   if (priceElement) {
                     const priceText = priceElement.textContent.trim();
-                    if (priceText && priceText !== '暂无报价' && priceText !== '暂无') {
+                    // 过滤停产/停售车型
+                    if (priceText.includes('已停售') || priceText.includes('停产') || 
+                        priceText.includes('停售') || priceText.includes('不可购买') ||
+                        priceText.includes('已下架') || priceText.includes('暂停销售')) {
+                      isDiscontinued = true;
+                      break;
+                    }
+                    // 检查有效价格
+                    if (priceText && priceText !== '暂无报价' && priceText !== '暂无' && 
+                        priceText !== '-' && !priceText.includes('询底价')) {
                       hasPrice = true;
                       break;
                     }
                   }
+                }
+                
+                // 如果车型已停产，跳过
+                if (isDiscontinued) {
+                  return;
                 }
                 
                 if (hasPrice) {
@@ -734,10 +752,31 @@ class DataCollector {
           price: prices[idx]
         })).filter(cfg => {
           // 统一过滤机制：必须有配置名、配置ID和有效价格
-          return cfg.configName && 
-                 cfg.configId && 
-                 cfg.price && 
-                 !['暂无报价', '暂无', '-'].includes(cfg.price.trim());
+          if (!cfg.configName || !cfg.configId || !cfg.price) {
+            return false;
+          }
+          
+          const price = cfg.price.trim();
+          const configName = cfg.configName.trim();
+          
+          // 过滤无效价格
+          if (['暂无报价', '暂无', '-'].includes(price)) {
+            return false;
+          }
+          
+          // 过滤停产/停售配置
+          const discontinuedKeywords = ['停产', '停售', '已停售', '已下架', '暂停销售', '不可购买', '经典'];
+          if (discontinuedKeywords.some(keyword => configName.includes(keyword))) {
+            console.log(`⚠️ 过滤停产配置: ${configName}`);
+            return false;
+          }
+          
+          // 过滤无效价格格式
+          if (!/^[\d.]+万(?:元)?$/.test(price)) {
+            return false;
+          }
+          
+          return true;
         });
       });
 
@@ -964,6 +1003,13 @@ class DataCollector {
     const invalidChars = ['/', '\\', '|', ':', '*', '?', '"', '<', '>'];
     if (invalidChars.some(char => carBasicInfo.carName.includes(char))) {
       console.warn(`⚠️ 车型名称包含无效字符: "${carBasicInfo.carName}"`);
+      return false;
+    }
+    
+    // 过滤停产/停售车型名称
+    const discontinuedKeywords = ['停产', '停售', '已停售', '已下架', '暂停销售', '不可购买', '经典'];
+    if (discontinuedKeywords.some(keyword => carBasicInfo.carName.includes(keyword))) {
+      console.warn(`⚠️ 车型名称包含停产/停售关键词: "${carBasicInfo.carName}"`);
       return false;
     }
     
