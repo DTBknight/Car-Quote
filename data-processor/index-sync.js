@@ -87,14 +87,8 @@ class DataSyncProcessor {
         try {
           await this.log(`\n🚗 处理品牌 ID: ${brandId} (${i + 1}/${brandsToProcess.length})`);
           
-          // 设置超时处理
-          const timeoutPromise = new Promise((_, reject) => {
-            setTimeout(() => reject(new Error('处理超时')), 300000); // 5分钟超时
-          });
-          
-          const processPromise = processor.processBrand(brandId);
-          
-          await Promise.race([processPromise, timeoutPromise]);
+          // 移除超时限制，让每个品牌有足够时间完成采集
+          await processor.processBrand(brandId);
           
           progress.completed.push(brandId);
           await this.log(`✅ 品牌 ${brandId} 完成`);
