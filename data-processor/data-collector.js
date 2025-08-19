@@ -193,10 +193,14 @@ class DataCollector {
       const brandUrl = `https://www.dongchedi.com/auto/library-brand/${brandId}`;
       console.log(`🌐 访问品牌页面: ${brandUrl}`);
       
-      await pTimeout(
-        page.goto(brandUrl, { waitUntil: 'domcontentloaded' }), // 改为更快的加载策略
-        { milliseconds: config.crawler.timeout }
-      );
+      if (config.crawler.timeout > 0) {
+        await pTimeout(
+          page.goto(brandUrl, { waitUntil: 'domcontentloaded' }), // 改为更快的加载策略
+          { milliseconds: config.crawler.timeout }
+        );
+      } else {
+        await page.goto(brandUrl, { waitUntil: 'domcontentloaded' });
+      }
       
       await new Promise(resolve => setTimeout(resolve, 1000)); // 固定1秒等待
 
@@ -415,12 +419,24 @@ class DataCollector {
       try {
         const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
         try {
-          await pTimeout(page.goto(urlSeries, { waitUntil: 'domcontentloaded' }), { milliseconds: config.crawler.timeout });
+          if (config.crawler.timeout > 0) {
+            await pTimeout(page.goto(urlSeries, { waitUntil: 'domcontentloaded' }), { milliseconds: config.crawler.timeout });
+          } else {
+            await page.goto(urlSeries, { waitUntil: 'domcontentloaded' });
+          }
         } catch (_) {
           try {
-            await pTimeout(page.goto(urlSeries, { waitUntil: 'load' }), { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) });
+            if (config.crawler.timeout > 0) {
+              await pTimeout(page.goto(urlSeries, { waitUntil: 'load' }), { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) });
+            } else {
+              await page.goto(urlSeries, { waitUntil: 'load' });
+            }
           } catch (_) {
-            await pTimeout(page.goto(urlSeries), { milliseconds: Math.min(config.crawler.timeout + 15000, 40000) });
+            if (config.crawler.timeout > 0) {
+              await pTimeout(page.goto(urlSeries), { milliseconds: Math.min(config.crawler.timeout + 15000, 40000) });
+            } else {
+              await page.goto(urlSeries);
+            }
           }
         }
         await new Promise(r => setTimeout(r, 800));
@@ -439,9 +455,17 @@ class DataCollector {
       try {
         const brandUrl = `https://www.dongchedi.com/auto/library-brand/${brandId}`;
         try {
-          await pTimeout(page.goto(brandUrl, { waitUntil: 'domcontentloaded' }), { milliseconds: config.crawler.timeout });
+          if (config.crawler.timeout > 0) {
+            await pTimeout(page.goto(brandUrl, { waitUntil: 'domcontentloaded' }), { milliseconds: config.crawler.timeout });
+          } else {
+            await page.goto(brandUrl, { waitUntil: 'domcontentloaded' });
+          }
         } catch (_) {
-          await pTimeout(page.goto(brandUrl, { waitUntil: 'load' }), { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) });
+          if (config.crawler.timeout > 0) {
+            await pTimeout(page.goto(brandUrl, { waitUntil: 'load' }), { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) });
+          } else {
+            await page.goto(brandUrl, { waitUntil: 'load' });
+          }
         }
         await new Promise(r => setTimeout(r, 800));
         const logo2 = await tryExtractLogo(page);
@@ -521,16 +545,24 @@ class DataCollector {
       } catch (e1) {
         console.warn(`⚠️ 车型 ${carId} domcontentloaded 超时，回退到 load: ${e1.message}`);
         try {
-          await pTimeout(
-            page.goto(urlSeries, { waitUntil: 'load' }),
-            { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) }
-          );
+          if (config.crawler.timeout > 0) {
+            await pTimeout(
+              page.goto(urlSeries, { waitUntil: 'load' }),
+              { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) }
+            );
+          } else {
+            await page.goto(urlSeries, { waitUntil: 'load' });
+          }
         } catch (e2) {
           console.warn(`⚠️ 车型 ${carId} load 仍超时，最后尝试不设置 waitUntil: ${e2.message}`);
-          await pTimeout(
-            page.goto(urlSeries),
-            { milliseconds: Math.min(config.crawler.timeout + 15000, 40000) }
-          );
+          if (config.crawler.timeout > 0) {
+            await pTimeout(
+              page.goto(urlSeries),
+              { milliseconds: Math.min(config.crawler.timeout + 15000, 40000) }
+            );
+          } else {
+            await page.goto(urlSeries);
+          }
         }
       }
       
@@ -563,16 +595,24 @@ class DataCollector {
       // 2. 采集配置信息
       const urlParams = `https://www.dongchedi.com/auto/params-carIds-x-${carId}`;
       try {
-        await pTimeout(
-          page.goto(urlParams, { waitUntil: 'domcontentloaded' }), // 更快的加载策略
-          { milliseconds: config.crawler.timeout }
-        );
+        if (config.crawler.timeout > 0) {
+          await pTimeout(
+            page.goto(urlParams, { waitUntil: 'domcontentloaded' }), // 更快的加载策略
+            { milliseconds: config.crawler.timeout }
+          );
+        } else {
+          await page.goto(urlParams, { waitUntil: 'domcontentloaded' });
+        }
       } catch (e3) {
         console.warn(`⚠️ 车型 ${carId} 参数页 domcontentloaded 超时，回退到 load: ${e3.message}`);
-        await pTimeout(
-          page.goto(urlParams, { waitUntil: 'load' }),
-          { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) }
-        );
+        if (config.crawler.timeout > 0) {
+          await pTimeout(
+            page.goto(urlParams, { waitUntil: 'load' }),
+            { milliseconds: Math.min(config.crawler.timeout + 10000, 35000) }
+          );
+        } else {
+          await page.goto(urlParams, { waitUntil: 'load' });
+        }
       }
       await new Promise(resolve => setTimeout(resolve, 2000)); // 增加等待时间，确保异步渲染完成
 
@@ -732,10 +772,14 @@ class DataCollector {
     try {
       const imagePageUrl = `https://www.dongchedi.com/series-${carId}/images/${type}-${config.configId}-x-x`;
       console.log(`📸 访问${type === 'wg' ? '外观' : '内饰'}图片页面: ${imagePageUrl} (配置ID: ${config.configId})`);
-      await pTimeout(
-        page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' }),
-        { milliseconds: config.crawler?.timeout || 60000 }
-      );
+      if (config.crawler?.timeout > 0) {
+        await pTimeout(
+          page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' }),
+          { milliseconds: config.crawler.timeout }
+        );
+      } else {
+        await page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' });
+      }
       await new Promise(r => setTimeout(r, config.crawler?.pageWaitTime || 3000));
 
       // 抓取色块信息
@@ -775,10 +819,14 @@ class DataCollector {
           if (color.link && !color.link.startsWith('http')) {
             colorPageUrl = `https://www.dongchedi.com${color.link}`;
           }
-          await pTimeout(
-            page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
-            { milliseconds: config.crawler?.timeout || 60000 }
-          );
+          if (config.crawler?.timeout > 0) {
+            await pTimeout(
+              page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
+              { milliseconds: config.crawler.timeout }
+            );
+          } else {
+            await page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' });
+          }
           await new Promise(r => setTimeout(r, config.crawler?.imageWaitTime || 2000));
           // 主图抓取
           const mainImage = await page.evaluate(() => {
