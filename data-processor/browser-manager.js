@@ -27,7 +27,7 @@ class BrowserManager {
       headless: config.crawler.headless,
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || executablePath,
       ignoreHTTPSErrors: true,
-      protocolTimeout: 120000,
+      protocolTimeout: 0, // 无超时限制
       defaultViewport: { width: 1280, height: 800 },
       args: [
         '--no-sandbox',
@@ -41,7 +41,13 @@ class BrowserManager {
         '--disable-backgrounding-occluded-windows',
         '--disable-renderer-backgrounding',
         '--disable-features=TranslateUI',
-        '--disable-ipc-flooding-protection'
+        '--disable-ipc-flooding-protection',
+        '--disable-web-security', // 禁用web安全策略
+        '--disable-features=VizDisplayCompositor', // 禁用显示合成器
+        '--memory-pressure-off', // 关闭内存压力检测
+        '--max_old_space_size=4096', // 增加内存限制
+        '--disable-timeouts', // 禁用所有超时
+        '--disable-hang-monitor' // 禁用挂起监控
       ]
     });
 

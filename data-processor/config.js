@@ -2,13 +2,13 @@
 const config = {
   // 爬虫配置
   crawler: {
-    concurrency: 4, // 并发数 - 保持适中
-    maxRetries: 2, // 最大重试次数 - 适度容错
-    timeout: 60000, // 单次页面超时 (ms) - 增加到60秒以兼容索奈等特殊页面
-    protocolTimeout: 120000, // 协议层超时 (ms)，处理 Network.enable timed out
+    concurrency: 2, // 并发数 - 进一步降低以减少超时风险
+    maxRetries: 3, // 最大重试次数 - 增加重试次数
+    timeout: 0, // 单次页面超时 (ms) - 0表示无限制
+    protocolTimeout: 0, // 协议层超时 (ms) - 0表示无限制
     delays: {
-      min: 300, // 最小延迟 (ms)
-      max: 900  // 最大延迟 (ms)
+      min: 1000, // 最小延迟 (ms) - 增加延迟确保稳定性
+      max: 2000  // 最大延迟 (ms) - 增加延迟确保稳定性
     },
     headless: true, // 无头模式
     resourceBlocking: true, // 资源拦截

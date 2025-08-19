@@ -509,10 +509,15 @@ class DataCollector {
       const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
       // 更稳健的加载策略：domcontentloaded -> load -> 无 waitUntil
       try {
+              // 如果超时设置为0，则不使用超时
+      if (config.crawler.timeout > 0) {
         await pTimeout(
-          page.goto(urlSeries, { waitUntil: 'domcontentloaded' }),
+          page.goto(urlSeries, { waitUntil: 'domcontentloaded' }), 
           { milliseconds: config.crawler.timeout }
         );
+      } else {
+        await page.goto(urlSeries, { waitUntil: 'domcontentloaded' });
+      }
       } catch (e1) {
         console.warn(`⚠️ 车型 ${carId} domcontentloaded 超时，回退到 load: ${e1.message}`);
         try {
