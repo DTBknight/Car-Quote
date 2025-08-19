@@ -56,7 +56,7 @@ class DataSyncProcessor {
     
     // 获取所有品牌ID（从权威映射中动态读取，避免硬编码缺失）
     const { brandIdsMap } = require('./index-optimized');
-    const { brandIdsMap: referenceMap } = require('./index');
+    const { brandIdsMap: referenceMap } = require('./index-optimized');
     const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
     const orderMap = Object.entries(referenceMap)
       .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))

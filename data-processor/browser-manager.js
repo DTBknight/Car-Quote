@@ -95,6 +95,11 @@ class BrowserManager {
       
       page.on('request', (req) => {
         try {
+          // 检查请求是否已经被处理
+          if (req.isInterceptResolutionHandled()) {
+            return;
+          }
+          
           const resourceType = req.resourceType();
           const block = config.crawler.resourceBlocking;
           const shouldBlock = block && (
@@ -113,7 +118,9 @@ class BrowserManager {
           console.warn('⚠️ 请求拦截处理失败:', error.message);
           // 如果拦截失败，继续请求
           try {
-            req.continue();
+            if (!req.isInterceptResolutionHandled()) {
+              req.continue();
+            }
           } catch (e) {
             console.warn('⚠️ 请求继续失败:', e.message);
           }

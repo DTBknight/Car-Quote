@@ -192,12 +192,11 @@ class CarDataProcessor {
   }
 
   async processAllBrands() {
-    // 按照 index.js 中的品牌ID顺序排序（多ID按第一个ID）
+    // 按照品牌ID顺序排序（多ID按第一个ID）
     let brandList = Object.keys(brandIdsMap);
     try {
-      const { brandIdsMap: referenceMap } = require('./index');
       const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
-      const orderMap = Object.entries(referenceMap)
+      const orderMap = Object.entries(brandIdsMap)
         .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))
         .sort((a, b) => a.id - b.id)
         .reduce((acc, cur, idx) => { acc[cur.name] = idx; return acc; }, {});
@@ -272,11 +271,10 @@ async function main() {
     
     if (!brand) {
       console.error('❌ 请在命令行参数中指定品牌名或 all');
-      // 按 index.js 的品牌ID顺序输出可用品牌列表（多ID取首个ID）
+      // 按品牌ID顺序输出可用品牌列表（多ID取首个ID）
       try {
-        const { brandIdsMap: referenceMap } = require('./index');
         const getPrimaryId = (val) => Array.isArray(val) ? val[0] : val;
-        const orderMap = Object.entries(referenceMap)
+        const orderMap = Object.entries(brandIdsMap)
           .map(([name, ids]) => ({ name, id: getPrimaryId(ids) }))
           .sort((a, b) => a.id - b.id)
           .reduce((acc, cur, idx) => { acc[cur.name] = idx; return acc; }, {});
