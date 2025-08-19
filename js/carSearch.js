@@ -790,8 +790,12 @@ export class CarSearch {
       Utils.toggleElement('noHistoryMessage', false);
       
       historyList.innerHTML = this.searchHistory.map(item => {
-        // 处理历史记录显示数据
-        const brandName = item.brand || item.seriesName || '';
+        // 处理历史记录显示数据 - 修复品牌名称映射
+        let brandName = item.brand || item.seriesName || '';
+        
+        // 将英文品牌名映射到中文品牌名
+        brandName = this.mapBrandNameToChinese(brandName);
+        
         const brandImage = item.brandImage || '/placeholder.png';
         
         // 车型名（去重处理）
@@ -825,6 +829,66 @@ export class CarSearch {
         });
       });
     }
+  }
+
+  // 将英文品牌名映射到中文品牌名
+  mapBrandNameToChinese(englishBrandName) {
+    const brandMapping = {
+      'Skoda': '斯柯达',
+      'Subaru': '斯巴鲁',
+      'BMW': '宝马',
+      'Mercedes-Benz': '奔驰',
+      'Audi': '奥迪',
+      'Volkswagen': '大众',
+      'Toyota': '丰田',
+      'Honda': '本田',
+      'Nissan': '日产',
+      'Hyundai': '现代',
+      'Kia': '起亚',
+      'Ford': '福特',
+      'Chevrolet': '雪佛兰',
+      'Buick': '别克',
+      'Cadillac': '凯迪拉克',
+      'Lexus': '雷克萨斯',
+      'Infiniti': '英菲尼迪',
+      'Acura': '讴歌',
+      'Volvo': '沃尔沃',
+      'Saab': '萨博',
+      'Jaguar': '捷豹',
+      'Land Rover': '路虎',
+      'Mini': 'MINI',
+      'Rolls-Royce': '劳斯莱斯',
+      'Bentley': '宾利',
+      'Aston Martin': '阿斯顿马丁',
+      'Ferrari': '法拉利',
+      'Lamborghini': '兰博基尼',
+      'Maserati': '玛莎拉蒂',
+      'Porsche': '保时捷',
+      'Alfa Romeo': '阿尔法罗密欧',
+      'Fiat': '菲亚特',
+      'Peugeot': '标致',
+      'Citroen': '雪铁龙',
+      'Renault': '雷诺',
+      'Opel': '欧宝',
+      'Skoda': '斯柯达',
+      'Seat': '西雅特',
+      'Dacia': '达契亚',
+      'Lada': '拉达',
+      'BYD': '比亚迪',
+      'Geely': '吉利',
+      'Changan': '长安',
+      'Chery': '奇瑞',
+      'Great Wall': '长城',
+      'Haval': '哈弗',
+      'Wuling': '五菱',
+      'Hongqi': '红旗',
+      'Nio': '蔚来',
+      'Xpeng': '小鹏',
+      'Li Auto': '理想',
+      'Tesla': '特斯拉'
+    };
+    
+    return brandMapping[englishBrandName] || englishBrandName;
   }
   
   // 处理历史记录项点击
