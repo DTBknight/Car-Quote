@@ -49,7 +49,15 @@ jobs:
     - name: Execute Data Sync
       run: |
         cd data-processor
+        # 使用最新的采集工具进行数据同步
+        echo "🚀 开始执行数据同步任务..."
+        echo "📅 执行时间: $(date '+%Y-%m-%d %H:%M:%S')"
+        echo "🔧 使用工具: index-sync.js (基于增强版采集工具)"
+        
+        # 执行数据同步
         node index-sync.js
+        
+        echo "✅ 数据同步任务完成"
       env:
         # Set environment variables
         NODE_ENV: production
@@ -61,15 +69,44 @@ jobs:
       run: |
         set -e
         cd data-processor
+        echo "🔍 验证数据完整性..."
+        
+        # 验证采集工具配置
+        echo "📋 检查采集工具配置..."
+        if [ -f "config.js" ]; then
+          echo "✅ 采集工具配置文件存在"
+          echo "   - 超时设置: $(grep -o 'timeout: [0-9]*' config.js || echo '默认值')"
+          echo "   - 页面等待时间: $(grep -o 'pageWaitTime: [0-9]*' config.js || echo '默认值')"
+        else
+          echo "❌ 采集工具配置文件缺失"
+        fi
+        
+        # 验证数据文件
+        echo "📊 验证数据文件..."
         node scripts/validate.js
+        
+        echo "✅ 数据完整性验证完成"
         
     - name: Generate Summary
       run: |
         set -e
         cd data-processor
+        
+        echo "## 🚀 数据同步结果" >> $GITHUB_STEP_SUMMARY
+        echo "- 执行时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+        
+        # 显示采集工具版本信息
+        echo "## 🔧 采集工具信息" >> $GITHUB_STEP_SUMMARY
+        echo "- 工具版本: 增强版 v2.0" >> $GITHUB_STEP_SUMMARY
+        echo "- 主要功能:" >> $GITHUB_STEP_SUMMARY
+        echo "  - 实时数据采集日志显示" >> $GITHUB_STEP_SUMMARY
+        echo "  - 智能价格提取（过滤询底价等额外文字）" >> $GITHUB_STEP_SUMMARY
+        echo "  - 参数配置页面自动采集" >> $GITHUB_STEP_SUMMARY
+        echo "  - 外观/内饰图片分类采集" >> $GITHUB_STEP_SUMMARY
+        echo "  - 多色块支持（单色、双色、多色渐变）" >> $GITHUB_STEP_SUMMARY
+        
         if [ -f "weekly-execution.log" ]; then
-          echo "## 数据同步结果" >> $GITHUB_STEP_SUMMARY
-          echo "- 执行时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+          echo "## 📊 执行详情" >> $GITHUB_STEP_SUMMARY
           echo "- 日志文件: weekly-execution.log" >> $GITHUB_STEP_SUMMARY
           
           # 查找最新的报告文件
@@ -80,7 +117,7 @@ jobs:
             echo "- 成功率: $success_rate" >> $GITHUB_STEP_SUMMARY
           fi
         else
-          echo "## 数据同步结果" >> $GITHUB_STEP_SUMMARY
+          echo "## ❌ 执行状态" >> $GITHUB_STEP_SUMMARY
           echo "- 执行失败: 未找到日志文件" >> $GITHUB_STEP_SUMMARY
         fi
         
