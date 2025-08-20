@@ -38,7 +38,12 @@ class BrandScheduler {
       healthCheckInterval: 30000, // 健康检查间隔（30秒）
       timeoutPerBrand: 1800000, // 单个品牌最大运行时间（30分钟）
       priorityBrands: ['BYD', 'Tesla', 'BMW', 'Audi', 'Benz'], // 优先处理的品牌
-      logLevel: 'info'
+      logLevel: 'info',
+      // 新增：自动采集配置
+      autoMode: process.env.AUTO_MODE === 'true', // 启用自动模式
+      maxBrandsPerSession: parseInt(process.env.MAX_BRANDS_PER_SESSION) || 20, // 每次会话最大采集品牌数
+      progressFile: path.join(__dirname, 'auto-progress.json'), // 进度保存文件
+      resumeFromLastPosition: true // 从上次位置继续
     };
   }
 
@@ -72,6 +77,79 @@ class BrandScheduler {
   }
 
   /**
+   * 加载采集进度
+   */
+  loadProgress() {
+    try {
+      if (fs.existsSync(this.schedulerConfig.progressFile)) {
+        const progressData = JSON.parse(fs.readFileSync(this.schedulerConfig.progressFile, 'utf8'));
+        return progressData;
+      }
+    } catch (error) {
+      console.warn('⚠️ 加载进度文件失败:', error.message);
+    }
+    return {
+      lastBrandIndex: 0,
+      completedBrands: [],
+      failedBrands: [],
+      lastUpdateTime: null
+    };
+  }
+
+  /**
+   * 保存采集进度
+   */
+  saveProgress(currentIndex, completedBrands, failedBrands) {
+    try {
+      const progressData = {
+        lastBrandIndex: currentIndex,
+        completedBrands: completedBrands,
+        failedBrands: failedBrands,
+        lastUpdateTime: new Date().toISOString(),
+        totalBrands: this.getAllBrands().length
+      };
+      fs.writeFileSync(this.schedulerConfig.progressFile, JSON.stringify(progressData, null, 2));
+      console.log(`💾 进度已保存: ${currentIndex}/${progressData.totalBrands}`);
+    } catch (error) {
+      console.error('❌ 保存进度失败:', error.message);
+    }
+  }
+
+  /**
+   * 获取下一批要处理的品牌（自动模式）
+   */
+  getNextBrandBatch() {
+    const allBrands = this.getAllBrands();
+    const progress = this.loadProgress();
+    
+    let startIndex = 0;
+    if (this.schedulerConfig.resumeFromLastPosition && progress.lastBrandIndex > 0) {
+      startIndex = progress.lastBrandIndex;
+      console.log(`🔄 从上次位置继续: ${startIndex}/${allBrands.length}`);
+    }
+
+    // 过滤掉已成功完成的品牌
+    const remainingBrands = allBrands.filter((brand, index) => {
+      if (index < startIndex) return false;
+      return !progress.completedBrands.includes(brand.name);
+    });
+
+    // 获取当前批次
+    const batchSize = Math.min(this.schedulerConfig.maxBrandsPerSession, remainingBrands.length);
+    const currentBatch = remainingBrands.slice(0, batchSize);
+    
+    console.log(`📦 当前批次: ${currentBatch.length} 个品牌`);
+    console.log(`📊 总进度: ${startIndex}/${allBrands.length} (${((startIndex/allBrands.length)*100).toFixed(1)}%)`);
+    
+    return {
+      brands: currentBatch,
+      startIndex: startIndex,
+      totalBrands: allBrands.length,
+      remainingBrands: remainingBrands.length
+    };
+  }
+
+  /**
    * 按优先级排序品牌
    */
   sortBrandsByPriority(brands) {
@@ -95,16 +173,35 @@ class BrandScheduler {
   async startScheduling(targetBrands = null) {
     console.log('🚀 启动品牌爬虫调度器...');
     
-    // 获取待处理品牌
-    let brands = this.getAllBrands();
+    let brands;
+    let batchInfo;
+    
+    // 判断是自动模式还是指定品牌模式
     if (targetBrands && targetBrands.length > 0) {
-      brands = brands.filter(brand => targetBrands.includes(brand.name));
+      // 指定品牌模式
+      console.log('🎯 指定品牌模式');
+      brands = this.getAllBrands().filter(brand => targetBrands.includes(brand.name));
+      console.log(`📋 指定品牌: ${targetBrands.join(', ')}`);
+    } else {
+      // 自动模式 - 按顺序处理
+      console.log('🤖 自动采集模式');
+      batchInfo = this.getNextBrandBatch();
+      brands = batchInfo.brands;
+      
+      if (brands.length === 0) {
+        console.log('🎉 所有品牌都已采集完成！');
+        return;
+      }
+      
+      console.log(`📈 剩余品牌: ${batchInfo.remainingBrands} 个`);
     }
     
-    // 按优先级排序
-    brands = this.sortBrandsByPriority(brands);
+    // 按优先级排序（如果是指定品牌模式）
+    if (targetBrands && targetBrands.length > 0) {
+      brands = this.sortBrandsByPriority(brands);
+    }
     
-    console.log(`📊 准备处理 ${brands.length} 个品牌`);
+    console.log(`📊 本次处理 ${brands.length} 个品牌`);
     console.log(`⚙️ 最大并发数: ${this.schedulerConfig.maxConcurrent}`);
     
     // 初始化队列
@@ -116,6 +213,14 @@ class BrandScheduler {
     // 开始处理
     const startTime = Date.now();
     await this.processCrawlerQueue();
+    
+    // 保存进度（自动模式）
+    if (!targetBrands || targetBrands.length === 0) {
+      const completedBrandNames = Array.from(this.completedCrawlers.keys());
+      const failedBrandNames = Array.from(this.failedCrawlers.keys());
+      const currentIndex = batchInfo ? batchInfo.startIndex + brands.length : 0;
+      this.saveProgress(currentIndex, completedBrandNames, failedBrandNames);
+    }
     
     // 生成最终报告
     const duration = Math.round((Date.now() - startTime) / 1000);

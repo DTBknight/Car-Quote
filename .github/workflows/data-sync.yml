@@ -1,4 +1,4 @@
-name: 分布式品牌爬虫数据同步
+name: data-sync
 
 on:
   schedule:
@@ -6,8 +6,16 @@ on:
     - cron: '0 0 * * 1'
   workflow_dispatch: # 允许手动触发
     inputs:
+      mode:
+        description: '运行模式'
+        required: false
+        default: 'auto'
+        type: choice
+        options:
+        - 'auto'    # 自动按顺序采集（推荐）
+        - 'manual'  # 手动指定品牌
       target_brands:
-        description: '指定要爬取的品牌（用空格分隔，如：BYD Tesla BMW，留空则爬取所有品牌）'
+        description: '指定要爬取的品牌（仅手动模式，用空格分隔，如：BYD Tesla BMW）'
         required: false
         default: ''
       max_concurrent:
@@ -21,23 +29,54 @@ on:
         - '3'
         - '4'
         - '5'
+      max_brands_per_session:
+        description: '每次会话最大采集品牌数（自动模式）'
+        required: false
+        default: '20'
+        type: choice
+        options:
+        - '10'
+        - '15'
+        - '20'
+        - '25'
+        - '30'
 
 jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
+      mode: ${{ steps.setup.outputs.mode }}
       brands: ${{ steps.setup.outputs.brands }}
       concurrent: ${{ steps.setup.outputs.concurrent }}
+      max_brands_per_session: ${{ steps.setup.outputs.max_brands_per_session }}
     steps:
     - name: 设置爬虫参数
       id: setup
       run: |
-        if [ -n "${{ github.event.inputs.target_brands }}" ]; then
+        # 设置运行模式
+        MODE="${{ github.event.inputs.mode || 'auto' }}"
+        echo "mode=$MODE" >> $GITHUB_OUTPUT
+        
+        # 设置品牌参数
+        if [ "$MODE" = "manual" ] && [ -n "${{ github.event.inputs.target_brands }}" ]; then
           echo "brands=${{ github.event.inputs.target_brands }}" >> $GITHUB_OUTPUT
         else
-          echo "brands=all" >> $GITHUB_OUTPUT
+          echo "brands=auto" >> $GITHUB_OUTPUT
         fi
+        
+        # 设置并发数和每次会话最大品牌数
         echo "concurrent=${{ github.event.inputs.max_concurrent || '3' }}" >> $GITHUB_OUTPUT
+        echo "max_brands_per_session=${{ github.event.inputs.max_brands_per_session || '20' }}" >> $GITHUB_OUTPUT
+        
+        # 输出配置信息
+        echo "🤖 运行模式: $MODE"
+        if [ "$MODE" = "auto" ]; then
+          echo "📦 每次最大品牌数: ${{ github.event.inputs.max_brands_per_session || '20' }}"
+          echo "🔄 自动按顺序采集，支持断点续传"
+        else
+          echo "🎯 指定品牌: ${{ github.event.inputs.target_brands || '无' }}"
+        fi
+        echo "⚙️ 最大并发数: ${{ github.event.inputs.max_concurrent || '3' }}"
 
   sync:
     runs-on: ubuntu-latest
@@ -91,16 +130,29 @@ jobs:
         cd data-processor
         echo "🚀 开始执行分布式品牌爬虫系统..."
         echo "📅 执行时间: $(date '+%Y-%m-%d %H:%M:%S')"
-        echo "🔧 使用工具: 分布式品牌爬虫调度器 v3.0"
-        echo "🎯 目标品牌: ${{ needs.setup.outputs.brands }}"
+        echo "🔧 使用工具: 分布式品牌爬虫调度器 v3.1"
+        echo "🤖 运行模式: ${{ needs.setup.outputs.mode }}"
         echo "⚡ 最大并发: ${{ needs.setup.outputs.concurrent }}"
         
-        # 根据输入参数决定执行方式
-        if [ "${{ needs.setup.outputs.brands }}" = "all" ]; then
-          echo "📊 运行所有118个品牌爬虫..."
+        # 根据运行模式决定执行方式
+        if [ "${{ needs.setup.outputs.mode }}" = "auto" ]; then
+          echo "🔄 自动顺序采集模式"
+          echo "📦 每次最大品牌数: ${{ needs.setup.outputs.max_brands_per_session }}"
+          echo "💾 支持断点续传"
+          
+          # 设置自动模式的环境变量
+          export AUTO_MODE=true
+          export MAX_BRANDS_PER_SESSION=${{ needs.setup.outputs.max_brands_per_session }}
+          
+          # 运行自动调度器
           node brand-scheduler.js
         else
-          echo "📊 运行指定品牌爬虫: ${{ needs.setup.outputs.brands }}"
+          echo "🎯 手动指定品牌模式"
+          if [ "${{ needs.setup.outputs.brands }}" = "auto" ] || [ -z "${{ needs.setup.outputs.brands }}" ]; then
+            echo "❌ 手动模式下必须指定品牌"
+            exit 1
+          fi
+          echo "📊 指定品牌: ${{ needs.setup.outputs.brands }}"
           node brand-scheduler.js ${{ needs.setup.outputs.brands }}
         fi
         
