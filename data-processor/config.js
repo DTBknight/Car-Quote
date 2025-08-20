@@ -31,7 +31,14 @@ const config = {
     // 新增：图片采集配置
     imageRetryDelay: 2000, // 图片重试延迟
     maxImageRetries: 3, // 最大图片重试次数
-    imageTimeout: 45000 // 图片采集超时
+    imageTimeout: 45000, // 图片采集超时
+    // 新增：图片采集优化配置
+    imageConcurrency: 3, // 配置级并发数
+    colorConcurrency: 2, // 颜色级并发数
+    pageTimeout: 30000, // 页面加载超时（图片采集专用）
+    colorPageTimeout: 20000, // 颜色页面超时
+    pageWaitTime: 2000, // 页面等待时间（图片采集专用）
+    imageWaitTime: 1500 // 图片等待时间（图片采集专用）
   },
 
   // 日志配置

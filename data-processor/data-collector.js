@@ -818,15 +818,22 @@ class DataCollector {
     try {
       const imagePageUrl = `https://www.dongchedi.com/series-${carId}/images/${type}-${config.configId}-x-x`;
       console.log(`📸 访问${type === 'wg' ? '外观' : '内饰'}图片页面: ${imagePageUrl} (配置ID: ${config.configId})`);
-      if (config.crawler?.timeout > 0) {
+      
+      // 新增：使用更短的超时时间，避免长时间等待
+      const pageTimeout = Math.min(config.crawler?.timeout || 60000, config.crawler.pageTimeout || 30000);
+      
+      if (pageTimeout > 0) {
         await pTimeout(
           page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' }),
-          { milliseconds: config.crawler.timeout }
+          { milliseconds: pageTimeout }
         );
       } else {
         await page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' });
       }
-      await new Promise(r => setTimeout(r, config.crawler?.pageWaitTime || 3000));
+      
+      // 新增：减少等待时间，提升速度
+      const waitTime = Math.min(config.crawler?.pageWaitTime || 3000, config.crawler.pageWaitTime || 2000);
+      await new Promise(r => setTimeout(r, waitTime));
 
       // 抓取色块信息
       const colorBlocks = await page.evaluate(() => {
@@ -857,74 +864,98 @@ class DataCollector {
       });
       console.log(`🎨 找到${type === 'wg' ? '外观' : '内饰'}色块:`, colorBlocks.map(c => c.name));
 
-      // 抓取每个色块的主图
+      // 新增：并发处理色块图片采集
       const colorBlocksWithImages = [];
-      for (const color of colorBlocks) {
-        try {
-          let colorPageUrl = color.link;
-          if (color.link && !color.link.startsWith('http')) {
-            colorPageUrl = `https://www.dongchedi.com${color.link}`;
-          }
-          if (config.crawler?.timeout > 0) {
-            await pTimeout(
-              page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
-              { milliseconds: config.crawler.timeout }
-            );
-          } else {
-            await page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' });
-          }
-          await new Promise(r => setTimeout(r, config.crawler?.imageWaitTime || 2000));
-          // 主图抓取
-          const mainImage = await page.evaluate(() => {
-            const imageSelectors = [
-              'img[src*="motor-mis-img"][src*="~2508x0"]',
-              'img[src*="motor-mis-img"][src*="~1200x0"]',
-              'img[src*="motor-mis-img"][src*="~1000x0"]',
-              'img[src*="motor-mis-img"][src*="~700x0"]',
-              'img[src*="motor-mis-img"][src*="~500x0"]',
-              'img[src*="motor-mis-img"]',
-              'img'
-            ];
-            for (const selector of imageSelectors) {
-              const imgs = document.querySelectorAll(selector);
-              if (imgs.length > 0) {
-                let bestImg = null;
-                let bestResolution = 0;
-                for (const img of imgs) {
-                  const url = img.src || img.getAttribute('data-src') || '';
-                  if (url) {
-                    const resolutionMatch = url.match(/~(\d+)x\d+/);
-                    if (resolutionMatch) {
-                      const resolution = parseInt(resolutionMatch[1]);
-                      if (resolution > bestResolution) {
-                        bestResolution = resolution;
+      const colorConcurrency = Math.min(config.crawler.colorConcurrency || 2, colorBlocks.length);
+      const colorLimit = pLimit(colorConcurrency);
+      
+      const colorTasks = colorBlocks.map(async (color, index) => {
+        return colorLimit(async () => {
+          try {
+            let colorPageUrl = color.link;
+            if (color.link && !color.link.startsWith('http')) {
+              colorPageUrl = `https://www.dongchedi.com${color.link}`;
+            }
+            
+            // 新增：使用更短的超时时间
+            const colorPageTimeout = Math.min(pageTimeout, config.crawler.colorPageTimeout || 20000);
+            if (colorPageTimeout > 0) {
+              await pTimeout(
+                page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
+                { milliseconds: colorPageTimeout }
+              );
+            } else {
+              await page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' });
+            }
+            
+            // 新增：减少等待时间
+            const imageWaitTime = Math.min(config.crawler?.imageWaitTime || 2000, config.crawler.imageWaitTime || 1500);
+            
+            // 主图抓取
+            const mainImage = await page.evaluate(() => {
+              const imageSelectors = [
+                'img[src*="motor-mis-img"][src*="~2508x0"]',
+                'img[src*="motor-mis-img"][src*="~1200x0"]',
+                'img[src*="motor-mis-img"][src*="~1000x0"]',
+                'img[src*="motor-mis-img"][src*="~700x0"]',
+                'img[src*="motor-mis-img"][src*="~500x0"]',
+                'img[src*="motor-mis-img"]',
+                'img'
+              ];
+              for (const selector of imageSelectors) {
+                const imgs = document.querySelectorAll(selector);
+                if (imgs.length > 0) {
+                  let bestImg = null;
+                  let bestResolution = 0;
+                  for (const img of imgs) {
+                    const url = img.src || img.getAttribute('data-src') || '';
+                    if (url) {
+                      const resolutionMatch = url.match(/~(\d+)x\d+/);
+                      if (resolutionMatch) {
+                        const resolution = parseInt(resolutionMatch[1]);
+                        if (resolution > bestResolution) {
+                          bestResolution = resolution;
+                          bestImg = img;
+                        }
+                      } else if (!bestImg) {
                         bestImg = img;
                       }
-                    } else if (!bestImg) {
-                      bestImg = img;
                     }
                   }
-                }
-                if (bestImg) {
-                  return bestImg.src || bestImg.getAttribute('data-src') || '';
+                  if (bestImg) {
+                    return bestImg.src || bestImg.getAttribute('data-src') || '';
+                  }
                 }
               }
+              return '';
+            });
+            
+            // 新增：更新心跳活动时间
+            if (typeof global !== 'undefined' && global.lastActivityTime) {
+              global.lastActivityTime = Date.now();
             }
-            return '';
-          });
-          colorBlocksWithImages.push({
-            name: color.name,
-            colors: color.colors,
-            mainImage: mainImage
-          });
-        } catch (error) {
-          colorBlocksWithImages.push({
-            name: color.name,
-            colors: color.colors,
-            mainImage: ''
-          });
-        }
-      }
+            
+            return {
+              name: color.name,
+              colors: color.colors,
+              mainImage: mainImage
+            };
+            
+          } catch (error) {
+            console.warn(`⚠️ 色块 ${color.name} 图片采集失败:`, error.message);
+            return {
+              name: color.name,
+              colors: color.colors,
+              mainImage: ''
+            };
+          }
+        });
+      });
+      
+      // 并发执行色块图片采集
+      const colorResults = await Promise.all(colorTasks);
+      colorBlocksWithImages.push(...colorResults);
+      
       return colorBlocksWithImages;
     } catch (error) {
       console.warn(`⚠️ 获取${type === 'wg' ? '外观' : '内饰'}图片失败:`, error.message);
@@ -938,60 +969,126 @@ class DataCollector {
     const configsWithImages = [];
     console.log(`🔄 开始为 ${configs.length} 个配置采集图片...`);
     
-    for (let i = 0; i < configs.length; i++) {
-      const config = configs[i];
-      console.log(`📸 采集配置 ${i + 1}/${configs.length}: ${config.configName}`);
-      console.log(`   指导价: ${config.price || '暂无'}`);
-      console.log(`   配置ID: ${config.configId || '暂无'}`);
-      
-      // 如果没有配置ID，跳过图片采集，但保留基本信息
-      if (!config.configId) {
-        console.log(`   ⚠️ 配置ID为空，跳过图片采集`);
-        configsWithImages.push({
-          ...config,
-          exteriorImages: [],
-          interiorImages: [],
-          configImage: ''
-        });
-        continue;
-      }
-      
-      // 确保每个配置都有正确的超时配置
-      const configWithTimeout = {
-        ...config,
-        crawler: {
-          timeout: config.crawler?.timeout || 60000,
-          pageWaitTime: config.crawler?.pageWaitTime || 3000,
-          imageWaitTime: config.crawler?.imageWaitTime || 2000
+    // 新增：图片采集进度跟踪
+    let processedCount = 0;
+    const totalConfigs = configs.length;
+    const startTime = Date.now();
+    
+          // 新增：并发处理图片采集
+      const concurrency = Math.min(config.crawler.imageConcurrency || 3, totalConfigs);
+      const limit = pLimit(concurrency);
+    
+    // 新增：创建图片采集任务
+    const imageCollectionTasks = configs.map((config, index) => {
+      return limit(async () => {
+        try {
+          console.log(`📸 采集配置 ${index + 1}/${totalConfigs}: ${config.configName}`);
+          console.log(`   指导价: ${config.price || '暂无'}`);
+          console.log(`   配置ID: ${config.configId || '暂无'}`);
+          
+          // 如果没有配置ID，跳过图片采集，但保留基本信息
+          if (!config.configId) {
+            console.log(`   ⚠️ 配置ID为空，跳过图片采集`);
+            const result = {
+              ...config,
+              exteriorImages: [],
+              interiorImages: [],
+              configImage: ''
+            };
+            processedCount++;
+            this.updateImageProgress(processedCount, totalConfigs, startTime);
+            return result;
+          }
+          
+          // 确保每个配置都有正确的超时配置
+          const configWithTimeout = {
+            ...config,
+            crawler: {
+              timeout: config.crawler?.timeout || 60000,
+              pageWaitTime: config.crawler?.pageWaitTime || 3000,
+              imageWaitTime: config.crawler?.imageWaitTime || 2000
+            }
+          };
+          
+          // 外观图片
+          console.log(`   🎨 采集外观图片...`);
+          const exteriorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'wg');
+          console.log(`   ✅ 外观图片采集完成，找到 ${exteriorImages.length} 个颜色`);
+          
+          // 内饰图片
+          console.log(`   🎨 采集内饰图片...`);
+          const interiorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'ns');
+          console.log(`   ✅ 内饰图片采集完成，找到 ${interiorImages.length} 个颜色`);
+          
+          // 过滤掉crawler字段
+          const { crawler, ...pureConfig } = config;
+          const result = {
+            ...pureConfig,
+            exteriorImages,
+            interiorImages,
+            configImage: exteriorImages.length > 0 ? exteriorImages[0].mainImage : ''
+          };
+          
+          console.log(`   ✅ 配置 ${index + 1} 采集完成`);
+          
+          // 更新进度
+          processedCount++;
+          this.updateImageProgress(processedCount, totalConfigs, startTime);
+          
+          return result;
+          
+        } catch (error) {
+          console.error(`❌ 配置 ${index + 1} 图片采集失败:`, error.message);
+          
+          // 即使失败也要返回基本信息
+          const result = {
+            ...config,
+            exteriorImages: [],
+            interiorImages: [],
+            configImage: ''
+          };
+          
+          processedCount++;
+          this.updateImageProgress(processedCount, totalConfigs, startTime);
+          
+          return result;
         }
-      };
-      
-      // 外观图片
-      console.log(`   🎨 采集外观图片...`);
-      const exteriorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'wg');
-      console.log(`   ✅ 外观图片采集完成，找到 ${exteriorImages.length} 个颜色`);
-      
-      // 内饰图片
-      console.log(`   🎨 采集内饰图片...`);
-      const interiorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'ns');
-      console.log(`   ✅ 内饰图片采集完成，找到 ${interiorImages.length} 个颜色`);
-      
-      // 过滤掉crawler字段
-      const { crawler, ...pureConfig } = config;
-      configsWithImages.push({
-        ...pureConfig,
-        exteriorImages,
-        interiorImages,
-        configImage: exteriorImages.length > 0 ? exteriorImages[0].mainImage : ''
       });
-      
-      console.log(`   ✅ 配置 ${i + 1} 采集完成`);
+    });
+    
+    // 并发执行所有图片采集任务
+    const results = await Promise.all(imageCollectionTasks);
+    
+    // 按原始顺序重新排列结果
+    for (let i = 0; i < configs.length; i++) {
+      const originalIndex = configs.findIndex(c => c.configId === results[i].configId);
+      if (originalIndex !== -1) {
+        configsWithImages[originalIndex] = results[i];
+      } else {
+        configsWithImages.push(results[i]);
+      }
     }
     
-    console.log(`🎉 所有配置图片采集完成，共 ${configsWithImages.length} 个配置`);
+    const totalTime = Math.round((Date.now() - startTime) / 1000);
+    console.log(`🎉 所有配置图片采集完成，共 ${configsWithImages.length} 个配置，耗时 ${totalTime} 秒`);
     return configsWithImages;
   }
 
+  // 新增：更新图片采集进度
+  updateImageProgress(processed, total, startTime) {
+    const progress = Math.round((processed / total) * 100);
+    const elapsed = Math.round((Date.now() - startTime) / 1000);
+    const remaining = total - processed;
+    const avgTimePerConfig = elapsed / processed;
+    const estimatedRemaining = Math.round(remaining * avgTimePerConfig);
+    
+    console.log(`📊 图片采集进度: ${progress}% (${processed}/${total}) - 已用 ${elapsed}s - 预计剩余 ${estimatedRemaining}s`);
+    
+    // 更新心跳活动时间（如果存在全局变量）
+    if (typeof global !== 'undefined' && global.lastActivityTime) {
+      global.lastActivityTime = Date.now();
+    }
+  }
 
 
   validateCarBasicInfo(carBasicInfo) {

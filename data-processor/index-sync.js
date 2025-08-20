@@ -118,11 +118,20 @@ class DataSyncProcessor {
           if (consecutiveStuckCount >= 3) {
             await this.log(`🚨 连续卡住 ${consecutiveStuckCount} 次，尝试自动恢复...`);
             try {
-              // 尝试恢复处理器
-              await processor.recover();
+              // 尝试恢复处理器 - 使用现有的恢复方法
+              if (processor.browserManager && processor.browserManager.recoverAllBrowsers) {
+                await processor.browserManager.recoverAllBrowsers();
+                await this.log('✅ 浏览器恢复成功');
+              } else if (processor.browserManager && processor.browserManager.cleanup) {
+                await processor.browserManager.cleanup();
+                await this.log('✅ 浏览器清理成功');
+              } else {
+                await this.log('ℹ️ 无可用恢复方法，跳过恢复');
+              }
+              
               consecutiveStuckCount = 0;
               lastActivityTime = now;
-              await this.log('✅ 自动恢复成功');
+              await this.log('✅ 自动恢复完成');
             } catch (error) {
               await this.log(`❌ 自动恢复失败: ${error.message}`);
             }

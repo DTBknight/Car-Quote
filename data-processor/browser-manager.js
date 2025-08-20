@@ -274,6 +274,58 @@ class BrowserManager {
   delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
+
+  // 新增：恢复所有浏览器
+  async recoverAllBrowsers() {
+    try {
+      console.log('🔄 尝试恢复所有浏览器...');
+      
+      // 清理现有资源
+      await this.cleanup();
+      
+      // 等待一段时间让系统稳定
+      await new Promise(resolve => setTimeout(resolve, 5000));
+      
+      console.log('✅ 浏览器恢复完成');
+      return true;
+    } catch (error) {
+      console.error('❌ 浏览器恢复失败:', error.message);
+      return false;
+    }
+  }
+
+  // 新增：清理所有浏览器
+  async cleanup() {
+    try {
+      console.log('🧹 清理所有浏览器...');
+      
+      // 关闭所有页面
+      for (const [pageId, page] of this.pages) {
+        try {
+          if (!page.isClosed()) {
+            await page.close();
+          }
+        } catch (error) {
+          console.warn(`⚠️ 关闭页面 ${pageId} 失败:`, error.message);
+        }
+      }
+      this.pages.clear();
+      
+      // 关闭所有浏览器
+      for (const [browserId, browser] of this.browsers) {
+        try {
+          await browser.close();
+        } catch (error) {
+          console.warn(`⚠️ 关闭浏览器 ${browserId} 失败:`, error.message);
+        }
+      }
+      this.browsers.clear();
+      
+      console.log('✅ 所有浏览器清理完成');
+    } catch (error) {
+      console.error('❌ 清理浏览器失败:', error.message);
+    }
+  }
 }
 
 module.exports = BrowserManager; 
