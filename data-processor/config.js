@@ -8,7 +8,7 @@ const config = {
     protocolTimeout: 120000, // 协议层超时 (ms) - 增加到120秒，避免Network.enable超时
     pageWaitTime: 8000, // 页面加载后等待时间 (ms) - 增加等待时间
     imageWaitTime: 5000, // 图片加载后等待时间 (ms) - 增加等待时间
-    globalTimeout: 300000, // 全局超时 (5分钟) - 防止单个任务无限期卡住
+    globalTimeout: 1800000, // 全局超时 (30分钟) - 防止单个任务无限期卡住
     delays: {
       min: 1000, // 最小延迟 (ms) - 增加延迟，减少被检测风险
       max: 2000  // 最大延迟 (ms) - 增加延迟，减少被检测风险

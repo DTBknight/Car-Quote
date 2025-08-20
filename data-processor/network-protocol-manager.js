@@ -1,4 +1,6 @@
 // 网络协议管理器 - 避免Network.enable超时
+const config = require('./config');
+
 class NetworkProtocolManager {
   constructor() {
     this.maxRetries = config.crawler.maxNetworkRetries || 5;

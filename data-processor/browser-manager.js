@@ -1,13 +1,13 @@
 const puppeteer = require('puppeteer-core');
-const { getSmartUserAgent, getRandomViewport } = require('./anti-detection');
-const { optimizePageLoad } = require('./utils');
+const { getSmartUserAgent, getRandomViewport, optimizePageLoad } = require('./anti-detection');
 const config = require('./config');
 
 class BrowserManager {
   constructor() {
     this.browsers = new Map();
     this.pages = new Map();
-    this.networkProtocolManager = require('./network-protocol-manager');
+    const NetworkProtocolManager = require('./network-protocol-manager');
+    this.networkProtocolManager = new NetworkProtocolManager();
     this.maxRetries = config.crawler.maxRetries || 5;
     this.retryDelay = config.crawler.delays.min || 1000;
   }
