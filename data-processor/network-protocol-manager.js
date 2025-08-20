@@ -13,20 +13,28 @@ class NetworkProtocolManager {
   // 安全的Network.enable调用
   async safeNetworkEnable(page, retryCount = 0) {
     try {
-      console.log(`🔄 尝试启用网络协议 (尝试 ${retryCount + 1}/${this.maxRetries})`);
+      if (config.logging.showRetryAttempts) {
+        console.log(`🔄 尝试启用网络协议 (尝试 ${retryCount + 1}/${this.maxRetries})`);
+      }
       
       // 检查页面是否已连接
       if (!page._client || !page._client().connection) {
-        console.warn('⚠️ 页面客户端未连接，跳过Network.enable');
+        if (config.logging.showProtocolWarnings) {
+          console.warn('⚠️ 页面客户端未连接，跳过Network.enable');
+        }
         return false;
       }
 
       // 检查连接状态
       const connectionStatus = await this.checkProtocolStatus(page);
       if (!connectionStatus.connected) {
-        console.warn(`⚠️ 页面连接状态异常: ${connectionStatus.reason}`);
+        if (config.logging.showProtocolWarnings) {
+          console.warn(`⚠️ 页面连接状态异常: ${connectionStatus.reason}`);
+        }
         if (retryCount < this.maxRetries - 1) {
-          console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
+          if (config.logging.showRetryAttempts) {
+            console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
+          }
           await this.delay(this.retryDelay);
           return this.safeNetworkEnable(page, retryCount + 1);
         }
@@ -40,19 +48,27 @@ class NetworkProtocolManager {
       );
       
       await Promise.race([networkEnablePromise, timeoutPromise]);
-      console.log('✅ Network.enable 成功');
+      if (config.logging.showSuccess) {
+        console.log('✅ Network.enable 成功');
+      }
       this.protocols.set('Network', true);
       return true;
       
     } catch (error) {
-      console.warn(`⚠️ Network.enable 失败 (尝试 ${retryCount + 1}): ${error.message}`);
+      if (config.logging.showProtocolWarnings) {
+        console.warn(`⚠️ Network.enable 失败 (尝试 ${retryCount + 1}): ${error.message}`);
+      }
       
       if (retryCount < this.maxRetries - 1) {
-        console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
+        if (config.logging.showRetryAttempts) {
+          console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
+        }
         await this.delay(this.retryDelay);
         return this.safeNetworkEnable(page, retryCount + 1);
       } else {
-        console.warn('⚠️ Network.enable 最终失败，继续执行');
+        if (config.logging.showProtocolWarnings) {
+          console.warn('⚠️ Network.enable 最终失败，继续执行');
+        }
         this.protocols.set('Network', false);
         return false;
       }
@@ -62,7 +78,9 @@ class NetworkProtocolManager {
   // 安全的页面协议初始化
   async initializePageProtocols(page) {
     try {
-      console.log('🔧 初始化页面协议...');
+      if (config.logging.showProgress) {
+        console.log('🔧 初始化页面协议...');
+      }
       
       // 尝试启用网络协议
       const networkEnabled = await this.safeNetworkEnable(page);
@@ -71,16 +89,22 @@ class NetworkProtocolManager {
         // 尝试启用其他有用的协议
         await this.enableAdditionalProtocols(page);
       } else {
-        console.warn('⚠️ 网络协议启用失败，尝试基础协议...');
+        if (config.logging.showProtocolWarnings) {
+          console.warn('⚠️ 网络协议启用失败，尝试基础协议...');
+        }
         // 即使网络协议失败，也尝试其他协议
         await this.enableAdditionalProtocols(page);
       }
       
-      console.log('✅ 页面协议初始化完成');
+      if (config.logging.showSuccess) {
+        console.log('✅ 页面协议初始化完成');
+      }
       return true;
       
     } catch (error) {
-      console.warn('⚠️ 页面协议初始化失败:', error.message);
+      if (config.logging.showErrors) {
+        console.warn('⚠️ 页面协议初始化失败:', error.message);
+      }
       return false;
     }
   }

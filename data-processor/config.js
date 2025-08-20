@@ -39,7 +39,19 @@ const config = {
     level: 'info', // 日志级别: debug, info, warn, error
     file: 'logs/crawler.log', // 日志文件
     maxSize: '10m', // 最大文件大小
-    maxFiles: 5 // 最大文件数量
+    maxFiles: 5, // 最大文件数量
+    // 新增：精细化日志控制
+    showNetworkErrors: false, // 不显示网络请求失败日志
+    showResourceBlocking: false, // 不显示资源拦截日志
+    showProtocolWarnings: false, // 不显示协议警告日志
+    showConsoleErrors: false, // 不显示页面控制台错误
+    showRetryAttempts: false, // 不显示重试尝试日志
+    showHeartbeat: true, // 显示心跳检测日志
+    showDataCollection: true, // 显示数据采集日志
+    showProgress: true, // 显示进度信息
+    showSuccess: true, // 显示成功信息
+    showErrors: true, // 显示错误信息
+    showWarnings: false // 不显示警告信息
   },
 
   // 验证配置

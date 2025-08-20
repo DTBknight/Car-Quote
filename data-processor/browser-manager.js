@@ -93,7 +93,9 @@ class BrowserManager {
       const protocolSuccess = await this.networkProtocolManager.initializePageProtocols(page);
       
       if (!protocolSuccess) {
-        console.warn('⚠️ 页面协议初始化失败，尝试恢复...');
+        if (config.logging.showProtocolWarnings) {
+          console.warn('⚠️ 页面协议初始化失败，尝试恢复...');
+        }
         // 等待一段时间后重试
         await this.delay(3000);
         await this.networkProtocolManager.reconnectProtocols(page);
@@ -105,8 +107,10 @@ class BrowserManager {
       // 设置页面错误处理
       this.setupPageErrorHandling(page);
       
-      console.log('✅ 页面创建和配置完成');
-      return page;
+      if (config.logging.showSuccess) {
+        console.log('✅ 页面创建和配置完成');
+      }
+      return page
       
     } catch (error) {
       console.warn('⚠️ 页面配置过程中出现错误:', error.message);
@@ -153,9 +157,13 @@ class BrowserManager {
         }
       });
       
-      console.log('✅ 请求拦截设置完成');
+      if (config.logging.showResourceBlocking) {
+        console.log('✅ 请求拦截设置完成');
+      }
     } catch (error) {
-      console.warn('⚠️ 设置请求拦截失败:', error.message);
+      if (config.logging.showErrors) {
+        console.warn('⚠️ 设置请求拦截失败:', error.message);
+      }
       // 即使拦截失败，也继续执行
     }
   }
@@ -164,29 +172,37 @@ class BrowserManager {
   setupPageErrorHandling(page) {
     // 页面错误事件
     page.on('error', (error) => {
-      console.warn('⚠️ 页面错误:', error.message);
+      if (config.logging.showErrors) {
+        console.warn('⚠️ 页面错误:', error.message);
+      }
     });
 
     // 页面崩溃事件
     page.on('crash', () => {
-      console.warn('⚠️ 页面崩溃，尝试恢复...');
+      if (config.logging.showErrors) {
+        console.warn('⚠️ 页面崩溃，尝试恢复...');
+      }
     });
 
     // 页面关闭事件
     page.on('close', () => {
-      console.log('ℹ️ 页面已关闭');
+      if (config.logging.showProgress) {
+        console.log('ℹ️ 页面已关闭');
+      }
     });
 
     // 控制台消息
     page.on('console', (msg) => {
-      if (msg.type() === 'error') {
+      if (msg.type() === 'error' && config.logging.showConsoleErrors) {
         console.warn('⚠️ 页面控制台错误:', msg.text());
       }
     });
 
     // 页面请求失败
     page.on('requestfailed', (request) => {
-      console.warn('⚠️ 请求失败:', request.url(), request.failure().errorText);
+      if (config.logging.showNetworkErrors) {
+        console.warn('⚠️ 请求失败:', request.url(), request.failure().errorText);
+      }
     });
   }
 
