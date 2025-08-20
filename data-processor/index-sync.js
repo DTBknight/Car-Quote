@@ -99,108 +99,137 @@ class DataSyncProcessor {
       let lastActivityTime = Date.now();
       let consecutiveStuckCount = 0;
       
-      for (let i = startIndex; i < brandsToProcess.length; i++) {
-        const brandId = brandsToProcess[i];
+      // 全局超时保护 - 防止整个任务无限期运行
+      const globalTimeout = config.crawler.globalTimeout || 300000; // 5分钟
+      const globalTimeoutPromise = new Promise((_, reject) => {
+        setTimeout(() => reject(new Error(`全局超时（${globalTimeout/1000}秒）`)), globalTimeout);
+      });
+      
+      // 心跳检测定时器
+      const heartbeatInterval = config.production.heartbeatInterval || 30000; // 30秒
+      const heartbeatTimer = setInterval(async () => {
+        const now = Date.now();
+        const timeSinceLastActivity = now - lastActivityTime;
         
-        // 更新活动时间
-        lastActivityTime = Date.now();
-        
-        // 心跳输出
-        if (i - lastHeartbeat >= 5) {
-          await this.log(`💓 心跳: 已处理 ${i}/${brandsToProcess.length} 个品牌，成功: ${progress.completed.length}，失败: ${progress.failed.length}`);
-          lastHeartbeat = i;
-        }
-        
-        try {
-          await this.log(`\n🚗 处理品牌 ID: ${brandId} (${i + 1}/${brandsToProcess.length})`);
-          await this.log(`⏰ 开始时间: ${new Date().toISOString()}`);
-          
-          // 添加品牌处理进度监控
-          const startBrandTime = Date.now();
-          
-          // 添加全局超时保护（30分钟），防止某个品牌无限期卡住
-          const brandTimeoutPromise = new Promise((_, reject) => {
-            setTimeout(() => reject(new Error(`品牌 ${brandId} 处理超时（30分钟）`)), 30 * 60 * 1000);
-          });
-          
-          const brandProcessPromise = processor.processBrand(brandId);
-          
-          await Promise.race([brandProcessPromise, brandTimeoutPromise]);
-          
-          const brandDuration = Math.round((Date.now() - startBrandTime) / 1000);
-          await this.log(`✅ 品牌 ${brandId} 完成，耗时: ${brandDuration} 秒`);
-          
-          progress.completed.push(brandId);
-          
-          // 保存进度和断点
-          await this.saveProgress(progress);
-          await this.saveCheckpoint(brandId, i, progress, 'normal');
-          
-          // 重置卡住计数
-          consecutiveStuckCount = 0;
-          
-          // 减少延迟以节省时间
-          await this.log(`⏳ 等待800ms后继续下一个品牌...`);
-          await this.delay(800);
-          
-        } catch (error) {
-          const errorTime = new Date().toISOString();
-          await this.log(`❌ 品牌 ${brandId} 处理失败 (${errorTime}): ${error.message}`);
-          await this.log(`🔍 错误堆栈: ${error.stack || '无堆栈信息'}`);
-          
-          progress.failed.push(brandId);
-          
-          // 保存进度和断点
-          await this.saveProgress(progress);
-          await this.saveCheckpoint(brandId, i, progress, 'error');
-          
-          // 如果连续失败太多，暂停一下
-          if (progress.failed.length > 5 && progress.failed.length % 5 === 0) {
-            await this.log(`⚠️ 连续失败较多，暂停30秒...`);
-            await this.delay(30000);
-          }
-        }
-        
-        // 检查是否卡住
-        if (await this.checkIfStuck(lastActivityTime)) {
+        if (timeSinceLastActivity > (config.production.maxStuckTime || 300000)) { // 5分钟无活动
           consecutiveStuckCount++;
-          await this.log(`⚠️ 检测到卡住状态！连续卡住次数: ${consecutiveStuckCount}`);
-          
-          // 保存断点
-          await this.saveCheckpoint(brandId, i, progress, 'stuck');
+          await this.log(`⚠️ 心跳检测：已 ${Math.round(timeSinceLastActivity/1000)} 秒无活动，卡住计数: ${consecutiveStuckCount}`);
           
           if (consecutiveStuckCount >= 3) {
-            await this.log(`🚨 连续卡住3次，强制退出并保存断点`);
-            break;
+            await this.log(`🚨 连续卡住 ${consecutiveStuckCount} 次，尝试自动恢复...`);
+            try {
+              // 尝试恢复处理器
+              await processor.recover();
+              consecutiveStuckCount = 0;
+              lastActivityTime = now;
+              await this.log('✅ 自动恢复成功');
+            } catch (error) {
+              await this.log(`❌ 自动恢复失败: ${error.message}`);
+            }
+          }
+        } else {
+          consecutiveStuckCount = 0;
+        }
+      }, heartbeatInterval);
+      
+      // 主处理循环
+      const mainProcessPromise = (async () => {
+        for (let i = startIndex; i < brandsToProcess.length; i++) {
+          const brandId = brandsToProcess[i];
+          
+          // 更新活动时间
+          lastActivityTime = Date.now();
+          
+          // 心跳输出
+          if (i - lastHeartbeat >= 5) {
+            await this.log(`💓 心跳: 已处理 ${i}/${brandsToProcess.length} 个品牌，成功: ${progress.completed.length}，失败: ${progress.failed.length}`);
+            lastHeartbeat = i;
           }
           
-          // 等待一段时间后继续
-          await this.log(`⏳ 等待5分钟后重试...`);
-          await this.delay(5 * 60 * 1000);
+          try {
+            await this.log(`\n🚗 处理品牌 ID: ${brandId} (${i + 1}/${brandsToProcess.length})`);
+            await this.log(`⏰ 开始时间: ${new Date().toISOString()}`);
+            
+            // 添加品牌处理进度监控
+            const startBrandTime = Date.now();
+            
+            // 添加全局超时保护（30分钟），防止某个品牌无限期卡住
+            const brandTimeoutPromise = new Promise((_, reject) => {
+              setTimeout(() => reject(new Error(`品牌 ${brandId} 处理超时（30分钟）`)), 30 * 60 * 1000);
+            });
+            
+            const brandProcessPromise = processor.processBrand(brandId);
+            
+            await Promise.race([brandProcessPromise, brandTimeoutPromise]);
+            
+            const brandDuration = Math.round((Date.now() - startBrandTime) / 1000);
+            await this.log(`✅ 品牌 ${brandId} 完成，耗时: ${brandDuration} 秒`);
+            
+            progress.completed.push(brandId);
+            
+            // 保存进度和断点
+            await this.saveProgress(progress);
+            await this.saveCheckpoint(brandId, i, progress, 'normal');
+            
+            // 重置卡住计数
+            consecutiveStuckCount = 0;
+            
+            // 减少延迟以节省时间
+            await this.log(`⏳ 等待800ms后继续下一个品牌...`);
+            await this.delay(800);
+            
+          } catch (error) {
+            const errorTime = new Date().toISOString();
+            await this.log(`❌ 品牌 ${brandId} 处理失败 (${errorTime}): ${error.message}`);
+            await this.log(`🔍 错误堆栈: ${error.stack || '无堆栈信息'}`);
+            
+            // 记录失败信息
+            progress.failed.push({
+              brandId,
+              error: error.message,
+              timestamp: errorTime,
+              attempt: 1
+            });
+            
+            // 保存失败进度
+            await this.saveProgress(progress);
+            
+            // 尝试自动恢复
+            if (config.production.enableAutoRecovery) {
+              try {
+                await this.log('🔄 尝试自动恢复...');
+                await processor.recover();
+                await this.log('✅ 自动恢复成功，继续处理下一个品牌');
+              } catch (recoveryError) {
+                await this.log(`❌ 自动恢复失败: ${recoveryError.message}`);
+                // 即使恢复失败，也继续处理下一个品牌
+              }
+            }
+            
+            // 等待一段时间后继续
+            await this.log(`⏳ 等待 ${config.production.recoveryDelay/1000} 秒后继续...`);
+            await this.delay(config.production.recoveryDelay);
+          }
         }
-      }
-    } finally {
-      await processor.cleanup();
+      })();
       
-      // 如果正常完成，清理断点文件
-      if (consecutiveStuckCount < 3) {
-        await this.clearCheckpoint();
-        await this.log(`🎉 任务正常完成，断点文件已清理`);
-      } else {
-        await this.log(`⚠️ 任务因卡住而中断，断点已保存，下次可从断点处继续`);
-      }
+      // 等待主处理完成或全局超时
+      await Promise.race([mainProcessPromise, globalTimeoutPromise]);
+      
+      // 清理心跳定时器
+      clearInterval(heartbeatTimer);
+      
+      const totalDuration = Math.round((Date.now() - startTime) / 1000);
+      await this.log(`🎉 数据同步任务完成！总耗时: ${totalDuration} 秒`);
+      await this.log(`📊 成功: ${progress.completed.length}，失败: ${progress.failed.length}`);
+      
+    } catch (error) {
+      await this.log(`💥 数据同步执行失败: ${error.message}`);
+      throw error;
+    } finally {
+      // 清理资源
+      await processor.cleanup();
     }
-
-    const endTime = Date.now();
-    const duration = Math.round((endTime - startTime) / 1000);
-    
-    await this.log(`\n🎉 数据同步任务完成!`);
-    await this.log(`⏱️  总耗时: ${duration} 秒`);
-    await this.log(`✅ 成功: ${progress.completed.length} 个品牌`);
-    await this.log(`❌ 失败: ${progress.failed.length} 个品牌`);
-    
-    // 生成执行报告
-    await this.generateReport(progress, duration);
   }
 
   async generateReport(progress, duration) {
