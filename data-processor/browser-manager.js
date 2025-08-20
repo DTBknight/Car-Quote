@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer-core');
 const { getSmartUserAgent, getRandomViewport, optimizePageLoad } = require('./anti-detection');
 const config = require('./config');
+const logger = require('./logger');
 
 class BrowserManager {
   constructor() {
@@ -93,9 +94,7 @@ class BrowserManager {
       const protocolSuccess = await this.networkProtocolManager.initializePageProtocols(page);
       
       if (!protocolSuccess) {
-        if (config.logging.showProtocolWarnings) {
-          console.warn('⚠️ 页面协议初始化失败，尝试恢复...');
-        }
+        logger.protocolWarning('页面协议初始化失败，尝试恢复...');
         // 等待一段时间后重试
         await this.delay(3000);
         await this.networkProtocolManager.reconnectProtocols(page);
@@ -107,13 +106,13 @@ class BrowserManager {
       // 设置页面错误处理
       this.setupPageErrorHandling(page);
       
-      if (config.logging.showSuccess) {
-        console.log('✅ 页面创建和配置完成');
+      if (config.logging.showBrowserOperations) {
+        logger.success('页面创建和配置完成');
       }
       return page
       
     } catch (error) {
-      console.warn('⚠️ 页面配置过程中出现错误:', error.message);
+      logger.warning('页面配置过程中出现错误: ' + error.message);
       // 即使配置失败，也返回页面，让后续逻辑处理
       return page;
     }
@@ -145,25 +144,21 @@ class BrowserManager {
             req.continue();
           }
         } catch (error) {
-          console.warn('⚠️ 请求拦截处理失败:', error.message);
+          logger.networkError('请求拦截处理失败: ' + error.message);
           // 如果拦截失败，继续请求
           try {
             if (!req.isInterceptResolutionHandled()) {
               req.continue();
             }
           } catch (e) {
-            console.warn('⚠️ 请求继续失败:', e.message);
+            logger.networkError('请求继续失败: ' + e.message);
           }
         }
       });
       
-      if (config.logging.showResourceBlocking) {
-        console.log('✅ 请求拦截设置完成');
-      }
+      logger.resourceBlocking('请求拦截设置完成');
     } catch (error) {
-      if (config.logging.showErrors) {
-        console.warn('⚠️ 设置请求拦截失败:', error.message);
-      }
+      logger.error('设置请求拦截失败: ' + error.message);
       // 即使拦截失败，也继续执行
     }
   }
@@ -172,66 +167,74 @@ class BrowserManager {
   setupPageErrorHandling(page) {
     // 页面错误事件
     page.on('error', (error) => {
-      if (config.logging.showErrors) {
-        console.warn('⚠️ 页面错误:', error.message);
-      }
+      logger.error('页面错误: ' + error.message);
     });
 
     // 页面崩溃事件
     page.on('crash', () => {
       if (config.logging.showErrors) {
-        console.warn('⚠️ 页面崩溃，尝试恢复...');
+        logger.error('页面崩溃，尝试恢复...');
       }
     });
 
     // 页面关闭事件
     page.on('close', () => {
       if (config.logging.showProgress) {
-        console.log('ℹ️ 页面已关闭');
+        if (config.logging.showPageOperations) {
+          logger.success('页面已关闭');
+        }
       }
     });
 
     // 控制台消息
     page.on('console', (msg) => {
-      if (msg.type() === 'error' && config.logging.showConsoleErrors) {
-        console.warn('⚠️ 页面控制台错误:', msg.text());
+      if (msg.type() === 'error') {
+        logger.consoleError('页面控制台错误: ' + msg.text());
       }
     });
 
     // 页面请求失败
     page.on('requestfailed', (request) => {
-      if (config.logging.showNetworkErrors) {
-        console.warn('⚠️ 请求失败:', request.url(), request.failure().errorText);
-      }
+      logger.networkError('请求失败: ' + request.url() + ' - ' + request.failure().errorText);
     });
   }
 
   // 恢复页面
   async recoverPage(page, browser) {
     try {
-      console.log('🔄 尝试恢复页面...');
+      if (config.logging.showBrowserOperations) {
+        logger.progress('尝试恢复页面...');
+      }
       
       // 检查页面是否仍然可用
       if (page.isClosed()) {
-        console.log('ℹ️ 页面已关闭，创建新页面...');
+        if (config.logging.showPageOperations) {
+          logger.progress('页面已关闭，创建新页面...');
+        }
         return await this.createPage(browser);
       }
 
       // 尝试重新初始化协议
       const protocolStatus = await this.networkProtocolManager.getProtocolStatus();
-      console.log('📊 当前协议状态:', protocolStatus);
+      if (config.logging.showBrowserOperations) {
+        logger.progress('当前协议状态: ' + JSON.stringify(protocolStatus));
+      }
       
       // 如果网络协议失败，尝试重新连接
       if (!protocolStatus.Network) {
-        console.log('🔄 网络协议异常，尝试重新连接...');
+        if (config.logging.showBrowserOperations) {
+          logger.progress('网络协议异常，尝试重新连接...');
+        }
         await this.networkProtocolManager.reconnectProtocols(page);
       }
       
       return page;
     } catch (error) {
-      console.warn('⚠️ 页面恢复失败:', error.message);
+      logger.warning('页面恢复失败: ' + error.message);
       // 如果恢复失败，创建新页面
-      console.log('🔄 创建新页面...');
+      if (config.logging.showBrowserOperations) {
+        logger.progress('创建新页面...');
+      }
       return await this.createPage(browser);
     }
   }
@@ -242,10 +245,10 @@ class BrowserManager {
       try {
         return await operation(page);
       } catch (error) {
-        console.warn(`⚠️ 页面操作失败 (尝试 ${attempt}/${maxRetries}): ${error.message}`);
+        logger.retryAttempt(`页面操作失败 (尝试 ${attempt}/${maxRetries}): ${error.message}`);
         
         if (attempt < maxRetries) {
-          console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
+          logger.retryAttempt(`等待 ${this.retryDelay}ms 后重试...`);
           await this.delay(this.retryDelay);
           
           // 尝试恢复页面
@@ -278,7 +281,9 @@ class BrowserManager {
   // 新增：恢复所有浏览器
   async recoverAllBrowsers() {
     try {
-      console.log('🔄 尝试恢复所有浏览器...');
+      if (config.logging.showBrowserOperations) {
+        logger.progress('尝试恢复所有浏览器...');
+      }
       
       // 清理现有资源
       await this.cleanup();
@@ -286,10 +291,12 @@ class BrowserManager {
       // 等待一段时间让系统稳定
       await new Promise(resolve => setTimeout(resolve, 5000));
       
-      console.log('✅ 浏览器恢复完成');
+      if (config.logging.showBrowserOperations) {
+        logger.success('浏览器恢复完成');
+      }
       return true;
     } catch (error) {
-      console.error('❌ 浏览器恢复失败:', error.message);
+      logger.error('浏览器恢复失败: ' + error.message);
       return false;
     }
   }
@@ -297,7 +304,9 @@ class BrowserManager {
   // 新增：清理所有浏览器
   async cleanup() {
     try {
-      console.log('🧹 清理所有浏览器...');
+      if (config.logging.showBrowserOperations) {
+        logger.progress('清理所有浏览器...');
+      }
       
       // 关闭所有页面
       for (const [pageId, page] of this.pages) {
@@ -306,7 +315,9 @@ class BrowserManager {
             await page.close();
           }
         } catch (error) {
-          console.warn(`⚠️ 关闭页面 ${pageId} 失败:`, error.message);
+          if (config.logging.showPageOperations) {
+            logger.warning(`关闭页面 ${pageId} 失败: ${error.message}`);
+          }
         }
       }
       this.pages.clear();
@@ -316,14 +327,18 @@ class BrowserManager {
         try {
           await browser.close();
         } catch (error) {
-          console.warn(`⚠️ 关闭浏览器 ${browserId} 失败:`, error.message);
+          if (config.logging.showBrowserOperations) {
+            logger.warning(`关闭浏览器 ${browserId} 失败: ${error.message}`);
+          }
         }
       }
       this.browsers.clear();
       
-      console.log('✅ 所有浏览器清理完成');
+      if (config.logging.showBrowserOperations) {
+        logger.success('所有浏览器清理完成');
+      }
     } catch (error) {
-      console.error('❌ 清理浏览器失败:', error.message);
+      logger.error('清理浏览器失败: ' + error.message);
     }
   }
 }

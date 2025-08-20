@@ -1,5 +1,6 @@
 // 网络协议管理器 - 避免Network.enable超时
 const config = require('./config');
+const logger = require('./logger');
 
 class NetworkProtocolManager {
   constructor() {
@@ -13,28 +14,20 @@ class NetworkProtocolManager {
   // 安全的Network.enable调用
   async safeNetworkEnable(page, retryCount = 0) {
     try {
-      if (config.logging.showRetryAttempts) {
-        console.log(`🔄 尝试启用网络协议 (尝试 ${retryCount + 1}/${this.maxRetries})`);
-      }
+      logger.retryAttempt(`尝试启用网络协议 (尝试 ${retryCount + 1}/${this.maxRetries})`);
       
       // 检查页面是否已连接
       if (!page._client || !page._client().connection) {
-        if (config.logging.showProtocolWarnings) {
-          console.warn('⚠️ 页面客户端未连接，跳过Network.enable');
-        }
+        logger.protocolWarning('页面客户端未连接，跳过Network.enable');
         return false;
       }
 
       // 检查连接状态
       const connectionStatus = await this.checkProtocolStatus(page);
       if (!connectionStatus.connected) {
-        if (config.logging.showProtocolWarnings) {
-          console.warn(`⚠️ 页面连接状态异常: ${connectionStatus.reason}`);
-        }
+        logger.protocolWarning(`页面连接状态异常: ${connectionStatus.reason}`);
         if (retryCount < this.maxRetries - 1) {
-          if (config.logging.showRetryAttempts) {
-            console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
-          }
+          logger.retryAttempt(`等待 ${this.retryDelay}ms 后重试...`);
           await this.delay(this.retryDelay);
           return this.safeNetworkEnable(page, retryCount + 1);
         }
@@ -49,25 +42,23 @@ class NetworkProtocolManager {
       
       await Promise.race([networkEnablePromise, timeoutPromise]);
       if (config.logging.showSuccess) {
-        console.log('✅ Network.enable 成功');
+        if (config.logging.showBrowserOperations) {
+          logger.success('Network.enable 成功');
+        }
       }
       this.protocols.set('Network', true);
       return true;
       
     } catch (error) {
-      if (config.logging.showProtocolWarnings) {
-        console.warn(`⚠️ Network.enable 失败 (尝试 ${retryCount + 1}): ${error.message}`);
-      }
+              logger.protocolWarning(`Network.enable 失败 (尝试 ${retryCount + 1}): ${error.message}`);
       
       if (retryCount < this.maxRetries - 1) {
-        if (config.logging.showRetryAttempts) {
-          console.log(`⏳ 等待 ${this.retryDelay}ms 后重试...`);
-        }
+                  logger.retryAttempt(`等待 ${this.retryDelay}ms 后重试...`);
         await this.delay(this.retryDelay);
         return this.safeNetworkEnable(page, retryCount + 1);
       } else {
         if (config.logging.showProtocolWarnings) {
-          console.warn('⚠️ Network.enable 最终失败，继续执行');
+          logger.protocolWarning('Network.enable 最终失败，继续执行');
         }
         this.protocols.set('Network', false);
         return false;
@@ -79,7 +70,9 @@ class NetworkProtocolManager {
   async initializePageProtocols(page) {
     try {
       if (config.logging.showProgress) {
-        console.log('🔧 初始化页面协议...');
+        if (config.logging.showBrowserOperations) {
+          logger.progress('初始化页面协议...');
+        }
       }
       
       // 尝试启用网络协议
@@ -90,20 +83,22 @@ class NetworkProtocolManager {
         await this.enableAdditionalProtocols(page);
       } else {
         if (config.logging.showProtocolWarnings) {
-          console.warn('⚠️ 网络协议启用失败，尝试基础协议...');
+          logger.protocolWarning('网络协议启用失败，尝试基础协议...');
         }
         // 即使网络协议失败，也尝试其他协议
         await this.enableAdditionalProtocols(page);
       }
       
       if (config.logging.showSuccess) {
-        console.log('✅ 页面协议初始化完成');
+        if (config.logging.showBrowserOperations) {
+          logger.success('页面协议初始化完成');
+        }
       }
       return true;
       
     } catch (error) {
       if (config.logging.showErrors) {
-        console.warn('⚠️ 页面协议初始化失败:', error.message);
+        logger.protocolWarning('页面协议初始化失败: ' + error.message);
       }
       return false;
     }
@@ -121,7 +116,9 @@ class NetworkProtocolManager {
       try {
         // 检查协议是否已经启用
         if (this.protocols.get(protocol.name)) {
-          console.log(`✅ ${protocol.name} 已经启用`);
+          if (config.logging.showBrowserOperations) {
+            logger.success(`${protocol.name} 已经启用`);
+          }
           continue;
         }
 
@@ -132,11 +129,13 @@ class NetworkProtocolManager {
         );
         
         await Promise.race([protocolPromise, timeoutPromise]);
-        console.log(`✅ ${protocol.name} 启用成功`);
+        if (config.logging.showBrowserOperations) {
+          logger.success(`${protocol.name} 启用成功`);
+        }
         this.protocols.set(protocol.name, true);
         
       } catch (error) {
-        console.warn(`⚠️ ${protocol.name} 启用失败: ${error.message}`);
+        logger.protocolWarning(`${protocol.name} 启用失败: ${error.message}`);
         this.protocols.set(protocol.name, false);
         // 继续尝试其他协议
       }
@@ -163,7 +162,9 @@ class NetworkProtocolManager {
   // 重新连接页面协议
   async reconnectProtocols(page) {
     try {
-      console.log('🔄 尝试重新连接页面协议...');
+      if (config.logging.showBrowserOperations) {
+        logger.progress('尝试重新连接页面协议...');
+      }
       
       // 等待一段时间让连接稳定
       await this.delay(5000);
@@ -172,14 +173,16 @@ class NetworkProtocolManager {
       const success = await this.initializePageProtocols(page);
       
       if (success) {
-        console.log('✅ 页面协议重新连接成功');
+        if (config.logging.showBrowserOperations) {
+          logger.success('页面协议重新连接成功');
+        }
       } else {
-        console.warn('⚠️ 页面协议重新连接失败');
+        logger.protocolWarning('页面协议重新连接失败');
       }
       
       return success;
     } catch (error) {
-      console.warn('⚠️ 重新连接页面协议时出错:', error.message);
+      logger.protocolWarning('重新连接页面协议时出错: ' + error.message);
       return false;
     }
   }

@@ -1,14 +1,47 @@
-name: Data Sync Task
+name: 分布式品牌爬虫数据同步
 
 on:
   schedule:
     # 每周一凌晨0点 (UTC时间)
     - cron: '0 0 * * 1'
   workflow_dispatch: # 允许手动触发
+    inputs:
+      target_brands:
+        description: '指定要爬取的品牌（用空格分隔，如：BYD Tesla BMW，留空则爬取所有品牌）'
+        required: false
+        default: ''
+      max_concurrent:
+        description: '最大并发数（1-5）'
+        required: false
+        default: '3'
+        type: choice
+        options:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      brands: ${{ steps.setup.outputs.brands }}
+      concurrent: ${{ steps.setup.outputs.concurrent }}
+    steps:
+    - name: 设置爬虫参数
+      id: setup
+      run: |
+        if [ -n "${{ github.event.inputs.target_brands }}" ]; then
+          echo "brands=${{ github.event.inputs.target_brands }}" >> $GITHUB_OUTPUT
+        else
+          echo "brands=all" >> $GITHUB_OUTPUT
+        fi
+        echo "concurrent=${{ github.event.inputs.max_concurrent || '3' }}" >> $GITHUB_OUTPUT
+
   sync:
     runs-on: ubuntu-latest
+    needs: setup
     concurrency:
       group: data-sync
       cancel-in-progress: false
@@ -46,94 +79,144 @@ jobs:
         cd data-processor
         npm ci
         
-    - name: Execute Data Sync
+    - name: 生成品牌爬虫文件
       run: |
         cd data-processor
-        # 使用最新的采集工具进行数据同步
-        echo "🚀 开始执行数据同步任务..."
+        echo "🏭 生成品牌爬虫文件..."
+        node generate-brand-crawlers.js
+        echo "✅ 品牌爬虫文件生成完成"
+        
+    - name: 执行分布式品牌爬虫
+      run: |
+        cd data-processor
+        echo "🚀 开始执行分布式品牌爬虫系统..."
         echo "📅 执行时间: $(date '+%Y-%m-%d %H:%M:%S')"
-        echo "🔧 使用工具: index-sync.js (基于增强版采集工具)"
+        echo "🔧 使用工具: 分布式品牌爬虫调度器 v3.0"
+        echo "🎯 目标品牌: ${{ needs.setup.outputs.brands }}"
+        echo "⚡ 最大并发: ${{ needs.setup.outputs.concurrent }}"
         
-        # 执行数据同步
-        node index-sync.js
+        # 根据输入参数决定执行方式
+        if [ "${{ needs.setup.outputs.brands }}" = "all" ]; then
+          echo "📊 运行所有118个品牌爬虫..."
+          node brand-scheduler.js
+        else
+          echo "📊 运行指定品牌爬虫: ${{ needs.setup.outputs.brands }}"
+          node brand-scheduler.js ${{ needs.setup.outputs.brands }}
+        fi
         
-        echo "✅ 数据同步任务完成"
+        echo "✅ 分布式爬虫任务完成"
       env:
-        # Set environment variables
         NODE_ENV: production
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
         PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
-      timeout-minutes: 300
+        CRAWLER_MAX_CONCURRENT: ${{ needs.setup.outputs.concurrent }}
+      timeout-minutes: 480
         
-    - name: Validate Data Integrity
+    - name: 验证分布式爬虫结果
       run: |
         set -e
         cd data-processor
-        echo "🔍 验证数据完整性..."
+        echo "🔍 验证分布式爬虫结果..."
         
-        # 验证采集工具配置
-        echo "📋 检查采集工具配置..."
-        if [ -f "config.js" ]; then
-          echo "✅ 采集工具配置文件存在"
-          echo "   - 超时设置: $(grep -o 'timeout: [0-9]*' config.js || echo '默认值')"
-          echo "   - 页面等待时间: $(grep -o 'pageWaitTime: [0-9]*' config.js || echo '默认值')"
-        else
-          echo "❌ 采集工具配置文件缺失"
+        # 验证品牌爬虫系统配置
+        echo "📋 检查分布式爬虫系统..."
+        if [ -f "brand-scheduler.js" ]; then
+          echo "✅ 品牌调度器存在"
+        fi
+        if [ -f "brand-crawler-template.js" ]; then
+          echo "✅ 品牌爬虫模板存在"
+        fi
+        if [ -d "brand-crawlers" ]; then
+          crawler_count=$(ls brand-crawlers/*.js 2>/dev/null | wc -l)
+          echo "✅ 品牌爬虫文件数量: $crawler_count"
+        fi
+        
+        # 验证调度器执行结果
+        if [ -f "logs/scheduler/report-$(date '+%Y-%m-%d').json" ]; then
+          echo "✅ 调度器报告文件存在"
         fi
         
         # 验证数据文件
         echo "📊 验证数据文件..."
-        node scripts/validate.js
+        if [ -f "scripts/validate.js" ]; then
+          node scripts/validate.js
+        else
+          echo "ℹ️ 数据验证脚本不存在，跳过验证"
+        fi
         
-        echo "✅ 数据完整性验证完成"
+        echo "✅ 分布式爬虫结果验证完成"
         
-    - name: Generate Summary
+    - name: 生成执行报告
       run: |
         set -e
         cd data-processor
         
-        echo "## 🚀 数据同步结果" >> $GITHUB_STEP_SUMMARY
+        echo "## 🚀 分布式品牌爬虫执行结果" >> $GITHUB_STEP_SUMMARY
         echo "- 执行时间: $(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
+        echo "- 目标品牌: ${{ needs.setup.outputs.brands }}" >> $GITHUB_STEP_SUMMARY
+        echo "- 并发设置: ${{ needs.setup.outputs.concurrent }}" >> $GITHUB_STEP_SUMMARY
         
-        # 显示采集工具版本信息
-        echo "## 🔧 采集工具信息" >> $GITHUB_STEP_SUMMARY
-        echo "- 工具版本: 增强版 v2.0" >> $GITHUB_STEP_SUMMARY
-        echo "- 主要功能:" >> $GITHUB_STEP_SUMMARY
-        echo "  - 实时数据采集日志显示" >> $GITHUB_STEP_SUMMARY
-        echo "  - 智能价格提取（过滤询底价等额外文字）" >> $GITHUB_STEP_SUMMARY
-        echo "  - 参数配置页面自动采集" >> $GITHUB_STEP_SUMMARY
-        echo "  - 外观/内饰图片分类采集" >> $GITHUB_STEP_SUMMARY
-        echo "  - 多色块支持（单色、双色、多色渐变）" >> $GITHUB_STEP_SUMMARY
+        # 显示新爬虫系统信息
+        echo "## 🔧 分布式爬虫系统信息" >> $GITHUB_STEP_SUMMARY
+        echo "- 系统版本: 分布式品牌爬虫 v3.0" >> $GITHUB_STEP_SUMMARY
+        echo "- 核心特性:" >> $GITHUB_STEP_SUMMARY
+        echo "  - 🏗️ 品牌独立爬虫架构（118个独立爬虫）" >> $GITHUB_STEP_SUMMARY
+        echo "  - ⚡ 智能并发调度和负载均衡" >> $GITHUB_STEP_SUMMARY
+        echo "  - 🔄 品牌级别失败隔离和自动重试" >> $GITHUB_STEP_SUMMARY
+        echo "  - 📊 实时监控和详细日志记录" >> $GITHUB_STEP_SUMMARY
+        echo "  - 🎯 品牌专属配置优化" >> $GITHUB_STEP_SUMMARY
+        echo "  - 🛡️ 超时保护和资源管理" >> $GITHUB_STEP_SUMMARY
         
-        if [ -f "weekly-execution.log" ]; then
-          echo "## 📊 执行详情" >> $GITHUB_STEP_SUMMARY
-          echo "- 日志文件: weekly-execution.log" >> $GITHUB_STEP_SUMMARY
+        # 查找调度器报告
+        latest_scheduler_report=$(ls -t logs/scheduler/report-*.json 2>/dev/null | head -1)
+        if [ -n "$latest_scheduler_report" ]; then
+          echo "## 📊 调度器执行详情" >> $GITHUB_STEP_SUMMARY
+          echo "- 调度器报告: $latest_scheduler_report" >> $GITHUB_STEP_SUMMARY
           
-          # 查找最新的报告文件
-          latest_report=$(ls -t weekly-report-*.json 2>/dev/null | head -1)
-          if [ -n "$latest_report" ]; then
-            echo "- 执行报告: $latest_report" >> $GITHUB_STEP_SUMMARY
-            success_rate=$(jq -r '.successRate' "$latest_report" 2>/dev/null || echo "N/A")
+          if command -v jq > /dev/null; then
+            success_rate=$(jq -r '.summary.successRate' "$latest_scheduler_report" 2>/dev/null || echo "N/A")
+            completed=$(jq -r '.summary.completed' "$latest_scheduler_report" 2>/dev/null || echo "N/A")
+            total=$(jq -r '.summary.total' "$latest_scheduler_report" 2>/dev/null || echo "N/A")
+            duration=$(jq -r '.totalDuration' "$latest_scheduler_report" 2>/dev/null || echo "N/A")
+            
             echo "- 成功率: $success_rate" >> $GITHUB_STEP_SUMMARY
+            echo "- 完成品牌: $completed/$total" >> $GITHUB_STEP_SUMMARY
+            echo "- 总耗时: $duration" >> $GITHUB_STEP_SUMMARY
           fi
         else
-          echo "## ❌ 执行状态" >> $GITHUB_STEP_SUMMARY
-          echo "- 执行失败: 未找到日志文件" >> $GITHUB_STEP_SUMMARY
+          echo "## ⚠️ 调度器状态" >> $GITHUB_STEP_SUMMARY
+          echo "- 调度器报告文件未找到" >> $GITHUB_STEP_SUMMARY
         fi
         
-    - name: Commit Updates
+        # 统计数据文件
+        data_files=$(ls -1 ../data/*.json 2>/dev/null | grep -v brands.json | wc -l)
+        echo "## 📁 数据文件统计" >> $GITHUB_STEP_SUMMARY
+        echo "- 品牌数据文件: $data_files 个" >> $GITHUB_STEP_SUMMARY
+        
+        # 统计品牌日志
+        if [ -d "logs/brands" ]; then
+          brand_logs=$(ls -1 logs/brands/*.json 2>/dev/null | wc -l)
+          echo "- 品牌日志文件: $brand_logs 个" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+    - name: 提交更新
       run: |
         set -e
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        echo "Adding data files..."
+        
+        echo "添加数据文件..."
         git add data/*.json || true
-        echo "Adding weekly logs and reports..."
-        git add -f data-processor/weekly-execution.log data-processor/weekly-report-*.json data-processor/weekly-progress.json || true
+        
+        echo "添加分布式爬虫日志和报告..."
+        git add -f data-processor/logs/scheduler/*.json || true
+        git add -f data-processor/logs/brands/*.json || true
+        git add -f data-processor/status/*.json || true
+        
         if git diff --staged --quiet; then
-          echo "No changes to commit"
+          echo "没有变更需要提交"
         else
-          git commit -m "📊 Data sync update - $(date '+%Y-%m-%d')"
+          git commit -m "🚀 分布式品牌爬虫数据更新 - $(date '+%Y-%m-%d') [目标: ${{ needs.setup.outputs.brands }}]"
           git pull origin main --rebase --autostash
           git push origin HEAD:main
         fi

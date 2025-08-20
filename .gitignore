@@ -92,3 +92,16 @@ temp/
 
 # Local Netlify folder
 .netlify
+
+# Crawler specific files
+data-processor/logs/
+data-processor/status/
+data-processor/progress.json
+*.backup*
+*.bak
+crawler_test.log
+
+# Data processor cache
+data-processor/.cache/
+data-processor/temp/
+

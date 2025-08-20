@@ -4,67 +4,797 @@
   "cars": [
     {
       "carName": "狙击手",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/160243b9132a4ae9acfaea36214d7a98~1200x0.png",
       "configs": [
         {
           "configName": "狙击手 2023款 狙击手 2.4T 手动轻装款",
+          "configId": "config_1",
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4360x1890x1940",
-          "manufacturer": "二一二越野车",
-          "class": "小型SUV",
-          "power": "2.4T 211马力 L4"
+          "exteriorImages": [
+            {
+              "name": "乌尼黑",
+              "colors": [
+                "rgb(19, 20, 24)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "军绿",
+              "colors": [
+                "rgb(51, 63, 27)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "迷彩",
+              "colors": [
+                "rgb(101, 102, 78)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "援朝绿哑光",
+              "colors": [
+                "rgb(129, 124, 94)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝",
+              "colors": [
+                "rgb(155, 175, 199)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "额济纳灰哑光",
+              "colors": [
+                "rgb(170, 173, 182)"
+              ],
+              "mainImage": ""
+            },
+            {
+              "name": "阿拉善黄",
+              "colors": [
+                "rgb(219, 193, 71)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄/黑色",
+              "colors": [
+                "rgb(219, 193, 71)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄/白色",
+              "colors": [
+                "rgb(219, 193, 71)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿尔金山橙",
+              "colors": [
+                "rgb(250, 88, 9)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿尔金山橙/黑色",
+              "colors": [
+                "rgb(250, 88, 9)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "天山白",
+              "colors": [
+                ""
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
         },
         {
           "configName": "狙击手 2023款 狙击手 2.4T 手动加强版",
+          "configId": "config_2",
+          "price": "9.99万",
+          "exteriorImages": [
+            {
+              "name": "乌尼黑",
+              "colors": [
+                "rgb(19, 20, 24)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "军绿",
+              "colors": [
+                "rgb(51, 63, 27)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "迷彩",
+              "colors": [
+                "rgb(101, 102, 78)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "援朝绿哑光",
+              "colors": [
+                "rgb(129, 124, 94)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝",
+              "colors": [
+                "rgb(155, 175, 199)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "额济纳灰",
+              "colors": [
+                "rgb(170, 173, 182)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄",
+              "colors": [
+                "rgb(219, 193, 71)"
+              ],
+              "mainImage": ""
+            },
+            {
+              "name": "阿拉善黄/黑色",
+              "colors": [
+                "rgb(219, 193, 71)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄/白色",
+              "colors": [
+                "rgb(219, 193, 71)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿尔金山橙",
+              "colors": [
+                "rgb(250, 88, 9)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿尔金山橙/黑色",
+              "colors": [
+                "rgb(250, 88, 9)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "天山白",
+              "colors": [
+                ""
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+        },
+        {
+          "configName": "车型对比 ·最多添加10款车",
+          "configId": "config_3",
           "price": "10.59万",
-          "fuelType": "汽油",
-          "size": "4360x1890x1940",
-          "manufacturer": "二一二越野车",
-          "class": "小型SUV",
-          "power": "2.4T 211马力 L4"
+          "exteriorImages": [
+            {
+              "name": "乌尼黑",
+              "colors": [
+                "rgb(19, 20, 24)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "军绿",
+              "colors": [
+                "rgb(51, 63, 27)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "迷彩",
+              "colors": [
+                "rgb(101, 102, 78)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "援朝绿",
+              "colors": [
+                "rgb(129, 124, 94)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝",
+              "colors": [
+                "rgb(155, 175, 199)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "额济纳灰",
+              "colors": [
+                "rgb(170, 173, 182)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄",
+              "colors": [
+                "rgb(219, 193, 71)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄/黑色",
+              "colors": [
+                "rgb(219, 193, 71)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿拉善黄/白色",
+              "colors": [
+                "rgb(219, 193, 71)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿尔金山橙",
+              "colors": [
+                "rgb(250, 88, 9)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "阿尔金山橙/黑色",
+              "colors": [
+                "rgb(250, 88, 9)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "天山白",
+              "colors": [
+                ""
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
         }
       ]
     },
     {
-      "carName": "T01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d224ccc567c645e2bac6ca0b523303b3~1200x0.png",
+      "carName": "212 T01",
       "configs": [
         {
           "configName": "212 T01 2024款 2.0T 机械师",
+          "configId": "config_1",
           "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4705x1895x1936",
-          "manufacturer": "二一二越野车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4"
+          "exteriorImages": [
+            {
+              "name": "绿色/银色",
+              "colors": [
+                "rgb(0, 174, 132)",
+                "rgb(182, 184, 211)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "子夜玄",
+              "colors": [
+                "rgb(37, 37, 35)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "墨脱绿",
+              "colors": [
+                "rgb(42, 62, 60)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "青苍绿",
+              "colors": [
+                "rgb(100, 101, 81)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "暗沙灰",
+              "colors": [
+                "rgb(151, 151, 149)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "清风蓝",
+              "colors": [
+                "rgb(158, 212, 232)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "云顶白",
+              "colors": [
+                "rgb(225, 225, 227)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "龙血红",
+              "colors": [
+                "rgb(255, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "rgb(237, 182, 64)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
         },
         {
           "configName": "212 T01 2024款 2.0T 探险家",
-          "price": "15.99万",
-          "fuelType": "汽油",
-          "size": "4705x1895x1936",
-          "manufacturer": "二一二越野车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4"
+          "configId": "config_2",
+          "price": "13.99万",
+          "exteriorImages": [
+            {
+              "name": "绿色/银色",
+              "colors": [
+                "rgb(0, 174, 132)",
+                "rgb(182, 184, 211)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "子夜玄",
+              "colors": [
+                "rgb(37, 37, 35)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "墨脱绿",
+              "colors": [
+                "rgb(42, 62, 60)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "青苍绿",
+              "colors": [
+                "rgb(100, 101, 81)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "暗沙灰",
+              "colors": [
+                "rgb(151, 151, 149)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "清风蓝",
+              "colors": [
+                "rgb(158, 212, 232)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "云顶白",
+              "colors": [
+                "rgb(225, 225, 227)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "龙血红",
+              "colors": [
+                "rgb(255, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "rgb(237, 182, 64)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
         },
         {
           "configName": "212 T01 2024款 2.0T 检阅官",
-          "price": "17.29万",
-          "fuelType": "汽油",
-          "size": "4705x1895x1936",
-          "manufacturer": "二一二越野车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4"
+          "configId": "config_3",
+          "price": "15.99万",
+          "exteriorImages": [
+            {
+              "name": "绿色/银色",
+              "colors": [
+                "rgb(0, 174, 132)",
+                "rgb(182, 184, 211)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "子夜玄",
+              "colors": [
+                "rgb(37, 37, 35)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "墨脱绿",
+              "colors": [
+                "rgb(42, 62, 60)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "青苍绿",
+              "colors": [
+                "rgb(100, 101, 81)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "暗沙灰",
+              "colors": [
+                "rgb(151, 151, 149)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "清风蓝",
+              "colors": [
+                "rgb(158, 212, 232)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "云顶白",
+              "colors": [
+                "rgb(225, 225, 227)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "龙血红",
+              "colors": [
+                "rgb(255, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "rgb(237, 182, 64)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
         },
         {
           "configName": "212 T01 2024款 2.0T 长风版",
-          "price": "18.88万",
-          "fuelType": "汽油",
-          "size": "4749x1945x1999",
-          "manufacturer": "二一二越野车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4"
+          "configId": "config_4",
+          "price": "15.99万",
+          "exteriorImages": [
+            {
+              "name": "绿色/银色",
+              "colors": [
+                "rgb(0, 174, 132)",
+                "rgb(182, 184, 211)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "子夜玄",
+              "colors": [
+                "rgb(37, 37, 35)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "墨脱绿",
+              "colors": [
+                "rgb(42, 62, 60)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "青苍绿",
+              "colors": [
+                "rgb(100, 101, 81)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "暗沙灰",
+              "colors": [
+                "rgb(151, 151, 149)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "清风蓝",
+              "colors": [
+                "rgb(158, 212, 232)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "云顶白",
+              "colors": [
+                "rgb(225, 225, 227)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "龙血红",
+              "colors": [
+                "rgb(255, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "rgb(237, 182, 64)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+        },
+        {
+          "configName": "车型对比 ·最多添加10款车",
+          "configId": "config_5",
+          "price": "17.29万",
+          "exteriorImages": [
+            {
+              "name": "绿色/银色",
+              "colors": [
+                "rgb(0, 174, 132)",
+                "rgb(182, 184, 211)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "子夜玄",
+              "colors": [
+                "rgb(37, 37, 35)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "墨脱绿",
+              "colors": [
+                "rgb(42, 62, 60)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "青苍绿",
+              "colors": [
+                "rgb(100, 101, 81)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "暗沙灰",
+              "colors": [
+                "rgb(151, 151, 149)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "喀纳斯蓝/白色",
+              "colors": [
+                "rgb(155, 175, 199)",
+                "rgb(255, 255, 255)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "清风蓝",
+              "colors": [
+                "rgb(158, 212, 232)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "云顶白",
+              "colors": [
+                "rgb(225, 225, 227)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "龙血红",
+              "colors": [
+                "rgb(255, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "rgb(237, 182, 64)",
+                "rgb(0, 0, 0)"
+              ],
+              "mainImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
+            }
+          ],
+          "configImage": "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/images/logo-fcf421caf44b23091eee..svg"
         }
       ]
     }

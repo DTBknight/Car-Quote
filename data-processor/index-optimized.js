@@ -41,7 +41,7 @@ const brandIdsMap = {
   eπ: 891,      // 东风奕派
   Dongfeng: 91, // 东风
   Nami: 417,    // 东风纳米
-  '212': 10012,  // 212
+  '212': 10012,  // 北汽二一二
   Toyota: 5,    // 丰田
   Ford: 7,      // 福特
   RisingAuto: 401, // 飞凡
