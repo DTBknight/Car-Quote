@@ -43,7 +43,7 @@ const config = {
 
   // 日志配置
   logging: {
-    level: 'info', // 日志级别: debug, info, warn, error
+    level: 'debug', // 日志级别: debug, info, warn, error
     file: 'logs/crawler.log', // 日志文件
     maxSize: '10m', // 最大文件大小
     maxFiles: 5, // 最大文件数量

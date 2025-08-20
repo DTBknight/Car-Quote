@@ -836,7 +836,7 @@ class DataCollector {
       await new Promise(r => setTimeout(r, waitTime));
 
       // 抓取色块信息
-      const colorBlocks = await page.evaluate(() => {
+      const colorBlocks = await page.evaluate((configId) => {
         const result = [];
         const colorFilters = document.querySelectorAll('.filters_colors__2qAUB .filters_item__1S2ZR');
         colorFilters.forEach(filter => {
@@ -847,8 +847,47 @@ class DataCollector {
             // 色块色号（支持多色）
             const colorElements = filter.querySelectorAll('.filters_color__2W_py');
             const colorCodes = Array.from(colorElements).map(el => el.style.backgroundColor);
-            // 色块链接
-            const colorLink = filter.href || '';
+            
+            // 修复：从当前页面URL构建正确的色块链接
+            let colorLink = '';
+            if (configId && colorName && colorCodes.length > 0) {
+              // 从当前页面URL提取系列ID和类型
+              const currentUrl = window.location.href;
+              const urlMatch = currentUrl.match(/\/series-(\d+)\/images\/(wg|ns)-/);
+              
+              if (urlMatch) {
+                const seriesId = urlMatch[1];
+                const imageType = urlMatch[2]; // 'wg' 或 'ns'
+                
+                // 构建正确的色块链接格式
+                // 格式：/series-{seriesId}/images/{imageType}-{configId}-{colorCode}
+                let colorCode = 'FFFFFF'; // 默认白色
+                
+                if (colorCodes[0]) {
+                  // 处理不同的颜色格式
+                  if (colorCodes[0].startsWith('rgb(')) {
+                    // RGB格式：rgb(r, g, b) -> 十六进制
+                    const rgbMatch = colorCodes[0].match(/rgb\((\d+),\s*(\d+),\s*(\d+)\)/);
+                    if (rgbMatch) {
+                      const r = parseInt(rgbMatch[1]);
+                      const g = parseInt(rgbMatch[2]);
+                      const b = parseInt(rgbMatch[3]);
+                      // 转换为十六进制
+                      colorCode = ((r << 16) + (g << 8) + b).toString(16).padStart(6, '0').toUpperCase();
+                    }
+                  } else if (colorCodes[0].startsWith('#')) {
+                    // 十六进制格式：#FFFFFF -> FFFFFF
+                    colorCode = colorCodes[0].replace('#', '');
+                  } else {
+                    // 其他格式，使用默认值
+                    colorCode = 'FFFFFF';
+                  }
+                }
+                
+                colorLink = `https://www.dongchedi.com/series-${seriesId}/images/${imageType}-${configId}-${colorCode}`;
+              }
+            }
+            
             if (colorName && colorCodes.length > 0) {
               result.push({
                 name: colorName,
@@ -861,8 +900,26 @@ class DataCollector {
           }
         });
         return result;
-      });
+      }, config.configId);
       console.log(`🎨 找到${type === 'wg' ? '外观' : '内饰'}色块:`, colorBlocks.map(c => c.name));
+      
+      // 新增：调试色块链接信息
+      if (config.logging && config.logging.level === 'debug') {
+        console.log(`🔍 色块链接详情:`);
+        colorBlocks.forEach((color, index) => {
+          console.log(`   ${index + 1}. ${color.name}: ${color.link || '无链接'}`);
+        });
+      }
+      
+      // 新增：调试色块链接信息（仅在调试模式下）
+      if (config.logging && config.logging.level === 'debug') {
+        console.log(`🔍 色块链接格式分析:`);
+        colorBlocks.forEach((color, index) => {
+          if (color.link) {
+            console.log(`   ${index + 1}. ${color.name}: ${color.link}`);
+          }
+        });
+      }
 
       // 新增：并发处理色块图片采集
       const colorBlocksWithImages = [];
@@ -871,28 +928,41 @@ class DataCollector {
       
       const colorTasks = colorBlocks.map(async (color, index) => {
         return colorLimit(async () => {
+          // 修复：为每个色块创建独立的页面，避免并发冲突
+          const colorPage = await this.browserManager.createPage(browser);
+          
           try {
-            let colorPageUrl = color.link;
-            if (color.link && !color.link.startsWith('http')) {
-              colorPageUrl = `https://www.dongchedi.com${color.link}`;
+            // 修复：验证色块链接有效性
+            if (!color.link || color.link === '') {
+              console.log(`ℹ️ 色块 ${color.name} 无有效链接，跳过图片采集`);
+              return {
+                name: color.name,
+                colors: color.colors,
+                mainImage: ''
+              };
             }
+            
+            let colorPageUrl = color.link;
+            
+            // 新增：色块处理进度
+            console.log(`🎨 处理色块 ${color.name}`);
             
             // 新增：使用更短的超时时间
             const colorPageTimeout = Math.min(pageTimeout, config.crawler.colorPageTimeout || 20000);
             if (colorPageTimeout > 0) {
               await pTimeout(
-                page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
+                colorPage.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
                 { milliseconds: colorPageTimeout }
               );
             } else {
-              await page.goto(colorPageUrl, { waitUntil: 'domcontentloaded' });
+              await colorPage.goto(colorPageUrl, { waitUntil: 'domcontentloaded' });
             }
             
             // 新增：减少等待时间
             const imageWaitTime = Math.min(config.crawler?.imageWaitTime || 2000, config.crawler.imageWaitTime || 1500);
             
             // 主图抓取
-            const mainImage = await page.evaluate(() => {
+            const mainImage = await colorPage.evaluate(() => {
               const imageSelectors = [
                 'img[src*="motor-mis-img"][src*="~2508x0"]',
                 'img[src*="motor-mis-img"][src*="~1200x0"]',
@@ -948,6 +1018,13 @@ class DataCollector {
               colors: color.colors,
               mainImage: ''
             };
+          } finally {
+            // 确保每个色块的页面都被关闭
+            try {
+              await colorPage.close();
+            } catch (e) {
+              // 忽略关闭页面的错误
+            }
           }
         });
       });
