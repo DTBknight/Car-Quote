@@ -213,6 +213,8 @@ export class CarSearch {
         this.debouncedSearch(query);
       } else {
         this.hideResults();
+        // 清空搜索框时重置车型图片和颜色选择器
+        this.resetCarDisplay();
       }
     });
     
@@ -1068,29 +1070,132 @@ export class CarSearch {
     Utils.clearElementCache();
   }
   
-  // 设置颜色选择器
+  // 重置车型显示
+  resetCarDisplay() {
+    // 重置外观图片
+    const exteriorImageBox = Utils.getElement('exteriorImageBox');
+    if (exteriorImageBox) {
+      exteriorImageBox.innerHTML = `
+        <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+          <i class="fa fa-car text-2xl mb-1"></i>
+          <span class="text-xs">请选择车型</span>
+        </div>
+      `;
+    }
+    
+    // 重置内饰图片
+    const interiorImageBox = Utils.getElement('interiorImageBox');
+    if (interiorImageBox) {
+      interiorImageBox.innerHTML = `
+        <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+          <i class="fa fa-car-side text-2xl mb-1"></i>
+          <span class="text-xs">请选择车型</span>
+        </div>
+      `;
+    }
+    
+    // 重置颜色选择器
+    const colorSwatchesContainer = Utils.getElement('colorSwatches');
+    if (colorSwatchesContainer) {
+      colorSwatchesContainer.innerHTML = '';
+      colorSwatchesContainer.style.display = 'none'; // 隐藏主色块容器
+    }
+    
+    const exteriorColorSwatches = Utils.getElement('exteriorColorSwatches');
+    if (exteriorColorSwatches) {
+      exteriorColorSwatches.innerHTML = '';
+      exteriorColorSwatches.style.display = 'none'; // 隐藏外观色块容器
+    }
+    
+    const interiorColorSwatches = Utils.getElement('interiorColorSwatches');
+    if (interiorColorSwatches) {
+      interiorColorSwatches.innerHTML = '';
+      interiorColorSwatches.style.display = 'none'; // 隐藏内饰色块容器
+    }
+    
+    // 重置颜色名称
+    const exteriorColorName = Utils.getElement('exteriorColorName');
+    if (exteriorColorName) {
+      exteriorColorName.textContent = '';
+      exteriorColorName.style.display = 'none'; // 隐藏外观颜色名称
+    }
+    
+    const interiorColorName = Utils.getElement('interiorColorName');
+    if (interiorColorName) {
+      interiorColorName.textContent = '';
+      interiorColorName.style.display = 'none'; // 隐藏内饰颜色名称
+    }
+    
+    // 重置基础信息区域
+    Utils.toggleElement('baseInfoSection', false);
+    
+    // 重置品牌logo
+    const brandLogoBox = Utils.getElement('brandLogoBox2');
+    if (brandLogoBox) {
+      brandLogoBox.innerHTML = `
+        <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
+          <i class="fa fa-image text-2xl mb-1"></i>
+          <span class="text-xs">品牌Logo</span>
+        </div>
+      `;
+    }
+  }
+  
+      // 设置颜色选择器
   setupColorSelector(carData, colorSwatchesContainer, carMainImageBox) {
     if (!carData.exteriorImages || carData.exteriorImages.length === 0) {
       colorSwatchesContainer.innerHTML = '';
+      colorSwatchesContainer.style.display = 'none'; // 完全隐藏容器
       return;
     }
     
-    const exteriorImages = carData.exteriorImages;
-    const maxVisible = 5; // 最多显示5个颜色块
+    // 有数据时显示容器
+    colorSwatchesContainer.style.display = 'flex';
     
-    // 创建颜色选择器HTML
-    let colorSwatchesHTML = '';
-    
-    // 添加左箭头（如果颜色数量超过5个）
-    if (exteriorImages.length > maxVisible) {
+          const exteriorImages = carData.exteriorImages;
+      const maxVisible = 5; // 默认显示5个色块
+      const totalColors = exteriorImages.length;
+      
+      // 创建颜色选择器HTML
+      let colorSwatchesHTML = '';
+      
+      // 添加左箭头（如果颜色数量超过5个）
+      if (totalColors > maxVisible) {
       colorSwatchesHTML += `
-        <button class="color-nav-btn left-arrow text-gray-400 hover:text-gray-600 transition-colors" onclick="this.parentElement.scrollBy(-100, 0)">
+        <button class="color-nav-btn left-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
+                type="button" data-direction="-1">
           <i class="fa fa-chevron-left"></i>
         </button>
       `;
     }
     
-    // 添加颜色块
+    // 添加颜色块容器 - 智能宽度计算和居中显示
+    const swatchWidth = 24; // 色块宽度
+    const swatchGap = 8; // 色块间距
+    const hasPagination = totalColors > maxVisible;
+    
+    // 根据色块数量计算容器宽度
+    let containerWidth;
+    let innerStyle;
+    
+    const containerPadding = 16; // 容器左右内边距
+    
+    if (hasPagination) {
+      // 有分页时，固定显示5个色块的宽度 + 左右内边距
+      containerWidth = 176; // 调整为176px，确保5个色块完全显示
+      innerStyle = 'position: absolute; left: 8px; width: calc(100% - 16px);'; // 左边距8px，右边距8px，确保色块不贴边
+    } else {
+      // 无分页时，根据实际色块数量计算宽度并居中 + 左右内边距
+      containerWidth = totalColors * swatchWidth + (totalColors - 1) * swatchGap + containerPadding;
+      innerStyle = 'position: static; justify-content: center;';
+    }
+    
+    colorSwatchesHTML += `
+      <div class="color-swatches-wrapper flex items-center justify-center" style="width: ${containerWidth}px; height: 40px; overflow: hidden; padding: 0 8px;">
+        <div class="color-swatches-inner flex items-center space-x-2 transition-transform duration-300" style="transform: translateX(0px); ${innerStyle}">
+    `;
+    
+    // 添加所有颜色块
     exteriorImages.forEach((colorData, index) => {
       const isActive = index === 0; // 第一个颜色为默认选中
       const colorCode = colorData.colors && colorData.colors.length > 0 ? colorData.colors[0] : '#ccc';
@@ -1101,16 +1206,21 @@ export class CarSearch {
              data-index="${index}" 
              data-image="${colorData.mainImage}"
              data-color-name="${colorName}"
-             style="background-color: ${colorCode}; cursor: pointer;"
-             onclick="this.parentElement.parentElement.querySelector('.color-swatch.active')?.classList.remove('active'); this.classList.add('active'); this.parentElement.parentElement.parentElement.querySelector('#exteriorImageBox img').src='${colorData.mainImage}'; this.parentElement.parentElement.parentElement.querySelector('#selectedColorName').textContent='${colorName}'">
+             style="background-color: ${colorCode}; cursor: pointer;">
         </div>
       `;
     });
     
+    colorSwatchesHTML += `
+        </div>
+      </div>
+    `;
+    
     // 添加右箭头（如果颜色数量超过5个）
-    if (exteriorImages.length > maxVisible) {
+    if (totalColors > maxVisible) {
       colorSwatchesHTML += `
-        <button class="color-nav-btn right-arrow text-gray-400 hover:text-gray-600 transition-colors" onclick="this.parentElement.scrollBy(100, 0)">
+        <button class="color-nav-btn right-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
+                type="button" data-direction="1">
           <i class="fa fa-chevron-right"></i>
         </button>
       `;
@@ -1133,13 +1243,19 @@ export class CarSearch {
     
     // 设置颜色块的样式
     const colorSwatches = colorSwatchesContainer.querySelectorAll('.color-swatch');
-    colorSwatches.forEach(swatch => {
+    colorSwatches.forEach((swatch, index) => {
       swatch.style.width = '24px';
       swatch.style.height = '24px';
       swatch.style.borderRadius = '50%';
       swatch.style.border = '2px solid #fff';
       swatch.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
       swatch.style.transition = 'all 0.2s ease';
+      swatch.style.flexShrink = '0'; // 防止色块被压缩
+      
+      // 绑定点击事件
+      swatch.addEventListener('click', () => {
+        this.selectColorSwatch(swatch, exteriorImages[index].mainImage, exteriorImages[index].name);
+      });
     });
     
     // 设置活动状态的样式
@@ -1147,6 +1263,98 @@ export class CarSearch {
     if (activeSwatch) {
       activeSwatch.style.border = '2px solid #3b82f6';
       activeSwatch.style.transform = 'scale(1.1)';
+    }
+    
+    // 绑定箭头按钮事件
+    const leftArrow = colorSwatchesContainer.querySelector('.left-arrow');
+    const rightArrow = colorSwatchesContainer.querySelector('.right-arrow');
+    
+    if (leftArrow) {
+      leftArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.scrollColorSwatches(-1, colorSwatchesContainer);
+      });
+    }
+    
+    if (rightArrow) {
+      rightArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.scrollColorSwatches(1, colorSwatchesContainer);
+      });
+    }
+    
+    // 存储当前滚动位置
+    colorSwatchesContainer.currentPage = 0;
+    colorSwatchesContainer.maxPages = Math.ceil(totalColors / maxVisible);
+    
+    // 绑定实例引用
+    colorSwatchesContainer.carSearchInstance = this;
+  }
+  
+      // 滚动色块显示
+    scrollColorSwatches(direction, container) {
+      if (!container) return;
+      
+      const inner = container.querySelector('.color-swatches-inner');
+      const maxVisible = 5; // 默认显示5个色块
+      const totalColors = container.querySelectorAll('.color-swatch').length;
+      const maxPages = Math.ceil(totalColors / maxVisible);
+      
+      if (direction === -1 && container.currentPage > 0) {
+        container.currentPage--;
+      } else if (direction === 1 && container.currentPage < maxPages - 1) {
+        container.currentPage++;
+      }
+      
+      // 计算偏移量，确保每次显示完整的5个色块
+      const swatchWidth = 24; // 色块宽度
+      const swatchGap = 8; // 色块间距
+      const swatchTotalWidth = swatchWidth + swatchGap; // 每个色块的总宽度
+      const translateX = -(container.currentPage * maxVisible * swatchTotalWidth);
+      inner.style.transform = `translateX(${translateX}px)`;
+    
+      // 更新箭头状态
+      const leftArrow = container.querySelector('.left-arrow');
+      const rightArrow = container.querySelector('.right-arrow');
+      
+      if (leftArrow) {
+        leftArrow.style.opacity = container.currentPage === 0 ? '0.3' : '1';
+        leftArrow.style.pointerEvents = container.currentPage === 0 ? 'none' : 'auto';
+      }
+      
+      if (rightArrow) {
+        rightArrow.style.opacity = container.currentPage === maxPages - 1 ? '0.3' : '1';
+        rightArrow.style.pointerEvents = container.currentPage === maxPages - 1 ? 'none' : 'auto';
+      }
+    }
+  
+  // 选择色块
+  selectColorSwatch(swatch, imageUrl, colorName) {
+    // 移除其他色块的活动状态
+    const container = swatch.closest('#colorSwatches');
+    const allSwatches = container.querySelectorAll('.color-swatch');
+    allSwatches.forEach(s => {
+      s.classList.remove('active');
+      s.style.border = '2px solid #fff';
+      s.style.transform = 'scale(1)';
+    });
+    
+    // 设置当前色块为活动状态
+    swatch.classList.add('active');
+    swatch.style.border = '2px solid #3b82f6';
+    swatch.style.transform = 'scale(1.1)';
+    
+    // 更新图片和颜色名称
+    const imageBox = container.parentElement.querySelector('#exteriorImageBox img');
+    if (imageBox) {
+      imageBox.src = imageUrl;
+    }
+    
+    const colorNameElement = container.querySelector('#selectedColorName');
+    if (colorNameElement) {
+      colorNameElement.textContent = colorName;
     }
   }
   
@@ -1192,12 +1400,60 @@ export class CarSearch {
     if (!exteriorImages || exteriorImages.length === 0) {
       colorSwatchesContainer.innerHTML = '';
       colorNameContainer.textContent = '';
+      colorSwatchesContainer.style.display = 'none'; // 完全隐藏容器
       return;
     }
+    
+    // 确保色块名称容器可见并重置
+    colorNameContainer.style.display = 'block';
+    colorNameContainer.textContent = '';
+    
+    // 有数据时显示容器
+    colorSwatchesContainer.style.display = 'flex';
+    
+    const maxVisible = 5; // 默认显示5个颜色块
+    const totalColors = exteriorImages.length;
     
     // 创建颜色选择器HTML
     let colorSwatchesHTML = '';
     
+    // 添加左箭头（如果颜色数量超过5个）
+    if (totalColors > maxVisible) {
+      colorSwatchesHTML += `
+        <button class="color-nav-btn left-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
+                type="button" data-direction="-1">
+          <i class="fa fa-chevron-left"></i>
+        </button>
+      `;
+    }
+    
+    // 添加颜色块容器 - 智能宽度计算和居中显示
+    const swatchWidth = 24; // 色块宽度
+    const swatchGap = 8; // 色块间距
+    const hasPagination = totalColors > maxVisible;
+    
+    // 根据色块数量计算容器宽度
+    let containerWidth;
+    let innerStyle;
+    
+    const containerPadding = 16; // 容器左右内边距
+    
+    if (hasPagination) {
+      // 有分页时，固定显示5个色块的宽度 + 左右内边距
+      containerWidth = 176; // 调整为176px，确保5个色块完全显示
+      innerStyle = 'position: absolute; left: 8px; width: calc(100% - 16px);'; // 左边距8px，右边距8px，确保色块不贴边
+    } else {
+      // 无分页时，根据实际色块数量计算宽度并居中 + 左右内边距
+      containerWidth = totalColors * swatchWidth + (totalColors - 1) * swatchGap + containerPadding;
+      innerStyle = 'position: static; justify-content: center;';
+    }
+    
+    colorSwatchesHTML += `
+      <div class="color-swatches-wrapper flex items-center justify-center" style="width: ${containerWidth}px; height: 40px; overflow: hidden; padding: 0 8px;">
+        <div class="color-swatches-inner flex items-center space-x-2 transition-transform duration-300" style="transform: translateX(0px); ${innerStyle}">
+    `;
+    
+    // 添加所有颜色块
     exteriorImages.forEach((colorData, index) => {
       const isActive = index === 0; // 第一个颜色为默认选中
       const colorName = colorData.name || `颜色${index + 1}`;
@@ -1207,14 +1463,136 @@ export class CarSearch {
              data-index="${index}" 
              data-image="${colorData.mainImage}"
              data-color-name="${colorName}"
-             style="${this.generateColorSwatchStyle(colorData, isActive)}"
-             onclick="const activeSwatch = this.parentElement.querySelector('.color-swatch.active'); if (activeSwatch && activeSwatch !== this) { activeSwatch.classList.remove('active'); activeSwatch.style.border='1px solid #000'; activeSwatch.style.transform='scale(1)'; } this.classList.add('active'); this.style.border='2px solid #3b82f6'; this.style.transform='scale(1.1)'; document.querySelector('#exteriorImageBox img').src='${colorData.mainImage}'; document.querySelector('#exteriorColorName').textContent='${colorName}'">
+             style="${this.generateColorSwatchStyle(colorData, isActive)}">
         </div>
       `;
     });
     
+    colorSwatchesHTML += `
+        </div>
+      </div>
+    `;
+    
+    // 添加右箭头（如果颜色数量超过5个）
+    if (totalColors > maxVisible) {
+      colorSwatchesHTML += `
+        <button class="color-nav-btn right-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
+                type="button" data-direction="1">
+          <i class="fa fa-chevron-right"></i>
+        </button>
+      `;
+    }
+    
     colorSwatchesContainer.innerHTML = colorSwatchesHTML;
-    colorNameContainer.textContent = exteriorImages[0]?.name || '';
+    
+    // 确保色块名称正确显示
+    const firstColorName = exteriorImages[0]?.name || '未知颜色';
+    colorNameContainer.textContent = firstColorName;
+    console.log('🎨 外观色块名称设置:', firstColorName);
+    
+    // 设置颜色块的样式并绑定事件
+    const colorSwatches = colorSwatchesContainer.querySelectorAll('.color-swatch');
+    colorSwatches.forEach((swatch, index) => {
+      swatch.style.flexShrink = '0'; // 防止色块被压缩
+      
+      // 绑定点击事件
+      swatch.addEventListener('click', () => {
+        this.selectExteriorColorSwatch(swatch, exteriorImages[index].mainImage, exteriorImages[index].name);
+      });
+    });
+    
+    // 绑定箭头按钮事件
+    const leftArrow = colorSwatchesContainer.querySelector('.left-arrow');
+    const rightArrow = colorSwatchesContainer.querySelector('.right-arrow');
+    
+    if (leftArrow) {
+      leftArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.scrollExteriorColorSwatches(-1, colorSwatchesContainer);
+      });
+    }
+    
+    if (rightArrow) {
+      rightArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.scrollExteriorColorSwatches(1, colorSwatchesContainer);
+      });
+    }
+    
+    // 存储当前滚动位置
+    colorSwatchesContainer.currentPage = 0;
+    colorSwatchesContainer.maxPages = Math.ceil(totalColors / maxVisible);
+    
+    // 绑定实例引用
+    colorSwatchesContainer.carSearchInstance = this;
+  }
+  
+  // 滚动外观颜色色块显示
+  scrollExteriorColorSwatches(direction, container) {
+    if (!container) return;
+    
+    const inner = container.querySelector('.color-swatches-inner');
+    const maxVisible = 5; // 默认显示5个色块
+    const totalColors = container.querySelectorAll('.color-swatch').length;
+    const maxPages = Math.ceil(totalColors / maxVisible);
+    
+    if (direction === -1 && container.currentPage > 0) {
+      container.currentPage--;
+    } else if (direction === 1 && container.currentPage < maxPages - 1) {
+      container.currentPage++;
+    }
+    
+    // 计算偏移量，确保每次显示完整的5个色块
+    const swatchWidth = 24; // 色块宽度
+    const swatchGap = 8; // 色块间距
+    const swatchTotalWidth = swatchWidth + swatchGap; // 每个色块的总宽度
+    const translateX = -(container.currentPage * maxVisible * swatchTotalWidth);
+    inner.style.transform = `translateX(${translateX}px)`;
+    
+    // 更新箭头状态
+    const leftArrow = container.querySelector('.left-arrow');
+    const rightArrow = container.querySelector('.right-arrow');
+    
+    if (leftArrow) {
+      leftArrow.style.opacity = container.currentPage === 0 ? '0.3' : '1';
+      leftArrow.style.pointerEvents = container.currentPage === 0 ? 'none' : 'auto';
+    }
+    
+    if (rightArrow) {
+      rightArrow.style.opacity = container.currentPage === maxPages - 1 ? '0.3' : '1';
+      rightArrow.style.pointerEvents = container.currentPage === maxPages - 1 ? 'none' : 'auto';
+    }
+  }
+  
+  // 选择外观颜色色块
+  selectExteriorColorSwatch(swatch, imageUrl, colorName) {
+    // 移除其他色块的活动状态
+    const container = swatch.closest('#exteriorColorSwatches');
+    const allSwatches = container.querySelectorAll('.color-swatch');
+    allSwatches.forEach(s => {
+      s.classList.remove('active');
+      s.style.border = '1px solid #000';
+      s.style.transform = 'scale(1)';
+    });
+    
+    // 设置当前色块为活动状态
+    swatch.classList.add('active');
+    swatch.style.border = '2px solid #3b82f6';
+    swatch.style.transform = 'scale(1.1)';
+    
+    // 更新图片和颜色名称
+    const imageBox = document.querySelector('#exteriorImageBox img');
+    if (imageBox) {
+      imageBox.src = imageUrl;
+    }
+    
+    const colorNameElement = document.querySelector('#exteriorColorName');
+    if (colorNameElement) {
+      colorNameElement.textContent = colorName;
+      console.log('🎨 外观色块名称更新:', colorName);
+    }
   }
   
   // 设置内饰颜色选择器
@@ -1228,12 +1606,60 @@ export class CarSearch {
     if (!interiorImages || interiorImages.length === 0) {
       colorSwatchesContainer.innerHTML = '';
       colorNameContainer.textContent = '';
+      colorSwatchesContainer.style.display = 'none'; // 完全隐藏容器
       return;
     }
+    
+    // 确保色块名称容器可见并重置
+    colorNameContainer.style.display = 'block';
+    colorNameContainer.textContent = '';
+    
+    // 有数据时显示容器
+    colorSwatchesContainer.style.display = 'flex';
+    
+    const maxVisible = 5; // 默认显示5个颜色块
+    const totalColors = interiorImages.length;
     
     // 创建颜色选择器HTML
     let colorSwatchesHTML = '';
     
+    // 添加左箭头（如果颜色数量超过5个）
+    if (totalColors > maxVisible) {
+      colorSwatchesHTML += `
+        <button class="color-nav-btn left-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
+                type="button" data-direction="-1">
+          <i class="fa fa-chevron-left"></i>
+        </button>
+      `;
+    }
+    
+    // 添加颜色块容器 - 智能宽度计算和居中显示
+    const swatchWidth = 24; // 色块宽度
+    const swatchGap = 8; // 色块间距
+    const hasPagination = totalColors > maxVisible;
+    
+    // 根据色块数量计算容器宽度
+    let containerWidth;
+    let innerStyle;
+    
+    const containerPadding = 16; // 容器左右内边距
+    
+    if (hasPagination) {
+      // 有分页时，固定显示5个色块的宽度 + 左右内边距
+      containerWidth = 176; // 调整为176px，确保5个色块完全显示
+      innerStyle = 'position: absolute; left: 8px; width: calc(100% - 16px);'; // 左边距8px，右边距8px，确保色块不贴边
+    } else {
+      // 无分页时，根据实际色块数量计算宽度并居中 + 左右内边距
+      containerWidth = totalColors * swatchWidth + (totalColors - 1) * swatchGap + containerPadding;
+      innerStyle = 'position: static; justify-content: center;';
+    }
+    
+    colorSwatchesHTML += `
+      <div class="color-swatches-wrapper flex items-center justify-center" style="width: ${containerWidth}px; height: 40px; overflow: hidden; padding: 0 8px;">
+        <div class="color-swatches-inner flex items-center space-x-2 transition-transform duration-300" style="transform: translateX(0px); ${innerStyle}">
+    `;
+    
+    // 添加所有颜色块
     interiorImages.forEach((colorData, index) => {
       const isActive = index === 0; // 第一个颜色为默认选中
       const colorName = colorData.name || `颜色${index + 1}`;
@@ -1243,13 +1669,135 @@ export class CarSearch {
              data-index="${index}" 
              data-image="${colorData.mainImage}"
              data-color-name="${colorName}"
-             style="${this.generateColorSwatchStyle(colorData, isActive)}"
-             onclick="const activeSwatch = this.parentElement.querySelector('.color-swatch.active'); if (activeSwatch && activeSwatch !== this) { activeSwatch.classList.remove('active'); activeSwatch.style.border='1px solid #000'; activeSwatch.style.transform='scale(1)'; } this.classList.add('active'); this.style.border='2px solid #3b82f6'; this.style.transform='scale(1.1)'; document.querySelector('#interiorImageBox img').src='${colorData.mainImage}'; document.querySelector('#interiorColorName').textContent='${colorName}'">
+             style="${this.generateColorSwatchStyle(colorData, isActive)}">
         </div>
       `;
     });
     
+    colorSwatchesHTML += `
+        </div>
+      </div>
+    `;
+    
+    // 添加右箭头（如果颜色数量超过5个）
+    if (totalColors > maxVisible) {
+      colorSwatchesHTML += `
+        <button class="color-nav-btn right-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
+                type="button" data-direction="1">
+          <i class="fa fa-chevron-right"></i>
+        </button>
+      `;
+    }
+    
     colorSwatchesContainer.innerHTML = colorSwatchesHTML;
-    colorNameContainer.textContent = interiorImages[0]?.name || '';
+    
+    // 确保色块名称正确显示
+    const firstColorName = interiorImages[0]?.name || '未知颜色';
+    colorNameContainer.textContent = firstColorName;
+    console.log('🎨 内饰色块名称设置:', firstColorName);
+    
+    // 设置颜色块的样式并绑定事件
+    const colorSwatches = colorSwatchesContainer.querySelectorAll('.color-swatch');
+    colorSwatches.forEach((swatch, index) => {
+      swatch.style.flexShrink = '0'; // 防止色块被压缩
+      
+      // 绑定点击事件
+      swatch.addEventListener('click', () => {
+        this.selectInteriorColorSwatch(swatch, interiorImages[index].mainImage, interiorImages[index].name);
+      });
+    });
+    
+    // 绑定箭头按钮事件
+    const leftArrow = colorSwatchesContainer.querySelector('.left-arrow');
+    const rightArrow = colorSwatchesContainer.querySelector('.right-arrow');
+    
+    if (leftArrow) {
+      leftArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.scrollInteriorColorSwatches(-1, colorSwatchesContainer);
+      });
+    }
+    
+    if (rightArrow) {
+      rightArrow.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.scrollInteriorColorSwatches(1, colorSwatchesContainer);
+      });
+    }
+    
+    // 存储当前滚动位置
+    colorSwatchesContainer.currentPage = 0;
+    colorSwatchesContainer.maxPages = Math.ceil(totalColors / maxVisible);
+    
+    // 绑定实例引用
+    colorSwatchesContainer.carSearchInstance = this;
   }
-} 
+  
+  // 滚动内饰颜色色块显示
+  scrollInteriorColorSwatches(direction, container) {
+    if (!container) return;
+    
+    const inner = container.querySelector('.color-swatches-inner');
+    const maxVisible = 5; // 默认显示5个色块
+    const totalColors = container.querySelectorAll('.color-swatch').length;
+    const maxPages = Math.ceil(totalColors / maxVisible);
+    
+    if (direction === -1 && container.currentPage > 0) {
+      container.currentPage--;
+    } else if (direction === 1 && container.currentPage < maxPages - 1) {
+      container.currentPage++;
+    }
+    
+    // 计算偏移量，确保每次显示完整的5个色块
+    const swatchWidth = 24; // 色块宽度
+    const swatchGap = 8; // 色块间距
+    const swatchTotalWidth = swatchWidth + swatchGap; // 每个色块的总宽度
+    const translateX = -(container.currentPage * maxVisible * swatchTotalWidth);
+    inner.style.transform = `translateX(${translateX}px)`;
+    
+    // 更新箭头状态
+    const leftArrow = container.querySelector('.left-arrow');
+    const rightArrow = container.querySelector('.right-arrow');
+    
+    if (leftArrow) {
+      leftArrow.style.opacity = container.currentPage === 0 ? '0.3' : '1';
+      leftArrow.style.pointerEvents = container.currentPage === 0 ? 'none' : 'auto';
+    }
+    
+    if (rightArrow) {
+      rightArrow.style.opacity = container.currentPage === maxPages - 1 ? '0.3' : '1';
+      rightArrow.style.pointerEvents = container.currentPage === maxPages - 1 ? 'none' : 'auto';
+    }
+  }
+  
+  // 选择内饰颜色色块
+  selectInteriorColorSwatch(swatch, imageUrl, colorName) {
+    // 移除其他色块的活动状态
+    const container = swatch.closest('#interiorColorSwatches');
+    const allSwatches = container.querySelectorAll('.color-swatch');
+    allSwatches.forEach(s => {
+      s.classList.remove('active');
+      s.style.border = '1px solid #000';
+      s.style.transform = 'scale(1)';
+    });
+    
+    // 设置当前色块为活动状态
+    swatch.classList.add('active');
+    swatch.style.border = '2px solid #3b82f6';
+    swatch.style.transform = 'scale(1.1)';
+    
+    // 更新图片和颜色名称
+    const imageBox = document.querySelector('#interiorImageBox img');
+    if (imageBox) {
+      imageBox.src = imageUrl;
+    }
+    
+    const colorNameElement = document.querySelector('#interiorColorName');
+    if (colorNameElement) {
+      colorNameElement.textContent = colorName;
+      console.log('🎨 内饰色块名称更新:', colorName);
+    }
+  }
+}

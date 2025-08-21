@@ -49,7 +49,19 @@ async function main() {
     }
 
     try {
-      const logo = await dataCollector.getBrandLogo(browser, null, brandId);
+      // 为了兼容旧的脚本，先尝试读取现有数据中的车型ID
+      let carIds = [];
+      try {
+        const json = JSON.parse(fs.readFileSync(file, 'utf-8'));
+        if (json.cars && json.cars.length > 0) {
+          // 从现有车型数据中提取ID
+          carIds = json.cars.map(car => car.configs && car.configs.length > 0 ? car.configs[0].id : null).filter(id => id);
+        }
+      } catch (e) {
+        // 忽略读取错误
+      }
+      
+      const logo = await dataCollector.getBrandLogo(browser, carIds, brandCode);
       if (logo && /^https?:\/\//i.test(logo)) {
         if (shouldWrite) {
           const json = JSON.parse(fs.readFileSync(file, 'utf-8'));

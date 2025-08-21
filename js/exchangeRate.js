@@ -127,10 +127,11 @@ export class ExchangeRateManager {
   
   // 更新UI
   updateUI(currency, rate, formType, isFallback = false) {
-    const adjustedRate = rate - CONFIG.CALCULATION.EXCHANGE_RATE_OFFSET;
+    // 人民币不应用汇率浮动，其他币种应用浮动
+    const adjustedRate = currency === 'CNY' ? rate : rate - CONFIG.CALCULATION.EXCHANGE_RATE_OFFSET;
     const rateText = isFallback ? `${rate.toFixed(2)} (离线)` : rate.toFixed(2);
     
-    // 确保存在用于保存“USD基准汇率”的隐藏输入（每个表单独立）
+    // 确保存在用于保存"USD基准汇率"的隐藏输入（每个表单独立）
     const ensureUsdBaseInput = (id) => {
       if (!document.getElementById(id)) {
         const input = document.createElement('input');

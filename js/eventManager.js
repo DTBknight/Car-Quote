@@ -12,7 +12,14 @@ export class EventManager {
     this.quoteTypeState = {
       new: 'EXW',
       used: 'EXW',
-      newEnergyTax: 'EXW'
+      newEnergy: 'EXW'
+    };
+    
+    // 添加币种状态跟踪
+    this.currencyState = {
+      new: 'USD',
+      used: 'USD',
+      newEnergy: 'USD'
     };
     
     // 事件配置
@@ -86,6 +93,10 @@ export class EventManager {
   
   // 处理表单类型切换
   handleFormTypeSwitch(type) {
+    // 在切换前保存当前激活的表单类型
+    const currentActiveFormType = this.getActiveFormType();
+    console.log('🔄 表单切换开始，当前激活表单类型:', currentActiveFormType, '目标表单类型:', type);
+    
     // 移除所有按钮的激活状态
     document.querySelectorAll('.export-type-btn').forEach(btn => {
       btn.classList.remove('border-primary', 'text-primary');
@@ -115,7 +126,7 @@ export class EventManager {
         formId = 'usedCarForm';
         this.themeManager.switchToUsedCarTheme();
         break;
-      case 'newEnergyTax':
+      case 'newEnergy':
         formId = 'newEnergyForm';
         this.themeManager.switchToNewEnergyTheme();
         break;
@@ -124,6 +135,11 @@ export class EventManager {
     if (formId) {
       Utils.toggleElement(formId, true);
       Utils.addClass(formId, 'animate-fadeIn');
+    }
+    
+    // 同步币种选择（传入之前激活的表单类型）
+    if (currentActiveFormType && currentActiveFormType !== type) {
+      this.syncCurrencySelection(type, currentActiveFormType);
     }
     
     // 同步报价类型并重新应用当前报价类型的显示逻辑
@@ -158,7 +174,7 @@ export class EventManager {
       this.handleNewCarQuoteTypeChange();
     } else if (type === 'used') {
       this.handleUsedCarQuoteTypeChange();
-    } else if (type === 'newEnergyTax') {
+    } else if (type === 'newEnergy') {
       this.handleNewEnergyQuoteTypeChange();
     }
   }
@@ -175,6 +191,9 @@ export class EventManager {
     const fobContainer = Utils.getElement('fobShippingContainer');
     const value = this.quoteTypeState.new;
     
+    // 在切换前保存FOB的港杂费值
+    const fobPortCharges = Utils.getElementValue('portChargesFob');
+    
     // 隐藏所有容器
     if (cifContainer) Utils.toggleElement('cifShippingContainer', false);
     if (fobContainer) Utils.toggleElement('fobShippingContainer', false);
@@ -184,6 +203,13 @@ export class EventManager {
       if (cifContainer) {
         Utils.toggleElement('cifShippingContainer', true);
         Utils.addClass('cifShippingContainer', 'animate-fadeIn');
+        
+        // 如果从FOB切换到CIF，且FOB有港杂费值，则复制到CIF
+        if (fobPortCharges > 0) {
+          Utils.setElementValue('portCharges', fobPortCharges);
+          // 清空FOB港杂费值，避免重复计算
+          Utils.setElementValue('portChargesFob', '');
+        }
       }
     } else if (value === 'FOB') {
       if (fobContainer) {
@@ -202,6 +228,9 @@ export class EventManager {
     const fobContainer = Utils.getElement('usedFobShippingContainer');
     const value = this.quoteTypeState.used;
     
+    // 在切换前保存FOB的港杂费值
+    const fobPortCharges = Utils.getElementValue('usedPortChargesFob');
+    
     // 隐藏所有容器
     if (cifContainer) Utils.toggleElement('usedCifShippingContainer', false);
     if (fobContainer) Utils.toggleElement('usedFobShippingContainer', false);
@@ -211,6 +240,13 @@ export class EventManager {
       if (cifContainer) {
         Utils.toggleElement('usedCifShippingContainer', true);
         Utils.addClass('usedCifShippingContainer', 'animate-fadeIn');
+        
+        // 如果从FOB切换到CIF，且FOB有港杂费值，则复制到CIF
+        if (fobPortCharges > 0) {
+          Utils.setElementValue('usedPortCharges', fobPortCharges);
+          // 清空FOB港杂费值，避免重复计算
+          Utils.setElementValue('usedPortChargesFob', '');
+        }
       }
     } else if (value === 'FOB') {
       if (fobContainer) {
@@ -227,7 +263,10 @@ export class EventManager {
   handleNewEnergyQuoteTypeChange() {
     const cifContainer = Utils.getElement('newEnergyCifShippingContainer');
     const fobContainer = Utils.getElement('newEnergyFobShippingContainer');
-    const value = this.quoteTypeState.newEnergyTax;
+    const value = this.quoteTypeState.newEnergy;
+    
+    // 在切换前保存FOB的港杂费值
+    const fobPortCharges = Utils.getElementValue('newEnergyPortChargesFob');
     
     // 隐藏所有容器
     if (cifContainer) Utils.toggleElement('newEnergyCifShippingContainer', false);
@@ -238,6 +277,13 @@ export class EventManager {
       if (cifContainer) {
         Utils.toggleElement('newEnergyCifShippingContainer', true);
         Utils.addClass('newEnergyCifShippingContainer', 'animate-fadeIn');
+        
+        // 如果从FOB切换到CIF，且FOB有港杂费值，则复制到CIF
+        if (fobPortCharges > 0) {
+          Utils.setElementValue('newEnergyPortCharges', fobPortCharges);
+          // 清空FOB港杂费值，避免重复计算
+          Utils.setElementValue('newEnergyPortChargesFob', '');
+        }
       }
     } else if (value === 'FOB') {
       if (fobContainer) {
@@ -312,6 +358,9 @@ export class EventManager {
       Utils.getElement(currencyId)?.addEventListener('change', async (e) => {
         const currency = e.target.value;
         const formType = this.getFormTypeFromCurrencyId(currencyId);
+        
+        // 调用币种变化处理函数
+        this.handleCurrencyChange(formType, currency);
         
         if (currency) {
           // 获取新汇率并等待完成
@@ -450,6 +499,146 @@ export class EventManager {
     const value = this.quoteTypeState[type] || 'EXW';
     document.querySelectorAll('input[name="globalQuoteType"]').forEach(radio => {
       radio.checked = (radio.value === value);
+    });
+  }
+
+  // 同步币种选择
+  syncCurrencySelection(type, previousFormType) {
+    console.log('🔄 开始同步币种选择，目标表单类型:', type, '之前激活的表单类型:', previousFormType);
+    
+    // 如果找到了之前激活的表单类型，则同步币种
+    if (previousFormType) {
+      const previousCurrencyFieldId = this.getCurrencyFieldId(previousFormType);
+      const previousCurrencyElement = Utils.getElement(previousCurrencyFieldId);
+      const previousCurrency = previousCurrencyElement ? previousCurrencyElement.value : '';
+      
+      console.log('💰 之前表单的币种字段ID:', previousCurrencyFieldId);
+      console.log('💰 之前表单的币种元素:', previousCurrencyElement);
+      console.log('💰 之前表单的币种值:', previousCurrency);
+      
+      // 如果之前激活的表单有币种选择，则同步到新表单
+      if (previousCurrency && previousCurrency !== '') {
+        const targetCurrencyFieldId = this.getCurrencyFieldId(type);
+        const targetCurrencySelect = Utils.getElement(targetCurrencyFieldId);
+        
+        console.log('🎯 目标币种字段ID:', targetCurrencyFieldId);
+        console.log('🎯 目标币种选择器元素:', targetCurrencySelect);
+        console.log('🎯 目标币种选择器当前值:', targetCurrencySelect?.value);
+        
+        if (targetCurrencySelect && targetCurrencySelect.value !== previousCurrency) {
+          console.log('✅ 开始同步币种:', previousCurrency, '→', targetCurrencyFieldId);
+          targetCurrencySelect.value = previousCurrency;
+          
+          // 触发币种变化事件，更新汇率和UI
+          this.handleCurrencyChange(type, previousCurrency);
+          console.log('✅ 币种同步完成');
+        } else {
+          console.log('ℹ️ 币种值相同，无需同步');
+        }
+      } else {
+        console.log('⚠️ 之前表单没有有效的币种选择');
+      }
+      
+      // 同步表单字段值
+      this.syncFormFieldValues(type, previousFormType);
+    } else {
+      console.log('⚠️ 未找到之前激活的表单类型');
+    }
+  }
+  
+  // 同步表单字段值
+  syncFormFieldValues(targetFormType, sourceFormType) {
+    console.log('📋 开始同步表单字段值，目标表单:', targetFormType, '源表单:', sourceFormType);
+    
+    // 定义需要继承的字段映射
+    const fieldMappings = {
+      // 指导价
+      guidePrice: {
+        new: 'guidePrice',
+        used: 'usedGuidePrice', 
+        newEnergy: 'newEnergyGuidePrice'
+      },
+      // 优惠
+      discount: {
+        new: 'discount',
+        used: 'usedDiscount',
+        newEnergy: 'newEnergyDiscount'
+      },
+      // 选装
+      optionalEquipment: {
+        new: 'optionalEquipment',
+        used: 'usedOptionalEquipment',
+        newEnergy: 'newEnergyOptionalEquipment'
+      },
+      // 交强险
+      compulsoryInsurance: {
+        new: 'compulsoryInsurance',
+        used: 'usedCompulsoryInsurance',
+        newEnergy: 'newEnergyCompulsoryInsurance'
+      },
+      // 其他费用
+      otherExpenses: {
+        new: 'otherExpenses',
+        used: 'usedOtherExpenses',
+        newEnergy: 'newEnergyOtherExpenses'
+      },
+      // 运输费用
+      domesticShipping: {
+        new: 'domesticShipping',
+        used: 'usedDomesticShipping',
+        newEnergy: 'newEnergyDomesticShipping'
+      },
+      internationalShipping: {
+        new: 'internationalShipping',
+        used: 'usedInternationalShipping',
+        newEnergy: 'newEnergyInternationalShipping'
+      }
+    };
+    
+    // 遍历字段映射，同步每个字段的值
+    Object.keys(fieldMappings).forEach(fieldKey => {
+      const sourceFieldId = fieldMappings[fieldKey][sourceFormType];
+      const targetFieldId = fieldMappings[fieldKey][targetFormType];
+      
+      if (sourceFieldId && targetFieldId) {
+        const sourceElement = Utils.getElement(sourceFieldId);
+        const targetElement = Utils.getElement(targetFieldId);
+        const sourceValue = sourceElement ? sourceElement.value : '';
+        
+        console.log(`📝 同步字段 ${fieldKey}: ${sourceFieldId}(${sourceValue}) → ${targetFieldId}`);
+        
+        if (targetElement && sourceValue && sourceValue !== '' && sourceValue !== '0') {
+          // 只有源字段有有效值时才同步
+          targetElement.value = sourceValue;
+          console.log(`✅ 字段同步完成: ${fieldKey} = ${sourceValue}`);
+        } else {
+          console.log(`ℹ️ 跳过字段同步: ${fieldKey} (源值为空或目标元素不存在)`);
+        }
+      }
+    });
+    
+    console.log('📋 表单字段值同步完成');
+  }
+  
+  // 获取币种字段ID
+  getCurrencyFieldId(formType) {
+    const currencyMap = {
+      new: 'currency',
+      used: 'currencyUsed',
+      newEnergy: 'currencyNewEnergy'
+    };
+    return currencyMap[formType] || 'currency';
+  }
+  
+  // 处理币种变化
+  handleCurrencyChange(formType, currency) {
+    // 更新币种状态
+    this.currencyState[formType] = currency;
+    
+    // 更新汇率
+    this.exchangeRateManager.fetchExchangeRate(currency, formType).then(() => {
+      // 汇率更新完成后，重新计算最终报价
+      this.recalculateFinalQuote(formType);
     });
   }
   
@@ -640,7 +829,7 @@ export class EventManager {
       this.calculationEngine.calculateNewCarAll();
     } else if (activeFormType === 'used') {
       this.calculationEngine.calculateUsedCarAll();
-    } else if (activeFormType === 'newEnergyTax') {
+    } else if (activeFormType === 'newEnergy') {
       this.calculationEngine.calculateNewEnergyAll();
     }
   }

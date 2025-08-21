@@ -363,7 +363,8 @@ export class CalculationEngine {
     const domesticShipping = Utils.getElementValue('usedDomesticShipping');
     const portChargesCif = Utils.getElementValue('usedPortCharges');
     const portChargesFob = Utils.getElementValue('usedPortChargesFob');
-    const portCharges = portChargesCif + portChargesFob;
+    // 避免重复计算：如果CIF有值，则只使用CIF；否则使用FOB
+    const portCharges = portChargesCif > 0 ? portChargesCif : portChargesFob;
     const taxRefund = Utils.getElementValue('usedTaxRefund');
     
     const cacheKey = this.getCacheKey('used', 'purchaseCost', { 
@@ -525,7 +526,8 @@ export class CalculationEngine {
     const domesticShipping = Utils.getElementValue('newEnergyDomesticShipping');
     const portChargesCif = Utils.getElementValue('newEnergyPortCharges');
     const portChargesFob = Utils.getElementValue('newEnergyPortChargesFob');
-    const portCharges = portChargesCif + portChargesFob;
+    // 避免重复计算：如果CIF有值，则只使用CIF；否则使用FOB
+    const portCharges = portChargesCif > 0 ? portChargesCif : portChargesFob;
     const taxRefund = Utils.getElementValue('newEnergyTaxRefund');
     
     const cacheKey = this.getCacheKey('newEnergy', 'purchaseCost', { 
@@ -602,7 +604,8 @@ export class CalculationEngine {
       const domesticShipping = Utils.getElementValue('domesticShipping');
       const portChargesCif = Utils.getElementValue('portCharges');
       const portChargesFob = Utils.getElementValue('portChargesFob');
-      const portCharges = portChargesCif + portChargesFob;
+      // 避免重复计算：如果CIF有值，则只使用CIF；否则使用FOB
+      const portCharges = portChargesCif > 0 ? portChargesCif : portChargesFob;
       const compulsoryInsurance = Utils.getElementValue('compulsoryInsurance');
       const otherExpenses = Utils.getElementValue('otherExpenses');
       const taxRefund = Utils.getElementValue('taxRefund');

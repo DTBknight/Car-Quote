@@ -4,8 +4,8 @@ const config = {
   crawler: {
     concurrency: 2, // 并发数 - 提升为2，平衡性能和稳定性
     maxRetries: 3, // 最大重试次数 - 减少到3次，加快失败处理
-    timeout: 45000, // 单次页面超时 (ms) - 减少到45秒，更快失败恢复
-    protocolTimeout: 90000, // 协议层超时 (ms) - 减少到90秒
+    timeout: 60000, // 单次页面超时 (ms) - 增加到60秒，适应大品牌
+    protocolTimeout: 180000, // 协议层超时 (ms) - 增加到180秒，适应复杂页面
     pageWaitTime: 3000, // 页面加载后等待时间 (ms) - 减少等待时间
     imageWaitTime: 2000, // 图片加载后等待时间 (ms) - 减少等待时间
     globalTimeout: 1200000, // 全局超时 (20分钟) - 减少全局超时
@@ -32,13 +32,27 @@ const config = {
     imageRetryDelay: 1000, // 图片重试延迟 - 减少延迟
     maxImageRetries: 2, // 最大图片重试次数 - 减少重试
     imageTimeout: 30000, // 图片采集超时 - 减少超时
-    // 新增：图片采集优化配置
-    imageConcurrency: 4, // 配置级并发数 - 提升并发
-    colorConcurrency: 3, // 颜色级并发数 - 提升并发
-    pageTimeout: 20000, // 页面加载超时（图片采集专用）- 减少超时
-    colorPageTimeout: 15000, // 颜色页面超时 - 减少超时
-    pageWaitTime: 1500, // 页面等待时间（图片采集专用）- 减少等待
-    imageWaitTime: 1000 // 图片等待时间（图片采集专用）- 减少等待
+      // 图片采集配置（基于奥迪成功案例优化）
+  imageConcurrency: 2, // 配置级并发数 - 适度并发提升效率
+  colorConcurrency: 2, // 颜色级并发数 - 适度并发提升效率
+  pageTimeout: 45000, // 页面加载超时（图片采集专用）- 奥迪案例证明45秒足够
+  colorPageTimeout: 35000, // 颜色页面超时 - 35秒足够处理复杂页面
+  pageWaitTime: 3000, // 页面等待时间（图片采集专用）- 确保页面稳定
+  imageWaitTime: 2000, // 图片等待时间（图片采集专用）- 确保图片加载
+    
+    // 断点保存配置（所有品牌启用）
+    largeBrandThreshold: 0, // 所有品牌都启用断点保存（设为0表示无阈值限制）
+    enableAutoCheckpoint: true, // 启用自动断点保存
+    checkpointInterval: 2, // 每2个车型保存断点（更频繁保存）
+    maxExecutionTime: 3300000, // 55分钟最大执行时间（适应GitHub Actions）
+    
+              // 大品牌自动调整的超时配置倍数（基于奥迪成功案例优化）
+    largeBrandMultiplier: {
+      timeout: 3, // 页面超时倍数（奥迪案例证明3倍足够）
+      protocolTimeout: 4, // 协议超时倍数（4倍足够处理复杂网络）
+      globalTimeout: 3, // 全局超时倍数
+      maxRetries: 2 // 重试次数适中，平衡稳定性和速度
+    }
   },
 
   // 日志配置

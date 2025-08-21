@@ -896,6 +896,105 @@
       }
     }
   </style>
+  <style>
+    /* 自定义样式 */
+    .transition-custom {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    /* 色块导航箭头样式 */
+    .color-nav-btn {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: all 0.2s ease;
+      z-index: 10;
+    }
+    
+    .color-nav-btn:hover {
+      background-color: rgba(59, 130, 246, 0.1);
+      transform: scale(1.1);
+    }
+    
+    .color-nav-btn:active {
+      transform: scale(0.95);
+    }
+    
+    .color-nav-btn.left-arrow {
+      margin-right: 8px;
+    }
+    
+    .color-nav-btn.right-arrow {
+      margin-left: 8px;
+    }
+    
+    /* 色块容器样式 - 修复版 */
+    .color-swatches-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 8px 0;
+    }
+    
+    .color-swatches-inner {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      flex-shrink: 0;
+      height: 100%;
+      position: absolute;
+      left: 0;
+    }
+    
+    /* 色块样式优化 */
+    .color-swatch {
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      cursor: pointer;
+      margin: 0;
+    }
+    
+    .color-swatch:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    
+    .color-swatch.active {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      border-color: #3b82f6;
+    }
+    
+    /* 响应式调整 */
+    @media (max-width: 640px) {
+      .color-nav-btn {
+        width: 28px;
+        height: 28px;
+      }
+      
+      .color-swatch {
+        width: 20px;
+        height: 20px;
+      }
+      
+      .color-swatches-wrapper {
+        min-height: 36px;
+        padding: 6px 0;
+      }
+    }
+  </style>
 </head>
 
 <body class="font-inter bg-gray-50 text-dark min-h-screen transition-custom" id="mainBody" data-theme="light">
@@ -1124,7 +1223,7 @@
               <button type="button" class="export-type-btn h-10 md:h-14 flex items-center justify-center px-2 md:px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom text-xs md:text-base w-full md:flex-1" data-type="used">
                 <i class="fa-solid fa-car-rear mr-1 md:mr-2"></i><span class="sm:inline">二手车</span>
               </button>
-              <button type="button" class="export-type-btn h-10 md:h-14 flex items-center justify-center px-2 md:px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom text-xs md:text-base w-full md:flex-1" data-type="newEnergyTax">
+              <button type="button" class="export-type-btn h-10 md:h-14 flex items-center justify-center px-2 md:px-6 py-2 rounded-lg font-medium border border-gray-300 text-gray-700 bg-white shadow-sm transition-custom text-xs md:text-base w-full md:flex-1" data-type="newEnergy">
                 <i class="fa-solid fa-bolt mr-1 md:mr-2"></i><span class="sm:inline">新能源车</span>
               </button>
             </div>
