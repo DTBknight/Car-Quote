@@ -1736,8 +1736,9 @@ class DataCollector {
       return false;
     }
     
-    // 检查车型名称是否包含无效字符
-    const invalidChars = ['/', '\\', '|', ':', '*', '?', '"', '<', '>'];
+    // 检查车型名称是否包含真正有害的字符（文件系统不允许的字符）
+    // 允许冒号、点号等常见特殊字符，这些在车型名称中很常见
+    const invalidChars = ['/', '\\', '|', '*', '?', '"', '<', '>'];
     if (invalidChars.some(char => carBasicInfo.carName.includes(char))) {
       console.warn(`⚠️ 车型名称包含无效字符: "${carBasicInfo.carName}"`);
       return false;

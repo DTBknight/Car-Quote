@@ -538,7 +538,8 @@ export class CarSearch {
           parts.push(`<span class="text-gray-600">${configName}</span>`);
         }
         
-        displayContent = parts.join(' <span class="text-gray-400">-</span> ');
+        // 使用空格分隔，而不是短横线，与输入框显示保持一致
+        displayContent = parts.join(' ');
         
         contentDiv.innerHTML = `<div class="text-sm truncate">${displayContent}</div>`;
         div.appendChild(contentDiv);
@@ -587,8 +588,50 @@ export class CarSearch {
   // 选择车型
   selectCar(car, config) {
     
-    // 确保displayText不为undefined
+    // 构建完整的显示文本：品牌+车型+配置
     let displayText = '';
+    const parts = [];
+    
+    // 获取品牌名称
+    const brandName = car.brand || car.brandCn || car.brandEn || car.seriesName || '';
+    if (brandName) {
+      parts.push(brandName);
+    }
+    
+    // 获取车型名称
+    let carName = car.carName || car.name || '';
+    if (carName) {
+      // 如果车型名包含品牌名，则去除品牌名部分
+      if (brandName && carName.includes(brandName)) {
+        carName = carName.replace(brandName, '').trim();
+      }
+      if (carName) {
+        parts.push(carName);
+      }
+    }
+    
+    // 获取配置名称
+    let configName = '';
+    if (config && config.configName) {
+      configName = config.configName;
+      // 如果配置名包含车型名，则只显示配置名的差异部分
+      if (carName && configName.includes(carName)) {
+        configName = configName.replace(carName, '').trim();
+      }
+      // 如果配置名包含品牌名，也去除品牌名
+      if (brandName && configName.includes(brandName)) {
+        configName = configName.replace(brandName, '').trim();
+      }
+      if (configName) {
+        parts.push(configName);
+      }
+    }
+    
+    // 组合显示文本
+    displayText = parts.join(' ');
+    
+    // 如果没有构建出有效文本，使用默认值
+    if (!displayText.trim()) {
     if (config && config.configName) {
       displayText = config.configName;
     } else if (car && car.carName) {
@@ -597,6 +640,7 @@ export class CarSearch {
       displayText = car.name;
     } else {
       displayText = '未知车型';
+      }
     }
     
     const carInput = Utils.getElement('searchCarInput');
@@ -1151,7 +1195,7 @@ export class CarSearch {
     }
   }
   
-      // 设置颜色选择器
+  // 设置颜色选择器
   setupColorSelector(carData, colorSwatchesContainer, carMainImageBox) {
     if (!carData.exteriorImages || carData.exteriorImages.length === 0) {
       colorSwatchesContainer.innerHTML = '';
@@ -1162,14 +1206,14 @@ export class CarSearch {
     // 有数据时显示容器
     colorSwatchesContainer.style.display = 'flex';
     
-          const exteriorImages = carData.exteriorImages;
+    const exteriorImages = carData.exteriorImages;
       const maxVisible = 5; // 默认显示5个色块
       const totalColors = exteriorImages.length;
-      
-      // 创建颜色选择器HTML
-      let colorSwatchesHTML = '';
-      
-      // 添加左箭头（如果颜色数量超过5个）
+    
+    // 创建颜色选择器HTML
+    let colorSwatchesHTML = '';
+    
+    // 添加左箭头（如果颜色数量超过5个）
       if (totalColors > maxVisible) {
       colorSwatchesHTML += `
         <button class="color-nav-btn left-arrow text-gray-400 hover:text-gray-600 transition-colors p-2 rounded-full hover:bg-gray-100" 
@@ -1468,11 +1512,15 @@ export class CarSearch {
       const isActive = index === 0; // 第一个颜色为默认选中
       const colorName = colorData.name || `颜色${index + 1}`;
       
+      // 获取配置信息
+      const configInfo = this.getConfigInfoForColor(carData, colorData);
+      
       colorSwatchesHTML += `
         <div class="color-swatch ${isActive ? 'active' : ''}" 
              data-index="${index}" 
              data-image="${colorData.mainImage}"
              data-color-name="${colorName}"
+             data-config-info="${configInfo}"
              style="${this.generateColorSwatchStyle(colorData, isActive)}">
         </div>
       `;
@@ -1596,6 +1644,8 @@ export class CarSearch {
     const imageBox = document.querySelector('#exteriorImageBox img');
     if (imageBox) {
       imageBox.src = imageUrl;
+      // 更新双击事件
+      imageBox.addEventListener('dblclick', () => this.openImageModal(imageUrl, colorName, '外观图片'));
     }
     
     const colorNameElement = document.querySelector('#exteriorColorName');
@@ -1674,11 +1724,15 @@ export class CarSearch {
       const isActive = index === 0; // 第一个颜色为默认选中
       const colorName = colorData.name || `颜色${index + 1}`;
       
+      // 获取配置信息
+      const configInfo = this.getConfigInfoForInteriorColor(carData, colorData);
+      
       colorSwatchesHTML += `
         <div class="color-swatch ${isActive ? 'active' : ''}" 
              data-index="${index}" 
              data-image="${colorData.mainImage}"
              data-color-name="${colorName}"
+             data-config-info="${configInfo}"
              style="${this.generateColorSwatchStyle(colorData, isActive)}">
         </div>
       `;
@@ -1825,9 +1879,29 @@ export class CarSearch {
       modalImage.src = imageUrl;
       modalImage.alt = imageAlt;
       
+      // 获取当前车型数据
+      const currentCar = this.getCurrentCarData();
+      let titleText = imageAlt;
+      let subtitleText = imageType;
+      
+      if (currentCar) {
+        // 第一行：品牌+车型+配置
+        const brandName = currentCar.brand || '未知品牌';
+        const carName = currentCar.name || currentCar.carName || '未知车型';
+        const configName = this.getCurrentConfigName(imageType);
+        titleText = `${brandName} ${carName}`;
+        if (configName) {
+          titleText += ` ${configName}`;
+        }
+        
+        // 第二行：色块+颜色名称
+        const colorName = this.getCurrentColorName(imageType);
+        subtitleText = `${imageType} | ${colorName}`;
+      }
+      
       // 设置标题和副标题
-      modalImageTitle.textContent = imageAlt;
-      modalImageSubtitle.textContent = imageType;
+      modalImageTitle.textContent = titleText;
+      modalImageSubtitle.textContent = subtitleText;
       
       // 显示弹窗
       modal.classList.remove('hidden');
@@ -1839,6 +1913,94 @@ export class CarSearch {
       // 阻止页面滚动
       document.body.style.overflow = 'hidden';
     }
+  }
+  
+  // 获取当前车型数据
+  getCurrentCarData() {
+    // 从搜索历史或当前显示中获取车型数据
+    if (this.searchHistory && this.searchHistory.length > 0) {
+      const lastSearch = this.searchHistory[this.searchHistory.length - 1];
+      if (lastSearch && lastSearch.carData) {
+        return lastSearch.carData;
+      }
+    }
+    
+    // 如果没有搜索历史，尝试从当前页面获取
+    const searchInput = Utils.getElement('searchInput');
+    if (searchInput && searchInput.value) {
+      // 尝试从当前页面状态获取车型数据
+      const currentCarName = searchInput.value;
+      
+      // 在所有车型中查找匹配的车型
+      for (const brand of this.allCars) {
+        if (brand.cars && Array.isArray(brand.cars)) {
+          for (const car of brand.cars) {
+            if (car.name === currentCarName || car.carName === currentCarName) {
+              return {
+                ...car,
+                brand: brand.name || brand.brandName || '未知品牌'
+              };
+            }
+          }
+        }
+      }
+    }
+    
+    return null;
+  }
+  
+  // 获取当前配置名称
+  getCurrentConfigName(imageType) {
+    // 根据图片类型获取对应的配置名称
+    if (imageType === '外观图片') {
+      const exteriorSelector = Utils.getElement('exteriorColorSelector');
+      if (exteriorSelector) {
+        const activeSwatch = exteriorSelector.querySelector('.color-swatch.active');
+        if (activeSwatch) {
+          const configInfo = activeSwatch.getAttribute('data-config-info');
+          if (configInfo) {
+            return configInfo;
+          }
+        }
+      }
+    } else if (imageType === '内饰图片') {
+      const interiorSelector = Utils.getElement('interiorColorSelector');
+      if (interiorSelector) {
+        const activeSwatch = interiorSelector.querySelector('.color-swatch.active');
+        if (activeSwatch) {
+          const configInfo = activeSwatch.getAttribute('data-config-info');
+          if (configInfo) {
+            return configInfo;
+          }
+        }
+      }
+    }
+    
+    // 如果没有找到配置信息，尝试从当前车型数据获取
+    const currentCar = this.getCurrentCarData();
+    if (currentCar && currentCar.configs && Array.isArray(currentCar.configs)) {
+      // 返回第一个配置的名称作为默认值
+      return currentCar.configs[0]?.name || '';
+    }
+    
+    return '';
+  }
+  
+  // 获取当前颜色名称
+  getCurrentColorName(imageType) {
+    if (imageType === '外观图片') {
+      const colorNameElement = Utils.getElement('exteriorColorName');
+      if (colorNameElement && colorNameElement.textContent) {
+        return colorNameElement.textContent;
+      }
+    } else if (imageType === '内饰图片') {
+      const colorNameElement = Utils.getElement('interiorColorName');
+      if (colorNameElement && colorNameElement.textContent) {
+        return colorNameElement.textContent;
+      }
+    }
+    
+    return '未知颜色';
   }
   
   // 关闭图片弹窗
@@ -1877,4 +2039,46 @@ export class CarSearch {
       });
     }
   }
-}
+
+  // 获取配置信息
+  getConfigInfoForColor(carData, colorData) {
+    // 尝试从车型数据中获取配置信息
+    if (carData.configs && Array.isArray(carData.configs)) {
+      // 查找包含当前颜色的配置
+      for (const config of carData.configs) {
+        if (config.exteriorImages && Array.isArray(config.exteriorImages)) {
+          const hasColor = config.exteriorImages.some(img => 
+            img.name === colorData.name || img.mainImage === colorData.mainImage
+          );
+          if (hasColor && config.name) {
+            return config.name;
+          }
+        }
+      }
+    }
+    
+    // 如果没有找到具体配置，返回车型名称
+    return carData.name || carData.carName || '';
+  }
+
+  // 获取内饰颜色配置信息
+  getConfigInfoForInteriorColor(carData, colorData) {
+    // 尝试从车型数据中获取配置信息
+    if (carData.configs && Array.isArray(carData.configs)) {
+      // 查找包含当前颜色的配置
+      for (const config of carData.configs) {
+        if (config.interiorImages && Array.isArray(config.interiorImages)) {
+          const hasColor = config.interiorImages.some(img => 
+            img.name === colorData.name || img.mainImage === colorData.mainImage
+          );
+          if (hasColor && config.name) {
+            return config.name;
+          }
+        }
+      }
+    }
+    
+    // 如果没有找到具体配置，返回车型名称
+    return carData.name || carData.carName || '';
+  }
+} 
