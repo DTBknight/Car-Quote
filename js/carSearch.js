@@ -697,7 +697,12 @@ export class CarSearch {
       }
       
       if (exteriorImageUrl) {
-        exteriorImageBox.innerHTML = `<img src="${exteriorImageUrl}" alt="${imageAlt}" class="w-full h-full object-cover">`;
+        exteriorImageBox.innerHTML = `<img src="${exteriorImageUrl}" alt="${imageAlt}" class="w-full h-full object-cover cursor-pointer" data-image-type="exterior" data-image-url="${exteriorImageUrl}" data-image-alt="${imageAlt}">`;
+        // 添加双击事件
+        const exteriorImg = exteriorImageBox.querySelector('img');
+        if (exteriorImg) {
+          exteriorImg.addEventListener('dblclick', () => this.openImageModal(exteriorImageUrl, imageAlt, '外观图片'));
+        }
       } else {
         exteriorImageBox.innerHTML = `
           <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
@@ -718,7 +723,12 @@ export class CarSearch {
       }
       
       if (interiorImageUrl) {
-        interiorImageBox.innerHTML = `<img src="${interiorImageUrl}" alt="${imageAlt}" class="w-full h-full object-cover">`;
+        interiorImageBox.innerHTML = `<img src="${interiorImageUrl}" alt="${imageAlt}" class="w-full h-full object-cover cursor-pointer" data-image-type="interior" data-image-url="${interiorImageUrl}" data-image-alt="${imageAlt}">`;
+        // 添加双击事件
+        const interiorImg = interiorImageBox.querySelector('img');
+        if (interiorImg) {
+          interiorImg.addEventListener('dblclick', () => this.openImageModal(interiorImageUrl, imageAlt, '内饰图片'));
+        }
       } else {
         interiorImageBox.innerHTML = `
           <div class="flex flex-col items-center justify-center text-gray-400 w-full h-full">
@@ -1792,12 +1802,79 @@ export class CarSearch {
     const imageBox = document.querySelector('#interiorImageBox img');
     if (imageBox) {
       imageBox.src = imageUrl;
+      // 更新双击事件
+      imageBox.addEventListener('dblclick', () => this.openImageModal(imageUrl, colorName, '内饰图片'));
     }
     
     const colorNameElement = document.querySelector('#interiorColorName');
     if (colorNameElement) {
       colorNameElement.textContent = colorName;
       console.log('🎨 内饰色块名称更新:', colorName);
+    }
+  }
+  
+  // 打开图片弹窗
+  openImageModal(imageUrl, imageAlt, imageType) {
+    const modal = Utils.getElement('imageModal');
+    const modalImage = Utils.getElement('modalImage');
+    const modalImageTitle = Utils.getElement('modalImageTitle');
+    const modalImageSubtitle = Utils.getElement('modalImageSubtitle');
+    
+    if (modal && modalImage && modalImageTitle && modalImageSubtitle) {
+      // 设置图片
+      modalImage.src = imageUrl;
+      modalImage.alt = imageAlt;
+      
+      // 设置标题和副标题
+      modalImageTitle.textContent = imageAlt;
+      modalImageSubtitle.textContent = imageType;
+      
+      // 显示弹窗
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      
+      // 绑定关闭事件
+      this.bindModalEvents();
+      
+      // 阻止页面滚动
+      document.body.style.overflow = 'hidden';
+    }
+  }
+  
+  // 关闭图片弹窗
+  closeImageModal() {
+    const modal = Utils.getElement('imageModal');
+    if (modal) {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      
+      // 恢复页面滚动
+      document.body.style.overflow = 'auto';
+    }
+  }
+  
+  // 绑定弹窗事件
+  bindModalEvents() {
+    const modal = Utils.getElement('imageModal');
+    const closeBtn = Utils.getElement('closeImageModal');
+    
+    if (modal && closeBtn) {
+      // 关闭按钮点击事件
+      closeBtn.addEventListener('click', () => this.closeImageModal());
+      
+      // 点击弹窗背景关闭
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          this.closeImageModal();
+        }
+      });
+      
+      // ESC键关闭弹窗
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          this.closeImageModal();
+        }
+      });
     }
   }
 }

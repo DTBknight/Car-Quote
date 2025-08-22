@@ -3,82 +3,336 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/tos-cn-i-dcdx/6e4a8cc4cdc842b6b2b94d24f18a4c8c~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 25095,
       "carName": "U7 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e2c9d2c7ef2c4fd39711718ecbef6870~1200x0.png",
       "configs": [
         {
-          "configName": "仰望U7 PHEV 2025款 五座豪华版",
+          "configName": "2025款 五座豪华版",
+          "configId": "242312",
+          "index": 0,
           "price": "62.8万",
-          "fuelType": "插电式混合动力",
-          "size": "5360x2000x1515",
           "manufacturer": "仰望",
           "class": "大型车",
-          "power": "插电式混合动力 1306马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 H4 插电式混动",
+          "size": "5360x2000x1515",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#1B1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_86dddfee9509c717123d7cd4bae41e82~2508x0.webp"
+            },
+            {
+              "name": "月耀银",
+              "colors": [
+                "#E3E3E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a63aabd606a4e0b210d54756392ef1aa~2508x0.webp"
+            },
+            {
+              "name": "萤石白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67bf81371982343ac78355aa5601aa13~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云锦红",
+              "colors": [
+                "#862020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/602f5bc61ed652660b8aa83740784c09~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_86dddfee9509c717123d7cd4bae41e82~2508x0.webp"
         },
         {
-          "configName": "仰望U7 PHEV 2025款 四座旗舰版",
+          "configName": "2025款 四座旗舰版",
+          "configId": "246673",
+          "index": 1,
           "price": "70.8万",
-          "fuelType": "插电式混合动力",
-          "size": "5360x2000x1515",
           "manufacturer": "仰望",
           "class": "大型车",
-          "power": "插电式混合动力 1306马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 H4 插电式混动",
+          "size": "5360x2000x1515",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#1B1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0259f4623ece4a4f5cd7b2fcfd0f0dce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云锦红",
+              "colors": [
+                "#862020"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_7d7404e875d007f5bd66aab1c094a335~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0259f4623ece4a4f5cd7b2fcfd0f0dce~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6346,
       "carName": "U9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6195d40f76094de58e41c188eed778fa~1200x0.png",
       "configs": [
         {
-          "configName": "仰望U9 2024款 标准版",
+          "configName": "2024款 标准版",
+          "configId": "81234",
+          "index": 0,
           "price": "168万",
-          "fuelType": "纯电动",
-          "size": "4966x2029x1311",
           "manufacturer": "仰望",
           "class": "跑车",
-          "power": "纯电动 1306马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1306马力",
+          "size": "4966x2029x1311",
+          "exteriorImages": [
+            {
+              "name": "阿盖尔紫",
+              "colors": [
+                "#7991C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae1098db67709cf0a83dae101af54b6~2508x0.webp"
+            },
+            {
+              "name": "月耀银",
+              "colors": [
+                "#E3E3E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/916a79b6b33e255b7dce30d5f196d397~2508x0.webp"
+            },
+            {
+              "name": "赤霞丹朱",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/134bc1d493e6cca41c1117355d0c5d91~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云紫",
+              "colors": [
+                "#79598E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02ba171c3575ae5c50fbc80ce75d9f8d~2508x0.webp"
+            },
+            {
+              "name": "赤曜红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cc933121fda6caa3f6e1651aa911f75~2508x0.webp"
+            },
+            {
+              "name": "日珥橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f71c6a53475f154db829a06372bf39f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae1098db67709cf0a83dae101af54b6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6235,
       "carName": "U8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/52aae92688524f06853616d11af20bb9~1200x0.png",
       "configs": [
         {
-          "configName": "仰望U8 2023款 豪华版",
+          "configName": "2023款 豪华版",
+          "configId": "79464",
+          "index": 0,
           "price": "109.8万",
-          "fuelType": "增程式",
-          "size": "5319x2050x1930",
           "manufacturer": "仰望",
           "class": "大型SUV",
-          "power": "增程式 1197马力"
+          "fuelType": "增程式",
+          "power": "纯电动 1197马力",
+          "size": "5319x2050x1930",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#1B1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82499aa89c0f5dcb35deb4080587c78f~2508x0.webp"
+            },
+            {
+              "name": "龙石绿",
+              "colors": [
+                "#B2DAC3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9e8f0c2ec7024bb5559c9ac3e12a94a~2508x0.webp"
+            },
+            {
+              "name": "哑光龙石绿",
+              "colors": [
+                "#B3DBC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/549d98a6b730946f77340e807f379df4~2508x0.webp"
+            },
+            {
+              "name": "哑光月光银",
+              "colors": [
+                "#F5F5F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1515a1f2f97a99d7e570d740b7c84152~2508x0.webp"
+            },
+            {
+              "name": "萤石白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0f4f575002f5ef713aac088c30f5bce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd49a6495a5829109f06540f126bb5d1~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#000000",
+                "#E6823B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/907852de3b4b5871785bc22e68a2f900~2508x0.webp"
+            },
+            {
+              "name": "灰色/棕色",
+              "colors": [
+                "#CFCFCF",
+                "#885F3E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de9f45f79dfd4565fc18c3723658a337~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/82499aa89c0f5dcb35deb4080587c78f~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9324,
       "carName": "U7 EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a9cf23eda41e4de4a9c7ecbc0486deed~1200x0.png",
       "configs": [
         {
-          "configName": "仰望U7 EV 2025款 五座豪华版",
+          "configName": "2025款 五座豪华版",
+          "configId": "242310",
+          "index": 0,
           "price": "62.8万",
-          "fuelType": "纯电动",
-          "size": "5265x1998x1517",
           "manufacturer": "仰望",
           "class": "大型车",
-          "power": "纯电动 1306马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1306马力",
+          "size": "5265x1998x1517",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#1B1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/997bb757beafcd48d7a747153dd713e4~2508x0.webp"
+            },
+            {
+              "name": "阿盖尔紫",
+              "colors": [
+                "#7991C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2b0394ca81a2fca0d4c41a4d7649e2d~2508x0.webp"
+            },
+            {
+              "name": "月耀银",
+              "colors": [
+                "#E3E3E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_672df10b2e7caa7d2e81877d4646f3a6~2508x0.webp"
+            },
+            {
+              "name": "萤石白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_079ff44d4f3c2543e14a4189f997a7e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云锦红",
+              "colors": [
+                "#862020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c3244ae94d18c977cd461b074d7d6c40~2508x0.webp"
+            },
+            {
+              "name": "珠缎白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/749635ec43caff0cbebada60675888f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/997bb757beafcd48d7a747153dd713e4~2508x0.webp"
         },
         {
-          "configName": "仰望U7 EV 2025款 四座旗舰版",
+          "configName": "2025款 四座旗舰版",
+          "configId": "242311",
+          "index": 1,
           "price": "70.8万",
-          "fuelType": "纯电动",
-          "size": "5265x1998x1517",
           "manufacturer": "仰望",
           "class": "大型车",
-          "power": "纯电动 1306马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1306马力",
+          "size": "5265x1998x1517",
+          "exteriorImages": [
+            {
+              "name": "月耀银",
+              "colors": [
+                "#E3E3E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0be0201f0b694c681a8be2d5e42b4404~2508x0.webp"
+            },
+            {
+              "name": "萤石白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f4a28ac7feeeaa2d8c0758e0c9d0487~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云锦红",
+              "colors": [
+                "#862020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec88ac2e1d71cb09952a75dd922acb8e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0be0201f0b694c681a8be2d5e42b4404~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T10:55:02.072Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

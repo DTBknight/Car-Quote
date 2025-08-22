@@ -1,0 +1,79 @@
+{
+  "brand": "FormulaLeopard",
+  "timestamp": "2025-08-22T10:43:05.249Z",
+  "crawlSummary": {
+    "totalCars": 3,
+    "successCount": 3,
+    "failCount": 0,
+    "totalTime": "5分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 9249,
+        "carName": "钛3",
+        "configCount": 5,
+        "exteriorColorCount": 20,
+        "interiorColorCount": 10,
+        "status": "completed"
+      },
+      {
+        "carId": 8884,
+        "carName": "豹5",
+        "configCount": 8,
+        "exteriorColorCount": 40,
+        "interiorColorCount": 24,
+        "status": "completed"
+      },
+      {
+        "carId": 9246,
+        "carName": "豹8",
+        "configCount": 8,
+        "exteriorColorCount": 19,
+        "interiorColorCount": 14,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 79,
+    "totalInteriorColors": 48,
+    "exteriorColorTypes": [
+      "曜石黑",
+      "矿石绿",
+      "星月银",
+      "元素白",
+      "夜影黑",
+      "冰原蓝",
+      "巅峰灰",
+      "山脉绿",
+      "胡杨金",
+      "雪域白",
+      "边界蓝",
+      "破晓金"
+    ],
+    "interiorColorTypes": [
+      "深空黑",
+      "星云灰",
+      "日蚀蓝",
+      "浅滩绿",
+      "塔漠米",
+      "暗夜黑",
+      "野麦黄",
+      "雪峰白"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

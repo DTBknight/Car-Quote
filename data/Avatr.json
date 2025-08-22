@@ -3,397 +3,2235 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/653ad03cc7fd49abbe5e6b6fe2a7e2ce~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 10230,
       "carName": "06",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/31eb3a52bb094a7f871f92279e065a39~1200x0.png",
       "configs": [
         {
-          "configName": "阿维塔 06 2025款 Pro 增程版",
+          "configName": "2025款 Pro 增程版",
+          "configId": "246137",
+          "index": 0,
           "price": "20.99万",
-          "fuelType": "增程式",
-          "size": "4855x1960x1467",
           "manufacturer": "阿维塔科技",
           "class": "中型车",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "4855x1960x1467",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de080eb9a30b243ee9ed7a278c9f1ae2~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bcef30d7fb4d0359ab491c436a5bbb94~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e97e19c2dc54c9d6ee20389e4e9143ef~2508x0.webp"
+            },
+            {
+              "name": "烟紫/黑色",
+              "colors": [
+                "#D2CDD5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a590b97db8c01d9d585e125a63e0688b~2508x0.webp"
+            },
+            {
+              "name": "丹红/黑色",
+              "colors": [
+                "#D38E86",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ce8d691713d065c739088d1cb89d1d04~2508x0.webp"
+            },
+            {
+              "name": "皓白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_45bc0ae9b48e74f8af10f3d7453440f5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#342F36"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_846d16a2e063dc393dce79cc7bfa7fb6~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_931a950d32eb67d7a6f9ad13b05c9676~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#981313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6e9fa232629e6e7b4257f544b04adb46~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de080eb9a30b243ee9ed7a278c9f1ae2~2508x0.webp"
         },
         {
-          "configName": "阿维塔 06 2025款 Max 增程版",
+          "configName": "2025款 Max 增程版",
+          "configId": "241902",
+          "index": 1,
           "price": "23.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中型车",
           "fuelType": "增程式",
+          "power": "纯电动 314马力",
           "size": "4855x1960x1450",
-          "manufacturer": "阿维塔科技",
-          "class": "中型车",
-          "power": "增程式 314马力"
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8624702af622f2f67636fa1ff6c23100~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7871d15cb2925ed5f2912ec34c9214e3~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c1b9ecc2a6117bf4e18ed0839062aee~2508x0.webp"
+            },
+            {
+              "name": "烟紫/黑色",
+              "colors": [
+                "#D2CDD5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_556cf66410f2ca3521429344a0e63a7c~2508x0.webp"
+            },
+            {
+              "name": "丹红/黑色",
+              "colors": [
+                "#D38E86",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dadbd45e8e4f8a64e3f49b8f6e7f667d~2508x0.webp"
+            },
+            {
+              "name": "皓白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_271428c0af5e77297812e1cdbb26e7a4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#342F36"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_86eb424da14ed4e522ce07e49ffdee86~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c66e95ce954f1e2ce76b14463b97e59f~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#981313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_248b379b04fafebd6d7c6ea8516f4b64~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8624702af622f2f67636fa1ff6c23100~2508x0.webp"
         },
         {
-          "configName": "阿维塔 06 2025款 Pro 纯电版",
+          "configName": "2025款 Pro 纯电版",
+          "configId": "243323",
+          "index": 2,
           "price": "21.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中型车",
           "fuelType": "纯电动",
+          "power": "纯电动 343马力",
           "size": "4855x1960x1467",
-          "manufacturer": "阿维塔科技",
-          "class": "中型车",
-          "power": "纯电动 343马力"
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cf0e53d2e2b6a48f12c1e744faeabb6~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d2d5076bac35f49262151bdf794548c7~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eaa0a3dbe2d2cde0986b96514cca9441~2508x0.webp"
+            },
+            {
+              "name": "烟紫/黑色",
+              "colors": [
+                "#D2CDD5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc2b297f666e5565323706f1b3d4f500~2508x0.webp"
+            },
+            {
+              "name": "丹红/黑色",
+              "colors": [
+                "#D38E86",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e61a89e1d7d77053c74772ee62e1950~2508x0.webp"
+            },
+            {
+              "name": "皓白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3680059c7b433fb6613ab0fa19ea94e3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#342F36"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3174ae9eda15d541d2d950f734d8d3fa~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_54f3bc95f732022288599842b2e19ade~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#981313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d406318575abf3be7638cd55bf68983~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cf0e53d2e2b6a48f12c1e744faeabb6~2508x0.webp"
         },
         {
-          "configName": "阿维塔 06 2025款 Max 纯电版",
+          "configName": "2025款 Max 纯电版",
+          "configId": "246666",
+          "index": 3,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4855x1960x1450",
           "manufacturer": "阿维塔科技",
           "class": "中型车",
-          "power": "纯电动 343马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 343马力",
+          "size": "4855x1960x1450",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aae33e7184a8c363fad04bbffcef468c~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4080084f7e008e221ae6a2b0f523bbc9~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e9f090086ceeb0730739c9cc2178da3c~2508x0.webp"
+            },
+            {
+              "name": "烟紫/黑色",
+              "colors": [
+                "#D2CDD5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a36772926079e7352e1ef930b414f57~2508x0.webp"
+            },
+            {
+              "name": "丹红/黑色",
+              "colors": [
+                "#D38E86",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_07002b6616e2a9afa9357ebb232f704e~2508x0.webp"
+            },
+            {
+              "name": "皓白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8c293c7d7dd688d096597c85c969627f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#342F36"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ada6d4fbf8ffb48f72a7b130e595927~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf552dccf9de22df810a8e1d56e907ff~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#981313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ffcc51c1ff107af32d91750a09f7979~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aae33e7184a8c363fad04bbffcef468c~2508x0.webp"
         },
         {
-          "configName": "阿维塔 06 2025款 Ultra 四驱纯电版",
+          "configName": "2025款 Ultra 四驱纯电版",
+          "configId": "101496",
+          "index": 4,
           "price": "27.99万",
-          "fuelType": "纯电动",
-          "size": "4855x1960x1450",
           "manufacturer": "阿维塔科技",
           "class": "中型车",
-          "power": "纯电动 598马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 598马力",
+          "size": "4855x1960x1450",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e3476e3277ca92a007ac2b770c51b7a~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69acb106d7ff12b9e0e625d0942451fe~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2c92ad9b25cc224e52dd2a719f453ab~2508x0.webp"
+            },
+            {
+              "name": "烟紫/黑色",
+              "colors": [
+                "#D2CDD5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a5c718e5642f03e12897de7b9ad5de2~2508x0.webp"
+            },
+            {
+              "name": "丹红/黑色",
+              "colors": [
+                "#D38E86",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14973b29f0da827dd7c356d9896264b4~2508x0.webp"
+            },
+            {
+              "name": "皓白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cec70b694dc04da416ab832ad5e21186~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#342F36"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c21a3f2b9b5eadd6bdc2fb5acdc5297d~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4833467cf0f28ffabf04ceddd4ec632d~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#981313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_99114d0629774a6667280c2ba095f2cb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e3476e3277ca92a007ac2b770c51b7a~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5308,
       "carName": "11",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8a9541ebee1146869c8a91857a83a361~1200x0.png",
       "configs": [
         {
-          "configName": "阿维塔 11 2025款 改款 Max后驱增程版",
+          "configName": "2025款 改款 Max后驱增程版",
+          "configId": "247933",
+          "index": 0,
           "price": "28.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 314马力",
           "size": "4895x1970x1601",
-          "manufacturer": "阿维塔科技",
-          "class": "中大型SUV",
-          "power": "增程式 314马力"
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f29cd966b725361f17d9dd3b99653ab6~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_072ec601e8a84b495094edc4bf63cccd~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_08903b6bbcdadc81c854f522bad04084~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#562F6F",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8855542221b62853ad8c13288d54972~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_098f7767949ab214d72ab992c9dab5f4~2508x0.webp"
+            },
+            {
+              "name": "青灰",
+              "colors": [
+                "#C3C2C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e0b5a60c9b5b223916899c809599e42b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f29cd966b725361f17d9dd3b99653ab6~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 Max后驱纯电版",
+          "configName": "2025款 Max后驱纯电版",
+          "configId": "247934",
+          "index": 1,
           "price": "30.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 322马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 322马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3db5687ae9c30f7e6c62a7f1e9aee712~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee4e756bc0380b52b40528896b1d2fe3~2508x0.webp"
+            },
+            {
+              "name": "晖金",
+              "colors": [
+                "#E6CDBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_25c8c07a01ff1fad6e53ad4173a857ba~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#562F6F",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_327264e79cdd2c5ab9aea47167e121fd~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d21b39122ea1574524d49d9ad0489fa~2508x0.webp"
+            },
+            {
+              "name": "青灰",
+              "colors": [
+                "#C3C2C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b24f49db7b0425add18c778559cc5d7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3db5687ae9c30f7e6c62a7f1e9aee712~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 Max四驱纯电版",
+          "configName": "2025款 Max四驱纯电版",
+          "configId": "247941",
+          "index": 2,
           "price": "32.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea8c2e63abb8f1bf554bf6e60b31aef2~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f0db37504408b9f9a47ba5c3d9365ffc~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c202a5f4e4f0337d760e5d7b3e668390~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#562F6F",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6a6f003d496c42862244952779e6f2ad~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_13ad24fbd940e2efdde31ca38af9869b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea8c2e63abb8f1bf554bf6e60b31aef2~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 改款 Ultra四驱纯电版",
+          "configName": "2025款 改款 Ultra四驱纯电版",
+          "configId": "247935",
+          "index": 3,
           "price": "36.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85c5ed3c58e1cd06799d013a0d5af2ec~2508x0.webp"
+            },
+            {
+              "name": "哑光墨灰",
+              "colors": [
+                "#6B7077"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_70faf243f5116d2ed2696251d495bb0a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58a03a26485b5fa277dbc2538e16e5d2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85c5ed3c58e1cd06799d013a0d5af2ec~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 暗夜骑士版",
+          "configName": "2025款 暗夜骑士版",
+          "configId": "247901",
+          "index": 4,
           "price": "38.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "阿维塔 11 2025款 改款 皇家剧院版",
+          "configName": "2025款 改款 皇家剧院版",
+          "configId": "247936",
+          "index": 5,
           "price": "42.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 547马力",
           "size": "4895x1970x1601",
-          "manufacturer": "阿维塔科技",
-          "class": "中大型SUV",
-          "power": "纯电动 547马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "阿维塔 11 2025款 Max后驱增程版",
+          "configName": "2025款 Max后驱增程版",
+          "configId": "242963",
+          "index": 6,
           "price": "27.99万",
-          "fuelType": "增程式",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_45b90fc1dd7fcf68e14bd3bd48e57f80~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc35d2b8ba74511193cf90a590b77e43~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbb8ce3beb282c37648686a2f7de85cb~2508x0.webp"
+            },
+            {
+              "name": "青灰",
+              "colors": [
+                "#C3C2C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af5783b2b787ecc4525274a8d5bd98f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_45b90fc1dd7fcf68e14bd3bd48e57f80~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 Ultra后驱增程版",
+          "configName": "2025款 Ultra后驱增程版",
+          "configId": "242537",
+          "index": 7,
           "price": "29.99万",
-          "fuelType": "增程式",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/095ecfd9e6aac4a096e87ca91ef1d2ca~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed4303c656fa6c7438c7ce6281c09fc2~2508x0.webp"
+            },
+            {
+              "name": "雾绿",
+              "colors": [
+                "#DFEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/796273a42eeb24dda2faff4c50dc8d12~2508x0.webp"
+            },
+            {
+              "name": "晖金",
+              "colors": [
+                "#E6CDBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40a1e64ae2b2ea439a121a272cde6531~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/971fb4052457916bda89c4c2fb5dbaa8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "素黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bc82f045c517047a856de393f6adb0b~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#562F6F",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/030641076472ef92b279700aa2c6f322~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8b9db3d51a7a1d1760b1682c6a1fbcf~2508x0.webp"
+            },
+            {
+              "name": "青灰",
+              "colors": [
+                "#C3C2C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34311a0c9cfebdd7d116eacba009c4e5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/095ecfd9e6aac4a096e87ca91ef1d2ca~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 Ultra后驱纯电版",
+          "configName": "2025款 Ultra后驱纯电版",
+          "configId": "239180",
+          "index": 8,
           "price": "33.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 322马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 322马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6e44d7d954175e177db0706082198309~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50bf206342fe18bd850499ef85aa6381~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "素黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a0df041ec5ea5ffdcfd527d20c9eb716~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#7A6C79"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dccf4614f7e7ecd7a26cbca390383d70~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6e44d7d954175e177db0706082198309~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 Ultra四驱纯电版",
+          "configName": "2025款 Ultra四驱纯电版",
+          "configId": "239181",
+          "index": 9,
           "price": "36.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9ae3f04fd684c2de0c86f27ce51b415~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa4dbb2b2453944b9f362b4775ead78c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "青灰",
+              "colors": [
+                "#C3C2C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e11a64f79df26d5cb9563a1b2c0d6cbd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9ae3f04fd684c2de0c86f27ce51b415~2508x0.webp"
         },
         {
-          "configName": "阿维塔 11 2025款 皇家剧院版",
+          "configName": "2025款 皇家剧院版",
+          "configId": "100698",
+          "index": 10,
           "price": "42.99万",
-          "fuelType": "纯电动",
-          "size": "4895x1970x1601",
           "manufacturer": "阿维塔科技",
           "class": "中大型SUV",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "4895x1970x1601",
+          "exteriorImages": [
+            {
+              "name": "曜灰/曜黑",
+              "colors": [
+                "#312F2F",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_9323acd5b961087bfce779c2b4a71977~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "梅洛红/玫瑰白",
+              "colors": [
+                "#6F0404",
+                "#BAB4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8cccd84f9c10c001350e8b4d8a4cd90~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_9323acd5b961087bfce779c2b4a71977~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
+      "carId": 8834,
       "carName": "12",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/519c56606cdf4cce885b1438ba4c6320~1200x0.png",
       "configs": [
         {
-          "configName": "阿维塔 12 2025款 改款 Max后驱增程版",
+          "configName": "2025款 改款 Max后驱增程版",
+          "configId": "248150",
+          "index": 0,
           "price": "26.99万",
-          "fuelType": "增程式",
-          "size": "5020x1999x1460",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "5020x1999x1460",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_094a63bb6803d0fa0ee22e449bdf89a4~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96b5119fde8e6a7af25bd284f1adc6f1~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01518a6fc6adb393d0274ee457209528~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b8f6e62af3c3965382f279f4ebe98705~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b45f8fdbbf09e2cea582cbddb8d92a6b~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6e6b1ca50faa12a719b988d89ef541c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_094a63bb6803d0fa0ee22e449bdf89a4~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 改款 Ultra后驱增程版",
+          "configName": "2025款 改款 Ultra后驱增程版",
+          "configId": "248151",
+          "index": 1,
           "price": "28.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中大型车",
           "fuelType": "增程式",
+          "power": "纯电动 314马力",
           "size": "5020x1999x1450",
-          "manufacturer": "阿维塔科技",
-          "class": "中大型车",
-          "power": "增程式 314马力"
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee8214a877bcc71946703dbc1b670240~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab773d0d2d0b10c38cdd9711b889bdc2~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9dc8de15d1f80732a67f6972640aabee~2508x0.webp"
+            },
+            {
+              "name": "山蓝",
+              "colors": [
+                "#6D738E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_205ae374c13a884a45f1dd5d6263b02e~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_5d07aac4184e79098d0cd210f0e96f34~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80e16a39576e4f739a2fbc6694dcb31e~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#C93535"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_024a41f2408ef1ef36df0f29315e656a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee8214a877bcc71946703dbc1b670240~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 改款 Max后驱纯电版",
+          "configName": "2025款 改款 Max后驱纯电版",
+          "configId": "248152",
+          "index": 2,
           "price": "28.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1460",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 322马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 322马力",
+          "size": "5020x1999x1460",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1dd9afa1315f514a1ee12b070dec771e~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_cb6949cbb06ee95a130af85337f03c17~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_f48b052f65097b55cc437579b0f9a1ec~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "山蓝",
+              "colors": [
+                "#6D738E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_818d0fd74a448442e6a9ef2cbac2da74~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d434f11a00d9c096732e74ca3d7f8b70~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f2866f514772ed0419808d65de013a2~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e64976beab67b0b6c638196b2c8e8ba~2508x0.webp"
+            },
+            {
+              "name": "石蓝",
+              "colors": [
+                "#92A8BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3dace4b63e6a8cf481bcf5b809323208~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#C93535"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9c36fa94ee301494e26ab71c7ddd18aa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1dd9afa1315f514a1ee12b070dec771e~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 改款 Max四驱纯电版",
+          "configName": "2025款 改款 Max四驱纯电版",
+          "configId": "248153",
+          "index": 3,
           "price": "30.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1460",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1460",
+          "exteriorImages": [
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9889f1b7fe8545f9919139707cc3b7fc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80b7b59f80408452d5b084c6b0c49966~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9889f1b7fe8545f9919139707cc3b7fc~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 改款 Ultra四驱纯电版",
+          "configName": "2025款 改款 Ultra四驱纯电版",
+          "configId": "248154",
+          "index": 4,
           "price": "31.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2df7b3838888c9c732ac7aeb33d5d987~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be57c09407a039de9b44568786a37c93~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97f57acb5300289e1b0c2fcd9f0b5988~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#C93535"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9ab85efb40610f6db84df0d4c60307a4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2df7b3838888c9c732ac7aeb33d5d987~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 改款 Master四驱纯电版",
+          "configName": "2025款 改款 Master四驱纯电版",
+          "configId": "248156",
+          "index": 5,
           "price": "36.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8be913882778b1448c33eab2e83f50dc~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7e28169328a5a9f1a1f183d0f58f910~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_adaf2e9bdea9224e1c18fcf65c258389~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b59204f33138a079dc41f1cf9fdca46d~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94a5405aab03bd82f92a7683497087aa~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#C93535"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ecde17426726326d5d76de6ee60e1b51~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8be913882778b1448c33eab2e83f50dc~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 改款 皇家剧院版",
+          "configName": "2025款 改款 皇家剧院版",
+          "configId": "248157",
+          "index": 6,
           "price": "42.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "阿维塔 12 2025款 Max后驱增程版",
+          "configName": "2025款 Max后驱增程版",
+          "configId": "241901",
+          "index": 7,
           "price": "26.99万",
-          "fuelType": "增程式",
-          "size": "5020x1999x1460",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "5020x1999x1460",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd16bbde334fc873ccfcfcc2a84e3168~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d72923c4266f49a1939c862ff2644aeb~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/758282ff1a7607a26ececd6c53e623db~2508x0.webp"
+            },
+            {
+              "name": "山蓝",
+              "colors": [
+                "#6D738E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dabfa3d7828173a4af60c2acf2dfb7ba~2508x0.webp"
+            },
+            {
+              "name": "晖金",
+              "colors": [
+                "#E6CDBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95ad4476266dc7eed38ddbd61d2b8dd2~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24b61ece2d4430f2c68ddf7c8f692cc9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5691d5c31c74d665ea5d18449dbca36~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/613109d73193fb3fe76f7a8915cdb660~2508x0.webp"
+            },
+            {
+              "name": "石蓝",
+              "colors": [
+                "#92A8BD"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_cc656c17cfb1faecdfb2a71422343e26~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#C93535"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f9cd13457f9fa31c3d9540663faba14~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dd16bbde334fc873ccfcfcc2a84e3168~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 Ultra后驱增程版",
+          "configName": "2025款 Ultra后驱增程版",
+          "configId": "110310",
+          "index": 8,
           "price": "29.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中大型车",
           "fuelType": "增程式",
+          "power": "纯电动 314马力",
           "size": "5020x1999x1450",
-          "manufacturer": "阿维塔科技",
-          "class": "中大型车",
-          "power": "增程式 314马力"
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a09a397366c9926cd609f3dcbb720c3~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/871f0dc27337292604d370dcbdbda322~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7086adc61b931b5b95c4694496fdd6b6~2508x0.webp"
+            },
+            {
+              "name": "山蓝",
+              "colors": [
+                "#6D738E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa254f2fd8b8a852d3600b06cae6661f~2508x0.webp"
+            },
+            {
+              "name": "哑光曦紫",
+              "colors": [
+                "#754891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2425ba3dda363c373b4390fc9720727e~2508x0.webp"
+            },
+            {
+              "name": "晖金",
+              "colors": [
+                "#E6CDBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1357e08f044c636496f30d5889c3bb3~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f40d77aa8849cd99d6049b5ecf9a44eb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3bc210f55e79e882d995b7ae223c554~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4b973f868cce3ee356bc448eb730fbe~2508x0.webp"
+            },
+            {
+              "name": "石蓝",
+              "colors": [
+                "#92A8BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28fb8b2bb39acb4e0799dc81fe199efb~2508x0.webp"
+            },
+            {
+              "name": "岱红",
+              "colors": [
+                "#C93535"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d5bb9507cc715e735e81c22977e7f62~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1a09a397366c9926cd609f3dcbb720c3~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 Max后驱纯电版",
+          "configName": "2025款 Max后驱纯电版",
+          "configId": "239182",
+          "index": 9,
           "price": "28.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1460",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 322马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 322马力",
+          "size": "5020x1999x1460",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0943e1f9c23d5357ca689add3779a5fd~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8236cc1b2c0982cc781ee1404190549~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/889198214f777c2c53bb74cc3f18bc60~2508x0.webp"
+            },
+            {
+              "name": "山蓝",
+              "colors": [
+                "#6D738E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eed643c8f4a0b61930e86bda07df6c92~2508x0.webp"
+            },
+            {
+              "name": "哑光曦紫",
+              "colors": [
+                "#754891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e245f5ac086c958888a21912e4c6a622~2508x0.webp"
+            },
+            {
+              "name": "晖金",
+              "colors": [
+                "#E6CDBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec5dca0ebb0bdac8c994003544e16baf~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fe8d7fb71831607444b5a156c4c43e3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1f60efb3d551b69cca3a4ce9bbe36b1~2508x0.webp"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/830a22c2d369b9027f8ebe8133a93364~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "石蓝",
+              "colors": [
+                "#92A8BD"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/e6f9790fd417ca146817ebd96dde4606~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0943e1f9c23d5357ca689add3779a5fd~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 Max四驱纯电版",
+          "configName": "2025款 Max四驱纯电版",
+          "configId": "242015",
+          "index": 10,
           "price": "30.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 547马力",
           "size": "5020x1999x1460",
-          "manufacturer": "阿维塔科技",
-          "class": "中大型车",
-          "power": "纯电动 547马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "阿维塔 12 2025款 Ultra四驱纯电版",
+          "configName": "2025款 Ultra四驱纯电版",
+          "configId": "239183",
+          "index": 11,
           "price": "32.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c581b4d1aeb51890a1c37f4dd86311f~2508x0.webp"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_abf2321ffe06d8f430f8b531094a8279~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48a134fb1e6042bf2dc40e97b9aae13a~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/437a8e26bcc6eea9919d7e939253de14~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0ff0d0fa4cb83866c978df3a8095b78d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85f0d1d43b54e1b95d982175b97841b2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9c581b4d1aeb51890a1c37f4dd86311f~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 Master四驱纯电版",
+          "configName": "2025款 Master四驱纯电版",
+          "configId": "241903",
+          "index": 12,
           "price": "36.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [
+            {
+              "name": "曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/a2c8ec7a8cc242884021f6d2d842719e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "曜灰",
+              "colors": [
+                "#312F2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a31ba3c4bea195ddd656afb2676131a~2508x0.webp"
+            },
+            {
+              "name": "云紫",
+              "colors": [
+                "#5A3D6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a370416759dc71b1aa2b23811cd2f64d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮紫/烟白",
+              "colors": [
+                "#7A6C79",
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/6b94d5db163ccd799ce69eb6d2308e85~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/a2c8ec7a8cc242884021f6d2d842719e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "阿维塔 12 2025款 皇家剧院版",
+          "configName": "2025款 皇家剧院版",
+          "configId": "239541",
+          "index": 13,
           "price": "42.99万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [
+            {
+              "name": "曜灰/曜黑",
+              "colors": [
+                "#312F2F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff7b25312a59fa6596463fd543a8f05a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "皇家剧院/米色",
+              "colors": [
+                "#6F0404",
+                "#BAB4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61b3f51c1e678b88246e44edb6c4df94~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ff7b25312a59fa6596463fd543a8f05a~2508x0.webp"
         },
         {
-          "configName": "阿维塔 12 2025款 012 Kim Jones联名限量款",
+          "configName": "2025款 012 Kim Jones联名限量款",
+          "configId": "101576",
+          "index": 14,
           "price": "70万",
-          "fuelType": "纯电动",
-          "size": "5020x1999x1450",
           "manufacturer": "阿维塔科技",
           "class": "中大型车",
-          "power": "纯电动 547马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 547马力",
+          "size": "5020x1999x1450",
+          "exteriorImages": [
+            {
+              "name": "液态银",
+              "colors": [
+                "#5B7588"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_271a6bc65ed0e9dc300bd2971cc1c42a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/复古棕",
+              "colors": [
+                "#FFFFFF",
+                "#CCAA7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49a159d8af3435d4702504cebde97333~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_271a6bc65ed0e9dc300bd2971cc1c42a~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10033,
       "carName": "07",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c8ac7e39541d4bfeaba751e569a1f06d~1200x0.png",
       "configs": [
         {
-          "configName": "阿维塔 07 2024款 Pro+后驱增程版",
+          "configName": "2024款 Pro+后驱增程版",
+          "configId": "245202",
+          "index": 0,
           "price": "21.99万",
-          "fuelType": "增程式",
-          "size": "4825x1980x1620",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "4825x1980x1620",
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0929cf1bab267adbde4af5544b3e2ee~2508x0.webp"
+            },
+            {
+              "name": "砾黑",
+              "colors": [
+                "#534642"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fc7375f8ab8bdea8b74e4dbef6cf14b~2508x0.webp"
+            },
+            {
+              "name": "岩灰",
+              "colors": [
+                "#676767"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da8bddc57b956c89ad90e5aa1e536ae7~2508x0.webp"
+            },
+            {
+              "name": "苍绿",
+              "colors": [
+                "#877E3B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2304877793d7c399cb4bda3d7ab1a81~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e7935b7ce4f07afe1490a07c3e0e2d16~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aad4835665d6a5d71572bcc38eae1dbe~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35a4f10c8d77ad4e2f19b117fadc2828~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b0929cf1bab267adbde4af5544b3e2ee~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Max后驱增程版",
+          "configName": "2024款 Max后驱增程版",
+          "configId": "240956",
+          "index": 1,
           "price": "23.99万",
-          "fuelType": "增程式",
-          "size": "4825x1980x1620",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "4825x1980x1620",
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f5ef3f17e49d31c37fa371aa587bc2a~2508x0.webp"
+            },
+            {
+              "name": "砾黑",
+              "colors": [
+                "#534642"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a05542c068e2c5c5fd805697eb6c5850~2508x0.webp"
+            },
+            {
+              "name": "岩灰",
+              "colors": [
+                "#676767"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/469d579b21c7346adaf75bef5d398875~2508x0.webp"
+            },
+            {
+              "name": "苍绿",
+              "colors": [
+                "#877E3B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39ff7b4b04020bb25460363e468ec7a9~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18b1be39ae209cf36eb766e450dcd03e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e17501f2ce31ad019b6b569d658dd56~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20b3f7d42977ef71214edaf23f7a6145~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9f5ef3f17e49d31c37fa371aa587bc2a~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Max后驱增程探索版",
+          "configName": "2024款 Max后驱增程探索版",
+          "configId": "247209",
+          "index": 2,
           "price": "25.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 314马力",
           "size": "4825x1980x1635",
-          "manufacturer": "阿维塔科技",
-          "class": "中型SUV",
-          "power": "增程式 314马力"
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b87890803f2cd2e07684554f7973082c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c0d32d392398c3ef266bc943f57edb2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b87890803f2cd2e07684554f7973082c~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Max四驱增程版",
+          "configName": "2024款 Max四驱增程版",
+          "configId": "241010",
+          "index": 3,
           "price": "25.99万",
-          "fuelType": "增程式",
-          "size": "4825x1980x1620",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "增程式 492马力"
+          "fuelType": "增程式",
+          "power": "纯电动 492马力",
+          "size": "4825x1980x1620",
+          "exteriorImages": [
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/702d836e7920f1c1dcefb59709d0cf43~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22ecb0e20975adf1fa4c55375dd2469a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/702d836e7920f1c1dcefb59709d0cf43~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Ultra四驱增程版",
+          "configName": "2024款 Ultra四驱增程版",
+          "configId": "100385",
+          "index": 4,
           "price": "27.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 492马力",
           "size": "4825x1980x1610",
-          "manufacturer": "阿维塔科技",
-          "class": "中型SUV",
-          "power": "增程式 492马力"
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc9138921e1f6a6837f76b2bdcf0be3a~2508x0.webp"
+            },
+            {
+              "name": "砾黑",
+              "colors": [
+                "#534642"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/487ccee8bf7914013e13dfa294326296~2508x0.webp"
+            },
+            {
+              "name": "岩灰",
+              "colors": [
+                "#676767"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4bbc57071575f494918c24e1f10f722~2508x0.webp"
+            },
+            {
+              "name": "苍绿",
+              "colors": [
+                "#877E3B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e4e1c5936e904839ebe06ed9af85ee7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f428758be9cdebd3bddf00675bb4562~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/892917bfe7c23fa784a7b70256a4e7e9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dc9138921e1f6a6837f76b2bdcf0be3a~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Pro+后驱纯电版",
+          "configName": "2024款 Pro+后驱纯电版",
+          "configId": "245203",
+          "index": 5,
           "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "4825x1980x1620",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "纯电动 343马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 343马力",
+          "size": "4825x1980x1620",
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c13a9cc88de5afa8c261220096c2ebfd~2508x0.webp"
+            },
+            {
+              "name": "砾黑",
+              "colors": [
+                "#534642"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43cd7fa66d55a4dad5b7b71e0a3c813c~2508x0.webp"
+            },
+            {
+              "name": "岩灰",
+              "colors": [
+                "#676767"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd7545f03cba5f7b7c7430e17554aab9~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f72b82e1b791ce021419f4292cf00f6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8d85f9d85fbdc1b648c9f1a212f1ed0~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a9c8611abdfcf576ee711270e395477~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c13a9cc88de5afa8c261220096c2ebfd~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Max后驱纯电版",
+          "configName": "2024款 Max后驱纯电版",
+          "configId": "240957",
+          "index": 6,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4825x1980x1620",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "纯电动 343马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 343马力",
+          "size": "4825x1980x1620",
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c216f5caa70b697197000d17a176aaa~2508x0.webp"
+            },
+            {
+              "name": "砾黑",
+              "colors": [
+                "#534642"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffe796f400ae7b06be3e721565abd676~2508x0.webp"
+            },
+            {
+              "name": "岩灰",
+              "colors": [
+                "#676767"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f52b304ce00daa188077c7d7e045f78a~2508x0.webp"
+            },
+            {
+              "name": "苍绿",
+              "colors": [
+                "#877E3B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1dbb554e3984a640386ad16ec590d450~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99e672fe735c8e6e1e84b71c3e941e6a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05cf9769684717db7186b5eb7ea53be5~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1c216f5caa70b697197000d17a176aaa~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Max后驱纯电探索版",
+          "configName": "2024款 Max后驱纯电探索版",
+          "configId": "247212",
+          "index": 7,
           "price": "26.99万",
+          "manufacturer": "阿维塔科技",
+          "class": "中型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 343马力",
           "size": "4825x1980x1635",
-          "manufacturer": "阿维塔科技",
-          "class": "中型SUV",
-          "power": "纯电动 343马力"
+          "exteriorImages": [
+            {
+              "name": "苍绿",
+              "colors": [
+                "#877E3B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2546026572b3bc88dd4a53014dc3fa5b~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a852a864481948803dd7d7f759271c81~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ae3ea2356487cbfa4d1e20ac2a6f928~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b4079e4fc019ba8fb037b7971c21c977~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2546026572b3bc88dd4a53014dc3fa5b~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Max四驱纯电版",
+          "configName": "2024款 Max四驱纯电版",
+          "configId": "241011",
+          "index": 8,
           "price": "26.99万",
-          "fuelType": "纯电动",
-          "size": "4825x1980x1620",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "纯电动 598马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 598马力",
+          "size": "4825x1980x1620",
+          "exteriorImages": [
+            {
+              "name": "砾黑",
+              "colors": [
+                "#534642"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d66bf692a2ac454265bb63b23d903ecc~2508x0.webp"
+            },
+            {
+              "name": "岩灰",
+              "colors": [
+                "#676767"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e1e22434b655df82ab2f9caaded49877~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1fbe850707406554f715e7192cdb246a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/09ae726309ff32c5b9c22e39f2650211~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d66bf692a2ac454265bb63b23d903ecc~2508x0.webp"
         },
         {
-          "configName": "阿维塔 07 2024款 Ultra四驱纯电版",
+          "configName": "2024款 Ultra四驱纯电版",
+          "configId": "100381",
+          "index": 9,
           "price": "28.99万",
-          "fuelType": "纯电动",
-          "size": "4825x1980x1610",
           "manufacturer": "阿维塔科技",
           "class": "中型SUV",
-          "power": "纯电动 598马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 598马力",
+          "size": "4825x1980x1610",
+          "exteriorImages": [
+            {
+              "name": "星紫",
+              "colors": [
+                "#502843"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af17557e69af8974ebb00680bbce366e~2508x0.webp"
+            },
+            {
+              "name": "苍绿",
+              "colors": [
+                "#877E3B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d66c1a8dcdd9c04cb323c4ebad4e742~2508x0.webp"
+            },
+            {
+              "name": "黎白",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d6e1cfa7ffc8456d49de44071533066~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深紫",
+              "colors": [
+                "#806281"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85651771bfa184fdf1b217a0df4c3e64~2508x0.webp"
+            },
+            {
+              "name": "白棕",
+              "colors": [
+                "#877165"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/480a98e9995c82558652dae08384aae4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/af17557e69af8974ebb00680bbce366e~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T10:37:32.117Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

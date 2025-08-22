@@ -3,106 +3,511 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/e58b27580d2f4ede8c67ac6c0d306ca4~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 9833,
       "carName": "L60",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bacc77d7acb74af7acd04d51969ffc35~1200x0.png",
       "configs": [
         {
-          "configName": "乐道L60 2024款 555km 标准续航版",
+          "configName": "2024款 555km 标准续航版",
+          "configId": "101426",
+          "index": 0,
           "price": "20.69万",
-          "fuelType": "纯电动",
-          "size": "4828x1930x1616",
           "manufacturer": "蔚来",
           "class": "中型SUV",
-          "power": "纯电动 326马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 326马力",
+          "size": "4828x1930x1616",
+          "exteriorImages": [
+            {
+              "name": "星空黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d738a255fa8e9f1c8d3a53f5e1c1ef69~2508x0.webp"
+            },
+            {
+              "name": "海岸蓝",
+              "colors": [
+                "#3D84C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad44f0a5b9e5a5aa1c386d4f02e9da0e~2508x0.webp"
+            },
+            {
+              "name": "远山青",
+              "colors": [
+                "#739EB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9cf0425043146c7a454d6bb01847999~2508x0.webp"
+            },
+            {
+              "name": "云霞紫",
+              "colors": [
+                "#B8B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/346f7b867992a70687245c5ba593556f~2508x0.webp"
+            },
+            {
+              "name": "晨曦橙",
+              "colors": [
+                "#C94842"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b8807f2b3f9053aa2a09b95ca929da64~2508x0.webp"
+            },
+            {
+              "name": "极地银",
+              "colors": [
+                "#DCDCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14d8da804de3437b1e6575b0a2a27b4e~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9b1bbb8f0154f8d775e3818d5ea5177~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/333ab90cd3b612475e5a55aa4ea6ccc0~2508x0.webp"
+            },
+            {
+              "name": "暖棕",
+              "colors": [
+                "#D96D19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6cefb7d7a6d95d9ac7ffa303682a6de7~2508x0.webp"
+            },
+            {
+              "name": "丁香紫",
+              "colors": [
+                "#E7DFEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fbe89f6b019fd13d8b2c0d69fc762bf~2508x0.webp"
+            },
+            {
+              "name": "柔白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f4910f1d2db36c91cdc0244fb55f07b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d738a255fa8e9f1c8d3a53f5e1c1ef69~2508x0.webp"
         },
         {
-          "configName": "乐道L60 2024款 525km 标准续航四驱版",
+          "configName": "2024款 525km 标准续航四驱版",
+          "configId": "101428",
+          "index": 1,
           "price": "22.69万",
-          "fuelType": "纯电动",
-          "size": "4828x1930x1616",
           "manufacturer": "蔚来",
           "class": "中型SUV",
-          "power": "纯电动 462马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "4828x1930x1616",
+          "exteriorImages": [
+            {
+              "name": "星空黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83fb1a51f898c3116dff0563b2b8feda~2508x0.webp"
+            },
+            {
+              "name": "海岸蓝",
+              "colors": [
+                "#3D84C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/421e43284da8f72b64a7d93ae463de2c~2508x0.webp"
+            },
+            {
+              "name": "远山青",
+              "colors": [
+                "#739EB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28493c63bcb73c2e58ee68051a056da5~2508x0.webp"
+            },
+            {
+              "name": "云霞紫",
+              "colors": [
+                "#B8B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8453591818eb92cd0df0e6c4a6f0987~2508x0.webp"
+            },
+            {
+              "name": "晨曦橙",
+              "colors": [
+                "#C94842"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d09001fc1fb41daa4bcd053f73d66902~2508x0.webp"
+            },
+            {
+              "name": "极地银",
+              "colors": [
+                "#DCDCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d4cdd962925a6bed032fb8edaba9bca~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/381fcb32e842ef9c986e13e5e264a71f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00e590e51e8458be68529f24402c74be~2508x0.webp"
+            },
+            {
+              "name": "暖棕",
+              "colors": [
+                "#D96D19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4264fd0884223819edd4563abe24bd8~2508x0.webp"
+            },
+            {
+              "name": "丁香紫",
+              "colors": [
+                "#E7DFEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1dfb0f5dbd78af93953cb1962defa612~2508x0.webp"
+            },
+            {
+              "name": "柔白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe837cb72c0311c7567f5959ae3007fc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/83fb1a51f898c3116dff0563b2b8feda~2508x0.webp"
         },
         {
-          "configName": "乐道L60 2024款 730km 长续航版",
+          "configName": "2024款 730km 长续航版",
+          "configId": "240708",
+          "index": 2,
           "price": "23.59万",
-          "fuelType": "纯电动",
-          "size": "4828x1930x1616",
           "manufacturer": "蔚来",
           "class": "中型SUV",
-          "power": "纯电动 326马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 326马力",
+          "size": "4828x1930x1616",
+          "exteriorImages": [
+            {
+              "name": "星空黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47af904eb595d98f7203263c194912f7~2508x0.webp"
+            },
+            {
+              "name": "极地银",
+              "colors": [
+                "#DCDCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94290ab8a701d8f656ddaf802526838a~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f3879a2620903724f896950a98675f1e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_974b896822ca1de659a7746fcecf037b~2508x0.webp"
+            },
+            {
+              "name": "暖棕",
+              "colors": [
+                "#D96D19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_071f5896735fe7c714d25194e823c544~2508x0.webp"
+            },
+            {
+              "name": "丁香紫",
+              "colors": [
+                "#E7DFEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b257e7f61636599a393e2b81843bf1b9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47af904eb595d98f7203263c194912f7~2508x0.webp"
         },
         {
-          "configName": "乐道L60 2024款 700km 长续航四驱版",
+          "configName": "2024款 700km 长续航四驱版",
+          "configId": "240714",
+          "index": 3,
           "price": "25.59万",
-          "fuelType": "纯电动",
-          "size": "4828x1930x1616",
           "manufacturer": "蔚来",
           "class": "中型SUV",
-          "power": "纯电动 462马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "4828x1930x1616",
+          "exteriorImages": [
+            {
+              "name": "星空黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7fcdfddb89a4e4dcbf1cabb9e876376f~2508x0.webp"
+            },
+            {
+              "name": "远山青",
+              "colors": [
+                "#739EB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4737913db0103f0fa1b703e99387233e~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fa26029b87197e33a57cd2374b907485~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_906edb0c458485478cc608b91296c833~2508x0.webp"
+            },
+            {
+              "name": "暖棕",
+              "colors": [
+                "#D96D19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94f55f28fe1b9acb6c7e756d187ea7d2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7fcdfddb89a4e4dcbf1cabb9e876376f~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 25234,
       "carName": "L90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e01d4e3cd9c74813ae9aedfea6c566ae~1200x0.png",
       "configs": [
         {
-          "configName": "乐道L90 2025款 六座版Pro",
+          "configName": "2025款 六座版Pro",
+          "configId": "250402",
+          "index": 0,
           "price": "26.58万",
-          "fuelType": "纯电动",
-          "size": "5145x1998x1786",
           "manufacturer": "蔚来",
           "class": "大型SUV",
-          "power": "纯电动 462马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "5145x1998x1786",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "乐道L90 2025款 六座版Max",
+          "configName": "2025款 六座版Max",
+          "configId": "250401",
+          "index": 1,
           "price": "27.98万",
-          "fuelType": "纯电动",
-          "size": "5145x1998x1766",
           "manufacturer": "蔚来",
           "class": "大型SUV",
-          "power": "纯电动 462马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "5145x1998x1766",
+          "exteriorImages": [
+            {
+              "name": "静岳黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_84a5a8a958cba85a84eb9c28f14e1bac~2508x0.webp"
+            },
+            {
+              "name": "岩脊棕",
+              "colors": [
+                "#7B7C80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4686c2e703b7b170012c9b1784aeb7f~2508x0.webp"
+            },
+            {
+              "name": "云曦金",
+              "colors": [
+                "#E0CEC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3aafc08e3b181f7856156635b305f973~2508x0.webp"
+            },
+            {
+              "name": "辰辉银",
+              "colors": [
+                "#ECEDF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6aa42f65603450ec0c991c5991bff1c8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5af613fe06e1af0efd72bf2c0c3d59e~2508x0.webp"
+            },
+            {
+              "name": "月榕棕",
+              "colors": [
+                "#8F7468"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b0fddbf89d87b27669b962a3f85e5cd1~2508x0.webp"
+            },
+            {
+              "name": "云缦米",
+              "colors": [
+                "#DAD1C3"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_ba9e0d224e5bf3ea3fc643262b24e801~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_84a5a8a958cba85a84eb9c28f14e1bac~2508x0.webp"
         },
         {
-          "configName": "乐道L90 2025款 六座版Ultra",
+          "configName": "2025款 六座版Ultra",
+          "configId": "250404",
+          "index": 2,
           "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "5145x1998x1766",
           "manufacturer": "蔚来",
           "class": "大型SUV",
-          "power": "纯电动 599马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 599马力",
+          "size": "5145x1998x1766",
+          "exteriorImages": [
+            {
+              "name": "静岳黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7637eba69683f85e13daf11d389e40f4~2508x0.webp"
+            },
+            {
+              "name": "岩脊棕",
+              "colors": [
+                "#7B7C80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3974fbf6664029ac9c72e20cfe2fa8c1~2508x0.webp"
+            },
+            {
+              "name": "云曦金",
+              "colors": [
+                "#E0CEC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5957951d56da625d6fe838642df9d981~2508x0.webp"
+            },
+            {
+              "name": "辰辉银",
+              "colors": [
+                "#ECEDF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_432a1f5891d27e3e5b25ef0a6b6d764e~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e787964010450d18d31fbbd21c5028f9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_90b6f7c8d2397ce15c5b1861dc17d82b~2508x0.webp"
+            },
+            {
+              "name": "月榕棕",
+              "colors": [
+                "#8F7468"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c445afd71174d4f3534a50508adab36c~2508x0.webp"
+            },
+            {
+              "name": "云缦米",
+              "colors": [
+                "#DAD1C3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc14493baf8abff39784f26ffa30b36f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7637eba69683f85e13daf11d389e40f4~2508x0.webp"
         },
         {
-          "configName": "乐道L90 2025款 七座版Pro",
+          "configName": "2025款 七座版Pro",
+          "configId": "250400",
+          "index": 3,
           "price": "27.18万",
+          "manufacturer": "蔚来",
+          "class": "大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 462马力",
           "size": "5145x1998x1786",
-          "manufacturer": "蔚来",
-          "class": "大型SUV",
-          "power": "纯电动 462马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "乐道L90 2025款 七座版Max",
+          "configName": "2025款 七座版Max",
+          "configId": "250399",
+          "index": 4,
           "price": "28.58万",
-          "fuelType": "纯电动",
-          "size": "5145x1998x1766",
           "manufacturer": "蔚来",
           "class": "大型SUV",
-          "power": "纯电动 462马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "5145x1998x1766",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "乐道L90 2025款 七座版Ultra",
+          "configName": "2025款 七座版Ultra",
+          "configId": "250403",
+          "index": 5,
           "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "5145x1998x1766",
           "manufacturer": "蔚来",
           "class": "大型SUV",
-          "power": "纯电动 599马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 599马力",
+          "size": "5145x1998x1766",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T10:57:55.798Z",
+  "progress": {
+    "completed": 2,
+    "total": 2,
+    "percentage": 100,
+    "currentIndex": 2
+  }
 }

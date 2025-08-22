@@ -3,211 +3,1252 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/5b96a8b1836d4107878280cd08b7c453~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 9249,
       "carName": "钛3",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b9a189b356a94149b18af4dcb49697d9~1200x0.png",
       "configs": [
         {
-          "configName": "钛3 2025款 501KM 后驱智驾Pro版",
+          "configName": "2025款 501KM 后驱智驾Pro版",
+          "configId": "246786",
+          "index": 0,
           "price": "13.38万",
-          "fuelType": "纯电动",
-          "size": "4605x1900x1720",
           "manufacturer": "方程豹",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4605x1900x1720",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0E0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9cd16306b5ff153a18278e4744d0d6c4~2508x0.webp"
+            },
+            {
+              "name": "矿石绿",
+              "colors": [
+                "#7CA992"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_039f2c44138753617cca5298ff1366b7~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3afb85456e0293ae7493dc211b021178~2508x0.webp"
+            },
+            {
+              "name": "元素白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc7cfcd54c3b3b44a41aa8ccc2291ece~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb97ccd1fe4eb8d842374f7e6858c7ac~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#C1BFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9aae383910ca4356ae2ac93c07b9e44e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9cd16306b5ff153a18278e4744d0d6c4~2508x0.webp"
         },
         {
-          "configName": "钛3 2025款 501KM 后驱智驾Max版",
+          "configName": "2025款 501KM 后驱智驾Max版",
+          "configId": "246811",
+          "index": 1,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1900x1720",
           "manufacturer": "方程豹",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4605x1900x1720",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0E0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9aa34e0ceb5dd4116dfad2dc7e6e16a~2508x0.webp"
+            },
+            {
+              "name": "矿石绿",
+              "colors": [
+                "#7CA992"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_856276c6dba6e22c559f0dc21674f62e~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ebbdf998718cf23ce321311789c2e64~2508x0.webp"
+            },
+            {
+              "name": "元素白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f4941e9829fe3599607abfc367372ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3606f9de5cc52521584c32cbd505d23a~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#C1BFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7412ef222f6f089955f2e20022ae47c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9aa34e0ceb5dd4116dfad2dc7e6e16a~2508x0.webp"
         },
         {
-          "configName": "钛3 2025款 501KM 四驱智驾Max版",
+          "configName": "2025款 501KM 四驱智驾Max版",
+          "configId": "246812",
+          "index": 2,
           "price": "15.38万",
-          "fuelType": "纯电动",
-          "size": "4605x1900x1720",
           "manufacturer": "方程豹",
           "class": "紧凑型SUV",
-          "power": "纯电动 422马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4605x1900x1720",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0E0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c91a69a161298f0c69eb8b77f5c260f6~2508x0.webp"
+            },
+            {
+              "name": "矿石绿",
+              "colors": [
+                "#7CA992"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5cb7bc61f431f5b8944fc8676629f8f~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a191c329e98eee7a143cfc73748a7ce6~2508x0.webp"
+            },
+            {
+              "name": "元素白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_84a229d8f85fa288255c2e0a5906cdee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d68f5716b5ea0d2cbe58baadebf5f69e~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#C1BFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_933a167a1d39e19a82f3e9cfaba86c24~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c91a69a161298f0c69eb8b77f5c260f6~2508x0.webp"
         },
         {
-          "configName": "钛3 2025款 501KM 四驱智驾Ultra版",
+          "configName": "2025款 501KM 四驱智驾Ultra版",
+          "configId": "243305",
+          "index": 3,
           "price": "16.38万",
+          "manufacturer": "方程豹",
+          "class": "紧凑型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 422马力",
           "size": "4605x1900x1720",
-          "manufacturer": "方程豹",
-          "class": "紧凑型SUV",
-          "power": "纯电动 422马力"
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0E0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ee230ffa2364cfe1dcfa9a1f201acdd~2508x0.webp"
+            },
+            {
+              "name": "矿石绿",
+              "colors": [
+                "#7CA992"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1dc462a6118c198e0a52e5bb845d40a0~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_887febfa413c9ecc6785915aa1a6ed8f~2508x0.webp"
+            },
+            {
+              "name": "元素白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2b362e5eaa5e75c4d811a0ab6342a8ad~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4551a468a4b2d7585f2a48a54d3de5cf~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#C1BFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_219f63c802b9b2cd3419408ced2a5cb1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ee230ffa2364cfe1dcfa9a1f201acdd~2508x0.webp"
         },
         {
-          "configName": "钛3 2025款 501KM 四驱无人机版",
+          "configName": "2025款 501KM 四驱无人机版",
+          "configId": "243304",
+          "index": 4,
           "price": "19.38万",
-          "fuelType": "纯电动",
-          "size": "4605x1900x1930",
           "manufacturer": "方程豹",
           "class": "紧凑型SUV",
-          "power": "纯电动 422马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4605x1900x1930",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0E0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4084d8329955c493c9967b0e77db3036~2508x0.webp"
+            },
+            {
+              "name": "矿石绿",
+              "colors": [
+                "#7CA992"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f315a5e676cf46be6170c65cff1af56b~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6820c6c84c3d04fe1a295d521304016c~2508x0.webp"
+            },
+            {
+              "name": "元素白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff3582e82510b1f5dbf3133f0d5f8980~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_32336b80a6c5434129c458ccd732e814~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#C1BFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_abd5111d1d276805ca4a4465112d00fc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4084d8329955c493c9967b0e77db3036~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8884,
       "carName": "豹5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/466f5153ee254779a86378ecace4e17d~1200x0.png",
       "configs": [
         {
-          "configName": "豹5 2025款 天神智驾Max版",
+          "configName": "2025款 天神智驾Max版",
+          "configId": "245297",
+          "index": 0,
           "price": "23.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3676e8e30370680a2522136623a82322~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05c6d1d219dd2224bbee145fda1728a1~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b018a660d810713e6957b3b32fed7a87~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_955caba80c948068c4ceb783b99bea24~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75a3b2274813141dff54858e7b98cf25~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7cc71c207aa8b660673c6c4fcf1891d~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e92c43c2cd05d55e9429ffb7e66d12c2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3676e8e30370680a2522136623a82322~2508x0.webp"
         },
         {
-          "configName": "豹5 2025款 天神智驾Ultra版",
+          "configName": "2025款 天神智驾Ultra版",
+          "configId": "245298",
+          "index": 1,
           "price": "25.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a254bee357ea7dcfea59d77e622843a~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a739e1cf6002b3598f0581ea73ff622~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78d23ed6dab72b13126cccc8b41b1100~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fec8d664c95d4bf398a56c3aa204f168~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48e7b5b8836e7f70c33a1a065d20bcc8~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90e01ad4d6f9a016633373bf408a737e~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a03462e5a3c56e4242fa6be21f01697~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7a254bee357ea7dcfea59d77e622843a~2508x0.webp"
         },
         {
-          "configName": "豹5 2025款 激光乾崑智驾版",
+          "configName": "2025款 激光乾崑智驾版",
+          "configId": "245441",
+          "index": 2,
           "price": "28.48万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b71a9c91dda543ba494e731ea65b0718~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b0a6545a285fabe69b806addefa48054~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a9eaa86338b2ca48411a21b104c88a1~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_39c3aa797f1476b9242edc791c641fc7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_21307ae983ea12078ed956f80ab4d370~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e217ca8045ee93673f1f3e148d28370d~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c13be5ced28de25dcab6378ea2bfc316~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b71a9c91dda543ba494e731ea65b0718~2508x0.webp"
         },
         {
-          "configName": "豹5 2025款 云辇激光乾崑智驾版",
+          "configName": "2025款 云辇激光乾崑智驾版",
+          "configId": "245440",
+          "index": 3,
           "price": "32.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55f2b444817b2f58809a8dc0f438a9a6~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_407f98657a5b28558d4a7f05b334a0e7~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e91eb253b04a53561b8bc69f6b1aa60~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_180d6d9c165266cc9a99a5af3be1b67f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7fb903c54496f92a190e74c1472d1d1~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41c8f6696e7ec7b3593162136416a352~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_868adf8a9785d492a9148a3261de3823~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55f2b444817b2f58809a8dc0f438a9a6~2508x0.webp"
         },
         {
-          "configName": "豹5 2024款 云辇豪华版",
+          "configName": "2024款 云辇豪华版",
+          "configId": "100881",
+          "index": 4,
           "price": "27.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ada7c6481c51e28ff15819a5fcc65736~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97f55a27ebc4a366b09ab0554f9f5857~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3dcd305df2a936d7e0d1e4902d7dcce~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d420180d448e0b8a41c6218724974a2~2508x0.webp"
+            },
+            {
+              "name": "胡杨金",
+              "colors": [
+                "#FFD700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43107f769c777fde1c62741b31289c0a~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2628c0c7f74c0a67135c81a50e018fd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca3dc47926db2db15942273a5e7f4315~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8659452bfe95c994676fd7a60da5564d~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6861b1e261ba07393301faeec0054392~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ada7c6481c51e28ff15819a5fcc65736~2508x0.webp"
         },
         {
-          "configName": "豹5 2023款 探索版",
+          "configName": "2023款 探索版",
+          "configId": "87066",
+          "index": 5,
           "price": "23.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4e106f19e81f18e0e3af2087c7ec92b~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f5f5257d164106d7f6fc61aef13d6ea~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cce24f85f209f2a007042b64ccf1bd69~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/075c3386bff45b7f62f4705004e7181f~2508x0.webp"
+            },
+            {
+              "name": "胡杨金",
+              "colors": [
+                "#FFD700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa42f6a194ccf46786394e6ef8c29492~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a434472a1b708a9457dc87e0c32e31a~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d40f9dab47352849cc09e78f6126500~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58eabeef4dc16eb4e562e69a5a104dbf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c4e106f19e81f18e0e3af2087c7ec92b~2508x0.webp"
         },
         {
-          "configName": "豹5 2023款 领航版",
+          "configName": "2023款 领航版",
+          "configId": "92125",
+          "index": 6,
           "price": "25.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3eb0fe0422848911a61c534f6c3bc6c~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5bb8ad106b231e7317a2cd5a910d8b4f~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d75ed24d3d25022950039427a5f0c452~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d05739fb82228d9097dbecc10ec943a~2508x0.webp"
+            },
+            {
+              "name": "胡杨金",
+              "colors": [
+                "#FFD700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6739ef2faa0328dee92f70e46f41da57~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a82a707e25724c9f7b3714f16a68edc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1057ece075180b3d6d69feda931d7cee~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1d63555abddf36d11dbab80c0a62f79~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00dac1ce5f4cba7bac4dc338474c306a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b3eb0fe0422848911a61c534f6c3bc6c~2508x0.webp"
         },
         {
-          "configName": "豹5 2023款 云辇旗舰版",
+          "configName": "2023款 云辇旗舰版",
+          "configId": "86915",
+          "index": 7,
           "price": "30.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1970x1920",
           "manufacturer": "方程豹",
           "class": "中型SUV",
-          "power": "插电式混合动力 660马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "4890x1970x1920",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81e84145a295d8c9241a17f5819c5dfb~2508x0.webp"
+            },
+            {
+              "name": "边界蓝",
+              "colors": [
+                "#4A7CB6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/793a6f17bc002563861b79f3eadefe70~2508x0.webp"
+            },
+            {
+              "name": "冰原蓝",
+              "colors": [
+                "#89C4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c1348870f63f1602c728f2cb83d7cd0~2508x0.webp"
+            },
+            {
+              "name": "巅峰灰",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4fe60eca1af0c379ea909a2d9f8fc97~2508x0.webp"
+            },
+            {
+              "name": "山脉绿",
+              "colors": [
+                "#C0DED2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37f5f8f5d6caa0af09a4a5d3dd5dd9de~2508x0.webp"
+            },
+            {
+              "name": "胡杨金",
+              "colors": [
+                "#FFD700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/612693854b3ecdace4ff2a4548547f1f~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/220122abc394cf93995b6678fcf1f304~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日蚀蓝",
+              "colors": [
+                "#525E6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/001291efe76751c019196cb14b40e427~2508x0.webp"
+            },
+            {
+              "name": "浅滩绿",
+              "colors": [
+                "#CBE7DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0648882f24c8e12d0fad5595c254765~2508x0.webp"
+            },
+            {
+              "name": "塔漠米",
+              "colors": [
+                "#F8F8EE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/9371a2247920b5895284444053b59c75~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/81e84145a295d8c9241a17f5819c5dfb~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9246,
       "carName": "豹8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e413dc53cf6b4202983715a1d4fe1ff6~1200x0.png",
       "configs": [
         {
-          "configName": "豹8 2025款 智勇豪华版 7座",
+          "configName": "2025款 智勇豪华版 7座",
+          "configId": "242417",
+          "index": 0,
           "price": "37.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x1905",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x1905",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f038715f535353dc9e9dc23ad8aa242~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8aea93c2df4b1a7fbfca82f759578a84~2508x0.webp"
+            },
+            {
+              "name": "破晓金",
+              "colors": [
+                "#F5F2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91d922bd73bedf0140cf82a4a556cb23~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8dda9bb78172337c8932117de6640172~2508x0.webp"
+            },
+            {
+              "name": "野麦黄",
+              "colors": [
+                "#D8BB92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc6c02e69f42b4ebe083b6f8bdbfc3e2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1f038715f535353dc9e9dc23ad8aa242~2508x0.webp"
         },
         {
-          "configName": "豹8 2025款 智勇豪华版 6座",
+          "configName": "2025款 智勇豪华版 6座",
+          "configId": "242416",
+          "index": 1,
           "price": "38.78万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x1905",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x1905",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bdd72c9a3b9374a73d54e3b2948bb36c~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b8948b021998c8c6304c344825c307d~2508x0.webp"
+            },
+            {
+              "name": "破晓金",
+              "colors": [
+                "#F5F2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0d9f12ba94b7ca9da682a408927a31b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7cc4bb0d5518e108105ac0f33f22e8bd~2508x0.webp"
+            },
+            {
+              "name": "野麦黄",
+              "colors": [
+                "#D8BB92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15937ed0c8761eb67d9a8447673ec987~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bdd72c9a3b9374a73d54e3b2948bb36c~2508x0.webp"
         },
         {
-          "configName": "豹8 2025款 智勇旗舰版 7座",
+          "configName": "2025款 智勇旗舰版 7座",
+          "configId": "242415",
+          "index": 2,
           "price": "39.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x1905",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x1905",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8956812064984cfd0aaa68132c6b6156~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4f2599febfb7098ce93cc4fc7f0c99f~2508x0.webp"
+            },
+            {
+              "name": "破晓金",
+              "colors": [
+                "#F5F2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b295aefd73fdd9b002f4e3327321ba21~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f15ce79eafb9f3f41c186271f3efd126~2508x0.webp"
+            },
+            {
+              "name": "野麦黄",
+              "colors": [
+                "#D8BB92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/488e03a468ebf5de15268b2ab046c51f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8956812064984cfd0aaa68132c6b6156~2508x0.webp"
         },
         {
-          "configName": "豹8 2025款 智勇旗舰版 6座",
+          "configName": "2025款 智勇旗舰版 6座",
+          "configId": "242414",
+          "index": 3,
           "price": "40.78万",
+          "manufacturer": "方程豹",
+          "class": "中大型SUV",
           "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
           "size": "5195x1994x1905",
-          "manufacturer": "方程豹",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fbf1d08ce6ebe2e055384962f5c8ade~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8cd885a8bc7a56fb1e68e6b3db7daf7b~2508x0.webp"
+            },
+            {
+              "name": "破晓金",
+              "colors": [
+                "#F5F2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aded85e5a801d4c4e1f0892218ce2bbe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbccc98296bd96738ce2f8ae7f7c949e~2508x0.webp"
+            },
+            {
+              "name": "野麦黄",
+              "colors": [
+                "#D8BB92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2480e9421b54178dbbaa6965f13e4a9b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3fbf1d08ce6ebe2e055384962f5c8ade~2508x0.webp"
         },
         {
-          "configName": "豹8 2025款 智勇豪华无人机版 7座",
+          "configName": "2025款 智勇豪华无人机版 7座",
+          "configId": "244364",
+          "index": 4,
           "price": "39.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x2002",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x2002",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "豹8 2025款 智勇豪华无人机版 6座",
+          "configName": "2025款 智勇豪华无人机版 6座",
+          "configId": "245762",
+          "index": 5,
           "price": "40.38万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x2002",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x2002",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e0648979647c1b1fa9cf009c1d26172~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c4344888edb1edc6aedb567926abccc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e0648979647c1b1fa9cf009c1d26172~2508x0.webp"
         },
         {
-          "configName": "豹8 2025款 智勇旗舰无人机版 7座",
+          "configName": "2025款 智勇旗舰无人机版 7座",
+          "configId": "245763",
+          "index": 6,
           "price": "41.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x2002",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x2002",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_45989b67a916c2ba30c2fdfc10082fcf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe5387b8aa477c9d4e184eaa98e82c9f~2508x0.webp"
+            },
+            {
+              "name": "破晓金",
+              "colors": [
+                "#F5F2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f4513682507c1a3e92981e0db1c8a8d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8de9d5d6690a6a6c30da3e2047df756b~2508x0.webp"
+            },
+            {
+              "name": "野麦黄",
+              "colors": [
+                "#D8BB92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0171e57b98d95bf910611379fa55c940~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_d7e9b55946af5ba561ea0514915346f4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_45989b67a916c2ba30c2fdfc10082fcf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "豹8 2025款 智勇旗舰无人机版 6座",
+          "configName": "2025款 智勇旗舰无人机版 6座",
+          "configId": "245764",
+          "index": 7,
           "price": "42.38万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1994x2002",
           "manufacturer": "方程豹",
           "class": "中大型SUV",
-          "power": "插电式混合动力 680马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "5195x1994x2002",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f028628ffa04d0f86f00216cdb9adf3c~2508x0.webp"
+            },
+            {
+              "name": "星月银",
+              "colors": [
+                "#EDF0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c23c1d8945809b2259c5ba83547d2c09~2508x0.webp"
+            },
+            {
+              "name": "破晓金",
+              "colors": [
+                "#F5F2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fa9d8dc02967bafb1b17d82d68141976~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "野麦黄",
+              "colors": [
+                "#D8BB92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb7dd15f713d5d26fedd4798695a4908~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63a4a24fcdcae93b27141b5742f86e91~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f028628ffa04d0f86f00216cdb9adf3c~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T10:43:04.077Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }
