@@ -1,0 +1,141 @@
+{
+  "brand": "Aion",
+  "timestamp": "2025-08-22T06:53:42.646Z",
+  "crawlSummary": {
+    "totalCars": 6,
+    "successCount": 6,
+    "failCount": 0,
+    "totalTime": "15分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 3101,
+        "carName": "AION S",
+        "configCount": 22,
+        "exteriorColorCount": 50,
+        "interiorColorCount": 25,
+        "status": "completed"
+      },
+      {
+        "carId": 24800,
+        "carName": "AION RT",
+        "configCount": 6,
+        "exteriorColorCount": 38,
+        "interiorColorCount": 17,
+        "status": "completed"
+      },
+      {
+        "carId": 25014,
+        "carName": "AION UT",
+        "configCount": 5,
+        "exteriorColorCount": 34,
+        "interiorColorCount": 14,
+        "status": "completed"
+      },
+      {
+        "carId": 4814,
+        "carName": "AION Y",
+        "configCount": 14,
+        "exteriorColorCount": 98,
+        "interiorColorCount": 24,
+        "status": "completed"
+      },
+      {
+        "carId": 4426,
+        "carName": "AION V",
+        "configCount": 8,
+        "exteriorColorCount": 55,
+        "interiorColorCount": 19,
+        "status": "completed"
+      },
+      {
+        "carId": 3503,
+        "carName": "AION LX",
+        "configCount": 4,
+        "exteriorColorCount": 12,
+        "interiorColorCount": 6,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 287,
+    "totalInteriorColors": 105,
+    "exteriorColorTypes": [
+      "极速银",
+      "极地白",
+      "梵星蓝",
+      "全息银",
+      "冰玫粉",
+      "碧云绿",
+      "夜影黑",
+      "海荧灰",
+      "日冕红",
+      "水晶紫",
+      "月华米",
+      "提香红",
+      "莫奈紫",
+      "塞纳银",
+      "香榭米",
+      "洛可白",
+      "翡冷翠",
+      "翡冷翠/白色",
+      "提香红/白色",
+      "自由灰",
+      "素雅灰",
+      "星漫绿",
+      "天选之银",
+      "幻彩紫",
+      "永远年青",
+      "小确杏",
+      "天青色",
+      "星漫绿/黑色",
+      "小确杏/黑色",
+      "极地白/黑色",
+      "星河蓝",
+      "旷野沙",
+      "落霞橙",
+      "落霞橙/极地白",
+      "星河蓝/极地白",
+      "脉冲蓝",
+      "天际灰",
+      "全息银/黑色"
+    ],
+    "interiorColorTypes": [
+      "星夜黑",
+      "棕色/黑色",
+      "黑色",
+      "曜石",
+      "星环",
+      "皓月白",
+      "橙色",
+      "米色",
+      "黑色主义",
+      "轻法印象",
+      "莫奈花园",
+      "头号玩家",
+      "清新马卡龙",
+      "零蕉绿",
+      "梦幻世界",
+      "角逐之夜",
+      "黑色（角逐之夜）",
+      "超维空间",
+      "松露雅棕",
+      "启明星白"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

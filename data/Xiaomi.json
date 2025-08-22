@@ -1,87 +1,689 @@
 {
-  "brand": "小米",
+  "brand": "Xiaomi",
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/a2994c3b381f4abfba82e8ee7a372b38~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "小米YU7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6b63b46379e14698a8e57f1ce35fb503~1200x0.png",
-      "configs": [
-        {
-          "configName": "小米YU7 2025款 超长续航后驱版",
-          "price": "25.35万",
-          "fuelType": "纯电动",
-          "size": "4999x1996x1608",
-          "manufacturer": "小米汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 320马力"
-        },
-        {
-          "configName": "小米YU7 2025款 超长续航四驱Pro版",
-          "price": "27.99万",
-          "fuelType": "纯电动",
-          "size": "4999x1996x1600",
-          "manufacturer": "小米汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 496马力"
-        },
-        {
-          "configName": "小米YU7 2025款 超长续航高性能四驱Max版",
-          "price": "32.99万",
-          "fuelType": "纯电动",
-          "size": "4999x1996x1600",
-          "manufacturer": "小米汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 690马力"
-        }
-      ]
-    },
-    {
+      "carId": 6187,
       "carName": "小米SU7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/604ea6fb6eed45a9aa0c39b3b43f923d~1200x0.png",
       "configs": [
         {
-          "configName": "小米SU7 2024款 后驱标准长续航版",
+          "configName": "2024款 后驱标准长续航版",
+          "configId": "95922",
+          "index": 0,
           "price": "21.59万",
-          "fuelType": "纯电动",
-          "size": "4997x1963x1455",
           "manufacturer": "小米汽车",
           "class": "中大型车",
-          "power": "纯电动 299马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4997x1963x1455",
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5eeabdc00c1622d4cb122379cc83977b~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#199BBC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d3b41f79bc40372ff6afeb6243c713d~2508x0.webp"
+            },
+            {
+              "name": "霞光紫",
+              "colors": [
+                "#685377"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6f867277339ddb8c79be0a40ea34f76~2508x0.webp"
+            },
+            {
+              "name": "寒武岩灰",
+              "colors": [
+                "#7084A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bfbd49f332b430e897a7910de50edb4~2508x0.webp"
+            },
+            {
+              "name": "橄榄绿",
+              "colors": [
+                "#717A60"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2ac14adb33a9583f75538a6396186cf~2508x0.webp"
+            },
+            {
+              "name": "流星蓝",
+              "colors": [
+                "#7A8FC5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e15fa6f7eb32d9608a07518ad7c3b2c~2508x0.webp"
+            },
+            {
+              "name": "璀璨洋红",
+              "colors": [
+                "#9A044C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/755a4f2bf28c6a05f487171e3a5940ce~2508x0.webp"
+            },
+            {
+              "name": "雅灰",
+              "colors": [
+                "#B9BBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6b76998b6ea74b785b80613b94c3221~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e939238e114c6ce0e1947fa340ddc8dc~2508x0.webp"
+            },
+            {
+              "name": "熔岩橙",
+              "colors": [
+                "#FE5F20"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e77bb867819b2232352ec849afa8be56~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06f110492e38fac951f03fdd494261e1~2508x0.webp"
+            },
+            {
+              "name": "迷雾紫",
+              "colors": [
+                "#7C6789"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85572a97513a0b965e5acba5510446a0~2508x0.webp"
+            },
+            {
+              "name": "暮光红",
+              "colors": [
+                "#D21D1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ed4b52e2d2b24a213eff326f780f052~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#DDD8D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/177af85a705caf762d12b0bfa3bb6186~2508x0.webp"
+            },
+            {
+              "name": "米灰色",
+              "colors": [
+                "#E6D6C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47a2b1ff7bd58cbfae886882cb5f5bfa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5eeabdc00c1622d4cb122379cc83977b~2508x0.webp"
         },
         {
-          "configName": "小米SU7 2024款 后驱超长续航Pro版",
+          "configName": "2024款 后驱超长续航Pro版",
+          "configId": "99695",
+          "index": 1,
           "price": "24.59万",
-          "fuelType": "纯电动",
-          "size": "4997x1963x1455",
           "manufacturer": "小米汽车",
           "class": "中大型车",
-          "power": "纯电动 299马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4997x1963x1455",
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74cb397015c003fe3df12cc606054323~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#199BBC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/972c8f518d111aae2c77b3ec2a0c2587~2508x0.webp"
+            },
+            {
+              "name": "霞光紫",
+              "colors": [
+                "#685377"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90f71236d138f7734064b8a7f118425b~2508x0.webp"
+            },
+            {
+              "name": "寒武岩灰",
+              "colors": [
+                "#7084A6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/522ee205908b4878408f5a03ebad1c55~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "橄榄绿",
+              "colors": [
+                "#717A60"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39c0dfc7b91972c9fc306b084098bb86~2508x0.webp"
+            },
+            {
+              "name": "流星蓝",
+              "colors": [
+                "#7A8FC5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1232ccc6d3089cb7f9afb13f23d6975d~2508x0.webp"
+            },
+            {
+              "name": "雅灰",
+              "colors": [
+                "#B9BBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ffff7d1edcd59313ed482baefcbcc8c~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a449296f276d5ae7314ce312507734b~2508x0.webp"
+            },
+            {
+              "name": "熔岩橙",
+              "colors": [
+                "#FE5F20"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1009595609e48a23027d185b4e6876d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f6ed015f8b83a9459ffa08727a3cd04~2508x0.webp"
+            },
+            {
+              "name": "迷雾紫",
+              "colors": [
+                "#7C6789"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b068848c7937815ee0f3abba0f41805~2508x0.webp"
+            },
+            {
+              "name": "暮光红",
+              "colors": [
+                "#D21D1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1e37cab344b2660caabd6843764124a~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#DDD8D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a32ae4826fc9acbbf829a3ffac5ce7d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/74cb397015c003fe3df12cc606054323~2508x0.webp"
         },
         {
-          "configName": "小米SU7 2024款 四驱超长续航Max版",
+          "configName": "2024款 四驱超长续航Max版",
+          "configId": "78784",
+          "index": 2,
           "price": "29.99万",
-          "fuelType": "纯电动",
-          "size": "4997x1963x1440",
           "manufacturer": "小米汽车",
           "class": "中大型车",
-          "power": "纯电动 673马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 673马力",
+          "size": "4997x1963x1440",
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f68cfe6728357469f8d4a1aa8b73ca67~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#199BBC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d61ae6f17b8cd8796556ec306748d77~2508x0.webp"
+            },
+            {
+              "name": "霞光紫",
+              "colors": [
+                "#685377"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2a53c3b3c5c75b243c52a7f0ec09079~2508x0.webp"
+            },
+            {
+              "name": "寒武岩灰",
+              "colors": [
+                "#7084A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2edecbca29c2a8f662d2dea4ec6d2cc0~2508x0.webp"
+            },
+            {
+              "name": "橄榄绿",
+              "colors": [
+                "#717A60"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75b98659184f88868575c449fbb9a817~2508x0.webp"
+            },
+            {
+              "name": "璀璨洋红",
+              "colors": [
+                "#9A044C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bad9ebd5de727ec94f10c38d96c4ca2c~2508x0.webp"
+            },
+            {
+              "name": "雅灰",
+              "colors": [
+                "#B9BBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b0e57f6195fafd8d30cfe5083f039b0~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/855e29e762fd1bf3a81565edb26db0ac~2508x0.webp"
+            },
+            {
+              "name": "熔岩橙",
+              "colors": [
+                "#FE5F20"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4dd100b5c22fe0868336b061be985928~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8bcc824f93187b118255cf4870f9e0f6~2508x0.webp"
+            },
+            {
+              "name": "迷雾紫",
+              "colors": [
+                "#7C6789"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f6d66a762ee78ea7998a03433d591d2~2508x0.webp"
+            },
+            {
+              "name": "暮光红",
+              "colors": [
+                "#D21D1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95a6e843c933d4cc8e328a744bf66c4e~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#DDD8D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/863fdd5f1f5d7837b015050eda0339ce~2508x0.webp"
+            },
+            {
+              "name": "米灰色",
+              "colors": [
+                "#E6D6C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eff9438fb21e0cb1a4261ca66027cee6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f68cfe6728357469f8d4a1aa8b73ca67~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24986,
       "carName": "小米SU7 Ultra",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/02038e81caf640c394f0b1dc3448def4~1200x0.png",
       "configs": [
         {
-          "configName": "小米SU7 Ultra 2025款 标准版",
+          "configName": "2025款 标准版",
+          "configId": "241731",
+          "index": 0,
           "price": "52.99万",
-          "fuelType": "纯电动",
-          "size": "5070x1970x1465",
           "manufacturer": "小米汽车",
           "class": "中大型车",
-          "power": "纯电动 1548马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1548马力",
+          "size": "5070x1970x1465",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0F0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_226a0cb901e5ac5cec40c82b628e1983~2508x0.webp"
+            },
+            {
+              "name": "鹦鹉绿",
+              "colors": [
+                "#417369"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f498e859a0ec10785d0dc13a32de3bc2~2508x0.webp"
+            },
+            {
+              "name": "太空银",
+              "colors": [
+                "#AFB1C8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20bc21fce9796080944ee99687961fef~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b924eba2692a4e13156d9e4bdd47ccc~2508x0.webp"
+            },
+            {
+              "name": "闪电黄",
+              "colors": [
+                "#F9D60C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1bf9e3d83c674ee7307ada048329cfdf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑黄",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d55078a8e0bbead6758c601ed941ef3~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#250707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1dccd1c73736f807797c1d76ca42dfdc~2508x0.webp"
+            },
+            {
+              "name": "明黄",
+              "colors": [
+                "#FFE100"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a47a7734f6c04ed2f80dacc5bc65c9fd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_226a0cb901e5ac5cec40c82b628e1983~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 20041,
+      "carName": "小米YU7",
+      "configs": [
+        {
+          "configName": "2025款 超长续航后驱版",
+          "configId": "244341",
+          "index": 0,
+          "price": "25.35万",
+          "manufacturer": "小米汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "4999x1996x1608",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#0909DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d63cd81355b93c146dffd96d3dea3068~2508x0.webp"
+            },
+            {
+              "name": "宝石绿",
+              "colors": [
+                "#56B356"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bf7c914c67ed9a8cbcbbb0cd1b7dfd5e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "寒武岩灰",
+              "colors": [
+                "#7084A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ebf0bf9a889410c33d71413ce5b7ed0~2508x0.webp"
+            },
+            {
+              "name": "影青色",
+              "colors": [
+                "#99C4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e5c9f9072cd56fd62666a19603488010~2508x0.webp"
+            },
+            {
+              "name": "丹霞紫",
+              "colors": [
+                "#B88482"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_21a917e3083d43b1fe6e489d34bf0ce1~2508x0.webp"
+            },
+            {
+              "name": "流金粉",
+              "colors": [
+                "#D7C1D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab1f854ea08a9d19d1b95128eeb8aff3~2508x0.webp"
+            },
+            {
+              "name": "钛金属色",
+              "colors": [
+                "#E2E4EF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d01007c90bb590262f008cafd2d3014~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbef55dbcda8d62c1a5bf7f6aa92a92c~2508x0.webp"
+            },
+            {
+              "name": "熔岩橙",
+              "colors": [
+                "#FE5F20"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6f055c3c4522146985a9f9997f6fdae~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮影蓝",
+              "colors": [
+                "#414153"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4833c6abf9ce0ffbfbf337f6495cc45b~2508x0.webp"
+            },
+            {
+              "name": "鸢尾紫",
+              "colors": [
+                "#D7C0C0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b37fcd4f19bd9e3929553be88c2b2dd~2508x0.webp"
+            },
+            {
+              "name": "松石灰",
+              "colors": [
+                "#E4DBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e5c578f6043bada496d58ed5548adc90~2508x0.webp"
+            },
+            {
+              "name": "珊瑚橙",
+              "colors": [
+                "#F29119"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43d50441948197e8a6a4f7e9686a3106~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d63cd81355b93c146dffd96d3dea3068~2508x0.webp"
+        },
+        {
+          "configName": "2025款 超长续航四驱Pro版",
+          "configId": "245384",
+          "index": 1,
+          "price": "27.99万",
+          "manufacturer": "小米汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 496马力",
+          "size": "4999x1996x1600",
+          "exteriorImages": [
+            {
+              "name": "钛金属色",
+              "colors": [
+                "#E2E4EF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_818a6a0bc5479c2935a87e4076bc1541~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮影蓝",
+              "colors": [
+                "#414153"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37ab9db2483fd87c1ab65c72b61c1c21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_818a6a0bc5479c2935a87e4076bc1541~2508x0.webp"
+        },
+        {
+          "configName": "2025款 超长续航高性能四驱Max版",
+          "configId": "243271",
+          "index": 2,
+          "price": "32.99万",
+          "manufacturer": "小米汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 690马力",
+          "size": "4999x1996x1600",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#0909DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7cb8036567503e330c0a70922a9b29e5~2508x0.webp"
+            },
+            {
+              "name": "宝石绿",
+              "colors": [
+                "#56B356"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2a329d517039db124e61a1faf706641c~2508x0.webp"
+            },
+            {
+              "name": "寒武岩灰",
+              "colors": [
+                "#7084A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6736bd163505709084d4d53b843de921~2508x0.webp"
+            },
+            {
+              "name": "影青色",
+              "colors": [
+                "#99C4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7461a205c9eeea32fc1cffde7652029~2508x0.webp"
+            },
+            {
+              "name": "丹霞紫",
+              "colors": [
+                "#B88482"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b82e0bb25e739f96a089192bbde40ae~2508x0.webp"
+            },
+            {
+              "name": "流金粉",
+              "colors": [
+                "#D7C1D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67fbbb6c88e59f4f430dbbde106c3a61~2508x0.webp"
+            },
+            {
+              "name": "钛金属色",
+              "colors": [
+                "#E2E4EF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_463353a1ac53d775e6b1fd61e0d3801b~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2dd99ffff95d6b4d081eeda5ae8dd860~2508x0.webp"
+            },
+            {
+              "name": "熔岩橙",
+              "colors": [
+                "#FE5F20"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82c5e2d92df9f707b3b4064ff9b0f000~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮影蓝",
+              "colors": [
+                "#414153"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95594884d778dad49b7d41cf6af8377f~2508x0.webp"
+            },
+            {
+              "name": "鸢尾紫",
+              "colors": [
+                "#D7C0C0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bd8bae3a5b8337c2fad7981be23f735~2508x0.webp"
+            },
+            {
+              "name": "松石灰",
+              "colors": [
+                "#E4DBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d11afa1c1b5cf54bfd77bb1ef4591b02~2508x0.webp"
+            },
+            {
+              "name": "珊瑚橙",
+              "colors": [
+                "#F29119"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27bb8f671df676e778de24f9845af34e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7cb8036567503e330c0a70922a9b29e5~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T06:32:29.396Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }

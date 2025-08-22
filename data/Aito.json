@@ -3,334 +3,2525 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/b98df48107bc3529e1a8b4b637fceb98~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5343,
       "carName": "M5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2af6843297154df9bffa60254ee17f4c~1200x0.png",
       "configs": [
         {
-          "configName": "问界M5 2025款 增程Ultra 后驱版",
+          "configName": "2025款 增程Ultra 后驱版",
+          "configId": "245726",
+          "index": 0,
           "price": "22.98万",
-          "fuelType": "增程式",
-          "size": "4785x1930x1625",
           "manufacturer": "赛力斯汽车",
           "class": "中型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4785x1930x1625",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20f5f155bb9bc69c72f36984c55362df~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_ead26f098bf498a53c2f6ba9378735f0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#BA66EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_076cd8fd5bc61a8ba26f8ffdf1009eb4~2508x0.webp"
+            },
+            {
+              "name": "零度白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1499dca293a97e8af7b480986cc8633c~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_59c059f826b54a7321a8bbd43aab8190~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#9E3A58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bea2b6e8051686e7da7f45af38dae518~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#C1810B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7110e64347abd24d33d978d9cbe1f259~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#E7EAD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b545046b92f5af41f8af97e0937a0635~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20f5f155bb9bc69c72f36984c55362df~2508x0.webp"
         },
         {
-          "configName": "问界M5 2025款 增程Ultra 四驱版",
+          "configName": "2025款 增程Ultra 四驱版",
+          "configId": "245747",
+          "index": 1,
           "price": "24.98万",
-          "fuelType": "增程式",
-          "size": "4785x1930x1625",
           "manufacturer": "赛力斯汽车",
           "class": "中型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "4785x1930x1625",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e7deb0a049ab221c9a32d9035cbb4a4~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e1afc1491b272a49e9e4dd5977125de0~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#BA66EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ea381de6a7b6987e376fc9b71544108~2508x0.webp"
+            },
+            {
+              "name": "零度白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7d11921de1eaac736fb97f1b720dc3e~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f655220d24749cb160a29a901f55c9fc~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_207e473d48a477a04df3f8a47d435152~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#9E3A58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed59db96d8838a8c51d9c12637416c91~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#C1810B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5ed7572fd49b56896602bab341315488~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#E7EAD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a1c63a8993d4a53721146045d988140~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e7deb0a049ab221c9a32d9035cbb4a4~2508x0.webp"
         },
         {
-          "configName": "问界M5 2025款 纯电Ultra 后驱版",
+          "configName": "2025款 纯电Ultra 后驱版",
+          "configId": "245748",
+          "index": 2,
           "price": "23.98万",
+          "manufacturer": "赛力斯汽车",
+          "class": "中型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 272马力",
           "size": "4785x1930x1620",
-          "manufacturer": "赛力斯汽车",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7150485b46b7f070c4cc03934ccf2fdd~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5443f1f46ba923353469270dec7a5a89~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#BA66EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aab955a423eab5a30ab610fe1cf1134c~2508x0.webp"
+            },
+            {
+              "name": "零度白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_249d14d8fa20a72d91e7860a8dc68918~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_653ba9a4f8c98399a04dd85c5e9627e6~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7c0cf161e87243f2e975a7c6b4b1d12~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#9E3A58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_913054e438732f8fcc95128893d65501~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#C1810B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f87b7334e1cfa90564015a10d6743866~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#E7EAD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_813e2cd56ffd674128234774000371ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7150485b46b7f070c4cc03934ccf2fdd~2508x0.webp"
         },
         {
-          "configName": "问界M5 2024款 增程Max 后驱高阶智驾版",
+          "configName": "2024款 增程Max 后驱高阶智驾版",
+          "configId": "100467",
+          "index": 3,
           "price": "24.98万",
-          "fuelType": "增程式",
-          "size": "4785x1930x1625",
           "manufacturer": "赛力斯汽车",
           "class": "中型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4785x1930x1625",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38eebd2b5e450ec0498bca9083cdca7d~2508x0.webp"
+            },
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#AAC4D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79d286cfb995bf4d5913cf0917208fbb~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eea59c7ed200e7ff0d800bcb7fb3526b~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f9b1e75608c5c8d8f9134d59d76baf7~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c84ee33ee7f20b03a535285211f579d2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#9E3A58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c28c34a80e06ec330e0e0b446c182313~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#C57A21"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6def681534bcfefcf8de21a8ee86c1d~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#E7EAD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31af973eb32810678222f8eeab0ef500~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/38eebd2b5e450ec0498bca9083cdca7d~2508x0.webp"
         },
         {
-          "configName": "问界M5 2024款 增程Max RS 四驱高阶智驾版",
+          "configName": "2024款 增程Max RS 四驱高阶智驾版",
+          "configId": "100542",
+          "index": 4,
           "price": "27.98万",
+          "manufacturer": "赛力斯汽车",
+          "class": "中型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 496马力",
           "size": "4785x1930x1625",
-          "manufacturer": "赛力斯汽车",
-          "class": "中型SUV",
-          "power": "增程式 496马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7aa10c7fa4764c113a1fe5e3c215d8ec~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c156d92a5428bfb06998f74797e63f4d~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0492778539056803c2601ae481c909c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#9E3A58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39300dda0dd40723ebf2036a9461176f~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#C57A21"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1adba29e738b7f4047764b79178a949~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#E7EAD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57bebbdef572ab6420deed21fbc42f9e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7aa10c7fa4764c113a1fe5e3c215d8ec~2508x0.webp"
         },
         {
-          "configName": "问界M5 2024款 纯电Max 后驱高阶智驾版",
+          "configName": "2024款 纯电Max 后驱高阶智驾版",
+          "configId": "100468",
+          "index": 5,
           "price": "26.98万",
+          "manufacturer": "赛力斯汽车",
+          "class": "中型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 272马力",
           "size": "4785x1930x1620",
-          "manufacturer": "赛力斯汽车",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/652af4a285652b68f8488914d5d9f827~2508x0.webp"
+            },
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#AAC4D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c44cdf54fe4a6c2b448b509bd6ce043~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5bf0785f2472c8183b11eea22ef19cf~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e98dfd1923c48bd6460d2f06f5478c17~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14f5edc68ea6f427e4cdb3cbb833bc5a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#9E3A58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e4f162ffac8a0a65c42b66b404e3fb6~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#C57A21"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef7d41b2e535923a9d73307d6afdb109~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#E7EAD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8336af3e64daa096804f6f382edf01a7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/652af4a285652b68f8488914d5d9f827~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5820,
       "carName": "M7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e5ed7506f56c421fa311be3ed666e582~1200x0.png",
       "configs": [
         {
-          "configName": "问界M7 2024款 Pro五座后驱智驾版",
+          "configName": "2024款 Pro五座后驱智驾版",
+          "configId": "239102",
+          "index": 0,
           "price": "24.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f57c7b577a71d75011717d331a71cc7~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a91f326fbd3a817ac6907f1664fabed~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/088ff75ad67515d549317a316a0609a9~2508x0.webp"
+            },
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#AAC4D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e87199b4ae06c1d51b9efbad6c900cd1~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#BBB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/881eb09a2d277408369c5825cc01ce43~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5b3353166f4134bd57d78651420db7c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#7D655D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_59f98b8579a35e63dcad782327186562~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c228279d2c56be2b9a44fc5201651097~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6c22d5326e160b52ad645701fc338b2~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#EBEBCA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_270878976b946c9aa038deebb456a5b2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9f57c7b577a71d75011717d331a71cc7~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Pro五座四驱智驾版",
+          "configName": "2024款 Pro五座四驱智驾版",
+          "configId": "239103",
+          "index": 1,
           "price": "26.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67e09d6820ad6499678fabab49d42199~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b91eb9af76a1c16c35b35fadbfcc9fe~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6423e612bedee7c59a156638750d29b2~2508x0.webp"
+            },
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#AAC4D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c308b5f485e7d9cb022514309c54373~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/498199d3f24523020098813634e51a25~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4bf266223f2b7a6891ee517b1950ea2~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de82feaab5ff48c7e87c7d79d16ef621~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#EBEBCA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fa88ed1d9bc82c492f338277f4710ff~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/67e09d6820ad6499678fabab49d42199~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Pro六座后驱智驾版",
+          "configName": "2024款 Pro六座后驱智驾版",
+          "configId": "239104",
+          "index": 2,
           "price": "26.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51a69fe0e1e8640954224b194133a378~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03adb2089295c29b16d1c8eca3c261c9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d402d39ad120bd16cb88817c125b95cd~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f36e03a147314f5c585cef5797cf7663~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/51a69fe0e1e8640954224b194133a378~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Pro六座四驱智驾版",
+          "configName": "2024款 Pro六座四驱智驾版",
+          "configId": "239105",
+          "index": 3,
           "price": "28.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3eed133a7f100812816999d2a0d8b713~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d25992c2c16858c6f170795e6eb9c8d3~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3eebcaeb93e800b90c0dbc21eb19c949~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53a0081cfe0f7945020a640d4d722b9c~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/964acea38cafe7ab15d84cca6162ab09~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3eed133a7f100812816999d2a0d8b713~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Ultra五座后驱智驾版",
+          "configName": "2024款 Ultra五座后驱智驾版",
+          "configId": "101494",
+          "index": 4,
           "price": "28.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd89d6851145385bbbcf5e31e836cf2f~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea173da9bd05030d37d82281187b92b3~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8005c1e484d0b3529311ec2a33c7e443~2508x0.webp"
+            },
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#AAC4D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3875a804ff1181a36a059e8e2688c7fb~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#BBB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecff37f4330dc0a674b7b247fe1fb958~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4397ecacb9821c8fd071943f5ad0d005~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#7D655D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e88ef5751fde798637b3233eaf49186~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/249da563cd94a04c42fa9c7a358cb50d~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb09206fa8c9920d07f5253215d64e89~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#EBEBCA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9b43e3b8200ca31b82a1213cceb2d81~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dd89d6851145385bbbcf5e31e836cf2f~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Ultra五座四驱智驾版",
+          "configName": "2024款 Ultra五座四驱智驾版",
+          "configId": "101504",
+          "index": 5,
           "price": "30.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f00b7c19e1f9f61e9e5e475ffd86165~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d835d42c5e250392f1b701d892613f57~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0cd2ec84b5ca0201e9aa62129bad1a00~2508x0.webp"
+            },
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#AAC4D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5bd3bf0b72f9b43c401ae0e441014117~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#BBB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a64ce214966b0c0c188878a7712a18e4~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4c79aff010afaa0da35e5768b7c48be~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8873ec4c3b0783c714556afd9fd7a02~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e5c68b98ce910642d1986bd116c93b1~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#EBEBCA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92376b580eac5da9485847cf661e506a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6f00b7c19e1f9f61e9e5e475ffd86165~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Ultra六座后驱智驾版",
+          "configName": "2024款 Ultra六座后驱智驾版",
+          "configId": "101503",
+          "index": 6,
           "price": "30.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fb9e727650b72bded742c6dc35939c6~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea13609690b841b15d0efd1a1e122974~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8b3b99db9971e68818ca0a83182fa4d~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#BBB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51f1c5f3ee575fea4ae62c58381f4f00~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d4f46dad52a6ef50114f9dad94ddb45~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb94d06fb066db890882f7b2a0f6e684~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/142285c996e0a41f5bf709a36e6f912c~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#EBEBCA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/696574223df193cd43b3a6a1f12efe86~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6fb9e727650b72bded742c6dc35939c6~2508x0.webp"
         },
         {
-          "configName": "问界M7 2024款 Ultra六座四驱智驾版",
+          "configName": "2024款 Ultra六座四驱智驾版",
+          "configId": "101505",
+          "index": 7,
           "price": "32.98万",
-          "fuelType": "增程式",
-          "size": "5020x1945x1760",
           "manufacturer": "赛力斯汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5020x1945x1760",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b27f76cc46d892e8d47a284fe509cd6~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94f15c19450ffae084e5b2213a82c926~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3030d5e23f5bb1356b31c4364da25c57~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#BBB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9ae85e4afcbcec4122ad9c90957008d1~2508x0.webp"
+            },
+            {
+              "name": "冰晶银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/995063e09c585024c412803f6fd89cfa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16282b10a7de0ad982a276322fb0f8c2~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#E2900B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f61458af94e56ce3604a47f2e7ebe8fb~2508x0.webp"
+            },
+            {
+              "name": "韶华杏",
+              "colors": [
+                "#EBEBCA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/135f35bcd8acf00edba751b713c88320~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9b27f76cc46d892e8d47a284fe509cd6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6325,
       "carName": "M9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/16b077636c0d42dc8850e56f47910ef6~1200x0.png",
       "configs": [
         {
-          "configName": "问界M9 2025款 增程 Max 六座版",
+          "configName": "2025款 增程 Max 六座版",
+          "configId": "245375",
+          "index": 0,
           "price": "47.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d1252883823ab9e8d4c4b0676119df4~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed1c5a9e1a730c479883cc84899b0544~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b331f86b34074e62408340901784e306~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_118d3db3ccc452dad74a2887e18aeb50~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbe0a207bd28e9098476e30338cf48c4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_faf71eb570737fab7ca4888c4cf0b839~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f634859918dc7e9c1c66862eddd9bac~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c10a21514cf40acefeb6dc9951396733~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73dbf317143aa17075a5716e62e36629~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d41e7106b06e4404f8f795ec4b2f70ce~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d1252883823ab9e8d4c4b0676119df4~2508x0.webp"
         },
         {
-          "configName": "问界M9 2025款 增程 Ultra 六座版",
+          "configName": "2025款 增程 Ultra 六座版",
+          "configId": "245946",
+          "index": 1,
           "price": "53.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a06dc14c9128362b87512e83e39b6960~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_706ed1a29fe0bc94a7428a6ebab83758~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28a1abe981459ee82d62870a9afacb5a~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ec2b40be2e9ad60f2e37b90d4c1591a~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fc0f27e407784c5c7a8842e1e57c6fb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0c9e102e3299297d1e9ce473da2531d~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c67e0364ff20da87838aa47713db6a40~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6537f639fe6e402babdc0cd4e8d972c7~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_53315dc51ac786f8f629e880f88b0e13~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/391a2d9f5aec30856645d2dcdf6df6a2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a06dc14c9128362b87512e83e39b6960~2508x0.webp"
         },
         {
-          "configName": "问界M9 2025款 增程 Max 五座版",
+          "configName": "2025款 增程 Max 五座版",
+          "configId": "245374",
+          "index": 2,
           "price": "46.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a47238738ff6f21ec073c4a76e13437a~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4491e20bf17562e207333ce4d7fab662~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a38b838ee899277131fe45c157d24ff~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b6148aeec17929d45bd8ef974b4a4f6~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_204e290b9e615c273b0b172ce02df552~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_254dd247d4b13b14e464be29ca9d242c~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15011548930aeb72e33424393b192540~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a47238738ff6f21ec073c4a76e13437a~2508x0.webp"
         },
         {
-          "configName": "问界M9 2025款 增程 Ultra 五座版",
+          "configName": "2025款 增程 Ultra 五座版",
+          "configId": "245947",
+          "index": 3,
           "price": "51.98万",
+          "manufacturer": "赛力斯汽车",
+          "class": "大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 496马力",
           "size": "5230x1999x1800",
-          "manufacturer": "赛力斯汽车",
-          "class": "大型SUV",
-          "power": "增程式 496马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04bacf7f2f449ba8e215847b303bf682~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee0419df961224e9b3afd38bc6111e77~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6168a3162e5b703de758357eac8dacb~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df023c5a246d2544b0405e9a6ea6e4c9~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e964eff8f00c11c245dfc40e19986a4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_051fc3fb02e63d65b1736e6dd72ff757~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_70f8b2f94f4d732b9984b79e3b208338~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b5acfb4be601c8c080e006f39bb1117~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_715f7870ef8e753efa093c9cedb46429~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04bacf7f2f449ba8e215847b303bf682~2508x0.webp"
         },
         {
-          "configName": "问界M9 2025款 纯电 Max 六座版",
+          "configName": "2025款 纯电 Max 六座版",
+          "configId": "245372",
+          "index": 4,
           "price": "50.98万",
-          "fuelType": "纯电动",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c59f2abde53435c187f56a32acae267~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db9532399c07527dcf5183bda247e6cb~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9bc2f6b4fadab64e66316d90d210377c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9be60fc398facb8c5b61243d0024211b~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78023d0af65ca4c0770811d9f1331aae~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d67b8f2c3343c2e3826765a0ca18e49~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dcfe4490a720faedb7586213247f8aaf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c59f2abde53435c187f56a32acae267~2508x0.webp"
         },
         {
-          "configName": "问界M9 2025款 纯电 Ultra 六座版",
+          "configName": "2025款 纯电 Ultra 六座版",
+          "configId": "245945",
+          "index": 5,
           "price": "56.98万",
-          "fuelType": "纯电动",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fc77400f0fa8da9b63aa531bcf2be50~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_898b2de33fab5a6cd580d53d724581d5~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ce7f986bd2dc2c62e53c0cce57c09bf~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a390b43da4fe6545d0d77f1878635b40~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7b47044f40308126a61df8d92bb5a92f~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c991e83a709f85a3c8fed3df0e5f2668~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fad8b7224a36d6d3b3a275b387c323c0~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f7c982be4267e4a1c14c4d38b8188f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fc77400f0fa8da9b63aa531bcf2be50~2508x0.webp"
         },
         {
-          "configName": "问界M9 2025款 纯电 Ultra 五座版",
+          "configName": "2025款 纯电 Ultra 五座版",
+          "configId": "245373",
+          "index": 6,
           "price": "54.98万",
+          "manufacturer": "赛力斯汽车",
+          "class": "大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 530马力",
           "size": "5230x1999x1800",
-          "manufacturer": "赛力斯汽车",
-          "class": "大型SUV",
-          "power": "纯电动 530马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_449506705312998bd3bc3a613cf8b3f5~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_347c6cf12cc529e2f9d9908b39f768de~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04b95eaa4acfc70514791251f45d14d6~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_406ab4ea5e70c5dae857de70cfefe543~2508x0.webp"
+            },
+            {
+              "name": "金瑞红",
+              "colors": [
+                "#422020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd8bdb9e0375dcb2edec46ac5afbb6a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56e62c67c004de6145010ccc0d956d17~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_59ddcff132d23e23298285ad5acf2cdd~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d59bdbf665366e0de32add9535d48e42~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ce230a8cae1d20ce683f481b687330c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_449506705312998bd3bc3a613cf8b3f5~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 增程 Max 五座版",
+          "configName": "2024款 增程 Max 五座版",
+          "configId": "240308",
+          "index": 7,
           "price": "46.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7768378aef97488b8752ee2cb2757418~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ccdc8645c409fa800246eed51664030~2508x0.webp"
+            },
+            {
+              "name": "丹霞橙",
+              "colors": [
+                "#FA6140"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46a37e41779405d4f86d102bee716b4e~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7e50fc421ae83d84dcf2dac7363e5bd~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b1ddae25e00cc7f355c5878353aedbd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7768378aef97488b8752ee2cb2757418~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 增程 Ultra 五座版",
+          "configName": "2024款 增程 Ultra 五座版",
+          "configId": "240376",
+          "index": 8,
           "price": "52.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92fd8ab5eaba0d4ae13809d9a4fa2d4b~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ebbbf90f2275750c719f87d33b169d13~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb09c0ae7ce6c48f5827f1d2a5814d74~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69854842097891dd99d4d37be22757b9~2508x0.webp"
+            },
+            {
+              "name": "丹霞橙",
+              "colors": [
+                "#FA6140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89b55a8f499d248bff5e68f08063fc7a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/027b7bc04447bef5e316a3ae9da391c5~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c630ae250bcc894f1747e56ea454bb22~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6c5be9b303ab18fb66b6008dbfa7b5f~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07ad7e294cde11b722d0f43536fa3ed3~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ed8cc54ea2de5fe2f96a4d86f83bdbf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/92fd8ab5eaba0d4ae13809d9a4fa2d4b~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 纯电 Ultra 五座版",
+          "configName": "2024款 纯电 Ultra 五座版",
+          "configId": "240377",
+          "index": 9,
           "price": "56.98万",
+          "manufacturer": "赛力斯汽车",
+          "class": "大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 530马力",
           "size": "5230x1999x1800",
-          "manufacturer": "赛力斯汽车",
-          "class": "大型SUV",
-          "power": "纯电动 530马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8af701e3d09af684df66be34c49d7f9e~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72acb53f8c17b3a9a41645d582a07127~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a49de1b74b9166e95a3234fe8c1dbcf6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5412e2d944438cc1805202db9efc5085~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6668b75fbad82439b4eca7a76692b8b4~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3634c48bfa8394b8d0b85b2e61ade99a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8af701e3d09af684df66be34c49d7f9e~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 增程 Max 六座版",
+          "configName": "2024款 增程 Max 六座版",
+          "configId": "88943",
+          "index": 10,
           "price": "46.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/976bb9f7fa209f53030faf5f9a3c4a42~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fadbd0ba9830b21928ac5aa092de72a2~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9eb635d17c738b06cf31f19edbef801~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4648ed58177df324f94c49a6b8e697b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18d04a10679c2be3b8c5c2fc18895600~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01445c56fbc19bc28e7f4c8039c6aa43~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f1879481918b71b0bd02dbba9b4856c~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef00a77e60a0911a531301d39b19525c~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e523bbbffe20b82e6f35181761a9f356~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/976bb9f7fa209f53030faf5f9a3c4a42~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 增程 Ultra 六座版",
+          "configName": "2024款 增程 Ultra 六座版",
+          "configId": "88724",
+          "index": 11,
           "price": "52.98万",
-          "fuelType": "增程式",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 496马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e081dfb91db2e73770b6e75209ec72f~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ec89fd55d5336535ce47fa4c0f9cc75~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93bc11c28f13ef9f85f6d3859aef7c1d~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1c7ff13037010aa5653c3dbc9b34f2e~2508x0.webp"
+            },
+            {
+              "name": "丹霞橙",
+              "colors": [
+                "#FA6140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/febca70b33af1a2c8225c2dc97eed0ee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#6A5423"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e01705a190b2345204c816b04785a7e~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/495a86d18947c46c4a0fda2f4b53e48f~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ef9b07669effd60a512e28d3bde03ea~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f4eecd9427051573786d28cbee3b0e3~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f3bc3500eb8268ac704776570231b18~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0e081dfb91db2e73770b6e75209ec72f~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 纯电 Max 六座版",
+          "configName": "2024款 纯电 Max 六座版",
+          "configId": "88942",
+          "index": 12,
           "price": "50.98万",
-          "fuelType": "纯电动",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a96b9e697fc5390d499d2c5236492c07~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/32862c0ac9bd6aafd3672475db14afed~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f68eb48c0cb422dd2b92ee23c40de99~2508x0.webp"
+            },
+            {
+              "name": "丹霞橙",
+              "colors": [
+                "#FA6140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3414bea81f729377d81e053a3eef68df~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影灰",
+              "colors": [
+                "#CACCD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ff2008fdea140f5362e98d5f12f00fe~2508x0.webp"
+            },
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26cfb5ad310a328b127f77711f624432~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dde32511c1b2b790bdc830a4e5d3572~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a96b9e697fc5390d499d2c5236492c07~2508x0.webp"
         },
         {
-          "configName": "问界M9 2024款 纯电 Ultra 六座版",
+          "configName": "2024款 纯电 Ultra 六座版",
+          "configId": "81013",
+          "index": 13,
           "price": "56.98万",
-          "fuelType": "纯电动",
-          "size": "5230x1999x1800",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "5230x1999x1800",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbda807fff83c5247e54e606784873fe~2508x0.webp"
+            },
+            {
+              "name": "雅丹黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6df29f43a0ec0535a3cf08170d0739c7~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#314C61"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32480f9204ff2639992265a2595520d2~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ae36952c1dd1a64605ab6b8c4a834a2~2508x0.webp"
+            },
+            {
+              "name": "丹霞橙",
+              "colors": [
+                "#FA6140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ef8e62ead808ff47179619d70b95ff7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "望舒杏",
+              "colors": [
+                "#F2D0AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c90e2cdadea1f2fb45f30fbe7fabee3~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96be9b5f65c71832a1880b39f7254678~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fbda807fff83c5247e54e606784873fe~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24850,
       "carName": "M8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1c2ec3abe17c46a9ab2148abe8d74ec1~1200x0.png",
       "configs": [
         {
-          "configName": "问界M8 2025款 增程 Max 六座版",
+          "configName": "2025款 增程 Max 六座版",
+          "configId": "245916",
+          "index": 0,
           "price": "36.98万",
-          "fuelType": "增程式",
-          "size": "5190x1999x1795",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 533马力"
+          "fuelType": "增程式",
+          "power": "纯电动 533马力",
+          "size": "5190x1999x1795",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e0e8c1e7abe7ded389d0b16a3c57c9f~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4723314adcc6cce5e52026267284c8c3~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_29ff33e4983ee4f06dbd153f9f1ef03a~2508x0.webp"
+            },
+            {
+              "name": "银河",
+              "colors": [
+                "#CDCFE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f863166f606de0d92e1cd45a2406b211~2508x0.webp"
+            },
+            {
+              "name": "暖云白",
+              "colors": [
+                "#F1E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7533905bd369fa8a3ea4823cb907781d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_213c5397806e51926663f1153aedccca~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E0DEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8676820a2a4302cfb708900f365516c~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7bc7c1cb14d37777244efb9a06043d5b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e0e8c1e7abe7ded389d0b16a3c57c9f~2508x0.webp"
         },
         {
-          "configName": "问界M8 2025款 增程 Max+ 六座版",
+          "configName": "2025款 增程 Max+ 六座版",
+          "configId": "245917",
+          "index": 1,
           "price": "39.98万",
-          "fuelType": "增程式",
-          "size": "5190x1999x1795",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 533马力"
+          "fuelType": "增程式",
+          "power": "纯电动 533马力",
+          "size": "5190x1999x1795",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed3abdd05065c708e7fabb1d1d78b7c5~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_daa0520ccfe6ee86dd94e0d1cdb30c70~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4265df542e46b2f7f9fba8a214fefa53~2508x0.webp"
+            },
+            {
+              "name": "霞光",
+              "colors": [
+                "#7B1E40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f73bd5b699285bc14cb90f58f60e8ed0~2508x0.webp"
+            },
+            {
+              "name": "银河",
+              "colors": [
+                "#CDCFE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bfc684f1a85a0bb021e4d24563d25b5f~2508x0.webp"
+            },
+            {
+              "name": "暖云白",
+              "colors": [
+                "#F1E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41db03504aac591976f60a2e17f155c1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云红",
+              "colors": [
+                "#843F3F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3268e63ba343935ad2405962db68dcc9~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dca40744581123885d87e46ba5b8ac63~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E0DEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0c486d73c3229df42bac6c9e68a6ffa~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_726364c807c5036c4a5ba1501435c96f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed3abdd05065c708e7fabb1d1d78b7c5~2508x0.webp"
         },
         {
-          "configName": "问界M8 2025款 增程 Ultra 六座版",
+          "configName": "2025款 增程 Ultra 六座版",
+          "configId": "245918",
+          "index": 2,
           "price": "44.98万",
-          "fuelType": "增程式",
-          "size": "5190x1999x1795",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 533马力"
+          "fuelType": "增程式",
+          "power": "纯电动 533马力",
+          "size": "5190x1999x1795",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1af92f2b64382f0cfaaaf0245335e6fb~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09022f90d6902f49811e628f3fcb4924~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bcfc4729d55f702e935f0ab8beb3bd8a~2508x0.webp"
+            },
+            {
+              "name": "霞光",
+              "colors": [
+                "#7B1E40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f3a019d187934c98e72db3aebcffb76~2508x0.webp"
+            },
+            {
+              "name": "银河",
+              "colors": [
+                "#CDCFE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_307e49ae6b02d50d86c479707d3425db~2508x0.webp"
+            },
+            {
+              "name": "暖云白",
+              "colors": [
+                "#F1E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7bdaa469e9143a89d68fd29370e81c16~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云红",
+              "colors": [
+                "#843F3F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a369d4b47ce29418eaf535c3c9851f80~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_973bcbfcc2c18257167332fb1d4e6a24~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E0DEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_44ee1cfe3d2aacc82519b9c6fdede999~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cdb6a5a1c522ee152ce0313638282fd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1af92f2b64382f0cfaaaf0245335e6fb~2508x0.webp"
         },
         {
-          "configName": "问界M8 2025款 增程 Max 五座版",
+          "configName": "2025款 增程 Max 五座版",
+          "configId": "245913",
+          "index": 3,
           "price": "35.98万",
-          "fuelType": "增程式",
-          "size": "5190x1999x1795",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 533马力"
+          "fuelType": "增程式",
+          "power": "纯电动 533马力",
+          "size": "5190x1999x1795",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_596fe803a188add2afe42d3083e1270d~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4a2a3a9a6d4cec2276c90ee120f3a38~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c51c558c281c50b138e3ab351ceef2bd~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e8a05e4c8dbfc59f319dea9973c68a2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_596fe803a188add2afe42d3083e1270d~2508x0.webp"
         },
         {
-          "configName": "问界M8 2025款 增程 Max+ 五座版",
+          "configName": "2025款 增程 Max+ 五座版",
+          "configId": "245914",
+          "index": 4,
           "price": "37.98万",
-          "fuelType": "增程式",
-          "size": "5190x1999x1795",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 533马力"
+          "fuelType": "增程式",
+          "power": "纯电动 533马力",
+          "size": "5190x1999x1795",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50580573e1beb1def5e47477f7c16e49~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0744e84c847675f57c97c32798a14c14~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bd1d3237be5073758cee50d814187e14~2508x0.webp"
+            },
+            {
+              "name": "霞光",
+              "colors": [
+                "#7B1E40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9b4d71d28117fb77e5653cb8295ce52~2508x0.webp"
+            },
+            {
+              "name": "银河",
+              "colors": [
+                "#CDCFE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1570c65ea5d949b054baa47f83dab978~2508x0.webp"
+            },
+            {
+              "name": "暖云白",
+              "colors": [
+                "#F1E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1540b0d40470f6ed5f9aa1f995ee9bc8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云红",
+              "colors": [
+                "#843F3F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_965834d41af52896607d099227d0ad63~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_c1df6e4a7a7c4ba97c8231b8dbeb2499~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E0DEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22eb98c960bfa21545e1509608dbb574~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8c01fcb03b6ece14cdd86686b0904752~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50580573e1beb1def5e47477f7c16e49~2508x0.webp"
         },
         {
-          "configName": "问界M8 2025款 增程 Ultra 五座版",
+          "configName": "2025款 增程 Ultra 五座版",
+          "configId": "245915",
+          "index": 5,
           "price": "42.98万",
-          "fuelType": "增程式",
-          "size": "5190x1999x1795",
           "manufacturer": "赛力斯汽车",
           "class": "大型SUV",
-          "power": "增程式 533马力"
+          "fuelType": "增程式",
+          "power": "纯电动 533马力",
+          "size": "5190x1999x1795",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd065903fb09e1f6adaa5c6476830290~2508x0.webp"
+            },
+            {
+              "name": "牧野青",
+              "colors": [
+                "#3C6054"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b499d2f6a1341fe2c5691ea4236ccb12~2508x0.webp"
+            },
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#5A6C74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69b30a0b9b67197a30f527d4f5b54011~2508x0.webp"
+            },
+            {
+              "name": "霞光",
+              "colors": [
+                "#7B1E40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d4a6f6787531e36b850490a8a6b1725~2508x0.webp"
+            },
+            {
+              "name": "银河",
+              "colors": [
+                "#CDCFE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f627276423328e6295a92a990c827b12~2508x0.webp"
+            },
+            {
+              "name": "暖云白",
+              "colors": [
+                "#F1E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_380a7cb7c10b623876fa6f67257de1f2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云红",
+              "colors": [
+                "#843F3F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ebbfeed88128a82ae571102fb201c25~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#CE944C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fed30c5ff7528b91189ee58e676123f4~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E0DEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e6328deea3e5dc8ab0a16fc1df58c33~2508x0.webp"
+            },
+            {
+              "name": "赤茶橘",
+              "colors": [
+                "#F49971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8045f8289748f0e28c0d2bdaf4ab6de4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd065903fb09e1f6adaa5c6476830290~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T06:13:45.059Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

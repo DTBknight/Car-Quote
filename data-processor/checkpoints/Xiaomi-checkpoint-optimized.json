@@ -1,0 +1,91 @@
+{
+  "brand": "Xiaomi",
+  "timestamp": "2025-08-22T06:32:30.519Z",
+  "crawlSummary": {
+    "totalCars": 3,
+    "successCount": 3,
+    "failCount": 0,
+    "totalTime": "3分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 6187,
+        "carName": "小米SU7",
+        "configCount": 3,
+        "exteriorColorCount": 28,
+        "interiorColorCount": 14,
+        "status": "completed"
+      },
+      {
+        "carId": 24986,
+        "carName": "小米SU7 Ultra",
+        "configCount": 1,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 3,
+        "status": "completed"
+      },
+      {
+        "carId": 20041,
+        "carName": "小米YU7",
+        "configCount": 3,
+        "exteriorColorCount": 19,
+        "interiorColorCount": 9,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 52,
+    "totalInteriorColors": 26,
+    "exteriorColorTypes": [
+      "钻石黑",
+      "海湾蓝",
+      "霞光紫",
+      "寒武岩灰",
+      "橄榄绿",
+      "流星蓝",
+      "璀璨洋红",
+      "雅灰",
+      "珍珠白",
+      "熔岩橙",
+      "曜石黑",
+      "鹦鹉绿",
+      "太空银",
+      "闪电黄",
+      "深海蓝",
+      "宝石绿",
+      "影青色",
+      "丹霞紫",
+      "流金粉",
+      "钛金属色"
+    ],
+    "interiorColorTypes": [
+      "曜石黑",
+      "迷雾紫",
+      "暮光红",
+      "银河灰",
+      "米灰色",
+      "黑黄",
+      "黑红",
+      "明黄",
+      "暮影蓝",
+      "鸢尾紫",
+      "松石灰",
+      "珊瑚橙"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

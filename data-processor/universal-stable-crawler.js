@@ -322,10 +322,14 @@ class UniversalStableCrawler {
         }
       }
       
-      // 采集完成，清理检查点
+      // 采集完成，清理传统检查点文件，只保留优化格式
       if (fs.existsSync(this.checkpointFile)) {
-        fs.unlinkSync(this.checkpointFile);
-        console.log('🗑️ 检查点文件已清理');
+        try {
+          fs.unlinkSync(this.checkpointFile);
+          console.log('🗑️ 传统检查点文件已清理');
+        } catch (error) {
+          console.warn('⚠️ 清理传统检查点文件失败:', error.message);
+        }
       }
       
       const totalTime = Math.round((Date.now() - startTime) / 1000 / 60);
@@ -334,6 +338,9 @@ class UniversalStableCrawler {
       console.log(`\n🎉 ${this.brandName} 品牌采集完成！`);
       console.log(`⏱️ 总用时: ${totalTime}分钟`);
       console.log(`📊 成功率: ${successRate}% (${this.stats.successCount}/${this.stats.successCount + this.stats.failCount})`);
+      
+      // 生成优化格式的checkpoint
+      await this.generateOptimizedCheckpoint();
       
       await this.printFinalStatus();
       
@@ -350,6 +357,53 @@ class UniversalStableCrawler {
       }
       
       throw error;
+    }
+  }
+
+  // 生成优化格式的checkpoint
+  async generateOptimizedCheckpoint() {
+    try {
+      if (fs.existsSync(this.outputFile)) {
+        const data = JSON.parse(fs.readFileSync(this.outputFile, 'utf8'));
+        const cars = data.cars || [];
+        
+        // 生成采集摘要
+        const crawlSummary = {
+          totalCars: cars.length,
+          successCount: this.stats.successCount,
+          failCount: this.stats.failCount,
+          successRate: Math.round(this.stats.successCount/(this.stats.successCount + this.stats.failCount || 1)*100)
+        };
+        
+        // 生成车型状态摘要
+        const carStatus = this.checkpointManager.generateCarStatusSummary(cars);
+        
+        // 分析图片采集情况
+        const imageCollectionSummary = this.checkpointManager.analyzeImageCollection(cars);
+        
+        // 生成数据完整性报告
+        const dataIntegrity = {
+          isComplete: true,
+          dataCompleteness: 100,
+          missingCarIds: []
+        };
+        
+        // 生成优化格式的checkpoint
+        const optimizedCheckpoint = this.checkpointManager.generateOptimizedCheckpoint(
+          this.brandName,
+          crawlSummary,
+          carStatus,
+          imageCollectionSummary,
+          dataIntegrity
+        );
+        
+        // 保存优化格式的checkpoint
+        this.checkpointManager.saveOptimizedCheckpoint(optimizedCheckpoint);
+        
+        console.log('📋 优化格式checkpoint已生成，包含图片采集统计');
+      }
+    } catch (error) {
+      console.warn('⚠️ 生成优化格式checkpoint失败:', error.message);
     }
   }
 

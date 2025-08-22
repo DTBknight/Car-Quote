@@ -156,21 +156,28 @@ class CheckpointManager {
     try {
       if (fs.existsSync(this.checkpointFile)) {
         const checkpoint = JSON.parse(fs.readFileSync(this.checkpointFile, 'utf8'));
-        console.log(`🔄 发现断点: ${checkpoint.progress.completedCars}/${checkpoint.progress.totalCars} 车型已完成`);
         
-        // 显示详细状态
-        if (checkpoint.carIdTracking) {
-          const summary = checkpoint.carIdTracking.summary;
-          console.log(`📊 断点状态: 待采集(${summary.pending}) | 进行中(${summary.inProgress}) | 已完成(${summary.completed}) | 失败(${summary.failed})`);
+        // 兼容新旧断点格式
+        if (checkpoint.progress && checkpoint.progress.completedCars !== undefined) {
+          console.log(`🔄 发现断点: ${checkpoint.progress.completedCars}/${checkpoint.progress.totalCars} 车型已完成`);
           
-          // 显示待采集的车型ID
-          const pendingCars = checkpoint.carIdTracking.carIdMapping.filter(car => car.status === 'pending');
-          if (pendingCars.length > 0) {
-            console.log(`🎯 待采集车型: ${pendingCars.map(car => `${car.carName}(${car.carId})`).join(', ')}`);
+          // 显示详细状态
+          if (checkpoint.carIdTracking) {
+            const summary = checkpoint.carIdTracking.summary;
+            console.log(`📊 断点状态: 待采集(${summary.pending}) | 进行中(${summary.inProgress}) | 已完成(${summary.completed}) | 失败(${summary.failed})`);
+            
+            // 显示待采集的车型ID
+            const pendingCars = checkpoint.carIdTracking.carIdMapping.filter(car => car.status === 'pending');
+            if (pendingCars.length > 0) {
+              console.log(`🎯 待采集车型: ${pendingCars.map(car => `${car.carName}(${car.carId})`).join(', ')}`);
+            }
           }
+          
+          return checkpoint.progress;
+        } else {
+          console.log('🔄 发现断点文件，但格式不兼容，将重新开始采集');
+          return null;
         }
-        
-        return checkpoint.progress;
       }
     } catch (error) {
       console.warn('⚠️ 断点加载失败:', error.message);
@@ -268,8 +275,127 @@ class CheckpointManager {
       missingCarIds: dataIntegrity.missingCarIds
     };
   }
-}
 
-module.exports = CheckpointManager;
+  // 生成优化的checkpoint格式（用于最终记录）
+  generateOptimizedCheckpoint(brand, crawlSummary, carStatus, imageCollectionSummary, dataIntegrity, issues = [], recommendations = "") {
+    const elapsedTime = Date.now() - this.startTime;
+    const totalMinutes = Math.floor(elapsedTime / 1000 / 60);
+    
+    return {
+      brand: brand,
+      timestamp: new Date().toISOString(),
+      crawlSummary: {
+        totalCars: crawlSummary.totalCars,
+        successCount: crawlSummary.successCount,
+        failCount: crawlSummary.failCount,
+        totalTime: `${totalMinutes}分钟`,
+        successRate: `${crawlSummary.successRate}%`
+      },
+      carStatus: {
+        completed: carStatus.completed || [],
+        failed: carStatus.failed || [],
+        missing: carStatus.missing || []
+      },
+      imageCollectionSummary: imageCollectionSummary || {
+        totalExteriorColors: 0,
+        totalInteriorColors: 0,
+        exteriorColorTypes: [],
+        interiorColorTypes: [],
+        imageQuality: "未知",
+        notes: "图片采集状态未知"
+      },
+      dataIntegrity: {
+        isComplete: dataIntegrity.isComplete,
+        completeness: `${dataIntegrity.dataCompleteness}%`,
+        missingData: dataIntegrity.missingCarIds || [],
+        notes: dataIntegrity.isComplete ? "所有车型数据采集完整" : "部分车型数据缺失，需要补采集"
+      },
+      issues: issues,
+      recommendations: recommendations || (dataIntegrity.isComplete ? "数据完整，无需补采集" : "需要补采集缺失的车型数据")
+    };
+  }
+
+  // 保存优化格式的checkpoint（用于最终记录）
+  saveOptimizedCheckpoint(optimizedData) {
+    try {
+      const optimizedFile = this.checkpointFile.replace('.json', '-optimized.json');
+      fs.writeFileSync(optimizedFile, JSON.stringify(optimizedData, null, 2));
+      console.log(`📋 优化格式checkpoint已保存: ${optimizedFile}`);
+      return true;
+    } catch (error) {
+      console.warn('⚠️ 保存优化格式checkpoint失败:', error.message);
+      return false;
+    }
+  }
+
+  // 分析图片采集情况
+  analyzeImageCollection(completedData) {
+    const exteriorColors = new Set();
+    const interiorColors = new Set();
+    let totalExteriorColors = 0;
+    let totalInteriorColors = 0;
+
+    completedData.forEach(car => {
+      if (car.configs && Array.isArray(car.configs)) {
+        car.configs.forEach(config => {
+          if (config.exteriorImages && Array.isArray(config.exteriorImages)) {
+            totalExteriorColors += config.exteriorImages.length;
+            config.exteriorImages.forEach(img => {
+              if (img.name) exteriorColors.add(img.name);
+            });
+          }
+          if (config.interiorImages && Array.isArray(config.interiorImages)) {
+            totalInteriorColors += config.interiorImages.length;
+            config.interiorImages.forEach(img => {
+              if (img.name) interiorColors.add(img.name);
+            });
+          }
+        });
+      }
+    });
+
+    return {
+      totalExteriorColors,
+      totalInteriorColors,
+      exteriorColorTypes: Array.from(exteriorColors),
+      interiorColorTypes: Array.from(interiorColors),
+      imageQuality: completedData.length > 0 ? "完整" : "未知",
+      notes: completedData.length > 0 ? "所有车型的外观色块和内饰色块图片均已采集完成" : "图片采集状态未知"
+    };
+  }
+
+  // 生成车型状态摘要
+  generateCarStatusSummary(completedData, failedData = []) {
+    const completed = completedData.map(car => {
+      let exteriorColorCount = 0;
+      let interiorColorCount = 0;
+      
+      if (car.configs && Array.isArray(car.configs)) {
+        car.configs.forEach(config => {
+          if (config.exteriorImages) exteriorColorCount += config.exteriorImages.length;
+          if (config.interiorImages) interiorColorCount += config.interiorImages.length;
+        });
+      }
+      
+      return {
+        carId: car.carId,
+        carName: car.carName || `车型${car.carId}`,
+        configCount: car.configs ? car.configs.length : 0,
+        exteriorColorCount,
+        interiorColorCount,
+        status: 'completed'
+      };
+    });
+
+    const failed = failedData.map(car => ({
+      carId: car.carId,
+      carName: car.carName || `车型${car.carId}`,
+      errorMessage: car.errorMessage || '未知错误',
+      status: 'failed'
+    }));
+
+    return { completed, failed, missing: [] };
+  }
+}
 
 module.exports = CheckpointManager;

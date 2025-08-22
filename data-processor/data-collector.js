@@ -272,38 +272,95 @@ class DataCollector {
         console.log(`   车型链接数量: ${debugInfo.allCarLinks.length}`);
         
         onSaleClickResult = await page.evaluate(() => {
+          // 添加详细的调试信息
+          const debugInfo = {
+            allContainers: [],
+            allLinks: [],
+            foundContainer: null,
+            foundOnSaleLink: null
+          };
+          
           // 查找类别列表容器 - 使用更灵活的选择器
           let categoryList = document.querySelector('ul.category_list__2j98c');
           if (!categoryList) {
             categoryList = document.querySelector('ul[class*="category"]');
           }
+          
+          // 记录所有可能的容器
+          document.querySelectorAll('ul').forEach(ul => {
+            debugInfo.allContainers.push({
+              className: ul.className,
+              childrenCount: ul.children.length,
+              textContent: ul.textContent.trim().substring(0, 100)
+            });
+          });
+          
           if (!categoryList) {
-            return { success: false, reason: '未找到category_list容器' };
+            return { 
+              success: false, 
+              reason: '未找到category_list容器',
+              debug: debugInfo
+            };
           }
           
-          // 查找"在售"标签链接 - 使用更灵活的方法
-          let onSaleLink = categoryList.querySelector('a.category_item__1bH-x');
-          if (!onSaleLink) {
-            onSaleLink = categoryList.querySelector('a[class*="category"]');
-          }
+          debugInfo.foundContainer = {
+            className: categoryList.className,
+            childrenCount: categoryList.children.length
+          };
           
-          // 查找包含"在售"文本的链接
+          // 记录容器中的所有链接
           const allLinks = categoryList.querySelectorAll('a');
+          allLinks.forEach(link => {
+            debugInfo.allLinks.push({
+              href: link.href,
+              textContent: link.textContent.trim(),
+              className: link.className
+            });
+          });
+          
+          // 只查找包含"在售"文本的链接，不使用其他回退方式
+          let onSaleLink = null;
           for (const link of allLinks) {
             if (link.textContent.includes('在售')) {
               onSaleLink = link;
+              debugInfo.foundOnSaleLink = {
+                href: link.href,
+                textContent: link.textContent.trim(),
+                className: link.className
+              };
               break;
             }
           }
           
           if (!onSaleLink) {
-            return { success: false, reason: '未找到在售标签' };
+            return { 
+              success: false, 
+              reason: '未找到在售标签',
+              debug: debugInfo
+            };
           }
           
           // 点击"在售"标签
           onSaleLink.click();
-          return { success: true, reason: '成功点击在售标签' };
+          return { 
+            success: true, 
+            reason: '成功点击在售标签',
+            debug: debugInfo
+          };
         });
+        
+        // 输出详细的调试信息
+        if (onSaleClickResult.debug) {
+          console.log('🔍 详细调试信息:');
+          console.log('   找到的容器:', onSaleClickResult.debug.foundContainer);
+          console.log('   容器中的所有链接:');
+          onSaleClickResult.debug.allLinks.forEach((link, index) => {
+            console.log(`     ${index + 1}. "${link.textContent}" - ${link.href}`);
+          });
+          if (onSaleClickResult.debug.foundOnSaleLink) {
+            console.log('   找到的"在售"链接:', onSaleClickResult.debug.foundOnSaleLink);
+          }
+        }
         
         if (onSaleClickResult.success) {
           console.log('✅ 成功点击"在售"标签，等待页面更新...');
@@ -391,6 +448,8 @@ class DataCollector {
           
         } else {
           console.log(`⚠️ 方法一失败: ${onSaleClickResult.reason}`);
+          // 如果没有"在售"标签，直接进入方法二，不需要等待
+          console.log('🔄 没有"在售"标签，直接进入方法二采集...');
         }
       } catch (error) {
         console.warn('⚠️ 方法一异常:', error.message);
@@ -418,6 +477,93 @@ class DataCollector {
           }
         }
         
+        // 先检查页面是否有"在售"标签，如果没有且所有车型都"暂无报价"，则直接返回
+        const pageStructureCheck = await page.evaluate(() => {
+          // 检查是否有"在售"标签
+          const hasOnSaleTab = Array.from(document.querySelectorAll('a')).some(a => 
+            a.textContent.includes('在售')
+          );
+          
+          // 检查所有车型的价格状态
+          const allPriceElements = document.querySelectorAll('[class*="price"], .price, p');
+          let totalCars = 0;
+          let noPriceCars = 0;
+          
+          allPriceElements.forEach(el => {
+            const text = el.textContent.trim();
+            if (text === '暂无报价' || text === '暂无' || text === '-') {
+              noPriceCars++;
+            }
+            if (text.includes('万') || text.includes('元') || text.includes('询底价')) {
+              totalCars++;
+            }
+          });
+          
+          return {
+            hasOnSaleTab,
+            totalCars,
+            noPriceCars,
+            allCarsNoPrice: noPriceCars > 0 && totalCars === 0
+          };
+        });
+        
+        console.log(`🔍 页面结构检查结果:`);
+        console.log(`   是否有"在售"标签: ${pageStructureCheck.hasOnSaleTab}`);
+        console.log(`   总车型数: ${pageStructureCheck.totalCars}`);
+        console.log(`   暂无报价车型数: ${pageStructureCheck.noPriceCars}`);
+        console.log(`   是否所有车型都暂无报价: ${pageStructureCheck.allCarsNoPrice}`);
+        
+        // 如果没有"在售"标签且所有车型都"暂无报价"，直接返回空结果
+        if (!pageStructureCheck.hasOnSaleTab && pageStructureCheck.allCarsNoPrice) {
+          console.log('⚠️ 检测到特殊情况：没有"在售"标签且所有车型都显示"暂无报价"');
+          console.log('🛑 跳过采集，返回空结果');
+          return { brandInfo: { brand: '', brandImage: '' }, carIds: [] };
+        }
+        
+        // 如果没有"在售"标签，但可能有部分车型有报价，继续执行正常采集逻辑
+        if (!pageStructureCheck.hasOnSaleTab) {
+          console.log('ℹ️ 没有"在售"标签，但继续执行正常采集逻辑，让过滤机制处理"暂无报价"车型');
+        }
+        
+        // 对于没有"在售"标签的品牌，进行更严格的检查
+        if (!pageStructureCheck.hasOnSaleTab) {
+          console.log('🔍 对没有"在售"标签的品牌进行严格检查...');
+          
+          // 直接检查页面中所有车型的价格状态
+          const strictCheck = await page.evaluate(() => {
+            const allCarLinks = document.querySelectorAll('a[href*="/auto/series/"]');
+            let validCars = 0;
+            let noPriceCars = 0;
+            
+            allCarLinks.forEach(link => {
+              const parent = link.closest('li, div');
+              if (parent) {
+                // 检查父元素中是否有价格信息
+                const hasPrice = Array.from(parent.querySelectorAll('*')).some(el => {
+                  const text = el.textContent.trim();
+                  return text.includes('万') && !text.includes('暂无');
+                });
+                
+                if (hasPrice) {
+                  validCars++;
+                } else {
+                  noPriceCars++;
+                }
+              }
+            });
+            
+            return { validCars, noPriceCars, totalCars: allCarLinks.length };
+          });
+          
+          console.log(`🔍 严格检查结果: 有效车型${strictCheck.validCars}个，暂无报价${strictCheck.noPriceCars}个，总计${strictCheck.totalCars}个`);
+          
+          // 如果没有有效车型，直接返回空结果
+          if (strictCheck.validCars === 0) {
+            console.log('🛑 严格检查发现没有有效车型，返回空结果');
+            return { brandInfo: { brand: '', brandImage: '' }, carIds: [] };
+          }
+        }
+        
         const directResult = await page.evaluate(() => {
           // 使用更灵活的容器查找
           let carList = document.querySelector('ul.car-list_root__3bcdu');
@@ -436,9 +582,9 @@ class DataCollector {
             let filteredCount = 0;
             
             allCarLinks.forEach(link => {
-              const match = link.href.match(/\/auto\/series\/(\d+)/);
-              if (match) {
-                const carId = parseInt(match[1]);
+                      const match = link.href.match(/\/auto\/series\/(\d+)/);
+                      if (match) {
+                        const carId = parseInt(match[1]);
                 const carName = link.textContent.trim();
                 
                 // 检查链接父元素是否包含价格信息
@@ -452,9 +598,9 @@ class DataCollector {
                     if (priceText === '暂无报价' || priceText === '暂无' || priceText === '-') {
                       hasNoPrice = true;
                       filteredCount++;
-                      break;
+                        break;
+                      }
                     }
-                  }
                   
                   if (!hasNoPrice && carId && carName) {
                     carIds.push(carId);
@@ -464,9 +610,9 @@ class DataCollector {
                   // 如果没有父元素，直接添加
                   carIds.push(carId);
                   carNames.push(carName);
+                  }
                 }
-              }
-            });
+              });
             
             return { 
               carIds: [...new Set(carIds)], 

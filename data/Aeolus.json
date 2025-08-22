@@ -3,296 +3,912 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/603dedb8f70ad1ec6cd3fc97c0cbbb11~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 8991,
       "carName": "SKY EV01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4c46e148649448c08973cce5e527149c~1200x0.png",
       "configs": [
         {
-          "configName": "SKY EV01 2025款 445km AIR",
+          "configName": "2025款 445km AIR",
+          "configId": "246178",
+          "index": 0,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ceb891d5f71342cf823f412f7ce36b8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_40a6ed9b1658a71a3b5ef3cf8fe66dbc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ceb891d5f71342cf823f412f7ce36b8~2508x0.webp"
         },
         {
-          "configName": "SKY EV01 2025款 530km AIR精英版",
+          "configName": "2025款 530km AIR精英版",
+          "configId": "246179",
+          "index": 1,
           "price": "16.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8b96fae258da80202752841b43b08de~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc45b638cf44d18e0e4218c6dc757f66~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7fb9df6d154755a482f0940830ac0902~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8b96fae258da80202752841b43b08de~2508x0.webp"
         },
         {
-          "configName": "SKY EV01 2024款 445km PRO",
+          "configName": "2024款 445km PRO",
+          "configId": "110296",
+          "index": 2,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bceaea421f9993446b2d5970ee512f4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/955a1726946e6f426e163470c6c318c5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9bceaea421f9993446b2d5970ee512f4~2508x0.webp"
         },
         {
-          "configName": "SKY EV01 2024款 440km PRO精英版",
+          "configName": "2024款 440km PRO精英版",
+          "configId": "239237",
+          "index": 3,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "SKY EV01 2024款 530km PRO",
+          "configName": "2024款 530km PRO",
+          "configId": "110294",
+          "index": 4,
           "price": "16.99万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 218马力",
           "size": "4670x1900x1617",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6076f4b4f2de13d5c34288fca2993eb~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ce7ed6e99802ed3ad673646f3d43314~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e2d7eabb7aff2445d1a5dd005bed4bd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f6076f4b4f2de13d5c34288fca2993eb~2508x0.webp"
         },
         {
-          "configName": "SKY EV01 2024款 530km PRO精英版",
+          "configName": "2024款 530km PRO精英版",
+          "configId": "239239",
+          "index": 5,
           "price": "16.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8a93d8c05df93b9732cbede6962668c~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84329c822df86160f1ce97f5f9f37a75~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/acde0ad3ca3be4872c8d72f9e59d187a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8a93d8c05df93b9732cbede6962668c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 3365,
       "carName": "奕炫",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/72b5e989dc6146a887119d969a8699bd~1200x0.png",
       "configs": [
         {
-          "configName": "奕炫 2025款 1.5L 自动豪华型",
+          "configName": "2025款 1.5L 自动豪华型",
+          "configId": "248306",
+          "index": 0,
           "price": "7.79万",
-          "fuelType": "汽油",
-          "size": "4670x1812x1490",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5L 125马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
+          "size": "4670x1812x1490",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de09bdfb7cc6de37e90dc77a2f52203b~2508x0.webp"
+            },
+            {
+              "name": "核能灰",
+              "colors": [
+                "#7B7F82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d137fffb5bf63235380be66dcfc5eba~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_887559fc35a79f8fc7924d545fe76c29~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8dc6e0a1dd8d7cb9884d3d07b9e08e17~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de09bdfb7cc6de37e90dc77a2f52203b~2508x0.webp"
         },
         {
-          "configName": "奕炫 2025款 1.5L 自动尊贵型",
+          "configName": "2025款 1.5L 自动尊贵型",
+          "configId": "248307",
+          "index": 1,
           "price": "8.59万",
-          "fuelType": "汽油",
-          "size": "4670x1812x1490",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5L 125马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
+          "size": "4670x1812x1490",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c3c97e2dcc8a298571005ccfe041ee15~2508x0.webp"
+            },
+            {
+              "name": "核能灰",
+              "colors": [
+                "#7B7F82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_93b89ec76f7679c34d593c0281b8059c~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff1b90eae3642828752eedbee27ffee1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b85d4a7be0a58b35502890496bf4cb8a~2508x0.webp"
+            },
+            {
+              "name": "暖棕",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_779cd42b64eeddfba6669db6c0a3d7be~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c3c97e2dcc8a298571005ccfe041ee15~2508x0.webp"
         },
         {
-          "configName": "奕炫 2025款 1.5L 自动卓越版",
+          "configName": "2025款 1.5L 自动卓越版",
+          "configId": "248571",
+          "index": 2,
           "price": "9.39万",
-          "fuelType": "汽油",
-          "size": "4670x1812x1490",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5L 125马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
+          "size": "4670x1812x1490",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "奕炫 2025款 1.5L 自动荣耀版",
+          "configName": "2025款 1.5L 自动荣耀版",
+          "configId": "245458",
+          "index": 3,
           "price": "10.68万",
-          "fuelType": "汽油",
-          "size": "4670x1812x1490",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5L 125马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
+          "size": "4670x1812x1490",
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe07baec9c3aaa60dd634fa82ef8ab87~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "活力橙灰",
+              "colors": [
+                "#EE8E19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a884b42c5ced78c151ab007934f67bc9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe07baec9c3aaa60dd634fa82ef8ab87~2508x0.webp"
         },
         {
-          "configName": "奕炫 2024款 1.5L 自动劲速版",
+          "configName": "2024款 1.5L 自动劲速版",
+          "configId": "97522",
+          "index": 4,
           "price": "7.79万",
-          "fuelType": "汽油",
-          "size": "4670x1812x1490",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5L 125马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
+          "size": "4670x1812x1490",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/392b9b0d9268c47b0d0fb3f4b8a9c66f~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dcd6b67fbc7f709c20c39ce3cceb68b4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b5baabbf26ed7fce67e707c3c5cd726~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/392b9b0d9268c47b0d0fb3f4b8a9c66f~2508x0.webp"
         },
         {
-          "configName": "奕炫 2024款 1.5T 自动劲擎版",
+          "configName": "2024款 1.5T 自动劲擎版",
+          "configId": "97523",
+          "index": 5,
           "price": "8.79万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.5T 197马力 L4",
           "size": "4670x1812x1490",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型车",
-          "power": "1.5T 197马力 L4"
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/963bb79d065b5da4d7c26ea0f1c5f038~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b0b58c6f5838b3c6aa993a92b1f863f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#EE8E19",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a05ce4a0f2c366271a1495d45dbfc2e9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/963bb79d065b5da4d7c26ea0f1c5f038~2508x0.webp"
         },
         {
-          "configName": "奕炫 2023款 改款 1.5L 手动追风版",
+          "configName": "2023款 改款 1.5L 手动追风版",
+          "configId": "79598",
+          "index": 6,
           "price": "6.49万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
           "size": "4660x1812x1490",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型车",
-          "power": "1.5L 125马力 L4"
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe959b9a8091a47ea362c94d6892ec58~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "活力橙灰",
+              "colors": [
+                "#EE8E19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/168f87c26b23916f603bf6737341804d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fe959b9a8091a47ea362c94d6892ec58~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5031,
       "carName": "奕炫MAX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/56b3fe94e42343f2a22bddce5274e99a~1200x0.png",
       "configs": [
         {
-          "configName": "奕炫MAX 2024款 1.5T 豪华版",
+          "configName": "2024款 1.5T 豪华版",
+          "configId": "91984",
+          "index": 0,
           "price": "9.79万",
-          "fuelType": "汽油",
-          "size": "4797x1870x1475",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 197马力 L4",
+          "size": "4797x1870x1475",
+          "exteriorImages": [
+            {
+              "name": "曜夜黑",
+              "colors": [
+                "#111217"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f6dedd8340366402d6c40c84d0413a6~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e171ac532ee593c9345e14eb116ea572~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f55b0280c0f4afc5d4073cabea40f637~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感红黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e1baeb9ab32aad30e7eca91136ff5e3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6f6dedd8340366402d6c40c84d0413a6~2508x0.webp"
         },
         {
-          "configName": "奕炫MAX 2024款 1.5T 尊贵版",
+          "configName": "2024款 1.5T 尊贵版",
+          "configId": "91985",
+          "index": 1,
           "price": "10.39万",
-          "fuelType": "汽油",
-          "size": "4797x1870x1475",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 197马力 L4",
+          "size": "4797x1870x1475",
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c39ef7c839493b5328d9758da2a226b9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感红黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c20e627d1d902b421f4f35094ceb6f2e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c39ef7c839493b5328d9758da2a226b9~2508x0.webp"
         },
         {
-          "configName": "奕炫MAX 2024款 1.5T 竞速版",
+          "configName": "2024款 1.5T 竞速版",
+          "configId": "91986",
+          "index": 2,
           "price": "10.59万",
-          "fuelType": "汽油",
-          "size": "4797x1870x1475",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 197马力 L4",
+          "size": "4797x1870x1475",
+          "exteriorImages": [
+            {
+              "name": "星河灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd-sign.byteimg.com/motor-img/c04701dd9b655143ab28bc478d888931~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756441927&x-signature=0FHc2xoXf%2FPxurwfRNaoGmVmJy4%3D&psm=motor.pc_car.api"
+            },
+            {
+              "name": "陶瓷白/黑色",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c5858538adbd9756bc1b8ca639fb492~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "品质蓝白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd-sign.byteimg.com/motor-img/4b3bd173e6b9e034cc25a7c93b99a46d~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756441936&x-signature=1o3GBWKDZm9nJLEOl4%2Bak1QIakQ%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd-sign.byteimg.com/motor-img/c04701dd9b655143ab28bc478d888931~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756441927&x-signature=0FHc2xoXf%2FPxurwfRNaoGmVmJy4%3D&psm=motor.pc_car.api"
         },
         {
-          "configName": "奕炫MAX 2024款 1.5T 赛道版",
+          "configName": "2024款 1.5T 赛道版",
+          "configId": "91987",
+          "index": 3,
           "price": "10.89万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.5T 197马力 L4",
           "size": "4845x1870x1475",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型车",
-          "power": "1.5T 197马力 L4"
+          "exteriorImages": [
+            {
+              "name": "量子灰/黑色",
+              "colors": [
+                "#BCC3C5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d467b844ef62c18281c8992470244168~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/黑色",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2557caf4926072e53dea422cb3f5dbdb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感红黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b127b1555131696297721f03b449b26~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d467b844ef62c18281c8992470244168~2508x0.webp"
         },
         {
-          "configName": "奕炫MAX 2024款 1.5T 旗舰版",
+          "configName": "2024款 1.5T 旗舰版",
+          "configId": "91988",
+          "index": 4,
           "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4797x1870x1475",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "1.5T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 197马力 L4",
+          "size": "4797x1870x1475",
+          "exteriorImages": [
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e4ce382e9de64b86eee7dc53c0ffbee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "品质蓝白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84045732128389f3450f9a36e6faca6a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7e4ce382e9de64b86eee7dc53c0ffbee~2508x0.webp"
         },
         {
-          "configName": "奕炫MAX 2024款 1.5T 尊贵·混动版",
+          "configName": "2024款 1.5T 尊贵·混动版",
+          "configId": "91995",
+          "index": 5,
           "price": "11.99万",
-          "fuelType": "油电混合",
-          "size": "4797x1870x1475",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "油电混合 177马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 167马力 L4 油电混动",
+          "size": "4797x1870x1475",
+          "exteriorImages": [
+            {
+              "name": "量子灰/黑色",
+              "colors": [
+                "#BCC3C5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fccc2820dc9b60c195a66ea019658c4e~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/黑色",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f575a1d42f19e1abb95d9974bd7913b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感红黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/685c33412f1c46e0b83012734a24fff9~2508x0.webp"
+            },
+            {
+              "name": "品质蓝白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b0dbca7a9b9102ac9dfba8e3ec3bda4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fccc2820dc9b60c195a66ea019658c4e~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1655,
       "carName": "E70",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2a36fc1f6321c1b6ea701b3db8d5ff0~1200x0.png",
       "configs": [
         {
-          "configName": "东风风神E70 2023款 360H 换电版",
+          "configName": "2023款 360H 换电版",
+          "configId": "87744",
+          "index": 0,
           "price": "14.28万",
-          "fuelType": "纯电动",
-          "size": "4680x1720x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4680x1720x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 改款 500 智行版 磷酸铁锂 110kW",
+          "configName": "2023款 改款 500 智行版 磷酸铁锂 110kW",
+          "configId": "87751",
+          "index": 1,
           "price": "14.58万",
-          "fuelType": "纯电动",
-          "size": "4680x1720x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4680x1720x1530",
+          "exteriorImages": [
+            {
+              "name": "汉玉白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/552b3757a0668fcae947172f7064fde3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2152824d62b7c6e2fb6f18db2bd19353~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/552b3757a0668fcae947172f7064fde3~2508x0.webp"
         },
         {
-          "configName": "东风风神E70 2023款 500 智行版 磷酸铁锂 120kW",
+          "configName": "2023款 500 智行版 磷酸铁锂 120kW",
+          "configId": "88089",
+          "index": 2,
           "price": "14.58万",
-          "fuelType": "纯电动",
-          "size": "4680x1720x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4680x1720x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 改款 500 智行版 三元锂",
+          "configName": "2023款 改款 500 智行版 三元锂",
+          "configId": "87752",
+          "index": 3,
           "price": "14.58万",
-          "fuelType": "纯电动",
-          "size": "4680x1720x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4680x1720x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 400H换电出租版",
+          "configName": "2023款 400H换电出租版",
+          "configId": "87745",
+          "index": 4,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4680x1720x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4680x1720x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 400H换电网约版",
+          "configName": "2023款 400H换电网约版",
+          "configId": "87746",
+          "index": 5,
           "price": "14.98万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 150马力",
           "size": "4700x1725x1530",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 改款 500 Plus 专享版",
+          "configName": "2023款 改款 500 Plus 专享版",
+          "configId": "87753",
+          "index": 6,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4680x1720x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4680x1720x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 改款 PRO 智行版",
+          "configName": "2023款 改款 PRO 智行版",
+          "configId": "79479",
+          "index": 7,
           "price": "15.28万",
-          "fuelType": "纯电动",
-          "size": "4700x1725x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4700x1725x1530",
+          "exteriorImages": [
+            {
+              "name": "曜夜黑",
+              "colors": [
+                "#111217"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86280d30a85f44895b7c3913e2cf65af~2508x0.webp"
+            },
+            {
+              "name": "汉玉白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7124199a05c697ba780d02e182179c55~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee61fc227526253f29d6a151d9b01e22~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/86280d30a85f44895b7c3913e2cf65af~2508x0.webp"
         },
         {
-          "configName": "东风风神E70 2023款 改款 PRO 畅行版",
+          "configName": "2023款 改款 PRO 畅行版",
+          "configId": "79480",
+          "index": 8,
           "price": "15.38万",
-          "fuelType": "纯电动",
-          "size": "4700x1725x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4700x1725x1530",
+          "exteriorImages": [
+            {
+              "name": "汉玉白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6d199384930419c131b1f4c90222008~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/493c3a50661c7861d2a7edaed755d24f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f6d199384930419c131b1f4c90222008~2508x0.webp"
         },
         {
-          "configName": "东风风神E70 2023款 PRO 奕智版 标准续航型",
+          "configName": "2023款 PRO 奕智版 标准续航型",
+          "configId": "79472",
+          "index": 9,
           "price": "15.38万",
-          "fuelType": "纯电动",
-          "size": "4700x1725x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 150马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 150马力",
+          "size": "4700x1725x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "东风风神E70 2023款 PRO 奕智版 长续航型",
+          "configName": "2023款 PRO 奕智版 长续航型",
+          "configId": "79473",
+          "index": 10,
           "price": "15.38万",
-          "fuelType": "纯电动",
-          "size": "4700x1725x1530",
           "manufacturer": "东风乘用车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4700x1725x1530",
+          "exteriorImages": [
+            {
+              "name": "极光绿/端砚黑",
+              "colors": [
+                "#87AEB3",
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8411b8af364fdff5b99dd426c11d6c1f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0994db73caaab31c5206959a50de7793~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8411b8af364fdff5b99dd426c11d6c1f~2508x0.webp"
         }
       ]
     },
@@ -302,346 +918,1642 @@
       "configs": []
     },
     {
+      "carId": 4487,
       "carName": "奕炫GS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/52a268dc56ec4f3f8ee9dc8b4ad5d9a7~1200x0.png",
       "configs": [
         {
-          "configName": "奕炫GS 2025款 马赫版 1.5L 自动星耀版",
+          "configName": "2025款 马赫版 1.5L 自动星耀版",
+          "configId": "248400",
+          "index": 0,
           "price": "11.59万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "1.5L 125马力 L4",
           "size": "4630x1830x1610",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5L 125马力 L4"
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74d2c54c0e5de4a776fc78ee9585051f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#2C2929"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_146ffe2938c584ddbdbdfea1899311f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74d2c54c0e5de4a776fc78ee9585051f~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8788,
       "carName": "皓瀚",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/13d81f0f3ed0455db1d2ea0da43b4322~1200x0.png",
       "configs": [
         {
-          "configName": "皓瀚 2025款 1.5T 劲尚版",
+          "configName": "2025款 1.5T 劲尚版",
+          "configId": "243422",
+          "index": 0,
           "price": "8.99万",
-          "fuelType": "汽油",
-          "size": "4667x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4667x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bda7f141fa60a7c9abb8e1141fe1408~2508x0.webp"
+            },
+            {
+              "name": "科幻银",
+              "colors": [
+                "#D6D7DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82d2998e1c82eeff92b2724d64c7004e~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/105b23c718aa4267ac9d7b88b1b5f1aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4d3154606f3174cc4d58bda3c60e978~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3bda7f141fa60a7c9abb8e1141fe1408~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2025款 1.5T 豪华版",
+          "configName": "2025款 1.5T 豪华版",
+          "configId": "243423",
+          "index": 1,
           "price": "11.39万",
-          "fuelType": "汽油",
-          "size": "4667x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4667x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d39a64f8285b585a2b9731ebe941cf4~2508x0.webp"
+            },
+            {
+              "name": "科幻银",
+              "colors": [
+                "#D6D7DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c66673455fc3e7bccb1d87334fa54a77~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/489688ccee66ac6e99ea9321f51dbead~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc7f278a888c2686c9765a1eb51d9722~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#EB9C0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d3969d2ee8e9ae6a0dc22f104fe515e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6d39a64f8285b585a2b9731ebe941cf4~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2025款 1.5T DH-i 时尚版",
+          "configName": "2025款 1.5T DH-i 时尚版",
+          "configId": "243425",
+          "index": 2,
           "price": "12.19万",
-          "fuelType": "油电混合",
-          "size": "4667x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "油电混合 143马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 204马力 L4 油电混动",
+          "size": "4667x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "科幻银",
+              "colors": [
+                "#D6D7DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/695486616ae0edfd37c91fa366702eef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58efa470b63053bd9a96e00e934ec314~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/695486616ae0edfd37c91fa366702eef~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2025款 1.5T DH-i 豪华版",
+          "configName": "2025款 1.5T DH-i 豪华版",
+          "configId": "243424",
+          "index": 3,
           "price": "12.59万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "油电混合",
+          "power": "1.5T 204马力 L4 油电混动",
           "size": "4667x1905x1630",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "油电混合 143马力"
+          "exteriorImages": [
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0829656338a3279db527268138f665b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82fdfbdcf5cddfa3a6c55850df4894e2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0829656338a3279db527268138f665b~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2024款 荣耀版 1.5T 时尚型",
+          "configName": "2024款 荣耀版 1.5T 时尚型",
+          "configId": "98609",
+          "index": 4,
           "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4650x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4650x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/327d84adff24fd0d4f8c6aec2d93f5d6~2508x0.webp"
+            },
+            {
+              "name": "科幻银/端砚黑",
+              "colors": [
+                "#D6D7DA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80465646da36dfa2e46a6a24e3352f87~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/端砚黑",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27c3437d73e099e1ebb425a82a38cd4b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f22172520bf436cb4bea6dee1e3b1fa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/327d84adff24fd0d4f8c6aec2d93f5d6~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2024款 荣耀版 1.5T 豪华型",
+          "configName": "2024款 荣耀版 1.5T 豪华型",
+          "configId": "98610",
+          "index": 5,
           "price": "11.39万",
-          "fuelType": "汽油",
-          "size": "4650x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4650x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9f5b85fed08cd3c01be68cac44f511b~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/985e605330a6cb2b026e983d62fced4e~2508x0.webp"
+            },
+            {
+              "name": "骇客绿",
+              "colors": [
+                "#2D5B2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5993d9774c436b4516ab07f4d778fbdf~2508x0.webp"
+            },
+            {
+              "name": "科幻银",
+              "colors": [
+                "#D6D7DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5662a81762aa3d28a1af91185a976fdc~2508x0.webp"
+            },
+            {
+              "name": "科幻银/端砚黑",
+              "colors": [
+                "#D6D7DA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/930f2b2b833d2e867b5c67d3d7615712~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95667928ec380fc66cb753977ef9b66e~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/端砚黑",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0061602bca12a02db43dd379c8d6b91~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90eb7417b4d033106b499b2e116f31a2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e9f5b85fed08cd3c01be68cac44f511b~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2024款 荣耀版 1.5T 尊贵型",
+          "configName": "2024款 荣耀版 1.5T 尊贵型",
+          "configId": "98611",
+          "index": 6,
           "price": "12.49万",
-          "fuelType": "汽油",
-          "size": "4650x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4650x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33e25c6885b31378538034785781e419~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7120eff01027b27ec5ec56a50e6334be~2508x0.webp"
+            },
+            {
+              "name": "骇客绿",
+              "colors": [
+                "#2D5B2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79fc2c9aac51e82c05d3639a15676acc~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/端砚黑",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/88521dc0b1cbcba88e26e3ac9d44c5ba~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e11293ffbffb2688b0cd810b5c645d45~2508x0.webp"
+            },
+            {
+              "name": "灰色/白色",
+              "colors": [
+                "#CFCFCF",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2d78cab09b2a48e69ed7e561227390e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/33e25c6885b31378538034785781e419~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2024款 荣耀版 1.5T DH-i 豪华型",
+          "configName": "2024款 荣耀版 1.5T DH-i 豪华型",
+          "configId": "98612",
+          "index": 7,
           "price": "12.59万",
-          "fuelType": "油电混合",
-          "size": "4650x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "油电混合 143马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 204马力 L4 油电混动",
+          "size": "4650x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22956861772ca37b73d92b95529594c8~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d7647764c03da8479d88f95a2bf42ce~2508x0.webp"
+            },
+            {
+              "name": "科幻银",
+              "colors": [
+                "#D6D7DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5966e4443d93760b0b82007a03310dcc~2508x0.webp"
+            },
+            {
+              "name": "科幻银/端砚黑",
+              "colors": [
+                "#D6D7DA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ac6a30fd4a6a0696470123fb83f23f2~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1ba94a82c86eaf00979e47df0878617~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/端砚黑",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41c07a778461a720c3d1634338a11179~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/829f0f45c0d435bee31e9fa00dbee4e6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/22956861772ca37b73d92b95529594c8~2508x0.webp"
         },
         {
-          "configName": "皓瀚 2024款 荣耀版 1.5T DH-i 尊贵型",
+          "configName": "2024款 荣耀版 1.5T DH-i 尊贵型",
+          "configId": "98613",
+          "index": 8,
           "price": "13.69万",
-          "fuelType": "油电混合",
-          "size": "4650x1905x1630",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "油电混合 143马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 204马力 L4 油电混动",
+          "size": "4650x1905x1630",
+          "exteriorImages": [
+            {
+              "name": "端砚黑",
+              "colors": [
+                "#111315"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c8c3cdcbe9be49fd308b86c2831c573~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b2cf0e40b9e9dbf050df5bfb4887923~2508x0.webp"
+            },
+            {
+              "name": "骇客绿",
+              "colors": [
+                "#2D5B2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35a084ddcd0963f7623f3499e89c97fa~2508x0.webp"
+            },
+            {
+              "name": "科幻银/端砚黑",
+              "colors": [
+                "#D6D7DA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fab16f6a4eb5f82fceafe5b67b32fefa~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白/端砚黑",
+              "colors": [
+                "#F7F7F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bac49179f9388f61699d116ef1c7016~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8989dbd8a5b8c5435a46903156f93f2b~2508x0.webp"
+            },
+            {
+              "name": "灰色/白色",
+              "colors": [
+                "#CFCFCF",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dcf8d5ec2f731a79845b93baabb4685c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6c8c3cdcbe9be49fd308b86c2831c573~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 457,
       "carName": "AX7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a678276c9eee47a98e0872bd572ff88e~1200x0.png",
       "configs": [
         {
-          "configName": "东风风神AX7 2023款 冠军传奇版",
+          "configName": "2023款 冠军传奇版",
+          "configId": "93618",
+          "index": 0,
           "price": "13.98万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 190马力 L4",
           "size": "4660x1880x1690",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 190马力 L4"
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7586fd3860ea3ebcfa8d65e048abd834~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a937a24c3cca8db7d052e2ce409a7543~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "寰宇黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2f9762ba94e9b1d42e320c98010309b~2508x0.webp"
+            },
+            {
+              "name": "天际红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8dff1f61c6e213a608a7612efaf30f6d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7586fd3860ea3ebcfa8d65e048abd834~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5557,
       "carName": "皓极",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1c7e91b0e2a1dab8fe4bd4c2f2197a9~1200x0.png",
       "configs": [
         {
-          "configName": "皓极 2025款 马赫动力 1.5T 豪华型",
+          "configName": "2025款 马赫动力 1.5T 豪华型",
+          "configId": "242843",
+          "index": 0,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4720x1910x1702",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9838c239c3bff9d71197760e76f1417~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6bd566e8a11444c2d14d85bedeedb7ee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑曜精灵",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89f29b93636a48569473a4899ee1f73f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f9838c239c3bff9d71197760e76f1417~2508x0.webp"
         },
         {
-          "configName": "皓极 2025款 马赫动力 1.5T 尊贵型",
+          "configName": "2025款 马赫动力 1.5T 尊贵型",
+          "configId": "242499",
+          "index": 1,
           "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4720x1910x1702",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c986ff92cb34a2077b8d0aa1ab4e883~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32b80bfc5643bde4454028e87b9fea33~2508x0.webp"
+            },
+            {
+              "name": "原子灰/黑色",
+              "colors": [
+                "#919395",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5ba10debfdf13913c06d25df0a45c997~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/709b2f5d7a5b3de3082d1c4eff974c53~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑曜精灵",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49ad6b8e37a11ced95151aa04bab0acb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5c986ff92cb34a2077b8d0aa1ab4e883~2508x0.webp"
         },
         {
-          "configName": "皓极 2024款 马赫动力 1.5T 豪华型",
+          "configName": "2024款 马赫动力 1.5T 豪华型",
+          "configId": "93604",
+          "index": 2,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4720x1910x1702",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9710fa6662d42ebf96ddd6dcb932d092~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76931dbabc73f198397be10c1d9f9820~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f49f340bdd57e439b322c91dc50a15f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑曜精灵",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51248ac294adafcf320a11ed04ec20ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9710fa6662d42ebf96ddd6dcb932d092~2508x0.webp"
         },
         {
-          "configName": "皓极 2024款 马赫动力 1.5T 尊贵型",
+          "configName": "2024款 马赫动力 1.5T 尊贵型",
+          "configId": "93605",
+          "index": 3,
           "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4720x1910x1702",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "1.5T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 204马力 L4",
+          "size": "4720x1910x1702",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22c7237bdd9607812e3171b5d5b9beec~2508x0.webp"
+            },
+            {
+              "name": "绅墨蓝",
+              "colors": [
+                "#2B3942"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5d0d02fe294100089ab494fb8a3a3f8~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b143d6e0d9caa9466ed9492fba0c9899~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑曜精灵",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e9a9f79bfc5d175b2c28eeaf1f025d5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/22c7237bdd9607812e3171b5d5b9beec~2508x0.webp"
         },
         {
-          "configName": "皓极 2022款 马赫双擎 1.5T MHD 敢梦版",
+          "configName": "2022款 马赫双擎 1.5T MHD 敢梦版",
+          "configId": "59902",
+          "index": 4,
           "price": "13.99万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "油电混合",
+          "power": "1.5T 177马力 L4",
           "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eee99dadeae1f1d7898471dccf8ef806~2508x0.webp"
+            },
+            {
+              "name": "雪夜银蓝",
+              "colors": [
+                "#364A59"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/238d5ca38d5199f89a79bfdc760c001e~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#87AEB3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/150b8849b3e2e8d8c55ff90675063dde~2508x0.webp"
+            },
+            {
+              "name": "星河灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a045da0e25669315b942a1427078f85~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑曜精灵",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40a0200fa02b262508c5a746cd0f31b7~2508x0.webp"
+            },
+            {
+              "name": "瀚海辰星",
+              "colors": [
+                "#35455F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c3914e069c0c74b9b398ffb0aaf8177~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eee99dadeae1f1d7898471dccf8ef806~2508x0.webp"
         },
         {
-          "configName": "皓极 2022款 马赫双擎 1.5T MHD 敢创版",
+          "configName": "2022款 马赫双擎 1.5T MHD 敢创版",
+          "configId": "78607",
+          "index": 5,
           "price": "14.69万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "油电混合",
+          "power": "1.5T 177马力 L4",
           "size": "4720x1910x1702",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
+          "exteriorImages": [
+            {
+              "name": "雪夜银蓝",
+              "colors": [
+                "#364A59"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6839e7e16eb7ad7b387fa8eb4cda2177~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "瀚海辰星",
+              "colors": [
+                "#35455F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af83f4e1606703da9aa4f82e80c00881~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6839e7e16eb7ad7b387fa8eb4cda2177~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8989,
       "carName": "风神L7 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3c264e8af1a747b4afdb8d39b0f7f235~1200x0.png",
       "configs": [
         {
-          "configName": "风神L7 PHEV 2025款 110长续航舒享型",
+          "configName": "2025款 110长续航舒享型",
+          "configId": "247139",
+          "index": 0,
           "price": "9.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1610",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4685x1900x1610",
+          "exteriorImages": [
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a505463cc813a7616d77a4f9b4f33d7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a505463cc813a7616d77a4f9b4f33d7~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2025款 205超长续航畅享型",
+          "configName": "2025款 205超长续航畅享型",
+          "configId": "247138",
+          "index": 1,
           "price": "11.99万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
           "size": "4685x1900x1610",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_840cbeab711382d3710b0937b8ae0811~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_704689067549966713dabec971fcf8ee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_633a35191af6159f3fdcdc80e0008605~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_840cbeab711382d3710b0937b8ae0811~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2025款 205超长续航纵享型",
+          "configName": "2025款 205超长续航纵享型",
+          "configId": "247137",
+          "index": 2,
           "price": "12.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1625",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4685x1900x1625",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b47f28b87b7d994ae2e606cab88a90e~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_594485ac1cac7b0ff6a6aba0e967822f~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_859ca99a429648038486fd9df6f1f9d3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b803a378a5983f42247d46c0d40dc20~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a6c800ceca0ef0cd63f4d56694a61095~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_057a80e991cc735a8394a002480be1c1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b47f28b87b7d994ae2e606cab88a90e~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2025款 205超长续航尊享型",
+          "configName": "2025款 205超长续航尊享型",
+          "configId": "247136",
+          "index": 3,
           "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4670x1900x1625",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4670x1900x1625",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e418ca69bbd1012e43bb49cf10537aba~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_220999153f52b8a4b956cbdc1aa7b6ea~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d343a4f4ccbdbc72b11af4f7f9467954~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ec1fb638868defcc97019f1cb8e1b40~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db6fce5ce85a3e4f799e5c74cea7eb18~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_538bb6b1bfb364b4a69012593987ee21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e418ca69bbd1012e43bb49cf10537aba~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2024款 110 Pro",
+          "configName": "2024款 110 Pro",
+          "configId": "100790",
+          "index": 4,
           "price": "12.89万",
-          "fuelType": "插电式混合动力",
-          "size": "4670x1900x1625",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4670x1900x1625",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d0a072b4602f73c3f49781f2a59b455~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2da8ebecac393660b8edbbea2baa0321~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8133638dbf71892402e2e624b4da4d24~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97eefaa4efcca77e811122a5007cc391~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7622d39ae611e6bfb6269a345416138~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9d0a072b4602f73c3f49781f2a59b455~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2024款 205 Air",
+          "configName": "2024款 205 Air",
+          "configId": "100791",
+          "index": 5,
           "price": "13.69万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1625",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4685x1900x1625",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c81f699aba9f3376fb274b6929b417c~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/429b217c316b4ca1f2872077c7324bf9~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/b4236dd0bb096413ad363c6cfd9bdf31~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31b9d26abb33eb616672bb50a7246078~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a13e7dc852c96c85310f6808f1c12496~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecae1ffe53ae8edd2b830db679421a22~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9c81f699aba9f3376fb274b6929b417c~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2024款 205 Pro",
+          "configName": "2024款 205 Pro",
+          "configId": "100792",
+          "index": 6,
           "price": "14.19万",
-          "fuelType": "插电式混合动力",
-          "size": "4685x1900x1625",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4685x1900x1625",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed90a080a1521f2913f5964c85596260~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84f55aee31f23ddfe5b6230f9577eb8f~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecd4061ba1c48d3f098e1ee65a0c0fa9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2bee12d175bf85cc27e3a0a633bae6c~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f54c1bb1bfb1e539f686083d9f0fdd4a~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71eb3ae83a685ca42fa2deb00cc12c17~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ed90a080a1521f2913f5964c85596260~2508x0.webp"
         },
         {
-          "configName": "风神L7 PHEV 2024款 205 Plus",
+          "configName": "2024款 205 Plus",
+          "configId": "100793",
+          "index": 7,
           "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4670x1900x1625",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4670x1900x1625",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27fff3c03e60f16ecae6679651210147~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb8704aa1911ab5f2cbaea5478237b39~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fe696b97bffe70c2487410e205f20f3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da61353b6e3ce2d30216623646475286~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90b1467e92033f0385d5928c23be7b68~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aeb51a1640e3a97e2a7729ce96c1856e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/27fff3c03e60f16ecae6679651210147~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 20136,
       "carName": "风神L7 EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bfe27329bdd4483ea0168882d3862339~1200x0.png",
       "configs": [
         {
-          "configName": "风神L7 EV 2025款 430轻享型",
+          "configName": "2025款 430轻享型",
+          "configId": "247249",
+          "index": 0,
           "price": "9.49万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4685x1900x1613",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风神L7 EV 2025款 430舒享型",
+          "configName": "2025款 430舒享型",
+          "configId": "247132",
+          "index": 1,
           "price": "10.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1613",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4685x1900x1613",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be788243b571a7ad1da6e10477f24603~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb355ade9134ec3664d3cc78fd124d23~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80095eb616571b0730c8f0d3ef9b17a6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1268b2767323814a2cefb831e7d14b79~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_374b0aa8562b55e2818bf0a0c9fa67d0~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#E99B0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0084fa738398fe11fa6c49fa0b363fdc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be788243b571a7ad1da6e10477f24603~2508x0.webp"
         },
         {
-          "configName": "风神L7 EV 2025款 518畅享型",
+          "configName": "2025款 518畅享型",
+          "configId": "247133",
+          "index": 2,
           "price": "11.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1617",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4685x1900x1617",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab51aac40a8171ad390b2d9706778027~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9ab96e9f4cd315ffc410b83154f9007~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58320995ff2ab5167f8727ee24ea8166~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82d71f7d664c41101c7d32808afe38d0~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#E99B0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe8c7a8fc749f7acf53c65d8c87a5b5a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab51aac40a8171ad390b2d9706778027~2508x0.webp"
         },
         {
-          "configName": "风神L7 EV 2025款 518畅享型冠军版",
+          "configName": "2025款 518畅享型冠军版",
+          "configId": "248402",
+          "index": 3,
           "price": "12.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1617",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4685x1900x1617",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风神L7 EV 2025款 518纵享型",
+          "configName": "2025款 518纵享型",
+          "configId": "247250",
+          "index": 4,
           "price": "12.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1617",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4685x1900x1617",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b43cf7da3dc5637c4340fad8a334617c~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_825353950a6224bbb244293926cb9747~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_051ba5ffd41a325d106fe92c2b59a14a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_48f528aca3905dfef9f8f12fc9eaafba~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d9cc482c52eba65843e4f44c70d1753~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#E99B0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91d69556200fd8a573f1708d7781a4fc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b43cf7da3dc5637c4340fad8a334617c~2508x0.webp"
         },
         {
-          "configName": "风神L7 EV 2025款 518纵享型冠军版",
+          "configName": "2025款 518纵享型冠军版",
+          "configId": "248403",
+          "index": 5,
           "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1617",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4685x1900x1617",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风神L7 EV 2025款 430舒享型卓越版",
+          "configName": "2025款 430舒享型卓越版",
+          "configId": "248404",
+          "index": 6,
           "price": "14.99万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 163马力",
           "size": "4685x1900x1613",
-          "manufacturer": "东风乘用车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风神L7 EV 2024款 518 Air",
+          "configName": "2024款 518 Air",
+          "configId": "240104",
+          "index": 7,
           "price": "10.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1617",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4685x1900x1617",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f69f99ea6d62113c18c87d1ef9388ac0~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4507d0d930d21e78ec9fe46e1a524b02~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eaf86c9deff7f610d8250f69c5418f06~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d19ade363f7a346eeddc2c2d81d459da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f69f99ea6d62113c18c87d1ef9388ac0~2508x0.webp"
         },
         {
-          "configName": "风神L7 EV 2024款 518 Pro",
+          "configName": "2024款 518 Pro",
+          "configId": "240103",
+          "index": 8,
           "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4685x1900x1617",
           "manufacturer": "东风乘用车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4685x1900x1617",
+          "exteriorImages": [
+            {
+              "name": "原力蓝",
+              "colors": [
+                "#457489"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38ffdad8dbcd2649882441b4ebc58d9b~2508x0.webp"
+            },
+            {
+              "name": "粒子金",
+              "colors": [
+                "#D3D2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae400d84f05e543671efc448b165ae64~2508x0.webp"
+            },
+            {
+              "name": "奇点白/黑色",
+              "colors": [
+                "#FFFFF2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60a5fca437a46a3120d32f0ec8cf3bca~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宝格黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6e5b56dbfcedad768a81d588aaa2aa9~2508x0.webp"
+            },
+            {
+              "name": "莫兰灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7b9d655822b2424b5749d7d9c96b954~2508x0.webp"
+            },
+            {
+              "name": "魅力橙",
+              "colors": [
+                "#E99B0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bed31829c6af831edb7a4f10142426a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/38ffdad8dbcd2649882441b4ebc58d9b~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25630,
+      "carName": "风神L7X",
+      "configs": [
+        {
+          "configName": "2026款 440km 风尚版",
+          "configId": "250458",
+          "index": 0,
+          "price": "18.69万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 530km 豪华版",
+          "configId": "250459",
+          "index": 1,
+          "price": "21.76万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 530km 云翼版",
+          "configId": "250460",
+          "index": 2,
+          "price": "23.45万",
+          "manufacturer": "东风乘用车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1900x1613",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T04:43:16.493Z",
+  "progress": {
+    "completed": 12,
+    "total": 12,
+    "percentage": 100,
+    "currentIndex": 12
+  }
 }

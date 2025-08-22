@@ -3,658 +3,3732 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/2a02c59e2eec44fbac93a7f1f0179457~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "传祺GE3",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7fbc193b877c62766cc3251020ef0cc~1200x0.png",
-      "configs": [
-        {
-          "configName": "传祺GE3 2020款 530 乐享版",
-          "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1658",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2020款 530 互联网悦享版",
-          "price": "13.58万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1665",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2020款 530 互联网尊享版",
-          "price": "15.58万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1665",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2018款 乐享版",
-          "price": "21.28万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1637",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2018款 530 乐享版",
-          "price": "22.05万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1640",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2018款 530 智享版",
-          "price": "22.65万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1640",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2018款 530 互联网悦享版",
-          "price": "23.05万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1640",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2018款 530 互联网尊享版",
-          "price": "24.65万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1640",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2017款 智享版",
-          "price": "22.28万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1637",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "传祺GE3 2017款 尊享版",
-          "price": "24.58万",
-          "fuelType": "纯电动",
-          "size": "4337x1825x1637",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型SUV",
-          "power": "纯电动 180马力"
-        }
-      ]
-    },
-    {
-      "carName": "AION RT",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1e75eeca65184ad59e8c7169f050ed26~1200x0.png",
-      "configs": [
-        {
-          "configName": "AION RT 2025款 520智享版",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4865x1875x1520",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "AION RT 2025款 520智豪版",
-          "price": "12.58万",
-          "fuelType": "纯电动",
-          "size": "4865x1875x1520",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "AION RT 2025款 650智享版",
-          "price": "12.88万",
-          "fuelType": "纯电动",
-          "size": "4865x1875x1520",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 224马力"
-        },
-        {
-          "configName": "AION RT 2025款 650智豪版",
-          "price": "13.58万",
-          "fuelType": "纯电动",
-          "size": "4865x1875x1520",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 224马力"
-        },
-        {
-          "configName": "AION RT 2025款 520激光雷达版",
-          "price": "15.58万",
-          "fuelType": "纯电动",
-          "size": "4865x1875x1520",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "AION RT 2025款 650激光雷达版",
-          "price": "16.58万",
-          "fuelType": "纯电动",
-          "size": "4865x1875x1520",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 224马力"
-        }
-      ]
-    },
-    {
+      "carId": 3101,
       "carName": "AION S",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c80c7f1d4340484e8181a5fc3b8a3c09~1200x0.png",
       "configs": [
         {
-          "configName": "AION S 2026款 炫 530",
+          "configName": "2026款 炫 530",
+          "configId": "249814",
+          "index": 0,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4805x1880x1545",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4805x1880x1545",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "AION S 2026款 炫 580",
+          "configName": "2026款 炫 580",
+          "configId": "249813",
+          "index": 1,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4805x1880x1545",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4805x1880x1545",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "AION S 2026款 Plus 舒享版",
+          "configName": "2026款 炫 畅行电池订阅版",
+          "configId": "250865",
+          "index": 2,
+          "price": "13.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4805x1880x1545",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 Plus 舒享版",
+          "configId": "249811",
+          "index": 3,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4810x1880x1545",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4810x1880x1545",
+          "exteriorImages": [
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a75c954c74a8fd607b33537c9a3b119f~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb9a7a5dc22c9952668d24ab69625644~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49c83e019647eb0487d6ca310c2f7a8c~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#CD7A0A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af0155d8025f09e52d71b0630593c96a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a75c954c74a8fd607b33537c9a3b119f~2508x0.webp"
         },
         {
-          "configName": "AION S 2026款 Plus 豪华版",
+          "configName": "2026款 Plus 豪华版",
+          "configId": "249812",
+          "index": 4,
           "price": "15.68万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 136马力",
           "size": "4810x1880x1545",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "exteriorImages": [
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_013903a149d88bde21136183d81e2457~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e136adc8b1afc6329ae0bda2eb5d787~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0eb8bfffcbf95c619b7af5b60e62189d~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#CD7A0A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bf17c3e35c224c1917e3051e2b4e9b07~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_013903a149d88bde21136183d81e2457~2508x0.webp"
         },
         {
-          "configName": "AION S 2025款 MAX 70 星意版 磷酸铁锂",
+          "configName": "2025款 MAX 70 星意版 磷酸铁锂",
+          "configId": "111127",
+          "index": 5,
           "price": "11.88万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 136马力",
           "size": "4863x1890x1515",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "exteriorImages": [
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77ddc2830508e298dd028878b853ad89~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f1fc5ef33be30c41ead8d20cdeaa10b~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fffb4510391944ba7c4a072932bdd761~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/addcf3596404aea5c243c35cdbfb4c54~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/77ddc2830508e298dd028878b853ad89~2508x0.webp"
         },
         {
-          "configName": "AION S 2025款 Plus 舒享版 53.2kWh",
+          "configName": "2025款 Plus 舒享版 53.2kWh",
+          "configId": "242619",
+          "index": 6,
           "price": "11.88万",
-          "fuelType": "纯电动",
-          "size": "4810x1880x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4810x1880x1515",
+          "exteriorImages": [
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42bf523cf65438758d5fd21e878666c2~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49cb422df2bc1ed99bab3b9d9d1ca55d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd7594cfd24a0585e4ce34938b60df61~2508x0.webp"
+            },
+            {
+              "name": "星环",
+              "colors": [
+                "#CD7A0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ddb0788a044ccda1f9627547c5c4e97b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/42bf523cf65438758d5fd21e878666c2~2508x0.webp"
         },
         {
-          "configName": "AION S 2025款 Plus 舒享版 52.9kWh",
+          "configName": "2025款 Plus 舒享版 52.9kWh",
+          "configId": "242869",
+          "index": 7,
           "price": "11.88万",
-          "fuelType": "纯电动",
-          "size": "4810x1880x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4810x1880x1515",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "AION S 2025款 Plus 出行版 53.2kWh",
+          "configName": "2025款 Plus 出行版 53.2kWh",
+          "configId": "245849",
+          "index": 8,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4810x1880x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4810x1880x1515",
+          "exteriorImages": [
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbf21a6597966bb5fb42d5a006b1e1dc~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4bce57da56525c02d7716ae4b88fbfca~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c4af847f4af7bea138dfff567813b65~2508x0.webp"
+            },
+            {
+              "name": "星环",
+              "colors": [
+                "#CD7A0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c549988f5fcd1cad460d7fd0c631bedc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbf21a6597966bb5fb42d5a006b1e1dc~2508x0.webp"
         },
         {
-          "configName": "AION S 2025款 Plus 出行版 52.9kWh",
+          "configName": "2025款 Plus 出行版 52.9kWh",
+          "configId": "245851",
+          "index": 9,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4810x1880x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4810x1880x1515",
+          "exteriorImages": [
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91888a4f06c26d06514ae80b3e256e84~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_26c42d2c9a108b648d12b2c461415892~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27441a78889bf403058876dacf6435e0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91888a4f06c26d06514ae80b3e256e84~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 70 星耀版 磷酸铁锂",
+          "configName": "2024款 MAX 70 星耀版 磷酸铁锂",
+          "configId": "95131",
+          "index": 10,
           "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cadd03fb622b65d9a3c604f5e8fcc069~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da84eda136e8fec67b102a75b22ccd4e~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f365ac2a522368ffadd47bf2bb6131a3~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46d9353ad4b81145624f5ab246fe1284~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90cadbfa5b9553dd26dcd5aef77760f1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2be98c34120f5f6eee00cb3d2c5ff25~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cadd03fb622b65d9a3c604f5e8fcc069~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 70 星辰版 磷酸铁锂",
+          "configName": "2024款 MAX 70 星辰版 磷酸铁锂",
+          "configId": "95132",
+          "index": 11,
           "price": "14.59万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8764159d5ea9ab5f76041ed09678b38~2508x0.webp"
+            },
+            {
+              "name": "碧云绿",
+              "colors": [
+                "#BDD9BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9588a5e5b4524907ccd9540e48e926ef~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4db634ede29d2e30dad8a33a66a241f~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04d4bcdb112aa432fd8af925e4a665b5~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9514be60d309dd02decceb683fce4749~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9330ddf3be2e30e75938a8f78bfc263~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a7c6bbbe5499abdf94505e2f419fa2b~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/deb7366e6b26d0a77135b9b03565a714~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c8764159d5ea9ab5f76041ed09678b38~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 80 星耀版 三元锂",
+          "configName": "2024款 MAX 80 星耀版 三元锂",
+          "configId": "95134",
+          "index": 12,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/123ac8b9e2e7c6e3880cd056864c59cc~2508x0.webp"
+            },
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c136798aeadaa698bd99507e2927982~2508x0.webp"
+            },
+            {
+              "name": "碧云绿",
+              "colors": [
+                "#BDD9BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c4ed50106f17df9bc6d68031e5d7e0e~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd21940f11c30520e5350676bb07e72f~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e08131293511be23c5ea54661db986f5~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d21d4d8ce522c64bb56f80b10f3230cd~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84f25ee01f41f07eade0918d953bf20e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d599ce6d90d19fac74a3a6bdd1801400~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4760a01f4bab4ea62d669c76dc3866d0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/123ac8b9e2e7c6e3880cd056864c59cc~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 80 星耀版 磷酸铁锂",
+          "configName": "2024款 MAX 80 星耀版 磷酸铁锂",
+          "configId": "110395",
+          "index": 13,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/356d85589a32efd2063d9c437f3ba549~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9137e8dffb3c1c1052a82bdb6a227a6~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4d5920f6f364ec39271ab531cbe9033~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c27369c336c80fedd4c88ef6e00693f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/356d85589a32efd2063d9c437f3ba549~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 80 星辰版 三元锂",
+          "configName": "2024款 MAX 80 星辰版 三元锂",
+          "configId": "95135",
+          "index": 14,
           "price": "15.59万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8935eb2198cf2802e5314a624cf8663f~2508x0.webp"
+            },
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffae3164bd0dd8a24d55ae43a53e59a1~2508x0.webp"
+            },
+            {
+              "name": "碧云绿",
+              "colors": [
+                "#BDD9BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dd11373efd072734535482af4591a7b~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b372c176bfe94dcf709a6085841d4288~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70e626cbecfa7a9da99879f398dada8d~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32179f4345edd1e4a4a01012ea87482c~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c6a4c09991726be5e228e6bacb9eabf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b23f76e3ee74808525d720bb1f01d0b~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1298751831620c8f56a2b2efa0e8d22~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8935eb2198cf2802e5314a624cf8663f~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 80 星辰版 磷酸铁锂",
+          "configName": "2024款 MAX 80 星辰版 磷酸铁锂",
+          "configId": "110396",
+          "index": 15,
           "price": "15.59万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/210281648433683352fd3cce98a306c5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f96afd047f12bc8a0ae0c62c776c2572~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/210281648433683352fd3cce98a306c5~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 80 星瀚版 三元锂",
+          "configName": "2024款 MAX 80 星瀚版 三元锂",
+          "configId": "95136",
+          "index": 16,
           "price": "16.99万",
-          "fuelType": "纯电动",
-          "size": "4863x1890x1515",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "4863x1890x1515",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/715f7839263e53fc2431209eabbc2dc4~2508x0.webp"
+            },
+            {
+              "name": "梵星蓝",
+              "colors": [
+                "#A4BFD3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a43972f4d793bec9aa828674f927726~2508x0.webp"
+            },
+            {
+              "name": "碧云绿",
+              "colors": [
+                "#BDD9BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e2370a81c36d22d960b6e56b84f2994~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3333976839d06fe304b5d607f5b15bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6d7ab1b16a42e45d9ea58bfb812a84a~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb5080ef3315ede338b36784a10bc7ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/715f7839263e53fc2431209eabbc2dc4~2508x0.webp"
         },
         {
-          "configName": "AION S 2024款 MAX 80 星瀚版 磷酸铁锂",
+          "configName": "2024款 MAX 80 星瀚版 磷酸铁锂",
+          "configId": "110397",
+          "index": 17,
           "price": "16.99万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 245马力",
           "size": "4863x1890x1515",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 245马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "AION S 2023款 炫 530",
+          "configName": "2023款 炫 530",
+          "configId": "93426",
+          "index": 18,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4805x1880x1545",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4805x1880x1545",
+          "exteriorImages": [
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/483fb432bab19b954507742728eafac7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/921c8220010d8692ff5dad354e664f52~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/483fb432bab19b954507742728eafac7~2508x0.webp"
         },
         {
-          "configName": "AION S 2023款 炫 580",
+          "configName": "2023款 炫 580",
+          "configId": "93427",
+          "index": 19,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4805x1880x1545",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4805x1880x1545",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "AION S 2023款 魅 580",
+          "configName": "2023款 魅 580",
+          "configId": "88045",
+          "index": 20,
           "price": "14.68万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 136马力",
           "size": "4768x1880x1545",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "exteriorImages": [
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/080b4333a6844831e02ea2ffd5502cde~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/fb0a9ac7babedfdf5387236dc8f50f11~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad0dee3b6be4d6686b54455b7a28205b~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#CD7A0A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25212174f51b7aadda688ae23de6d65b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/080b4333a6844831e02ea2ffd5502cde~2508x0.webp"
         },
         {
-          "configName": "AION S 2022款 改款 炫 580",
+          "configName": "2022款 改款 炫 580",
+          "configId": "93428",
+          "index": 21,
           "price": "13.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 136马力",
           "size": "4805x1880x1545",
+          "exteriorImages": [
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8abc1bc4cb11432c9d5b64a35ffdd47~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/272456c3e31993796c3b00e28f7223c9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d8abc1bc4cb11432c9d5b64a35ffdd47~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 24800,
+      "carName": "AION RT",
+      "configs": [
+        {
+          "configName": "2025款 520智享版",
+          "configId": "240549",
+          "index": 0,
+          "price": "11.98万",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
-        }
-      ]
-    },
-    {
-      "carName": "AION UT",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd3b57bf5cd24aaeaec43c2c20fa2f39~1200x0.png",
-      "configs": [
-        {
-          "configName": "AION UT 2025款 330 星耀版",
-          "price": "6.98万",
           "fuelType": "纯电动",
-          "size": "4270x1850x1575",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型车",
-          "power": "纯电动 136马力"
+          "power": "纯电动 204马力",
+          "size": "4865x1875x1520",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15676cf9a3c728af80bbe9648931fafb~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1be8a9f6c0aa39170b9967bb48524e3e~2508x0.webp"
+            },
+            {
+              "name": "日冕红",
+              "colors": [
+                "#BB1313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8503102070b0b3be1abd087a7ce72385~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a1994b2da489afa002bbf8968e73e83~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eaa6dbc049ea62b97e4f6375ada073ed~2508x0.webp"
+            },
+            {
+              "name": "月华米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9b5891f310c58e05a177898caec266d~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef2e587b4384046766b26bc79334734d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/add98574d9582a8fbd37cac7b1e39759~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53d7f91e954786024bcfd89f24d2a14e~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e41590f6043982f281d9f1e5ad874b4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/15676cf9a3c728af80bbe9648931fafb~2508x0.webp"
         },
         {
-          "configName": "AION UT 2025款 330 星辉版",
-          "price": "7.38万",
-          "fuelType": "纯电动",
-          "size": "4270x1850x1575",
+          "configName": "2025款 520智豪版",
+          "configId": "242053",
+          "index": 1,
+          "price": "12.58万",
           "manufacturer": "广汽埃安新能源",
-          "class": "小型车",
-          "power": "纯电动 136马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4865x1875x1520",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd46b19a5fb29bb76096f6e900c7ce00~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ca737c40707cbd28b87d1bb3a09b80d~2508x0.webp"
+            },
+            {
+              "name": "日冕红",
+              "colors": [
+                "#BB1313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a5e08fc2b935ce592b29b902fc327c2~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c501094ace934aff74f2e0ddd555010e~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b14f671ec8e26ba0ce7cb7cfc64dfef6~2508x0.webp"
+            },
+            {
+              "name": "月华米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aace5283fba57b964474928dbd67ea68~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef30d9a8de9b0116396d2f6156c6f70b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b043232c4c24b1f866bf62ecc1ded1b~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5de91a684161d926c497fb661244d537~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80660775424048a90cd89d123481f9d3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bd46b19a5fb29bb76096f6e900c7ce00~2508x0.webp"
         },
         {
-          "configName": "AION UT 2025款 420 智享版",
-          "price": "8.38万",
-          "fuelType": "纯电动",
-          "size": "4270x1850x1575",
+          "configName": "2025款 650智享版",
+          "configId": "245309",
+          "index": 2,
+          "price": "12.88万",
           "manufacturer": "广汽埃安新能源",
-          "class": "小型车",
-          "power": "纯电动 136马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4865x1875x1520",
+          "exteriorImages": [
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1069ef9c21f1004065db67aa3a2b74ee~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7878b51cf54a49f1dc9c2844cd74b58~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82b0d2c023cf09fbdb034c31a54a304c~2508x0.webp"
+            },
+            {
+              "name": "月华米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e2295a398011d6b39b32452fef5f4c8~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4dbfd00c72c80a5eaf87fca8d8c183dd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1aa4835eb6e02b88838e8d439f43ea45~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_62f708468b695a7386ca6bfa3870f75e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1069ef9c21f1004065db67aa3a2b74ee~2508x0.webp"
         },
         {
-          "configName": "AION UT 2025款 420 智豪版",
-          "price": "8.98万",
-          "fuelType": "纯电动",
-          "size": "4270x1850x1575",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION UT 2025款 420 智尊版",
-          "price": "10.18万",
-          "fuelType": "纯电动",
-          "size": "4270x1850x1575",
-          "manufacturer": "广汽埃安新能源",
-          "class": "小型车",
-          "power": "纯电动 136马力"
-        }
-      ]
-    },
-    {
-      "carName": "AION Y",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f876b46ab1114baa890d4b6b51e9394b~1200x0.png",
-      "configs": [
-        {
-          "configName": "AION Y 2025款 Plus 430 智享版",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2025款 Plus 510 智享版",
-          "price": "11.18万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2025款 Plus 510 智豪版",
-          "price": "11.58万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2025款 Plus 510 乐享版",
-          "price": "12.18万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2025款 Plus 610 智享版",
-          "price": "12.38万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "AION Y 2024款 AION Y Younger",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2024款 AION Y Younger 星耀版",
-          "price": "11.68万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2023款 AION Y Younger",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2023款 AION Y Younger 星耀版",
-          "price": "11.68万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "AION Y 2023款 Plus 510 乐享版",
-          "price": "12.18万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "AION Y 2023款 Plus 510 智领版",
-          "price": "13.18万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
-        },
-        {
-          "configName": "AION Y 2023款 Plus 510 智驾版",
+          "configName": "2025款 650智豪版",
+          "configId": "240550",
+          "index": 3,
           "price": "13.58万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
           "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4865x1875x1520",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/727f861e01810d1b2775cf6de6a836b3~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16193fe0578a12a4f3cc1be59062480c~2508x0.webp"
+            },
+            {
+              "name": "日冕红",
+              "colors": [
+                "#BB1313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c75f250118be3c41813120e6f062e707~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0fec91b8a050b39f4f00c5d2709382d~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43c4b45fad05f25827daa73af15840aa~2508x0.webp"
+            },
+            {
+              "name": "月华米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a5036284c3cf3c660bc49e50af8c11f~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca96c6941298be65b89233fff82ac455~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15720be60a46204f0fbbaa74af7fbfa7~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf78c44498abd27dbedac8b6df61dd4c~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d56895904c85fbe828c2e673e8da536~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/727f861e01810d1b2775cf6de6a836b3~2508x0.webp"
         },
         {
-          "configName": "AION Y 2023款 Plus 610 乐享版",
+          "configName": "2025款 520激光雷达版",
+          "configId": "240962",
+          "index": 4,
+          "price": "15.58万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4865x1875x1520",
+          "exteriorImages": [
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cbdcf56650c083df67480ba64a2f39b~2508x0.webp"
+            },
+            {
+              "name": "日冕红",
+              "colors": [
+                "#BB1313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e934450e91adc523700c6e3ef00667da~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a03e59b5e03971b83406816b041b51d9~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41f1d783cd20a55bfe2982c24f3e3d33~2508x0.webp"
+            },
+            {
+              "name": "月华米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/630543f69025ad2ccf66dd0fab4ea1fc~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba3fb31e18b8277c32a8f3e369392151~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb7c11944c1d58759b8d6f26463024ea~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0d78963202a9df66342819880bab0b8~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6d6a46f3e1ae326b408d48fa7b2bb98~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5cbdcf56650c083df67480ba64a2f39b~2508x0.webp"
+        },
+        {
+          "configName": "2025款 650激光雷达版",
+          "configId": "240836",
+          "index": 5,
+          "price": "16.58万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4865x1875x1520",
+          "exteriorImages": [
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d912777060c818274179b7401fdb582~2508x0.webp"
+            },
+            {
+              "name": "日冕红",
+              "colors": [
+                "#BB1313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f2f7b3d078848327e0b4f065f192bce~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e509e34398f1354a2708bcb53b354b3~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae6193a75a982103b5012e722f6715cc~2508x0.webp"
+            },
+            {
+              "name": "月华米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b95960277f708fc6c014d22491b6ff56~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5c61ed67a2869dd9e64cc4f2e73bbe3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37ac3f0f8b836eee93e537bd06bd82a4~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56ed6ca9bb48d2b99cb48134cfe95da0~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/efd9745fd3347455f5c72846f61fc44b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4d912777060c818274179b7401fdb582~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25014,
+      "carName": "AION UT",
+      "configs": [
+        {
+          "configName": "2025款 330 星耀版",
+          "configId": "245724",
+          "index": 0,
+          "price": "6.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4270x1850x1575",
+          "exteriorImages": [
+            {
+              "name": "提香红",
+              "colors": [
+                "#790202"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_61024c48b7cd2ad5f92dceabeea71950~2508x0.webp"
+            },
+            {
+              "name": "莫奈紫",
+              "colors": [
+                "#A892BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_10b787f59e4bd3731e73d785402e529b~2508x0.webp"
+            },
+            {
+              "name": "塞纳银",
+              "colors": [
+                "#B4CADD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7b789ab92f3c8f00b3121161822e19f9~2508x0.webp"
+            },
+            {
+              "name": "香榭米",
+              "colors": [
+                "#DDDDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a62751460cb67cf6dcd7d0e84315466~2508x0.webp"
+            },
+            {
+              "name": "洛可白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3abde82b9ebf7c8acd2c3af98edd6994~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色主义",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0419d63f5db960bdb987ba45dea856d0~2508x0.webp"
+            },
+            {
+              "name": "轻法印象",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4102cb80bfd01f76bbd226b78fa9a06~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_61024c48b7cd2ad5f92dceabeea71950~2508x0.webp"
+        },
+        {
+          "configName": "2025款 330 星辉版",
+          "configId": "247998",
+          "index": 1,
+          "price": "7.38万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4270x1850x1575",
+          "exteriorImages": [
+            {
+              "name": "翡冷翠",
+              "colors": [
+                "#194C5D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4df542a94578adb02aacc947c42890d~2508x0.webp"
+            },
+            {
+              "name": "翡冷翠/白色",
+              "colors": [
+                "#194C5D",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_edf577df8fe724fec3e36d453697cffa~2508x0.webp"
+            },
+            {
+              "name": "提香红",
+              "colors": [
+                "#790202"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4452c1c5d23f82e0c036b79d33adee5~2508x0.webp"
+            },
+            {
+              "name": "莫奈紫",
+              "colors": [
+                "#A892BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_40f12ab7c8c3398021c92992cfb0e426~2508x0.webp"
+            },
+            {
+              "name": "塞纳银",
+              "colors": [
+                "#B4CADD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_275b3b38ea14f476866a6946a664d429~2508x0.webp"
+            },
+            {
+              "name": "香榭米",
+              "colors": [
+                "#DDDDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5f1ec8cd31b93a11ee510b42385d3bd9~2508x0.webp"
+            },
+            {
+              "name": "洛可白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_631b4b408091493defecf22e896a77c8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色主义",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c803a9230ae28fcb38d3b3998631d01e~2508x0.webp"
+            },
+            {
+              "name": "莫奈花园",
+              "colors": [
+                "#E8D1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_87018a8c0ee28c72edda28a981c82a98~2508x0.webp"
+            },
+            {
+              "name": "轻法印象",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_faff53fbf41cb44aab61964a4464dee8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4df542a94578adb02aacc947c42890d~2508x0.webp"
+        },
+        {
+          "configName": "2025款 420 智享版",
+          "configId": "244181",
+          "index": 2,
+          "price": "8.38万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4270x1850x1575",
+          "exteriorImages": [
+            {
+              "name": "翡冷翠",
+              "colors": [
+                "#194C5D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ed64e5e82b7b72bdc2765f797c9dd53~2508x0.webp"
+            },
+            {
+              "name": "提香红",
+              "colors": [
+                "#790202"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eb3daaa07c8228d231c67224c3da8fbd~2508x0.webp"
+            },
+            {
+              "name": "莫奈紫",
+              "colors": [
+                "#A892BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_780bc1002a5c4996714db04ef7fa724c~2508x0.webp"
+            },
+            {
+              "name": "塞纳银",
+              "colors": [
+                "#B4CADD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_99dea522fe7520406f4a1b9fd51bd408~2508x0.webp"
+            },
+            {
+              "name": "香榭米",
+              "colors": [
+                "#DDDDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b9e2da09db88e46aeff41b902915fd0~2508x0.webp"
+            },
+            {
+              "name": "洛可白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f0d0d5087ef1748969069c3ba51879e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色主义",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ca3449be98c9c40fb0a25e0327b9424d~2508x0.webp"
+            },
+            {
+              "name": "莫奈花园",
+              "colors": [
+                "#E8D1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cff3ecfc72c3eeba75e46865f793d9d~2508x0.webp"
+            },
+            {
+              "name": "轻法印象",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2306a02768f7106ed3fc07683df14747~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ed64e5e82b7b72bdc2765f797c9dd53~2508x0.webp"
+        },
+        {
+          "configName": "2025款 420 智豪版",
+          "configId": "244182",
+          "index": 3,
+          "price": "8.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4270x1850x1575",
+          "exteriorImages": [
+            {
+              "name": "翡冷翠",
+              "colors": [
+                "#194C5D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36e0fb2e72735dc8861a0f7218d6c22d~2508x0.webp"
+            },
+            {
+              "name": "翡冷翠/白色",
+              "colors": [
+                "#194C5D",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90d0fd858709b7b6ad3b1dfc1b26650b~2508x0.webp"
+            },
+            {
+              "name": "提香红",
+              "colors": [
+                "#790202"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_891eeed292eaaa312a6125592fb8d705~2508x0.webp"
+            },
+            {
+              "name": "提香红/白色",
+              "colors": [
+                "#790202",
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_8a3e27baa822424cf75d26a198e1d617~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "莫奈紫",
+              "colors": [
+                "#A892BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66ff953af16d405f4baa60768decbeae~2508x0.webp"
+            },
+            {
+              "name": "塞纳银",
+              "colors": [
+                "#B4CADD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc14a3d926acb328aa8750f2e0988387~2508x0.webp"
+            },
+            {
+              "name": "香榭米",
+              "colors": [
+                "#DDDDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cde5efc4ad0ee17cfb4c7a82e6c805c8~2508x0.webp"
+            },
+            {
+              "name": "洛可白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22721ff2bd3a1b78f265de547117d09f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色主义",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5228cb4aa8e0fde985f642ea9b409080~2508x0.webp"
+            },
+            {
+              "name": "莫奈花园",
+              "colors": [
+                "#E8D1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1b61f25cc4d4dee8cd25c23d9707c25~2508x0.webp"
+            },
+            {
+              "name": "轻法印象",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/feb190609f4d393b48230cb47760ebae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/36e0fb2e72735dc8861a0f7218d6c22d~2508x0.webp"
+        },
+        {
+          "configName": "2025款 420 智尊版",
+          "configId": "242048",
+          "index": 4,
+          "price": "10.18万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4270x1850x1575",
+          "exteriorImages": [
+            {
+              "name": "翡冷翠",
+              "colors": [
+                "#194C5D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c94e114aa2f34081a7d5c046187732cc~2508x0.webp"
+            },
+            {
+              "name": "翡冷翠/白色",
+              "colors": [
+                "#194C5D",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d291779468be858798916491fbb6d36~2508x0.webp"
+            },
+            {
+              "name": "提香红",
+              "colors": [
+                "#790202"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7e96a0c717d6b59b41c57966e8c6c67~2508x0.webp"
+            },
+            {
+              "name": "提香红/白色",
+              "colors": [
+                "#790202",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afdb6f847be773d6a8127b75a383b7b7~2508x0.webp"
+            },
+            {
+              "name": "莫奈紫",
+              "colors": [
+                "#A892BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8221a25b552dc9b454da58d6b6c4aca6~2508x0.webp"
+            },
+            {
+              "name": "塞纳银",
+              "colors": [
+                "#B4CADD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8fae484d63b7a8657b79c5be0f128be~2508x0.webp"
+            },
+            {
+              "name": "香榭米",
+              "colors": [
+                "#DDDDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e895295db4a729dd0bd07d8c99da277~2508x0.webp"
+            },
+            {
+              "name": "洛可白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/813d885465fa9e42780321841d3b0b97~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色主义",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a735913b5d6e8e84fa8d917e31bc728e~2508x0.webp"
+            },
+            {
+              "name": "莫奈花园",
+              "colors": [
+                "#E8D1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a3ad2627ebc92840202cac6820328a3~2508x0.webp"
+            },
+            {
+              "name": "轻法印象",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/540161e8c5dc2fb8c5adf2c5eed72734~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c94e114aa2f34081a7d5c046187732cc~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4814,
+      "carName": "AION Y",
+      "configs": [
+        {
+          "configName": "2025款 Plus 430 智享版",
+          "configId": "248938",
+          "index": 0,
+          "price": "9.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 Plus 510 智享版",
+          "configId": "248946",
+          "index": 1,
+          "price": "11.18万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb0d26b78c423ac7310036c9e780a07f~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bf404850851d7fea2dfae3e6261b449a~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7cb07f48fab4309ec2732380dfb1c4eb~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cde732989bad71b9634317300ee11a18~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80450fb3b61e62131c8dc70c3564ed87~2508x0.webp"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c64253922984648a2f882c69f6f3b924~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7288fdc10150bf925371a421b9c80aee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e38854ccf8ad58f1862d8c62b6cb6cb~2508x0.webp"
+            },
+            {
+              "name": "清新马卡龙",
+              "colors": [
+                "#C6F4FB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_00253a4dcb470bbca506ebc02a64d2a2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb0d26b78c423ac7310036c9e780a07f~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Plus 510 智豪版",
+          "configId": "248947",
+          "index": 2,
+          "price": "11.58万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b4133ddb41499981c02a3a639f1ccbb3~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ae11105b7d28b3146b730496fb70025~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_786779ee9c032a3d54d3af262013accd~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0de9d95938e41f1cb16229cb4fc6b88b~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#D6B4D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bdb2b841c11013f69a568835138ca62c~2508x0.webp"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5b1bbdb9cc57304a9cfdcd8bce67c2c~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_485ffe0f7b247bd9f20ffde8d025a5dd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6936f7e7cdbe42574e7fb9a42b607c23~2508x0.webp"
+            },
+            {
+              "name": "清新马卡龙",
+              "colors": [
+                "#C6F4FB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01e8aa5adb82b47aaae29879e64e8b11~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b4133ddb41499981c02a3a639f1ccbb3~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Plus 510 乐享版",
+          "configId": "243444",
+          "index": 3,
+          "price": "12.18万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0eb5a3bb9ca2799cceec7eac151c9d43~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7413ca812676ee63f136303547892673~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bc1bd0d769fae35555c0252830ded4b~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1af975639c429c02611161ef268e5f53~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15c894de4276f097d9ef5546d63d079a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0eb5a3bb9ca2799cceec7eac151c9d43~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Plus 610 智享版",
+          "configId": "248943",
+          "index": 4,
+          "price": "12.38万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b432cce8b2dc316135184fa83ce735c5~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7451bf484c26e0d96d7f57bac4fecc83~2508x0.webp"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ce9a04a48e85ec6bd5a3a81b139630b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_75dbb399c885798c223346a35b3af59f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "零蕉绿",
+              "colors": [
+                "#9DDAAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f66b840fd9ae43907c96cecb766d936~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b432cce8b2dc316135184fa83ce735c5~2508x0.webp"
+        },
+        {
+          "configName": "2024款 AION Y Younger",
+          "configId": "101018",
+          "index": 5,
+          "price": "10.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f793a8b71786ba9f6a944c37b5c4f5a~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5ab33b0aed586856445d696325d4769~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88facfd06ff3dd31f7cf2cfe56f71d74~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/d095971a034b3ac1112852d5a3719548~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aadbdf4f202f9010ceed804da13d935d~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4e7e1f48227e5d5d9c6a164aaefc25b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97bb67d99004486176699e43be2647ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4f793a8b71786ba9f6a944c37b5c4f5a~2508x0.webp"
+        },
+        {
+          "configName": "2024款 AION Y Younger 星耀版",
+          "configId": "101019",
+          "index": 6,
+          "price": "11.68万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56a4fe41e9d678004f12a8e45727e8bb~2508x0.webp"
+            },
+            {
+              "name": "永远年青",
+              "colors": [
+                "#7BEAFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89633fb6226b46cbc52f169d1ce54a65~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4e58b4d423aa057f8bc4e1eff1a5a66~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baab45f6f2d09dd2e52f358f9fa372f9~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c0c62b588ec53956e7e16488da4a755~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a25035f3b7fb520d6b1c89ad4eb773b4~2508x0.webp"
+            },
+            {
+              "name": "小确杏",
+              "colors": [
+                "#E8D9AC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c180a965b3d17595c895d3470ace91b~2508x0.webp"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08dd6a03ec1c0bfd0259b98440247fa9~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a42df7d7bd2dc40a08dfac95f019eb33~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a643423b6751350fa73a32a60b4bbf28~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/56a4fe41e9d678004f12a8e45727e8bb~2508x0.webp"
+        },
+        {
+          "configName": "2023款 AION Y Younger",
+          "configId": "86977",
+          "index": 7,
+          "price": "10.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1eb56795d2f7d19993b092d3aca566ac~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3417fd490229d1c9330b04e2ab57aa6~2508x0.webp"
+            },
+            {
+              "name": "永远年青",
+              "colors": [
+                "#7BEAFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00aefca00b8b221609ab35f889f8a41f~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d521b3251075c1d7f709f5ee828a44e~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/11e1a57066d10bdd59f69ffe606c899a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f020157e3feaefc6b53e2ee8f8bf56a~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4611e96f5db4b2e9333959758d9dba1c~2508x0.webp"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59f44652b4e51a0b7f58e269915b7d7e~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3607a248d6a0b9ab223863a1ad31eb0a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1897b914d4f5f00ed176b90c0f3a3ea3~2508x0.webp"
+            },
+            {
+              "name": "清新马卡龙",
+              "colors": [
+                "#C6F4FB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/215792054b4327159086c55d23661e7b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1eb56795d2f7d19993b092d3aca566ac~2508x0.webp"
+        },
+        {
+          "configName": "2023款 AION Y Younger 星耀版",
+          "configId": "91414",
+          "index": 8,
+          "price": "11.68万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c46a4c67a71d2139408cd4ac2600b32d~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/478b733931bb7e6c8158516de3c48ede~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/410cca05e43fb00f4b52d5a6f1fa069d~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07d00d980e89e630087887f2c7b7c019~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f3064c4013d44f36b0ec49b3b4aa468~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c35dfbc02c8ea6431c26d305ddd3f141~2508x0.webp"
+            },
+            {
+              "name": "天选之银",
+              "colors": [
+                "#EFF0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c977c409343051790191b27d3b594068~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3553b4df909f4aff69d29770fe8c15c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/479686d7d646ef0eef814b1cbb277823~2508x0.webp"
+            },
+            {
+              "name": "零蕉绿",
+              "colors": [
+                "#9DDAAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72bbcf226e0faacb6ded8db75a60fafc~2508x0.webp"
+            },
+            {
+              "name": "梦幻世界",
+              "colors": [
+                "#F5C6E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8fcc0ec962f794b6a027888afff2e17~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c46a4c67a71d2139408cd4ac2600b32d~2508x0.webp"
+        },
+        {
+          "configName": "2023款 Plus 510 乐享版",
+          "configId": "88052",
+          "index": 9,
+          "price": "12.18万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db06736d733cdd395da42cece6d1eb17~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8213cc9fb25c228ba7c4ddec6f0ad2bb~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#88BBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fed6d17c13cd488c54bb57c3a48b0aa6~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e579e7a13aa526d406aeed9d2448bb9~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b32703dd2bc7602198529afa60580b72~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/459cb6126ff3329ee5999e08e41a9dab~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/9ecde24d2a9a6ddab63b924911571a56~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星漫绿/黑色",
+              "colors": [
+                "#D4F1D4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43423cd03ddaf4a0a26102e2414278ef~2508x0.webp"
+            },
+            {
+              "name": "小确杏",
+              "colors": [
+                "#E8D9AC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7152f88b728ece6358efbe857fb7285e~2508x0.webp"
+            },
+            {
+              "name": "小确杏/黑色",
+              "colors": [
+                "#E8D9AC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ff7a83012d93b085e2e6147d8222abd~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/caa62f1e40851f8c1167eebaa8515349~2508x0.webp"
+            },
+            {
+              "name": "极地白/黑色",
+              "colors": [
+                "#F4F4F4",
+                "#070001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1bf2bef7e5bb269ebb7eb64ddfc68f0b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0ae6cac6124b404c6b9978b28dd96633~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "零蕉绿",
+              "colors": [
+                "#9DDAAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e81dbbfedb2f9194da6bdb8aecbe514e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db06736d733cdd395da42cece6d1eb17~2508x0.webp"
+        },
+        {
+          "configName": "2023款 Plus 510 智领版",
+          "configId": "88053",
+          "index": 10,
+          "price": "13.18万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c23b92aeb00f248b51897189802ab57~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37dafe88834e7a1482212d5361e3a18b~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44926cf9a5b51500b7949eef6a440977~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67f152a90bba9c6b14e71dbb33741757~2508x0.webp"
+            },
+            {
+              "name": "冰玫粉",
+              "colors": [
+                "#DACDC0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0f84b3616ba08da1819ffbe84ceacad~2508x0.webp"
+            },
+            {
+              "name": "小确杏",
+              "colors": [
+                "#E8D9AC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e77cca14aeee4a63befff5bbd18f149b~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/796c65697076d1dd27b475e95230e457~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a394d61b3fb85c4157d5974a957392e~2508x0.webp"
+            },
+            {
+              "name": "零蕉绿",
+              "colors": [
+                "#9DDAAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b494936c451787c0308b08a14e4e97a6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5c23b92aeb00f248b51897189802ab57~2508x0.webp"
+        },
+        {
+          "configName": "2023款 Plus 510 智驾版",
+          "configId": "98102",
+          "index": 11,
+          "price": "13.58万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b049970540d464c7391fef334056b92f~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#88BBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/317cb23e1ee31ddbf8e7a0db83d53ef7~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a28154277a4c092c7dc5233a651f0f06~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09e4390e9f340224ff92a9e6d5305210~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f32fa03976596298c9027d07e46b276~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93e6db2ba2d39fd627b644407e31fe07~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9317c80c8c839da5f320e5f06b557a8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26fdc3aa34a4d7a5eba81731ef0ffe90~2508x0.webp"
+            },
+            {
+              "name": "零蕉绿",
+              "colors": [
+                "#9DDAAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5688a1e1a96b6e6939d790a619c5ba5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b049970540d464c7391fef334056b92f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 Plus 610 乐享版",
+          "configId": "96716",
+          "index": 12,
           "price": "13.38万",
-          "fuelType": "纯电动",
-          "size": "4535x1870x1650",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4535x1870x1650",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4dbb556af7611fb8e5b84eaf46442e25~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7a32e1ea6153882b1fbb373d64dd31b~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#88BBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1de446e841266943f79cf3a68fd31160~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41279ec5b6199c1d3dc42ae1490361ba~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2365088dc8681ff7d7d65ddd13670fec~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c2be434b7a1a6d2c7b0f68d9484c435~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81de245fc7910c97c5f1ff294e4d00dc~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91220eeb7a51fe9df8e83c349bef04cc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43a3959af1e9717ad282645ec609762b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4dbb556af7611fb8e5b84eaf46442e25~2508x0.webp"
         },
         {
-          "configName": "AION Y 2023款 Plus 610 智驾版",
+          "configName": "2023款 Plus 610 智驾版",
+          "configId": "98103",
+          "index": 13,
           "price": "14.58万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 204马力",
           "size": "4535x1870x1650",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef8a9745d834b7cab36dea865b3a5aab~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6D6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/768f59dfb1e1c23c402ded22daa8649c~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#88BBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab8f3b3cb1f50a52e7c60fd80b5fb09c~2508x0.webp"
+            },
+            {
+              "name": "素雅灰",
+              "colors": [
+                "#949BA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c34d593a01c5429def15a0f40df6c403~2508x0.webp"
+            },
+            {
+              "name": "幻彩紫",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f83741408abfd4f4a4ec7bf070216c6e~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5bf4186040a6ea2f28a4988c44e5c1f4~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#D4F1D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c42f20b62862c3032d358d07f529f599~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51c5e1cfe8a4ca3db1ca6fc0f0736202~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "头号玩家",
+              "colors": [
+                "#647274"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aec9d4e59a5392bcb62c4165b27d09c4~2508x0.webp"
+            },
+            {
+              "name": "零蕉绿",
+              "colors": [
+                "#9DDAAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9cee847fd92fec5d0a62f0f9f66758e1~2508x0.webp"
+            },
+            {
+              "name": "清新马卡龙",
+              "colors": [
+                "#C6F4FB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5896839037496c6e0fe38e539ab03871~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ef8a9745d834b7cab36dea865b3a5aab~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4426,
       "carName": "AION V",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/65a8cd6e994640769f5fc43b79699141~1200x0.png",
       "configs": [
         {
-          "configName": "AION V 2025款 霸王龙 650 智享版",
+          "configName": "2025款 霸王龙 650 智享版",
+          "configId": "245269",
+          "index": 0,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1854x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4605x1854x1686",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_9fa397eee52d8df002cf64c03b75cb95~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5042e501319d3496978036435c4a234e~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b92d677f9bb5b6c0e327cf5a72c745dd~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06c8f12b0b8d107b9174f35a1dc76f41~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e0b8078b1c98a8a30846bf98f09e2b7a~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03194fa6d95eb3e893d19829c19637b3~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_944bb9de22913efea9702fdf4c37cca4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "角逐之夜",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c28307187ca5339b7a1cb5fb77a333de~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6df69cf17c76ef27fe8c1503a7c6770b~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_9fa397eee52d8df002cf64c03b75cb95~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "AION V 2024款 霸王龙 520 智享版",
+          "configName": "2024款 霸王龙 520 智享版",
+          "configId": "238760",
+          "index": 1,
           "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1854x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4605x1854x1686",
+          "exteriorImages": [
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/135e492f8b8429fd688d089d98f25821~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18e892a7258e794f032c6adeaba491ea~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6172c63c01a0c704fe176320d87f1842~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e38f03a3b7b71ea61454d8dd53a88984~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0dd4272ba19bf70951aff00cf5c85ed9~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9f952b526a50a62c832f4a87cdd8d3e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "角逐之夜",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f33714ca4e9833992800e5e9c3a8b64~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b70b695727a4e1dcce640e0487195f3c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/135e492f8b8429fd688d089d98f25821~2508x0.webp"
         },
         {
-          "configName": "AION V 2024款 霸王龙 520 智豪版",
+          "configName": "2024款 霸王龙 520 智豪版",
+          "configId": "238759",
+          "index": 2,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1854x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4605x1854x1686",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d67a2de57b0b870f2d1e8f9c0a4480bd~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6113c179c329da5f6380c2b2df0e1f52~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0445a9c74c0789dab7010515d4969932~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5b663636e313fbb386d85ae4186ea55~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27a9d9c6c436f792ec7967b674738d44~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05caf6d8bdc4dfef66b12db0204e242d~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/074b1f250f25e8d5e161aedec317eb4f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/323c801e20b8aaca274e208f5ba007af~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/271f8463205e0660ecb89006ebbe238d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d67a2de57b0b870f2d1e8f9c0a4480bd~2508x0.webp"
         },
         {
-          "configName": "AION V 2024款 霸王龙 520 智尊版",
+          "configName": "2024款 霸王龙 520 智尊版",
+          "configId": "238758",
+          "index": 3,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1854x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4605x1854x1686",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92c5d56331a1209f2732983944ef4032~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b97c32755a1e5dc55276569dbac01722~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db3158cf2f9e541d7ba91cba35430f25~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f53a2e5b95d21303bb33c3a9fc27e0ec~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a9fa3cc2808b8e484c7b4d7385b2bc15~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "落霞橙/极地白",
+              "colors": [
+                "#AA2D28",
+                "#FFFEFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5e18f89f7b32dc7a1f2ea334f3b457f~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/c217259fa4421aa59918842497d248bc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53940ea28f910cd91be870e1fcf99efb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色（角逐之夜）",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d399e8a82826ecfb91a18cef7ed8bc1~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F9EACE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c216cb7ad71bbfd4cd75010fa456e88~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74b40a13d660b531679c6fb23cfd28c8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/92c5d56331a1209f2732983944ef4032~2508x0.webp"
         },
         {
-          "configName": "AION V 2024款 霸王龙 650 智豪版",
+          "configName": "2024款 霸王龙 650 智豪版",
+          "configId": "238756",
+          "index": 4,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1854x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4605x1854x1686",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c3a3a2dd88e2dbc92c089de9700d348~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/485827d6d0878dbe750f5d18e37df93d~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de0726533844852b41039f379ff967f4~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6cb31f1f02b074637e84074b1184e530~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cc2d54ce10d63ee0c006d940fe94f02~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42bca2b1d6b536cba33a4a18a9dc231c~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0277a9b68a64362b908163a2fc6ccffa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0972ec59f24dc6c2d39f0606b30afd4a~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40a068f1921d1a4bd73d9ea858ea510d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6c3a3a2dd88e2dbc92c089de9700d348~2508x0.webp"
         },
         {
-          "configName": "AION V 2024款 霸王龙 650 智尊版",
+          "configName": "2024款 霸王龙 650 智尊版",
+          "configId": "238755",
+          "index": 5,
           "price": "15.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "紧凑型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 224马力",
           "size": "4605x1854x1686",
-          "manufacturer": "广汽埃安新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 224马力"
+          "exteriorImages": [
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1ae2d465d07b82d224155d382b95270~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ba2dd01a826d93f7e5c9fc7ab979021~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93a9c4e9e0ee135f02c158c71e961cee~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93e12fd0e7d78d8eeb6a1571d26fc579~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7cf84c2463b1c43db7dc4ec6743987c1~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b5f5fa5b76e2a6da5d8dee7c8228e96~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62f335596732a84934f30d5e660e1f17~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F9EACE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d014f61d3a287cfe4f813fda181db555~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d14f9c05dd2f24a8183cc7f2802e45c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c1ae2d465d07b82d224155d382b95270~2508x0.webp"
         },
         {
-          "configName": "AION V 2024款 霸王龙 520 激光雷达版",
+          "configName": "2024款 霸王龙 520 激光雷达版",
+          "configId": "240096",
+          "index": 6,
           "price": "16.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1876x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4605x1876x1686",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/3a396971319ae2e0a5311fb4ebf1b7f2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/583e6ec6341b4f893eff82ecd0125a43~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/771d74dc0e616934fbc4a38e02a423ce~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ed1f5ed2bfaf2fa0de8d1cb2adeca9a~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/122b285944ba4b7da4b09779906dc500~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca14448a4012ba44e84ce9817057651e~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/3a396971319ae2e0a5311fb4ebf1b7f2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "AION V 2024款 霸王龙 650 激光雷达版",
+          "configName": "2024款 霸王龙 650 激光雷达版",
+          "configId": "238753",
+          "index": 7,
           "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4605x1876x1686",
           "manufacturer": "广汽埃安新能源",
           "class": "紧凑型SUV",
-          "power": "纯电动 224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4605x1876x1686",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02ceebae468110b9e57f89896913eb2d~2508x0.webp"
+            },
+            {
+              "name": "星河蓝",
+              "colors": [
+                "#384656"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/80a640d109a1c2d2aadab602055e7cfc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星河蓝/极地白",
+              "colors": [
+                "#384656",
+                "#FCF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c34b4ce0fb70c928b4324f6ddcd3a3cc~2508x0.webp"
+            },
+            {
+              "name": "海荧灰",
+              "colors": [
+                "#576776"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa5d6f008dbdb3e0e757e33834194c08~2508x0.webp"
+            },
+            {
+              "name": "旷野沙",
+              "colors": [
+                "#9A9491"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2079b48a18c05623c103fa6ac8ee2b9d~2508x0.webp"
+            },
+            {
+              "name": "落霞橙",
+              "colors": [
+                "#AA2D28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3bf523add8361bf6662572478982bd3~2508x0.webp"
+            },
+            {
+              "name": "落霞橙/极地白",
+              "colors": [
+                "#AA2D28",
+                "#FFFEFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edadb371fbedaff8534c228dc4f61419~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af9359da6bac84227500fb3bf0d6a416~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fd09bed51f47a42fd025c6ba5c1d643~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c09266a633a81f40ac0c34a6b3bb65e6~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F9EACE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e290ba5b05753bfdda32a5b6cf910b4d~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FAA914"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e22f97a651605db41e2ced03efca24aa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/02ceebae468110b9e57f89896913eb2d~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 3503,
       "carName": "AION LX",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84715a143235dfeeea55d63d501b6e57~1200x0.png",
       "configs": [
         {
-          "configName": "AION LX 2022款 PLUS 80 智尊版",
+          "configName": "2022款 PLUS 80 智尊版",
+          "configId": "57082",
+          "index": 0,
           "price": "28.66万",
-          "fuelType": "纯电动",
-          "size": "4835x1935x1685",
           "manufacturer": "广汽埃安新能源",
           "class": "中型SUV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "4835x1935x1685",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#2A2A2A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99715098e0c5ddceafd86ef9a9c32b2a~2508x0.webp"
+            },
+            {
+              "name": "脉冲蓝",
+              "colors": [
+                "#3E576D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc6bf315e4faaaa6cbcbca440bb9a4b5~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c86b459f3165f1699fa473c1a47677a~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/300a6e1367b6abe2fbb7a913f00e0d8d~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4be859930475c484c9f2b13f62369e05~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51214bb170f055d6ef98893ea619261a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "超维空间",
+              "colors": [
+                "#BAB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4293bdc2a91102a9845956f6b3381148~2508x0.webp"
+            },
+            {
+              "name": "松露雅棕",
+              "colors": [
+                "#C2AE71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21bada9156ebbe11347deb2a3d440baa~2508x0.webp"
+            },
+            {
+              "name": "启明星白",
+              "colors": [
+                "#F5F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9500bba25e9150c7dcf5251cc3aa37e1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99715098e0c5ddceafd86ef9a9c32b2a~2508x0.webp"
         },
         {
-          "configName": "AION LX 2022款 PLUS 80D 旗舰版",
+          "configName": "2022款 PLUS 80D 旗舰版",
+          "configId": "56204",
+          "index": 1,
           "price": "33.96万",
-          "fuelType": "纯电动",
-          "size": "4835x1935x1685",
           "manufacturer": "广汽埃安新能源",
           "class": "中型SUV",
-          "power": "纯电动 490马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 490马力",
+          "size": "4835x1935x1685",
+          "exteriorImages": [
+            {
+              "name": "脉冲蓝",
+              "colors": [
+                "#3E576D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b894fc20cbadbebe6587c01c1e7ffb4~2508x0.webp"
+            },
+            {
+              "name": "极速银",
+              "colors": [
+                "#BFBEBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4057fff086a80a898bd2f06c1aaa1b0e~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28c646627d5591bfa909e6060fd37f88~2508x0.webp"
+            },
+            {
+              "name": "全息银",
+              "colors": [
+                "#F0F1F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b25acb93b3b075de0aef6dfdaffa3d45~2508x0.webp"
+            },
+            {
+              "name": "全息银/黑色",
+              "colors": [
+                "#F0F1F8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/087b5074d800b754a91545d37293c45d~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e283f8069ce084e87437b01d74feff05~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "超维空间",
+              "colors": [
+                "#BAB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c28d48dea5b413ab868b5ae81e66320~2508x0.webp"
+            },
+            {
+              "name": "松露雅棕",
+              "colors": [
+                "#C2AE71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f148b746a7dc795efb71a6a848d5289f~2508x0.webp"
+            },
+            {
+              "name": "启明星白",
+              "colors": [
+                "#F5F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02a4757848f4c437407651b8f33e6a1a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b894fc20cbadbebe6587c01c1e7ffb4~2508x0.webp"
         },
         {
-          "configName": "AION LX 2022款 PLUS 80D Max版",
+          "configName": "2022款 PLUS 80D Max版",
+          "configId": "59715",
+          "index": 2,
           "price": "41.96万",
-          "fuelType": "纯电动",
-          "size": "4835x1935x1685",
           "manufacturer": "广汽埃安新能源",
           "class": "中型SUV",
-          "power": "纯电动 490马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 490马力",
+          "size": "4835x1935x1685",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "AION LX 2022款 PLUS 千里版",
+          "configName": "2022款 PLUS 千里版",
+          "configId": "56239",
+          "index": 3,
           "price": "46.96万",
-          "fuelType": "纯电动",
-          "size": "4835x1935x1685",
           "manufacturer": "广汽埃安新能源",
           "class": "中型SUV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "4835x1935x1685",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-22T06:53:41.446Z",
+  "progress": {
+    "completed": 6,
+    "total": 6,
+    "percentage": 100,
+    "currentIndex": 6
+  }
 }

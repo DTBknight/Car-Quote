@@ -1,0 +1,70 @@
+{
+  "brand": "212",
+  "timestamp": "2025-08-22T07:05:17.530Z",
+  "crawlSummary": {
+    "totalCars": 2,
+    "successCount": 2,
+    "failCount": 0,
+    "totalTime": "未知",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 20089,
+        "carName": "212 T01",
+        "configCount": 4,
+        "exteriorColorCount": 18,
+        "interiorColorCount": 5,
+        "status": "completed"
+      },
+      {
+        "carId": 20090,
+        "carName": "狙击手",
+        "configCount": 2,
+        "exteriorColorCount": 13,
+        "interiorColorCount": 2,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 31,
+    "totalInteriorColors": 7,
+    "exteriorColorTypes": [
+      "子夜玄",
+      "墨脱绿",
+      "青苍绿",
+      "暗沙灰",
+      "云顶白",
+      "清风蓝",
+      "迷彩",
+      "援朝绿哑光",
+      "喀纳斯蓝",
+      "喀纳斯蓝/白色",
+      "额济纳灰",
+      "阿拉善黄",
+      "阿尔金山橙/黑色",
+      "额济纳灰哑光",
+      "阿拉善黄/白色",
+      "阿尔金山橙"
+    ],
+    "interiorColorTypes": [
+      "黑色",
+      "棕色/黑色"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集",
+  "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/8fc2d7b06c534cb096848256ce3a8bef~tplv-resize:0:0.png"
+}
