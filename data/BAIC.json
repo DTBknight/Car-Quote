@@ -3,587 +3,1862 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/6e45af447ab741c2862fd7e91c027432~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
-      "carName": "北京X7 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e2e2004198f74765da22b6576fa5983~1200x0.png",
-      "configs": [
-        {
-          "configName": "北京X7 PHEV 2020款 1.5TD DCT致风版",
-          "price": "18.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1892x1715",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 150马力"
-        },
-        {
-          "configName": "北京X7 PHEV 2020款 1.5TD DCT致潮版",
-          "price": "19.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1892x1715",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 150马力"
-        },
-        {
-          "configName": "北京X7 PHEV 2020款 1.5TD DCT致领版",
-          "price": "21.69万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1892x1715",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 150马力"
-        }
-      ]
-    },
-    {
-      "carName": "北京X3",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a706b5f340ca296181c9c32d5c45d45~1200x0.png",
-      "configs": [
-        {
-          "configName": "北京X3 2021款 1.5T 手动荣耀版",
-          "price": "5.99万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T 手动荣耀版PLUS",
-          "price": "6.59万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T 手动星耀版",
-          "price": "7.59万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T CVT荣耀版",
-          "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T CVT荣耀版PLUS",
-          "price": "7.79万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        },
-        {
-          "configName": "北京X3 2021款 1.5T CVT星耀版",
-          "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4325x1830x1640",
-          "manufacturer": "北京汽车",
-          "class": "小型SUV",
-          "power": "1.5T 150马力 L4"
-        }
-      ]
-    },
-    {
       "carName": "北京U5 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3f2d90923fd84b1a8143706dad7d8533~1200x0.png",
       "configs": [
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT豪华版",
+          "configName": "2023款 1.5L CVT豪华版",
+          "configId": "88819",
+          "index": 0,
           "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/072c9ca73f4b34f72650a5c15216ad99~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d19b525d5d20cff093f904747b5715c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/072c9ca73f4b34f72650a5c15216ad99~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT豪华运动版",
+          "configName": "2023款 1.5L CVT豪华运动版",
+          "configId": "88824",
+          "index": 1,
           "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT尊贵版",
+          "configName": "2023款 1.5L CVT尊贵版",
+          "configId": "88820",
+          "index": 2,
           "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97600088d0157bb318f7016d970968f8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0bcbea46c7b84c3db2091f13b9f2f35~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/97600088d0157bb318f7016d970968f8~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2023款 1.5L CVT尊贵运动版",
+          "configName": "2023款 1.5L CVT尊贵运动版",
+          "configId": "88825",
+          "index": 3,
           "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5L 手动豪华版",
+          "configName": "2021款 1.5L 手动豪华版",
+          "configId": "53080",
+          "index": 4,
           "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/29cf4b8678f9af7c7edf01ea4c75c7cb~2508x0.webp"
+            },
+            {
+              "name": "极光银",
+              "colors": [
+                "#F5F4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7abc3fa40fa7df2204edfc3d3bb78f0f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19b76eacfbb6c98da17d4ce68dc69321~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/29cf4b8678f9af7c7edf01ea4c75c7cb~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5L 手动尊贵版",
+          "configName": "2021款 1.5L 手动尊贵版",
+          "configId": "56343",
+          "index": 5,
           "price": "7.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f182b59492dad34d640c86bbc0f3c69~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#745956"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/162b06d2e6bccac2c3d082e45f3a6e9f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8f182b59492dad34d640c86bbc0f3c69~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5L CVT豪华版",
+          "configName": "2021款 1.5L CVT豪华版",
+          "configId": "53345",
+          "index": 6,
           "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0D0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/470890f48ef3c2f4628ce4de75145d05~2508x0.webp"
+            },
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aacd0019081650e19e594c958df9ab42~2508x0.webp"
+            },
+            {
+              "name": "卡门红",
+              "colors": [
+                "#B3050C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d37e0bef8db0150e524a472e90a70528~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e0642426ca30d8d2318e6cf7e83a194~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/235b44f802a8d466cee17a5bd7e477e9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/470890f48ef3c2f4628ce4de75145d05~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5L CVT尊贵版",
+          "configName": "2021款 1.5L CVT尊贵版",
+          "configId": "56278",
+          "index": 7,
           "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5L 113马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 113马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77382c3dac3ddee621895f42bdda8861~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#745956"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67bef1e2ea3d2c6446893f5388b3ca67~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/77382c3dac3ddee621895f42bdda8861~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5T CVT尊贵版",
+          "configName": "2021款 1.5T CVT尊贵版",
+          "configId": "56237",
+          "index": 8,
           "price": "9.19万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f137810f931848025e632cb0194a95c9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#745956"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/77297fa1fdcaf1e8c7153453d3dcf0e0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f137810f931848025e632cb0194a95c9~2508x0.webp"
         },
         {
-          "configName": "北京U5 PLUS 2021款 1.5T CVT旗舰版",
+          "configName": "2021款 1.5T CVT旗舰版",
+          "configId": "56623",
+          "index": 9,
           "price": "10.09万",
-          "fuelType": "汽油",
-          "size": "4660x1820x1480",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4660x1820x1480",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
       "carName": "北京EU5",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae300c06f43e57241873db422712ae88~1200x0.png",
       "configs": [
         {
-          "configName": "北京EU5 2025款 鸿途标准版",
+          "configName": "2025款 鸿途标准版",
+          "configId": "244094",
+          "index": 0,
           "price": "15.19万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4650x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06134d7cd1067b7223c6dcc5f9213673~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a29e30827bf54d81fdce42147402b29c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06134d7cd1067b7223c6dcc5f9213673~2508x0.webp"
         },
         {
-          "configName": "北京EU5 2025款 鸿途豪华版",
+          "configName": "2025款 鸿途豪华版",
+          "configId": "244095",
+          "index": 1,
           "price": "15.39万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4650x1820x1520",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京EU5 2022款 网约车出行版",
+          "configName": "2022款 网约车出行版",
+          "configId": "78315",
+          "index": 2,
           "price": "14.89万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4650x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/acb6775579044693ec6ea813d3478359~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7f02569bb64e46417a287b44a4ed895~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/acb6775579044693ec6ea813d3478359~2508x0.webp"
         },
         {
-          "configName": "北京EU5 2022款 网约车豪华版",
+          "configName": "2022款 网约车豪华版",
+          "configId": "74235",
+          "index": 3,
           "price": "15.09万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4650x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6277ed52337ee7c71cbff18fef452e3a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99fc9f7f0d85eb83b1ecccd6c185446e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6277ed52337ee7c71cbff18fef452e3a~2508x0.webp"
         },
         {
-          "configName": "北京EU5 2022款 网约车高功率豪华版",
+          "configName": "2022款 网约车高功率豪华版",
+          "configId": "74234",
+          "index": 4,
           "price": "15.09万",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 218马力",
           "size": "4650x1820x1510",
-          "manufacturer": "北京汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b3beed6aa47d1453ffa6bef9ff7ed2e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b421e46227578fce3aa0f85374601956~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5b3beed6aa47d1453ffa6bef9ff7ed2e~2508x0.webp"
         },
         {
-          "configName": "北京EU5 2021款 快换版",
+          "configName": "2021款 快换版",
+          "configId": "58959",
+          "index": 5,
           "price": "13.94万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京EU5 2020款 R500 智风版",
+          "configName": "2020款 R500 智风版",
+          "configId": "47529",
+          "index": 6,
           "price": "12.99万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89e06ed627ffd440172cdcea09052f55~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#B8756D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62ef2a8992183e6cc65e0bbb690d25f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/89e06ed627ffd440172cdcea09052f55~2508x0.webp"
         },
         {
-          "configName": "北京EU5 2020款 R500 智尚版",
+          "configName": "2020款 R500 智尚版",
+          "configId": "47528",
+          "index": 7,
           "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京EU5 2020款 R600 智潮版",
+          "configName": "2020款 R600 智潮版",
+          "configId": "45952",
+          "index": 8,
           "price": "15.89万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/ce7b4353f57f745c3a74ff45ff5adcc4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#B8756D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9b7e153db21d3ef7c6f193056e95dd3~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/ce7b4353f57f745c3a74ff45ff5adcc4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "北京EU5 2020款 R600 智领版",
+          "configName": "2020款 R600 智领版",
+          "configId": "46928",
+          "index": 9,
           "price": "17.19万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京EU5 2019款 R500 智风版",
+          "configName": "2019款 R500 智风版",
+          "configId": "40058",
+          "index": 10,
           "price": "13.29万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2fee1ab03e26038fdd5a8227534c8aff~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#B8756D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1961dfeca6573f638414f3b5f13a00fb~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/2fee1ab03e26038fdd5a8227534c8aff~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "北京EU5 2019款 R500 智尚版",
+          "configName": "2019款 R500 智尚版",
+          "configId": "40055",
+          "index": 11,
           "price": "13.89万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/028b9febbe5999402864634b94a3e945~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#B8756D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c96a30d815b1d248e064bf242243e5d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/028b9febbe5999402864634b94a3e945~2508x0.webp"
         },
         {
-          "configName": "北京EU5 2019款 R600 智潮版",
+          "configName": "2019款 R600 智潮版",
+          "configId": "40054",
+          "index": 12,
           "price": "15.89万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [
+            {
+              "name": "卡门红",
+              "colors": [
+                "#B3050C"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/97b82d2e66c3e6e4e4084abcfd31e9d2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/蓝色",
+              "colors": [
+                "#CFCFCF",
+                "#575F6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0678b5df733bf2ce0a44e483cafb4184~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/97b82d2e66c3e6e4e4084abcfd31e9d2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "北京EU5 2019款 R600 智领版",
+          "configName": "2019款 R600 智领版",
+          "configId": "34077",
+          "index": 13,
           "price": "17.19万",
-          "fuelType": "纯电动",
-          "size": "4650x1820x1510",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4650x1820x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
       "carName": "北京EU5 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/235210efc2f34b7eb0991b9f073525a0~1200x0.png",
       "configs": [
         {
-          "configName": "北京EU5 PLUS 2024款 R500 标准出行版",
+          "configName": "2024款 R500 标准出行版",
+          "configId": "95749",
+          "index": 0,
           "price": "17.59万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2204e107211a7ace4adbb64fcb91521f~2508x0.webp"
+            },
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#CBCBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c03473bd9bffa77ec9f99adc9b9e486~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3884ad5c43722ecbca3daaf5c547b728~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/bacc9fd1be48cad1e4d3704aadd7c0c2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2204e107211a7ace4adbb64fcb91521f~2508x0.webp"
         },
         {
-          "configName": "北京EU5 PLUS 2024款 R600 优享出行版",
+          "configName": "2024款 R600 优享出行版",
+          "configId": "95755",
+          "index": 1,
           "price": "18.59万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4f5380dd42e4cffb676492f6b9d334b~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ba55dab44483c05f468c8b5bb58f753~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85e115cdd2a3aa21d65de8e954553c6b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4f5380dd42e4cffb676492f6b9d334b~2508x0.webp"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R500 优享版",
+          "configName": "2023款 R500 优享版",
+          "configId": "92573",
+          "index": 2,
           "price": "12.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f87f5c22e4237abff483b6bd3e9f224~2508x0.webp"
+            },
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#CBCBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ce50f6894dc2d2cf24aefd9c98e8d75~2508x0.webp"
+            },
+            {
+              "name": "科技黄",
+              "colors": [
+                "#D2D22E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51504e14bcb92b0a9edfc75179d08d35~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a5608b88d711da8e9920a8b6ca2b749d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5e403168a183480c50d6f7196dc0d35~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5f87f5c22e4237abff483b6bd3e9f224~2508x0.webp"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R500 尊享版",
+          "configName": "2023款 R500 尊享版",
+          "configId": "92574",
+          "index": 3,
           "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35c9982605552c84a4c0e4b22967edca~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13cb19f59ed00ed71cb9e96941335cba~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/35c9982605552c84a4c0e4b22967edca~2508x0.webp"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R600 优享版",
+          "configName": "2023款 R600 优享版",
+          "configId": "92575",
+          "index": 4,
           "price": "13.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96e51abe0a63c8d09dc83e17444401de~2508x0.webp"
+            },
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#CBCBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6be2f52ac0133a8385ee657947138ed~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4feb3123421a499e91d5110e60c424a5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/e49f13758d92b0ec81ae6c4c40a5878d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/96e51abe0a63c8d09dc83e17444401de~2508x0.webp"
         },
         {
-          "configName": "北京EU5 PLUS 2023款 R600 尊享版",
+          "configName": "2023款 R600 尊享版",
+          "configId": "92159",
+          "index": 5,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4670x1820x1520",
           "manufacturer": "北京汽车",
           "class": "紧凑型车",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4670x1820x1520",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba236f1ea4bea2e2df612aa541f18862~2508x0.webp"
+            },
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#CBCBCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30c8b31a7b9f1429f966be3f28d2c237~2508x0.webp"
+            },
+            {
+              "name": "科技黄",
+              "colors": [
+                "#D2D22E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3584f1ab64ba09815e55dd3bb0c3192d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/147ce2364b7404d3183d8cee608fcb2c~2508x0.webp"
+            },
+            {
+              "name": "黑黄",
+              "colors": [
+                "#E3F763"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e0523e7be6ae91b972bb952e6e4b400~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ba236f1ea4bea2e2df612aa541f18862~2508x0.webp"
         }
       ]
     },
     {
       "carName": "北京U7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39c0238e5d23f534a293315a321b8101~1200x0.png",
       "configs": [
         {
-          "configName": "北京U7 2019款 1.5T 手动精英版 国VI",
+          "configName": "2019款 1.5T 手动精英版 国VI",
+          "configId": "38572",
+          "index": 0,
           "price": "8.79万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4785x1835x1490",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fb4702fdff2d919ed7455d70aeaf906~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e40b5098d9382caf6636618af157ebb7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9fb4702fdff2d919ed7455d70aeaf906~2508x0.webp"
         },
         {
-          "configName": "北京U7 2019款 1.5T 手动新智版 国VI",
+          "configName": "2019款 1.5T 手动新智版 国VI",
+          "configId": "38573",
+          "index": 1,
           "price": "9.29万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4785x1835x1490",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d08c5a8c9940085c2c14146c69678d2d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#A88065",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/901240a731f1c5c5a0b93cbed3d149e0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d08c5a8c9940085c2c14146c69678d2d~2508x0.webp"
         },
         {
-          "configName": "北京U7 2019款 1.5T CVT精英版 国VI",
+          "configName": "2019款 1.5T CVT精英版 国VI",
+          "configId": "38574",
+          "index": 2,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4785x1835x1490",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8db2e885567a138214e09f760d47ee30~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d413035c27aaaab32382fda8d6d1c7b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8db2e885567a138214e09f760d47ee30~2508x0.webp"
         },
         {
-          "configName": "北京U7 2019款 1.5T CVT新智版 国VI",
+          "configName": "2019款 1.5T CVT新智版 国VI",
+          "configId": "38575",
+          "index": 3,
           "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4785x1835x1490",
+          "exteriorImages": [
+            {
+              "name": "星桓紫",
+              "colors": [
+                "#29203B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37f8ed661ebd62f00bab4065f6b85ef0~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb751459b1db40d700a1b092cd373a2f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#A88065",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02b7819b5b4dccbf61c0fcd524641d61~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/37f8ed661ebd62f00bab4065f6b85ef0~2508x0.webp"
         },
         {
-          "configName": "北京U7 2019款 1.5T CVT智领版 国VI",
+          "configName": "2019款 1.5T CVT智领版 国VI",
+          "configId": "38576",
+          "index": 4,
           "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4785x1835x1490",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4785x1835x1490",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3a76c986bf49b7b938b60cee8ba2828~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#A88065",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/108da19d0b984c208649cee6c35dbc21~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d3a76c986bf49b7b938b60cee8ba2828~2508x0.webp"
         }
       ]
     },
     {
       "carName": "北京EU7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a8a1e4d18f0ab3b08ee546753301f52~1200x0.png",
       "configs": [
         {
-          "configName": "北京EU7 2022款 逸风版",
+          "configName": "2022款 逸风版",
+          "configId": "58984",
+          "index": 0,
           "price": "15.99万",
-          "fuelType": "纯电动",
-          "size": "4815x1835x1528",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4815x1835x1528",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0D0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b87ff7cc98e988b7ce23ec80eb88148a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#7A6F6B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d8883d541900eeac8237da42a52fdb2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b87ff7cc98e988b7ce23ec80eb88148a~2508x0.webp"
         },
         {
-          "configName": "北京EU7 2022款 逸尚版",
+          "configName": "2022款 逸尚版",
+          "configId": "58985",
+          "index": 1,
           "price": "16.59万",
-          "fuelType": "纯电动",
-          "size": "4815x1835x1528",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4815x1835x1528",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0D0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d967eaa5c30eadcccff9fa52823f1ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#7A6F6B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4dff252a863ac19aca6459dedbd7813~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1d967eaa5c30eadcccff9fa52823f1ab~2508x0.webp"
         },
         {
-          "configName": "北京EU7 2022款 逸潮版",
+          "configName": "2022款 逸潮版",
+          "configId": "58986",
+          "index": 2,
           "price": "17.59万",
-          "fuelType": "纯电动",
-          "size": "4815x1835x1528",
           "manufacturer": "北京汽车",
           "class": "中型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4815x1835x1528",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0D0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fe59845e1808fc1bb8d2904e494131b~2508x0.webp"
+            },
+            {
+              "name": "星桓紫",
+              "colors": [
+                "#29203B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/901ebb93789db07bda0c8d68ee70d181~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F1F1F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66d8d257c373f777da0d77ce56a1dd39~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#7A6F6B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04e919db7f214a44c8af4ad75ce8dcd4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3fe59845e1808fc1bb8d2904e494131b~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carName": "北京X3",
+      "configs": [
+        {
+          "configName": "2021款 1.5T 手动荣耀版",
+          "configId": "51457",
+          "index": 0,
+          "price": "5.99万",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4325x1830x1640",
+          "exteriorImages": [
+            {
+              "name": "暮光蓝",
+              "colors": [
+                "#002078"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07ef8aa71a0ca07661aa701f076b81e7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27eb9efed89778f416d5d7edeab1d110~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/07ef8aa71a0ca07661aa701f076b81e7~2508x0.webp"
+        },
+        {
+          "configName": "2021款 1.5T 手动荣耀版PLUS",
+          "configId": "51458",
+          "index": 1,
+          "price": "6.59万",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4325x1830x1640",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 1.5T 手动星耀版",
+          "configId": "51459",
+          "index": 2,
+          "price": "7.59万",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4325x1830x1640",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 1.5T CVT荣耀版",
+          "configId": "51460",
+          "index": 3,
+          "price": "6.99万",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4325x1830x1640",
+          "exteriorImages": [
+            {
+              "name": "暮光蓝",
+              "colors": [
+                "#002078"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35ab8e4e710be681c7379f5459ec8031~2508x0.webp"
+            },
+            {
+              "name": "日炎红",
+              "colors": [
+                "#A80114"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe9754a75a9264968ac8ccaf49261ab8~2508x0.webp"
+            },
+            {
+              "name": "冰雪白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18029c8b2bffa18b548795c59c100027~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7db45ffef59feb689ce6d7abd2da28b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/35ab8e4e710be681c7379f5459ec8031~2508x0.webp"
+        },
+        {
+          "configName": "2021款 1.5T CVT荣耀版PLUS",
+          "configId": "51461",
+          "index": 4,
+          "price": "7.79万",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4325x1830x1640",
+          "exteriorImages": [
+            {
+              "name": "冰雪白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f65c43de2396240afbe2a3c7562b2b38~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/044f20211e508c4ccd6649e0b7cc4bad~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f65c43de2396240afbe2a3c7562b2b38~2508x0.webp"
+        },
+        {
+          "configName": "2021款 1.5T CVT星耀版",
+          "configId": "51462",
+          "index": 5,
+          "price": "8.79万",
+          "manufacturer": "北京汽车",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4325x1830x1640",
+          "exteriorImages": [
+            {
+              "name": "冰雪白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7f0ae1cdc07a72ec467a41b8996c8e6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2b23c7625fed28668ebb79feb0f35ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a7f0ae1cdc07a72ec467a41b8996c8e6~2508x0.webp"
         }
       ]
     },
     {
       "carName": "魔方",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4d9af9984bed4952a5d561a3e2f9081a~1200x0.png",
       "configs": [
         {
-          "configName": "魔方 2024款 1.5T DCT 青春版PLUS",
+          "configName": "2024款 1.5T DCT 青春版PLUS",
+          "configId": "99625",
+          "index": 0,
           "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4620x1886x1680",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4620x1886x1680",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "魔方 2023款 1.5T DCT 青春版",
+          "configName": "2023款 1.5T DCT 青春版",
+          "configId": "94480",
+          "index": 1,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4620x1886x1680",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4620x1886x1680",
+          "exteriorImages": [
+            {
+              "name": "苍穹余灰",
+              "colors": [
+                "#ACACB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c53960941a9b7e35235a98f52c4eb73~2508x0.webp"
+            },
+            {
+              "name": "水晶光灰",
+              "colors": [
+                "#C9CDD8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20fd037bad3e2d4bbf7b851432d909af~2508x0.webp"
+            },
+            {
+              "name": "高手独白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da9f58b13f373cf269bcd30b5654b120~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑赤珠",
+              "colors": [
+                "#BF4242"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/237130104e5ae26de1ed199f8feed6ca~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4c53960941a9b7e35235a98f52c4eb73~2508x0.webp"
         },
         {
-          "configName": "魔方 2023款 1.5T DCT 黄金版",
+          "configName": "2023款 1.5T DCT 黄金版",
+          "configId": "92579",
+          "index": 2,
           "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4620x1886x1680",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4620x1886x1680",
+          "exteriorImages": [
+            {
+              "name": "苍穹余灰",
+              "colors": [
+                "#ACACB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70a7c47458b221d2422a7bf83a3c63a6~2508x0.webp"
+            },
+            {
+              "name": "水晶光灰",
+              "colors": [
+                "#C9CDD8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c13c94021307c51669453b4316d1a91~2508x0.webp"
+            },
+            {
+              "name": "高手独白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0a34108f340cb378a1a4e0bd1d70f6d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑赤珠",
+              "colors": [
+                "#BF4242"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/570e767ff5ef9cf0753a533a22953a6b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/70a7c47458b221d2422a7bf83a3c63a6~2508x0.webp"
         },
         {
-          "configName": "魔方 2023款 1.5T DCT 铂金版",
+          "configName": "2023款 1.5T DCT 铂金版",
+          "configId": "92580",
+          "index": 3,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4620x1886x1680",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4620x1886x1680",
+          "exteriorImages": [
+            {
+              "name": "苍穹余灰",
+              "colors": [
+                "#ACACB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5aec1dcfc0820dd0c4ae5d9e0a0198e~2508x0.webp"
+            },
+            {
+              "name": "水晶光灰",
+              "colors": [
+                "#C9CDD8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/687cb3ecf49f9a14d406d6bb24bc4c42~2508x0.webp"
+            },
+            {
+              "name": "高手独白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/78dc80a07a3afb34a21413789acfdc43~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑赤珠",
+              "colors": [
+                "#BF4242"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/85f04e8902545d6c8d310dacdfb239a7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b5aec1dcfc0820dd0c4ae5d9e0a0198e~2508x0.webp"
         },
         {
-          "configName": "魔方 2023款 1.5T DCT 钻石版",
+          "configName": "2023款 1.5T DCT 钻石版",
+          "configId": "92581",
+          "index": 4,
           "price": "13.19万",
-          "fuelType": "汽油",
-          "size": "4620x1886x1680",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4620x1886x1680",
+          "exteriorImages": [
+            {
+              "name": "水晶光灰/黑色",
+              "colors": [
+                "#C9CDD8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf20b2902ec55d1f7588cb344928b81e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑金翼",
+              "colors": [
+                "#F5F230"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be658a42eb5997fd223834e438d497c7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bf20b2902ec55d1f7588cb344928b81e~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carName": "北京X7 PHEV",
+      "configs": [
+        {
+          "configName": "2020款 1.5TD DCT致风版",
+          "configId": "46394",
+          "index": 0,
+          "price": "18.49万",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 169马力 L4 插电式混动",
+          "size": "4710x1892x1715",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2020款 1.5TD DCT致潮版",
+          "configId": "46395",
+          "index": 1,
+          "price": "19.49万",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 169马力 L4 插电式混动",
+          "size": "4710x1892x1715",
+          "exteriorImages": [
+            {
+              "name": "皓月银/黑色",
+              "colors": [
+                "#B3B3B3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea18b1a13eb2a311aa8a9769fc3a756e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#B2B2B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82f31175ac5125199402b7c50b315632~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ea18b1a13eb2a311aa8a9769fc3a756e~2508x0.webp"
+        },
+        {
+          "configName": "2020款 1.5TD DCT致领版",
+          "configId": "46396",
+          "index": 2,
+          "price": "21.69万",
+          "manufacturer": "北京汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 169马力 L4 插电式混动",
+          "size": "4710x1892x1715",
+          "exteriorImages": [
+            {
+              "name": "皓月银/黑色",
+              "colors": [
+                "#B3B3B3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdda6169cf5979ef196f2f72b66a3104~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#B2B2B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21bb0c403f861395714f87dc6fba1d82~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cdda6169cf5979ef196f2f72b66a3104~2508x0.webp"
         }
       ]
     },
     {
       "carName": "北京X7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8e4e6266b6cb488293b705d89c8ab378~1200x0.png",
       "configs": [
         {
-          "configName": "北京X7 2025款 1.5TD 乐享",
+          "configName": "2025款 1.5TD 乐享",
+          "configId": "249890",
+          "index": 0,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4745x1892x1715",
+          "exteriorImages": [
+            {
+              "name": "玉·白",
+              "colors": [
+                "#F5F7F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ded9c17bc97dbf6d19febb4cf5515fa2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05c2cdd2deb52b87aa46dfd2a81316b5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ded9c17bc97dbf6d19febb4cf5515fa2~2508x0.webp"
         },
         {
-          "configName": "北京X7 2024款 1.5TD 惠融版",
+          "configName": "2024款 1.5TD 惠融版",
+          "configId": "244584",
+          "index": 1,
           "price": "13.69万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力",
+          "size": "4745x1892x1715",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京X7 2024款 1.5TD 优享+PLUS",
+          "configName": "2024款 1.5TD 优享+PLUS",
+          "configId": "99623",
+          "index": 2,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力",
+          "size": "4745x1892x1715",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京X7 2023款 1.5TD 优享+",
+          "configName": "2023款 1.5TD 优享+",
+          "configId": "88302",
+          "index": 3,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力",
+          "size": "4745x1892x1715",
+          "exteriorImages": [
+            {
+              "name": "锻·灰",
+              "colors": [
+                "#919191"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b237a3c1424ed1af9426c31daf0eec17~2508x0.webp"
+            },
+            {
+              "name": "弦·银",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84fb6ca8785e535115b5d5f6ec5be9b2~2508x0.webp"
+            },
+            {
+              "name": "玉·白",
+              "colors": [
+                "#F5F7F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf47b0938124c2dfd5c24ff5e2b4e23b~2508x0.webp"
+            },
+            {
+              "name": "锦·红",
+              "colors": [
+                "#F90D0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c70b8d6d12ac1aa44df71aa8b0b08205~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b93f8cce3a869a791ffa6a64952c1c06~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b237a3c1424ed1af9426c31daf0eec17~2508x0.webp"
         },
         {
-          "configName": "北京X7 2023款 1.5TD 喜享+",
+          "configName": "2023款 1.5TD 喜享+",
+          "configId": "93687",
+          "index": 4,
           "price": "12.49万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力",
+          "size": "4745x1892x1715",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "北京X7 2023款 1.5TD 超享+",
+          "configName": "2023款 1.5TD 超享+",
+          "configId": "88301",
+          "index": 5,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力",
+          "size": "4745x1892x1715",
+          "exteriorImages": [
+            {
+              "name": "曜·黑",
+              "colors": [
+                "#140707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d84eca306d950b632acb091c619b89e2~2508x0.webp"
+            },
+            {
+              "name": "锻·灰",
+              "colors": [
+                "#919191"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/7d6d0c3f3c6a49108fd6d400c11cc398~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "弦·银",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7eea2df114beee87b6a399e05d3de5ec~2508x0.webp"
+            },
+            {
+              "name": "玉·白",
+              "colors": [
+                "#F5F7F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c864140fccece4d4b20683959c6ea18~2508x0.webp"
+            },
+            {
+              "name": "锦·红",
+              "colors": [
+                "#F90D0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/385e63e8e881d174d9af7174f842b7a5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55660ce4d23b88596373efe28f296584~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d84eca306d950b632acb091c619b89e2~2508x0.webp"
         },
         {
-          "configName": "北京X7 2023款 1.5TD 尊享+",
+          "configName": "2023款 1.5TD 尊享+",
+          "configId": "88303",
+          "index": 6,
           "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4745x1892x1715",
           "manufacturer": "北京汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 188马力"
+          "fuelType": "汽油",
+          "power": "1.5T 188马力",
+          "size": "4745x1892x1715",
+          "exteriorImages": [
+            {
+              "name": "曜·黑",
+              "colors": [
+                "#140707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95ef7c00b40fb21da731fb5c93985308~2508x0.webp"
+            },
+            {
+              "name": "釉·蓝/黑色",
+              "colors": [
+                "#287FBC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91ff659d224d6e9f1f1a8ad2cf2bb859~2508x0.webp"
+            },
+            {
+              "name": "锻·灰/黑色",
+              "colors": [
+                "#919191",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/256d22cc91b79ade9abbd6894718480b~2508x0.webp"
+            },
+            {
+              "name": "弦·银/黑色",
+              "colors": [
+                "#E8E8E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2afd965fd3fbd8ae634d268b645612db~2508x0.webp"
+            },
+            {
+              "name": "玉·白/黑色",
+              "colors": [
+                "#F5F7F4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/471536a62d4e040894435c0e1699aa5b~2508x0.webp"
+            },
+            {
+              "name": "锦·红/黑色",
+              "colors": [
+                "#F90D0D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4de1837a6cc3b148c5619fba28c17d6f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f300261a182a72a28922ec566edc48f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/95ef7c00b40fb21da731fb5c93985308~2508x0.webp"
         }
       ]
     }
