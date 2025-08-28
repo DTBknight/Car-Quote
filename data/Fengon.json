@@ -3,113 +3,460 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/d2f83dcd61d909426b492bbd9c3d4c72~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 9988,
       "carName": "风光S580",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/679a87b0bfe542fbb0fa404241ae9ebd~1200x0.png",
       "configs": [
         {
-          "configName": "风光S580 2024款 1.5T 自动旗舰型",
+          "configName": "2024款 1.5T 自动旗舰型",
+          "configId": "99362",
+          "index": 0,
           "price": "10.98万",
-          "fuelType": "汽油",
-          "size": "4715x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4715x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "松霜绿",
+              "colors": [
+                "#738573"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/57dc69d2c1abfad0a2bb062148c0ff27~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玛瑙棕/黑色",
+              "colors": [
+                "#B9905A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/550c69357fc6fa665215f63cba38b810~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/57dc69d2c1abfad0a2bb062148c0ff27~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
+      "carId": 5389,
       "carName": "风光MINIEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa5cc1b2502364a728c84bac4b31c912~1200x0.png",
       "configs": [
         {
-          "configName": "风光MINIEV 2022款 实尚款 实用型",
+          "configName": "2022款 实尚款 实用型",
+          "configId": "60176",
+          "index": 0,
           "price": "3.26万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb5a5a0a602af15141cbc48561e14766~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae944aa2e084b06ea0f18152abcdc4a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "科罗拉多灰/氧气蓝",
+              "colors": [
+                "#CFCFCF",
+                "#D1F8F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2cab0f146933ce13311439b4c82260f4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fb5a5a0a602af15141cbc48561e14766~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 实尚款 舒适型",
+          "configName": "2022款 实尚款 舒适型",
+          "configId": "60174",
+          "index": 1,
           "price": "3.86万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fff8f9d9775fc185b68048541c5ac235~2508x0.webp"
+            },
+            {
+              "name": "薄雾玫瑰",
+              "colors": [
+                "#E4CFDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee8fc6740080c52915cb67c7fc08a521~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "科罗拉多灰/氧气蓝",
+              "colors": [
+                "#CFCFCF",
+                "#D1F8F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c3602a9e779c3ee9d243188b8d0b2bb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fff8f9d9775fc185b68048541c5ac235~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 实尚款 豪华型",
+          "configName": "2022款 实尚款 豪华型",
+          "configId": "60175",
+          "index": 2,
           "price": "4.46万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c11a051785aadc46f184f30f8ceac20~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "科罗拉多灰/氧气蓝",
+              "colors": [
+                "#CFCFCF",
+                "#D1F8F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d9fdec92f73f2b0283a06cd3d1e9141~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8c11a051785aadc46f184f30f8ceac20~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 泡泡糖",
+          "configName": "2022款 糖果款 泡泡糖",
+          "configId": "75871",
+          "index": 3,
           "price": "3.96万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "精灵绿",
+              "colors": [
+                "#90DEB3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7eb43b5e42e8429d20ee661d25d52c92~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/深瑚蓝",
+              "colors": [
+                "#FFFFFF",
+                "#647CAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d79e3edfc7da6f3efacc39792dd39f6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7eb43b5e42e8429d20ee661d25d52c92~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 棒棒糖",
+          "configName": "2022款 糖果款 棒棒糖",
+          "configId": "75869",
+          "index": 4,
           "price": "4.56万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b37e251540a02b4cc0acf8534e4a2d2c~2508x0.webp"
+            },
+            {
+              "name": "薄雾玫瑰",
+              "colors": [
+                "#E4CFDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d30cf88e584bf84fce3d6c4a2786039~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecaa0c791a13c9f840619bd47908a41b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/深瑚蓝",
+              "colors": [
+                "#FFFFFF",
+                "#647CAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13bc4909ad87e8556c5b9fb8b04ae250~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b37e251540a02b4cc0acf8534e4a2d2c~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 棉花糖",
+          "configName": "2022款 糖果款 棉花糖",
+          "configId": "75870",
+          "index": 5,
           "price": "4.96万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e646b1f3801f1f003b2d830606bf677~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/深瑚蓝",
+              "colors": [
+                "#FFFFFF",
+                "#647CAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5ad52f336ec2133bfd9eee6227e7657~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1e646b1f3801f1f003b2d830606bf677~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 微糖",
+          "configName": "2022款 糖果款 微糖",
+          "configId": "60188",
+          "index": 6,
           "price": "4.46万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "啵啵蓝莓/黑色",
+              "colors": [
+                "#73A7CF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5413127eddfd97f67c9baccd43f4ae19~2508x0.webp"
+            },
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71fa8cc65a2cdac881bbf0552d549124~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f8f159fc0e60940cb5f88223cfa7ed7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/深瑚蓝",
+              "colors": [
+                "#FFFFFF",
+                "#647CAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ec44507a3919c2a7c0a2cb8be8727e3~2508x0.webp"
+            },
+            {
+              "name": "象牙白/塞纳灰",
+              "colors": [
+                "#FFFFFF",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c118e4c16b27b4c3cb279eba7ab028b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5413127eddfd97f67c9baccd43f4ae19~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 半糖",
+          "configName": "2022款 糖果款 半糖",
+          "configId": "74443",
+          "index": 7,
           "price": "4.96万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 34马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 34马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "啵啵蓝莓/黑色",
+              "colors": [
+                "#73A7CF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1a0c8791b16828fd5cc7e86d222a9b5~2508x0.webp"
+            },
+            {
+              "name": "奶霜薄荷/白色",
+              "colors": [
+                "#98BDC3",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdb9327af859a2b836bee84ee402abf9~2508x0.webp"
+            },
+            {
+              "name": "薄雾玫瑰",
+              "colors": [
+                "#E4CFDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f29e1d124bb46e6b1cdb9284c9b931f~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b235378aabe0c405fbcfdae32241cc5~2508x0.webp"
+            },
+            {
+              "name": "冰昔草莓/白色",
+              "colors": [
+                "#F9E8F9",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01d6be6945c1a0ba525518657f317143~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/深瑚蓝",
+              "colors": [
+                "#FFFFFF",
+                "#647CAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4872a841be141096a29cd5b5d228e9aa~2508x0.webp"
+            },
+            {
+              "name": "象牙白/塞纳灰",
+              "colors": [
+                "#FFFFFF",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44b505b27639208be4e07640340477cb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b1a0c8791b16828fd5cc7e86d222a9b5~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 全糖",
+          "configName": "2022款 糖果款 全糖",
+          "configId": "74444",
+          "index": 8,
           "price": "5.56万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79a743e83bf7fe6e0082c27fd540ef18~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/深瑚蓝",
+              "colors": [
+                "#FFFFFF",
+                "#647CAD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3b431846542183ce1f983d74a40754c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/79a743e83bf7fe6e0082c27fd540ef18~2508x0.webp"
         },
         {
-          "configName": "风光MINIEV 2022款 糖果款 九邀版",
+          "configName": "2022款 糖果款 九邀版",
+          "configId": "78434",
+          "index": 9,
           "price": "5.91万",
-          "fuelType": "纯电动",
-          "size": "2995x1495x1640",
           "manufacturer": "东风小康",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "2995x1495x1640",
+          "exteriorImages": [
+            {
+              "name": "氧气蓝",
+              "colors": [
+                "#B0D3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f520c2a0aa4d66ecae7942aeb4940ef6~2508x0.webp"
+            },
+            {
+              "name": "薄雾玫瑰",
+              "colors": [
+                "#E4CFDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc8361fdac75dd6bb6da7f0568e06cee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "科罗拉多灰/珊瑚橙",
+              "colors": [
+                "#CFCFCF",
+                "#CF6335"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/426da6b4f1007a18c3dd1ea3ef0844cd~2508x0.webp"
+            },
+            {
+              "name": "科罗拉多灰/氧气蓝",
+              "colors": [
+                "#CFCFCF",
+                "#D1F8F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b414fe075c35b2702097ab0d3c6068b0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f520c2a0aa4d66ecae7942aeb4940ef6~2508x0.webp"
         }
       ]
     },
@@ -390,622 +737,1713 @@
       ]
     },
     {
+      "carId": 1712,
       "carName": "风光S560",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ef21a90ec23773548c0546b56f93999~1200x0.png",
       "configs": [
         {
-          "configName": "风光S560 2025款 1.5T MT舒享版",
+          "configName": "2025款 1.5T MT舒享版",
+          "configId": "247930",
+          "index": 0,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4550x1815x1735",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4550x1815x1735",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光S560 2022款 2.0L 手动都市型",
+          "configName": "2022款 2.0L 手动都市型",
+          "configId": "110476",
+          "index": 1,
           "price": "6.79万",
-          "fuelType": "汽油",
-          "size": "4550x1815x1735",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "2.0L 143马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 143马力 L4",
+          "size": "4550x1815x1735",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光S560 2022款 1.5T 手动都市型",
+          "configName": "2022款 1.5T 手动都市型",
+          "configId": "77295",
+          "index": 2,
           "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4550x1815x1735",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4550x1815x1735",
+          "exteriorImages": [
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50cdf5aaee0d044168b9e5aba1ec0353~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑/摩卡棕",
+              "colors": [
+                "#000000",
+                "#736103"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/965cb7b1294a866b0b6bf03f2d12b119~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/50cdf5aaee0d044168b9e5aba1ec0353~2508x0.webp"
         },
         {
-          "configName": "风光S560 2022款 2.0L CVT精英型",
+          "configName": "2022款 2.0L CVT精英型",
+          "configId": "110477",
+          "index": 3,
           "price": "7.69万",
-          "fuelType": "汽油",
-          "size": "4550x1815x1735",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "2.0L 143马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 143马力 L4",
+          "size": "4550x1815x1735",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4160a726ec5f982120dc0f9bf6fac77~2508x0.webp"
+            },
+            {
+              "name": "魅海蓝",
+              "colors": [
+                "#1380D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9914c7e64e99d9457f7a148dd7bda8c6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑/摩卡棕",
+              "colors": [
+                "#000000",
+                "#736103"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af71ecc9d9355647214fa0f4a13ab27b~2508x0.webp"
+            },
+            {
+              "name": "尼桑黑/波尔多红",
+              "colors": [
+                "#000000",
+                "#960B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48332c9dfe71ea7016f0df32843861f4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d4160a726ec5f982120dc0f9bf6fac77~2508x0.webp"
         },
         {
-          "configName": "风光S560 2022款 1.5T CVT精英型",
+          "configName": "2022款 1.5T CVT精英型",
+          "configId": "110475",
+          "index": 4,
           "price": "7.89万",
+          "manufacturer": "东风小康",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
           "size": "4550x1815x1735",
-          "manufacturer": "东风小康",
-          "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "exteriorImages": [
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/231ea626c6b8929447c4aaa737c06187~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑/摩卡棕",
+              "colors": [
+                "#000000",
+                "#736103"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/6a51c463ef65e6811fe6cef05b84bdeb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/231ea626c6b8929447c4aaa737c06187~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 2813,
       "carName": "风光ix5",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9305eb3fdf9570ff43e65308c2e95c3~1200x0.png",
       "configs": [
         {
-          "configName": "风光ix5 2022款 1.5T CVT都市豪情版",
+          "configName": "2022款 1.5T CVT都市豪情版",
+          "configId": "74373",
+          "index": 0,
           "price": "16.59万",
-          "fuelType": "汽油",
-          "size": "4685x1865x1645",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4685x1865x1645",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光ix5 2021款 1.5T 手动都市活力版",
+          "configName": "2021款 1.5T 手动都市活力版",
+          "configId": "46193",
+          "index": 1,
           "price": "9.98万",
-          "fuelType": "汽油",
-          "size": "4685x1865x1645",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4685x1865x1645",
+          "exteriorImages": [
+            {
+              "name": "雪域白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/e31f3711163dcc20d1e24e4284e02a89~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e10127fb31560a3a28e463188ab501d~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/e31f3711163dcc20d1e24e4284e02a89~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "风光ix5 2021款 1.5T CVT都市活力版",
+          "configName": "2021款 1.5T CVT都市活力版",
+          "configId": "48003",
+          "index": 2,
           "price": "10.98万",
-          "fuelType": "汽油",
-          "size": "4685x1865x1645",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4685x1865x1645",
+          "exteriorImages": [
+            {
+              "name": "星际蓝",
+              "colors": [
+                "#0D40AA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eacca87a530645b102177b0eb6daea08~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee4d34ad4ac6c81c37d50dea891b9a10~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72dd8b571f385f055735868c7791021a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eacca87a530645b102177b0eb6daea08~2508x0.webp"
         },
         {
-          "configName": "风光ix5 2021款 1.5T CVT都市激情版",
+          "configName": "2021款 1.5T CVT都市激情版",
+          "configId": "48004",
+          "index": 3,
           "price": "11.98万",
+          "manufacturer": "东风小康",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
           "size": "4685x1865x1645",
-          "manufacturer": "东风小康",
-          "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "exteriorImages": [
+            {
+              "name": "钛金银",
+              "colors": [
+                "#AEB1B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/284efb2f69d94d5513dc45157a77c6ba~2508x0.webp"
+            },
+            {
+              "name": "炫晶红",
+              "colors": [
+                "#B60B21"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d5b7954b3a78f67527386fedb777437~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6a5405f9e5d1d9a4c36eaca1e20d320~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/284efb2f69d94d5513dc45157a77c6ba~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 436,
       "carName": "风光580",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1af9610e28ca4193b90c3ad51fab0cf8~1200x0.png",
       "configs": [
         {
-          "configName": "风光580 2025款 1.5T 自动舒享版",
+          "configName": "2025款 1.5T 自动舒享版",
+          "configId": "247931",
+          "index": 0,
           "price": "11.29万",
-          "fuelType": "汽油",
-          "size": "4720x1865x1710",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4720x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03f656977df7f2626ecdd06d41dbb043~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_f1cd738c36d98b6c95aae8239dc14de4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03f656977df7f2626ecdd06d41dbb043~2508x0.webp"
         },
         {
-          "configName": "风光580 2025款 1.5T 自动荣耀版",
+          "configName": "2025款 1.5T 自动荣耀版",
+          "configId": "247932",
+          "index": 1,
           "price": "14.19万",
-          "fuelType": "汽油",
-          "size": "4720x1865x1710",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4720x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "太空灰",
+              "colors": [
+                "#817F7F"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_fa3f67e93cade4c0a815cdb92e27b5f3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#774E2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12e27fd9cee93dc2168d82c248145e63~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_fa3f67e93cade4c0a815cdb92e27b5f3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "风光580 2022款 1.5T 手动豪华型",
+          "configName": "2022款 1.5T 手动豪华型",
+          "configId": "57798",
+          "index": 2,
           "price": "9.59万",
-          "fuelType": "汽油",
-          "size": "4720x1865x1710",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4720x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#E8F9F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7915e0f4adeb5ccf35f70d9030f30f3~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#F1F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73f1e3d78e7e42dcc46ec4e5bb68962a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd886396b38d52420d8c1b97e49ae042~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b7915e0f4adeb5ccf35f70d9030f30f3~2508x0.webp"
         },
         {
-          "configName": "风光580 2022款 1.5T 自动豪华型",
+          "configName": "2022款 1.5T 自动豪华型",
+          "configId": "57799",
+          "index": 3,
           "price": "10.69万",
-          "fuelType": "汽油",
-          "size": "4720x1865x1710",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4720x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "太空灰",
+              "colors": [
+                "#817F7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f75fa299222bb929c95dacf32051f3ff~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#F1F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fbf7c340c3e9a285dacd452b6296daa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2048d38038dd2a63ddffaecc2456983e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f75fa299222bb929c95dacf32051f3ff~2508x0.webp"
         },
         {
-          "configName": "风光580 2022款 1.5T 自动静享型",
+          "configName": "2022款 1.5T 自动静享型",
+          "configId": "57800",
+          "index": 4,
           "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4720x1865x1710",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4720x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87046242e2366c2b58873ee3050d9da7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "波尔多红",
+              "colors": [
+                "#E44D4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aec0b5c00f05bdd9d0c72b7587d1d236~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/87046242e2366c2b58873ee3050d9da7~2508x0.webp"
         },
         {
-          "configName": "风光580 2022款 1.5T 自动奢享型",
+          "configName": "2022款 1.5T 自动奢享型",
+          "configId": "57801",
+          "index": 5,
           "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4720x1865x1710",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4720x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#E8F9F6"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/192f7e38c7a7d57ab60cbd4f4d9941c4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "波尔多红",
+              "colors": [
+                "#E44D4D"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/f17661d5360e04f8b2b99f8a6b3d5192~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/192f7e38c7a7d57ab60cbd4f4d9941c4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "风光580 2022款 1.5T 自动臻享型",
+          "configName": "2022款 1.5T 自动臻享型",
+          "configId": "57802",
+          "index": 6,
           "price": "12.99万",
+          "manufacturer": "东风小康",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
           "size": "4720x1865x1710",
-          "manufacturer": "东风小康",
-          "class": "中型SUV",
-          "power": "1.5T 184马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光580 2021款 改款★星版 1.8L 手动精英型",
+          "configName": "2021款 改款★星版 1.8L 手动精英型",
+          "configId": "50082",
+          "index": 7,
           "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4700x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.8L 139马力 L4"
+          "fuelType": "汽油",
+          "power": "1.8L 139马力 L4",
+          "size": "4700x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F6F9F7",
+                "#0B0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/062292ef61024dbdba639586066f5f09~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1fed600f0a71ae0bbf8f86f62898c949~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/062292ef61024dbdba639586066f5f09~2508x0.webp"
         },
         {
-          "configName": "风光580 2021款 改款★星版 1.5T 手动豪华型",
+          "configName": "2021款 改款★星版 1.5T 手动豪华型",
+          "configId": "50083",
+          "index": 8,
           "price": "8.99万",
-          "fuelType": "汽油",
-          "size": "4715x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4715x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F6F9F7",
+                "#0B0C0D"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18997305f8ba9feaff5a58fb0ea42cb5~2508x0.webp"
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "风光580 2021款 改款★星版 1.5T 自动豪华型",
+          "configName": "2021款 改款★星版 1.5T 自动豪华型",
+          "configId": "50084",
+          "index": 9,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4715x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4715x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "红色/黑色",
+              "colors": [
+                "#BF0A14",
+                "#0B0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33e6f6315652e80202f9da78cc7d6986~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F6F9F7",
+                "#0B0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e85aa47529df73e3d06703ac1e114e4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0847690e90e1975e9ac7895465f3d9e4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/33e6f6315652e80202f9da78cc7d6986~2508x0.webp"
         },
         {
-          "configName": "风光580 2021款 改款★星版 1.5TGDI 自动尊贵型",
+          "configName": "2021款 改款★星版 1.5TGDI 自动尊贵型",
+          "configId": "50085",
+          "index": 10,
           "price": "10.59万",
-          "fuelType": "汽油",
-          "size": "4715x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 180马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 180马力 L4",
+          "size": "4715x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F6F9F7",
+                "#0B0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9471ce2dfc03c25bd0a0a4512805333~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f39d3a4453e7c2447b754143303c88e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c9471ce2dfc03c25bd0a0a4512805333~2508x0.webp"
         },
         {
-          "configName": "风光580 2021款 ★星版 1.5TGDI 自动旗舰型",
+          "configName": "2021款 ★星版 1.5TGDI 自动旗舰型",
+          "configId": "47103",
+          "index": 11,
           "price": "11.59万",
+          "manufacturer": "东风小康",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 180马力 L4",
           "size": "4715x1845x1715",
-          "manufacturer": "东风小康",
-          "class": "中型SUV",
-          "power": "1.5T 180马力 L4"
+          "exteriorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#6D6F76",
+                "#0B0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8196d305d1f2e1640814b779e0e65d6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ddb4cb2b289b3b43cbb3f38e3b6fce23~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f8196d305d1f2e1640814b779e0e65d6~2508x0.webp"
         },
         {
-          "configName": "风光580 2020款 1.5T 手动豪华型",
+          "configName": "2020款 1.5T 手动豪华型",
+          "configId": "38419",
+          "index": 12,
           "price": "9.19万",
-          "fuelType": "汽油",
-          "size": "4700x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4700x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "幻影黑",
+              "colors": [
+                "#0E0E0F"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/45b7a20965064007d2e055870a62117c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/4b2c7beb4a51963b5ff8f8b231a0077e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/45b7a20965064007d2e055870a62117c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "风光580 2020款 1.5T CVT豪华型",
+          "configName": "2020款 1.5T CVT豪华型",
+          "configId": "38420",
+          "index": 13,
           "price": "10.1万",
-          "fuelType": "汽油",
-          "size": "4700x1845x1715",
           "manufacturer": "东风小康",
           "class": "中型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4700x1845x1715",
+          "exteriorImages": [
+            {
+              "name": "幻影黑",
+              "colors": [
+                "#0E0E0F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c92f10d637c2d809e117f519b356220~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8d61ba4e379e79af7b71d26715dac0d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1c92f10d637c2d809e117f519b356220~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4703,
       "carName": "风光500",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/41b9222f23d74d3287d241fc3a073784~1200x0.png",
       "configs": [
         {
-          "configName": "风光500 2022款 1.5L 手动悦享型",
+          "configName": "2022款 1.5L 手动悦享型",
+          "configId": "55117",
+          "index": 0,
           "price": "6.18万",
-          "fuelType": "汽油",
-          "size": "4385x1850x1645",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4385x1850x1645",
+          "exteriorImages": [
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F9FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dacf966c59ada07823ef473f5282b1a4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d229dbd82fe88dfa2dac1a0440f3a0a3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dacf966c59ada07823ef473f5282b1a4~2508x0.webp"
         },
         {
-          "configName": "风光500 2022款 1.5L 自动悦享型",
+          "configName": "2022款 1.5L 自动悦享型",
+          "configId": "55118",
+          "index": 1,
           "price": "6.98万",
-          "fuelType": "汽油",
-          "size": "4385x1850x1645",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4385x1850x1645",
+          "exteriorImages": [
+            {
+              "name": "湛海蓝",
+              "colors": [
+                "#012552"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbae14263de1c1533dc6a322ae76228a~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F9FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd58892779b41bde365ac0958998b5aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cbae14263de1c1533dc6a322ae76228a~2508x0.webp"
         },
         {
-          "configName": "风光500 2022款 1.5L 自动尊享型",
+          "configName": "2022款 1.5L 自动尊享型",
+          "configId": "54625",
+          "index": 2,
           "price": "7.68万",
-          "fuelType": "汽油",
-          "size": "4385x1850x1645",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4385x1850x1645",
+          "exteriorImages": [
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F9FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26cbbd4b6078c5e3500a42408e3c588d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bd7717e135f8df374bbf6c511b42469~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/26cbbd4b6078c5e3500a42408e3c588d~2508x0.webp"
         },
         {
-          "configName": "风光500 2022款 1.5T 手动畅享型",
+          "configName": "2022款 1.5T 手动畅享型",
+          "configId": "55120",
+          "index": 3,
           "price": "6.98万",
-          "fuelType": "汽油",
-          "size": "4385x1850x1645",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4385x1850x1645",
+          "exteriorImages": [
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F9FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78a9dd6c8936f46074e2987a3aefca60~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d71038ac85652cf864a5a733d63e27b0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/78a9dd6c8936f46074e2987a3aefca60~2508x0.webp"
         },
         {
-          "configName": "风光500 2022款 1.5T 自动畅享型",
+          "configName": "2022款 1.5T 自动畅享型",
+          "configId": "55059",
+          "index": 4,
           "price": "7.98万",
-          "fuelType": "汽油",
-          "size": "4385x1850x1645",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4385x1850x1645",
+          "exteriorImages": [
+            {
+              "name": "炫晶红",
+              "colors": [
+                "#B60B21"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0388f59ca5f4de871d3dabdf89c96c12~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F9FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ba675efca57a9e325e46d85eb677170~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ec94a9908bbbad89b209ddd31257d4d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0388f59ca5f4de871d3dabdf89c96c12~2508x0.webp"
         },
         {
-          "configName": "风光500 2022款 1.5T 自动智享型",
+          "configName": "2022款 1.5T 自动智享型",
+          "configId": "55119",
+          "index": 5,
           "price": "8.58万",
-          "fuelType": "汽油",
-          "size": "4385x1850x1645",
           "manufacturer": "东风小康",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4385x1850x1645",
+          "exteriorImages": [
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F5F9FC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8252ce8261feb9eac3f72780323d0aac~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "景泰蓝",
+              "colors": [
+                "#2D2D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/10731c199ceb291f022a964e8a8c44e4~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/8252ce8261feb9eac3f72780323d0aac~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
+      "carId": 437,
       "carName": "风光330",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8242cb3bc6e04b1d9374356416d6e6f4~1200x0.png",
       "configs": [
         {
-          "configName": "风光330 2023款 1.5L 330S 实用型 DK15 国VI",
+          "configName": "2023款 1.5L 330S 实用型 DK15 国VI",
+          "configId": "94883",
+          "index": 0,
           "price": "4.29万",
-          "fuelType": "汽油",
-          "size": "4400x1705x1790",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4400x1705x1790",
+          "exteriorImages": [
+            {
+              "name": "柚木棕",
+              "colors": [
+                "#453936"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/948cd8c98e1962f3fd75bcac820908c7~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#F5F7F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae15dc90681acf33a819c83e098a5106~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a417d554af09b47053e190872ba7818f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/948cd8c98e1962f3fd75bcac820908c7~2508x0.webp"
         },
         {
-          "configName": "风光330 2023款 1.5L 330S 舒适型 DK15 国VI",
+          "configName": "2023款 1.5L 330S 舒适型 DK15 国VI",
+          "configId": "248618",
+          "index": 1,
           "price": "4.79万",
-          "fuelType": "汽油",
-          "size": "4400x1705x1790",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4400x1705x1790",
+          "exteriorImages": [
+            {
+              "name": "极地白",
+              "colors": [
+                "#F5F7F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3af7d0e99ab607fe8fc9edc84dc1b71e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#C67524"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb00245724fc6deb025dc130c9b00ad3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3af7d0e99ab607fe8fc9edc84dc1b71e~2508x0.webp"
         },
         {
-          "configName": "风光330 2022款 1.5L奢享型客车DK15",
+          "configName": "2022款 1.5L奢享型客车DK15",
+          "configId": "71912",
+          "index": 2,
           "price": "6.88万",
-          "fuelType": "汽油",
-          "size": "4365x1720x1790",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4365x1720x1790",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光330 2022款 1.5L 330S 至尊型国VIDK15",
+          "configName": "2022款 1.5L 330S 至尊型国VIDK15",
+          "configId": "93116",
+          "index": 3,
           "price": "6.68万",
+          "manufacturer": "东风小康",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
           "size": "4400x1705x1790",
-          "manufacturer": "东风小康",
-          "class": "紧凑型MPV",
-          "power": "1.5L 116马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光330 2019款 1.5L 手动实用型I DK15 国VI",
+          "configName": "2019款 1.5L 手动实用型I DK15 国VI",
+          "configId": "38484",
+          "index": 4,
           "price": "4.19万",
-          "fuelType": "汽油",
-          "size": "4365x1720x1790",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4365x1720x1790",
+          "exteriorImages": [
+            {
+              "name": "柚木棕",
+              "colors": [
+                "#453936"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc22bb9a724e1adb8c091384644ff9fe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b0c31eeb55cae66ba14de26979f4172~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cc22bb9a724e1adb8c091384644ff9fe~2508x0.webp"
         },
         {
-          "configName": "风光330 2019款 1.5L 手动实用型II DK15 国VI",
+          "configName": "2019款 1.5L 手动实用型II DK15 国VI",
+          "configId": "38485",
+          "index": 5,
           "price": "4.29万",
+          "manufacturer": "东风小康",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
           "size": "4365x1720x1790",
-          "manufacturer": "东风小康",
-          "class": "紧凑型MPV",
-          "power": "1.5L 116马力 L4"
+          "exteriorImages": [
+            {
+              "name": "柚木棕",
+              "colors": [
+                "#453936"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8931a968793f1244443a744a803fc7a3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c35e87d508751558849ba6ef0bebd0b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8931a968793f1244443a744a803fc7a3~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6230,
       "carName": "风光E380",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ca0b7d3e64664883916924321bc5f68a~1200x0.png",
       "configs": [
         {
-          "configName": "风光E380 2023款 营运版-实用型 7座",
+          "configName": "2023款 营运版-实用型 7座",
+          "configId": "89354",
+          "index": 0,
           "price": "15.48万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 营运版-实用型 8座",
+          "configName": "2023款 营运版-实用型 8座",
+          "configId": "89355",
+          "index": 1,
           "price": "15.48万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 营运版-舒适型 5座",
+          "configName": "2023款 营运版-舒适型 5座",
+          "configId": "89356",
+          "index": 2,
           "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 营运版-舒适型 7座",
+          "configName": "2023款 营运版-舒适型 7座",
+          "configId": "89357",
+          "index": 3,
           "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 营运版-舒适型 8座",
+          "configName": "2023款 营运版-舒适型 8座",
+          "configId": "89358",
+          "index": 4,
           "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bc2d0053d72c74aebb9ab622a9ae35c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#E5A264",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/372ab89637956aa10001b5fdffe7e126~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9bc2d0053d72c74aebb9ab622a9ae35c~2508x0.webp"
         },
         {
-          "configName": "风光E380 2023款 换电版 5座",
+          "configName": "2023款 换电版 5座",
+          "configId": "94250",
+          "index": 5,
           "price": "12.91万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 换电版 7座",
+          "configName": "2023款 换电版 7座",
+          "configId": "94251",
+          "index": 6,
           "price": "12.91万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 换电版 8座",
+          "configName": "2023款 换电版 8座",
+          "configId": "94252",
+          "index": 7,
           "price": "12.91万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 定制版 5座",
+          "configName": "2023款 定制版 5座",
+          "configId": "94248",
+          "index": 8,
           "price": "16.91万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 定制版 7座",
+          "configName": "2023款 定制版 7座",
+          "configId": "94247",
+          "index": 9,
           "price": "16.91万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2023款 定制版 8座",
+          "configName": "2023款 定制版 8座",
+          "configId": "94249",
+          "index": 10,
           "price": "16.91万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光E380 2022款 标准版-实用型 5座",
+          "configName": "2022款 标准版-实用型 5座",
+          "configId": "79419",
+          "index": 11,
           "price": "14.48万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F6F9F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1af3bb9f4f47f7ee01d25364e87bf9b7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a15eb8a904a66c55e7bc0178cf30681~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1af3bb9f4f47f7ee01d25364e87bf9b7~2508x0.webp"
         },
         {
-          "configName": "风光E380 2022款 标准版-舒适型 5座",
+          "configName": "2022款 标准版-舒适型 5座",
+          "configId": "79794",
+          "index": 12,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F6F9F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fe760991798f3a5dc5eefa716810b2e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#E5A264",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f8eba59df6c48a233b471f56eced980~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8fe760991798f3a5dc5eefa716810b2e~2508x0.webp"
         },
         {
-          "configName": "风光E380 2022款 标准版-舒适型 7座",
+          "configName": "2022款 标准版-舒适型 7座",
+          "configId": "93668",
+          "index": 13,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F6F9F7"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d10f3da86e5f55316d5371c3d6884c80~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#E5A264",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1562c2465dac10d202f45d632b12892~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/d10f3da86e5f55316d5371c3d6884c80~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "风光E380 2022款 标准版-舒适型 8座",
+          "configName": "2022款 标准版-舒适型 8座",
+          "configId": "93669",
+          "index": 14,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F6F9F7"
+              ],
+              "mainImage": "http://p9-dcd-sign.byteimg.com/motor-img/2f64529b1c53796821276c792be13163~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952540&x-signature=hX95xmNyYJFp%2FpFDRiz3uPYbtPA%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#E5A264",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd-sign.byteimg.com/motor-img/bef00b1930db80c62697c0121654e5e0~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952549&x-signature=23nt4MMwOKaLqh%2BkmOf1PnURpiQ%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd-sign.byteimg.com/motor-img/2f64529b1c53796821276c792be13163~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952540&x-signature=hX95xmNyYJFp%2FpFDRiz3uPYbtPA%3D&psm=motor.pc_car.api"
         },
         {
-          "configName": "风光E380 2022款 标准版-豪华智慧型 6座",
+          "configName": "2022款 标准版-豪华智慧型 6座",
+          "configId": "79795",
+          "index": 15,
           "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4610x1750x1860",
           "manufacturer": "东风小康",
           "class": "紧凑型MPV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 5390,
       "carName": "风光380",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b38b5ed264d5cb6f0b8cfb836e8fdb2~1200x0.png",
       "configs": [
         {
-          "configName": "风光380 2022款 1.5L 精典型厢车 2座",
+          "configName": "2022款 1.5L 精典型厢车 2座",
+          "configId": "60575",
+          "index": 0,
           "price": "5.28万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "闪耀金",
+              "colors": [
+                "#B1AB9D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a41c8ddc44fc8c5c1959d0827e96a068~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/472c16f5ca55238b5d44390e1f6db5f5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/989ca39d7caf2de2b9394f54ba4d73e7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a41c8ddc44fc8c5c1959d0827e96a068~2508x0.webp"
         },
         {
-          "configName": "风光380 2022款 1.5L 精典型客车 5座",
+          "configName": "2022款 1.5L 精典型客车 5座",
+          "configId": "60573",
+          "index": 1,
           "price": "5.28万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a18096494d0b509d2accd21f579d8c3e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab4612e44677f0b61422490f3d803842~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a18096494d0b509d2accd21f579d8c3e~2508x0.webp"
         },
         {
-          "configName": "风光380 2022款 1.5L 精典型客车 7座",
+          "configName": "2022款 1.5L 精典型客车 7座",
+          "configId": "60574",
+          "index": 2,
           "price": "5.28万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "闪耀金",
+              "colors": [
+                "#B1AB9D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a030807560f72f71ea81cdf70fec493~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94d10f10135dab8f48087e0118517db9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4a030807560f72f71ea81cdf70fec493~2508x0.webp"
         },
         {
-          "configName": "风光380 2022款 1.5L 精典型客车 8座",
+          "configName": "2022款 1.5L 精典型客车 8座",
+          "configId": "60577",
+          "index": 3,
           "price": "5.28万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光380 2022款 1.5L 舒适型客车钢板弹簧 5座",
+          "configName": "2022款 1.5L 舒适型客车钢板弹簧 5座",
+          "configId": "60578",
+          "index": 4,
           "price": "5.68万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光380 2022款 1.5L 舒适型客车钢板弹簧 7座",
+          "configName": "2022款 1.5L 舒适型客车钢板弹簧 7座",
+          "configId": "60579",
+          "index": 5,
           "price": "5.68万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "闪耀金",
+              "colors": [
+                "#B1AB9D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fd288d5ee34fcc32444b6c0b8a4f5a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/316aa268b992e5b6024cbcec5dabdf35~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4fd288d5ee34fcc32444b6c0b8a4f5a2~2508x0.webp"
         },
         {
-          "configName": "风光380 2022款 1.5L 舒适型客车钢板弹簧 8座",
+          "configName": "2022款 1.5L 舒适型客车钢板弹簧 8座",
+          "configId": "60580",
+          "index": 6,
           "price": "5.68万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "闪耀金",
+              "colors": [
+                "#B1AB9D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/574f23c1d4a87f0e9463cb7426f78384~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0f2cd2880dbf47d829c903a9c438a47~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/574f23c1d4a87f0e9463cb7426f78384~2508x0.webp"
         },
         {
-          "configName": "风光380 2022款 1.5L 舒适型客车螺旋簧 5座",
+          "configName": "2022款 1.5L 舒适型客车螺旋簧 5座",
+          "configId": "75105",
+          "index": 7,
           "price": "5.78万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "http://p3-dcd-sign.byteimg.com/motor-img/9b0662366446c4f8a4a2de2c09dc987f~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952624&x-signature=R5x%2Bm665QdRJAR%2FFR%2BhuF7rWyPU%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd-sign.byteimg.com/motor-img/c2f0555dccf870192bcaca5386248fbf~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952632&x-signature=wHy8usj4PI0OKs9mnxTOUluCCIs%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd-sign.byteimg.com/motor-img/9b0662366446c4f8a4a2de2c09dc987f~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952624&x-signature=R5x%2Bm665QdRJAR%2FFR%2BhuF7rWyPU%3D&psm=motor.pc_car.api"
         },
         {
-          "configName": "风光380 2022款 1.5L 舒适型客车螺旋簧 7座",
+          "configName": "2022款 1.5L 舒适型客车螺旋簧 7座",
+          "configId": "75106",
+          "index": 8,
           "price": "5.78万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "典雅白",
+              "colors": [
+                "#F5F8F6"
+              ],
+              "mainImage": "http://p9-dcd-sign.byteimg.com/motor-img/46e8f1410e8f8fc1f1951c544ed79129~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952630&x-signature=NKy6hhY6gRGLz1oqwZ%2FhwKWPPOs%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尼桑黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "http://p9-dcd-sign.byteimg.com/motor-img/46e8f1410e8f8fc1f1951c544ed79129~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756952630&x-signature=NKy6hhY6gRGLz1oqwZ%2FhwKWPPOs%3D&psm=motor.pc_car.api"
         },
         {
-          "configName": "风光380 2022款 1.5L 舒适型客车螺旋簧 8座",
+          "configName": "2022款 1.5L 舒适型客车螺旋簧 8座",
+          "configId": "75107",
+          "index": 9,
           "price": "5.78万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光380 2022款 1.5L 豪华型客车 5座",
+          "configName": "2022款 1.5L 豪华型客车 5座",
+          "configId": "73757",
+          "index": 10,
           "price": "6.08万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [
+            {
+              "name": "闪耀金",
+              "colors": [
+                "#B1AB9D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7ef0a02b98418a0ce34ff1dd47eee0a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e8ce2dc51d55738aab036a96c3e758c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c7ef0a02b98418a0ce34ff1dd47eee0a~2508x0.webp"
         },
         {
-          "configName": "风光380 2022款 1.5L 豪华型客车 7座",
+          "configName": "2022款 1.5L 豪华型客车 7座",
+          "configId": "73758",
+          "index": 11,
           "price": "6.08万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "风光380 2022款 1.5L 豪华型客车 8座",
+          "configName": "2022款 1.5L 豪华型客车 8座",
+          "configId": "73759",
+          "index": 12,
           "price": "6.08万",
-          "fuelType": "汽油",
-          "size": "4610x1750x1860",
           "manufacturer": "赛力斯汽车",
           "class": "微面",
-          "power": "1.5L 112马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 112马力 L4",
+          "size": "4610x1750x1860",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T02:24:26.178Z",
+  "progress": {
+    "completed": 10,
+    "total": 9,
+    "percentage": 111,
+    "currentIndex": 9
+  }
 }

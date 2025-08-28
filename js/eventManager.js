@@ -885,6 +885,14 @@ export class EventManager {
       }
     });
     
+    // 重置手续费滑块为默认值0.08
+    const serviceFeeRate = Utils.getElement('serviceFeeRate');
+    const serviceFeeRateValue = Utils.getElement('serviceFeeRateValue');
+    if (serviceFeeRate && serviceFeeRateValue) {
+      serviceFeeRate.value = '0.08';
+      serviceFeeRateValue.textContent = '0.08';
+    }
+    
     console.log('✅ 所有表单字段已重置');
   }
 } 

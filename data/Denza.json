@@ -3,299 +3,1641 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/8fd7ef0920364b3ead617d19ca49472c~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 10171,
       "carName": "腾势Z9GT DM",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/845d0a212eb1467e92f98e5dfd2edd3b~1200x0.png",
       "configs": [
         {
-          "configName": "腾势Z9GT DM 2024款 1100 四驱Pro版",
+          "configName": "2024款 1100 四驱Pro版",
+          "configId": "239503",
+          "index": 0,
           "price": "33.48万",
+          "manufacturer": "腾势汽车",
+          "class": "中大型车",
           "fuelType": "插电式混合动力",
+          "power": "2.0T 207马力 L4 插电式混动",
           "size": "5195x1990x1500",
-          "manufacturer": "腾势汽车",
-          "class": "中大型车",
-          "power": "插电式混动 870马力"
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2fc69fc4b39d7ee098d1dc922a38d36~2508x0.webp"
+            },
+            {
+              "name": "冬日青",
+              "colors": [
+                "#7D917D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/773d096764cf9b48c6df75d1a99438f7~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#DFDFE6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c815fab9dbbc13e85bd7711e1303baa~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad8bc87d19acce81964c036631fbd208~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "布拉格红/暗夜",
+              "colors": [
+                "#B32621",
+                "#100505"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8826c11ee217d09f22a8744dfda9068~2508x0.webp"
+            },
+            {
+              "name": "佩尔格米/紫雾",
+              "colors": [
+                "#E8E7E7",
+                "#CC949D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b56e20a22638b5254a497cf29fcc7364~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d2fc69fc4b39d7ee098d1dc922a38d36~2508x0.webp"
         },
         {
-          "configName": "腾势Z9GT DM 2024款 1100 四驱Max版",
+          "configName": "2024款 1100 四驱Max版",
+          "configId": "239504",
+          "index": 1,
           "price": "36.48万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1990x1480",
           "manufacturer": "腾势汽车",
           "class": "中大型车",
-          "power": "插电式混动 870马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 207马力 L4 插电式混动",
+          "size": "5195x1990x1480",
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a71dc293a999b1cf9b14fa4fc79b5810~2508x0.webp"
+            },
+            {
+              "name": "冬日青",
+              "colors": [
+                "#7D917D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/316aa4fddf0918dc31911e023dd712f0~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#DFDFE6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c78d83daeadfb1cc02d9c35b2676f57~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a16fd31ab273bd78456d4aeb2da7bc0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "布拉格红/暗夜",
+              "colors": [
+                "#B32621",
+                "#100505"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d366b5036750a13b02f28b433acc039~2508x0.webp"
+            },
+            {
+              "name": "佩尔格米/紫雾",
+              "colors": [
+                "#E8E7E7",
+                "#CC949D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db1672a99ade1c93ac4c47ac28165c3e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a71dc293a999b1cf9b14fa4fc79b5810~2508x0.webp"
         },
         {
-          "configName": "腾势Z9GT DM 2024款 1100 四驱Ultra版",
+          "configName": "2024款 1100 四驱Ultra版",
+          "configId": "239505",
+          "index": 2,
           "price": "41.48万",
-          "fuelType": "插电式混合动力",
-          "size": "5195x1990x1480",
           "manufacturer": "腾势汽车",
           "class": "中大型车",
-          "power": "插电式混动 870马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 207马力 L4 插电式混动",
+          "size": "5195x1990x1480",
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e71fc98f0086a788bd41f82f0b906be~2508x0.webp"
+            },
+            {
+              "name": "冬日青",
+              "colors": [
+                "#7D917D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e486930db2e790245bec5973ff1eadb5~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#DFDFE6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d923b7487872cde99602ee3b92a4354a~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a874f087ba93cf13dee7c7a807160a9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "布拉格红/暗夜",
+              "colors": [
+                "#B32621",
+                "#100505"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c61c0e0c681eda11c53809076a90b50~2508x0.webp"
+            },
+            {
+              "name": "佩尔格米/紫雾",
+              "colors": [
+                "#E8E7E7",
+                "#CC949D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06c328e13b5484164bbe7df86b0b1c32~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4e71fc98f0086a788bd41f82f0b906be~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24692,
       "carName": "腾势Z9 EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1d5add0c44194fa3a352e5857080eea5~1200x0.png",
       "configs": [
         {
-          "configName": "腾势Z9 EV 2024款 630 四驱Pro版",
+          "configName": "2024款 630 四驱Pro版",
+          "configId": "239498",
+          "index": 0,
           "price": "35.48万",
+          "manufacturer": "腾势汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 966马力",
           "size": "5220x1990x1518",
-          "manufacturer": "腾势汽车",
-          "class": "中大型车",
-          "power": "纯电动 966马力"
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57d9c90b38d23396981c4dbca882e8ce~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ff294613bfcb90e579ae93c7f1e1020~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "波尔多棕",
+              "colors": [
+                "#716766"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad11e5e374eb326ef91255a830ff4088~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/57d9c90b38d23396981c4dbca882e8ce~2508x0.webp"
         },
         {
-          "configName": "腾势Z9 EV 2024款 630 四驱Max版",
+          "configName": "2024款 630 四驱Max版",
+          "configId": "239502",
+          "index": 1,
           "price": "38.48万",
+          "manufacturer": "腾势汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 966马力",
           "size": "5220x1990x1500",
-          "manufacturer": "腾势汽车",
-          "class": "中大型车",
-          "power": "纯电动 966马力"
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22c1265e0827e48744f9ec031d7359a8~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ccb7ed1979e4e4456a9eb0f4376ed6a0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤霞/佩尔格米",
+              "colors": [
+                "#675C5E",
+                "#DBD2CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2707d4d80c9ff8565b372be0e8fcdc6c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/22c1265e0827e48744f9ec031d7359a8~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5843,
       "carName": "腾势D9 DM",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ef20f6cc7e2b40748afbaf6f9f8aa063~1200x0.png",
       "configs": [
         {
-          "configName": "腾势D9 DM 2025款 智驾版 1100 豪华型",
+          "configName": "2025款 智驾版 1100 豪华型",
+          "configId": "242293",
+          "index": 0,
           "price": "33.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 272马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b17c4ed659c0d842c7fa996675cba4a1~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f758c876abc4e803727cc81bca193d2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/175db7a387c0736055cf4710c578a679~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4eecb01f904fa38a227a99c511c9700~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b17c4ed659c0d842c7fa996675cba4a1~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2025款 智驾版 1020 四驱尊享型",
+          "configName": "2025款 智驾版 1020 四驱尊享型",
+          "configId": "243965",
+          "index": 1,
           "price": "35.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 333马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d491d0f4eb105cb84a15bd2bb1c9ba21~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35020460cdd4c38a2f9f69875028003d~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac02fd169edf6c1f3e401837d3f552ab~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c8ef8d657ee0ef90d437e5898098b53~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/074d25131da07550c04345a534274b6f~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bafb9a99776cfc65b01e85b0dcf1a22c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d491d0f4eb105cb84a15bd2bb1c9ba21~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2025款 智驾版 1020 四驱尊贵型",
+          "configName": "2025款 智驾版 1020 四驱尊贵型",
+          "configId": "243967",
+          "index": 2,
           "price": "38.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 333马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17239ddc2c3a65a4f4c9b0b430aac327~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e8149a99bf69fcd21e7e95380bad230~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a36b56624367f302bab814823278668f~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a1707e51a12feafb9959c3a00cc75c4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/145353c0ff0dbeb27e9f2c580cb9e359~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62ca88fa1a43d4b09d1d2c1302639b1a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/17239ddc2c3a65a4f4c9b0b430aac327~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2025款 智驾版 1020 四驱尊荣型",
+          "configName": "2025款 智驾版 1020 四驱尊荣型",
+          "configId": "243968",
+          "index": 3,
           "price": "40.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 333马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c9fb752a3adec6016ae8c491780dd3a~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65dd46624698b999ec4d0b01d1e4721d~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf965ab15effb57dee8ce1dc8aaf3ddc~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a23f47563f022bd20a5e3144c896c74a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05db6f3bbc3fc33e77b14cf5b5c61690~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0d17bfef946bae4fa7460e86a71e8801~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4c9fb752a3adec6016ae8c491780dd3a~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2025款 智驾版 1020 四驱旗舰型",
+          "configName": "2025款 智驾版 1020 四驱旗舰型",
+          "configId": "243969",
+          "index": 4,
           "price": "44.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 333马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a311d17d4bc6974ae9e95c3afd0c913~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30c3adaef5d14ad4a3e0336d9d4de9bd~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/267ac45074153dfa2182f59d3451b348~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f03a654829c365d5c54ae7b0100e15c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22151d278db2dd156ab9787b9da2738b~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39b9cd1bab9a00124f095871667fd375~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3a311d17d4bc6974ae9e95c3afd0c913~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2024款 970 豪华型",
+          "configName": "2024款 970 豪华型",
+          "configId": "98851",
+          "index": 5,
           "price": "33.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 231马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da242f72364011186b204d5a8859584d~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48b9c26a8272079db79cc767e7770b39~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3a37dc40520c3caff9d3b8eaa18cbc7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2be1e4ab38124b2b9ab4ffde78157b3d~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09dafa8808044a1a71e8792b3a8d1e9e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/da242f72364011186b204d5a8859584d~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2024款 1050 尊享型",
+          "configName": "2024款 1050 尊享型",
+          "configId": "98593",
+          "index": 6,
           "price": "35.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 231马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adefce80a76332a3ec7ede98596b6dab~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3bf19d85d6cf5e826159126cba1f30e~2508x0.webp"
+            },
+            {
+              "name": "苍霁灰",
+              "colors": [
+                "#747378"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b7c78e88cdb174095b1094435b2865d~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aef163d73f09ae9a53b9ada1ca0fd2f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57495f235d45263204a9dfe2b357179e~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b29186437a10e7c03a79c8f095f1941f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/adefce80a76332a3ec7ede98596b6dab~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2024款 980 四驱尊贵型",
+          "configName": "2024款 980 四驱尊贵型",
+          "configId": "98591",
+          "index": 7,
           "price": "38.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 292马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34a604a2036e588aef55e12f756c2c97~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38ad3b2a30508f50dd60e163b64ea756~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfd85b2eb3073379da61d60c42217529~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37256c93c8c627508f0e2d3f5f637e82~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb1ff9d9c42e0c817924141557e8cc2a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/34a604a2036e588aef55e12f756c2c97~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2024款 980 四驱尊荣型",
+          "configName": "2024款 980 四驱尊荣型",
+          "configId": "98592",
+          "index": 8,
           "price": "40.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 292马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a5dc97b24bd40e8b37a1f226d38f694d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb6072755ccb811a9f3250a3be5ab610~2508x0.webp"
+            },
+            {
+              "name": "璀璨紫",
+              "colors": [
+                "#4C037A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9dd69bbde31a40f9680596beba6509cb~2508x0.webp"
+            },
+            {
+              "name": "苍霁灰",
+              "colors": [
+                "#747378"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69c6d726fabe8dd0886efe675503e277~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9dd75b014c26d3a24be0741900d70089~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b84ddc3cd784729cd5737717a413209~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e64831b4bed9d9b832071aef05b51160~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/a5dc97b24bd40e8b37a1f226d38f694d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "腾势D9 DM 2024款 980 四驱旗舰型",
+          "configName": "2024款 980 四驱旗舰型",
+          "configId": "98505",
+          "index": 9,
           "price": "44.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 292马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d21b7260cd543c9a14ef883752da838~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/912a2103bc7633782bdfa18aa840b2d6~2508x0.webp"
+            },
+            {
+              "name": "璀璨紫",
+              "colors": [
+                "#4C037A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72504601f971667e439c974ac980b5f5~2508x0.webp"
+            },
+            {
+              "name": "苍霁灰",
+              "colors": [
+                "#747378"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c29ca66d91498564bfac044e5bcd76eb~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0904265be02caded817f31f19616b3e9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a65d490bc5cdaa5190a5e4e8557b1068~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/298dab5ba3f575766f4e2cabbe21e121~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2d21b7260cd543c9a14ef883752da838~2508x0.webp"
         },
         {
-          "configName": "腾势D9 DM 2024款 PIONEER 四座创领版",
+          "configName": "2024款 PIONEER 四座创领版",
+          "configId": "98857",
+          "index": 10,
           "price": "60.06万",
-          "fuelType": "插电式混合动力",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 292马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a733947c08616cbf0edadc8d94a4aa4~2508x0.webp"
+            },
+            {
+              "name": "璀璨紫",
+              "colors": [
+                "#4C037A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd8abe44f6b9649ebe2581a670724b7b~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44f3a9e528002f03d592e1f368f418d5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e8f5c0adc3049190b7f7108705a3780~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1a733947c08616cbf0edadc8d94a4aa4~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10070,
       "carName": "腾势Z9GT EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/df262a4593754aa39501abda5ca93262~1200x0.png",
       "configs": [
         {
-          "configName": "腾势Z9GT EV 2024款 630 四驱Pro版",
+          "configName": "2024款 630 四驱Pro版",
+          "configId": "239500",
+          "index": 0,
           "price": "35.48万",
+          "manufacturer": "腾势汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 966马力",
           "size": "5180x1990x1500",
-          "manufacturer": "腾势汽车",
-          "class": "中大型车",
-          "power": "纯电动 966马力"
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67f49fb59f767e1f39f2693b9d3a90f6~2508x0.webp"
+            },
+            {
+              "name": "冬日青",
+              "colors": [
+                "#7D917D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da83900e145f8829369c5f5fe14c33e3~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#DFDFE6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9c8c927ca04510607301d32fb44ffe8~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93848bc6c874c6813dda3972e3c91f1d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "布拉格红/暗夜",
+              "colors": [
+                "#B32621",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35600bd04eee4bc37effa68677ad8480~2508x0.webp"
+            },
+            {
+              "name": "佩尔格米/紫雾",
+              "colors": [
+                "#E8E7E7",
+                "#CC949D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff78ffa2e450572a808ce23ecaff0e5b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/67f49fb59f767e1f39f2693b9d3a90f6~2508x0.webp"
         },
         {
-          "configName": "腾势Z9GT EV 2024款 630 四驱Max版",
+          "configName": "2024款 630 四驱Max版",
+          "configId": "239501",
+          "index": 1,
           "price": "38.48万",
+          "manufacturer": "腾势汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 966马力",
           "size": "5180x1990x1480",
-          "manufacturer": "腾势汽车",
-          "class": "中大型车",
-          "power": "纯电动 966马力"
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a17ba0aafa82adbce69a03ddd874e31~2508x0.webp"
+            },
+            {
+              "name": "冬日青",
+              "colors": [
+                "#7D917D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31d41ca5024f798375df611a00124362~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#DFDFE6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f41a7b45ac8a96ab0697ddba55b2af36~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fc6936cc6891ddde722dcebc19a81f7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "布拉格红/暗夜",
+              "colors": [
+                "#B32621",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b9ecc3b8cff128465418017ea86d465~2508x0.webp"
+            },
+            {
+              "name": "佩尔格米/紫雾",
+              "colors": [
+                "#E8E7E7",
+                "#CC949D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a490150293a9261504f0f6ecb16c229e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5a17ba0aafa82adbce69a03ddd874e31~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24693,
       "carName": "腾势Z9 DM",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/44c752207c204d4bbbf1ce8da4cec752~1200x0.png",
       "configs": [
         {
-          "configName": "腾势Z9 DM 2024款 1100 四驱Pro版",
+          "configName": "2024款 1100 四驱Pro版",
+          "configId": "239506",
+          "index": 0,
           "price": "33.48万",
+          "manufacturer": "腾势汽车",
+          "class": "中大型车",
           "fuelType": "插电式混合动力",
+          "power": "2.0T 207马力 L4 插电式混动",
           "size": "5235x1990x1518",
-          "manufacturer": "腾势汽车",
-          "class": "中大型车",
-          "power": "插电式混动 870马力"
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/631612bcc007e61bdfd4540232ef5b5a~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96932e54dd89eb039054cee3426fc978~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fb02b3f0ae84a6b4a6d712214dcb00c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤霞/佩尔格米",
+              "colors": [
+                "#675C5E",
+                "#DDD4D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/597f02f512511a2599404a3c2c82083f~2508x0.webp"
+            },
+            {
+              "name": "波尔多棕",
+              "colors": [
+                "#85757B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d7823ffa7075277a540fc1617a49e8b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/631612bcc007e61bdfd4540232ef5b5a~2508x0.webp"
         },
         {
-          "configName": "腾势Z9 DM 2024款 1100 四驱Max版",
+          "configName": "2024款 1100 四驱Max版",
+          "configId": "239507",
+          "index": 1,
           "price": "36.48万",
-          "fuelType": "插电式混合动力",
-          "size": "5235x1990x1500",
           "manufacturer": "腾势汽车",
           "class": "中大型车",
-          "power": "插电式混动 870马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 207马力 L4 插电式混动",
+          "size": "5235x1990x1500",
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2083e09e756b063a0baf18407656d2b~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/379b67584908e2f99ddbe59cfa977be6~2508x0.webp"
+            },
+            {
+              "name": "极夜紫",
+              "colors": [
+                "#54527D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b53ddf7cc23899bd198e0db25529b6f3~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35524fcb79f180053590ccb1918330c8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤霞/佩尔格米",
+              "colors": [
+                "#675C5E",
+                "#DDD4D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/234534ac277b771314a26e8e72f009e5~2508x0.webp"
+            },
+            {
+              "name": "波尔多棕",
+              "colors": [
+                "#85757B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f37e70fb5d983965a794fa89be694ff~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b2083e09e756b063a0baf18407656d2b~2508x0.webp"
         },
         {
-          "configName": "腾势Z9 DM 2024款 1100 四驱Ultra版",
+          "configName": "2024款 1100 四驱Ultra版",
+          "configId": "239499",
+          "index": 2,
           "price": "41.48万",
-          "fuelType": "插电式混合动力",
-          "size": "5235x1990x1500",
           "manufacturer": "腾势汽车",
           "class": "中大型车",
-          "power": "插电式混动 870马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 207马力 L4 插电式混动",
+          "size": "5235x1990x1500",
+          "exteriorImages": [
+            {
+              "name": "星曜黑",
+              "colors": [
+                "#0C0B0B"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/613f9d45f6230b215faec5413380292b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77eb289b30efd7f746bf20a6004993b2~2508x0.webp"
+            },
+            {
+              "name": "极夜紫",
+              "colors": [
+                "#54527D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab298671f34a93b97d643f084fe462e7~2508x0.webp"
+            },
+            {
+              "name": "皓月米",
+              "colors": [
+                "#F5EFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e58e7866c351fab40192ffdcbb651a0c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤霞/佩尔格米",
+              "colors": [
+                "#675C5E",
+                "#DDD4D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/659e5ba79c9159c2a8ba477ef6595094~2508x0.webp"
+            },
+            {
+              "name": "波尔多棕",
+              "colors": [
+                "#85757B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed5a69f982b0e7a189eb19edac29508f~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/613f9d45f6230b215faec5413380292b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
+      "carId": 6360,
       "carName": "腾势N7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5c35168a0f474b4ea16c68e6e6b808c3~1200x0.png",
       "configs": [
         {
-          "configName": "腾势N7 2025款 702 两驱智驾双激光尊荣版",
+          "configName": "2025款 702 两驱智驾双激光尊荣版",
+          "configId": "245176",
+          "index": 0,
           "price": "25.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1620",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4860x1935x1620",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4cf10daf4e5e785f4c751a753be871b8~2508x0.webp"
+            },
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#96D6F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/048d18b0062d95287036b46961f969f4~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#C5C7CA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/29c0c4993c89524e9b88f52f0847d2e7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "极光紫",
+              "colors": [
+                "#DCCBE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76977679990811ec46263b6e78c8270d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa342ea413c666db85fa1d1d723456a6~2508x0.webp"
+            },
+            {
+              "name": "茧石米",
+              "colors": [
+                "#D2D1CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a509b6940191999901836c9687d26405~2508x0.webp"
+            },
+            {
+              "name": "凝脂棕",
+              "colors": [
+                "#D6C9B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a04784ac70c03233c8e8562882d89517~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4cf10daf4e5e785f4c751a753be871b8~2508x0.webp"
         },
         {
-          "configName": "腾势N7 2025款 702 两驱智驾双激光猎影版",
+          "configName": "2025款 702 两驱智驾双激光猎影版",
+          "configId": "245175",
+          "index": 1,
           "price": "25.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1620",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4860x1935x1620",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "腾势N7 2025款 630 四驱智驾双激光旗舰版",
+          "configName": "2025款 630 四驱智驾双激光旗舰版",
+          "configId": "244905",
+          "index": 2,
           "price": "28.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1602",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "4860x1935x1602",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_23f5a1dc640a372b19075284a84421c1~2508x0.webp"
+            },
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#96D6F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a0ba2fea5958620c07e8f5207580f45~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#C5C7CA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_76a346dfd8061f3fe3c3a05585765200~2508x0.webp"
+            },
+            {
+              "name": "极光紫",
+              "colors": [
+                "#DCCBE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb6b2e41fcb94957173372f95eb88791~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沙珀棕",
+              "colors": [
+                "#696156"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4f0c1dc20742782a8a9d597684d14e2~2508x0.webp"
+            },
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75f82352935b843d513337b564448bf3~2508x0.webp"
+            },
+            {
+              "name": "茧石米",
+              "colors": [
+                "#D2D1CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ade5f178a5bb58ded28a076e01a0d66~2508x0.webp"
+            },
+            {
+              "name": "凝脂棕",
+              "colors": [
+                "#D6C9B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82e4ae6f6c36e43668fa1b06582b48a9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_23f5a1dc640a372b19075284a84421c1~2508x0.webp"
         },
         {
-          "configName": "腾势N7 2024款 550 两驱智驾Pro版",
+          "configName": "2024款 550 两驱智驾Pro版",
+          "configId": "99867",
+          "index": 3,
           "price": "23.98万",
+          "manufacturer": "腾势汽车",
+          "class": "中型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 231马力",
           "size": "4860x1935x1625",
-          "manufacturer": "腾势汽车",
-          "class": "中型SUV",
-          "power": "纯电动 231马力"
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ddbd622d964fd14f7ee845fde9dc5246~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#C5C7CA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3465789795fc54c7ebd6ccbed0d26f58~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a6155e18a572c14c469a08c629da6cc~2508x0.webp"
+            },
+            {
+              "name": "凝脂棕",
+              "colors": [
+                "#D6C9B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b84bb2d32caefe610eb2edd6c2808c6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ddbd622d964fd14f7ee845fde9dc5246~2508x0.webp"
         },
         {
-          "configName": "腾势N7 2024款 702 两驱智驾Pro版",
+          "configName": "2024款 702 两驱智驾Pro版",
+          "configId": "99879",
+          "index": 4,
           "price": "25.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1620",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4860x1935x1620",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b5f8af2cda87654561273a76d639373~2508x0.webp"
+            },
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#96D6F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fb22758c2e2d881c6516d460a9aef81~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#C5C7CA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c795716d2d09096e39f40bef8eb90a4~2508x0.webp"
+            },
+            {
+              "name": "雾语蓝",
+              "colors": [
+                "#D9E5F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d83f7c748da757604088630cb3ca5b17~2508x0.webp"
+            },
+            {
+              "name": "晨光金",
+              "colors": [
+                "#EDE7E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad2b3220dc44df80fcb478fa5b8e67a4~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/29eca4cbd46c53a443982c3812978d46~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/730f5596cd2d2834a1a85a7868e3761a~2508x0.webp"
+            },
+            {
+              "name": "茧石米",
+              "colors": [
+                "#D2D1CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4de65435fecb4c92017c7d90cd2d4bf5~2508x0.webp"
+            },
+            {
+              "name": "凝脂棕",
+              "colors": [
+                "#D6C9B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a5a87ef4833e7ce4e1fff609eac11de~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7b5f8af2cda87654561273a76d639373~2508x0.webp"
         },
         {
-          "configName": "腾势N7 2024款 702 两驱智驾Pro猎影版",
+          "configName": "2024款 702 两驱智驾Pro猎影版",
+          "configId": "239053",
+          "index": 5,
           "price": "25.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1620",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4860x1935x1620",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cdbee3fb628292b215944fe13f96f20~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77a9f1756859c270d69b74886ed59f19~2508x0.webp"
+            },
+            {
+              "name": "茧石米",
+              "colors": [
+                "#D2D1CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba5ed6463ea62d4f00553e8aa5457313~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4cdbee3fb628292b215944fe13f96f20~2508x0.webp"
         },
         {
-          "configName": "腾势N7 2024款 630 四驱智驾Max版",
+          "configName": "2024款 630 四驱智驾Max版",
+          "configId": "99884",
+          "index": 6,
           "price": "28.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1602",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "4860x1935x1602",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d7a669fd74efc214877784c4000c5f5~2508x0.webp"
+            },
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#96D6F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4eaff524db9bb239cbfa3487003c0e3~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#C5C7CA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70ab7b34f2206fd981d9db2497bfdce2~2508x0.webp"
+            },
+            {
+              "name": "雾语蓝",
+              "colors": [
+                "#D9E5F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/230054898562882dc91f4f3b8c212990~2508x0.webp"
+            },
+            {
+              "name": "晨光金",
+              "colors": [
+                "#EDE7E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1057bed50da06fffc7f28f835e7b31e~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ce91af36668b3839605bfabfd26fa1a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沙珀棕",
+              "colors": [
+                "#696156"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56c4926e2c82f5fd90613fa0d21737f9~2508x0.webp"
+            },
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2b78980df02ba0dfa0550a1fb74a7e3~2508x0.webp"
+            },
+            {
+              "name": "茧石米",
+              "colors": [
+                "#D2D1CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de2ead58376602ebc7876090c66da4c1~2508x0.webp"
+            },
+            {
+              "name": "凝脂棕",
+              "colors": [
+                "#D6C9B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13837405015c75ef4f222daf4a26c746~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9d7a669fd74efc214877784c4000c5f5~2508x0.webp"
         },
         {
-          "configName": "腾势N7 2024款 630 四驱智驾Ultra版",
+          "configName": "2024款 630 四驱智驾Ultra版",
+          "configId": "99885",
+          "index": 7,
           "price": "32.98万",
-          "fuelType": "纯电动",
-          "size": "4860x1935x1602",
           "manufacturer": "腾势汽车",
           "class": "中型SUV",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "4860x1935x1602",
+          "exteriorImages": [
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#96D6F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89941c97e185a8f89ff078d2b42e8ab8~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#C5C7CA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bf5515daf901791eb922cfba0d15e04~2508x0.webp"
+            },
+            {
+              "name": "雾语蓝",
+              "colors": [
+                "#D9E5F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45b0b47ece32e1ca32ba29e35012b864~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波蓝",
+              "colors": [
+                "#A29F9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0916927f3a619f9f152a65d475b8317~2508x0.webp"
+            },
+            {
+              "name": "茧石米",
+              "colors": [
+                "#D2D1CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9cc5fed1c66a3330d51568a417f4924a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/89941c97e185a8f89ff078d2b42e8ab8~2508x0.webp"
         }
       ]
     },
@@ -324,64 +1666,323 @@
       ]
     },
     {
+      "carId": 5842,
       "carName": "腾势D9 EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d4e1442144744eabb074bd17f99d0c9f~1200x0.png",
       "configs": [
         {
-          "configName": "腾势D9 EV 2025款 智驾版 620 两驱豪华型",
+          "configName": "2025款 智驾版 620 两驱豪华型",
+          "configId": "243962",
+          "index": 0,
           "price": "34.98万",
-          "fuelType": "纯电动",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57c3f5708df2913936d9b7140f19a134~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11b7a73b6d4d1e9c5a5667525bff4e6c~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7efe96a4d4eaffa591fd8ed7828c3e5b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/950ba2753ce94a481f3ecdfa3b6d0a9d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/57c3f5708df2913936d9b7140f19a134~2508x0.webp"
         },
         {
-          "configName": "腾势D9 EV 2025款 智驾版 600 四驱尊贵型",
+          "configName": "2025款 智驾版 600 四驱尊贵型",
+          "configId": "243963",
+          "index": 1,
           "price": "40.98万",
-          "fuelType": "纯电动",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "纯电动 374马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 374马力",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98c29c523de5897884f8f7409bf8729e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee5e1335b3638c5b981dc4e0a2525bf6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/98c29c523de5897884f8f7409bf8729e~2508x0.webp"
         },
         {
-          "configName": "腾势D9 EV 2025款 智驾版 600 四驱旗舰型",
+          "configName": "2025款 智驾版 600 四驱旗舰型",
+          "configId": "243964",
+          "index": 2,
           "price": "46.98万",
-          "fuelType": "纯电动",
-          "size": "5250x1960x1900",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "纯电动 374马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 374马力",
+          "size": "5250x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8c5960b4e1c9c0a6c72ac4b44483ba4~2508x0.webp"
+            },
+            {
+              "name": "繁星灰",
+              "colors": [
+                "#4A4E57"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82ce5e3f055e2f44743c4ff3cbb2f905~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/053a6626e3b1a3102a8e5e25b5164308~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d57f1229f1fd22d8a2359c9516844cb~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/575a92e024a9a66b145afa1a0b050177~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e8c5960b4e1c9c0a6c72ac4b44483ba4~2508x0.webp"
         },
         {
-          "configName": "腾势D9 EV 2024款 620 两驱尊享型",
+          "configName": "2024款 620 两驱尊享型",
+          "configId": "98853",
+          "index": 3,
           "price": "37.98万",
-          "fuelType": "纯电动",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a260422e3e3c176b93efda8e11c36b8a~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f24cb9c1670d1d88a56e68ee781ec02~2508x0.webp"
+            },
+            {
+              "name": "苍霁灰",
+              "colors": [
+                "#747378"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_528b789ab8b5c6fc5cc9ceb0d5c0585c~2508x0.webp"
+            },
+            {
+              "name": "晨光金",
+              "colors": [
+                "#EDE7E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34d2aeb9e301e8c124b7dd7b64ff9dc3~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/423a06071928cc10c7cc38619363b034~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21888528c8770190b79ef3aa20b25baa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a260422e3e3c176b93efda8e11c36b8a~2508x0.webp"
         },
         {
-          "configName": "腾势D9 EV 2024款 600 四驱尊贵型",
+          "configName": "2024款 600 四驱尊贵型",
+          "configId": "98854",
+          "index": 4,
           "price": "40.98万",
-          "fuelType": "纯电动",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "纯电动 374马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 374马力",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/325010116e8599b9e1d6d0afe706a506~2508x0.webp"
+            },
+            {
+              "name": "璀璨紫",
+              "colors": [
+                "#4C037A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b41c08d03c5a1e436f45eeb5c267043b~2508x0.webp"
+            },
+            {
+              "name": "苍霁灰",
+              "colors": [
+                "#747378"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6cb8747d3a0b41cacb01fd11bde7fdeb~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2801976e1f4377913a73a556852ba8d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79f5db29edb032865a07160f35c6384b~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a602c6c2108366391f61242c2c4e59d4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/325010116e8599b9e1d6d0afe706a506~2508x0.webp"
         },
         {
-          "configName": "腾势D9 EV 2024款 600 四驱旗舰型",
+          "configName": "2024款 600 四驱旗舰型",
+          "configId": "98855",
+          "index": 5,
           "price": "46.98万",
-          "fuelType": "纯电动",
-          "size": "5250x1960x1920",
           "manufacturer": "腾势汽车",
           "class": "中大型MPV",
-          "power": "纯电动 374马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 374马力",
+          "size": "5250x1960x1920",
+          "exteriorImages": [
+            {
+              "name": "凝夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90c79ea665408217789d6ff086996c66~2508x0.webp"
+            },
+            {
+              "name": "晌雅蓝",
+              "colors": [
+                "#2F5A7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/769acbebf1821c159ed74a8b6c9def54~2508x0.webp"
+            },
+            {
+              "name": "苍霁灰",
+              "colors": [
+                "#747378"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45ab8918f49824f9a4a917e65d8c5785~2508x0.webp"
+            },
+            {
+              "name": "晨光金",
+              "colors": [
+                "#EDE7E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aab3c035bbf154382318e2dafb463ac7~2508x0.webp"
+            },
+            {
+              "name": "皓日白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b2cd19aa5972f05e8a973083bd09367~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鎏年棕",
+              "colors": [
+                "#BE7721"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fe5fea25e38e830e9379849ef5e8474~2508x0.webp"
+            },
+            {
+              "name": "旷达米",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc20f5d8d826a9d53988a72e0fa91fd3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/90c79ea665408217789d6ff086996c66~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-27T08:11:47.581Z",
+  "progress": {
+    "completed": 8,
+    "total": 9,
+    "percentage": 89,
+    "currentIndex": 9
+  }
 }

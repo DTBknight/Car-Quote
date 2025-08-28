@@ -3,100 +3,337 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/30f928f03a9e85dc1d6ce484cb0e938f~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5228,
       "carName": "296",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6f90994f0b824190a2a5764d64407735~1200x0.png",
       "configs": [
         {
-          "configName": "法拉利296 2025款 3.0T V6 Speciale",
+          "configName": "2025款 3.0T V6 Speciale",
+          "configId": "248012",
+          "index": 0,
           "price": "398.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4625x1968x1181",
           "manufacturer": "法拉利",
           "class": "跑车",
-          "power": "插电式混动 154马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 700马力 V6 插电式混动",
+          "size": "4625x1968x1181",
+          "exteriorImages": [
+            {
+              "name": "VERDE NURBURGRING",
+              "colors": [
+                "#09523E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11be93bbecaba0b801724ae59fa69f26~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#010101",
+                "#F86841"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c6e0e382badef3f3d49f32279bbc751e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11be93bbecaba0b801724ae59fa69f26~2508x0.webp"
         },
         {
-          "configName": "法拉利296 2025款 3.0T V6 Speciale A",
+          "configName": "2025款 3.0T V6 Speciale A",
+          "configId": "248014",
+          "index": 1,
           "price": "439.88万",
+          "manufacturer": "法拉利",
+          "class": "跑车",
           "fuelType": "插电式混合动力",
+          "power": "3.0T 700马力 V6 插电式混动",
           "size": "4625x1968x1181",
-          "manufacturer": "法拉利",
-          "class": "跑车",
-          "power": "插电式混动 154马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "法拉利296 2022款 3.0T V6 GTS",
+          "configName": "2022款 3.0T V6 GTS",
+          "configId": "73613",
+          "index": 2,
           "price": "348.8万",
-          "fuelType": "插电式混合动力",
-          "size": "4565x1958x1191",
           "manufacturer": "法拉利",
           "class": "跑车",
-          "power": "插电式混合动力 166马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 663马力 V6 插电式混动",
+          "size": "4565x1958x1191",
+          "exteriorImages": [
+            {
+              "name": "蓝色",
+              "colors": [
+                "#0080FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_750628d2d0b6a95b1d398fe0d755789d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a525b4f13a6386a4009efa7344ceafd3~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#D9DACA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4da66790247099046c677d5e1ef2f16a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_750628d2d0b6a95b1d398fe0d755789d~2508x0.webp"
         },
         {
-          "configName": "法拉利296 2021款 3.0T V6 GTB",
+          "configName": "2021款 3.0T V6 GTB",
+          "configId": "57012",
+          "index": 3,
           "price": "298.8万",
+          "manufacturer": "法拉利",
+          "class": "跑车",
           "fuelType": "插电式混合动力",
+          "power": "3.0T 663马力 V6 插电式混动",
           "size": "4565x1958x1187",
-          "manufacturer": "法拉利",
-          "class": "跑车",
-          "power": "插电式混动 166马力"
+          "exteriorImages": [
+            {
+              "name": "BLU POZZI",
+              "colors": [
+                "#0D0C19"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ee205e28ec98d714e08f59df76a16fd~2508x0.webp"
+            },
+            {
+              "name": "ROSSO CORSA",
+              "colors": [
+                "#B30010"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d65ac7f02b512b22b89df34d5b4f78a9~2508x0.webp"
+            },
+            {
+              "name": "GRIGIO TITANIO METALL",
+              "colors": [
+                "#B9D7F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a058dff198fe465cac175bb207baa76~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "NERO",
+              "colors": [
+                "#3F3F3F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14e0dff88ae974ff34037e4a5c7f3596~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3ee205e28ec98d714e08f59df76a16fd~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4274,
       "carName": "Roma",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/da729895b4aa4e79899acffa69880cd6~1200x0.png",
       "configs": [
         {
-          "configName": "法拉利Roma 2023款 Spider",
+          "configName": "2023款 Spider",
+          "configId": "87363",
+          "index": 0,
           "price": "276.2万",
-          "fuelType": "汽油",
-          "size": "4656x1974x1306",
           "manufacturer": "法拉利",
           "class": "跑车",
-          "power": "3.9T 620马力 V8"
+          "fuelType": "汽油",
+          "power": "3.9T 620马力 V8",
+          "size": "4656x1974x1306",
+          "exteriorImages": [
+            {
+              "name": "ROSSO CORSA",
+              "colors": [
+                "#B30010"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2662551ff9ff13dd7493e27aacf13e3c~2508x0.webp"
+            },
+            {
+              "name": "Celeste Trevi",
+              "colors": [
+                "#CAE2E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1489dbd7f86df881e403c555a3de498c~2508x0.webp"
+            },
+            {
+              "name": "ARGENTO NURBURGRING",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_e939763407219b425c5a3cfc45870b91~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ebe2b9a6b5f54f7d6b95c1efe1b17fa~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_773c29ff347ba4aa3f6a9144579d0e1d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2662551ff9ff13dd7493e27aacf13e3c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5214,
       "carName": "Purosangue",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/26b65118644a422ebf832d23a25232d8~1200x0.png",
       "configs": [
         {
-          "configName": "Purosangue 2022款 6.5L V12",
+          "configName": "2022款 6.5L V12",
+          "configId": "54501",
+          "index": 0,
           "price": "498.8万",
-          "fuelType": "汽油",
-          "size": "4973x2028x1589",
           "manufacturer": "法拉利",
           "class": "中大型SUV",
-          "power": "6.5L 725马力 V12"
+          "fuelType": "汽油",
+          "power": "6.5L 725马力 V12",
+          "size": "4973x2028x1589",
+          "exteriorImages": [
+            {
+              "name": "NERO PUROSANGUE",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f16c883346fa0d4af86242e5daeb41ef~2508x0.webp"
+            },
+            {
+              "name": "BLU CORSA",
+              "colors": [
+                "#0070C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c92f107c390ce39fc2fbc63a30a4fbbf~2508x0.webp"
+            },
+            {
+              "name": "Azurro La Plata Met",
+              "colors": [
+                "#7CBBE2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea0a9087d6876e30736fd454cf7b0a77~2508x0.webp"
+            },
+            {
+              "name": "BIANCO CERVINO",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44f48452c80357226a1c332f326ad61c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "NERO 8500",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14b6041bd6316f4d6bf3f72c3e910b45~2508x0.webp"
+            },
+            {
+              "name": "BLU STERLING",
+              "colors": [
+                "#191970"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ee801251ed2292e8f2ad4af9536e8d6~2508x0.webp"
+            },
+            {
+              "name": "TESTA DI MORO",
+              "colors": [
+                "#433130"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20d115ff7b45a897e555787bc018e0f0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f16c883346fa0d4af86242e5daeb41ef~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10179,
       "carName": "12Cilindri",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e230f88f76940da86e8c29a607f6171~1200x0.png",
       "configs": [
         {
-          "configName": "法拉利12Cilindri 2024款 6.5L V12 Coupe",
+          "configName": "2024款 6.5L V12 Coupe",
+          "configId": "101075",
+          "index": 0,
           "price": "598.8万",
-          "fuelType": "汽油",
-          "size": "4733x2176x1292",
           "manufacturer": "法拉利",
           "class": "跑车",
-          "power": "6.5L 830马力 V12"
+          "fuelType": "汽油",
+          "power": "6.5L 830马力 V12",
+          "size": "4733x2176x1292",
+          "exteriorImages": [
+            {
+              "name": "ARGENTO NURBURGRING",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f6a3042fcf60b0dc7ce352d7e491cdb5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "BLACK",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5691c4579017c2230739fe1c005f80bf~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/f6a3042fcf60b0dc7ce352d7e491cdb5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "法拉利12Cilindri 2024款 6.5L V12 Spider",
+          "configName": "2024款 6.5L V12 Spider",
+          "configId": "101074",
+          "index": 1,
           "price": "658.68万",
-          "fuelType": "汽油",
-          "size": "4733x2176x1292",
           "manufacturer": "法拉利",
           "class": "跑车",
-          "power": "6.5L 830马力 V12"
+          "fuelType": "汽油",
+          "power": "6.5L 830马力 V12",
+          "size": "4733x2176x1292",
+          "exteriorImages": [
+            {
+              "name": "GIALLO MODENA",
+              "colors": [
+                "#F3C937"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db7885fea633215ea2efb97b8bc34a5a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "Verde Venaria",
+              "colors": [
+                "#96C596"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18be88cb3b0d089fd34529df50f7720e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db7885fea633215ea2efb97b8bc34a5a~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T02:30:05.620Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

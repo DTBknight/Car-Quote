@@ -3,173 +3,853 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/tos-cn-i-dcdx/51ff3ce1dd9d4347953c966f2fd6b20c~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 9029,
       "carName": "云朵",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bc22af446426431b9f5d019f6a0bfca9~1200x0.png",
       "configs": [
         {
-          "configName": "云朵 2023款 360 Plus",
+          "configName": "2023款 360 Plus",
+          "configId": "91898",
+          "index": 0,
           "price": "9.58万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "烟云青",
+              "colors": [
+                "#527E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/12d067ade3ecdc4549c55e4d7b6f89fc~2508x0.webp"
+            },
+            {
+              "name": "暮云紫",
+              "colors": [
+                "#7A5B95"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e29cf0ad204def1250182fe0fb23c277~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d179af0f7561e639055299b02a4b7f3c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑珍珠",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07ca8b585a461f7b24ad87651ba01438~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/12d067ade3ecdc4549c55e4d7b6f89fc~2508x0.webp"
         },
         {
-          "configName": "云朵 2023款 360 Pro",
+          "configName": "2023款 360 Pro",
+          "configId": "91897",
+          "index": 1,
           "price": "10.38万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/680649b83dac821d52c0d5554e04c5b5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿宝石",
+              "colors": [
+                "#147D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b05527891b1f08e02e5453d6252ce96~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/680649b83dac821d52c0d5554e04c5b5~2508x0.webp"
         },
         {
-          "configName": "云朵 2023款 460 Pro",
+          "configName": "2023款 460 Pro",
+          "configId": "91901",
+          "index": 2,
           "price": "11.58万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abb0feb4841578349738570d940e0309~2508x0.webp"
+            },
+            {
+              "name": "烟云青",
+              "colors": [
+                "#527E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee33e683f70ec1ac1872851ae56a5897~2508x0.webp"
+            },
+            {
+              "name": "暮云紫",
+              "colors": [
+                "#7A5B95"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ac1bcaddf96ee03a5712b988213272e~2508x0.webp"
+            },
+            {
+              "name": "天际白",
+              "colors": [
+                "#F4F4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96788663b80246aefe696054f3bcfa1b~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a03542b0118e10224490c786606f9c5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑珍珠",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/885754c4ec8f455811b67a8707a24c71~2508x0.webp"
+            },
+            {
+              "name": "绿宝石",
+              "colors": [
+                "#147D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d62680016b2881a451c2016e74ca1fcb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/abb0feb4841578349738570d940e0309~2508x0.webp"
         },
         {
-          "configName": "云朵 2023款 460 Max",
+          "configName": "2023款 460 Max",
+          "configId": "91900",
+          "index": 3,
           "price": "12.38万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d09c08903b45ab560a36dea5dcfc2cce~2508x0.webp"
+            },
+            {
+              "name": "烟云青",
+              "colors": [
+                "#527E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d356dfbbd0bc2c38097b331b205537d7~2508x0.webp"
+            },
+            {
+              "name": "暮云紫",
+              "colors": [
+                "#7A5B95"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ae8ab455d14b83c11426141d067fe77~2508x0.webp"
+            },
+            {
+              "name": "云霞金",
+              "colors": [
+                "#D3C7B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/020de26147fed784d5a34b13a93acc4f~2508x0.webp"
+            },
+            {
+              "name": "云雾蓝",
+              "colors": [
+                "#D3EEF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce2253a9a9b1eca8d42385a6b9b02fb9~2508x0.webp"
+            },
+            {
+              "name": "天际白",
+              "colors": [
+                "#F4F4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4a022a48a0772803077b225046fb4db~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6b1f6ccd5df84d633a480cd1e12423e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑珍珠",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30fd3569519145da5ce528750c34106b~2508x0.webp"
+            },
+            {
+              "name": "绿宝石",
+              "colors": [
+                "#147D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97308de1e9529283c4098275002881f6~2508x0.webp"
+            },
+            {
+              "name": "金琥珀",
+              "colors": [
+                "#EAE5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f11e322b93d3c3994db45e7054e6bce8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d09c08903b45ab560a36dea5dcfc2cce~2508x0.webp"
         },
         {
-          "configName": "云朵 2023款 460 Pro 灵犀版",
+          "configName": "2023款 460 Pro 灵犀版",
+          "configId": "94188",
+          "index": 4,
           "price": "12.58万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/a191d9d4ddaa260e95c3d69219bd8299~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云霞金",
+              "colors": [
+                "#D3C7B6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2985e872361f001e920fdb0762eff8e1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云雾蓝",
+              "colors": [
+                "#D3EEF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea3b157c7507154548dbda4877d5f019~2508x0.webp"
+            },
+            {
+              "name": "天际白",
+              "colors": [
+                "#F4F4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11987346b2e4c50f1625a5ff1c216b4d~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "http://p3-dcd-sign.byteimg.com/motor-img/5f3842f061416369fdeab85b84a759d1~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756785370&x-signature=ei2YGk4OmxH6%2FSIUiYlDQaUGu3w%3D&psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑珍珠",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73129adbaa4b3350413a06bf24e92ecc~2508x0.webp"
+            },
+            {
+              "name": "绿宝石",
+              "colors": [
+                "#147D81"
+              ],
+              "mainImage": "http://p9-dcd-sign.byteimg.com/motor-img/1581efc63966a6978022e47bd4053858~tplv-f042mdwyw7-original:2048:0.jpg?rk3s=8ba03826&x-expires=1756785378&x-signature=0ac4attZj%2Fon91jNFUgvhnyIq38%3D&psm=motor.pc_car.api"
+            },
+            {
+              "name": "金琥珀",
+              "colors": [
+                "#EAE5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92283c47f1d89444c801b66cf7f1dcdf~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/a191d9d4ddaa260e95c3d69219bd8299~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "云朵 2023款 460 Max 灵犀版",
+          "configName": "2023款 460 Max 灵犀版",
+          "configId": "91899",
+          "index": 5,
           "price": "13.38万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c2c0ebbe9d9e20ff8a0b1906deb688d~2508x0.webp"
+            },
+            {
+              "name": "烟云青",
+              "colors": [
+                "#527E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1202c11731570cd3f38c02321e452a53~2508x0.webp"
+            },
+            {
+              "name": "暮云紫",
+              "colors": [
+                "#7A5B95"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/607adf1a605dcdc518234f8f69009ef3~2508x0.webp"
+            },
+            {
+              "name": "云霞金",
+              "colors": [
+                "#D3C7B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dddf734b5a56de2f4f20a924a4bd6fd5~2508x0.webp"
+            },
+            {
+              "name": "云雾蓝",
+              "colors": [
+                "#D3EEF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f1dd9ba91e4264403f3dcba46eee328~2508x0.webp"
+            },
+            {
+              "name": "天际白",
+              "colors": [
+                "#F4F4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/440cc0851c1b0d2f236ab6d79496c77c~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76a5369449fe5302124a86f42020eb39~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑珍珠",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46ab92987a68abcaf531147c7c243ac5~2508x0.webp"
+            },
+            {
+              "name": "绿宝石",
+              "colors": [
+                "#147D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d85b1589d49111f855d238229cbfb39~2508x0.webp"
+            },
+            {
+              "name": "金琥珀",
+              "colors": [
+                "#EAE5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fff618bf93247ad5f2d166e27a34cd7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2c2c0ebbe9d9e20ff8a0b1906deb688d~2508x0.webp"
         },
         {
-          "configName": "云朵 2023款 460 Plus 营运专属版",
+          "configName": "2023款 460 Plus 营运专属版",
+          "configId": "96069",
+          "index": 6,
           "price": "14.58万",
-          "fuelType": "纯电动",
-          "size": "4295x1850x1652",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4295x1850x1652",
+          "exteriorImages": [
+            {
+              "name": "天际白",
+              "colors": [
+                "#F4F4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0bf97bc573ee0a558a580ea7c2dc5ebc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑珍珠",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/beb5cba4d15a784ad8e580ef4e485e30~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0bf97bc573ee0a558a580ea7c2dc5ebc~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5093,
       "carName": "KiWi EV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/305fc3a48140c0a9882524d0519f3997~1200x0.png",
       "configs": [
         {
-          "configName": "宝骏KiWi EV 2023款 智潮版 磷酸铁锂",
+          "configName": "2023款 智潮版 磷酸铁锂",
+          "configId": "77575",
+          "index": 0,
           "price": "8.78万",
-          "fuelType": "纯电动",
-          "size": "2894x1655x1595",
           "manufacturer": "上汽通用五菱",
           "class": "微型车",
-          "power": "纯电动 54马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "2894x1655x1595",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏KiWi EV 2023款 智潮版 三元锂",
+          "configName": "2023款 智潮版 三元锂",
+          "configId": "77572",
+          "index": 1,
           "price": "8.78万",
-          "fuelType": "纯电动",
-          "size": "2894x1655x1595",
           "manufacturer": "上汽通用五菱",
           "class": "微型车",
-          "power": "纯电动 54马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "2894x1655x1595",
+          "exteriorImages": [
+            {
+              "name": "曜夜",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd71df75ebae5b2001e7d3f46d6601cb~2508x0.webp"
+            },
+            {
+              "name": "暮光",
+              "colors": [
+                "#6C4CEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/410d28b59bc23012a4415bfdb1910b21~2508x0.webp"
+            },
+            {
+              "name": "抹茶",
+              "colors": [
+                "#73C696"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f31c6b93a5632ad6ba199be353f81f31~2508x0.webp"
+            },
+            {
+              "name": "胭脂",
+              "colors": [
+                "#C60228"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d67207cfd7e8ebb81bbd45d6e0822669~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a33064efb6854f1df2310989226b1b7f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dd71df75ebae5b2001e7d3f46d6601cb~2508x0.webp"
         },
         {
-          "configName": "宝骏KiWi EV 2023款 智奢版 磷酸铁锂",
+          "configName": "2023款 智奢版 磷酸铁锂",
+          "configId": "77576",
+          "index": 2,
           "price": "9.38万",
-          "fuelType": "纯电动",
-          "size": "2894x1655x1595",
           "manufacturer": "上汽通用五菱",
           "class": "微型车",
-          "power": "纯电动 54马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "2894x1655x1595",
+          "exteriorImages": [
+            {
+              "name": "暮光",
+              "colors": [
+                "#6C4CEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4242c4e0d93243a0a484389054eaf286~2508x0.webp"
+            },
+            {
+              "name": "摩卡",
+              "colors": [
+                "#857461"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67d5c274c96a5b5a95fc3ba25c6ba7d2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b0c44a284f5ca827e5ffd71a58938f1~2508x0.webp"
+            },
+            {
+              "name": "未来银",
+              "colors": [
+                "#EBEDE1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e5f1a8d3345b4d93f776900e168357f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4242c4e0d93243a0a484389054eaf286~2508x0.webp"
         },
         {
-          "configName": "宝骏KiWi EV 2023款 智奢版 三元锂",
+          "configName": "2023款 智奢版 三元锂",
+          "configId": "77573",
+          "index": 3,
           "price": "9.38万",
-          "fuelType": "纯电动",
-          "size": "2894x1655x1595",
           "manufacturer": "上汽通用五菱",
           "class": "微型车",
-          "power": "纯电动 54马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "2894x1655x1595",
+          "exteriorImages": [
+            {
+              "name": "祖母绿",
+              "colors": [
+                "#034E51"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22d71c9ee56e91dde9265115231e908c~2508x0.webp"
+            },
+            {
+              "name": "抹茶",
+              "colors": [
+                "#73C696"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2ff67f634d81dcf0f20ec05b299d422~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑金",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/929d235d8dec2aaddacb2f1226f8ce8b~2508x0.webp"
+            },
+            {
+              "name": "沙色",
+              "colors": [
+                "#7B7261"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2c06eb92bb8cb5c5472fcf734fe75da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/22d71c9ee56e91dde9265115231e908c~2508x0.webp"
         },
         {
-          "configName": "宝骏KiWi EV 2023款 大疆版 磷酸铁锂",
+          "configName": "2023款 大疆版 磷酸铁锂",
+          "configId": "77577",
+          "index": 4,
           "price": "10.28万",
-          "fuelType": "纯电动",
-          "size": "2894x1655x1595",
           "manufacturer": "上汽通用五菱",
           "class": "微型车",
-          "power": "纯电动 68马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 68马力",
+          "size": "2894x1655x1595",
+          "exteriorImages": [
+            {
+              "name": "曜夜",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1bd333eb8c02bc4430c293db228d1381~2508x0.webp"
+            },
+            {
+              "name": "祖母绿",
+              "colors": [
+                "#034E51"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8d0104563f95156e8c421d9f688f89d~2508x0.webp"
+            },
+            {
+              "name": "暮光",
+              "colors": [
+                "#6C4CEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51fa49b25d72df3046ee76b15fd2bc1d~2508x0.webp"
+            },
+            {
+              "name": "抹茶",
+              "colors": [
+                "#73C696"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d60d29bb405371bcd2aa2a5280a42d4~2508x0.webp"
+            },
+            {
+              "name": "摩卡",
+              "colors": [
+                "#857461"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e063c8f7da24b083bb37db8c60d4dd5f~2508x0.webp"
+            },
+            {
+              "name": "胭脂",
+              "colors": [
+                "#C60228"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4078e614d0f5f9b9bd9b6749d55488a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d72d7fe7264296fd1c784f70c76221b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1bd333eb8c02bc4430c293db228d1381~2508x0.webp"
         },
         {
-          "configName": "宝骏KiWi EV 2023款 大疆版 三元锂",
+          "configName": "2023款 大疆版 三元锂",
+          "configId": "77574",
+          "index": 5,
           "price": "10.28万",
-          "fuelType": "纯电动",
-          "size": "2894x1655x1595",
           "manufacturer": "上汽通用五菱",
           "class": "微型车",
-          "power": "纯电动 68马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 68马力",
+          "size": "2894x1655x1595",
+          "exteriorImages": [
+            {
+              "name": "暮光",
+              "colors": [
+                "#6C4CEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d54d6035399d0d44404d695f5de3bd6e~2508x0.webp"
+            },
+            {
+              "name": "摩卡",
+              "colors": [
+                "#857461"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33d7e87c2abe4b5dac6cfefc142a18e8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4447b8e2a730485bc1da5635ca1c454b~2508x0.webp"
+            },
+            {
+              "name": "未来银",
+              "colors": [
+                "#EBEDE1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eecc4bb24ab3bae68144e32f9c323afd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d54d6035399d0d44404d695f5de3bd6e~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24610,
       "carName": "享境PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a175d8ea24ab4de893db6cdc28b66eb6~1200x0.png",
       "configs": [
         {
-          "configName": "宝骏享境PHEV 2025款 140km 标准版",
+          "configName": "2025款 140km 标准版",
+          "configId": "244501",
+          "index": 0,
           "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5005x1900x1505",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "插电式混动 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 143马力 L4 插电式混动",
+          "size": "5005x1900x1505",
+          "exteriorImages": [
+            {
+              "name": "乌骓黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2cbfc741176aaaac25cad358f1a587c3~2508x0.webp"
+            },
+            {
+              "name": "翔麟紫",
+              "colors": [
+                "#9979AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_10a54a4ca8d2e4b47d79eb9a2da64c86~2508x0.webp"
+            },
+            {
+              "name": "照夜白",
+              "colors": [
+                "#F3F8FD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_201825b3ff3528ab60b12e4fdc886a97~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc5118f1b7d7066c9ca2d17202552145~2508x0.webp"
+            },
+            {
+              "name": "绛紫",
+              "colors": [
+                "#614C6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5495a3c18b1f1291fbf189fabb9eb860~2508x0.webp"
+            },
+            {
+              "name": "悦白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ad268ca7ee65d93bc76cb7dc173ff7aa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2cbfc741176aaaac25cad358f1a587c3~2508x0.webp"
         },
         {
-          "configName": "宝骏享境PHEV 2025款 140km 专车版",
+          "configName": "2025款 140km 专车版",
+          "configId": "249577",
+          "index": 1,
           "price": "17.68万",
-          "fuelType": "插电式混合动力",
-          "size": "5005x1900x1505",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "插电式混动 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 143马力 L4 插电式混动",
+          "size": "5005x1900x1505",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏享境PHEV 2025款 140km 公务版",
+          "configName": "2025款 140km 公务版",
+          "configId": "249578",
+          "index": 2,
           "price": "18.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5005x1900x1505",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "插电式混动 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 143马力 L4 插电式混动",
+          "size": "5005x1900x1505",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏享境PHEV 2025款 140km 豪华版",
+          "configName": "2025款 140km 豪华版",
+          "configId": "239215",
+          "index": 3,
           "price": "14.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5005x1900x1505",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "插电式混动 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 143马力 L4 插电式混动",
+          "size": "5005x1900x1505",
+          "exteriorImages": [
+            {
+              "name": "乌骓黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87adee590a4f5d27c02577788752177c~2508x0.webp"
+            },
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7a0c0d4bc88a71ef09d6b86254363c5~2508x0.webp"
+            },
+            {
+              "name": "翔麟紫",
+              "colors": [
+                "#9979AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37142e461afb12b7a911ec3724d8c092~2508x0.webp"
+            },
+            {
+              "name": "照夜白",
+              "colors": [
+                "#F3F8FD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7256ac096a94cc26c4e4eb31b0cfadcf~2508x0.webp"
+            },
+            {
+              "name": "玉顶黄",
+              "colors": [
+                "#FFE676"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_98524599cb3fcbf18be6dcf245595410~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_740ecb644f37139db3805375e7b4aee3~2508x0.webp"
+            },
+            {
+              "name": "绛紫",
+              "colors": [
+                "#614C6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c450dc3a315d4b8415b6b692f41ae0e~2508x0.webp"
+            },
+            {
+              "name": "悦白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b05f73593ecc3fac4a176569405d7f77~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/87adee590a4f5d27c02577788752177c~2508x0.webp"
         }
       ]
     },
@@ -333,295 +1013,1425 @@
       ]
     },
     {
+      "carId": 6160,
       "carName": "悦也",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a6920229028141db8babeff819d62365~1200x0.png",
       "configs": [
         {
-          "configName": "悦也 2024款 旗舰版",
+          "configName": "2024款 旗舰版",
+          "configId": "99913",
+          "index": 0,
           "price": "8.08万",
-          "fuelType": "纯电动",
-          "size": "3381x1685x1721",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 68马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 68马力",
+          "size": "3381x1685x1721",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09efe53ab5d48c094f628f9ba9fb2de3~2508x0.webp"
+            },
+            {
+              "name": "霞光蓝",
+              "colors": [
+                "#6F9DDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9e57781c256506daea8cc087637f24f~2508x0.webp"
+            },
+            {
+              "name": "清晨绿",
+              "colors": [
+                "#AFE631"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cde0c9109af8118681e8ffeb26a2677b~2508x0.webp"
+            },
+            {
+              "name": "山雾灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e4e2d09687308bcb8d80e4107bff869~2508x0.webp"
+            },
+            {
+              "name": "日出橙",
+              "colors": [
+                "#EB9800"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b04bd85d9876f7ca39658111197e09a~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84851dc65e8c8fbe1244b30c0a936efa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "自黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4201d4754665ace835f2827b66ab240~2508x0.webp"
+            },
+            {
+              "name": "独白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/648c0a3398e0010464a2b54e43a144f1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/09efe53ab5d48c094f628f9ba9fb2de3~2508x0.webp"
         },
         {
-          "configName": "悦也 2024款 智尊版",
+          "configName": "2024款 智尊版",
+          "configId": "99914",
+          "index": 1,
           "price": "9.08万",
-          "fuelType": "纯电动",
-          "size": "3381x1685x1721",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 68马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 68马力",
+          "size": "3381x1685x1721",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1709f29c370cee101103329e5925711~2508x0.webp"
+            },
+            {
+              "name": "霞光蓝",
+              "colors": [
+                "#6F9DDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d32d10a39dfb6c111c117d630e1ec976~2508x0.webp"
+            },
+            {
+              "name": "清晨绿",
+              "colors": [
+                "#AFE631"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9bae28defcb2a561e529e374232b50b~2508x0.webp"
+            },
+            {
+              "name": "山雾灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c22ab55920ba3b949ceaee3da225a6b3~2508x0.webp"
+            },
+            {
+              "name": "日出橙",
+              "colors": [
+                "#EB9800"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0bfc7b42084eef07818ff2639b200338~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5838bacbcde466c975d1c22cbffcf640~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "自黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18045f624156d8b411b83b3b8fb64b85~2508x0.webp"
+            },
+            {
+              "name": "独白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d82ad186e7229c61640232ed9d6b60e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b1709f29c370cee101103329e5925711~2508x0.webp"
         },
         {
-          "configName": "悦也 2023款 旗舰版",
+          "configName": "2023款 旗舰版",
+          "configId": "89736",
+          "index": 2,
           "price": "7.98万",
-          "fuelType": "纯电动",
-          "size": "3381x1685x1721",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 68马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 68马力",
+          "size": "3381x1685x1721",
+          "exteriorImages": [
+            {
+              "name": "清晨绿",
+              "colors": [
+                "#AFE631"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c929afe6543bf8744905305fe2ffb166~2508x0.webp"
+            },
+            {
+              "name": "霓虹",
+              "colors": [
+                "#E3D2DD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43d43dcc9897000f167bfc21a5cfe71e~2508x0.webp"
+            },
+            {
+              "name": "日出橙",
+              "colors": [
+                "#EB9800"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2599238da49de35c818e5019ee3a21f8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "自黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77e5e4494ae829c986079ad5028825a4~2508x0.webp"
+            },
+            {
+              "name": "独白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76cf6c1862fd1fd9fc79f4a9baae0a7b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c929afe6543bf8744905305fe2ffb166~2508x0.webp"
         },
         {
-          "configName": "悦也 2023款 智尊版",
+          "configName": "2023款 智尊版",
+          "configId": "89737",
+          "index": 3,
           "price": "8.98万",
+          "manufacturer": "上汽通用五菱",
+          "class": "小型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 68马力",
           "size": "3381x1685x1721",
-          "manufacturer": "上汽通用五菱",
-          "class": "小型SUV",
-          "power": "纯电动 68马力"
+          "exteriorImages": [
+            {
+              "name": "深空",
+              "colors": [
+                "#262626"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/032e0822eaaf995a429d9cad0225928f~2508x0.webp"
+            },
+            {
+              "name": "清晨绿",
+              "colors": [
+                "#AFE631"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f13ebf28c3b57feff3246a2138a0c280~2508x0.webp"
+            },
+            {
+              "name": "霓虹",
+              "colors": [
+                "#E3D2DD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db12faed245bf5ec86fa2841c9c307a4~2508x0.webp"
+            },
+            {
+              "name": "日出橙",
+              "colors": [
+                "#EB9800"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/771e8b7ca0291c8dd7984f47c9cd9d36~2508x0.webp"
+            },
+            {
+              "name": "云朵",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c773ef43b0a0c77251160a93933a86c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "自黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37a058493cfc84b98699eec6a346501a~2508x0.webp"
+            },
+            {
+              "name": "独白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03ee1b58a35cd609384fc33565db5e48~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/032e0822eaaf995a429d9cad0225928f~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24611,
       "carName": "享境EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/06d22df5b0d84f19ae1e5e9745ff77a0~1200x0.png",
       "configs": [
         {
-          "configName": "宝骏享境EV 2025款 600km 标准版",
+          "configName": "2025款 600km 标准版",
+          "configId": "247013",
+          "index": 0,
           "price": "13.38万",
-          "fuelType": "纯电动",
-          "size": "5005x1900x1490",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "5005x1900x1490",
+          "exteriorImages": [
+            {
+              "name": "乌骓黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4345fd8571c49cece3e973f323509b3d~2508x0.webp"
+            },
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_712d5cf653d5ab05408645a756225c0f~2508x0.webp"
+            },
+            {
+              "name": "翔麟紫",
+              "colors": [
+                "#9979AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ec0cd64cc069c5e8706a16f62fbb4797~2508x0.webp"
+            },
+            {
+              "name": "照夜白",
+              "colors": [
+                "#F3F8FD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c192f6435d05dd8d0924e07f4ee9528~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe49d8dae10390a785cdde0d26510898~2508x0.webp"
+            },
+            {
+              "name": "绛紫",
+              "colors": [
+                "#8E8593"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3be92577872b88a90f7517b3d31cb0fb~2508x0.webp"
+            },
+            {
+              "name": "悦白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2c0e4860d5ed93af01a801a28e846bc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4345fd8571c49cece3e973f323509b3d~2508x0.webp"
         },
         {
-          "configName": "宝骏享境EV 2025款 600km 专车版",
+          "configName": "2025款 600km 专车版",
+          "configId": "249575",
+          "index": 1,
           "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "5005x1900x1490",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "5005x1900x1490",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏享境EV 2025款 600km 公务版",
+          "configName": "2025款 600km 公务版",
+          "configId": "249574",
+          "index": 2,
           "price": "18.88万",
-          "fuelType": "纯电动",
-          "size": "5005x1900x1490",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "5005x1900x1490",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏享境EV 2025款 600km 豪华版",
+          "configName": "2025款 600km 豪华版",
+          "configId": "239216",
+          "index": 3,
           "price": "15.38万",
-          "fuelType": "纯电动",
-          "size": "5005x1900x1490",
           "manufacturer": "上汽通用五菱",
           "class": "中大型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "5005x1900x1490",
+          "exteriorImages": [
+            {
+              "name": "乌骓黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58d88ece9d30dd94a9f1cd465e9b1c9d~2508x0.webp"
+            },
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0aa71bb45a97e777566c7840097eb63~2508x0.webp"
+            },
+            {
+              "name": "翔麟紫",
+              "colors": [
+                "#9979AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_60d0f5076a02ddb84735d1e1983f13bc~2508x0.webp"
+            },
+            {
+              "name": "照夜白",
+              "colors": [
+                "#F3F8FD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed683afda081720095b7dc1fa7e35b77~2508x0.webp"
+            },
+            {
+              "name": "玉顶黄",
+              "colors": [
+                "#FFE676"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4aaed3ae40f3d07d55f149dbdebce4ac~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1740d199e9f7bee6df89087839061b4c~2508x0.webp"
+            },
+            {
+              "name": "绛紫",
+              "colors": [
+                "#8E8593"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b45f1bfaa510e6ff44ed6113b7c83af9~2508x0.webp"
+            },
+            {
+              "name": "悦白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2efc4389f48f54bf68b5156a0f2877fe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58d88ece9d30dd94a9f1cd465e9b1c9d~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10022,
       "carName": "悦也Plus",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/daf15ad0cddc40b081d3d8c0d6158514~1200x0.png",
       "configs": [
         {
-          "configName": "悦也Plus 2026款 301km旗舰版",
+          "configName": "2026款 301km旗舰版",
+          "configId": "248096",
+          "index": 0,
           "price": "7.68万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36438bf796bb24dd76ce7a457fb7fbc2~2508x0.webp"
+            },
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d14c98a604b456bff8305a972b1b63c~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5ea22d25ee1bfb28e71fb5a45711748~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_439939a38e70d7f3dc1ffb67a4b9f2c1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_191beebd19668d89ada15ba555c53d27~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36438bf796bb24dd76ce7a457fb7fbc2~2508x0.webp"
         },
         {
-          "configName": "悦也Plus 2026款 401km旗舰版",
+          "configName": "2026款 401km旗舰版",
+          "configId": "248250",
+          "index": 1,
           "price": "8.78万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c0a43030ffa1b029e04a12cce8d57cf0~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a227d5abd2918011b1291b18be2b530~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e54f6c7b32383c98f0860c41d29d983a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cbe7ac96e21bcc230f67c71b068f79c2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c0a43030ffa1b029e04a12cce8d57cf0~2508x0.webp"
         },
         {
-          "configName": "悦也Plus 2026款 501km旗舰版",
+          "configName": "2026款 501km旗舰版",
+          "configId": "248222",
+          "index": 2,
           "price": "9.58万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_bfcf92a91c99d70f0a81f5b0ade65e89~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_7bcc06a5414d0697c89ffa4aa2f0112b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7128e67fb54d1e1f97d99fbbdb337753~2508x0.webp"
+            },
+            {
+              "name": "逐日橙",
+              "colors": [
+                "#F26338"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f566e7f46c46bb1278bee3c6842a35bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_35a3997aa1e5afcf404c34d600fe38bd~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36df6841008180aaece10437b59a07c1~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_bfcf92a91c99d70f0a81f5b0ade65e89~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "悦也Plus 2026款 501km智尊版",
+          "configName": "2026款 501km智尊版",
+          "configId": "248232",
+          "index": 3,
           "price": "10.58万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bf625477cdce1f6170b963561719222~2508x0.webp"
+            },
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_0619edc76e310ce08eff641fb57c2363~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5caef4bcd33196aaf61b6abcb838bf28~2508x0.webp"
+            },
+            {
+              "name": "逐日橙",
+              "colors": [
+                "#F26338"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1362e2493a3f35ee216ba6ff230223d8~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89b6737874e1d408bdd4c18a3e49a965~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_781db284a5517275a034e416ffcbacb5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2daa933fa8281baaaeb3b01f28149d13~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bf625477cdce1f6170b963561719222~2508x0.webp"
         },
         {
-          "configName": "悦也Plus 2026款 301km咖啡创业版",
+          "configName": "2026款 301km咖啡创业版",
+          "configId": "250554",
+          "index": 4,
           "price": "11.68万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "悦也Plus 2025款 旗舰版",
+          "configName": "2025款 旗舰版",
+          "configId": "245451",
+          "index": 5,
           "price": "9.38万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d50f5984927a6794696ae007a3493a83~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47122442e0d14d9f9214dceb1e2e3d05~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09610071bd3c0c5b7ff6870a4190540f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05bfa0c29f48a8660387f82daa65e7be~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d50f5984927a6794696ae007a3493a83~2508x0.webp"
         },
         {
-          "configName": "悦也Plus 2025款 智尊版",
+          "configName": "2025款 智尊版",
+          "configId": "99598",
+          "index": 6,
           "price": "10.38万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc71bd6f0410edde0e412df7f0d363dd~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38b461a458ec4923066ac1e00bceac35~2508x0.webp"
+            },
+            {
+              "name": "云雾灰",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dbc746aef1c47d5a813fdcc728032f19~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1bc097f6ca32215c129c9f27956b0309~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/3f8de39b90643a40e2e95b590b55a211~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fc71bd6f0410edde0e412df7f0d363dd~2508x0.webp"
         },
         {
-          "configName": "悦也Plus 2024款 旗舰版",
+          "configName": "2024款 旗舰版",
+          "configId": "100240",
+          "index": 7,
           "price": "9.38万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb2e51add504892d47f47373e38d3b87~2508x0.webp"
+            },
+            {
+              "name": "碧空蓝",
+              "colors": [
+                "#63B5E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4f9c1a3e3ed2371b329e2fdc8684b72~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dec9e44d6a7b7b4d707bbcddf5ddd569~2508x0.webp"
+            },
+            {
+              "name": "云雾灰",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e6fda70e05dff1096670b5ee7197d09~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a66c9d5f1f9710952b6539daeb30891~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd35bfcfebbf8d43013acd0763b670d5~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/927d18ab33a99c149037a4a804c25451~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cb2e51add504892d47f47373e38d3b87~2508x0.webp"
         },
         {
-          "configName": "悦也Plus 2024款 智尊版",
+          "configName": "2024款 智尊版",
+          "configId": "100239",
+          "index": 8,
           "price": "10.38万",
-          "fuelType": "纯电动",
-          "size": "3996x1760x1726",
           "manufacturer": "上汽通用五菱",
           "class": "小型SUV",
-          "power": "纯电动 102马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 102马力",
+          "size": "3996x1760x1726",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#2B2B2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33eec6d97bb619412fa26d82915f91c0~2508x0.webp"
+            },
+            {
+              "name": "碧空蓝",
+              "colors": [
+                "#63B5E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03c56e104320d43eb8c94a738c1750db~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#A6CBA6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c7c33bad195525200f6513e477d020ff~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云雾灰",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dd1abf9853f7a1aef400207bbeb3bb3~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#F5F3E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbf5879e796ea64cafe73824b49ac0f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "沉稳黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6d4b5146938d2247dffe3170b9d41d9~2508x0.webp"
+            },
+            {
+              "name": "典雅白",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d82bcb86ce404acee42e9899d68dfa0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/33eec6d97bb619412fa26d82915f91c0~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10208,
       "carName": "云海PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/818be7fb7bb948c2be6499dc85fdc8bd~1200x0.png",
       "configs": [
         {
-          "configName": "宝骏云海PHEV 2026款 140km 标准版",
+          "configName": "2026款 140km 标准版",
+          "configId": "248766",
+          "index": 0,
           "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4590x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 106马力 L4 插电式混动",
+          "size": "4590x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97adfedff963a2fdb6daa9c832aa647c~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cf1e57d38f8690604b480fd838d0e8c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜暮黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4622334f799d76b8e51ed52f9ff138e4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97adfedff963a2fdb6daa9c832aa647c~2508x0.webp"
         },
         {
-          "configName": "宝骏云海PHEV 2024款 60km 插混版",
+          "configName": "2024款 60km 插混版",
+          "configId": "240382",
+          "index": 1,
           "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4590x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 106马力 L4 插电式混动",
+          "size": "4590x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7087347d7be7bf17d118638bcd4f1461~2508x0.webp"
+            },
+            {
+              "name": "腾云蓝",
+              "colors": [
+                "#AEEBFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f89e873742cc11105504baacbb7f3c5~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4faf254d422314891a37150e61cd8e6~2508x0.webp"
+            },
+            {
+              "name": "逐日橙",
+              "colors": [
+                "#F26338"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eeb3b227b9bc8b1d6e42793c5a952014~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜暮黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f371bbc6803dfcc517e1890fecea216e~2508x0.webp"
+            },
+            {
+              "name": "晨晖白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2e34111b861a84dc6b97871afa02f50~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7087347d7be7bf17d118638bcd4f1461~2508x0.webp"
         },
         {
-          "configName": "宝骏云海PHEV 2024款 140km 插混版",
+          "configName": "2024款 140km 插混版",
+          "configId": "239548",
+          "index": 2,
           "price": "12.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4590x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 106马力 L4 插电式混动",
+          "size": "4590x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13c580e9a066399f2d7663fae803b8a0~2508x0.webp"
+            },
+            {
+              "name": "腾云蓝",
+              "colors": [
+                "#AEEBFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5471ed572d4d1a1a0fa3598a7b309702~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/824c9114f8573bf8fc9098429c7210b0~2508x0.webp"
+            },
+            {
+              "name": "逐日橙",
+              "colors": [
+                "#F26338"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09d1ac5d04d40aa7d602784e9aab61ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云暮黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19719a6d120b9cb9b54430acdfa0d4a3~2508x0.webp"
+            },
+            {
+              "name": "晨晖白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7fa43a15dbdda2d8676205defc48f0a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/13c580e9a066399f2d7663fae803b8a0~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10207,
       "carName": "云海EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/21ce08788f03404d8f95f5ca1d98e71f~1200x0.png",
       "configs": [
         {
-          "configName": "宝骏云海EV 2026款 500km纯电版",
+          "configName": "2026款 500km纯电版",
+          "configId": "250003",
+          "index": 0,
           "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_cdaac7333465359f34a7ec231edf6763~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_cdaac7333465359f34a7ec231edf6763~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "宝骏云海EV 2026款 500km 纯电标准版",
+          "configName": "2026款 500km 纯电标准版",
+          "configId": "248763",
+          "index": 1,
           "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f1ba2a47d16b547391ee11b9248f8ec~2508x0.webp"
+            },
+            {
+              "name": "腾云蓝",
+              "colors": [
+                "#AEEBFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8eb77eb38d27600131f56d605509fd85~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_360aee2313fb800e9886de054659a0ac~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云暮黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f5858bcaf024a73dac1ba8db5466a42~2508x0.webp"
+            },
+            {
+              "name": "云霞米",
+              "colors": [
+                "#F4F4D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e2163c4982addac47ac6f6172555b30~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f1ba2a47d16b547391ee11b9248f8ec~2508x0.webp"
         },
         {
-          "configName": "宝骏云海EV 2026款 600km纯电版",
+          "configName": "2026款 600km纯电版",
+          "configId": "250004",
+          "index": 2,
           "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏云海EV 2026款 600km 纯电标准版",
+          "configName": "2026款 600km 纯电标准版",
+          "configId": "248764",
+          "index": 3,
           "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a7f8fcab42d84f984dca50966c9cd1d~2508x0.webp"
+            },
+            {
+              "name": "腾云蓝",
+              "colors": [
+                "#AEEBFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f350ff800194c9925aff84fb9199f11~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_76237f70b7e64a27475eb8636ccfbbe7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云暮黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cdc6c49065e73427b13a8d4c1135867~2508x0.webp"
+            },
+            {
+              "name": "云霞米",
+              "colors": [
+                "#F4F4D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dae39ce64f0f6504ec552d457b9b3f2a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a7f8fcab42d84f984dca50966c9cd1d~2508x0.webp"
         },
         {
-          "configName": "宝骏云海EV 2026款 500km 俊雅版",
+          "configName": "2026款 500km 俊雅版",
+          "configId": "250272",
+          "index": 4,
           "price": "11.29万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "俊雅蓝",
+              "colors": [
+                "#15B5B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d388fb7f585d325f858348c46074a5c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "俊雅蓝",
+              "colors": [
+                "#D9D9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_72eee6460ccfdb2926e38b39bcd31897~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d388fb7f585d325f858348c46074a5c~2508x0.webp"
         },
         {
-          "configName": "宝骏云海EV 2026款 600km 俊雅版",
+          "configName": "2026款 600km 俊雅版",
+          "configId": "250613",
+          "index": 5,
           "price": "13.29万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "俊雅蓝",
+              "colors": [
+                "#15B5B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5288d2d885285ad623237bac911ac38c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "俊雅蓝",
+              "colors": [
+                "#D9D9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d7d366903bdc1ca5c2e19b791daf7f0c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5288d2d885285ad623237bac911ac38c~2508x0.webp"
         },
         {
-          "configName": "宝骏云海EV 2025款 500km 纯电出行版",
+          "configName": "2025款 500km 纯电出行版",
+          "configId": "249432",
+          "index": 6,
           "price": "15.58万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "宝骏云海EV 2024款 500km 纯电版",
+          "configName": "2025款 600km 纯电出行版",
+          "configId": "250900",
+          "index": 7,
+          "price": "16.58万",
+          "manufacturer": "上汽通用五菱",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 500km 纯电版",
+          "configId": "239549",
+          "index": 8,
           "price": "12.38万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb3bd5bd592c3ee5497462b5e11d0726~2508x0.webp"
+            },
+            {
+              "name": "腾云蓝",
+              "colors": [
+                "#AEEBFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e08f70f9482bdc9a64ab1c5ab197664f~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/3e3b7d871a2a44be54b9279d70cd9e55~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "逐日橙",
+              "colors": [
+                "#F26338"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a9ed618fca5423cf79b23b1c510a4ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜暮黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d5a66af71653e7116f0c1e1663cdb78~2508x0.webp"
+            },
+            {
+              "name": "晨晖白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/806ebba4bb107618249c93c07f1b06df~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fb3bd5bd592c3ee5497462b5e11d0726~2508x0.webp"
         },
         {
-          "configName": "宝骏云海EV 2024款 600km 纯电版",
+          "configName": "2024款 600km 纯电版",
+          "configId": "239550",
+          "index": 9,
           "price": "13.38万",
-          "fuelType": "纯电动",
-          "size": "4541x1880x1608",
           "manufacturer": "上汽通用五菱",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4541x1880x1608",
+          "exteriorImages": [
+            {
+              "name": "超影灰",
+              "colors": [
+                "#7E8891"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea3980a12f6f2a2357880ac9fbaead85~2508x0.webp"
+            },
+            {
+              "name": "腾云蓝",
+              "colors": [
+                "#AEEBFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26253adacf97a5aaa158041c6972af76~2508x0.webp"
+            },
+            {
+              "name": "玉辉白",
+              "colors": [
+                "#E3E5E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1770f9fa8ccbdb1b195e59395c4c71dc~2508x0.webp"
+            },
+            {
+              "name": "逐日橙",
+              "colors": [
+                "#F26338"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15e3925b28874e9ee626bcb680133e31~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜暮黑",
+              "colors": [
+                "#181818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/963fb4e7d3f3995c2b1fdba93768a90f~2508x0.webp"
+            },
+            {
+              "name": "晨晖白",
+              "colors": [
+                "#E4DFDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e608fb4c79e3fb87fc2f25da325b8d15~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ea3980a12f6f2a2357880ac9fbaead85~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-26T04:03:45.723Z",
+  "progress": {
+    "completed": 9,
+    "total": 8,
+    "percentage": 113,
+    "currentIndex": 8
+  }
 }

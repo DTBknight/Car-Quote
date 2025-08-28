@@ -3,331 +3,1758 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/6d63563d575347e38da80de539a2f6d7~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 9349,
       "carName": "eπ007",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/67c3ab63a23947bbaa495a49301c22cd~1200x0.png",
       "configs": [
         {
-          "configName": "eπ007 2025款 增程 230Air巡航版",
+          "configName": "2025款 增程 230Air巡航版",
+          "configId": "248458",
+          "index": 0,
           "price": "11.99万",
-          "fuelType": "增程式",
-          "size": "4880x1895x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "增程式 218马力"
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4880x1895x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db591818b3e49120c63d82156c8a7732~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f72a4cf245f4bb962cc0ad751f5750e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3381e886c25bbd88266c43c82e4b0260~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43331b98768a02b2d7546f92b6e414c9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db591818b3e49120c63d82156c8a7732~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 增程 230Pro巡航版",
+          "configName": "2025款 增程 230Pro巡航版",
+          "configId": "248459",
+          "index": 1,
           "price": "12.59万",
+          "manufacturer": "东风乘用车",
+          "class": "中大型车",
           "fuelType": "增程式",
+          "power": "纯电动 218马力",
           "size": "4880x1895x1470",
-          "manufacturer": "东风乘用车",
-          "class": "中大型车",
-          "power": "增程式 218马力"
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_055b0bede8d7ee8e96884e00b7f214d1~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef63a687e29478caff98f5d85e8acc22~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f19ddc7a2eed991768a2631117b98e94~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7cb2951e02d7a50a236a2d49852d16a1~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_92cd84ffd82321b24cd0b16f55ba8f5b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_40f05738e6e53f45869a46aba9fc9781~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e73ce86c63bd3ec99339a1a71a0526db~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67e6237f3c599ee4355f126946ea8ae3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_055b0bede8d7ee8e96884e00b7f214d1~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 增程 230Pro领航版",
+          "configName": "2025款 增程 230Pro领航版",
+          "configId": "248460",
+          "index": 2,
           "price": "13.19万",
-          "fuelType": "增程式",
-          "size": "4880x1915x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "增程式 218马力"
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4880x1915x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_40d16b03f0e877484efb3836a84dab97~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eb9a570b76ae80610fb05b924f8d2377~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af7f8ef52f644d4f17cae7e53a06c2f9~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b93fb380bff5892be4683fd94c43f2a7~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5666198c6c36696d674da2427fd0f5ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_060d4e348d8c3bb68b63e5bbe35b6da3~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e0d4e82f6ca8b40c08abb9a5fbfe5873~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bcc494ea7f0b0edd02fc491da035264~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_40d16b03f0e877484efb3836a84dab97~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 增程 230领航行政版",
+          "configName": "2025款 增程 230领航行政版",
+          "configId": "250283",
+          "index": 3,
           "price": "20.99万",
-          "fuelType": "增程式",
-          "size": "4880x1915x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "增程式 218马力"
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4880x1915x1470",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "eπ007 2025款 增程 230领航至尊版",
+          "configName": "2025款 增程 230领航至尊版",
+          "configId": "250282",
+          "index": 4,
           "price": "25.99万",
+          "manufacturer": "东风乘用车",
+          "class": "中大型车",
           "fuelType": "增程式",
+          "power": "纯电动 218马力",
           "size": "4880x1915x1476",
-          "manufacturer": "东风乘用车",
-          "class": "中大型车",
-          "power": "增程式 218马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "eπ007 2025款 纯电 550Air巡航版",
+          "configName": "2025款 纯电 550Air巡航版",
+          "configId": "248461",
+          "index": 5,
           "price": "11.59万",
-          "fuelType": "纯电动",
-          "size": "4880x1895x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4880x1895x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36489dece10a8fb5bbd803e791249ad8~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_953daa82a9a7c546e30ff833f987535e~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a6fd6f81e7e12dd02a68483f6f8cc935~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_772c863c0b886a6763f1d8432fe1debe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8117dba241bd7f112be71faf99489f3~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01006b93fe310522aa262efbafdd6d34~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_65871908240a843e9844861a2c8e1722~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36489dece10a8fb5bbd803e791249ad8~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 纯电 550Pro巡航版",
+          "configName": "2025款 纯电 550Pro巡航版",
+          "configId": "248462",
+          "index": 6,
           "price": "12.59万",
-          "fuelType": "纯电动",
-          "size": "4880x1895x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4880x1895x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_1c88bb82295df92b5594e17a249704f6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_452ce439d88e5f448abf95c989ba7be4~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e9f35d469fd931d98db72db48d036bf4~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4cd8883199bfdb15944b0e832298bc65~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_271537a1c2221216c8c3b6a46ae72ce7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e3bfaed7ad1546c7ebf27a1adbd5ab7~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_88e3a248304138980c404481c70b05c6~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d14bbbcc11078eb85f13bee043b0f1a5~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_1c88bb82295df92b5594e17a249704f6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "eπ007 2025款 纯电 550Pro领航版",
+          "configName": "2025款 纯电 550Pro领航版",
+          "configId": "248463",
+          "index": 7,
           "price": "13.19万",
-          "fuelType": "纯电动",
-          "size": "4880x1915x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4880x1915x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_156511d6366aa7d208dd56b3d59f47d8~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b43d8b1d19c1a36add4b7b5052501f7~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f4970be4fdcfd6b253b7f27b006f9a8~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_8623931ffdb1961f2fee6a5c5e223cdb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a99b0943e2afa6eb5c725eadba8b0fa~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb93b8bdc4ad96d7068a5c06f4bc8bd1~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_7cf80601c742267ad7938a22ff08fcdd~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_156511d6366aa7d208dd56b3d59f47d8~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 纯电 550行政版",
+          "configName": "2025款 纯电 550行政版",
+          "configId": "248948",
+          "index": 8,
           "price": "15.99万",
-          "fuelType": "纯电动",
-          "size": "4880x1895x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4880x1895x1470",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "eπ007 2025款 纯电 650Pro巡航版",
+          "configName": "2025款 纯电 650Pro巡航版",
+          "configId": "248464",
+          "index": 9,
           "price": "12.99万",
-          "fuelType": "纯电动",
-          "size": "4880x1895x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4880x1895x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0510005479b99546050f45fe3901ff5d~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e9b1e2830dc743fcfd5906777036cb17~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b8f6939ed1e923e82f230769005573da~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4de2f5994c3cbfe2fa878c76413ee6e~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf4a08b638a4f975973b5e6ed7b39e02~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_90dd6001dd6a81168e01637e69748251~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cfc4aa8a99893796ff2b435674ef59b8~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d178d549d7a7b1130a7ab9f4d71c2bf0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0510005479b99546050f45fe3901ff5d~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 纯电 650Pro领航版",
+          "configName": "2025款 纯电 650Pro领航版",
+          "configId": "248465",
+          "index": 10,
           "price": "13.59万",
-          "fuelType": "纯电动",
-          "size": "4880x1915x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4880x1915x1470",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3d5217875c82af4c97808533f9713fd~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f029d00770aec3bc7a7313fff9b49586~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c20ff8d6be7a56b0845ce34921208b60~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ef8d9ddc5a7129ee363725dd7913412~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e2aa3c75c3b8560a1b7caf304e01821~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1bc4db885b53491d7601c34f752352f6~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e97e10daba23690c1723b92751e87414~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fec8772b588fce0eba8d310347d9a33d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3d5217875c82af4c97808533f9713fd~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 纯电 650行政版",
+          "configName": "2025款 纯电 650行政版",
+          "configId": "248949",
+          "index": 11,
           "price": "17.99万",
+          "manufacturer": "东风乘用车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 272马力",
           "size": "4880x1895x1470",
-          "manufacturer": "东风乘用车",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "eπ007 2025款 纯电 565四驱Max领航版",
+          "configName": "2025款 纯电 565四驱Max领航版",
+          "configId": "248466",
+          "index": 12,
           "price": "14.99万",
-          "fuelType": "纯电动",
-          "size": "4880x1915x1476",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "4880x1915x1476",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bfcdfc2710fbf0975a3b3091edd0c0f1~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a29c7d6488cfb318a69ef6b89b921741~2508x0.webp"
+            },
+            {
+              "name": "幽兰紫",
+              "colors": [
+                "#B4B8DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49219dff4149d3e9454e6f93f81b0b8d~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed124f96d56de40b9518436e29cce588~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8a8b5e5b12453948e458b7a0891b616~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2b2d3f40535987bba3b81a51cbd8e506~2508x0.webp"
+            },
+            {
+              "name": "流光金橙",
+              "colors": [
+                "#DA8E5C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a25efc76e9ade5eeb8114906bf9ef609~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#E1E1E2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_80797440a0de2e2c3ef0563251845b0f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bfcdfc2710fbf0975a3b3091edd0c0f1~2508x0.webp"
         },
         {
-          "configName": "eπ007 2025款 纯电 650领航行政版",
+          "configName": "2025款 纯电 650领航行政版",
+          "configId": "250281",
+          "index": 13,
           "price": "21.99万",
-          "fuelType": "纯电动",
-          "size": "4880x1915x1470",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4880x1915x1470",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "eπ007 2025款 纯电 650领航至尊版",
+          "configName": "2025款 纯电 650领航至尊版",
+          "configId": "250280",
+          "index": 14,
           "price": "26.59万",
-          "fuelType": "纯电动",
-          "size": "4880x1915x1476",
           "manufacturer": "东风乘用车",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4880x1915x1476",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 9828,
       "carName": "eπ008",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/578f7a9b32b14b4c8824f5529c6789d3~1200x0.png",
       "configs": [
         {
-          "configName": "eπ008 2026款 增程 家悦版 6座",
+          "configName": "2026款 增程 家悦版 6座",
+          "configId": "250348",
+          "index": 0,
           "price": "18.86万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d3a9af44dae287b0c70e33efda07087~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d3657b526dd50d5e23a36333fb6df59~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0365df66cfa50a24326c8780e0ff434c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a02cd5928e3dc8846a7eae477092af5~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d81f06da53a12112092884ea7c85c03~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#EFEADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c0ef17d1d32d14ee7cb7960b0983b132~2508x0.webp"
+            },
+            {
+              "name": "新米白",
+              "colors": [
+                "#F4F5DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fb9432a17af07ed7009f0d9fe1e0934~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d3a9af44dae287b0c70e33efda07087~2508x0.webp"
         },
         {
-          "configName": "eπ008 2026款 纯电 家悦版 6座",
+          "configName": "2026款 纯电 家悦版 6座",
+          "configId": "250349",
+          "index": 1,
           "price": "19.36万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9aa77bb77cb5e040a980247d2b8b4a3~2508x0.webp"
+            },
+            {
+              "name": "苍穹灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e84c3a1784f2bcd4a1e348365af31c61~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2973b790334f8a560f4b8c98cc0f0521~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cca9cebaf9e9f01863b926ce32805c00~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_693f580c9a417b0b8df2fcb1f7d2d5e3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_04dc28f07d4e4e128ea472446efbb54a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#EFEADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9055b4dec64233ea36b24f8e079d2c06~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9aa77bb77cb5e040a980247d2b8b4a3~2508x0.webp"
         },
         {
-          "configName": "eπ008 2026款 增程 家享版 6座",
+          "configName": "2026款 增程 家享版 6座",
+          "configId": "250350",
+          "index": 2,
           "price": "19.86万",
+          "manufacturer": "东风乘用车",
+          "class": "中大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 272马力",
           "size": "5002x1972x1732",
-          "manufacturer": "东风乘用车",
-          "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ff0386442a1c80f17327fc922b7b22f~2508x0.webp"
+            },
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#428742"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_965554f6855f88e0722ac98883a98e03~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e2a9381459add80df4b9a9da01f9677~2508x0.webp"
+            },
+            {
+              "name": "苍穹灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_2d467e36671983ac9f6101ff00305d0e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_83d7bbc9364c758cb179a6108e20af5b~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bfcb85f21f658481db09b4be166c703~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43108372ccbf607730a0905f1e2b63b4~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ecd5d502b6cf80c8c8f6895f025afaa4~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#EFEADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37d8f850ebbc516c9757a38eca234b81~2508x0.webp"
+            },
+            {
+              "name": "新米白",
+              "colors": [
+                "#F4F5DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0003d39651be7f819e4cc8af6729fbfc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ff0386442a1c80f17327fc922b7b22f~2508x0.webp"
         },
         {
-          "configName": "eπ008 2026款 纯电 家享版 6座",
+          "configName": "2026款 纯电 家享版 6座",
+          "configId": "250351",
+          "index": 3,
           "price": "20.36万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#428742"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d817f8650700d0e99c7c25ea901047d9~2508x0.webp"
+            },
+            {
+              "name": "苍穹灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f99bcf95bd14130011e814dab2ec84d0~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04b51ac2f81edc2ab6277e8f54962130~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb7ebdbd9b1ea394c59fb8291769b6cd~2508x0.webp"
+            },
+            {
+              "name": "暖山玉白",
+              "colors": [
+                "#EFEADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a03ee9054b178c1a5c8a3c7532d9bec~2508x0.webp"
+            },
+            {
+              "name": "新米白",
+              "colors": [
+                "#F4F5DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b96ba53ab0f5d607f465a7ca7b64738~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d817f8650700d0e99c7c25ea901047d9~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 210Max 如奕版 5座",
+          "configName": "2025款 210Max 如奕版 5座",
+          "configId": "245646",
+          "index": 4,
           "price": "17.86万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bdaef8582e2a899739c4e714d9ba1e2c~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_732e889030ec5a86619639cd9a2cc1fa~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e5f9729cfea76856ea8f26b95ae9ca1b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8cee94d803bd26c4dd059c63ca69d99~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5f44c49181f2324a74aaf2f478eb8fc9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bdaef8582e2a899739c4e714d9ba1e2c~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 210Ultra 如奕版 5座",
+          "configName": "2025款 210Ultra 如奕版 5座",
+          "configId": "245648",
+          "index": 5,
           "price": "18.36万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18612a6cb5d79370aaf2c81dfe338360~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_003bd126aa0b307eb4eb2cc1c24e1b98~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5a06496a6e335e866e7a15e0c6f59d88~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d80c02ffa1f44e7de7a8dc1ab5dfc0e1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e23a5bc5c218bc2bdd65fdb25a7f2953~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_79c6f18dccea5e7ba31f127be2956323~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18612a6cb5d79370aaf2c81dfe338360~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 210Max 如奕版 6座",
+          "configName": "2025款 210Max 如奕版 6座",
+          "configId": "245641",
+          "index": 6,
           "price": "18.86万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ac8d4c6b7a712441fdbbd5000538cc25~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c38152f27e96e530086b06c35866fdfa~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c50131c0ad79e67843b80f7cee48b2b5~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7dfa7002f83b97376121c6c48ee9c013~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e082ec0c204f5d7caa638bf8bf6f1fee~2508x0.webp"
+            },
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fddc937763006c7380f93031b48a92b8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ac8d4c6b7a712441fdbbd5000538cc25~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 210Ultra 如奕版 6座",
+          "configName": "2025款 210Ultra 如奕版 6座",
+          "configId": "245643",
+          "index": 7,
           "price": "19.36万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fc537339efe105080e753a891fda943~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9fcef390a29711dda6956a4ebd894a5c~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f3089fb4cce4e972c502d918717f1d40~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_186b196046ee3ced43509d7905131a41~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b88369a95a77728d53b6bd66b2a04e4d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ecd42cff219fc388bec668038b39215e~2508x0.webp"
+            },
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e71bd17bbfabd6d17b0ccebfa2d7c52f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fc537339efe105080e753a891fda943~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Max 如奕版 5座",
+          "configName": "2025款 636Max 如奕版 5座",
+          "configId": "245647",
+          "index": 8,
           "price": "18.36万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_70a087821602941c6fc400a2c927aded~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e2b25eb376bdf5a1ae5d624068d77b7~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ced7530462e97085b3f7a518a2704d10~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_57350947a1bc9c8e6e2e6dd158521829~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73dbbf5715604f694ec65c6564f8d449~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_70a087821602941c6fc400a2c927aded~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Ultra 如奕版 5座",
+          "configName": "2025款 636Ultra 如奕版 5座",
+          "configId": "245649",
+          "index": 9,
           "price": "18.86万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7902a53808ee722cf52f2e196c0812a~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20ec7dd4947c6b82ff193c650afae999~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_4e8c930b6ee9b6891596ca2b53c294d8~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e46dca52e529a845dfe2296270c175c~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f5faf4c725acc47ced6e7c78c5d4ff7e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ebdd24dc2d18c148a679043630e0a6d2~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1acc4a0e4a02e6e76d18cf7fe4a960f7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7902a53808ee722cf52f2e196c0812a~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Max 如奕版 6座",
+          "configName": "2025款 636Max 如奕版 6座",
+          "configId": "245642",
+          "index": 10,
           "price": "19.36万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b27d05b62a470c12bb48090b2f96cf5a~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dec52f856e1a5833ab8c6dff32b4be6b~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a8401df1db7924a756e08949bd50e56~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c3a2105c0de5710ffce525484267a12d~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c20fc2e91f6a1a7adc7e856959efe4f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c16bd135d43323a562bf1b97fd900e0a~2508x0.webp"
+            },
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b90dceee0f7c9af8f640891fd08dae43~2508x0.webp"
+            },
+            {
+              "name": "月影余白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6f5d32f2020d97df2655edfe509285d8~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b27d05b62a470c12bb48090b2f96cf5a~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Ultra 如奕版 6座",
+          "configName": "2025款 636Ultra 如奕版 6座",
+          "configId": "245645",
+          "index": 11,
           "price": "19.86万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1dab994bb5e17a77f51420aec7a4401~2508x0.webp"
+            },
+            {
+              "name": "星夜紫",
+              "colors": [
+                "#4537A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69d098d7b07c6c3183d4d4b1b9b342fe~2508x0.webp"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5845a1155de824553335c78167c4039b~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea6cbf981139dc0906c3ab35c41a3f66~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17f7eb166158aba8b014f184c67b6a9f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a425f546392b4588a44c5709919585a7~2508x0.webp"
+            },
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d6e82c8d7c924b7b563a03bffe6d2fa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1dab994bb5e17a77f51420aec7a4401~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 210Max 智驾版 6座",
+          "configName": "2025款 210Max 智驾版 6座",
+          "configId": "246150",
+          "index": 12,
           "price": "19.36万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97c06abc249490c59c54463c3e4c9f80~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_686c4fd2e2a4755f0af140b6f9e64d49~2508x0.webp"
+            },
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc9d1895972166b158d697d8fd35318d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97c06abc249490c59c54463c3e4c9f80~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Max 智驾版 6座",
+          "configName": "2025款 636Max 智驾版 6座",
+          "configId": "246146",
+          "index": 13,
           "price": "19.86万",
+          "manufacturer": "东风乘用车",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 272马力",
           "size": "5002x1972x1732",
-          "manufacturer": "东风乘用车",
-          "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6b0a20475ab112399a68ffbc0252fdcf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "溪石灰",
+              "colors": [
+                "#A4A4A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b343e3c397edda50a4228ec186b7cd7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96a233d02e7bfcd5b4c6b82da0bf7a8e~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6b0a20475ab112399a68ffbc0252fdcf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "eπ008 2025款 210Ultra 智驾版 6座",
+          "configName": "2025款 210Ultra 智驾版 6座",
+          "configId": "246147",
+          "index": 14,
           "price": "19.86万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9c4425da557690eddc59c91ff1b35d84~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_93d8df05aa92a5fbd5d8b712394e016c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_a461f3cb1a7f39f64a35c8e9bb633a57~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "月影余白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_21db761f85355a28e8b49b8508e9d948~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9c4425da557690eddc59c91ff1b35d84~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Ultra 智驾版 6座",
+          "configName": "2025款 636Ultra 智驾版 6座",
+          "configId": "246148",
+          "index": 15,
           "price": "20.36万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7b19dd477bb5c1e09086e1148e6c294~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2f351ed1c3ad8315d5cbc4ff3eda09d9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fafa2787a8990b7111bcf3c98312976f~2508x0.webp"
+            },
+            {
+              "name": "洛神珠红",
+              "colors": [
+                "#AB6161"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a6d3d8616a8b148b460e05dac31be318~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7b19dd477bb5c1e09086e1148e6c294~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 210Max 智驾版 5座",
+          "configName": "2025款 210Max 智驾版 5座",
+          "configId": "246151",
+          "index": 16,
           "price": "18.36万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_fd84b5a0b82a1d932528271879f7de87~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_fd84b5a0b82a1d932528271879f7de87~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "eπ008 2025款 636Max 智驾版 5座",
+          "configName": "2025款 636Max 智驾版 5座",
+          "configId": "246153",
+          "index": 17,
           "price": "18.86万",
+          "manufacturer": "东风乘用车",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 272马力",
           "size": "5002x1972x1732",
-          "manufacturer": "东风乘用车",
-          "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "eπ008 2025款 210Ultra 智驾版 5座",
+          "configName": "2025款 210Ultra 智驾版 5座",
+          "configId": "246154",
+          "index": 18,
           "price": "18.86万",
-          "fuelType": "增程式",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "增程式 272马力"
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82d802d1f2b3bca098ece627743babe6~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ed1bc3e67e22b49c8f1589c67d24df7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fc32af1f8b0bff3c286a752dc1bf49e~2508x0.webp"
+            },
+            {
+              "name": "月影余白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd92a79633315acf4676c4ca5be66250~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82d802d1f2b3bca098ece627743babe6~2508x0.webp"
         },
         {
-          "configName": "eπ008 2025款 636Ultra 智驾版 5座",
+          "configName": "2025款 636Ultra 智驾版 5座",
+          "configId": "246155",
+          "index": 19,
           "price": "19.36万",
-          "fuelType": "纯电动",
-          "size": "5002x1972x1732",
           "manufacturer": "东风乘用车",
           "class": "中大型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5002x1972x1732",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96a81e901fee981328adc105167a621a~2508x0.webp"
+            },
+            {
+              "name": "向阳金",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_371d1a250fc33d01a44be3136e4fe408~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e950e24f501b2920fc8090a540adbae~2508x0.webp"
+            },
+            {
+              "name": "晨光耀棕",
+              "colors": [
+                "#E19972"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee04106f4ba91f52de2e9f40f19cd604~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96a81e901fee981328adc105167a621a~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-27T10:12:54.893Z",
+  "progress": {
+    "completed": 2,
+    "total": 2,
+    "percentage": 100,
+    "currentIndex": 2
+  }
 }

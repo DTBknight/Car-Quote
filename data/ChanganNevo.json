@@ -3,323 +3,1871 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/44aa0406ba774fcda90d5c77e4bd61c8~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 5859,
       "carName": "长安Lumin",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a2dff024dddb49a782b92f194db013a8~1200x0.png",
       "configs": [
         {
-          "configName": "长安Lumin 2025款 210km 清香款",
+          "configName": "2025款 210km 清香款",
+          "configId": "245294",
+          "index": 0,
           "price": "4.49万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7b2df52a9f2fecf8a096d02f8380888a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea945dd26e11397a866f05847cc62844~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7b2df52a9f2fecf8a096d02f8380888a~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2025款 205km 清香款",
+          "configName": "2025款 205km 清香款",
+          "configId": "245292",
+          "index": 1,
           "price": "4.69万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f30562e7e88e4f6b8acacce1538c248e~2508x0.webp"
+            },
+            {
+              "name": "鹊灰",
+              "colors": [
+                "#908D84"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0963c3e197bf83c1f56c95cf5642bfac~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9eb90539d358d8d44902475d27f0fde~2508x0.webp"
+            },
+            {
+              "name": "雾白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/459f53c2bbaa2a9876f90c346cd78cab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0c1a052d5ee92a29ff345ae04725201~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f30562e7e88e4f6b8acacce1538c248e~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2025款 205km 香沁款",
+          "configName": "2025款 205km 香沁款",
+          "configId": "247081",
+          "index": 2,
           "price": "4.99万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e4ae8641f7288442d45997bbe65411c~2508x0.webp"
+            },
+            {
+              "name": "鹊灰",
+              "colors": [
+                "#908D84"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b8bd13d3724675f68a430ba11233e026~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d8b581432c4cfdf790e929e5e9a3fcb~2508x0.webp"
+            },
+            {
+              "name": "樱粉",
+              "colors": [
+                "#B89C99"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d391ff588f0578f6eeee9dda5ef85719~2508x0.webp"
+            },
+            {
+              "name": "雾白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1be7ef6cf8e1abdad517146ddde4e12c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a1401d2e80fa8e70c5a6c3839da07e16~2508x0.webp"
+            },
+            {
+              "name": "浅灰/心想事橙",
+              "colors": [
+                "#F3F3F3",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_16cc450f72b168b223a4894a7dfd2fc4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e4ae8641f7288442d45997bbe65411c~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2025款 301km 蜜沁款",
+          "configName": "2025款 301km 蜜沁款",
+          "configId": "247558",
+          "index": 3,
           "price": "5.89万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94858f754b959ae71ccc1837d15c25da~2508x0.webp"
+            },
+            {
+              "name": "鹊灰",
+              "colors": [
+                "#908D84"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3858bb2630b17feb85715eaa2dccd1bc~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6822e39465ad062b0da3ea8a54027df2~2508x0.webp"
+            },
+            {
+              "name": "雾白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7fc3695f8d6639990f3fb360f0115901~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浅灰/心想事橙",
+              "colors": [
+                "#F3F3F3",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_481112c342eefa8b63b82c694eebdab6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94858f754b959ae71ccc1837d15c25da~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2025款 301km 萌宝版",
+          "configName": "2025款 301km 萌宝版",
+          "configId": "246697",
+          "index": 4,
           "price": "6.19万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "雾白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c67a8cc2c2c505c26d7bb329fc1e1317~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑白",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8736d8ecf508acfab1e5e1087e0dc9d2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c67a8cc2c2c505c26d7bb329fc1e1317~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2024款 130km 清悦款",
+          "configName": "2024款 130km 清悦款",
+          "configId": "239195",
+          "index": 5,
           "price": "3.79万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4ecc6f83fe7ba244379caf81eb58f8a~2508x0.webp"
+            },
+            {
+              "name": "鹊灰",
+              "colors": [
+                "#908D84"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f09195616e1a46937193a5f02c45784~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f79092fc7a1d584c2f14caa5a41b8754~2508x0.webp"
+            },
+            {
+              "name": "樱粉",
+              "colors": [
+                "#B89C99"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89f43e989cfaa31138cb64a9439ef76d~2508x0.webp"
+            },
+            {
+              "name": "雾白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d9f3e019f700d5ee2c9f33064d6d3b1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86cca28ffc04a48ac17778f757b9510c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d4ecc6f83fe7ba244379caf81eb58f8a~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2024款 205km 橙风版",
+          "configName": "2024款 205km 橙风版",
+          "configId": "110632",
+          "index": 6,
           "price": "5.89万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿/黑色",
+              "colors": [
+                "#5F8987",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20672ec73bc28cd13b20a2f3d64a332c~2508x0.webp"
+            },
+            {
+              "name": "鹊灰/黑色",
+              "colors": [
+                "#908D84",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc5cf515b0324f729ad288da6a8657a1~2508x0.webp"
+            },
+            {
+              "name": "麦黄/黑色",
+              "colors": [
+                "#ABA794",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ceb8d2b67afeacec399d56a75da7159~2508x0.webp"
+            },
+            {
+              "name": "雾白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/646b814d48ed2ac0c415e6db230661aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浅灰/心想事橙",
+              "colors": [
+                "#F3F3F3",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40eb2c80d46041522da64973605c3bf6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/20672ec73bc28cd13b20a2f3d64a332c~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2024款 205km 启航版",
+          "configName": "2024款 205km 启航版",
+          "configId": "110552",
+          "index": 7,
           "price": "5.89万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿/黑色",
+              "colors": [
+                "#5F8987",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11d166b36a6874efdb890f403a0cc63d~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dccfbcb0bcd033fa848c0a56c97526c1~2508x0.webp"
+            },
+            {
+              "name": "雾白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d1c32304d00c71061032ee06fde4d70~2508x0.webp"
+            },
+            {
+              "name": "雾白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a0114820331047645ba833bced48cabf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dec59e4399e1c7a6ea6896cddf106a45~2508x0.webp"
+            },
+            {
+              "name": "浅灰/心想事橙",
+              "colors": [
+                "#F3F3F3",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8171a699c1d3ccb596a7e5e148e61c66~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/11d166b36a6874efdb890f403a0cc63d~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2024款 301km 橙风版",
+          "configName": "2024款 301km 橙风版",
+          "configId": "110633",
+          "index": 8,
           "price": "6.59万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿/黑色",
+              "colors": [
+                "#5F8987",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a27b467b154d58750accdac8468bec71~2508x0.webp"
+            },
+            {
+              "name": "鹊灰/黑色",
+              "colors": [
+                "#908D84",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ba92d6e8988cf6d35bb1201434a28c8~2508x0.webp"
+            },
+            {
+              "name": "麦黄/黑色",
+              "colors": [
+                "#ABA794",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_886e77b7e8f225ee8b358f49aa3e6449~2508x0.webp"
+            },
+            {
+              "name": "雾白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3f97b5be9dcd4d68c176f888dd219b4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浅灰/心想事橙",
+              "colors": [
+                "#F3F3F3",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8c310747f82b35a06581c12d43b142c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a27b467b154d58750accdac8468bec71~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2024款 301km 启航版",
+          "configName": "2024款 301km 启航版",
+          "configId": "110630",
+          "index": 9,
           "price": "6.59万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "雾白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0d52810fd5083d8cdc7bbbcfb4d40d3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3b85131ce9304cfeb867f6527a14860~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b0d52810fd5083d8cdc7bbbcfb4d40d3~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2023款 301km 蜜沁款",
+          "configName": "2023款 301km 蜜沁款",
+          "configId": "94806",
+          "index": 10,
           "price": "6.19万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "湖蓝",
+              "colors": [
+                "#1C688E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0e2c48c1788a14a1ed9083f8617a966~2508x0.webp"
+            },
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14197e6a6f4423182aee351a41e3cff3~2508x0.webp"
+            },
+            {
+              "name": "鹊灰",
+              "colors": [
+                "#908D84"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3e82d17e11275a1f6642d6ee049946a~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01716a1f098513f756ceb8da45825907~2508x0.webp"
+            },
+            {
+              "name": "樱粉",
+              "colors": [
+                "#B89C99"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d952f71dc41b3cdcbeebb07677151685~2508x0.webp"
+            },
+            {
+              "name": "雾白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d71c2569af5da8b1f779669f5dfa4b4b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65ce0eec9c73b92eef7661c5efb1b641~2508x0.webp"
+            },
+            {
+              "name": "浅灰/心想事橙",
+              "colors": [
+                "#F3F3F3",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4368b8eda70d31a662239c3d2e1421ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e0e2c48c1788a14a1ed9083f8617a966~2508x0.webp"
         },
         {
-          "configName": "长安Lumin 2022款 301KM 蜜甜款",
+          "configName": "2022款 301KM 蜜甜款",
+          "configId": "73701",
+          "index": 11,
           "price": "6.99万",
-          "fuelType": "纯电动",
-          "size": "3270x1700x1545",
           "manufacturer": "长安启源",
           "class": "微型车",
-          "power": "纯电动 48马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3270x1700x1545",
+          "exteriorImages": [
+            {
+              "name": "苔绿",
+              "colors": [
+                "#5F8987"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b996784e7eb2eb8be9d12ac7ace5e1c7~2508x0.webp"
+            },
+            {
+              "name": "麦黄",
+              "colors": [
+                "#ABA794"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5381ca4e1845454b0cb7f1da743d9a56~2508x0.webp"
+            },
+            {
+              "name": "樱粉",
+              "colors": [
+                "#B89C99"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/f1e39668339151a6bbb64301ccd0ae69~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迷人灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2adf21a99c99d903e09520aee3a1053c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b996784e7eb2eb8be9d12ac7ace5e1c7~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9129,
       "carName": "A05",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4fabbe1e9e2a4fd98cef4ba59f9f2dd1~1200x0.png",
       "configs": [
         {
-          "configName": "长安启源A05 2025款 真香版 70 领先型",
+          "configName": "2025款 真香版 70 领先型",
+          "configId": "241459",
+          "index": 0,
           "price": "7.89万",
-          "fuelType": "插电式混合动力",
-          "size": "4785x1840x1460",
           "manufacturer": "长安启源",
           "class": "紧凑型车",
-          "power": "插电式混动 190马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4785x1840x1460",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "长安启源A05 2025款 真香版 70 超越型",
+          "configName": "2025款 真香版 70 超越型",
+          "configId": "111117",
+          "index": 1,
           "price": "8.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4785x1840x1460",
           "manufacturer": "长安启源",
           "class": "紧凑型车",
-          "power": "插电式混动 190马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4785x1840x1460",
+          "exteriorImages": [
+            {
+              "name": "安第斯灰",
+              "colors": [
+                "#AAAAAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7384b124e6f3fcb997f82df604938fd~2508x0.webp"
+            },
+            {
+              "name": "云海银灰",
+              "colors": [
+                "#D8D8D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c76888beb96b1b6c75fdfccff7c10942~2508x0.webp"
+            },
+            {
+              "name": "闪光冰晶白",
+              "colors": [
+                "#F9F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38ec6d609c75f9a0bfcbb5aa35dec2bb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅致黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f83da0d31af5e823787795aff4aa048~2508x0.webp"
+            },
+            {
+              "name": "赤缇红",
+              "colors": [
+                "#D88D50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/681534b75d3232703ba8e3bedada91fc~2508x0.webp"
+            },
+            {
+              "name": "夕阳浅灰",
+              "colors": [
+                "#D8D4D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/294ebeb4e36b24df989a132e99b3c401~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a7384b124e6f3fcb997f82df604938fd~2508x0.webp"
         },
         {
-          "configName": "长安启源A05 2025款 真香版 145 领先型",
+          "configName": "2025款 真香版 145 领先型",
+          "configId": "241129",
+          "index": 2,
           "price": "9.39万",
-          "fuelType": "插电式混合动力",
-          "size": "4785x1840x1460",
           "manufacturer": "长安启源",
           "class": "紧凑型车",
-          "power": "插电式混动 215马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4785x1840x1460",
+          "exteriorImages": [
+            {
+              "name": "安第斯灰",
+              "colors": [
+                "#AAAAAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e331cc0033e9f62e8621c53c5ae0e1cb~2508x0.webp"
+            },
+            {
+              "name": "闪光冰晶白",
+              "colors": [
+                "#F9F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a29ddc6d1e367f7ff285164e47c0365~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅致黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a4e60747e287ec2d7cd65dfe9e0f572~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e331cc0033e9f62e8621c53c5ae0e1cb~2508x0.webp"
         },
         {
-          "configName": "长安启源A05 2025款 真香版 145 超越型",
+          "configName": "2025款 真香版 145 超越型",
+          "configId": "241130",
+          "index": 3,
           "price": "9.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4785x1840x1460",
           "manufacturer": "长安启源",
           "class": "紧凑型车",
-          "power": "插电式混动 215马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4785x1840x1460",
+          "exteriorImages": [
+            {
+              "name": "安第斯灰",
+              "colors": [
+                "#AAAAAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4fa11d5cfecb06777908b44945e64a2~2508x0.webp"
+            },
+            {
+              "name": "云海银灰",
+              "colors": [
+                "#D8D8D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72dd95252340c3ab040b5cb86f647a03~2508x0.webp"
+            },
+            {
+              "name": "闪光冰晶白",
+              "colors": [
+                "#F9F0F0"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/72216ecf1f962cd77ea630eaef04ae5b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅致黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5af6a978e76c639ba7647c5b0cfd051~2508x0.webp"
+            },
+            {
+              "name": "赤缇红",
+              "colors": [
+                "#D88D50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/123c378e94a70bf487088f86140a84c4~2508x0.webp"
+            },
+            {
+              "name": "夕阳浅灰",
+              "colors": [
+                "#D8D4D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f555287c7ce9bb9ed28a9ca4cf46c26~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a4fa11d5cfecb06777908b44945e64a2~2508x0.webp"
         },
         {
-          "configName": "长安启源A05 2025款 真香版 145 卓越型",
+          "configName": "2025款 真香版 145 卓越型",
+          "configId": "111116",
+          "index": 4,
           "price": "10.39万",
-          "fuelType": "插电式混合动力",
-          "size": "4785x1840x1460",
           "manufacturer": "长安启源",
           "class": "紧凑型车",
-          "power": "插电式混动 215马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4785x1840x1460",
+          "exteriorImages": [
+            {
+              "name": "安第斯灰",
+              "colors": [
+                "#AAAAAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2175dcfe3a6340136096916688d0636~2508x0.webp"
+            },
+            {
+              "name": "云海银灰",
+              "colors": [
+                "#D8D8D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d21f95d7cedecfffa5e70f275bfd716~2508x0.webp"
+            },
+            {
+              "name": "闪光冰晶白",
+              "colors": [
+                "#F9F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3ce333f9066b513369be3542621d848~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅致黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db36efc604d7fb51ea9ae07a911e5e84~2508x0.webp"
+            },
+            {
+              "name": "赤缇红",
+              "colors": [
+                "#D88D50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f258c0c12c6905489dcc346ded168638~2508x0.webp"
+            },
+            {
+              "name": "夕阳浅灰",
+              "colors": [
+                "#D8D4D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f1d942597d893d6f8f9631949d2b697~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d2175dcfe3a6340136096916688d0636~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 25132,
       "carName": "Q07",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/90c700010be34bf882161c0b9b08ae56~1200x0.png",
       "configs": [
         {
-          "configName": "长安启源Q07 2025款 145 尊耀型",
+          "configName": "2025款 145 尊耀型",
+          "configId": "246814",
+          "index": 0,
           "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4837x1920x1690",
           "manufacturer": "长安启源",
           "class": "中型SUV",
-          "power": "插电式混动 224马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4837x1920x1690",
+          "exteriorImages": [
+            {
+              "name": "松烟墨",
+              "colors": [
+                "#250808"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27ac1c02f0ec8178353e00259d3ec893~2508x0.webp"
+            },
+            {
+              "name": "云影灰",
+              "colors": [
+                "#D6CDCD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6e732547d52d79ba8c99309c44748bb7~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#E2E3EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8596223b40738b7c44f1734288241c26~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dffc8e21d6d0cc74423d459ff3144d7b~2508x0.webp"
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FF7300"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b449a0810f2dda87ea5c186fee6eeef7~2508x0.webp"
+            },
+            {
+              "name": "浅云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea7e7839861eb2fd10eb74d49c620eac~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27ac1c02f0ec8178353e00259d3ec893~2508x0.webp"
         },
         {
-          "configName": "长安启源Q07 2025款 145 尊荣型",
+          "configName": "2025款 145 尊荣型",
+          "configId": "247728",
+          "index": 1,
           "price": "13.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4837x1920x1690",
           "manufacturer": "长安启源",
           "class": "中型SUV",
-          "power": "插电式混动 224马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4837x1920x1690",
+          "exteriorImages": [
+            {
+              "name": "松烟墨",
+              "colors": [
+                "#250808"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96630a4661218d8cf420231a3d28f807~2508x0.webp"
+            },
+            {
+              "name": "云影灰",
+              "colors": [
+                "#D6CDCD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9861fc500c6225c5c6d353ca92ef0183~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#E2E3EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5297e86afe1d065efd708785e6701198~2508x0.webp"
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#EEE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_221817c3f46501cfb4b76c662472e572~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9ed46706b448a4bcaba77fcdf768c9f3~2508x0.webp"
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FF7300"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_24c7ca36b70f4f09c9d565f475e6ca62~2508x0.webp"
+            },
+            {
+              "name": "浅云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89740e216c0e37c07536c57fc60f3823~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96630a4661218d8cf420231a3d28f807~2508x0.webp"
         },
         {
-          "configName": "长安启源Q07 2025款 215 尊贵型",
+          "configName": "2025款 215 尊贵型",
+          "configId": "246815",
+          "index": 2,
           "price": "14.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4837x1920x1690",
           "manufacturer": "长安启源",
           "class": "中型SUV",
-          "power": "插电式混动 224马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4837x1920x1690",
+          "exteriorImages": [
+            {
+              "name": "松烟墨",
+              "colors": [
+                "#250808"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1243e3f94896f78785b0fa3341cb2774~2508x0.webp"
+            },
+            {
+              "name": "云影灰",
+              "colors": [
+                "#D6CDCD"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_7eb18f5c9d20d0ce65f12bea03bed972~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#E2E3EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_942bfe0a1db45ccddab4f7c9dff14a58~2508x0.webp"
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#EEE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cfe949e3acd2bf326e4240b25847faa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5e5ece13f8bf0a94faec2f9e7a5131d~2508x0.webp"
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FF7300"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7256f104e28d1c73257d512a6f8cb617~2508x0.webp"
+            },
+            {
+              "name": "浅云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ebd80da0f84d1425e052b7fde0e11e17~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1243e3f94896f78785b0fa3341cb2774~2508x0.webp"
         },
         {
-          "configName": "长安启源Q07 2025款 215 尊荣型",
+          "configName": "2025款 215 尊荣型",
+          "configId": "246816",
+          "index": 3,
           "price": "15.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4837x1920x1690",
           "manufacturer": "长安启源",
           "class": "中型SUV",
-          "power": "插电式混动 224马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 98马力 L4 插电式混动",
+          "size": "4837x1920x1690",
+          "exteriorImages": [
+            {
+              "name": "松烟墨",
+              "colors": [
+                "#250808"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b439784af7e0c693e235cc2fdbe80196~2508x0.webp"
+            },
+            {
+              "name": "点翠绿",
+              "colors": [
+                "#6B776B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_562b63959904897518ef699348c725bf~2508x0.webp"
+            },
+            {
+              "name": "云影灰",
+              "colors": [
+                "#D6CDCD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f76c1520169120718b5ec46d1e74759~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#E2E3EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c57eb96c0c6f81f94f1b9e78be1c8ef8~2508x0.webp"
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#EEE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2419f51d3916ef34c36c84c76e388a0a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e81a94040387b961904a27f5758a648b~2508x0.webp"
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FF7300"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2461cf9d157dd80a875629d030684bb~2508x0.webp"
+            },
+            {
+              "name": "浅云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_065b54f31a2391ce557232fbed739f90~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b439784af7e0c693e235cc2fdbe80196~2508x0.webp"
         },
         {
-          "configName": "长安启源Q07 2025款 215 旗舰型",
+          "configName": "2025款 215 旗舰型",
+          "configId": "246818",
+          "index": 4,
           "price": "16.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4837x1920x1690",
           "manufacturer": "长安启源",
           "class": "中型SUV",
-          "power": "插电式混动 224马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "4837x1920x1690",
+          "exteriorImages": [
+            {
+              "name": "松烟墨",
+              "colors": [
+                "#250808"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c7338da581f63e80613245960570e73~2508x0.webp"
+            },
+            {
+              "name": "点翠绿",
+              "colors": [
+                "#6B776B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8f583fb8c8dd7ab39a6bd2528045c6e0~2508x0.webp"
+            },
+            {
+              "name": "云影灰",
+              "colors": [
+                "#D6CDCD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b8f0c5b6ef9fa3968b4280b1f8f1e93d~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#E2E3EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e7630b72947cef46592d86e91c78125~2508x0.webp"
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#EEE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a823d26abcb0322496cda7d1ee469b6a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_d4bf72bd53e707683a54fc96249e990e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FF7300"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_2b06af96f91b4c1ea6f1937455f23c52~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "浅云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_13e5b96052dc92a27f00f8ae9247305e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c7338da581f63e80613245960570e73~2508x0.webp"
         },
         {
-          "configName": "长安启源Q07 2025款 215 旗舰PLUS",
+          "configName": "2025款 215 旗舰PLUS",
+          "configId": "246819",
+          "index": 5,
           "price": "17.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4837x1920x1690",
           "manufacturer": "长安启源",
           "class": "中型SUV",
-          "power": "插电式混动 224马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "4837x1920x1690",
+          "exteriorImages": [
+            {
+              "name": "松烟墨",
+              "colors": [
+                "#250808"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a92f9d4ad1acc96f39c5a3f91e29393d~2508x0.webp"
+            },
+            {
+              "name": "点翠绿",
+              "colors": [
+                "#6B776B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_295d9772f2eacc8ded196bc88e8411c6~2508x0.webp"
+            },
+            {
+              "name": "云影灰",
+              "colors": [
+                "#D6CDCD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d71fa36deb6334b1493bfef58a9cf382~2508x0.webp"
+            },
+            {
+              "name": "月华银",
+              "colors": [
+                "#E2E3EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_627ef19b4923ce7927fd6f61618e8442~2508x0.webp"
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#EEE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fb15402685a5a5987b98bb407decdd5a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6eb6f9c073eb98ac5ae6c3750fcbf3b~2508x0.webp"
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FF7300"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de6afc28a600e35c373c97df9270bca1~2508x0.webp"
+            },
+            {
+              "name": "浅云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_ba3df3c3a18e26a0c9c9be46ff4b0fd0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a92f9d4ad1acc96f39c5a3f91e29393d~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8958,
       "carName": "A07",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/92db54b6a8be4ac48ddac93f0811e8c8~1200x0.png",
       "configs": [
         {
-          "configName": "长安启源A07 2025款 蓝鲸增程 140 精英型",
+          "configName": "2025款 蓝鲸增程 140 精英型",
+          "configId": "245054",
+          "index": 0,
           "price": "13.59万",
-          "fuelType": "增程式",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "增程式 238马力"
+          "fuelType": "增程式",
+          "power": "纯电动 238马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14b720f670a8d493fca94970bf439d5e~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17206fdc12473149fcf0ce12778485ef~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d2ed4620fd955dae8e869d4f65ede60e~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6202e7e7d5ae6cca91c2a76280f4ef4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e883d17c960c00fb3076e386b3e600a~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8bfa75bc966c3694aeeacfef5668cf09~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_599723622e9afe61a9581a5c87d43afe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14b720f670a8d493fca94970bf439d5e~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸增程 230 尊贵型",
+          "configName": "2025款 蓝鲸增程 230 尊贵型",
+          "configId": "245055",
+          "index": 1,
           "price": "14.59万",
-          "fuelType": "增程式",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "增程式 218马力"
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fdb117d1461adc23625b7f6c6b6684d~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38f8f183f17563cb0a0e68dbf6e71a68~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_52567fb35311a51b82099d56118bb58f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_8a9dd12dcbbdff15484f94ab70a85965~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3110c75fbfd2bdf1147208ad059be9f4~2508x0.webp"
+            },
+            {
+              "name": "赤缇红",
+              "colors": [
+                "#DE9763"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffccf491192eef4168ac5c025f47cf7d~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1041dc26e53210dbe9489842eb5b7f28~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9fdb117d1461adc23625b7f6c6b6684d~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸增程 230 旗舰型",
+          "configName": "2025款 蓝鲸增程 230 旗舰型",
+          "configId": "245056",
+          "index": 2,
           "price": "15.19万",
-          "fuelType": "增程式",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "增程式 218马力"
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_701b99f6483ece48357e403b5c79d4ba~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3f191c8560c49f797c82b2966c3967d~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f54eb56aeabce2ca6a79447214e06f98~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df8b63f79b090aa62613a2fcaad5f645~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a87e05982fa8bc21db0335b6c49e715~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96ef465b0a2fdf4a57a036345889244e~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c6a2365412f2061cba19bfec6f1c838~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_701b99f6483ece48357e403b5c79d4ba~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸纯电 515 典藏型",
+          "configName": "2025款 蓝鲸纯电 515 典藏型",
+          "configId": "245060",
+          "index": 3,
           "price": "11.99万",
-          "fuelType": "纯电动",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31ee114eff7e21a3af7e04c9b0b70f83~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54bb538775bf5e99ed49f4bf8c82824c~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab119f8a4017d318af2d142c38e48188~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7fd15e0ab02ecda49cd6188d91a99503~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/565e280c822d9b62cd54d10f0707be04~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68b8bb643fecd4000e0c1954629710d5~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_878075b8e17db3896b43b301e5ba3ed6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/31ee114eff7e21a3af7e04c9b0b70f83~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸纯电 525 豪华型",
+          "configName": "2025款 蓝鲸纯电 525 豪华型",
+          "configId": "245057",
+          "index": 4,
           "price": "13.59万",
-          "fuelType": "纯电动",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_66a8b9a3398456b07077d2f96e151369~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_429cdbe45ab9c581d2bf141a624e523f~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f1c4d6ae339bfd3141aea037b4bb9ef~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3113c7d22b82abcbd49ed740c378e89~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c10b13499fff9fb67b7f3235fa0ee2bf~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73d5f71febad9046ab15380b2e953291~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_98f4ca1122ef49bb749b9cde3db8f1e8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_66a8b9a3398456b07077d2f96e151369~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸纯电 525 旗舰型",
+          "configName": "2025款 蓝鲸纯电 525 旗舰型",
+          "configId": "245061",
+          "index": 5,
           "price": "14.59万",
-          "fuelType": "纯电动",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸纯电 625 豪华型",
+          "configName": "2025款 蓝鲸纯电 625 豪华型",
+          "configId": "245062",
+          "index": 6,
           "price": "14.29万",
-          "fuelType": "纯电动",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fd00df290d150441818c39ad254058f~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b0a6accea0109269651a090fbfc3c38~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dd84469d983007b48182d9baae3562a~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_35be522fe0961e9b39ba1281a691e99f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88d442137da20340027bfb37f0631d24~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4d9435457bb4bd20f53894ab5484213~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04cf40d0746bf9114b65db1b735d2940~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0fd00df290d150441818c39ad254058f~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸纯电 625 旗舰型",
+          "configName": "2025款 蓝鲸纯电 625 旗舰型",
+          "configId": "245058",
+          "index": 7,
           "price": "15.39万",
-          "fuelType": "纯电动",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b64f0f104833f9546e0123675ab92ef0~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e35c1bb83cd850cda4629b6ca606e50~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/801cc1c337c6b81a39e60ccc72626795~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/906f2aeb59b46089c0be1d09aa8a96da~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c0d9b290362f9134392dd91d4eed693~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c594df884e082d7de2ddeda1db007de~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/205d722dd7873d53605adac595089026~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b64f0f104833f9546e0123675ab92ef0~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 蓝鲸纯电 710 旗舰型",
+          "configName": "2025款 蓝鲸纯电 710 旗舰型",
+          "configId": "245059",
+          "index": 8,
           "price": "15.99万",
-          "fuelType": "纯电动",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e0972e935509a50c90b0cc0a2ce5e12~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_afb03f93336084d768fa97aafe2a6a6b~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0bd35d84d0eab9a8543961953ab08dc6~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c1b05394dd484fe08d452930a3e002ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ad705ce819a36343f61d3777d7654013~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/806bcbdf23c4aa95b0c5bcbb7d8de98a~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e8f420c7331e366d4bd6a189adcb0d6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e0972e935509a50c90b0cc0a2ce5e12~2508x0.webp"
         },
         {
-          "configName": "长安启源A07 2025款 增程 真香版 230 豪华型",
+          "configName": "2025款 增程 真香版 230 豪华型",
+          "configId": "241466",
+          "index": 9,
           "price": "13.99万",
-          "fuelType": "增程式",
-          "size": "4905x1910x1480",
           "manufacturer": "长安启源",
           "class": "中大型车",
-          "power": "增程式 218马力"
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4905x1910x1480",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#0B0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02a926b7ee9b0a2dd513dcafb50159a3~2508x0.webp"
+            },
+            {
+              "name": "修竹青",
+              "colors": [
+                "#A4CAD7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94ff82a5550a69b99de5eabf0672fa79~2508x0.webp"
+            },
+            {
+              "name": "远山紫",
+              "colors": [
+                "#D6C8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a8a55f34849ff881b5dea1de67061bd~2508x0.webp"
+            },
+            {
+              "name": "雪峰白",
+              "colors": [
+                "#FEFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54d12aefbd7fa79b409aa4b7596154cf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幕夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60b42eb975935250f6740aaaf17c4a85~2508x0.webp"
+            },
+            {
+              "name": "乌木棕",
+              "colors": [
+                "#675354"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20291432b89bf52df3571fa1bb5d803e~2508x0.webp"
+            },
+            {
+              "name": "淡云灰",
+              "colors": [
+                "#E0E0E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9116260d3c65e73133409ebf267a8e5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/02a926b7ee9b0a2dd513dcafb50159a3~2508x0.webp"
         }
       ]
     },
@@ -380,109 +1928,585 @@
       ]
     },
     {
+      "carId": 9642,
       "carName": "E07",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1e9d10b1d085423c90ee8ad305ddf406~1200x0.png",
       "configs": [
         {
-          "configName": "长安启源E07 2024款 增程39kWh Pro智能版后驱",
+          "configName": "2024款 增程39kWh Pro智能版后驱",
+          "configId": "241511",
+          "index": 0,
           "price": "20.99万",
-          "fuelType": "增程式",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1333ee2f0092b90abae0a741ff5a4652~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b119216331dc899853dacee28eef33da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1333ee2f0092b90abae0a741ff5a4652~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 增程39kWh Pro智能版四驱",
+          "configName": "2024款 增程39kWh Pro智能版四驱",
+          "configId": "241512",
+          "index": 1,
           "price": "22.99万",
-          "fuelType": "增程式",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "增程式 492马力"
+          "fuelType": "增程式",
+          "power": "纯电动 492马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "墨石灰",
+              "colors": [
+                "#8C8B8B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5459f6e02d23c89463f042dfbce57c4f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab308ceab50959c0297c139f056bbaa2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5459f6e02d23c89463f042dfbce57c4f~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 增程39kWh Max智驾版后驱",
+          "configName": "2024款 增程39kWh Max智驾版后驱",
+          "configId": "240794",
+          "index": 2,
           "price": "24.99万",
-          "fuelType": "增程式",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "增程式 314马力"
+          "fuelType": "增程式",
+          "power": "纯电动 314马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2be9941b0ac80f178cc170b242148204~2508x0.webp"
+            },
+            {
+              "name": "墨石灰",
+              "colors": [
+                "#8C8B8B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/838ffa00b2de44e52651943b4b759b81~2508x0.webp"
+            },
+            {
+              "name": "松石青",
+              "colors": [
+                "#ACC0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/747995e2000b94e6d3af599db57f088f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/600a79ec353a44aea857a5e919f1f12b~2508x0.webp"
+            },
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1a6a74405e5818917a1a614b73304bc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2be9941b0ac80f178cc170b242148204~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 增程39kWh Max智驾版四驱",
+          "configName": "2024款 增程39kWh Max智驾版四驱",
+          "configId": "240833",
+          "index": 3,
           "price": "26.99万",
-          "fuelType": "增程式",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "增程式 492马力"
+          "fuelType": "增程式",
+          "power": "纯电动 492马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "松石青",
+              "colors": [
+                "#ACC0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de307828699d4301eaffa5d3c074ba85~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e74f5191e87fd5181eb43805d930fdfa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/de307828699d4301eaffa5d3c074ba85~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 增程39kWh Ultra高性能版四驱",
+          "configName": "2024款 增程39kWh Ultra高性能版四驱",
+          "configId": "241513",
+          "index": 4,
           "price": "29.99万",
+          "manufacturer": "长安启源",
+          "class": "中大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 492马力",
           "size": "5045x1996x1695",
-          "manufacturer": "长安启源",
-          "class": "中大型SUV",
-          "power": "增程式 492马力"
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbe106a9c32a32196048e9d3dbebc834~2508x0.webp"
+            },
+            {
+              "name": "墨石灰",
+              "colors": [
+                "#8C8B8B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d6ae16869c7201ef49182efa0e1449a~2508x0.webp"
+            },
+            {
+              "name": "松石青",
+              "colors": [
+                "#ACC0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_32749080c4857084c43b371cd290ebb4~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#F8F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99efc4f54e5a73fae20a5134512962e9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6226032cd19929f0dde0feb23b50abfc~2508x0.webp"
+            },
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19aa33f678804a66e0c1a23c20515756~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fbe106a9c32a32196048e9d3dbebc834~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 纯电70kWh Air智能版后驱",
+          "configName": "2024款 纯电70kWh Air智能版后驱",
+          "configId": "241514",
+          "index": 5,
           "price": "19.99万",
-          "fuelType": "纯电动",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "纯电动 224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "长安启源E07 2024款 纯电90kWh Pro智能版后驱",
+          "configName": "2024款 纯电90kWh Pro智能版后驱",
+          "configId": "241515",
+          "index": 6,
           "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "纯电动 343马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 343马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c82db0489e6045f8e50b385288690e75~2508x0.webp"
+            },
+            {
+              "name": "松石青",
+              "colors": [
+                "#ACC0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/463d3c0f602ef587a25b6d871e4f3d6c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8941fccf5b8d57e3d4c0d020ba4db926~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c82db0489e6045f8e50b385288690e75~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 纯电90kWh Pro智能版四驱",
+          "configName": "2024款 纯电90kWh Pro智能版四驱",
+          "configId": "241516",
+          "index": 7,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "纯电动 598马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 598马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47bdab58392489e5a8f99fb0433ca058~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c08539a97ea4970b1252f8071ef42c3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47bdab58392489e5a8f99fb0433ca058~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 纯电90kWh Max智驾版后驱",
+          "configName": "2024款 纯电90kWh Max智驾版后驱",
+          "configId": "240795",
+          "index": 8,
           "price": "26.99万",
-          "fuelType": "纯电动",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "纯电动 343马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 343马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "长安启源E07 2024款 纯电90kWh Max智驾版四驱",
+          "configName": "2024款 纯电90kWh Max智驾版四驱",
+          "configId": "240834",
+          "index": 9,
           "price": "28.99万",
-          "fuelType": "纯电动",
-          "size": "5045x1996x1665",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "纯电动 598马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 598马力",
+          "size": "5045x1996x1665",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee31a14a7b4034a78a1288d67d77a2ad~2508x0.webp"
+            },
+            {
+              "name": "墨石灰",
+              "colors": [
+                "#8C8B8B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2606f3e5fd8ccdc7acb90291d5788ae2~2508x0.webp"
+            },
+            {
+              "name": "松石青",
+              "colors": [
+                "#ACC0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1af2c9a2ab3d8e6ac72124e1fb119d2c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/eb02b721e74bc1fdd80faecc0c3dd4e6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66720fe95010de1b442bc9d967851c2e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ee31a14a7b4034a78a1288d67d77a2ad~2508x0.webp"
         },
         {
-          "configName": "长安启源E07 2024款 纯电90kWh Ultra高性能版四驱",
+          "configName": "2024款 纯电90kWh Ultra高性能版四驱",
+          "configId": "240796",
+          "index": 10,
           "price": "31.99万",
-          "fuelType": "纯电动",
-          "size": "5045x1996x1695",
           "manufacturer": "长安启源",
           "class": "中大型SUV",
-          "power": "纯电动 598马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 598马力",
+          "size": "5045x1996x1695",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#121212"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36d799c36b18b59ef3fbc6f980186d76~2508x0.webp"
+            },
+            {
+              "name": "墨石灰",
+              "colors": [
+                "#8C8B8B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d297ac7dde4df85fa99dac19260752ac~2508x0.webp"
+            },
+            {
+              "name": "哑光墨石灰",
+              "colors": [
+                "#979696"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17f1b076563f6a5c6b7cd487125ebb4b~2508x0.webp"
+            },
+            {
+              "name": "松石青",
+              "colors": [
+                "#ACC0D6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/fbc204edaa0612b0e886060a9aa9b321~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#F8F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c606e6c7670f070cb9fcd61037e9a1c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/080d38cc744e0f0087d4e587ce22ac01~2508x0.webp"
+            },
+            {
+              "name": "赤橙",
+              "colors": [
+                "#D9A28B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc9c85dd95fe83068ece56e294e49396~2508x0.webp"
+            },
+            {
+              "name": "云白",
+              "colors": [
+                "#F6F6F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32cb58d3f5714314cd00f3d9b3906359~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/36d799c36b18b59ef3fbc6f980186d76~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25433,
+      "carName": "长安猎手K50",
+      "configs": [
+        {
+          "configName": "2025款 四驱全能型",
+          "configId": "247844",
+          "index": 0,
+          "price": "18.29万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5380x1980x1875",
+          "exteriorImages": [
+            {
+              "name": "羽白",
+              "colors": [
+                "#E7E7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9677e2b4241e294d90c891fef823ebb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "热浪橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b15e336be287e466df2e4fd3edea4526~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9677e2b4241e294d90c891fef823ebb~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱全域型",
+          "configId": "247702",
+          "index": 1,
+          "price": "19.29万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5380x1980x1920",
+          "exteriorImages": [
+            {
+              "name": "橄榄绿",
+              "colors": [
+                "#096A09"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c7274c4c191e40a9096cb8ac193e4b2~2508x0.webp"
+            },
+            {
+              "name": "简约黑",
+              "colors": [
+                "#1A1919"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2d38e3425da668cbf27ead3b793c98de~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "热浪橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5a64f3e1976e818ecdae09489d1d0eb2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c7274c4c191e40a9096cb8ac193e4b2~2508x0.webp"
+        },
+        {
+          "configName": "2025款 智享型长箱两驱",
+          "configId": "249289",
+          "index": 2,
+          "price": "14.09万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 177马力",
+          "size": "5630x1930x1885",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 智享型长箱四驱",
+          "configId": "249290",
+          "index": 3,
+          "price": "15.09万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5630x1930x1885",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 智享型标箱两驱",
+          "configId": "249291",
+          "index": 4,
+          "price": "13.99万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 177马力",
+          "size": "5380x1930x1885",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 智享型标箱四驱",
+          "configId": "249292",
+          "index": 5,
+          "price": "14.99万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5380x1930x1875",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 智领型长箱四驱",
+          "configId": "249293",
+          "index": 6,
+          "price": "16.99万",
+          "manufacturer": "长安启源",
+          "class": "中型皮卡",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5630x1930x1885",
+          "exteriorImages": [
+            {
+              "name": "星月灰",
+              "colors": [
+                "#707D8B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0d2ca80c7368a76d2ca1a0f9242b2fdc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0d2ca80c7368a76d2ca1a0f9242b2fdc~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-27T04:15:23.784Z",
+  "progress": {
+    "completed": 8,
+    "total": 9,
+    "percentage": 89,
+    "currentIndex": 9
+  }
 }

@@ -1,0 +1,90 @@
+{
+  "brand": "Ferrari",
+  "timestamp": "2025-08-28T02:30:15.759Z",
+  "crawlSummary": {
+    "totalCars": 4,
+    "successCount": 4,
+    "failCount": 0,
+    "totalTime": "2分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 5228,
+        "carName": "296",
+        "configCount": 4,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 4,
+        "status": "completed"
+      },
+      {
+        "carId": 4274,
+        "carName": "Roma",
+        "configCount": 1,
+        "exteriorColorCount": 3,
+        "interiorColorCount": 2,
+        "status": "completed"
+      },
+      {
+        "carId": 5214,
+        "carName": "Purosangue",
+        "configCount": 1,
+        "exteriorColorCount": 4,
+        "interiorColorCount": 3,
+        "status": "completed"
+      },
+      {
+        "carId": 10179,
+        "carName": "12Cilindri",
+        "configCount": 2,
+        "exteriorColorCount": 2,
+        "interiorColorCount": 2,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 14,
+    "totalInteriorColors": 11,
+    "exteriorColorTypes": [
+      "VERDE NURBURGRING",
+      "蓝色",
+      "BLU POZZI",
+      "ROSSO CORSA",
+      "GRIGIO TITANIO METALL",
+      "Celeste Trevi",
+      "ARGENTO NURBURGRING",
+      "NERO PUROSANGUE",
+      "BLU CORSA",
+      "Azurro La Plata Met",
+      "BIANCO CERVINO",
+      "GIALLO MODENA"
+    ],
+    "interiorColorTypes": [
+      "黑色/橙色",
+      "灰色",
+      "米色",
+      "NERO",
+      "黑色",
+      "红色",
+      "NERO 8500",
+      "BLU STERLING",
+      "TESTA DI MORO",
+      "BLACK",
+      "Verde Venaria"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

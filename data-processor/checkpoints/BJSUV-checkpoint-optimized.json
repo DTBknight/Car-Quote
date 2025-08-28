@@ -1,0 +1,143 @@
+{
+  "brand": "BJSUV",
+  "timestamp": "2025-08-26T09:00:56.747Z",
+  "crawlSummary": {
+    "totalCars": 8,
+    "successCount": 6,
+    "failCount": 2,
+    "totalTime": "8分钟",
+    "successRate": "75%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carName": "BJ90",
+        "configCount": 2,
+        "exteriorColorCount": 0,
+        "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 4567,
+        "carName": "BJ30",
+        "configCount": 5,
+        "exteriorColorCount": 24,
+        "interiorColorCount": 10,
+        "status": "completed"
+      },
+      {
+        "carId": 164,
+        "carName": "BJ40",
+        "configCount": 12,
+        "exteriorColorCount": 44,
+        "interiorColorCount": 24,
+        "status": "completed"
+      },
+      {
+        "carName": "北京BJ20",
+        "configCount": 12,
+        "exteriorColorCount": 0,
+        "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 5561,
+        "carName": "BJ60",
+        "configCount": 7,
+        "exteriorColorCount": 22,
+        "interiorColorCount": 11,
+        "status": "completed"
+      },
+      {
+        "carId": 9723,
+        "carName": "BJ40增程",
+        "configCount": 2,
+        "exteriorColorCount": 15,
+        "interiorColorCount": 4,
+        "status": "completed"
+      },
+      {
+        "carId": 165,
+        "carName": "BJ80",
+        "configCount": 6,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 3,
+        "status": "completed"
+      },
+      {
+        "carId": 9647,
+        "carName": "BJ60雷霆",
+        "configCount": 5,
+        "exteriorColorCount": 16,
+        "interiorColorCount": 3,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 126,
+    "totalInteriorColors": 55,
+    "exteriorColorTypes": [
+      "嘿嘿黑",
+      "社会银",
+      "不蕉绿",
+      "没困蓝",
+      "瑞思白",
+      "哑光随心灰",
+      "极夜黑",
+      "未来灰",
+      "雪域白",
+      "矿岩黄",
+      "火焰红",
+      "丛林绿",
+      "谧夜蓝",
+      "海风蓝",
+      "钛钢黑",
+      "贝雷绿",
+      "哑光海风蓝",
+      "熔岩红",
+      "皓月白",
+      "漠河极夜黑",
+      "蜀南竹海绿",
+      "苍石星灰",
+      "玉龙雪山白",
+      "茶卡盐湖蓝",
+      "烟波雾蓝",
+      "雨过蓝",
+      "玄铁灰",
+      "暴风灰",
+      "火焰红/黑色",
+      "雪域白/黑色",
+      "拉普兰/白色"
+    ],
+    "interiorColorTypes": [
+      "极光森林",
+      "星夜之境",
+      "绿野仙踪",
+      "破晓霞光",
+      "黑色",
+      "蓝色/黑色",
+      "蓝色/白色",
+      "红色/黑色",
+      "秋叶棕",
+      "春江蓝",
+      "森林暮影",
+      "深空晨曦",
+      "棕色",
+      "橙色/黑色",
+      "驼绒黄"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

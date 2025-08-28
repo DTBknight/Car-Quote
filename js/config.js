@@ -80,7 +80,7 @@ const CONFIG = {
   
   // 默认值
   DEFAULTS: {
-    SERVICE_FEE_RATE: 0.04,
+    SERVICE_FEE_RATE: 0.08,
     CURRENCY: 'USD'
   }
 };

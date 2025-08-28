@@ -3,37 +3,233 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/55fe313b27dbd598e4afc7da5ae88c49~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 1406,
       "carName": "森雅R7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba89037b61064f19b5688c5e21d937b7~1200x0.png",
       "configs": [
         {
-          "configName": "森雅R7 2024款 1.5L 手动时尚型",
+          "configName": "2024款 1.5L 手动时尚型",
+          "configId": "100992",
+          "index": 0,
           "price": "7.98万",
-          "fuelType": "汽油",
-          "size": "4305x1780x1655",
           "manufacturer": "一汽吉林",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4305x1780x1655",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "森雅R7 2024款 1.5L 手动舒适型",
+          "configName": "2024款 1.5L 手动舒适型",
+          "configId": "100993",
+          "index": 1,
           "price": "8.28万",
-          "fuelType": "汽油",
-          "size": "4305x1780x1655",
           "manufacturer": "一汽吉林",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4305x1780x1655",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "森雅R7 2024款 1.5L 自动舒适型",
+          "configName": "2024款 1.5L 自动舒适型",
+          "configId": "100994",
+          "index": 2,
           "price": "8.98万",
-          "fuelType": "汽油",
-          "size": "4305x1780x1655",
           "manufacturer": "一汽吉林",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4305x1780x1655",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 2923,
+      "carName": "蓝舰H6",
+      "configs": [
+        {
+          "configName": "2021款 2.5T两驱柴油标准型标轴JE4D25Q6A",
+          "configId": "51067",
+          "index": 0,
+          "price": "9.68万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5330x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T两驱柴油标准型长轴JE4D25Q6A",
+          "configId": "51068",
+          "index": 1,
+          "price": "9.98万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5640x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T四驱柴油标准型标轴JE4D25Q6A",
+          "configId": "51069",
+          "index": 2,
+          "price": "10.98万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5330x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T四驱柴油标准型长轴JE4D25Q6A",
+          "configId": "51070",
+          "index": 3,
+          "price": "11.28万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5640x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T两驱柴油舒享型标轴JE4D25Q6A",
+          "configId": "51071",
+          "index": 4,
+          "price": "10.48万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5330x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T两驱柴油舒享型长轴JE4D25Q6A",
+          "configId": "51072",
+          "index": 5,
+          "price": "10.68万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5640x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T四驱柴油舒享型标轴JE4D25Q6A",
+          "configId": "51073",
+          "index": 6,
+          "price": "11.78万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5330x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T四驱柴油舒享型长轴JE4D25Q6A",
+          "configId": "51074",
+          "index": 7,
+          "price": "11.98万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5640x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T两驱柴油尊享型标轴JE4D25Q6A",
+          "configId": "51075",
+          "index": 8,
+          "price": "11.68万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5330x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T两驱柴油尊享型长轴JE4D25Q6A",
+          "configId": "51076",
+          "index": 9,
+          "price": "11.88万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5640x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T四驱柴油尊享型标轴JE4D25Q6A",
+          "configId": "51077",
+          "index": 10,
+          "price": "12.88万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5330x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.5T四驱柴油尊享型长轴JE4D25Q6A",
+          "configId": "51078",
+          "index": 11,
+          "price": "12.98万",
+          "manufacturer": "一汽红塔",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.5T 150马力 L4",
+          "size": "5640x1880x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-27T10:20:00.805Z",
+  "progress": {
+    "completed": 2,
+    "total": 2,
+    "percentage": 100,
+    "currentIndex": 2
+  }
 }

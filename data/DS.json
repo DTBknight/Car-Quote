@@ -3,160 +3,437 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/ca1fd6560e4c4cad385aef01512bc28a~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 3724,
       "carName": "9",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c983959354f072e648f1a26d8134b039~1200x0.png",
       "configs": [
         {
-          "configName": "DS 9 2024款 45THP 歌剧院版",
+          "configName": "2024款 45THP 歌剧院版",
+          "configId": "94616",
+          "index": 0,
           "price": "34.99万",
-          "fuelType": "汽油",
-          "size": "4933x1855x1468",
           "manufacturer": "DS汽车",
           "class": "中型车",
-          "power": "1.6T 215马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 215马力 L4",
+          "size": "4933x1855x1468",
+          "exteriorImages": [
+            {
+              "name": "皓月银",
+              "colors": [
+                "#C0C1B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b30697928ca86b8b7a2bbb09a62bb714~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "波尔多红",
+              "colors": [
+                "#772222"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63b07b8b68e4843c51933e2d668629c6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b30697928ca86b8b7a2bbb09a62bb714~2508x0.webp"
         },
         {
-          "configName": "DS 9 2022款 45THP 蒙马特进取版",
+          "configName": "2022款 45THP 蒙马特进取版",
+          "configId": "73139",
+          "index": 1,
           "price": "27.49万",
-          "fuelType": "汽油",
-          "size": "4933x1855x1468",
           "manufacturer": "DS汽车",
           "class": "中型车",
-          "power": "1.6T 215马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 215马力 L4",
+          "size": "4933x1855x1468",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 1380,
       "carName": "4",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/48faf7a577fe46f6acd0b2cd87187658~1200x0.png",
       "configs": [
         {
-          "configName": "DS 4 2023款 1.6T 夏乐宫CROSS版",
+          "configName": "2023款 1.6T 夏乐宫CROSS版",
+          "configId": "90726",
+          "index": 0,
           "price": "26.28万",
+          "manufacturer": "DS(进口)",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.6T 215马力 L4",
           "size": "4400x1830x1480",
-          "manufacturer": "DS(进口)",
-          "class": "紧凑型车",
-          "power": "1.6T 215马力 L4"
+          "exteriorImages": [
+            {
+              "name": "水光灰",
+              "colors": [
+                "#848484"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec643e46eab5de7539c0d4a349666988~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1705e68bae92f41c6f2c2b7ec19b2045~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec643e46eab5de7539c0d4a349666988~2508x0.webp"
         },
         {
-          "configName": "DS 4 2023款 1.6T 里沃利CROSS版",
+          "configName": "2023款 1.6T 里沃利CROSS版",
+          "configId": "90727",
+          "index": 1,
           "price": "29.18万",
-          "fuelType": "汽油",
-          "size": "4400x1830x1490",
           "manufacturer": "DS(进口)",
           "class": "紧凑型车",
-          "power": "1.6T 215马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 215马力 L4",
+          "size": "4400x1830x1490",
+          "exteriorImages": [
+            {
+              "name": "水光灰",
+              "colors": [
+                "#848484"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f77312566806a27f8f7b70f93ef7fd78~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a26fae0f5559d80b31b8b12c220f1d5b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f77312566806a27f8f7b70f93ef7fd78~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4157,
       "carName": "9 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a125af42b9c27a60b6c0fc9edc41322a~1200x0.png",
       "configs": [
         {
-          "configName": "DS 9 PHEV 2022款 1.6T E-TENSE 蒙马特进取版",
+          "configName": "2022款 1.6T E-TENSE 蒙马特进取版",
+          "configId": "73143",
+          "index": 0,
           "price": "33.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4933x1855x1468",
           "manufacturer": "DS汽车",
           "class": "中型车",
-          "power": "插电式混动 110马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.6T 200马力 L4 插电式混动",
+          "size": "4933x1855x1468",
+          "exteriorImages": [
+            {
+              "name": "皓月银",
+              "colors": [
+                "#C0C1B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14bed76960909f5481bc34edd47fde27~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3bac28f5715e45db0bfd28733574d3a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/14bed76960909f5481bc34edd47fde27~2508x0.webp"
         },
         {
-          "configName": "DS 9 PHEV 2022款 1.6T E-TENSE 里沃利版",
+          "configName": "2022款 1.6T E-TENSE 里沃利版",
+          "configId": "73145",
+          "index": 1,
           "price": "36.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4933x1855x1468",
           "manufacturer": "DS汽车",
           "class": "中型车",
-          "power": "插电式混动 110马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.6T 200马力 L4 插电式混动",
+          "size": "4933x1855x1468",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "DS 9 PHEV 2022款 1.6T E-TENSE 歌剧院版",
+          "configName": "2022款 1.6T E-TENSE 歌剧院版",
+          "configId": "73147",
+          "index": 2,
           "price": "40.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4933x1855x1468",
           "manufacturer": "DS汽车",
           "class": "中型车",
-          "power": "插电式混动 110马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.6T 200马力 L4 插电式混动",
+          "size": "4933x1855x1468",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 3383,
       "carName": "3 EV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/589b922240ebf035ff583587be7d67e2~1200x0.png",
       "configs": [
         {
-          "configName": "DS 3 EV 2021款 E-Tense 右岸版",
+          "configName": "2021款 E-Tense 右岸版",
+          "configId": "53713",
+          "index": 0,
           "price": "31.33万",
-          "fuelType": "纯电动",
-          "size": "4118x1791x1524",
           "manufacturer": "DS(进口)",
           "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4118x1791x1524",
+          "exteriorImages": [
+            {
+              "name": "电光蓝",
+              "colors": [
+                "#105C80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b058e1204798d8d588168fd1748e160~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奶昔白",
+              "colors": [
+                "#D5D5D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/777754fcfa9d2fc1da8ad3ea4a278973~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9b058e1204798d8d588168fd1748e160~2508x0.webp"
         },
         {
-          "configName": "DS 3 EV 2021款 E-Tense 左岸版",
+          "configName": "2021款 E-Tense 左岸版",
+          "configId": "54055",
+          "index": 1,
           "price": "33.33万",
-          "fuelType": "纯电动",
-          "size": "4118x1791x1524",
           "manufacturer": "DS(进口)",
           "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4118x1791x1524",
+          "exteriorImages": [
+            {
+              "name": "皓月银",
+              "colors": [
+                "#C0C1B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/621a8317f2e073c6e0fa680f0518bbbe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec60a55bfe883acbb759dbdcd2284ef1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/621a8317f2e073c6e0fa680f0518bbbe~2508x0.webp"
         },
         {
-          "configName": "DS 3 EV 2021款 INES DE LA FRESSANGE 限量版",
+          "configName": "2021款 INES DE LA FRESSANGE 限量版",
+          "configId": "56491",
+          "index": 2,
           "price": "32.33万",
-          "fuelType": "纯电动",
-          "size": "4118x1791x1524",
           "manufacturer": "DS(进口)",
           "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4118x1791x1524",
+          "exteriorImages": [
+            {
+              "name": "水墨蓝/珍珠黑",
+              "colors": [
+                "#0C0C63",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1246a91340ccc315fe8c7fd4dc5a81c8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/红色",
+              "colors": [
+                "#0E0165",
+                "#7D0707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1cfe79dd1ef64b239e0c854a50c702ee~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1246a91340ccc315fe8c7fd4dc5a81c8~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1805,
       "carName": "7",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5d50f80ae4b6671c95edb0a710a41b1~1200x0.png",
       "configs": [
         {
-          "configName": "DS 7 2022款 35THP 蒙马特十周年臻藏版",
+          "configName": "2022款 35THP 蒙马特十周年臻藏版",
+          "configId": "79988",
+          "index": 0,
           "price": "24.99万",
-          "fuelType": "汽油",
-          "size": "4603x1891x1626",
           "manufacturer": "DS汽车",
           "class": "紧凑型SUV",
-          "power": "1.6T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 181马力 L4",
+          "size": "4603x1891x1626",
+          "exteriorImages": [
+            {
+              "name": "星河紫",
+              "colors": [
+                "#372934"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/032bc44a382e0caa79fea45d674b591a~2508x0.webp"
+            },
+            {
+              "name": "拜占庭金",
+              "colors": [
+                "#D37928"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/880ad18a6ad7462a1939f528b57491c3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/金色",
+              "colors": [
+                "#000000",
+                "#94884C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c14fe7cf3226106bfe7899b31b402a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/032bc44a382e0caa79fea45d674b591a~2508x0.webp"
         },
         {
-          "configName": "DS 7 2022款 45THP 卢浮典藏版",
+          "configName": "2022款 45THP 卢浮典藏版",
+          "configId": "59885",
+          "index": 1,
           "price": "32.99万",
-          "fuelType": "汽油",
-          "size": "4603x1891x1626",
           "manufacturer": "DS汽车",
           "class": "紧凑型SUV",
-          "power": "1.6T 215马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 215马力 L4",
+          "size": "4603x1891x1626",
+          "exteriorImages": [
+            {
+              "name": "静谧黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3d9c109818e812d535a0df34cc36ce5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/114be887933208fabbf98a5b01b4bf08~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e3d9c109818e812d535a0df34cc36ce5~2508x0.webp"
         },
         {
-          "configName": "DS 7 2020款 35THP 蒙马特版",
+          "configName": "2020款 35THP 蒙马特版",
+          "configId": "34328",
+          "index": 2,
           "price": "24.99万",
-          "fuelType": "汽油",
-          "size": "4603x1891x1626",
           "manufacturer": "DS汽车",
           "class": "紧凑型SUV",
-          "power": "1.6T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 181马力 L4",
+          "size": "4603x1891x1626",
+          "exteriorImages": [
+            {
+              "name": "流星银",
+              "colors": [
+                "#B0B1B7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc94453ff5fd64c041ceafb5ab70c492~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EFF3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6a3fd3f6854af993d9902690b7d9ecb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b56988d28dc78661dacafab619173d96~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cc94453ff5fd64c041ceafb5ab70c492~2508x0.webp"
         },
         {
-          "configName": "DS 7 2020款 45THP 歌剧院版",
+          "configName": "2020款 45THP 歌剧院版",
+          "configId": "34332",
+          "index": 3,
           "price": "31.99万",
-          "fuelType": "汽油",
-          "size": "4603x1891x1626",
           "manufacturer": "DS汽车",
           "class": "紧凑型SUV",
-          "power": "1.6T 215马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 215马力 L4",
+          "size": "4603x1891x1626",
+          "exteriorImages": [
+            {
+              "name": "星河紫",
+              "colors": [
+                "#372934"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c41ad1c8843268d7881ef04693cb23b8~2508x0.webp"
+            },
+            {
+              "name": "拜占庭金",
+              "colors": [
+                "#D37928"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1538a01cd5bb36c3d1801235a2cc226d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62d2a42953a15a40ca530d212d114846~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c41ad1c8843268d7881ef04693cb23b8~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-27T10:00:56.696Z",
+  "progress": {
+    "completed": 5,
+    "total": 5,
+    "percentage": 100,
+    "currentIndex": 5
+  }
 }

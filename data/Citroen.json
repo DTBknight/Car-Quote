@@ -3,106 +3,547 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/22ec2bec34d240bcad6f54d54ece1f1c~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 5048,
       "carName": "凡尔赛C5 X",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ae4bd4b8cf5f42f88418489265588aee~1200x0.png",
       "configs": [
         {
-          "configName": "凡尔赛C5 X 2025款 海外版",
-          "price": "9.97万",
-          "fuelType": "汽油",
-          "size": "4805x1865x1505",
+          "configName": "2025款 海外版",
+          "configId": "249257",
+          "index": 0,
+          "price": "13.77万",
           "manufacturer": "东风雪铁龙",
           "class": "中型车",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4805x1865x1505",
+          "exteriorImages": [
+            {
+              "name": "鎏金绿",
+              "colors": [
+                "#9B9B7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dce37d338abc39370e8ed2ed7ab95d36~2508x0.webp"
+            },
+            {
+              "name": "太空银",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c3f8020b702061ce7066e8531b9fa88~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_847de95bfe01c4e642a054a2270e4004~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3879b2ad16bfe3244b0b7b98ce02cf0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dce37d338abc39370e8ed2ed7ab95d36~2508x0.webp"
         },
         {
-          "configName": "凡尔赛C5 X 2024款 1.6T 享不凡",
+          "configName": "2024款 1.6T 享不凡",
+          "configId": "99618",
+          "index": 1,
           "price": "14.37万",
-          "fuelType": "汽油",
-          "size": "4805x1865x1505",
           "manufacturer": "东风雪铁龙",
           "class": "中型车",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4805x1865x1505",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝",
+              "colors": [
+                "#121665"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5403d4a0d9d4f1298c7c2d0dee5ee54~2508x0.webp"
+            },
+            {
+              "name": "极夜蓝/黑色",
+              "colors": [
+                "#121665",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64ab74dd5634916fe7d9a41406d78f7a~2508x0.webp"
+            },
+            {
+              "name": "青岩灰",
+              "colors": [
+                "#73747A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60b2bddd80127ab042419c54869cf89f~2508x0.webp"
+            },
+            {
+              "name": "鎏金绿",
+              "colors": [
+                "#9B9B7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ad7ac9e1a01fa39ac678cb5c070006a~2508x0.webp"
+            },
+            {
+              "name": "鎏金绿/黑色",
+              "colors": [
+                "#9B9B7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/708eed1eb0556b854017c6652b453c94~2508x0.webp"
+            },
+            {
+              "name": "太空银",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/873292fc09b43b48edac8ff389bed77d~2508x0.webp"
+            },
+            {
+              "name": "太空银/黑色",
+              "colors": [
+                "#B1B1B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baeed89791b47e1ce35b7625f8ad62e5~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/066d9616e153189eb9623c7022d6639e~2508x0.webp"
+            },
+            {
+              "name": "珠光白/黑色",
+              "colors": [
+                "#E5EAEB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ed4126d60af93f5668bbd6f25ea18ff~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银石深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b57dd9724c2dfa4532669c9c98783a8~2508x0.webp"
+            },
+            {
+              "name": "慕白浅灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c52a88b37bb080dc68370b05bc77c26f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d5403d4a0d9d4f1298c7c2d0dee5ee54~2508x0.webp"
         },
         {
-          "configName": "凡尔赛C5 X 2024款 1.6T 势不凡",
+          "configName": "2024款 1.6T 势不凡",
+          "configId": "99617",
+          "index": 2,
           "price": "15.87万",
-          "fuelType": "汽油",
-          "size": "4805x1865x1505",
           "manufacturer": "东风雪铁龙",
           "class": "中型车",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4805x1865x1505",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝",
+              "colors": [
+                "#121665"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/287d553f8dea131cb2f753b36426cea9~2508x0.webp"
+            },
+            {
+              "name": "极夜蓝/黑色",
+              "colors": [
+                "#121665",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d104e9acb7163557fa899b8e84cbd724~2508x0.webp"
+            },
+            {
+              "name": "青岩灰",
+              "colors": [
+                "#73747A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8c09df1e147b585a51accd5eae3d81c~2508x0.webp"
+            },
+            {
+              "name": "青岩灰/黑色",
+              "colors": [
+                "#73747A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/438438dcd71e875d143c68732bd8f98b~2508x0.webp"
+            },
+            {
+              "name": "鎏金绿",
+              "colors": [
+                "#9B9B7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5f547e9467e94e4b5abab5bd9c2b46e~2508x0.webp"
+            },
+            {
+              "name": "鎏金绿/黑色",
+              "colors": [
+                "#9B9B7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c734bfa0eac0fcdd5308d6ad29f5cf39~2508x0.webp"
+            },
+            {
+              "name": "太空银",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/422363d0f577649b8dca6aeac8cfdcdf~2508x0.webp"
+            },
+            {
+              "name": "太空银/黑色",
+              "colors": [
+                "#B1B1B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c943288efa05a8f7666b69a9a2bb8b11~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0d90366baf447ac38fa84c11a9f86dd~2508x0.webp"
+            },
+            {
+              "name": "珠光白/黑色",
+              "colors": [
+                "#E5EAEB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a24bfa65c5e0fa565e70e59902e47b28~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银石深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/331d69890ec7230d37618308327a6125~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/287d553f8dea131cb2f753b36426cea9~2508x0.webp"
         },
         {
-          "configName": "凡尔赛C5 X 2024款 1.6T 旅不凡",
+          "configName": "2024款 1.6T 旅不凡",
+          "configId": "99218",
+          "index": 3,
           "price": "17.1717万",
-          "fuelType": "汽油",
-          "size": "4805x1865x1505",
           "manufacturer": "东风雪铁龙",
           "class": "中型车",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4805x1865x1505",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝/黑色",
+              "colors": [
+                "#121665",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e25b1971d726efd2360ae56e0e5575b~2508x0.webp"
+            },
+            {
+              "name": "太空银/黑色",
+              "colors": [
+                "#B1B1B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3971ff025a0394e0fec7523af5f58ef4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月见灰",
+              "colors": [
+                "#EFE6E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7730c52347a703ab7ccbe88473b78e21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3e25b1971d726efd2360ae56e0e5575b~2508x0.webp"
         },
         {
-          "configName": "凡尔赛C5 X 2024款 1.6T 耀不凡",
+          "configName": "2024款 1.6T 耀不凡",
+          "configId": "99620",
+          "index": 4,
           "price": "18.67万",
-          "fuelType": "汽油",
-          "size": "4805x1865x1505",
           "manufacturer": "东风雪铁龙",
           "class": "中型车",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4805x1865x1505",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝/黑色",
+              "colors": [
+                "#121665",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c59cbadbc1cd91b2f78e8189e17054e6~2508x0.webp"
+            },
+            {
+              "name": "太空银/黑色",
+              "colors": [
+                "#B1B1B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83d05087739eafff0cdc69903d50d05b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银石深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7671ccffb142b44ac0f9ef0aaeab8357~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c59cbadbc1cd91b2f78e8189e17054e6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1642,
       "carName": "天逸 C5 AIRCROSS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1034dd72b51c4ca69bf3beeafb741dbe~1200x0.png",
       "configs": [
         {
-          "configName": "天逸 C5 AIRCROSS 2026款 360THP 智享版",
+          "configName": "2026款 360THP 智享版",
+          "configId": "249126",
+          "index": 0,
           "price": "14.97万",
-          "fuelType": "汽油",
-          "size": "4510x1860x1705",
           "manufacturer": "东风雪铁龙",
           "class": "紧凑型SUV",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4510x1860x1705",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝",
+              "colors": [
+                "#121665"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f380b94fdf490d76c84ec63739392f59~2508x0.webp"
+            },
+            {
+              "name": "青岩灰",
+              "colors": [
+                "#73747A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5255fa235fc2e34f0ca320ceb3143c7~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_792ad7673e7a3355eb0813a8028dbc29~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜夜天际灰",
+              "colors": [
+                "#333333"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_fc5a29e82f86ca252ca39fc300c72a3c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f380b94fdf490d76c84ec63739392f59~2508x0.webp"
         },
         {
-          "configName": "天逸 C5 AIRCROSS 2026款 400THP 旗舰版",
+          "configName": "2026款 400THP 旗舰版",
+          "configId": "249127",
+          "index": 1,
           "price": "16.47万",
-          "fuelType": "汽油",
-          "size": "4510x1860x1705",
           "manufacturer": "东风雪铁龙",
           "class": "紧凑型SUV",
-          "power": "1.8T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "1.8T 211马力 L4",
+          "size": "4510x1860x1705",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝",
+              "colors": [
+                "#121665"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05c96c215628339c7ccac0c9d8c8cbfe~2508x0.webp"
+            },
+            {
+              "name": "青岩灰",
+              "colors": [
+                "#73747A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e400c6f477fc141f41a8d8d21e788677~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e181ef90f4766ae13aee50248e1970a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "海蓝高雅灰",
+              "colors": [
+                "#3471B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b4724fcb741c1b30215b41e0a467ded~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05c96c215628339c7ccac0c9d8c8cbfe~2508x0.webp"
         },
         {
-          "configName": "天逸 C5 AIRCROSS 2024款 400THP 冠军版",
+          "configName": "2024款 400THP 冠军版",
+          "configId": "238729",
+          "index": 2,
           "price": "18.27万",
-          "fuelType": "汽油",
-          "size": "4510x1860x1705",
           "manufacturer": "东风雪铁龙",
           "class": "紧凑型SUV",
-          "power": "1.8T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "1.8T 211马力 L4",
+          "size": "4510x1860x1705",
+          "exteriorImages": [
+            {
+              "name": "珠光白/黑色",
+              "colors": [
+                "#E5EAEB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2cafd1749ab5d4b19144b8f6cc353a64~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "海蓝高雅灰",
+              "colors": [
+                "#3471B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e0222e5d2f8f4ddbc753ba7f7fd4507~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2cafd1749ab5d4b19144b8f6cc353a64~2508x0.webp"
         },
         {
-          "configName": "天逸 C5 AIRCROSS 2023款 360THP 智在版",
+          "configName": "2023款 360THP 智在版",
+          "configId": "91560",
+          "index": 3,
           "price": "15.27万",
-          "fuelType": "汽油",
-          "size": "4510x1860x1705",
           "manufacturer": "东风雪铁龙",
           "class": "紧凑型SUV",
-          "power": "1.6T 175马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 175马力 L4",
+          "size": "4510x1860x1705",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝",
+              "colors": [
+                "#121665"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95664e849f5a4bc1df03af584ce92f8d~2508x0.webp"
+            },
+            {
+              "name": "青岩灰",
+              "colors": [
+                "#73747A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/024333089d2d3341533fbe7afd9cfc53~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/932fb91721a091dffde99ee9f9303746~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜夜天际灰",
+              "colors": [
+                "#333333"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f48873c3def05e1fb56be001774043d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/95664e849f5a4bc1df03af584ce92f8d~2508x0.webp"
         },
         {
-          "configName": "天逸 C5 AIRCROSS 2023款 400THP 纵擎版",
+          "configName": "2023款 400THP 纵擎版",
+          "configId": "91621",
+          "index": 4,
           "price": "16.97万",
-          "fuelType": "汽油",
-          "size": "4510x1860x1705",
           "manufacturer": "东风雪铁龙",
           "class": "紧凑型SUV",
-          "power": "1.8T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "1.8T 211马力 L4",
+          "size": "4510x1860x1705",
+          "exteriorImages": [
+            {
+              "name": "极夜蓝",
+              "colors": [
+                "#121665"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbe492d352d4bb5b430e3adf945294d4~2508x0.webp"
+            },
+            {
+              "name": "青岩灰",
+              "colors": [
+                "#73747A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4aad95a19ea2fb88935690ddd11861c~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#E5E9ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b2b2b5d3127c43688ebb3191fb789a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "海蓝高雅灰",
+              "colors": [
+                "#3471B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c75de83f41bc5dbe05a02197b6d010b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cbe492d352d4bb5b430e3adf945294d4~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-27T06:36:55.759Z",
+  "progress": {
+    "completed": 2,
+    "total": 2,
+    "percentage": 100,
+    "currentIndex": 2
+  }
 }
