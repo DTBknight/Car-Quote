@@ -3,677 +3,4239 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/tos-cn-i-dcdx/8bac8e50316b4b96b9f9f58915dc7266~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 20154,
       "carName": "星愿",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bba1dad191114399996fc3ff5ad33ea0~1200x0.png",
       "configs": [
         {
-          "configName": "星愿 2025款 310km 青春版",
+          "configName": "2025款 310km 青春版",
+          "configId": "240563",
+          "index": 0,
           "price": "6.88万",
-          "fuelType": "纯电动",
-          "size": "4135x1805x1570",
           "manufacturer": "吉利银河",
           "class": "小型车",
-          "power": "纯电动 79马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 79马力",
+          "size": "4135x1805x1570",
+          "exteriorImages": [
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#3B98AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1026f637a9c510663fdbcf999a3eec2~2508x0.webp"
+            },
+            {
+              "name": "慕斯银",
+              "colors": [
+                "#A3A8B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0179dcafe20a77e213de672cea32c83~2508x0.webp"
+            },
+            {
+              "name": "松露灰",
+              "colors": [
+                "#BEBEBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32df5c4307e323d26bd92754404b934e~2508x0.webp"
+            },
+            {
+              "name": "天真蓝",
+              "colors": [
+                "#C2DAF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1380a4356b98e5b96bd6568a475abaa1~2508x0.webp"
+            },
+            {
+              "name": "香草米",
+              "colors": [
+                "#E5E0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6a88ad4c9e067ea6f7a2934f295743f~2508x0.webp"
+            },
+            {
+              "name": "冰莓粉",
+              "colors": [
+                "#EAE0E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d9211323e37b9902988b1484efd92d0~2508x0.webp"
+            },
+            {
+              "name": "奶盖白",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7da14ff42d00f19ba3d54cc8110977ae~2508x0.webp"
+            },
+            {
+              "name": "罗勒青",
+              "colors": [
+                "#EAF2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62d9420aab18f6d3b8d0afc95142ee46~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#68B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15a31a9af04e756a9141960063bc1920~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_489d5b11cfcbab6652c457264f4d7cb1~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cafdde846e08daf79cd7ac504017d284~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e1026f637a9c510663fdbcf999a3eec2~2508x0.webp"
         },
         {
-          "configName": "星愿 2025款 310km 梦想版",
+          "configName": "2025款 310km 梦想版",
+          "configId": "240562",
+          "index": 1,
           "price": "7.68万",
-          "fuelType": "纯电动",
-          "size": "4135x1805x1570",
           "manufacturer": "吉利银河",
           "class": "小型车",
-          "power": "纯电动 79马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 79马力",
+          "size": "4135x1805x1570",
+          "exteriorImages": [
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#3B98AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d55112791d8bf51cd07fce1b35b52556~2508x0.webp"
+            },
+            {
+              "name": "慕斯银",
+              "colors": [
+                "#A3A8B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d4fa4fb3944c5489d57886455145647~2508x0.webp"
+            },
+            {
+              "name": "松露灰",
+              "colors": [
+                "#BEBEBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0220f8ba18aafcbd4c7bb38b93c12ca~2508x0.webp"
+            },
+            {
+              "name": "天真蓝",
+              "colors": [
+                "#C2DAF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de1e41406460f6fa2e09294858d2427b~2508x0.webp"
+            },
+            {
+              "name": "香草米",
+              "colors": [
+                "#E5E0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/680ec0913100ff2f7395fd005837b0bb~2508x0.webp"
+            },
+            {
+              "name": "冰莓粉",
+              "colors": [
+                "#EAE0E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2fb682ef92f234943fed06fea290496~2508x0.webp"
+            },
+            {
+              "name": "奶盖白",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4c7b66a4525e5d099037dc79b92c923~2508x0.webp"
+            },
+            {
+              "name": "罗勒青",
+              "colors": [
+                "#EAF2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdb77d73510fe48eb6caa24ed4f6defc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#68B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a66408d62066745f4d2cd093612016f0~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d26bde0f89b1179d240fb78d4aded1ff~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f04c099a02e860d9a1f83c7f845c9b5c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d55112791d8bf51cd07fce1b35b52556~2508x0.webp"
         },
         {
-          "configName": "星愿 2025款 410km 自由版",
+          "configName": "2025款 410km 自由版",
+          "configId": "111187",
+          "index": 2,
           "price": "8.18万",
-          "fuelType": "纯电动",
-          "size": "4135x1805x1570",
           "manufacturer": "吉利银河",
           "class": "小型车",
-          "power": "纯电动 116马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 116马力",
+          "size": "4135x1805x1570",
+          "exteriorImages": [
+            {
+              "name": "慕斯银",
+              "colors": [
+                "#A3A8B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe7be535d49c4f95a05c15614c6ec1af~2508x0.webp"
+            },
+            {
+              "name": "松露灰",
+              "colors": [
+                "#BEBEBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fd9f344c6be227654b2560617531069~2508x0.webp"
+            },
+            {
+              "name": "香草米",
+              "colors": [
+                "#E5E0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7a842c7f47a1a10d45b1d1f4d36067d~2508x0.webp"
+            },
+            {
+              "name": "冰莓粉",
+              "colors": [
+                "#EAE0E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_691fee620fe681717c8745a40c856e67~2508x0.webp"
+            },
+            {
+              "name": "奶盖白",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a303d54939da008d110e3d84fc8191a~2508x0.webp"
+            },
+            {
+              "name": "罗勒青",
+              "colors": [
+                "#EAF2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9d616d44cd23fdd049ea9f4e341480a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#68B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0a7bc5854e03c0ceadb736036958f33~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_25fbe21fc90903b44cd3c5c953e49b4f~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc39939a39d8855656deb2be3d02b0e6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fe7be535d49c4f95a05c15614c6ec1af~2508x0.webp"
         },
         {
-          "configName": "星愿 2025款 UP 410km 探索版",
+          "configName": "2025款 UP 410km 探索版",
+          "configId": "240564",
+          "index": 3,
           "price": "8.78万",
-          "fuelType": "纯电动",
-          "size": "4135x1805x1570",
           "manufacturer": "吉利银河",
           "class": "小型车",
-          "power": "纯电动 116马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 116马力",
+          "size": "4135x1805x1570",
+          "exteriorImages": [
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#3B98AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b07a2af43213f9810ce70900fec6dc01~2508x0.webp"
+            },
+            {
+              "name": "慕斯银",
+              "colors": [
+                "#A3A8B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a39195bf17cb49a68a93712d7d8a87a~2508x0.webp"
+            },
+            {
+              "name": "松露灰",
+              "colors": [
+                "#BEBEBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43907e9f5e2f0b7f5dcff7e25aab4199~2508x0.webp"
+            },
+            {
+              "name": "天真蓝",
+              "colors": [
+                "#C2DAF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4058bc798bf21e7427a28db0f715dda7~2508x0.webp"
+            },
+            {
+              "name": "香草米",
+              "colors": [
+                "#E5E0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/876ee1f3a48eabc258d7c807c82a3fb8~2508x0.webp"
+            },
+            {
+              "name": "冰莓粉",
+              "colors": [
+                "#EAE0E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/833ea8d22c3e51d21e0c51756095719d~2508x0.webp"
+            },
+            {
+              "name": "奶盖白",
+              "colors": [
+                "#EAEAEA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1580468945e58fb545bee366e53c8aed~2508x0.webp"
+            },
+            {
+              "name": "罗勒青",
+              "colors": [
+                "#EAF2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/223c69956d477bc2595fe19cf25ebbee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#68B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e01db834dfcf97bd1b3cd0f5d4ad2f36~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f6ecbd42be283348f5d470a979a04cd~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f95145aee00e8cc950b7a15174b681d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b07a2af43213f9810ce70900fec6dc01~2508x0.webp"
         },
         {
-          "configName": "星愿 2025款 UP 410km 探索+版",
+          "configName": "2025款 UP 410km 探索+版",
+          "configId": "111189",
+          "index": 4,
           "price": "9.78万",
-          "fuelType": "纯电动",
-          "size": "4135x1805x1570",
           "manufacturer": "吉利银河",
           "class": "小型车",
-          "power": "纯电动 116马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 116马力",
+          "size": "4135x1805x1570",
+          "exteriorImages": [
+            {
+              "name": "海盐蓝/黑色",
+              "colors": [
+                "#3B98AD",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69426629019aa46cd42f2ef7060b4320~2508x0.webp"
+            },
+            {
+              "name": "慕斯银/黑色",
+              "colors": [
+                "#A3A8B4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/140e98f5b4af66ae1b261ed2add2996e~2508x0.webp"
+            },
+            {
+              "name": "松露灰/黑色",
+              "colors": [
+                "#BEBEBE",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28cdb3d93679d9a97193c898d1073901~2508x0.webp"
+            },
+            {
+              "name": "天真蓝/黑色",
+              "colors": [
+                "#C2DAF8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f029b6ae839747c17cdaa881cd16dac~2508x0.webp"
+            },
+            {
+              "name": "香草米",
+              "colors": [
+                "#E5E0D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2b691c52bea8218d6dea756ff39e740a~2508x0.webp"
+            },
+            {
+              "name": "香草米/黑色",
+              "colors": [
+                "#E5E0D6",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/322783eeae90af14a0df868040844130~2508x0.webp"
+            },
+            {
+              "name": "冰莓粉/黑色",
+              "colors": [
+                "#EAE0E3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4f79261534e239538561aa9ea0575ba~2508x0.webp"
+            },
+            {
+              "name": "奶盖白/黑色",
+              "colors": [
+                "#EAEAEA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ede731c7071f34ac5857b61c31e58f8~2508x0.webp"
+            },
+            {
+              "name": "罗勒青/黑色",
+              "colors": [
+                "#EAF2E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afa2addba0ddd1d96c78ba24b23e4a54~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#68B1BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ade3253dbe49dc07f50384fc986cfea~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5798fe0baf7933ccd75efcd76a03ffe3~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09d35a8bef6813752609709608ec8312~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/69426629019aa46cd42f2ef7060b4320~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9690,
       "carName": "翼真L380",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f73a5647cf5741128327d80c9200711f~1200x0.png",
       "configs": [
         {
-          "configName": "翼真L380 2025款 570km 两驱卓越版",
+          "configName": "2025款 570km 两驱卓越版",
+          "configId": "245307",
+          "index": 0,
           "price": "29.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1940",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5316x1998x1940",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f890514432f5205f2951e4ecb4e80858~2508x0.webp"
+            },
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bfa2618e9261da17ff8a33226b33e19d~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71e52844848308eb5ed4e674610c07dc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#222222"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_013cc75ce376aa2c56c33fc4fb171eef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f890514432f5205f2951e4ecb4e80858~2508x0.webp"
         },
         {
-          "configName": "翼真L380 2025款 650km 四驱旗舰版",
+          "configName": "2025款 650km 四驱旗舰版",
+          "configId": "245306",
+          "index": 1,
           "price": "36.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1920",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5316x1998x1920",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17c202b8775be4ede32911865a44f3a5~2508x0.webp"
+            },
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2e86f4b4c4f57323272fd38c961487e~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_53cf455867bab651ccf385f6cd7efb8c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_75f0e307c3e2b886f4625ea8cf92bd19~2508x0.webp"
+            },
+            {
+              "name": "铂金白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cb37dc69ff036bcdbc7931f43fc4a5c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17c202b8775be4ede32911865a44f3a5~2508x0.webp"
         },
         {
-          "configName": "翼真L380 2025款 825km 两驱非凡版",
+          "configName": "2025款 825km 两驱非凡版",
+          "configId": "245305",
+          "index": 2,
           "price": "39.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1920",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5316x1998x1920",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_fe09fa20940b10c8277cec8a0b073c06~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcbd8644cf318e2e286f78362f7cdd10~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_93cbcff3ebb1073720a3e063a97b4d32~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ad06baf44038a1c46dc2327809f3449~2508x0.webp"
+            },
+            {
+              "name": "铂金白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74bebbfd53f648471130835409a179cd~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_fe09fa20940b10c8277cec8a0b073c06~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "翼真L380 2025款 805km 四驱旗舰版",
+          "configName": "2025款 805km 四驱旗舰版",
+          "configId": "245304",
+          "index": 3,
           "price": "44.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1920",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5316x1998x1920",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc28eed8220a322fe3c1177a9e4fe61a~2508x0.webp"
+            },
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b831c9af0ae6c59d931695f2d7aa58a4~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6711a1720be079808001e327c3dfd1c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b1e728d70b3d4b09f1428c77706b786~2508x0.webp"
+            },
+            {
+              "name": "铂金白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46d139e458d14fdc260bd442d4c1b923~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cc28eed8220a322fe3c1177a9e4fe61a~2508x0.webp"
         },
         {
-          "configName": "翼真L380 2025款 805km 四驱典藏版",
+          "configName": "2025款 805km 四驱典藏版",
+          "configId": "246061",
+          "index": 4,
           "price": "59.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1920",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5316x1998x1920",
+          "exteriorImages": [
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c21b551c5f53689441eb6b2640e6e7f3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "铂金白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d6fb9d598a69f1039c51bdaef8de417a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c21b551c5f53689441eb6b2640e6e7f3~2508x0.webp"
         },
         {
-          "configName": "翼真L380 2024款 100kWh 6座 AIR",
+          "configName": "2024款 100kWh 6座 AIR",
+          "configId": "110571",
+          "index": 5,
           "price": "37.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1940",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5316x1998x1940",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7028461d61ff68593beee3e14f7a6fb4~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c6ae70e3f0e8d856eebc06afb7947f4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#222222"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd28c26a9e1125253dc9d125c12ddee4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7028461d61ff68593beee3e14f7a6fb4~2508x0.webp"
         },
         {
-          "configName": "翼真L380 2024款 116kWh 6座 Pro",
+          "configName": "2024款 116kWh 6座 Pro",
+          "configId": "96634",
+          "index": 6,
           "price": "43.99万",
+          "manufacturer": "LEVC",
+          "class": "中大型MPV",
           "fuelType": "纯电动",
+          "power": "纯电动 272马力",
           "size": "5316x1998x1940",
-          "manufacturer": "LEVC",
-          "class": "中大型MPV",
-          "power": "纯电动 272马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "翼真L380 2024款 140kWh 8座 四驱 Max",
+          "configName": "2024款 140kWh 8座 四驱 Max",
+          "configId": "110572",
+          "index": 7,
           "price": "47.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1920",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5316x1998x1920",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99cdbd3810c52cb55a8a0a8cd127b8cc~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝",
+              "colors": [
+                "#10263D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49d352aa78480f99e9a7087f22c0dbe8~2508x0.webp"
+            },
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/728fdd097d6140cd94899c04e85becb7~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60e207a1806735784ba612bf34d366c8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90fd2723f2c44a991a802d9bbe941491~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99cdbd3810c52cb55a8a0a8cd127b8cc~2508x0.webp"
         },
         {
-          "configName": "翼真L380 2024款 140kWh 6座 四驱 Ultra",
+          "configName": "2024款 140kWh 6座 四驱 Ultra",
+          "configId": "100136",
+          "index": 8,
           "price": "47.99万",
-          "fuelType": "纯电动",
-          "size": "5316x1998x1920",
           "manufacturer": "LEVC",
           "class": "中大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5316x1998x1920",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#00050A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/badadc515635b236f881dfc4e5ae0fdc~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝",
+              "colors": [
+                "#10263D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08c51b6a85d08f235f9e7ed0b8cafd39~2508x0.webp"
+            },
+            {
+              "name": "冰翡翠",
+              "colors": [
+                "#1B554B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3740a7ef450a9c57fc1fd8b35da417c4~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c4c4c331cf816849e95695ce3f04d1d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38556d9db4e8da9d253025db89b90bde~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/badadc515635b236f881dfc4e5ae0fdc~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6148,
       "carName": "熊猫",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b29c9f37fae541d1b95a5ed6e3081e07~1200x0.png",
       "configs": [
         {
-          "configName": "熊猫 2025款 210km 熊猫mini 元气熊",
+          "configName": "2025款 210km 熊猫mini 元气熊",
+          "configId": "246471",
+          "index": 0,
           "price": "4.99万",
+          "manufacturer": "吉利银河",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 41马力",
           "size": "3085x1522x1600",
-          "manufacturer": "吉利银河",
-          "class": "微型车",
-          "power": "纯电动 41马力"
+          "exteriorImages": [
+            {
+              "name": "竹竹青",
+              "colors": [
+                "#DFFEF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47c6b47032a6b194e6abfa0eea54d96b~2508x0.webp"
+            },
+            {
+              "name": "噗噗粉",
+              "colors": [
+                "#F5CFE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4daee62d3937550d2d78aa6451ac8dfe~2508x0.webp"
+            },
+            {
+              "name": "滚滚白",
+              "colors": [
+                "#FFFEFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_57ce4823b68ab45ee2cde8f286e510d0~2508x0.webp"
+            },
+            {
+              "name": "暖暖米",
+              "colors": [
+                "#FFFFF2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05b6e81ab011af348f798c20549bfdb1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "俏皮青",
+              "colors": [
+                "#CEF0CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b99030e9b20aad2aafe6d1b9f7d83759~2508x0.webp"
+            },
+            {
+              "name": "淘气粉",
+              "colors": [
+                "#F2DDEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_afed85e819f45112ffc94c9cb63914d6~2508x0.webp"
+            },
+            {
+              "name": "活力白",
+              "colors": [
+                "#F9F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fa59fc51c2eb899545c4b2b38b1984f3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47c6b47032a6b194e6abfa0eea54d96b~2508x0.webp"
         },
         {
-          "configName": "熊猫 2025款 210km 熊猫卡丁",
+          "configName": "2025款 210km 熊猫卡丁",
+          "configId": "241089",
+          "index": 1,
           "price": "4.69万",
-          "fuelType": "纯电动",
-          "size": "3150x1540x1685",
           "manufacturer": "吉利银河",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "3150x1540x1685",
+          "exteriorImages": [
+            {
+              "name": "竞速黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f8ab961f71791db0203aae89ed1166a~2508x0.webp"
+            },
+            {
+              "name": "狂飙灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/458289da73743ff2be0fc45383beb1b5~2508x0.webp"
+            },
+            {
+              "name": "飞驰粉",
+              "colors": [
+                "#FCE5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea6a8054d4c2b510c3c8ff1463669abf~2508x0.webp"
+            },
+            {
+              "name": "冒险白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce89f8d9708fda1654a3ae735ccfe12a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "超加粉",
+              "colors": [
+                "#C19A95"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ded9515a17343bfc1bc05383dd1db688~2508x0.webp"
+            },
+            {
+              "name": "百分白",
+              "colors": [
+                "#FFFFF6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aef72c58e6646bbb81f572fc1eda04db~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7f8ab961f71791db0203aae89ed1166a~2508x0.webp"
         },
         {
-          "configName": "熊猫 2025款 210km 熊猫卡丁猪猪侠限定版",
+          "configName": "2025款 210km 熊猫卡丁猪猪侠限定版",
+          "configId": "250287",
+          "index": 2,
           "price": "5.09万",
+          "manufacturer": "吉利银河",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 41马力",
           "size": "3150x1540x1685",
-          "manufacturer": "吉利银河",
-          "class": "微型车",
-          "power": "纯电动 41马力"
+          "exteriorImages": [
+            {
+              "name": "闪电红",
+              "colors": [
+                "#A92323"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb0e8dfa0f4154c8d466908db2d6293a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "百分白",
+              "colors": [
+                "#FFFFF6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_457dd6784c26c42f46626736d7d296eb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb0e8dfa0f4154c8d466908db2d6293a~2508x0.webp"
         },
         {
-          "configName": "熊猫 2025款 210km 熊猫骑士",
+          "configName": "2025款 210km 熊猫骑士",
+          "configId": "241080",
+          "index": 3,
           "price": "5.39万",
+          "manufacturer": "吉利银河",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 41马力",
           "size": "3135x1565x1655",
-          "manufacturer": "吉利银河",
-          "class": "微型车",
-          "power": "纯电动 41马力"
+          "exteriorImages": [
+            {
+              "name": "不焦绿",
+              "colors": [
+                "#949C89"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ee962555a602e2911e78ef2ea235b5d~2508x0.webp"
+            },
+            {
+              "name": "行动咖",
+              "colors": [
+                "#E6E5CA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e2386bc9379dabd4ded8bf0b5be65a9~2508x0.webp"
+            },
+            {
+              "name": "绝对橙",
+              "colors": [
+                "#FF6A00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1bc26b47271bc08c2fcd59e5600657c~2508x0.webp"
+            },
+            {
+              "name": "冒险白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69bbd5a6a9bbfaa932873b9f9074bbf7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "果敢绿",
+              "colors": [
+                "#C0E6CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/528c377f87d665ce0cedf17717295457~2508x0.webp"
+            },
+            {
+              "name": "真我白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/142a26eb4eec61cd015a39a53f23f585~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9ee962555a602e2911e78ef2ea235b5d~2508x0.webp"
         },
         {
-          "configName": "熊猫 2024款 200km 熊猫mini 龙腾版",
+          "configName": "2024款 200km 熊猫mini 龙腾版",
+          "configId": "98582",
+          "index": 4,
           "price": "3.99万",
-          "fuelType": "纯电动",
-          "size": "3065x1522x1600",
           "manufacturer": "吉利银河",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "3065x1522x1600",
+          "exteriorImages": [
+            {
+              "name": "西湖蓝",
+              "colors": [
+                "#B8EAFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c1a055acc9cea13cb32da2e16f19fa8~2508x0.webp"
+            },
+            {
+              "name": "竹竹青",
+              "colors": [
+                "#DFFEF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7fe3a23162c2e573cd439a86c87e27f5~2508x0.webp"
+            },
+            {
+              "name": "噗噗粉",
+              "colors": [
+                "#F5CFE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d5a5ae3ed37849a8b0eb7ba08815a28~2508x0.webp"
+            },
+            {
+              "name": "滚滚白",
+              "colors": [
+                "#FFFEFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ae5cf64281ad48e72a09cb312234995~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "激萌蓝",
+              "colors": [
+                "#C2E7F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/596978ce6801e1db015d1174d49bad89~2508x0.webp"
+            },
+            {
+              "name": "呆萌绿",
+              "colors": [
+                "#E4F1C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c9525c385c54ef11e9202f93df41d07~2508x0.webp"
+            },
+            {
+              "name": "软萌粉",
+              "colors": [
+                "#F8D7CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de4dce498237a0a1e650fdc8076eed51~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0c1a055acc9cea13cb32da2e16f19fa8~2508x0.webp"
         },
         {
-          "configName": "熊猫 2024款 200km 熊猫mini 耐力熊",
+          "configName": "2024款 200km 熊猫mini 耐力熊",
+          "configId": "110479",
+          "index": 5,
           "price": "4.99万",
-          "fuelType": "纯电动",
-          "size": "3065x1522x1600",
           "manufacturer": "吉利银河",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "3065x1522x1600",
+          "exteriorImages": [
+            {
+              "name": "西湖蓝",
+              "colors": [
+                "#B8EAFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79f24745ee7c47a84bbcd110fef62751~2508x0.webp"
+            },
+            {
+              "name": "竹竹青",
+              "colors": [
+                "#DFFEF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23a223fd95cfd5f5adced9ebff85a586~2508x0.webp"
+            },
+            {
+              "name": "噗噗粉",
+              "colors": [
+                "#F5CFE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c221a57b99e8709284594ba7dec3ecc~2508x0.webp"
+            },
+            {
+              "name": "滚滚白",
+              "colors": [
+                "#FFFEFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/981234e2d7e46273a94944aeacce4220~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "激萌蓝",
+              "colors": [
+                "#C2E7F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/023bccbd5a8ca8f09d33d1cfa4d60f8f~2508x0.webp"
+            },
+            {
+              "name": "呆萌绿",
+              "colors": [
+                "#E4F1C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a17b76e0f6eb76d27f037c5949b375f~2508x0.webp"
+            },
+            {
+              "name": "软萌粉",
+              "colors": [
+                "#F8D7CE"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/1e4327b92766bd6f28c0bb0142c8e620~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/79f24745ee7c47a84bbcd110fef62751~2508x0.webp"
         },
         {
-          "configName": "熊猫 2023款 120km 熊猫mini 亚运熊",
+          "configName": "2023款 120km 熊猫mini 亚运熊",
+          "configId": "92602",
+          "index": 6,
           "price": "2.99万",
-          "fuelType": "纯电动",
-          "size": "3065x1522x1600",
           "manufacturer": "吉利银河",
           "class": "微型车",
-          "power": "纯电动 27马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 27马力",
+          "size": "3065x1522x1600",
+          "exteriorImages": [
+            {
+              "name": "竹竹青",
+              "colors": [
+                "#DFFEF8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f27d5c4bc4250e6b99560ca89e7eb772~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "呆萌绿",
+              "colors": [
+                "#E4F1C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db20aae96f178239eba1958633587151~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/f27d5c4bc4250e6b99560ca89e7eb772~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "熊猫 2023款 120km 熊猫mini 超萌熊",
+          "configName": "2023款 120km 熊猫mini 超萌熊",
+          "configId": "78040",
+          "index": 7,
           "price": "4.29万",
+          "manufacturer": "吉利银河",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 27马力",
           "size": "3065x1522x1600",
-          "manufacturer": "吉利银河",
-          "class": "微型车",
-          "power": "纯电动 27马力"
+          "exteriorImages": [
+            {
+              "name": "竹竹青",
+              "colors": [
+                "#DFFEF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db27b5f04f542c873e59755eff156378~2508x0.webp"
+            },
+            {
+              "name": "滚滚白",
+              "colors": [
+                "#FFFEFE"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "激萌蓝",
+              "colors": [
+                "#C2E7F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab79105e20ec72e82bd3e818f8df6a6a~2508x0.webp"
+            },
+            {
+              "name": "呆萌绿",
+              "colors": [
+                "#E4F1C2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db27b5f04f542c873e59755eff156378~2508x0.webp"
         },
         {
-          "configName": "熊猫 2023款 200km 熊猫mini 灵动熊",
+          "configName": "2023款 200km 熊猫mini 灵动熊",
+          "configId": "80144",
+          "index": 8,
           "price": "5.39万",
-          "fuelType": "纯电动",
-          "size": "3065x1522x1610",
           "manufacturer": "吉利银河",
           "class": "微型车",
-          "power": "纯电动 41马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 41马力",
+          "size": "3065x1522x1610",
+          "exteriorImages": [
+            {
+              "name": "竹竹青",
+              "colors": [
+                "#DFFEF8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20d640c8640c7962318bc37431647be0~2508x0.webp"
+            },
+            {
+              "name": "竹竹青/黑色",
+              "colors": [
+                "#DFFEF8",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/7e2d8d499453985b6b07b8c04e9f1f48~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "噗噗粉/黑色",
+              "colors": [
+                "#F5CFE9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dffaf1c17b4baf7e2b20c39d19ec076~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "呆萌绿",
+              "colors": [
+                "#E4F1C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9a6faca7baaae014abadc0d68654c58~2508x0.webp"
+            },
+            {
+              "name": "软萌粉",
+              "colors": [
+                "#F8D7CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ceae5ba7697ec7abf9c0a9231e7e66b4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/20d640c8640c7962318bc37431647be0~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8859,
       "carName": "银河L6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/583361ea399142abbc737078bc2ffb31~1200x0.png",
       "configs": [
         {
-          "configName": "银河L6 2025款 1.5 EM-i DHT 60KM 启航版",
+          "configName": "2025款 1.5 EM-i DHT 60KM 启航版",
+          "configId": "244566",
+          "index": 0,
           "price": "7.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4782x1875x1489",
           "manufacturer": "吉利银河",
           "class": "紧凑型车",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4782x1875x1489",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d6ed9fd7e4813ec1409a1c2b2de469aa~2508x0.webp"
+            },
+            {
+              "name": "拂晓灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a146dd797b87150a7529d955cccaea09~2508x0.webp"
+            },
+            {
+              "name": "水光蓝",
+              "colors": [
+                "#D2E8FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d951585c5af04fa88d9ddb2e0fde246d~2508x0.webp"
+            },
+            {
+              "name": "极光银",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0af559bcc3a6713da0428354c5e968e5~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85d042e5824f45764e9893752f7b60b3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰色",
+              "colors": [
+                "#BBBABA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e1bbbc4512ce9003a801d16132d2664~2508x0.webp"
+            },
+            {
+              "name": "暖棕色",
+              "colors": [
+                "#DEA57C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_436d2526d2a7e1f03a48ce661402efcf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d6ed9fd7e4813ec1409a1c2b2de469aa~2508x0.webp"
         },
         {
-          "configName": "银河L6 2025款 1.5 EM-i DHT 60KM 探索版",
+          "configName": "2025款 1.5 EM-i DHT 60KM 探索版",
+          "configId": "244565",
+          "index": 1,
           "price": "8.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4782x1875x1489",
           "manufacturer": "吉利银河",
           "class": "紧凑型车",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4782x1875x1489",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d8ed570bcd82b07b9e031c3f1ce05b1~2508x0.webp"
+            },
+            {
+              "name": "拂晓灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6512edf86ea6ba43ae9e42ad921935f6~2508x0.webp"
+            },
+            {
+              "name": "水光蓝",
+              "colors": [
+                "#D2E8FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c13ebb17e5e5df3fde311ea1b6f04403~2508x0.webp"
+            },
+            {
+              "name": "极光银",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c64e2fa793322cca34737b672b40276~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34dccd829e51181bc23983c698a16151~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰色",
+              "colors": [
+                "#BBBABA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4bd8076ef60c7eccfdefb5d6a849a8f5~2508x0.webp"
+            },
+            {
+              "name": "暖棕色",
+              "colors": [
+                "#DEA57C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2fb7e02e4ead97b8fee1e829d2d22b3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d8ed570bcd82b07b9e031c3f1ce05b1~2508x0.webp"
         },
         {
-          "configName": "银河L6 2025款 1.5 EM-i DHT 140KM 远航版",
+          "configName": "2025款 1.5 EM-i DHT 140KM 远航版",
+          "configId": "244207",
+          "index": 2,
           "price": "9.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4782x1875x1489",
           "manufacturer": "吉利银河",
           "class": "紧凑型车",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4782x1875x1489",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/726aa9bd58463b3ba47dfd6446e2b11f~2508x0.webp"
+            },
+            {
+              "name": "拂晓灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/381b2ed1890e9b724d6531125c7ca875~2508x0.webp"
+            },
+            {
+              "name": "水光蓝",
+              "colors": [
+                "#D2E8FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d94ca72e47cd8860e4d502c0177e3466~2508x0.webp"
+            },
+            {
+              "name": "极光银",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_edc7e0fcaf085da72d38103415e301aa~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbcd5adeabe189b10f7a555b25675c51~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰色",
+              "colors": [
+                "#BBBABA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/264f2d9cdc307d7c48bd7888295ed7d5~2508x0.webp"
+            },
+            {
+              "name": "暖棕色",
+              "colors": [
+                "#DEA57C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0de16c9ce8c91c75d736a3cd625a107~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/726aa9bd58463b3ba47dfd6446e2b11f~2508x0.webp"
         },
         {
-          "configName": "银河L6 2025款 1.5 EM-i DHT 140KM 探索+版",
+          "configName": "2025款 1.5 EM-i DHT 140KM 探索+版",
+          "configId": "244564",
+          "index": 3,
           "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4782x1875x1489",
           "manufacturer": "吉利银河",
           "class": "紧凑型车",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4782x1875x1489",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6bfeff13755b8471333bcffe6611a14e~2508x0.webp"
+            },
+            {
+              "name": "拂晓灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/281a25aaa76489f4554cd36b52913802~2508x0.webp"
+            },
+            {
+              "name": "水光蓝",
+              "colors": [
+                "#D2E8FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab19d1b14f98f505e4725cdd772537bf~2508x0.webp"
+            },
+            {
+              "name": "极光银",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aba801971fe52d286435feadd16dbba5~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0257e4b49d9f2403e07baa2e82224444~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰色",
+              "colors": [
+                "#BBBABA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/195278511bb571562218ae0dead599ba~2508x0.webp"
+            },
+            {
+              "name": "暖棕色",
+              "colors": [
+                "#DEA57C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c206b7c7edad406b911910b4ee3f9c4b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6bfeff13755b8471333bcffe6611a14e~2508x0.webp"
         },
         {
-          "configName": "银河L6 2025款 1.5 EM-i DHT 140KM 星舰版",
+          "configName": "2025款 1.5 EM-i DHT 140KM 星舰版",
+          "configId": "241348",
+          "index": 4,
           "price": "10.68万",
-          "fuelType": "插电式混合动力",
-          "size": "4782x1875x1489",
           "manufacturer": "吉利银河",
           "class": "紧凑型车",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4782x1875x1489",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baddce5cb68e9ee776a0fabd4c80433c~2508x0.webp"
+            },
+            {
+              "name": "拂晓灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d45add640336e930f7b532f9472e9a27~2508x0.webp"
+            },
+            {
+              "name": "水光蓝",
+              "colors": [
+                "#D2E8FC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d68e9aa6a79566a5d8293596cb0294c~2508x0.webp"
+            },
+            {
+              "name": "水光蓝/黑色",
+              "colors": [
+                "#D2E8FC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a39e2ec2595e427fbe48819080f5395~2508x0.webp"
+            },
+            {
+              "name": "极光银",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/094f2f50cbcd134ecba98e2bf3d3491f~2508x0.webp"
+            },
+            {
+              "name": "极光银/黑色",
+              "colors": [
+                "#F1F1F1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b44f1d20065628bb8b7de427e047538~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc0d359f5d0155a39d3b454cb668756a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰色",
+              "colors": [
+                "#BBBABA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f0c7b452a8f68cfe4bf612fa4b8d483~2508x0.webp"
+            },
+            {
+              "name": "暖棕色",
+              "colors": [
+                "#DEA57C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1070da2db9ad44848ad363f3673997f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/baddce5cb68e9ee776a0fabd4c80433c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 25547,
       "carName": "银河A7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/10c165f76fb54e8f8cf37e8a37e945cc~1200x0.png",
       "configs": [
         {
-          "configName": "银河A7 2025款 70km 豪享版",
+          "configName": "2025款 70km 豪享版",
+          "configId": "250062",
+          "index": 0,
           "price": "8.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6a5ff31100a246f4d16952f0e49ca7a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_691dbd2706ea4d9d847765d77dc827ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6a5ff31100a246f4d16952f0e49ca7a~2508x0.webp"
         },
         {
-          "configName": "银河A7 2025款 70km 启航版",
+          "configName": "2025款 70km 启航版",
+          "configId": "249870",
+          "index": 1,
           "price": "9.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_528c0a370b6308bfdb91891171ab4e52~2508x0.webp"
+            },
+            {
+              "name": "砚雪白",
+              "colors": [
+                "#BFC6CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_945d2761df808370d59c3d07369a9239~2508x0.webp"
+            },
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fbb7eb4321e4b8ff42a2b7a2d9754961~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#AF8807"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_baa840886aaba559df389d2510d00e3e~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb54559458b14dbff1af7539bdd62056~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_528c0a370b6308bfdb91891171ab4e52~2508x0.webp"
         },
         {
-          "configName": "银河A7 2025款 70km 探索版",
+          "configName": "2025款 70km 探索版",
+          "configId": "249871",
+          "index": 2,
           "price": "10.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "烟渚灰",
+              "colors": [
+                "#59687A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_836c1e04b9a5c435072111152ec4ccc5~2508x0.webp"
+            },
+            {
+              "name": "砚雪白",
+              "colors": [
+                "#BFC6CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a29742027b8f2eaadb66bcc6142066c9~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e91812d84455138bc766f63a20232d80~2508x0.webp"
+            },
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9d81efc934b3aaaf9647171b2ee93e3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#AF8807"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8812ed0637957d15581b63694e1c4f33~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dd95bc6f622c2fb72dbff86ec494805c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_836c1e04b9a5c435072111152ec4ccc5~2508x0.webp"
         },
         {
-          "configName": "银河A7 2025款 150km 尊享版",
+          "configName": "2025款 150km 尊享版",
+          "configId": "250063",
+          "index": 3,
           "price": "10.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_f98159be02b3a567504898f7f890ee66~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_5d22caf409eabca8dec8c0e81779a689~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_f98159be02b3a567504898f7f890ee66~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "银河A7 2025款 150km 远航版",
+          "configName": "2025款 150km 远航版",
+          "configId": "249872",
+          "index": 4,
           "price": "11.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3e2386ac56aa0eaf9237e0d3dbf47a6~2508x0.webp"
+            },
+            {
+              "name": "珐琅蓝",
+              "colors": [
+                "#103971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d3a8b545d6fa3d4eae8e014907058e56~2508x0.webp"
+            },
+            {
+              "name": "烟渚灰",
+              "colors": [
+                "#59687A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20811519160dc4636bd932a9daea38c3~2508x0.webp"
+            },
+            {
+              "name": "砚雪白",
+              "colors": [
+                "#BFC6CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e07a3e7e6e7e4db82dab9fe56f49f442~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f07cf825bf0e51d521fc41fd28e2f11~2508x0.webp"
+            },
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf6407dce418cc15c76656f12d9c9343~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#AF8807"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_573aed230391740f94d92a1718337ae1~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91e5f40c9856c02e057b6276ec0e7e4a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3e2386ac56aa0eaf9237e0d3dbf47a6~2508x0.webp"
         },
         {
-          "configName": "银河A7 2025款 150km 探索+版",
+          "configName": "2025款 150km 探索+版",
+          "configId": "249873",
+          "index": 5,
           "price": "11.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03fda88064bf14dd35e78b57b372bf23~2508x0.webp"
+            },
+            {
+              "name": "珐琅蓝",
+              "colors": [
+                "#103971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_982798862991e8d8437f85bf8ca8da2d~2508x0.webp"
+            },
+            {
+              "name": "烟渚灰",
+              "colors": [
+                "#59687A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58c969014ae1f239020ae5899fce9059~2508x0.webp"
+            },
+            {
+              "name": "砚雪白",
+              "colors": [
+                "#BFC6CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4d5aad1edadaeee49b560d7ac49dec0~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_237d93607a55ffdd062f882b9eb8ace2~2508x0.webp"
+            },
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_7eee29f2adddb6251ce1b50bda8798d7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#AF8807"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_a7400f7be2f2b0ed146e561abc99fda0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_33cad8b771d3209d2d068648a9c84611~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03fda88064bf14dd35e78b57b372bf23~2508x0.webp"
         },
         {
-          "configName": "银河A7 2025款 150km 星舰版",
+          "configName": "2025款 150km 星舰版",
+          "configId": "249874",
+          "index": 6,
           "price": "12.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4918x1905x1495",
           "manufacturer": "吉利银河",
           "class": "中型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4918x1905x1495",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78ec10e1d4b0c668e35cb77495b9e275~2508x0.webp"
+            },
+            {
+              "name": "珐琅蓝",
+              "colors": [
+                "#103971"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cda8ec9d53077189180820c1e3aee7fb~2508x0.webp"
+            },
+            {
+              "name": "烟渚灰",
+              "colors": [
+                "#59687A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_65b0ca0394d700ed4757cdd7c68fbc67~2508x0.webp"
+            },
+            {
+              "name": "砚雪白",
+              "colors": [
+                "#BFC6CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_983b80ca3632b123f5c7471988384132~2508x0.webp"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_44d19869b017d36b317e930b3c891e32~2508x0.webp"
+            },
+            {
+              "name": "霜华银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5276db72348e3194a43eb0a6dcca561e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#AF8807"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a51695c2b9400d4e6499783d21f1286d~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed5c4b59ab65ece5650a3dc3a17969d2~2508x0.webp"
+            },
+            {
+              "name": "霁雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bcc27db8f015a26951de1fcc2088a985~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78ec10e1d4b0c668e35cb77495b9e275~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 25236,
       "carName": "银河星耀8 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8d780795ae7142f7b7ae44252bbbc5f5~1200x0.png",
       "configs": [
         {
-          "configName": "银河星耀8 PHEV 2025款 60km EM-i 豪享版",
+          "configName": "2025款 60km EM-i 豪享版",
+          "configId": "247832",
+          "index": 0,
           "price": "12.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc0b4f30f9fb1b58c56b9f44905624e6~2508x0.webp"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_703e724168c4dc4b06a2054b9e4745ce~2508x0.webp"
+            },
+            {
+              "name": "天既白",
+              "colors": [
+                "#FDFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a23a6ecd810eccc11e82bc82f49d2e73~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_4575bdbb75d914a00fb1720e4b141326~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_54370ad7ce1a43931d9338847c5455b9~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc0b4f30f9fb1b58c56b9f44905624e6~2508x0.webp"
         },
         {
-          "configName": "银河星耀8 PHEV 2025款 60km EM-i 豪华版",
+          "configName": "2025款 60km EM-i 豪华版",
+          "configId": "246378",
+          "index": 1,
           "price": "13.18万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_2244963aa15867248e622bf86d8c8337~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20913a01e215df336a7de55179dd7e4f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fd13e2403c6c33860a06e58d2217af8~2508x0.webp"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_72acc7f13a09f3dba586cff53edbc4df~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_2244963aa15867248e622bf86d8c8337~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "银河星耀8 PHEV 2025款 130km EM-i 尊享版",
+          "configName": "2025款 130km EM-i 尊享版",
+          "configId": "247833",
+          "index": 2,
           "price": "13.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b97ee1d92cf4fd47c207efd402f9ceee~2508x0.webp"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f8b2fa11f11e46d6c0024ed72e80b7b~2508x0.webp"
+            },
+            {
+              "name": "霁海蓝",
+              "colors": [
+                "#4985B7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17cc701211a4080e4cdf9d5a2cf13f90~2508x0.webp"
+            },
+            {
+              "name": "国墨灰",
+              "colors": [
+                "#939393"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96fcf9da31d3b4bbb82df92ddd7998e6~2508x0.webp"
+            },
+            {
+              "name": "点螺银",
+              "colors": [
+                "#F4F5FF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_f9830d8ecb874cb199f0d607a27f8562~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天既白",
+              "colors": [
+                "#FDFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_24fd0a4468c763d425a51cf291829213~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_8ce19e2e23d47ed89bd1d64abaa81945~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b97ee1d92cf4fd47c207efd402f9ceee~2508x0.webp"
         },
         {
-          "configName": "银河星耀8 PHEV 2025款 130km EM-i 尊贵版",
+          "configName": "2025款 130km EM-i 尊贵版",
+          "configId": "247186",
+          "index": 3,
           "price": "14.18万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_eb965a73ba29216ff0fc64e0a78385f4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8263428d4ebcc7c736446ae625ec344~2508x0.webp"
+            },
+            {
+              "name": "霁海蓝",
+              "colors": [
+                "#4985B7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4736f522aa945328caa6b5fa99502a46~2508x0.webp"
+            },
+            {
+              "name": "国墨灰",
+              "colors": [
+                "#939393"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0bf4430a3284581e6f15028c5d5c465e~2508x0.webp"
+            },
+            {
+              "name": "点螺银",
+              "colors": [
+                "#F4F5FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_467fe7a1bfdb1d7e4145d8f8239a3091~2508x0.webp"
+            },
+            {
+              "name": "天既白",
+              "colors": [
+                "#FDFCFC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_33252c401d5ede296075cc01ce1dfe74~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_42687a4c0c498fc373a06382d4817a49~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_eb965a73ba29216ff0fc64e0a78385f4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "银河星耀8 PHEV 2025款 130km EM-i 旗舰版",
+          "configName": "2025款 130km EM-i 旗舰版",
+          "configId": "246377",
+          "index": 4,
           "price": "15.18万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 238马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a800276c39a919d99942ddb602575336~2508x0.webp"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_959bdd7e7253cedaaa5cb321c0a175bd~2508x0.webp"
+            },
+            {
+              "name": "霁海蓝",
+              "colors": [
+                "#4985B7"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_0a7eb65ea900390fd37c1d3320542f34~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "国墨灰",
+              "colors": [
+                "#939393"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_2118eb5266c5fc7809b1300180d45c3f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "点螺银",
+              "colors": [
+                "#F4F5FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eecac0c403ece96b1a4c0596d450e9af~2508x0.webp"
+            },
+            {
+              "name": "天既白",
+              "colors": [
+                "#FDFCFC"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_4a5cb12f9216dd0ed6d9501c0c07b5bc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c468e84bff997cfff7c6aa79157c2a16~2508x0.webp"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_a5c80f89072f2774c74a41da543434c1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a800276c39a919d99942ddb602575336~2508x0.webp"
         },
         {
-          "configName": "银河星耀8 PHEV 2025款 130km EM-P 探索版",
+          "configName": "2025款 130km EM-P 探索版",
+          "configId": "245365",
+          "index": 5,
           "price": "15.48万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_689e9c6215d76e748a0965d3d661f83b~2508x0.webp"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_b299dfd127801515cd6edae83b702e17~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "霁海蓝",
+              "colors": [
+                "#4985B7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "国墨灰",
+              "colors": [
+                "#939393"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28747a3bb791beed0eec4e8f0647ba17~2508x0.webp"
+            },
+            {
+              "name": "点螺银",
+              "colors": [
+                "#F4F5FF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_e9fa715a97c5a5795be8bd937c07f22f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天既白",
+              "colors": [
+                "#FDFCFC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_217bc11546f4f39a3850de2f7a0bc95a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67aa7eea98f2d3419fee35096ba79ef6~2508x0.webp"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_2b6bec76fa5bf6a852a7cd0d1077d13d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_689e9c6215d76e748a0965d3d661f83b~2508x0.webp"
         },
         {
-          "configName": "银河星耀8 PHEV 2025款 130km EM-P 星舰版",
+          "configName": "2025款 130km EM-P 星舰版",
+          "configId": "245364",
+          "index": 6,
           "price": "16.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5018x1918x1480",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "插电式混动 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "5018x1918x1480",
+          "exteriorImages": [
+            {
+              "name": "建盏黑",
+              "colors": [
+                "#121111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f425ad85b94131436b66e91c0b8de82a~2508x0.webp"
+            },
+            {
+              "name": "山河翠",
+              "colors": [
+                "#455B45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a941323b9fc9c6a20415c8dcecc8f67~2508x0.webp"
+            },
+            {
+              "name": "霁海蓝",
+              "colors": [
+                "#4985B7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2f350084b350b0cf77973d674b69c9c4~2508x0.webp"
+            },
+            {
+              "name": "国墨灰",
+              "colors": [
+                "#939393"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1467181d4e3602cfa90a12b037f9d27~2508x0.webp"
+            },
+            {
+              "name": "点螺银",
+              "colors": [
+                "#F4F5FF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_acd5707b06cf78cbf6d9aeed1a83fe5b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天既白",
+              "colors": [
+                "#FDFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f8a7336703b93b7240f69327b8f1342b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#EFECEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ceb590fbc7c1767d35eda3f22a02c251~2508x0.webp"
+            },
+            {
+              "name": "檀木棕",
+              "colors": [
+                "#FFB700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9485d87d5bbc780b4141e9e23b05a4ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f425ad85b94131436b66e91c0b8de82a~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8858,
       "carName": "银河E8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b611b31202ae44d2b205f2697584eda1~1200x0.png",
       "configs": [
         {
-          "configName": "银河E8 2025款 575km 启航智驾版",
+          "configName": "2025款 575km 启航智驾版",
+          "configId": "245811",
+          "index": 0,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fad26b0e5f9d7ac6f1161d7bb5501adc~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f7136b7cf90e2459a18d192c3c301341~2508x0.webp"
+            },
+            {
+              "name": "空濛蓝",
+              "colors": [
+                "#A7DAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36e07ce0f10ea4b17a1d986bc47cbf8c~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a02369c3f8ece873efc13ed8164efb6c~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b01fd57532f85db054b30c608dd5ddf0~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0b25fee076a5e508a3bb26b3c127c79c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b35ac3644363e8ad7d5b41bd3fcfc395~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fad26b0e5f9d7ac6f1161d7bb5501adc~2508x0.webp"
         },
         {
-          "configName": "银河E8 2025款 575km 探索智驾版",
+          "configName": "2025款 575km 探索智驾版",
+          "configId": "111032",
+          "index": 1,
           "price": "16.38万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97b09322ff48a62f1c7c0f7ae279fa59~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89cabe746163b05cc5102be519c372b8~2508x0.webp"
+            },
+            {
+              "name": "空濛蓝",
+              "colors": [
+                "#A7DAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc527a5b6d85156b3dea2af13724b7c6~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd7f7ca69b1aa2113c0b53cffaa3b289~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a629129069419df8c8a33a5009e7d0c~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d4d20ae5e5628034c70934893519348~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bf0d58c93b0a2162a01421ae87d746c~2508x0.webp"
+            },
+            {
+              "name": "初霁白",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9911cbf0b2e52b83bbe3bf4d06c1410d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97b09322ff48a62f1c7c0f7ae279fa59~2508x0.webp"
         },
         {
-          "configName": "银河E8 2025款 700km 远航智驾版",
+          "configName": "2025款 700km 远航智驾版",
+          "configId": "111033",
+          "index": 2,
           "price": "17.88万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e10c8721d41f20c4a428ac55063c1fd5~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18ace12cc2e17254bb587ccc6aaf6a94~2508x0.webp"
+            },
+            {
+              "name": "空濛蓝",
+              "colors": [
+                "#A7DAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9853b79d611b49b5cb77e36a0669246~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a2ff176d335ec9dfb4f36be10ffb619~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a9c939083469934998565133826ee1f5~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/202fa1cf8543e3e06cc47713aba5efb5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93961c92fdf24d1c06bfa6670f5ff02f~2508x0.webp"
+            },
+            {
+              "name": "初霁白",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d04e5da66c36fcf711101934bc4531e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e10c8721d41f20c4a428ac55063c1fd5~2508x0.webp"
         },
         {
-          "configName": "银河E8 2025款 620km 四驱星舰激光雷达智驾版",
+          "configName": "2025款 620km 四驱星舰激光雷达智驾版",
+          "configId": "245812",
+          "index": 3,
           "price": "19.88万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 646马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "烟墨灰",
+              "colors": [
+                "#6C6C6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d7014dfe1875aa5bc20d9e731a25f0fa~2508x0.webp"
+            },
+            {
+              "name": "空濛蓝",
+              "colors": [
+                "#A7DAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/561d6be723d7e9c2029bbe114d08c0fa~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc52d1d1df4d824784c9c450af0a5232~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd18ad03cdc20780960938e60aeb4605~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f027f1673eeb1a2639d6ead1da1adfc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d7014dfe1875aa5bc20d9e731a25f0fa~2508x0.webp"
         },
         {
-          "configName": "银河E8 2024款 550km 两驱龙腾版",
+          "configName": "2024款 550km 两驱龙腾版",
+          "configId": "100367",
+          "index": 4,
           "price": "16.58万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3158db1e3cfeb1aed3d858abb60b8032~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a60fe54275313f554c5d540913f81b20~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3ee1f63e1e9459deb76f281cdb27a08~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ef3ad8459e7f13468fec05d4f715c34~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eca96cf481183b137f51958e3507eeaa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62b59f18944caf5b0a05d19aebe976de~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3158db1e3cfeb1aed3d858abb60b8032~2508x0.webp"
         },
         {
-          "configName": "银河E8 2024款 550km PRO",
+          "configName": "2024款 550km PRO",
+          "configId": "94904",
+          "index": 5,
           "price": "17.58万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0eb27a7c3822a0f251509137119c5dce~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72a10da26a6e72226453c37e0c8d1d58~2508x0.webp"
+            },
+            {
+              "name": "知秋红",
+              "colors": [
+                "#BF3E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7269eaeaf826abec91fee81c681b8a9d~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1bd585b7e2ddb8e78b47c5c76ad4803a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aefc6fe0ba998dccdbe147b8a50951d7~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2396c2e9eece026c9a424ef9fa2df5ce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd6765f7cbf3e1e394f4b4d58fc7872e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0eb27a7c3822a0f251509137119c5dce~2508x0.webp"
         },
         {
-          "configName": "银河E8 2024款 550km MAX",
+          "configName": "2024款 550km MAX",
+          "configId": "96795",
+          "index": 6,
           "price": "18.58万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6c07af0555339fb899ed7a6fe6e6d18~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11c1d8d2093b0a6449fa9a94c951b5fe~2508x0.webp"
+            },
+            {
+              "name": "知秋红",
+              "colors": [
+                "#BF3E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/583a7b003b0a0661a7dd70e029cc1d12~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d16467ea3284311e2a4a016831d12ae0~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/659d193bd8c1e307f4bb8746e6ace643~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24d6d971fb79d4c3672d52b3c1c29e57~2508x0.webp"
+            },
+            {
+              "name": "秋杏黄",
+              "colors": [
+                "#F3D792"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/ce653a2f8d23ac38ae4b5c6d49b71c2a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b59808b98d6586175cd90da39ce81b9~2508x0.webp"
+            },
+            {
+              "name": "初霁白",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3c5e6c5e4bf24b1f81a08756ac2232b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c6c07af0555339fb899ed7a6fe6e6d18~2508x0.webp"
         },
         {
-          "configName": "银河E8 2024款 665km 星舰 远航版",
+          "configName": "2024款 665km 星舰 远航版",
+          "configId": "86549",
+          "index": 7,
           "price": "19.88万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e96c8dcb93b1959ddcbf3c6b775b5710~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fb749a74290b714aa2b099594c97546~2508x0.webp"
+            },
+            {
+              "name": "知秋红",
+              "colors": [
+                "#BF3E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40a37236d5f546b5d705415f4b85f389~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/7f340b03e02d25857870426e37c73021~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9fd4584d6ebba9ec95709d06997a6d5~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76c2c341bf40302ced6f86ee7ddb0cc4~2508x0.webp"
+            },
+            {
+              "name": "秋杏黄",
+              "colors": [
+                "#F3D792"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a24653441ef0fc4e7c8524a1e263ca92~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "湖镜灰",
+              "colors": [
+                "#C9C6C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfdf31f76444f4c561d76042eff0e576~2508x0.webp"
+            },
+            {
+              "name": "初霁白",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7892ede0598b69425fe4fb947499725~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e96c8dcb93b1959ddcbf3c6b775b5710~2508x0.webp"
         },
         {
-          "configName": "银河E8 2024款 665km 星舰 智驾版",
+          "configName": "2024款 665km 星舰 智驾版",
+          "configId": "96797",
+          "index": 8,
           "price": "21.88万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "银河E8 2024款 620km 四驱龙腾版",
+          "configName": "2024款 620km 四驱龙腾版",
+          "configId": "100368",
+          "index": 9,
           "price": "21.58万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 646马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/473ef7d7e311dd18b832b487245fdcef~2508x0.webp"
+            },
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#30B4ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d849080b913ba107f8c24344f854dc57~2508x0.webp"
+            },
+            {
+              "name": "烟墨灰",
+              "colors": [
+                "#6C6C6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a1925e9bb4591fd686925c191886efd~2508x0.webp"
+            },
+            {
+              "name": "烟霞灰",
+              "colors": [
+                "#929092"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3e22d81871f58f488ca00303e6af26d~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/608ee7f97cbe52bd8cc3304310f55dc9~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a3e3099152d29df72740db914ada999~2508x0.webp"
+            },
+            {
+              "name": "海棠粉",
+              "colors": [
+                "#F2CED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5252385457f680cb907be2f1cb58478~2508x0.webp"
+            },
+            {
+              "name": "秋杏黄",
+              "colors": [
+                "#F3D792"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_81f6d6df0bb5d2802734c965d56876c0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1c380a1d5f6efbcdfb0f0c4541ed195~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/473ef7d7e311dd18b832b487245fdcef~2508x0.webp"
         },
         {
-          "configName": "银河E8 2024款 620km 星舰 性能版",
+          "configName": "2024款 620km 星舰 性能版",
+          "configId": "95974",
+          "index": 10,
           "price": "22.88万",
-          "fuelType": "纯电动",
-          "size": "5010x1920x1465",
           "manufacturer": "吉利银河",
           "class": "中大型车",
-          "power": "纯电动 646马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "5010x1920x1465",
+          "exteriorImages": [
+            {
+              "name": "破晓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/612fa60375520760a17fd9a11964d257~2508x0.webp"
+            },
+            {
+              "name": "西子蓝",
+              "colors": [
+                "#30B4ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/808e8d95b16dfe91fb50772ceccbc0d3~2508x0.webp"
+            },
+            {
+              "name": "烟墨灰",
+              "colors": [
+                "#6C6C6C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5db38099cd3f8c44fce26af732ac6e77~2508x0.webp"
+            },
+            {
+              "name": "初雪银",
+              "colors": [
+                "#CDD9E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9193cf0cf47b18b9a97fd3e6bc720b45~2508x0.webp"
+            },
+            {
+              "name": "柳霜白",
+              "colors": [
+                "#EDEFEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50e90e89526e19a22299bd859a7f5080~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/944347c4c2de4d617c63dea8654ab017~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/612fa60375520760a17fd9a11964d257~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10026,
       "carName": "银河E5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b068447517bb4396a74cb9392cba7964~1200x0.png",
       "configs": [
         {
-          "configName": "银河E5 2026款 530km 启航版",
+          "configName": "2026款 530km 启航版",
+          "configId": "250106",
+          "index": 0,
           "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43c1f11e2e4f0d02e674a88e9582df5f~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fab603c1f74b68727f45b5f40256ea84~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e416e9a4bc9707ac216a831c2b143c23~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bd1fe7927829b9ab8263c027f87e723a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43c1f11e2e4f0d02e674a88e9582df5f~2508x0.webp"
         },
         {
-          "configName": "银河E5 2026款 530km 探索版",
+          "configName": "2026款 530km 探索版",
+          "configId": "250114",
+          "index": 1,
           "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "黎光蓝",
+              "colors": [
+                "#2D4063"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a8d3638802c9e1c79ad41976537b23e~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d054048f4ceca3382108ff83b2a621a~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73b4441eb822595ccaa5d7a3067c84c2~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_576373e21d88c02a5ab792596d0ef2e6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a123c5a881de1b3ff0179d36a4c0fbde~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a8d3638802c9e1c79ad41976537b23e~2508x0.webp"
         },
         {
-          "configName": "银河E5 2026款 610km 远航版",
+          "configName": "2026款 610km 远航版",
+          "configId": "250115",
+          "index": 2,
           "price": "12.58万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1260883a7d512509138926d9da1bc16d~2508x0.webp"
+            },
+            {
+              "name": "黎光蓝",
+              "colors": [
+                "#2D4063"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8857e37e9d0476a7e1e252057f65d53f~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c3b5c4b62208ff2b16fac9382d3d1de~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3399637c74d25709784878b05a507e3d~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aaaae94f48a61269699e92b49e3bf541~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d68bd410b67e277161191b874516edb9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1260883a7d512509138926d9da1bc16d~2508x0.webp"
         },
         {
-          "configName": "银河E5 2026款 610km 探索+版",
+          "configName": "2026款 610km 探索+版",
+          "configId": "250116",
+          "index": 3,
           "price": "13.58万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cda2b81970d26942ff0fd17b205777ad~2508x0.webp"
+            },
+            {
+              "name": "晚林绿",
+              "colors": [
+                "#0A2C27"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea4a62a7ea254368f81ce07bdb0723a8~2508x0.webp"
+            },
+            {
+              "name": "黎光蓝",
+              "colors": [
+                "#2D4063"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c7e4ccd310394d988505dc14b3c26edf~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e87c25f03ff195dc5d9099ce93e56ba~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#8AA49F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05e418fe83cb2772c1c7031457b4e89e~2508x0.webp"
+            },
+            {
+              "name": "晚樱粉",
+              "colors": [
+                "#D3B0BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7a5e0ddaa0f59cc9bfbd8c7271bf4d4~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e369396f0a85ca036c6af46624a839cb~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d3284989d531bdd8846a63fbe1586509~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_807346ccd52b6df36ada92fef12143b7~2508x0.webp"
+            },
+            {
+              "name": "云初白",
+              "colors": [
+                "#DAD5CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ec5ad265a93adf7153cb701e679d0ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cda2b81970d26942ff0fd17b205777ad~2508x0.webp"
         },
         {
-          "configName": "银河E5 2026款 610km 星舰版",
+          "configName": "2026款 610km 星舰版",
+          "configId": "250133",
+          "index": 4,
           "price": "14.58万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "银河E5 2024款 440km 启航版",
+          "configName": "2024款 440km 启航版",
+          "configId": "110836",
+          "index": 5,
           "price": "10.78万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b0bc5f3c16c27601b91e28d6fd0c241~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86fec1e7be9aa07d7cbe5be500d2f935~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d5575ed4a695e66ecb52f319ca57a9c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6f8a7ea9ce2e34fce1e0951956cc0c3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1b0bc5f3c16c27601b91e28d6fd0c241~2508x0.webp"
         },
         {
-          "configName": "银河E5 2024款 530km 公务版",
+          "configName": "2024款 530km 公务版",
+          "configId": "249617",
+          "index": 6,
           "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eca2afca9732a6f147ee505e86671b80~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_8b769d23063ec126a162b2fdabe83286~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1472f3695db70dee06664f9ce13f4a4f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f4a782bc03688c8130731ebd7c79a27~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eca2afca9732a6f147ee505e86671b80~2508x0.webp"
         },
         {
-          "configName": "银河E5 2024款 440km 探索版",
+          "configName": "2024款 440km 探索版",
+          "configId": "110837",
+          "index": 7,
           "price": "11.78万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3550ad824a26fc4455737d34add5c1dc~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/489230f6a4f918b6103c6adc3cd84a03~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#8AA49F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e88f7a5dbfc0634c72c79952d70a2374~2508x0.webp"
+            },
+            {
+              "name": "极夜青",
+              "colors": [
+                "#94A3A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/493605af3459a92545d4e849a21c2c92~2508x0.webp"
+            },
+            {
+              "name": "霞光红",
+              "colors": [
+                "#CD030D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3d8130346c585da31e3f96e861a1aaac~2508x0.webp"
+            },
+            {
+              "name": "晚樱粉",
+              "colors": [
+                "#D3B0BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc3b59f3564b0e9f1847878f5d6fb27b~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45db4c88cb7fe301a3193e80e81979fc~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/719a7965c96d76f367cfb20e0e81b7cf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8d6a34536c6f7323f0b4f85164be87b~2508x0.webp"
+            },
+            {
+              "name": "云初白",
+              "colors": [
+                "#DAD5CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c9fd829c36181ed705711a1d6d3287a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3550ad824a26fc4455737d34add5c1dc~2508x0.webp"
         },
         {
-          "configName": "银河E5 2024款 530km 远航版",
+          "configName": "2024款 530km 远航版",
+          "configId": "110838",
+          "index": 8,
           "price": "12.38万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/842edabd4b5c1feb8d3af55e9342ceca~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e734760151b1f9198249881e8561bcb~2508x0.webp"
+            },
+            {
+              "name": "极夜青",
+              "colors": [
+                "#94A3A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5eb190effac85959f584c6c109885393~2508x0.webp"
+            },
+            {
+              "name": "晚樱粉",
+              "colors": [
+                "#D3B0BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14a33e0e7d7f7cfce59477d1f3473417~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc2e0a39e841a882f4dbeea69838e707~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4275225dab2e615300596c6ca7a525bf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0312a08e70b738067a9f2e5c4789e5a2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/842edabd4b5c1feb8d3af55e9342ceca~2508x0.webp"
         },
         {
-          "configName": "银河E5 2024款 530km 探索+版",
+          "configName": "2024款 530km 探索+版",
+          "configId": "110839",
+          "index": 9,
           "price": "13.38万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4666c2c5688ad0cd20842d521950fbdc~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e08e764361950c9e2abe0caa57b1db4d~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#8AA49F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d8e3f95c260376da6a4520a3030b507~2508x0.webp"
+            },
+            {
+              "name": "极夜青",
+              "colors": [
+                "#94A3A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7e01d0651d5396de59a7a471ff56a89~2508x0.webp"
+            },
+            {
+              "name": "霞光红",
+              "colors": [
+                "#CD030D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d1c4af804b71cbb6314747f3f03efb0~2508x0.webp"
+            },
+            {
+              "name": "晚樱粉",
+              "colors": [
+                "#D3B0BF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2f4d71a78eadf5acee1b790d54a87f35~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f9bf02f42b5da56ad76751d3abea99c~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d390118af9c7de17a11ae960f1ca91b7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffda8f3e1541edbced5044cb80e67fcb~2508x0.webp"
+            },
+            {
+              "name": "云初白",
+              "colors": [
+                "#DAD5CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08585c3b3ccb92790353c15b7a232c7b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4666c2c5688ad0cd20842d521950fbdc~2508x0.webp"
         },
         {
-          "configName": "银河E5 2024款 530km 星舰版",
+          "configName": "2024款 530km 星舰版",
+          "configId": "110840",
+          "index": 10,
           "price": "14.38万",
-          "fuelType": "纯电动",
-          "size": "4615x1901x1670",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4615x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dcef3a4db1d40e33e3dd35f4cc147249~2508x0.webp"
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#737371"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f7b8d8d0967f2eaf5a2b8bdcf398694~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#8AA49F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be052ccd25785f25dcf82c2a6a820c56~2508x0.webp"
+            },
+            {
+              "name": "极夜青",
+              "colors": [
+                "#94A3A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/621a786f379a7047d9f3ab372083e87f~2508x0.webp"
+            },
+            {
+              "name": "霞光红",
+              "colors": [
+                "#CD030D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3895e5c3898e2cdecce9a510a5aa4dbc~2508x0.webp"
+            },
+            {
+              "name": "晚樱粉",
+              "colors": [
+                "#D3B0BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6c2e8d603f72efb22fd3e461cc5ef11~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#E2E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/425a9c7ea3ab8d1c5326e74c56d46321~2508x0.webp"
+            },
+            {
+              "name": "曙光白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43f7d9a8c6849de2c7b707f2cf6e5421~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄暮蓝",
+              "colors": [
+                "#9A9AD6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a23d5745f6870c599956c5bd66ac6d3f~2508x0.webp"
+            },
+            {
+              "name": "云初白",
+              "colors": [
+                "#DAD5CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32ba614a17e51e086b3be776168260c7~2508x0.webp"
+            },
+            {
+              "name": "霓光红",
+              "colors": [
+                "#F76464"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1122d30640eb17e459920c17c80b419c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dcef3a4db1d40e33e3dd35f4cc147249~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 24788,
       "carName": "银河星舰7 EM-i",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ce7023cbd3924a2e8cc42a12c8337025~1200x0.png",
       "configs": [
         {
-          "configName": "银河星舰7 EM-i 2025款 55KM 启航版",
+          "configName": "2025款 55KM 启航版",
+          "configId": "240520",
+          "index": 0,
           "price": "9.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4740x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4740x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "墨影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f2b4a38a1ee6432b0e7b9a5756374e9~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#5D5F62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1a1f0620ac870dcea047a2eec7a35af3~2508x0.webp"
+            },
+            {
+              "name": "流月银",
+              "colors": [
+                "#BCC1C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_065db5b5394eee2f141b6d2182d5131c~2508x0.webp"
+            },
+            {
+              "name": "初雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a10d24407bd83f971dba7f5990fa9f03~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#D6BFAF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_c311191a39039498c743f69ad6267f6a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f2b4a38a1ee6432b0e7b9a5756374e9~2508x0.webp"
         },
         {
-          "configName": "银河星舰7 EM-i 2025款 55KM 探索版",
+          "configName": "2025款 55KM 探索版",
+          "configId": "242285",
+          "index": 1,
           "price": "10.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4740x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4740x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "墨影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f9cce7ef761dfc15488916ab33ebb5e~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#5D5F62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e31239d1466743411e6d04f501862870~2508x0.webp"
+            },
+            {
+              "name": "流月银",
+              "colors": [
+                "#BCC1C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8556a6297499aba0a2e17035857af8e~2508x0.webp"
+            },
+            {
+              "name": "初雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_329cce10e2d8c015aa117411e6cf4084~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#D6BFAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b180f248853c9a51083152ed2226c22f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f9cce7ef761dfc15488916ab33ebb5e~2508x0.webp"
         },
         {
-          "configName": "银河星舰7 EM-i 2025款 120KM 启航+版",
+          "configName": "2025款 120KM 启航+版",
+          "configId": "242286",
+          "index": 2,
           "price": "11.08万",
-          "fuelType": "插电式混合动力",
-          "size": "4740x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4740x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "墨影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55560262ecaec8e1902d4ebeccc5d489~2508x0.webp"
+            },
+            {
+              "name": "拂柳绿",
+              "colors": [
+                "#233E30"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90358469bf803a1205a1a66e730dce95~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#5D5F62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4afe4f741e4f7006a5c2f9e4cd4a850~2508x0.webp"
+            },
+            {
+              "name": "映天蓝",
+              "colors": [
+                "#647B96"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61387fbd22bba0f84bc403b959151223~2508x0.webp"
+            },
+            {
+              "name": "流月银",
+              "colors": [
+                "#BCC1C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1446670cfb6c71698bfbb6b92d6b951b~2508x0.webp"
+            },
+            {
+              "name": "初雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc4e5f48ea3dfe79b88cbdd403b336ce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#D6BFAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c927c00042e7fefefae979cb677d74a3~2508x0.webp"
+            },
+            {
+              "name": "映雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0614d2500b4d7c4295dc3783f42de2c5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/55560262ecaec8e1902d4ebeccc5d489~2508x0.webp"
         },
         {
-          "configName": "银河星舰7 EM-i 2025款 120KM 探索+版",
+          "configName": "2025款 120KM 探索+版",
+          "configId": "242287",
+          "index": 3,
           "price": "12.08万",
-          "fuelType": "插电式混合动力",
-          "size": "4740x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4740x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "墨影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c985d0ad998e47b2d503332e324b7c42~2508x0.webp"
+            },
+            {
+              "name": "拂柳绿",
+              "colors": [
+                "#233E30"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28d943b3152631dcf11aa95d804d148c~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#5D5F62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07e7f2197149e71c78586121c0108a58~2508x0.webp"
+            },
+            {
+              "name": "映天蓝",
+              "colors": [
+                "#647B96"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c83be1f15fdb1777d4cf239b8dd5bfd~2508x0.webp"
+            },
+            {
+              "name": "流月银",
+              "colors": [
+                "#BCC1C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28468fd5ce0abf528b174809d889ee4e~2508x0.webp"
+            },
+            {
+              "name": "初雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9977dc38c40519a49372720d8d335e93~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#D6BFAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3958efd1f29c4d4155f631f77e35b54~2508x0.webp"
+            },
+            {
+              "name": "映雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e827248e2fa13034b732f136c4e1254a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c985d0ad998e47b2d503332e324b7c42~2508x0.webp"
         },
         {
-          "configName": "银河星舰7 EM-i 2025款 120KM 领航版",
+          "configName": "2025款 120KM 领航版",
+          "configId": "240519",
+          "index": 4,
           "price": "13.08万",
-          "fuelType": "插电式混合动力",
-          "size": "4740x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混合动力",
+          "size": "4740x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "墨影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e5629087ce10edac3152031d3630183~2508x0.webp"
+            },
+            {
+              "name": "拂柳绿",
+              "colors": [
+                "#233E30"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/361e1028d6bf119328db8997cf05d3e8~2508x0.webp"
+            },
+            {
+              "name": "烟波灰",
+              "colors": [
+                "#5D5F62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7e1d2c2230d5b2d44a813735eb04f8e~2508x0.webp"
+            },
+            {
+              "name": "映天蓝",
+              "colors": [
+                "#647B96"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1e0290e4219abe62248df8c3c3b5ef8~2508x0.webp"
+            },
+            {
+              "name": "流月银",
+              "colors": [
+                "#BCC1C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ad4a8fb28262a86f7c6b3c4b4b10779~2508x0.webp"
+            },
+            {
+              "name": "初雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4954df3e29f5b5e16c5015fbafde4be~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋韵棕",
+              "colors": [
+                "#D6BFAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8066f59a23a2a2e7f557cedfd77a20f9~2508x0.webp"
+            },
+            {
+              "name": "映雪白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d056cbf858e15b91a98e931e2e54384~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7e5629087ce10edac3152031d3630183~2508x0.webp"
         }
       ]
     },
@@ -683,151 +4245,799 @@
       "configs": []
     },
     {
+      "carId": 8830,
       "carName": "银河L7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b7834ac5884b4e52a86e9273760f0c6a~1200x0.png",
       "configs": [
         {
-          "configName": "银河L7 2025款 1.5L EM-i 115km 远航版",
+          "configName": "2025款 1.5L EM-i 115km 远航版",
+          "configId": "244576",
+          "index": 0,
           "price": "11.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4710x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6f261df49f5a3a4cf7d8db2950a881d~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_86213f62e1d5953b1e2f59a27dbe1c9b~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8216981d659ab78746470af62592b8e~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b21f07bb35b68c3ca8a69bea5ffb089~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#676D78"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_730344506c08722f324fdf4755c3aa7d~2508x0.webp"
+            },
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6e21148ef1ffeff82a83d96ba203d955~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6f261df49f5a3a4cf7d8db2950a881d~2508x0.webp"
         },
         {
-          "configName": "银河L7 2025款 1.5L EM-i 115km 探索版",
+          "configName": "2025款 1.5L EM-i 115km 探索版",
+          "configId": "241344",
+          "index": 1,
           "price": "12.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4710x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b87cf83310dfde060f4c655dca74a46c~2508x0.webp"
+            },
+            {
+              "name": "星瀚绿/黑色",
+              "colors": [
+                "#006400",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1fc181896a26d74be4be95bcda84d49e~2508x0.webp"
+            },
+            {
+              "name": "星宇蓝",
+              "colors": [
+                "#578E9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d11804d8c9bdbaf0801964a7365a29d1~2508x0.webp"
+            },
+            {
+              "name": "星宇蓝/黑色",
+              "colors": [
+                "#578E9F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b26e5065603cba53644f4dfeda13d71~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e83f2240f6c221e848c18604f4d74dd~2508x0.webp"
+            },
+            {
+              "name": "破晓灰/黑色",
+              "colors": [
+                "#C2C2C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b19219d80b45a36d1b1c1fa681cb3721~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f55a63abc1804ba34925adf1d079414d~2508x0.webp"
+            },
+            {
+              "name": "星耀银/黑色",
+              "colors": [
+                "#E9E9EA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4740ddb375500bb0890394b0e19a1372~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46b51cd07cd91a3970ca7d9a21397c01~2508x0.webp"
+            },
+            {
+              "name": "晨曦白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/122d8d239b95b8209c901127abba65d8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#676D78"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a3ae5a152902c331025941256d7b22d~2508x0.webp"
+            },
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c4faa28a917db910994675245fd22a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b87cf83310dfde060f4c655dca74a46c~2508x0.webp"
         },
         {
-          "configName": "银河L7 2025款 1.5L EM-i 115km 探索+版",
+          "configName": "2025款 1.5L EM-i 115km 探索+版",
+          "configId": "245251",
+          "index": 2,
           "price": "13.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4710x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 218马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4710x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcdaa6e3928f109f7af4441ac0af4104~2508x0.webp"
+            },
+            {
+              "name": "星瀚绿/黑色",
+              "colors": [
+                "#006400",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_744c9eef9cbb7ddf1f1371e3a585fdbf~2508x0.webp"
+            },
+            {
+              "name": "星宇蓝",
+              "colors": [
+                "#578E9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/17ac1a20f57d42c7953ee87b7d7ec613~2508x0.webp"
+            },
+            {
+              "name": "星宇蓝/黑色",
+              "colors": [
+                "#578E9F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74e78bbcc2eeb4dc3c6197dd39fed1f0~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ebd1483006e46b7f3540a44d219e853c~2508x0.webp"
+            },
+            {
+              "name": "破晓灰/黑色",
+              "colors": [
+                "#C2C2C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30410a8aa41196c3694369204b94aba4~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b847bfab613d4b989f9aad53270a9a1~2508x0.webp"
+            },
+            {
+              "name": "星耀银/黑色",
+              "colors": [
+                "#E9E9EA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_364556f8796bddb622d0b10c75192a90~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b3d0e004f0066d3a91eaadb36bd1e2f~2508x0.webp"
+            },
+            {
+              "name": "晨曦白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3c6113b7a6961f88c0ce140095af4fe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#676D78"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b28d1a39ca6886c466557855eba3694~2508x0.webp"
+            },
+            {
+              "name": "灯火棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d588d9fbb1abd1245def606a3c3d4d5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bcdaa6e3928f109f7af4441ac0af4104~2508x0.webp"
         },
         {
-          "configName": "银河L7 2025款 1.5T DHT 115km 星舰版",
+          "configName": "2025款 1.5T DHT 115km 星舰版",
+          "configId": "245252",
+          "index": 3,
           "price": "14.88万",
+          "manufacturer": "吉利银河",
+          "class": "紧凑型SUV",
           "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
           "size": "4710x1905x1685",
-          "manufacturer": "吉利银河",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 146马力"
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_79949fbfe6b7d4611b9a1d0902d9a55e~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_075f60a8963650f8f214cb70f40c8f78~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_969e4f0d47354d7611f8994985e4a8de~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#676D78"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b40e66e39c2c8d6ff6f3750952124d25~2508x0.webp"
+            },
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff1262dfc9671c768cef0f37ff11990d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_79949fbfe6b7d4611b9a1d0902d9a55e~2508x0.webp"
         },
         {
-          "configName": "银河L7 2024款 1.5T DHT 55km PRO龙腾版",
+          "configName": "2024款 1.5T DHT 55km PRO龙腾版",
+          "configId": "98617",
+          "index": 4,
           "price": "12.57万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 146马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4700x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9daae4e48477a86b3622e65a47cc52df~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6bc19d9c8ece5cad7ec82dc22939a0a2~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c4f96d6a0360111c0a3a102ef4605c2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄玉黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c012ef04579f3801727e340a406d9726~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3476ab91118bdc0a0c307d869b1dc33~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9daae4e48477a86b3622e65a47cc52df~2508x0.webp"
         },
         {
-          "configName": "银河L7 2024款 1.5T DHT 115km PLUS龙腾版",
+          "configName": "2024款 1.5T DHT 115km PLUS龙腾版",
+          "configId": "98619",
+          "index": 5,
           "price": "13.97万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 146马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4700x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb4594725e81078046340d3e38e77261~2508x0.webp"
+            },
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#C1E6FE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3556383ae7ec745461668ca997178b80~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae576ecff531bebdccc64ea894a2d1e2~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b34b0a383a21f7fb985e10e92430e6db~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bd29fc79464584c120fb1a74d36ad97~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄玉黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d9e6201167032309b2c80920f49e3e6~2508x0.webp"
+            },
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9901857c3a2a15190188b55c32c8ec1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cb4594725e81078046340d3e38e77261~2508x0.webp"
         },
         {
-          "configName": "银河L7 2024款 1.5T DHT 115km MAX龙腾版",
+          "configName": "2024款 1.5T DHT 115km MAX龙腾版",
+          "configId": "98621",
+          "index": 6,
           "price": "14.97万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 146马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4700x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3e44afcab5b76946fbc2808526f3700~2508x0.webp"
+            },
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#C1E6FE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72a15bf6d2ab73e71bf255ab70128be1~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/592ca7bda67b270d59455089071e8af5~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c83fc2ebe84f73e770877f4fe3009eb3~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a081225fbc586ecae399827afbf4849~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄玉黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3faf44cbd344611e360f9c1651ff21c~2508x0.webp"
+            },
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e66fca5a53260d95e5847587fdcd2df~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c3e44afcab5b76946fbc2808526f3700~2508x0.webp"
         },
         {
-          "configName": "银河L7 2024款 1.5T DHT 115km 星舰龙腾版",
+          "configName": "2024款 1.5T DHT 115km 星舰龙腾版",
+          "configId": "98622",
+          "index": 7,
           "price": "15.97万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 146马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4700x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "午夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f466ef045880759fc24f1eddc8a9fdb~2508x0.webp"
+            },
+            {
+              "name": "星瀚绿/黑色",
+              "colors": [
+                "#006400",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a19abbb76e90ab257629cedb7c54e51~2508x0.webp"
+            },
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#C1E6FE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b842d31a3d145c698a3a9f4c8f7f1fa9~2508x0.webp"
+            },
+            {
+              "name": "破晓灰",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d412ee9da3389999d5901ef249c881f~2508x0.webp"
+            },
+            {
+              "name": "破晓灰/黑色",
+              "colors": [
+                "#C2C2C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25aa0e9856a16f328f6f905067402cf6~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/4426a51282051c207a5de8e62cfddee9~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星耀银/黑色",
+              "colors": [
+                "#E9E9EA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b88ede0bef240693c1da157156d2d75d~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85d66944eb6a7c278f40fb1cfdd46ef5~2508x0.webp"
+            },
+            {
+              "name": "晨曦白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31de47c97ff49b162966022ac5b54ff5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "霞光棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb7fc625a08b437f06a4f090ba23b2e1~2508x0.webp"
+            },
+            {
+              "name": "天际白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48fbbf9ed1a8f2d975970788e37ba94d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2f466ef045880759fc24f1eddc8a9fdb~2508x0.webp"
         },
         {
-          "configName": "银河L7 2024款 1.5T DHT 115km 亚运幻影龙腾版",
+          "configName": "2024款 1.5T DHT 115km 亚运幻影龙腾版",
+          "configId": "98624",
+          "index": 8,
           "price": "16.97万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1905x1685",
           "manufacturer": "吉利银河",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 146马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4700x1905x1685",
+          "exteriorImages": [
+            {
+              "name": "星瀚绿/黑色",
+              "colors": [
+                "#006400",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab0adfa16346f19ee72ca3504f431fa9~2508x0.webp"
+            },
+            {
+              "name": "星耀银",
+              "colors": [
+                "#E9E9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22b87e211287b13542b5d8e128e72213~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c7626c4c974960f257fc757b6f5baae~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灯火棕",
+              "colors": [
+                "#BF8430"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4409cbfed523cb71b2a97357097ddda~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ab0adfa16346f19ee72ca3504f431fa9~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4779,
       "carName": "LEVC TX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/548a4c2e49054e629692577ee6fda4f8~1200x0.png",
       "configs": [
         {
-          "configName": "LEVC TX 2023款 纯电出行版",
+          "configName": "2023款 纯电出行版",
+          "configId": "79038",
+          "index": 0,
           "price": "33.98万",
-          "fuelType": "纯电动",
-          "size": "4866x1945x1880",
           "manufacturer": "LEVC",
           "class": "中型MPV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4866x1945x1880",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "LEVC TX 2023款 纯电家庭版",
+          "configName": "2023款 纯电家庭版",
+          "configId": "79039",
+          "index": 1,
           "price": "35.98万",
-          "fuelType": "纯电动",
-          "size": "4866x1945x1880",
           "manufacturer": "LEVC",
           "class": "中型MPV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4866x1945x1880",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "LEVC TX 2023款 纯电商务版",
+          "configName": "2023款 纯电商务版",
+          "configId": "76968",
+          "index": 2,
           "price": "36.98万",
-          "fuelType": "纯电动",
-          "size": "4866x1945x1880",
           "manufacturer": "LEVC",
           "class": "中型MPV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4866x1945x1880",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "LEVC TX 2023款 增程出行版",
+          "configName": "2023款 增程出行版",
+          "configId": "79041",
+          "index": 3,
           "price": "33.98万",
-          "fuelType": "增程式",
-          "size": "4866x1945x1880",
           "manufacturer": "LEVC",
           "class": "中型MPV",
-          "power": "增程式 163马力"
+          "fuelType": "增程式",
+          "power": "纯电动 163马力",
+          "size": "4866x1945x1880",
+          "exteriorImages": [
+            {
+              "name": "英伦黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1f722322575417ee5de895c755d5b41~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/棕色",
+              "colors": [
+                "#0000FF",
+                "#FFD700"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/62c6ca6a690a7698548c969b9714989d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e1f722322575417ee5de895c755d5b41~2508x0.webp"
         },
         {
-          "configName": "LEVC TX 2023款 增程家庭版",
+          "configName": "2023款 增程家庭版",
+          "configId": "79042",
+          "index": 4,
           "price": "35.98万",
-          "fuelType": "增程式",
-          "size": "4866x1945x1880",
           "manufacturer": "LEVC",
           "class": "中型MPV",
-          "power": "增程式 163马力"
+          "fuelType": "增程式",
+          "power": "纯电动 163马力",
+          "size": "4866x1945x1880",
+          "exteriorImages": [
+            {
+              "name": "伊丽莎白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b63b019c7f1a8a1ffeeb2dc890333541~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/棕色",
+              "colors": [
+                "#0000FF",
+                "#FFD700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ee3ec2c734b0b3f37798661ad0ffedb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b63b019c7f1a8a1ffeeb2dc890333541~2508x0.webp"
         },
         {
-          "configName": "LEVC TX 2023款 增程商务版",
+          "configName": "2023款 增程商务版",
+          "configId": "76969",
+          "index": 5,
           "price": "36.98万",
-          "fuelType": "增程式",
-          "size": "4866x1945x1880",
           "manufacturer": "LEVC",
           "class": "中型MPV",
-          "power": "增程式 163马力"
+          "fuelType": "增程式",
+          "power": "纯电动 163马力",
+          "size": "4866x1945x1880",
+          "exteriorImages": [
+            {
+              "name": "英伦黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1cb2fd836f291307d5ca87f2f736a1b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/469ed6d44953e95bdb76a2cdb9d3260b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b1cb2fd836f291307d5ca87f2f736a1b~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T06:28:28.733Z",
+  "progress": {
+    "completed": 12,
+    "total": 13,
+    "percentage": 92,
+    "currentIndex": 13
+  }
 }

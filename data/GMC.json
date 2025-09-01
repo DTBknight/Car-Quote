@@ -3,26 +3,117 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/bd2e6eafdd8daa08be5fe7c045b99105~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 9,
       "carName": "YUKON育空",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/70641fc68c374f2990c29aa806cb9762~1200x0.png",
       "configs": [
         {
-          "configName": "YUKON育空 2025款 2.7T 德纳利典范版",
+          "configName": "2025款 2.7T 德纳利典范版",
+          "configId": "242077",
+          "index": 0,
           "price": "80.8万",
-          "fuelType": "汽油",
-          "size": "5357x2058x1940",
           "manufacturer": "GMC",
           "class": "大型SUV",
-          "power": "2.7T 303马力 L4"
+          "fuelType": "汽油",
+          "power": "2.7T 303马力 L4",
+          "size": "5357x2058x1940",
+          "exteriorImages": [
+            {
+              "name": "松露黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b29e89344880237cdb5d15592ca49141~2508x0.webp"
+            },
+            {
+              "name": "苔原红",
+              "colors": [
+                "#C73434"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4e082ba0f17a1e8234c7925de7066334~2508x0.webp"
+            },
+            {
+              "name": "野桦灰",
+              "colors": [
+                "#E2E1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c4f15908096715ad397a324c8fc9ccc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d6b93cc53b9047d0b925b1d53c57333~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b29e89344880237cdb5d15592ca49141~2508x0.webp"
         },
         {
-          "configName": "YUKON育空 2025款 2.7T 德纳利巅峰版",
+          "configName": "2025款 2.7T 德纳利巅峰版",
+          "configId": "242326",
+          "index": 1,
           "price": "89.8万",
-          "fuelType": "汽油",
-          "size": "5357x2058x1940",
           "manufacturer": "GMC",
           "class": "大型SUV",
-          "power": "2.7T 303马力 L4"
+          "fuelType": "汽油",
+          "power": "2.7T 303马力 L4",
+          "size": "5357x2058x1940",
+          "exteriorImages": [
+            {
+              "name": "松露黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f569149a1e261e3d3a86d3d44fad2325~2508x0.webp"
+            },
+            {
+              "name": "冷杉蓝",
+              "colors": [
+                "#11114D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99b0b038780ab297e70364ba6862bf34~2508x0.webp"
+            },
+            {
+              "name": "鸢尾蓝",
+              "colors": [
+                "#76769E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2adebf2ff1d32f162b719bbe3be405b5~2508x0.webp"
+            },
+            {
+              "name": "苔原红",
+              "colors": [
+                "#C73434"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d61291609e82363a2ecece64e691c90~2508x0.webp"
+            },
+            {
+              "name": "野桦灰",
+              "colors": [
+                "#E2E1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/835441e7ae7aa257a655ea01b4abafa8~2508x0.webp"
+            },
+            {
+              "name": "雪莲白",
+              "colors": [
+                "#FAF2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d6660e3ee0b6fe3481050d7bcc58688~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "原始印象",
+              "colors": [
+                "#A04E13"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bdb9bbeedfbd15b4aa93cf14a961e8f3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f569149a1e261e3d3a86d3d44fad2325~2508x0.webp"
         }
       ]
     },
@@ -482,5 +573,12 @@
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T10:02:45.133Z",
+  "progress": {
+    "completed": 2,
+    "total": 1,
+    "percentage": 200,
+    "currentIndex": 1
+  }
 }

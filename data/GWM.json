@@ -3,533 +3,1381 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/15ebf67f59f2475ebf196b161f208be9~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 8944,
       "carName": "山海炮Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/342989b09d514f19ab205f141e4dcd17~1200x0.png",
       "configs": [
         {
-          "configName": "山海炮Hi4-T 2025款 商用版",
+          "configName": "2025款 商用版",
+          "configId": "247227",
+          "index": 0,
           "price": "22.68万",
-          "fuelType": "插电式混合动力",
-          "size": "5440x1991x1945",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "插电式混动 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5440x1991x1945",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "山海炮Hi4-T 2025款 全球版",
+          "configName": "2025款 全球版",
+          "configId": "247336",
+          "index": 1,
           "price": "22.88万",
-          "fuelType": "插电式混合动力",
-          "size": "5440x1991x1945",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "插电式混动 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5440x1991x1945",
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ab73f2ab1b74c03a5bde4a422d494d1~2508x0.webp"
+            },
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_02505bfa8ff04359baaeabba45d57245~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#262525"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba682c15a7eb864d5bb313887ec588eb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ab73f2ab1b74c03a5bde4a422d494d1~2508x0.webp"
         },
         {
-          "configName": "山海炮Hi4-T 2025款 性能版",
+          "configName": "2025款 性能版",
+          "configId": "247337",
+          "index": 2,
           "price": "24.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5462x1992x1960",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "插电式混动 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5462x1992x1960",
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7aa6695c194071bf9b1e7524b35d6be~2508x0.webp"
+            },
+            {
+              "name": "金甲",
+              "colors": [
+                "#DBBB0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba3465e29f9d856039f74f73155d77fb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bd7c14fcf94586a1d29d52a92a755177~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7aa6695c194071bf9b1e7524b35d6be~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6098,
       "carName": "山海炮",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5600dd55f4e14051b61b10e7de7bdd2a~1200x0.png",
       "configs": [
         {
-          "configName": "山海炮 2025款 2.4T 柴油 全球版基础款",
+          "configName": "2025款 2.4T 柴油 全球版基础款",
+          "configId": "249392",
+          "index": 0,
           "price": "19.38万",
-          "fuelType": "柴油",
-          "size": "5440x1991x1945",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5440x1991x1945",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "山海炮 2025款 2.4T 柴油 全球版牵引款",
+          "configName": "2025款 2.4T 柴油 全球版牵引款",
+          "configId": "249393",
+          "index": 1,
           "price": "19.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
           "size": "5440x1991x1945",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "山海炮 2024款 2.4T 柴油 穿越版",
+          "configName": "2024款 2.4T 柴油 穿越版",
+          "configId": "239682",
+          "index": 2,
           "price": "24.98万",
-          "fuelType": "柴油",
-          "size": "5462x1992x1960",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5462x1992x1960",
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5da1e496ec7293eae52d1dbaa4dd28e4~2508x0.webp"
+            },
+            {
+              "name": "金甲",
+              "colors": [
+                "#DBBB0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64a0874bc3642243a8fff791e56b4e90~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8ecf6edf8e77f409dd5a5b8de8197f7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5da1e496ec7293eae52d1dbaa4dd28e4~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 性能版",
+          "configName": "2023款 3.0T 汽油 性能版",
+          "configId": "92745",
+          "index": 3,
           "price": "27.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
           "size": "5462x1992x1960",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db919c1d58a7722a97523ba105b591f7~2508x0.webp"
+            },
+            {
+              "name": "金甲",
+              "colors": [
+                "#DBBB0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f5cc17f8301898eb929f141b117e035~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74ff1bc77d5d0fe3c8f6f7242327cf35~2508x0.webp"
+            },
+            {
+              "name": "黑色/黄色",
+              "colors": [
+                "#000000",
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f070b0f818a752758ce047184fb5b33~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db919c1d58a7722a97523ba105b591f7~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 极途版",
+          "configName": "2023款 3.0T 汽油 极途版",
+          "configId": "81088",
+          "index": 4,
           "price": "25.88万",
-          "fuelType": "48V轻混系统",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51916d3c0a9bec5a7d3fc3cf83b2ee4c~2508x0.webp"
+            },
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0cb6be962f9b36b15901e601dd6c9462~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#51433A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f0b1662092181a68b2737e307e35126~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/51916d3c0a9bec5a7d3fc3cf83b2ee4c~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 极途版牵引版",
+          "configName": "2023款 3.0T 汽油 极途版牵引版",
+          "configId": "81096",
+          "index": 5,
           "price": "26.08万",
-          "fuelType": "48V轻混系统",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
+          "size": "5440x1991x1924",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 极享版",
+          "configName": "2023款 3.0T 汽油 极享版",
+          "configId": "81089",
+          "index": 6,
           "price": "28.88万",
-          "fuelType": "48V轻混系统",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ffa452e85c88d15fdcf98bc487332f9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#36465D",
+                "#ABAAA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b3766d1d228fb18795c0883b5f0dbf2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9ffa452e85c88d15fdcf98bc487332f9~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 极享版牵引版",
+          "configName": "2023款 3.0T 汽油 极享版牵引版",
+          "configId": "81097",
+          "index": 7,
           "price": "29.08万",
-          "fuelType": "48V轻混系统",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a1bd5489f75c2a7dd060f9942c38840~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#36465D",
+                "#ABAAA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af7856026f03b795868d173187b1fcb6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5a1bd5489f75c2a7dd060f9942c38840~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 极境版",
+          "configName": "2023款 3.0T 汽油 极境版",
+          "configId": "81090",
+          "index": 8,
           "price": "30.18万",
-          "fuelType": "48V轻混系统",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/470ae54bc58cf05b9410505af8fac3db~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#36465D",
+                "#ABAAA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d13011cdaee30d43e7bb256f69e26627~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/470ae54bc58cf05b9410505af8fac3db~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 3.0T 汽油 极境版牵引版",
+          "configName": "2023款 3.0T 汽油 极境版牵引版",
+          "configId": "81098",
+          "index": 9,
           "price": "30.18万",
-          "fuelType": "48V轻混系统",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混系统",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc21f707661e514912015970d03e12c5~2508x0.webp"
+            },
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8770f8e0ca71318317ab462c96a9cabd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#36465D",
+                "#ABAAA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e962478591d10b30ad39bb3bf918aa2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bc21f707661e514912015970d03e12c5~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 2.4T 柴油 极途版",
+          "configName": "2023款 2.4T 柴油 极途版",
+          "configId": "81091",
+          "index": 10,
           "price": "22.88万",
-          "fuelType": "柴油",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5440x1991x1924",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "山海炮 2023款 2.4T 柴油 极途版牵引版",
+          "configName": "2023款 2.4T 柴油 极途版牵引版",
+          "configId": "81099",
+          "index": 11,
           "price": "23.08万",
-          "fuelType": "柴油",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5440x1991x1924",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "山海炮 2023款 2.4T 柴油 极享版",
+          "configName": "2023款 2.4T 柴油 极享版",
+          "configId": "81092",
+          "index": 12,
           "price": "24.88万",
-          "fuelType": "柴油",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f6d78c67a468f2d91ec614f3f2cab3d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#36465D",
+                "#ABAAA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03cd1d962703b8e14a15d93719a654e8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8f6d78c67a468f2d91ec614f3f2cab3d~2508x0.webp"
         },
         {
-          "configName": "山海炮 2023款 2.4T 柴油 极享版牵引版",
+          "configName": "2023款 2.4T 柴油 极享版牵引版",
+          "configId": "81100",
+          "index": 13,
           "price": "25.08万",
-          "fuelType": "柴油",
-          "size": "5440x1991x1924",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5440x1991x1924",
+          "exteriorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b8b4e754637114da62965b34e772ae7c~2508x0.webp"
+            },
+            {
+              "name": "丹霞红",
+              "colors": [
+                "#6F1911"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d90681c61aa591999b0a302c5d72bded~2508x0.webp"
+            },
+            {
+              "name": "沙滩银",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1eab3a63b9572d97925bd2a6b1b797a1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#36465D",
+                "#ABAAA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52b2a2fe8b3a5ff29f7602115c25e453~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b8b4e754637114da62965b34e772ae7c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5873,
       "carName": "金刚炮",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e825d626bfb54e8ca665587ec170ea2b~1200x0.png",
       "configs": [
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动两驱创业型标箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动两驱创业型标箱GW4D20M",
+          "configId": "99702",
+          "index": 0,
           "price": "9.68万",
-          "fuelType": "柴油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [
+            {
+              "name": "工程黄",
+              "colors": [
+                "#DE890A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40a61dcffb52a8592a88b5f00e4f9986~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51b42560d85368e41873e4b8d4d76c21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/40a61dcffb52a8592a88b5f00e4f9986~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动两驱创业型长箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动两驱创业型长箱GW4D20M",
+          "configId": "99703",
+          "index": 1,
           "price": "9.78万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动两驱创业型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动两驱创业型平箱GW4D20M",
+          "configId": "99704",
+          "index": 2,
           "price": "9.88万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
           "size": "5635x1880x1840",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a41703aaa84223ed5157b6757c639f51~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d22a2786688eb625e5d94e03fec5657b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a41703aaa84223ed5157b6757c639f51~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动两驱精英型标箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动两驱精英型标箱GW4D20M",
+          "configId": "99705",
+          "index": 3,
           "price": "10.18万",
-          "fuelType": "柴油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动两驱精英型长箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动两驱精英型长箱GW4D20M",
+          "configId": "99706",
+          "index": 4,
           "price": "10.28万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
           "size": "5635x1880x1815",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d30e230fc02725ea74a4d92ac091db62~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d30e230fc02725ea74a4d92ac091db62~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动两驱精英型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动两驱精英型平箱GW4D20M",
+          "configId": "99707",
+          "index": 5,
           "price": "10.38万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
           "size": "5635x1880x1840",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动四驱创业型标箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动四驱创业型标箱GW4D20M",
+          "configId": "99709",
+          "index": 6,
           "price": "11.08万",
-          "fuelType": "柴油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动四驱创业型长箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动四驱创业型长箱GW4D20M",
+          "configId": "99710",
+          "index": 7,
           "price": "11.18万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
           "size": "5635x1880x1815",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88aa1da2fa5553e4d8eaa2085daac558~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/88aa1da2fa5553e4d8eaa2085daac558~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动四驱创业型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动四驱创业型平箱GW4D20M",
+          "configId": "99712",
+          "index": 8,
           "price": "11.28万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
           "size": "5635x1880x1840",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_51c9c77633bf1d2f3e5662810c957264~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6c97d8f78f2bf4f07dc8d832f3ebfa9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_51c9c77633bf1d2f3e5662810c957264~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动四驱精英型标箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动四驱精英型标箱GW4D20M",
+          "configId": "99713",
+          "index": 9,
           "price": "11.58万",
-          "fuelType": "柴油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动四驱精英型长箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动四驱精英型长箱GW4D20M",
+          "configId": "99714",
+          "index": 10,
           "price": "11.68万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1815",
+          "exteriorImages": [
+            {
+              "name": "豪横黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/947aff94598976818a434e5794a2d8f3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/29b8979987766610395489c3ed72255b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/947aff94598976818a434e5794a2d8f3~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 手动四驱精英型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 手动四驱精英型平箱GW4D20M",
+          "configId": "99715",
+          "index": 11,
           "price": "11.78万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [
+            {
+              "name": "创富银",
+              "colors": [
+                "#DADCF0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48b55dd30bd7595c1cfab802929e59db~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d1ff477ea82bacd47eb4edf81f250c0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/48b55dd30bd7595c1cfab802929e59db~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动两驱创业型标箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动两驱创业型标箱GW4C20C",
+          "configId": "99716",
+          "index": 12,
           "price": "8.98万",
-          "fuelType": "汽油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动两驱创业型长箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动两驱创业型长箱GW4C20C",
+          "configId": "99717",
+          "index": 13,
           "price": "9.08万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动两驱创业型平箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动两驱创业型平箱GW4C20C",
+          "configId": "99718",
+          "index": 14,
           "price": "9.18万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动两驱精英型标箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动两驱精英型标箱GW4C20C",
+          "configId": "99719",
+          "index": 15,
           "price": "9.48万",
-          "fuelType": "汽油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动两驱精英型长箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动两驱精英型长箱GW4C20C",
+          "configId": "99720",
+          "index": 16,
           "price": "9.58万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动两驱精英型平箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动两驱精英型平箱GW4C20C",
+          "configId": "99721",
+          "index": 17,
           "price": "9.68万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动四驱创业型标箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动四驱创业型标箱GW4C20C",
+          "configId": "99722",
+          "index": 18,
           "price": "10.38万",
-          "fuelType": "汽油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动四驱创业型长箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动四驱创业型长箱GW4C20C",
+          "configId": "99723",
+          "index": 19,
           "price": "10.48万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5635x1880x1815",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动四驱创业型平箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动四驱创业型平箱GW4C20C",
+          "configId": "99724",
+          "index": 20,
           "price": "10.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5635x1880x1840",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动四驱精英型标箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动四驱精英型标箱GW4C20C",
+          "configId": "99725",
+          "index": 21,
           "price": "10.88万",
-          "fuelType": "汽油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动四驱精英型长箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动四驱精英型长箱GW4C20C",
+          "configId": "99726",
+          "index": 22,
           "price": "10.98万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 手动四驱精英型平箱GW4C20C",
+          "configName": "2024款 2.0T汽油 手动四驱精英型平箱GW4C20C",
+          "configId": "99727",
+          "index": 23,
           "price": "11.08万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT两驱精英型标箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT两驱精英型标箱GW4D20M",
+          "configId": "99802",
+          "index": 24,
           "price": "10.68万",
-          "fuelType": "柴油",
-          "size": "5365x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5365x1880x1815",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT两驱精英型长箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT两驱精英型长箱GW4D20M",
+          "configId": "99803",
+          "index": 25,
           "price": "10.78万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1815",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1815",
+          "exteriorImages": [
+            {
+              "name": "豪横黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57e0cc5aa3d63c1aba08c10e8b35d3a6~2508x0.webp"
+            },
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_972bb539c8113b4f6ce2fd505eddda95~2508x0.webp"
+            },
+            {
+              "name": "进取灰",
+              "colors": [
+                "#888888"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1463731572807ab6e2d04b7b923ab79e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d64258c13cb406cc2fdbbec870f30cc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/57e0cc5aa3d63c1aba08c10e8b35d3a6~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT两驱精英型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT两驱精英型平箱GW4D20M",
+          "configId": "99804",
+          "index": 26,
           "price": "10.88万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [
+            {
+              "name": "豪横黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/679399278963473ae21ba2361b8c04e7~2508x0.webp"
+            },
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_77ae26fb21d60194365b150c90eb0d61~2508x0.webp"
+            },
+            {
+              "name": "进取灰",
+              "colors": [
+                "#888888"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c7ef55fa92538d2498690e91adec203~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d25ddc21de3d4be8eb5cc921bf794f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/468f55950b0346afd363aab55d73dc07~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/679399278963473ae21ba2361b8c04e7~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT两驱领航型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT两驱领航型平箱GW4D20M",
+          "configId": "98941",
+          "index": 27,
           "price": "11.28万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [
+            {
+              "name": "进取灰",
+              "colors": [
+                "#888888"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/418ddc1cd399ccc87cc2581e82601382~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "创富银",
+              "colors": [
+                "#DADCF0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/360b8c6fd274677f412a0b8e5757b100~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/418ddc1cd399ccc87cc2581e82601382~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT四驱精英型标箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT四驱精英型标箱GW4D20M",
+          "configId": "99806",
+          "index": 28,
           "price": "12.08万",
-          "fuelType": "柴油",
-          "size": "5365x1880x1825",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5365x1880x1825",
+          "exteriorImages": [
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/e9d6284317771c7e22b599a86a0d0f81~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c59ce7249d1297a92b6bb7fde0d90198~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/e9d6284317771c7e22b599a86a0d0f81~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT四驱精英型长箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT四驱精英型长箱GW4D20M",
+          "configId": "99807",
+          "index": 29,
           "price": "12.18万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1825",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1825",
+          "exteriorImages": [
+            {
+              "name": "豪横黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55363a5df10581eecdf6bfccc5a5e667~2508x0.webp"
+            },
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95d590b9fc040305a4443fc20bfd3bfd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e57139223583b77a9ae96f9ed5e23f15~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/55363a5df10581eecdf6bfccc5a5e667~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT四驱精英型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT四驱精英型平箱GW4D20M",
+          "configId": "99808",
+          "index": 30,
           "price": "12.28万",
-          "fuelType": "柴油",
-          "size": "5635x1880x1855",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
+          "size": "5635x1880x1855",
+          "exteriorImages": [
+            {
+              "name": "豪横黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9a804d7c30a44604cef2eaa202f5d75~2508x0.webp"
+            },
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/21c3b80e728befaf88bdc6cf2e0d5e27~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "进取灰",
+              "colors": [
+                "#888888"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0a6cdfa50a5d7d1238f308332c63121~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/105228c20b3abe028ad63881c19b6b74~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41db192eb54d827f9265228cb576f947~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f9a804d7c30a44604cef2eaa202f5d75~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T柴油 8AT四驱领航型平箱GW4D20M",
+          "configName": "2024款 2.0T柴油 8AT四驱领航型平箱GW4D20M",
+          "configId": "99227",
+          "index": 31,
           "price": "12.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "柴油",
+          "power": "2.0T 163马力 L4",
           "size": "5635x1880x1855",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "梦想蓝",
+              "colors": [
+                "#6CDEF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d1d86c8d49d655cd3d5cb7907408332~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0fbbd282161116647c63db01557191de~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/098d9d0c546767a2651ff0be596c245a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0d1d86c8d49d655cd3d5cb7907408332~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT两驱精英型标箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT两驱精英型标箱GW4C20B",
+          "configId": "99810",
+          "index": 32,
           "price": "9.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5365x1880x1815",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT两驱精英型长箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT两驱精英型长箱GW4C20B",
+          "configId": "99811",
+          "index": 33,
           "price": "10.08万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5635x1880x1815",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT两驱精英型平箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT两驱精英型平箱GW4C20B",
+          "configId": "99812",
+          "index": 34,
           "price": "10.18万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1840",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1840",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT两驱领航型平箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT两驱领航型平箱GW4C20B",
+          "configId": "99805",
+          "index": 35,
           "price": "10.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5635x1880x1840",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT四驱精英型标箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT四驱精英型标箱GW4C20B",
+          "configId": "99813",
+          "index": 36,
           "price": "11.38万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5365x1880x1825",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT四驱精英型长箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT四驱精英型长箱GW4C20B",
+          "configId": "99814",
+          "index": 37,
           "price": "11.48万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
           "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
           "size": "5635x1880x1825",
-          "manufacturer": "长城汽车",
-          "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "exteriorImages": [
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dce54cdc41913374488de9be4758233d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_3bbf4ab0ad16d5629d9cf87852ec0edf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dce54cdc41913374488de9be4758233d~2508x0.webp"
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT四驱精英型平箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT四驱精英型平箱GW4C20B",
+          "configId": "99815",
+          "index": 38,
           "price": "11.58万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1855",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1855",
+          "exteriorImages": [
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/03f510cce81b66b490df049330ef0eb2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/03f510cce81b66b490df049330ef0eb2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "金刚炮 2024款 2.0T汽油 8AT四驱领航型平箱GW4C20B",
+          "configName": "2024款 2.0T汽油 8AT四驱领航型平箱GW4C20B",
+          "configId": "99809",
+          "index": 39,
           "price": "11.98万",
-          "fuelType": "汽油",
-          "size": "5635x1880x1855",
           "manufacturer": "长城汽车",
           "class": "中型皮卡",
-          "power": "2.0T 190马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 190马力 L4",
+          "size": "5635x1880x1855",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
@@ -988,6 +1836,735 @@
           "power": "2.0T 190马力 L4"
         }
       ]
+    },
+    {
+      "carId": 1503,
+      "carName": "风骏5",
+      "configs": [
+        {
+          "configName": "2023款 1.5T汽油两驱干饭版进取型大双 GW4G15K",
+          "configId": "90137",
+          "index": 0,
+          "price": "6.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "1.5T 136马力 L4",
+          "size": "5403x1720x1683",
+          "exteriorImages": [
+            {
+              "name": "工程黄",
+              "colors": [
+                "#DE890A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1ba77bda1dee6c028d0e50f12877e80~2508x0.webp"
+            },
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c142582d08926b0f7183df67f06c613~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a2e300733eb4b8155258ca108054106~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d1ba77bda1dee6c028d0e50f12877e80~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5T汽油两驱干饭版进取型长货箱 GW4G15K",
+          "configId": "90138",
+          "index": 1,
+          "price": "7.18万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "1.5T 136马力 L4",
+          "size": "5523x1720x1683",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#0C0D11"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b73445c248bb1f048dcceb73857ebf0~2508x0.webp"
+            },
+            {
+              "name": "星光银",
+              "colors": [
+                "#ACABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c26588b1ffd1c4e3d7f3c107a8dba4d4~2508x0.webp"
+            },
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cd47787f7db38fdf10b25c96956c96a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7895c148c73ff8c4b6975da8c46fb2f3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0b73445c248bb1f048dcceb73857ebf0~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.4L汽油两驱进取型小双 4K22D4M",
+          "configId": "90179",
+          "index": 2,
+          "price": "7.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5103x1800x1730",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.4L汽油两驱进取型大双 4K22D4M",
+          "configId": "90139",
+          "index": 3,
+          "price": "7.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5403x1800x1730",
+          "exteriorImages": [
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90ef3b69ea971feb24290c4c2c9651b3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/90ef3b69ea971feb24290c4c2c9651b3~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.4L汽油两驱精英型小双 4K22D4M",
+          "configId": "90182",
+          "index": 4,
+          "price": "8.08万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5103x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.4L汽油两驱精英型大双 4K22D4M",
+          "configId": "90140",
+          "index": 5,
+          "price": "8.18万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5403x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.4L汽油四驱进取型小双 4K22D4M",
+          "configId": "90181",
+          "index": 6,
+          "price": "8.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5103x1800x1730",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.4L汽油四驱进取型大双 4K22D4M",
+          "configId": "90142",
+          "index": 7,
+          "price": "8.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5403x1800x1730",
+          "exteriorImages": [
+            {
+              "name": "工程黄",
+              "colors": [
+                "#DE890A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/771e28cc120c7da10299fb0386af4986~2508x0.webp"
+            },
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41adb26f90219eed97a42b82c98fd6c6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4570ac41765fa37929e521e6e10ca9f0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/771e28cc120c7da10299fb0386af4986~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.4L汽油四驱精英型小双 4K22D4M",
+          "configId": "90180",
+          "index": 8,
+          "price": "9.08万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5103x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.4L汽油四驱精英型大双 4K22D4M",
+          "configId": "90141",
+          "index": 9,
+          "price": "9.18万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.4L 160马力 L4",
+          "size": "5403x1800x1740",
+          "exteriorImages": [
+            {
+              "name": "星光银",
+              "colors": [
+                "#ACABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2033a91a4d0292490dda3af9f60ca2a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2ea6882c77294d31b0b32d37f078625~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2033a91a4d0292490dda3af9f60ca2a2~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T柴油两驱进取型大双 GW4D20M",
+          "configId": "90143",
+          "index": 10,
+          "price": "7.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5403x1800x1730",
+          "exteriorImages": [
+            {
+              "name": "星光银",
+              "colors": [
+                "#ACABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea65631448399a5a2ca006c53aef4d8a~2508x0.webp"
+            },
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15acf5cf8c06da62e97ef0df63d69fb4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ea65631448399a5a2ca006c53aef4d8a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T柴油两驱精英型大双 GW4D20M",
+          "configId": "90144",
+          "index": 11,
+          "price": "8.48万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5403x1800x1740",
+          "exteriorImages": [
+            {
+              "name": "星光银",
+              "colors": [
+                "#ACABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdbe8f807a5065316a3c5f5ccba314d0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc9994441d48ae84f46f285edb01ae6a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fdbe8f807a5065316a3c5f5ccba314d0~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T柴油四驱进取型大双 GW4D20M",
+          "configId": "90145",
+          "index": 12,
+          "price": "9.28万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5403x1800x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#0C0D11"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89e42b0eb875545503d7139b8c960750~2508x0.webp"
+            },
+            {
+              "name": "星光银",
+              "colors": [
+                "#ACABAB"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a7e7a11a5c541c4187787be725984b11~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4829d4a3d3db3dbf8f109e8f3b559734~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0bef9839fa3e32a585dd3e778071f0b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/89e42b0eb875545503d7139b8c960750~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T柴油四驱精英型大双 GW4D20M",
+          "configId": "90146",
+          "index": 13,
+          "price": "9.78万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5403x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油两驱进取型长货箱 GW4D20M",
+          "configId": "89630",
+          "index": 14,
+          "price": "8.18万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5520x1800x1730",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4bae9cd6ad2e51743db2ea47ffa0414~2508x0.webp"
+            }
+          ],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油两驱精英型长货箱 GW4D20M",
+          "configId": "90155",
+          "index": 15,
+          "price": "8.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5520x1800x1730",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油四驱进取型长货箱 GW4D20M",
+          "configId": "90156",
+          "index": 16,
+          "price": "9.48万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5520x1800x1730",
+          "exteriorImages": [
+            {
+              "name": "星光银",
+              "colors": [
+                "#ACABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f07688418f4cac927415f726e0d5d11b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f07688418f4cac927415f726e0d5d11b~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T柴油四驱精英型长货箱 GW4D20M",
+          "configId": "90154",
+          "index": 17,
+          "price": "9.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5520x1800x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#0C0D11"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8c4e05bbde6bf2bab7a2bf843f50df4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/467ecbbced347c95541bbf02c0083b6a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e8c4e05bbde6bf2bab7a2bf843f50df4~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3044,
+      "carName": "风骏7",
+      "configs": [
+        {
+          "configName": "2023款 2.0T汽油两驱进取型GW4C20B",
+          "configId": "90128",
+          "index": 0,
+          "price": "8.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.0T 170马力 L4",
+          "size": "5425x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T汽油两驱精英型GW4C20B",
+          "configId": "90129",
+          "index": 1,
+          "price": "9.08万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.0T 170马力 L4",
+          "size": "5425x1800x1760",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T汽油四驱进取型GW4C20B",
+          "configId": "90131",
+          "index": 2,
+          "price": "9.88万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.0T 170马力 L4",
+          "size": "5425x1800x1740",
+          "exteriorImages": [
+            {
+              "name": "钛白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1997fdcc3369f3be3a18d47ed2e87c0d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#9B2B1C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ae067596dbd5e4ffd9cabca166e3c82~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1997fdcc3369f3be3a18d47ed2e87c0d~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T汽油四驱精英型GW4C20B",
+          "configId": "90130",
+          "index": 3,
+          "price": "10.38万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "2.0T 170马力 L4",
+          "size": "5425x1800x1760",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油两驱进取型GW4D20M",
+          "configId": "89471",
+          "index": 4,
+          "price": "8.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5425x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油两驱精英型GW4D20M",
+          "configId": "90133",
+          "index": 5,
+          "price": "9.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5425x1800x1760",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油四驱进取型GW4D20M",
+          "configId": "90134",
+          "index": 6,
+          "price": "9.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5425x1800x1740",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T柴油四驱精英型GW4D20M",
+          "configId": "90135",
+          "index": 7,
+          "price": "10.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "柴油",
+          "power": "2.0T 139马力 L4",
+          "size": "5425x1800x1760",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#0C0D11"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/519ce0b62e986b55539fd1bfc136f9bb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#9B2B1C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4244edcea53ddb694d91c857a416856~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/519ce0b62e986b55539fd1bfc136f9bb~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3469,
+      "carName": "炮EV",
+      "configs": [
+        {
+          "configName": "2021款 商用版精英型 标箱",
+          "configId": "48998",
+          "index": 0,
+          "price": "25.18万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "5362x1883x1884",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 商用版精英型 长箱",
+          "configId": "49002",
+          "index": 1,
+          "price": "25.28万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "5602x1883x1884",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0ba3f8b86e2bff03bc1b150ac29e546~2508x0.webp"
+            }
+          ],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 商用版领航型 标箱",
+          "configId": "48997",
+          "index": 2,
+          "price": "26.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "5362x1883x1884",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2dde29fd227884bbdda202ca1a03e701~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c1c8551e750dcf5f484d49475d44527~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2dde29fd227884bbdda202ca1a03e701~2508x0.webp"
+        },
+        {
+          "configName": "2021款 商用版领航型 长箱",
+          "configId": "49003",
+          "index": 3,
+          "price": "26.78万",
+          "manufacturer": "长城汽车",
+          "class": "中型皮卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "5602x1883x1884",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a395e16644116b48d42970aa2e64b04f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d09f3d6c3588e2a565688ccaa4827f99~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a395e16644116b48d42970aa2e64b04f~2508x0.webp"
+        }
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T10:23:11.546Z",
+  "progress": {
+    "completed": 7,
+    "total": 7,
+    "percentage": 100,
+    "currentIndex": 7
+  }
 }

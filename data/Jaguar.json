@@ -3,181 +3,915 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/9ca75c567fa6804e672fab69c9697d92~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 2816,
       "carName": "E-PACE",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/61d9d8989b5043cf817a806c194f8708~1200x0.png",
       "configs": [
         {
-          "configName": "捷豹E-PACE 2024款 青春运动版 R-DYNAMIC",
+          "configName": "2024款 青春运动版 R-DYNAMIC",
+          "configId": "92606",
+          "index": 0,
           "price": "26.38万",
-          "fuelType": "48V轻混系统",
-          "size": "4395x1900x1648",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "1.5T 200马力 L3 48V轻混",
+          "size": "4395x1900x1648",
+          "exteriorImages": [
+            {
+              "name": "硅谷银",
+              "colors": [
+                "#989D9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9081f79a801a8d4652bf51a834a0da2d~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db91e1c623ed8d4da5be1f61241e7df1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/185b97df3858a06b4e18e4730fddc754~2508x0.webp"
+            },
+            {
+              "name": "火星红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79a05630072a45a55e4d8a7d626b2acc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9081f79a801a8d4652bf51a834a0da2d~2508x0.webp"
         },
         {
-          "configName": "捷豹E-PACE 2024款 进取运动版 R-DYNAMIC S",
+          "configName": "2024款 进取运动版 R-DYNAMIC S",
+          "configId": "92607",
+          "index": 1,
           "price": "28.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4395x1900x1648",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "1.5T 200马力 L3 48V轻混",
+          "size": "4395x1900x1648",
+          "exteriorImages": [
+            {
+              "name": "火焰蓝",
+              "colors": [
+                "#084F9B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1b64d153dfd24352591ba287fd6784c~2508x0.webp"
+            },
+            {
+              "name": "硅谷银",
+              "colors": [
+                "#989D9A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/850b1fdd520ac6849bb10b7ef3a498d3~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44ef331d6f0f4ee6c681c981b29a6fae~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/227c4aa82c7b774a6d9b375311df2b0e~2508x0.webp"
+            },
+            {
+              "name": "火星红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e2c0a9220d0615bb41ec6708570d222~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d1b64d153dfd24352591ba287fd6784c~2508x0.webp"
         },
         {
-          "configName": "捷豹E-PACE 2024款 耀黑运动版 R-DYNAMIC SE BLACK",
+          "configName": "2024款 耀黑运动版 R-DYNAMIC SE BLACK",
+          "configId": "92608",
+          "index": 2,
           "price": "32.1万",
-          "fuelType": "48V轻混系统",
-          "size": "4395x1900x1648",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 249马力 L4 48V轻混",
+          "size": "4395x1900x1648",
+          "exteriorImages": [
+            {
+              "name": "英国赛车绿",
+              "colors": [
+                "#425961"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2381956171aa5d5d6253ddd8e4db2076~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdf11d3f69e0f62b977c80b5b241f6ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d08ca9e44a8fac7c45072ee2745b2cbb~2508x0.webp"
+            },
+            {
+              "name": "火星红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abb43762c80ef3239720c03be7ea852e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2381956171aa5d5d6253ddd8e4db2076~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1789,
       "carName": "XEL",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6602cebdc6a046b8a7222e0ccf5294db~1200x0.png",
       "configs": [
         {
-          "configName": "捷豹XEL 2025款 2.0T 250PS R-DYNAMIC 90周年典藏版",
+          "configName": "2025款 2.0T 250PS R-DYNAMIC 90周年典藏版",
+          "configId": "248128",
+          "index": 0,
           "price": "33.46万",
-          "fuelType": "汽油",
-          "size": "4778x1850x1429",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型车",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4778x1850x1429",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_52b50fde3f46b5b77802928b668be48f~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿/黑色",
+              "colors": [
+                "#50534A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c37098f961a59de38bb5cb97c5ef713~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#DCDCDC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7db78cb8aaf4311cfae24ea2143ddb3f~2508x0.webp"
+            },
+            {
+              "name": "首尔珍珠银/黑色",
+              "colors": [
+                "#DFE1F4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c3022ee7ac625343c5545c1bf830043e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#C2650F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_896f49178c9abc080b1cdf39a19645dc~2508x0.webp"
+            },
+            {
+              "name": "火星红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4fee6251ec61810db0eb98e0f9f9a23~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_52b50fde3f46b5b77802928b668be48f~2508x0.webp"
         },
         {
-          "configName": "捷豹XEL 2024款 2.0T 250PS R-DYNAMIC S进取运动版",
+          "configName": "2024款 2.0T 250PS R-DYNAMIC S进取运动版",
+          "configId": "94693",
+          "index": 1,
           "price": "32.98万",
-          "fuelType": "汽油",
-          "size": "4778x1850x1429",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型车",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4778x1850x1429",
+          "exteriorImages": [
+            {
+              "name": "火焰蓝",
+              "colors": [
+                "#084F9B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b31a862a045764693a17a6e1c9b5122~2508x0.webp"
+            },
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bda5cd70310d3803c981c8fe6871b14b~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿",
+              "colors": [
+                "#425961"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7df49fa555ed2f457ee71442d468939b~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿/黑色",
+              "colors": [
+                "#50534A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c19629ece54486df73749c853e91735b~2508x0.webp"
+            },
+            {
+              "name": "首尔珍珠银",
+              "colors": [
+                "#DFE1F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19b4af46480517adc36da9d8b6d7ba33~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/369492a332d33e363a4259ce8c6dc079~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/1501d1545652120a34a9569e228fade9~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#C2650F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4eec91a6aa833946cb705c5ecd7640b4~2508x0.webp"
+            },
+            {
+              "name": "火星红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/459947f0e20e92e5e2d4c3724ca5acc9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b31a862a045764693a17a6e1c9b5122~2508x0.webp"
         },
         {
-          "configName": "捷豹XEL 2024款 2.0T 250PS R-DYNAMIC S耀黑运动版",
+          "configName": "2024款 2.0T 250PS R-DYNAMIC S耀黑运动版",
+          "configId": "94694",
+          "index": 2,
           "price": "34.18万",
-          "fuelType": "汽油",
-          "size": "4778x1850x1429",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型车",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4778x1850x1429",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f60b6df220bf612da3397bdf075050e5~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿",
+              "colors": [
+                "#425961"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90d9621a9cd7f8144c2c381b3ec4d322~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿/黑色",
+              "colors": [
+                "#50534A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61cc353e116acf7a08999b0d1e38f314~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#DCDCDC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b0db92d2a155f38a89f58d622a69861~2508x0.webp"
+            },
+            {
+              "name": "首尔珍珠银/黑色",
+              "colors": [
+                "#DFE1F4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a70ed795c445bf44f41bc67abfb30b3c~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4e5b52bbb40f1af8a7bf9aee7919ed9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb1717405ac574fd480859c2a33633ed~2508x0.webp"
+            },
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#C2650F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/799c4cc138e90b4cd13ef40a0172d9e8~2508x0.webp"
+            },
+            {
+              "name": "火星红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7badccd55b5fadeff8ad594e6004ed44~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f60b6df220bf612da3397bdf075050e5~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 798,
       "carName": "XFL",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7511360e862f47619d3321e0a06f9de6~1200x0.png",
       "configs": [
         {
-          "configName": "捷豹XFL 2025款 2.0T P250 两驱尊享豪华版",
+          "configName": "2025款 2.0T P250 两驱尊享豪华版",
+          "configId": "249223",
+          "index": 0,
           "price": "43.99万",
-          "fuelType": "汽油",
-          "size": "5102x1890x1456",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中大型车",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "5102x1890x1456",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5514db2d4fb0e50597ec80c9e98bf21~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿",
+              "colors": [
+                "#425961"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e743b24fc645178066675e962fd36b5a~2508x0.webp"
+            },
+            {
+              "name": "首尔珍珠银",
+              "colors": [
+                "#DFE1F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ac713a94102e4ed6120002df3c312f2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浅棕",
+              "colors": [
+                "#EED7B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8552a75ea6c2c200260251f0bd1ea143~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5514db2d4fb0e50597ec80c9e98bf21~2508x0.webp"
         },
         {
-          "configName": "捷豹XFL 2025款 2.0T P300 四驱90周年典藏版",
+          "configName": "2025款 2.0T P300 四驱90周年典藏版",
+          "configId": "249224",
+          "index": 1,
           "price": "48.99万",
-          "fuelType": "汽油",
-          "size": "5102x1890x1456",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中大型车",
-          "power": "2.0T 300马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 300马力 L4",
+          "size": "5102x1890x1456",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "捷豹XFL 2024款 2.0T P250 两驱尊享豪华版",
+          "configName": "2024款 2.0T P250 两驱尊享豪华版",
+          "configId": "96974",
+          "index": 2,
           "price": "43.99万",
-          "fuelType": "汽油",
-          "size": "5102x1890x1456",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中大型车",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "5102x1890x1456",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8d8e4f4fcf2b3b4fefd9f8c62697fc4~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿",
+              "colors": [
+                "#425961"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3a15716d8299f416d786ab514de6e68~2508x0.webp"
+            },
+            {
+              "name": "首尔银",
+              "colors": [
+                "#E1E3F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20a74a9caec64676574dd3268da2c5e2~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a43a41fab4933f42a515f7778e95d494~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a7c08c86edfe13e031dba4b603ce2eb~2508x0.webp"
+            },
+            {
+              "name": "浅米",
+              "colors": [
+                "#EED7B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b616a245333aff5834a7e2c57dfa1d1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c8d8e4f4fcf2b3b4fefd9f8c62697fc4~2508x0.webp"
         },
         {
-          "configName": "捷豹XFL 2024款 2.0T P300 四驱旗舰运动鎏金版",
+          "configName": "2024款 2.0T P300 四驱旗舰运动鎏金版",
+          "configId": "96975",
+          "index": 3,
           "price": "48.79万",
-          "fuelType": "汽油",
-          "size": "5102x1890x1456",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中大型车",
-          "power": "2.0T 300马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 300马力 L4",
+          "size": "5102x1890x1456",
+          "exteriorImages": [
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#DCDCDC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb48eff07488caad7cbec65dc930788e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#CC844C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1b8a170d0671d0e74e902a84960f040~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bb48eff07488caad7cbec65dc930788e~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 795,
       "carName": "F-PACE",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/622d35de7b4542b6a473b745dd47b3d9~1200x0.png",
       "configs": [
         {
-          "configName": "捷豹F-PACE 2025款 P250 R-Dynamic S",
+          "configName": "2025款 P250 R-Dynamic S",
+          "configId": "101579",
+          "index": 0,
           "price": "47.8万",
-          "fuelType": "汽油",
-          "size": "4747x2071x1664",
           "manufacturer": "捷豹",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4747x2071x1664",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16037661227eb0a635d28f637d9f9581~2508x0.webp"
+            },
+            {
+              "name": "波托菲诺蓝",
+              "colors": [
+                "#2C3249"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9cf2545d32f64d1be774b11d4cb9946~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#888A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9104e058a331ad15ed6eb421f94f0f8~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5e77af4e89a48d1e69223093cf9b6bd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53e7d8e3d7412ac84865150d45f4cd01~2508x0.webp"
+            },
+            {
+              "name": "火星红",
+              "colors": [
+                "#7D2227"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/686d592db4b4eb365128d304b9595af1~2508x0.webp"
+            },
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#DD914F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8a00fcd509d526e092447a731c657ef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/16037661227eb0a635d28f637d9f9581~2508x0.webp"
         },
         {
-          "configName": "捷豹F-PACE 2025款 P250 R-Dynamic SE",
+          "configName": "2025款 P250 R-Dynamic SE",
+          "configId": "101581",
+          "index": 1,
           "price": "50.8万",
+          "manufacturer": "捷豹",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
           "size": "4747x2071x1664",
-          "manufacturer": "捷豹",
-          "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/efbc9a5625b703c883562b0917bc9371~2508x0.webp"
+            },
+            {
+              "name": "波托菲诺蓝",
+              "colors": [
+                "#2C3249"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5624b1b73cccc543a492184431603167~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#888A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99e812a4f1c5a03ec6a6f12afd92533f~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f42c4f99bca59c79c39a01d18a067dde~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78bbdd0b1e64289c32b912f3a1c3503d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "火星红",
+              "colors": [
+                "#7D2227"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/940b968bc428ad86d47b7ffd989ac4ae~2508x0.webp"
+            },
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#DD914F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81425f39e2b850df548b25b84b20826a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/efbc9a5625b703c883562b0917bc9371~2508x0.webp"
         },
         {
-          "configName": "捷豹F-PACE 2025款 P400 SPORT",
+          "configName": "2025款 P400 SPORT",
+          "configId": "101582",
+          "index": 2,
           "price": "66.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4747x2071x1664",
           "manufacturer": "捷豹",
           "class": "中型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4747x2071x1664",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea0315edee482cb1f08b0542d09df5a3~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#888A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e6f9fb96bf93379fd483895e037cb3d~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fea6f93584502f4ffc41615645bd0a82~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dd79a7cb7ccb50c17c5f1c5afd26468~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "火星红",
+              "colors": [
+                "#7D2227"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7201fb2665a79414d33a19355dd7b2fb~2508x0.webp"
+            },
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#DD914F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c0dc80f4c8abe458050d85a3f1c88b8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ea0315edee482cb1f08b0542d09df5a3~2508x0.webp"
         },
         {
-          "configName": "捷豹F-PACE 2024款 P250 R-Dynamic S",
+          "configName": "2024款 P250 R-Dynamic S",
+          "configId": "85901",
+          "index": 3,
           "price": "47.2万",
-          "fuelType": "汽油",
-          "size": "4747x2071x1664",
           "manufacturer": "捷豹",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4747x2071x1664",
+          "exteriorImages": [
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74ac18f7dbbc20ff2271721ec7aa3168~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "火星红",
+              "colors": [
+                "#7D2227"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72a3616990ba960401920cb5f6663bd2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/74ac18f7dbbc20ff2271721ec7aa3168~2508x0.webp"
         },
         {
-          "configName": "捷豹F-PACE 2024款 P250 R-Dynamic SE",
+          "configName": "2024款 P250 R-Dynamic SE",
+          "configId": "90577",
+          "index": 4,
           "price": "50.2万",
-          "fuelType": "汽油",
-          "size": "4747x2071x1664",
           "manufacturer": "捷豹",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4747x2071x1664",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#1B1B1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/406f008f0b6e38b2b2b1f5ac9db58ef6~2508x0.webp"
+            },
+            {
+              "name": "波托菲诺蓝",
+              "colors": [
+                "#2C3249"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecf49757f80ce4ec1c6f4abb4a332018~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#4D535A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fcd77074e2f314d3aa74faab2a6200a6~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#888A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad229e95f1c56d157fff9b315dabf314~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89bad9df24ae1bde9d8d79c658d33683~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64f43ba770d2c9269491fe29a9e32d4c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fae7ddb26f5df78aea898a101557b9c3~2508x0.webp"
+            },
+            {
+              "name": "火星红",
+              "colors": [
+                "#7D2227"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/09f812143690b5a6e3aa8ef0eb29b381~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "浅牡蛎色",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b433f3fdda61be630c010e80b5acd6c~2508x0.webp"
+            },
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#DD914F"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/93b0d23de6810173cbbd960498976c51~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/406f008f0b6e38b2b2b1f5ac9db58ef6~2508x0.webp"
         },
         {
-          "configName": "捷豹F-PACE 2024款 P250 R-Dynamic HSE",
+          "configName": "2024款 P250 R-Dynamic HSE",
+          "configId": "90578",
+          "index": 5,
           "price": "54.8万",
-          "fuelType": "汽油",
-          "size": "4747x2071x1664",
           "manufacturer": "捷豹",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4747x2071x1664",
+          "exteriorImages": [
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#888A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2208d23e83f3de60a17b8a88670393c~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f274c0009d0f634a4c1d884bc2f2aaea~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "锡耶纳棕",
+              "colors": [
+                "#DD914F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d21fa563f7561e1e664fd17402d44a45~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f2208d23e83f3de60a17b8a88670393c~2508x0.webp"
         },
         {
-          "configName": "捷豹F-PACE 2024款 P400 SPORT",
+          "configName": "2024款 P400 SPORT",
+          "configId": "85902",
+          "index": 6,
           "price": "66.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4747x2071x1664",
           "manufacturer": "捷豹",
           "class": "中型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4747x2071x1664",
+          "exteriorImages": [
+            {
+              "name": "富士白",
+              "colors": [
+                "#EFEEEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad9ab46c57d9ecafaba18b8f51665498~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "火星红",
+              "colors": [
+                "#7D2227"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1da465a3b1e2becb2e8500c0e8605e5c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ad9ab46c57d9ecafaba18b8f51665498~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T05:05:14.516Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

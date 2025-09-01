@@ -3,19 +3,48 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/9639b0197a3ce749e9dbf20ce683f9fe~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 4456,
       "carName": "Gemera",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4311f35c5f5db7aa524861d9fe44e3a8~1200x0.png",
       "configs": [
         {
-          "configName": "Gemera 2021款 2.0T 基本型",
+          "configName": "2021款 2.0T 基本型",
+          "configId": "44426",
+          "index": 0,
           "price": "1980万",
-          "fuelType": "插电式混合动力",
-          "size": "4975x1988x1295",
           "manufacturer": "科尼赛克",
           "class": "跑车",
-          "power": "插电式混动 1400马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 598马力 L3",
+          "size": "4975x1988x1295",
+          "exteriorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1cd6265e13cc2ad5c4901f1d0901369e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黄色/黑色",
+              "colors": [
+                "#FFFF00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb6eb933c3fd6e4096521536cd9f31b1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1cd6265e13cc2ad5c4901f1d0901369e~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T10:39:55.697Z",
+  "progress": {
+    "completed": 1,
+    "total": 1,
+    "percentage": 100,
+    "currentIndex": 1
+  }
 }

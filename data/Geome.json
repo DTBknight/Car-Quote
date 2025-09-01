@@ -3,95 +3,359 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/a8a1a985444a49f7ba41fd8acb55106e~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 3157,
       "carName": "A",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0918c61408ae0b827e9a1919e72cabf~1200x0.png",
       "configs": [
         {
-          "configName": "吉利几何A 2024款 410KM 出行版",
+          "configName": "2024款 410KM 出行版",
+          "configId": "92454",
+          "index": 0,
           "price": "17.58万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "静谧银",
+              "colors": [
+                "#C5C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6eb178a6c1c691ed8cf9dddf377f3206~2508x0.webp"
+            },
+            {
+              "name": "纯粹白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b699d5f78d64123cadedd666c4d27834~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26f7f7d6e5baa822b1c87dbaf6e0e712~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6eb178a6c1c691ed8cf9dddf377f3206~2508x0.webp"
         },
         {
-          "configName": "吉利几何A 2024款 改款 410KM 出行版",
+          "configName": "2024款 改款 410KM 出行版",
+          "configId": "101244",
+          "index": 1,
           "price": "17.58万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "静谧银",
+              "colors": [
+                "#C5C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d2120dc7266e02b1e02f2dcceb515c7~2508x0.webp"
+            },
+            {
+              "name": "纯粹白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b6264fd6e02856ad4933a532a7a1757~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e18f42a96f54e8930a68b46347fa95b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0d2120dc7266e02b1e02f2dcceb515c7~2508x0.webp"
         },
         {
-          "configName": "吉利几何A 2024款 500KM 出行版",
+          "configName": "2024款 500KM 出行版",
+          "configId": "101242",
+          "index": 2,
           "price": "18.38万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "静谧银",
+              "colors": [
+                "#C5C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec101825789971ea5ee8b78945cbae37~2508x0.webp"
+            },
+            {
+              "name": "纯粹白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf206ff81503c666bdf173b5ef81ee0a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/317ea3a2285fafeeda9b383f59fb4070~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec101825789971ea5ee8b78945cbae37~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6080,
       "carName": "G6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/556fb47958da4c9cb4c339c612010abf~1200x0.png",
       "configs": [
         {
-          "configName": "吉利几何G6 2024款 410KM 豪华型",
+          "configName": "2024款 410KM 豪华型",
+          "configId": "93549",
+          "index": 0,
           "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F3F4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d3262d3c82cfe23a9d12c67760131b6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "远山黛",
+              "colors": [
+                "#21619D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c946f5ee914ee2c504f3eba1bcf909f3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3d3262d3c82cfe23a9d12c67760131b6~2508x0.webp"
         },
         {
-          "configName": "吉利几何G6 2024款 410KM 尊贵型",
+          "configName": "2024款 410KM 尊贵型",
+          "configId": "92592",
+          "index": 1,
           "price": "12.78万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "极光绿",
+              "colors": [
+                "#6EBEA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d49cdde21463dec5814a264ce618be3~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#CCCCD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abb5b9ccc7d70c24dfc243af56834b48~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F3F4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/325d5f17078c9ec576c84261cc69692f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "远山黛",
+              "colors": [
+                "#21619D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea19ec1b1521d42d27894734135617a4~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#5E9D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e05b9cc14a8723a25eb3cffd854821f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7d49cdde21463dec5814a264ce618be3~2508x0.webp"
         },
         {
-          "configName": "吉利几何G6 2024款 410KM 畅行版",
+          "configName": "2024款 410KM 畅行版",
+          "configId": "97471",
+          "index": 2,
           "price": "17.68万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "月光银",
+              "colors": [
+                "#CCCCD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a4b8c87b81c5f6c3ced434b8a997cf~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F3F4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f00d25eccf64fa6fdfb5d58960e77f56~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "远山黛",
+              "colors": [
+                "#21619D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd6714c710223a56b5cd30a8f1237d51~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a4b8c87b81c5f6c3ced434b8a997cf~2508x0.webp"
         },
         {
-          "configName": "吉利几何G6 2024款 500KM 尊贵型",
+          "configName": "2024款 500KM 尊贵型",
+          "configId": "93550",
+          "index": 3,
           "price": "15.28万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "极光绿",
+              "colors": [
+                "#6EBEA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95867ba5333a2c61aae7cb5f0292efac~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#CCCCD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70ab1e0e86b3be757a12f40560ac5533~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F3F4EE"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "远山黛",
+              "colors": [
+                "#21619D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2b859910ed37d4905848443e83e1ccd~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#5E9D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e029d90b091c7723775f119bf437b5be~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/95867ba5333a2c61aae7cb5f0292efac~2508x0.webp"
         },
         {
-          "configName": "吉利几何G6 2024款 500KM 旗舰型",
+          "configName": "2024款 500KM 旗舰型",
+          "configId": "91584",
+          "index": 4,
           "price": "14.78万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [
+            {
+              "name": "极光绿",
+              "colors": [
+                "#6EBEA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94f623021b66105f1e2d4b51f9a4ee98~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#CCCCD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dec724359bb026a707f661a6d2b38d9b~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F3F4EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4860792a02b77531479aa2e66ef51f60~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "远山黛",
+              "colors": [
+                "#21619D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afacfec6eff3b73c99e0367e81dd5675~2508x0.webp"
+            },
+            {
+              "name": "天青绿",
+              "colors": [
+                "#5E9D81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05d7bfd145e9fcfc7f6a3a64bcb58316~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/94f623021b66105f1e2d4b51f9a4ee98~2508x0.webp"
         },
         {
-          "configName": "吉利几何G6 2024款 500KM 畅优版",
+          "configName": "2024款 500KM 畅优版",
+          "configId": "97472",
+          "index": 5,
           "price": "18.28万",
-          "fuelType": "纯电动",
-          "size": "4752x1804x1520",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4752x1804x1520",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
@@ -300,208 +564,803 @@
       ]
     },
     {
+      "carId": 735,
       "carName": "帝豪EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ffe49e0c288e43d2904ffba5f9b3bb56~1200x0.png",
       "configs": [
         {
-          "configName": "帝豪EV 2022款 Pro 网约版 磷酸铁锂",
+          "configName": "2022款 Pro 网约版 磷酸铁锂",
+          "configId": "77127",
+          "index": 0,
           "price": "15.98万",
+          "manufacturer": "吉利几何",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 136马力",
           "size": "4755x1804x1530",
-          "manufacturer": "吉利几何",
-          "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bdf29d9b0348def8900e0b34abcc6d3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e87fdbcd97e51880f533f72ed04b1d1d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4bdf29d9b0348def8900e0b34abcc6d3~2508x0.webp"
         },
         {
-          "configName": "帝豪EV 2022款 Pro 网约版 三元锂",
+          "configName": "2022款 Pro 网约版 三元锂",
+          "configId": "50908",
+          "index": 1,
           "price": "16.98万",
-          "fuelType": "纯电动",
-          "size": "4755x1802x1503",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4755x1802x1503",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8414eaf4841935a3d4aed37b0975013~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37434a4cd1b4327d5571190354deafbc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c8414eaf4841935a3d4aed37b0975013~2508x0.webp"
         },
         {
-          "configName": "帝豪EV 2022款 Pro 出租版 磷酸铁锂",
+          "configName": "2022款 Pro 出租版 磷酸铁锂",
+          "configId": "50665",
+          "index": 2,
           "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4755x1804x1530",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 136马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4755x1804x1530",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/276f43febed534fe92a11216f34dd758~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/446d96be3cdcbf184d9b4c139d214f37~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/276f43febed534fe92a11216f34dd758~2508x0.webp"
         },
         {
-          "configName": "帝豪EV 2022款 Pro 出租版 三元锂",
+          "configName": "2022款 Pro 出租版 三元锂",
+          "configId": "77140",
+          "index": 3,
           "price": "16.98万",
-          "fuelType": "纯电动",
-          "size": "4755x1802x1503",
           "manufacturer": "吉利几何",
           "class": "紧凑型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4755x1802x1503",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b8daedc2004f05d6082cefb93c5a51b8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/190f1516f5a181dfdf76f67a0b146daa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b8daedc2004f05d6082cefb93c5a51b8~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6081,
       "carName": "M6",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1e313cc1a6b0073056eaf36d64dc224~1200x0.png",
       "configs": [
         {
-          "configName": "吉利几何M6 2022款 450新智版",
+          "configName": "2022款 450新智版",
+          "configId": "77421",
+          "index": 0,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "云峰白",
+              "colors": [
+                "#FCF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3eae034b574ee8fad6b6c2c46295ea0c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青蓝",
+              "colors": [
+                "#4475B0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8cdb2354dcc9ee0b7e575b6aaa570f87~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3eae034b574ee8fad6b6c2c46295ea0c~2508x0.webp"
         },
         {
-          "configName": "吉利几何M6 2022款 450新享版",
+          "configName": "2022款 450新享版",
+          "configId": "78212",
+          "index": 1,
           "price": "16.28万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "烟霞紫",
+              "colors": [
+                "#AB9CDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9129b506d25f712563c9e8a3378cdca7~2508x0.webp"
+            },
+            {
+              "name": "苏梅粉",
+              "colors": [
+                "#E6B5B2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1af5a6baef0ccbfc0d42efccc476a0c7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#2F67B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d8e2e91aa77fb89f2b915fb6ea9f6a5~2508x0.webp"
+            },
+            {
+              "name": "珊瑚粉",
+              "colors": [
+                "#EBCBC7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0fda1a132bb412af6faebb98bd08e05~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9129b506d25f712563c9e8a3378cdca7~2508x0.webp"
         },
         {
-          "configName": "吉利几何M6 2022款 580新乐版",
+          "configName": "2022款 580新乐版",
+          "configId": "78213",
+          "index": 2,
           "price": "17.28万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "烟霞紫",
+              "colors": [
+                "#AB9CDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2c7b1b47afb70ae41ec8543b254ab8d~2508x0.webp"
+            },
+            {
+              "name": "弦月银",
+              "colors": [
+                "#B7B7BA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8947f96270416c65dff757d39848dd54~2508x0.webp"
+            },
+            {
+              "name": "云峰白",
+              "colors": [
+                "#FCF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18b59fecccfddfffd543c5981f0169b2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青蓝",
+              "colors": [
+                "#4475B0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b83330af30012df60346da1732cc7abc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e2c7b1b47afb70ae41ec8543b254ab8d~2508x0.webp"
         },
         {
-          "configName": "吉利几何M6 2022款 580新趣版",
+          "configName": "2022款 580新趣版",
+          "configId": "77420",
+          "index": 3,
           "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "烟霞紫/黑色",
+              "colors": [
+                "#AB9CDE",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70d4b50f748586a5c54e84e98bec7fe1~2508x0.webp"
+            },
+            {
+              "name": "弦月银/黑色",
+              "colors": [
+                "#B7B7BA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f36336b51276d7daa4acc2edf3540e5d~2508x0.webp"
+            },
+            {
+              "name": "苏梅粉/黑色",
+              "colors": [
+                "#E6B5B2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6adeda2fe6257eb1f142333c4154077d~2508x0.webp"
+            },
+            {
+              "name": "云峰白/黑色",
+              "colors": [
+                "#FCF9F9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3899a410f76613b3ef075593a68be0e4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "天青蓝",
+              "colors": [
+                "#2F67B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f4d3589ac4672b1a7993b3a8558ffac~2508x0.webp"
+            },
+            {
+              "name": "珊瑚粉",
+              "colors": [
+                "#EBCBC7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06572c0488b38cec214c13995f4814a9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/70d4b50f748586a5c54e84e98bec7fe1~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5817,
       "carName": "E萤火虫",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bbbec11715784ba3b3eae76a761fd20d~1200x0.png",
       "configs": [
         {
-          "configName": "吉利几何E萤火虫 2024款 301KM 龙腾版",
+          "configName": "2024款 301KM 龙腾版",
+          "configId": "98863",
+          "index": 0,
           "price": "5.98万",
-          "fuelType": "纯电动",
-          "size": "4006x1765x1550",
           "manufacturer": "吉利几何",
           "class": "小型SUV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4006x1765x1550",
+          "exteriorImages": [
+            {
+              "name": "薄荷青",
+              "colors": [
+                "#B1DEDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c5ae46bc09bc834e87339935118f3cf~2508x0.webp"
+            },
+            {
+              "name": "茉莉白",
+              "colors": [
+                "#EAEBF2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5838a99f5577698e2251a628062730f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮白",
+              "colors": [
+                "#EDE7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c1ba1afefb204de6309f3f3b276d8f7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5c5ae46bc09bc834e87339935118f3cf~2508x0.webp"
         },
         {
-          "configName": "吉利几何E萤火虫 2024款 301KM 流光",
+          "configName": "2024款 301KM 流光",
+          "configId": "92117",
+          "index": 1,
           "price": "6.98万",
-          "fuelType": "纯电动",
-          "size": "4006x1765x1550",
           "manufacturer": "吉利几何",
           "class": "小型SUV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4006x1765x1550",
+          "exteriorImages": [
+            {
+              "name": "茉莉白",
+              "colors": [
+                "#EAEBF2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87092cff62cb4f5a3e829e309e21dcc6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮白",
+              "colors": [
+                "#EDE7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0e64b9918d4b8523e4b6f5717d02632~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/87092cff62cb4f5a3e829e309e21dcc6~2508x0.webp"
         },
         {
-          "configName": "吉利几何E萤火虫 2024款 301KM 星光",
+          "configName": "2024款 301KM 星光",
+          "configId": "92118",
+          "index": 2,
           "price": "7.68万",
-          "fuelType": "纯电动",
-          "size": "4006x1765x1550",
           "manufacturer": "吉利几何",
           "class": "小型SUV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4006x1765x1550",
+          "exteriorImages": [
+            {
+              "name": "薄荷青",
+              "colors": [
+                "#B1DEDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b80e1d523cbf179299420510c3d1602~2508x0.webp"
+            },
+            {
+              "name": "茉莉白",
+              "colors": [
+                "#EAEBF2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5df637246c05607e876cb437aa7c218~2508x0.webp"
+            },
+            {
+              "name": "樱花粉",
+              "colors": [
+                "#EFA7B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3b4e3bc62264c3116bac73d200e0888~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青",
+              "colors": [
+                "#61B6C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9aee82bea39566026aed28ab4bcbac57~2508x0.webp"
+            },
+            {
+              "name": "暮白",
+              "colors": [
+                "#EDE7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab8627c05412394c7f5c7ca767bc494a~2508x0.webp"
+            },
+            {
+              "name": "云粉",
+              "colors": [
+                "#F2C9D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a361fcb850b4c06c5d16253fa67e4543~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5b80e1d523cbf179299420510c3d1602~2508x0.webp"
         },
         {
-          "configName": "吉利几何E萤火虫 2024款 401KM 星光",
+          "configName": "2024款 401KM 星光",
+          "configId": "95541",
+          "index": 3,
           "price": "8.48万",
-          "fuelType": "纯电动",
-          "size": "4006x1765x1550",
           "manufacturer": "吉利几何",
           "class": "小型SUV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4006x1765x1550",
+          "exteriorImages": [
+            {
+              "name": "薄荷青",
+              "colors": [
+                "#B1DEDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ca46e75e189f8583ab5b9ed6aa3c51c~2508x0.webp"
+            },
+            {
+              "name": "茉莉白",
+              "colors": [
+                "#EAEBF2"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/56b903d3d918440e71fffc06a5002690~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "樱花粉",
+              "colors": [
+                "#EFA7B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b73614f4542d62b77dc644f587d91faa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青",
+              "colors": [
+                "#61B6C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5516d82faa310e256d3864893ccd8170~2508x0.webp"
+            },
+            {
+              "name": "暮白",
+              "colors": [
+                "#EDE7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66a86eb7ab20d94b97ac8525b2b5d8ab~2508x0.webp"
+            },
+            {
+              "name": "云粉",
+              "colors": [
+                "#F2C9D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a90f2077832527dbfe07a451ee35b238~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1ca46e75e189f8583ab5b9ed6aa3c51c~2508x0.webp"
         },
         {
-          "configName": "吉利几何E萤火虫 2024款 401KM 萤光",
+          "configName": "2024款 401KM 萤光",
+          "configId": "92119",
+          "index": 4,
           "price": "8.98万",
-          "fuelType": "纯电动",
-          "size": "4006x1765x1550",
           "manufacturer": "吉利几何",
           "class": "小型SUV",
-          "power": "纯电动 82马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4006x1765x1550",
+          "exteriorImages": [
+            {
+              "name": "薄荷青",
+              "colors": [
+                "#B1DEDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfde18d0bd0255467d307eb2b476379a~2508x0.webp"
+            },
+            {
+              "name": "茉莉白",
+              "colors": [
+                "#EAEBF2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc87598be028acb91e8831ca7c14b466~2508x0.webp"
+            },
+            {
+              "name": "樱花粉",
+              "colors": [
+                "#EFA7B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7002be4bede32b5c16b5fe0d61fa4dea~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青",
+              "colors": [
+                "#61B6C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f78c66cddcce061b32042dc5718e4fcd~2508x0.webp"
+            },
+            {
+              "name": "暮白",
+              "colors": [
+                "#EDE7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e84048c38d3acee057c84e64c18d2c57~2508x0.webp"
+            },
+            {
+              "name": "云粉",
+              "colors": [
+                "#F2C9D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20daed35f542dc170df8ab8332574112~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cfde18d0bd0255467d307eb2b476379a~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4380,
       "carName": "C",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b09219d95902f5524634eb6b5ea62669~1200x0.png",
       "configs": [
         {
-          "configName": "吉利几何C 2022款 400KM 蓝莓Pro",
+          "configName": "2022款 400KM 蓝莓Pro",
+          "configId": "73394",
+          "index": 0,
           "price": "14.37万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "元气蓝",
+              "colors": [
+                "#8AA8C3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a657d14daf249c99703b8442369a8603~2508x0.webp"
+            },
+            {
+              "name": "纯真白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6102528f0efd316369a3224493b1b4ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c44eea4f2f560b3c999e9d63cee80b1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a657d14daf249c99703b8442369a8603~2508x0.webp"
         },
         {
-          "configName": "吉利几何C 2022款 400KM 蓝莓Plus",
+          "configName": "2022款 400KM 蓝莓Plus",
+          "configId": "73395",
+          "index": 1,
           "price": "14.97万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "元气蓝",
+              "colors": [
+                "#8AA8C3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/262f0ca5f595d9f6a0a6abe819103130~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81b46931d8082f7ddb4c695aff61ef04~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/262f0ca5f595d9f6a0a6abe819103130~2508x0.webp"
         },
         {
-          "configName": "吉利几何C 2022款 400KM 出行版",
+          "configName": "2022款 400KM 出行版",
+          "configId": "77073",
+          "index": 2,
           "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "气质银",
+              "colors": [
+                "#E2E3E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_092afd59e975f72d4ad4296792f21cc6~2508x0.webp"
+            },
+            {
+              "name": "纯真白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61705c5110112f51bf8da348ea51c4c3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/707ee723747aabbce4c727e37fe2f5b8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_092afd59e975f72d4ad4296792f21cc6~2508x0.webp"
         },
         {
-          "configName": "吉利几何C 2022款 550KM 西柚Pro",
+          "configName": "2022款 550KM 西柚Pro",
+          "configId": "73396",
+          "index": 3,
           "price": "16.37万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "气质银/黑色",
+              "colors": [
+                "#E2E3E4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5135b320b5f7c541199751cfdc1e0acd~2508x0.webp"
+            },
+            {
+              "name": "纯真白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/331bd4114c7dba0c8d65463b14fc9fc4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2ae283c6561aad92a184b1123f6f77d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5135b320b5f7c541199751cfdc1e0acd~2508x0.webp"
         },
         {
-          "configName": "吉利几何C 2022款 550KM 西柚Plus",
+          "configName": "2022款 550KM 西柚Plus",
+          "configId": "73397",
+          "index": 4,
           "price": "16.67万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "元气蓝/黑色",
+              "colors": [
+                "#8AA8C3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99c6185b9b42c18e1b466b7a717b1fc5~2508x0.webp"
+            },
+            {
+              "name": "灵感紫/黑色",
+              "colors": [
+                "#8C8EA8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee5f310afb72514f78da9819dc99c92e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奶咖色",
+              "colors": [
+                "#473D06"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db016ae81c53ea8227ebb70735d72184~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99c6185b9b42c18e1b466b7a717b1fc5~2508x0.webp"
         },
         {
-          "configName": "吉利几何C 2022款 550KM 西柚Halo",
+          "configName": "2022款 550KM 西柚Halo",
+          "configId": "73398",
+          "index": 5,
           "price": "17.97万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [
+            {
+              "name": "气质银/黑色",
+              "colors": [
+                "#E2E3E4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7131aecc0b81ca2ac2334722ce7bf30a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奶咖色",
+              "colors": [
+                "#473D06"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/10ca9d115e0e9701dcb596f73ddc547e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7131aecc0b81ca2ac2334722ce7bf30a~2508x0.webp"
         },
         {
-          "configName": "吉利几何C 2022款 550KM 公务版",
+          "configName": "2022款 550KM 公务版",
+          "configId": "73999",
+          "index": 6,
           "price": "20.78万",
-          "fuelType": "纯电动",
-          "size": "4432x1833x1560",
           "manufacturer": "吉利几何",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4432x1833x1560",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T08:21:02.456Z",
+  "progress": {
+    "completed": 7,
+    "total": 6,
+    "percentage": 117,
+    "currentIndex": 6
+  }
 }

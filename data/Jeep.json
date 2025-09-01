@@ -3,35 +3,74 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/119d2dd7d9eef704e7d3135334996e6b~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 4365,
       "carName": "牧马人4xe PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8c7d7668fccc49d8b7924576497fd31d~1200x0.png",
       "configs": [
         {
-          "configName": "牧马人4xe PHEV 2025款 四门 2.0T 4xe 撒哈拉侏罗纪探索版",
+          "configName": "2025款 四门 2.0T 4xe 撒哈拉侏罗纪探索版",
+          "configId": "247066",
+          "index": 0,
           "price": "50.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4882x1931x1840",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "插电式混动 181马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 266马力 L4 插电式混动",
+          "size": "4882x1931x1840",
+          "exteriorImages": [
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ae5e41bf4139b86d716eb47eb3f92c3f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "卡塔丽娜",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12619f1871ad79bda4633e335817c87b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ae5e41bf4139b86d716eb47eb3f92c3f~2508x0.webp"
         },
         {
-          "configName": "牧马人4xe PHEV 2024款 四门 2.0T 4xe 撒哈拉",
+          "configName": "2024款 四门 2.0T 4xe 撒哈拉",
+          "configId": "91721",
+          "index": 1,
           "price": "49.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4882x1931x1840",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "插电式混合动力 181马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 266马力 L4 插电式混动",
+          "size": "4882x1931x1840",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "卡塔丽娜",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8fea591bdf8da0c587fb8b5de1834c46~2508x0.webp"
+            }
+          ],
+          "configImage": ""
         },
         {
-          "configName": "牧马人4xe PHEV 2024款 四门 2.0T 4xe 罗宾汉",
+          "configName": "2024款 四门 2.0T 4xe 罗宾汉",
+          "configId": "91722",
+          "index": 2,
           "price": "57.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4882x1931x1854",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "插电式混合动力 181马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 266马力 L4 插电式混动",
+          "size": "4882x1931x1854",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
@@ -132,97 +171,597 @@
       ]
     },
     {
+      "carId": 14,
       "carName": "牧马人",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/89e280e9efce4b48822638ff4556907d~1200x0.png",
       "configs": [
         {
-          "configName": "牧马人 2025款 2.0T 撒哈拉侏罗纪探索版",
+          "configName": "2025款 2.0T 撒哈拉侏罗纪探索版",
+          "configId": "247012",
+          "index": 0,
           "price": "50.99万",
-          "fuelType": "汽油",
-          "size": "4882x1894x1838",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "2.0T 266马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 266马力 L4",
+          "size": "4882x1894x1838",
+          "exteriorImages": [
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27567f730990066d7ca42a6bf8096bfe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c84e25079a9d4cf2889f2030da56fce2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27567f730990066d7ca42a6bf8096bfe~2508x0.webp"
         },
         {
-          "configName": "牧马人 2025款 41致敬版两门",
+          "configName": "2025款 41致敬版两门",
+          "configId": "247068",
+          "index": 1,
           "price": "53.1941万",
-          "fuelType": "汽油",
-          "size": "4334x1894x1841",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "2.0T 266马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 266马力 L4",
+          "size": "4334x1894x1841",
+          "exteriorImages": [
+            {
+              "name": "41#绿",
+              "colors": [
+                "#445043"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_156839a19939cd84b3ae889817568166~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曼哈顿",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9b7315e09977a7ea243e8286a087409~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_156839a19939cd84b3ae889817568166~2508x0.webp"
         },
         {
-          "configName": "牧马人 2025款 41致敬版四门",
+          "configName": "2025款 41致敬版四门",
+          "configId": "247069",
+          "index": 2,
           "price": "58.1941万",
-          "fuelType": "汽油",
-          "size": "4882x1931x1848",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "2.0T 266马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 266马力 L4",
+          "size": "4882x1931x1848",
+          "exteriorImages": [
+            {
+              "name": "41#绿",
+              "colors": [
+                "#445043"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73b7bf54cfca4cd45968bec1a9fb8a8c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_5eaa55c9c2de6adcd8ec859120d9b82f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73b7bf54cfca4cd45968bec1a9fb8a8c~2508x0.webp"
         },
         {
-          "configName": "牧马人 2024款 2.0T 撒哈拉四门版",
+          "configName": "2024款 2.0T 撒哈拉四门版",
+          "configId": "90504",
+          "index": 3,
           "price": "49.99万",
+          "manufacturer": "Jeep(进口)",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 266马力 L4",
           "size": "4882x1894x1838",
-          "manufacturer": "Jeep(进口)",
-          "class": "中型SUV",
-          "power": "2.0T 266马力 L4"
+          "exteriorImages": [
+            {
+              "name": "醇黑",
+              "colors": [
+                "#191919"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66dc90f4316b6d2194782978eefe11b9~2508x0.webp"
+            },
+            {
+              "name": "摩洛哥蓝",
+              "colors": [
+                "#3E6BBC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97f8da202dbf7c3329e2ab012304d778~2508x0.webp"
+            },
+            {
+              "name": "亚马逊丛林绿",
+              "colors": [
+                "#445042"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e65db7de09fc9456323df29f1549796e~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae26fd877e63861aa745c7e630fd74d~2508x0.webp"
+            },
+            {
+              "name": "钢坯金属银",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a97ce56bd4972040e059dd809d542f09~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#E6E6E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22f9e4441997d8067f4c7831948ac55b~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#FA0612"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73d2b2c096b7e6bbe1fdd81507c84df3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曼哈顿",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b2721eeaffe31d4efa586888e1c50ce~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/66dc90f4316b6d2194782978eefe11b9~2508x0.webp"
         },
         {
-          "configName": "牧马人 2024款 2.0T 罗宾汉两门版",
+          "configName": "2024款 2.0T 罗宾汉两门版",
+          "configId": "91720",
+          "index": 4,
           "price": "52.99万",
-          "fuelType": "汽油",
-          "size": "4334x1894x1841",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "2.0T 266马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 266马力 L4",
+          "size": "4334x1894x1841",
+          "exteriorImages": [
+            {
+              "name": "醇黑",
+              "colors": [
+                "#191919"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ea42e4bb137128698b5fb1dabb97ffe~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4082f194fd2115191a0f3b45d632359~2508x0.webp"
+            },
+            {
+              "name": "贝尔加冰青",
+              "colors": [
+                "#95ADB4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14c3c873733c0ca679bf88571b84b632~2508x0.webp"
+            },
+            {
+              "name": "钢坯金属银",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f2eadf93b6f28da36d195a433fdb60f~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#E6E6E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_776d5c3cd2b891a644df0e56a5b5de57~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#FA0612"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1a4276ad39b150af0ec4b91233384d32~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7bcaa6af196ce2d32db9f921d0ec60c8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9ea42e4bb137128698b5fb1dabb97ffe~2508x0.webp"
         },
         {
-          "configName": "牧马人 2024款 2.0T 罗宾汉四门版",
+          "configName": "2024款 2.0T 罗宾汉四门版",
+          "configId": "91688",
+          "index": 5,
           "price": "57.99万",
-          "fuelType": "汽油",
-          "size": "4882x1931x1848",
           "manufacturer": "Jeep(进口)",
           "class": "中型SUV",
-          "power": "2.0T 266马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 266马力 L4",
+          "size": "4882x1931x1848",
+          "exteriorImages": [
+            {
+              "name": "醇黑",
+              "colors": [
+                "#191919"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8379064a38caa95940db0735b55929b~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1334df501395955c45fce6da01e47948~2508x0.webp"
+            },
+            {
+              "name": "贝尔加冰青",
+              "colors": [
+                "#95ADB4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79be1e7ac85af64e497c71cbf712fd00~2508x0.webp"
+            },
+            {
+              "name": "荧光黄",
+              "colors": [
+                "#DAED09"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa68c100a092fc549978de76b234752c~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#E6E6E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9649d76a96547f36985d3e99631027e~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#FA0612"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7fceae693a89416a640837fccf6b0866~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ac35eee0722e058df85be7b8036b34a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f8379064a38caa95940db0735b55929b~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5245,
       "carName": "大切诺基4xe(进口)",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0b3a68d3dd88476ab0294f9145a79a05~1200x0.png",
       "configs": [
         {
-          "configName": "大切诺基4xe(进口) 2024款 2.0T 高峰版",
+          "configName": "2024款 2.0T 高峰版",
+          "configId": "240660",
+          "index": 0,
           "price": "34.9万",
-          "fuelType": "插电式混合动力",
-          "size": "4906x1979x1812",
           "manufacturer": "Jeep(进口)",
           "class": "中大型SUV",
-          "power": "插电式混动 181马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "4906x1979x1812",
+          "exteriorImages": [
+            {
+              "name": "墨渊黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a3ecf9998b448b7cd3f0b6060dd9773~2508x0.webp"
+            },
+            {
+              "name": "冰河银",
+              "colors": [
+                "#E0E2F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58358180d1932d9a888a20e92445b3db~2508x0.webp"
+            },
+            {
+              "name": "暮雪白",
+              "colors": [
+                "#EFEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae9aacaad5f712ef32eaeef6aef45d9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨翠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e1f887118e6ea7a5c8193d346dc41b1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0a3ecf9998b448b7cd3f0b6060dd9773~2508x0.webp"
         },
         {
-          "configName": "大切诺基4xe(进口) 2023款 2.0T 远峰版",
+          "configName": "2023款 2.0T 远峰版",
+          "configId": "86092",
+          "index": 1,
           "price": "36.9万",
-          "fuelType": "插电式混合动力",
-          "size": "4906x1979x1812",
           "manufacturer": "Jeep(进口)",
           "class": "中大型SUV",
-          "power": "插电式混动 181马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "4906x1979x1812",
+          "exteriorImages": [
+            {
+              "name": "墨渊黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc7a07c09862868ad8ed4530b40739f4~2508x0.webp"
+            },
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#192033"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc459029126f7a1d19033a62f5caba3a~2508x0.webp"
+            },
+            {
+              "name": "深岩灰",
+              "colors": [
+                "#767373"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c1e2577069678aa6a6d337700e614661~2508x0.webp"
+            },
+            {
+              "name": "冰河银",
+              "colors": [
+                "#E0E2F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c9ffe2c0a9932eda1f5c16a9ceb0420~2508x0.webp"
+            },
+            {
+              "name": "暮雪白",
+              "colors": [
+                "#EFEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49209b20649da21d578b9e9e97b5ca20~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨翠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bac69514c9a93da6e3ee5b0703c2279~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dc7a07c09862868ad8ed4530b40739f4~2508x0.webp"
         },
         {
-          "configName": "大切诺基4xe(进口) 2023款 2.0T 巅峰版",
+          "configName": "2023款 2.0T 巅峰版",
+          "configId": "86093",
+          "index": 2,
           "price": "43.9万",
-          "fuelType": "插电式混合动力",
-          "size": "4906x1979x1812",
           "manufacturer": "Jeep(进口)",
           "class": "中大型SUV",
-          "power": "插电式混合动力 181马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 272马力 L4 插电式混动",
+          "size": "4906x1979x1812",
+          "exteriorImages": [
+            {
+              "name": "墨渊黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f400ce60f41a298514a5f204c46668a~2508x0.webp"
+            },
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#192033"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dd999031930903fa4726d84b865e6157~2508x0.webp"
+            },
+            {
+              "name": "远山绿",
+              "colors": [
+                "#495B49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d23a7a04488fe94383f685d28ae45d96~2508x0.webp"
+            },
+            {
+              "name": "深岩灰",
+              "colors": [
+                "#767373"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/239c55f374568e2175408bf9eea762e1~2508x0.webp"
+            },
+            {
+              "name": "冰河银",
+              "colors": [
+                "#E0E2F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f8a42ff470146fc467bbb45b260e5d6~2508x0.webp"
+            },
+            {
+              "name": "暮雪白",
+              "colors": [
+                "#EFEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/599eba36b5d90d88562dc32a1161d0bf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨翠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b467c3ca0ad38b7f8c77a4d7ae66dad5~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E1A863"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1c12955733767e7baf81c4687b051a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4f400ce60f41a298514a5f204c46668a~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3116,
+      "carName": "角斗士",
+      "configs": [
+        {
+          "configName": "2025款 3.6L 侏罗纪世界探索版",
+          "configId": "249495",
+          "index": 0,
+          "price": "47.99万",
+          "manufacturer": "Jeep(进口)",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "3.6L 284马力 V6",
+          "size": "5592x1894x1856",
+          "exteriorImages": [
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e925c23226ee262ef11c15b7768a25c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94a0468555e32578a009784d5708989f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e925c23226ee262ef11c15b7768a25c~2508x0.webp"
+        },
+        {
+          "configName": "2023款 3.6L Overland",
+          "configId": "91668",
+          "index": 1,
+          "price": "46.99万",
+          "manufacturer": "Jeep(进口)",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "3.6L 284马力 V6",
+          "size": "5592x1894x1856",
+          "exteriorImages": [
+            {
+              "name": "醇黑",
+              "colors": [
+                "#191919"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b40cc48996516c0cb5935b20e5e4f05~2508x0.webp"
+            },
+            {
+              "name": "丛林绿",
+              "colors": [
+                "#445042"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aacd22ac65c1c67bc03ac03fa905e61c~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#505457"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f3d9cad06fc2f94ce44dd83b8a3fb18~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#777777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/050bca4f0ba9819fed5c9bd9926961d0~2508x0.webp"
+            },
+            {
+              "name": "钢坯金属银",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce73ff61f548792e1afdc043a0c62526~2508x0.webp"
+            },
+            {
+              "name": "皓白",
+              "colors": [
+                "#E6E6E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fcb90b3f215b3a6118d80a12e9c5c1cb~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#FA0612"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74e225d5c8a34d5bebc8368ff4f1862c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b874da6b74ac4aa353051c85392afd1d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0b40cc48996516c0cb5935b20e5e4f05~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T05:09:09.264Z",
+  "progress": {
+    "completed": 5,
+    "total": 4,
+    "percentage": 125,
+    "currentIndex": 4
+  }
 }

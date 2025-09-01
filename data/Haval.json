@@ -3,452 +3,2142 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/d557b170618043b5911d036fa7c8263f~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 4563,
       "carName": "大狗",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/571c86de68d746fa9abc8035deff29b4~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗大狗 2026款 1.5T 两驱 拉布拉多版",
+          "configName": "2026款 1.5T 两驱 拉布拉多版",
+          "configId": "249821",
+          "index": 0,
           "price": "12.39万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4620x1890x1780",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_591abcbdafc11d34dc5c0ea2b121d1fe~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d85acee6a5d6fa9e8a15a735798f901~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80603c7c4c611b952575b7e5f42c05b4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7edc6faf7f7faf4861e873f42fa6967~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_591abcbdafc11d34dc5c0ea2b121d1fe~2508x0.webp"
         },
         {
-          "configName": "哈弗大狗 2026款 1.5T 两驱 边牧版",
+          "configName": "2026款 1.5T 两驱 边牧版",
+          "configId": "249613",
+          "index": 1,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4620x1890x1780",
+          "exteriorImages": [
+            {
+              "name": "苔岩绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f66e4d93a62d4a2e9c2dc4431de10c8d~2508x0.webp"
+            },
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cc9d85a3bbfb05f13f619ac37adabbf~2508x0.webp"
+            },
+            {
+              "name": "雾隐蓝",
+              "colors": [
+                "#6C86B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bd5e54e3684d27690d14530b43a11217~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c872481d8b234a19c00339a62717c263~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc49e19840cd507642c59e620dc4c47c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_efde62d2cabdd063e7beb9cacd2bf970~2508x0.webp"
+            },
+            {
+              "name": "雾凇灰",
+              "colors": [
+                "#B0B1AE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d2e1394254d516662f36f964b7c295e~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#E0CDB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8945a07d6f44466d79fe42b386295a32~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f66e4d93a62d4a2e9c2dc4431de10c8d~2508x0.webp"
         },
         {
-          "configName": "哈弗大狗 2026款 2.0T 四驱 中华田园犬版",
+          "configName": "2026款 2.0T 四驱 中华田园犬版",
+          "configId": "249397",
+          "index": 2,
           "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4620x1890x1780",
+          "exteriorImages": [
+            {
+              "name": "苔岩绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50109cc52849fe8d41828795285a54cf~2508x0.webp"
+            },
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aaafb26e75470a6aac44a91c15fc4489~2508x0.webp"
+            },
+            {
+              "name": "雾隐蓝",
+              "colors": [
+                "#6C86B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_154ddebdf0827ada029d96daf04db6e1~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d57f1396cf39505c98882e96edbf4828~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_379cc0453680553ee61d47a5ce8c13a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1563da0a247f4bac8e82cdb52d2bffb1~2508x0.webp"
+            },
+            {
+              "name": "雾凇灰",
+              "colors": [
+                "#B0B1AE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c999773a79ed1f70b45decc93f038c47~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#E0CDB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ed2cf4aceb605e42f957658214f8d09~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50109cc52849fe8d41828795285a54cf~2508x0.webp"
         },
         {
-          "configName": "哈弗大狗 2024款 1.5T 两驱 拉布拉多版",
+          "configName": "2024款 1.5T 两驱 拉布拉多版",
+          "configId": "91741",
+          "index": 3,
           "price": "12.39万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4620x1890x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2e450716ffff6436e2854f59acb0a1f~2508x0.webp"
+            },
+            {
+              "name": "棕狗",
+              "colors": [
+                "#8B7F71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcff36bcbe2662359e51f9ccb2bb6652~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ea3d06811733b4f3826de665c323440~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bef36f6de1622989b4ed76971d5d8095~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cbfd84ad7c68767ec8fb1deba2a92df~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c2e450716ffff6436e2854f59acb0a1f~2508x0.webp"
         },
         {
-          "configName": "哈弗大狗 2024款 1.5T 两驱 边牧版",
+          "configName": "2024款 1.5T 两驱 边牧版",
+          "configId": "91742",
+          "index": 4,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4620x1890x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/400aeb608ff3dc1d7dfbbecc23bd30ab~2508x0.webp"
+            },
+            {
+              "name": "棕狗",
+              "colors": [
+                "#8B7F71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61d526c19af858d16e8971a8c4e85219~2508x0.webp"
+            },
+            {
+              "name": "橙狗",
+              "colors": [
+                "#C45F43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e003a2cd6c1737220a328ce3b12fdf33~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7effd72609445681a100df23b17041cc~2508x0.webp"
+            },
+            {
+              "name": "白狗",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5f43bd46c4a6b96a90c536b46fd8392~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f853f31085b15e4f656cdfd8208e091~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b02b74a15b957686c8eee024d5c1255~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/400aeb608ff3dc1d7dfbbecc23bd30ab~2508x0.webp"
         },
         {
-          "configName": "哈弗大狗 2024款 2.0T 四驱 中华田园犬版",
+          "configName": "2024款 2.0T 四驱 中华田园犬版",
+          "configId": "91743",
+          "index": 5,
           "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4620x1890x1780",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4620x1890x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f570d335393b1ee221de664c97a9119c~2508x0.webp"
+            },
+            {
+              "name": "棕狗",
+              "colors": [
+                "#8B7F71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fd0b82e8b74f53162b7fe4d31aa44a1~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d7eda9afc661a3857bcb072b1808025~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d3b1b93747342c2e4f8b3437bdda6a9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8534e7c9621dc68fdfe643cdb0693526~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/298a9cfa2ed5604f535f9ff7e8411f7c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f570d335393b1ee221de664c97a9119c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4921,
       "carName": "赤兔",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5e76331b96f4f09b57169626a434913~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗赤兔 2023款 1.5T 先锋型",
+          "configName": "2023款 1.5T 先锋型",
+          "configId": "88659",
+          "index": 0,
           "price": "8.28万",
-          "fuelType": "汽油",
-          "size": "4450x1841x1625",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4450x1841x1625",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "哈弗赤兔 2023款 1.5T 进取型",
+          "configName": "2023款 1.5T 进取型",
+          "configId": "88660",
+          "index": 1,
           "price": "8.88万",
-          "fuelType": "汽油",
-          "size": "4450x1841x1625",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4450x1841x1625",
+          "exteriorImages": [
+            {
+              "name": "暴走蓝",
+              "colors": [
+                "#0091FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/547e8e7ba3aaada395dab16096dcea33~2508x0.webp"
+            },
+            {
+              "name": "闪现白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93de9da60a7b2cff04e88ae27f95d567~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/ab5d0e5e3b1589b714ba4ec89455cb02~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/547e8e7ba3aaada395dab16096dcea33~2508x0.webp"
         },
         {
-          "configName": "哈弗赤兔 2023款 1.5T 卓越型",
+          "configName": "2023款 1.5T 卓越型",
+          "configId": "88661",
+          "index": 2,
           "price": "9.38万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
           "size": "4450x1841x1625",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "exteriorImages": [
+            {
+              "name": "开黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f106bded0a2db9889b98e4c333d82654~2508x0.webp"
+            },
+            {
+              "name": "暴走蓝",
+              "colors": [
+                "#0091FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98c87fdc63c049bc1b6c409edbb9f266~2508x0.webp"
+            },
+            {
+              "name": "冷却灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4014e1f3f60d9ec695fd870bcfbc6982~2508x0.webp"
+            },
+            {
+              "name": "闪现白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/061783f2fce547dc68e1a0c4ae23915a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ce96d47e9d415b04107cfc6a0099445~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f106bded0a2db9889b98e4c333d82654~2508x0.webp"
         },
         {
-          "configName": "哈弗赤兔 2023款 1.5T 动感型",
+          "configName": "2023款 1.5T 动感型",
+          "configId": "88662",
+          "index": 3,
           "price": "10.28万",
-          "fuelType": "汽油",
-          "size": "4470x1898x1625",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4470x1898x1625",
+          "exteriorImages": [
+            {
+              "name": "暴走蓝",
+              "colors": [
+                "#0091FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8e6b3e52195f3004c66bf9e48502ca6~2508x0.webp"
+            },
+            {
+              "name": "冷却灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3784e2e9a294f8ed66e27c15ed0efceb~2508x0.webp"
+            },
+            {
+              "name": "闪现白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4038cb7e664bb5048e630ef8dad2490b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#A75252"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57f7533b5e1d314b40eefe52d2853211~2508x0.webp"
+            },
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59f156df834782fcac620b325ee1c06e~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#000000",
+                "#FF8000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc101b59837041dbfe5ae3536e9c427f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e8e6b3e52195f3004c66bf9e48502ca6~2508x0.webp"
         },
         {
-          "configName": "哈弗赤兔 2023款 1.5T 领航型",
+          "configName": "2023款 1.5T 领航型",
+          "configId": "88663",
+          "index": 4,
           "price": "10.88万",
-          "fuelType": "汽油",
-          "size": "4470x1898x1625",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4470x1898x1625",
+          "exteriorImages": [
+            {
+              "name": "暴走蓝",
+              "colors": [
+                "#0091FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d78d9c5d9abb65287b0faca8573e3587~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#A75252"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c39dbdac98dc2e86f2e7296ea26fdd3e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d78d9c5d9abb65287b0faca8573e3587~2508x0.webp"
         },
         {
-          "configName": "哈弗赤兔 2023款 1.5L 混动DHT",
+          "configName": "2023款 1.5L 混动DHT",
+          "configId": "88664",
+          "index": 5,
           "price": "12.88万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "油电混合",
+          "power": "1.5L 101马力 L4 油电混动",
           "size": "4470x1898x1625",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "油电混合 156马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 6321,
       "carName": "H5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5c44ea3c9d3b4b1c94140147636ddc67~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗H5 2025款 2.0T 汽油 领创自动四驱",
+          "configName": "2025款 2.0T 汽油 领创自动四驱",
+          "configId": "245359",
+          "index": 0,
           "price": "14.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1864",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1864",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12fce49b3c829152bf04004c6ae5e657~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_504f4410215fedafb178c86c063afbb4~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bf36720bc2ea9f0c86a1c0fdfdd2fa3f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e6bcda4d8f451202af1f01de2814e0a~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e68d963eefa81c2e6aedb16356d24970~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12fce49b3c829152bf04004c6ae5e657~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2025款 2.0T 汽油 领英自动四驱",
+          "configName": "2025款 2.0T 汽油 领英自动四驱",
+          "configId": "245360",
+          "index": 1,
           "price": "15.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1864",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1864",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf8084c6d0f4eb57c07ef82f9ec32fbc~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7528f582db50c83b1a63223370465df~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_88301f90c561a515b173e16d84222e29~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e06e27dc57035ca01cf7d48355ca417~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3a5a44c40a324ec5a0bc6e7b0cd358a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf8084c6d0f4eb57c07ef82f9ec32fbc~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2025款 2.0T 汽油 领航自动四驱",
+          "configName": "2025款 2.0T 汽油 领航自动四驱",
+          "configId": "245361",
+          "index": 2,
           "price": "16.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1864",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1864",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33d469b185f94ec683c0e89990d7642b~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5be3b9c26bd8f182bb9ba6e2858c9e0b~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e3ecbc1c80ad396d3fe4ee1f0007875~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f09b4d5b976566146a59fd8abbd34a1~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f125241b7851ffe0179261e668461c37~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/33d469b185f94ec683c0e89990d7642b~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2025款 2.0T 柴油 领英自动四驱",
+          "configName": "2025款 2.0T 柴油 领英自动四驱",
+          "configId": "245362",
+          "index": 3,
           "price": "16.78万",
+          "manufacturer": "长城汽车",
+          "class": "大型SUV",
           "fuelType": "柴油",
+          "power": "2.0T 166马力 L4",
           "size": "5190x1905x1864",
-          "manufacturer": "长城汽车",
-          "class": "大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ccb1a11154b22aef0999d1ff7504faa~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2bf6b325a4a09b904e22c0ff8b28398a~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c607186a3633b5d93497b8914c22a09~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_521d47df188de934215773401ccd4315~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b30e63dd1536b4659d4ad1e17c96e4a~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_666072a3c0999d8a0e747ed0f3fa5c6f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8ccb1a11154b22aef0999d1ff7504faa~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2025款 2.0T 柴油 领航自动四驱",
+          "configName": "2025款 2.0T 柴油 领航自动四驱",
+          "configId": "245363",
+          "index": 4,
           "price": "17.78万",
+          "manufacturer": "长城汽车",
+          "class": "大型SUV",
           "fuelType": "柴油",
+          "power": "2.0T 166马力 L4",
           "size": "5190x1905x1864",
-          "manufacturer": "长城汽车",
-          "class": "大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b392e9a2ffb8d88ca3f4e340a75c706~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_951c905598f03e3cbd7a8df6ca40d694~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19523249df8b74b5f2db5d0dd1d2e445~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5c0cee16c4034765ab79e50a26ae57b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96dd5f3d9b520c720b983945d31f6aa4~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd2e36166e229bcfb84d78ccb5adf8cb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8b392e9a2ffb8d88ca3f4e340a75c706~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2024款 2.0T 汽油 领创自动四驱",
+          "configName": "2024款 2.0T 汽油 领创自动四驱",
+          "configId": "98694",
+          "index": 5,
           "price": "14.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1835",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4f05e9c769ff751d503fd669bcfb02e~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e737553e29af84900fe12e346aa84cd~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e51c37337c339b7897fbc19ad24e587c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d8d15f3a15a88b7ed8f2b0c8cd018af~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a4f05e9c769ff751d503fd669bcfb02e~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2023款 2.0T 汽油 领创自动两驱",
+          "configName": "2023款 2.0T 汽油 领创自动两驱",
+          "configId": "92676",
+          "index": 6,
           "price": "13.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1835",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5ad89bdd202442d2ae5f4bc2a1c7144~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ae28bcc983f16af5ce8b57b5b00472f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e5ad89bdd202442d2ae5f4bc2a1c7144~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2023款 2.0T 汽油 领英自动两驱",
+          "configName": "2023款 2.0T 汽油 领英自动两驱",
+          "configId": "92677",
+          "index": 7,
           "price": "14.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1835",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99884241ded9be1ce5f2764a12013143~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/41e529c05d6c0fe82a0ea2d0291e669d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/368acd2f6171f39feaba497aa26edd20~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58bf6b8981ecf57ca7cef9669181bd77~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32dec134bc48e191831f560c28592791~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d68ec9b4a09e305eb07a9772c5bbea6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99884241ded9be1ce5f2764a12013143~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2023款 2.0T 汽油 领英自动四驱",
+          "configName": "2023款 2.0T 汽油 领英自动四驱",
+          "configId": "92678",
+          "index": 8,
           "price": "15.78万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5190x1905x1835",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ca657382512e739f1bef323e5ef9c2e~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78020d64dc9158b5ed80ca608746ce46~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/938ff9ab815467c914bb2182efb2e2aa~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c94d75744cf6b11b29785472d95ab68e~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0852fa7ad61f1c2fca043a050b7b2b0c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6ca657382512e739f1bef323e5ef9c2e~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2023款 2.0T 柴油 领创自动四驱",
+          "configName": "2023款 2.0T 柴油 领创自动四驱",
+          "configId": "92680",
+          "index": 9,
           "price": "15.78万",
+          "manufacturer": "长城汽车",
+          "class": "大型SUV",
           "fuelType": "柴油",
+          "power": "2.0T 166马力 L4",
           "size": "5190x1905x1835",
-          "manufacturer": "长城汽车",
-          "class": "大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25a9ce78a9bf7aa4dabc6bd59b0ea6cd~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/649da9cf95626c45456ab2acdfab7302~2508x0.webp"
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#E7E9E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0681218659db4cad54303f68e76e8e9a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5495d9a650271223947062573f75b1fc~2508x0.webp"
+            },
+            {
+              "name": "FT棕/黑色",
+              "colors": [
+                "#CFA54A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0deeb8561b90b18f8b8dde641be23690~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/25a9ce78a9bf7aa4dabc6bd59b0ea6cd~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2023款 2.0T 汽油 回归定制版手动两驱",
+          "configName": "2023款 2.0T 汽油 回归定制版手动两驱",
+          "configId": "92675",
+          "index": 10,
           "price": "12.28万",
-          "fuelType": "汽油",
-          "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": "2.0T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 197马力 L4",
+          "size": "5190x1905x1835",
+          "exteriorImages": [
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3afabdb789758bf4fe74df67e255a9af~2508x0.webp"
+            },
+            {
+              "name": "天际灰",
+              "colors": [
+                "#BDC2BC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a01af9733925dccc59ecf4d6132aa917~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3397de27397e6db8ba46e018d8689c18~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3afabdb789758bf4fe74df67e255a9af~2508x0.webp"
         },
         {
-          "configName": "哈弗H5 2023款 2.0T 柴油 回归定制版手动四驱",
+          "configName": "2023款 2.0T 柴油 回归定制版手动四驱",
+          "configId": "92679",
+          "index": 11,
           "price": "14.78万",
-          "fuelType": "柴油",
-          "size": "5190x1905x1835",
           "manufacturer": "长城汽车",
           "class": "大型SUV",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.0T 166马力 L4",
+          "size": "5190x1905x1835",
+          "exteriorImages": [
+            {
+              "name": "魅影黑",
+              "colors": [
+                "#191F2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8a744129924ef3882dbbc92f058cfb2~2508x0.webp"
+            },
+            {
+              "name": "星月紫",
+              "colors": [
+                "#584B67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bb466b1ad95575d5a726a7008606561~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85b0ad4a10a16fe393277760057650d4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d8a744129924ef3882dbbc92f058cfb2~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 649,
       "carName": "H6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2ec7229b3295428dbbcc545492eaba29~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗H6 2025款 国潮版 1.5T 自动都市版",
+          "configName": "2025款 国潮版 1.5T 自动都市版",
+          "configId": "245710",
+          "index": 0,
           "price": "9.89万",
-          "fuelType": "汽油",
-          "size": "4645x1860x1720",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4645x1860x1720",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0C0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b4ef0d1700e0a3caa296b2f202a9839~2508x0.webp"
+            },
+            {
+              "name": "青瓦灰",
+              "colors": [
+                "#848A93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d9748d42611b6cea2f3af00e4644fe2~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EFEFED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f60d90f88ce3957257752127e4836168~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_19bfdb48545374f21f32d0705a1f94e8~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#D52726"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_209a7650c3b405aaaaddda95453d2562~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b4ef0d1700e0a3caa296b2f202a9839~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2025款 国潮版 1.5T 自动冠军版",
+          "configName": "2025款 国潮版 1.5T 自动冠军版",
+          "configId": "245711",
+          "index": 1,
           "price": "10.89万",
-          "fuelType": "汽油",
-          "size": "4645x1860x1720",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4645x1860x1720",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0C0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d7241b1d037f0164088a884b1dd683d~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EFEFED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_751db419f00ff73a660c67785209c5e8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_8d8e1fa1fb0e0abaa8b13fa6ed9f6c9b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d7241b1d037f0164088a884b1dd683d~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2024款 1.5T 自动两驱Pro版",
+          "configName": "2024款 1.5T 自动两驱Pro版",
+          "configId": "100975",
+          "index": 2,
           "price": "11.79万",
-          "fuelType": "汽油",
-          "size": "4703x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4703x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "星漩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/575547de2fa22d0b90b3e61be75d530a~2508x0.webp"
+            },
+            {
+              "name": "星际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2231178b037ea339afcaa4f6b265325c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#F5EFE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1fa3f1341b6e02e460778873fb16498d~2508x0.webp"
+            },
+            {
+              "name": "星斓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e7e99d199cf364258fd1cd1ccf82bd6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "格调黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b61896422d7a978193dee5736dff5c26~2508x0.webp"
+            },
+            {
+              "name": "纯净米",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/117f200c1328a09241c62e53d85f46bb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/575547de2fa22d0b90b3e61be75d530a~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2024款 1.5T 自动两驱Max版",
+          "configName": "2024款 1.5T 自动两驱Max版",
+          "configId": "100997",
+          "index": 3,
           "price": "12.39万",
-          "fuelType": "汽油",
-          "size": "4703x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4703x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "星漩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84da7d6219bb95b0b3ee5791ef467a8d~2508x0.webp"
+            },
+            {
+              "name": "星际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac2f733417fc9f8428839ef58be6116a~2508x0.webp"
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#F5EFE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96f021b82f067870443afe483d75bced~2508x0.webp"
+            },
+            {
+              "name": "星斓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/652d425b90d90aef4eb452beec476177~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "格调黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e43eef908f044cd2c1abca79c9b33c8c~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#CC9962"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/10f2cfb3491e925e5c0520d28427efcf~2508x0.webp"
+            },
+            {
+              "name": "纯净米",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1be517d1ef7ee44ff6f3d8175df295a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/84da7d6219bb95b0b3ee5791ef467a8d~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2024款 1.5T 自动两驱Ultra版",
+          "configName": "2024款 1.5T 自动两驱Ultra版",
+          "configId": "100073",
+          "index": 4,
           "price": "13.19万",
-          "fuelType": "汽油",
-          "size": "4703x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4703x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "星漩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/336dd9b4b0bf2a80ae0c89c20b30fb5a~2508x0.webp"
+            },
+            {
+              "name": "星际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b6c59045c55f5db346dad67f1168db4~2508x0.webp"
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#F5EFE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88d896ea153b083c397e634b69b8d619~2508x0.webp"
+            },
+            {
+              "name": "星斓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c69e1eb94ad12a6309561a0d3290524c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "格调黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2388461cbb81aa47cb452bcf10593d9d~2508x0.webp"
+            },
+            {
+              "name": "纯净米",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6fc13121f5b4c6216fb2dcc3822b0fc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/336dd9b4b0bf2a80ae0c89c20b30fb5a~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2024款 2.0T 自动两驱Max版",
+          "configName": "2024款 2.0T 自动两驱Max版",
+          "configId": "100976",
+          "index": 5,
           "price": "13.39万",
-          "fuelType": "汽油",
-          "size": "4703x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4703x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "星漩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15c6fc46963b650735d55a7b5a48a512~2508x0.webp"
+            },
+            {
+              "name": "星际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58f8e1aef19a5a5e594a74fd389aada2~2508x0.webp"
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#F5EFE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdc8af6ca26a72b7d8c34d3e8b02b7ad~2508x0.webp"
+            },
+            {
+              "name": "星斓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e762fad75e76335743db4fc78b9d9a7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "格调黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4eaf136a0fc5f212f54c505e7c245ae~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#CC9962"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afc26863d75e17817c5dbd71d74a9e97~2508x0.webp"
+            },
+            {
+              "name": "纯净米",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0e0339dc80950b23d2737a61fb4d3b4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/15c6fc46963b650735d55a7b5a48a512~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2024款 2.0T 自动四驱Max版",
+          "configName": "2024款 2.0T 自动四驱Max版",
+          "configId": "100074",
+          "index": 6,
           "price": "14.39万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
           "size": "4703x1886x1730",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
+          "exteriorImages": [
+            {
+              "name": "星漩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe4d1049f58ccd545b8e308e12ddc398~2508x0.webp"
+            },
+            {
+              "name": "星际灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/cb87e20f7c84b8be1b5b05153338ed4a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#F5EFE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cea5328e7953dcee2a065d8c3726b4d3~2508x0.webp"
+            },
+            {
+              "name": "星斓白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bbc223c1ea80cb442c202110b37980de~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "格调黑",
+              "colors": [
+                "#0B0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c17cfb5639d01ed3da7a9c521fa5ddf4~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#CC9962"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/87d49e6da2deb28572d2464648098e01~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "纯净米",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fdb91c20ef78ffe18bbf80099a4b712~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fe4d1049f58ccd545b8e308e12ddc398~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2024款 1.5T 自动两驱经典版",
-          "price": "12.19万",
-          "fuelType": "汽油",
-          "size": "4653x1886x1730",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
-        },
-        {
-          "configName": "哈弗H6 2023款 国潮版 1.5T 自动都市版",
+          "configName": "2023款 国潮版 1.5T 自动都市版",
+          "configId": "87438",
+          "index": 8,
           "price": "9.89万",
-          "fuelType": "汽油",
-          "size": "4645x1860x1720",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4645x1860x1720",
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0C0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56c80d56cbfe7651787eb6958ec7a107~2508x0.webp"
+            },
+            {
+              "name": "青瓦灰",
+              "colors": [
+                "#848A93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a32b1b649ef677d83fceedc1b99414e~2508x0.webp"
+            },
+            {
+              "name": "锦鲤红",
+              "colors": [
+                "#AC002F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6e25624f0eb30b1806408c066ef43f2~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EFEFED"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/796ba871a33af242f960e78a079f8949~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aae01ce7f0fedfc9be00eb7922323f6f~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#D52726"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e379426abfb7d852197ed69087403eed~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/56c80d56cbfe7651787eb6958ec7a107~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 2023款 国潮版 1.5T 自动冠军版",
+          "configName": "2023款 国潮版 1.5T 自动冠军版",
+          "configId": "87439",
+          "index": 9,
           "price": "10.89万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
           "size": "4645x1860x1720",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "1.5T 150马力 L4"
+          "exteriorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#0C0C0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d8fb857868a6382d12adcbb9ab9c225~2508x0.webp"
+            },
+            {
+              "name": "青瓦灰",
+              "colors": [
+                "#848A93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b4364c9dd56f5e2518ab1e9a7df2f3c~2508x0.webp"
+            },
+            {
+              "name": "锦鲤红",
+              "colors": [
+                "#AC002F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d18e778517496bdbf79f851a53630abd~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EFEFED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26d3765f803fa4795fa3ed495bf49984~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23f7e698b9ef37a568772ef3f338636d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0d8fb857868a6382d12adcbb9ab9c225~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5503,
       "carName": "H6 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ed165fadd59bfaabda900ba03b3aaf7~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 55km 悦行版",
+          "configName": "2022款 1.5T DHT-PHEV 55km 悦行版",
+          "configId": "77153",
+          "index": 0,
           "price": "15.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4683x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电混动 177马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4",
+          "size": "4683x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "幽黛蓝",
+              "colors": [
+                "#4264C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/787b8d4487152d5271755f44ed3b16d3~2508x0.webp"
+            },
+            {
+              "name": "青矾绿",
+              "colors": [
+                "#596B7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8c8fb4d60e387f2c923ae655180e486~2508x0.webp"
+            },
+            {
+              "name": "玉釉白",
+              "colors": [
+                "#F0F4F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9a726a5f29483f696d58536f3d67986~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/577de57904bacde1ba635b07c6b633f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/787b8d4487152d5271755f44ed3b16d3~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 110km 悦行版",
+          "configName": "2022款 1.5T DHT-PHEV 110km 悦行版",
+          "configId": "77154",
+          "index": 1,
           "price": "16.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4683x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电混动 177马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4",
+          "size": "4683x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "玄青黑",
+              "colors": [
+                "#141414"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d826d3075afb45025d9107358c91e5c3~2508x0.webp"
+            },
+            {
+              "name": "幽黛蓝",
+              "colors": [
+                "#4264C2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/007f8c48a83fc47be1ceab4edbf46229~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#585C63"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae1d303d5d50afbfd84087d974186c21~2508x0.webp"
+            },
+            {
+              "name": "青矾绿",
+              "colors": [
+                "#596B7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9535cbf63110b8f36c6207348c07d470~2508x0.webp"
+            },
+            {
+              "name": "玉釉白",
+              "colors": [
+                "#F0F4F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6361c33680b95e4966e51caec5ffb32~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/701f5cc1e07fcdb4c16528f0681d925f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d826d3075afb45025d9107358c91e5c3~2508x0.webp"
         },
         {
-          "configName": "哈弗H6 PHEV 2022款 1.5T DHT-PHEV 110km 畅行版",
+          "configName": "2022款 1.5T DHT-PHEV 110km 畅行版",
+          "configId": "78718",
+          "index": 2,
           "price": "17.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4683x1886x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电混动 177马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4",
+          "size": "4683x1886x1730",
+          "exteriorImages": [
+            {
+              "name": "玄青黑",
+              "colors": [
+                "#141414"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6abcafcf9a012e2ba57438b0d7a8b50f~2508x0.webp"
+            },
+            {
+              "name": "青矾绿",
+              "colors": [
+                "#596B7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7e28814e7206cdb7eef99389e764287~2508x0.webp"
+            },
+            {
+              "name": "玉釉白",
+              "colors": [
+                "#F0F4F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56657428a1fd989ceb1970f50d85254e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/277e26be1bba997bef9ddad8647fc249~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6abcafcf9a012e2ba57438b0d7a8b50f~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5251,
       "carName": "神兽",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/840d45663eb34f4ba160d8b0866d6737~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗神兽 2023款 1.5T 智领版",
+          "configName": "2023款 1.5T 智领版",
+          "configId": "86863",
+          "index": 0,
           "price": "13万",
-          "fuelType": "汽油",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#28617E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/708c12f182f50474a7da7ce4bdf19ae7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/260a23fdd2c7d17c0bd3c500c082663b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/708c12f182f50474a7da7ce4bdf19ae7~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 1.5T 智享版",
+          "configName": "2023款 1.5T 智享版",
+          "configId": "86864",
+          "index": 1,
           "price": "13.7万",
-          "fuelType": "汽油",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f51d8e733068dee6bfd0a5f797022277~2508x0.webp"
+            },
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#28617E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5fc9db595970afec033e71c28cb63a6~2508x0.webp"
+            },
+            {
+              "name": "苍穹蓝",
+              "colors": [
+                "#7BA9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4807b48dda385571c7beb6cce52760a7~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/308778dbf63d4108ed84f17def93cbd6~2508x0.webp"
+            },
+            {
+              "name": "星耀白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffd2227596db539f402aeba2cf4ce354~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/caf29ee0b8a67ae21e143e55e887c327~2508x0.webp"
+            },
+            {
+              "name": "粉耀霓虹/棕色",
+              "colors": [
+                "#F07676",
+                "#A0430D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/012ff3489c9cb644736369bcb3c2885a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f51d8e733068dee6bfd0a5f797022277~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 1.5T 智尊版",
+          "configName": "2023款 1.5T 智尊版",
+          "configId": "86865",
+          "index": 2,
           "price": "14.7万",
-          "fuelType": "汽油",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "1.5T 184马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#28617E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/402d11627cd13706eea5ccd7287e4fdc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68ddffc380933d775850c6e30c699ade~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/402d11627cd13706eea5ccd7287e4fdc~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 2.0T 智享版",
+          "configName": "2023款 2.0T 智享版",
+          "configId": "86879",
+          "index": 3,
           "price": "14.7万",
-          "fuelType": "汽油",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "银河灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50f306cd9c17a36b4b202b007b518589~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c601972345213ec51ee4694052494ecf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/50f306cd9c17a36b4b202b007b518589~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 2.0T 智尊版",
+          "configName": "2023款 2.0T 智尊版",
+          "configId": "86880",
+          "index": 4,
           "price": "15.7万",
-          "fuelType": "汽油",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c80133080647616bcc33aae6ebc9813a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b41bd7eccd1f63ef6aea5dd15026daa2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c80133080647616bcc33aae6ebc9813a~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 2.0T 智尊四驱版",
+          "configName": "2023款 2.0T 智尊四驱版",
+          "configId": "86881",
+          "index": 5,
           "price": "16.7万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
           "size": "4780x1890x1675",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 224马力 L4"
+          "exteriorImages": [
+            {
+              "name": "银河灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a50e6029d954e58c393e12686ea9b9d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c911d43ebbfffb78cba872926c2a8a20~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5a50e6029d954e58c393e12686ea9b9d~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 1.5T 智领版DHT",
+          "configName": "2023款 1.5T 智领版DHT",
+          "configId": "86876",
+          "index": 6,
           "price": "15.38万",
-          "fuelType": "油电混合",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 154马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "哈弗神兽 2023款 1.5T 智擎版DHT",
+          "configName": "2023款 1.5T 智擎版DHT",
+          "configId": "86877",
+          "index": 7,
           "price": "15.98万",
-          "fuelType": "油电混合",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 154马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "星耀白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfdf2576181290357b10254a60106a88~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cfdf2576181290357b10254a60106a88~2508x0.webp"
         },
         {
-          "configName": "哈弗神兽 2023款 1.5T 智享版DHT",
+          "configName": "2023款 1.5T 智享版DHT",
+          "configId": "86878",
+          "index": 8,
           "price": "16.58万",
-          "fuelType": "油电混合",
-          "size": "4780x1890x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "油电混动 177马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 154马力 L4",
+          "size": "4780x1890x1675",
+          "exteriorImages": [
+            {
+              "name": "苍穹蓝",
+              "colors": [
+                "#7BA9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9d9fa698b0acfefb5c83a8b761d3ba8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑耀磁场/橙色",
+              "colors": [
+                "#000000",
+                "#FF7749"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef8509ddb1d5568cada95ff489396261~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b9d9fa698b0acfefb5c83a8b761d3ba8~2508x0.webp"
         }
       ]
     },
@@ -537,241 +2227,2196 @@
       ]
     },
     {
+      "carId": 25315,
       "carName": "猛龙",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5b7e26353a0248dda588fb0ab93f517f~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗猛龙 2025款 2.0T 四驱Pro",
+          "configName": "2025款 2.0T 四驱Pro",
+          "configId": "248506",
+          "index": 0,
           "price": "15.69万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
           "size": "4800x1950x1822",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
+          "exteriorImages": [
+            {
+              "name": "苔岩绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c8f4854a1fef7ee566086c8702073bd~2508x0.webp"
+            },
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96fba87ac7359b3d4ead51899aba9a51~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ec1e8130fe01d8d5032c66a2446933af~2508x0.webp"
+            },
+            {
+              "name": "云涧灰",
+              "colors": [
+                "#84878E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ff9037ef1478e39e1d74cc960222df6~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4627580d3557b825cdfd9530036c019e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_75ef1cd9b4f652f8c7547c09eeb4c3ab~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ad0be25d41f7d1568762601daaa8bb44~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c8f4854a1fef7ee566086c8702073bd~2508x0.webp"
         },
         {
-          "configName": "哈弗猛龙 2025款 2.0T 四驱Ultra",
+          "configName": "2025款 2.0T 四驱Ultra",
+          "configId": "246373",
+          "index": 1,
           "price": "16.69万",
-          "fuelType": "汽油",
-          "size": "4800x1950x1843",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 238马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "苔岩绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41de34d86f2683a54207ff7fb2f5bfc6~2508x0.webp"
+            },
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b8fa097c8cb7e38836168756cacce2e~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_102804ddbe1a5fc0466e85e40c5ebee0~2508x0.webp"
+            },
+            {
+              "name": "云涧灰",
+              "colors": [
+                "#84878E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8ae754c15300731c3df814bc35e4f66~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e675245953d7450ca4ffbf469ba9692d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fe8f8ebba29f38bb3920d3580e884ea~2508x0.webp"
+            },
+            {
+              "name": "黑米",
+              "colors": [
+                "#F7EFE2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb8af72ef8292f1856f881f28453c814~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_537cc85f5782fd6b4dafc54e8034c71b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41de34d86f2683a54207ff7fb2f5bfc6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8794,
       "carName": "枭龙",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dbea055d8ff44e90a99542fc2cf7a8a4~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗枭龙 2023款 1.5L 52km 领航版",
+          "configName": "2023款 1.5L 52km 领航版",
+          "configId": "88467",
+          "index": 0,
           "price": "13.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4600x1877x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 156马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 101马力 L4 插电式混动",
+          "size": "4600x1877x1675",
+          "exteriorImages": [
+            {
+              "name": "云海白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4eef9742bd84b1ea45a518c62ac60838~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/d81ad8b33413c65973f47f6ab76b965e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4eef9742bd84b1ea45a518c62ac60838~2508x0.webp"
         },
         {
-          "configName": "哈弗枭龙 2023款 1.5L 110km 领动版",
+          "configName": "2023款 1.5L 110km 领动版",
+          "configId": "88468",
+          "index": 1,
           "price": "14.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4600x1877x1675",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 156马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 101马力 L4 插电式混动",
+          "size": "4600x1877x1675",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#212020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/783c1cff00501d7fd9bf1461cab38409~2508x0.webp"
+            },
+            {
+              "name": "曙光灰",
+              "colors": [
+                "#A7ADA5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/045d2d2f9e59f662fdbf6d68a1eb1de8~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a1fccf8e8902424f808892fac3756d8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6df5ed15540556b6b9fa2fcfacd22b0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/783c1cff00501d7fd9bf1461cab38409~2508x0.webp"
         },
         {
-          "configName": "哈弗枭龙 2023款 1.5L 110km 领航版",
+          "configName": "2023款 1.5L 110km 领航版",
+          "configId": "88471",
+          "index": 2,
           "price": "15.68万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "插电式混合动力",
+          "power": "1.5L 101马力 L4 插电式混动",
           "size": "4600x1877x1675",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 156马力"
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#212020"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02c76515ba6beedd7537cab1a0bca1f7~2508x0.webp"
+            },
+            {
+              "name": "曙光灰",
+              "colors": [
+                "#A7ADA5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6332abfb6940638bb66c3fecb0750a07~2508x0.webp"
+            },
+            {
+              "name": "天水蓝",
+              "colors": [
+                "#B5D6F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2842441510fa495fbf1aa52daf8b0988~2508x0.webp"
+            },
+            {
+              "name": "天水蓝/黑色",
+              "colors": [
+                "#B5D6F1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/607d9e009f2d100d8e3d74fe81759e36~2508x0.webp"
+            },
+            {
+              "name": "云海白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae5f5411532997b3c63fe7dbc468e375~2508x0.webp"
+            },
+            {
+              "name": "云海白/黑色",
+              "colors": [
+                "#FBFBFB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e356ecefdecb91dec61ac1d47c6ae9ab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d1d6d43aa969a8e956486ac454c3ec7~2508x0.webp"
+            },
+            {
+              "name": "黑米",
+              "colors": [
+                "#EEEEE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba1081f2df52c41787acf1617d3e845c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/02c76515ba6beedd7537cab1a0bca1f7~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9113,
       "carName": "猛龙PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e65004d1546f4606ba126f21286152e6~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗猛龙PHEV 2024款 1.5T Hi4 102 Air",
-          "price": "16.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4800x1916x1822",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "插电式混合动力 299马力"
-        },
-        {
-          "configName": "哈弗猛龙PHEV 2024款 1.5T Hi4 102 Pro",
+          "configName": "2026款 1.5T Hi4 105 Pro",
+          "configId": "246245",
+          "index": 0,
           "price": "17.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4800x1950x1843",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f36ea24973d3b7b6ffc531383965af95~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d95f097a1e81ed80e7d91d52075c8f67~2508x0.webp"
+            },
+            {
+              "name": "云涧灰",
+              "colors": [
+                "#84878E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_925494f9549e4b6db83c05013a8f5fa6~2508x0.webp"
+            },
+            {
+              "name": "薄荷绿",
+              "colors": [
+                "#8FC1CB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7dee6541136702c1a921a3e14b717ea2~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1df5c779cbdc846c1e3c9cd0745b7669~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37bdb0ef84c44088752f4eb0d20842cc~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_98759427dd0d0a8e577a48796a03b8d8~2508x0.webp"
+            },
+            {
+              "name": "珍珠米",
+              "colors": [
+                "#EEEEE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_965cc2b6c001e9ce2e9617a0ea09313f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f36ea24973d3b7b6ffc531383965af95~2508x0.webp"
         },
         {
-          "configName": "哈弗猛龙PHEV 2024款 1.5T Hi4 145 Pro",
+          "configName": "2026款 1.5T Hi4 150 Pro",
+          "configId": "246246",
+          "index": 1,
           "price": "18.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4800x1950x1843",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73e39f720226b6bd21e25a89716fd7da~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bff8bb381603125bac428a5b38b8e472~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "薄荷绿",
+              "colors": [
+                "#8FC1CB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_268166054043e6a371da17a417eec4e7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d126c6ce6cfaeee9cc805bfa1b7fdf0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73e39f720226b6bd21e25a89716fd7da~2508x0.webp"
         },
         {
-          "configName": "哈弗猛龙PHEV 2024款 1.5T Hi4 145 穿越版",
+          "configName": "2026款 1.5T Hi4 150 Ultra",
+          "configId": "250749",
+          "index": 2,
           "price": "19.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4800x1950x1843",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_789f97306eeee1c971a033663dcf1e76~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dd3ffd604216c9c2cb91e8b7f43d9469~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c90b02cb7928fa047067af12d65f62d7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7e7b926d22184c6390afd4ba0c5b1ad~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e12f0d63ea46386e9549da06f852d699~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_789f97306eeee1c971a033663dcf1e76~2508x0.webp"
+        },
+        {
+          "configName": "2026款 1.5T Hi4 200 Ultra",
+          "configId": "246482",
+          "index": 3,
+          "price": "19.98万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5dcc3339e9975e0c390e3bba1c479f4~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_023faf78ab08860626236ac219d14403~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1f44fe69b59fca6e440d26cef5160e50~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4a4ea6ec8441aefc2aa11c9c586c3f4f~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f390ae7df608497bc70e0dd965edb23b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5dcc3339e9975e0c390e3bba1c479f4~2508x0.webp"
+        },
+        {
+          "configName": "2026款 1.5T Hi4 150 Ultra 领航版",
+          "configId": "250872",
+          "index": 4,
+          "price": "20.18万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 1.5T Hi4 200 Ultra 领航版",
+          "configId": "250514",
+          "index": 5,
+          "price": "20.88万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6652d672ecce350a976b3a70b87246b5~2508x0.webp"
+            },
+            {
+              "name": "薄荷绿",
+              "colors": [
+                "#8FC1CB"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_23ea5b9168c305e5b35292af6042395e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c852fbf8748c1f3d0dcc33dc160601e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04267c0165f30603f8906de904ab0c3b~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1591a988dd2a46f5a565a7ded2694e06~2508x0.webp"
+            },
+            {
+              "name": "珍珠米",
+              "colors": [
+                "#EEEEE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea6b95b5cddf3d419c88c1f0f3d89958~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6652d672ecce350a976b3a70b87246b5~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5T Hi4 102 Air",
+          "configId": "100715",
+          "index": 6,
+          "price": "16.58万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 167马力 L4 插电式混动",
+          "size": "4800x1916x1822",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5T Hi4 102 Pro",
+          "configId": "100603",
+          "index": 7,
+          "price": "17.38万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 167马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/472f818fda6374383581a8f832f23314~2508x0.webp"
+            },
+            {
+              "name": "云雾茶山",
+              "colors": [
+                "#0F6344"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9a9fca0190e21d278d4e37ba561e11e~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aec95535c62875fb5db1ee21c2d0287f~2508x0.webp"
+            },
+            {
+              "name": "云涧灰",
+              "colors": [
+                "#84878E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b6e4de327996d52af4b9c8ba21c0480~2508x0.webp"
+            },
+            {
+              "name": "日耀金",
+              "colors": [
+                "#E1D8AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3b3fd0adc162395186f4b5e1e969d36~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa0212ac9ecfad411c7e86b7155bb3fd~2508x0.webp"
+            },
+            {
+              "name": "风暴黄",
+              "colors": [
+                "#FEB142"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a4005d9b802b5dd90111d5fa29ec3aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f7043e5d020d0f38efbc778ad1c1c5a~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eab11eb3e1fe10082040d6560974e3bb~2508x0.webp"
+            },
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#EEEEE7"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/3094d45846b99da2653e31864746154c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/472f818fda6374383581a8f832f23314~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5T Hi4 145 Pro",
+          "configId": "100716",
+          "index": 8,
+          "price": "18.38万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 167马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a5800d5bc7c810efc44dc4f9bfee98f~2508x0.webp"
+            },
+            {
+              "name": "云雾茶山",
+              "colors": [
+                "#0F6344"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01b2a65ae9b7f81103f8cfe0fc18b5c4~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d306a9f3362d36a436dc829d45d951f~2508x0.webp"
+            },
+            {
+              "name": "云涧灰",
+              "colors": [
+                "#84878E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/297c53594f8eb16c9e6255998242718c~2508x0.webp"
+            },
+            {
+              "name": "日耀金",
+              "colors": [
+                "#E1D8AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71a10c112e75ac6aec79a661bac877c8~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dcdf8c1f46d6e0c24f76a4be71d686fa~2508x0.webp"
+            },
+            {
+              "name": "风暴黄",
+              "colors": [
+                "#FEB142"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b9cf16b75ec937e68b369968fb078bb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b7ea327f7f86d2af80b3254a86510ec~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06ed73624719e0e5f6cc02dacc10ffc9~2508x0.webp"
+            },
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#EEEEE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/896cfc61e9ce0c5e26d633e47c88dc2a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9a5800d5bc7c810efc44dc4f9bfee98f~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5T Hi4 145 穿越版",
+          "configId": "100291",
+          "index": 9,
+          "price": "19.28万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 167马力 L4 插电式混动",
+          "size": "4800x1950x1843",
+          "exteriorImages": [
+            {
+              "name": "玄夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/299ac6a7a93a9e3a498a9c25588f4ca7~2508x0.webp"
+            },
+            {
+              "name": "云雾茶山",
+              "colors": [
+                "#0F6344"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f47dfe2daca84553354eb50ee021d5dc~2508x0.webp"
+            },
+            {
+              "name": "水墨江南灰",
+              "colors": [
+                "#394342"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a54ea4f8fbb24498c33ca7248e99ece5~2508x0.webp"
+            },
+            {
+              "name": "云涧灰",
+              "colors": [
+                "#84878E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/283a004a215234fc9ebec06213b2a4e3~2508x0.webp"
+            },
+            {
+              "name": "日耀金",
+              "colors": [
+                "#E1D8AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9d742491c845e6a203657e0153e3715~2508x0.webp"
+            },
+            {
+              "name": "揽月白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf018ee3c96fc6439b85f58990fb2f9d~2508x0.webp"
+            },
+            {
+              "name": "风暴黄",
+              "colors": [
+                "#FEB142"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/042aa425ed41a450c0c5849c6cd61ad8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41182b58100559877f3bca974e94fec1~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#AE9A2D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdebf4494b5d3c168b8187f4a6aa1c97~2508x0.webp"
+            },
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#EEEEE7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/985f4665bcdd2157e4f1adb39a9a549b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/299ac6a7a93a9e3a498a9c25588f4ca7~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 8795,
       "carName": "枭龙MAX PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c10b13cc940841ed90f9c6390b615684~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 110 Air",
+          "configName": "2025款 1.5L Hi4 110 Air",
+          "configId": "246442",
+          "index": 0,
           "price": "13.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混动 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 116马力 L4 插电式混动",
+          "size": "4780x1895x1725",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#1B1B1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_abb3e234910de164bf88c8e60a1359d8~2508x0.webp"
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#7A8566"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_52d229dc56333f57418cd347ec1dc34e~2508x0.webp"
+            },
+            {
+              "name": "远山灰",
+              "colors": [
+                "#D3CFC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e87577103bb9ac3546be54d5a0f08e32~2508x0.webp"
+            },
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14252731a1dda04383dce4665b6a105c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "探秘黑",
+              "colors": [
+                "#1F1E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db7c2d3cfe7919c44f2e85e53ed91247~2508x0.webp"
+            },
+            {
+              "name": "峡谷棕",
+              "colors": [
+                "#825319"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de74e235a5c20b9ec1a31025258b61c1~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e166f7d9808a264cdb308e30560b36ff~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_abb3e234910de164bf88c8e60a1359d8~2508x0.webp"
         },
         {
-          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 110 Pro",
+          "configName": "2025款 1.5L Hi4 110 Pro",
+          "configId": "246441",
+          "index": 1,
           "price": "14.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混动 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 116马力 L4 插电式混动",
+          "size": "4780x1895x1725",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#1B1B1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_519d73769dd969a16702b146333ec047~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#72D1DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_53b0038dba1db1ce318be05e626a49bd~2508x0.webp"
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#7A8566"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_644ea68c2aebca869460645849a308b8~2508x0.webp"
+            },
+            {
+              "name": "远山灰",
+              "colors": [
+                "#D3CFC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a614334ad720e85aa6cb438086e01cba~2508x0.webp"
+            },
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c738f8c652de5955616f733e16174b46~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "探秘黑",
+              "colors": [
+                "#1F1E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ed4f305580b59c3a676a13fd5361fbb~2508x0.webp"
+            },
+            {
+              "name": "峡谷棕",
+              "colors": [
+                "#825319"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9aec5e4902ef42ed38e90cb4dddf3a9f~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db6f4aee974500bffa23eec599a15cb0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_519d73769dd969a16702b146333ec047~2508x0.webp"
         },
         {
-          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 110 Plus智驾版",
+          "configName": "2025款 1.5L Hi4 110 Plus智驾版",
+          "configId": "246440",
+          "index": 2,
           "price": "15.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混动 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 116马力 L4 插电式混动",
+          "size": "4780x1895x1725",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#1B1B1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c1abebfaea1338a580382ee4c70ba9c3~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#72D1DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b95e4bbb3a017bb41f5973f1f0d47b62~2508x0.webp"
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#7A8566"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de77e8cb34ea8b13a9faf24ccd464b9f~2508x0.webp"
+            },
+            {
+              "name": "远山灰",
+              "colors": [
+                "#D3CFC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f02a18100cb6f05a8630e08291255b01~2508x0.webp"
+            },
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e73dac7b2db0880e8a8e2ada9143af7a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "探秘黑",
+              "colors": [
+                "#1F1E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ddaea9a11b78856d7b72846fee19741e~2508x0.webp"
+            },
+            {
+              "name": "峡谷棕",
+              "colors": [
+                "#825319"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_02e9e55f654049514361e76e0a7d6096~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c99842a343b06b643718d03a011a013a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c1abebfaea1338a580382ee4c70ba9c3~2508x0.webp"
         },
         {
-          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 165 Plus长续航版",
+          "configName": "2025款 1.5L Hi4 165 Plus长续航版",
+          "configId": "246439",
+          "index": 3,
           "price": "15.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混动 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 116马力 L4 插电式混动",
+          "size": "4780x1895x1725",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#1B1B1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a27c0c35f2695f0eebc1f0f17d373be~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#72D1DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8f9c578f07d28c9995278f9d91308ac~2508x0.webp"
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#7A8566"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f77774fdce885c50e1c63f3525ff142d~2508x0.webp"
+            },
+            {
+              "name": "远山灰",
+              "colors": [
+                "#D3CFC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e7fe7c47f524c00f671b6c836876ad4~2508x0.webp"
+            },
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5fa1affa634f93d67c61aa43816c160~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "探秘黑",
+              "colors": [
+                "#1F1E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2d38c56ecdb9ce028cba376120edefca~2508x0.webp"
+            },
+            {
+              "name": "峡谷棕",
+              "colors": [
+                "#825319"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bd9e52a939f5dee151f13314ecbfb2b2~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ce3b7f0f6fb9dabd5d3e85f5f72f4bb0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a27c0c35f2695f0eebc1f0f17d373be~2508x0.webp"
         },
         {
-          "configName": "哈弗枭龙MAX PHEV 2025款 1.5L Hi4 165 Ultra智驾版",
+          "configName": "2025款 1.5L Hi4 165 Ultra智驾版",
+          "configId": "246438",
+          "index": 4,
           "price": "16.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4780x1895x1725",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混动 299马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 116马力 L4 插电式混动",
+          "size": "4780x1895x1725",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#1B1B1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5ef6a4f0877d3140f9a29f29ba00475~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#72D1DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_72a3dd6b4db467fdb7283524c71d6601~2508x0.webp"
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#7A8566"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_99d43abb940b6a080c0fb7aa84513f5e~2508x0.webp"
+            },
+            {
+              "name": "远山灰",
+              "colors": [
+                "#D3CFC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_652cada9ec810b7b22df69b44ebd2dad~2508x0.webp"
+            },
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4437d4a2b03a5fedb44f47968fb9bc3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "探秘黑",
+              "colors": [
+                "#1F1E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4a4a4d4ef336255dd11863d81190621b~2508x0.webp"
+            },
+            {
+              "name": "峡谷棕",
+              "colors": [
+                "#825319"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d22d835843412b7f631db69c6f9111bc~2508x0.webp"
+            },
+            {
+              "name": "天镜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_320216fea07872b124ed9cd89bf8052a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5ef6a4f0877d3140f9a29f29ba00475~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 653,
       "carName": "H9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a29e89dd1330408d8ffd98418164e3fb~1200x0.png",
       "configs": [
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱探境版 5座",
+          "configName": "2025款 2.0T 汽油四驱勇士版",
+          "configId": "250795",
+          "index": 0,
+          "price": "23.99万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5070x1960x1930",
+          "exteriorImages": [
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_778c1df03e1ed9eae8b4dba5cb6c4abb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cff8d7a864f969035ab46c3b91788d69~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_778c1df03e1ed9eae8b4dba5cb6c4abb~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.4T 柴油四驱勇士版",
+          "configId": "250879",
+          "index": 1,
+          "price": "25.79万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5070x1960x1930",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 2.0T 汽油四驱探境版 5座",
+          "configId": "239652",
+          "index": 2,
           "price": "19.99万",
-          "fuelType": "汽油",
-          "size": "5070x1976x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5070x1976x1930",
+          "exteriorImages": [
+            {
+              "name": "青山绿",
+              "colors": [
+                "#233337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b610db67901f921aef006fbdbe8fa92~2508x0.webp"
+            },
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcf60c42228c695510bbd3f06a1f70e5~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4eb348c1a19ee40e8caf55d50381e99~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b17e9cde582f29ecd38ba64154ae5e2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a370d129ea361ba72f09e8820895a79a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2b610db67901f921aef006fbdbe8fa92~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱拓境版 5座",
+          "configName": "2024款 2.0T 汽油四驱拓境版 5座",
+          "configId": "239654",
+          "index": 3,
           "price": "21.59万",
-          "fuelType": "汽油",
-          "size": "5070x1976x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5070x1976x1930",
+          "exteriorImages": [
+            {
+              "name": "青山绿",
+              "colors": [
+                "#233337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46ead6defb76358086f5859fe787ac17~2508x0.webp"
+            },
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef70624a4ea16acd2397d315e3b46654~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fec8b3dad40ffba0c0e653f092081e9~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be05f20a554158bc8a36212752a5acc4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fb936f18498d5190a83464224aa70c0~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53081684a370b4eea3cae09cf4c54ff6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/46ead6defb76358086f5859fe787ac17~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱拓境版 7座",
+          "configName": "2024款 2.0T 汽油四驱拓境版 7座",
+          "configId": "239700",
+          "index": 4,
           "price": "22.39万",
-          "fuelType": "汽油",
-          "size": "5070x1976x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5070x1976x1930",
+          "exteriorImages": [
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/586e4fca3cc0cc1da90f61ceec1bc797~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c3754cec1d33eaa742cdc6fb14743ef~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c0b474100b8a78873ab6fbf6ee02722~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5863fb5a55107ee4e3eb3fd23e673900~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9bb1fb78411c63315775fb0b13c6f6c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/586e4fca3cc0cc1da90f61ceec1bc797~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱极境版 5座",
+          "configName": "2024款 2.0T 汽油四驱极境版 5座",
+          "configId": "239655",
+          "index": 5,
           "price": "22.99万",
-          "fuelType": "汽油",
-          "size": "5070x1960x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
+          "size": "5070x1960x1930",
+          "exteriorImages": [
+            {
+              "name": "青山绿",
+              "colors": [
+                "#233337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2d3af476353e8196bb6bb298cb7e45c~2508x0.webp"
+            },
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ba7f11b4dd4a4557663a23a62ecb114~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a476a8caeb29f8721266d63007109c14~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e3420aac19442e708ab6fcf3376a329~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de9a7822464e5257a5a2640d788dd9e6~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e4bf5ff81f78e9488e212c1a00fbcbe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a2d3af476353e8196bb6bb298cb7e45c~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.0T 汽油四驱极境版 7座",
+          "configName": "2024款 2.0T 汽油四驱极境版 7座",
+          "configId": "239701",
+          "index": 6,
           "price": "23.79万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 224马力 L4",
           "size": "5070x1960x1930",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "2.0T 224马力 L4"
+          "exteriorImages": [
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b828fe7d7932785fc087a6b223eb728~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd4c6e8ef46fa5bde5dc20c1af68a296~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6b828fe7d7932785fc087a6b223eb728~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱拓境版 5座",
+          "configName": "2024款 2.4T 柴油四驱拓境版 5座",
+          "configId": "97426",
+          "index": 7,
           "price": "23.39万",
-          "fuelType": "柴油",
-          "size": "5070x1976x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5070x1976x1930",
+          "exteriorImages": [
+            {
+              "name": "青山绿",
+              "colors": [
+                "#233337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1e925607497ad570649212af04881c0~2508x0.webp"
+            },
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18adb97220930e93eae3b6dcf0986faf~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7dd255724d2099c0f23e18c11eb4dd0~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f99bcd01e2e8e63380e7df7e8a13ecf3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/690a0376130815ee4238978c1122e661~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e00cde000052d07241f75ef5177da8aa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b1e925607497ad570649212af04881c0~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱拓境版 7座",
+          "configName": "2024款 2.4T 柴油四驱拓境版 7座",
+          "configId": "242986",
+          "index": 8,
           "price": "24.19万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
           "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
           "size": "5070x1976x1930",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e0435dc48d964a18d942ba60a53e161~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c412aba7e4a6d5dc1a53e21308c58e94~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/604b6c4f95f6b0166b2c0f0166b3f1dc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e0435dc48d964a18d942ba60a53e161~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱极境版 5座",
+          "configName": "2024款 2.4T 柴油四驱极境版 5座",
+          "configId": "242960",
+          "index": 9,
           "price": "24.79万",
-          "fuelType": "柴油",
-          "size": "5070x1960x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5070x1960x1930",
+          "exteriorImages": [
+            {
+              "name": "青山绿",
+              "colors": [
+                "#233337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9ee87b9de590ea5c00aaf3e952096c7~2508x0.webp"
+            },
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe81628302c5ebb1d877cfdeaa0da0c9~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/12e35f69fb887e436b33bf3cf499c958~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d1408d6b487173f38f0f52b59e5cbb7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1c2e79b4c5d5d9de9f5ca135f61cd45~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33d49b59e6f139150b985185f3a71722~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c9ee87b9de590ea5c00aaf3e952096c7~2508x0.webp"
         },
         {
-          "configName": "哈弗H9 2024款 2.4T 柴油四驱极境版 7座",
+          "configName": "2024款 2.4T 柴油四驱极境版 7座",
+          "configId": "242985",
+          "index": 10,
           "price": "25.59万",
-          "fuelType": "柴油",
-          "size": "5070x1960x1930",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "5070x1960x1930",
+          "exteriorImages": [
+            {
+              "name": "青山绿",
+              "colors": [
+                "#233337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1600c7147fa77d563b4443b76f3443b3~2508x0.webp"
+            },
+            {
+              "name": "瓦当黑",
+              "colors": [
+                "#393737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd7423c08aaf2a78aaf8e1c8e57c0318~2508x0.webp"
+            },
+            {
+              "name": "石青灰",
+              "colors": [
+                "#3E3F45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/826e1e503adce5c52b8193b078d65f98~2508x0.webp"
+            },
+            {
+              "name": "烟波白",
+              "colors": [
+                "#F7F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41ddb5cd8340b8070cd05466b40ed845~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3629f4c8c863a523584eaab771c6e07b~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#B47A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7020702a3e2474a4c78f23d829c47181~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1600c7147fa77d563b4443b76f3443b3~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6149,
+      "carName": "大狗PLUS",
+      "configs": [
+        {
+          "configName": "2023款 1.5T 两驱潮野版Plus",
+          "configId": "86771",
+          "index": 0,
+          "price": "13.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08a95c942841243e189c356506aead5a~2508x0.webp"
+            },
+            {
+              "name": "橙狗",
+              "colors": [
+                "#C45F43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13906def755defdc81eddfe89df1e34d~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83d4a99a26b63649c5ac88f1df897ed6~2508x0.webp"
+            },
+            {
+              "name": "白狗",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/067c85c15f4b4a98879fb4b7b6bfbccb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "乌木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3444f1befec00a17592cb0019717d1ec~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#E3B365"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50417265e5d546a61ec55d10f91b8438~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/08a95c942841243e189c356506aead5a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T 两驱潮野版",
+          "configId": "86772",
+          "index": 1,
+          "price": "13.78万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4acb3b704a64cb4297ab828ed393be7a~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6dee1af5bb3dd3c51a364ff7fce28252~2508x0.webp"
+            },
+            {
+              "name": "白狗",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f9d149e31855c6182ee765356834c96~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "乌木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88be01433a6c56e3a66326bb7eeeb4c0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4acb3b704a64cb4297ab828ed393be7a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T 两驱潮野版Plus",
+          "configId": "86773",
+          "index": 2,
+          "price": "14.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7064ad9777ea66e6c95086a70ed912cf~2508x0.webp"
+            },
+            {
+              "name": "橙狗",
+              "colors": [
+                "#C45F43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8282e6bbfb70c059401f1980d9ce000~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14161962f1887cbedbd2501e673383a4~2508x0.webp"
+            },
+            {
+              "name": "白狗",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0624e0acc891538915c665f9dc48a52d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "乌木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c138abb89d2835ab5fdff808ad00c9a9~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#E3B365"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91f51e4e5134eddd609092819a7d2fe9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7064ad9777ea66e6c95086a70ed912cf~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T 四驱潮野Plus",
+          "configId": "86774",
+          "index": 3,
+          "price": "15.68万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 238马力 L4",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑狗",
+              "colors": [
+                "#100F10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1fe9c1bcac82ce9143daebcab9ec176~2508x0.webp"
+            },
+            {
+              "name": "棕狗",
+              "colors": [
+                "#8B7F71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0557d68caedb2c31e10ab6c75409404c~2508x0.webp"
+            },
+            {
+              "name": "橙狗",
+              "colors": [
+                "#C45F43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8131d833e3de6cde0cd2a565382f85b~2508x0.webp"
+            },
+            {
+              "name": "灰狗",
+              "colors": [
+                "#EDEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9730195daf3d4f5a45b1bcaafb3811d~2508x0.webp"
+            },
+            {
+              "name": "白狗",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/115c2532c9eb706fb6b618489059be3d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "乌木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e8e6e4e75a3d247860e8944d103f0a2~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#E3B365"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96e88771ccffe02caf93be79bb1c25da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f1fe9c1bcac82ce9143daebcab9ec176~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6124,
+      "carName": "大狗PLUS PHEV",
+      "configs": [
+        {
+          "configName": "2024款 Hi4 102km 潮电版Plus",
+          "configId": "93657",
+          "index": 0,
+          "price": "17.98万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 167马力 L4 插电式混动",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑电狗",
+              "colors": [
+                "#0D0D0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bed72169e472fe93b5cd89ac524cbd5c~2508x0.webp"
+            },
+            {
+              "name": "棕电狗",
+              "colors": [
+                "#74552B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3467b443e27c719eed4a2367b707c31~2508x0.webp"
+            },
+            {
+              "name": "灰电狗",
+              "colors": [
+                "#B4BAB5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f57289751be129ea2b7f4cd366063f85~2508x0.webp"
+            },
+            {
+              "name": "橙电狗",
+              "colors": [
+                "#F47011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9af97539ad57d6f090cd98a8e3d60f87~2508x0.webp"
+            },
+            {
+              "name": "白电狗",
+              "colors": [
+                "#FBF8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db475c73a6875070c7f07c6da486f3ec~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20f606da6c4dc54dfc94b36a92d10449~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#E3B365"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9069fac8adc519ff1411d6fb83576851~2508x0.webp"
+            },
+            {
+              "name": "灰色/棕色",
+              "colors": [
+                "#CFCFCF",
+                "#E3B365"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01245ad4629a81026420f45812072090~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bed72169e472fe93b5cd89ac524cbd5c~2508x0.webp"
+        },
+        {
+          "configName": "2023款 DHT-PHEV 50km 潮电版",
+          "configId": "86272",
+          "index": 1,
+          "price": "16.28万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4705x1908x1780",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 DHT-PHEV 105km 潮电版",
+          "configId": "94010",
+          "index": 2,
+          "price": "16.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑电狗",
+              "colors": [
+                "#0D0D0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1e2572435316bba3a2d23886935b2cb~2508x0.webp"
+            },
+            {
+              "name": "灰电狗",
+              "colors": [
+                "#B4BAB5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bee7e898a6040d5683a1cc12b33b9f6~2508x0.webp"
+            },
+            {
+              "name": "白电狗",
+              "colors": [
+                "#FBF8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71afcbff630e29ce3bea12a04e672c2f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a075ef9fb8e8dc25ef5389207a13135a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c1e2572435316bba3a2d23886935b2cb~2508x0.webp"
+        },
+        {
+          "configName": "2023款 DHT-PHEV 105km 潮电版Plus",
+          "configId": "86303",
+          "index": 3,
+          "price": "17.58万",
+          "manufacturer": "长城汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "4705x1908x1780",
+          "exteriorImages": [
+            {
+              "name": "黑电狗",
+              "colors": [
+                "#0D0D0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc966a4b51ecbbeb3311da0b84c9e4ba~2508x0.webp"
+            },
+            {
+              "name": "棕电狗",
+              "colors": [
+                "#74552B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7313e45e0e4209a1a19a9a442c110cc~2508x0.webp"
+            },
+            {
+              "name": "灰电狗",
+              "colors": [
+                "#B4BAB5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33c770d2cc97a5f9c94d0df8a3461e67~2508x0.webp"
+            },
+            {
+              "name": "橙电狗",
+              "colors": [
+                "#F47011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa6627162ce40d1b566a3b4af4e53c14~2508x0.webp"
+            },
+            {
+              "name": "白电狗",
+              "colors": [
+                "#FBF8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e114f6338b9494b8505526b937347901~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "乌木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cab59d3e4237d8d3ad5c3ae5f7cb2321~2508x0.webp"
+            },
+            {
+              "name": "灰色/棕色",
+              "colors": [
+                "#CFCFCF",
+                "#E3B365"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/894faab927db60d49016644ec406368f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dc966a4b51ecbbeb3311da0b84c9e4ba~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-28T10:47:20.509Z",
+  "progress": {
+    "completed": 15,
+    "total": 13,
+    "percentage": 115,
+    "currentIndex": 13
+  }
 }

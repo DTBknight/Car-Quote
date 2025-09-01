@@ -3,241 +3,896 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/2458a930c2c04a9c9f6bf6897840c491~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 1422,
       "carName": "英菲尼迪Q50L",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cb83777fe845aa4962849fbbfe51b46~1200x0.png",
       "configs": [
         {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 舒适版",
+          "configName": "2022款 2.0T 舒适版",
+          "configId": "72116",
+          "index": 0,
           "price": "26.48万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
           "manufacturer": "东风英菲尼迪",
           "class": "中型车",
-          "power": "2.0T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 211马力 L4",
+          "size": "4867x1823x1456",
+          "exteriorImages": [
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec1b3ac8f0a87c2df2d992fd62fa4dc2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24069221c9d1e96d2e522db01fa20485~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec1b3ac8f0a87c2df2d992fd62fa4dc2~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 逸享版",
+          "configName": "2022款 2.0T 逸享版",
+          "configId": "72117",
+          "index": 1,
           "price": "29.48万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
           "manufacturer": "东风英菲尼迪",
           "class": "中型车",
-          "power": "2.0T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 211马力 L4",
+          "size": "4867x1823x1456",
+          "exteriorImages": [
+            {
+              "name": "海浪蓝",
+              "colors": [
+                "#213356"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f8e3df8f8725efe6e897f06a0614610~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22c5286baa8c48391004bd07cde711d7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2f8e3df8f8725efe6e897f06a0614610~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 进享版",
+          "configName": "2022款 2.0T 进享版",
+          "configId": "72118",
+          "index": 2,
           "price": "30.48万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
           "manufacturer": "东风英菲尼迪",
           "class": "中型车",
-          "power": "2.0T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 211马力 L4",
+          "size": "4867x1823x1456",
+          "exteriorImages": [
+            {
+              "name": "海浪蓝",
+              "colors": [
+                "#213356"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f5423a37d2f1ac949580b98f2bd0644~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d41cd122d16dee4ef907561806fdb122~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36545cbfaab9fc503844dbf1cef88360~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6f5423a37d2f1ac949580b98f2bd0644~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 进享运动版",
+          "configName": "2022款 2.0T 进享运动版",
+          "configId": "72119",
+          "index": 3,
           "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
           "manufacturer": "东风英菲尼迪",
           "class": "中型车",
-          "power": "2.0T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 211马力 L4",
+          "size": "4867x1823x1456",
+          "exteriorImages": [
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9d590792fd6223bf6233d97d157e7d3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60314030add771918b0be95c9ba9f9fb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b9d590792fd6223bf6233d97d157e7d3~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪Q50L 2022款 2.0T 豪华运动版",
+          "configName": "2022款 2.0T 豪华运动版",
+          "configId": "72120",
+          "index": 4,
           "price": "38.98万",
-          "fuelType": "汽油",
-          "size": "4867x1823x1456",
           "manufacturer": "东风英菲尼迪",
           "class": "中型车",
-          "power": "2.0T 211马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 211马力 L4",
+          "size": "4867x1823x1456",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 1423,
       "carName": "英菲尼迪QX50",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3e5f30a68edb47dda4e885cc35216085~1200x0.png",
       "configs": [
         {
-          "configName": "英菲尼迪QX50 2026款 2.0T 两驱时尚版",
+          "configName": "2026款 2.0T 两驱时尚版",
+          "configId": "249950",
+          "index": 0,
           "price": "35.08万",
-          "fuelType": "汽油",
-          "size": "4705x1903x1681",
           "manufacturer": "东风英菲尼迪",
           "class": "中型SUV",
-          "power": "2.0T 245马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 245马力 L4",
+          "size": "4705x1903x1681",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "英菲尼迪QX50 2026款 2.0T 两驱领航版",
+          "configName": "2026款 2.0T 两驱领航版",
+          "configId": "249951",
+          "index": 1,
           "price": "35.98万",
+          "manufacturer": "东风英菲尼迪",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 245马力 L4",
           "size": "4705x1903x1681",
-          "manufacturer": "东风英菲尼迪",
-          "class": "中型SUV",
-          "power": "2.0T 245马力 L4"
+          "exteriorImages": [
+            {
+              "name": "海浪蓝",
+              "colors": [
+                "#213356"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1159a783e4fe92ec888bc1b945a4ee7~2508x0.webp"
+            },
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#666D77"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4ce86c4b3c09c83690c7003434a502f~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_76929b012cc36a0ef1fa008241a7d71c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c8799fb4ab3c7ba256064ac3a50288c~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#5C2D07"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fb4bb7dcbb188f3b758ef7c4b74fb168~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1159a783e4fe92ec888bc1b945a4ee7~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX50 2026款 2.0T 四驱豪华版",
+          "configName": "2026款 2.0T 四驱豪华版",
+          "configId": "249952",
+          "index": 2,
           "price": "39.18万",
-          "fuelType": "汽油",
-          "size": "4705x1903x1678",
           "manufacturer": "东风英菲尼迪",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4705x1903x1678",
+          "exteriorImages": [
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#666D77"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_084ecc45ab572a831fceaa1997a07c86~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#5C2D07"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc6e29fde49f4344114d64e2329fa3cd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_084ecc45ab572a831fceaa1997a07c86~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX50 2024款 2.0T 两驱时尚版",
+          "configName": "2024款 2.0T 两驱时尚版",
+          "configId": "95423",
+          "index": 3,
           "price": "35.08万",
-          "fuelType": "汽油",
-          "size": "4705x1903x1681",
           "manufacturer": "东风英菲尼迪",
           "class": "中型SUV",
-          "power": "2.0T 245马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 245马力 L4",
+          "size": "4705x1903x1681",
+          "exteriorImages": [
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42eec6d5667c418e98c785c0e4d925b5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8b0016571d5c8871ba84ebf876528bda~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/42eec6d5667c418e98c785c0e4d925b5~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX50 2024款 2.0T 两驱领航版",
+          "configName": "2024款 2.0T 两驱领航版",
+          "configId": "95377",
+          "index": 4,
           "price": "35.98万",
-          "fuelType": "汽油",
-          "size": "4705x1903x1681",
           "manufacturer": "东风英菲尼迪",
           "class": "中型SUV",
-          "power": "2.0T 245马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 245马力 L4",
+          "size": "4705x1903x1681",
+          "exteriorImages": [
+            {
+              "name": "海浪蓝",
+              "colors": [
+                "#213356"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ff17fc7ce4befb75f5ddd5d1d63410e~2508x0.webp"
+            },
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#666D77"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfa5d6ca61f63e742e2651784506d460~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2c6a051bedc1230b48a71d57ad8e6e82~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2025e5e6752a7c093f8859e9ce2bb063~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b126220ff88f4c9203ef22d253ff7502~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3ff17fc7ce4befb75f5ddd5d1d63410e~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX50 2024款 2.0T 四驱豪华版",
+          "configName": "2024款 2.0T 四驱豪华版",
+          "configId": "95424",
+          "index": 5,
           "price": "39.18万",
-          "fuelType": "汽油",
-          "size": "4705x1903x1678",
           "manufacturer": "东风英菲尼迪",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4705x1903x1678",
+          "exteriorImages": [
+            {
+              "name": "海浪蓝",
+              "colors": [
+                "#213356"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f25b1d26c8fb68d403760526b6c48e90~2508x0.webp"
+            },
+            {
+              "name": "铂金灰",
+              "colors": [
+                "#666D77"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_001514791351f6249d90d3930a7a604d~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09aec0424ef0c2ecd3802de1225951ae~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86cdd41a838c434c8658cd9007fd210d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7cd98a898f9c7cc9b3924e60e65e4665~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f25b1d26c8fb68d403760526b6c48e90~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4232,
       "carName": "英菲尼迪QX55",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9303fe35774b68066bfc762b807208e3~1200x0.png",
       "configs": [
         {
-          "configName": "英菲尼迪QX55 2022款 2.0T 两驱耀型版",
+          "configName": "2022款 2.0T 两驱耀型版",
+          "configId": "77405",
+          "index": 0,
           "price": "38.98万",
+          "manufacturer": "英菲尼迪(进口)",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 245马力 L4",
           "size": "4736x1903x1622",
-          "manufacturer": "英菲尼迪(进口)",
-          "class": "中型SUV",
-          "power": "2.0T 245马力 L4"
+          "exteriorImages": [
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2cdfa10c0edf8a5a2735888c7b3224d7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62e8c0ddec772a9aebbf62a05108148c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2cdfa10c0edf8a5a2735888c7b3224d7~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀动版",
+          "configName": "2022款 2.0T 四驱耀动版",
+          "configId": "77407",
+          "index": 1,
           "price": "42.88万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1620",
           "manufacturer": "英菲尼迪(进口)",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4736x1903x1620",
+          "exteriorImages": [
+            {
+              "name": "星河黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7813860258d8f550d912eef790bacc77~2508x0.webp"
+            },
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4a986df7f54d6db7c319a697be6a6e0~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f72622862e1448c95eee8b56e1bc0d4d~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/10f94a4d3adacfc75a35342db4d9c002~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07d36c1bc66c20d0ba7c966de91cb854~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7813860258d8f550d912eef790bacc77~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀享版",
+          "configName": "2022款 2.0T 四驱耀享版",
+          "configId": "77410",
+          "index": 2,
           "price": "45.53万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1620",
           "manufacturer": "英菲尼迪(进口)",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4736x1903x1620",
+          "exteriorImages": [
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f5fc9d6ffe2854dfb8fbaff83979d93~2508x0.webp"
+            },
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68b157c6749a743d34e5f312ba1673dc~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3479487b23ad57f3d56d42281caaf5c1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b8058fc58c482462d7160993f27759a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5f5fc9d6ffe2854dfb8fbaff83979d93~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX55 2022款 2.0T 四驱耀奢版",
+          "configName": "2022款 2.0T 四驱耀奢版",
+          "configId": "77411",
+          "index": 3,
           "price": "47.53万",
-          "fuelType": "汽油",
-          "size": "4736x1903x1620",
           "manufacturer": "英菲尼迪(进口)",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4736x1903x1620",
+          "exteriorImages": [
+            {
+              "name": "熔岩红",
+              "colors": [
+                "#D20102"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6bedd8bee6fce7d9f63470e19a5441e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e6bedd8bee6fce7d9f63470e19a5441e~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1437,
       "carName": "英菲尼迪QX80",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/92170e571ff9459896ed34f2361af36e~1200x0.png",
       "configs": [
         {
-          "configName": "英菲尼迪QX80 2025款 Sensory AWD",
+          "configName": "2025款 Sensory AWD",
+          "configId": "247655",
+          "index": 0,
           "price": "119.8万",
-          "fuelType": "汽油",
-          "size": "5365x2030x1945",
           "manufacturer": "英菲尼迪(进口)",
           "class": "大型SUV",
-          "power": "3.5T 450马力 V6"
+          "fuelType": "汽油",
+          "power": "3.5T 450马力 V6",
+          "size": "5365x2030x1945",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "英菲尼迪QX80 2025款 Autograph AWD",
+          "configName": "2025款 Autograph AWD",
+          "configId": "247653",
+          "index": 1,
           "price": "136.8万",
-          "fuelType": "汽油",
-          "size": "5365x2030x1945",
           "manufacturer": "英菲尼迪(进口)",
           "class": "大型SUV",
-          "power": "3.5T 450马力 V6"
+          "fuelType": "汽油",
+          "power": "3.5T 450马力 V6",
+          "size": "5365x2030x1945",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 5294,
       "carName": "英菲尼迪QX60",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4ec075e8d8ef4d3aad68fee135b0bec5~1200x0.png",
       "configs": [
         {
-          "configName": "英菲尼迪QX60 2024款 2.0T两驱典雅版",
+          "configName": "2024款 2.0T两驱典雅版",
+          "configId": "95374",
+          "index": 0,
           "price": "37.88万",
-          "fuelType": "汽油",
-          "size": "5127x2005x1767",
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5127x2005x1767",
+          "exteriorImages": [
+            {
+              "name": "星河黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/117ae0af8ed6e3ccab55afc4e8be2788~2508x0.webp"
+            },
+            {
+              "name": "拂晓蓝灰",
+              "colors": [
+                "#42545E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1f06826335c61f464336dca3f1f4997~2508x0.webp"
+            },
+            {
+              "name": "流光铂金",
+              "colors": [
+                "#CABEAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93ef866f96af7017174997edf10064aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6942f720ffa4427650c8c05c07beac4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/117ae0af8ed6e3ccab55afc4e8be2788~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX60 2024款 2.0T两驱悦享版",
+          "configName": "2024款 2.0T两驱悦享版",
+          "configId": "95425",
+          "index": 1,
           "price": "38.88万",
-          "fuelType": "汽油",
-          "size": "5127x2005x1767",
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5127x2005x1767",
+          "exteriorImages": [
+            {
+              "name": "星河黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac72123fc2ab7bd6c23afc5ecced0215~2508x0.webp"
+            },
+            {
+              "name": "拂晓蓝灰",
+              "colors": [
+                "#42545E"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c32f64a9d20ab4d0642f316f0a227470~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "流光铂金",
+              "colors": [
+                "#CABEAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e374291c12acdef727ab0c6e02ea6d06~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a72d1f9c75e88fea3d441ce94928d0f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8888bf4165044635eb114b567d39b14f~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#814E2F"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/b0734e7f6aec0eb4c75deb3f633a4641~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ac72123fc2ab7bd6c23afc5ecced0215~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX60 2024款 2.0T四驱卓越版",
+          "configName": "2024款 2.0T四驱卓越版",
+          "configId": "95426",
+          "index": 2,
           "price": "42.88万",
-          "fuelType": "汽油",
-          "size": "5127x2005x1767",
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5127x2005x1767",
+          "exteriorImages": [
+            {
+              "name": "星河黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/484a0cf1a9d4433bc209dd134b01ac58~2508x0.webp"
+            },
+            {
+              "name": "拂晓蓝灰",
+              "colors": [
+                "#42545E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df6ff8763a328dc5c67ef79e24eb6681~2508x0.webp"
+            },
+            {
+              "name": "流光铂金",
+              "colors": [
+                "#CABEAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6046c5cdb8eb9d0bb4cc5fe9aa7430bf~2508x0.webp"
+            },
+            {
+              "name": "流光铂金/星河黑",
+              "colors": [
+                "#CABEAF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23ca73fff5ee97f23a40853190fc82b2~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a6f3dccae82aa548381ffe0f5c4c7ad~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#814E2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d256091b742d49e27830c363d66c08bb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/484a0cf1a9d4433bc209dd134b01ac58~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX60 2024款 2.0T四驱豪华版",
+          "configName": "2024款 2.0T四驱豪华版",
+          "configId": "95427",
+          "index": 3,
           "price": "44.88万",
-          "fuelType": "汽油",
-          "size": "5127x2005x1767",
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5127x2005x1767",
+          "exteriorImages": [
+            {
+              "name": "拂晓蓝灰",
+              "colors": [
+                "#42545E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb71ac19e1e908a744acb19ce78f39ee~2508x0.webp"
+            },
+            {
+              "name": "流光铂金",
+              "colors": [
+                "#CABEAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8013bbf328eed8d758e65460d99e3a9d~2508x0.webp"
+            },
+            {
+              "name": "莹贝白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/766f518106e269cdcc66c1a6866c902a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#814E2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8658fa5c1e438b5c631409436a99e9f8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cb71ac19e1e908a744acb19ce78f39ee~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX60 2024款 2.0T四驱尊享版",
+          "configName": "2024款 2.0T四驱尊享版",
+          "configId": "95375",
+          "index": 4,
           "price": "47.88万",
-          "fuelType": "汽油",
-          "size": "5127x2005x1767",
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5127x2005x1767",
+          "exteriorImages": [
+            {
+              "name": "星河黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0927549441dd7cfa2e392e01c9e130a7~2508x0.webp"
+            },
+            {
+              "name": "拂晓蓝灰",
+              "colors": [
+                "#42545E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0e27c5f4008b14524047c96464ccbfd~2508x0.webp"
+            },
+            {
+              "name": "拂晓蓝灰/星河黑",
+              "colors": [
+                "#42545E",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d67a80d6e276e82af4f38dbd0cc9dbbe~2508x0.webp"
+            },
+            {
+              "name": "流光铂金",
+              "colors": [
+                "#CABEAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f6d5c7f6aa93f182b3b61be7198c5d5~2508x0.webp"
+            },
+            {
+              "name": "流光铂金/星河黑",
+              "colors": [
+                "#CABEAF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5714d653f7c24647c47420dffff4a7e~2508x0.webp"
+            },
+            {
+              "name": "莹贝白/星河黑",
+              "colors": [
+                "#EBEBEB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a94e112c23715a012940987c8069606~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#814E2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19415262f7375abaecfe8069c1af5d72~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0927549441dd7cfa2e392e01c9e130a7~2508x0.webp"
         },
         {
-          "configName": "英菲尼迪QX60 2024款 2.0T四驱旗舰版",
+          "configName": "2024款 2.0T四驱旗舰版",
+          "configId": "95428",
+          "index": 5,
           "price": "51.88万",
-          "fuelType": "汽油",
-          "size": "5127x2005x1767",
           "manufacturer": "东风英菲尼迪",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5127x2005x1767",
+          "exteriorImages": [
+            {
+              "name": "拂晓蓝灰/星河黑",
+              "colors": [
+                "#42545E",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b59f64033c2c28c60be84a4d4fa1599~2508x0.webp"
+            },
+            {
+              "name": "流光铂金/星河黑",
+              "colors": [
+                "#CABEAF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3112a29d9a59e9758ad97f253249ca4a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#814E2F"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/3ac6482287454a8b711edb6acfc740a0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b59f64033c2c28c60be84a4d4fa1599~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T04:25:59.074Z",
+  "progress": {
+    "completed": 5,
+    "total": 5,
+    "percentage": 100,
+    "currentIndex": 5
+  }
 }

@@ -3,19 +3,103 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/e6ce944f11e0db6c9aa2c3843ef50c5c~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 4678,
       "carName": "5",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98f6342f9fa9746f6c998fa7b9960f21~1200x0.png",
       "configs": [
         {
-          "configName": "恒驰5 2022款 超豪华版",
+          "configName": "2022款 超豪华版",
+          "configId": "73205",
+          "index": 0,
           "price": "17.9万",
-          "fuelType": "纯电动",
-          "size": "4725x1925x1676",
           "manufacturer": "恒驰",
           "class": "紧凑型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4725x1925x1676",
+          "exteriorImages": [
+            {
+              "name": "炫晶黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f57265a39f57bcec5ab3b7a3e2693d9~2508x0.webp"
+            },
+            {
+              "name": "极光蓝/炫晶黑",
+              "colors": [
+                "#3A8ED2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe60b38e025d91cd8fcb535c9216f46f~2508x0.webp"
+            },
+            {
+              "name": "曙光灰金/炫晶黑",
+              "colors": [
+                "#9C8612",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9970f4804353bc5507cd31cf641f1516~2508x0.webp"
+            },
+            {
+              "name": "太空灰/炫晶黑",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/326ec975c5ea07dc37728a3eb6a47b5f~2508x0.webp"
+            },
+            {
+              "name": "曜日红/炫晶黑",
+              "colors": [
+                "#FF0000",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6cbefb3d261cb7e9322d396a89821a4e~2508x0.webp"
+            },
+            {
+              "name": "月光白/炫晶黑",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2359af67971ca5e4525281fb2190ce9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/afbe2ede88f3ae48bdf84723ea75c628~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "深海蓝/伯爵米",
+              "colors": [
+                "#00002F",
+                "#DADAA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03ce4522562edd242e9fe6031f7ea645~2508x0.webp"
+            },
+            {
+              "name": "红橡棕/日光米",
+              "colors": [
+                "#744300",
+                "#DADAA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22e1c73d4b2f7675791feeae76355615~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9f57265a39f57bcec5ab3b7a3e2693d9~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T02:31:08.432Z",
+  "progress": {
+    "completed": 1,
+    "total": 1,
+    "percentage": 100,
+    "currentIndex": 1
+  }
 }

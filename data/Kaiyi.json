@@ -3,778 +3,2604 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/72d2dee2c3bfdb738816da63d38bab89~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5033,
       "carName": "轩度",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/160dc5b9c166c7dccb015d37e376c14f~1200x0.png",
       "configs": [
         {
-          "configName": "轩度 2024款 1.5T 手动舒适版",
+          "configName": "2024款 1.5T 手动舒适版",
+          "configId": "90690",
+          "index": 0,
           "price": "7.98万",
-          "fuelType": "汽油",
-          "size": "4666x1825x1483",
           "manufacturer": "凯翼汽车",
           "class": "紧凑型车",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4666x1825x1483",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "轩度 2024款 1.5T CVT豪华版",
+          "configName": "2024款 1.5T CVT豪华版",
+          "configId": "90691",
+          "index": 1,
           "price": "8.59万",
-          "fuelType": "汽油",
-          "size": "4666x1825x1483",
           "manufacturer": "凯翼汽车",
           "class": "紧凑型车",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4666x1825x1483",
+          "exteriorImages": [
+            {
+              "name": "星河白",
+              "colors": [
+                "#F7F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a8c5b317a48c889d30981d8150a156c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52aa4dac226e8cb14f0a06cdc2d65770~2508x0.webp"
+            },
+            {
+              "name": "青灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34c013af59fb72b4b2c0c7160a86a659~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6a8c5b317a48c889d30981d8150a156c~2508x0.webp"
         },
         {
-          "configName": "轩度 2024款 1.5T CVT尊贵版",
+          "configName": "2024款 1.5T CVT尊贵版",
+          "configId": "90692",
+          "index": 2,
           "price": "9.39万",
-          "fuelType": "汽油",
-          "size": "4666x1825x1483",
           "manufacturer": "凯翼汽车",
           "class": "紧凑型车",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4666x1825x1483",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 6060,
       "carName": "拾月",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c9721af3047e402dbe0a68be9a516ead~1200x0.png",
       "configs": [
         {
-          "configName": "拾月 2026款  Mate 305km国轩 踏浪版",
+          "configName": "2026款 Mate 201km国轩 周年版",
+          "configId": "250648",
+          "index": 0,
+          "price": "5.09万",
+          "manufacturer": "凯翼汽车",
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1602",
+          "exteriorImages": [
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#AFC0D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f7fba67b5fefbb23070a2cd45bf0aa5~2508x0.webp"
+            },
+            {
+              "name": "云梦紫",
+              "colors": [
+                "#CDB2DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c0c37a133964b660f4f3237d848ac4ca~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EDE9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c375744dba251a188f807139d18ee26f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨山河",
+              "colors": [
+                "#565050"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2739c746e1dd0d7ff9e29d045d5403c3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f7fba67b5fefbb23070a2cd45bf0aa5~2508x0.webp"
+        },
+        {
+          "configName": "2026款  Mate 305km国轩 踏浪版",
+          "configId": "249226",
+          "index": 1,
           "price": "5.99万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1608",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1608",
+          "exteriorImages": [
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#AFC0D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f06518b0d6aedfa4e39e04b563823856~2508x0.webp"
+            },
+            {
+              "name": "追月灰",
+              "colors": [
+                "#B2B2B2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bda39fe18a64fad71110b3b1087fd6b1~2508x0.webp"
+            },
+            {
+              "name": "云梦紫",
+              "colors": [
+                "#CDB2DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4466d37ec86e56302e493b748de7d5b6~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EDE9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f3cdab20268f8f92f85873142b95f463~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨山河",
+              "colors": [
+                "#565050"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1487fefbb40027d20552e70ce0fcfae9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f06518b0d6aedfa4e39e04b563823856~2508x0.webp"
         },
         {
-          "configName": "拾月 2026款 Mate 305km国轩 追风版",
+          "configName": "2026款 Mate 305km国轩 追风版",
+          "configId": "249227",
+          "index": 2,
           "price": "6.59万",
+          "manufacturer": "凯翼汽车",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 54马力",
           "size": "3720x1700x1608",
-          "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "拾月 2026款  Mate 405km国轩 踏浪版",
+          "configName": "2026款  Mate 405km国轩 踏浪版",
+          "configId": "249231",
+          "index": 3,
           "price": "6.99万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1599",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1599",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "拾月 2026款 Mate 405km国轩 追风版",
+          "configName": "2026款 Mate 405km国轩 追风版",
+          "configId": "249232",
+          "index": 4,
           "price": "7.59万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1599",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1599",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "拾月 2026款 Mate 300km宁德 踏浪版",
+          "configName": "2026款 Mate 300km宁德 踏浪版",
+          "configId": "249229",
+          "index": 5,
           "price": "6.39万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1608",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1608",
+          "exteriorImages": [
+            {
+              "name": "胭脂粉",
+              "colors": [
+                "#DFBFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1c02dfd779f7737a4089de261bdcb1c~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EDE9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f47329b354e9109b10ed00ae911c0337~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨山河",
+              "colors": [
+                "#565050"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab088429d7d1b25ae24f7e65d38c6758~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1c02dfd779f7737a4089de261bdcb1c~2508x0.webp"
         },
         {
-          "configName": "拾月 2026款 Mate 300km宁德 追风版",
+          "configName": "2026款 Mate 300km宁德 追风版",
+          "configId": "249230",
+          "index": 6,
           "price": "6.99万",
+          "manufacturer": "凯翼汽车",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 54马力",
           "size": "3720x1700x1608",
-          "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "拾月 2026款 Mate 410km宁德 踏浪版",
+          "configName": "2026款 Mate 410km宁德 踏浪版",
+          "configId": "249233",
+          "index": 7,
           "price": "7.39万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1599",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1599",
+          "exteriorImages": [
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#AFC0D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09b692301bf9c7ea97cfb9eff08467f4~2508x0.webp"
+            },
+            {
+              "name": "瑞雪白",
+              "colors": [
+                "#EDE9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7a540744d7d8173b3457ea8d2d4a0c6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨山河",
+              "colors": [
+                "#565050"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_715aa406d3744fd67eaed14f67c6a856~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09b692301bf9c7ea97cfb9eff08467f4~2508x0.webp"
         },
         {
-          "configName": "拾月 2026款 Mate 410km宁德 追风版",
+          "configName": "2026款 Mate 410km宁德 追风版",
+          "configId": "249234",
+          "index": 8,
           "price": "7.99万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1599",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1599",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "拾月 2025款  Mate 300km踏浪版",
+          "configName": "2025款  Mate 300km踏浪版",
+          "configId": "244326",
+          "index": 9,
           "price": "6.38万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1608",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1608",
+          "exteriorImages": [
+            {
+              "name": "波波蓝",
+              "colors": [
+                "#68E8F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c92a15e46e4150bcc2dc90125c8f63ec~2508x0.webp"
+            },
+            {
+              "name": "奶奶灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50a9eb6fe6bdd9b8230c92507c90a232~2508x0.webp"
+            },
+            {
+              "name": "珠珠银",
+              "colors": [
+                "#D7D8E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5a27dd1a34494497fa0421290bd2925~2508x0.webp"
+            },
+            {
+              "name": "桃桃粉",
+              "colors": [
+                "#EC88CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a45b727346972a6751750db0dae3bf3b~2508x0.webp"
+            },
+            {
+              "name": "椰椰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1a4e6c495ab163687cf70086d15c7e2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "半糖主义",
+              "colors": [
+                "#575757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae98d254f4991b7923482000abd822b4~2508x0.webp"
+            },
+            {
+              "name": "浆果奶昔",
+              "colors": [
+                "#B9ADB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e63dcd397d2250194249218848edfb9d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c92a15e46e4150bcc2dc90125c8f63ec~2508x0.webp"
         },
         {
-          "configName": "拾月 2025款 Mate 300km追风版",
+          "configName": "2025款 Mate 300km追风版",
+          "configId": "244327",
+          "index": 10,
           "price": "6.98万",
+          "manufacturer": "凯翼汽车",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 54马力",
           "size": "3720x1700x1608",
-          "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "exteriorImages": [
+            {
+              "name": "波波蓝",
+              "colors": [
+                "#68E8F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_481a7d9b3522341c22fd9b00b8a2bf39~2508x0.webp"
+            },
+            {
+              "name": "奶奶灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d53d0411d83932a4f203c69722977f6e~2508x0.webp"
+            },
+            {
+              "name": "珠珠银",
+              "colors": [
+                "#D7D8E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22c8b12576a57fc1ed1a272ce5813801~2508x0.webp"
+            },
+            {
+              "name": "桃桃粉",
+              "colors": [
+                "#EC88CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a34d29a372a5c3627f33563790120f4~2508x0.webp"
+            },
+            {
+              "name": "椰椰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_07bdbd669dce08d89539c2dd6b8791a3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "半糖主义",
+              "colors": [
+                "#575757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_844b5d7af1c770ea27ddc92f20003fe9~2508x0.webp"
+            },
+            {
+              "name": "浆果奶昔",
+              "colors": [
+                "#B9ADB8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_83a2a99cc05a64c5173f8b3e037f0d1c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_481a7d9b3522341c22fd9b00b8a2bf39~2508x0.webp"
         },
         {
-          "configName": "拾月 2025款 Mate 410km踏浪版",
+          "configName": "2025款 Mate 410km踏浪版",
+          "configId": "244328",
+          "index": 11,
           "price": "7.38万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1599",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1599",
+          "exteriorImages": [
+            {
+              "name": "波波蓝",
+              "colors": [
+                "#68E8F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cff640dae2909d5c34a2efbb9dfc5eb0~2508x0.webp"
+            },
+            {
+              "name": "奶奶灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0e57b88bf8ac2b6c274fe3a54f7226b~2508x0.webp"
+            },
+            {
+              "name": "珠珠银",
+              "colors": [
+                "#D7D8E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_713ec6daade455ef8be0a2c3510b9017~2508x0.webp"
+            },
+            {
+              "name": "桃桃粉",
+              "colors": [
+                "#EC88CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36f33adacbecab8bc9eeab0574d6e954~2508x0.webp"
+            },
+            {
+              "name": "椰椰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15825cc048c00ebb5b30b386a6049d98~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "半糖主义",
+              "colors": [
+                "#575757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6423e1c9e29c767394a42b4dd6ac58c~2508x0.webp"
+            },
+            {
+              "name": "浆果奶昔",
+              "colors": [
+                "#B9ADB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5de76e5e79d76428c3ac1fec0c9d315~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cff640dae2909d5c34a2efbb9dfc5eb0~2508x0.webp"
         },
         {
-          "configName": "拾月 2025款 Mate 410km追风版",
+          "configName": "2025款 Mate 410km追风版",
+          "configId": "244329",
+          "index": 12,
           "price": "7.98万",
-          "fuelType": "纯电动",
-          "size": "3720x1700x1599",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3720x1700x1599",
+          "exteriorImages": [
+            {
+              "name": "波波蓝",
+              "colors": [
+                "#68E8F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1dced9b1af6b05703abeab6014b889a3~2508x0.webp"
+            },
+            {
+              "name": "奶奶灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56e2238199dd2cf4093da92d46d20737~2508x0.webp"
+            },
+            {
+              "name": "珠珠银",
+              "colors": [
+                "#D7D8E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b11e9fba7779e810b45b457a5b980b5f~2508x0.webp"
+            },
+            {
+              "name": "桃桃粉",
+              "colors": [
+                "#EC88CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f7a2db03f8152cdf4436485ef81012f~2508x0.webp"
+            },
+            {
+              "name": "椰椰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c6b5f01b7c5d493590b93b331452b76e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "半糖主义",
+              "colors": [
+                "#575757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fd17e99d318f6944f24f8c26613344b~2508x0.webp"
+            },
+            {
+              "name": "浆果奶昔",
+              "colors": [
+                "#B9ADB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c559ad01500e95c36bcb7b40c456f76~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1dced9b1af6b05703abeab6014b889a3~2508x0.webp"
         },
         {
-          "configName": "拾月 2023款 201km 踏浪版",
+          "configName": "2023款 201km 踏浪版",
+          "configId": "90489",
+          "index": 13,
           "price": "5.39万",
+          "manufacturer": "凯翼汽车",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 48马力",
           "size": "3360x1700x1605",
-          "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 48马力"
+          "exteriorImages": [
+            {
+              "name": "波波蓝",
+              "colors": [
+                "#68E8F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e8ea9e577acf5f7ddafbe8912450c46~2508x0.webp"
+            },
+            {
+              "name": "桃桃粉",
+              "colors": [
+                "#EC88CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22d7fb897a2d99aab0dcb5de90d036dd~2508x0.webp"
+            },
+            {
+              "name": "椰椰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adc4f5a7cd88a2218401f3069d52933a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "半糖主义",
+              "colors": [
+                "#575757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcadb9a7129068eee4f957d7bf244fce~2508x0.webp"
+            },
+            {
+              "name": "浆果奶昔",
+              "colors": [
+                "#B9ADB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93fd49db90aec0c2457fb60642616458~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3e8ea9e577acf5f7ddafbe8912450c46~2508x0.webp"
         },
         {
-          "configName": "拾月 2023款 301km 追风版",
+          "configName": "2023款 301km 追风版",
+          "configId": "93678",
+          "index": 14,
           "price": "6.99万",
-          "fuelType": "纯电动",
-          "size": "3360x1700x1600",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 54马力",
+          "size": "3360x1700x1600",
+          "exteriorImages": [
+            {
+              "name": "波波蓝",
+              "colors": [
+                "#68E8F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e15bc76f3028c7c7419ad7d849310fc~2508x0.webp"
+            },
+            {
+              "name": "桃桃粉",
+              "colors": [
+                "#EC88CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/234badc00f98075195cd6a123f2fc5ee~2508x0.webp"
+            },
+            {
+              "name": "椰椰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/acb0fa76bac33fa6b456deda1a7e9e01~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "半糖主义",
+              "colors": [
+                "#575757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d10d315e63a96ac748f3e198ae26ea5b~2508x0.webp"
+            },
+            {
+              "name": "浆果奶昔",
+              "colors": [
+                "#B9ADB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35f794287c630c3b0ef2b613fdaccca4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0e15bc76f3028c7c7419ad7d849310fc~2508x0.webp"
         },
         {
-          "configName": "拾月 2023款 201km 尊享版",
+          "configName": "2023款 201km 尊享版",
+          "configId": "96764",
+          "index": 15,
           "price": "7.98万",
-          "fuelType": "纯电动",
-          "size": "3360x1700x1600",
           "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 48马力"
+          "class": "微型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 48马力",
+          "size": "3360x1700x1600",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "拾月 2023款 301km 尊享版",
+          "configName": "2023款 301km 尊享版",
+          "configId": "96763",
+          "index": 16,
           "price": "9.98万",
+          "manufacturer": "凯翼汽车",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 54马力",
           "size": "3360x1700x1600",
-          "manufacturer": "凯翼汽车",
-          "class": "小型车",
-          "power": "纯电动 54马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 6056,
       "carName": "昆仑",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/adece4aa3608429c86ee174be694af77~1200x0.png",
       "configs": [
         {
-          "configName": "昆仑 2025款 1.5T 6DCT 高原版",
+          "configName": "2025款 1.5T 6DCT 高原版",
+          "configId": "243265",
+          "index": 0,
           "price": "9.89万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3abebd00aac167c1a67b6f779364dce8~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89f4f7343608a17f805cca7a18a33b11~2508x0.webp"
+            },
+            {
+              "name": "岩石灰",
+              "colors": [
+                "#7C8889"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79b5ec95cc74b57f72056c9cae9d902c~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2dfb2e0d51ed3e7976c6b45c284118d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/742c248881e08aab77fb79687cb188cc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3abebd00aac167c1a67b6f779364dce8~2508x0.webp"
         },
         {
-          "configName": "昆仑 2025款 1.5T 6DCT 山峰版",
+          "configName": "2025款 1.5T 6DCT 山峰版",
+          "configId": "243266",
+          "index": 1,
           "price": "10.59万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbd5c4f80edf4b21d2590ad6f3b729b3~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a8b8da36b21aabb6d76fee278a9dd1f~2508x0.webp"
+            },
+            {
+              "name": "岩石灰",
+              "colors": [
+                "#7C8889"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5180ce3aaed49087cfa768637275aeb~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3be77b0608d40ebf46a9e24a1f427243~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01747fa19f7047490a45da7b1f700357~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cbd5c4f80edf4b21d2590ad6f3b729b3~2508x0.webp"
         },
         {
-          "configName": "昆仑 2025款 1.6T 7DCT 山峰版",
+          "configName": "2025款 1.6T 7DCT 山峰版",
+          "configId": "246712",
+          "index": 2,
           "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2025款 1.6T 7DCT 天际版",
+          "configName": "2025款 1.6T 7DCT 天际版",
+          "configId": "246713",
+          "index": 3,
           "price": "12.59万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2025款 2.0T 7DCT 星空版",
+          "configName": "2025款 2.0T 7DCT 星空版",
+          "configId": "246714",
+          "index": 4,
           "price": "13.59万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2025款 1.5T 6DCT 高原行政版",
+          "configName": "2025款 1.5T 6DCT 高原行政版",
+          "configId": "244125",
+          "index": 5,
           "price": "11.89万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b42e1dbb0311ebf2ab18116618e4be26~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ccef0a2da8df695951dba06535426a8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b42e1dbb0311ebf2ab18116618e4be26~2508x0.webp"
         },
         {
-          "configName": "昆仑 2025款 1.5T 6DCT 山峰行政版",
+          "configName": "2025款 1.5T 6DCT 山峰行政版",
+          "configId": "244126",
+          "index": 6,
           "price": "12.59万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49eed39a5b1949d77a00659cebf964e7~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90a34ff1dd9f4e4ab6001356ab4a9b29~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/332259130bc8da95753d84a6c0ad52ed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "神秘黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f23294d135130378fb7ebcf7d08ba3b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49eed39a5b1949d77a00659cebf964e7~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 昆仑300 高原版",
+          "configName": "2024款 昆仑300 高原版",
+          "configId": "110059",
+          "index": 7,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfbe9e6b6b3f7688dc4eead7ca35a8e9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f4b83bd6ee5d410372fbc23bdefc75b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cfbe9e6b6b3f7688dc4eead7ca35a8e9~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 昆仑300 山峰版",
+          "configName": "2024款 昆仑300 山峰版",
+          "configId": "110060",
+          "index": 8,
           "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1977ce1dcf016a98c8cb17c748862b2~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝",
+              "colors": [
+                "#41678B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69d902e6557b8dcef3ba7001594b3e5a~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a858fc46bb65aca7bb70014237827984~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#8D968B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40d303fecd578be3c7f351d710cf327c~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5783cc8b5b7d12fc6ff4179e9a69898~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95ca78e58351cc6a3c3cf2e755158b5f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c1977ce1dcf016a98c8cb17c748862b2~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 昆仑300 天际版",
+          "configName": "2024款 昆仑300 天际版",
+          "configId": "110061",
+          "index": 9,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84ba1a60c1a49ed2a63b44ea9cba78a2~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e61faf5bff3d7021835fe5f34289526f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6483fcba907d8c1437923b2d1bb84da5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/84ba1a60c1a49ed2a63b44ea9cba78a2~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 昆仑300 高原R版",
+          "configName": "2024款 昆仑300 高原R版",
+          "configId": "240342",
+          "index": 10,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2024款 昆仑300 山峰R版",
+          "configName": "2024款 昆仑300 山峰R版",
+          "configId": "240343",
+          "index": 11,
           "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2024款 昆仑300 天际R版",
+          "configName": "2024款 昆仑300 天际R版",
+          "configId": "240344",
+          "index": 12,
           "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2024款 昆仑500 天际版",
+          "configName": "2024款 昆仑500 天际版",
+          "configId": "110062",
+          "index": 13,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb9a5101b02ba3d6f3ae68602cb6f141~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57e23ecbdcc1423f9a14de84e9a2c3eb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cb9a5101b02ba3d6f3ae68602cb6f141~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 昆仑500 星空版",
+          "configName": "2024款 昆仑500 星空版",
+          "configId": "110063",
+          "index": 14,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2024款 C系 1.6T山峰版",
+          "configName": "2024款 C系 1.6T山峰版",
+          "configId": "110331",
+          "index": 15,
           "price": "12.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/828eaf97cdb775c626d526f8cad4d7de~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#E9EDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f737503df3dc74d45e07ef420b0f7041~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/828eaf97cdb775c626d526f8cad4d7de~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 C系 1.6T天际版",
+          "configName": "2024款 C系 1.6T天际版",
+          "configId": "110332",
+          "index": 16,
           "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/356b52c0674594ae42cc98bf3728fca4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#E9EDDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00f6d97ffe02deeab71bd97bf597110b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/356b52c0674594ae42cc98bf3728fca4~2508x0.webp"
         },
         {
-          "configName": "昆仑 2024款 C系 1.6T星空版",
+          "configName": "2024款 C系 1.6T星空版",
+          "configId": "110334",
+          "index": 17,
           "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "1.6T 197马力 L4"
+          "fuelType": "汽油",
+          "power": "1.6T 197马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2024款 C系 2.0T星空版",
+          "configName": "2024款 C系 2.0T星空版",
+          "configId": "110333",
+          "index": 18,
           "price": "14.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑 2024款 C系 2.0T银河版",
+          "configName": "2024款 C系 2.0T银河版",
+          "configId": "110335",
+          "index": 19,
           "price": "15.99万",
-          "fuelType": "汽油",
-          "size": "4738x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4738x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 5367,
       "carName": "炫界Pro EV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad41e070b256aae6318b3ae966479824~1200x0.png",
       "configs": [
         {
-          "configName": "炫界Pro EV 2023款 401km 网约版",
+          "configName": "2023款 401km 网约版",
+          "configId": "90492",
+          "index": 0,
           "price": "11.99万",
-          "fuelType": "纯电动",
-          "size": "4400x1831x1646",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4400x1831x1646",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FEF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6f2715102f203deabf632e2cd538a9e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b64e20e52624d621be6add1c2ec129f2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f6f2715102f203deabf632e2cd538a9e~2508x0.webp"
         },
         {
-          "configName": "炫界Pro EV 2023款 401km 悦享版",
+          "configName": "2023款 401km 悦享版",
+          "configId": "93891",
+          "index": 1,
           "price": "15.66万",
-          "fuelType": "纯电动",
-          "size": "4400x1831x1646",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4400x1831x1646",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FEF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8319099038d276436f6267bce940411~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17a38a16ef9e8757a24bf8277cfb854a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e8319099038d276436f6267bce940411~2508x0.webp"
         },
         {
-          "configName": "炫界Pro EV 2023款 401km 舒享版",
+          "configName": "2023款 401km 舒享版",
+          "configId": "93892",
+          "index": 2,
           "price": "16.66万",
-          "fuelType": "纯电动",
-          "size": "4400x1831x1646",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4400x1831x1646",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FEF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a1dccc5e259676b52206cba89cd75f3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1a1dccc5e259676b52206cba89cd75f3~2508x0.webp"
         },
         {
-          "configName": "炫界Pro EV 2023款 401km 尊享版",
+          "configName": "2023款 401km 尊享版",
+          "configId": "93893",
+          "index": 3,
           "price": "17.66万",
+          "manufacturer": "凯翼汽车",
+          "class": "小型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 163马力",
           "size": "4400x1831x1646",
-          "manufacturer": "凯翼汽车",
-          "class": "小型SUV",
-          "power": "纯电动 163马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 4311,
       "carName": "炫界",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/56610911a01945b4ad818ea48b6a7b52~1200x0.png",
       "configs": [
         {
-          "configName": "炫界 2025款 1.5L 手动超值版",
+          "configName": "2025款 1.5L 手动超值版",
+          "configId": "242201",
+          "index": 0,
           "price": "6.39万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "炫界 2025款 1.5L 手动舒适版",
+          "configName": "2025款 1.5L 手动舒适版",
+          "configId": "244896",
+          "index": 1,
           "price": "6.39万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a588fe728bbe177e0a57486bc3e8d85f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5a18ee3a97c42ef4515618997ab091d9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a588fe728bbe177e0a57486bc3e8d85f~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 1.5L 手动豪华版",
+          "configName": "2025款 1.5L 手动豪华版",
+          "configId": "244897",
+          "index": 2,
           "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "炫界 2025款 1.5L CVT超值版",
+          "configName": "2025款 1.5L CVT超值版",
+          "configId": "242202",
+          "index": 3,
           "price": "7.39万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da183cdb183ccdb7ff049085fd3f78f3~2508x0.webp"
+            },
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e702b22d30dda502b47c661581437fb4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9f725db52c03d07bcc8a81aec045eda~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/da183cdb183ccdb7ff049085fd3f78f3~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 1.5L CVT舒适版",
+          "configName": "2025款 1.5L CVT舒适版",
+          "configId": "244898",
+          "index": 4,
           "price": "7.39万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1886030dd32ceef93d076cd7070bf591~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fcd1a1ebdfa4559926cdfd25557e3b5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1886030dd32ceef93d076cd7070bf591~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 1.5L CVT豪华版",
+          "configName": "2025款 1.5L CVT豪华版",
+          "configId": "244899",
+          "index": 5,
           "price": "7.99万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5912f8547165afac8dda380b1e06c11a~2508x0.webp"
+            },
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65c2ffd6f5e4b89b370bac61733c2da3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8c0bf3894b5a3bce79eea6885ad822f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5912f8547165afac8dda380b1e06c11a~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 Pro 1.5T CVT领先版",
+          "configName": "2025款 Pro 1.5T CVT领先版",
+          "configId": "98501",
+          "index": 6,
           "price": "8.39万",
-          "fuelType": "汽油",
-          "size": "4450x1831x1670",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4450x1831x1670",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96601d55d9e9ad313b7e13347bb891d0~2508x0.webp"
+            },
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FEF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/451631f769e1fb37b4c7c8868a709be4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc4c466e06fdfad13abc98785766d3da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/96601d55d9e9ad313b7e13347bb891d0~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 Pro 1.5T CVT领先运动版",
+          "configName": "2025款 Pro 1.5T CVT领先运动版",
+          "configId": "98503",
+          "index": 7,
           "price": "8.49万",
-          "fuelType": "汽油",
-          "size": "4450x1831x1670",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4450x1831x1670",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "炫界 2025款 Pro 1.5T CVT智尊版",
+          "configName": "2025款 Pro 1.5T CVT智尊版",
+          "configId": "98504",
+          "index": 8,
           "price": "9.39万",
-          "fuelType": "汽油",
-          "size": "4450x1831x1670",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4450x1831x1670",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "炫界 2025款 Pro 1.5T CVT智尊运动版",
+          "configName": "2025款 Pro 1.5T CVT智尊运动版",
+          "configId": "98502",
+          "index": 9,
           "price": "9.49万",
+          "manufacturer": "凯翼汽车",
+          "class": "小型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
           "size": "4450x1831x1670",
-          "manufacturer": "凯翼汽车",
-          "class": "小型SUV",
-          "power": "1.5T 156马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "炫界 2025款 Pro 1.5L 手动舒适版",
+          "configName": "2025款 Pro 1.5L 手动舒适版",
+          "configId": "246746",
+          "index": 10,
           "price": "6.49万",
+          "manufacturer": "凯翼汽车",
+          "class": "小型SUV",
           "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
           "size": "4420x1831x1653",
-          "manufacturer": "凯翼汽车",
-          "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "exteriorImages": [
+            {
+              "name": "幻影灰",
+              "colors": [
+                "#AFA3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69aa1775c52fbecd7f142e2437176d16~2508x0.webp"
+            },
+            {
+              "name": "冰川白",
+              "colors": [
+                "#E8EAE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_65e36f1d58e3e135b69beb3d1f10bd24~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1e84da1e69b398b9feddb3a9d981d21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69aa1775c52fbecd7f142e2437176d16~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 Pro 1.5L 手动豪华版",
+          "configName": "2025款 Pro 1.5L 手动豪华版",
+          "configId": "246099",
+          "index": 11,
           "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1677",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1677",
+          "exteriorImages": [
+            {
+              "name": "幻影灰",
+              "colors": [
+                "#AFA3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ffdbe3012869b237caae7a15f2ac51a~2508x0.webp"
+            },
+            {
+              "name": "冰川白",
+              "colors": [
+                "#E8EAE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d041983708ea096a94c178e8782fd2e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c81138fdb07f9fa4e6ba0337ceb6dd9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ffdbe3012869b237caae7a15f2ac51a~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 Pro 1.5L CVT舒适版",
+          "configName": "2025款 Pro 1.5L CVT舒适版",
+          "configId": "246341",
+          "index": 12,
           "price": "7.49万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "幻影灰",
+              "colors": [
+                "#AFA3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0622894e8fbb86c215fcc3cd31c9d169~2508x0.webp"
+            },
+            {
+              "name": "冰川白",
+              "colors": [
+                "#E8EAE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef330f6779e116da48d784a00a46699a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_54cf107efd8408884d831748cd69a62f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0622894e8fbb86c215fcc3cd31c9d169~2508x0.webp"
         },
         {
-          "configName": "炫界 2025款 Pro 1.5L CVT豪华版",
+          "configName": "2025款 Pro 1.5L CVT豪华版",
+          "configId": "246764",
+          "index": 13,
           "price": "7.99万",
+          "manufacturer": "凯翼汽车",
+          "class": "小型SUV",
           "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
           "size": "4420x1831x1677",
-          "manufacturer": "凯翼汽车",
-          "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "exteriorImages": [
+            {
+              "name": "幻影灰",
+              "colors": [
+                "#AFA3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_753fd133fa215071a7ca187b6676785b~2508x0.webp"
+            },
+            {
+              "name": "冰川白",
+              "colors": [
+                "#E8EAE9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_925834b7458ddcf761b81345b35e771a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b43ba99654034451925625fedc5f56c4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_753fd133fa215071a7ca187b6676785b~2508x0.webp"
         },
         {
-          "configName": "炫界 2024款 改款 1.5L 手动舒适版",
+          "configName": "2024款 改款 1.5L 手动舒适版",
+          "configId": "97146",
+          "index": 14,
           "price": "6.39万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc2d02ada4932ebe8e635b3819903e0a~2508x0.webp"
+            },
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/29e86f0ceb187b1e74ab217eb83eb397~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74365ec97502b4390de0389dbc2c367b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fc2d02ada4932ebe8e635b3819903e0a~2508x0.webp"
         },
         {
-          "configName": "炫界 2024款 改款 1.5L 手动豪华版",
+          "configName": "2024款 改款 1.5L 手动豪华版",
+          "configId": "97147",
+          "index": 15,
           "price": "6.99万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef54f5240072415ad5343abdff6076ef~2508x0.webp"
+            },
+            {
+              "name": "傲娇红",
+              "colors": [
+                "#BC0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3658eefe8bfe7e71bc29d137e513d2ef~2508x0.webp"
+            },
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/439f1052a22063ebd44cb7b6c840b388~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ae31a5a569e3a95383a722ad798af1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ef54f5240072415ad5343abdff6076ef~2508x0.webp"
         },
         {
-          "configName": "炫界 2024款 改款 1.5L CVT舒适版",
+          "configName": "2024款 改款 1.5L CVT舒适版",
+          "configId": "97148",
+          "index": 16,
           "price": "7.39万",
-          "fuelType": "汽油",
-          "size": "4420x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
+          "size": "4420x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a406f79cb7e6d80244e0c7b6c7969c9~2508x0.webp"
+            },
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/470a87abeffa55e7a19283acb711a462~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42d80bd336565d6a0ac38e519271b320~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9a406f79cb7e6d80244e0c7b6c7969c9~2508x0.webp"
         },
         {
-          "configName": "炫界 2024款 改款 1.5L CVT豪华版",
+          "configName": "2024款 改款 1.5L CVT豪华版",
+          "configId": "97149",
+          "index": 17,
           "price": "7.99万",
+          "manufacturer": "凯翼汽车",
+          "class": "小型SUV",
           "fuelType": "汽油",
+          "power": "1.5L 116马力 L4",
           "size": "4420x1831x1653",
-          "manufacturer": "凯翼汽车",
-          "class": "小型SUV",
-          "power": "1.5L 116马力 L4"
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3647cc4d0156132caa1221b9ad3ec392~2508x0.webp"
+            },
+            {
+              "name": "傲娇红",
+              "colors": [
+                "#BC0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf4bc070b2209b663ff5b10771fba804~2508x0.webp"
+            },
+            {
+              "name": "浮云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f409be73c77d98429029adc4a3a3d1e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0f6eb8a1bd7e15b794cec492d54f06e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3647cc4d0156132caa1221b9ad3ec392~2508x0.webp"
         },
         {
-          "configName": "炫界 2024款 Pro 1.5T CVT豪华版",
+          "configName": "2024款 Pro 1.5T CVT豪华版",
+          "configId": "90687",
+          "index": 18,
           "price": "8.29万",
-          "fuelType": "汽油",
-          "size": "4400x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4400x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "冰晶白",
+              "colors": [
+                "#FEF9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49e509e899be908fe257aa469628f972~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f6a21f247142858502b23aad14e53ff~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/49e509e899be908fe257aa469628f972~2508x0.webp"
         },
         {
-          "configName": "炫界 2024款 Pro 1.5T CVT尊贵版",
+          "configName": "2024款 Pro 1.5T CVT尊贵版",
+          "configId": "90688",
+          "index": 19,
           "price": "9.29万",
-          "fuelType": "汽油",
-          "size": "4400x1831x1653",
           "manufacturer": "凯翼汽车",
           "class": "小型SUV",
-          "power": "1.5T 156马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 156马力 L4",
+          "size": "4400x1831x1653",
+          "exteriorImages": [
+            {
+              "name": "斜杠灰",
+              "colors": [
+                "#61687B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c5f2878e1c957939e7f2b46482ce030~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/473e5749d1c4883f6d6868afedf84916~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4c5f2878e1c957939e7f2b46482ce030~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6305,
       "carName": "昆仑iHD",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e35565f3a8004a75b4a5f87918af06f1~1200x0.png",
       "configs": [
         {
-          "configName": "昆仑iHD 2026款 120km LXC 星选版",
+          "configName": "2026款 120km LXC 星选版",
+          "configId": "247312",
+          "index": 0,
           "price": "21.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 改款 80km高原版",
+          "configName": "2024款 改款 80km高原版",
+          "configId": "244668",
+          "index": 1,
           "price": "10.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km山峰版",
+          "configName": "2024款 改款 150km山峰版",
+          "configId": "244669",
+          "index": 2,
           "price": "11.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b93f67bdf20f48b196535f748b29eaa~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e54b83b9e63565322677998dde641fbd~2508x0.webp"
+            },
+            {
+              "name": "岩石灰",
+              "colors": [
+                "#7C8889"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c641a69ef9f90a6b973e423fcadfd9a~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2696c2d7c7c80e825468f894f649d65e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea7c39bdd814f339c7a74c39fbf38d4b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b93f67bdf20f48b196535f748b29eaa~2508x0.webp"
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km天际版",
+          "configName": "2024款 改款 150km天际版",
+          "configId": "244670",
+          "index": 3,
           "price": "12.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a18d1987202309b4499d4b6a10352735~2508x0.webp"
+            },
+            {
+              "name": "水晶紫",
+              "colors": [
+                "#4A4764"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd2a2cc51db25486a215fee5b74feb9d~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#EDEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1014b788e8df5d2f25a1fc4c6478320a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b1951f785f28bf34802fee54e9b5ae6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a18d1987202309b4499d4b6a10352735~2508x0.webp"
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km星空版",
+          "configName": "2024款 改款 150km星空版",
+          "configId": "244671",
+          "index": 4,
           "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km银河版",
+          "configName": "2024款 改款 150km银河版",
+          "configId": "244672",
+          "index": 5,
           "price": "15.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km山峰行政版",
+          "configName": "2024款 改款 150km山峰行政版",
+          "configId": "244673",
+          "index": 6,
           "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km天际行政版",
+          "configName": "2024款 改款 150km天际行政版",
+          "configId": "244674",
+          "index": 7,
           "price": "15.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km星空行政版",
+          "configName": "2024款 改款 150km星空行政版",
+          "configId": "244675",
+          "index": 8,
           "price": "16.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [
+            {
+              "name": "雨霁青",
+              "colors": [
+                "#C2DBD8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa8151bf9d9ab77a638435a234093933~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云舒米",
+              "colors": [
+                "#C6C1AC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_751bbb1dc7e64c015b20b6850f708830~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa8151bf9d9ab77a638435a234093933~2508x0.webp"
         },
         {
-          "configName": "昆仑iHD 2024款 改款 150km银河行政版",
+          "configName": "2024款 改款 150km银河行政版",
+          "configId": "244677",
+          "index": 9,
           "price": "17.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
           "manufacturer": "凯翼汽车",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 139马力 L4 插电式混动",
+          "size": "4736x1968x1708",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 6046,
+      "carName": "V7",
+      "configs": [
+        {
+          "configName": "2022款 1.8L 创富版 7座",
+          "configId": "76225",
+          "index": 0,
+          "price": "10.29万",
+          "manufacturer": "凯翼汽车",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "1.8L 133马力 L4",
+          "size": "5050x1765x1900",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 80km高原版",
-          "price": "10.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2022款 1.8L 富贵版 9座",
+          "configId": "76226",
+          "index": 1,
+          "price": "10.39万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "1.8L 133马力 L4",
+          "size": "5050x1765x1900",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km山峰版",
-          "price": "11.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2022款 1.5T 致富版 7座",
+          "configId": "76227",
+          "index": 2,
+          "price": "10.29万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "5050x1765x1900",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km天际版",
-          "price": "12.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2022款 1.5T 富裕版 9座",
+          "configId": "76228",
+          "index": 3,
+          "price": "10.39万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "5050x1765x1900",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 25491,
+      "carName": "江豚E5",
+      "configs": [
+        {
+          "configName": "2025款 客运创业版-32kWh 6座",
+          "configId": "248240",
+          "index": 0,
+          "price": "9.38万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km星空版",
-          "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2025款 客运经济版-32kWh 6座",
+          "configId": "248246",
+          "index": 1,
+          "price": "6.49万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km银河版",
-          "price": "15.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2025款 客运创业版-32kWh 7座",
+          "configId": "248247",
+          "index": 2,
+          "price": "9.43万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km山峰行政版",
-          "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2025款 客运经济版-32kWh 7座",
+          "configId": "248248",
+          "index": 3,
+          "price": "6.54万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km天际行政版",
-          "price": "15.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2025款 客运创业版-36.8kWh 6座",
+          "configId": "248249",
+          "index": 4,
+          "price": "9.88万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昆仑iHD 2024款 150km星空行政版",
-          "price": "16.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2025款 客运经济版-36.8kWh 6座",
+          "configId": "248251",
+          "index": 5,
+          "price": "6.99万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73087d205bf32cd7d3a51722f19532c2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_216b9687d7ea4512080f0671a2f0c24c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73087d205bf32cd7d3a51722f19532c2~2508x0.webp"
         },
         {
-          "configName": "昆仑iHD 2024款 150km银河行政版",
-          "price": "17.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4736x1968x1708",
+          "configName": "2025款 客运创业版-36.8kWh 7座",
+          "configId": "248252",
+          "index": 6,
+          "price": "9.93万",
           "manufacturer": "凯翼汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运经济版-36.8kWh 7座",
+          "configId": "248253",
+          "index": 7,
+          "price": "7.04万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4480x1760x1995",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36499859c0301d5ba75e592568265a93~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#747272"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd7a834a238e0ed819040538a9d84bf5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36499859c0301d5ba75e592568265a93~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25490,
+      "carName": "江豚E7",
+      "configs": [
+        {
+          "configName": "2025款 客运经济版-41.86kWh 6座",
+          "configId": "248254",
+          "index": 0,
+          "price": "8.29万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运创业版-41.86kWh 6座",
+          "configId": "248257",
+          "index": 1,
+          "price": "13.1万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运经济版-41.86kWh 7座",
+          "configId": "248258",
+          "index": 2,
+          "price": "8.34万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运创业版-41.86kWh 7座",
+          "configId": "248259",
+          "index": 3,
+          "price": "13.15万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运经济版-41.86kWh 9座",
+          "configId": "248260",
+          "index": 4,
+          "price": "8.44万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运创业版-41.86kWh 9座",
+          "configId": "248261",
+          "index": 5,
+          "price": "13.25万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运经济版-50.38kWh 6座",
+          "configId": "248262",
+          "index": 6,
+          "price": "8.89万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d2aae92dbc97f4b9e96470d5a4319b15~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_474b8c1f056b68631f0dbbed91989d50~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d2aae92dbc97f4b9e96470d5a4319b15~2508x0.webp"
+        },
+        {
+          "configName": "2025款 客运创业版-50.38kWh 6座",
+          "configId": "248263",
+          "index": 7,
+          "price": "13.7万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运经济版-50.38kWh 7座",
+          "configId": "248264",
+          "index": 8,
+          "price": "8.94万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运创业版-50.38kWh 7座",
+          "configId": "248265",
+          "index": 9,
+          "price": "13.75万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运经济版-50.38kWh 9座",
+          "configId": "248266",
+          "index": 10,
+          "price": "9.04万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 客运创业版-50.38kWh 9座",
+          "configId": "248267",
+          "index": 11,
+          "price": "13.85万",
+          "manufacturer": "凯翼汽车",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "5150x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T10:26:33.196Z",
+  "progress": {
+    "completed": 9,
+    "total": 9,
+    "percentage": 100,
+    "currentIndex": 9
+  }
 }

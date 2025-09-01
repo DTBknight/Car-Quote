@@ -3,307 +3,1683 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/797a3d3a8c5940b282b936994c39696b~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 4870,
       "carName": "L7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ba3d7de9acc9417b9e21439be45f06aa~1200x0.png",
       "configs": [
         {
-          "configName": "智己L7 2024款 MAX 超长续航版",
+          "configName": "2024款 MAX 超长续航版",
+          "configId": "91486",
+          "index": 0,
           "price": "29.99万",
-          "fuelType": "纯电动",
-          "size": "5108x1960x1485",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5108x1960x1485",
+          "exteriorImages": [
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da0dbf08ed208bb06a7650928a26734a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奥斯曼黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06404ff5e78a70147135af58537de68b~2508x0.webp"
+            },
+            {
+              "name": "尼斯米",
+              "colors": [
+                "#D4C6B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52fbdf0f00fe35cd8fda80b941786abc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/da0dbf08ed208bb06a7650928a26734a~2508x0.webp"
         },
         {
-          "configName": "智己L7 2024款 MAX 长续航性能版",
+          "configName": "2024款 MAX 长续航性能版",
+          "configId": "98368",
+          "index": 1,
           "price": "34.99万",
-          "fuelType": "纯电动",
-          "size": "5108x1960x1485",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 578马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 578马力",
+          "size": "5108x1960x1485",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智己L7 2024款 MAX 长续航旗舰版",
+          "configName": "2024款 MAX 长续航旗舰版",
+          "configId": "91487",
+          "index": 2,
           "price": "38.99万",
-          "fuelType": "纯电动",
-          "size": "5108x1960x1485",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 578马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 578马力",
+          "size": "5108x1960x1485",
+          "exteriorImages": [
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1a0cd9b8a3d80c3f3e1aa3e0dacd300~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奥斯曼黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c08e5bec2dc5b7af533d34d1cdeef637~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a1a0cd9b8a3d80c3f3e1aa3e0dacd300~2508x0.webp"
         },
         {
-          "configName": "智己L7 2024款 MAX SP特别版",
+          "configName": "2024款 MAX SP特别版",
+          "configId": "98370",
+          "index": 3,
           "price": "41.99万",
+          "manufacturer": "智己汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 578马力",
           "size": "5108x1960x1485",
-          "manufacturer": "智己汽车",
-          "class": "中大型车",
-          "power": "纯电动 578马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智己L7 2023款 Elite",
+          "configName": "2023款 Elite",
+          "configId": "80479",
+          "index": 4,
           "price": "33.88万",
-          "fuelType": "纯电动",
-          "size": "5098x1960x1485",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5098x1960x1485",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智己L7 2023款 Snake Performance Lite",
+          "configName": "2023款 Snake Performance Lite",
+          "configId": "79701",
+          "index": 5,
           "price": "47.88万",
+          "manufacturer": "智己汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 605马力",
           "size": "5098x1960x1455",
-          "manufacturer": "智己汽车",
-          "class": "中大型车",
-          "power": "纯电动  605马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智己L7 2023款 Snake Performance",
+          "configName": "2023款 Snake Performance",
+          "configId": "79237",
+          "index": 6,
           "price": "57.88万",
+          "manufacturer": "智己汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 605马力",
           "size": "5098x1960x1440",
-          "manufacturer": "智己汽车",
-          "class": "中大型车",
-          "power": "纯电动  605马力"
+          "exteriorImages": [
+            {
+              "name": "莫兰迪灰",
+              "colors": [
+                "#666666"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dabfad9879d53055a8ca7476b8032706~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜猎影",
+              "colors": [
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abee91e20a8816e7ff61e3e1e53dd71c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dabfad9879d53055a8ca7476b8032706~2508x0.webp"
         },
         {
-          "configName": "智己L7 2022款 Dynamic版",
+          "configName": "2022款 Dynamic版",
+          "configId": "73559",
+          "index": 7,
           "price": "36.88万",
-          "fuelType": "纯电动",
-          "size": "5098x1960x1485",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 578马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 578马力",
+          "size": "5098x1960x1485",
+          "exteriorImages": [
+            {
+              "name": "塞尚黑",
+              "colors": [
+                "#272727"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/3a093d92507870c58cfad3f7dd3a8778~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b06b32b50ffb1da145e1429148ea7063~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d00ab8e583ce7b33a2960cbc96d9c1bd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境逐黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec5335ff91c397038b51429c970677e3~2508x0.webp"
+            },
+            {
+              "name": "岩磨寻棕",
+              "colors": [
+                "#C56D1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d9b6499dd1a8613f97f0a51a8d6bf75~2508x0.webp"
+            },
+            {
+              "name": "素染追光",
+              "colors": [
+                "#F9F9F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23157df4bfd830a7e60eecbe68fdd438~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/3a093d92507870c58cfad3f7dd3a8778~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "智己L7 2022款 Pro版",
+          "configName": "2022款 Pro版",
+          "configId": "73094",
+          "index": 8,
           "price": "40.88万",
+          "manufacturer": "智己汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 578马力",
           "size": "5098x1960x1485",
-          "manufacturer": "智己汽车",
-          "class": "中大型车",
-          "power": "纯电动 578马力"
+          "exteriorImages": [
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9396bcee7a0aede982b41afd5a0108ed~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5218c0f15faef545c912d3188d7ef6c7~2508x0.webp"
+            },
+            {
+              "name": "毕沙罗白",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e1b3c0ef4957f6bb82e52f7f9e7c686~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境逐黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8880ec7968b63cc88e3713db35a6cda3~2508x0.webp"
+            },
+            {
+              "name": "素染追光",
+              "colors": [
+                "#F9F9F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ae4aecc85b29a763fda69bc521784c7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9396bcee7a0aede982b41afd5a0108ed~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4869,
       "carName": "LS7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7566a3b311854842ac645534793a3d39~1200x0.png",
       "configs": [
         {
-          "configName": "智己LS7 2025款 焕新版 Ultra",
+          "configName": "2025款 焕新版 Ultra",
+          "configId": "111197",
+          "index": 0,
           "price": "33.99万",
+          "manufacturer": "智己汽车",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 787马力",
           "size": "5049x2002x1784",
-          "manufacturer": "智己汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 787马力"
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb37cc01afbefe3a499eb60d3b41b877~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56241ab7e8077052b64980c24e594d87~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9dd9b17e7c367f3ce0a3976f8547a0ff~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ec49595961797390b214d18af2272e9d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大地象灰",
+              "colors": [
+                "#C2BDB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d208c253372ffaad9c696560aea5e8b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb37cc01afbefe3a499eb60d3b41b877~2508x0.webp"
         },
         {
-          "configName": "智己LS7 2024款 Max Elite 后驱版",
+          "configName": "2024款 Max Elite 后驱版",
+          "configId": "110112",
+          "index": 1,
           "price": "33.98万",
-          "fuelType": "纯电动",
-          "size": "5049x2002x1763",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5049x2002x1763",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b6f4eb47f641f00aba9557a04137572~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc317728ce883e49fba1c80c10c07fca~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/570d3bc4a988489acef8090ec90d24b0~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/033d96fff0426eee2e705234867b257b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奥斯曼黑",
+              "colors": [
+                "#313030"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7bfb72ec1dd39af6998b4cb3ee75405f~2508x0.webp"
+            },
+            {
+              "name": "尼斯米",
+              "colors": [
+                "#F2F3EC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7829d6ff0cfb50aa88b6a552da32fb6c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6b6f4eb47f641f00aba9557a04137572~2508x0.webp"
         },
         {
-          "configName": "智己LS7 2024款 Max Lux 后驱版",
+          "configName": "2024款 Max Lux 后驱版",
+          "configId": "110117",
+          "index": 2,
           "price": "35.98万",
+          "manufacturer": "智己汽车",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 340马力",
           "size": "5049x2002x1763",
-          "manufacturer": "智己汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9be2745615669039422c1e77ccb938d6~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd7d806aaa5f538a18b093a526d6493c~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/11e379065d9cf42c86ea4cf26716698c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22bcbb49b70841a13855de5efb18c2a8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奥斯曼黑",
+              "colors": [
+                "#313030"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/faa4985f9ad2e3dcdc9ce417ee6b609e~2508x0.webp"
+            },
+            {
+              "name": "尼斯米",
+              "colors": [
+                "#F2F3EC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cbd66a8bbf0bcadc59bb3c421dd2570~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9be2745615669039422c1e77ccb938d6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9660,
       "carName": "L6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/519931f7c70b49dc8a152d0cf1c69297~1200x0.png",
       "configs": [
         {
-          "configName": "智己L6 2025款 Max 74kWh",
+          "configName": "2025款 Max 74kWh",
+          "configId": "247328",
+          "index": 0,
           "price": "21.99万",
-          "fuelType": "纯电动",
-          "size": "4937x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 333马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 333马力",
+          "size": "4937x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc96d68623f37a0f44fe16b93df17264~2508x0.webp"
+            },
+            {
+              "name": "莫兰迪紫",
+              "colors": [
+                "#6F0BAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eba7a9fabc1bbd3cc6c4032b11082276~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fec25327c17f97f624e8081350d33c51~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d9a44219a3c30b4f2ebe5cea240cb89b~2508x0.webp"
+            },
+            {
+              "name": "马蒂斯红",
+              "colors": [
+                "#FF0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1a72724b7a1e4f1a7e290c74fd304ad~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大地象灰深色",
+              "colors": [
+                "#80766C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9ca0179b35ab13fcd9bf2785be1e6bd~2508x0.webp"
+            },
+            {
+              "name": "大地象灰浅色",
+              "colors": [
+                "#D7D7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95c3db17d0128aeb8e2560d88dc4a893~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc96d68623f37a0f44fe16b93df17264~2508x0.webp"
         },
         {
-          "configName": "智己L6 2025款 Max+ 74kWh",
+          "configName": "2025款 Max+ 74kWh",
+          "configId": "248088",
+          "index": 1,
           "price": "23.49万",
-          "fuelType": "纯电动",
-          "size": "4937x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 333马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 333马力",
+          "size": "4937x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_df183a7595113abcff08a030a3419e9e~2508x0.webp"
+            },
+            {
+              "name": "莫兰迪紫",
+              "colors": [
+                "#6F0BAE"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_a9537318438a7162c3ec25a94e547d7f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa28bd145a45309b058310c5c364ac0e~2508x0.webp"
+            },
+            {
+              "name": "马蒂斯红",
+              "colors": [
+                "#FF0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50734952a6950333f59d0c8a719b54d9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大地象灰深色",
+              "colors": [
+                "#80766C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0d57bc0986c40b2d6626946a8100358f~2508x0.webp"
+            },
+            {
+              "name": "大地象灰浅色",
+              "colors": [
+                "#D7D7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2c93cc7c8a9d41ca428b79b7d69f8f99~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_df183a7595113abcff08a030a3419e9e~2508x0.webp"
         },
         {
-          "configName": "智己L6 2025款 Pro Max 100kWh",
+          "configName": "2025款 Pro Max 100kWh",
+          "configId": "247329",
+          "index": 2,
           "price": "25.49万",
-          "fuelType": "纯电动",
-          "size": "4937x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 408马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 408马力",
+          "size": "4937x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8fdf8204121e4762bbc818ab4f96361~2508x0.webp"
+            },
+            {
+              "name": "莫兰迪紫",
+              "colors": [
+                "#6F0BAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cfdf5a41c65ddfd78a97f6708b09024e~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fb0a7a48b9eccddeb86641ba533278ac~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_456242c796f40858ebf8a69920ffca09~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4fc864f883881a11db22e0b711064f01~2508x0.webp"
+            },
+            {
+              "name": "马蒂斯红",
+              "colors": [
+                "#FF0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2197cd2788e44ffdef5ce9f1c0c0f8ce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大地象灰深色",
+              "colors": [
+                "#80766C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5aba5e910b27f4c61ced4d9d8ead9c49~2508x0.webp"
+            },
+            {
+              "name": "大地象灰浅色",
+              "colors": [
+                "#D7D7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_193795986c846923ba530bf955a1b753~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8fdf8204121e4762bbc818ab4f96361~2508x0.webp"
         },
         {
-          "configName": "智己L6 2025款 Ultra 100kWh",
+          "configName": "2025款 Ultra 100kWh",
+          "configId": "246998",
+          "index": 3,
           "price": "27.99万",
+          "manufacturer": "智己汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 787马力",
           "size": "4937x1960x1474",
-          "manufacturer": "智己汽车",
-          "class": "中大型车",
-          "power": "纯电动 787马力"
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_693325aa759281d7f86849b5a1c0594f~2508x0.webp"
+            },
+            {
+              "name": "莫兰迪紫",
+              "colors": [
+                "#6F0BAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd16d7ae933f1ada68a28995d9395c17~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a1670d9d0e3a370a19df52efc06237de~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc565f346279e2e11124d8e07b60cec4~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3af6ad89e027921e7bd9ec7648bca73e~2508x0.webp"
+            },
+            {
+              "name": "马蒂斯红",
+              "colors": [
+                "#FF0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf55da37668091043207b8f38214e736~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大地象灰深色",
+              "colors": [
+                "#80766C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5470329d6c34519098572e59836a3641~2508x0.webp"
+            },
+            {
+              "name": "大地象灰浅色",
+              "colors": [
+                "#D7D7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d92cbb729bc880aa0b7f412c7e7e370~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_693325aa759281d7f86849b5a1c0594f~2508x0.webp"
         },
         {
-          "configName": "智己L6 2024款 Max标准版 75kWh",
+          "configName": "2024款 Max标准版 75kWh",
+          "configId": "98012",
+          "index": 4,
           "price": "21.99万",
-          "fuelType": "纯电动",
-          "size": "4931x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 294马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 294马力",
+          "size": "4931x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d4b892388df9bae163169197f358d90~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8761ea9ba79d01a9d03e7cc9b825b12~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e04ef15a03459e0623038631b316b221~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3819b2f93f1d5187624cca9dc1cad74~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54b10334fbe42f9402c1ee9efeedfeb0~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f1745a72cb32f0715ae732a08bc0c56~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/981685794dda4af06654112585388fa9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色序曲",
+              "colors": [
+                "#929292"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bdcad31888801e9c49df24123e93b9c3~2508x0.webp"
+            },
+            {
+              "name": "白色秀场",
+              "colors": [
+                "#D7D7BA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66311c77db4efe34919143191f752920~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6d4b892388df9bae163169197f358d90~2508x0.webp"
         },
         {
-          "configName": "智己L6 2024款 Max长续航欧版 83kWh",
+          "configName": "2024款 Max长续航欧版 83kWh",
+          "configId": "101735",
+          "index": 5,
           "price": "24.69万",
-          "fuelType": "纯电动",
-          "size": "4931x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 337马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 337马力",
+          "size": "4931x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e24a6a7e34471dd29ab2f72939452ffc~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f521cecb456a98751f76526e146e36b0~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a116eeaf29fc87f642b401e9aa952e1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色序曲",
+              "colors": [
+                "#929292"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09b259b83d2cd1b2716a3325813c56bc~2508x0.webp"
+            },
+            {
+              "name": "白色秀场",
+              "colors": [
+                "#D7D7BA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecde8665827f92ffdbaea4296d9b60f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e24a6a7e34471dd29ab2f72939452ffc~2508x0.webp"
         },
         {
-          "configName": "智己L6 2024款 Max长续航版 83kWh",
+          "configName": "2024款 Max长续航版 83kWh",
+          "configId": "98011",
+          "index": 6,
           "price": "25.99万",
-          "fuelType": "纯电动",
-          "size": "4931x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 337马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 337马力",
+          "size": "4931x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e49dcf42c5ef04f2cd3fe893063c64bb~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/662d1094664c21b6aec899cb572e791e~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2e99ecf83bcfca4e60efa92646865a2~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f4c83d547beba39707ab186a94af723~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c31252456cd39ce72a57c7457a8f9c46~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5f991b34c329d786ad11f1337f70e3f~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24ffa9640f0a6b987d742b3a100f56a8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色序曲",
+              "colors": [
+                "#929292"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b030190dac236597339952d3a9c0b357~2508x0.webp"
+            },
+            {
+              "name": "白色秀场",
+              "colors": [
+                "#D7D7BA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0f7120f821c62f752975e6ccb0c0d6f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e49dcf42c5ef04f2cd3fe893063c64bb~2508x0.webp"
         },
         {
-          "configName": "智己L6 2024款 Max超长续航版 100kWh",
+          "configName": "2024款 Max超长续航版 100kWh",
+          "configId": "98010",
+          "index": 7,
           "price": "27.59万",
-          "fuelType": "纯电动",
-          "size": "4931x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 408马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 408马力",
+          "size": "4931x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b794fbaba70b57d4cc63914fadc9a59a~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/876429fa952149c0e7e61e4f09cc9251~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d56c00fc767e584657632020ad3ae034~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9baac8b81d5c9e77a35df9c5a58e18e0~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ac0a08a794d32b0d0a47d06cea9016cd~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/922944a5097ec9710b8024393b0d92f8~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83a9e9b6f54b38555d27812f86f54da9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色序曲",
+              "colors": [
+                "#929292"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a359d1974dbbd5af5cd27ad9b000e672~2508x0.webp"
+            },
+            {
+              "name": "白色秀场",
+              "colors": [
+                "#D7D7BA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f7a0d44b413ac38cbf715e591d62e687~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b794fbaba70b57d4cc63914fadc9a59a~2508x0.webp"
         },
         {
-          "configName": "智己L6 2024款 Max超强性能版 100kWh",
+          "configName": "2024款 Max超强性能版 100kWh",
+          "configId": "96079",
+          "index": 8,
           "price": "30.59万",
-          "fuelType": "纯电动",
-          "size": "4931x1960x1474",
           "manufacturer": "智己汽车",
           "class": "中大型车",
-          "power": "纯电动 787马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 787马力",
+          "size": "4931x1960x1474",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b0d69ca4040015be74c041b050765ec~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1326d18e8a07b55a36ff736aa897744f~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4d0bad639a2d7414dfc45e7d78ae8d9~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5602bfa280650dd6390bc3a84eec8056~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f41d4772460912c440c34e0c6f10ed9~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b104132887d435a05bdbc56ac778f891~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色序曲",
+              "colors": [
+                "#929292"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/efbe344fba2b70a90e3d36353fb2815c~2508x0.webp"
+            },
+            {
+              "name": "白色秀场",
+              "colors": [
+                "#D7D7BA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3063e2d69c444af796cf8f9c6e25e6db~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0b0d69ca4040015be74c041b050765ec~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9118,
       "carName": "LS6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1e6fcac731654bc9b77ed3c49fd3f4ce~1200x0.png",
       "configs": [
         {
-          "configName": "智己LS6 2025款 灵蜥智驾版",
+          "configName": "2025款 灵蜥智驾版",
+          "configId": "240094",
+          "index": 0,
           "price": "23.99万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 294马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 294马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/710adef021cccad68b2693063cbb5ecc~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a47dc60eff4bca14d1c60b96deafb79~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a739a9040a2e155853b45084bfb4042~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f47dcb6063b2ba9a66418f6d943c3b44~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0469e832ab5199f48007a91eeca198d9~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e75bb7628900f8ad20d8f331bd3b239b~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4a2f3423c7a35597f16f6d83f418647~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33e9feaf4d558512fe909fea7535f63c~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/138e9e9d465a6ebb0596f233338d6c50~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/710adef021cccad68b2693063cbb5ecc~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 长续航灵蜥智驾版",
+          "configName": "2025款 长续航灵蜥智驾版",
+          "configId": "240093",
+          "index": 1,
           "price": "26.29万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 337马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 337马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee7327b6d94837327b106264a52d8d5e~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6853ce362f8a952520ca420ca72603b7~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adae5e4aae07c9d841f9a5acaeaa43c1~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/763503e4f022bbb010420a48effb8b53~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/371f950d4d0667caf0167abac1949159~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27bc509f3fa446e0bdfadccf63aa9812~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99c3fbb92087bf03b31afb394b89f158~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88b4ddb7a7f5a0fe8e15d2455afa6bf8~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fd8c83f1bbda29e3e7d7fecff5692ec~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ee7327b6d94837327b106264a52d8d5e~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 长续航灵蜥智享版",
+          "configName": "2025款 长续航灵蜥智享版",
+          "configId": "240349",
+          "index": 2,
           "price": "27.79万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 337马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 337马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af5458e941692128b35f84ef13374838~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93f741bfd9372f58646df849b9fd3993~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/640999128c482474ae3b4c1962c4fcb9~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2e3df710848145ae980ba76f0df8ef8~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82951431a9e09b5c76a13f60c2902595~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0cce04f3df72b8dc6692ed42b956e5e~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5068da84d4df594100a5de430c3b8f5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5eaa9a4b9dab3aaf8fb018ef1fff8a19~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a7a3d13042bce97e994670e8c209260~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/af5458e941692128b35f84ef13374838~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 超长续航灵蜥智驾版",
+          "configName": "2025款 超长续航灵蜥智驾版",
+          "configId": "240092",
+          "index": 3,
           "price": "27.79万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 408马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 408马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_26a706f77ac85fe17db57cd2d739caef~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3667799789adc42e5aad71c6cdeb650~2508x0.webp"
+            },
+            {
+              "name": "西斯莱黄",
+              "colors": [
+                "#C3AC80"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35db64d81f65b4e6ff2133ca2e3f5da3~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24803fef28cb9bfa52d7275e2ac697a7~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75bd112212eef1777941a6295f83fa6c~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6af279a232a06b671d3c262ee2123bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5868c1548593cfff0f32d681e58565e6~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3078bde52039891e6bdbab75292b9bb9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_26a706f77ac85fe17db57cd2d739caef~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 超强性能灵蜥智享版",
+          "configName": "2025款 超强性能灵蜥智享版",
+          "configId": "240091",
+          "index": 4,
           "price": "30.29万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 787马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 787马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4bd32bc0ea9f4854a3f72bc0a478c293~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/071dcecbb97ec20f455b2e31be084259~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21e5789a995f7ef4ba283586f12f0ad6~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdd5c6d4d6d1dea443d24f6935c131f5~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98e1dd0520d7765030d94eb1f1b8565c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b459d27c1e020155d39fcd05da7a59da~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adcc82a99de97e6d4c0e7d2b689b198a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4bd32bc0ea9f4854a3f72bc0a478c293~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 灵蜥智驾剧院版",
+          "configName": "2025款 灵蜥智驾剧院版",
+          "configId": "245327",
+          "index": 5,
           "price": "23.99万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 294马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 294马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b22d9f2ffee3aec0306cad72eaee0a34~2508x0.webp"
+            },
+            {
+              "name": "伦勃朗灰",
+              "colors": [
+                "#707070"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6059fe5595ead2c0a1e08f65d3948508~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de464609f84ddec4883f285e296aa357~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_38121cbe3c3bafe59937e5f95810bdad~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ba5483797778a2f7e1dd30abacfde7e~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f0350a800b89f32ec8329025a54d1b4a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b22d9f2ffee3aec0306cad72eaee0a34~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 长续航灵蜥智驾剧院版",
+          "configName": "2025款 长续航灵蜥智驾剧院版",
+          "configId": "245328",
+          "index": 6,
           "price": "26.29万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 337马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 337马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e2f44c01a8557ef3c36af32c80c155f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_707e19000ab3f2ecdb798e698a3d9869~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4968488982ce46eef79ef59e688a5bca~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e2f44c01a8557ef3c36af32c80c155f~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 超长续航灵蜥智驾剧院版",
+          "configName": "2025款 超长续航灵蜥智驾剧院版",
+          "configId": "245330",
+          "index": 7,
           "price": "27.79万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 408马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 408马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智己LS6 2025款 长续航灵蜥智享剧院版",
+          "configName": "2025款 长续航灵蜥智享剧院版",
+          "configId": "245329",
+          "index": 8,
           "price": "27.79万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 337马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 337马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f049e8c7b40cf51fb8bdba154a48ab38~2508x0.webp"
+            },
+            {
+              "name": "拉斐尔茶",
+              "colors": [
+                "#D0C3B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43bf75abbc789133ec05360307d323b2~2508x0.webp"
+            },
+            {
+              "name": "费迪南粉",
+              "colors": [
+                "#EDCCC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e950e7ddbb7ee6366e083d689087d17b~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3abc19a1484b212cd73e11f4615204ad~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ff61d5cb48b8513613f47cf188d2d54~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ae39c00fd8ff6535d443cd14bf4e215~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f049e8c7b40cf51fb8bdba154a48ab38~2508x0.webp"
         },
         {
-          "configName": "智己LS6 2025款 超强性能灵蜥智享剧院版",
+          "configName": "2025款 超强性能灵蜥智享剧院版",
+          "configId": "245331",
+          "index": 9,
           "price": "30.29万",
-          "fuelType": "纯电动",
-          "size": "4910x1988x1669",
           "manufacturer": "智己汽车",
           "class": "中大型SUV",
-          "power": "纯电动 787马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 787马力",
+          "size": "4910x1988x1669",
+          "exteriorImages": [
+            {
+              "name": "阿瑞斯黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_783e672de4460989fe50bd62fb4bf579~2508x0.webp"
+            },
+            {
+              "name": "尼维斯蓝",
+              "colors": [
+                "#AED2F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_549ac68b74a24a23cf2d19479868702c~2508x0.webp"
+            },
+            {
+              "name": "雅典娜白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_44f3a616d455cad4d6a0f91bd185beb0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "高地灰",
+              "colors": [
+                "#ABABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ca1130c9802cb9fecac1c59b38e26ed1~2508x0.webp"
+            },
+            {
+              "name": "多弗米",
+              "colors": [
+                "#F2EAE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_325a69c464f91c5974b350ce2a669a56~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_783e672de4460989fe50bd62fb4bf579~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T04:15:13.372Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

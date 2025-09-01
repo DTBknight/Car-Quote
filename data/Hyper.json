@@ -3,262 +3,1490 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/e3ff1783b1f64295877464e9f7340002~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 25072,
       "carName": "昊铂HL",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a1da263d51f846f589c5a0f9c8d8de60~1200x0.png",
       "configs": [
         {
-          "configName": "昊铂HL 2025款 750 Max五座激光雷达版",
+          "configName": "2025款 750 Max五座激光雷达版",
+          "configId": "246252",
+          "index": 0,
           "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "5126x1990x1750",
           "manufacturer": "广汽埃安新能源",
           "class": "大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [
+            {
+              "name": "航海蓝",
+              "colors": [
+                "#12294A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_81a2a2e20246e40ce9965236beffcf81~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤壁丹霞",
+              "colors": [
+                "#714744"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2cb0aa792cad8a662d98e9b4cf81ad4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_81a2a2e20246e40ce9965236beffcf81~2508x0.webp"
         },
         {
-          "configName": "昊铂HL 2025款 750 Max六座激光雷达版",
+          "configName": "2025款 750 Max六座激光雷达版",
+          "configId": "243313",
+          "index": 1,
           "price": "30.98万",
-          "fuelType": "纯电动",
-          "size": "5126x1990x1750",
           "manufacturer": "广汽埃安新能源",
           "class": "大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [
+            {
+              "name": "航海蓝",
+              "colors": [
+                "#12294A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3bb548327af730587d612eb31bb34fdc~2508x0.webp"
+            },
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#212224"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3235a13ce0fef3b47716f6ca3db09525~2508x0.webp"
+            },
+            {
+              "name": "深海绿",
+              "colors": [
+                "#243833"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_df32fd91c1d86b9fe6102ec2a7573a0e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤壁丹霞",
+              "colors": [
+                "#714744"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_70d815bb82724f7903bb6db35d86d351~2508x0.webp"
+            },
+            {
+              "name": "大漠沙棕",
+              "colors": [
+                "#877064"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0480a4aaa67fd08ff43b4256326e8b23~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3bb548327af730587d612eb31bb34fdc~2508x0.webp"
         },
         {
-          "configName": "昊铂HL 2025款 700 Ultra六座四驱激光雷达版",
+          "configName": "2025款 700 Ultra六座四驱激光雷达版",
+          "configId": "242328",
+          "index": 2,
           "price": "31.98万",
-          "fuelType": "纯电动",
-          "size": "5126x1990x1750",
           "manufacturer": "广汽埃安新能源",
           "class": "大型SUV",
-          "power": "纯电动 517马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 517马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [
+            {
+              "name": "航海蓝",
+              "colors": [
+                "#12294A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e2b70ce2d4cde6dd777f7650ab7a2cd~2508x0.webp"
+            },
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#212224"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2bf9172ddfcdf88cc5b7b6cfdcbd919~2508x0.webp"
+            },
+            {
+              "name": "深海绿",
+              "colors": [
+                "#243833"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e07fb6fb9d6dbe897991a5fdf4a7adb3~2508x0.webp"
+            },
+            {
+              "name": "冰岩灰",
+              "colors": [
+                "#3F4140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbb2aca23cf06c017dc07c00186c45bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "冰岛黑沙",
+              "colors": [
+                "#1A222D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4126cf4f9ddf716555eab3c08a7fdd4~2508x0.webp"
+            },
+            {
+              "name": "赤壁丹霞",
+              "colors": [
+                "#714744"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c7fd2aa7922beb1d2fd2e6474a035f2~2508x0.webp"
+            },
+            {
+              "name": "大漠沙棕",
+              "colors": [
+                "#877064"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2516cff95e77ce212332b9a439e81a0f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e2b70ce2d4cde6dd777f7650ab7a2cd~2508x0.webp"
         },
         {
-          "configName": "昊铂HL 2025款 350 Pro五座荣耀定制版",
+          "configName": "2025款 350 Pro五座激光雷达版",
+          "configId": "250877",
+          "index": 3,
           "price": "26.98万",
-          "fuelType": "增程式",
-          "size": "5126x1990x1750",
           "manufacturer": "广汽埃安新能源",
           "class": "大型SUV",
-          "power": "增程式 340马力"
+          "fuelType": "增程式",
+          "power": "纯电动 340马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昊铂HL 2025款 350 Max五座激光雷达版",
+          "configName": "2025款 改款 350 Max五座激光雷达版",
+          "configId": "250883",
+          "index": 4,
           "price": "28.98万",
-          "fuelType": "增程式",
-          "size": "5126x1990x1750",
           "manufacturer": "广汽埃安新能源",
           "class": "大型SUV",
-          "power": "增程式 340马力"
+          "fuelType": "增程式",
+          "power": "纯电动 340马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [
+            {
+              "name": "深海绿",
+              "colors": [
+                "#243833"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8a4496f3f4a3b3f63bfb6f703f04502~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤壁丹霞",
+              "colors": [
+                "#714744"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_24fc2c61981e236e6ffd3b2141b5087a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8a4496f3f4a3b3f63bfb6f703f04502~2508x0.webp"
         },
         {
-          "configName": "昊铂HL 2025款 350 Max六座激光雷达版",
+          "configName": "2025款 350 Pro六座激光雷达版",
+          "configId": "250878",
+          "index": 5,
+          "price": "27.98万",
+          "manufacturer": "广汽埃安新能源",
+          "class": "大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 340马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 改款 350 Max六座激光雷达版",
+          "configId": "250884",
+          "index": 6,
           "price": "29.98万",
-          "fuelType": "增程式",
-          "size": "5126x1990x1750",
           "manufacturer": "广汽埃安新能源",
           "class": "大型SUV",
-          "power": "增程式 340马力"
+          "fuelType": "增程式",
+          "power": "纯电动 340马力",
+          "size": "5126x1990x1750",
+          "exteriorImages": [
+            {
+              "name": "航海蓝",
+              "colors": [
+                "#12294A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc37dd2b7da7b07c343fd9b3760ef620~2508x0.webp"
+            },
+            {
+              "name": "深海绿",
+              "colors": [
+                "#243833"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dab4d6c7664f641afaf8c79e9d74887e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤壁丹霞",
+              "colors": [
+                "#714744"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cec80d8b7e83eedd92a266161537eb12~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc37dd2b7da7b07c343fd9b3760ef620~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6311,
       "carName": "昊铂GT",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2f1bf83862e3435b94167dc0a5ce7bf3~1200x0.png",
       "configs": [
         {
-          "configName": "昊铂GT 2025款 630km Max版",
+          "configName": "2025款 630km Max版",
+          "configId": "248057",
+          "index": 0,
           "price": "17.39万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9bd15047fc67d3bf5834f922dd804632~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜星辰",
+              "colors": [
+                "#4A4A4A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f38f2ac3d1ece1f92be530746ddac8b0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9bd15047fc67d3bf5834f922dd804632~2508x0.webp"
         },
         {
-          "configName": "昊铂GT 2025款 710km Max版",
+          "configName": "2025款 710km Max版",
+          "configId": "248058",
+          "index": 1,
           "price": "18.59万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [
+            {
+              "name": "布达佩斯粉",
+              "colors": [
+                "#C1B0A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e6fcd1eeb17dd97f3d1decec5d033243~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb95e9fe5d2e6db7b756ac11d5ac5548~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜星尘",
+              "colors": [
+                "#4A4A4A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cffdb8996ab333a30c55b927317b1735~2508x0.webp"
+            },
+            {
+              "name": "午后玛奇朵",
+              "colors": [
+                "#736B69"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe105e1bfd0f73eda317d57b47e23e6a~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#F6885A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1a35946d78ce19938903cbeab378610b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e6fcd1eeb17dd97f3d1decec5d033243~2508x0.webp"
         },
         {
-          "configName": "昊铂GT 2024款 全球款 710km 特高压智驾版 三元锂",
+          "configName": "2024款 全球款 710km 特高压智驾版 三元锂",
+          "configId": "110084",
+          "index": 2,
           "price": "20.39万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [
+            {
+              "name": "布达佩斯粉",
+              "colors": [
+                "#C1B0A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/011a7cc8fffa236b3d6cdd2c6e0785be~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51598dc1a7700aed92da3d1c486fa07d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#F6885A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e61ac38963fa1f84a0db97730e9e9e79~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/011a7cc8fffa236b3d6cdd2c6e0785be~2508x0.webp"
         },
         {
-          "configName": "昊铂GT 2024款 全球款 710km 特高压智驾版 磷酸铁锂",
+          "configName": "2024款 全球款 710km 特高压智驾版 磷酸铁锂",
+          "configId": "244772",
+          "index": 3,
           "price": "20.39万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昊铂GT 2024款 630km 激光雷达版",
+          "configName": "2024款 630km 激光雷达版",
+          "configId": "242389",
+          "index": 4,
           "price": "20.39万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbe93fd96f2e54d945d15f6508bf61a0~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_35adea7c94dc3d4f49a30911faf17000~2508x0.webp"
+            },
+            {
+              "name": "布达佩斯粉",
+              "colors": [
+                "#C1B0A8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d525531f52eb25d4cb7c8052d17b93f7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59897c4a74843ca17137f2ee060e4a8b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜星尘",
+              "colors": [
+                "#4A4A4A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09738477bc258f99793d2c8abc37f527~2508x0.webp"
+            },
+            {
+              "name": "午后玛奇朵",
+              "colors": [
+                "#736B69"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b26d6d88a6b23348c3eafab1df059532~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#F6885A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_da9d9ae8705c15d3afd2dde01cbfc7f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbe93fd96f2e54d945d15f6508bf61a0~2508x0.webp"
         },
         {
-          "configName": "昊铂GT 2024款 全球款 710km 特高压激光雷达版 三元锂",
+          "configName": "2024款 全球款 710km 特高压激光雷达版 三元锂",
+          "configId": "101893",
+          "index": 5,
           "price": "21.99万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99df89f69747489ed61c9bef0558209c~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ac611a163b5aecb61171499cdaa6a4d~2508x0.webp"
+            },
+            {
+              "name": "星漫绿",
+              "colors": [
+                "#98DDB9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/211a1ae3c071f2ac0784c26f27d79ae4~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4862ef988ac5ef33f69da3ce9485e226~2508x0.webp"
+            },
+            {
+              "name": "布达佩斯粉",
+              "colors": [
+                "#C1B0A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b25254f41aa042b5e491cb8906337c3~2508x0.webp"
+            },
+            {
+              "name": "昊铂橙",
+              "colors": [
+                "#F57F44"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c5a0d553b25230d468c4a837973fbf3~2508x0.webp"
+            },
+            {
+              "name": "量子红",
+              "colors": [
+                "#F70C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92fdd8db6d961f2ac8376067f77d7afb~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8598a6a633b8e52e826e6d263e16b6d0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜星辰",
+              "colors": [
+                "#4A4A4A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59fc8eb8383c84303441922dd535dfa6~2508x0.webp"
+            },
+            {
+              "name": "午后玛奇朵",
+              "colors": [
+                "#736B69"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d9a012ca269b5c17b635e27e484e511~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#F6885A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e90ae42da7bd6aedbc453e4facc4950d~2508x0.webp"
+            },
+            {
+              "name": "脉冲光能",
+              "colors": [
+                "#F7DA01"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2af3a432e45a50e00b06b40ef15362e~2508x0.webp"
+            },
+            {
+              "name": "极地银装",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d46b2ff3916a4cb6ba4fe8a61736665~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99df89f69747489ed61c9bef0558209c~2508x0.webp"
         },
         {
-          "configName": "昊铂GT 2024款 全球款 710km 特高压激光雷达版 磷酸铁锂",
+          "configName": "2024款 全球款 710km 特高压激光雷达版 磷酸铁锂",
+          "configId": "245358",
+          "index": 6,
           "price": "21.99万",
-          "fuelType": "纯电动",
-          "size": "4886x1885x1449",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型车",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4886x1885x1449",
+          "exteriorImages": [
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41740c95c3c9619cc4346f061574ad11~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜星尘",
+              "colors": [
+                "#4A4A4A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4474a75e2c1fedef4f7a0d0999a25105~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#F6885A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f8fdafa48b7a2eb97bc0557c6ef8ab9b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41740c95c3c9619cc4346f061574ad11~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6154,
       "carName": "昊铂SSR",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3f3b1feff5c7450597e512ed1f3fa4bb~1200x0.png",
       "configs": [
         {
-          "configName": "昊铂SSR 2024款 标准版",
+          "configName": "2024款 标准版",
+          "configId": "78178",
+          "index": 0,
           "price": "128.6万",
-          "fuelType": "纯电动",
-          "size": "4556x1988x1230",
           "manufacturer": "广汽埃安新能源",
           "class": "跑车",
-          "power": "纯电动 1224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1224马力",
+          "size": "4556x1988x1230",
+          "exteriorImages": [
+            {
+              "name": "幻宇蓝",
+              "colors": [
+                "#0832CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a5065b26720d0f52d4b9081cfb09713~2508x0.webp"
+            },
+            {
+              "name": "幻宇蓝/碳纤黑",
+              "colors": [
+                "#0832CC",
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89062a2412ef40de6f4796a9b3e6abff~2508x0.webp"
+            },
+            {
+              "name": "幻影碳纤黑",
+              "colors": [
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46dec2f59bd98767143e752638249035~2508x0.webp"
+            },
+            {
+              "name": "昊铂橙",
+              "colors": [
+                "#F57F44"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87031d4e909d2aa8511a52afa5f67707~2508x0.webp"
+            },
+            {
+              "name": "昊铂橙/碳纤黑",
+              "colors": [
+                "#F57F44",
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7176996e6ccd2c2ad9bef4dc9a26c34b~2508x0.webp"
+            },
+            {
+              "name": "量子红",
+              "colors": [
+                "#F70C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41241071bc9b256cc465b5d2992d597d~2508x0.webp"
+            },
+            {
+              "name": "量子红/碳纤黑",
+              "colors": [
+                "#F70C0C",
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2288aca9d18cbf898504c97fec56d064~2508x0.webp"
+            },
+            {
+              "name": "钛晶黄/碳纤黑",
+              "colors": [
+                "#F7F204",
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4f2121a985f61ac2cb9289f5dbb9606~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a72d8ee184abab9a3453b62af79591b3~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#BF0707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/401ef75693314899466a74f08f4e0b89~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FF8400"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b1d058d52146ad2ffc28e17de9c6555~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8a5065b26720d0f52d4b9081cfb09713~2508x0.webp"
         },
         {
-          "configName": "昊铂SSR 2024款 Sprint 极速版",
+          "configName": "2024款 Sprint 极速版",
+          "configId": "94463",
+          "index": 1,
           "price": "138.6万",
-          "fuelType": "纯电动",
-          "size": "4556x1988x1230",
           "manufacturer": "广汽埃安新能源",
           "class": "跑车",
-          "power": "纯电动 1224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1224马力",
+          "size": "4556x1988x1230",
+          "exteriorImages": [
+            {
+              "name": "幻影碳纤黑",
+              "colors": [
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c76613f648d92491854e38db62680c05~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#BF0707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a3cae85c3bfc094d7f06dc609b76531~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c76613f648d92491854e38db62680c05~2508x0.webp"
         },
         {
-          "configName": "昊铂SSR 2024款 Ultimate 赛道版",
+          "configName": "2024款 Ultimate 赛道版",
+          "configId": "78219",
+          "index": 2,
           "price": "168.6万",
-          "fuelType": "纯电动",
-          "size": "4556x1988x1230",
           "manufacturer": "广汽埃安新能源",
           "class": "跑车",
-          "power": "纯电动 1224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1224马力",
+          "size": "4556x1988x1230",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 9345,
       "carName": "昊铂HT",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a6b9d97924f34d7d8fd214744dee9614~1200x0.png",
       "configs": [
         {
-          "configName": "昊铂HT 2025款 670 Pro版",
+          "configName": "2025款 670 Pro版",
+          "configId": "248059",
+          "index": 0,
           "price": "18.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "冰岩灰",
+              "colors": [
+                "#3F4140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a4bcf75c20a14e13e31317442cc0930~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2299a1d8bc3b3a9c3b05e6f0ea56385~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ca5cfe9b907ec5d242a768e352c35d2~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85362b86ed750d5d7fe10011a0a1a86c~2508x0.webp"
+            },
+            {
+              "name": "香槟粉",
+              "colors": [
+                "#E0CDD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fb54f55bf8603f3f5a51746d32676dd~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbdb36763fd41602b3b37b3dba513cac~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "耀夜黎明",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b04eab2354cb355662c19f9866e2bfe9~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74a41f9eb1187c472d72326daec8a8f8~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a91b5eb516f3039ee09ec9f59a409116~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a4bcf75c20a14e13e31317442cc0930~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2025款 670 Max版",
+          "configName": "2025款 670 Max版",
+          "configId": "248060",
+          "index": 1,
           "price": "20.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4dd1469384f6f17ac489ab83a2462b3d~2508x0.webp"
+            },
+            {
+              "name": "冰岩灰",
+              "colors": [
+                "#3F4140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4eaec089c18f8037ef659aad5b131bb2~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4a020b988e42bc604e701906004e2f6~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1f207a71af8412a90179a3984f99a1c6~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8f7adf8814df7de6f139114cd6d5b2b0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c6cf657f05f605b17962c56968ff356~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fbdf5c6c780839640be575f76b18d715~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4dd1469384f6f17ac489ab83a2462b3d~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2025款 825 Pro版",
+          "configName": "2025款 825 Pro版",
+          "configId": "249627",
+          "index": 2,
           "price": "20.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "昊铂HT 2025款 825 Max版",
+          "configName": "2025款 825 Max版",
+          "configId": "248061",
+          "index": 3,
           "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e114c7f07f73bff3a72b1d2d95a9b6d~2508x0.webp"
+            },
+            {
+              "name": "冰岩灰",
+              "colors": [
+                "#3F4140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3368fc375a9dca02fb6d6f0e26067a3~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d457af884e760f75c0b2c2648f928842~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5a2619fbc16370498bdf3a909cbe4e15~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_374a74a4e65485fca9ddde3d4740ec2a~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_92bf84e3fa2c3025aa76d7d7ae51d79f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "耀夜黎明",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cccdc8a795271dc6eee5ad612764e631~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_98377739e5f76040739da0a6663c45db~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0b871ace0769e729baa9a401c4e34ab7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e114c7f07f73bff3a72b1d2d95a9b6d~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2024款 670 高阶智驾版 三元锂",
+          "configName": "2024款 670 高阶智驾版 三元锂",
+          "configId": "241353",
+          "index": 4,
           "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a4e227f6ecb607eeae07e1709456b7a~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f779c4b37673487b5061ab68d6c6be9~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07f7fba5b5ecb89d67c45d543a87012c~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5dd7d809d98e9fd68e2e7a433bac0d0~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/157b220a1758476f6eb905986d32fe58~2508x0.webp"
+            },
+            {
+              "name": "香槟粉",
+              "colors": [
+                "#E0CDD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27d9f1c39d1390494f993e704014e01b~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e96d6c982a6fd154235a704fe61b14c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "耀夜黎明",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f38db9df6933c8ddac1cbddbcdfd655~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71790ba5a946d48d29dcc8cab1f19d17~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b43e916d2a73d43296f97123ee97310~2508x0.webp"
+            },
+            {
+              "name": "波尔多红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/518abaa76e6759ed97d66acbdab98893~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4a4e227f6ecb607eeae07e1709456b7a~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2024款 670 高阶智驾版 磷酸铁锂",
+          "configName": "2024款 670 高阶智驾版 磷酸铁锂",
+          "configId": "244233",
+          "index": 5,
           "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6921bddc16fe38d548b97f62252d167~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ea5b2004ca9da8cdeca85ffebf80ea4~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1abb66ea9246962417395c424a7fbb5a~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a1518d03eb76912953137d85319ebed~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73b55cecbdfdcfe103618bb580743fbf~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3250f46d8309b29e8abde20cd7cf1fdd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e52da6da4c74ec832c927c44325c7b77~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84b68fe00c8e8e62772cc468a0ff57ec~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e6921bddc16fe38d548b97f62252d167~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2024款 670 特高压激光雷达版 三元锂",
+          "configName": "2024款 670 特高压激光雷达版 三元锂",
+          "configId": "100796",
+          "index": 6,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "幻宇蓝",
+              "colors": [
+                "#0832CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6aa6c993937bb2b1e6ae67e967047473~2508x0.webp"
+            },
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f52a8ab72626fb99e5b70d8b4bac190~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82e01dbe594e1adc8fc30a58fb2be3f0~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73a06050e0cb88a8b5f4f78fbc677608~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fbea9b8e71acc7e3f4b2c22237efbe0~2508x0.webp"
+            },
+            {
+              "name": "香槟粉",
+              "colors": [
+                "#E0CDD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e580d6f6bc8854b8d83a0853a5230876~2508x0.webp"
+            },
+            {
+              "name": "量子红",
+              "colors": [
+                "#F70C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95763e123db1fad9aae39f5d3a31fa94~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0615b7f22ff9f4052ba2bc76d90c16b2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "耀夜黎明",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ee244a91ee8e1e40c378a4d643a9d83~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/412566a0483e0ddb7435dfa0b4263352~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9abdc49263069f87c3235e63d145a15~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6aa6c993937bb2b1e6ae67e967047473~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2024款 670 特高压激光雷达版 磷酸铁锂",
+          "configName": "2024款 670 特高压激光雷达版 磷酸铁锂",
+          "configId": "244234",
+          "index": 7,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_437de5b48dc48587d4c764b49a022aea~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_70976a35aeff547a4cda25012606af6d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_437de5b48dc48587d4c764b49a022aea~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2024款 825 特高压智驾版",
+          "configName": "2024款 825 特高压智驾版",
+          "configId": "100799",
+          "index": 8,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "幻宇蓝",
+              "colors": [
+                "#0832CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2be36c75d4318290b3e7551a927f5321~2508x0.webp"
+            },
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e6c9086e3b32b28ead52e9641ac3380~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f4580ee33c8cd9b2ad013ef59a9a7e3c~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0996e91a413baaa552dd03579253043~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a026814a8a201521cece24d21b237884~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86efda7210e86bcc0096f280b9878664~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e26c2346edd1d5aa7776e806abde1d9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "耀夜黎明",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d6ae5eec0c9ea05d0b30caf8b099683~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/942013876ac92bb0e863822082e98255~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6263a0676767905b46704069683537c~2508x0.webp"
+            },
+            {
+              "name": "净雪之夜",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67e12301c12f03672c769d61836ca9c0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2be36c75d4318290b3e7551a927f5321~2508x0.webp"
         },
         {
-          "configName": "昊铂HT 2024款 825 特高压激光雷达版",
+          "configName": "2024款 825 特高压激光雷达版",
+          "configId": "100798",
+          "index": 9,
           "price": "26.99万",
-          "fuelType": "纯电动",
-          "size": "4935x1920x1700",
           "manufacturer": "广汽埃安新能源",
           "class": "中大型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4935x1920x1700",
+          "exteriorImages": [
+            {
+              "name": "幻宇蓝",
+              "colors": [
+                "#0832CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79b7dceca9c82cf510408b00dd438f64~2508x0.webp"
+            },
+            {
+              "name": "夜影黑",
+              "colors": [
+                "#171515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/725dc9d51e84881cd5ff031107a70c26~2508x0.webp"
+            },
+            {
+              "name": "玛瑙紫",
+              "colors": [
+                "#56144A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c0c84b5a0de01f2ce3d0227ec006e7b~2508x0.webp"
+            },
+            {
+              "name": "自由灰",
+              "colors": [
+                "#6C6E6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cae851a6d235d4bcde569eea0e9056ba~2508x0.webp"
+            },
+            {
+              "name": "夜阑玫瑰",
+              "colors": [
+                "#730B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/539874c467cc34dea83712d932e9c7ec~2508x0.webp"
+            },
+            {
+              "name": "液钛银",
+              "colors": [
+                "#AACFDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d57de9f5dd51a092a24853911053f40c~2508x0.webp"
+            },
+            {
+              "name": "香槟粉",
+              "colors": [
+                "#E0CDD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77ded34418c7694ec25c114266a9540e~2508x0.webp"
+            },
+            {
+              "name": "昊铂橙",
+              "colors": [
+                "#F57F44"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49f44927f19407ee5c18644e98b8db72~2508x0.webp"
+            },
+            {
+              "name": "量子红",
+              "colors": [
+                "#F70C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0eeb584a560298c9103f189bee8ed077~2508x0.webp"
+            },
+            {
+              "name": "极地白",
+              "colors": [
+                "#FAFCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4732620d21730523939fa82cc160b44e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "耀夜黎明",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ebcdcc1fe25747a616779484ed43aaa0~2508x0.webp"
+            },
+            {
+              "name": "雅橙棕",
+              "colors": [
+                "#B88F35"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/332b808629301f69b8e55e254f58dcde~2508x0.webp"
+            },
+            {
+              "name": "岩沙绘卷",
+              "colors": [
+                "#EAE5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8a56f474d4ec1089e0736e301381a4f~2508x0.webp"
+            },
+            {
+              "name": "波尔多红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c73cf8e5a2c39a315591265af7c6c862~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/79b7dceca9c82cf510408b00dd438f64~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T03:57:29.658Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

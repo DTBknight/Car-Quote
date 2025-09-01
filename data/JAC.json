@@ -3,230 +3,684 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/tos-cn-i-dcdx/2496acb3d1af45619f04a4eb2a1fe4fd~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 8975,
       "carName": "QX PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/75030bce2750480cbee3b1b75a6c7567~1200x0.png",
       "configs": [
         {
-          "configName": "江淮QX PHEV 2025款 120km 劲能版",
+          "configName": "2025款 120km 劲能版",
+          "configId": "247111",
+          "index": 0,
           "price": "12.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_866535e9414c1956fdc476ae66309c20~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7785fa2bd4d2f89d1f5abf258ee824f~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2deb2c1e5c5deeb67bcbc04122495f64~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫影酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74af44885dd772164e90757d10236ae1~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAC3A2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9fb166391529e593d3ffd9ffd4573a9f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_866535e9414c1956fdc476ae66309c20~2508x0.webp"
         },
         {
-          "configName": "江淮QX PHEV 2025款 120km 劲驰版",
+          "configName": "2025款 120km 劲驰版",
+          "configId": "247112",
+          "index": 1,
           "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_8c0d1d73d45d1e0e2dfe50dde0d7548f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫影酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d1a10f8ccddd2bdb0790029bdcde2c5~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_8c0d1d73d45d1e0e2dfe50dde0d7548f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "江淮QX PHEV 2025款 120km 劲享版",
+          "configName": "2025款 120km 劲享版",
+          "configId": "247113",
+          "index": 2,
           "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3d8a9e9d7c1d4ef2173a182c44bcb76~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAC3A2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50bccca74fb871f04a561dd82e1cc64b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3d8a9e9d7c1d4ef2173a182c44bcb76~2508x0.webp"
         },
         {
-          "configName": "江淮QX PHEV 2024款 120km 献礼版",
+          "configName": "2024款 120km 献礼版",
+          "configId": "99749",
+          "index": 3,
           "price": "8.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮QX PHEV 2024款 120km 劲享Pro版",
+          "configName": "2024款 120km 劲享Pro版",
+          "configId": "110936",
+          "index": 4,
           "price": "18.69万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e19634def8605aa67d5acbb2b4fe931~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/371e02f6c69b69b6921d24c07eccb492~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/248d957613e03ede828b7bcc2b938607~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫影酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae447fa69c639daec8d14360f798a345~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAC3A2",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8e19634def8605aa67d5acbb2b4fe931~2508x0.webp"
         },
         {
-          "configName": "江淮QX PHEV 2023款 120km 劲能版",
+          "configName": "2023款 120km 劲能版",
+          "configId": "93718",
+          "index": 5,
           "price": "12.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07a21f1a8c20a6dee35baa3737f83d63~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/924216360f69fa6469e08a5a2e7899e2~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2155e7bc58219501e5676f407427fb1c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫影酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4a649a6a2cb8b29cdd0997d82802694~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAC3A2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea3b0b8c00e3cccc4e7e6e14d0276023~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/07a21f1a8c20a6dee35baa3737f83d63~2508x0.webp"
         },
         {
-          "configName": "江淮QX PHEV 2023款 120km 劲驰版",
+          "configName": "2023款 120km 劲驰版",
+          "configId": "93377",
+          "index": 6,
           "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/608459a9d388aebc211b4dd8b6d30201~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55a6936e9bbb64f2f9c1cb43caf59c42~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/623737bcd30d644636379ba81e0eed15~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫影酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b539ba350eeb0e074078247db87d5607~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAC3A2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edcfc7ed70614f2e0afd990c67703ca5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/608459a9d388aebc211b4dd8b6d30201~2508x0.webp"
         },
         {
-          "configName": "江淮QX PHEV 2023款 120km 劲享版",
+          "configName": "2023款 120km 劲享版",
+          "configId": "93708",
+          "index": 7,
           "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4605x1890x1700",
           "manufacturer": "江汽集团",
           "class": "紧凑型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4605x1890x1700",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a26d2361cc51f2450d9e442f68dda9f2~2508x0.webp"
+            },
+            {
+              "name": "梦寐蓝",
+              "colors": [
+                "#2D2DE6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/313deaad64ccd1fdf6aec25a0647fb58~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9f0d1e3f78974e4b75352bae603d574~2508x0.webp"
+            },
+            {
+              "name": "新生绿",
+              "colors": [
+                "#7CE67C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d27ee4895083eda4e754a0a5a4f92d2a~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba1cb86a59fa74a68824e051e7e6cd75~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "炫影酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09d34aa16647ead3fe9a228eecfa5171~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAC3A2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34deb470178e95fdf2e1062d98969cfe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a26d2361cc51f2450d9e442f68dda9f2~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9831,
       "carName": "X8 E家",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/96120b566f0241a798816e2d426c5ec1~1200x0.png",
       "configs": [
         {
-          "configName": "江淮X8 E家 2025款 1.5T DHT 家馨版 6座",
+          "configName": "2025款 1.5T DHT 家馨版 6座",
+          "configId": "247124",
+          "index": 0,
           "price": "18.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2025款 1.5T DHT 家馨版 7座",
+          "configName": "2025款 1.5T DHT 家馨版 7座",
+          "configId": "247126",
+          "index": 1,
           "price": "18.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2025款 1.5T DHT 家馨PRO版 6座",
+          "configName": "2025款 1.5T DHT 家馨PRO版 6座",
+          "configId": "247129",
+          "index": 2,
           "price": "19.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2025款 1.5T DHT 家馨PRO版 7座",
+          "configName": "2025款 1.5T DHT 家馨PRO版 7座",
+          "configId": "247130",
+          "index": 3,
           "price": "19.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家享版 5座",
+          "configName": "2024款 1.5T DHT 家享版 5座",
+          "configId": "241235",
+          "index": 4,
           "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家享版 6座",
+          "configName": "2024款 1.5T DHT 家享版 6座",
+          "configId": "241857",
+          "index": 5,
           "price": "10.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家享版 7座",
+          "configName": "2024款 1.5T DHT 家享版 7座",
+          "configId": "241858",
+          "index": 6,
           "price": "10.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家兴版 5座",
+          "configName": "2024款 1.5T DHT 家兴版 5座",
+          "configId": "240798",
+          "index": 7,
           "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家兴版 6座",
+          "configName": "2024款 1.5T DHT 家兴版 6座",
+          "configId": "241859",
+          "index": 8,
           "price": "11.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家兴版 7座",
+          "configName": "2024款 1.5T DHT 家兴版 7座",
+          "configId": "241860",
+          "index": 9,
           "price": "11.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_81f88189204efd8141f9552d6ab1d25a~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/188e62c5a859e908c0e2ae8d483a0501~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕褐色",
+              "colors": [
+                "#000000",
+                "#6C615E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58a14119e84745c7bc335b483fc6c396~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_81f88189204efd8141f9552d6ab1d25a~2508x0.webp"
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家和版 5座",
+          "configName": "2024款 1.5T DHT 家和版 5座",
+          "configId": "240799",
+          "index": 10,
           "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家和版 6座",
+          "configName": "2024款 1.5T DHT 家和版 6座",
+          "configId": "241861",
+          "index": 11,
           "price": "13.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b435e35370e38605d6b8fc51cbe5a8c6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/灰色",
+              "colors": [
+                "#0000FF",
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8613a037e95b80952fac547bc3348437~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b435e35370e38605d6b8fc51cbe5a8c6~2508x0.webp"
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家和版 7座",
+          "configName": "2024款 1.5T DHT 家和版 7座",
+          "configId": "241862",
+          "index": 12,
           "price": "13.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b31c0d6fed8db940cbb8d0568072596~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e3df65a779d2143a93acac424e86384~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕褐色",
+              "colors": [
+                "#000000",
+                "#6C615E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c29e25e3db9185b6586a098dfb103d26~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9b31c0d6fed8db940cbb8d0568072596~2508x0.webp"
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家悦版 5座",
+          "configName": "2024款 1.5T DHT 家悦版 5座",
+          "configId": "240800",
+          "index": 13,
           "price": "14.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家悦版 6座",
+          "configName": "2024款 1.5T DHT 家悦版 6座",
+          "configId": "241863",
+          "index": 14,
           "price": "15.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "江淮X8 E家 2024款 1.5T DHT 家悦版 7座",
+          "configName": "2024款 1.5T DHT 家悦版 7座",
+          "configId": "241864",
+          "index": 15,
           "price": "15.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4825x1870x1758",
           "manufacturer": "江汽集团",
           "class": "中型SUV",
-          "power": "插电式混动 204马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 152马力 L4 插电式混动",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db732a1583685a2c9e27fe1cda42e0d1~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d2fce386f216eff0f0b06e32db5e65c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕褐色",
+              "colors": [
+                "#000000",
+                "#6C615E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3869b139df34e12969459da3a4f34ba~2508x0.webp"
+            },
+            {
+              "name": "蓝色/灰色",
+              "colors": [
+                "#0000FF",
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08ebaf43257e7b5e4dd6ad3bd3012374~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db732a1583685a2c9e27fe1cda42e0d1~2508x0.webp"
         }
       ]
     },
@@ -424,6 +878,452 @@
           "power": "纯电动 136马力"
         }
       ]
+    },
+    {
+      "carId": 8962,
+      "carName": "A5 PLUS",
+      "configs": [
+        {
+          "configName": "2024款 1.5T CVT献礼版",
+          "configId": "99750",
+          "index": 0,
+          "price": "5.98万",
+          "manufacturer": "江汽集团",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4780x1820x1492",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5T CVT舒适版",
+          "configId": "90289",
+          "index": 1,
+          "price": "7.58万",
+          "manufacturer": "江汽集团",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4780x1820x1492",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8a7e467a600826a239cdb0c04e62e72~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d8f6126cb81a4bbe002e6229fde48e0~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/533faa51d4691608f5727c9c450957b8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/33aba6628e5b6782cc06b0ed771c10cb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c8a7e467a600826a239cdb0c04e62e72~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5T CVT豪华版",
+          "configId": "90290",
+          "index": 2,
+          "price": "8.18万",
+          "manufacturer": "江汽集团",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4780x1820x1492",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d61040d86d929d623b3398fbd570371a~2508x0.webp"
+            },
+            {
+              "name": "曜石灰",
+              "colors": [
+                "#727777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c71f6627dbae276160f29473870a25eb~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1fe2ee32d0df56c8c1715464980e309~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/051ead886ca365fb0d0e8ab83d0cc4ec~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d61040d86d929d623b3398fbd570371a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5T CVT尊贵版",
+          "configId": "88493",
+          "index": 3,
+          "price": "8.58万",
+          "manufacturer": "江汽集团",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.5T 150马力 L4",
+          "size": "4780x1820x1492",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0053244512d8f0c2be0f440bf52f6c0c~2508x0.webp"
+            },
+            {
+              "name": "同温层蓝",
+              "colors": [
+                "#84B9C4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/12362bdc847456ae5f43d9b73da5de98~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "卡曼娜红",
+              "colors": [
+                "#933636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aefe65b596c0646d6128c45f7e57d5ca~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f878cd0d367ea77725431b210fc6527~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1eb0197f6938b6c144e7ebb705b9ac29~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0053244512d8f0c2be0f440bf52f6c0c~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 9486,
+      "carName": "X8 PLUS",
+      "configs": [
+        {
+          "configName": "2024款 1.5TGDI DCT智家版  5座",
+          "configId": "94663",
+          "index": 0,
+          "price": "10.98万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/207c87ab33cce42fc2ff34028088e660~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境褐/黑色",
+              "colors": [
+                "#A95D00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/616ba4482cad4aa4e9133a5f45077327~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/207c87ab33cce42fc2ff34028088e660~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智家版 6座",
+          "configId": "94679",
+          "index": 1,
+          "price": "11.38万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智家版 7座",
+          "configId": "94680",
+          "index": 2,
+          "price": "11.38万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36bab59e1f213b8cf8a063ff9d2b94e3~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/104b1c1ed1d5fe0f1f88ff461fd561aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境褐/黑色",
+              "colors": [
+                "#A95D00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/590098ce6a5a549577c8f18c03e821d8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/36bab59e1f213b8cf8a063ff9d2b94e3~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智享版  5座",
+          "configId": "94665",
+          "index": 3,
+          "price": "11.68万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9ff342a8357829d2a4e991e01fed629~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b1bf4691231be15d0d42d05c1ea90ec~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境褐/黑色",
+              "colors": [
+                "#A95D00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21e7eae36a5a279b2da3a0ac53edb025~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e9ff342a8357829d2a4e991e01fed629~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智享版  6座",
+          "configId": "94681",
+          "index": 4,
+          "price": "11.98万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智享版  7座",
+          "configId": "94682",
+          "index": 5,
+          "price": "11.98万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "炫酷黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b44cad7abfe4040d5056a6fc84b1004~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a9b218d4604fdacc2bbfa14c79f29e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境褐/黑色",
+              "colors": [
+                "#A95D00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8172214f69c9d530cfade3d5f2aedd09~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7b44cad7abfe4040d5056a6fc84b1004~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智旅版  5座",
+          "configId": "94667",
+          "index": 6,
+          "price": "12.98万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智旅版  6座",
+          "configId": "94683",
+          "index": 7,
+          "price": "13.28万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智旅版  7座",
+          "configId": "94684",
+          "index": 8,
+          "price": "13.28万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c056660e41f61258237eb18252d21400~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境褐/黑色",
+              "colors": [
+                "#A95D00",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/4cff96962da824da02679993b3c91060~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c056660e41f61258237eb18252d21400~2508x0.webp"
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智尚版  5座",
+          "configId": "94669",
+          "index": 9,
+          "price": "13.68万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智尚版  6座",
+          "configId": "94685",
+          "index": 10,
+          "price": "13.98万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 1.5TGDI DCT智尚版  7座",
+          "configId": "94686",
+          "index": 11,
+          "price": "13.98万",
+          "manufacturer": "江汽集团",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 184马力 L4",
+          "size": "4825x1870x1758",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T04:44:09.689Z",
+  "progress": {
+    "completed": 5,
+    "total": 4,
+    "percentage": 125,
+    "currentIndex": 4
+  }
 }

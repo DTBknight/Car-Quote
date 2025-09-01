@@ -3,235 +3,803 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/4f077a35cfec413eb8dbb76751fa7f29~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 6069,
       "carName": "A06",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5fa9b73d1fc24ad7a07425fbfadef774~1200x0.png",
       "configs": [
         {
-          "configName": "合创A06 2024款 PLUS 520N",
+          "configName": "2024款 PLUS 520N",
+          "configId": "95860",
+          "index": 0,
           "price": "13.98万",
+          "manufacturer": "合创汽车",
+          "class": "中型车",
           "fuelType": "纯电动",
+          "power": "纯电动 218马力",
           "size": "4945x1920x1520",
-          "manufacturer": "合创汽车",
-          "class": "中型车",
-          "power": "纯电动 218马力"
+          "exteriorImages": [
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a565737dee566a4b9f61bfc15009c5c3~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#C1D5D9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/116e0b430c3af83b4223d369ec79eeb8~2508x0.webp"
+            },
+            {
+              "name": "星耀白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e107f5c2054b73f35d3d05a3c6ada328~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨玉黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62e66761136974a9d578d31a353e0c97~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a565737dee566a4b9f61bfc15009c5c3~2508x0.webp"
         },
         {
-          "configName": "合创A06 2022款 550A",
+          "configName": "2022款 550A",
+          "configId": "79578",
+          "index": 1,
           "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "4965x1920x1520",
           "manufacturer": "合创汽车",
           "class": "中型车",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4965x1920x1520",
+          "exteriorImages": [
+            {
+              "name": "极速黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8bb87c27267e7ab0b53d226252809c83~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e762460f5670196fd779b3a535ebc5c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8bb87c27267e7ab0b53d226252809c83~2508x0.webp"
         },
         {
-          "configName": "合创A06 2022款 630C",
+          "configName": "2022款 630C",
+          "configId": "79579",
+          "index": 2,
           "price": "19.98万",
-          "fuelType": "纯电动",
-          "size": "4965x1920x1520",
           "manufacturer": "合创汽车",
           "class": "中型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4965x1920x1520",
+          "exteriorImages": [
+            {
+              "name": "极速黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/fe64bfe739b6a70f09884b9a59c46c6c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "魅影灰",
+              "colors": [
+                "#696969"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75a302b001c769d4573af3583773d6a7~2508x0.webp"
+            },
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#87CEFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/057f2e664a3c9dafe91fbeed4f40fbf9~2508x0.webp"
+            },
+            {
+              "name": "素玉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f7451260f5f2e132af68f4f4dc542fe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a01ec34eb475f544156d00e316884b49~2508x0.webp"
+            },
+            {
+              "name": "晨曦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d628674a4a3818486800fc2ce7505201~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/fe64bfe739b6a70f09884b9a59c46c6c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "合创A06 2022款 Performance",
+          "configName": "2022款 Performance",
+          "configId": "79580",
+          "index": 3,
           "price": "26.98万",
-          "fuelType": "纯电动",
-          "size": "4965x1920x1520",
           "manufacturer": "合创汽车",
           "class": "中型车",
-          "power": "纯电动 462马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "4965x1920x1520",
+          "exteriorImages": [
+            {
+              "name": "黄色",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7cb4521c9a54e8eafe245c336b890f61~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#CB8547"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0ceadb70f3a0697fb9ec3df8a496afb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7cb4521c9a54e8eafe245c336b890f61~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 3723,
       "carName": "007",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6354b8034cd31feb10dfd5714882f022~1200x0.png",
       "configs": [
         {
-          "configName": "合创007 2021款 PLUS版",
+          "configName": "2021款 PLUS版",
+          "configId": "53754",
+          "index": 0,
           "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "4879x1937x1680",
           "manufacturer": "合创汽车",
           "class": "中型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4879x1937x1680",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#020202"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e25b06f2e6464df330a5290dc8808084~2508x0.webp"
+            },
+            {
+              "name": "雾隐灰",
+              "colors": [
+                "#686A76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b731a6fad7478988efe9dc20a2a77256~2508x0.webp"
+            },
+            {
+              "name": "辉月银",
+              "colors": [
+                "#E1DEDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0127a4ff2e752b25eeec4da8340c6d1e~2508x0.webp"
+            },
+            {
+              "name": "晨辉白",
+              "colors": [
+                "#F0F0F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1700d9f8ef6cc96f943082648a2cd155~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "素雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3eafd0170e15b42f2e9faf1e5649a985~2508x0.webp"
+            },
+            {
+              "name": "浅茶米",
+              "colors": [
+                "#E2DED0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2441fcd82da2130ddf6a534d6a56f966~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e25b06f2e6464df330a5290dc8808084~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5472,
       "carName": "V09",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a9d23fea0ffc49be81a91ec7c71db77d~1200x0.png",
       "configs": [
         {
-          "configName": "合创V09 2023款 豪华版620",
+          "configName": "2023款 豪华版620",
+          "configId": "92717",
+          "index": 0,
           "price": "31.88万",
-          "fuelType": "纯电动",
-          "size": "5215x1967x1910",
           "manufacturer": "合创汽车",
           "class": "中大型MPV",
-          "power": "纯电动 275马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 275马力",
+          "size": "5215x1967x1910",
+          "exteriorImages": [
+            {
+              "name": "日蚀黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c9bbd5ae3c660032e00b631271782e8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/浅玉",
+              "colors": [
+                "#000000",
+                "#DFDBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/871f20f4b02b33b0e0100225200e0e1a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5c9bbd5ae3c660032e00b631271782e8~2508x0.webp"
         },
         {
-          "configName": "合创V09 2023款 尊荣版 620",
+          "configName": "2023款 尊荣版 620",
+          "configId": "92718",
+          "index": 1,
           "price": "34.88万",
-          "fuelType": "纯电动",
-          "size": "5215x1967x1910",
           "manufacturer": "合创汽车",
           "class": "中大型MPV",
-          "power": "纯电动 275马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 275马力",
+          "size": "5215x1967x1910",
+          "exteriorImages": [
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#AAAAAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b88891d6b50333f9739a63ae4f5cab2~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87f54b7394f66abb394099f2a08b9bc8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/6a89283bac647afc6c6973ae9fd2aed4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4b88891d6b50333f9739a63ae4f5cab2~2508x0.webp"
         },
         {
-          "configName": "合创V09 2023款 尊荣版超充620",
+          "configName": "2023款 尊荣版超充620",
+          "configId": "92719",
+          "index": 2,
           "price": "36.88万",
-          "fuelType": "纯电动",
-          "size": "5215x1967x1910",
           "manufacturer": "合创汽车",
           "class": "中大型MPV",
-          "power": "纯电动 275马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 275马力",
+          "size": "5215x1967x1910",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "合创V09 2023款 尊荣版762",
+          "configName": "2023款 尊荣版762",
+          "configId": "92720",
+          "index": 3,
           "price": "37.38万",
-          "fuelType": "纯电动",
-          "size": "5215x1967x1910",
           "manufacturer": "合创汽车",
           "class": "中大型MPV",
-          "power": "纯电动 275马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 275马力",
+          "size": "5215x1967x1910",
+          "exteriorImages": [
+            {
+              "name": "日蚀黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff0abd3f4e30440086c2b54de12c9de1~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#AAAAAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b35771071dd77093478eccf99ea59f3f~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2bdf6a6bad1589b9344d80d5ce685948~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43bba4a7c6ede0fcb21ff28614ad5754~2508x0.webp"
+            },
+            {
+              "name": "黑色/浅玉",
+              "colors": [
+                "#000000",
+                "#DFDBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb0d6b2aea437e71979226de7dc06808~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#000000",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/254ac258b16c4c702674a78d03b8edce~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ff0abd3f4e30440086c2b54de12c9de1~2508x0.webp"
         },
         {
-          "configName": "合创V09 2023款  旗舰版762",
+          "configName": "2023款  旗舰版762",
+          "configId": "92721",
+          "index": 4,
           "price": "43.88万",
-          "fuelType": "纯电动",
-          "size": "5215x1967x1910",
           "manufacturer": "合创汽车",
           "class": "中大型MPV",
-          "power": "纯电动 275马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 275马力",
+          "size": "5215x1967x1910",
+          "exteriorImages": [
+            {
+              "name": "日蚀黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88f850d0aaa60d426dacaebbfba9836b~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab2a9699b1117826c0db0c2949ec0380~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ccc73f3f64791fc0558f8cd689b6bbb~2508x0.webp"
+            },
+            {
+              "name": "黑色/浅玉",
+              "colors": [
+                "#000000",
+                "#DFDBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02d2905496f6700d5941aec57d455e8c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/88f850d0aaa60d426dacaebbfba9836b~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5089,
       "carName": "Z03",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5ef0a50f23ea43469d8ed241c308c9d9~1200x0.png",
       "configs": [
         {
-          "configName": "合创Z03 2022款 430 潮享版 55.5kWh",
+          "configName": "2022款 430 潮享版 55.5kWh",
+          "configId": "73371",
+          "index": 0,
           "price": "13.48万",
+          "manufacturer": "合创汽车",
+          "class": "紧凑型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 184马力",
           "size": "4602x1900x1600",
-          "manufacturer": "合创汽车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#C9CDD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00a8dbb292c7ed59e35de54a9e43e16e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bfda502aee0f01b2731fb1bcd7daf361~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/00a8dbb292c7ed59e35de54a9e43e16e~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮享版 63.98kWh",
+          "configName": "2022款 510 潮享版 63.98kWh",
+          "configId": "73372",
+          "index": 1,
           "price": "14.18万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "燕山银",
+              "colors": [
+                "#8C8F94"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83f165cdc1fce49a8000555876b8e37f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a15857ca789e339b502acc78b5fc580c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/83f165cdc1fce49a8000555876b8e37f~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮享版 61.13kWh",
+          "configName": "2022款 510 潮享版 61.13kWh",
+          "configId": "90434",
+          "index": 2,
           "price": "14.18万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "燕山银",
+              "colors": [
+                "#8C8F94"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5e1e4c7220f70f6e6868270ee645d44~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea98203941582e2e1faf3ebbb4d3bdd7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a5e1e4c7220f70f6e6868270ee645d44~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮享版 64.23kWh",
+          "configName": "2022款 510 潮享版 64.23kWh",
+          "configId": "90435",
+          "index": 3,
           "price": "14.18万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#C9CDD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df005d26321c85d1cfbf8392fec25dca~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdd2deaa6a1ffe028a24949393405a3b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/df005d26321c85d1cfbf8392fec25dca~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮酷版 63.98kWh",
+          "configName": "2022款 510 潮酷版 63.98kWh",
+          "configId": "73373",
+          "index": 4,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "昆仑玄",
+              "colors": [
+                "#1C1D21"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b67ef50d126389a3b2beffe256609336~2508x0.webp"
+            },
+            {
+              "name": "燕山银",
+              "colors": [
+                "#8C8F94"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e62df40790199f179a8b580fc96d50e~2508x0.webp"
+            },
+            {
+              "name": "莫干绿",
+              "colors": [
+                "#92A62B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7992e52c77f297527d5998948aed4701~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#C9CDD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c27972d5f29b7acb9e71fc4cd5f9b7b1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a02488e7f435fa2bd66f5711448e48fb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b67ef50d126389a3b2beffe256609336~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮酷版 61.13kWh",
+          "configName": "2022款 510 潮酷版 61.13kWh",
+          "configId": "90436",
+          "index": 5,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "燕山银",
+              "colors": [
+                "#8C8F94"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c04aa6d75e35696b4925ecd5d220ee3b~2508x0.webp"
+            },
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#C9CDD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/089649a649d86eca2c67f46ad71419bf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d429e9fb3d230c7b143dd2e5e5319b4b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c04aa6d75e35696b4925ecd5d220ee3b~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮酷版 64.23kWh",
+          "configName": "2022款 510 潮酷版 64.23kWh",
+          "configId": "90437",
+          "index": 6,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "合创Z03 2022款 620 潮酷版 76.8kWh",
+          "configName": "2022款 620 潮酷版 76.8kWh",
+          "configId": "73374",
+          "index": 7,
           "price": "16.68万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#C9CDD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20e403cc4aa4f9798aaa92e51ad73f60~2508x0.webp"
+            },
+            {
+              "name": "香山红",
+              "colors": [
+                "#D0384B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dbb81276136aaf6af1ea985d821a8231~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d13813650be862df06ad58a54329506a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/20e403cc4aa4f9798aaa92e51ad73f60~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮智版 63.98kWh",
+          "configName": "2022款 510 潮智版 63.98kWh",
+          "configId": "73370",
+          "index": 8,
           "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "燕山银",
+              "colors": [
+                "#8C8F94"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d712d624f0bb280f3d29acc0d1dea9df~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "丹青灰",
+              "colors": [
+                "#4D4D50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05d30bd9c189dc54e1497f286b51ae83~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d712d624f0bb280f3d29acc0d1dea9df~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 510 潮智版 61.13kWh",
+          "configName": "2022款 510 潮智版 61.13kWh",
+          "configId": "90439",
+          "index": 9,
           "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "合创Z03 2022款 510 潮智版 64.23kWh",
+          "configName": "2022款 510 潮智版 64.23kWh",
+          "configId": "90440",
+          "index": 10,
           "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 184马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "合创Z03 2022款 620 潮智版 76.8kWh",
+          "configName": "2022款 620 潮智版 76.8kWh",
+          "configId": "73369",
+          "index": 11,
           "price": "17.68万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [
+            {
+              "name": "玉龙白",
+              "colors": [
+                "#C9CDD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42618da0242b1679367bb9331a35aac0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黛",
+              "colors": [
+                "#34342C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/019185ff70e15460393eb75e3d1e59be~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/42618da0242b1679367bb9331a35aac0~2508x0.webp"
         },
         {
-          "configName": "合创Z03 2022款 620 Z潮版 76.8kWh",
+          "configName": "2022款 620 Z潮版 76.8kWh",
+          "configId": "73367",
+          "index": 12,
           "price": "18.28万",
-          "fuelType": "纯电动",
-          "size": "4602x1900x1645",
           "manufacturer": "合创汽车",
           "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4602x1900x1645",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-08-29T03:37:59.402Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }
