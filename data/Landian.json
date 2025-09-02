@@ -3,205 +3,1245 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/tos-cn-i-dcdx/3b18f2c8423f45079d08d83d45eda7a5~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "E5 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e5f0b0e52475439ea5d7662394b44ee0~1200x0.png",
+      "carId": 9030,
+      "carName": "E3",
       "configs": [
         {
-          "configName": "蓝电E5 PLUS 2026款 165km 长续航先享版",
-          "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
+          "configName": "2023款 405km 舒适版",
+          "configId": "89520",
+          "index": 0,
+          "price": "13.98万",
           "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 122马力",
+          "size": "4415x1850x1650",
+          "exteriorImages": [
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07b133e5ca1d74b59b7489893004def3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20aa00da45586486fc48145da94684f4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/07b133e5ca1d74b59b7489893004def3~2508x0.webp"
         },
         {
-          "configName": "蓝电E5 PLUS 2026款 120km 先享版Max",
-          "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
+          "configName": "2023款 405km 豪华版",
+          "configId": "96407",
+          "index": 1,
+          "price": "14.58万",
           "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2026款 165km 长续航先享版Max",
-          "price": "11.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2026款 165km 长续航先享版Ultra",
-          "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2026款  165km 长续航旅行旗舰版",
-          "price": "15.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 100km 基础续航版",
-          "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 177马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 120km 标准续航版",
-          "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 长续航先享版",
-          "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 长续航版",
-          "price": "11.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 长续航版Pro",
-          "price": "12.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 120km 旅行定制版",
-          "price": "13.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 长续航版PLUS",
-          "price": "13.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 旅行舒享版",
-          "price": "14.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 咖啡创业版",
-          "price": "16.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "蓝电E5 PLUS 2025款 165km 旗舰版",
-          "price": "16.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
-          "manufacturer": "赛力斯蓝电汽车",
-          "class": "中型SUV",
-          "power": "插电式混动 218马力"
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4415x1850x1650",
+          "exteriorImages": [
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e16ca045681905be49162794d07fe40~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcfbadef997b3751fdb2f056eecb6c2c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6e16ca045681905be49162794d07fe40~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6204,
       "carName": "E5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c688747ab7484b76a056f1599dc44f0f~1200x0.png",
       "configs": [
         {
-          "configName": "蓝电E5 2024款 荣耀版 100km畅享型",
+          "configName": "2024款 荣耀版 100km畅享型",
+          "configId": "100003",
+          "index": 0,
           "price": "9.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
           "manufacturer": "赛力斯蓝电汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 176马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f719c029deff86c88b072ed9c898a23~2508x0.webp"
+            },
+            {
+              "name": "云杉绿",
+              "colors": [
+                "#878E87"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/754b0540a77bd0ad7bf54cb16c85afb7~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8120165344cd4d25041c9f1d1bb88e1~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#D3D4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39905b8c713431d5e980048dcfe0227a~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f95e3051ff02b523699c594b47f95f23~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe9325cf4be478da40a6da8dc0e1ba61~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/111ec1ceec6e8856b417845f8c716c98~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5f719c029deff86c88b072ed9c898a23~2508x0.webp"
         },
         {
-          "configName": "蓝电E5 2024款 荣耀版 100km尊享型",
+          "configName": "2024款 荣耀版 100km尊享型",
+          "configId": "100001",
+          "index": 1,
           "price": "10.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
           "manufacturer": "赛力斯蓝电汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 176马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57fb2edefc5ff1812bb601af0272ab6e~2508x0.webp"
+            },
+            {
+              "name": "云杉绿",
+              "colors": [
+                "#878E87"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1faa52d6736654478f356ea00fa40754~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59be4d7fc79d47a862555c75dcb5512e~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#D3D4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9958a45896fbe8162776a26b6e584408~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fa44bfcaf232f80efa98a539168dbf0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b39f5fdb512ea77430d617a13d552e8~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94ea740504b3aa71ec52bee638fac814~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/57fb2edefc5ff1812bb601af0272ab6e~2508x0.webp"
         },
         {
-          "configName": "蓝电E5 2024款 荣耀版 100km臻享型",
+          "configName": "2024款 荣耀版 100km臻享型",
+          "configId": "100002",
+          "index": 2,
           "price": "11.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
           "manufacturer": "赛力斯蓝电汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 176马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81439b968cf17073947060bbcc1066a8~2508x0.webp"
+            },
+            {
+              "name": "云杉绿",
+              "colors": [
+                "#878E87"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80147673ccbdaf6c23dfbf6e6d395e20~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42865216256a5ef9eb86a2b068d579d1~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#D3D4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e1f0117fc0706341f32ead6eb460428~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bd2e7ec316149cbfbf7250e555f8f21~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17b63515ee814f014b0802d42b6ad005~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bbfa4cbf993769715026eb0d3db21af~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/81439b968cf17073947060bbcc1066a8~2508x0.webp"
         },
         {
-          "configName": "蓝电E5 2023款 1.5L DE-i 畅享型",
+          "configName": "2023款 1.5L DE-i 畅享型",
+          "configId": "87492",
+          "index": 3,
           "price": "13.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
           "manufacturer": "赛力斯蓝电汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 176马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e4c24af01245f66b6ce6e3427a2dfae~2508x0.webp"
+            },
+            {
+              "name": "云杉绿",
+              "colors": [
+                "#878E87"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99b4fef5814d1ae00315399b6d488582~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#D3D4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/117aebd6f06ab5a80e905b02c85b77f0~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c514bab546e32cb0cdcf2d77bfacfa4e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/801961bf5c0f1f40d335742dd2c22a5f~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a44424cb95b789513a26adc4233ec0f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3e4c24af01245f66b6ce6e3427a2dfae~2508x0.webp"
         },
         {
-          "configName": "蓝电E5 2023款 1.5L DE-i 臻享型",
+          "configName": "2023款 1.5L DE-i 臻享型",
+          "configId": "95902",
+          "index": 4,
           "price": "14.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
           "manufacturer": "赛力斯蓝电汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 176马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fe70d9c453b02d1c62804b747a0616d~2508x0.webp"
+            },
+            {
+              "name": "云杉绿",
+              "colors": [
+                "#878E87"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55b44230de9956517634bbd55dac26e2~2508x0.webp"
+            },
+            {
+              "name": "旭日金",
+              "colors": [
+                "#B4AE8A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1e13317771e7ffea386fd9b19d6ad15~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#D3D4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c98bdb885fd5522f4289d0e9111147a7~2508x0.webp"
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/479e77abab94e90d6738d706a015224a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85bb68d10a4f14dd53b58ff297c30e90~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e4bb2590933ee3aa0e83228af8116b7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3fe70d9c453b02d1c62804b747a0616d~2508x0.webp"
         },
         {
-          "configName": "蓝电E5 2023款 1.5L DE-i 旗舰型",
+          "configName": "2023款 1.5L DE-i 旗舰型",
+          "configId": "81217",
+          "index": 5,
           "price": "15.19万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1865x1710",
           "manufacturer": "赛力斯蓝电汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 176马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 110马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aab2b4e109f60569ec28fbf4b4e14748~2508x0.webp"
+            },
+            {
+              "name": "云杉绿",
+              "colors": [
+                "#878E87"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cae66d54ee49b746375c448ca370c314~2508x0.webp"
+            },
+            {
+              "name": "旭日金",
+              "colors": [
+                "#B4AE8A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bddebb19b30186b7a7985fb58d6e8ff8~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#D3D4E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74d4a1e98290342228a69da3abf42bb1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#B7AE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de49814e0a25a5c14bbd278030470aef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aab2b4e109f60569ec28fbf4b4e14748~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 24659,
+      "carName": "E5 PLUS",
+      "configs": [
+        {
+          "configName": "2026款 165km 长续航先享版",
+          "configId": "248396",
+          "index": 0,
+          "price": "9.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49e991dc22875303a71c1d08a3619678~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2458fb92588701565a1e4591a1bd99c5~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1862a57282969c7f4381fb0c1f51ec3e~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c3017af1885224b29ae9944fcae189ba~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd3595929ebf7e264bd2af33a65758fa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82b85cbe25acf83e17fede74a91bab9c~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8fd8e9933eaf6a51a148249604c5a62~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49e991dc22875303a71c1d08a3619678~2508x0.webp"
+        },
+        {
+          "configName": "2026款 120km 先享版Max",
+          "configId": "248237",
+          "index": 1,
+          "price": "10.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 165km 长续航先享版Max",
+          "configId": "248183",
+          "index": 2,
+          "price": "11.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c6974ed4efc5f93bd9bc7ab72292b30~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c437398e7539c237544b6a5896a34a7~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f9e461bbf98f3aa09780796b4c8f8edc~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6469479f1f85e68f352f67c0ebd3985~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7fb08e0a8fbff50906efd0612231be0b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63efd4f9b5b056b29e6f276f15b68cc5~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_667563b4309edc8a4f1667b92993f0a4~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e02f6f4af9b8e9c2694a52e11901cd3e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c6974ed4efc5f93bd9bc7ab72292b30~2508x0.webp"
+        },
+        {
+          "configName": "2026款 165km 长续航先享版Ultra",
+          "configId": "248224",
+          "index": 3,
+          "price": "12.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4dc78c48fce9d5f262c16044538e917f~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8052320ba9ce6eabdd04e73255a8896d~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b68219a4282e6be6740ab08e7413dfca~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf8a65ed07924d4ddfea9731fc30d51e~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ae6a7026b9cdeada9349545dfdb7279~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8dd7c28df0cbd3e89950126652b842a~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67451295a9b25aaee182d84d1dab158c~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4683208c42a0f77ffd0da4ab06063859~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4dc78c48fce9d5f262c16044538e917f~2508x0.webp"
+        },
+        {
+          "configName": "2026款  165km 长续航旅行旗舰版",
+          "configId": "249519",
+          "index": 4,
+          "price": "15.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_827c97115d0bfd191710adf0a7dcad55~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c36b4782b15023d21be694185610f40~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#AEAFAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f4f9bd9dc9ce62fd196a07036fc96f8~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5780fffd65ead587569bf21c5aed35ed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb4615083b23783d0b6818942066717d~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_65675cf3a107bf00269ca1ab76fc692f~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49c5e5fa7b5df7b7ef3eb5d9ac9371e6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_827c97115d0bfd191710adf0a7dcad55~2508x0.webp"
+        },
+        {
+          "configName": "2025款 100km 基础续航版",
+          "configId": "241377",
+          "index": 5,
+          "price": "9.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 120km 标准续航版",
+          "configId": "239190",
+          "index": 6,
+          "price": "10.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af8e183e448d2f9a4fc12ee5340d2e9e~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d841943d9c6a824d3512e1032c35b3f8~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#D3DDE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52dda9429fa24fd15d65553a68cf222b~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13a6e96398dfb88bee8b034990a5f795~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/daefa66ef90698a090032119dc895c44~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d1e73ec5371b837a197ef7e46fc0afd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/af8e183e448d2f9a4fc12ee5340d2e9e~2508x0.webp"
+        },
+        {
+          "configName": "2025款 165km 长续航先享版",
+          "configId": "245752",
+          "index": 7,
+          "price": "9.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_785a5384c00993ce9fc8d428aa314a25~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3dc9ecbd202bfffedf231d168bff9987~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1051a830ae79b49fab81ac4365fc68c~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#D3DDE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34783ac13f215194fae95edc3aae2385~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_64ff63d062c45f0a7cddb86c63ed6bea~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c566c3e01b139e12691b0ca19eb6c797~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fcc335276b254f1d9b7608cc71bff7e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_785a5384c00993ce9fc8d428aa314a25~2508x0.webp"
+        },
+        {
+          "configName": "2025款 165km 长续航版",
+          "configId": "239189",
+          "index": 8,
+          "price": "11.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/caf4b7790e5535b2cd1a1d36af9ed85c~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b6e2d15539c27f80332f4bdeb6f6802~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34017f5d2a7f65d417240e0ce4cd2be6~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#D3DDE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3a93a9350f57a0f500e295567191e30~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/950e338efd9ca07636d31c6c10c1716b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d8451d9ccefde0572e9c6fa7ebde7ad~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be165debc95af9de78ecea89dd63466d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/caf4b7790e5535b2cd1a1d36af9ed85c~2508x0.webp"
+        },
+        {
+          "configName": "2025款 165km 长续航版Pro",
+          "configId": "241378",
+          "index": 9,
+          "price": "12.98万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abe4032957629a689a0d09a250eae394~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fd9cf7e3d5837ad6900e1fd46940a0b~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55d3156f1954b18e684fb63eb80c092c~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#D3DDE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c810df028e22bf01ea260db5d507133a~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea022db3d1e8aa541d6a44cd02dd705a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a57dd2a1b4702d9d638c1cbbc65e943~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0443de9b8c49b0d6464afd054b8276ca~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/abe4032957629a689a0d09a250eae394~2508x0.webp"
+        },
+        {
+          "configName": "2025款 120km 旅行定制版",
+          "configId": "243227",
+          "index": 10,
+          "price": "13.38万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5813dec5118edb5828eb20e3715347b~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/697748495ae26e082188e6c1ef67b31a~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0fd21e1df956d0ee1ad630afe44015e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11522afe79ba98dc5fb8339056452f69~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad451d644caa959c560ab3a4f9518761~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a5813dec5118edb5828eb20e3715347b~2508x0.webp"
+        },
+        {
+          "configName": "2025款 165km 长续航版PLUS",
+          "configId": "241379",
+          "index": 11,
+          "price": "13.58万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b897ebe8698fe6dd7edf53df272ab9bb~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d451bdce1f36bacb06b2e669fca4cf08~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f23f30104ee714319acbbfc6f7f0afd~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#D3DDE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47113a5ed31b09fd8bbfb761bbb2f231~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24f481f66334c560a1c86c385cb28f78~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6f6e3234b5c6fc9e44a875e430c4791~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f65a70ee491bd8001d9e9e15e9f7513e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b897ebe8698fe6dd7edf53df272ab9bb~2508x0.webp"
+        },
+        {
+          "configName": "2025款 165km 旅行舒享版",
+          "configId": "247490",
+          "index": 12,
+          "price": "14.38万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ee6493f07eca7b2379c7be1b0ec16c1~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#255011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e957378afbf178fe8630ff43c35b8fb3~2508x0.webp"
+            },
+            {
+              "name": "流光灰",
+              "colors": [
+                "#95A3A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_938026d76e1905117ce180be3e762f60~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c6cd540771a9c388a57334d7aafc4209~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5f6a94d5e2662b280dc3e4e6820c9207~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ee6493f07eca7b2379c7be1b0ec16c1~2508x0.webp"
+        },
+        {
+          "configName": "2025款 165km 咖啡创业版",
+          "configId": "246931",
+          "index": 13,
+          "price": "16.38万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 165km 旗舰版",
+          "configId": "247971",
+          "index": 14,
+          "price": "16.58万",
+          "manufacturer": "赛力斯蓝电汽车",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 95马力 L4 插电式混动",
+          "size": "4760x1865x1710",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ce9fc9cbdc0efcaeaccbc5832b1e829~2508x0.webp"
+            },
+            {
+              "name": "月光银",
+              "colors": [
+                "#D3DDE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_596c73643c057b4f1a91d09cf3c3075b~2508x0.webp"
+            },
+            {
+              "name": "星辉白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0b6054984b468f033b7420e14a46ee3d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_492f622a17e07c57fda133f1d019e0a7~2508x0.webp"
+            },
+            {
+              "name": "胡桃棕",
+              "colors": [
+                "#D2C26A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5db4737a0d4803a0589f7391869f3125~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ce9fc9cbdc0efcaeaccbc5832b1e829~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-02T09:35:47.495Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }

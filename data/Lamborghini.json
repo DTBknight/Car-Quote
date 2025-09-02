@@ -3,127 +3,634 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/8cd3841160b7fbfbc06547175e2aa7c1~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 1643,
       "carName": "Urus",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6ccf5dff2ebdb9ba8cd92587be510d4~1200x0.png",
       "configs": [
         {
-          "configName": "Urus 2023款 4.0T V8 S",
+          "configName": "2023款 4.0T V8 S",
+          "configId": "78761",
+          "index": 0,
           "price": "297万",
+          "manufacturer": "兰博基尼",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "4.0T 640马力 V8",
           "size": "5137x2181x1638",
-          "manufacturer": "兰博基尼",
-          "class": "中大型SUV",
-          "power": "4.0T 640马力 V8"
+          "exteriorImages": [
+            {
+              "name": "nero noctis",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9a2bdcf6dc787b2e9625d0e38f7c349~2508x0.webp"
+            },
+            {
+              "name": "Grigio Nimbus",
+              "colors": [
+                "#535353"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f3d1eb37abd961a4e19e2d64b321b1a~2508x0.webp"
+            },
+            {
+              "name": "Grigio Hati",
+              "colors": [
+                "#959595"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53b38c95246a76586be9f64734588acc~2508x0.webp"
+            },
+            {
+              "name": "Bianco Monocerus",
+              "colors": [
+                "#FFFFFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20f1fd3acc0dae3cf62c367703030307~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73cf59fd85a65f2c83b0778f050a0258~2508x0.webp"
+            },
+            {
+              "name": "黑色/绿色",
+              "colors": [
+                "#000000",
+                "#6FBA6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f21494116495fc418708a286b4e4240~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#A19282"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/545c32af856228837e6c980813329ab4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a9a2bdcf6dc787b2e9625d0e38f7c349~2508x0.webp"
         },
         {
-          "configName": "Urus 2022款 4.0T V8 Performante",
+          "configName": "2022款 4.0T V8 Performante",
+          "configId": "77143",
+          "index": 1,
           "price": "329.729万",
+          "manufacturer": "兰博基尼",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "4.0T 640马力 V8",
           "size": "5137x2026x1618",
-          "manufacturer": "兰博基尼",
-          "class": "中大型SUV",
-          "power": "4.0T 640马力 V8"
+          "exteriorImages": [
+            {
+              "name": "Giallo Inti",
+              "colors": [
+                "#F5C252"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87db9e93c0499a79f78ef2fe3df3d9aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc96c4c15f43bcb664cd8ff89126e33d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/87db9e93c0499a79f78ef2fe3df3d9aa~2508x0.webp"
         },
         {
-          "configName": "Urus 2021款 4.0T V8",
+          "configName": "2021款 4.0T V8",
+          "configId": "45785",
+          "index": 2,
           "price": "294.11万",
+          "manufacturer": "兰博基尼",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "4.0T 640马力 V8",
           "size": "5112x2016x1638",
-          "manufacturer": "兰博基尼",
-          "class": "中大型SUV",
-          "power": "4.0T 640马力 V8"
+          "exteriorImages": [
+            {
+              "name": "nero noctis",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/efa7c315f36ee444a2b502a552e54da5~2508x0.webp"
+            },
+            {
+              "name": "Verde Selvans",
+              "colors": [
+                "#6EE206"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d397b1345c2841c972ccd0b3f4373c46~2508x0.webp"
+            },
+            {
+              "name": "Grigio Lynx",
+              "colors": [
+                "#A6A6A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51aba1cebf42527d71920052055ba1c4~2508x0.webp"
+            },
+            {
+              "name": "Arancio Borealis",
+              "colors": [
+                "#E79321"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11a5452df560863a71de4bc17f0a9190~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63d46157759a707f6f9d3efab27ceb1f~2508x0.webp"
+            },
+            {
+              "name": "红色/黑色",
+              "colors": [
+                "#962927",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5fc0615c57a9d7ce848b7ef66154c07~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/efa7c315f36ee444a2b502a552e54da5~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6102,
       "carName": "Urus SE",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5bbc7070fd0c4360821d2a2eb61c40b4~1200x0.png",
       "configs": [
         {
-          "configName": "Urus SE 2025款 4.0T 标准型",
+          "configName": "2025款 4.0T 标准型",
+          "configId": "100758",
+          "index": 0,
           "price": "297.1万",
-          "fuelType": "插电式混合动力",
-          "size": "5123x2022x1638",
           "manufacturer": "兰博基尼",
           "class": "中大型SUV",
-          "power": "插电式混合动力 192马力"
-        }
-      ]
-    },
-    {
-      "carName": "Huracán",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2cf4c5944fc147d5932aee8d7287a33a~1200x0.png",
-      "configs": [
-        {
-          "configName": "Huracán 2023款 Huracán Tecnica",
-          "price": "272万",
-          "fuelType": "汽油",
-          "size": "4567x1933x1165",
-          "manufacturer": "兰博基尼",
-          "class": "跑车",
-          "power": "5.2L 640马力 V10"
-        },
-        {
-          "configName": "Huracán 2021款 Huracán STO",
-          "price": "390万",
-          "fuelType": "汽油",
-          "size": "4549x1945x1220",
-          "manufacturer": "兰博基尼",
-          "class": "跑车",
-          "power": "5.2L 640马力 V10"
-        },
-        {
-          "configName": "Huracán 2020款 Huracán EVO RWD",
-          "price": "254万",
-          "fuelType": "汽油",
-          "size": "4520x1933x1165",
-          "manufacturer": "兰博基尼",
-          "class": "跑车",
-          "power": "5.2L 610马力 V10"
-        },
-        {
-          "configName": "Huracán 2020款 Huracán EVO RWD Spyder",
-          "price": "279.4万",
-          "fuelType": "汽油",
-          "size": "4520x1933x1180",
-          "manufacturer": "兰博基尼",
-          "class": "跑车",
-          "power": "5.2L 610马力 V10"
-        },
-        {
-          "configName": "Huracán 2019款 EVO",
-          "price": "321.3万",
-          "fuelType": "汽油",
-          "size": "4520x1933x1165",
-          "manufacturer": "兰博基尼",
-          "class": "跑车",
-          "power": "5.2L 640马力 V10"
-        },
-        {
-          "configName": "Huracán 2019款 EVO Spyder",
-          "price": "355.6万",
-          "fuelType": "汽油",
-          "size": "4520x1933x1180",
-          "manufacturer": "兰博基尼",
-          "class": "跑车",
-          "power": "5.2L 640马力 V10"
-        }
-      ]
-    },
-    {
-      "carName": "Revuelto",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/61060f8676a64d3aaca8f2c8f3487468~1200x0.png",
-      "configs": [
-        {
-          "configName": "Revuelto 2023款 标准型",
-          "price": "629.4994万",
           "fuelType": "插电式混合动力",
-          "size": "4947x2033x1160",
+          "power": "4.0T 620马力 V8 插电式混动",
+          "size": "5123x2022x1638",
+          "exteriorImages": [
+            {
+              "name": "nero noctis",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e36435a19828f019cbdee7db6acb33aa~2508x0.webp"
+            },
+            {
+              "name": "Grigio Keres",
+              "colors": [
+                "#635F5F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ecd90def3d12e8830c0d182593424c4~2508x0.webp"
+            },
+            {
+              "name": "磨砂绿",
+              "colors": [
+                "#E4F5DB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba8b55afb0e7c9a6dc586371a83c2817~2508x0.webp"
+            },
+            {
+              "name": "Arancio Egon",
+              "colors": [
+                "#F15638"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9afb2f50430494536fe43a4afec966f9~2508x0.webp"
+            },
+            {
+              "name": "Giallo Inti",
+              "colors": [
+                "#F5C252"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbcb4afc5c4ee47d5f11939d5f356be7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/蓝色",
+              "colors": [
+                "#555454",
+                "#55AFDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04144514e76bd022a5cf3480d4f635dc~2508x0.webp"
+            },
+            {
+              "name": "黄色/黑色",
+              "colors": [
+                "#BA8B2F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34e7d71dae9d6b956e16c92d37d15b2e~2508x0.webp"
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#FD5006",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80cf3e672dab4d30fe9704a382e0bcad~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e36435a19828f019cbdee7db6acb33aa~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 877,
+      "carName": "Huracán",
+      "configs": [
+        {
+          "configName": "2023款 Huracán Tecnica",
+          "configId": "80768",
+          "index": 0,
+          "price": "272万",
           "manufacturer": "兰博基尼",
           "class": "跑车",
-          "power": "插电式混动 449马力"
+          "fuelType": "汽油",
+          "power": "5.2L 640马力 V10",
+          "size": "4567x1933x1165",
+          "exteriorImages": [
+            {
+              "name": "蓝色",
+              "colors": [
+                "#1F85CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f226ea124ceec51a63273e8c9b468564~2508x0.webp"
+            },
+            {
+              "name": "金属漆深灰色",
+              "colors": [
+                "#52534E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3753c4104de3a3750b839fce817480f~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#A2D954"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5e1e6348f42192b2f76f67a85ca023a~2508x0.webp"
+            },
+            {
+              "name": "黄色",
+              "colors": [
+                "#FDFF7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0300f35137a721acc803fa5ae820f8a2~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b26a55ba536505e7fb1a72bb9a988cb6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c244a957a55847a7418860ca630aef29~2508x0.webp"
+            },
+            {
+              "name": "黑色/绿色",
+              "colors": [
+                "#000000",
+                "#86C93C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e23ac5f4587846b331bfa4bc4b58e4d6~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#000000",
+                "#FC6105"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2fbff91d0d66f969d36e9fad0602a00a~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8cd72f150b73e449619cc4e6c7506f0~2508x0.webp"
+            },
+            {
+              "name": "灰色/绿色",
+              "colors": [
+                "#646363",
+                "#86C93C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d908489d0de1035e4643ebd50d89bbc8~2508x0.webp"
+            },
+            {
+              "name": "黄色/黑色",
+              "colors": [
+                "#FBB93E",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a4c079d245fb996cad4e990c194e04f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f226ea124ceec51a63273e8c9b468564~2508x0.webp"
+        },
+        {
+          "configName": "2021款 Huracán STO",
+          "configId": "49957",
+          "index": 1,
+          "price": "390万",
+          "manufacturer": "兰博基尼",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "5.2L 640马力 V10",
+          "size": "4549x1945x1220",
+          "exteriorImages": [
+            {
+              "name": "blu laufey arancio",
+              "colors": [
+                "#6FC9EC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/894d113fed0431f9f757fbbb3f0118c7~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#E6001B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/018a82bd93ff25a35193e98cbef2cb20~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3bcc21f69889ad365ea2d4a94ae30aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00c61339c1978489eb3b086a033e7e73~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37f53d826474e16e4eb180190ac7b829~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/894d113fed0431f9f757fbbb3f0118c7~2508x0.webp"
+        },
+        {
+          "configName": "2020款 Huracán EVO RWD",
+          "configId": "43188",
+          "index": 2,
+          "price": "254万",
+          "manufacturer": "兰博基尼",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "5.2L 610马力 V10",
+          "size": "4520x1933x1165",
+          "exteriorImages": [
+            {
+              "name": "Blu Aegir",
+              "colors": [
+                "#069EF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eeba617dd0bc27cac94aa3ed84f3fbe0~2508x0.webp"
+            },
+            {
+              "name": "黑色",
+              "colors": [
+                "#16161B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f9b18b59d98570b198f25241a928de1~2508x0.webp"
+            },
+            {
+              "name": "黄色",
+              "colors": [
+                "#FDFF7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d25e06678e38b2956e1c6bad523a7193~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色/黑色",
+              "colors": [
+                "#962927",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c5e7000061a8b60e8570309ea89a23e~2508x0.webp"
+            },
+            {
+              "name": "黄色/黑色",
+              "colors": [
+                "#FBB93E",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1e48b349a5741d63f73656bca4445b3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eeba617dd0bc27cac94aa3ed84f3fbe0~2508x0.webp"
+        },
+        {
+          "configName": "2020款 Huracán EVO RWD Spyder",
+          "configId": "45411",
+          "index": 3,
+          "price": "279.4万",
+          "manufacturer": "兰博基尼",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "5.2L 610马力 V10",
+          "size": "4520x1933x1180",
+          "exteriorImages": [
+            {
+              "name": "蓝色",
+              "colors": [
+                "#1F85CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dd5266c4b7bdf9116af2d4353206135~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#A2D954"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b04ec919de67cad4b21043d6919c97f2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黄色/黑色",
+              "colors": [
+                "#FBB93E",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd837df50bc9dd4b2ec2a7017574f8b5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3dd5266c4b7bdf9116af2d4353206135~2508x0.webp"
+        },
+        {
+          "configName": "2019款 EVO",
+          "configId": "34774",
+          "index": 4,
+          "price": "321.3万",
+          "manufacturer": "兰博基尼",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "5.2L 640马力 V10",
+          "size": "4520x1933x1165",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#16161B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f268bfaa2729530143e64e458aab9cc7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1cc7c50e066df40ff1a88da339f5ab9d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f268bfaa2729530143e64e458aab9cc7~2508x0.webp"
+        },
+        {
+          "configName": "2019款 EVO Spyder",
+          "configId": "35092",
+          "index": 5,
+          "price": "355.6万",
+          "manufacturer": "兰博基尼",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "5.2L 640马力 V10",
+          "size": "4520x1933x1180",
+          "exteriorImages": [
+            {
+              "name": "绿色",
+              "colors": [
+                "#A2D954"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ed39505b280810070be28f867c1e7f2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/绿色",
+              "colors": [
+                "#000000",
+                "#86C93C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f5c59270f092ca96a0d013641718ddf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3ed39505b280810070be28f867c1e7f2~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 8888,
+      "carName": "Revuelto",
+      "configs": [
+        {
+          "configName": "2023款 标准型",
+          "configId": "87004",
+          "index": 0,
+          "price": "629.4994万",
+          "manufacturer": "兰博基尼",
+          "class": "跑车",
+          "fuelType": "插电式混合动力",
+          "power": "6.5L 826马力 V12 插电式混动",
+          "size": "4947x2033x1160",
+          "exteriorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#50534E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65c20d06faace9110dd703a96c8fcb54~2508x0.webp"
+            },
+            {
+              "name": "军绿色",
+              "colors": [
+                "#5E6156"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/63c4746491e94ccfa8a928ce969c920b~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97a90fe30161e418652c3f23b9d39eb2~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83b99756a72eaa1cada727040a566a4b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7614de365494512a134dad9a595a43a1~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#000000",
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70b9ba83b8e065214b9a2e2b3f4553fe~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#BF8E12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a08f62d3ce49da02e11d70436cba5d7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/65c20d06faace9110dd703a96c8fcb54~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-02T09:29:56.641Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

@@ -1,5 +1,4668 @@
 {
   "brand": "Kuayue",
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/6fc54f12db026547a3a78445e2b8985e~tplv-resize:100:100.image",
-  "cars": []
+  "cars": [
+    {
+      "carId": 5296,
+      "carName": "跨越王F3",
+      "configs": [
+        {
+          "configName": "2021款 1.6L 手动短轴双排标准型DAM16KL",
+          "configId": "55740",
+          "index": 0,
+          "price": "5.78万",
+          "manufacturer": "长安跨越",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5080x1745x1720",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b6328563717857cca01c7089cb79db4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/49145440b129fdef697c3add00f03232~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8b6328563717857cca01c7089cb79db4~2508x0.webp"
+        },
+        {
+          "configName": "2021款 1.6L 手动短轴双排豪华型DAM16KL",
+          "configId": "55741",
+          "index": 1,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5080x1745x1720",
+          "exteriorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#7B7139"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6c48540bd9bd459c66abde55f500c1a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f59fae9044d87b0acd41a8f311470314~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b6c48540bd9bd459c66abde55f500c1a~2508x0.webp"
+        },
+        {
+          "configName": "2021款 1.6L 手动长轴双排标准型DAM16KL",
+          "configId": "55742",
+          "index": 2,
+          "price": "6.08万",
+          "manufacturer": "长安跨越",
+          "class": "中型皮卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5660x1745x1725",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1fef7bd1a6f1dcbf8cc458339347eef1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03835086fc71347cfbb6759749ab2669~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1fef7bd1a6f1dcbf8cc458339347eef1~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5456,
+      "carName": "跨越星V3",
+      "configs": [
+        {
+          "configName": "2023款 1.5L 手动汽油畅享型6座客车JL473QH",
+          "configId": "91826",
+          "index": 0,
+          "price": "3.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油标准型6座客车JL473QH",
+          "configId": "91827",
+          "index": 1,
+          "price": "4.19万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油舒适型6座客车JL473QH",
+          "configId": "91828",
+          "index": 2,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油豪华型6座客车JL473QH",
+          "configId": "91829",
+          "index": 3,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油畅享型7座客车JL473QH",
+          "configId": "91830",
+          "index": 4,
+          "price": "3.69万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "钛空银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adc213e191ade3d450b527cfc26ba4a7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd5ff231d01b86cb17aa831ad1f0715b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/adc213e191ade3d450b527cfc26ba4a7~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油标准型7座客车JL473QH",
+          "configId": "91831",
+          "index": 5,
+          "price": "4.19万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油舒适型7座客车JL473QH",
+          "configId": "91832",
+          "index": 6,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "三菱白/阳光金棕",
+              "colors": [
+                "#FFFFFF",
+                "#B2A39F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c15a6bb2727527d58715a755135dc348~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/431cc8a1ac3eb3573f6401d2d201e5da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c15a6bb2727527d58715a755135dc348~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油豪华型7座客车JL473QH",
+          "configId": "91833",
+          "index": 7,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "三菱白/阳光金棕",
+              "colors": [
+                "#FFFFFF",
+                "#B2A39F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6258cd4946960c50fe94a6c46be3ab1f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e93e66e5166e8c6376adfda6d7db25cd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6258cd4946960c50fe94a6c46be3ab1f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油畅享型5座客车JL473QH",
+          "configId": "91835",
+          "index": 8,
+          "price": "3.69万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "钛空银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26639bb3a9c5fa934ecdc92883a3ec6e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1884da41c8b3dbb44f60412e91737f0c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/26639bb3a9c5fa934ecdc92883a3ec6e~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油标准型5座客车JL473QH",
+          "configId": "91836",
+          "index": 9,
+          "price": "4.19万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油舒适型5座客车JL473QH",
+          "configId": "91837",
+          "index": 10,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "三菱白/阳光金棕",
+              "colors": [
+                "#FFFFFF",
+                "#B2A39F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db6b087416ec1241e9b6e060afa226db~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5090b6cde9bac4db098f161e5294cc13~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db6b087416ec1241e9b6e060afa226db~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油豪华型5座客车JL473QH",
+          "configId": "91838",
+          "index": 11,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油畅享型5座厢式JL473QH",
+          "configId": "91840",
+          "index": 12,
+          "price": "3.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油标准型5座厢式JL473QH",
+          "configId": "91841",
+          "index": 13,
+          "price": "4.09万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油舒适型5座厢式JL473QH",
+          "configId": "91842",
+          "index": 14,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油豪华型5座厢式JL473QH",
+          "configId": "91843",
+          "index": 15,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油畅享型2座厢式JL473QH",
+          "configId": "91844",
+          "index": 16,
+          "price": "3.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "钛空银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c70625da9c25361e7914cca2e6b9b803~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edfe03e66007cdbbbabc29d6c62280c0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c70625da9c25361e7914cca2e6b9b803~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油标准型2座厢式JL473QH",
+          "configId": "91845",
+          "index": 17,
+          "price": "4.09万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油舒适型2座厢式JL473QH",
+          "configId": "91846",
+          "index": 18,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.5L 手动汽油豪华型2座厢式JL473QH",
+          "configId": "91847",
+          "index": 19,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油畅享型6座客车DK13C",
+          "configId": "91848",
+          "index": 20,
+          "price": "3.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油标准型6座客车DK13C",
+          "configId": "91849",
+          "index": 21,
+          "price": "3.99万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "钛空银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/120a726c4be054c0f426577784e096db~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a41a157f42f7b93edce124cdb28021f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/120a726c4be054c0f426577784e096db~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油舒适型6座客车DK13C",
+          "configId": "91850",
+          "index": 22,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油豪华型6座客车DK13C",
+          "configId": "91851",
+          "index": 23,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油畅享型7座客车DK13C",
+          "configId": "91852",
+          "index": 24,
+          "price": "3.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油标准型7座客车DK13C",
+          "configId": "91853",
+          "index": 25,
+          "price": "3.99万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "钛空银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd20be0b56bd9f9b20a3eb1e3855294a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/b22a37e3ec505212dfdffac0fccd4365~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dd20be0b56bd9f9b20a3eb1e3855294a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油舒适型7座客车DK13C",
+          "configId": "91854",
+          "index": 26,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油豪华型7座客车DK13C",
+          "configId": "91855",
+          "index": 27,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油畅享型5座客车DK13C",
+          "configId": "91856",
+          "index": 28,
+          "price": "3.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed525c1d8eefebaa0d1d37957739b4e2~2508x0.webp"
+            }
+          ],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油标准型5座客车DK13C",
+          "configId": "91857",
+          "index": 29,
+          "price": "3.99万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [
+            {
+              "name": "钛空银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a163d6ed1825fa4e6e46283cebb16c40~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#C0B19C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63ef0d57419af3d31bed3754d93b7b57~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a163d6ed1825fa4e6e46283cebb16c40~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油舒适型5座客车DK13C",
+          "configId": "91858",
+          "index": 30,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油豪华型5座客车DK13C",
+          "configId": "91859",
+          "index": 31,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油畅享型5座厢式DK13C",
+          "configId": "91860",
+          "index": 32,
+          "price": "3.39万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油标准型5座厢式DK13C",
+          "configId": "91861",
+          "index": 33,
+          "price": "3.89万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油舒适型5座厢式DK13C",
+          "configId": "91862",
+          "index": 34,
+          "price": "4.29万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油豪华型5座厢式DK13C",
+          "configId": "91863",
+          "index": 35,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油畅享型2座厢式DK13C",
+          "configId": "91864",
+          "index": 36,
+          "price": "3.39万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油标准型2座厢式DK13C",
+          "configId": "91865",
+          "index": 37,
+          "price": "3.89万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油舒适型2座厢式DK13C",
+          "configId": "91866",
+          "index": 38,
+          "price": "4.29万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 1.3L 手动汽油豪华型2座厢式DK13C",
+          "configId": "91867",
+          "index": 39,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.3L 92马力 L4",
+          "size": "4200x1680x1965",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 4995,
+      "carName": "跨越星V5",
+      "configs": [
+        {
+          "configName": "2022款 1.5L畅享版",
+          "configId": "80571",
+          "index": 0,
+          "price": "4.98万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "",
+          "power": "1.5L 107马力 L4",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L手动CNG2座DAM16KR",
+          "configId": "80462",
+          "index": 1,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L手动CNG5座DAM16KR",
+          "configId": "80456",
+          "index": 2,
+          "price": "6.58万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 1.5L招财版舒适型JL473QH",
+          "configId": "52519",
+          "index": 3,
+          "price": "5.48万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.5L 107马力 L4",
+          "size": "4495x1680x1990",
+          "exteriorImages": [
+            {
+              "name": "三菱白/阳光金棕",
+              "colors": [
+                "#FFFFFF",
+                "#B2A39F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38055d1599843df515e6748561baaa7f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#E6DCBF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64ae6f8dd01e8571204fc0174694efcb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/38055d1599843df515e6748561baaa7f~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5573,
+      "carName": "跨越星V7",
+      "configs": [
+        {
+          "configName": "2022款 1.6L汽油舒适型2座对开门DAM16KR",
+          "configId": "60230",
+          "index": 0,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4800x1680x1990",
+          "exteriorImages": [
+            {
+              "name": "三菱白/阳光金棕",
+              "colors": [
+                "#FFFFFF",
+                "#B2A39F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24666fec5d0812051feb22b66bd887d8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#F5F2F2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9cbad9bf3da7a4658acb178bad9f482f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/24666fec5d0812051feb22b66bd887d8~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.6L汽油舒适型2座背掀门DAM16KR",
+          "configId": "60231",
+          "index": 1,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4800x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L汽油豪华型2座对开门DAM16KR",
+          "configId": "60232",
+          "index": 2,
+          "price": "6.78万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4800x1680x1990",
+          "exteriorImages": [
+            {
+              "name": "三菱白/阳光金棕",
+              "colors": [
+                "#FFFFFF",
+                "#B2A39F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb1448cf2320e5c259b74e0f1e49972f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fb1448cf2320e5c259b74e0f1e49972f~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.6L汽油豪华型2座背掀门DAM16KR",
+          "configId": "60233",
+          "index": 3,
+          "price": "6.58万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4800x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 6090,
+      "carName": "跨越星V7 EV",
+      "configs": [
+        {
+          "configName": "2024款 251km 掀背门舒适型 6座",
+          "configId": "244706",
+          "index": 0,
+          "price": "15.78万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 掀背门豪华型 6座",
+          "configId": "244707",
+          "index": 1,
+          "price": "15.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 掀背门舒适型 7座",
+          "configId": "244708",
+          "index": 2,
+          "price": "15.78万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 掀背门豪华型 7座",
+          "configId": "244709",
+          "index": 3,
+          "price": "15.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 对开门舒适型 7座",
+          "configId": "244710",
+          "index": 4,
+          "price": "15.78万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 对开门豪华型 7座",
+          "configId": "244711",
+          "index": 5,
+          "price": "15.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 掀背门舒适型 9座",
+          "configId": "244712",
+          "index": 6,
+          "price": "15.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 251km 掀背门豪华型 9座",
+          "configId": "244713",
+          "index": 7,
+          "price": "15.98万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 239km 客运版舒适型 6座",
+          "configId": "244714",
+          "index": 8,
+          "price": "15.58万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 239km 客运版旗舰型 6座",
+          "configId": "244716",
+          "index": 9,
+          "price": "16.58万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 316km 对开门豪华型 6座",
+          "configId": "244717",
+          "index": 10,
+          "price": "16.38万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 316km 对开门豪华型 7座",
+          "configId": "244718",
+          "index": 11,
+          "price": "16.38万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 316km 对开门豪华型 9座",
+          "configId": "244719",
+          "index": 12,
+          "price": "16.58万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 270KM长续航版",
+          "configId": "88390",
+          "index": 13,
+          "price": "16.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 掀背门智享型 2座",
+          "configId": "91327",
+          "index": 14,
+          "price": "14.98万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 对开门智享型 2座",
+          "configId": "94523",
+          "index": 15,
+          "price": "15.08万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F7FCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52658faf6a768b23f24d86c6ddc4906e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#F5F5DC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4a097d79c93631a5a43780afdeb5192~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/52658faf6a768b23f24d86c6ddc4906e~2508x0.webp"
+        },
+        {
+          "configName": "2023款 250km 掀背门智享型 5座",
+          "configId": "94524",
+          "index": 16,
+          "price": "15.08万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 对开门智享型 5座",
+          "configId": "94525",
+          "index": 17,
+          "price": "15.18万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 掀背门标准型 2座",
+          "configId": "94526",
+          "index": 18,
+          "price": "15.18万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 对开门标准型 2座",
+          "configId": "94528",
+          "index": 19,
+          "price": "15.28万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 掀背门高配型 2座",
+          "configId": "94529",
+          "index": 20,
+          "price": "15.28万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 250km 对开门高配型 2座",
+          "configId": "94530",
+          "index": 21,
+          "price": "15.38万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F7FCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b3995d2d587b036af433daaba83eeb2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#F5F5DC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32604271af1d9f423e0aa01b78837ef1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7b3995d2d587b036af433daaba83eeb2~2508x0.webp"
+        },
+        {
+          "configName": "2022款 240KM标准型",
+          "configId": "78997",
+          "index": 22,
+          "price": "15.38万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F7FCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89791e42328784a58b078a75a006b0a1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#F5F5DC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8088b8a9f96333976ca64e2f7a4a8d6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/89791e42328784a58b078a75a006b0a1~2508x0.webp"
+        },
+        {
+          "configName": "2022款 240KM高配型",
+          "configId": "78998",
+          "index": 23,
+          "price": "15.48万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F7FCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39ef48c9a27e6224a460cab68309cb25~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#F5F5DC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/062902e0161352957a6a6cc6c49c373d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/39ef48c9a27e6224a460cab68309cb25~2508x0.webp"
+        },
+        {
+          "configName": "2022款 270KM基本型",
+          "configId": "76825",
+          "index": 24,
+          "price": "16.28万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4800x1680x2005",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F7FCFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/43081f01509bf54b2d405249d9bb01d0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#F5F5DC",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/762277ff90cd664718674fa8802b7ded~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/43081f01509bf54b2d405249d9bb01d0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 5299,
+      "carName": "跨越星V5 EV",
+      "configs": [
+        {
+          "configName": "2025款 240km 厢式车智享型 2座",
+          "configId": "248556",
+          "index": 0,
+          "price": "7.78万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 240km 厢式车智享型 5座",
+          "configId": "248559",
+          "index": 1,
+          "price": "7.83万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 240km 厢式车舒适型 2座",
+          "configId": "248557",
+          "index": 2,
+          "price": "7.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 257km 客车智享型 6座",
+          "configId": "248562",
+          "index": 3,
+          "price": "7.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 257km 客车智享型 7座",
+          "configId": "248565",
+          "index": 4,
+          "price": "7.88万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 240km 厢式车舒适型 5座",
+          "configId": "248560",
+          "index": 5,
+          "price": "7.93万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 240km 厢式车豪华型 2座",
+          "configId": "248558",
+          "index": 6,
+          "price": "7.98万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 257km 客车舒适型 6座",
+          "configId": "248563",
+          "index": 7,
+          "price": "7.98万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 257km 客车舒适型 7座",
+          "configId": "248566",
+          "index": 8,
+          "price": "7.98万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 240km 厢式车豪华型 5座",
+          "configId": "248561",
+          "index": 9,
+          "price": "8.03万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 257km 客车豪华型 6座",
+          "configId": "248564",
+          "index": 10,
+          "price": "8.08万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 257km 客车豪华型 7座",
+          "configId": "248567",
+          "index": 11,
+          "price": "8.08万",
+          "manufacturer": "长安跨越",
+          "class": "微面",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4495x1680x1990",
+          "exteriorImages": [
+            {
+              "name": "白色",
+              "colors": [
+                "#F7FCFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b69fb4554dcbf4eabc7424e763f1ea32~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#E6DCBF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd965aca1ac2dfbe757de2ee9f4fec44~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b69fb4554dcbf4eabc7424e763f1ea32~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5060,
+      "carName": "新豹T1",
+      "configs": [
+        {
+          "configName": "2021款 1.3L标准版双排栏板2000mm货箱DK12C",
+          "configId": "57687",
+          "index": 0,
+          "price": "3.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.3L 91马力 L4",
+          "size": "4885x1580x1925",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c83dad81ddc20be4790d8a7ceea9776~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7784bc64aeaf1d7e1f2d0019d17a5d19~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8c83dad81ddc20be4790d8a7ceea9776~2508x0.webp"
+        },
+        {
+          "configName": "2021款 1.3L标准版单排栏板2700mm货箱DK12C",
+          "configId": "57696",
+          "index": 1,
+          "price": "3.49万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.3L 91马力 L4",
+          "size": "4755x1580x1905",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 1.3L标准版单排栏板2300mm货箱DK12C",
+          "configId": "57703",
+          "index": 2,
+          "price": "3.39万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.3L 91马力 L4",
+          "size": "4355x1580x1905",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71bfb129808c60b91527a9517e33f01b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25c01c4d740a50ebfe9746ed7b1cf492~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/71bfb129808c60b91527a9517e33f01b~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4161,
+      "carName": "跨越王X1",
+      "configs": [
+        {
+          "configName": "2022款 1.2L柳机双排双后轮3400轴距2.71米标准型载货汽车LJ469Q-AEB",
+          "configId": "77593",
+          "index": 0,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5615x1650x2040",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排双后轮3400轴距2.71米标准型载货汽车DAM16KR",
+          "configId": "77601",
+          "index": 1,
+          "price": "4.99万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5620x1650x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机单排单后轮2700轴距2.6米标准型载货汽车LJ469Q-AEB",
+          "configId": "79816",
+          "index": 2,
+          "price": "3.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4675x1600x2015",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c7b34597b77eecf2c7d71585f9df8da~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/灰色",
+              "colors": [
+                "#FCF8F8",
+                "#A09999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9356d3c7f8a6cb6257e5741742fe3d38~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7c7b34597b77eecf2c7d71585f9df8da~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.2L柳机单排单后轮2700轴距2.6米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77602",
+          "index": 3,
+          "price": "3.89万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4675x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机单排单后轮2990轴距3.05米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77607",
+          "index": 4,
+          "price": "4.09万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5310x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排单后轮2990轴距2.2米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77608",
+          "index": 5,
+          "price": "4.29万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5105x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排单后轮3400轴距2.55米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77609",
+          "index": 6,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5455x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机单排双后轮2900轴距3.05米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77610",
+          "index": 7,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5130x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排双后轮3400轴距2.55米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77611",
+          "index": 8,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5455x1650x2040",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排双后轮3400轴距3.71米舒适型载货汽车LJ469Q-AEB",
+          "configId": "77613",
+          "index": 9,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5615x1650x2040",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排单后轮2990轴距3.05米舒适型载货汽车DAM16KR",
+          "configId": "77614",
+          "index": 10,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5130x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排单后轮2990轴距2.2米舒适型载货汽车DAM16KR",
+          "configId": "77615",
+          "index": 11,
+          "price": "4.59万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5110x1600x2025",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排单后轮3400轴距2.55米舒适型载货汽车DAM16KR",
+          "configId": "77616",
+          "index": 12,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5460x1600x2025",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排双后轮2990轴距3.05米舒适型载货汽车DAM16KR",
+          "configId": "77617",
+          "index": 13,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5310x1650x2010",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排双后轮3400轴距2.55米舒适型载货汽车DAM16KR",
+          "configId": "77618",
+          "index": 14,
+          "price": "4.99万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5460x1650x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排双后轮3400轴距2.71米舒适型载货汽车DAM16KR",
+          "configId": "77619",
+          "index": 15,
+          "price": "5.09万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5620x1650x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机单排单后轮2700轴距2.6米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77620",
+          "index": 16,
+          "price": "3.99万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4675x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机单排单后轮2990轴距3.05米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77621",
+          "index": 17,
+          "price": "4.19万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5130x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排单后轮2990轴距2.2米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77622",
+          "index": 18,
+          "price": "4.39万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5105x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排单后轮3400轴距2.55米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77623",
+          "index": 19,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5460x1600x2025",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机单排双后轮2990轴距3.05米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77624",
+          "index": 20,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5130x1650x2010",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排双后轮3400轴距2.55米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77625",
+          "index": 21,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5455x1650x2040",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L柳机双排双后轮3400轴距2.71米豪华型载货汽车LJ469Q-AEB",
+          "configId": "77626",
+          "index": 22,
+          "price": "4.89万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5615x1650x2040",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排单后轮2700轴距2.6米豪华型载货汽车DAM16KR",
+          "configId": "77627",
+          "index": 23,
+          "price": "4.29万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4675x1600x2020",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排单后轮2990轴距3.05米豪华型载货汽车DAM16KR",
+          "configId": "77628",
+          "index": 24,
+          "price": "4.49万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5130x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排单后轮2990轴距2.2米豪华型载货汽车DAM16KR",
+          "configId": "77629",
+          "index": 25,
+          "price": "4.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5110x1600x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排单后轮3400轴距2.55米豪华型载货汽车DAM16KR",
+          "configId": "77630",
+          "index": 26,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5460x1600x2025",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排双后轮2900轴距3.05米豪华型载货汽车DAM16KR",
+          "configId": "77631",
+          "index": 27,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5130x1650x2010",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排双后轮3400轴距2.55米豪华型载货汽车DAM16KR",
+          "configId": "77632",
+          "index": 28,
+          "price": "5.09万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5460x1650x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排双后轮3400轴距2.71米豪华型载货汽车DAM16KR",
+          "configId": "77633",
+          "index": 29,
+          "price": "5.19万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5620x1650x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排单后轮2990轴距3.05米标准型载货汽车DAM16KRC",
+          "configId": "77634",
+          "index": 30,
+          "price": "4.89万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5130x1600x2010",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排单后轮3400轴距2.55米标准型载货汽车DAM16KRC",
+          "configId": "77635",
+          "index": 31,
+          "price": "5.19万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5460x1600x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排双后轮2990轴距3.05米标准型载货汽车DAM16KRC",
+          "configId": "77636",
+          "index": 32,
+          "price": "5.19万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5130x1650x2020",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400轴距2.55米标准型载货汽车DAM16KRC",
+          "configId": "77637",
+          "index": 33,
+          "price": "5.49万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5460x1650x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400轴距2.71米标准型载货汽车DAM16KRC",
+          "configId": "77639",
+          "index": 34,
+          "price": "5.59万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5620x1650x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排单后轮2990轴距3.05米舒适型载货汽车DAM16KRC",
+          "configId": "77640",
+          "index": 35,
+          "price": "4.99万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5130x1600x2010",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96a0f6f3412795b8b17a9ac996d416e0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/灰色",
+              "colors": [
+                "#FCF8F8",
+                "#A09999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b80a08d5c0169c91debe0e2c3b2e46c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/96a0f6f3412795b8b17a9ac996d416e0~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排单后轮3400轴距2.55米舒适型载货汽车DAM16KRC",
+          "configId": "77641",
+          "index": 36,
+          "price": "5.29万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5460x1600x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排双后轮2990轴距3.05米舒适型载货汽车DAM16KRC",
+          "configId": "77642",
+          "index": 37,
+          "price": "5.29万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5130x1650x2020",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400轴距2.55米舒适型载货汽车DAM16KRC",
+          "configId": "77643",
+          "index": 38,
+          "price": "5.59万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5460x1650x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400轴距2.71米舒适型载货汽车DAM16KRC",
+          "configId": "77644",
+          "index": 39,
+          "price": "5.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5620x1650x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排单后轮2990轴距3.05米豪华型载货汽车DAM16KRC",
+          "configId": "77645",
+          "index": 40,
+          "price": "4.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5130x1600x2010",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排单后轮3400轴距2.55米豪华型载货汽车DAM16KRC",
+          "configId": "77646",
+          "index": 41,
+          "price": "5.09万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5460x1600x2035",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排双后轮2990轴距3.05米豪华型载货汽车DAM16KRC",
+          "configId": "77647",
+          "index": 42,
+          "price": "5.39万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5130x1650x2020",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8138837e378197edde38585988aed124~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/灰色",
+              "colors": [
+                "#FCF8F8",
+                "#A09999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6092724c66e4d3f19f8c39b098adab44~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8138837e378197edde38585988aed124~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400轴距2.55米豪华型载货汽车DAM16KRC",
+          "configId": "77648",
+          "index": 43,
+          "price": "5.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5460x1650x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400轴距2.71米豪华型载货汽车DAM16KRC",
+          "configId": "77649",
+          "index": 44,
+          "price": "5.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5620x1650x2045",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排单后轮2700轴距2.51米标准型冷藏车DAM16KR",
+          "configId": "77650",
+          "index": 45,
+          "price": "6.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4680x1600x2510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安单排双后轮2990轴距2.96米标准型冷藏车DAM16KR",
+          "configId": "77651",
+          "index": 46,
+          "price": "7.76万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5130x1650x2580",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 5229,
+      "carName": "跨越王X1 EV",
+      "configs": [
+        {
+          "configName": "2023款 载货汽车 320km",
+          "configId": "87889",
+          "index": 0,
+          "price": "14.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4670x1600x2015",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 冷藏车 320km",
+          "configId": "87890",
+          "index": 1,
+          "price": "17.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "4670x1600x2435",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 载货汽车 282km",
+          "configId": "87894",
+          "index": 2,
+          "price": "14.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x2015",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fef994513f75cca526468543be63ae24~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5eb2c9af992d8ca1113f556583fc60d3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fef994513f75cca526468543be63ae24~2508x0.webp"
+        },
+        {
+          "configName": "2023款 厢式车 282km",
+          "configId": "87893",
+          "index": 3,
+          "price": "15.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x2490",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58513e1dbf5db857eafdd26b3c266feb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fac55986562e945b07b4b47d6bc6ea38~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/58513e1dbf5db857eafdd26b3c266feb~2508x0.webp"
+        },
+        {
+          "configName": "2023款 仓栅运输车 282km",
+          "configId": "87892",
+          "index": 4,
+          "price": "15.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x2450",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8288ab4910625d37981f18afed801ac~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee610f1433128ce28d2dfff9ab5548b9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e8288ab4910625d37981f18afed801ac~2508x0.webp"
+        },
+        {
+          "configName": "2023款 翼开启厢式车 282km",
+          "configId": "87891",
+          "index": 5,
+          "price": "15.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x2530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 冷藏车 282km",
+          "configId": "87895",
+          "index": 6,
+          "price": "17.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x1975",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 标准版",
+          "configId": "54716",
+          "index": 7,
+          "price": "12.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x2105",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ccf474b685aa20e3b0a8e1929442823~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d081e4c495981c5fc2447ad0de9999c3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6ccf474b685aa20e3b0a8e1929442823~2508x0.webp"
+        },
+        {
+          "configName": "2022款 舒适版",
+          "configId": "79819",
+          "index": 8,
+          "price": "13.22万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5130x1600x2105",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 3864,
+      "carName": "跨越王X3",
+      "configs": [
+        {
+          "configName": "2022款 1.6L单排双后轮3.2米豪华型 汽油",
+          "configId": "77536",
+          "index": 0,
+          "price": "5.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5300x1780x2080",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮3.3米豪华型 汽油",
+          "configId": "77537",
+          "index": 1,
+          "price": "5.48万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5300x1780x2080",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮2.55米豪华型 汽油",
+          "configId": "77543",
+          "index": 2,
+          "price": "5.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5480x1780x2100",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮2.71米豪华型 汽油",
+          "configId": "77546",
+          "index": 3,
+          "price": "5.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5640x1780x2100",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮3.2米豪华型 CNG",
+          "configId": "77547",
+          "index": 4,
+          "price": "5.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5300x1780x2090",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮3.3米豪华型 CNG",
+          "configId": "77553",
+          "index": 5,
+          "price": "6.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5400x1780x2090",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮2.55米舒适型 CNG",
+          "configId": "77559",
+          "index": 6,
+          "price": "6.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5480x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮2.55米豪华型 CNG",
+          "configId": "77560",
+          "index": 7,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5480x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮2.71米舒适型 CNG",
+          "configId": "77561",
+          "index": 8,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5640x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L单排双后轮2.71米豪华型 CNG",
+          "configId": "77562",
+          "index": 9,
+          "price": "6.48万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5640x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L双排2.55米旗舰型 CNG",
+          "configId": "79824",
+          "index": 10,
+          "price": "5.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 122马力 L4",
+          "size": "5480x1780x2080",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L双排2.71米旗舰型 CNG",
+          "configId": "79825",
+          "index": 11,
+          "price": "5.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 122马力 L4",
+          "size": "5640x1780x2080",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适型载货汽车单排双后轮3190轴距3.2米DAM16KR",
+          "configId": "93218",
+          "index": 12,
+          "price": "5.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 6244,
+      "carName": "跨越王X3 EV",
+      "configs": [
+        {
+          "configName": "2022款 标准续航版",
+          "configId": "79820",
+          "index": 0,
+          "price": "17.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 122马力",
+          "size": "5700x1780x2060",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad0599f4cd484e55a6fbf82992f1752f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#EDEAE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5926d52e3ac450f7aebf14ef60d3fcfd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ad0599f4cd484e55a6fbf82992f1752f~2508x0.webp"
+        },
+        {
+          "configName": "2022款 仓栅标准续航版",
+          "configId": "79821",
+          "index": 1,
+          "price": "18.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 122马力",
+          "size": "5700x1780x2060",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 厢式标准续航版",
+          "configId": "79822",
+          "index": 2,
+          "price": "18.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 122马力",
+          "size": "5700x1780x2060",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6fdf753bfa5fdb84f744d513012e5e7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e6fdf753bfa5fdb84f744d513012e5e7~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3863,
+      "carName": "新豹T3",
+      "configs": [
+        {
+          "configName": "2022款 PLUS 1.6L旗舰版单排3080mm轴距3.05米DAM16KR",
+          "configId": "79828",
+          "index": 0,
+          "price": "4.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4755x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L旗舰版单排3080mm轴距3.1米DAM16KR",
+          "configId": "79829",
+          "index": 1,
+          "price": "4.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L旗舰版双排3080mm轴距2.22米DAM16KR",
+          "configId": "79830",
+          "index": 2,
+          "price": "5.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4990x1700x1970",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/784b07ec854d8217457d20e9802e8fb4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cdc59b222897ab3aa87630d6bc6872a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/784b07ec854d8217457d20e9802e8fb4~2508x0.webp"
+        },
+        {
+          "configName": "2022款 PLUS 1.6L旗舰版双排3080mm轴距2.52米DAM16KR",
+          "configId": "79831",
+          "index": 3,
+          "price": "5.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5285x1700x1970",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c53ba4c25e53367e65e1ad2468aa9291~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd7577bf02db44935a2472d80dfbf3e7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c53ba4c25e53367e65e1ad2468aa9291~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.2L舒适版单排单后轮3080mm轴距2.82米栏板载货汽车LJ469Q-AEB",
+          "configId": "77534",
+          "index": 4,
+          "price": "4.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4755x1700x1875",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L舒适版单排单后轮3080mm轴距3.05米栏板载货汽车LJ469Q-AEB",
+          "configId": "77535",
+          "index": 5,
+          "price": "4.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L舒适版双排单后轮3080mm轴距2.22米栏板载货汽车LJ469Q-AEB",
+          "configId": "77538",
+          "index": 6,
+          "price": "4.48万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4990x1700x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适版双排单后轮3250mm轴距2.52米栏板载货汽车DAM16KR",
+          "configId": "77539",
+          "index": 7,
+          "price": "4.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5285x1700x1970",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4038d5701b8371b3de8d3b985714bcb3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06a7192fac3597972b283d1176eeb21f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4038d5701b8371b3de8d3b985714bcb3~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.2L舒适版单排单后轮3080mm轴距2.22米栏板载货汽车LJ469Q-AEB",
+          "configId": "77541",
+          "index": 8,
+          "price": "4.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4990x1700x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适版单排单后轮3080mm轴距3.05米栏板载货汽车DAM16KR",
+          "configId": "77542",
+          "index": 9,
+          "price": "4.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4507beac59f20a8a61ca2cd50da8894~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18e6f40d9a4804dc319d52c3ba98ec3a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e4507beac59f20a8a61ca2cd50da8894~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.2L豪华版单排单后轮3080mm轴距2.82米栏板载货汽车LJ469Q-AEB",
+          "configId": "77544",
+          "index": 10,
+          "price": "4.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4755x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L豪华版单排单后轮3080mm轴距3.05米栏板载货汽车LJ469Q-AEB",
+          "configId": "77545",
+          "index": 11,
+          "price": "4.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L豪华版单排单后轮3080mm轴距3.1米栏板载货汽车LJ469Q-AEB",
+          "configId": "77548",
+          "index": 12,
+          "price": "4.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L豪华版双排单后轮3080mm轴距2.22米栏板载货汽车LJ469Q-AEB",
+          "configId": "77549",
+          "index": 13,
+          "price": "4.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "4990x1700x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L豪华版双排单后轮3250mm轴距2.52米栏板载货汽车LJ469Q-AEB",
+          "configId": "77550",
+          "index": 14,
+          "price": "4.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.2L 91马力 L4",
+          "size": "5285x1700x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版单排单后轮3080mm轴距2.82米栏板载货汽车DAM16KR",
+          "configId": "77551",
+          "index": 15,
+          "price": "4.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4755x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版单排单后轮3080mm轴距3.05米栏板载货汽车DAM16KR",
+          "configId": "77552",
+          "index": 16,
+          "price": "4.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版单排单后轮3080mm轴距3.1米栏板载货汽车DAM16KR",
+          "configId": "77554",
+          "index": 17,
+          "price": "4.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5135x1700x1960",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e8e31758b86921445c164606e3d4969~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#C4C0B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1743899096b71b5f4d2b12579ca0d14b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5e8e31758b86921445c164606e3d4969~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.6L豪华版双排单后轮3080mm轴距2.22米栏板载货汽车DAM16KR",
+          "configId": "77555",
+          "index": 18,
+          "price": "4.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5285x1700x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版双排单后轮3250mm轴距2.52米栏板载货汽车DAM16KR",
+          "configId": "77556",
+          "index": 19,
+          "price": "4.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5285x1700x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.2L豪华型载货汽车单排单后轮栏板2820mm货箱LJ469Q-AEB",
+          "configId": "93223",
+          "index": 20,
+          "price": "4.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 10216,
+      "carName": "新豹T3 EV",
+      "configs": [
+        {
+          "configName": "2024款 单排豪华版 栏板车",
+          "configId": "101314",
+          "index": 0,
+          "price": "18.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5245x1750x1960",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4634b0dfb203dd247236c0e6a730dba9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4634b0dfb203dd247236c0e6a730dba9~2508x0.webp"
+        },
+        {
+          "configName": "2024款 单排豪华版 厢式车",
+          "configId": "101315",
+          "index": 1,
+          "price": "18.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5245x1750x2510",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c178439b152d860de5479dee079d1014~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c178439b152d860de5479dee079d1014~2508x0.webp"
+        },
+        {
+          "configName": "2024款 单排豪华版 仓栅车",
+          "configId": "101316",
+          "index": 2,
+          "price": "18.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 82马力",
+          "size": "5245x1750x2485",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 3872,
+      "carName": "跨越王X5",
+      "configs": [
+        {
+          "configName": "2022款 1.6L东安CNG单排双后轮3400mm轴距3.4米舒适版载货汽车DAM16KR",
+          "configId": "77662",
+          "index": 0,
+          "price": "5.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5440x1780x2070",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG单排双后轮3400mm轴距3.4米豪华版载货汽车DAM16KR",
+          "configId": "77663",
+          "index": 1,
+          "price": "5.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5440x1780x2070",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400mm轴距2.55米舒适版载货汽车DAM16KRC",
+          "configId": "77664",
+          "index": 2,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5440x1780x2090",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安CNG双排双后轮3400mm轴距2.55米豪华版载货汽车DAM16KRC",
+          "configId": "77665",
+          "index": 3,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5440x1780x2090",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安单排双后轮3600mm轴距3.6米豪华版载货汽车DAM16KR",
+          "configId": "77666",
+          "index": 4,
+          "price": "5.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5640x1850x2070",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安双排双后轮3600mm轴距2.85米豪华版载货汽车DAM16KR",
+          "configId": "77670",
+          "index": 5,
+          "price": "5.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5730x1780x2075",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安双排双后轮3600mm轴距3.05米豪华版载货汽车DAM16KR",
+          "configId": "77671",
+          "index": 6,
+          "price": "5.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5930x1780x2075",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安双排3.05米标准版仓栅式运输车DAM16KR",
+          "configId": "77672",
+          "index": 7,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5930x1780x2515",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 2.0L柳机CNG舒适版单排双后轮3400mm轴距3.4米载货汽车LJ481QS6",
+          "configId": "77678",
+          "index": 8,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5500x1780x2080",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 2.0L柳机CNG豪华版单排双后轮3400mm轴距3.4米载货汽车LJ481QS6",
+          "configId": "77679",
+          "index": 9,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5500x1780x2080",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机舒适版单排双后轮3600mm轴距3.6米载货汽车LJ4A18Q",
+          "configId": "77681",
+          "index": 10,
+          "price": "5.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5655x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版单排双后轮3600mm轴距3.6米载货汽车LJ4A18Q",
+          "configId": "77684",
+          "index": 11,
+          "price": "5.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5655x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机舒适版双排双后轮3600mm轴距2.85米载货汽车LJ4A18Q",
+          "configId": "77685",
+          "index": 12,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5745x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版双排双后轮3600mm轴距2.85米载货汽车LJ4A18Q",
+          "configId": "77688",
+          "index": 13,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5745x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机舒适版双排双后轮3600mm轴距3.05米载货汽车LJ4A18Q",
+          "configId": "77689",
+          "index": 14,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5945x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版双排双后轮3600mm轴距3.05米载货汽车LJ4A18Q",
+          "configId": "77691",
+          "index": 15,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5945x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG豪华版单排双后轮3600mm轴距3.6米载货汽车LJ481QS6",
+          "configId": "77965",
+          "index": 16,
+          "price": "6.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5695x1850x2135",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG豪华版双排双后轮3600mm轴距3.05米载货汽车LJ481QS6",
+          "configId": "77966",
+          "index": 17,
+          "price": "6.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5960x1780x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版单排双后轮3600mm轴距3.6米载货汽车D20TCIF13",
+          "configId": "77967",
+          "index": 18,
+          "price": "7.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5695x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版双排双后轮3600mm轴距2.85米载货汽车D20TCIF13",
+          "configId": "77968",
+          "index": 19,
+          "price": "8.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5760x1850x2140",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版双排双后轮3600mm轴距2.85米载货汽车D20TCIF13",
+          "configId": "77969",
+          "index": 20,
+          "price": "8.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5760x1850x2140",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版双排双后轮3600mm轴距3.05米载货汽车D20TCIF13",
+          "configId": "77970",
+          "index": 21,
+          "price": "8.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5960x1850x2140",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版双排双后轮3600mm轴距3.05米载货汽车D20TCIF13",
+          "configId": "77971",
+          "index": 22,
+          "price": "8.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5960x1850x2140",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适型载货汽车单排双后轮3400轴距3.4米DAM16KR",
+          "configId": "93327",
+          "index": 23,
+          "price": "5.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 9622,
+      "carName": "跨越王X7",
+      "configs": [
+        {
+          "configName": "2023款 1.6L CNG单排3.7米",
+          "configId": "95721",
+          "index": 0,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5730x1850x2060",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d43f9efcd7cc23051f991e10ce846ee~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4d43f9efcd7cc23051f991e10ce846ee~2508x0.webp"
+        },
+        {
+          "configName": "2023款 1.6L CNG双排3.05米",
+          "configId": "95722",
+          "index": 1,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "1.6L 105马力 L4",
+          "size": "5630x1850x2060",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6f60eacd542ada624b8a1ad33562033~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e6f60eacd542ada624b8a1ad33562033~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0L 汽油双排双后轮2.85米",
+          "configId": "95724",
+          "index": 2,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "2.0L 144马力 L4",
+          "size": "5790x1780x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0L 汽油双排双后轮3.07米",
+          "configId": "95726",
+          "index": 3,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "2.0L 144马力 L4",
+          "size": "5990x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0L 柴油单排3.7米",
+          "configId": "95727",
+          "index": 4,
+          "price": "7.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5795x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0L 柴油双排3.05米",
+          "configId": "95728",
+          "index": 5,
+          "price": "7.48万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5960x1850x2140",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0L CNG单排3.7米",
+          "configId": "95729",
+          "index": 6,
+          "price": "6.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "2.0L 122马力 L4",
+          "size": "5795x1850x2135",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0L CNG双排3.05米",
+          "configId": "95730",
+          "index": 7,
+          "price": "6.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "压缩天然气(CNG)",
+          "power": "2.0L 122马力 L4",
+          "size": "5930x1850x2075",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 4192,
+      "carName": "跨越者D5",
+      "configs": [
+        {
+          "configName": "2022款 1.6L舒适版单排栏板双后轮3400mm货箱DAM16KL",
+          "configId": "59449",
+          "index": 0,
+          "price": "5.59万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5435x1780x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L标准版排半栏板双后轮3400mm货箱DAM16KL",
+          "configId": "59515",
+          "index": 1,
+          "price": "5.65万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5800x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安豪华版单排双后轮3000mm轴距3.4米载货汽车DAM16KL",
+          "configId": "77795",
+          "index": 2,
+          "price": "5.59万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5435x1850x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L东安豪华版排半双后轮3000mm轴距3.05米载货汽车DAM16KL",
+          "configId": "77796",
+          "index": 3,
+          "price": "5.79万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5435x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 2.0T柴油云内豪华版单排双后轮3000mm轴距3.4米载货汽车D20TCIF3",
+          "configId": "77798",
+          "index": 4,
+          "price": "8.69万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5440x1850x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 2.0T柴油云内豪华版排半双后轮3000mm轴距3.05米载货汽车D20TCIF3",
+          "configId": "77884",
+          "index": 5,
+          "price": "8.89万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5440x1850x2110",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安豪华版双排双后轮3250mm轴距2.85米载货汽车DAM16KL",
+          "configId": "77913",
+          "index": 6,
+          "price": "6.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5805x1850x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安豪华版双排双后轮3250mm轴距3.05米载货汽车DAM16KL",
+          "configId": "77915",
+          "index": 7,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5995x1850x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安豪华版单排双后轮3250mm轴距3.75米载货汽车DAM16KL",
+          "configId": "77916",
+          "index": 8,
+          "price": "5.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5800x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安舒适版单排双后轮3250mm轴距3.95米载货汽车DAM16KL",
+          "configId": "77917",
+          "index": 9,
+          "price": "5.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5995x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安豪华版单排双后轮3250mm轴距3.95米载货汽车DAM16KL",
+          "configId": "77918",
+          "index": 10,
+          "price": "5.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5995x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安豪华版排半双后轮3250mm轴距3.4米载货汽车DAM16KL",
+          "configId": "77919",
+          "index": 11,
+          "price": "5.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5800x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安舒适版排半双后轮3250mm轴距3.6米载货汽车DAM16KL",
+          "configId": "77920",
+          "index": 12,
+          "price": "5.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5995x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.6L东安豪华版排半双后轮3250mm轴距3.6米载货汽车DAM16KL",
+          "configId": "77921",
+          "index": 13,
+          "price": "6.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5995x1850x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机豪华版单排双后轮3250mm轴距3.75米载货汽车LJ4A18Q6",
+          "configId": "77922",
+          "index": 14,
+          "price": "6.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "2.0L 144马力 L4",
+          "size": "5800x1950x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机豪华版单排双后轮3250mm轴距3.95米载货汽车LJ4A18Q6",
+          "configId": "77927",
+          "index": 15,
+          "price": "6.28万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "2.0L 144马力 L4",
+          "size": "5995x1950x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版排半双后轮3250mm轴距3.4米载货汽车LJ4A18Q6",
+          "configId": "77928",
+          "index": 16,
+          "price": "6.38万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5800x1950x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版排半双后轮3250mm轴距3.6米载货汽车LJ4A18Q6",
+          "configId": "77929",
+          "index": 17,
+          "price": "6.48万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5995x1950x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版双排双后轮3250mm轴距2.85米载货汽车LJ4A18Q6",
+          "configId": "77930",
+          "index": 18,
+          "price": "6.58万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5805x1850x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 1.8L柳机豪华版双排双后轮3250mm轴距3.05米载货汽车LJ4A18Q6",
+          "configId": "77931",
+          "index": 19,
+          "price": "6.68万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 125马力 L4",
+          "size": "5995x1850x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG豪华版单排双后轮3000mm轴距3.7米载货汽车LJ481QS6",
+          "configId": "77932",
+          "index": 20,
+          "price": "6.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5755x1850x2115",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG舒适版单排双后轮3250mm轴距3.95米载货汽车LJ481QS6",
+          "configId": "77933",
+          "index": 21,
+          "price": "6.78万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5995x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG豪华版单排双后轮3250mm轴距3.95米载货汽车LJ481QS6",
+          "configId": "77934",
+          "index": 22,
+          "price": "6.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5995x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG舒适版双排双后轮3250mm轴距3.05米载货汽车LJ481QS6",
+          "configId": "77935",
+          "index": 23,
+          "price": "6.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5995x1850x2135",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0L柳机CNG豪华版双排双后轮3250mm轴距3.05米载货汽车LJ481QS6",
+          "configId": "77936",
+          "index": 24,
+          "price": "7.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "油气混合",
+          "power": "2.0L 122马力 L4",
+          "size": "5995x1850x2135",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版双排双后轮3250mm轴距2.85米载货汽车D20TCIF3",
+          "configId": "77937",
+          "index": 25,
+          "price": "8.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5790x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版双排双后轮3250mm轴距2.85米载货汽车D20TCIF3",
+          "configId": "77938",
+          "index": 26,
+          "price": "8.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5790x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版双排双后轮3250mm轴距3.05米载货汽车D20TCIF3",
+          "configId": "77939",
+          "index": 27,
+          "price": "8.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5990x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版双排双后轮3250mm轴距3.05米载货汽车D20TCIF3",
+          "configId": "77940",
+          "index": 28,
+          "price": "9.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5990x1850x2125",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版单排双后轮3250mm轴距3.75米载货汽车D20TCIF3",
+          "configId": "77941",
+          "index": 29,
+          "price": "8.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5795x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版单排双后轮3250mm轴距3.75米载货汽车D20TCIF3",
+          "configId": "77942",
+          "index": 30,
+          "price": "8.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5795x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版单排双后轮3250mm轴距3.95米载货汽车D20TCIF3",
+          "configId": "77945",
+          "index": 31,
+          "price": "8.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5995x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版单排双后轮3250mm轴距3.95米载货汽车D20TCIF3",
+          "configId": "77949",
+          "index": 32,
+          "price": "9.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5995x1950x2120",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版排半双后轮3250mm轴距3.4米载货汽车D20TCIF3",
+          "configId": "77950",
+          "index": 33,
+          "price": "8.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5795x1950x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版排半双后轮3250mm轴距3.4米载货汽车D20TCIF3",
+          "configId": "77951",
+          "index": 34,
+          "price": "9.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5795x1950x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内舒适版排半双后轮3250mm轴距3.6米载货汽车D20TCIF3",
+          "configId": "77952",
+          "index": 35,
+          "price": "9.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5995x1950x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 PLUS 2.0T柴油云内豪华版排半双后轮3250mm轴距3.6米载货汽车D20TCIF3",
+          "configId": "77953",
+          "index": 36,
+          "price": "9.18万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "柴油",
+          "power": "2.0T 116马力 L4",
+          "size": "5995x1950x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.8L柳机标准版双排3250mm轴距3.05米载货汽车LJ481Q6",
+          "configId": "77954",
+          "index": 37,
+          "price": "7.08万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "汽油",
+          "power": "1.8L 106马力 L4",
+          "size": "5995x1850x2130",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2021款 2.0TPLUS舒适型载货汽车双排双后轮3250轴距2.85米D20TCIF3",
+          "configId": "93328",
+          "index": 38,
+          "price": "8.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 8820,
+      "carName": "跨越者D5新能源",
+      "configs": [
+        {
+          "configName": "2023款 230km 豪华版",
+          "configId": "86208",
+          "index": 0,
+          "price": "19.88万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 122马力",
+          "size": "5800x1850x2105",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 230km 载货汽车",
+          "configId": "94534",
+          "index": 1,
+          "price": "19.98万",
+          "manufacturer": "长安跨越",
+          "class": "微卡",
+          "fuelType": "纯电动",
+          "power": "纯电动 122马力",
+          "size": "5990x1950x2105",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fca2cb1acddce7e10414346eb896b313~2508x0.webp"
+            }
+          ],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 5421,
+      "carName": "新豹T5",
+      "configs": [
+        {
+          "configName": "2022款 1.6L标准版单排单后轮2850mm轴距2.85米载货汽车DAM16KR",
+          "configId": "77512",
+          "index": 0,
+          "price": "4.78万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4950x1730x2505",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适版单排单后轮2850mm轴距2.85米载货汽车DAM16KR",
+          "configId": "77513",
+          "index": 1,
+          "price": "4.88万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4950x1730x2505",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版单排单后轮2850mm轴距2.85米载货汽车DAM16KR",
+          "configId": "77514",
+          "index": 2,
+          "price": "4.98万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "4950x1730x2505",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L标准版单排单后轮3190mm轴距3.2米栏板载货汽车DAM16KR",
+          "configId": "77515",
+          "index": 3,
+          "price": "4.88万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5300x1730x2090",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适版单排单后轮3190mm轴距3.2米栏板载货汽车DAM16KR",
+          "configId": "77516",
+          "index": 4,
+          "price": "4.98万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5300x1730x2090",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版单排单后轮3190mm轴距3.2米载货汽车DAM16KR",
+          "configId": "77518",
+          "index": 5,
+          "price": "5.08万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5300x1730x2605",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L标准版双排单后轮3400mm轴距2.55米载货汽车DAM16KR",
+          "configId": "77517",
+          "index": 6,
+          "price": "5.18万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5480x1730x2095",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适版双排单后轮3400mm轴距2.55米载货汽车DAM16KR",
+          "configId": "77519",
+          "index": 7,
+          "price": "5.28万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5480x1730x2095",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版双排单后轮3400mm轴距2.55米载货汽车DAM16KR",
+          "configId": "77520",
+          "index": 8,
+          "price": "5.38万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5480x1730x2095",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L标准版双排单后轮3400mm轴距2.71米载货汽车DAM16KR",
+          "configId": "77522",
+          "index": 9,
+          "price": "5.28万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5640x1730x2115",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L舒适版双排单后轮3400mm轴距2.71米载货汽车DAM16KR",
+          "configId": "77524",
+          "index": 10,
+          "price": "5.38万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5640x1730x2115",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L豪华版双排单后轮3400mm轴距2.71米载货汽车DAM16KR",
+          "configId": "77525",
+          "index": 11,
+          "price": "5.48万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5640x1730x2115",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L旗舰001版载货汽车单排单后轮3400轴距3.3米DAM16KR",
+          "configId": "77530",
+          "index": 12,
+          "price": "5.28万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5400x1760x2085",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L旗舰001版载货汽车双排单后轮3400轴距2.6米DAM16KR",
+          "configId": "77531",
+          "index": 13,
+          "price": "5.68万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5535x1760x2100",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L标准版单排单后轮3400mm轴距3.3米载货汽车DAM16KR",
+          "configId": "77532",
+          "index": 14,
+          "price": "6.5万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "汽油",
+          "power": "1.6L 122马力 L4",
+          "size": "5400x1760x2085",
+          "exteriorImages": [
+            {
+              "name": "银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9f3261c83c313db99c5509e2c75063e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b9f3261c83c313db99c5509e2c75063e~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.6L旗舰版载货汽车双排单后轮3400轴距2.6米DAM16KR",
+          "configId": "93329",
+          "index": 15,
+          "price": "5.08万",
+          "manufacturer": "长安跨越",
+          "class": "轻卡",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2022款 1.6L旗舰版载货汽车单排单后轮3400轴距3.3米DAM16KR",
+          "configId": "93330",
+          "index": 16,
+          "price": "4.78万",
+          "manufacturer": "",
+          "class": "",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-09-02T09:22:56.159Z",
+  "progress": {
+    "completed": 18,
+    "total": 19,
+    "percentage": 95,
+    "currentIndex": 19
+  }
 }

@@ -308,6 +308,20 @@ export class EventManager {
       const instantUsedFields = ['usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedMarkup'];
       const instantNewEnergyFields = ['newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment', 'newEnergyMarkup'];
       
+      // 最终报价字段手动输入事件
+      const finalQuoteFields = ['finalQuote', 'finalQuoteUsed', 'finalQuoteNewEnergy'];
+      if (finalQuoteFields.includes(fieldId)) {
+        console.log('最终报价手动输入事件:', fieldId);
+        // 根据字段ID确定表单类型
+        let formType = 'new';
+        if (fieldId === 'finalQuoteUsed') formType = 'used';
+        else if (fieldId === 'finalQuoteNewEnergy') formType = 'newEnergy';
+        
+        // 重新计算利润
+        this.recalculateProfit(formType);
+        return;
+      }
+      
       // 新车字段
       if (this.eventConfig.newCarFields.includes(fieldId)) {
         console.log('新车字段事件:', fieldId);
@@ -432,6 +446,75 @@ export class EventManager {
         this.calculationEngine.calculateNewEnergyFinalQuote();
         break;
     }
+  }
+  
+  // 重新计算利润（当用户手动输入最终报价时）
+  recalculateProfit(formType) {
+    console.log('重新计算利润，表单类型:', formType);
+    
+    // 获取当前汇率
+    const exchangeRateId = {
+      new: 'exchangeRate',
+      used: 'exchangeRateUsed',
+      newEnergy: 'exchangeRateNewEnergy'
+    }[formType];
+    
+    const exchangeRate = parseFloat(Utils.getElementValue(exchangeRateId)) || 0;
+    if (exchangeRate <= 0) {
+      console.log('汇率无效，无法计算利润');
+      return;
+    }
+    
+    // 获取成本价格
+    const costPriceId = {
+      new: 'costPrice',
+      used: 'costPriceUsed',
+      newEnergy: 'costPriceNewEnergy'
+    }[formType];
+    
+    const costPrice = parseFloat(Utils.getElementValue(costPriceId)) || 0;
+    if (costPrice <= 0) {
+      console.log('成本价格无效，无法计算利润');
+      return;
+    }
+    
+    // 获取最终报价
+    const finalQuoteId = {
+      new: 'finalQuote',
+      used: 'finalQuoteUsed',
+      newEnergy: 'finalQuoteNewEnergy'
+    }[formType];
+    
+    const finalQuote = parseFloat(Utils.getElementValue(finalQuoteId)) || 0;
+    if (finalQuote <= 0) {
+      console.log('最终报价无效，无法计算利润');
+      return;
+    }
+    
+    // 计算利润
+    const { foreignProfit, rmbProfit } = this.calculationEngine.calculateProfit(finalQuote, costPrice, exchangeRate);
+    
+    // 更新利润显示
+    const profitId = {
+      new: 'profit',
+      used: 'usedProfit',
+      newEnergy: 'newEnergyProfit'
+    }[formType];
+    
+    const profitRateId = {
+      new: 'profitRate',
+      used: 'usedProfitRate',
+      newEnergy: 'newEnergyProfitRate'
+    }[formType];
+    
+    // 设置利润值
+    Utils.setElementValue(profitId, Math.round(foreignProfit));
+    
+    // 计算并设置利润率
+    const profitRate = costPrice > 0 ? (foreignProfit / costPrice * 100) : 0;
+    Utils.setElementValue(profitRateId, Math.round(profitRate * 100) / 100);
+    
+    console.log('利润重新计算完成:', { foreignProfit, rmbProfit, profitRate });
   }
   
   // 绑定手续费滑块事件

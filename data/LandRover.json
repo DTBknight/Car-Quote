@@ -3,823 +3,3209 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/2c52e02dd202db11ffaf361a38ca44ac~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "揽胜极光PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dc1a19183d23478198eec930ba20c8dc~1200x0.png",
-      "configs": [
-        {
-          "configName": "揽胜极光PHEV 2024款 极光L P300e 插电式电动混合版",
-          "price": "42.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4531x1904x1650",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "插电式混动 109马力"
-        },
-        {
-          "configName": "揽胜极光PHEV 2023款 极光L P300e 插电式电动混合版",
-          "price": "41.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4531x1904x1650",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "插电式混动 109马力"
-        },
-        {
-          "configName": "揽胜极光PHEV 2022款 极光L P300e 插电式电动混合版",
-          "price": "41.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4531x1904x1650",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "插电式混动 109马力"
-        },
-        {
-          "configName": "揽胜极光PHEV 2021款 极光L P300e",
-          "price": "44.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4531x1904x1650",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "插电式混动 109马力"
-        }
-      ]
-    },
-    {
-      "carName": "发现运动",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7bc08e41a607485e96fc9a812fd7c256~1200x0.png",
-      "configs": [
-        {
-          "configName": "发现运动 2025款 249PS 性能科技版",
-          "price": "38.83万",
-          "fuelType": "48V轻混系统",
-          "size": "4597x1904x1727",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "发现运动 2025款 249PS 探享特别版",
-          "price": "39.99万",
-          "fuelType": "48V轻混系统",
-          "size": "4597x1904x1727",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "发现运动 2025款 249PS 35周年纪念版",
-          "price": "39.99万",
-          "fuelType": "48V轻混系统",
-          "size": "4597x1904x1727",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": ""
-        }
-      ]
-    },
-    {
+      "carId": 993,
       "carName": "揽胜极光",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9f59d57b14ad4aa082093782718ce8d8~1200x0.png",
       "configs": [
         {
-          "configName": "揽胜极光 2024款 揽胜极光L 2.0T SE 驭光尊耀版",
+          "configName": "2024款 揽胜极光L 2.0T SE 驭光尊耀版",
+          "configId": "99508",
+          "index": 0,
           "price": "42.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4531x1904x1650",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 249马力 L4 48V轻混",
+          "size": "4531x1904x1650",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4766b8002bd384b0f4a2df237e2139b4~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e8d1d1171c43ed1cf3807a850784f80~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝/纳尔维克黑",
+              "colors": [
+                "#616182",
+                "#0A0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9b2f2426f426c687cb71db660174eae~2508x0.webp"
+            },
+            {
+              "name": "贝尔维亚绿",
+              "colors": [
+                "#77918D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cab13ed66624f8d97b6ada1883d7a3a2~2508x0.webp"
+            },
+            {
+              "name": "贝尔维亚绿/纳尔维克黑",
+              "colors": [
+                "#77918D",
+                "#0A0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4453a83275bbc100ca9680adfe553f95~2508x0.webp"
+            },
+            {
+              "name": "首尔珍珠银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e15c30b50dbd643a30bc38d31d53b14~2508x0.webp"
+            },
+            {
+              "name": "首尔珍珠银/纳尔维克黑",
+              "colors": [
+                "#E6E8FA",
+                "#0A0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae11c95ab988ec682f1e43870f8ec7a1~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/785afa8efaecdeee2c07799d6712189d~2508x0.webp"
+            },
+            {
+              "name": "富士白 /纳尔维克黑",
+              "colors": [
+                "#E9F0F2",
+                "#0A0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1815365f99026698f66d972debbe713~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6e85bc92668681f19222296823b2153~2508x0.webp"
+            },
+            {
+              "name": "石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f82c7254e27830186b36a52b9009f3d0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4766b8002bd384b0f4a2df237e2139b4~2508x0.webp"
         },
         {
-          "configName": "揽胜极光 2024款 揽胜极光L 2.0T HSE 凝光限定版",
+          "configName": "2024款 揽胜极光L 2.0T HSE 凝光限定版",
+          "configId": "99509",
+          "index": 1,
           "price": "47.58万",
+          "manufacturer": "奇瑞捷豹路虎",
+          "class": "中型SUV",
           "fuelType": "48V轻混系统",
+          "power": "2.0T 249马力 L4 48V轻混",
           "size": "4531x1904x1650",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "大屿山铜/夏朗德灰",
+              "colors": [
+                "#C7C4B2",
+                "#69686D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c59364396f216ce830d0a5121d90889~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/689056bfa29768bc774a1565d20a0509~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6c59364396f216ce830d0a5121d90889~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "发现神行",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01388e279c22f5be4b38ceab200c0dd8~1200x0.png",
+      "carId": 4313,
+      "carName": "发现运动",
       "configs": [
         {
-          "configName": "发现神行 2019款 200PS PURE版 国V",
-          "price": "34.68万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
+          "configName": "2025款 249PS 性能科技版",
+          "configId": "110014",
+          "index": 0,
+          "price": "38.83万",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型SUV",
-          "power": "2.0T 200马力 L4"
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 249马力 L4 48V轻混",
+          "size": "4597x1904x1727",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8109f09eb7546f2de5a37893b98ff5c0~2508x0.webp"
+            },
+            {
+              "name": "夏朗德灰",
+              "colors": [
+                "#69686D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc44508d0532ae7d8f62e016e655ced9~2508x0.webp"
+            },
+            {
+              "name": "大屿山古铜棕",
+              "colors": [
+                "#95928C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e129e705c4c9c6b7d36663a05e194ea~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d294bcb74cf68290c99773b21bf4678~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20823c3c31883d9f80745e8509e00d98~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐色",
+              "colors": [
+                "#825F50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02ab7ce5f4e5d382cba17484d0c87175~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8109f09eb7546f2de5a37893b98ff5c0~2508x0.webp"
         },
         {
-          "configName": "发现神行 2019款 200PS PURE版 国VI",
-          "price": "34.68万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
+          "configName": "2025款 249PS 探享特别版",
+          "configId": "110015",
+          "index": 1,
+          "price": "39.99万",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型SUV",
-          "power": "2.0T 200马力 L4"
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 249马力 L4 48V轻混",
+          "size": "4597x1904x1727",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7bde2c2a2569b23d9e517d442402c2c0~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝/纳尔维克黑",
+              "colors": [
+                "#616182",
+                "#0A0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aee15ea819a7c9edcdfaf73447f0be90~2508x0.webp"
+            },
+            {
+              "name": "富士白 /纳尔维克黑",
+              "colors": [
+                "#E9F0F2",
+                "#0A0D0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f65488ac0eafad6216ddcc8c55eb185e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e32135511da785ed8df410abc6aeee17~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐色",
+              "colors": [
+                "#825F50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90ad83ef03dde051ab5fc54d0977bfaa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7bde2c2a2569b23d9e517d442402c2c0~2508x0.webp"
         },
         {
-          "configName": "发现神行 2019款 240PS PURE版 国V",
-          "price": "36.58万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
+          "configName": "2025款 249PS 35周年纪念版",
+          "configId": "238781",
+          "index": 2,
+          "price": "39.99万",
           "manufacturer": "奇瑞捷豹路虎",
           "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS PURE版 国VI",
-          "price": "36.58万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS SE版 国V",
-          "price": "39.48万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS SE版 国VI",
-          "price": "39.48万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS SE版 Dynamic 国V",
-          "price": "41.38万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS SE版 Dynamic 国VI",
-          "price": "41.38万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS HSE版 国V",
-          "price": "45.28万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS HSE版 国VI",
-          "price": "45.28万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS HSE LUXURY版 国V",
-          "price": "50.08万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2019款 240PS HSE LUXURY版 国VI",
-          "price": "50.08万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2018款 240PS 智越限量版",
-          "price": "48.18万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2018款 200PS PURE版",
-          "price": "35.58万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 200马力 L4"
-        },
-        {
-          "configName": "发现神行 2018款 240PS PURE版",
-          "price": "37.48万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2018款 240PS SE版",
-          "price": "40.48万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2018款 240PS HSE版",
-          "price": "46.48万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2018款 240PS HSE LUXURY版",
-          "price": "51.38万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2017款 2.0T PURE",
-          "price": "36.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2017款 2.0T SE",
-          "price": "40.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2017款 2.0T 酷黑限量版",
-          "price": "43万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2017款 2.0T HSE",
-          "price": "46.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2017款 2.0T HSE LUXURY",
-          "price": "51.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2016款 2.0T S",
-          "price": "36.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2016款 2.0T SE",
-          "price": "40.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2016款 2.0T 限量版",
-          "price": "42.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2016款 2.0T 上市限量版",
-          "price": "43.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2016款 2.0T HSE",
-          "price": "46.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
-        },
-        {
-          "configName": "发现神行 2016款 2.0T HSE LUXURY",
-          "price": "51.8万",
-          "fuelType": "汽油",
-          "size": "4599x1894x1724",
-          "manufacturer": "奇瑞捷豹路虎",
-          "class": "中型SUV",
-          "power": "2.0T 241马力 L4"
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 249马力 L4 48V轻混",
+          "size": "4597x1904x1727",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 989,
       "carName": "揽胜星脉",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8c6601c7ecd94979b68ab29c711ae8df~1200x0.png",
       "configs": [
         {
-          "configName": "揽胜星脉 2026款 250PS S",
+          "configName": "2026款 250PS S",
+          "configId": "248924",
+          "index": 0,
           "price": "56.8万",
-          "fuelType": "汽油",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4811x1930x1684",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "揽胜星脉 2026款 250PS Dynamic SE",
+          "configName": "2026款 250PS Dynamic SE",
+          "configId": "248925",
+          "index": 1,
           "price": "63.8万",
-          "fuelType": "汽油",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4811x1930x1684",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bf0c73f6ff3855070423c1d42e5071ad~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "吉奥拉绿/黑色",
+              "colors": [
+                "#7FA4A3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_467be2ed47f9423f4142eb761c78e3e1~2508x0.webp"
+            },
+            {
+              "name": "巴统金/黑色",
+              "colors": [
+                "#B5AE9C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d1742cade5e0661355cf0676dfc75cc5~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_db0c9174e1caff8a684745050900862d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8907a3d043b69d87d609646fb0c44ecf~2508x0.webp"
+            },
+            {
+              "name": "蓝黑色/黑檀木色",
+              "colors": [
+                "#070788",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_817325322d115a8314616f68a837c3cc~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bf0c73f6ff3855070423c1d42e5071ad~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "揽胜星脉 2026款 250PS 典范版",
+          "configName": "2026款 250PS 典范版",
+          "configId": "248927",
+          "index": 2,
           "price": "68.8万",
-          "fuelType": "汽油",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4811x1930x1684",
+          "exteriorImages": [
+            {
+              "name": "阿霍约斯灰/黑色",
+              "colors": [
+                "#D7E2E1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_07ac09a9ad4da3255015a85d2facc6ba~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深石榴红/黑檀木",
+              "colors": [
+                "#541313",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8000c0acff791c04e3932f2a5e8c81f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_07ac09a9ad4da3255015a85d2facc6ba~2508x0.webp"
         },
         {
-          "configName": "揽胜星脉 2026款 400PS 典范版",
+          "configName": "2026款 400PS 典范版",
+          "configId": "248926",
+          "index": 3,
           "price": "78.8万",
+          "manufacturer": "路虎(进口)",
+          "class": "中型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混系统",
           "size": "4811x1930x1684",
-          "manufacturer": "路虎(进口)",
-          "class": "中型SUV",
-          "power": ""
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "揽胜星脉 2025款 S",
+          "configName": "2025款 S",
+          "configId": "101362",
+          "index": 4,
           "price": "56.8万",
-          "fuelType": "汽油",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4811x1930x1684",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b6904cd53d19631af104f59ff362709~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/578b2efb9e11de068bc0d01b45854021~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d42776643d8c316bbd90bf3f05de0ee0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/caf0fed3a73f9f833348bbe83c2e4147~2508x0.webp"
+            },
+            {
+              "name": "蓝黑色/黑檀木色",
+              "colors": [
+                "#070788",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bca63a9f0757be28fa6e16220175674~2508x0.webp"
+            },
+            {
+              "name": "薄云色",
+              "colors": [
+                "#888585"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85f3915c84d133917134296a08143c18~2508x0.webp"
+            },
+            {
+              "name": "薄云色/黑檀木色",
+              "colors": [
+                "#888585",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e14c839f43c14aeea70c9a28e3854e1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9b6904cd53d19631af104f59ff362709~2508x0.webp"
         },
         {
-          "configName": "揽胜星脉 2025款 Dynamic SE",
+          "configName": "2025款 Dynamic SE",
+          "configId": "101363",
+          "index": 5,
           "price": "63.8万",
-          "fuelType": "汽油",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4811x1930x1684",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05700078a8c8cc682b0464fc8aae6b4f~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_295867de039af06d205ad30dd0f3826a~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a165ecd5da78c9b3ab77c03b55419085~2508x0.webp"
+            },
+            {
+              "name": "扎达尔灰",
+              "colors": [
+                "#8B8A8A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7acc5eedae217c5a94ae5a813cf07ed~2508x0.webp"
+            },
+            {
+              "name": "阿霍约斯灰",
+              "colors": [
+                "#D7E2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00bf087275a79bdf3809ba0b861e08b0~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/242b9095c3e890e7191fda4d33efba11~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00525c82c8322d860548e99ef4e912e3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd8c1c82d3b474179221875f5f9cc27d~2508x0.webp"
+            },
+            {
+              "name": "蓝黑色/黑檀木色",
+              "colors": [
+                "#070788",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9f3e64b92cdb06c24591b9b5df222a7~2508x0.webp"
+            },
+            {
+              "name": "薄云色/黑檀木色",
+              "colors": [
+                "#888585",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/378f9119347675601506345652854ce6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/05700078a8c8cc682b0464fc8aae6b4f~2508x0.webp"
         },
         {
-          "configName": "揽胜星脉 2025款 Dynamic HSE",
+          "configName": "2025款 Dynamic HSE",
+          "configId": "101364",
+          "index": 6,
           "price": "67.8万",
-          "fuelType": "汽油",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": "2.0T 250马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 250马力 L4",
+          "size": "4811x1930x1684",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4caaab66c28e6f9e3175f0cce657ba8~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3c7bef3612d86721bf2a24f26b91a23~2508x0.webp"
+            },
+            {
+              "name": "阿霍约斯灰",
+              "colors": [
+                "#D7E2E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3ca13435609391d9b059de20d192597~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3558ffe5159421a0e6e6ed7a6e88be99~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/854bef0554e41fe878184ec4623ff9fd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59d8bc43f672290b0dbc64224d354f56~2508x0.webp"
+            },
+            {
+              "name": "深石榴红/黑檀木",
+              "colors": [
+                "#541313",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79286ca80d783d48b1393c62a007e454~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c85686d3efc5d9977e07a12be1f21877~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b4caaab66c28e6f9e3175f0cce657ba8~2508x0.webp"
         },
         {
-          "configName": "揽胜星脉 2025款 典范版",
+          "configName": "2025款 典范版",
+          "configId": "101365",
+          "index": 7,
           "price": "78.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4811x1930x1684",
           "manufacturer": "路虎(进口)",
           "class": "中型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混系统",
+          "size": "4811x1930x1684",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f46d7651c49e29d8a46725a026c2d726~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9885f4ffda9e7e54bec849e75441de6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深石榴红/黑檀木",
+              "colors": [
+                "#541313",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65eb4f8b3a98b5944536e4398eda24e3~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c792e38e650968c09adab5cc366f462c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f46d7651c49e29d8a46725a026c2d726~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 990,
       "carName": "发现",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f606c9329582424f84d6009843521d42~1200x0.png",
       "configs": [
         {
-          "configName": "发现 2025款 300PS S",
+          "configName": "2025款 300PS S",
+          "configId": "111272",
+          "index": 0,
           "price": "65.88万",
-          "fuelType": "汽油",
-          "size": "4956x2073x1888",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": "2.0T 300马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 300马力 L4",
+          "size": "4956x2073x1888",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9426887f0897dc340c03a42a568e3de0~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df25b12b4b56b8e4a23a126efb30eeae~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63e3d6c58dad30c99d7858dca1da2268~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9426887f0897dc340c03a42a568e3de0~2508x0.webp"
         },
         {
-          "configName": "发现 2025款 360PS S",
+          "configName": "2025款 360PS S",
+          "configId": "111273",
+          "index": 1,
           "price": "71.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4956x2073x1888",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 L6",
+          "size": "4956x2073x1888",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f48e4d8ba2419f93172e369478d19a21~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b53bef05aadb522b1511e075dbb8a61~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/213f6116e58e95892a9cac371a721627~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14001a9829505fa5f544f965f57c55bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f747c1a133990e9fcefacaac612535e9~2508x0.webp"
+            },
+            {
+              "name": "浅牡蛎色",
+              "colors": [
+                "#DDD5CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5bcd67cb3d5473c73762f041a919f31~2508x0.webp"
+            },
+            {
+              "name": "浅牡蛎色/黑檀木",
+              "colors": [
+                "#DDD5CC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec337a8048fd916e756e6e85524f22ea~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f48e4d8ba2419f93172e369478d19a21~2508x0.webp"
         },
         {
-          "configName": "发现 2025款 360PS R-Dynamic SE",
+          "configName": "2025款 360PS R-Dynamic SE",
+          "configId": "111274",
+          "index": 2,
           "price": "75.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4956x2073x1888",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 L6",
+          "size": "4956x2073x1888",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/803c83cdf0b646fc4faae29725bfa708~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰/黑色",
+              "colors": [
+                "#909194",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c202d05808c962dd9b94511ed58c770a~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a85b7bcce622c1959a690419e652614d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/638ead25addb74d5aa7c9b8d71c6a4ec~2508x0.webp"
+            },
+            {
+              "name": "浅牡蛎色",
+              "colors": [
+                "#DDD5CC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17d47a0255bd3a92f595459c891f3bbb~2508x0.webp"
+            },
+            {
+              "name": "浅牡蛎色/黑檀木",
+              "colors": [
+                "#DDD5CC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21a216295800831ed2415215a8a11159~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/803c83cdf0b646fc4faae29725bfa708~2508x0.webp"
         },
         {
-          "configName": "发现 2025款 360PS R-Dynamic HSE",
+          "configName": "2025款 360PS R-Dynamic HSE",
+          "configId": "111275",
+          "index": 3,
           "price": "79.88万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 L6",
           "size": "4956x2073x1888",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08daef487d9d02a7017ef1c5e8126262~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀褐色/黑檀木",
+              "colors": [
+                "#825F50",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05a3890175010fac26bcdfbc8dd7e57c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/08daef487d9d02a7017ef1c5e8126262~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 986,
       "carName": "卫士",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d359131c965043b7b8f73a50781c40fb~1200x0.png",
       "configs": [
         {
-          "configName": "卫士 2025款 90 2.0T P300 S",
+          "configName": "2025款 90 2.0T P300 S",
+          "configId": "101187",
+          "index": 0,
           "price": "68.8万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 300马力 L4",
           "size": "4323x2008x1969",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": "2.0T 300马力 L4"
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54c37e4668202e6dd086f868f04fa344~2508x0.webp"
+            },
+            {
+              "name": "澳新蓝",
+              "colors": [
+                "#8197D9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b34a88779fa124fe43162a071d2a0363~2508x0.webp"
+            },
+            {
+              "name": "冰河白",
+              "colors": [
+                "#FAFAFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70a38f9c721433fde267e6bfb3c09dd5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b153af82128a70f4a246effe7d6d32e8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/54c37e4668202e6dd086f868f04fa344~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 90 3.0T P400 X-DYNAMIC HSE",
+          "configName": "2025款 90 3.0T P400 X-DYNAMIC HSE",
+          "configId": "240626",
+          "index": 1,
           "price": "81.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4323x2008x1969",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4323x2008x1969",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d0e1bafa40a3c8417ba137199a0e384~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰/暗夜黑",
+              "colors": [
+                "#414141",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28852239eec31aee19d64caffa913183~2508x0.webp"
+            },
+            {
+              "name": "澳新蓝/暗夜黑",
+              "colors": [
+                "#8197D9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c25a54ff3b3faceb9eb36d2cb8f9811a~2508x0.webp"
+            },
+            {
+              "name": "冰河白/暗夜黑",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09588d2a534ca411edaddd65a555e016~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e875a65b0b1bf78d1124e7e1d05bc35~2508x0.webp"
+            },
+            {
+              "name": "浅米色/银叶灰",
+              "colors": [
+                "#DDD5CC",
+                "#B8B6B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e19e0ec89bc1c33f73d6e4146622b27~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8d0e1bafa40a3c8417ba137199a0e384~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 90 3.0T 英伦之声特别版",
+          "configName": "2025款 90 3.0T 英伦之声特别版",
+          "configId": "249838",
+          "index": 2,
           "price": "81.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4323x2008x1969",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4323x2008x1969",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96753f89047a83c27798aa97084ef625~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96753f89047a83c27798aa97084ef625~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 90 5.0T V8",
+          "configName": "2025款 90 5.0T V8",
+          "configId": "240631",
+          "index": 3,
           "price": "126.6万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "5.0T 525马力 V8",
           "size": "4323x2008x1969",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": "5.0T 525马力 V8"
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e943667dfd32e19be21326e5a58e8ed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e943667dfd32e19be21326e5a58e8ed~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 110 3.0T P400 SE X-DYNAMIC",
+          "configName": "2025款 110 3.0T P400 SE X-DYNAMIC",
+          "configId": "240628",
+          "index": 4,
           "price": "79.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4758x2008x1967",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ba78668853bccf674abd38e4a0354fa~2508x0.webp"
+            },
+            {
+              "name": "冰河白/暗夜黑",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba0fccbc5d52c68bedde8eec1544d69a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af4711cbd562d5ae225fee7be06be0f1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7ba78668853bccf674abd38e4a0354fa~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 110 3.0T P400 HSE X-DYNAMIC",
+          "configName": "2025款 110 3.0T P400 HSE X-DYNAMIC",
+          "configId": "240627",
+          "index": 5,
           "price": "88.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4758x2008x1967",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fc421ed4ab9a34b74e258cea913e957~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰",
+              "colors": [
+                "#414141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06c3dcad4c0ec2dfc552a3e544c8b0c3~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰/暗夜黑",
+              "colors": [
+                "#414141",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22bbb790b909a0d746bc7573425b6f03~2508x0.webp"
+            },
+            {
+              "name": "硅谷银/暗夜黑",
+              "colors": [
+                "#80766B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e5e307fe659c5b8f66ff778d08f97dc~2508x0.webp"
+            },
+            {
+              "name": "澳新蓝/暗夜黑",
+              "colors": [
+                "#8197D9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05fc749bc871ed59e525990627e612ce~2508x0.webp"
+            },
+            {
+              "name": "古陆棕/暗夜黑",
+              "colors": [
+                "#A59784",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_142bae5b5f3f811b4eb54bf887eb054c~2508x0.webp"
+            },
+            {
+              "name": "盘古绿",
+              "colors": [
+                "#C8D3B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f955715166ac0e5b29e500c447a3e23~2508x0.webp"
+            },
+            {
+              "name": "盘古绿/暗夜黑",
+              "colors": [
+                "#C8D3B9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/101585a7651c2997caa41f147d61b287~2508x0.webp"
+            },
+            {
+              "name": "冰河白",
+              "colors": [
+                "#FAFAFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53ceba957aa8415ab916b536c01195e2~2508x0.webp"
+            },
+            {
+              "name": "冰河白/暗夜黑",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8613f34c38cd653d6af05654a1a9630~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ca8b7ce487c59427eb47278c653cef7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2fc421ed4ab9a34b74e258cea913e957~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 110 3.0T P400 X",
+          "configName": "2025款 110 3.0T P400 X",
+          "configId": "240630",
+          "index": 6,
           "price": "103.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4758x2008x1967",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91e683bd4c645076e0cb88c5fbbd82c0~2508x0.webp"
+            },
+            {
+              "name": "硅谷银/暗夜黑",
+              "colors": [
+                "#80766B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aeff2350542df53e4be4ff275db24ee5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b108a2c7ae34b7706bffa064a2a57d5e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/91e683bd4c645076e0cb88c5fbbd82c0~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 110 3.0T P400 暗黑特别版",
+          "configName": "2025款 110 3.0T P400 暗黑特别版",
+          "configId": "240629",
+          "index": 7,
           "price": "93.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4758x2008x1967",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4758x2008x1967",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d560430cdaa0a920fe5b9edeb38ecaf3~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰",
+              "colors": [
+                "#414141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66b436f4e7933b448fd9e38cd882af3e~2508x0.webp"
+            },
+            {
+              "name": "硅谷银",
+              "colors": [
+                "#737471"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d77d3d8811cfe6d88df4f6f238d7f27~2508x0.webp"
+            },
+            {
+              "name": "澳新蓝",
+              "colors": [
+                "#8197D9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8892e923eb1e25b681d70bff183fb7bf~2508x0.webp"
+            },
+            {
+              "name": "古陆棕",
+              "colors": [
+                "#A59784"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34646d1d1b16736ae9143dd92ef93d8d~2508x0.webp"
+            },
+            {
+              "name": "塞多纳红",
+              "colors": [
+                "#BB4747"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0446a9ceac64cada148cba3b1ef8bcaf~2508x0.webp"
+            },
+            {
+              "name": "盘古绿",
+              "colors": [
+                "#C8D3B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/becae08cebdb54e367707669fff71642~2508x0.webp"
+            },
+            {
+              "name": "冰河白",
+              "colors": [
+                "#FAFAFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5bde0be05bc356638a90684116a0a71a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd7c80919357a16eca02b17a23792695~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d560430cdaa0a920fe5b9edeb38ecaf3~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 130 3.0T P400 SE X-DYNAMIC",
+          "configName": "2025款 130 3.0T P400 SE X-DYNAMIC",
+          "configId": "240749",
+          "index": 8,
           "price": "90.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5099x2008x1970",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T  400马力 L6 48V轻混",
+          "size": "5099x2008x1970",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "卫士 2025款 110 5.0T V8",
+          "configName": "2025款 110 5.0T V8",
+          "configId": "240632",
+          "index": 9,
           "price": "146.6万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "5.0T 525马力 V8",
           "size": "4758x2008x1967",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": "5.0T 525马力 V8"
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61520397b721281955573afe38b6b371~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰/暗夜黑",
+              "colors": [
+                "#414141",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d23993e340ca7fc8911d2250c125a990~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b46037933c8a23391be80c28b40aba15~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/61520397b721281955573afe38b6b371~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 130 3.0T P400 七座奢享版",
+          "configName": "2025款 130 3.0T P400 七座奢享版",
+          "configId": "240750",
+          "index": 10,
           "price": "102.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5099x2008x1970",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T  400马力 L6 48V轻混",
+          "size": "5099x2008x1970",
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/460924ab97d40aa5ee4e55e3977f3b91~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰",
+              "colors": [
+                "#414141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be98fffc069cf402f3cdfbc2b079adab~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰/暗夜黑",
+              "colors": [
+                "#414141",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36f5eeadad9a4ceeef2cac6ac716350e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cfa6b694bb41b8b551543e9b76d2b410~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/460924ab97d40aa5ee4e55e3977f3b91~2508x0.webp"
         },
         {
-          "configName": "卫士 2025款 130 3.0T P400 远征特别版",
+          "configName": "2025款 130 3.0T P400 远征特别版",
+          "configId": "240751",
+          "index": 11,
           "price": "101.8万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T  400马力 L6 48V轻混",
           "size": "5099x2008x1970",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "陨石黑",
+              "colors": [
+                "#0F1214"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_afe4ba0002e36e197b6bec47228b7c82~2508x0.webp"
+            },
+            {
+              "name": "卡尔巴阡灰",
+              "colors": [
+                "#414141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6daa406a06de25ac91ec13dc279ba596~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_216c7207960979c034e69bff0aface62~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_afe4ba0002e36e197b6bec47228b7c82~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 991,
       "carName": "揽胜",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a6e3de550b9d439484b9d05859551b07~1200x0.png",
       "configs": [
         {
-          "configName": "揽胜 2025款 3.0 L6 360PS 盛世版",
+          "configName": "2025款 3.0 L6 360PS 盛世版",
+          "configId": "240424",
+          "index": 0,
           "price": "141.2万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 L6 48V轻混",
           "size": "5052x2047x1870",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d72b115dc23c3aaf5706222b2919a2b~2508x0.webp"
+            },
+            {
+              "name": "巴统金",
+              "colors": [
+                "#B5AE9C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d16fbfba57ec8b46d5ea5af1ad7c484~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17b66c241ac03146e9dab4ea0031086b~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d28c5a58cfd1a3fcb0351fb90832c7ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d9b99ec047530249f22a8b431283bf2a~2508x0.webp"
+            },
+            {
+              "name": "深石榴红",
+              "colors": [
+                "#594345"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_274f8c25fc0e0dd289f03c271553c611~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐",
+              "colors": [
+                "#8B7359"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d44426409f90edea3f074aea3e68ee06~2508x0.webp"
+            },
+            {
+              "name": "浅米色",
+              "colors": [
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f1f586ca4ef12fb0c969cf424e87894~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1d72b115dc23c3aaf5706222b2919a2b~2508x0.webp"
         },
         {
-          "configName": "揽胜 2025款 3.0 L6 400PS 盛世加长版 7座",
+          "configName": "2025款 3.0 L6 400PS 盛世加长版 7座",
+          "configId": "240425",
+          "index": 1,
           "price": "145.2万",
-          "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "5252x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/daedea771f96649b44d91f5b3f375074~2508x0.webp"
+            },
+            {
+              "name": "贝尔维亚绿",
+              "colors": [
+                "#77918D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96dcc0ca2620eefb161fc13312097298~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7bf71d3ca408b2d5e5bed9d2ead83041~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8dbbe068deab4087d7119d936b76ca1c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31bdc71c39c51c6c1eccf14ea02ea62f~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐",
+              "colors": [
+                "#8B7359"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a4b92da9a81c8e1766b07797101071a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/daedea771f96649b44d91f5b3f375074~2508x0.webp"
         },
         {
-          "configName": "揽胜 2025款 3.0 L6 400PS 盛世加长版",
+          "configName": "2025款 3.0 L6 400PS 盛世加长版",
+          "configId": "240426",
+          "index": 2,
           "price": "145.2万",
-          "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "5252x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b86229c9c72ec4ee25c22974dc20e0b~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2245c0c87d3077e6220d3668bc86a069~2508x0.webp"
+            },
+            {
+              "name": "夏朗德灰",
+              "colors": [
+                "#69686D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/861e32b2d9880035ab0753ea0eac03cd~2508x0.webp"
+            },
+            {
+              "name": "贝尔维亚绿",
+              "colors": [
+                "#77918D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffeac1e72bba268117852089b96dbd44~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e789fe3c3b30f77f0be4e6031ee8e102~2508x0.webp"
+            },
+            {
+              "name": "巴统金",
+              "colors": [
+                "#B5AE9C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08dc614fe7a387fdba227b102f61033e~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44d8e2824e59686da718a104063dd6a6~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c97a480279b3eebded5ff599889de61~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_303e03e3bc413fa37c701c804950cad7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f12ab9296a32643b4e26636410008b9~2508x0.webp"
+            },
+            {
+              "name": "深石榴红",
+              "colors": [
+                "#594345"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d67100bd1075f48ff7b7121a74dbf8b1~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐",
+              "colors": [
+                "#8B7359"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/904e152dea7353ce190d8ec262ee8c0f~2508x0.webp"
+            },
+            {
+              "name": "浅米色",
+              "colors": [
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bbf64d4782dc0f6dff0f55e0ee20b965~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b86229c9c72ec4ee25c22974dc20e0b~2508x0.webp"
         },
         {
-          "configName": "揽胜 2025款 3.0 L6 400PS 创世加长版",
+          "configName": "2025款 3.0 L6 400PS 创世加长版",
+          "configId": "240427",
+          "index": 3,
           "price": "173.2万",
-          "fuelType": "48V轻混系统",
-          "size": "5252x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "5252x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a60358c1413a5be21865634755c24017~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2f279b193d253354d4bd825ec97025aa~2508x0.webp"
+            },
+            {
+              "name": "夏朗德灰",
+              "colors": [
+                "#69686D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e119027bf88a34d2a445e5e4e5bd83e3~2508x0.webp"
+            },
+            {
+              "name": "贝尔维亚绿",
+              "colors": [
+                "#77918D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/973742dd5c105d306c8095d9442a3e45~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cbc4ae95439b9f0d15e67613bee05af~2508x0.webp"
+            },
+            {
+              "name": "巴统金",
+              "colors": [
+                "#B5AE9C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f41cb00aca8128fbb5a9f2e08afd10c~2508x0.webp"
+            },
+            {
+              "name": "长野雪山银",
+              "colors": [
+                "#C6CBD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_77c8f5d378d65f8afa0b81770bfc6634~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b183b9404f69429020e75b2410f0211a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深石榴红",
+              "colors": [
+                "#594345"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09633251f3f297d4014bdfdcc8ca1f9d~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐",
+              "colors": [
+                "#8B7359"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6301aa69be68e13f5aa8158a2a85227d~2508x0.webp"
+            },
+            {
+              "name": "浅米色",
+              "colors": [
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47b9339924116b7b4e11a5a808743591~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a60358c1413a5be21865634755c24017~2508x0.webp"
         },
         {
-          "configName": "揽胜 2025款 3.0 L6 400PS 典范加长版",
+          "configName": "2025款 3.0 L6 400PS 典范加长版",
+          "configId": "240428",
+          "index": 4,
           "price": "206.2万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
           "size": "5252x2047x1870",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b686b0ebe641baa0a31a9de00c7cf441~2508x0.webp"
+            },
+            {
+              "name": "夏朗德灰",
+              "colors": [
+                "#69686D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de346696039523aa093654b6101856fe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深石榴红",
+              "colors": [
+                "#594345"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c4a504518cf233827bfbb3f5a9dd3c9~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐",
+              "colors": [
+                "#8B7359"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/995f35ffa5a593b2b39209f7f58bb6a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b686b0ebe641baa0a31a9de00c7cf441~2508x0.webp"
         },
         {
-          "configName": "揽胜 2025款 4.4 V8 SV 中国十周年高定版",
+          "configName": "2025款 4.4 V8 SV 中国十周年高定版",
+          "configId": "247090",
+          "index": 5,
           "price": "379.5万",
-          "fuelType": "48V轻混系统",
-          "size": "5258x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "4.4T 615马力 V8 48V轻混系统",
+          "size": "5258x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "哑光古铜/罗赛洛红",
+              "colors": [
+                "#CF9561",
+                "#721313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4426b9ba4c5f7b575ac9e8aa213aec4e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4426b9ba4c5f7b575ac9e8aa213aec4e~2508x0.webp"
         },
         {
-          "configName": "揽胜 2024款 3.0 L6 400PS SV尊荣创世加长版",
+          "configName": "2024款 3.0 L6 400PS SV尊荣创世加长版",
+          "configId": "95982",
+          "index": 6,
           "price": "236.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5258x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "5258x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8cfcffed7bc93bac4c77ed06c04c79f4~2508x0.webp"
+            },
+            {
+              "name": "英国赛车绿",
+              "colors": [
+                "#162A28"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf1cc2d2954756b996fb51f7c93471d8~2508x0.webp"
+            },
+            {
+              "name": "利古里亚黑",
+              "colors": [
+                "#171D22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a20d44afcd77327f2812824accdb02e7~2508x0.webp"
+            },
+            {
+              "name": "极速蓝",
+              "colors": [
+                "#1D4696"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eedf002243e0759fed23ca4b7496c359~2508x0.webp"
+            },
+            {
+              "name": "星座蓝",
+              "colors": [
+                "#334966"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15b3e8983d6e7203b494e51e18684de5~2508x0.webp"
+            },
+            {
+              "name": "拜卓蓝",
+              "colors": [
+                "#3B80B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86edf3d400d7221af6e5ba24000412e2~2508x0.webp"
+            },
+            {
+              "name": "瓦雷辛蓝",
+              "colors": [
+                "#4F5D75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9116833914183b20ef83db8a9585b704~2508x0.webp"
+            },
+            {
+              "name": "紫晶灰紫",
+              "colors": [
+                "#5F6673"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/920661df0f3c479e6682bc11b02553c9~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰/科林斯青铜",
+              "colors": [
+                "#606467",
+                "#988F88"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6b60cefb74d00e7cb4984b223bf9290~2508x0.webp"
+            },
+            {
+              "name": "碧玺棕",
+              "colors": [
+                "#695E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/877e97a33b14b3259e9cbab4a93159e4~2508x0.webp"
+            },
+            {
+              "name": "日光铜",
+              "colors": [
+                "#801709"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04a7c18641ee54a497eb64ec39210851~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fcb26ae6b5ed1eec96de16a4b6cf50b~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#AEB1B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8908202f7c79edf2e5882f12f3a1103d~2508x0.webp"
+            },
+            {
+              "name": "爱奥尼亚银",
+              "colors": [
+                "#C1CCD4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11a4890956315126771aeba4035cafc4~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85b3169c2ab53d0fc1e9b23524ce6a95~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9f8fd1317df26c4ec588534a3a87251~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/黑色",
+              "colors": [
+                "#DDDED9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e220d784742f199bceb792a6c4d9877~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/科林斯青铜",
+              "colors": [
+                "#DDDED9",
+                "#988F88"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c0f52a6bc752c68416b83754db3407d~2508x0.webp"
+            },
+            {
+              "name": "桑吉耐洛橙",
+              "colors": [
+                "#E96344"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96daee4e947068b8466b785cf7d30150~2508x0.webp"
+            },
+            {
+              "name": "暮光金",
+              "colors": [
+                "#F5E6C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05a8317b1f5f46c9c7b0a74ca3d45124~2508x0.webp"
+            },
+            {
+              "name": "冰雪白",
+              "colors": [
+                "#F8FDFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/481c73cf19c94f92a5f0cfc445dc6d72~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7166d54290f8dcf9698a6f241cc4105c~2508x0.webp"
+            },
+            {
+              "name": "紫檀木/黑檀木",
+              "colors": [
+                "#650F0F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df63309ab761c192539290b7b2d2888c~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/浅米色",
+              "colors": [
+                "#8B7359",
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4808de71a85543fa0a393881f462f384~2508x0.webp"
+            },
+            {
+              "name": "浅米色",
+              "colors": [
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5c37b69f325456d8de9d544c9f81bf5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8cfcffed7bc93bac4c77ed06c04c79f4~2508x0.webp"
         },
         {
-          "configName": "揽胜 2024款 3.0 L6 400PS SV尊荣创世加长版 4座",
+          "configName": "2024款 3.0 L6 400PS SV尊荣创世加长版 4座",
+          "configId": "95983",
+          "index": 7,
           "price": "245.8万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
           "size": "5258x2047x1870",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑/科林斯青铜",
+              "colors": [
+                "#000000",
+                "#988F88"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fd79e074df1f931841113d310ceefc3~2508x0.webp"
+            },
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1caa111c5f2620a75e3561c35022197d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6f1774e45257a13a95a78b4773bc133~2508x0.webp"
+            },
+            {
+              "name": "贝尔维亚绿",
+              "colors": [
+                "#77918D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6a1c9174bb7daddf82ba89fb05ed532~2508x0.webp"
+            },
+            {
+              "name": "日光铜",
+              "colors": [
+                "#801709"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1066606b4c997922a2acb27159b62653~2508x0.webp"
+            },
+            {
+              "name": "日光铜/黑色",
+              "colors": [
+                "#801709",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7aeda88c3f75be2c6a10a5ef9223c94c~2508x0.webp"
+            },
+            {
+              "name": "爱奥尼亚银/黑色",
+              "colors": [
+                "#C1CCD4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03747ac44a8fe2beb37ecee9d405f1ef~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70fa375a1abe378ba0c185b19c73a8ab~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/黑色",
+              "colors": [
+                "#DDDED9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ba4d5ce9592f7caa289bf7271f1e70a~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/科林斯青铜",
+              "colors": [
+                "#DDDED9",
+                "#988F88"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9ce8383c97ed0401132cf476eaccb24~2508x0.webp"
+            },
+            {
+              "name": "暮光金",
+              "colors": [
+                "#F5E6C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b1a4f2afbf4241edce5a60b611d07f6~2508x0.webp"
+            },
+            {
+              "name": "暮光金/黑色",
+              "colors": [
+                "#F5E6C5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ae953b98c45b6837edae3e291010af90~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbb0e38797c40998b6750ab05c43fadd~2508x0.webp"
+            },
+            {
+              "name": "紫檀木/黑檀木",
+              "colors": [
+                "#650F0F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd4667a976574f27c5a9a01d3bbd3019~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/浅米色",
+              "colors": [
+                "#8B7359",
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/071c062821dc2401f7c9f060d5fae1ae~2508x0.webp"
+            },
+            {
+              "name": "浅米色",
+              "colors": [
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c59bbdabe11f5a18a41d70c27693b6f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4fd79e074df1f931841113d310ceefc3~2508x0.webp"
         },
         {
-          "configName": "揽胜 2024款 4.4 V8 SV尊荣创世版",
+          "configName": "2024款 4.4 V8 SV尊荣创世版",
+          "configId": "95977",
+          "index": 8,
           "price": "296.8万",
-          "fuelType": "汽油",
-          "size": "5058x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": "4.4T 615马力 V8"
+          "fuelType": "汽油",
+          "power": "4.4T 615马力 V8",
+          "size": "5058x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a9d25132701b0682ec8831c8c6d8870a~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/黑色",
+              "colors": [
+                "#DDDED9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/264608990a315234b3f621ca01b300f7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫檀木/黑檀木",
+              "colors": [
+                "#650F0F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4728b426f6e0e95f3d4f446b27d5839f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a9d25132701b0682ec8831c8c6d8870a~2508x0.webp"
         },
         {
-          "configName": "揽胜 2024款 4.4 V8 SV尊荣创世加长版 4座",
+          "configName": "2024款 4.4 V8 SV尊荣创世加长版 4座",
+          "configId": "95984",
+          "index": 9,
           "price": "335.8万",
-          "fuelType": "汽油",
-          "size": "5258x2047x1870",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": "4.4T 615马力 V8"
+          "fuelType": "汽油",
+          "power": "4.4T 615马力 V8",
+          "size": "5258x2047x1870",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a5c2bdb79476fea0eb5128880adab38~2508x0.webp"
+            },
+            {
+              "name": "利古里亚黑",
+              "colors": [
+                "#171D22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25a7cfed5a67d50239a4048704cf7bf9~2508x0.webp"
+            },
+            {
+              "name": "利古里亚黑/科林斯青铜",
+              "colors": [
+                "#171D22",
+                "#988F88"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5655107da6bc6246ebd0cbda1d9f58e~2508x0.webp"
+            },
+            {
+              "name": "日光铜/黑色",
+              "colors": [
+                "#801709",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe48322b92c7d8822d3e0eca08c1c5f1~2508x0.webp"
+            },
+            {
+              "name": "银河灰",
+              "colors": [
+                "#AEB1B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b207e941a7135f483b9437e83b8ac4ef~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71dbc71e912613ac56d27608f298a6ab~2508x0.webp"
+            },
+            {
+              "name": "冰雪白/黑色",
+              "colors": [
+                "#F8FDFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/968c63c8e14c867777e8711055433b03~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫檀木/黑檀木",
+              "colors": [
+                "#650F0F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d8ac5dca45a28d3e61900441e08eec8~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/浅米色",
+              "colors": [
+                "#8B7359",
+                "#D1CBBB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c809ef6327cb538db12a5cc9072898d~2508x0.webp"
+            },
+            {
+              "name": "浅米色/湖蓝色",
+              "colors": [
+                "#D1CBBB",
+                "#D0D5DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca83e933203508371d6e0acf73442936~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8a5c2bdb79476fea0eb5128880adab38~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 992,
       "carName": "揽胜运动",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/75fbfacccc5a427d8ffc265b4b711193~1200x0.png",
       "configs": [
         {
-          "configName": "揽胜运动 2025款 360PS S",
+          "configName": "2025款 360PS S",
+          "configId": "242211",
+          "index": 0,
           "price": "89.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99aeb04c5ba4f7bc220926b280971db6~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51940da801cf77afeb08beae560f1f5b~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea8e85593feed2ad287a4bbafbc9a43f~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eeac1c961fc27519668cce04806bf76d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47d7114f8974ef2a306a421a734332fa~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐",
+              "colors": [
+                "#8B7359"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5dca525ccb5b48368b6754e39e46a188~2508x0.webp"
+            },
+            {
+              "name": "薄云色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df0f0bce41fdb5ec2ba87ef13a730cfc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99aeb04c5ba4f7bc220926b280971db6~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2025款 400PS DYNAMIC SE",
+          "configName": "2025款 400PS DYNAMIC SE",
+          "configId": "242212",
+          "index": 1,
           "price": "99.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e046355f4333cb9d736cac99a8ecc1b~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e741188dff39b89a510148f84985566~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿",
+              "colors": [
+                "#7FA4A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bfa9290588dc02905623bf19673d3de9~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8653122ae5fcb298af937e7a911b1706~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰/黑色",
+              "colors": [
+                "#909194",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9bc77d0026297cf477c177e6bff2b62b~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4e2ab171db7ec3683a548716ce579c4~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a943bbca50099dbc0add0fc38b539739~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2537a45dd6d0522e9c13da37cf91440e~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9dadf371f275dba2ee37d5b892a42eed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96f2a7d7aa900114c22eb2e18b32cd37~2508x0.webp"
+            },
+            {
+              "name": "深石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c82a2a01305f4673ae5efd0a3f166428~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b862de68ead4ca4dd3bf89209c8afd15~2508x0.webp"
+            },
+            {
+              "name": "薄云色/黑檀木",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/9fcd35b772ec0b718912d2e090d96a7e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8e046355f4333cb9d736cac99a8ecc1b~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2025款 400PS DYNAMIC HSE",
+          "configName": "2025款 400PS DYNAMIC HSE",
+          "configId": "242213",
+          "index": 2,
           "price": "116万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3729659191c7d5c2f2784f5a814ce78~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_333f98bc6fc8b6a4a40809095886a686~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝/黑色",
+              "colors": [
+                "#616182",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73c38e0a18efefe6c37c1883257dec32~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿",
+              "colors": [
+                "#7FA4A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b9f87259f1298af1d60854f393430cd~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿/黑色",
+              "colors": [
+                "#7FA4A3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb2f5c06db0a992b4b5449ac844ac09c~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6c742ea27ae887a426e9ff7080931bb1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "特雷维索灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ad4e3e0b3f4fa799dbc2abf7b31d00ce~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/黑色",
+              "colors": [
+                "#DDDED9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/563c8a72d17a76dea9b76d603b42d4b0~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5260f97d9f947dae3f39be8c716bf0dd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4727718074bd3a9b80c9dd331604563~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af32aceba306ef695ff41359d09d730e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f3729659191c7d5c2f2784f5a814ce78~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2025款 400PS 典范版",
+          "configName": "2025款 400PS 典范版",
+          "configId": "242214",
+          "index": 3,
           "price": "129万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "极速蓝/黑色",
+              "colors": [
+                "#1D4696",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87057bcba3b8b45ef7640f7978a293c3~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿/黑色",
+              "colors": [
+                "#7FA4A3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_802e55c7bf28f0cc5afc43a204eed63c~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/880a2d33febc98c9f22cf1e527be3c92~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7444e637255eddf39abc77499a9108a5~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63802b4d3da679c98882e5f0297b2d05~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/87057bcba3b8b45ef7640f7978a293c3~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2025款 蓝焰特别版",
+          "configName": "2025款 蓝焰特别版",
+          "configId": "250469",
+          "index": 4,
           "price": "103.6万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "极速蓝",
+              "colors": [
+                "#1D4696"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_75d78340c9e8a35bba5dd5d7d3f56e11~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43d389501eaeaf0ddbda31860a3b5e80~2508x0.webp"
+            },
+            {
+              "name": "薄云色/黑檀木",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7450609bbebe90d629307b1f90c8be88~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_75d78340c9e8a35bba5dd5d7d3f56e11~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2025款 藏锋特别版",
+          "configName": "2025款 藏锋特别版",
+          "configId": "244651",
+          "index": 5,
           "price": "106.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f98b51d805ea12b0403595c1f8c66e9d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_daf39a16c7a959f2d703bb93bdf981b8~2508x0.webp"
+            },
+            {
+              "name": "石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6ed2fe0c8384a36f78af1ec67ae7056~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f98b51d805ea12b0403595c1f8c66e9d~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2025款 SV Edition Two",
+          "configName": "2025款 SV Edition Two",
+          "configId": "247091",
+          "index": 6,
           "price": "218万",
-          "fuelType": "48V轻混系统",
-          "size": "4970x2047x1814",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "4.4T 635马力 V8 48V轻混",
+          "size": "4970x2047x1814",
+          "exteriorImages": [
+            {
+              "name": "利古里亚黑",
+              "colors": [
+                "#171D22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c70dfece8097a7b61fd2d24169cf0e6b~2508x0.webp"
+            },
+            {
+              "name": "星云蓝/黑色",
+              "colors": [
+                "#181841",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_787c99d905c43ea637d6b9294e17c297~2508x0.webp"
+            },
+            {
+              "name": "日光铜/黑色",
+              "colors": [
+                "#801709",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c2170c1e6b14f3cbd98d8b831442bb3a~2508x0.webp"
+            },
+            {
+              "name": "晶石灰/黑色",
+              "colors": [
+                "#8C8C8C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d0c6a652f417d914802ab2d17eeb4de~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玫瑰木色/黑檀木色",
+              "colors": [
+                "#5E1D1D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a085b3ef543118e49552a6270ea2f079~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c70dfece8097a7b61fd2d24169cf0e6b~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2024款 360PS S",
+          "configName": "2024款 360PS S",
+          "configId": "95675",
+          "index": 7,
           "price": "96.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b22fc56d435b8d56d19a7f1d9db99d4c~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b85abea992eb2384c930ac456ac2f135~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/799beb6de28c50b094707d207ee48285~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c839bbd3c6428d751bce9c5f0fe46ffe~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b22fc56d435b8d56d19a7f1d9db99d4c~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2024款 400PS DYNAMIC SE",
+          "configName": "2024款 400PS DYNAMIC SE",
+          "configId": "95530",
+          "index": 8,
           "price": "106.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea5ad6b4c587938ca896a6f7e8bf97c5~2508x0.webp"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a1eac9320f2c4a305d73b171f13c52c~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38ada79d11694d505ee66c148c1c21b7~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿",
+              "colors": [
+                "#7FA4A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/15e636057db63cc5e21e3fba7384fbd4~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿/黑色",
+              "colors": [
+                "#7FA4A3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a66a366e86f12fb8427375e0bf5b6c7b~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8d7440ecb18fd9babb448268a33da0b~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰/黑色",
+              "colors": [
+                "#909194",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f5160008bd35a80c6afb3cb6f34a852~2508x0.webp"
+            },
+            {
+              "name": "中国红",
+              "colors": [
+                "#B71E23"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3abf2a9b192bfcf2eaf2ca7b67b9e71~2508x0.webp"
+            },
+            {
+              "name": "爱奥尼亚银",
+              "colors": [
+                "#C1CCD4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/959d16f2f4b20ac6cc07a54a0136b04c~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1f5881de97fd32c50a731c2f85aea46~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白",
+              "colors": [
+                "#DDDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be9de66d12ad13a23c8480e495e6e591~2508x0.webp"
+            },
+            {
+              "name": "奥斯图尼珍珠白/黑色",
+              "colors": [
+                "#DDDED9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a64467fcb4a8fd7f76a3cc812ff1f2f8~2508x0.webp"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6cc41aedb1b1927fab6352195289e92~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2840eb3085d93ff71d7dd731210ac86b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88c9620a9486bee2807b665ee0e2a802~2508x0.webp"
+            },
+            {
+              "name": "深石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25acb5b2c11d9a3087ef4185ab1ec33e~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35e1768c7d44b08afb4f026d021f5295~2508x0.webp"
+            },
+            {
+              "name": "薄云色/黑檀木",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20bcfde2fdd45454ba3f6c1f64b8141b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ea5ad6b4c587938ca896a6f7e8bf97c5~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2024款 400PS DYNAMIC HSE",
+          "configName": "2024款 400PS DYNAMIC HSE",
+          "configId": "95529",
+          "index": 9,
           "price": "117.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4946x2047x1820",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
+          "size": "4946x2047x1820",
+          "exteriorImages": [
+            {
+              "name": "黑曜石黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e824c0c35cfac195316dbcd63c5896f~2508x0.webp"
+            },
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/325b4f9f686a7b4d1778110c021aa04e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "喀尔巴阡灰",
+              "colors": [
+                "#606467"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4c0c4b289a242d031189192b0d231af~2508x0.webp"
+            },
+            {
+              "name": "瓦雷泽蓝",
+              "colors": [
+                "#616182"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/5e28602eb196e4b249e0d6e2f78f93fb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "吉奥拉绿",
+              "colors": [
+                "#7FA4A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b7ce4e3ffb5285adb1091f77d7184ad~2508x0.webp"
+            },
+            {
+              "name": "吉奥拉绿/黑色",
+              "colors": [
+                "#7FA4A3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/572bdfd07d274321b497a0b4c67fbbe8~2508x0.webp"
+            },
+            {
+              "name": "艾格峰灰",
+              "colors": [
+                "#909194"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92f238d4145041ffaaa7a620cca18e2a~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1d78b7df261d7783db34705cbb13df22~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "富士白",
+              "colors": [
+                "#E9F0F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3e6131debdb4ede1e73eec26fea7f7a~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc1de7c6b7bf21719fa0cf7686289033~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d06ac3143307bacab0fd977e597f49d~2508x0.webp"
+            },
+            {
+              "name": "深石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c7a4033c8e69ac853e9dd1e5f5e6dd2~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e6a8ad3368c6e038148d4b9dbfd7c8d~2508x0.webp"
+            },
+            {
+              "name": "薄云色/黑檀木",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4de3bb73de873bc3f47b738bcdf8a96~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5e824c0c35cfac195316dbcd63c5896f~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2024款 400PS 典范版",
+          "configName": "2024款 400PS 典范版",
+          "configId": "95986",
+          "index": 10,
           "price": "130.8万",
+          "manufacturer": "路虎(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "3.0T 400马力 L6 48V轻混",
           "size": "4946x2047x1820",
-          "manufacturer": "路虎(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "黑曜石黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b1ffa7796a1ebb0a80c6ad02d3a70ec~2508x0.webp"
+            },
+            {
+              "name": "圣托里尼黑",
+              "colors": [
+                "#0A0D10"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9710293df4c8d68e054620aa717ed5bb~2508x0.webp"
+            },
+            {
+              "name": "特雷维索灰/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a77c7aa250b2c9c81a77df69063cfd68~2508x0.webp"
+            },
+            {
+              "name": "富士白/黑色",
+              "colors": [
+                "#E9F0F2",
+                "#212427"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1bee566bb6fa15ac89982d6cff33c57d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑檀木",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3f84f93d1b7fe301a8d9d23b5df42bc~2508x0.webp"
+            },
+            {
+              "name": "深石榴红/檀木黑",
+              "colors": [
+                "#684143",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/579afea8315c2b5da27d8199de341315~2508x0.webp"
+            },
+            {
+              "name": "琥珀褐/黑檀木",
+              "colors": [
+                "#8B7359",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/7a9cd8584d8321c0a58e147c3b07f910~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2b1ffa7796a1ebb0a80c6ad02d3a70ec~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2024款 富勒银SV Edition One",
+          "configName": "2024款 富勒银SV Edition One",
+          "configId": "90277",
+          "index": 11,
           "price": "243.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4970x2047x1814",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "4.4T 635马力 V8 48V轻混",
+          "size": "4970x2047x1814",
+          "exteriorImages": [
+            {
+              "name": "富勒银/黑色",
+              "colors": [
+                "#898D90",
+                "#212427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c4a6ee35d046c9020107188b1e36779~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#DF6B4B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c462f4613930708987fc2c090531883~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7c4a6ee35d046c9020107188b1e36779~2508x0.webp"
         },
         {
-          "configName": "揽胜运动 2024款 碳纤金SV Edition One",
+          "configName": "2024款 碳纤金SV Edition One",
+          "configId": "100245",
+          "index": 12,
           "price": "243.8万",
-          "fuelType": "48V轻混系统",
-          "size": "4970x2047x1814",
           "manufacturer": "路虎(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "4.4T 635马力 V8 48V轻混",
+          "size": "4970x2047x1814",
+          "exteriorImages": [
+            {
+              "name": "碳纤金/黑色",
+              "colors": [
+                "#C9C6B4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/901c1a6efdcdfade87dc64618d4f337e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "薄云色/黑檀木",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/219068f3f0a703f79dd1e2c968db807b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/901c1a6efdcdfade87dc64618d4f337e~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-02T10:04:54.119Z",
+  "progress": {
+    "completed": 7,
+    "total": 7,
+    "percentage": 100,
+    "currentIndex": 7
+  }
 }
