@@ -3,172 +3,805 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/c60f4d8c5cd7418093eb6fee4729d2bf~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "Valiant",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0930c8199b394e24bd62d2bd3e9636be~1200x0.png",
+      "carId": 2182,
+      "carName": "阿斯顿·马丁DBX",
       "configs": [
         {
-          "configName": "Valiant 2025款 5.2T 标准版",
+          "configName": "2025款 4.0T V8 707",
+          "configId": "100694",
+          "index": 0,
+          "price": "328.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "4.0T 707马力 V8 48V轻混",
+          "size": "5039x1998x1680",
+          "exteriorImages": [
+            {
+              "name": "孔雀石绿",
+              "colors": [
+                "#426442"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc2cc2dc1ea85f5863451fe36ad8403f~2508x0.webp"
+            },
+            {
+              "name": "中子星白",
+              "colors": [
+                "#D0D7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6b57474e0adce41e2d8c8308b7b4035~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_396e39d577a94ec118c226c85709baeb~2508x0.webp"
+            },
+            {
+              "name": "森林绿",
+              "colors": [
+                "#065F06"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/093a82f2223ce0f80c79e053ce8a6490~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fc2cc2dc1ea85f5863451fe36ad8403f~2508x0.webp"
+        },
+        {
+          "configName": "2024款 3.0T STRAIGHT SIX",
+          "configId": "85848",
+          "index": 1,
+          "price": "196.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 435马力 L6 48V轻混",
+          "size": "5039x1998x1680",
+          "exteriorImages": [
+            {
+              "name": "月光白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f27a36ac195e66d419de0292e41ccc1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典藏红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3930fbaf4381f12a9e728eda0ac51fc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4f27a36ac195e66d419de0292e41ccc1~2508x0.webp"
+        },
+        {
+          "configName": "2024款 4.0T V8",
+          "configId": "85849",
+          "index": 2,
+          "price": "244.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "中大型SUV",
+          "fuelType": "汽油",
+          "power": "4.0T 550马力 V8",
+          "size": "5039x1998x1680",
+          "exteriorImages": [
+            {
+              "name": "白金汉绿",
+              "colors": [
+                "#1E7051"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b30190892f3f52ed7be969f7c80e082~2508x0.webp"
+            },
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#23262D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_467c3169b13b741aae62a4bbf60918c6~2508x0.webp"
+            },
+            {
+              "name": "弥诺陶绿",
+              "colors": [
+                "#4A4D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae0b015b7c5f6457eb1aac74069bf670~2508x0.webp"
+            },
+            {
+              "name": "幻彩祖母绿",
+              "colors": [
+                "#54C8AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/175cdf2e7ab7142bc3803df2db9522ca~2508x0.webp"
+            },
+            {
+              "name": "缎面赛车绿",
+              "colors": [
+                "#6A9198"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/caf5395fe68b8f8e5e45d64d27af7fe9~2508x0.webp"
+            },
+            {
+              "name": "钛影灰",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20bdadf3c7c840aa6d0c48788c521c6e~2508x0.webp"
+            },
+            {
+              "name": "钒晶银",
+              "colors": [
+                "#807770"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49cf35cc9cb36fb149f1800a2c64c1c7~2508x0.webp"
+            },
+            {
+              "name": "骑士灰",
+              "colors": [
+                "#8D8E99"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c18d075db7802e2ff6f77c1b0a072ef~2508x0.webp"
+            },
+            {
+              "name": "魅力铜",
+              "colors": [
+                "#E7941F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_99048ae5b1e4ae1f34e4ca0192bf4cb9~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45000c134be13f04c1e756dedeac84f1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻影灰/野牛棕",
+              "colors": [
+                "#5E5E5E",
+                "#5D4F42"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3c845314d0d5bdc2133e01463aae730~2508x0.webp"
+            },
+            {
+              "name": "浓情巧克力棕/沙暴棕",
+              "colors": [
+                "#954309",
+                "#BAB38B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17870813041cd5cb666b406a0031ca03~2508x0.webp"
+            },
+            {
+              "name": "浓情巧克力棕/象牙白",
+              "colors": [
+                "#954309",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a47490de16064e493e086105e958b700~2508x0.webp"
+            },
+            {
+              "name": "幻影灰/沙暴棕",
+              "colors": [
+                "#97A5A8",
+                "#D4BE9D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b80ba33239e645e4524f2a62c7da57ee~2508x0.webp"
+            },
+            {
+              "name": "辛辣红",
+              "colors": [
+                "#AA3035"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e160cbf0b7ebb2df5aa59d435bfc138~2508x0.webp"
+            },
+            {
+              "name": "牛津棕",
+              "colors": [
+                "#B1826B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07a3ffdef31541ea4b6f2f3ed31b1d92~2508x0.webp"
+            },
+            {
+              "name": "高贵红",
+              "colors": [
+                "#D14C41"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ef41aea53328bb9f4d6d25967f9ee95~2508x0.webp"
+            },
+            {
+              "name": "冰摩卡/铜棕",
+              "colors": [
+                "#D5D3C8",
+                "#D5B59E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b760154550136b1c426cd489c832407~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1b30190892f3f52ed7be969f7c80e082~2508x0.webp"
+        },
+        {
+          "configName": "2024款 4.0T V8 707",
+          "configId": "85850",
+          "index": 3,
+          "price": "324.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "中大型SUV",
+          "fuelType": "汽油",
+          "power": "4.0T 707马力 V8",
+          "size": "5039x1998x1680",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#23262D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85f16d48fd5913fd56e084d8a9c35458~2508x0.webp"
+            },
+            {
+              "name": "电弧蓝",
+              "colors": [
+                "#3161A5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e06cab4daaba668be7e8113122863379~2508x0.webp"
+            },
+            {
+              "name": "钛影灰",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e7d66d2cb87d6b2edb550bdd926f85a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ce17dd3e27f87d1fb54b12eba87a1ed5~2508x0.webp"
+            },
+            {
+              "name": "玛瑙黑/雅顿绿",
+              "colors": [
+                "#000000",
+                "#016601"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_286e1b4a602de3391cddd8d03a916938~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85f16d48fd5913fd56e084d8a9c35458~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 20051,
+      "carName": "Valiant",
+      "configs": [
+        {
+          "configName": "2025款 5.2T 标准版",
+          "configId": "241040",
+          "index": 0,
           "price": "3052.5万",
-          "fuelType": "",
-          "size": "",
           "manufacturer": "",
           "class": "",
-          "power": ""
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "阿斯顿·马丁DBX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f02677c3f1cd4d6f8c50b3a2849545c0~1200x0.png",
-      "configs": [
-        {
-          "configName": "阿斯顿·马丁DBX 2025款 4.0T V8 707",
-          "price": "328.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5039x1998x1680",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "中大型SUV",
-          "power": ""
-        },
-        {
-          "configName": "阿斯顿·马丁DBX 2024款 3.0T STRAIGHT SIX",
-          "price": "196.8万",
-          "fuelType": "48V轻混系统",
-          "size": "5039x1998x1680",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "中大型SUV",
-          "power": ""
-        },
-        {
-          "configName": "阿斯顿·马丁DBX 2024款 4.0T V8",
-          "price": "244.8万",
-          "fuelType": "汽油",
-          "size": "5039x1998x1680",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "中大型SUV",
-          "power": "4.0T 550马力 V8"
-        },
-        {
-          "configName": "阿斯顿·马丁DBX 2024款 4.0T V8 707",
-          "price": "324.8万",
-          "fuelType": "汽油",
-          "size": "5039x1998x1680",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "中大型SUV",
-          "power": "4.0T 707马力 V8"
-        }
-      ]
-    },
-    {
+      "carId": 63,
       "carName": "Vantage",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6b4cc41400e3437fbf4024bc37f11401~1200x0.png",
       "configs": [
         {
-          "configName": "Vantage 2024款 4.0T V8 Coupe",
+          "configName": "2024款 4.0T V8 Coupe",
+          "configId": "98107",
+          "index": 0,
           "price": "223.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "跑车",
           "fuelType": "汽油",
+          "power": "4.0T 665马力 V8",
           "size": "4495x1980x1275",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "跑车",
-          "power": "4.0T 665马力 V8"
+          "exteriorImages": [
+            {
+              "name": "领奖台绿",
+              "colors": [
+                "#03D1D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/421ab0be91e6005c04f454e846bb04e2~2508x0.webp"
+            },
+            {
+              "name": "墨黑色",
+              "colors": [
+                "#242424"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8c2738c9ce183b98e145e9aa081a499e~2508x0.webp"
+            },
+            {
+              "name": "塞舌尔蓝",
+              "colors": [
+                "#2B35A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9cd8cea72b01a77db2cbbb020ff8236a~2508x0.webp"
+            },
+            {
+              "name": "矾晶银",
+              "colors": [
+                "#C4CDBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bdf10f57448bd8d50b446849c5c3728~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f73ef53168bf8a93eecb08eae07dc18~2508x0.webp"
+            },
+            {
+              "name": "森林绿/埃菲尔绿",
+              "colors": [
+                "#83C5BB",
+                "#99B499"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f7f6ffece3a5ea1bbb54ddf7c977f0b1~2508x0.webp"
+            },
+            {
+              "name": "高贵红",
+              "colors": [
+                "#C46363"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1008ec9adb452fbbc77de7f0d395a97b~2508x0.webp"
+            },
+            {
+              "name": "冰川白/黑色",
+              "colors": [
+                "#EFECEC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bbcfa48e8a5bb0eab2a407eae1b3bad4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/421ab0be91e6005c04f454e846bb04e2~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 66,
       "carName": "阿斯顿·马丁DB11",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/caa492ea065b7b72108fee0b1fb87d33~1200x0.png",
       "configs": [
         {
-          "configName": "阿斯顿·马丁DB11 2023款 4.0T V8 Coupe",
+          "configName": "2023款 4.0T V8 Coupe",
+          "configId": "71529",
+          "index": 0,
           "price": "235.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "跑车",
           "fuelType": "汽油",
+          "power": "4.0T 535马力 V8",
           "size": "4750x1950x1290",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "跑车",
-          "power": "4.0T 535马力 V8"
+          "exteriorImages": [
+            {
+              "name": "白金汉绿",
+              "colors": [
+                "#1E7051"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83f80c13665ff6d71794b17eee7bcc35~2508x0.webp"
+            },
+            {
+              "name": "彩虹绿",
+              "colors": [
+                "#477D3E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d42fc07c1ebbcbef2ee2c76462cbd9e~2508x0.webp"
+            },
+            {
+              "name": "骑士灰",
+              "colors": [
+                "#8D8E99"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77f641d7baa552f1e3c7e5d1364d2dd7~2508x0.webp"
+            },
+            {
+              "name": "尚格嫣",
+              "colors": [
+                "#ACA09F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/877316163d45211e857c38843ae139ca~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf3d01f3fb45ad436d1579fdb6946217~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "铜棕/沙漠棕",
+              "colors": [
+                "#BD8244",
+                "#E8DC9B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5cb23343d71d4015d20c5998e62a7c2~2508x0.webp"
+            },
+            {
+              "name": "牛津棕",
+              "colors": [
+                "#CEA787"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/deca12d0b0ba1aa5b7d9747a2076ea3c~2508x0.webp"
+            },
+            {
+              "name": "牛津棕/象牙白",
+              "colors": [
+                "#CEA787",
+                "#CCC5BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3c5a737750e6535d9d62de33b11b487~2508x0.webp"
+            },
+            {
+              "name": "加州橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f97ed4f9ec4280367012a1d2361bad6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/83f80c13665ff6d71794b17eee7bcc35~2508x0.webp"
         },
         {
-          "configName": "阿斯顿·马丁DB11 2023款 4.0T V8 Volante",
+          "configName": "2023款 4.0T V8 Volante",
+          "configId": "71528",
+          "index": 1,
           "price": "245.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "跑车",
           "fuelType": "汽油",
+          "power": "4.0T 535马力 V8",
           "size": "4750x1950x1300",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "跑车",
-          "power": "4.0T 535马力 V8"
+          "exteriorImages": [
+            {
+              "name": "藏青",
+              "colors": [
+                "#1E3D59"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7eb718d1eebd39e683728506ca8ce2a7~2508x0.webp"
+            },
+            {
+              "name": "墨黑色",
+              "colors": [
+                "#242424"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6e6f30413c09ba0d2d5615a93048f59~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "象牙白/鲨鱼蓝",
+              "colors": [
+                "#CCC5BD",
+                "#899F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6edbb71db874e1a57712b9585b6157ec~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7eb718d1eebd39e683728506ca8ce2a7~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 9100,
       "carName": "阿斯顿·马丁DB12",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7610abb622554475838f73cd86242191~1200x0.png",
       "configs": [
         {
-          "configName": "阿斯顿·马丁DB12 2025款 4.0T V8 Goldfinger Edition",
-          "price": "461.6万",
-          "fuelType": "汽油",
-          "size": "4725x1980x1295",
+          "configName": "2025款 4.0T V8 Goldfinger Edition",
+          "configId": "241282",
+          "index": 0,
+          "price": "461.6007万",
           "manufacturer": "阿斯顿·马丁",
           "class": "跑车",
-          "power": "4.0T 680马力 V8"
+          "fuelType": "汽油",
+          "power": "4.0T 680马力 V8",
+          "size": "4725x1980x1295",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "阿斯顿·马丁DB12 2024款 4.0T V8 Coupe",
+          "configName": "2024款 4.0T V8 Coupe",
+          "configId": "90105",
+          "index": 1,
           "price": "268.8万",
-          "fuelType": "汽油",
-          "size": "4725x1980x1295",
           "manufacturer": "阿斯顿·马丁",
           "class": "跑车",
-          "power": "4.0T 680马力 V8"
+          "fuelType": "汽油",
+          "power": "4.0T 680马力 V8",
+          "size": "4725x1980x1295",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#23262D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6607ef78763a65c4b4eeaf7b44f0bf61~2508x0.webp"
+            },
+            {
+              "name": "竞赛蓝",
+              "colors": [
+                "#474C58"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31263846a1e29d584b3b39857300cc35~2508x0.webp"
+            },
+            {
+              "name": "瓷器灰",
+              "colors": [
+                "#5E5E5E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fbd19623ba8cc6ce9520a0e3c8876e3~2508x0.webp"
+            },
+            {
+              "name": "鼠尾草绿",
+              "colors": [
+                "#96BD96"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b375538814c9403f8bc96b319af4ace~2508x0.webp"
+            },
+            {
+              "name": "紫色",
+              "colors": [
+                "#A020F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb2ef89290d72b02191a6a850099bf3f~2508x0.webp"
+            },
+            {
+              "name": "矾晶银",
+              "colors": [
+                "#C4CDBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/727c87e3502645e766139f15566d03cf~2508x0.webp"
+            },
+            {
+              "name": "中子星白",
+              "colors": [
+                "#D0D7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da06d2457bc35123755e4709cc9e8b5d~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ee20d2c7344724e2e7cc08adf8b71ce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96cdd3a03f0070a228cc95ca3b698fd4~2508x0.webp"
+            },
+            {
+              "name": "暗夜骑士黑/象牙白",
+              "colors": [
+                "#5D6773",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f329cd3db1451672989a5c709f43458d~2508x0.webp"
+            },
+            {
+              "name": "哈瓦那棕/铜棕",
+              "colors": [
+                "#6F4A07",
+                "#F1A709"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a9d21cfe0f81bfffaf07864cd9c2c840~2508x0.webp"
+            },
+            {
+              "name": "牛津棕",
+              "colors": [
+                "#BEB376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d9cf3ea4ccee6305429c3b6e73cea8a~2508x0.webp"
+            },
+            {
+              "name": "高贵红",
+              "colors": [
+                "#D14C41"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c05a05411323f65303ff2e49b949575~2508x0.webp"
+            },
+            {
+              "name": "鼠尾草绿",
+              "colors": [
+                "#E3EEE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03815038aa35ca51baa711575da37a6d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6607ef78763a65c4b4eeaf7b44f0bf61~2508x0.webp"
         },
         {
-          "configName": "阿斯顿·马丁DB12 2024款 4.0T V8 Volante",
+          "configName": "2024款 4.0T V8 Volante",
+          "configId": "92441",
+          "index": 2,
           "price": "278.8万",
+          "manufacturer": "阿斯顿·马丁",
+          "class": "跑车",
           "fuelType": "汽油",
+          "power": "4.0T 680马力 V8",
           "size": "4725x1980x1295",
-          "manufacturer": "阿斯顿·马丁",
-          "class": "跑车",
-          "power": "4.0T 680马力 V8"
+          "exteriorImages": [
+            {
+              "name": "离子蓝",
+              "colors": [
+                "#19477D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96ac9e85970517e25f6633d5442e2ae2~2508x0.webp"
+            },
+            {
+              "name": "加勒比海珠光蓝",
+              "colors": [
+                "#5C9FC7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e20f72c6c7b49c822c2d07f52e108d2c~2508x0.webp"
+            },
+            {
+              "name": "魅力铜",
+              "colors": [
+                "#E7941F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3cbb9e06d0a9e265d81d40f974ca7107~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜骑士黑/冰摩卡",
+              "colors": [
+                "#5D6773",
+                "#D3BDA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21413223d5d5d77741a4690f46f8cad2~2508x0.webp"
+            },
+            {
+              "name": "迷雾蓝/冰摩卡",
+              "colors": [
+                "#5E7896",
+                "#CBB9A1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd43b727ec8b010f960a24335424f50b~2508x0.webp"
+            },
+            {
+              "name": "魅力铜",
+              "colors": [
+                "#DDAB6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43bd5a43a9a7440664a688db478e69f6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_96ac9e85970517e25f6633d5442e2ae2~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 64,
       "carName": "Vanquish",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a7c08240fbda46b9bfaade9d61b7d193~1200x0.png",
       "configs": [
         {
-          "configName": "Vanquish 2025款 5.2T Coupe",
+          "configName": "2025款 5.2T Coupe",
+          "configId": "240191",
+          "index": 0,
           "price": "499.8万",
-          "fuelType": "汽油",
-          "size": "4850x2044x1290",
           "manufacturer": "阿斯顿·马丁",
           "class": "跑车",
-          "power": "5.2T 835马力 V12"
+          "fuelType": "汽油",
+          "power": "5.2T 835马力 V12",
+          "size": "4850x2044x1290",
+          "exteriorImages": [
+            {
+              "name": "魅力银",
+              "colors": [
+                "#AFB0AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22172ac0ef610b1fd55a3252de5fa76d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "牛津棕/珠光象牙金",
+              "colors": [
+                "#B18F76",
+                "#EFEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46719a8397bed8408580b642c962177d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/22172ac0ef610b1fd55a3252de5fa76d~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 67,
       "carName": "阿斯顿·马丁DBS",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8284c1dd96599816dd3cb2c1a3cc5dfc~1200x0.png",
       "configs": [
         {
-          "configName": "阿斯顿·马丁DBS 2023款 DBS Superleggera V12 Coupe",
+          "configName": "2023款 DBS Superleggera V12 Coupe",
+          "configId": "71523",
+          "index": 0,
           "price": "400.8万",
-          "fuelType": "汽油",
-          "size": "4712x1968x1280",
           "manufacturer": "阿斯顿·马丁",
           "class": "跑车",
-          "power": "5.2T 725马力 V12"
+          "fuelType": "汽油",
+          "power": "5.2T 725马力 V12",
+          "size": "4712x1968x1280",
+          "exteriorImages": [
+            {
+              "name": "蓝色",
+              "colors": [
+                "#0000FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6cc28f7a7631029469f36c3bea299ef~2508x0.webp"
+            },
+            {
+              "name": "白金汉绿",
+              "colors": [
+                "#1E7051"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed3346438871ae0aeea8081e9678cb73~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "牛津棕",
+              "colors": [
+                "#E0A786"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2616308fc2c02d80a4c3a2afc69a1b57~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d6cc28f7a7631029469f36c3bea299ef~2508x0.webp"
         },
         {
-          "configName": "阿斯顿·马丁DBS 2023款 DBS Superleggera V12 Volante",
+          "configName": "2023款 DBS Superleggera V12 Volante",
+          "configId": "71522",
+          "index": 1,
           "price": "410.8万",
-          "fuelType": "汽油",
-          "size": "4715x1970x1295",
           "manufacturer": "阿斯顿·马丁",
           "class": "跑车",
-          "power": "5.2T 725马力 V12"
+          "fuelType": "汽油",
+          "power": "5.2T 725马力 V12",
+          "size": "4715x1970x1295",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-02T05:20:45.996Z",
+  "progress": {
+    "completed": 7,
+    "total": 9,
+    "percentage": 78,
+    "currentIndex": 9
+  }
 }

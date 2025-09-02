@@ -31,7 +31,7 @@ class BrowserManager {
       headless: config.crawler.headless,
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || executablePath,
       ignoreHTTPSErrors: true,
-      protocolTimeout: config.crawler.protocolTimeout || 120000, // 使用配置的超时时间
+      protocolTimeout: config.crawler.protocolTimeout || 180000, // 增加协议超时到3分钟
       defaultViewport: { width: 1280, height: 800 },
       args: [
         '--no-sandbox',
@@ -65,7 +65,23 @@ class BrowserManager {
         '--disable-web-resources',
         '--disable-client-side-phishing-detection',
         '--disable-component-update',
-        '--disable-domain-reliability'
+        '--disable-domain-reliability',
+        // 新增：增强稳定性参数
+        '--disable-features=site-per-process',
+        '--disable-site-isolation-trials',
+        '--disable-features=VizDisplayCompositor',
+        '--disable-background-networking',
+        '--disable-default-apps',
+        '--disable-sync',
+        '--disable-translate',
+        '--hide-scrollbars',
+        '--mute-audio',
+        '--no-first-run',
+        '--disable-background-timer-throttling',
+        '--disable-backgrounding-occluded-windows',
+        '--disable-renderer-backgrounding',
+        '--disable-features=TranslateUI',
+        '--disable-ipc-flooding-protection'
       ]
     });
 
@@ -77,8 +93,8 @@ class BrowserManager {
     
     try {
       // 设置页面超时
-      page.setDefaultTimeout(config.crawler.timeout || 60000);
-      page.setDefaultNavigationTimeout(config.crawler.timeout || 60000);
+      page.setDefaultTimeout(config.crawler.timeout || 120000); // 增加默认超时
+      page.setDefaultNavigationTimeout(config.crawler.timeout || 120000); // 增加导航超时
       
       // 使用网络协议管理器优化页面
       await this.networkProtocolManager.optimizePageForCrawling(page);
@@ -96,7 +112,7 @@ class BrowserManager {
       if (!protocolSuccess) {
         logger.protocolWarning('页面协议初始化失败，尝试恢复...');
         // 等待一段时间后重试
-        await this.delay(3000);
+        await this.delay(5000); // 增加等待时间
         await this.networkProtocolManager.reconnectProtocols(page);
       }
       

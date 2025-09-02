@@ -55,36 +55,55 @@ class UniversalStableCrawler {
   // 优化的车型采集（基于奥迪成功案例）
   async crawlSingleCarStable(browser, carId, carName) {
     const startTime = Date.now();
+    const maxRetries = 3; // 增加重试次数
     
-    try {
-      console.log(`⚡ 采集: ${carName} (ID: ${carId})`);
-      
-      // 使用奥迪成功的采集方法
-      const carData = await this.dataCollector.collectSingleCarData(browser, carId, this.brandName);
-      
-      if (!carData || !carData.configs || carData.configs.length === 0) {
-        console.log(`⚠️ ${carName} 无有效配置`);
-        return null;
-      }
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        console.log(`⚡ 采集: ${carName} (ID: ${carId}) [尝试 ${attempt}/${maxRetries}]`);
+        
+        // 使用奥迪成功的采集方法
+        const carData = await this.dataCollector.collectSingleCarData(browser, carId, this.brandName);
+        
+        if (!carData || !carData.configs || carData.configs.length === 0) {
+          console.log(`⚠️ ${carName} 无有效配置`);
+          return null;
+        }
 
-      const duration = Math.round((Date.now() - startTime) / 1000);
-      console.log(`✅ ${carName} 完成: ${carData.configs.length}配置, ${duration}s`);
-      
-      // 验证数据完整性（奥迪案例显示需要验证）
-      if (carData.configs.some(config => !config.configName || !config.configId)) {
-        console.warn(`⚠️ ${carName} 部分配置数据不完整`);
+        const duration = Math.round((Date.now() - startTime) / 1000);
+        console.log(`✅ ${carName} 完成: ${carData.configs.length}配置, ${duration}s`);
+        
+        // 验证数据完整性（奥迪案例显示需要验证）
+        if (carData.configs.some(config => !config.configName || !config.configId)) {
+          console.warn(`⚠️ ${carName} 部分配置数据不完整`);
+        }
+        
+        return {
+          carId: carId, // 添加车型ID
+          carName: carData.carName || this.cleanCarName(carName),
+          configs: carData.configs
+        };
+        
+      } catch (error) {
+        const duration = Math.round((Date.now() - startTime) / 1000);
+        console.log(`❌ ${carName} 失败(${duration}s): ${error.message.substring(0, 50)}`);
+        
+        if (attempt < maxRetries) {
+          console.log(`🔄 ${carName} 将在 ${attempt * 2000}ms 后重试...`);
+          await new Promise(resolve => setTimeout(resolve, attempt * 2000));
+          
+          // 重新创建浏览器实例
+          try {
+            await this.browserManager.closeBrowser(browser);
+          } catch (closeError) {
+            console.warn('⚠️ 关闭浏览器失败:', closeError.message);
+          }
+          
+          browser = await this.browserManager.createBrowser();
+        } else {
+          console.log(`💥 ${carName} 最终失败，已重试 ${maxRetries} 次`);
+          return null;
+        }
       }
-      
-      return {
-        carId: carId, // 添加车型ID
-        carName: carData.carName || this.cleanCarName(carName),
-        configs: carData.configs
-      };
-      
-    } catch (error) {
-      const duration = Math.round((Date.now() - startTime) / 1000);
-      console.log(`❌ ${carName} 失败(${duration}s): ${error.message.substring(0, 50)}`);
-      return null;
     }
   }
 
@@ -288,7 +307,7 @@ class UniversalStableCrawler {
           });
           
           // 短暂延迟
-          await new Promise(resolve => setTimeout(resolve, 1000));
+          await new Promise(resolve => setTimeout(resolve, 2000)); // 增加延迟时间
           
         } catch (error) {
           console.error(`❌ 车型 ${carName} 处理错误:`, error.message.substring(0, 100));
@@ -318,6 +337,9 @@ class UniversalStableCrawler {
             errorMessage: error.message.substring(0, 100),
             endTime: new Date().toISOString()
           });
+          
+          // 增加失败后的延迟
+          await new Promise(resolve => setTimeout(resolve, 5000)); // 失败后等待更长时间
           continue;
         }
       }

@@ -3,507 +3,2499 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/5a5a4f58444966bda9e528afc5c14df7~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "考拉S",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/399ec3d9d0d74f46a9c203ebb9ef36c5~1200x0.png",
-      "configs": [
-        {
-          "configName": "极狐 考拉S 2024款 AIR版",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4500x1870x1655",
-          "manufacturer": "北汽新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "极狐 考拉S 2024款 PRO版",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4500x1870x1655",
-          "manufacturer": "北汽新能源",
-          "class": "紧凑型SUV",
-          "power": "纯电动 163马力"
-        }
-      ]
-    },
-    {
-      "carName": "T1",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/133d3026dae14f469e42dc4db25d7c6d~1200x0.png",
-      "configs": []
-    },
-    {
-      "carName": "阿尔法S6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0ccbcb077aa5475e82e2cac61dc23863~1200x0.png",
-      "configs": [
-        {
-          "configName": "极狐 阿尔法S6 2025款 735MAX 160kW",
-          "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "极狐 阿尔法S6 2025款 735MAX 175kW",
-          "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S6 2025款 735限定版 160kW",
-          "price": "20.58万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "极狐 阿尔法S6 2025款 735限定版  175kW",
-          "price": "20.58万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S6 2025款 602三激光雷达版",
-          "price": "22.58万",
-          "fuelType": "纯电动",
-          "size": "4980x1960x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 343马力"
-        }
-      ]
-    },
-    {
+      "carId": 9179,
       "carName": "阿尔法S5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/925f2c49661147a4aa8d91f77df9fff1~1200x0.png",
       "configs": [
         {
-          "configName": "极狐 阿尔法S5 2025款 560PRO 185kW",
+          "configName": "2025款 560PRO 185kW",
+          "configId": "247641",
+          "index": 0,
           "price": "12.78万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fa7ce2469b455690bc45628a96f8f3e6~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9aa279d3cc74ae0d174ec3d7b0056f1b~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c51f566518a826ee2885a8f24debf7f7~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbb478db6ab3037cf1d1cefa8333fcb6~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_001c8c7d655c25e87aa379486c959a7e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09b1bbf386d7003eb09d07979b773865~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_16afa3f022d059593f4aee3c10c9ffb7~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fb7034c2b80052344e8b813ca3db1e1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fa7ce2469b455690bc45628a96f8f3e6~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2025款 560MAX 185kW",
+          "configName": "2025款 560MAX 185kW",
+          "configId": "247642",
+          "index": 1,
           "price": "14.48万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_162b4a1f4a7d0cea00b6ddaa09c11498~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c63d226caa3331d9e72a7b141c01d223~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a441769b0fb56dff8c0507754e3c241f~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20e08f87021ee884befbc85a7d5ecd04~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0271ca997eea2d22bc5a91e63618975c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc88f0f10262994a65da157e580d5052~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_da87c49170361336ce8c16401a0773a2~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fafd43091bd83106fad3dc195310bbe1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_162b4a1f4a7d0cea00b6ddaa09c11498~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2025款 668MAX神行版 200kW",
+          "configName": "2025款 668MAX神行版 200kW",
+          "configId": "247645",
+          "index": 2,
           "price": "15.78万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e1c19d64ae8027915c722525c3869591~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4adfecaefca5017a92c9731e4a4da595~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc0a118df32d9736c68cb3b884bf1efb~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b81edfb7f6faedd33975dc2c6ec0fb6c~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_51c5363872f258869b5f3e22611d3c34~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f36321fec5271bc156bc857bf7c6bd4~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d9ce8807fd3d5d42ec726fddf1f0a870~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5224b4f87fe577d32e2f80a334c88b61~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e1c19d64ae8027915c722525c3869591~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2025款 708MAX 200kW",
+          "configName": "2025款 708MAX 200kW",
+          "configId": "247643",
+          "index": 3,
           "price": "16.48万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_903dd64b4a1af8a9795a2aa01b4ad553~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4b669ade6aab48f47fdcda95e96cd61~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58f55e54665f8478f47a02937f2e3d3f~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c20700b000590977c98101f72bf8503~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_24b5a994fcf6b7c147cca04042d99f80~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0448974b758630108ddabe09afb8b87b~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3328e5e0622fb75af0332b1f1e12b794~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_903dd64b4a1af8a9795a2aa01b4ad553~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2025款 630ULTRA神行版 390kW",
+          "configName": "2025款 630ULTRA神行版 390kW",
+          "configId": "247644",
+          "index": 4,
           "price": "17.78万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bc880747edc504df70729fd01a2fcab~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a322872c96f9172bbe1ac6212a3a1011~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d28dd173e70c5d00b0589dddd7a6805a~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af79940a57abc009b28dc57a4630ca9b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bc880747edc504df70729fd01a2fcab~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2024款 560PRO 185kW",
+          "configName": "2024款 560PRO 185kW",
+          "configId": "238908",
+          "index": 5,
           "price": "12.78万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0c3dd8ba0fcbae321f839d91450c401~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f25df0c29116145401cda03c42abe63~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df045145aaca0cc3ead6e740a91773a1~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9771fb28a7606dea502ac6f528ca05e~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01371fafc7502a91a9da2ccccbfc251b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ee454a34bc69cad201f1f3cb10b0445~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d82322e210f735798991192f5f78c4dd~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a80a1aa16880329ac8f96306cafa99a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c0c3dd8ba0fcbae321f839d91450c401~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2024款 560MAX 185kW",
+          "configName": "2024款 560MAX 185kW",
+          "configId": "110354",
+          "index": 6,
           "price": "14.48万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 252马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fb381c1c969fba3509430e3eaeed2be~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2438ab240be7ec7c8ddd911451122d6b~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/490f9757c18dad25e12152d43aee17e3~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d538b0630ed66a8bddc12c84a439080a~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7d3079a3d06275b22e1a71199708ec2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d626636807d0370c0d85f31dc2cacb3~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a855682a8d7412a2650e628fe49d6b0~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/774e7e8e757477de58ada80afc5893a4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2fb381c1c969fba3509430e3eaeed2be~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2024款 708MAX 200kW",
+          "configName": "2024款 708MAX 200kW",
+          "configId": "91443",
+          "index": 7,
           "price": "16.48万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be102221d4b6658f3408a630ff195db5~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b69bbcfc47e377ca344e21b05ee2efde~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dae0aee12b8bd5bb8c0466eab8c4b98e~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b876bde278dc14def98db9ceec3816f~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff6f66bdf312ce7916b3ab0fe97477e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbaf4c5fe02a551d73d69ffd1e6ebaa2~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bfa070ee8c736b0ed9efcd6b4f9d4961~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a2e4114aa11243beda43634efe238e9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/be102221d4b6658f3408a630ff195db5~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法S5 2024款 650ULTRA 390kW",
+          "configName": "2024款 650ULTRA 390kW",
+          "configId": "100070",
+          "index": 8,
           "price": "18.48万",
-          "fuelType": "纯电动",
-          "size": "4820x1930x1480",
           "manufacturer": "北汽新能源",
           "class": "中型车",
-          "power": "纯电动 530马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 530马力",
+          "size": "4820x1930x1480",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/670f86b24178bde4b3813da9772a252c~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4ecb8835321208149fd440ab3d259d5~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1eaaafcdcd6266211ee2509e2495a46~2508x0.webp"
+            },
+            {
+              "name": "星云粉",
+              "colors": [
+                "#EFD3E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d0ca822979c61ca4cfd872b507263fa~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e24bfb649e1d25b720cfb4fc3259b09~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73d92dde5f7420be1bc8c45eabb095ce~2508x0.webp"
+            },
+            {
+              "name": "雾光棕",
+              "colors": [
+                "#A08376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e6a0aa34b3fd71bd98bbc45ab2846ae~2508x0.webp"
+            },
+            {
+              "name": "轻盈灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be9366f104f96382d8bd0c775f3ce95c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/670f86b24178bde4b3813da9772a252c~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "阿尔法S",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6c9e727bcfab46518a5a4654e9ddcd78~1200x0.png",
+      "carId": 25340,
+      "carName": "阿尔法S6",
       "configs": [
         {
-          "configName": "极狐 阿尔法S 2024款 先⾏版 PRO",
-          "price": "25.68万",
-          "fuelType": "纯电动",
-          "size": "4980x1960x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 343马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版 525 175kW",
-          "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版 525E 175kW",
-          "price": "20.98万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版 735E 175kW",
-          "price": "24.98万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版 735E+ 160kW",
-          "price": "26.38万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版 603D",
-          "price": "28.98万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 435马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 先行版",
-          "price": "32.98万",
-          "fuelType": "纯电动",
-          "size": "4980x1960x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 643马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版PRO 525E 175kW",
-          "price": "20.98万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版PRO 650E 175kW",
-          "price": "22.78万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法S 2023款 森林版PRO 735E+ 160kW",
-          "price": "26.38万",
-          "fuelType": "纯电动",
-          "size": "4930x1940x1599",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "纯电动 218马力"
-        }
-      ]
-    },
-    {
-      "carName": "阿尔法T5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fedf97b2c68f457dbc911a4b2dfe6fd9~1200x0.png",
-      "configs": [
-        {
-          "configName": "极狐 阿尔法T5 2025款 520 AIR",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 252马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2025款 520 PRO",
-          "price": "13.18万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 252马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2025款 520 MAX",
-          "price": "14.38万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 252马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2025款 630 神行版",
-          "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2025款 660 MAX",
-          "price": "16.78万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2024款 520 AIR",
-          "price": "15.58万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 252马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2024款 520 PRO",
-          "price": "16.38万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 252马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2024款 520 MAX",
-          "price": "17.58万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 252马力"
-        },
-        {
-          "configName": "极狐 阿尔法T5 2024款 660 MAX",
-          "price": "19.98万",
-          "fuelType": "纯电动",
-          "size": "4690x1936x1650",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
-        }
-      ]
-    },
-    {
-      "carName": "阿尔法T6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8217e3eb21204e81bd0dc9da903149eb~1200x0.png",
-      "configs": [
-        {
-          "configName": "极狐 阿尔法T6 2025款 688MAX 160kW",
+          "configName": "2025款 735MAX 160kW",
+          "configId": "246881",
+          "index": 0,
           "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
           "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 218马力"
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_177189069ff30fadf8fb01ee0f021d51~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e3837a3834641e949e47d0c69834897b~2508x0.webp"
+            },
+            {
+              "name": "柔光金",
+              "colors": [
+                "#E3DDC1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_937c37b71f2d2a0eaccc8d8d64c5f5d1~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ac1b093a74764a0000647ce2dae972d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82fa4fc72ca0ac212f00b3ec18f9e906~2508x0.webp"
+            },
+            {
+              "name": "柔光米",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a6535bd5c8205b4dea37ba7f7933b49~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_177189069ff30fadf8fb01ee0f021d51~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法T6 2025款 688MAX 175kW",
+          "configName": "2025款 735MAX 175kW",
+          "configId": "246882",
+          "index": 1,
           "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
           "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 238马力"
-        }
-      ]
-    },
-    {
-      "carName": "阿尔法T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/91d1365ccefb4e048f7b5601239df52d~1200x0.png",
-      "configs": [
-        {
-          "configName": "极狐 阿尔法T 2023款 森林版 480 175kW",
-          "price": "18.58万",
+          "class": "中大型车",
           "fuelType": "纯电动",
-          "size": "4788x1940x1683",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 238马力"
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_372837229c316f63580702591ee66c0d~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3d3c34519a14211b0107080ec8067677~2508x0.webp"
+            },
+            {
+              "name": "柔光金",
+              "colors": [
+                "#E3DDC1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2e85cb8b65bc6b9bb33e1e6a55aac4c~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c115445e3890363332510a2aad949473~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b767fecb164aa0876ea45e9451c2f78~2508x0.webp"
+            },
+            {
+              "name": "柔光米",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9bd818abd0cd514094f74580e22bf637~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_372837229c316f63580702591ee66c0d~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法T 2023款 森林版 480E 175kW",
+          "configName": "2025款 735限定版 160kW",
+          "configId": "246888",
+          "index": 2,
           "price": "20.58万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
           "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 238马力"
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "极狐 阿尔法T 2023款 森林版 688E 175kW",
-          "price": "24.58万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法T 2023款 森林版 688E+ 160kW",
-          "price": "25.48万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "极狐 阿尔法T 2023款 森林版 600D",
-          "price": "28.08万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 435马力"
-        },
-        {
-          "configName": "极狐 阿尔法T 2023款 森林版PRO 480E 175kW",
+          "configName": "2025款 735限定版  175kW",
+          "configId": "246889",
+          "index": 3,
           "price": "20.58万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
           "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 238马力"
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "柔光金",
+              "colors": [
+                "#E3DDC1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5f02766ebcca9a8dccc0a85211980883~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "柔光米",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b0cf2eb35489adda5932485aa7be269~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5f02766ebcca9a8dccc0a85211980883~2508x0.webp"
         },
         {
-          "configName": "极狐 阿尔法T 2023款 森林版PRO 618E 175kW",
+          "configName": "2025款 602三激光雷达版",
+          "configId": "246895",
+          "index": 4,
           "price": "22.58万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
           "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "极狐 阿尔法T 2023款 森林版PRO 688E+ 160kW",
-          "price": "25.48万",
+          "class": "中大型车",
           "fuelType": "纯电动",
-          "size": "4788x1940x1683",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "极狐 阿尔法T 2023款 森林版PRO 600D 320kW",
-          "price": "28.08万",
-          "fuelType": "纯电动",
-          "size": "4788x1940x1683",
-          "manufacturer": "北汽新能源",
-          "class": "中型SUV",
-          "power": "纯电动 435马力"
+          "power": "纯电动 343马力",
+          "size": "4980x1960x1599",
+          "exteriorImages": [
+            {
+              "name": "维克黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a13e71007f0b50a3b3cfd5f35dd6431f~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_807838d887fa8f3e5f6161564f077c75~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e1a9fdbf59af40a7c0e0a5b0e96b9797~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a13e71007f0b50a3b3cfd5f35dd6431f~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "考拉",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d2b8ff26a16f40e4ae2e4c20121f8334~1200x0.png",
+      "carId": 4637,
+      "carName": "阿尔法S",
       "configs": [
         {
-          "configName": "极狐 考拉 2023款 家庭版",
+          "configName": "2024款 先⾏版 PRO",
+          "configId": "99819",
+          "index": 0,
+          "price": "25.68万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 343马力",
+          "size": "4980x1960x1599",
+          "exteriorImages": [
+            {
+              "name": "维克黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d15ef2fd6f954eb9c49bbd1a8cd7688~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45d75b1ad73bb86464678000b2b869a8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6d15ef2fd6f954eb9c49bbd1a8cd7688~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 525 175kW",
+          "configId": "90625",
+          "index": 1,
+          "price": "18.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e49d11dc1a83005791799ce881f209f~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a074847d8902c4b985ddd47fbb4d4ee0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2236215715fc2521f19858f4cbd961b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e49d11dc1a83005791799ce881f209f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 525E 175kW",
+          "configId": "90633",
+          "index": 2,
+          "price": "20.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06c3a79f19d1cdd1a16b889dc1012dac~2508x0.webp"
+            },
+            {
+              "name": "薄荷银",
+              "colors": [
+                "#D1DCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b64380ca1df4ab2c776d29d8803c4e6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#597DA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9790c0a49f4417ef22eb417e9d67593~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b064b85475909c7898f83549ddff362c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/06c3a79f19d1cdd1a16b889dc1012dac~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 735E 175kW",
+          "configId": "92320",
+          "index": 3,
+          "price": "24.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "薄荷银",
+              "colors": [
+                "#D1DCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f924680931c20418d06d3bb7cc6b90ea~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/398f0ba1163fb6d1e0673ac191398530~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f924680931c20418d06d3bb7cc6b90ea~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 735E+ 160kW",
+          "configId": "90634",
+          "index": 4,
+          "price": "26.38万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31b1af8319fcf9d8c143c9fab245d9c4~2508x0.webp"
+            },
+            {
+              "name": "薄荷银",
+              "colors": [
+                "#D1DCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2714d59b8dff518311f6205e9218cdf~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b297a49f8c30754927f147736bbb218~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1eea7447be4f89d7c531f2dd472587e8~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96fbe4bbd424510000c7fca7da434d09~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/31b1af8319fcf9d8c143c9fab245d9c4~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 603D",
+          "configId": "90636",
+          "index": 5,
+          "price": "28.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 435马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d08a43555f195d3ff6c861b2f452359b~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0ce72cfd20b773e2eecf67cb5b26fed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22853882e63658ac20f4204ea8677c66~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d08a43555f195d3ff6c861b2f452359b~2508x0.webp"
+        },
+        {
+          "configName": "2023款 先行版",
+          "configId": "89871",
+          "index": 6,
+          "price": "32.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 643马力",
+          "size": "4980x1960x1599",
+          "exteriorImages": [
+            {
+              "name": "维克黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed2f37723677943d29dcbd553e571466~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bbd20198a12a44914eb99a4dedb7f097~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1e2635e4ef81e8b2b8f709977b333287~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ed2f37723677943d29dcbd553e571466~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版PRO 525E 175kW",
+          "configId": "97648",
+          "index": 7,
+          "price": "20.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c64fbb6bcc31d8ba2b383eccc0dae4b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37303eaed30f5321dcde6dd5f67dfc66~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1c64fbb6bcc31d8ba2b383eccc0dae4b~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版PRO 650E 175kW",
+          "configId": "97374",
+          "index": 8,
+          "price": "22.78万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cbb67e05b6698a7b416e42b713026f8~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80142a6c76d1d6d1aa9261638fe60ded~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/432f89c1f16b8605b1bd7047934d4188~2508x0.webp"
+            },
+            {
+              "name": "薄荷银",
+              "colors": [
+                "#D1DCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6a965497be8ab16e86b23f39b464815~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/3dfa4d005cbb08b5d3561f1130821d87~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79b3c03baf4b7380d6cc2b68f744ea3f~2508x0.webp"
+            },
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#597DA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2b7baf9a7d6fec83dce43e8a467f7bf~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adc6f5efe8e0e070323789a8cbeeacf3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5cbb67e05b6698a7b416e42b713026f8~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版PRO 735E+ 160kW",
+          "configId": "97649",
+          "index": 9,
+          "price": "26.38万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4930x1940x1599",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30d40094635e8293227642d2b615f967~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e264eb003ede4a5da261a298ecaa4e88~2508x0.webp"
+            },
+            {
+              "name": "薄荷银",
+              "colors": [
+                "#D1DCDC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b570be64c60e12137238a5e1bd51ee7~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1a2100045faed6ec7018b5a400e0940~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22e52bbe233a85319f95144947196e60~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1749fb5d1dfd3e30dca54eaa471a919~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/30d40094635e8293227642d2b615f967~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 20060,
+      "carName": "考拉S",
+      "configs": [
+        {
+          "configName": "2024款 AIR版",
+          "configId": "110715",
+          "index": 0,
+          "price": "10.98万",
+          "manufacturer": "北汽新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4500x1870x1655",
+          "exteriorImages": [
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#92A9B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b79b8addf3b57302e3241f7c4baa58eb~2508x0.webp"
+            },
+            {
+              "name": "薰衣草紫",
+              "colors": [
+                "#B4A7E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c22a580801384c80558acf86712a6894~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5924ab6e916c8faf3d471f0b99df9440~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星黛紫",
+              "colors": [
+                "#555A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08b3c936e5e3cce6b7d707a0ee29f7e6~2508x0.webp"
+            },
+            {
+              "name": "雾凇灰",
+              "colors": [
+                "#868686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b867bf7a49a7c3f92734ab0f10e99df8~2508x0.webp"
+            },
+            {
+              "name": "珍珠灰",
+              "colors": [
+                "#A7B7C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/935f833fc1f8c5616797d5189f69e976~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b79b8addf3b57302e3241f7c4baa58eb~2508x0.webp"
+        },
+        {
+          "configName": "2024款 PRO版",
+          "configId": "100730",
+          "index": 1,
+          "price": "11.98万",
+          "manufacturer": "北汽新能源",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4500x1870x1655",
+          "exteriorImages": [
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#92A9B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0092a09ab3967cd4cce0bfe15642c2b6~2508x0.webp"
+            },
+            {
+              "name": "薰衣草紫",
+              "colors": [
+                "#B4A7E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb7161d97f65fce7269dfaf7b9dc4eeb~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e867a456513e1ed4a5a616cd9302b71~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星黛紫",
+              "colors": [
+                "#555A92"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86f8897eeb41c8239c43cf00403bcfd2~2508x0.webp"
+            },
+            {
+              "name": "珍珠灰",
+              "colors": [
+                "#A7B7C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7dd5fe51481abc87b39c43a24df9af8e~2508x0.webp"
+            },
+            {
+              "name": "柔肤粉",
+              "colors": [
+                "#B6999B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eebb009843b1d747d0e5e40478ce7d6a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0092a09ab3967cd4cce0bfe15642c2b6~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6363,
+      "carName": "阿尔法T5",
+      "configs": [
+        {
+          "configName": "2025款 520 AIR",
+          "configId": "242445",
+          "index": 0,
+          "price": "11.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 520 PRO",
+          "configId": "242446",
+          "index": 1,
           "price": "13.18万",
-          "fuelType": "纯电动",
-          "size": "4500x1870x1655",
           "manufacturer": "北汽新能源",
-          "class": "紧凑型MPV",
-          "power": "纯电动 163马力"
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bff0f6d84a9ce06f67033b9afec6c76e~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abf8414d181a4d5eac9aca419f7ab00e~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48461821f54a82bfa2d079289197ce66~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e487539772977849882447128e861b8e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3393d927efcf291c5688ddd269290327~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2850de50ff211cdb285dd1b9577f117~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bff0f6d84a9ce06f67033b9afec6c76e~2508x0.webp"
         },
         {
-          "configName": "极狐 考拉 2023款 家庭版Pro",
+          "configName": "2025款 520 MAX",
+          "configId": "242447",
+          "index": 2,
+          "price": "14.38万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cae573a66e4435c7afec839dc56555f2~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/941b58278ec6deb73c194cddbcc2c043~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/173a233ce92f0aa7098acbfdd73658e0~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1990690b2b9d4ac9aabcd6736b1fb22~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#191717"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_75e1e0bed20391d68134e6c1c1f17dba~2508x0.webp"
+            },
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b9e063478105ab133f9ad49c19417fe~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb7e8d06a38f6bf96c529c7cbce13769~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cae573a66e4435c7afec839dc56555f2~2508x0.webp"
+        },
+        {
+          "configName": "2025款 630 神行版",
+          "configId": "242189",
+          "index": 3,
+          "price": "16.18万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f7cdd98bf018ea50ded97e68f92af18~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5a924cbe1c4db720b6966942814ebd3~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a448238b6c714b946a0637b0fefb1bc~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a14bdde8305764caa9e72f0507064e2a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#191717"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_751d965768bfdfcc924c7042fa2e9256~2508x0.webp"
+            },
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/825958e1b4b9ae513598caab773fda3d~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37b8a49b67b93279f6a763d68f4e4378~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3f7cdd98bf018ea50ded97e68f92af18~2508x0.webp"
+        },
+        {
+          "configName": "2025款 660 MAX",
+          "configId": "242448",
+          "index": 4,
+          "price": "16.78万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81ca70fc135c16f7b1635e6911387442~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23f6bdce9805a801c6aa257e9700e609~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5312d2c690c917d7cee2546ac313678b~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7fa9dd67365d6ae2a61c3a78e4c3d354~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e22011191b15a99a45d669d8ecda5f90~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/affb9d2b446e418318342b7caeb7f14b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/81ca70fc135c16f7b1635e6911387442~2508x0.webp"
+        },
+        {
+          "configName": "2024款 520 AIR",
+          "configId": "96434",
+          "index": 5,
+          "price": "15.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 520 PRO",
+          "configId": "96435",
+          "index": 6,
+          "price": "16.38万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84561c6823409203ff3b5a062592958d~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fd20732e2ca7e637d3826ab53ed7b25~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7750a764159bc53101ec7eeaa0b03af3~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f580c4d8efc8a533090c3bbb2e9908d1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0669a9e6e3c1501fb5a4f1aa0f33346d~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2062c29365b1332fb3fe88c4de1335da~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/84561c6823409203ff3b5a062592958d~2508x0.webp"
+        },
+        {
+          "configName": "2024款 520 MAX",
+          "configId": "96436",
+          "index": 7,
+          "price": "17.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 252马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04631bae0832ffe9807c46be806a8602~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf11bc5c3b65106bc0d7db7ea02a6c1a~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2fac3d3ed97821b05e1b6f35893f0e7~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f36b70abfdf47736a88849572b9ebbb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/918d1f868d3bf808e3338d616615e506~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05bde86022d18055ebf67914f2fb1734~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/04631bae0832ffe9807c46be806a8602~2508x0.webp"
+        },
+        {
+          "configName": "2024款 660 MAX",
+          "configId": "96437",
+          "index": 8,
+          "price": "19.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4690x1936x1650",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/996306e07899fb3e2985759fd718f963~2508x0.webp"
+            },
+            {
+              "name": "海岩灰",
+              "colors": [
+                "#5B5B5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b92135609fe1ca34eef0eb577d678ad6~2508x0.webp"
+            },
+            {
+              "name": "幻视白",
+              "colors": [
+                "#E2F3FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8e4cdd529c975b20fde6d78e25c2354~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/411d6810d296ec7f3b5d0246e685989f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "苍月蓝",
+              "colors": [
+                "#A5AFD5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55960543e3cf73345907f6f0c2ec2be1~2508x0.webp"
+            },
+            {
+              "name": "远星紫",
+              "colors": [
+                "#E1D7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0bb5edd2a4f54edd9e03f8a37439772e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/996306e07899fb3e2985759fd718f963~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25293,
+      "carName": "阿尔法T6",
+      "configs": [
+        {
+          "configName": "2025款 688MAX 160kW",
+          "configId": "246896",
+          "index": 0,
+          "price": "19.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7bacfd3e5652d40eb392429e74e72d83~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ddc264ea20f48753099af34cab911787~2508x0.webp"
+            },
+            {
+              "name": "柔光金",
+              "colors": [
+                "#E3DDC1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18b9883f18a84403b6cb0ad30b4ebc6a~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6a4d5fa9610ea51eff2bf8575a240070~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0740900602ef69a2bbaf2197a194b47c~2508x0.webp"
+            },
+            {
+              "name": "柔光米",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e70e05ae70cffb5b132141f5dac4cc50~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7bacfd3e5652d40eb392429e74e72d83~2508x0.webp"
+        },
+        {
+          "configName": "2025款 688MAX 175kW",
+          "configId": "246897",
+          "index": 1,
+          "price": "19.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_361ccb8bc2f24af5640dda6ad9c6e9c4~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_762a425fdc2387f86899066ee79cd374~2508x0.webp"
+            },
+            {
+              "name": "柔光金",
+              "colors": [
+                "#E3DDC1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1244c462e78ca95728d375ddc6702579~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34f12a629e12e691299be7af0f312f96~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbccf1cedf2215eac64e63d5f904881c~2508x0.webp"
+            },
+            {
+              "name": "柔光米",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_26f478388a9b8f5e5cab05ae0fee05f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_361ccb8bc2f24af5640dda6ad9c6e9c4~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4385,
+      "carName": "阿尔法T",
+      "configs": [
+        {
+          "configName": "2023款 森林版 480 175kW",
+          "configId": "90648",
+          "index": 0,
+          "price": "18.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 森林版 480E 175kW",
+          "configId": "90650",
+          "index": 1,
+          "price": "20.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcf7323aae81c26324b1619ac01a48f3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd5f510693b467c0414338d64b7e752e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bcf7323aae81c26324b1619ac01a48f3~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 688E 175kW",
+          "configId": "92322",
+          "index": 2,
+          "price": "24.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc098e0cdfd4db185a099fb0d72a3d3f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de8827cb1bfcd71943a6e04db3e21b44~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dc098e0cdfd4db185a099fb0d72a3d3f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 688E+ 160kW",
+          "configId": "90652",
+          "index": 3,
+          "price": "25.48万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42079ba911f615692a62321c4121a3cf~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3cdd47eb125d485f583d637abf537476~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c31601ce5ad3096007e26e36f055414~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ba3c05c24abd608ec1ebd6c569c712f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7aeb0059e36e7c32a97ecfc001ad4353~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9831aa32afa61e7d1cb408aca667c0ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/42079ba911f615692a62321c4121a3cf~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版 600D",
+          "configId": "90653",
+          "index": 4,
+          "price": "28.08万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 435马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 森林版PRO 480E 175kW",
+          "configId": "97650",
+          "index": 5,
+          "price": "20.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 森林版PRO 618E 175kW",
+          "configId": "97375",
+          "index": 6,
+          "price": "22.58万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfaa631c1de201517888aecfaa8b14fc~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07149464d0ec61f9e52a7fbfb92e0377~2508x0.webp"
+            },
+            {
+              "name": "冰灰",
+              "colors": [
+                "#969EA8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c94fd41c009149dd3ef96688f05a25c5~2508x0.webp"
+            },
+            {
+              "name": "极狐白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d473fee88acba29eaf04ccbf41a3986~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e00c391ec247443423725719070b23f~2508x0.webp"
+            },
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#597DA1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55793f1c2097cd7a937670b979af6f1a~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98c8de1c361c5a8f44b091e4466cf5a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dfaa631c1de201517888aecfaa8b14fc~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版PRO 688E+ 160kW",
+          "configId": "97651",
+          "index": 7,
+          "price": "25.48万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf3e9d0a11a2905d3ff692e64720dcc3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0022f4fadd4a3a7f41b6f97e65a298dd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bf3e9d0a11a2905d3ff692e64720dcc3~2508x0.webp"
+        },
+        {
+          "configName": "2023款 森林版PRO 600D 320kW",
+          "configId": "97652",
+          "index": 8,
+          "price": "28.08万",
+          "manufacturer": "北汽新能源",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 435马力",
+          "size": "4788x1940x1683",
+          "exteriorImages": [
+            {
+              "name": "雾云灰",
+              "colors": [
+                "#075476"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ba07ec7f122b5e10ba1c8d9aef92425~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0B0D12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67c6c721385c0f6fd171e5885c0de544~2508x0.webp"
+            },
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b82a3e6452e83ba4d1489c69af162194~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8294fff0965cf28c2e9bee673274b70a~2508x0.webp"
+            },
+            {
+              "name": "有机绿",
+              "colors": [
+                "#B3D3DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c3e075f25e9ce023cde582f17ed42e2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4ba07ec7f122b5e10ba1c8d9aef92425~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6356,
+      "carName": "考拉",
+      "configs": [
+        {
+          "configName": "2023款 家庭版",
+          "configId": "92812",
+          "index": 0,
+          "price": "13.18万",
+          "manufacturer": "北汽新能源",
+          "class": "紧凑型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4500x1870x1655",
+          "exteriorImages": [
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#92A9B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/683fc994599776c1b9a2557437809bf0~2508x0.webp"
+            },
+            {
+              "name": "薰衣草紫",
+              "colors": [
+                "#B4A7E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b19402536524094b8d4ba1d098dfd839~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4f4142a72ed8694c7fc7963c204b12a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星黛紫",
+              "colors": [
+                "#CDA1E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e92a554f976d57cd49c9aaed46064871~2508x0.webp"
+            },
+            {
+              "name": "柔肤粉",
+              "colors": [
+                "#CDADBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e70698b894e0548433aee4c460c0815a~2508x0.webp"
+            },
+            {
+              "name": "珍珠灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52f10f47afc7433b4189f122b5e8c07b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/683fc994599776c1b9a2557437809bf0~2508x0.webp"
+        },
+        {
+          "configName": "2023款 家庭版Pro",
+          "configId": "92813",
+          "index": 1,
           "price": "14.18万",
-          "fuelType": "纯电动",
-          "size": "4500x1870x1655",
           "manufacturer": "北汽新能源",
           "class": "紧凑型MPV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4500x1870x1655",
+          "exteriorImages": [
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#92A9B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb02da0d711bcc9b8e9d04adb014b737~2508x0.webp"
+            },
+            {
+              "name": "薰衣草紫",
+              "colors": [
+                "#B4A7E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3811ac5b77819bcec2931601f4510ed~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93fa066f882e6c1433a2e8884d564da9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星黛紫",
+              "colors": [
+                "#CDA1E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fec248d14cc7061ef01703517cb51cb~2508x0.webp"
+            },
+            {
+              "name": "柔肤粉",
+              "colors": [
+                "#CDADBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3213d0a888f9fcc3787292b5ed59375b~2508x0.webp"
+            },
+            {
+              "name": "珍珠灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb2338af55c10317d161f0bf5f5b305c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bb02da0d711bcc9b8e9d04adb014b737~2508x0.webp"
         },
         {
-          "configName": "极狐 考拉 2023款 亲子版",
+          "configName": "2023款 亲子版",
+          "configId": "92814",
+          "index": 2,
           "price": "15.38万",
-          "fuelType": "纯电动",
-          "size": "4500x1870x1655",
           "manufacturer": "北汽新能源",
           "class": "紧凑型MPV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4500x1870x1655",
+          "exteriorImages": [
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#92A9B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5dba95c170f31adb6ab0b2639ba1b7c2~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d3288f59c08ae52da83f6d4a76e5a5f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "柔肤粉",
+              "colors": [
+                "#CDADBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06dba525e6acb3789baf0be75816ee24~2508x0.webp"
+            },
+            {
+              "name": "珍珠灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1d22d775bc1f1ed17b4ae94b20a7996~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5dba95c170f31adb6ab0b2639ba1b7c2~2508x0.webp"
         },
         {
-          "configName": "极狐 考拉 2023款 亲子版Pro",
+          "configName": "2023款 亲子版Pro",
+          "configId": "92815",
+          "index": 3,
           "price": "16.98万",
-          "fuelType": "纯电动",
-          "size": "4500x1870x1655",
           "manufacturer": "北汽新能源",
           "class": "紧凑型MPV",
-          "power": "纯电动 163马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 163马力",
+          "size": "4500x1870x1655",
+          "exteriorImages": [
+            {
+              "name": "泡泡灰",
+              "colors": [
+                "#92A9B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1564ef956bc9afba4c49267bf650743~2508x0.webp"
+            },
+            {
+              "name": "薰衣草紫",
+              "colors": [
+                "#B4A7E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bb2be86c54ddce0d31a3e3144b23518~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf56459f602b602f85822bff61f2ba1a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星黛紫",
+              "colors": [
+                "#CDA1E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4cde1e646bc255353c83ea9cf5aded1~2508x0.webp"
+            },
+            {
+              "name": "柔肤粉",
+              "colors": [
+                "#CDADBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8009c701af92a861d75374716e33d622~2508x0.webp"
+            },
+            {
+              "name": "珍珠灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/818356b2e0e870d2420ce8adec5ba8ac~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c1564ef956bc9afba4c49267bf650743~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-02T03:51:25.625Z",
+  "progress": {
+    "completed": 8,
+    "total": 10,
+    "percentage": 80,
+    "currentIndex": 10
+  }
 }

@@ -1,0 +1,58 @@
+{
+  "brand": "GMC",
+  "timestamp": "2025-08-28T10:02:50.337Z",
+  "crawlSummary": {
+    "totalCars": 2,
+    "successCount": 1,
+    "failCount": 0,
+    "totalTime": "0分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 9,
+        "carName": "YUKON育空",
+        "configCount": 2,
+        "exteriorColorCount": 9,
+        "interiorColorCount": 2,
+        "status": "completed"
+      },
+      {
+        "carName": "SAVANA",
+        "configCount": 50,
+        "exteriorColorCount": 0,
+        "interiorColorCount": 0,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 9,
+    "totalInteriorColors": 2,
+    "exteriorColorTypes": [
+      "松露黑",
+      "苔原红",
+      "野桦灰",
+      "冷杉蓝",
+      "鸢尾蓝",
+      "雪莲白"
+    ],
+    "interiorColorTypes": [
+      "黑色",
+      "原始印象"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

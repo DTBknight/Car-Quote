@@ -3,202 +3,820 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/c32957653bbe4d958931ba009ebcc8b7~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "Tonale托纳利",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/768ab4d77c92453188df9da6df7e29df~1200x0.png",
-      "configs": [
-        {
-          "configName": "Tonale托纳利 2024款 2.0T 268HP Sprint 纵擎版",
-          "price": "19.98万",
-          "fuelType": "汽油",
-          "size": "4528x1841x1633",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "紧凑型SUV",
-          "power": "2.0T 268马力 L4"
-        },
-        {
-          "configName": "Tonale托纳利 2024款 2.0T 268HP Veloce 赛道版",
-          "price": "22.38万",
-          "fuelType": "汽油",
-          "size": "4528x1841x1633",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "紧凑型SUV",
-          "power": "2.0T 268马力 L4"
-        },
-        {
-          "configName": "Tonale托纳利 2024款 2.0T 268HP Veloce 赛道 Plus版",
-          "price": "23.58万",
-          "fuelType": "汽油",
-          "size": "4528x1841x1633",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "紧凑型SUV",
-          "power": "2.0T 268马力 L4"
-        },
-        {
-          "configName": "Tonale托纳利 2024款 2.0T 268HP Tributo Italiano 致敬传奇版",
-          "price": "33.18万",
-          "fuelType": "汽油",
-          "size": "4528x1841x1633",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "紧凑型SUV",
-          "power": "2.0T 268马力 L4"
-        },
-        {
-          "configName": "Tonale托纳利 2023款 2.0T 268HP Sprint 纵擎版",
-          "price": "25.98万",
-          "fuelType": "汽油",
-          "size": "4528x1841x1633",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "紧凑型SUV",
-          "power": "2.0T 268马力 L4"
-        },
-        {
-          "configName": "Tonale托纳利 2023款 2.0T 268HP Veloce 赛道版",
-          "price": "29.48万",
-          "fuelType": "汽油",
-          "size": "4528x1841x1633",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "紧凑型SUV",
-          "power": "2.0T 268马力 L4"
-        }
-      ]
-    },
-    {
+      "carId": 56,
       "carName": "Giulia朱丽叶",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/df85027e99c74b56a52e7d56cb14e7a6~1200x0.png",
       "configs": [
         {
-          "configName": "Giulia朱丽叶 2025款 2.0T 280HP Daytona Tribute 戴通纳致敬版",
+          "configName": "2025款 2.0T 280HP Daytona Tribute 戴通纳致敬版",
+          "configId": "249385",
+          "index": 0,
           "price": "36.8万",
-          "fuelType": "汽油",
-          "size": "4643x1860x1438",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4643x1860x1438",
+          "exteriorImages": [
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20ec054a488582e1c577aff6202ad09c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe8b3fbc3f1a84330d074c402aa89390~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20ec054a488582e1c577aff6202ad09c~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2024款 2.0T 280HP  Dragon Edition 龙曜限定版",
+          "configName": "2024款 2.0T 280HP  Dragon Edition 龙曜限定版",
+          "configId": "99270",
+          "index": 1,
           "price": "33.6万",
-          "fuelType": "汽油",
-          "size": "4643x1860x1438",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4643x1860x1438",
+          "exteriorImages": [
+            {
+              "name": "火山黑",
+              "colors": [
+                "#060707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/722af574fca5a957da5ec1a57442a636~2508x0.webp"
+            },
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ca77a934154acc76857b84cf3a6f495~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f5ea0624df9a5981c2b59980ccdb271f~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#BD3239"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afd611ca3e8681d45f18c3b63cb1af47~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/722af574fca5a957da5ec1a57442a636~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2024款 2.0T 280HP Tributo Italiano 致敬传奇版",
+          "configName": "2024款 2.0T 280HP Tributo Italiano 致敬传奇版",
+          "configId": "99820",
+          "index": 2,
           "price": "39.7万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "中型车",
           "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
           "size": "4643x1860x1438",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "中型车",
-          "power": "2.0T 280马力 L4"
+          "exteriorImages": [
+            {
+              "name": "蒙特利尔碧青",
+              "colors": [
+                "#029B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ea2af58df0bc25a9bc3dd8e77abc033~2508x0.webp"
+            },
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd252e53ecdc73b1d290e5546e8f58c9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edb6534c75a7dcafd8a12dd75b0a2c15~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ea2af58df0bc25a9bc3dd8e77abc033~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2024款 2.9T V6 520HP 四叶草Super Sport黑标限量版",
+          "configName": "2024款 2.9T V6 520HP 四叶草Super Sport黑标限量版",
+          "configId": "238871",
+          "index": 3,
           "price": "96.18万",
-          "fuelType": "汽油",
-          "size": "4639x1874x1433",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.9T 520马力 V6"
+          "fuelType": "汽油",
+          "power": "2.9T 520马力 V6",
+          "size": "4639x1874x1433",
+          "exteriorImages": [
+            {
+              "name": "火山黑",
+              "colors": [
+                "#060707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/960ee899a399da2f9486841b63d6b96f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d63f98b066a3b280cbbaba31967ff664~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/960ee899a399da2f9486841b63d6b96f~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2023款 2.0T 280HP Sprint 纵擎版",
+          "configName": "2023款 2.0T 280HP Sprint 纵擎版",
+          "configId": "91219",
+          "index": 4,
           "price": "31.3万",
-          "fuelType": "汽油",
-          "size": "4643x1860x1438",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4643x1860x1438",
+          "exteriorImages": [
+            {
+              "name": "火山黑",
+              "colors": [
+                "#060707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f450eb1780702e36fc124a244af8753~2508x0.webp"
+            },
+            {
+              "name": "维苏威火山灰",
+              "colors": [
+                "#898F97"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79bba87653d95256391fb0d577ca3651~2508x0.webp"
+            },
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/406db8639dc20e4121425c721886845a~2508x0.webp"
+            },
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/067be980c85f19e7fcf0c93328cdee9d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e2122a627dce4ff4ecc4951ae16401f~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#BD3239"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e224d88b181b8d410a6aedf9aeaf38a6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4f450eb1780702e36fc124a244af8753~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2023款 2.0T 280HP Veloce 赛道版",
+          "configName": "2023款 2.0T 280HP Veloce 赛道版",
+          "configId": "91220",
+          "index": 5,
           "price": "35.3万",
-          "fuelType": "汽油",
-          "size": "4643x1860x1438",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4643x1860x1438",
+          "exteriorImages": [
+            {
+              "name": "火山黑",
+              "colors": [
+                "#060707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d807b22cfe51314769423c2ae12b44eb~2508x0.webp"
+            },
+            {
+              "name": "米萨诺蓝",
+              "colors": [
+                "#3B6FC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35c8b738c9dc69d23f12cd19b999363a~2508x0.webp"
+            },
+            {
+              "name": "维苏威火山灰",
+              "colors": [
+                "#898F97"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1eefeaf0901c38163e724b7ce97337de~2508x0.webp"
+            },
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68c4a9acb87da7fda45b6a1ab35acc33~2508x0.webp"
+            },
+            {
+              "name": "烈艳激红",
+              "colors": [
+                "#B70F0F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8758253d3cb5c6299b9daeb7ec28e146~2508x0.webp"
+            },
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff0e6fabefb59dc7b7b1687723adf54a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad707df568dc1534e55979ddec771d4e~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#BD3239"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db47dc7692b1d84018ecbd000527270a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d807b22cfe51314769423c2ae12b44eb~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2023款 2.0T 280HP Competizione 竞赛版",
+          "configName": "2023款 2.0T 280HP Competizione 竞赛版",
+          "configId": "91221",
+          "index": 6,
           "price": "38.3万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "中型车",
           "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
           "size": "4643x1860x1438",
-          "manufacturer": "阿尔法·罗密欧",
-          "class": "中型车",
-          "power": "2.0T 280马力 L4"
+          "exteriorImages": [
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d5dae63106688dcf2daa551130f86fc~2508x0.webp"
+            },
+            {
+              "name": "哑光月光灰",
+              "colors": [
+                "#D6DDE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d58f61547a62eac3496adafde8f4d44c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1b93cc399024f0eda3702a4be50e6cd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0d5dae63106688dcf2daa551130f86fc~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2023款 2.9T V6 520HP 四叶草版",
+          "configName": "2023款 2.9T V6 520HP 四叶草版",
+          "configId": "91222",
+          "index": 7,
           "price": "89.98万",
-          "fuelType": "汽油",
-          "size": "4639x1874x1433",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.9T 520马力 V6"
+          "fuelType": "汽油",
+          "power": "2.9T 520马力 V6",
+          "size": "4639x1874x1433",
+          "exteriorImages": [
+            {
+              "name": "蒙特利尔碧青",
+              "colors": [
+                "#029B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a973c4a245f7787a615480853f062bea~2508x0.webp"
+            },
+            {
+              "name": "维苏威火山灰",
+              "colors": [
+                "#898F97"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/761dc2ec9d5b46d18231ac64e2d925d3~2508x0.webp"
+            },
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d37e5f8c0e4b71a81faf5109eaba4dd~2508x0.webp"
+            },
+            {
+              "name": "烈艳激红",
+              "colors": [
+                "#B70F0F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e374a20a88e85f75dadeb3ab61ae786~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e85135b8b41a56370f924e422c67810~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a973c4a245f7787a615480853f062bea~2508x0.webp"
         },
         {
-          "configName": "Giulia朱丽叶 2023款 2.9T V6 520HP 四叶草100周年纪念版",
+          "configName": "2023款 2.9T V6 520HP 四叶草100周年纪念版",
+          "configId": "91223",
+          "index": 8,
           "price": "96.18万",
-          "fuelType": "汽油",
-          "size": "4639x1874x1433",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型车",
-          "power": "2.9T 520马力 V6"
+          "fuelType": "汽油",
+          "power": "2.9T 520马力 V6",
+          "size": "4639x1874x1433",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "Stelvio斯坦维",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c2a38b8c44204a709b98487be0ece06d~1200x0.png",
+      "carId": 3807,
+      "carName": "Tonale托纳利",
       "configs": [
         {
-          "configName": "Stelvio斯坦维 2024款 2.0T 280HP Dragon Edition 龙曜限定版",
+          "configName": "2024款 2.0T 268HP Sprint 纵擎版",
+          "configId": "243767",
+          "index": 0,
+          "price": "19.98万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 268马力 L4",
+          "size": "4528x1841x1633",
+          "exteriorImages": [
+            {
+              "name": "维苏威火山灰",
+              "colors": [
+                "#898F97"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47b82490ffc111f77f81b034f2f45f38~2508x0.webp"
+            },
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/759a9a8df9b51af7cebabb90d2ee9eb6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/314a940cb7f0417b6bff2f7f258b2aef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/47b82490ffc111f77f81b034f2f45f38~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0T 268HP Veloce 赛道版",
+          "configId": "243768",
+          "index": 1,
+          "price": "22.38万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 268马力 L4",
+          "size": "4528x1841x1633",
+          "exteriorImages": [
+            {
+              "name": "蒙特利尔碧青",
+              "colors": [
+                "#029B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b800f240c8d8afa030cd89b488d77b6d~2508x0.webp"
+            },
+            {
+              "name": "阿尔法黑",
+              "colors": [
+                "#151418"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c234804e47c523a6cf8bd47eacad801~2508x0.webp"
+            },
+            {
+              "name": "米萨诺蓝",
+              "colors": [
+                "#3B6FC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/102ff2d32a6fbaa85790078ead493abe~2508x0.webp"
+            },
+            {
+              "name": "维苏威火山灰",
+              "colors": [
+                "#898F97"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eca6ab0dfbc1d9c39c269ec84b144679~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c312fb369ce8dc8352d32a5af3b10f4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b800f240c8d8afa030cd89b488d77b6d~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0T 268HP Veloce 赛道 Plus版",
+          "configId": "243769",
+          "index": 2,
+          "price": "23.58万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 268马力 L4",
+          "size": "4528x1841x1633",
+          "exteriorImages": [
+            {
+              "name": "蒙特利尔碧青",
+              "colors": [
+                "#029B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d40bf5ccde3c3b7db51a3ae709c6eca~2508x0.webp"
+            },
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7311ab4b0b08379e1d3864aba3ac8a5a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5cf40da2fffe5263fa90a3571da40f4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7d40bf5ccde3c3b7db51a3ae709c6eca~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0T 268HP Tributo Italiano 致敬传奇版",
+          "configId": "99822",
+          "index": 3,
+          "price": "33.18万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 268马力 L4",
+          "size": "4528x1841x1633",
+          "exteriorImages": [
+            {
+              "name": "蒙特利尔碧青",
+              "colors": [
+                "#029B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a83ab4fca0cdde23b67d898b669f9b5c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a678f639cc2360782f5032fc7fa19e7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a83ab4fca0cdde23b67d898b669f9b5c~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T 268HP Sprint 纵擎版",
+          "configId": "94916",
+          "index": 4,
+          "price": "25.98万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 268马力 L4",
+          "size": "4528x1841x1633",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 2.0T 268HP Veloce 赛道版",
+          "configId": "94917",
+          "index": 5,
+          "price": "29.48万",
+          "manufacturer": "阿尔法·罗密欧",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 268马力 L4",
+          "size": "4528x1841x1633",
+          "exteriorImages": [
+            {
+              "name": "蒙特利尔碧青",
+              "colors": [
+                "#029B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72096cf95876db0c3a3a63328019b06b~2508x0.webp"
+            },
+            {
+              "name": "阿尔法黑",
+              "colors": [
+                "#151418"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4834c7796d62e5add220cd3f9fdab66~2508x0.webp"
+            },
+            {
+              "name": "米萨诺蓝",
+              "colors": [
+                "#3B6FC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1212dca27b742ab869d530faa98740fc~2508x0.webp"
+            },
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c7ba4c8f48b4fa3404266bdcf604011~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b28f8addfd6982aca89d96ec1d2c351~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/72096cf95876db0c3a3a63328019b06b~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 59,
+      "carName": "Stelvio斯坦维",
+      "configs": [
+        {
+          "configName": "2024款 2.0T 280HP Dragon Edition 龙曜限定版",
+          "configId": "99274",
+          "index": 0,
           "price": "37.7万",
-          "fuelType": "汽油",
-          "size": "4686x1903x1693",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型SUV",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4686x1903x1693",
+          "exteriorImages": [
+            {
+              "name": "火山黑",
+              "colors": [
+                "#060707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6fbc3f7678e30646bdcaa17c1d3bfd5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#CC3949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da1a4674b3f294602b685e9888330f93~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b6fbc3f7678e30646bdcaa17c1d3bfd5~2508x0.webp"
         },
         {
-          "configName": "Stelvio斯坦维 2024款 2.0T 280HP Tributo Italiano 致敬传奇版",
+          "configName": "2024款 2.0T 280HP Tributo Italiano 致敬传奇版",
+          "configId": "99821",
+          "index": 1,
           "price": "44.5万",
-          "fuelType": "汽油",
-          "size": "4686x1903x1693",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型SUV",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4686x1903x1693",
+          "exteriorImages": [
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7d641c4a7b3ae2e746cd67729eb5936~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de45ee4905820761841e864dff4fa6e2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b7d641c4a7b3ae2e746cd67729eb5936~2508x0.webp"
         },
         {
-          "configName": "Stelvio斯坦维 2023款 2.0T 280HP Sprint 纵擎版",
+          "configName": "2023款 2.0T 280HP Sprint 纵擎版",
+          "configId": "91224",
+          "index": 2,
           "price": "35.7万",
-          "fuelType": "汽油",
-          "size": "4686x1903x1693",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型SUV",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4686x1903x1693",
+          "exteriorImages": [
+            {
+              "name": "阿尔法红",
+              "colors": [
+                "#B4010C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15cae65e4912f7f96171d49dd7589cd4~2508x0.webp"
+            },
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d009417707ce6e8b583fc317a03105d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65cf3d37239903f8d65789f244fa3ea0~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#CC3949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6b47e822d599307a72ae7767e5ffa825~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15cae65e4912f7f96171d49dd7589cd4~2508x0.webp"
         },
         {
-          "configName": "Stelvio斯坦维 2023款 2.0T 280HP Veloce 赛道版",
+          "configName": "2023款 2.0T 280HP Veloce 赛道版",
+          "configId": "91225",
+          "index": 3,
           "price": "39.7万",
-          "fuelType": "汽油",
-          "size": "4686x1903x1693",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型SUV",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4686x1903x1693",
+          "exteriorImages": [
+            {
+              "name": "米萨诺蓝",
+              "colors": [
+                "#3B6FC8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dbdc47b457963a6d9671d13ff9c44e00~2508x0.webp"
+            },
+            {
+              "name": "维苏威火山灰",
+              "colors": [
+                "#898F97"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ccd50d4534935e5a7961b0af8d6469a~2508x0.webp"
+            },
+            {
+              "name": "烈艳激红",
+              "colors": [
+                "#B70F0F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01b6f56462e6b18dfe5d973bb01a43e8~2508x0.webp"
+            },
+            {
+              "name": "阿尔法白",
+              "colors": [
+                "#FBFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3de8ce1cb07f845955a86949d761ef2e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20d2cb5efa0fb3480c7c8584e3c08eca~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#CC3949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52d6885931b017cb394d5d629d6b1d36~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dbdc47b457963a6d9671d13ff9c44e00~2508x0.webp"
         },
         {
-          "configName": "Stelvio斯坦维 2023款 2.0T 280HP Competizione 竞赛版",
+          "configName": "2023款 2.0T 280HP Competizione 竞赛版",
+          "configId": "91226",
+          "index": 4,
           "price": "43.1万",
-          "fuelType": "汽油",
-          "size": "4686x1903x1693",
           "manufacturer": "阿尔法·罗密欧",
           "class": "中型SUV",
-          "power": "2.0T 280马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 280马力 L4",
+          "size": "4686x1903x1693",
+          "exteriorImages": [
+            {
+              "name": "哑光月光灰",
+              "colors": [
+                "#D6DDE3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d599c61beb125a31dd43051af07ea8e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e77cdbc11a8458ed217e1349a981f3f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5d599c61beb125a31dd43051af07ea8e~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-02T05:11:19.527Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }

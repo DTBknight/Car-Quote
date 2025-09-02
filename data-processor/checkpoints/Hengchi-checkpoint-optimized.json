@@ -1,0 +1,52 @@
+{
+  "brand": "Hengchi",
+  "timestamp": "2025-08-29T02:31:09.935Z",
+  "crawlSummary": {
+    "totalCars": 1,
+    "successCount": 1,
+    "failCount": 0,
+    "totalTime": "0分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 4678,
+        "carName": "5",
+        "configCount": 1,
+        "exteriorColorCount": 6,
+        "interiorColorCount": 3,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 6,
+    "totalInteriorColors": 3,
+    "exteriorColorTypes": [
+      "炫晶黑",
+      "极光蓝/炫晶黑",
+      "曙光灰金/炫晶黑",
+      "太空灰/炫晶黑",
+      "曜日红/炫晶黑",
+      "月光白/炫晶黑"
+    ],
+    "interiorColorTypes": [
+      "曜石黑",
+      "深海蓝/伯爵米",
+      "红橡棕/日光米"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}
