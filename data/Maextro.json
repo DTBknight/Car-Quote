@@ -3,64 +3,250 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/2fea0e3c6d2c4f6a8dacbf97d101489a~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 24599,
       "carName": "S800",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1904d6d9e82a4e5889cb6176b156454c~1200x0.png",
       "configs": [
         {
-          "configName": "尊界S800 2025款 纯电 星辉尊享版 5座",
+          "configName": "2025款 纯电 星辉尊享版 5座",
+          "configId": "248413",
+          "index": 0,
           "price": "70.8万",
+          "manufacturer": "江淮汽车",
+          "class": "大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 530马力",
           "size": "5480x2000x1542",
-          "manufacturer": "江淮汽车",
-          "class": "大型车",
-          "power": "纯电动 530马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "尊界S800 2025款 增程 星辉尊享版 5座",
+          "configName": "2025款 增程 星辉尊享版 5座",
+          "configId": "248905",
+          "index": 1,
           "price": "70.8万",
-          "fuelType": "增程式",
-          "size": "5480x2000x1542",
           "manufacturer": "江淮汽车",
           "class": "大型车",
-          "power": "增程式 530马力"
+          "fuelType": "增程式",
+          "power": "纯电动 530马力",
+          "size": "5480x2000x1542",
+          "exteriorImages": [
+            {
+              "name": "星耀黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15e71461363d78780fd22c05fdd422bd~2508x0.webp"
+            },
+            {
+              "name": "破晓金/黑",
+              "colors": [
+                "#EADAAC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de719abeed3ac543566c2794baadd436~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "煦日浅棕",
+              "colors": [
+                "#A18560"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ae07e253c82f59ecfccec956a1042dd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15e71461363d78780fd22c05fdd422bd~2508x0.webp"
         },
         {
-          "configName": "尊界S800 2025款 增程 星耀尊享版 5座",
+          "configName": "2025款 增程 星耀尊享版 5座",
+          "configId": "248906",
+          "index": 2,
           "price": "78.8万",
-          "fuelType": "增程式",
-          "size": "5480x2000x1542",
           "manufacturer": "江淮汽车",
           "class": "大型车",
-          "power": "增程式 864马力"
+          "fuelType": "增程式",
+          "power": "纯电动 864马力",
+          "size": "5480x2000x1542",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "尊界S800 2025款 纯电  星辉行政版 4座",
+          "configName": "2025款 纯电  星辉行政版 4座",
+          "configId": "240412",
+          "index": 3,
           "price": "81.8万",
+          "manufacturer": "江淮汽车",
+          "class": "大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 530马力",
           "size": "5480x2000x1542",
-          "manufacturer": "江淮汽车",
-          "class": "大型车",
-          "power": "纯电动 530马力"
+          "exteriorImages": [
+            {
+              "name": "星耀黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/590730e8fd540df37ec2d25bcae2fbb3~2508x0.webp"
+            },
+            {
+              "name": "云境银/紫",
+              "colors": [
+                "#F0F1F4",
+                "#A17FB6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afa96b530c17b10c04125e0de319bf68~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/590730e8fd540df37ec2d25bcae2fbb3~2508x0.webp"
         },
         {
-          "configName": "尊界S800 2025款 增程 星辉行政版 4座",
+          "configName": "2025款 增程 星辉行政版 4座",
+          "configId": "243310",
+          "index": 4,
           "price": "81.8万",
-          "fuelType": "增程式",
-          "size": "5480x2000x1542",
           "manufacturer": "江淮汽车",
           "class": "大型车",
-          "power": "增程式 530马力"
+          "fuelType": "增程式",
+          "power": "纯电动 530马力",
+          "size": "5480x2000x1542",
+          "exteriorImages": [
+            {
+              "name": "凌云墨/白",
+              "colors": [
+                "#606060",
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dba7b1da0b9945711f915235c72cc128~2508x0.webp"
+            },
+            {
+              "name": "旷野棕/金",
+              "colors": [
+                "#B38E75",
+                "#E9E6D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e9dc48277aa1a27ace191fd0b530a8e~2508x0.webp"
+            },
+            {
+              "name": "破晓金/黑",
+              "colors": [
+                "#EADAAC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_782c1409d2e124896afac6b579bca38c~2508x0.webp"
+            },
+            {
+              "name": "云境银/紫",
+              "colors": [
+                "#F0F1F4",
+                "#A17FB6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7efaba38d11b3e8858b51723d969187a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "煦日浅棕",
+              "colors": [
+                "#A18560"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b42d713ddb2117e5c6ecfe480c0ff94~2508x0.webp"
+            },
+            {
+              "name": "霞光白紫",
+              "colors": [
+                "#C46BBC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_431148e3b05a15e964238bf5cf186757~2508x0.webp"
+            },
+            {
+              "name": "晨夕白棕",
+              "colors": [
+                "#DBD6D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d57cf9ad6f70eb03314f4a6a431b8bd~2508x0.webp"
+            },
+            {
+              "name": "云雾雅白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8a95247bbc203dce7fe4520749a9e21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dba7b1da0b9945711f915235c72cc128~2508x0.webp"
         },
         {
-          "configName": "尊界S800 2025款 增程 星耀行政版 4座",
+          "configName": "2025款 增程 星耀行政版 4座",
+          "configId": "248414",
+          "index": 5,
           "price": "101.8万",
-          "fuelType": "增程式",
-          "size": "5480x2000x1542",
           "manufacturer": "江淮汽车",
           "class": "大型车",
-          "power": "增程式 864马力"
+          "fuelType": "增程式",
+          "power": "纯电动 864马力",
+          "size": "5480x2000x1542",
+          "exteriorImages": [
+            {
+              "name": "旷野棕/金",
+              "colors": [
+                "#B38E75",
+                "#E9E6D4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b3e5dea178da406589905bca2c1890e2~2508x0.webp"
+            },
+            {
+              "name": "破晓金/黑",
+              "colors": [
+                "#EADAAC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_119fedcd863ef4aefd929e944529c247~2508x0.webp"
+            },
+            {
+              "name": "云境银/紫",
+              "colors": [
+                "#F0F1F4",
+                "#A17FB6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5ed8ffae6d6d3c437c726a242c8bbc3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "煦日浅棕",
+              "colors": [
+                "#A18560"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b89ba8042023c4e9a6425448307b018a~2508x0.webp"
+            },
+            {
+              "name": "霞光白紫",
+              "colors": [
+                "#C46BBC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cfe4786b4a0ab1043cc2e01dd681ce9d~2508x0.webp"
+            },
+            {
+              "name": "晨夕白棕",
+              "colors": [
+                "#DBD6D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c3d3666c65e2460f904519f386690b68~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b3e5dea178da406589905bca2c1890e2~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T05:45:09.762Z",
+  "progress": {
+    "completed": 1,
+    "total": 1,
+    "percentage": 100,
+    "currentIndex": 1
+  }
 }

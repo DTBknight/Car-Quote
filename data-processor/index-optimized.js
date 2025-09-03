@@ -99,7 +99,7 @@ const brandIdsMap = {
   Kia: 13, // 起亚
   Nissan: 10, // 日产
   Nezha: 199, // 哪吒
-  Nio: 201, // 蔚来
+  Nio: 112, // 蔚来
   Opel: 60, // 欧宝
   Peugeot: 61, // 标致
   Porsche: 20, // 保时捷
@@ -122,6 +122,7 @@ const brandIdsMap = {
   IM: 419, // 智己
   Luxeed: 883, // 智界
   Maextro: 10293, // 尊界
+  Stelato: 931, // 享界
   // 以下为补齐的缺失品牌，来自 index.js 的权威映射
   Livan: 381, // 睿蓝
   Tank: 425, // 坦克

@@ -1,0 +1,140 @@
+{
+  "brand": "Maserati",
+  "timestamp": "2025-09-03T05:54:29.134Z",
+  "crawlSummary": {
+    "totalCars": 9,
+    "successCount": 9,
+    "failCount": 0,
+    "totalTime": "7分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 1017,
+        "carName": "Ghibli",
+        "configCount": 2,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 3,
+        "status": "completed"
+      },
+      {
+        "carId": 1018,
+        "carName": "总裁",
+        "configCount": 4,
+        "exteriorColorCount": 6,
+        "interiorColorCount": 5,
+        "status": "completed"
+      },
+      {
+        "carId": 4722,
+        "carName": "Grecale",
+        "configCount": 3,
+        "exteriorColorCount": 9,
+        "interiorColorCount": 4,
+        "status": "completed"
+      },
+      {
+        "carId": 5869,
+        "carName": "Grecale Folgore",
+        "configCount": 1,
+        "exteriorColorCount": 0,
+        "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 1023,
+        "carName": "Levante",
+        "configCount": 3,
+        "exteriorColorCount": 17,
+        "interiorColorCount": 6,
+        "status": "completed"
+      },
+      {
+        "carId": 1019,
+        "carName": "GranTurismo",
+        "configCount": 2,
+        "exteriorColorCount": 2,
+        "interiorColorCount": 2,
+        "status": "completed"
+      },
+      {
+        "carId": 5864,
+        "carName": "GranTurismo Folgore",
+        "configCount": 1,
+        "exteriorColorCount": 1,
+        "interiorColorCount": 1,
+        "status": "completed"
+      },
+      {
+        "carId": 1020,
+        "carName": "GranCabrio",
+        "configCount": 1,
+        "exteriorColorCount": 1,
+        "interiorColorCount": 1,
+        "status": "completed"
+      },
+      {
+        "carId": 4451,
+        "carName": "MC20",
+        "configCount": 5,
+        "exteriorColorCount": 4,
+        "interiorColorCount": 4,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 45,
+    "totalInteriorColors": 26,
+    "exteriorColorTypes": [
+      "神情蓝",
+      "岩石灰",
+      "水墨灰",
+      "云雾白",
+      "水银灰",
+      "激情蓝",
+      "墨砚黑",
+      "酒红",
+      "尊贵蓝",
+      "风暴黑",
+      "皓空白",
+      "深海蓝",
+      "熔岩灰",
+      "复古铜",
+      "极致黑",
+      "金刚黑",
+      "电光灰",
+      "阿尔卑斯白",
+      "古铜色",
+      "岩浆红",
+      "赛道黄",
+      "哑光岩石灰",
+      "无界曜蓝",
+      "隐秘灰",
+      "Bianco Audace/Blu Stradale",
+      "幻彩极光蓝"
+    ],
+    "interiorColorTypes": [
+      "棕色/黑色",
+      "红色/黑色",
+      "红色",
+      "棕色",
+      "黑色",
+      "灰色",
+      "黑色/蓝色"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

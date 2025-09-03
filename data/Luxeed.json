@@ -3,178 +3,1337 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/8bad52bb65cf46c2838bee71dd134763~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 9225,
       "carName": "S7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d9cdf3fb23e1492680fdebc0064fc411~1200x0.png",
       "configs": [
         {
-          "configName": "智界S7 2025款 Pro后驱长续航版",
+          "configName": "2026款 Max",
+          "configId": "250552",
+          "index": 0,
           "price": "22.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 292马力",
           "size": "4971x1963x1474",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型车",
-          "power": "纯电动 292马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智界S7 2025款 Max后驱长续航版",
-          "price": "26.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1474",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型车",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "智界S7 2025款 Max后驱超长续航版",
-          "price": "28.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1474",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型车",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "智界S7 2025款 Ultra四驱长续航版",
-          "price": "31.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1460",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型车",
-          "power": "纯电动 496马力"
-        },
-        {
-          "configName": "智界S7 2025款 Ultra四驱运动版",
-          "price": "32.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1460",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型车",
-          "power": "纯电动 496马力"
-        },
-        {
-          "configName": "智界S7 2024款 Pro后驱长航版",
+          "configName": "2026款 Max+",
+          "configId": "250551",
+          "index": 1,
           "price": "24.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1474",
           "manufacturer": "奇瑞汽车",
           "class": "中大型车",
-          "power": "纯电动 292马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4971x1963x1474",
+          "exteriorImages": [
+            {
+              "name": "极光绿",
+              "colors": [
+                "#388276"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1432654dae99a3ebf8784ce290b4644~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e472acbed109e2e6678cccb958b64a63~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影灰",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6e48ccb54f8efa87eb0106d7b2b46c7~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_540f2ad998839ffcbf4fcde123db2659~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1432654dae99a3ebf8784ce290b4644~2508x0.webp"
         },
         {
-          "configName": "智界S7 2024款 Max后驱长航智驾版",
+          "configName": "2026款 Ultra",
+          "configId": "250487",
+          "index": 2,
+          "price": "28.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 496马力",
+          "size": "4971x1963x1474",
+          "exteriorImages": [
+            {
+              "name": "极光绿",
+              "colors": [
+                "#388276"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd555a2f9ee74ed69c4522c258f813e9~2508x0.webp"
+            },
+            {
+              "name": "霜月银",
+              "colors": [
+                "#A3A3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d686d0271ac04a8c5a76c683e2efafec~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#C14646"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d2b136a2d25704f20336e4a9ec4ec380~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1c238783385a40e682b905c033eac8a4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd555a2f9ee74ed69c4522c258f813e9~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Pro后驱长续航版",
+          "configId": "242390",
+          "index": 3,
+          "price": "22.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4971x1963x1474",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d15ae01c8512b34201b6365afa12574~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89c116703574a103bf74726533714246~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/897899f1f9e3b3f2e3b376310bee570c~2508x0.webp"
+            },
+            {
+              "name": "霜月银",
+              "colors": [
+                "#A3A3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04069fa2ed4f232ede630fec43093ec5~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aab657c6fbf1fa2ffe52a9424dacee75~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cccc3b6f2fb67ac579e461b55e968e08~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/967568519496c4380edb07f0b9993c66~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#C14646"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1710763e9b6ace6f40bdd9159c6e4046~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8bf8bf1733dbc1884a1e398a93f795f~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fba65dc6c1c97d63436d36cc3703ba9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5d15ae01c8512b34201b6365afa12574~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Max后驱长续航版",
+          "configId": "242876",
+          "index": 4,
           "price": "26.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 292马力",
           "size": "4971x1963x1474",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型车",
-          "power": "纯电动 292马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/395b4340e66ebec1d070cbbdb02f2112~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a1e32aa4878c7392a7717ea12ac74a1~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32adfaaab73ebe0ffaacb4f0dd57adb0~2508x0.webp"
+            },
+            {
+              "name": "霜月银",
+              "colors": [
+                "#A3A3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3bebbba23388d9e63efbbf5c77fce54c~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1effddcfbe39fae57b925d086086143d~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f609921cca0ad8d5614ee3813a6ec9c~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/130e35d4833c0d5b2effc9bc0af0f0a1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#C14646"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74f40b6fcd97d755c00e7b1628785538~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba463a1b26d2b74cd989615d7f6749b6~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34484e39a54a3a5ef0fd08e5fd231610~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/395b4340e66ebec1d070cbbdb02f2112~2508x0.webp"
         },
         {
-          "configName": "智界S7 2024款 Max+后驱超航智驾版",
-          "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1472",
+          "configName": "2025款 Max后驱超长续航版",
+          "configId": "242391",
+          "index": 5,
+          "price": "28.98万",
           "manufacturer": "奇瑞汽车",
           "class": "中大型车",
-          "power": "纯电动 292马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4971x1963x1474",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8701a94a067c4c7605cfae3426a41b44~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/098d1f24d8b2caed015d11f16826588f~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/380d69e544882ce101544341cdfd96a4~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98b3cdba02b74cfa197ea5b36e9dd5f1~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a80d71fdee74636f3b1608ec3285ef4~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/244e837434d77c173d385278bc94019e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#C14646"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/407902e7e7f0133dbbfeb3a6714879a0~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/767772c8ea392b20aa8f0b19edf19623~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a767ae5813b88e90f38fbe6af01b817c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8701a94a067c4c7605cfae3426a41b44~2508x0.webp"
         },
         {
-          "configName": "智界S7 2024款 Max RS四驱性能版",
-          "price": "32.98万",
-          "fuelType": "纯电动",
-          "size": "4971x1963x1466",
+          "configName": "2025款 Ultra四驱长续航版",
+          "configId": "242392",
+          "index": 6,
+          "price": "31.98万",
           "manufacturer": "奇瑞汽车",
           "class": "中大型车",
-          "power": "纯电动 496马力"
-        },
-        {
-          "configName": "智界S7 2024款 Ultra四驱旗舰版",
-          "price": "34.98万",
           "fuelType": "纯电动",
+          "power": "纯电动 496马力",
           "size": "4971x1963x1460",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_df073e0cca39b8a2156735bd9f510cab~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbf3b6b4986b601a85c42fd85d43915c~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d79a9de33833b8ca45f8fe329f9f37cf~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e35a289022e310430b6a8af614d05912~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afb61a2d073676b1c48dcfb73696cee3~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc56fbe5e367f4127d06280e5c071036~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#C14646"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/761f3635085aed22917a92f8e3ecb783~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/530de96686f8e0a7ae05d73b92cd55ad~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1467a2cfa084544f2ac07f737d0e66cd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_df073e0cca39b8a2156735bd9f510cab~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Ultra四驱运动版",
+          "configId": "247451",
+          "index": 7,
+          "price": "32.98万",
           "manufacturer": "奇瑞汽车",
           "class": "中大型车",
-          "power": "纯电动 496马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 496马力",
+          "size": "4971x1963x1460",
+          "exteriorImages": [
+            {
+              "name": "霜月银",
+              "colors": [
+                "#A3A3A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9638fddbecd1a861bc041b49db3e049d~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69574993ee64cf24bd5267e805113bd3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#C14646"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e262b2c9a85ebb0a1b243fefa71e8b8~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F0F0F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5950e00f0d53026fcecdca885de11c47~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9638fddbecd1a861bc041b49db3e049d~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 10180,
       "carName": "R7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/90e8a5e941724c50b20983f6c7ac2897~1200x0.png",
       "configs": [
         {
-          "configName": "智界R7 2025款 增程 53.4kWh Max后驱版",
-          "price": "29.98万",
-          "fuelType": "增程式",
-          "size": "4956x1981x1634",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型SUV",
-          "power": "增程式 309马力"
-        },
-        {
-          "configName": "智界R7 2025款 增程 53.4kWh Ultra四驱版",
-          "price": "31.98万",
-          "fuelType": "增程式",
-          "size": "4956x1981x1634",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型SUV",
-          "power": "增程式 520马力"
-        },
-        {
-          "configName": "智界R7 2024款 增程 37kWh Pro后驱版",
+          "configName": "2026款 纯电 Max",
+          "configId": "250546",
+          "index": 0,
           "price": "24.98万",
-          "fuelType": "增程式",
-          "size": "4956x1981x1634",
           "manufacturer": "奇瑞汽车",
           "class": "中大型SUV",
-          "power": "增程式 309马力"
-        },
-        {
-          "configName": "智界R7 2024款 增程 37kWh Max后驱版",
-          "price": "28.98万",
-          "fuelType": "增程式",
-          "size": "4956x1981x1634",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型SUV",
-          "power": "增程式 309马力"
-        },
-        {
-          "configName": "智界R7 2024款 纯电 82kWh Pro后驱版",
-          "price": "25.98万",
           "fuelType": "纯电动",
-          "size": "4956x1981x1634",
-          "manufacturer": "奇瑞汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
+          "power": "纯电动 292马力",
+          "size": "4982x1981x1650",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "智界R7 2024款 纯电 82kWh Max后驱版",
+          "configName": "2026款 纯电 Max+",
+          "configId": "250547",
+          "index": 1,
+          "price": "26.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4982x1981x1650",
+          "exteriorImages": [
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b53a2d61f0f7a7a1c59fb100764195a5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b53a2d61f0f7a7a1c59fb100764195a5~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电  UItra",
+          "configId": "250548",
+          "index": 2,
+          "price": "30.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 496马力",
+          "size": "4982x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73338b189a3ea2f4046f137e73ab06bd~2508x0.webp"
+            },
+            {
+              "name": "极光绿",
+              "colors": [
+                "#388276"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_966187da154781066909bf041c59324f~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b121de39def14c70a719620db60b44a5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b684594e31bb66c1824946257181b4cd~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cd072e4e673738a79f86fe9d8e1f5a4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_73338b189a3ea2f4046f137e73ab06bd~2508x0.webp"
+        },
+        {
+          "configName": "2026款 增程 Max",
+          "configId": "250549",
+          "index": 3,
+          "price": "24.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "4982x1981x1650",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 增程 Max+",
+          "configId": "250550",
+          "index": 4,
+          "price": "26.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "4982x1981x1650",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 增程 UItra",
+          "configId": "250486",
+          "index": 5,
+          "price": "30.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 520马力",
+          "size": "4982x1981x1634",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 增程 53.4kWh Max后驱版",
+          "configId": "246648",
+          "index": 6,
           "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "4956x1981x1634",
           "manufacturer": "奇瑞汽车",
           "class": "中大型SUV",
-          "power": "纯电动 292马力"
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_983d47fdc41c8423b40b8eeae2f287d8~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_093ecad9adf25618dd813835574367ed~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e0f908cccd5bb675cd082b38e2414b31~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5b5268d3df0edbc0850c37220d12d45~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_61c6e03e7af5eb349fcc06147bc9f3de~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85077bbe379275bb361435066fe12479~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ce81348c735a8d54a219b4d1e5e539d1~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a234c62dc170d2259eacccd164dfe40d~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a0d558abc9035da7b233f29a6af3fc37~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_472883c6528ae0200a295b196fa1f116~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_983d47fdc41c8423b40b8eeae2f287d8~2508x0.webp"
         },
         {
-          "configName": "智界R7 2024款 纯电 100kWh Max后驱版",
+          "configName": "2025款 增程 53.4kWh Ultra四驱版",
+          "configId": "246647",
+          "index": 7,
           "price": "31.98万",
-          "fuelType": "纯电动",
-          "size": "4956x1981x1634",
           "manufacturer": "奇瑞汽车",
           "class": "中大型SUV",
-          "power": "纯电动 292马力"
+          "fuelType": "增程式",
+          "power": "纯电动 520马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0239af053a8eb06f5cffe710b481df25~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a748192c78eec403b8b37e4c1520f74a~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_e7404270940bb3f831f2ee022113216a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8761dee5d961705e1bfa9db7f5a4477a~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c6bc95d927d84b599b18e7a63a604ba~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e42e2659483a7049c86c6b1e60aee0ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_635d2dad3047cbbffe50225df83d27c8~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b6ebadbbeccbea14cdb13a14b91b65b~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f418ca1bb6a0a6dbdc7d1d66c53c856a~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1957830516c0b4f9954bdc197fd5d1c4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0239af053a8eb06f5cffe710b481df25~2508x0.webp"
         },
         {
-          "configName": "智界R7 2024款 纯电 100kWh UItra四驱版",
-          "price": "33.98万",
-          "fuelType": "纯电动",
-          "size": "4956x1981x1634",
+          "configName": "2024款 增程 37kWh Pro后驱版",
+          "configId": "242419",
+          "index": 8,
+          "price": "24.98万",
           "manufacturer": "奇瑞汽车",
           "class": "中大型SUV",
-          "power": "纯电动 496马力"
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1123edab81c53b5300ac45d25e3d17d~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_de0d0392e71d6abcee3dad912c4a7aa9~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3e5734f707223b05a5c9a43dd701093~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36c18011533910b49279b26fe6330386~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_10bfafff358c155473f207cdb02af923~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d30ee0a628376cd4645b03c8c172022~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0da16107adbba1e58897570faab5a1e~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38e86596897f1a2634866bc2b1c11bd1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a1123edab81c53b5300ac45d25e3d17d~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程 37kWh Max后驱版",
+          "configId": "242420",
+          "index": 9,
+          "price": "28.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30e3f81915de18c53e10bbe51b3bbd94~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/d5f46022f72f570f228d9b98cadafddf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/e2f8bf371750ff14b7c3468d911712a0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85eec36924f686e05db9e9a23d9669f1~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0aaa16ead2ed6437fc4cadaa43f209d~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06b290703ca1236b97846705284a3672~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b63b2749e13a0d8521799b2e73af6a15~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4197b6264a5ac4cae0e4dfc8601dec8d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/277acd052400cf8fc6f40d26b64e93bd~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38e263a640eb04d61e1d3ab3594193fc~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da02a15d5d140b502960bfe3ca5fbb3d~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a5b1b25d48afb25d64a4cf50e2f9580~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/30e3f81915de18c53e10bbe51b3bbd94~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电 82kWh Pro后驱版",
+          "configId": "240384",
+          "index": 10,
+          "price": "25.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d7a1508d023f02d2ca70deff6f4e8cd~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac7aaadf2a09d5ac90276fde2909ef2a~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d395120060609628b055586e918f3d1~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f101b67be48b11c3422d8f07c91d3f60~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a9c0fc295b539830f8e3a2b10e660f9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c238a6c21fde7a1f3793113204d02ad7~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8c021b7866ad2dc80bfa02c8e5cdf38c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19485edfe7b5cd3d44ff133bb17c8b44~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c24b649ceed1f8d276654ab0114b1ffd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3d7a1508d023f02d2ca70deff6f4e8cd~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电 82kWh Max后驱版",
+          "configId": "240322",
+          "index": 11,
+          "price": "29.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b207a461b0fa26578e4575fb5865b58~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80e67ab969c4b07decabebb97d8a4520~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_942e6b1e52850c6b5ce7d607aaf34b1a~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f23146ad7f03311e2799cf54f6264e1~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21330c26b9b5510b8c256bdf6e6228ed~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89b5330e160b6c3851fca29ab519b3fb~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_718f1fba04626f3b8f817864257bc0e5~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_df97350bfd1e75a9be169b83a406766a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be0b4d06fa9cefd1356cb738940cd1c6~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a445c370755555d60db63204d8b1dff0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c714da4f7cc24a7ba4819eeef8da648~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/981596cbab90cb693b017ff29b9847ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8b207a461b0fa26578e4575fb5865b58~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电 100kWh Max后驱版",
+          "configId": "240385",
+          "index": 12,
+          "price": "31.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f667488a0381c28176bf0c4b512e8a0~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49443d9e48a8d3ec51fb8d8e69db0c47~2508x0.webp"
+            },
+            {
+              "name": "碧波青",
+              "colors": [
+                "#81A6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/efb0545bbf89036e9618c1729af9aac8~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbb0d970724870466582c5f6f5a95de7~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e217d3090568ac2c8514302064d1051~2508x0.webp"
+            },
+            {
+              "name": "暖星云",
+              "colors": [
+                "#E4E2DF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/3a655f45922f12d92dcfdf85324a78cd~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/456e244895585a271a28856ad8840f15~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/bfbf840746f2014075013c6fd60e6d36~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/914f4b0998e512a0f5eff43738e786cc~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b8d1975bf397e0307afaa2f6b1c623f~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91ef9232cd43850ed6b5f73f6e266c81~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c2686738b3f0ff004d97073fd0327ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3f667488a0381c28176bf0c4b512e8a0~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电 100kWh UItra四驱版",
+          "configId": "240321",
+          "index": 13,
+          "price": "33.98万",
+          "manufacturer": "奇瑞汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 496马力",
+          "size": "4956x1981x1634",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#1C1C1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f65c6520de522a10e76081989dd8484~2508x0.webp"
+            },
+            {
+              "name": "晴光蓝",
+              "colors": [
+                "#75B0DA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a9c72c115b51134c876f12f6235f2ec~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F9091"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd2ba7597576916de251ec53192d9334~2508x0.webp"
+            },
+            {
+              "name": "幻影紫",
+              "colors": [
+                "#D6C9DE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a84ca25572c6a6382614d02bb4ab32f~2508x0.webp"
+            },
+            {
+              "name": "大都会红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/654be56cc23e76137bb3b47d4a22faf6~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97eecd0d2d0bb60f934f66522a435783~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#877A68"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd59af263347d0d708c023bc48f74156~2508x0.webp"
+            },
+            {
+              "name": "雀羽红",
+              "colors": [
+                "#963636"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e955de1778c6de65d404278623c961f8~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#D1AF93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd002926915072e32e597909d0c35a07~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#F6F3ED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdb7fde20fb4b9a9d919847ea476b189~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0f65c6520de522a10e76081989dd8484~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T04:12:41.997Z",
+  "progress": {
+    "completed": 2,
+    "total": 2,
+    "percentage": 100,
+    "currentIndex": 2
+  }
 }

@@ -3,439 +3,1949 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/6bad2891b5ccfb6b538c73b1d236ed59~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5440,
       "carName": "Z",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4fea826254704f2aaa9c8f0f037006cb~1200x0.png",
       "configs": [
         {
-          "configName": "林肯Z 2025款 2.0T 尊悦版",
+          "configName": "2025款 2.0T 尊悦版",
+          "configId": "240639",
+          "index": 0,
           "price": "23.58万",
-          "fuelType": "汽油",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2691745cf82393019e8cd0b61d771aff~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_54d4c8012a1540c6099ed470be2343e2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "质子黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/428581d0ce1c0ad57d682190489accea~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2691745cf82393019e8cd0b61d771aff~2508x0.webp"
         },
         {
-          "configName": "林肯Z 2025款 2.0T 尊尚版",
+          "configName": "2025款 2.0T 尊尚版",
+          "configId": "240640",
+          "index": 1,
           "price": "25.48万",
-          "fuelType": "汽油",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dec99063b2f2494ac94c98cab4733562~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb835800626b3f92fcfaa405aca88313~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b5b87a536d57cf23fa7c5aa4d34a782~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4f2ead5221aa86c9c63e54fc520a208~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "质子黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/231c01f2b3666efc4d277bc8f96c5871~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#B26759"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca542dfb222a5c243b9126b7b6ff06cf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dec99063b2f2494ac94c98cab4733562~2508x0.webp"
         },
         {
-          "configName": "林肯Z 2025款 2.0T 尊逸版",
+          "configName": "2025款 2.0T 尊逸版",
+          "configId": "240641",
+          "index": 2,
           "price": "27.98万",
-          "fuelType": "汽油",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba1b67f53a36dc1f543cdecba7b3fc19~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e415aed1fbcdf3ac1a4b145728bbea40~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2bae68198564a8fe3cee2fae456a5753~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/815e9e643446e3e3873ff7391758287e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "质子黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2520f20a511d1f49e8e7567d2bf03cc3~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#B26759"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/430f6c5b06367a2aab50275eff4d3cc0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ba1b67f53a36dc1f543cdecba7b3fc19~2508x0.webp"
         },
         {
-          "configName": "林肯Z 2025款 2.0T 两驱尊尚混动版",
+          "configName": "2025款 2.0T 两驱尊尚混动版",
+          "configId": "240642",
+          "index": 3,
           "price": "27.48万",
-          "fuelType": "油电混合",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "油电混合 190马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 294马力 L4 油电混合",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2d055efd89761944335fc2d4863e4ec~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b84bb8e8d1e18765adbd7fe3a8f5526~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ed602a9dbb68f68c92d1432b0be7b8e~2508x0.webp"
+            },
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5f6b71d47451086ae850c0e53416d5a~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/b7becea40ae5144fea029cab4061f955~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋栗棕",
+              "colors": [
+                "#7A4924"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe9ba4dcccbf5b057c713e9829e84d2b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d2d055efd89761944335fc2d4863e4ec~2508x0.webp"
         },
         {
-          "configName": "林肯Z 2025款 2.0T 两驱尊逸混动版",
+          "configName": "2025款 2.0T 两驱尊逸混动版",
+          "configId": "240643",
+          "index": 4,
           "price": "29.98万",
-          "fuelType": "油电混合",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "油电混合 190马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 294马力 L4 油电混合",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94439cbe9ab89038aeff9e69314223f5~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7fcf41a187b0324412cad2a9a767b49~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "谧静蓝",
+              "colors": [
+                "#55727E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf08010d13a070863c9e5040d22a66d1~2508x0.webp"
+            },
+            {
+              "name": "秋栗棕",
+              "colors": [
+                "#7A4924"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98c4b3b652c5c69f8b129237f77ba530~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/94439cbe9ab89038aeff9e69314223f5~2508x0.webp"
         },
         {
-          "configName": "林肯Z 2025款 2.0T 骑士特别混动版",
+          "configName": "2025款 2.0T 骑士特别混动版",
+          "configId": "240350",
+          "index": 5,
           "price": "30.58万",
-          "fuelType": "油电混合",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "油电混合 190马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 294马力 L4 油电混合",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/40edbf773bc2ae43e50b9d949bc46294~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日曜红",
+              "colors": [
+                "#E2575E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/742a2477582b0258078cd4ab83459c0a~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/40edbf773bc2ae43e50b9d949bc46294~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "林肯Z 2025款 2.0T 两驱尊耀混动版",
+          "configName": "2025款 2.0T 两驱尊耀混动版",
+          "configId": "240644",
+          "index": 6,
           "price": "36.58万",
-          "fuelType": "油电混合",
-          "size": "4982x1865x1485",
           "manufacturer": "长安林肯",
           "class": "中型车",
-          "power": "油电混合 190马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 294马力 L4 油电混合",
+          "size": "4982x1865x1485",
+          "exteriorImages": [
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/cff61eddead441f38ca1d203f07094b0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "谧静蓝",
+              "colors": [
+                "#55727E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c6bfe05cab774761a8354d007d7db6d8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/cff61eddead441f38ca1d203f07094b0~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 3981,
       "carName": "冒险家",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3493f29436ad4cccb4616c446a127b66~1200x0.png",
       "configs": [
         {
-          "configName": "冒险家 2025款 2.0T 两驱尊悦版",
+          "configName": "2025款 2.0T 两驱尊悦版",
+          "configId": "250408",
+          "index": 0,
           "price": "23.58万",
-          "fuelType": "汽油",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4612x1887x1630",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "冒险家 2025款 2.0T 两驱尊享版",
+          "configName": "2025款 2.0T 两驱尊享版",
+          "configId": "250409",
+          "index": 1,
           "price": "25.88万",
-          "fuelType": "汽油",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_689b8d359abf0b11933bf38ffd7cf12a~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f44bc18ebe4dcfdd43c5f71aaadc24a6~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7b032d01a14e38113db445f76b8f98f6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc2f3ce4e5640048815606c6a91ac390~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_689b8d359abf0b11933bf38ffd7cf12a~2508x0.webp"
         },
         {
-          "configName": "冒险家 2025款 2.0T 两驱尊雅版",
+          "configName": "2025款 2.0T 两驱尊雅版",
+          "configId": "250410",
+          "index": 2,
           "price": "27.88万",
-          "fuelType": "汽油",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e098566dca61696d267b8bcce95030e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f8a25206c544f26b3cb3608ea4e9017f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e098566dca61696d267b8bcce95030e5~2508x0.webp"
         },
         {
-          "configName": "冒险家 2025款 2.0T 四驱尊耀版",
+          "configName": "2025款 2.0T 四驱尊耀版",
+          "configId": "250411",
+          "index": 3,
           "price": "34.58万",
+          "manufacturer": "长安林肯",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
           "size": "4612x1887x1630",
-          "manufacturer": "长安林肯",
-          "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "冒险家 2025款 1.5T 两驱尊享混动版",
+          "configName": "2025款 1.5T 两驱尊享混动版",
+          "configId": "250412",
+          "index": 4,
           "price": "25.38万",
-          "fuelType": "油电混合",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "油电混合 131马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 193马力 L4 油电混合",
+          "size": "4612x1887x1630",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "冒险家 2025款 1.5T 两驱尊雅混动版",
+          "configName": "2025款 1.5T 两驱尊雅混动版",
+          "configId": "250413",
+          "index": 5,
           "price": "27.38万",
-          "fuelType": "油电混合",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "油电混合 131马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 193马力 L4 油电混合",
+          "size": "4612x1887x1630",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "冒险家 2024款 2.0T 两驱尊悦版",
+          "configName": "2024款 2.0T 两驱尊悦版",
+          "configId": "98849",
+          "index": 6,
           "price": "23.58万",
-          "fuelType": "汽油",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2fa5c5c505ec7c96110072835e2a932~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3c27ca745a2cf73f3cc8cfd13fc0d81~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6eae4a6bb1732a0cec306ba3102236c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9212d0335758925a678d2f765bc75ed~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b2fa5c5c505ec7c96110072835e2a932~2508x0.webp"
         },
         {
-          "configName": "冒险家 2024款 2.0T 两驱尊享版",
+          "configName": "2024款 2.0T 两驱尊享版",
+          "configId": "98846",
+          "index": 7,
           "price": "25.88万",
-          "fuelType": "汽油",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/682eda4f3560318e01b43c0dc3d9ec9a~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88aeadf0eca7b3209cbceba33f3577e6~2508x0.webp"
+            },
+            {
+              "name": "车厘子红",
+              "colors": [
+                "#4E0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/830a4523868df5bd5ceb455fb18ba871~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1d33c596e93f345caa1cbeebef39659~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f57fe76906106d8e78922806b8963638~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/933658eb763e7dcede9c014f854ff9ef~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/171b7e6a4e16387f3c5e4dd594d814a3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/682eda4f3560318e01b43c0dc3d9ec9a~2508x0.webp"
         },
         {
-          "configName": "冒险家 2024款 2.0T 两驱尊雅版",
+          "configName": "2024款 2.0T 两驱尊雅版",
+          "configId": "79167",
+          "index": 8,
           "price": "27.88万",
-          "fuelType": "汽油",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d80ca092f5827a9760d4258156ec8c0~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b98168ee63ae7019cbf68ce225ffec3d~2508x0.webp"
+            },
+            {
+              "name": "车厘子红",
+              "colors": [
+                "#4E0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1561da67dbbc799bcf801ec0b7a5fb5~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74604bae40fe9232d96bcf30919184c7~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c304e81fe23fbb2b9e43e7e33ae0bb94~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b843f1172ee49c622950f1089da785c6~2508x0.webp"
+            },
+            {
+              "name": "波士顿红",
+              "colors": [
+                "#C82121"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2764d555406437a032881daa3e84acc1~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9db2547bf4aa85a8fca41774b3a47c1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6d80ca092f5827a9760d4258156ec8c0~2508x0.webp"
         },
         {
-          "configName": "冒险家 2024款 2.0T 四驱尊耀版",
+          "configName": "2024款 2.0T 四驱尊耀版",
+          "configId": "98396",
+          "index": 9,
           "price": "34.58万",
+          "manufacturer": "长安林肯",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
           "size": "4612x1887x1630",
-          "manufacturer": "长安林肯",
-          "class": "紧凑型SUV",
-          "power": "2.0T 261马力 L4"
+          "exteriorImages": [
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a05f7048de7510d6d69aa188c0837316~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/316fd1d5b6f6da5b054bd943d9ee018b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edeaada30f0755920d06b51d57476ed6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a05f7048de7510d6d69aa188c0837316~2508x0.webp"
         },
         {
-          "configName": "冒险家 2024款 1.5T 两驱尊享混动版",
+          "configName": "2024款 1.5T 两驱尊享混动版",
+          "configId": "92797",
+          "index": 10,
           "price": "25.38万",
-          "fuelType": "油电混合",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "油电混合 131马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 193马力 L4 油电混合",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ea9de6a8db698a2c95520ed000d7494~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/506c8db8b7b75a0d28f980c7448f9345~2508x0.webp"
+            },
+            {
+              "name": "车厘子红",
+              "colors": [
+                "#4E0B0B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e49e39ed0332664c44d00d9b28e931e2~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a1b28630b9fc7512afbc601a734c394~2508x0.webp"
+            },
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b63365f9fe0871306ea3d45f72a7416~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a57a4b025d55a977e68c90efdb2f913~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5cee1dad35a5c5c22aaa7edf598b37b~2508x0.webp"
+            },
+            {
+              "name": "谧静蓝",
+              "colors": [
+                "#55727E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a4438c8a92f5c344205282053113be6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6ea9de6a8db698a2c95520ed000d7494~2508x0.webp"
         },
         {
-          "configName": "冒险家 2024款 1.5T 两驱尊雅混动版",
+          "configName": "2024款 1.5T 两驱尊雅混动版",
+          "configId": "98848",
+          "index": 11,
           "price": "27.38万",
-          "fuelType": "油电混合",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "油电混合 131马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 193马力 L4 油电混合",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc8dc2ceeec6a490d6f82b1392e21bda~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#B8BFD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5fa87ade1521da6ab12857688f103e94~2508x0.webp"
+            },
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6c6aeff27ff67ed64fd263b5c739d02~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9f97dfaa8e5566eb5a9eb59a320fc89~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9d3e1f30641d8184ae14161c83e6ea3~2508x0.webp"
+            },
+            {
+              "name": "谧静蓝",
+              "colors": [
+                "#55727E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8be66e756b025ce16972ff480ad61611~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cc8dc2ceeec6a490d6f82b1392e21bda~2508x0.webp"
         },
         {
-          "configName": "冒险家 2024款 1.5T 木兰特别混动版",
+          "configName": "2024款 1.5T 木兰特别混动版",
+          "configId": "240348",
+          "index": 12,
           "price": "28.78万",
-          "fuelType": "油电混合",
-          "size": "4612x1887x1630",
           "manufacturer": "长安林肯",
           "class": "紧凑型SUV",
-          "power": "油电混合 131马力"
+          "fuelType": "油电混合",
+          "power": "1.5T 193马力 L4 油电混合",
+          "size": "4612x1887x1630",
+          "exteriorImages": [
+            {
+              "name": "燕山白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5c765722517e8a06646a1d05dbe518e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/凝妆红",
+              "colors": [
+                "#000000",
+                "#C52222"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3dbbfa1b24621ef515e5ed2b1c07f6a4~2508x0.webp"
+            },
+            {
+              "name": "骏马棕",
+              "colors": [
+                "#BF986F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b9fbfb3bd9bd5fc1ffa71e09ad4f5e5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b5c765722517e8a06646a1d05dbe518e~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "领航员",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/38b8efa6319d424a8e02a83e535a6d22~1200x0.png",
-      "configs": [
-        {
-          "configName": "领航员 2025款 3.5T 总裁版",
-          "price": "125.8万",
-          "fuelType": "汽油",
-          "size": "5346x2069x1977",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 396马力 V6"
-        },
-        {
-          "configName": "领航员 2025款 3.5T 总统版",
-          "price": "135.8万",
-          "fuelType": "汽油",
-          "size": "5346x2069x1977",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 396马力 V6"
-        },
-        {
-          "configName": "领航员 2025款 3.5T 加长总统版",
-          "price": "145.8万",
-          "fuelType": "汽油",
-          "size": "5648x2069x1987",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 396马力 V6"
-        },
-        {
-          "configName": "领航员 2024款 3.5T 尊耀版",
-          "price": "110.8万",
-          "fuelType": "汽油",
-          "size": "5355x2073x1937",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 415马力 V6"
-        },
-        {
-          "configName": "领航员 2024款 3.5T 伯爵特别版",
-          "price": "112.8万",
-          "fuelType": "汽油",
-          "size": "5355x2073x1937",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 415马力 V6"
-        },
-        {
-          "configName": "领航员 2024款 3.5T 总统版",
-          "price": "121.8万",
-          "fuelType": "汽油",
-          "size": "5355x2073x1937",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 415马力 V6"
-        },
-        {
-          "configName": "领航员 2024款 3.5T 长轴总统版",
-          "price": "135.8万",
-          "fuelType": "汽油",
-          "size": "5657x2073x1934",
-          "manufacturer": "林肯(进口)",
-          "class": "大型SUV",
-          "power": "3.5T 415马力 V6"
-        }
-      ]
-    },
-    {
+      "carId": 4537,
       "carName": "航海家",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/34afbb171c964df888b022624a54fe8c~1200x0.png",
       "configs": [
         {
-          "configName": "航海家 2025款 2.0T 四驱 尊享版",
+          "configName": "2025款 2.0T 四驱 尊享版",
+          "configId": "98867",
+          "index": 0,
           "price": "32.58万",
-          "fuelType": "汽油",
-          "size": "4908x1952x1717",
           "manufacturer": "长安林肯",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e14d051bb492b6612703db2c83cdd254~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8eb4bea018144728d13a21bc06b7c0e2~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#6788B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b820857668aafc66720330402c7256e~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/264bca0e67628c9d6f17abedab38c6a9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c71b35a9246c0528d839bcbb773808b5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e14d051bb492b6612703db2c83cdd254~2508x0.webp"
         },
         {
-          "configName": "航海家 2025款 2.0T 四驱 尊逸版",
+          "configName": "2025款 改款 2.0T 四驱 尊享版",
+          "configId": "250964",
+          "index": 1,
+          "price": "32.58万",
+          "manufacturer": "长安林肯",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e68cd38db9769e62c4a1fc5e6da7ad3~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_022d4a149330cef1f1b57aaa8e41780d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0e9b230fc26cae803eb6c7ec6ee5c65~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e68cd38db9769e62c4a1fc5e6da7ad3~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0T 四驱 尊逸版",
+          "configId": "98868",
+          "index": 2,
           "price": "34.58万",
-          "fuelType": "汽油",
-          "size": "4908x1952x1717",
           "manufacturer": "长安林肯",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9dcdc2b8a2c6538ea4a1acd21f3ac331~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70680a46cf1eb614a53c61d4bdfe506a~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#6788B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39bf05a8bc4ea7ec7706cad488c8545d~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf8a83bfc2d28c0a2b1078ea79558842~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e1523ca9e1991069650bd708b532b1e~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#9F4D2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0407433c96b2ac90e30c5557035e1e13~2508x0.webp"
+            },
+            {
+              "name": "母贝灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99e6f7e6ebb211baf5b3c9c318db827f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9dcdc2b8a2c6538ea4a1acd21f3ac331~2508x0.webp"
         },
         {
-          "configName": "航海家 2025款 2.0T 四驱 尊睿版",
+          "configName": "2025款 改款 2.0T 四驱 尊逸版",
+          "configId": "250965",
+          "index": 3,
+          "price": "34.58万",
+          "manufacturer": "长安林肯",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a658cde10b4fd35f463618bedf7d29e6~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2a27405dd83d8185cd63a3e7278c4781~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "木星棕",
+              "colors": [
+                "#9F4D2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f558332ee2246365fd2f1e120ffda65~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a658cde10b4fd35f463618bedf7d29e6~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0T 四驱 尊睿版",
+          "configId": "98869",
+          "index": 4,
           "price": "37.58万",
-          "fuelType": "汽油",
-          "size": "4908x1952x1717",
           "manufacturer": "长安林肯",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8b45f424649685a98b34302502098b6~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f774f99014cecd62e14b933fc551d81b~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#6788B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dba9e3bf78d1829fee0562cb303fae37~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c91bae387ba4d25f213a7fdcd819653c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d41424a723e934a5f91bd154355720cf~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#9F4D2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbc52b944db0730f65158167ff07cdd9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e8b45f424649685a98b34302502098b6~2508x0.webp"
         },
         {
-          "configName": "航海家 2025款 2.0T 四驱 亚特兰蒂斯版",
+          "configName": "2025款 2.0T 四驱 亚特兰蒂斯版",
+          "configId": "247799",
+          "index": 5,
           "price": "38.68万",
-          "fuelType": "汽油",
-          "size": "4908x1952x1717",
           "manufacturer": "长安林肯",
           "class": "中型SUV",
-          "power": "2.0T 261马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "珊瑚红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f4e5ca822ff67876ba67d42bf660fbb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "珍珠黑",
+              "colors": [
+                "#191919"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d9ee210b7978f9c47213b2df7f6f165~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f4e5ca822ff67876ba67d42bf660fbb~2508x0.webp"
         },
         {
-          "configName": "航海家 2025款 2.0T 四驱 尊逸混动版",
+          "configName": "2025款 2.0T 四驱 总裁版",
+          "configId": "251245",
+          "index": 6,
+          "price": "39.88万",
+          "manufacturer": "长安林肯",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 261马力 L4",
+          "size": "4908x1952x1717",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 2.0T 四驱 尊逸混动版",
+          "configId": "98870",
+          "index": 7,
           "price": "36.58万",
-          "fuelType": "油电混合",
-          "size": "4908x1952x1717",
           "manufacturer": "长安林肯",
           "class": "中型SUV",
-          "power": "油电混合 190马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 282马力 L4 油电混合",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0188246e834d35a73a664ff5e2aa93fe~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c584f19bf218baf3feb84934b61f9b75~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#6788B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60665dff5a34727b412dcca080b83d5d~2508x0.webp"
+            },
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/217d6014c1bb8c28213a0f0d461397f7~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77eb903eb0bd78a052ff463fab3f8f66~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b05c54b1623e1d724b164f99aada043e~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#9F4D2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/479fe2c7b86356e200cd6d0cb2b76e09~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0188246e834d35a73a664ff5e2aa93fe~2508x0.webp"
         },
         {
-          "configName": "航海家 2025款 2.0T 四驱 尊睿混动版",
+          "configName": "2025款 改款 2.0T 四驱 尊逸混动版",
+          "configId": "250966",
+          "index": 8,
+          "price": "36.58万",
+          "manufacturer": "长安林肯",
+          "class": "中型SUV",
+          "fuelType": "油电混合",
+          "power": "2.0T 282马力 L4 油电混合",
+          "size": "4908x1952x1717",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 2.0T 四驱 尊睿混动版",
+          "configId": "98871",
+          "index": 9,
           "price": "40.58万",
-          "fuelType": "油电混合",
-          "size": "4908x1952x1717",
           "manufacturer": "长安林肯",
           "class": "中型SUV",
-          "power": "油电混合 190马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 282马力 L4 油电混动",
+          "size": "4908x1952x1717",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e106e2532b17f4904b1646d40a5ae0af~2508x0.webp"
+            },
+            {
+              "name": "鱼子酱灰",
+              "colors": [
+                "#3B3B3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c08b7c6e849a781e140e449122874e03~2508x0.webp"
+            },
+            {
+              "name": "海湾蓝",
+              "colors": [
+                "#6788B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/769c0e55040d381d5e40d561b9b2ecbe~2508x0.webp"
+            },
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1296196b939c3701180702e8d2ff747e~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ff24da31c940a28a52846a203de5626~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ea7b6b4f8ff54fe5cdfa699af5097c5~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#9F4D2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25ff65f1a26dd3152b11374bf0efa358~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e106e2532b17f4904b1646d40a5ae0af~2508x0.webp"
         },
         {
-          "configName": "航海家 2025款 2.0T 四驱 总统混动版",
+          "configName": "2025款 2.0T 四驱 总统混动版",
+          "configId": "240381",
+          "index": 10,
           "price": "46.88万",
+          "manufacturer": "长安林肯",
+          "class": "中型SUV",
           "fuelType": "油电混合",
+          "power": "2.0T 282马力 L4 油电混动",
           "size": "4908x1952x1717",
-          "manufacturer": "长安林肯",
-          "class": "中型SUV",
-          "power": "油电混合 190马力"
-        },
-        {
-          "configName": "航海家 2021款 2.7T 四驱尊耀版",
-          "price": "41.88万",
-          "fuelType": "汽油",
-          "size": "4849x1934x1693",
-          "manufacturer": "长安林肯",
-          "class": "中型SUV",
-          "power": "2.7T 322马力 V6"
+          "exteriorImages": [
+            {
+              "name": "电光银",
+              "colors": [
+                "#E2E4F0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15a3933c63b73f5a9ed04032d07bfe0b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "流光雅宴",
+              "colors": [
+                "#58362A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09f4357af69ebd9b7f80e7e38fa6e267~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15a3933c63b73f5a9ed04032d07bfe0b~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4339,
       "carName": "飞行家",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6a58280b52104669b65c3e7f886052cc~1200x0.png",
       "configs": [
         {
-          "configName": "飞行家 2024款 3.0T V6 四驱典雅版 六座",
+          "configName": "2024款 3.0T V6 四驱典雅版 六座",
+          "configId": "238986",
+          "index": 0,
           "price": "50.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 367马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 367马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "苍穹黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5daa4f3483e1020a857df696d7aee47c~2508x0.webp"
+            },
+            {
+              "name": "长空蓝",
+              "colors": [
+                "#4C4C71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4dd2787add82783a28524980c12e0c2~2508x0.webp"
+            },
+            {
+              "name": "玄云灰",
+              "colors": [
+                "#686868"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c006b92c1df314208d99b0230e2007b9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "土星灰",
+              "colors": [
+                "#4E4E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f13143095dc5c371329b7aecc43a6b7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5daa4f3483e1020a857df696d7aee47c~2508x0.webp"
         },
         {
-          "configName": "飞行家 2024款 3.0T V6 四驱典雅版 七座",
+          "configName": "2024款 3.0T V6 四驱典雅版 七座",
+          "configId": "245193",
+          "index": 1,
           "price": "50.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 367马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 367马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "苍穹黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d99905847b0cd175b2079e3a22c43f0a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "土星灰",
+              "colors": [
+                "#4E4E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3420a697091dd4d0ab7c79e50545b263~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d99905847b0cd175b2079e3a22c43f0a~2508x0.webp"
         },
         {
-          "configName": "飞行家 2024款 3.0T V6 四驱高雅版 六座",
+          "configName": "2024款 3.0T V6 四驱高雅版 六座",
+          "configId": "238987",
+          "index": 2,
           "price": "54.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 367马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 367马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "苍穹黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ffb8abd79f8369e3b2fa3053b756001~2508x0.webp"
+            },
+            {
+              "name": "长空蓝",
+              "colors": [
+                "#4C4C71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93c464d6a2b1358315457b0c6be8ea20~2508x0.webp"
+            },
+            {
+              "name": "玄云灰",
+              "colors": [
+                "#686868"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a25b520fddacec23ffdc958de27663c6~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb69ab5e341bc680f975370536878039~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "土星灰",
+              "colors": [
+                "#4E4E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbe67174dee33a221cdc322ae677fef0~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#AB6400"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab3d84cb5cf28b3264596af31f730409~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0ffb8abd79f8369e3b2fa3053b756001~2508x0.webp"
         },
         {
-          "configName": "飞行家 2024款 3.0T V6 四驱高雅版 七座",
+          "configName": "2024款 3.0T V6 四驱高雅版 七座",
+          "configId": "245194",
+          "index": 3,
           "price": "54.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 367马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 367马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "苍穹黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e40ba974250c1b6220dba35a8c2f783d~2508x0.webp"
+            },
+            {
+              "name": "长空蓝",
+              "colors": [
+                "#4C4C71"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c08dc0f737e5de48a06f7f71a324419~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "木星棕",
+              "colors": [
+                "#AB6400"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2af1b7e910ed028a4ad2ea512f111df5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e40ba974250c1b6220dba35a8c2f783d~2508x0.webp"
         },
         {
-          "configName": "飞行家 2024款 3.0T V6 四驱奢雅版 六座",
+          "configName": "2024款 3.0T V6 四驱奢雅版 六座",
+          "configId": "238989",
+          "index": 4,
           "price": "62.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 367马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 367马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "苍穹黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1eec21f07ba6857fee7d0a9a2e953e9a~2508x0.webp"
+            },
+            {
+              "name": "长空蓝/黑色",
+              "colors": [
+                "#4C4C71",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/591405f227bf14040146760d16ffbdde~2508x0.webp"
+            },
+            {
+              "name": "玄云灰/黑色",
+              "colors": [
+                "#686868",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a084347695e12770aa52ed45703003c~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4af6ddf8a18203690d3f5fa3c97f5e6c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "土星灰",
+              "colors": [
+                "#4E4E4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7f22763cb70cd5eed0027acb3c203ba~2508x0.webp"
+            },
+            {
+              "name": "木星棕",
+              "colors": [
+                "#AB6400"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/487aff50acf0e2208cf6bdb9ce247666~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1eec21f07ba6857fee7d0a9a2e953e9a~2508x0.webp"
         },
         {
-          "configName": "飞行家 2024款 3.0T V6 四驱总统版 六座",
+          "configName": "2024款 3.0T V6 四驱总统版 六座",
+          "configId": "99169",
+          "index": 5,
           "price": "70.08万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 367马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 367马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "长空蓝/黑色",
+              "colors": [
+                "#4C4C71",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d1e84f47c9808e25a6ab30059341d1d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "金星橙",
+              "colors": [
+                "#BB7A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/648ebf4eab292fd372f61992f053a48b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5d1e84f47c9808e25a6ab30059341d1d~2508x0.webp"
         },
         {
-          "configName": "飞行家 2023款 3.0T V6 四驱尊享巡航版",
+          "configName": "2023款 3.0T V6 四驱尊享巡航版",
+          "configId": "93407",
+          "index": 6,
           "price": "50.08万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 355马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 355马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b721b82a63f449db15b53cddc3b38367~2508x0.webp"
+            },
+            {
+              "name": "深邃蓝",
+              "colors": [
+                "#293140"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ae52ab42aa8f9d3d9fcfbb419667771~2508x0.webp"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6118053b06daafcb03582c854e3955b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜岩黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0faebe6b5c62a98393c62b444e48de5a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b721b82a63f449db15b53cddc3b38367~2508x0.webp"
         },
         {
-          "configName": "飞行家 2023款 3.0T V6 四驱尊雅巡航版",
+          "configName": "2023款 3.0T V6 四驱尊雅巡航版",
+          "configId": "93408",
+          "index": 7,
           "price": "53.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 355马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 355马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b6a99f54011b3eb1e76d7dc12bd8579~2508x0.webp"
+            },
+            {
+              "name": "深邃蓝",
+              "colors": [
+                "#293140"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/afcc5285b88b5395bcd65d59e763616e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "铂钻白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/636a936af426856930e40ea81418b871~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红咖棕",
+              "colors": [
+                "#54362D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01610d9f0d879e149d5953b431d8825a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4b6a99f54011b3eb1e76d7dc12bd8579~2508x0.webp"
         },
         {
-          "configName": "飞行家 2023款 3.0T V6 四驱行政巡航版",
+          "configName": "2023款 3.0T V6 四驱行政巡航版",
+          "configId": "93409",
+          "index": 8,
           "price": "64.98万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 355马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 355马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [
+            {
+              "name": "深邃蓝/黑色",
+              "colors": [
+                "#293140",
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac1180f456247eb6fa0c4c9355cef9af~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红咖棕",
+              "colors": [
+                "#54362D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/716393db06779194ec42205f19068e97~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ac1180f456247eb6fa0c4c9355cef9af~2508x0.webp"
         },
         {
-          "configName": "飞行家 2023款 3.0T V6 四驱总统版",
+          "configName": "2023款 3.0T V6 四驱总统版",
+          "configId": "93410",
+          "index": 9,
           "price": "76.38万",
-          "fuelType": "汽油",
-          "size": "5080x2022x1759",
           "manufacturer": "长安林肯",
           "class": "中大型SUV",
-          "power": "3.0T 355马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 355马力 V6",
+          "size": "5080x2022x1759",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 957,
+      "carName": "领航员",
+      "configs": [
+        {
+          "configName": "2025款 3.5T 总裁版",
+          "configId": "247750",
+          "index": 0,
+          "price": "125.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 396马力 V6",
+          "size": "5346x2069x1977",
+          "exteriorImages": [
+            {
+              "name": "玉髓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fb16bd5a6175479b6d176c1556c414c6~2508x0.webp"
+            },
+            {
+              "name": "珊瑚灰",
+              "colors": [
+                "#7F7D7D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b0e0f32da68579ec2b6b36fedaf0c3f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "岁月沉香",
+              "colors": [
+                "#AA612D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_482a1d4d1aa4d0685e284608b1691ee0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fb16bd5a6175479b6d176c1556c414c6~2508x0.webp"
+        },
+        {
+          "configName": "2025款 3.5T 总统版",
+          "configId": "247752",
+          "index": 1,
+          "price": "135.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 396马力 V6",
+          "size": "5346x2069x1977",
+          "exteriorImages": [
+            {
+              "name": "玉髓黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d72ac44b8d07ae21552a3b3dba50c0f1~2508x0.webp"
+            },
+            {
+              "name": "琥珀金",
+              "colors": [
+                "#C19C88"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f66f25cab81b006887e67b73cdb4b314~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "日上斗金",
+              "colors": [
+                "#DBAF83"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a5e7c9706e0a7e0eee554c4dd08044c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d72ac44b8d07ae21552a3b3dba50c0f1~2508x0.webp"
+        },
+        {
+          "configName": "2025款 3.5T 加长总统版",
+          "configId": "239346",
+          "index": 2,
+          "price": "145.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 396马力 V6",
+          "size": "5648x2069x1987",
+          "exteriorImages": [
+            {
+              "name": "羊脂玉",
+              "colors": [
+                "#E0E8EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_600d6720f3db9ef3d8040d035cc24c4f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "平步青云",
+              "colors": [
+                "#8AC7E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95463877cf0894577454c74e77713d80~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_600d6720f3db9ef3d8040d035cc24c4f~2508x0.webp"
+        },
+        {
+          "configName": "2024款 3.5T 尊耀版",
+          "configId": "241023",
+          "index": 3,
+          "price": "110.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 415马力 V6",
+          "size": "5355x2073x1937",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "玛瑙黑/红咖棕",
+              "colors": [
+                "#000000",
+                "#D2691E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b3d9aaa5e32347a75d7ad20d4bd233b~2508x0.webp"
+            }
+          ],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 3.5T 伯爵特别版",
+          "configId": "241026",
+          "index": 4,
+          "price": "112.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 415马力 V6",
+          "size": "5355x2073x1937",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/533bc001bef3892efed213c72e923c38~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玛瑙黑/红咖棕",
+              "colors": [
+                "#000000",
+                "#D2691E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93ce94c6ea70af3d04ad34021f7f3105~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/533bc001bef3892efed213c72e923c38~2508x0.webp"
+        },
+        {
+          "configName": "2024款 3.5T 总统版",
+          "configId": "241024",
+          "index": 5,
+          "price": "121.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 415马力 V6",
+          "size": "5355x2073x1937",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5efa523038d554462289d4b4aac3cd8b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "中央公园黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c76d4562b925571667dfb417d859a6f4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5efa523038d554462289d4b4aac3cd8b~2508x0.webp"
+        },
+        {
+          "configName": "2024款 3.5T 长轴总统版",
+          "configId": "241025",
+          "index": 6,
+          "price": "135.8万",
+          "manufacturer": "林肯(进口)",
+          "class": "大型SUV",
+          "fuelType": "汽油",
+          "power": "3.5T 415马力 V6",
+          "size": "5657x2073x1934",
+          "exteriorImages": [
+            {
+              "name": "瀚金黑",
+              "colors": [
+                "#1C1C1D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a32c87cacb60149628444694fba7091c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "中央公园黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9176bcd7232e09230c48166d1b86911~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a32c87cacb60149628444694fba7091c~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T03:08:39.552Z",
+  "progress": {
+    "completed": 5,
+    "total": 5,
+    "percentage": 100,
+    "currentIndex": 5
+  }
 }

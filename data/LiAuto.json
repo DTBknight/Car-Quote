@@ -3,157 +3,1067 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/25321616a634e8f615a9c4225f792be2~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5845,
       "carName": "L6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/57509b608a764fd4917ba9177861eecc~1200x0.png",
       "configs": [
         {
-          "configName": "理想L6 2025款 Pro 智能焕新版",
+          "configName": "2025款 Pro 智能焕新版",
+          "configId": "247736",
+          "index": 0,
           "price": "24.98万",
-          "fuelType": "增程式",
-          "size": "4925x1960x1735",
           "manufacturer": "理想汽车",
           "class": "中大型SUV",
-          "power": "增程式 408马力"
+          "fuelType": "增程式",
+          "power": "纯电动 408马力",
+          "size": "4925x1960x1735",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8076060eb6a4b3dd6c77cf06d3c834ab~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e346824b7b98db1468c9f53e9af7153~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e407141f1c1e662784f1c04a6147783c~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#CEE5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11448752456099a7100c6d31ab45d41c~2508x0.webp"
+            },
+            {
+              "name": "小象灰",
+              "colors": [
+                "#DFDFDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04c32382ac83f547770a330db4d541ac~2508x0.webp"
+            },
+            {
+              "name": "白色珍珠漆",
+              "colors": [
+                "#FDFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b19b1221ac79bc138c62e9453499c70c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ee5405400a00ace4835054f244bd528~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#EEB965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b82a6e3cf770375c7e5f03f55f29a8aa~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12c9d2bec4a0fce7b235492ec22c5a99~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8076060eb6a4b3dd6c77cf06d3c834ab~2508x0.webp"
         },
         {
-          "configName": "理想L6 2025款 Max 智能焕新版",
+          "configName": "2025款 Max 智能焕新版",
+          "configId": "245714",
+          "index": 1,
           "price": "27.98万",
+          "manufacturer": "理想汽车",
+          "class": "中大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 408马力",
           "size": "4925x1960x1735",
-          "manufacturer": "理想汽车",
-          "class": "中大型SUV",
-          "power": "增程式 408马力"
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f37de7db2af477dbf20f673242c1e1b~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7c9659afbe6a9f034ff7ed91641c3e5~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc7a059ea5117d390b722b912d34a230~2508x0.webp"
+            },
+            {
+              "name": "天青色",
+              "colors": [
+                "#CEE5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa4449d07c86a34b8702f0d97be912ac~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e94dcef6fcbc731751b2ad9d8f283501~2508x0.webp"
+            },
+            {
+              "name": "小象灰",
+              "colors": [
+                "#DFDFDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_36565e553dc8ac0c7462a5fdb6d6b658~2508x0.webp"
+            },
+            {
+              "name": "白色珍珠漆",
+              "colors": [
+                "#FDFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31ee9a45de326443d2364e689496a3ed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑白",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4970803007324881c00f1897cd8f5c6e~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#EEB965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56fafef91eacff2503887d90d53b3f61~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_333b6eae6f2e0b241b6fa61d5bdf161e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f37de7db2af477dbf20f673242c1e1b~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "i8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dea91303295d42b1a10e5abb580dbfea~1200x0.png",
-      "configs": [
-        {
-          "configName": "理想i8 2025款 标准版",
-          "price": "33.98万",
-          "fuelType": "纯电动",
-          "size": "5085x1960x1740",
-          "manufacturer": "理想汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 544马力"
-        }
-      ]
-    },
-    {
+      "carId": 6173,
       "carName": "L7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d75f43b9cb604694bf42ccae535265f0~1200x0.png",
       "configs": [
         {
-          "configName": "理想L7 2025款 Pro 智能焕新版",
+          "configName": "2025款 Pro 智能焕新版",
+          "configId": "248168",
+          "index": 0,
           "price": "30.18万",
-          "fuelType": "增程式",
-          "size": "5050x1995x1750",
           "manufacturer": "理想汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5050x1995x1750",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe346addd1e31c59b5ef118c4096b402~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eb75e9f2d5ac45ac4e27dd77051c9d9e~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe63b95fa2a933c243d756ba87a77332~2508x0.webp"
+            },
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#9191B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50a5bcf9a3390fd57ce313843913e3e3~2508x0.webp"
+            },
+            {
+              "name": "Baby Blue",
+              "colors": [
+                "#B0C8DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_68392e0020e1124f06de148e212eb5b0~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea807c6d1336e452a56d50f510836c32~2508x0.webp"
+            },
+            {
+              "name": "白色珍珠漆",
+              "colors": [
+                "#FDFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f9f3b91ebe33b6e787126ca034ce6d33~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0b7dc31f147b3fca9284f9938f3157d0~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#9D6C30"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a3a7203a3b339d9f24901c74c5ee673b~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aba52f45fe0f3efbfe27b64ea6d959a5~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6505524d3d8d7e957b422cea7127f508~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe346addd1e31c59b5ef118c4096b402~2508x0.webp"
         },
         {
-          "configName": "理想L7 2025款 Max 智能焕新版",
+          "configName": "2025款 Max 智能焕新版",
+          "configId": "248169",
+          "index": 1,
           "price": "32.98万",
-          "fuelType": "增程式",
-          "size": "5050x1995x1750",
           "manufacturer": "理想汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5050x1995x1750",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9798f2dfdc81e90374d9a74c51b1c8c9~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2c78659db68acab0e6a0ca0a474e3fda~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_608a3f19569b49a65e9afc7eed97e384~2508x0.webp"
+            },
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#9191B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09a54b6e7ca17f562938f084459586fe~2508x0.webp"
+            },
+            {
+              "name": "Baby Blue",
+              "colors": [
+                "#B0C8DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ffabad214130cbd4f5f44e2fd65cbf5f~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9ebf0782e9a5cccb2e885483ed58cda8~2508x0.webp"
+            },
+            {
+              "name": "白色珍珠漆",
+              "colors": [
+                "#FDFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9cd3e018010b30bd4ec38b42bd59e6c1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b340e3b6af6704dbe5e1e96c650769aa~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#9D6C30"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f20f2cde3f30e621c95d883ac3c1b623~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d385824f025d7bd6dfb3110a556b6443~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f16a2b06bd11d3032d59001994527340~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9798f2dfdc81e90374d9a74c51b1c8c9~2508x0.webp"
         },
         {
-          "configName": "理想L7 2025款 Ultra 智能焕新版",
+          "configName": "2025款 Ultra 智能焕新版",
+          "configId": "245715",
+          "index": 2,
           "price": "35.98万",
+          "manufacturer": "理想汽车",
+          "class": "中大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 449马力",
           "size": "5050x1995x1750",
-          "manufacturer": "理想汽车",
-          "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc5539ce6cd39c56ab50ab48b5f20d19~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_722d8b4c8a24a707d8a8cba347e6e537~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_453e42a88626130d103c8f971132a7a2~2508x0.webp"
+            },
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#9191B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c06718f26a31a6f86ddd588ffd7ad6a1~2508x0.webp"
+            },
+            {
+              "name": "Baby Blue",
+              "colors": [
+                "#B0C8DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_671fe15222087ac9b758861b9294c294~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0c2c50b6897730af54015c484478c06~2508x0.webp"
+            },
+            {
+              "name": "白色珍珠漆",
+              "colors": [
+                "#FDFDFD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c996b83b33f2a41e3601c63196c10fc9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#9D6C30"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_613fd02d48f7d8f753563be5286432c5~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47e3437208e60fab23370ce7f0f89b89~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_35043e4a98a989fd9004d47f1059ff2b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc5539ce6cd39c56ab50ab48b5f20d19~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 6095,
       "carName": "L8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/704ec923470840f6ae9da9782b30011f~1200x0.png",
       "configs": [
         {
-          "configName": "理想L8 2025款 Pro 智能焕新版",
+          "configName": "2025款 Pro 智能焕新版",
+          "configId": "248174",
+          "index": 0,
           "price": "32.18万",
-          "fuelType": "增程式",
-          "size": "5080x1995x1800",
           "manufacturer": "理想汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5080x1995x1800",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5e00c0f4eddcd01438d5da443104762~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d094893a4d23f12753e96a41685750d~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f8381fe6d08f67019040079953a52bd~2508x0.webp"
+            },
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#9191B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4775f4169b53a8d09a5e1496cf0cffde~2508x0.webp"
+            },
+            {
+              "name": "Baby Blue",
+              "colors": [
+                "#B0C8DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af12480b8590e9cecc5801ab3933015e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e2c567937b15885721027911a95ffe2d~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#9C6D2B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1eab1dbd42df93b618510c876686c51~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_778d897801837d9e260290544706f93b~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_026837dc9e46ce377d7eead53e9144fc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5e00c0f4eddcd01438d5da443104762~2508x0.webp"
         },
         {
-          "configName": "理想L8 2025款 Max 智能焕新版",
+          "configName": "2025款 Max 智能焕新版",
+          "configId": "248175",
+          "index": 1,
           "price": "34.98万",
-          "fuelType": "增程式",
-          "size": "5080x1995x1800",
           "manufacturer": "理想汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5080x1995x1800",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba87c2830f67f10f4baf9787081d81cd~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cc10c3868eb804f9f083b0459e97b3d~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6b623c6102c242d636c26dfb7a48ad01~2508x0.webp"
+            },
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#9191B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_17eb57ccaee3b371b922ff7540467bc1~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_669da36d6a73a0d4d22cc6a1d44b54df~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_487bac1cc85789254105d3b02f866e59~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee4cc55ff3ab1ccdc2ab8ba4a4ebb1e5~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#9C6D2B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab362686da47b91f7713e462817aac54~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55ead8813c898d6a372cd86a2bea0993~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0b3f884c00eb14866424178390bfb8a3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba87c2830f67f10f4baf9787081d81cd~2508x0.webp"
         },
         {
-          "configName": "理想L8 2025款 Ultra 智能焕新版",
+          "configName": "2025款 Ultra 智能焕新版",
+          "configId": "245716",
+          "index": 2,
           "price": "37.98万",
-          "fuelType": "增程式",
-          "size": "5080x1995x1800",
           "manufacturer": "理想汽车",
           "class": "中大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5080x1995x1800",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e956ddfd4a2fa358cb6564fdfebe480~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fcd2e0f88b551e0d366a78fd38b2bd7~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9133abbda896cfd096eecf0545a4d42~2508x0.webp"
+            },
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#9191B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ebbbb8b23261d645e02490d7a3aa5a8b~2508x0.webp"
+            },
+            {
+              "name": "Baby Blue",
+              "colors": [
+                "#B0C8DC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95a6b1315b6c772d858710e11b81637f~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b835c86c08c36bb985706f9d758419e~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a37b1513cd2b88e0f647a42e307d8588~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b0da3d2c442ec3e65ff64e345af166f8~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#9C6D2B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8edf21f8e9db5db633257e37075b448c~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be9bf0f1e28fb189713715f4d372b440~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d95cfd3b8ca6db02c509b22d70930034~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1e956ddfd4a2fa358cb6564fdfebe480~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5227,
       "carName": "L9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1913dbce0f8342e4b0004e09543f076b~1200x0.png",
       "configs": [
         {
-          "configName": "理想L9 2025款 Pro 智能焕新版",
+          "configName": "2025款 Pro 智能焕新版",
+          "configId": "248177",
+          "index": 0,
           "price": "40.98万",
-          "fuelType": "增程式",
-          "size": "5218x1998x1800",
           "manufacturer": "理想汽车",
           "class": "大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5218x1998x1800",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ada648515f8ba1322b1684bae4dcfb4a~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_598f6f62bf79b697cd0b2f008d40527c~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f8c6ceede7da73d16b99fdda1ad62954~2508x0.webp"
+            },
+            {
+              "name": "雅灰",
+              "colors": [
+                "#B4AEAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6c85090a6040e20705296ccf4f484f8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#8B7609"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e8ed2b7c8bb4b6a131635f952d8865e~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_699d014cc0004cf4dfd1cb0c036b217e~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e5cf8f55b7e9e675eb4298512d73cc44~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ada648515f8ba1322b1684bae4dcfb4a~2508x0.webp"
         },
         {
-          "configName": "理想L9 2025款 Ultra 智能焕新版",
+          "configName": "2025款 Ultra 智能焕新版",
+          "configId": "245717",
+          "index": 1,
           "price": "43.98万",
-          "fuelType": "增程式",
-          "size": "5218x1998x1800",
           "manufacturer": "理想汽车",
           "class": "大型SUV",
-          "power": "增程式 449马力"
+          "fuelType": "增程式",
+          "power": "纯电动 449马力",
+          "size": "5218x1998x1800",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37ee8302547f00dde7f85fdb092cd78b~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#467869"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b0ae421ba1787c80d824a5034b28fbe0~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7cadc7f848b0de4e586a79b9d7d8750b~2508x0.webp"
+            },
+            {
+              "name": "紫色",
+              "colors": [
+                "#78476E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_102c5379f9ca0461e4afa14a932e2214~2508x0.webp"
+            },
+            {
+              "name": "雅灰",
+              "colors": [
+                "#B4AEAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9998647dda10f82b723aa04551a426d~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e2cd01870e2f2d2f067fcf7b479293da~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8b31f2b2841a774fe380e93e0251af0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5555532c56ab8654a6e2bfd4ecd0d9a1~2508x0.webp"
+            },
+            {
+              "name": "黑棕",
+              "colors": [
+                "#8B7609"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1934837091f7a567846f3c151cfa5ed~2508x0.webp"
+            },
+            {
+              "name": "黑橙",
+              "colors": [
+                "#F9845D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_85073e17f982a64a546b768620f9af79~2508x0.webp"
+            },
+            {
+              "name": "黑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c192147a5a7fce469d6063937f5ee69~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37ee8302547f00dde7f85fdb092cd78b~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "MEGA",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a71904d8907b4564a6627d194c5c3074~1200x0.png",
+      "carId": 10178,
+      "carName": "i8",
       "configs": [
         {
-          "configName": "理想MEGA 2025款 Ultra 智能焕新版",
-          "price": "52.98万",
+          "configName": "2025款 标准版",
+          "configId": "250493",
+          "index": 0,
+          "price": "33.98万",
+          "manufacturer": "理想汽车",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
-          "size": "5350x1965x1850",
+          "power": "纯电动 544马力",
+          "size": "5085x1960x1740",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_b7855ac46a9cef282b1f4f5c9ef1e091~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天空蓝",
+              "colors": [
+                "#A6B7CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a159886652e4a660d799fa063f56e422~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5d01c3c436e6e1a43680d4260264974~2508x0.webp"
+            },
+            {
+              "name": "小象灰",
+              "colors": [
+                "#DFDFDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c8ce479a6741847fe5b365320fbb2f1d~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e76d7f22c23ad8714dad08445d208de1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰棕",
+              "colors": [
+                "#B09A85"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a6f0eba2e1558ce44cb5e966c42b4fa~2508x0.webp"
+            },
+            {
+              "name": "橙黄",
+              "colors": [
+                "#D1872C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_353081f72ca04b23c9c863c3d35a2bb0~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#EBEBDA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b5d68492dac97c0d7b58502df28cb9c~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_b7855ac46a9cef282b1f4f5c9ef1e091~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 6067,
+      "carName": "MEGA",
+      "configs": [
+        {
+          "configName": "2025款 Ultra 智能焕新版",
+          "configId": "245718",
+          "index": 0,
+          "price": "52.98万",
           "manufacturer": "理想汽车",
           "class": "大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5350x1965x1850",
+          "exteriorImages": [
+            {
+              "name": "大象灰",
+              "colors": [
+                "#DEDEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09bc87d7ef696605c965166b162eaae3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A59387"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_66ed6c4ef2b1062bcf6a294bd596ba70~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6cd9059999a5d7ae45fb9937d9353f76~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_09bc87d7ef696605c965166b162eaae3~2508x0.webp"
         },
         {
-          "configName": "理想MEGA 2025款 Home 家庭特别版",
+          "configName": "2025款 Home 家庭特别版",
+          "configId": "247199",
+          "index": 1,
           "price": "55.98万",
-          "fuelType": "纯电动",
-          "size": "5350x1965x1850",
           "manufacturer": "理想汽车",
           "class": "大型MPV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "5350x1965x1850",
+          "exteriorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#585C67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_abe387c4415cff4b90d32cfb759edc70~2508x0.webp"
+            },
+            {
+              "name": "银色",
+              "colors": [
+                "#D6D9E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_39b41b6f7725578e7de38c3c0cca7096~2508x0.webp"
+            },
+            {
+              "name": "大象灰",
+              "colors": [
+                "#DEDEDE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_923374fe5e8a7a78e4a732faa27c7079~2508x0.webp"
+            },
+            {
+              "name": "熊猫白",
+              "colors": [
+                "#FFFFFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c6ff0a057be4a6be4249eda5c89d48ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A59387"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f5ac45b139fb0082911dcef422def17~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c44e2a09e7e92f2bce024da263526a8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_abe387c4415cff4b90d32cfb759edc70~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T02:59:04.444Z",
+  "progress": {
+    "completed": 6,
+    "total": 7,
+    "percentage": 86,
+    "currentIndex": 7
+  }
 }

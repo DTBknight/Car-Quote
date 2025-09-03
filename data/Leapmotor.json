@@ -3,586 +3,4135 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/71d99bd884bb2038ab560981fef08ae7~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "B01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/997a43168fff454e81ac9dcb99bf8363~1200x0.png",
-      "configs": [
-        {
-          "configName": "零跑B01 2025款 430舒享版",
-          "price": "8.98万",
-          "fuelType": "纯电动",
-          "size": "4770x1880x1490",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 136马力"
-        },
-        {
-          "configName": "零跑B01 2025款 550舒享版",
-          "price": "9.58万",
-          "fuelType": "纯电动",
-          "size": "4770x1880x1490",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "零跑B01 2025款 550悦享版",
-          "price": "10.38万",
-          "fuelType": "纯电动",
-          "size": "4770x1880x1490",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "零跑B01 2025款 650悦享版",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4770x1880x1490",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "零跑B01 2025款 550激光雷达版",
-          "price": "11.38万",
-          "fuelType": "纯电动",
-          "size": "4770x1880x1490",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "零跑B01 2025款 650激光雷达版",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4770x1880x1490",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 218马力"
-        }
-      ]
-    },
-    {
-      "carName": "C11",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e6fa7554bb8a40ee9ef4e54fbda64110~1200x0.png",
-      "configs": [
-        {
-          "configName": "零跑C11 2026款 增程式 300激光雷达版",
-          "price": "14.98万",
-          "fuelType": "增程式",
-          "size": "4780x1905x1658",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C11 2026款 增程式 300激光雷达智尊版",
-          "price": "15.98万",
-          "fuelType": "增程式",
-          "size": "4780x1905x1658",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C11 2026款 纯电版 640智享版",
-          "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1905x1658",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C11 2026款 纯电版 640激光雷达版",
-          "price": "15.58万",
-          "fuelType": "纯电动",
-          "size": "4780x1905x1658",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C11 2026款 纯电版 640激光雷达智尊版",
-          "price": "16.58万",
-          "fuelType": "纯电动",
-          "size": "4780x1905x1658",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C11 2024款 增程式 200智享版",
-          "price": "14.88万",
-          "fuelType": "增程式",
-          "size": "4780x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 增程式 300智享版",
-          "price": "15.58万",
-          "fuelType": "增程式",
-          "size": "4780x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 增程式 300尊享版",
-          "price": "16.58万",
-          "fuelType": "增程式",
-          "size": "4780x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 增程式 300激光雷达版",
-          "price": "18.58万",
-          "fuelType": "增程式",
-          "size": "4780x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 纯电版 515智享版",
-          "price": "15.18万",
-          "fuelType": "纯电动",
-          "size": "4750x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 纯电版 580尊享版",
-          "price": "15.88万",
-          "fuelType": "纯电动",
-          "size": "4750x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 纯电版 580激光雷达版",
-          "price": "17.88万",
-          "fuelType": "纯电动",
-          "size": "4750x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "零跑C11 2024款 纯电版 580四驱激光雷达版",
-          "price": "20.58万",
-          "fuelType": "纯电动",
-          "size": "4750x1905x1675",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 544马力"
-        }
-      ]
-    },
-    {
-      "carName": "C16",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/308a6e49061d499ab27f44e70d2e42cb~1200x0.png",
-      "configs": [
-        {
-          "configName": "零跑C16 2026款 增程式 200尊享版 6座",
-          "price": "15.18万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2026款 增程式 280激光雷达版 6座",
-          "price": "16.18万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2026款 增程式 280激光雷达智尊版 6座",
-          "price": "17.18万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2026款 增程式 280激光雷达智尊版 5座",
-          "price": "16.88万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2026款 纯电版 580尊享版 6座",
-          "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "零跑C16 2026款 纯电版 630激光雷达版 6座",
-          "price": "17.18万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C16 2026款 纯电版 630激光雷达智尊版 6座",
-          "price": "18.18万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C16 2026款 纯电版 630激光雷达智尊版 5座",
-          "price": "17.88万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C16 2024款 增程式 200智享版",
-          "price": "15.58万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2024款 增程式 200尊享版",
-          "price": "16.28万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2024款 增程式 200激光雷达版",
-          "price": "17.98万",
-          "fuelType": "增程式",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C16 2024款 纯电版 520智享版",
-          "price": "16.18万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "零跑C16 2024款 纯电版 520尊享版",
-          "price": "16.88万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "零跑C16 2024款 纯电版 520激光雷达版",
-          "price": "18.58万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "零跑C16 2024款 纯电版 580尊享版",
-          "price": "17.28万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
-        },
-        {
-          "configName": "零跑C16 2024款 纯电版 580激光雷达版",
-          "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4915x1905x1770",
-          "manufacturer": "零跑汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 292马力"
-        }
-      ]
-    },
-    {
+      "carId": 4272,
       "carName": "T03",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7b9be3762622493d9033985bb46357d3~1200x0.png",
       "configs": [
         {
-          "configName": "零跑T03 2025款 310舒享版",
+          "configName": "2025款 310舒享版",
+          "configId": "245447",
+          "index": 0,
           "price": "5.99万",
+          "manufacturer": "零跑汽车",
+          "class": "微型车",
           "fuelType": "纯电动",
+          "power": "纯电动 75马力",
           "size": "3620x1652x1605",
-          "manufacturer": "零跑汽车",
-          "class": "微型车",
-          "power": "纯电动 75马力"
+          "exteriorImages": [
+            {
+              "name": "春芽绿/黑色",
+              "colors": [
+                "#A9D5A9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f012424cb1074f4ea1a93e959902521~2508x0.webp"
+            },
+            {
+              "name": "晴海蓝/黑色",
+              "colors": [
+                "#B8D2E4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cde64f770f1ee306e21bef8d976ae489~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝/黑色",
+              "colors": [
+                "#BFD0D7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0baf403ec2a9b82ee78c5f6d99eb236b~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ca85d0ee285fb7657d192916be4d489a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星璨黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_652ff2f9c796849689d2b64c013651f1~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#939499"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dea5a6ee1eda7e20bb10852d885e8c85~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#DADEE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_92a0fd9367045e71c7a5f53f07a292c3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f012424cb1074f4ea1a93e959902521~2508x0.webp"
         },
         {
-          "configName": "零跑T03 2025款 403舒享版",
+          "configName": "2025款 403舒享版",
+          "configId": "245448",
+          "index": 1,
           "price": "6.99万",
-          "fuelType": "纯电动",
-          "size": "3620x1652x1592",
           "manufacturer": "零跑汽车",
           "class": "微型车",
-          "power": "纯电动 109马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 109马力",
+          "size": "3620x1652x1592",
+          "exteriorImages": [
+            {
+              "name": "春芽绿/黑色",
+              "colors": [
+                "#A9D5A9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7413506bb8f2c59d4927b75d99c7fc6~2508x0.webp"
+            },
+            {
+              "name": "晴海蓝/黑色",
+              "colors": [
+                "#B8D2E4",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d1cdc8fcafb6335d4c6268f735a28f3~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝/黑色",
+              "colors": [
+                "#BFD0D7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9f0c5a19ba9a649e306b0aa59a5175a~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b0a19b2546b718f605dcf26c94d08273~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星璨黑",
+              "colors": [
+                "#0C0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9de68f14aadbd909e7a803af57ce2046~2508x0.webp"
+            },
+            {
+              "name": "月影灰",
+              "colors": [
+                "#939499"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23102bbc4712fdd858aa4c07b03fdc4e~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#DADEE4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b6368a4c6d04721aa58922faf8a7faa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f7413506bb8f2c59d4927b75d99c7fc6~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "C01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e2d79eb370b24151a3f34e276644563e~1200x0.png",
+      "carId": 9266,
+      "carName": "B01",
       "configs": [
         {
-          "configName": "零跑C01 2024款 纯电版 525舒享版",
-          "price": "13.98万",
+          "configName": "2025款 430舒享版",
+          "configId": "250188",
+          "index": 0,
+          "price": "8.98万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
-          "size": "5050x1902x1509",
-          "manufacturer": "零跑汽车",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
+          "power": "纯电动 136马力",
+          "size": "4770x1880x1490",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "零跑C01 2024款 纯电版 525尊享版",
-          "price": "14.88万",
+          "configName": "2025款 550舒享版",
+          "configId": "249481",
+          "index": 1,
+          "price": "9.58万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
-          "size": "5050x1902x1509",
-          "manufacturer": "零跑汽车",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
+          "power": "纯电动 180马力",
+          "size": "4770x1880x1490",
+          "exteriorImages": [
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_38bc73db33181d5b76a04a51aedbd055~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f18d0e002bb0d8ff076b236328e9751e~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_100fea64b5ecc5520a17a2ac38e712df~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ac1c7fa25dc0af3120252250a323a8f~2508x0.webp"
+            },
+            {
+              "name": "摩根粉",
+              "colors": [
+                "#C5BBB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ad857864ece4977a0a54b8b5a4c3b45~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a70f5a80256a0cb3545724873ce6ad14~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9ac6a18208e3db03574b024177de4d0c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻月紫",
+              "colors": [
+                "#9559BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_277ef50ceee09bc7998cebd29f2f04f2~2508x0.webp"
+            },
+            {
+              "name": "纤云灰",
+              "colors": [
+                "#C1C3C0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d7370041e663092ea4850ffbadd56b6b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_38bc73db33181d5b76a04a51aedbd055~2508x0.webp"
         },
         {
-          "configName": "零跑C01 2024款 纯电版 625尊享版",
-          "price": "15.88万",
+          "configName": "2025款 550悦享版",
+          "configId": "249482",
+          "index": 2,
+          "price": "10.38万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
-          "size": "5050x1902x1509",
-          "manufacturer": "零跑汽车",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
+          "power": "纯电动 218马力",
+          "size": "4770x1880x1490",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d4903d8cf6c7e0e050348062fb307ba6~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee54933e9bc116633e2025c17fc7e804~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b477c9dac5f766c6db2071bfb4de16b~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cdc053c22afafb7f2772113f207f3bdb~2508x0.webp"
+            },
+            {
+              "name": "摩根粉",
+              "colors": [
+                "#C5BBB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1218b785fe84c3b5c66ba1dbc23cee99~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f110f777a6a7f70b34e1ee8db750e7b2~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91f6109af616f1e00a7e80c2477a2fd2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻月紫",
+              "colors": [
+                "#9559BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d3527c84e9b22c1a298e3519427be92~2508x0.webp"
+            },
+            {
+              "name": "纤云灰",
+              "colors": [
+                "#C1C3C0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_83aaa79e2d59d3b9889c87b1b575b80b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d4903d8cf6c7e0e050348062fb307ba6~2508x0.webp"
         },
         {
-          "configName": "零跑C01 2024款 增程式 216舒享版",
-          "price": "13.68万",
-          "fuelType": "增程式",
-          "size": "5050x1902x1515",
-          "manufacturer": "零跑汽车",
-          "class": "中大型车",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C01 2024款 增程式 216尊享版",
-          "price": "14.58万",
-          "fuelType": "增程式",
-          "size": "5050x1902x1515",
-          "manufacturer": "零跑汽车",
-          "class": "中大型车",
-          "power": "增程式 272马力"
-        },
-        {
-          "configName": "零跑C01 2024款 增程式 316尊享版",
-          "price": "15.58万",
-          "fuelType": "增程式",
-          "size": "5050x1902x1515",
-          "manufacturer": "零跑汽车",
-          "class": "中大型车",
-          "power": "增程式 272马力"
-        }
-      ]
-    },
-    {
-      "carName": "B10",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8dab593d9eb246caa890f418067d7d38~1200x0.png",
-      "configs": [
-        {
-          "configName": "零跑B10 2025款 510舒享版",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "4515x1885x1655",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 180马力"
-        },
-        {
-          "configName": "零跑B10 2025款 510悦享版",
+          "configName": "2025款 650悦享版",
+          "configId": "249483",
+          "index": 3,
           "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4515x1885x1655",
           "manufacturer": "零跑汽车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4770x1880x1490",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_405bcd643e79d323bc77f166d5d92da7~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_52b02caed672dff5abdb6091d09906b3~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a79bb5f3b588126715e6e0a7f86d59d0~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d18a8cc569f38fb3a7814597c5c311bc~2508x0.webp"
+            },
+            {
+              "name": "摩根粉",
+              "colors": [
+                "#C5BBB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3ab4bd684d5d9b1eb4ddde070790aaa~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2d93230dff3cd50ffbed0cf231820ca3~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e51a31b823c9dd08223d3855bb5b647~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻月紫",
+              "colors": [
+                "#9559BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0df206a1ceac1b30344b84b62f9c2251~2508x0.webp"
+            },
+            {
+              "name": "纤云灰",
+              "colors": [
+                "#C1C3C0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_04e69fb01a96ef3747cfe7c0c4d9ddf7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_405bcd643e79d323bc77f166d5d92da7~2508x0.webp"
         },
         {
-          "configName": "零跑B10 2025款 510激光雷达版",
+          "configName": "2025款 550激光雷达版",
+          "configId": "248021",
+          "index": 4,
+          "price": "11.38万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4770x1880x1490",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2fb16d64cd8f91b15f33c3f2a07d68c3~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91167bdf5118e76a7a65896226dcefa0~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab162df3dc471bf7cb6a9e886bcadf7a~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_5a258e73345e78df85538ee3b0d4425e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3d31df33e9a79e3ea9e18ce47457623e~2508x0.webp"
+            },
+            {
+              "name": "摩根粉",
+              "colors": [
+                "#C5BBB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_100b015b32a3be3dd2a47fababa48b61~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95593f1cc3d212093170d4c8ed9b7e15~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_091ae856412b624a013dac39974cf097~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻月紫",
+              "colors": [
+                "#9559BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b47b87aad277443863e791f2d96add8f~2508x0.webp"
+            },
+            {
+              "name": "纤云灰",
+              "colors": [
+                "#C1C3C0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2fb16d64cd8f91b15f33c3f2a07d68c3~2508x0.webp"
+        },
+        {
+          "configName": "2025款 650激光雷达版",
+          "configId": "248020",
+          "index": 5,
           "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4515x1885x1655",
           "manufacturer": "零跑汽车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "零跑B10 2025款 600悦享版",
-          "price": "11.98万",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
-          "size": "4515x1885x1655",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "零跑B10 2025款 600激光雷达版",
-          "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4515x1885x1655",
-          "manufacturer": "零跑汽车",
-          "class": "紧凑型SUV",
-          "power": "纯电动 218马力"
+          "power": "纯电动 218马力",
+          "size": "4770x1880x1490",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2548b9672bcebe3d987fb8c1752a1a19~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f12b86cb9e2c91a704dcca9029f32716~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27b1def1b893551d8e715d2051ccd1de~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7099dfc6a2698dd913902f5d54b7bacd~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_035789c7ab07cd683bb509eab455634e~2508x0.webp"
+            },
+            {
+              "name": "摩根粉",
+              "colors": [
+                "#C5BBB8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fe847bba4246a31267dc4ef96d78c3e~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ede9fc5acc861ff96d1f1446fadcdc78~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6b39e6f0149102f3499fda128bceef8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻月紫",
+              "colors": [
+                "#9559BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9dbb9c0265b2e464a5cc9d14f7dd7897~2508x0.webp"
+            },
+            {
+              "name": "纤云灰",
+              "colors": [
+                "#C1C3C0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4278f2ef145f6c165668a4be17a2153b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2548b9672bcebe3d987fb8c1752a1a19~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "C10",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7e546b2b01314ef4b9d1135f3f045481~1200x0.png",
+      "carId": 5106,
+      "carName": "C01",
       "configs": [
         {
-          "configName": "零跑C10 2026款 增程式 210悦享版",
-          "price": "12.28万",
-          "fuelType": "增程式",
-          "size": "4739x1900x1680",
+          "configName": "2024款 纯电版 525舒享版",
+          "configId": "98464",
+          "index": 0,
+          "price": "13.98万",
           "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C10 2026款 增程式 210激光雷达版",
-          "price": "13.28万",
-          "fuelType": "增程式",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C10 2026款 纯电版 530舒享版",
-          "price": "12.28万",
+          "class": "中大型车",
           "fuelType": "纯电动",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 231马力"
+          "power": "纯电动 272马力",
+          "size": "5050x1902x1509",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23e71c1db19fcab4b136fe11882dce35~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28922a3751063e468ca76d12bf9fe047~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7dceaf57184f23bf28e1b2eaf9f1c413~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/639e6aa60ea7c82aa2165b7909383dbb~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf34694514d1ddb81db844f11918cee7~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58b3f02512a0ee3b8929c1123bdc9ca0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "礁灰/驼绒棕",
+              "colors": [
+                "#EBE9E9",
+                "#C6875B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af83025eb90ca007a7332868809af2c4~2508x0.webp"
+            },
+            {
+              "name": "礁灰/天青",
+              "colors": [
+                "#EBE9E9",
+                "#E1FFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a5a55f198878112c70c78468527cbd4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/23e71c1db19fcab4b136fe11882dce35~2508x0.webp"
         },
         {
-          "configName": "零跑C10 2026款 纯电版 605悦享版",
-          "price": "13.28万",
-          "fuelType": "纯电动",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C10 2026款 纯电版 605激光雷达版",
-          "price": "14.28万",
-          "fuelType": "纯电动",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "零跑C10 2024款 增程式 210舒享版",
-          "price": "13.58万",
-          "fuelType": "增程式",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C10 2024款 增程式 210智享版",
-          "price": "14.58万",
-          "fuelType": "增程式",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C10 2024款 增程式 210激光雷达版",
-          "price": "16.58万",
-          "fuelType": "增程式",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "增程式 231马力"
-        },
-        {
-          "configName": "零跑C10 2024款 纯电版 410舒享版",
-          "price": "12.88万",
-          "fuelType": "纯电动",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 231马力"
-        },
-        {
-          "configName": "零跑C10 2024款 纯电版 530舒享版",
-          "price": "13.88万",
-          "fuelType": "纯电动",
-          "size": "4739x1900x1680",
-          "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 231马力"
-        },
-        {
-          "configName": "零跑C10 2024款 纯电版 530智享版",
+          "configName": "2024款 纯电版 525尊享版",
+          "configId": "98516",
+          "index": 1,
           "price": "14.88万",
-          "fuelType": "纯电动",
-          "size": "4739x1900x1680",
           "manufacturer": "零跑汽车",
-          "class": "中型SUV",
-          "power": "纯电动 231马力"
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5050x1902x1509",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dedba50edab0664460fe929100fcd5fd~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c81316510e3abca422249de90f3da6b8~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2ceb82d446dd0c9d0563f7511fa695a~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a7ca7d9b0bf47a83371e0e600bc07a6~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77482a566683fa1b710233233da1fce8~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd8744f5d60aae3722b09452b26ee9dc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "礁灰/驼绒棕",
+              "colors": [
+                "#EBE9E9",
+                "#C6875B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4d4fe0c80d325d44a08e18f5c0e1938~2508x0.webp"
+            },
+            {
+              "name": "礁灰/天青",
+              "colors": [
+                "#EBE9E9",
+                "#E1FFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ae95b88a4f319830db889f042837425~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dedba50edab0664460fe929100fcd5fd~2508x0.webp"
         },
         {
-          "configName": "零跑C10 2024款 纯电版 530激光雷达版",
-          "price": "16.88万",
+          "configName": "2024款 纯电版 625尊享版",
+          "configId": "98515",
+          "index": 2,
+          "price": "15.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型车",
           "fuelType": "纯电动",
-          "size": "4739x1900x1680",
+          "power": "纯电动 272马力",
+          "size": "5050x1902x1509",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c8de2ff17167f2998165269661c9412~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2964288a7d0fd520b6d48a49b8a263d6~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb881178440f10ce12f89502ee451e9f~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df0e8f006b4a428a6ba20cfb18ed230d~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7293ce95d3f8e3d2877c2521dd9d9ee~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6cdc3fa16d3aa4838699b80a5b706f5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "礁灰/驼绒棕",
+              "colors": [
+                "#EBE9E9",
+                "#C6875B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c152632b988804cfcad925b1a3389d6c~2508x0.webp"
+            },
+            {
+              "name": "礁灰/天青",
+              "colors": [
+                "#EBE9E9",
+                "#E1FFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23204e13c1b3108bed6926a7a2ac44a6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4c8de2ff17167f2998165269661c9412~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 216舒享版",
+          "configId": "98465",
+          "index": 3,
+          "price": "13.68万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型车",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5050x1902x1515",
+          "exteriorImages": [
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28eeb63d53406fed1e443c66e529f3e1~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c425673d7b655d9f10187f7e6853ad3~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/639836595d381ae1ddb823a50d15c688~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "礁灰/驼绒棕",
+              "colors": [
+                "#EBE9E9",
+                "#C6875B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbb7cef0b8590b69ac288703171daad1~2508x0.webp"
+            },
+            {
+              "name": "礁灰/天青",
+              "colors": [
+                "#EBE9E9",
+                "#E1FFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_009b94e2ab3ab943fa537ff281af38d6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28eeb63d53406fed1e443c66e529f3e1~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 216尊享版",
+          "configId": "98514",
+          "index": 4,
+          "price": "14.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型车",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5050x1902x1515",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ca8fb9020c07ed39d8ba3363a7a6bd6~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bee08d0f75ae6caffb2d1b49a72ea04e~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e7e3f806e31614d2aeda597bdb8b81ec~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb6d0f323208dafc3b40a9dc4fdad674~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/463e7ff5bb0ea8f60fb5654bbca344f9~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e05570bec82db8e5c5be921e0469edb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "礁灰/驼绒棕",
+              "colors": [
+                "#EBE9E9",
+                "#C6875B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4f8c5d4477fa4657a30112393c16bc9~2508x0.webp"
+            },
+            {
+              "name": "礁灰/天青",
+              "colors": [
+                "#EBE9E9",
+                "#E1FFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28d39a37abe03d1d9684d0042327070e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8ca8fb9020c07ed39d8ba3363a7a6bd6~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 316尊享版",
+          "configId": "98513",
+          "index": 5,
+          "price": "15.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型车",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "5050x1902x1515",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/750a3bf95a55e43d47fd28bc0e9155fb~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db4c2b58eb93379e0e0533548131ce57~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf2afd45f65bab455dd836c7bf82b8d1~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c17a02d8ae0d41e006f35d1fc868952~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71733ad1aef11483ce6459de52df7896~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d89724da13ddb6283e9ccdfda76f607~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "礁灰/驼绒棕",
+              "colors": [
+                "#EBE9E9",
+                "#C6875B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/649a3b4a66c02ca3df2a5da0fd2bc663~2508x0.webp"
+            },
+            {
+              "name": "礁灰/天青",
+              "colors": [
+                "#EBE9E9",
+                "#E1FFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/069bffc7b0c7b2b8485068cd973a275a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/750a3bf95a55e43d47fd28bc0e9155fb~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 9268,
+      "carName": "B10",
+      "configs": [
+        {
+          "configName": "2025款 510舒享版",
+          "configId": "246030",
+          "index": 0,
+          "price": "9.98万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 180马力",
+          "size": "4515x1885x1655",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b11a1a2bd95ad98329da438327eb7960~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1741b61594705cdd87f8308fd5334a8a~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41b16ceb6fe5bac9cfebb95d9492b5d4~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37338d96f41a77e4d6d74b8ddcf34cef~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_933c341208b71fdfe4dd69d3d6527de1~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ece8eb4e8e657ac21ef93cceb11d101a~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e9bfae2dba0cfe18932c17fe829d1a54~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "萝蔓紫",
+              "colors": [
+                "#CBAEDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b6cea2d66a6bd7602b68c184a09dc03~2508x0.webp"
+            },
+            {
+              "name": "竹影灰",
+              "colors": [
+                "#F3EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3db91eff8fd881eb550e4f3f53bc78ee~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b11a1a2bd95ad98329da438327eb7960~2508x0.webp"
+        },
+        {
+          "configName": "2025款 510悦享版",
+          "configId": "246031",
+          "index": 1,
+          "price": "10.98万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4515x1885x1655",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b5909ac008f2c7555cf9d3cb9f1fae5~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_60248f3a0115d68b574c17fdc44f6f5b~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd8de80ed152497e1ff1a00e634dffeb~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f053349f1dd21c0b0a057eb25133f24a~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_745b4a535ed7a23082911eadd76a3f6b~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_530209bf373a7545e6807e12b51e8cec~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba0d1127bca9763e907fa0993fa3b067~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "萝蔓紫",
+              "colors": [
+                "#CBAEDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e36960c29d97ee7e4096f79e246f9334~2508x0.webp"
+            },
+            {
+              "name": "竹影灰",
+              "colors": [
+                "#F3EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bdc8fb72977c34547b7f13859c543707~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9b5909ac008f2c7555cf9d3cb9f1fae5~2508x0.webp"
+        },
+        {
+          "configName": "2025款 510激光雷达版",
+          "configId": "246041",
+          "index": 2,
+          "price": "11.98万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4515x1885x1655",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_def85f8aa1905a0cd3c39aad4ab1d0ea~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_161e28e14c9d7177deeded1a6b8a73dd~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_61606c18a20b3422f7da853fd2ed6894~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8296e3adda7f6ced631604007f3e2be0~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe8a98fe8943770dd2c8017192f8051b~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_02bc4edc91dd042f15c660b326d55948~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15bc5144967f4dab1c0b04ac5b240444~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "萝蔓紫",
+              "colors": [
+                "#CBAEDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c2fbbf57178f6723759e245fc88b49de~2508x0.webp"
+            },
+            {
+              "name": "竹影灰",
+              "colors": [
+                "#F3EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0cb8ceda9255ab0ce6fc644acbf30f74~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_def85f8aa1905a0cd3c39aad4ab1d0ea~2508x0.webp"
+        },
+        {
+          "configName": "2025款 600悦享版",
+          "configId": "246042",
+          "index": 3,
+          "price": "11.98万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4515x1885x1655",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b223ed9544c2fbf99bce092828306e5c~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d1fdbd47b0c96bd96244d7fbb8cbf757~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_815d3d86c1930c949e81aee4f2c6eb49~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3208f358bb5339261c83fae6913a69a6~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_874dc676e6c4ceacea1ec11ca1ca2e80~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5a6e946d283e2d5f6bf3c03ab0dbeb3~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_19092f22e184738caa745e795d652fb7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "萝蔓紫",
+              "colors": [
+                "#CBAEDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cfa4fe07f516cec8ce3e974719be9d83~2508x0.webp"
+            },
+            {
+              "name": "竹影灰",
+              "colors": [
+                "#F3EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22579fa4811022226870663aa8bf8a2b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b223ed9544c2fbf99bce092828306e5c~2508x0.webp"
+        },
+        {
+          "configName": "2025款 600激光雷达版",
+          "configId": "246044",
+          "index": 4,
+          "price": "12.98万",
+          "manufacturer": "零跑汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4515x1885x1655",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1112560749787814f2f50823523c4106~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab57868ff7b341fdd949e80229f00471~2508x0.webp"
+            },
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#89A6D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63c56b2f1474eab241436a1c36449159~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce90025544af3e87395daa9995d30641~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/29c16eb3ca558b54989dde4b4c901364~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4241b1322e830e4c25440ae496f4bcb~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_055c5049af3d34f2c9f76fa6e20e4bd1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "萝蔓紫",
+              "colors": [
+                "#CBAEDD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64b2bd7bf0ddc4ee6c380b69e01831b2~2508x0.webp"
+            },
+            {
+              "name": "竹影灰",
+              "colors": [
+                "#F3EEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2978a025a4bf4f1f610eeb607be212db~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1112560749787814f2f50823523c4106~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 9307,
+      "carName": "C10",
+      "configs": [
+        {
+          "configName": "2026款 增程式 210悦享版",
+          "configId": "248016",
+          "index": 0,
+          "price": "12.28万",
           "manufacturer": "零跑汽车",
           "class": "中型SUV",
-          "power": "纯电动 231马力"
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc0b128e384b35bad3605cc3bca92c22~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a9074de75a63781209e4da47db4e5cae~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8c66255359e8b096804aaeb33143c7c9~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95fcb0a23f798620981ea7919c667b45~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e37cb1ccf7f49cdbaa978489bf9ca41a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b913a5aca5288685bb65111dcda7a20a~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8768821a67db7cef4b19d30e15d81f69~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc0b128e384b35bad3605cc3bca92c22~2508x0.webp"
+        },
+        {
+          "configName": "2026款 增程式 210激光雷达版",
+          "configId": "248017",
+          "index": 1,
+          "price": "13.28万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2344f507c1b7506def5667c3d88a456a~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a26cad17538d8f8797ad42c264d23dd1~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_224b6daaabf6d6c04802f567af7034f4~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2dc22aadffc8eb95dbaa610d2556db8c~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b68cfa84dd89d7e269985828734e3513~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_61184eb059495ad085df3d8cb7539638~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e530795ff08dd6bf985dff3c64e45560~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_25d54fed693e039a2888a924f77d70c1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2344f507c1b7506def5667c3d88a456a~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 530舒享版",
+          "configId": "248323",
+          "index": 2,
+          "price": "12.28万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_706eca7e3c70b67422b8e4e1176a2749~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3650211919d25c50f2eb7bbdccede3bd~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e6f73cd9728669d78b529b0fc74a78f~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c8f0bb5792575dc9102d16be02d16ea~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_859d276fb67b0d8f8925ef47cc126eb9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e35ba2fd1b7119e341adc3bb50327242~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f43233b95289bb7c699475960ec6176c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_706eca7e3c70b67422b8e4e1176a2749~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 605悦享版",
+          "configId": "248018",
+          "index": 3,
+          "price": "13.28万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5779d28f5822401ab4552233dfd787bd~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_021362b828dfad23c1928120ba353a76~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d45b9f11333f4b704b0409ced6f737f~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_977ee3d819dd87bacea74e4a75043b7f~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d4f08622e23788a3c799b95d935aba5a~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f210daa9031c372944ec221bc658e334~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c48bf7e7ab5f86e586ecbff234b4c65~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bc0d575b0e2f901e4320e97e5f9a203e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5779d28f5822401ab4552233dfd787bd~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 605激光雷达版",
+          "configId": "248019",
+          "index": 4,
+          "price": "14.28万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14877db0f45df7aeba0394a5177644c8~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff46f1a6ae617f7a6a9491ccc3c5a7ed~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_23b843cccdcfb2d512eab4fb39d5e8b2~2508x0.webp"
+            },
+            {
+              "name": "曦露紫",
+              "colors": [
+                "#A983C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4a75752f269a7ff9b565c5332fbc3bda~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a70e1de50d85de438244bc839b06ed97~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a128605d98bd97787fdc04068c3b0c30~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff020c6dc17879a4ec58923ca83d85f9~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3139480f8f5cb2acdc40c334db485194~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14877db0f45df7aeba0394a5177644c8~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 210舒享版",
+          "configId": "97329",
+          "index": 5,
+          "price": "13.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b917281bab4e10e93f627b7eb74e4297~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/4c240ec9858f688231c93ae9953b2c53~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27dbf96e5ee2e685b8e0badeb7a31392~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ca71f3dba6028673a8845cb42b6c533~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d1a61b4c2309cb3e76137a53bf2ee49~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c797d389c5954b357dd01ec6b647415~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f8d49fcbcaaf7a43d63d3cc067ab587~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b917281bab4e10e93f627b7eb74e4297~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 210智享版",
+          "configId": "97328",
+          "index": 6,
+          "price": "14.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5533e0f59d3ff5b8c1e46af2a68e10cd~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7dd415b274983d7663bd7f894deeff0~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db956ce55bb307a7e27530773c634e1d~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53f9b97e2387d8506574cb4d572a8159~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54000c202c661dd7ecbb1da30f70adad~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20f9cc1b1d7ceeb6c46e9c681e1f115c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b447fa076da613c65e07ebc9deed8bfd~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/694949c77f2f7a57813c94070054ab8e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5533e0f59d3ff5b8c1e46af2a68e10cd~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 210激光雷达版",
+          "configId": "95821",
+          "index": 7,
+          "price": "16.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60e57a41ad31cb73cfe983578faf736c~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b5574f9df85c72625fb7f2784df5f63~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aaf0107fd003b53f19d269780d5a1254~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fea87d65badfb226986f3c962eab991~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b31a3d358e0516faf597609fb08100c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df41dfbdbd05824015e71cc153027009~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5a595fd7a9384ac8d623b9eabe2ebb6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/60e57a41ad31cb73cfe983578faf736c~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 410舒享版",
+          "configId": "98674",
+          "index": 8,
+          "price": "12.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7134c745e787c117d35a85fcfe680411~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2293fc5b3e6c2f1ca0396ef3b46584a~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4091b561dc3329361a54419e2d34dee5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e26cad56c1ce53622ddbb77536c78950~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/573e3726535229ed0e29797938b4957f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7134c745e787c117d35a85fcfe680411~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 530舒享版",
+          "configId": "97330",
+          "index": 9,
+          "price": "13.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0966e723eedf873a03e9c5dfe9ff81b3~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07ac33454b72db64f57ecb882a242f2b~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64a962331e7c6b3d186d50189c4dc760~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01351983af49fc8466cbf6b3c6caaa94~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1981dc473cb5c59791af2384bff0564~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/206ad93408de502b84872052a4010175~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ba941d5c98eea0efe69265918b01b07~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0a009b67367e9cb497399a513c348d3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0966e723eedf873a03e9c5dfe9ff81b3~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 530智享版",
+          "configId": "97331",
+          "index": 10,
+          "price": "14.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb3dad90ff6bf3dc72344ed23abcef12~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af739617243778aff891dcd47e2db83c~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b34fca25e4615e5a0d1465c478cd81f~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a9b414acbed8d35e46187f07b46f16d~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a298099473fd6f84434740c3bb88aed8~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0674c487297fd6474ac47c4f1ec982b6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf82553ce495f6e3ebdf2a2cb62a0c09~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6377bca69cfd1964e9e6142677af1625~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eb3dad90ff6bf3dc72344ed23abcef12~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 530激光雷达版",
+          "configId": "93339",
+          "index": 11,
+          "price": "16.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 231马力",
+          "size": "4739x1900x1680",
+          "exteriorImages": [
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aee35474dbee345ae07de6e3f3e27474~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1efbb382b5b89bee479e9e615ea36fa0~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdc559153e91e83c2fe4973c3e98b570~2508x0.webp"
+            },
+            {
+              "name": "苔原灰",
+              "colors": [
+                "#C5C3C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c932e51b0248a031b97125f9658de1e~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cb6529faf34260e0f7f1385f0b4c137~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#4F4058"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/827874c7d6e43e2b569c23b85d73d36b~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#FF7700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b0238fbab87f9f1949e5a754731b434~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aee35474dbee345ae07de6e3f3e27474~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 10125,
+      "carName": "C16",
+      "configs": [
+        {
+          "configName": "2026款 增程式 200尊享版 6座",
+          "configId": "249254",
+          "index": 0,
+          "price": "15.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 增程式 280激光雷达版 6座",
+          "configId": "249005",
+          "index": 1,
+          "price": "16.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34a210b1dce22552b6067c7305859c38~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d1ff9bf617ae55edec7342b46edef97b~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_711755812285f4cd6a9776309f5f0d60~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b18f43ac413f9758ea85812e68d71cd8~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_457eb97827737e1b74f3743a0b13ddec~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_051463180ef0df3f1aaf065ebcdf33ea~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe928e2a3894d63e6beecb70b5f03ddd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34a210b1dce22552b6067c7305859c38~2508x0.webp"
+        },
+        {
+          "configName": "2026款 增程式 280激光雷达智尊版 6座",
+          "configId": "249006",
+          "index": 2,
+          "price": "17.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f2e07e1d9ea2b0f2538367f8dfcc5a3~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4bf978c3ebab34d722ae4949e3a1190c~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d1ae6b8d21de9e36805a992961c353e8~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d68a5113d281801e5229e2645ada16c3~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b340063007a3dc4ed5f1df44f7f94a8c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f7e3765eeae24dd288ff43208ecf4293~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6df550555d6e41442909f29bcc596cc3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f2e07e1d9ea2b0f2538367f8dfcc5a3~2508x0.webp"
+        },
+        {
+          "configName": "2026款 增程式 280激光雷达智尊版 5座",
+          "configId": "249007",
+          "index": 3,
+          "price": "16.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82a269926f8bf112f6d8a31cb654d57f~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a06b28ab93622211a5aeb6ee9e887e68~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_38afcfb2c27e5460933f60cde70444f1~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ee4fe57b9a739bf9e0bc3167f9c9b69~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_46a357102bdca8a75c171d8d9b70224e~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2cf9eeb51f96b0d2edef087c98fe55f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_15e650b7505b2950a873d38dd0528753~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28e497c2f894f75c8cd3cab02d48bc13~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82a269926f8bf112f6d8a31cb654d57f~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 580尊享版 6座",
+          "configId": "249256",
+          "index": 4,
+          "price": "16.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7088352df714326f344f88b7ef256b2~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_003acbb6b98b7b9b8dc5f83fc136b80e~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e2b894b3c57a95795434548f45be2fe~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3490b0ecaf2ab37f6af0e970259c73c9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01fd73d15a7bb69867b621e54e342854~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7088352df714326f344f88b7ef256b2~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 630激光雷达版 6座",
+          "configId": "249009",
+          "index": 5,
+          "price": "17.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c0ce68e76eb1da534e27b13c850b33a~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_51b3de474a965e1d7c919a6387af9f0c~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bcae15a4c112b197368a1bc7a278197~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3eef7c27d091510c404d8908e3c4cb5~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a199c1eecb81b81218a9896dcb3827ea~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9cd18860e4913cb5f54025617ade9f5a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b9c13d2e6ed31c92638216998c87c52c~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd35fa4ba2727be7aa87ee7e54d30b21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c0ce68e76eb1da534e27b13c850b33a~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 630激光雷达智尊版 6座",
+          "configId": "249010",
+          "index": 6,
+          "price": "18.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d4e0aaa105c2f84563efc7c4de95de5~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4753d2b20ea288fa255e680d8323dfba~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1634b6489834b615a15e2f119289fea7~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_66e3eb4285502273d02318cf296b9e45~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43e25f5eaecbafa24f1a3a3dc3bbf9a9~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1560d6e0daab039ed4480fb8e1c37980~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31a90eea483264d8556a1f6e1bbd192b~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_718734a3304f43894f78eefdbf96701e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d4e0aaa105c2f84563efc7c4de95de5~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 630激光雷达智尊版 5座",
+          "configId": "249011",
+          "index": 7,
+          "price": "17.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78a0c96f7d13fb4e94c40f0f1620b77c~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a44e9748538a704d6fc07bbb1359e8d~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4a655bc0095cb58638333b48df8267d4~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_572ba2ca3bfaa7809be9b2f029f83ada~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_44fba01d2b23db188e7a10ac99ccdecb~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41a16e088f8d702cda49fa7a06ed79b6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3260f0d8b62c8c60147718edc9e6c034~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f7748285125f9ec26c89f58fbfcad0c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78a0c96f7d13fb4e94c40f0f1620b77c~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 200智享版",
+          "configId": "101966",
+          "index": 8,
+          "price": "15.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94a91619feccdeac32bacf7d3a37a133~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e561fda56b9f2a29956c9f32e10b0278~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c7f7fc7876a88b981b33ba73973adc8~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a351b5abdbc9bc83690e50994b631028~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/267f5a40c15cde57e8dfae4ddd051efb~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72a45473026548aaba5a17c44fa37b08~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0299a8459b900781b99d500a0da026d~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a2570b6e3ed638366878670e67773a2~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dcb6acabbd4d3b77a24b075c9781b1ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94a91619feccdeac32bacf7d3a37a133~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 200尊享版",
+          "configId": "100833",
+          "index": 9,
+          "price": "16.28万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21a5dd3edd8b27ab9b7ce3c51ed4532e~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb548a69fa5e324d8fb383f96b1990c5~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6b82f3d3108d2ff0337744e8e6f0bf3~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f37b23c947ef771ecfc1d3d71086f41~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b596094f5afc37cc78e1f4694b2c2583~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f12f905c34517b02f4a9967b1e7aee6a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04817027d0b94295f0d9dd79878632b9~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6446f092424a84f5848772223a609e45~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30b6fa3ac5672299f4a501f78c2070ea~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/21a5dd3edd8b27ab9b7ce3c51ed4532e~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 200激光雷达版",
+          "configId": "100402",
+          "index": 10,
+          "price": "17.98万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 231马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a4e0b6e08b8af57bddbd220663db2d2~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/529fa33c981a1d83f3eaf79727bafc9b~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3bb5dc092fbf03ce8df1629a848ccf9~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce02172beb494e70ef9500a1e5cc250b~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c14a1d1d817530272cd2cdbabb940e86~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8de133e0d5e61a8fae3d4154146bc33c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1194b727ce0d47d5833c77ce45e5f96~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/147c9d6e2de9352cd9947ec95e302e71~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e0ddfb1f5d773ef0f88c2035b824693~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4a4e0b6e08b8af57bddbd220663db2d2~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 520智享版",
+          "configId": "101967",
+          "index": 11,
+          "price": "16.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a87e5275b20fb986a41866cdd8b7b669~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34e59d0f9ba69d62f8dca059c86a73a4~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f7c8fed5c531d2a3de5f3665ba10b30~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d8bc08b52fa144bcceaaa7560936ac1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2b105a79e8f73323433ff4724651289~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/987addaf0e5903a31dd205a5d47fb497~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a87e5275b20fb986a41866cdd8b7b669~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 520尊享版",
+          "configId": "100835",
+          "index": 12,
+          "price": "16.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eecd4109e08dfe2daac5d040c362dcc1~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c1eeec2ed18ae805e836d7a53b22443~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/730a331defcf80ea871b2640a15d5944~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ddc4b436e3b46aa1dd26cdfb6f9d2801~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/078b997edc274569ea562c7db3fa3b5a~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dffff1f4ed358a9efb442d76de8c5393~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7324c44b3b831ba263cce9e42993d5f8~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52177180630829b101fad101427ed5b1~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/633f9cdcc34f0a3428288f3b212248b3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eecd4109e08dfe2daac5d040c362dcc1~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 520激光雷达版",
+          "configId": "100401",
+          "index": 13,
+          "price": "18.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/288d44e6a8ec402969078a1700337ae5~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ffa0568a246851750013e12c4044b13~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdbd277cb2e121042405e3d652614b8c~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d722ab24f051e8a4081565d79935268~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66f483aeeec8c7bec6f0dae662a6ed30~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22b1da8cbb526af7c8ec31b6f9f28f42~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f41f24c0ce63d37edd7a8797c47a40bb~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6904cc1c3455d3c11a7008956269ea5~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25dab0900d621b18dbbdf1cbb9493f55~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/288d44e6a8ec402969078a1700337ae5~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 580尊享版",
+          "configId": "244155",
+          "index": 14,
+          "price": "17.28万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41c41606e80bfc7c677a0ab6c65b867a~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6de51e34f9ec0403d9d38646160a3f1d~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67870b8b1b33fa8af32de3e847025ad1~2508x0.webp"
+            },
+            {
+              "name": "星煜紫",
+              "colors": [
+                "#34084F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d12ca783584b5062040a0cce67563bd~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63b5eefbbe14c4cdbcac3a1cd3b2bcd5~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_74623d23d80759d286afb097449180c8~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76f2b26cc024c9b5a70c80fb11a2bcca~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c8190fafcdbacb9f889eeaeedd31687~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5733188e0230eecefe23b546b2610e7e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/41c41606e80bfc7c677a0ab6c65b867a~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 580激光雷达版",
+          "configId": "244149",
+          "index": 15,
+          "price": "18.98万",
+          "manufacturer": "零跑汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4915x1905x1770",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa6d3228ace2cd32f3c809cce2ac8b52~2508x0.webp"
+            },
+            {
+              "name": "琉璃翠",
+              "colors": [
+                "#276C4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed9a277cae8489c980c264649a7e2d6e~2508x0.webp"
+            },
+            {
+              "name": "星辉银",
+              "colors": [
+                "#9A9EA7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67757ca01727c17bf24d20dbf4d57a69~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星垣紫",
+              "colors": [
+                "#8A8093"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3272d6e03fd15996c9621fc8e2493a33~2508x0.webp"
+            },
+            {
+              "name": "赤霞橙",
+              "colors": [
+                "#D6742F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5aa71178009ead617bc015c022f8b37e~2508x0.webp"
+            },
+            {
+              "name": "麦芽米",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f83b704295224721e1b70dc297e5eb9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa6d3228ace2cd32f3c809cce2ac8b52~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4731,
+      "carName": "C11",
+      "configs": [
+        {
+          "configName": "2026款 增程式 300激光雷达版",
+          "configId": "249604",
+          "index": 0,
+          "price": "14.98万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4780x1905x1658",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d289278001329b43e27709d2d41111c~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_46f2b294ca0ac8f3c596456bd68e0ea6~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_998fb9c40bcd63a210f4e90ff8d8461c~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb8cf64491c7fb816639d86aca676569~2508x0.webp"
+            },
+            {
+              "name": "雾凇米",
+              "colors": [
+                "#E3E2D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea900905c37438dc156ef9fd8515a1a3~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc403150776e5aa6af73db9969f92b56~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浮光灰",
+              "colors": [
+                "#444141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be3bfba5aca0b1a9b7897162ef1816ff~2508x0.webp"
+            },
+            {
+              "name": "砂岩棕",
+              "colors": [
+                "#C2803A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ad561e5222bf6a259a114d9df4d3d57~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d289278001329b43e27709d2d41111c~2508x0.webp"
+        },
+        {
+          "configName": "2026款 增程式 300激光雷达智尊版",
+          "configId": "249606",
+          "index": 1,
+          "price": "15.98万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4780x1905x1658",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82dcfbb282b944d5eb0a696f4fe64e6b~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_731edc743bd4627a4b3c47f732136906~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_041311d47252b309ec0cf8498839a779~2508x0.webp"
+            },
+            {
+              "name": "雾凇米",
+              "colors": [
+                "#E3E2D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5961415df07c60e4286015401f8546b5~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cb9a5a14a08efcfab61997bda695713e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浮光灰",
+              "colors": [
+                "#444141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f0480919a9ef0e046d89d9b3558306d5~2508x0.webp"
+            },
+            {
+              "name": "砂岩棕",
+              "colors": [
+                "#C2803A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2e57a6c28eff34d8b677faf5b298b56~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82dcfbb282b944d5eb0a696f4fe64e6b~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 640智享版",
+          "configId": "249820",
+          "index": 2,
+          "price": "14.98万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4780x1905x1658",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 纯电版 640激光雷达版",
+          "configId": "249605",
+          "index": 3,
+          "price": "15.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4780x1905x1658",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a15233e3add10ed07530d5beeb3a5d05~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e1586a383da88b4e69105b5cc9180c4f~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_efa111caf27c7d0ed0e1d8b2a26c53aa~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c561eb654365ace081c9424ea693388b~2508x0.webp"
+            },
+            {
+              "name": "雾凇米",
+              "colors": [
+                "#E3E2D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2510e93ce50f33d24c5b0ec7a4586e40~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c16f0eea05aeda2300498dd9c2576889~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浮光灰",
+              "colors": [
+                "#444141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dd1707b2068eb73df0ff6a41c05a9501~2508x0.webp"
+            },
+            {
+              "name": "砂岩棕",
+              "colors": [
+                "#C2803A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8eb78351a04f1038c9b25d0f96d3097c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a15233e3add10ed07530d5beeb3a5d05~2508x0.webp"
+        },
+        {
+          "configName": "2026款 纯电版 640激光雷达智尊版",
+          "configId": "249607",
+          "index": 4,
+          "price": "16.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4780x1905x1658",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_841960e95f18912dce3a66f47a31f1b2~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d1b141d299b6a4811cda4992ca91a01~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8da61189816bed1439d605b024afef4d~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_909b100845ed662b127907cb1c98839f~2508x0.webp"
+            },
+            {
+              "name": "雾凇米",
+              "colors": [
+                "#E3E2D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_846a5ca1f55c0efd89929fb47d6b0cc8~2508x0.webp"
+            },
+            {
+              "name": "光电白",
+              "colors": [
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fafb85b9ec6508ad038c332ba5519943~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浮光灰",
+              "colors": [
+                "#444141"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8b8690a8edb722438659605640414a4~2508x0.webp"
+            },
+            {
+              "name": "砂岩棕",
+              "colors": [
+                "#C2803A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80784b24f03b24e8c2cb63d34dc592db~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_841960e95f18912dce3a66f47a31f1b2~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 200智享版",
+          "configId": "98467",
+          "index": 5,
+          "price": "14.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4780x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51615c8b94e984dd2715bfa243ad5942~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/40b84b0721524b68f139d2a034a172ec~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd10ed0c6db1b87f770e609bd431b447~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4bbd92ea64044590ac3935b379694f8~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b00ab2d329ccdf53a94489b21eb122c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69995801f1b6103ac91afa58f80abfe0~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea90d29a8db323eb578eac14a4c0d154~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/51615c8b94e984dd2715bfa243ad5942~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 300智享版",
+          "configId": "98490",
+          "index": 6,
+          "price": "15.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4780x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c0370987a4f4bba2832cf7aab3e2f0f~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9b6b9472fc656bfaa7c4de8f240ea2e~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d56c50ed09707807ecf3f093a3d533d~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d347aca4ead5422c15efa96a9c680e2f~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4791373c36f4cd41a3c9b0905e2978bc~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78a325d1cf16dc41df05fd8a890d5618~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e73795280f26eb6c8cc5f2e665bf7f23~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2941bb7b3df63d6933e54d6869ead7b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5c0370987a4f4bba2832cf7aab3e2f0f~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 300尊享版",
+          "configId": "98491",
+          "index": 7,
+          "price": "16.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4780x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b369e7d78363db3adf395520802ce375~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c2ecfc6203237d64420ad8c04371bef~2508x0.webp"
+            },
+            {
+              "name": "松岚灰/黑色",
+              "colors": [
+                "#B6C2CD",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac68cfbfd9ed269d5afed6576dd845b2~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝/黑色",
+              "colors": [
+                "#BFD0D7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d6505adc6e94cdaea3b4002ce3f106f~2508x0.webp"
+            },
+            {
+              "name": "星河银/黑色",
+              "colors": [
+                "#C1C2C6",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ec48f8c1fd9e7b06a511c8dc07e2b1a~2508x0.webp"
+            },
+            {
+              "name": "光白/黑色",
+              "colors": [
+                "#F5F5F5",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/deda4610d38754b67b7f58cc0a60a68e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/036c9b4dbbf7f0058b282c5947446763~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4da1a6e60d361d09f7b5dd6ab451b904~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b369e7d78363db3adf395520802ce375~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程式 300激光雷达版",
+          "configId": "98492",
+          "index": 8,
+          "price": "18.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 272马力",
+          "size": "4780x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/083a89e515bc500585d1a2f2920266c4~2508x0.webp"
+            },
+            {
+              "name": "松岚灰/黑色",
+              "colors": [
+                "#B6C2CD",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81110a3bdd740a62406687783df2b276~2508x0.webp"
+            },
+            {
+              "name": "星河银/黑色",
+              "colors": [
+                "#C1C2C6",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae03e93ca380d493a92efcb0ee5777d5~2508x0.webp"
+            },
+            {
+              "name": "光白/黑色",
+              "colors": [
+                "#F5F5F5",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc6f7961563bbe024289dc5abc344648~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e782d79e6374a5e5893373d695e7c16d~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d7a423088f4e5c523a80df8cc64acc4c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/083a89e515bc500585d1a2f2920266c4~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 515智享版",
+          "configId": "98468",
+          "index": 9,
+          "price": "15.18万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4750x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7bc035ecb942e5ad305946587c5b71ee~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9679beed9744bf1086fc13140f390337~2508x0.webp"
+            },
+            {
+              "name": "松岚灰",
+              "colors": [
+                "#B6C2CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0252d9e8988c73356643bf378042b5d~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#BFD0D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8fb0d6925275c76e71581d539fc0a0e~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#C1C2C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/687132bc8713de04aae476ca462ba78e~2508x0.webp"
+            },
+            {
+              "name": "光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3371183b1e268b4a997d6852b1590b25~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96d77f3bc382d430b1ca246e862af0a2~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/06513887cb742de2c0420a2a7b491c65~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7bc035ecb942e5ad305946587c5b71ee~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 580尊享版",
+          "configId": "98493",
+          "index": 10,
+          "price": "15.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4750x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a7e58ca7fe130dfb36d70177d59b1f6~2508x0.webp"
+            },
+            {
+              "name": "天幕灰",
+              "colors": [
+                "#2D3A40"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73ff3a0edcd9391c819397c36cab209b~2508x0.webp"
+            },
+            {
+              "name": "松岚灰/黑色",
+              "colors": [
+                "#B6C2CD",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd7b58d3b78e16c95d1a62a5cd4f9a71~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝/黑色",
+              "colors": [
+                "#BFD0D7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f41fb081d9b87cb96a912a6da81c35e~2508x0.webp"
+            },
+            {
+              "name": "星河银/黑色",
+              "colors": [
+                "#C1C2C6",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4e88bd4a4fa90d92e89c89f02a61390~2508x0.webp"
+            },
+            {
+              "name": "光白/黑色",
+              "colors": [
+                "#F5F5F5",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0132ac5308685dab727b714c1f68f95~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c5087987e866f0db2b11f23dc9b51bc~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28010b4606255ed385856bb41170a4d8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6a7e58ca7fe130dfb36d70177d59b1f6~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 580激光雷达版",
+          "configId": "98494",
+          "index": 11,
+          "price": "17.88万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4750x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "金属黑",
+              "colors": [
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09b132ccdbdb761ea5f0351741e5fba9~2508x0.webp"
+            },
+            {
+              "name": "松岚灰/黑色",
+              "colors": [
+                "#B6C2CD",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3731efbd60208ad615239466d736befd~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝/黑色",
+              "colors": [
+                "#BFD0D7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f18331b6a309fd00acf385e5e66a5cc0~2508x0.webp"
+            },
+            {
+              "name": "光白/黑色",
+              "colors": [
+                "#F5F5F5",
+                "#1A1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8308fad9c2c88f560ba0a4f59ed4486d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/642ad8fc869dbc7b831ba13f9fa3b848~2508x0.webp"
+            },
+            {
+              "name": "岩灰/雾紫",
+              "colors": [
+                "#CFCFCF",
+                "#8B79BD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/689aae3b68e712ba98ee9d70dc6cab1a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/09b132ccdbdb761ea5f0351741e5fba9~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电版 580四驱激光雷达版",
+          "configId": "98495",
+          "index": 12,
+          "price": "20.58万",
+          "manufacturer": "零跑汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "4750x1905x1675",
+          "exteriorImages": [
+            {
+              "name": "松岚灰/黑色",
+              "colors": [
+                "#B6C2CD",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ebd1099abc3701888216cd2d4bf2d737~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "玄黑/驼绒棕",
+              "colors": [
+                "#000000",
+                "#DC7D49"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/615b5ea877695a7da6261e5497d30c87~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ebd1099abc3701888216cd2d4bf2d737~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T02:20:05.105Z",
+  "progress": {
+    "completed": 7,
+    "total": 7,
+    "percentage": 100,
+    "currentIndex": 7
+  }
 }

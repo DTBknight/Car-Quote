@@ -3,62 +3,7 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/885955536a00de6300b53d2d3a111b27~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "枫叶60s PRO",
-      "configs": [
-        {
-          "configName": "2022款 满电版 磷酸铁锂",
-          "configId": "78378",
-          "index": 0,
-          "price": "13.98万",
-          "manufacturer": "睿蓝汽车",
-          "class": "紧凑型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 136马力",
-          "size": "4730x1804x1530",
-          "exteriorImages": [
-            {
-              "name": "远黛蓝",
-              "colors": [
-                "#90BAED"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64948e43cb079453db8ab26077e90463~2508x0.webp"
-            },
-            {
-              "name": "星光白",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab7ebf93fe9d720e8161d1552ff201a1~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "碧海晴空",
-              "colors": [
-                "#F7F7F7"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b577260037579f140f940a976f5b084e~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/64948e43cb079453db8ab26077e90463~2508x0.webp"
-        },
-        {
-          "configName": "2022款 满电版 三元锂",
-          "configId": "78377",
-          "index": 1,
-          "price": "13.98万",
-          "manufacturer": "睿蓝汽车",
-          "class": "紧凑型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 136马力",
-          "size": "4730x1804x1530",
-          "exteriorImages": [],
-          "interiorImages": [],
-          "configImage": ""
-        }
-      ]
-    },
-    {
+      "carId": 5151,
       "carName": "枫叶60s",
       "configs": [
         {
@@ -116,7 +61,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/129a521e8c13e1b029d7abb73edb1968~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/129a521e8c13e1b029d7abb73edb1968~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4ed7c65fe912f8938b3c1d4a6763869d~2508x0.webp"
@@ -152,6 +97,64 @@
       ]
     },
     {
+      "carId": 6177,
+      "carName": "枫叶60s PRO",
+      "configs": [
+        {
+          "configName": "2022款 满电版 磷酸铁锂",
+          "configId": "78378",
+          "index": 0,
+          "price": "13.98万",
+          "manufacturer": "睿蓝汽车",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4730x1804x1530",
+          "exteriorImages": [
+            {
+              "name": "远黛蓝",
+              "colors": [
+                "#90BAED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64948e43cb079453db8ab26077e90463~2508x0.webp"
+            },
+            {
+              "name": "星光白",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab7ebf93fe9d720e8161d1552ff201a1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碧海晴空",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b577260037579f140f940a976f5b084e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/64948e43cb079453db8ab26077e90463~2508x0.webp"
+        },
+        {
+          "configName": "2022款 满电版 三元锂",
+          "configId": "78377",
+          "index": 1,
+          "price": "13.98万",
+          "manufacturer": "睿蓝汽车",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4730x1804x1530",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 5911,
       "carName": "睿蓝X3 PRO",
       "configs": [
         {
@@ -231,153 +234,7 @@
       ]
     },
     {
-      "carName": "睿蓝9",
-      "configs": [
-        {
-          "configName": "2023款 风尚版",
-          "configId": "80758",
-          "index": 0,
-          "price": "15.99万",
-          "manufacturer": "睿蓝汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 204马力",
-          "size": "4845x1890x1778",
-          "exteriorImages": [],
-          "interiorImages": [],
-          "configImage": ""
-        },
-        {
-          "configName": "2023款 引领版",
-          "configId": "80757",
-          "index": 1,
-          "price": "16.99万",
-          "manufacturer": "睿蓝汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 204马力",
-          "size": "4845x1890x1778",
-          "exteriorImages": [
-            {
-              "name": "午夜蓝",
-              "colors": [
-                "#00476A"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d9a5d131403a86dafc286037d9f4258~2508x0.webp"
-            },
-            {
-              "name": "流光银",
-              "colors": [
-                "#636A74"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/352923ab8a94ff5f6b98928503ab0684~2508x0.webp"
-            },
-            {
-              "name": "天幕白",
-              "colors": [
-                "#E9EAEE"
-              ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/bdba20ed6fab66bb0ef62da110dbc782~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "蓝色/黑色",
-              "colors": [
-                "#0000FF",
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e39efe32d0d2da6e5e80a6cfef9b0fa~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5d9a5d131403a86dafc286037d9f4258~2508x0.webp"
-        },
-        {
-          "configName": "2023款 创始版",
-          "configId": "79849",
-          "index": 2,
-          "price": "17.19万",
-          "manufacturer": "睿蓝汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 204马力",
-          "size": "4845x1890x1778",
-          "exteriorImages": [
-            {
-              "name": "流光银",
-              "colors": [
-                "#636A74"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/956dd5be27d955f328d4960463dc8d41~2508x0.webp"
-            },
-            {
-              "name": "天幕白",
-              "colors": [
-                "#E9EAEE"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8441efea9ad48ad44653acee519905e3~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "蓝色/黑色",
-              "colors": [
-                "#0000FF",
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1cb32d26b9578fe446d97b6d433b1fed~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/956dd5be27d955f328d4960463dc8d41~2508x0.webp"
-        },
-        {
-          "configName": "2023款 旗舰版",
-          "configId": "80299",
-          "index": 3,
-          "price": "17.99万",
-          "manufacturer": "睿蓝汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 204马力",
-          "size": "4845x1890x1778",
-          "exteriorImages": [
-            {
-              "name": "午夜蓝",
-              "colors": [
-                "#00476A"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca4b2d9f6ec9c24fc67ef4a3dc05babe~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "蓝色/黑色",
-              "colors": [
-                "#0000FF",
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5bdb83eb0db8482339d047edf0f08a7~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ca4b2d9f6ec9c24fc67ef4a3dc05babe~2508x0.webp"
-        },
-        {
-          "configName": "2023款 行政版",
-          "configId": "96288",
-          "index": 4,
-          "price": "19.79万",
-          "manufacturer": "睿蓝汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 204马力",
-          "size": "4845x1890x1778",
-          "exteriorImages": [],
-          "interiorImages": [],
-          "configImage": ""
-        }
-      ]
-    },
-    {
+      "carId": 5997,
       "carName": "睿蓝7",
       "configs": [
         {
@@ -435,7 +292,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1452c2d60b379d359e196d477833a6e8~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1452c2d60b379d359e196d477833a6e8~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/944782402845363b4aa32392ba53d0ce~2508x0.webp"
@@ -465,7 +322,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_c62d1648b6847e4ef919528cf8bddab1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c62d1648b6847e4ef919528cf8bddab1~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c8d0cdcd1e44ba327057e776de7ff67~2508x0.webp"
@@ -785,6 +642,155 @@
       ]
     },
     {
+      "carId": 6003,
+      "carName": "睿蓝9",
+      "configs": [
+        {
+          "configName": "2023款 风尚版",
+          "configId": "80758",
+          "index": 0,
+          "price": "15.99万",
+          "manufacturer": "睿蓝汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4845x1890x1778",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 引领版",
+          "configId": "80757",
+          "index": 1,
+          "price": "16.99万",
+          "manufacturer": "睿蓝汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4845x1890x1778",
+          "exteriorImages": [
+            {
+              "name": "午夜蓝",
+              "colors": [
+                "#00476A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d9a5d131403a86dafc286037d9f4258~2508x0.webp"
+            },
+            {
+              "name": "流光银",
+              "colors": [
+                "#636A74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/352923ab8a94ff5f6b98928503ab0684~2508x0.webp"
+            },
+            {
+              "name": "天幕白",
+              "colors": [
+                "#E9EAEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bdba20ed6fab66bb0ef62da110dbc782~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e39efe32d0d2da6e5e80a6cfef9b0fa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5d9a5d131403a86dafc286037d9f4258~2508x0.webp"
+        },
+        {
+          "configName": "2023款 创始版",
+          "configId": "79849",
+          "index": 2,
+          "price": "17.19万",
+          "manufacturer": "睿蓝汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4845x1890x1778",
+          "exteriorImages": [
+            {
+              "name": "流光银",
+              "colors": [
+                "#636A74"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/956dd5be27d955f328d4960463dc8d41~2508x0.webp"
+            },
+            {
+              "name": "天幕白",
+              "colors": [
+                "#E9EAEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8441efea9ad48ad44653acee519905e3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1cb32d26b9578fe446d97b6d433b1fed~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/956dd5be27d955f328d4960463dc8d41~2508x0.webp"
+        },
+        {
+          "configName": "2023款 旗舰版",
+          "configId": "80299",
+          "index": 3,
+          "price": "17.99万",
+          "manufacturer": "睿蓝汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4845x1890x1778",
+          "exteriorImages": [
+            {
+              "name": "午夜蓝",
+              "colors": [
+                "#00476A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca4b2d9f6ec9c24fc67ef4a3dc05babe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5bdb83eb0db8482339d047edf0f08a7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ca4b2d9f6ec9c24fc67ef4a3dc05babe~2508x0.webp"
+        },
+        {
+          "configName": "2023款 行政版",
+          "configId": "96288",
+          "index": 4,
+          "price": "19.79万",
+          "manufacturer": "睿蓝汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4845x1890x1778",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 24939,
       "carName": "睿蓝8",
       "configs": [
         {
@@ -908,94 +914,7 @@
       ]
     },
     {
-      "carName": "枫叶80v PRO",
-      "configs": [
-        {
-          "configName": "2022款 舒享型标准续航版",
-          "configId": "75550",
-          "index": 0,
-          "price": "16.28万",
-          "manufacturer": "睿蓝汽车",
-          "class": "紧凑型MPV",
-          "fuelType": "纯电动",
-          "power": "纯电动 136马力",
-          "size": "4706x1909x1699",
-          "exteriorImages": [
-            {
-              "name": "天海蓝",
-              "colors": [
-                "#6595B6"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7235fd529224519c789920562dec4ef0~2508x0.webp"
-            },
-            {
-              "name": "星河银",
-              "colors": [
-                "#E6E8FA"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b133054e3509ba3a8d1b084ca57afb3~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "蓝色/白色",
-              "colors": [
-                "#0000FF",
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/413ef534ebbfad9dfd4bab67930b14d6~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7235fd529224519c789920562dec4ef0~2508x0.webp"
-        },
-        {
-          "configName": "2022款 舒享型长续航版",
-          "configId": "75551",
-          "index": 1,
-          "price": "17.88万",
-          "manufacturer": "睿蓝汽车",
-          "class": "紧凑型MPV",
-          "fuelType": "纯电动",
-          "power": "纯电动 136马力",
-          "size": "4706x1909x1699",
-          "exteriorImages": [
-            {
-              "name": "天海蓝",
-              "colors": [
-                "#6595B6"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa3e954599fbc4d7f3059af585983be6~2508x0.webp"
-            },
-            {
-              "name": "星河银",
-              "colors": [
-                "#E6E8FA"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa550ae0b3b696e61dc076cbf21f9357~2508x0.webp"
-            },
-            {
-              "name": "游云白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8bffcbf2daff16ed348579e0f6984dd4~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "蓝色/白色",
-              "colors": [
-                "#0000FF",
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2ef205efbba1f8bce8e229772911c02~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa3e954599fbc4d7f3059af585983be6~2508x0.webp"
-        }
-      ]
-    },
-    {
+      "carId": 4688,
       "carName": "枫叶80v",
       "configs": [
         {
@@ -1231,6 +1150,102 @@
           "configImage": ""
         }
       ]
+    },
+    {
+      "carId": 6178,
+      "carName": "枫叶80v PRO",
+      "configs": [
+        {
+          "configName": "2022款 舒享型标准续航版",
+          "configId": "75550",
+          "index": 0,
+          "price": "16.28万",
+          "manufacturer": "睿蓝汽车",
+          "class": "紧凑型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4706x1909x1699",
+          "exteriorImages": [
+            {
+              "name": "天海蓝",
+              "colors": [
+                "#6595B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7235fd529224519c789920562dec4ef0~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b133054e3509ba3a8d1b084ca57afb3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/白色",
+              "colors": [
+                "#0000FF",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/413ef534ebbfad9dfd4bab67930b14d6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7235fd529224519c789920562dec4ef0~2508x0.webp"
+        },
+        {
+          "configName": "2022款 舒享型长续航版",
+          "configId": "75551",
+          "index": 1,
+          "price": "17.88万",
+          "manufacturer": "睿蓝汽车",
+          "class": "紧凑型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 136马力",
+          "size": "4706x1909x1699",
+          "exteriorImages": [
+            {
+              "name": "天海蓝",
+              "colors": [
+                "#6595B6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa3e954599fbc4d7f3059af585983be6~2508x0.webp"
+            },
+            {
+              "name": "星河银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa550ae0b3b696e61dc076cbf21f9357~2508x0.webp"
+            },
+            {
+              "name": "游云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8bffcbf2daff16ed348579e0f6984dd4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/白色",
+              "colors": [
+                "#0000FF",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2ef205efbba1f8bce8e229772911c02~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa3e954599fbc4d7f3059af585983be6~2508x0.webp"
+        }
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T03:37:27.145Z",
+  "progress": {
+    "completed": 8,
+    "total": 9,
+    "percentage": 89,
+    "currentIndex": 9
+  }
 }

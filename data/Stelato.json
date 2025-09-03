@@ -1,64 +1,434 @@
 {
-  "brand": "享界",
+  "brand": "Stelato",
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/a52c0c58aee045e8802d5aa5bb835237~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
       "carName": "享界S9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7e8c766317dc42dd94ab9c7ea7b96d4a~1200x0.png",
       "configs": [
         {
-          "configName": "享界S9 2025款 增程后驱 Max",
+          "configName": "2025款 增程后驱 Max",
+          "configId": "246411",
+          "index": 0,
           "price": "30.98万",
-          "fuelType": "增程式",
-          "size": "5160x2005x1486",
           "manufacturer": "北汽新能源",
           "class": "中大型车",
-          "power": "增程式 309马力"
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "5160x2005x1486",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d60115d5efbbb0f98620175428e58b1a~2508x0.webp"
+            },
+            {
+              "name": "寰宇红",
+              "colors": [
+                "#4B0D25"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_adcc385dbc95d3f8c86eedca1ff76db6~2508x0.webp"
+            },
+            {
+              "name": "浩宇蓝",
+              "colors": [
+                "#5A5A86"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_446a7d1123234969c43cee69e9a8f18e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E3E3D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fdeb0fd404912badfc88f4daf3944c11~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E8B08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_419cf7845ec30a73f69b7112dd6efbd3~2508x0.webp"
+            },
+            {
+              "name": "凝脂白",
+              "colors": [
+                "#F2F3EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e672af7d066cb819325410452561c1e0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d60115d5efbbb0f98620175428e58b1a~2508x0.webp"
         },
         {
-          "configName": "享界S9 2025款 增程后驱 Max+",
+          "configName": "2025款 增程后驱 Max+",
+          "configId": "246412",
+          "index": 1,
           "price": "33.98万",
-          "fuelType": "增程式",
-          "size": "5160x2005x1486",
           "manufacturer": "北汽新能源",
           "class": "中大型车",
-          "power": "增程式 309马力"
+          "fuelType": "增程式",
+          "power": "纯电动 309马力",
+          "size": "5160x2005x1486",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef419453705ce9ed613176c812d449ae~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#3B3E43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f4d80d9d394acedc02549ff7417e4c7~2508x0.webp"
+            },
+            {
+              "name": "寰宇红",
+              "colors": [
+                "#4B0D25"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f2f369257afc227de5703dbd29b20c3~2508x0.webp"
+            },
+            {
+              "name": "浩宇蓝",
+              "colors": [
+                "#5A5A86"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0350d4263203228d2beead54a1b59f74~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松露棕",
+              "colors": [
+                "#C1BDA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_57126bba11ac392e1f98f7715d3165cf~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E3E3D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e24ef763d71bfe3504606ff14ceeae44~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E8B08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea694538580dd9a24b7304f1a336ec92~2508x0.webp"
+            },
+            {
+              "name": "凝脂白",
+              "colors": [
+                "#F2F3EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97422807919ce98e32097e6b230dff4f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef419453705ce9ed613176c812d449ae~2508x0.webp"
         },
         {
-          "configName": "享界S9 2025款 增程后驱 Ultra",
+          "configName": "2025款 增程后驱 Ultra",
+          "configId": "246413",
+          "index": 2,
           "price": "36.98万",
+          "manufacturer": "北汽新能源",
+          "class": "中大型车",
           "fuelType": "增程式",
+          "power": "纯电动 309马力",
           "size": "5160x2005x1486",
-          "manufacturer": "北汽新能源",
-          "class": "中大型车",
-          "power": "增程式 309马力"
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c30eb9e7d2ecad67108b4ae008b3113f~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#3B3E43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_081d875ca344225bd59372b2ec89aed9~2508x0.webp"
+            },
+            {
+              "name": "寰宇红",
+              "colors": [
+                "#4B0D25"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71501f6d7208a98dd1e8bea3513c3469~2508x0.webp"
+            },
+            {
+              "name": "浩宇蓝",
+              "colors": [
+                "#5A5A86"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91e889bbe05b4228aa4969397d1d2444~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#5A5A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f44c08467b2db2e21bfe4b4b5740399a~2508x0.webp"
+            },
+            {
+              "name": "松露棕",
+              "colors": [
+                "#C1BDA6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c2548f46e30193a069622e51817f3756~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E3E3D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0cc5180aefcd3dd53c328d55313dacb0~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E8B08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50deaa088f6b00455b4a51c647510bbe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c30eb9e7d2ecad67108b4ae008b3113f~2508x0.webp"
         },
         {
-          "configName": "享界S9 2024款 纯电后驱 Max版",
+          "configName": "2024款 纯电后驱 Max版",
+          "configId": "99153",
+          "index": 3,
           "price": "39.98万",
-          "fuelType": "纯电动",
-          "size": "5160x1987x1486",
           "manufacturer": "北汽新能源",
           "class": "中大型车",
-          "power": "纯电动 309马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 309马力",
+          "size": "5160x1987x1486",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0d03183ad2c9786c9d0287f32952e6f~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#3B3E43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5fd95ef023adb04dd878675a940b6257~2508x0.webp"
+            },
+            {
+              "name": "寰宇红",
+              "colors": [
+                "#4B0D25"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/305b5e5559fabe51d15847a9f673a19a~2508x0.webp"
+            },
+            {
+              "name": "星晖金",
+              "colors": [
+                "#C2BDB4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbb7272f37c13417b009c3b9f360f8f7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#5A5A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d4ca6c590ea0c61576f7b84f545c770~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E3E3D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4976fba0aaa67e7a9e53bd356fedb505~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E8B08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb389055e24723209c981efdff41814a~2508x0.webp"
+            },
+            {
+              "name": "凝脂白",
+              "colors": [
+                "#F2F3EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e921f7a06f5a6ab7f531a3df63ae42f9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d0d03183ad2c9786c9d0287f32952e6f~2508x0.webp"
         },
         {
-          "configName": "享界S9 2024款 纯电后驱 Ultra长航版",
+          "configName": "2024款 纯电后驱 Ultra长航版",
+          "configId": "242875",
+          "index": 4,
           "price": "42.98万",
-          "fuelType": "纯电动",
-          "size": "5160x1987x1486",
           "manufacturer": "北汽新能源",
           "class": "中大型车",
-          "power": "纯电动 309马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 309马力",
+          "size": "5160x1987x1486",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ad821816de23c86bac96d6a7f6a41600~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#3B3E43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7a157639b75bdda61de9e15083a870c~2508x0.webp"
+            },
+            {
+              "name": "寰宇红",
+              "colors": [
+                "#4B0D25"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e4888bd5867a3b67b116b4d144254836~2508x0.webp"
+            },
+            {
+              "name": "星晖金",
+              "colors": [
+                "#C2BDB4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0efe22ef96a000c81b494117d9d0165d~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9757b6618881cbe7fa8dc90850fc427e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E3E3D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b5d8cd5edf48a626b9ac93bc5902849~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E8B08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a03f6d0a927f0c77e099199e178a4aa5~2508x0.webp"
+            },
+            {
+              "name": "凝脂白",
+              "colors": [
+                "#F2F3EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7cc3d2d060884eac81130fe526c2814c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ad821816de23c86bac96d6a7f6a41600~2508x0.webp"
         },
         {
-          "configName": "享界S9 2024款 纯电四驱 Ultra版",
+          "configName": "2024款 纯电四驱 Ultra版",
+          "configId": "99154",
+          "index": 5,
           "price": "44.98万",
-          "fuelType": "纯电动",
-          "size": "5160x1987x1486",
           "manufacturer": "北汽新能源",
           "class": "中大型车",
-          "power": "纯电动 524马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 524马力",
+          "size": "5160x1987x1486",
+          "exteriorImages": [
+            {
+              "name": "鎏金黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ef1ca14c62965eb2fb84b3905261fd9~2508x0.webp"
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#3B3E43"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5102822b8450ac3423bf6544c2994c6c~2508x0.webp"
+            },
+            {
+              "name": "寰宇红",
+              "colors": [
+                "#4B0D25"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a9d376f5e455629b88ddfb99c26973f~2508x0.webp"
+            },
+            {
+              "name": "星晖金",
+              "colors": [
+                "#C2BDB4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a06968081753b66638b0be78168d807~2508x0.webp"
+            },
+            {
+              "name": "陶瓷白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4567181807b1490c8c42e5b3635f8a5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#5A5A5A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b8c1082dd4e5090e9e6ff6f39f7ae3cd~2508x0.webp"
+            },
+            {
+              "name": "白沙杏",
+              "colors": [
+                "#E3E3D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d011a92ab92a7ad3c245221cbe70a90~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#E8B08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/129544fdffa05648e41bc93da48834ad~2508x0.webp"
+            },
+            {
+              "name": "凝脂白",
+              "colors": [
+                "#F2F3EE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7485494099bd423731bb100d04ed1623~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6ef1ca14c62965eb2fb84b3905261fd9~2508x0.webp"
         }
       ]
     }

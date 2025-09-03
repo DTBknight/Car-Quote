@@ -3,471 +3,2257 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/c3da023df833436b831e57ca541859d9~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
-      "carName": "EZ-6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fe513112e0c4471d98fca791b0f4df7b~1200x0.png",
-      "configs": [
-        {
-          "configName": "马自达EZ-6 2025款 纯电 600 智雅运动版",
-          "price": "17.18万",
-          "fuelType": "纯电动",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "纯电动 258马力"
-        },
-        {
-          "configName": "马自达EZ-6 2025款 纯电 600 智尊运动版",
-          "price": "18.18万",
-          "fuelType": "纯电动",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "纯电动 258马力"
-        },
-        {
-          "configName": "马自达EZ-6 2025款 增程 200 智雅运动版",
-          "price": "16.18万",
-          "fuelType": "增程式",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "增程式 218马力"
-        },
-        {
-          "configName": "马自达EZ-6 2025款 增程 200 智尊运动版",
-          "price": "17.18万",
-          "fuelType": "增程式",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "增程式 218马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 纯电 480 智悦版",
-          "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "纯电动 258马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 纯电 600 智雅版",
-          "price": "16.98万",
-          "fuelType": "纯电动",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "纯电动 258马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 纯电 600 智尊版",
-          "price": "17.98万",
-          "fuelType": "纯电动",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "纯电动 258马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 增程 130",
-          "price": "13.98万",
-          "fuelType": "增程式",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "增程式 218马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 增程 200",
-          "price": "14.98万",
-          "fuelType": "增程式",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "增程式 218马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 增程 200 智雅版",
-          "price": "15.98万",
-          "fuelType": "增程式",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "增程式 218马力"
-        },
-        {
-          "configName": "马自达EZ-6 2024款 增程 200 智尊版",
-          "price": "16.98万",
-          "fuelType": "增程式",
-          "size": "4921x1890x1485",
-          "manufacturer": "长安马自达",
-          "class": "中型车",
-          "power": "增程式 218马力"
-        }
-      ]
-    },
-    {
-      "carName": "CX-30",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6a2756161d2d475faa75ef7f4b00e41b~1200x0.png",
-      "configs": [
-        {
-          "configName": "马自达CX-30 2024款 2.0L 手动尚悦型",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4395x1797x1545",
-          "manufacturer": "长安马自达",
-          "class": "小型SUV",
-          "power": "2.0L 158马力 L4"
-        },
-        {
-          "configName": "马自达CX-30 2024款 2.0L 自动尚悦型",
-          "price": "10.99万",
-          "fuelType": "汽油",
-          "size": "4395x1797x1545",
-          "manufacturer": "长安马自达",
-          "class": "小型SUV",
-          "power": "2.0L 158马力 L4"
-        },
-        {
-          "configName": "马自达CX-30 2024款 2.0L 自动雅悦版",
-          "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4395x1797x1545",
-          "manufacturer": "长安马自达",
-          "class": "小型SUV",
-          "power": "2.0L 158马力 L4"
-        },
-        {
-          "configName": "马自达CX-30 2024款 2.0L 自动嘉悦版",
-          "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4395x1797x1545",
-          "manufacturer": "长安马自达",
-          "class": "小型SUV",
-          "power": "2.0L 158马力 L4"
-        },
-        {
-          "configName": "马自达CX-30 2024款 2.0L 自动尊悦版",
-          "price": "13.99万",
-          "fuelType": "汽油",
-          "size": "4395x1797x1545",
-          "manufacturer": "长安马自达",
-          "class": "小型SUV",
-          "power": "2.0L 158马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "EZ-60",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6785508c71354992a835d3353377424a~1200x0.png",
-      "configs": []
-    },
-    {
+      "carId": 1014,
       "carName": "3 昂克赛拉",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/18cad1717ddf4cc0966981c5fb865cc7~1200x0.png",
       "configs": [
         {
-          "configName": "马自达3 昂克赛拉 2025款 1.5L 手动质美版",
+          "configName": "2025款 1.5L 手动质美版",
+          "configId": "250309",
+          "index": 0,
           "price": "8.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "1.5L 117马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 117马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f9795d9de7abe88ba5058842113d0e4a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9c6d88cd9b5596db9d03e10dab0d076f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f9795d9de7abe88ba5058842113d0e4a~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 1.5L 自动质悦版",
+          "configName": "2025款 1.5L 自动质悦版",
+          "configId": "250310",
+          "index": 1,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "1.5L 117马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 117马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 2.0L 自动质擎版",
+          "configName": "2025款 2.0L 自动质擎版",
+          "configId": "250311",
+          "index": 2,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 2.0L 自动质炫版",
+          "configName": "2025款 2.0L 自动质炫版",
+          "configId": "250312",
+          "index": 3,
           "price": "11.29万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3fe94cecf9f098be6e88cd7d9d628899~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12a998b706a6fa337d1fdf41b2192583~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2f3f3a27a7bda3fce3f4364ffb64f381~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0fdb71bb0c8391165e7c96525037b1ac~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3fe94cecf9f098be6e88cd7d9d628899~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 2.0L 自动质雅版",
+          "configName": "2025款 2.0L 自动质雅版",
+          "configId": "250313",
+          "index": 4,
           "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9cbfa28625a33cb735c449a0186fd595~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f4f24c45d91c16b73c387139a49612e~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_baecea44e1d655c2912ca1210bc151ff~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_351cfd39f8c1af717088a924729b0327~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_68bce4de1fba0e885c54856c415aa6b4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9cbfa28625a33cb735c449a0186fd595~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 2.0L 自动质耀版",
+          "configName": "2025款 2.0L 自动质耀版",
+          "configId": "250314",
+          "index": 5,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_074748cd65014767c59d00f7ef3eb5b1~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_19a4a2ce7f100a11c18d015a0a0e42bb~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f7d95732950646485546e21aa67a869~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_49e9e9481bb5f331bf1d13ff7cb8493b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a605703f9f1c47b7a7d4c4e81688e24~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f4d1945182ac8d95dc667b6f28a7c2e0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_074748cd65014767c59d00f7ef3eb5b1~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 2.0L 自动质臻版",
+          "configName": "2025款 2.0L 自动质臻版",
+          "configId": "250315",
+          "index": 6,
           "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_831cd022c779c8a94e41d971648d564a~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a17fac08d60a93f92e3defe8555930cd~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78449f26c5d4ff6973a3773510b39b8b~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8125b626e6cd3c36e1446393356da1a8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c49a8bfd750cbe75528d69d4d2b7618~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf3cd8024fb683949201220957019018~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_831cd022c779c8a94e41d971648d564a~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2025款 2.0L 自动质尊版",
+          "configName": "2025款 2.0L 自动质尊版",
+          "configId": "250316",
+          "index": 7,
           "price": "14.19万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 1.5L 手动质美版",
+          "configName": "2023款 1.5L 手动质美版",
+          "configId": "91141",
+          "index": 8,
           "price": "8.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "1.5L 117马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 117马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e25dc92b83dc7ca140eb03a3866c3ca2~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd0e9fd58ccf1a72d5f23aa0ce1634fb~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c946f38b99fa86e11ad1eb99e30c18fa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2eb60eec78382951fe4cb45279731422~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e25dc92b83dc7ca140eb03a3866c3ca2~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 1.5L 自动质悦版",
+          "configName": "2023款 1.5L 自动质悦版",
+          "configId": "91142",
+          "index": 9,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "1.5L 117马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 117马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 2.0L 自动质擎版",
+          "configName": "2023款 2.0L 自动质擎版",
+          "configId": "91144",
+          "index": 10,
           "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d13d1bc29f98e2ad3f37862afb66999~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b31b5dd190bc0f43bf311ce03ebd9925~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed7b9efbf20de5250dbeb526e457eb73~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/20b20dec6e4245a835adca3387971a67~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9c1fdc88677c132f9bc4956eb1a85f9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b46f2f67ced5dd2aa8e05bf4588a249~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8d13d1bc29f98e2ad3f37862afb66999~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 2.0L 自动质炫版",
+          "configName": "2023款 2.0L 自动质炫版",
+          "configId": "91145",
+          "index": 11,
           "price": "11.29万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff12cb8b3bd591102c46c0dc4224915e~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b425ecdbdd9296002135fb07c85183e~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe13c1ed3120dfa093e1406a34ca76d6~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/275e8ffb2c22ea73ee59c3ce35efd11d~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb49b588e67ff4cab9bf3bb14e83143d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6b6945679a5ed82a4938fe2dc9ac45a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ff12cb8b3bd591102c46c0dc4224915e~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 2.0L 自动质雅版",
+          "configName": "2023款 2.0L 自动质雅版",
+          "configId": "91146",
+          "index": 12,
           "price": "11.59万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/493fd0d5b7a2943ae8ece89738dd343b~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b8b4101ee2c5b65dc9cb8d50fc552d4~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0d4bdafd8fa3c8a1213b7e7530c0d03~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ceb888e4b09af5e70a21fcfbb8553722~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16484685949ceb3372011d48820d3906~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d18900f6ba72e97850d1920c9ccb1da~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/054531c7f2bede33556b89e3186518e3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/493fd0d5b7a2943ae8ece89738dd343b~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 2.0L 自动质耀版",
+          "configName": "2023款 2.0L 自动质耀版",
+          "configId": "91147",
+          "index": 13,
           "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/779cab623a9ce0fb29f293d9f088c8e3~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1391b4c64fec4ee7ed278fff5aa184c1~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d33826fcc0fcec6b41723a6b1d19a107~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd09ffc13d8a05775d48782a1160176c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7118b14b92641e81596be2a763407f8e~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7881e427f3b16af31fd1be1023a77a88~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/779cab623a9ce0fb29f293d9f088c8e3~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 2.0L 自动质臻版",
+          "configName": "2023款 2.0L 自动质臻版",
+          "configId": "91138",
+          "index": 14,
           "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97938312d9938fa6b14e895f97137778~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1b2fbfc6000197023ce6d42d3ce39f1~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50b430c9645d615ac4a3df7d8f302900~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7104d738c3f7f5047b002b81421665e~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/288a34172faa459bb7ac1c5f5a177c2b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c6d13378e5a9c7c443aa587c4d73058~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/844725e9dc61d301ee8148702aca5211~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/97938312d9938fa6b14e895f97137778~2508x0.webp"
         },
         {
-          "configName": "马自达3 昂克赛拉 2023款 2.0L 自动质尊版",
+          "configName": "2023款 2.0L 自动质尊版",
+          "configId": "91148",
+          "index": 15,
           "price": "14.19万",
-          "fuelType": "汽油",
-          "size": "4662x1797x1445",
           "manufacturer": "长安马自达",
           "class": "紧凑型车",
-          "power": "2.0L 158马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4662x1797x1445",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "CX-5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1867e7800a5a4234bed71f4957e2df74~1200x0.png",
+      "carId": 10137,
+      "carName": "EZ-6",
       "configs": [
         {
-          "configName": "马自达CX-5 2025款 2.0L 自动两驱舒适型",
-          "price": "12.58万",
-          "fuelType": "汽油",
-          "size": "4575x1842x1685",
+          "configName": "2025款 纯电 600 智雅运动版",
+          "configId": "248996",
+          "index": 0,
+          "price": "17.18万",
           "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6ff2fb42e303d0bec320b25231aed452~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤焰黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0473c190cb59ddf1927361ce045d8f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6ff2fb42e303d0bec320b25231aed452~2508x0.webp"
         },
         {
-          "configName": "马自达CX-5 2025款 2.0L 自动两驱智尚型",
-          "price": "13.58万",
-          "fuelType": "汽油",
-          "size": "4575x1842x1685",
+          "configName": "2025款 纯电 600 智尊运动版",
+          "configId": "248997",
+          "index": 1,
+          "price": "18.18万",
           "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_019922eb095cb3a4206de8908d43d509~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_019922eb095cb3a4206de8908d43d509~2508x0.webp"
         },
         {
-          "configName": "马自达CX-5 2025款 2.0L 自动两驱智尚Pro",
-          "price": "13.98万",
-          "fuelType": "汽油",
-          "size": "4575x1842x1685",
+          "configName": "2025款 增程 200 智雅运动版",
+          "configId": "248982",
+          "index": 2,
+          "price": "16.18万",
           "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "class": "中型车",
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a737c429fd8e7a20c0f94bcc405e95dd~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed594d6078dd6eae9cf89924cb94359d~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c06690d7aa199c107c8821448822dc17~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95b9067606941ff49c2e69a1aad88a3c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤焰黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ccac830182fec341dcf4a2473e9c9eaf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a737c429fd8e7a20c0f94bcc405e95dd~2508x0.webp"
         },
         {
-          "configName": "马自达CX-5 2025款 2.0L 自动两驱智雅型",
-          "price": "14.98万",
-          "fuelType": "汽油",
-          "size": "4575x1842x1685",
+          "configName": "2025款 增程 200 智尊运动版",
+          "configId": "248983",
+          "index": 3,
+          "price": "17.18万",
           "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "class": "中型车",
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ad6e90b56ed3963d3240d5024ae5e5f~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80b5c33cb7ea699d38bd4594bdac8248~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d3dafde5e74ad5d55377ab113301d726~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6111a4d5f479ab5f7d85669af26e2bef~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eeb5e2e3419dc53b412fe095cbf043bd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤焰黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aee7e21bcc459a401b3ce00e4e4131fe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ad6e90b56ed3963d3240d5024ae5e5f~2508x0.webp"
         },
         {
-          "configName": "马自达CX-5 2025款 2.0L 自动两驱智雅Pro",
-          "price": "15.38万",
-          "fuelType": "汽油",
-          "size": "4575x1842x1685",
-          "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "CX-50行也",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8d3ddbb47d9f4a94ada897f1b6c509f8~1200x0.png",
-      "configs": [
-        {
-          "configName": "马自达CX-50行也 2024款 2.5L 自动畅行版",
-          "price": "17.98万",
-          "fuelType": "汽油",
-          "size": "4785x1920x1638",
-          "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.5L 188马力 L4"
-        },
-        {
-          "configName": "马自达CX-50行也 2023款 2.0L 自动驭行版",
+          "configName": "2024款 纯电 480 智悦版",
+          "configId": "238862",
+          "index": 4,
           "price": "15.98万",
-          "fuelType": "汽油",
-          "size": "4785x1920x1638",
           "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66a231d9762c889d0f18104aab1c1db5~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_20d4a813c2b8d01741e1e810499cf33d~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a854d49b90fd0cd92acedfefcac5e8f6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鹭羽白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/6d51cff9fee0a72b7383b0a872b30196~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/66a231d9762c889d0f18104aab1c1db5~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.0L 自动领行版",
+          "configName": "2024款 纯电 600 智雅版",
+          "configId": "240979",
+          "index": 5,
+          "price": "16.98万",
+          "manufacturer": "长安马自达",
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_351c6f17688cbe98aa2de0f7b7b7e634~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d71af43430defcc3efee384fc1e3225f~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b74c8cd9dff3f8a45f6a2122cbb3c1c1~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_2f487581ff153095d60c41d92eb2458b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd1fe2458f028040d69b043860cb1bc0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤麂棕",
+              "colors": [
+                "#CFAE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e242fcf658ef29eca4f8802839fade9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_351c6f17688cbe98aa2de0f7b7b7e634~2508x0.webp"
+        },
+        {
+          "configName": "2024款 纯电 600 智尊版",
+          "configId": "240980",
+          "index": 6,
+          "price": "17.98万",
+          "manufacturer": "长安马自达",
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8bca31717b10b6581f6d3e01ad9ae271~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90b32b52fd4947eeaae97de56ae06f88~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_020be818462980dade05212fdf063969~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50f6d9bd30fc6e4cc62425e53aa4279e~2508x0.webp"
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#665912"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66a412a0b70d0fe7bf93f9697deb8e43~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0a4d2eb0c23ea1359e4cdb9caecbff19~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab5edce057e7daba0eb9d4be8e6ccdf8~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a3d1232ef12253ed589aa78bea4c1f7a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤麂棕",
+              "colors": [
+                "#CFAE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1fee6656ccd78a0710fe9d156ca40e6e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8bca31717b10b6581f6d3e01ad9ae271~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程 130",
+          "configId": "238864",
+          "index": 7,
+          "price": "13.98万",
+          "manufacturer": "长安马自达",
+          "class": "中型车",
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8776e9ed577ef6c105a0c3c713eaa25c~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f5822adfabf0c7c6060b6d0fa7df2e0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鹭羽白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/307d3de841c0f3ecd8c84fe9f40d416e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8776e9ed577ef6c105a0c3c713eaa25c~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程 200",
+          "configId": "240981",
+          "index": 8,
+          "price": "14.98万",
+          "manufacturer": "长安马自达",
+          "class": "中型车",
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_524b290bd357a5208406dde578c4da2d~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f25d5d64a01871b502190ab2bb91862~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cea7de1af3758015b3f6cd5793eeb97f~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18b959ef58a3869b8491231b9bf72908~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eebc247aab69d9533df95078a896bcba~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鹭羽白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16d74520849a9a0c68eb130502722ad7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_524b290bd357a5208406dde578c4da2d~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程 200 智雅版",
+          "configId": "240982",
+          "index": 9,
+          "price": "15.98万",
+          "manufacturer": "长安马自达",
+          "class": "中型车",
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63db470cb33a2c2e432e954a87d5a9c7~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82fd066db91a30a4f75e604902faf11e~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca472f51480b39220681be148ad13f3c~2508x0.webp"
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#665912"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_615fb84e9cace41b24d059fce2525fc0~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63e76274654ae64f6091a7273321e10e~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33fb671952f17071c4f5c9aeb601a4ad~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee4c00af3e4ecc5e9c1c38e0d0f93e7e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤麂棕",
+              "colors": [
+                "#CFAE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4616630c8860114b5c48153e103f0849~2508x0.webp"
+            },
+            {
+              "name": "鹭羽白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f949f699c8ef79df7129f3e755188e77~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63db470cb33a2c2e432e954a87d5a9c7~2508x0.webp"
+        },
+        {
+          "configName": "2024款 增程 200 智尊版",
+          "configId": "240983",
+          "index": 10,
+          "price": "16.98万",
+          "manufacturer": "长安马自达",
+          "class": "中型车",
+          "fuelType": "增程式",
+          "power": "纯电动 218马力",
+          "size": "4921x1890x1485",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5aba70cfc05949bf2d4c41c5736e84ab~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ba217fc1ee9acb4f82941a83c2d1d87~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6551fac8597fde2fa783a6c84ff757c0~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/897e26d110584b7288af51bd15e058a4~2508x0.webp"
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#665912"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fa20e7ad82f2314e61e9571649e0e09~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b629a86b2808c2f2ec135fe89698aa3~2508x0.webp"
+            },
+            {
+              "name": "朗月灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b5e171f3d4122b59cd88afccd04bb05~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0fe8e7989cc25fefc4e8f391897c259~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤麂棕",
+              "colors": [
+                "#CFAE82"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04d1919210b81c7fdc97e6c491f7625c~2508x0.webp"
+            },
+            {
+              "name": "鹭羽白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ccda4c5d900ead144376d36ff096c7f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5aba70cfc05949bf2d4c41c5736e84ab~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4381,
+      "carName": "CX-30",
+      "configs": [
+        {
+          "configName": "2024款 2.0L 手动尚悦型",
+          "configId": "238980",
+          "index": 0,
+          "price": "9.99万",
+          "manufacturer": "长安马自达",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4395x1797x1545",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d83a838f452178988eb2df3adacb091~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f357408746b6b04f4bfad2db533ec0ba~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66bdb721af0736856f47f1ab037ea6eb~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5d38caa3ed52f1fcecbb2dca44ad241~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/蓝色",
+              "colors": [
+                "#000000",
+                "#5A6D8D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/378ededb290e529fb1a50e6b6d2dc19f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0d83a838f452178988eb2df3adacb091~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0L 自动尚悦型",
+          "configId": "238981",
+          "index": 1,
+          "price": "10.99万",
+          "manufacturer": "长安马自达",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4395x1797x1545",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8883d5a018d88f7aa70c40fffc45fb8~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7baac04c1824f380d69fcb4f0cdcf75b~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e41d27df9720c51be669f79c9a166136~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/蓝色",
+              "colors": [
+                "#000000",
+                "#5A6D8D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ff7547fb452c2f797c4ecc704275187~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d8883d5a018d88f7aa70c40fffc45fb8~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0L 自动雅悦版",
+          "configId": "238982",
+          "index": 2,
+          "price": "11.59万",
+          "manufacturer": "长安马自达",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4395x1797x1545",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9b13e15b245fb708eec534c1c2d1905~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b6fd8c47bb89fa3df1d4ea4eebd2e5d~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8f1af61bda55e2a5cb0a2276ede7eee~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26847d07c0eb7aaa6ba933a6aed89e8f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/蓝色",
+              "colors": [
+                "#000000",
+                "#5A6D8D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/339c7bbf641512105187cd43a8660f1b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e9b13e15b245fb708eec534c1c2d1905~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0L 自动嘉悦版",
+          "configId": "238983",
+          "index": 3,
+          "price": "11.99万",
+          "manufacturer": "长安马自达",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4395x1797x1545",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0c528af2f34e94ef9464be9aab8cf55~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b76d714fda4a696afc5228d523e4dc54~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f47a1e0b4c8ef103071827e4ad5c033f~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a5f5c832d03c7961d32f8af71f2ad43~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#675855"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edcbdbac504e99b9eb04ebd8258427df~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#C56B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6265b1e1ed36c7224583dda99fcbfe07~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e0c528af2f34e94ef9464be9aab8cf55~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0L 自动尊悦版",
+          "configId": "238984",
+          "index": 4,
+          "price": "13.99万",
+          "manufacturer": "长安马自达",
+          "class": "小型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 158马力 L4",
+          "size": "4395x1797x1545",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a23609bac9080a0b5cb12d09d6109930~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#675855"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bfdf7a906514c60142d9a3b2fa30083b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a23609bac9080a0b5cb12d09d6109930~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1016,
+      "carName": "CX-5",
+      "configs": [
+        {
+          "configName": "2025款 2.0L 自动两驱舒适型",
+          "configId": "249046",
+          "index": 0,
+          "price": "12.58万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4575x1842x1685",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d57feba773510e50fbb548cf20cee417~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82369bdc6a3f6ab479dcc661905b14d8~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ecffec1837299fd182f91550a23a0aa4~2508x0.webp"
+            },
+            {
+              "name": "铂雅金",
+              "colors": [
+                "#A9A192"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2df366a9d858e9e5567d580d78cbba3~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8fd84629eb414d991ca031f10d73f4b5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6616697a7ee5f3e1dd145f81c58f03e4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d57feba773510e50fbb548cf20cee417~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0L 自动两驱智尚型",
+          "configId": "249047",
+          "index": 1,
+          "price": "13.58万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4575x1842x1685",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e91a3b29bd5001d254fe776d1dbd4097~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cdf90a5f020a1d5295f69be6e93f7a3~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_10ba837621cb2335bcfc0a8aef729b69~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_703618444577dd2e5317bec39f94ce00~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e91a3b29bd5001d254fe776d1dbd4097~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0L 自动两驱智尚Pro",
+          "configId": "249048",
+          "index": 2,
+          "price": "13.98万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4575x1842x1685",
+          "exteriorImages": [
+            {
+              "name": "晶钻蓝",
+              "colors": [
+                "#061D39"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a710173e3e72cbee04c0f7f150522a5~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2744a297675c8870ec33b9fcc29363c~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_991beef2741dc52654afa493492c5de4~2508x0.webp"
+            },
+            {
+              "name": "铂雅金",
+              "colors": [
+                "#A9A192"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d0c8262085f233dc8812fea52fe46eb~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c8ee6b7dfc756e0bb5cfcf8fe99f5eb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41a2613534ab3f5b94e8855c9d9dc0ef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a710173e3e72cbee04c0f7f150522a5~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0L 自动两驱智雅型",
+          "configId": "249049",
+          "index": 3,
+          "price": "14.98万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4575x1842x1685",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 2.0L 自动两驱智雅Pro",
+          "configId": "249050",
+          "index": 4,
+          "price": "15.38万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4575x1842x1685",
+          "exteriorImages": [
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ead8486df0a0f989b301d4da447462e1~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_666599f03531320c37cbf8a925b1477e~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_21eb8483c918e73c1d7593111975b95e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7a19e7c822024013e824c14e3c03ca3~2508x0.webp"
+            },
+            {
+              "name": "勃艮第红",
+              "colors": [
+                "#BF3333"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a2fc3c44d58070e07b7af06296f1e3df~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ead8486df0a0f989b301d4da447462e1~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6313,
+      "carName": "CX-50行也",
+      "configs": [
+        {
+          "configName": "2024款 2.5L 自动畅行版",
+          "configId": "99332",
+          "index": 0,
+          "price": "17.98万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 188马力 L4",
+          "size": "4785x1920x1638",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63efa5fc9b2efeaecb7716714e0cd12f~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ca2f3448916097373a5073e37d85b6e~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d489312adcffd86373dcda7fafae1eb0~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ddcc2bb7254e7483134be9479428c0a5~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d91ba3ba68f4de86bcf7405db21ff30~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f0b80f57a6360d1462a173f678e5935~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/63efa5fc9b2efeaecb7716714e0cd12f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0L 自动驭行版",
+          "configId": "88842",
+          "index": 1,
+          "price": "15.98万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4785x1920x1638",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fac713f729ce6734fd0de54591ee73af~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c75c877fbc645f9eea91ced1a2e0b3e2~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc82901ab15cfbeedcdc99a5a55573f1~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e0a406a3bcc30715751c754f565c8a0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95e5faa0c394686ebd0e0c732aa2db73~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fac713f729ce6734fd0de54591ee73af~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0L 自动领行版",
+          "configId": "88841",
+          "index": 2,
           "price": "16.78万",
-          "fuelType": "汽油",
-          "size": "4785x1920x1638",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4785x1920x1638",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70e637017b900fe1f4eb39644b010531~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/318519676c3d81696bf8ac730c75c5ca~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/960021bdb7cc077f1e23fd90f8f4fbd0~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f413a0be526d11459a2333eb939f8082~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d609aeed444ac7e67ffb8c7f2532d90c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00cdd5e0867dcf7a728cc72ec06d6c76~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/70e637017b900fe1f4eb39644b010531~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.0L 自动安行版",
+          "configName": "2023款 2.0L 自动安行版",
+          "configId": "88840",
+          "index": 3,
           "price": "17.78万",
-          "fuelType": "汽油",
-          "size": "4785x1920x1638",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "2.0L 155马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0L 155马力 L4",
+          "size": "4785x1920x1638",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abadc86d63b35e2ce36a28ffe27c0cd9~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e7d25b6e1938a1fb2eaac946ae0cf9c7~2508x0.webp"
+            },
+            {
+              "name": "极境灰",
+              "colors": [
+                "#464E5B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48402eae6c747390f7edb61ee3fca57d~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a140c0fd38b0d17e6116ecd843713df~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/633816d67ff4350a9db8968bb9a22f0f~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d7b30ebdf2b2adde066dafcf8e2a658e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02b74c3335059b0d1b6d5cf19562628d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/abadc86d63b35e2ce36a28ffe27c0cd9~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L 自动悦行版",
+          "configName": "2023款 2.5L 自动悦行版",
+          "configId": "88839",
+          "index": 4,
           "price": "17.58万",
-          "fuelType": "汽油",
-          "size": "4785x1920x1638",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "2.5L 188马力 L4"
+          "fuelType": "汽油",
+          "power": "2.5L 188马力 L4",
+          "size": "4785x1920x1638",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7153d04c1e2c9e438f94fb37737894b~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb8ac27b9b0fa005b6d65ab690f39aca~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe7a6194ab18078df38ff67d926aeaea~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6aa52051ce70cc5d55b86eefa8680614~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c39d52877beab022429590bae0c2e990~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b7153d04c1e2c9e438f94fb37737894b~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L 自动智行版",
+          "configName": "2023款 2.5L 自动智行版",
+          "configId": "88838",
+          "index": 5,
           "price": "18.78万",
-          "fuelType": "汽油",
-          "size": "4785x1920x1638",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "2.5L 188马力 L4"
+          "fuelType": "汽油",
+          "power": "2.5L 188马力 L4",
+          "size": "4785x1920x1638",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fca2f9a9b732aa12245f7bd813231805~2508x0.webp"
+            },
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#0E0F12"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d8ed383a89b610d088f199420ac84a0~2508x0.webp"
+            },
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae1b2b2ac29e9dc776a3e48e15a394e3~2508x0.webp"
+            },
+            {
+              "name": "水晶魂动红",
+              "colors": [
+                "#8D0B16"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7181ad5a99cc46ecadb192f80b8fb3f~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1d7f49334187315141981e4016f0432~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F2F3F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b3cd7ba20b9825db4a8000a95abcd83~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3a7619bc143ab85045a867dee5b01cc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fca2f9a9b732aa12245f7bd813231805~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L 自动尊行版",
+          "configName": "2023款 2.5L 自动尊行版",
+          "configId": "88837",
+          "index": 6,
           "price": "20.68万",
+          "manufacturer": "长安马自达",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.5L 188马力 L4",
           "size": "4785x1920x1638",
-          "manufacturer": "长安马自达",
-          "class": "紧凑型SUV",
-          "power": "2.5L 188马力 L4"
+          "exteriorImages": [
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/071200a01ce5b422023eac207f25d93f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤陶色/黑色",
+              "colors": [
+                "#CA8263",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f516e35bbb34a30cfb5d3c92b7db167~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/071200a01ce5b422023eac207f25d93f~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L HEV两驱悦行版",
+          "configName": "2023款 2.5L HEV两驱悦行版",
+          "configId": "88205",
+          "index": 7,
           "price": "19.58万",
-          "fuelType": "油电混合",
-          "size": "4785x1920x1670",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "油电混合 120马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4785x1920x1670",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L HEV两驱安行版",
+          "configName": "2023款 2.5L HEV两驱安行版",
+          "configId": "95941",
+          "index": 8,
           "price": "20.78万",
-          "fuelType": "油电混合",
-          "size": "4785x1920x1670",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "油电混合 120马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4785x1920x1670",
+          "exteriorImages": [
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2be71e79393389b21892c4ac25cc7d04~2508x0.webp"
+            },
+            {
+              "name": "锆石砂",
+              "colors": [
+                "#B4B4B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_468e04b0bd3bf7d84ef741c88e99bd6e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/76aa966c44547548a9e45aec7c1c7a48~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2be71e79393389b21892c4ac25cc7d04~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L HEV四驱智行版",
+          "configName": "2023款 2.5L HEV四驱智行版",
+          "configId": "95942",
+          "index": 9,
           "price": "22.08万",
-          "fuelType": "油电混合",
-          "size": "4785x1920x1670",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "油电混合 174马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4785x1920x1670",
+          "exteriorImages": [
+            {
+              "name": "铂钢灰",
+              "colors": [
+                "#4D4D4F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bda8f4c742be97bd072730fb628549e7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a7b96e6dd57da6714de0e7b3cca3f93~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bda8f4c742be97bd072730fb628549e7~2508x0.webp"
         },
         {
-          "configName": "马自达CX-50行也 2023款 2.5L HEV四驱尊行版",
+          "configName": "2023款 2.5L HEV四驱尊行版",
+          "configId": "95943",
+          "index": 10,
           "price": "23.98万",
-          "fuelType": "油电混合",
-          "size": "4785x1920x1670",
           "manufacturer": "长安马自达",
           "class": "紧凑型SUV",
-          "power": "油电混合 174马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4785x1920x1670",
+          "exteriorImages": [
+            {
+              "name": "谧境蓝",
+              "colors": [
+                "#0C0C76"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80dd23e1eaafbe3c097bdff15bb52ac7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤陶色/黑色",
+              "colors": [
+                "#CA8263",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbfa4452871f39f1be7d0c1db81db9b9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/80dd23e1eaafbe3c097bdff15bb52ac7~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T06:58:34.879Z",
+  "progress": {
+    "completed": 5,
+    "total": 6,
+    "percentage": 83,
+    "currentIndex": 6
+  }
 }

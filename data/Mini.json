@@ -3,208 +3,1218 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/28df10b415f192d7045cf645fea11f30~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "电动MINI COOPER",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/40fa6213effc4416abdefaf9b34cd5bf~1200x0.png",
-      "configs": [
-        {
-          "configName": "电动MINI COOPER 2024款 改款 COOPER E 经典派",
-          "price": "20.98万",
-          "fuelType": "纯电动",
-          "size": "3858x1756x1458",
-          "manufacturer": "光束汽车",
-          "class": "小型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "电动MINI COOPER 2024款 COOPER SE 艺术家",
-          "price": "23.98万",
-          "fuelType": "纯电动",
-          "size": "3858x1756x1458",
-          "manufacturer": "光束汽车",
-          "class": "小型车",
-          "power": "纯电动 218马力"
-        }
-      ]
-    },
-    {
-      "carName": "电动MINI ACEMAN",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/75a9bb7810094e78878b93762b86f2ee~1200x0.png",
-      "configs": [
-        {
-          "configName": "电动MINI ACEMAN 2024款 ACEMAN E 经典派",
-          "price": "22.99万",
-          "fuelType": "纯电动",
-          "size": "4076x1754x1515",
-          "manufacturer": "光束汽车",
-          "class": "小型SUV",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "电动MINI ACEMAN 2024款 ACEMAN SE 艺术家",
-          "price": "25.99万",
-          "fuelType": "纯电动",
-          "size": "4076x1754x1515",
-          "manufacturer": "光束汽车",
-          "class": "小型SUV",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "电动MINI ACEMAN 2024款 ACEMAN SE 赛车手",
-          "price": "27.99万",
-          "fuelType": "纯电动",
-          "size": "4094x1754x1515",
-          "manufacturer": "光束汽车",
-          "class": "小型SUV",
-          "power": "纯电动 218马力"
-        }
-      ]
-    },
-    {
+      "carId": 38,
       "carName": "MINI",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/bbeff1cb0ff24116b3342f04577a71f8~1200x0.png",
       "configs": [
         {
-          "configName": "MINI 2025款 1.5T COOPER 三门版 经典派",
-          "price": "23.38万",
-          "fuelType": "汽油",
-          "size": "3875x1744x1454",
-          "manufacturer": "MINI",
-          "class": "小型车",
-          "power": "1.5T 156马力 L3"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S 三门版 艺术家",
+          "configName": "2025款 2.0T COOPER S 三门版 艺术家",
+          "configId": "242105",
+          "index": 1,
           "price": "27.28万",
+          "manufacturer": "MINI",
+          "class": "小型车",
           "fuelType": "汽油",
+          "power": "2.0T 204马力 L4",
           "size": "3875x1744x1454",
-          "manufacturer": "MINI",
-          "class": "小型车",
-          "power": "2.0T 204马力 L4"
+          "exteriorImages": [
+            {
+              "name": "英伦绿/黑色",
+              "colors": [
+                "#084337",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45d0bb1e1da379fdf9cac6e3115fe56f~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/白色",
+              "colors": [
+                "#084337",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c0ba817b951f38c23ecd9e30a6be882b~2508x0.webp"
+            },
+            {
+              "name": "青出于蓝/黑色",
+              "colors": [
+                "#1D3F95",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_725498dfa586e0d04ec07be9c27fe28e~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝/黑色",
+              "colors": [
+                "#4F85C5",
+                "#111010"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7501203cceee1b7e0d0e4d053355250~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7535326a7371ccdfd13a4d8ba81833ef~2508x0.webp"
+            },
+            {
+              "name": "辣椒红/黑色",
+              "colors": [
+                "#8E161C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7bf9ca5ec49e5be78d81baf9bae3193~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/黑色",
+              "colors": [
+                "#D9F2E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ecd0a7e65473812e8759ac9bfd9ab2b~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/白色",
+              "colors": [
+                "#D9F2E8",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c053d9a80fb6187b4df1cf32961db9d8~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄/黑色",
+              "colors": [
+                "#FFFF00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21c87058879f8966953caf52928d725e~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/黑色",
+              "colors": [
+                "#FFFFF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc9996f6703e099b418b22a18b817d9f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#464674"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de1c304c2381a064b30cf6270a975547~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F8F5E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc692852f5d17a1025ea73d69c3feb9b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/45d0bb1e1da379fdf9cac6e3115fe56f~2508x0.webp"
         },
         {
-          "configName": "MINI 2025款 2.0T COOPER S 三门版 赛车手",
+          "configName": "2025款 2.0T COOPER S 三门版 赛车手",
+          "configId": "242106",
+          "index": 2,
           "price": "28.28万",
+          "manufacturer": "MINI",
+          "class": "小型车",
           "fuelType": "汽油",
+          "power": "2.0T 204马力 L4",
           "size": "3875x1744x1454",
-          "manufacturer": "MINI",
-          "class": "小型车",
-          "power": "2.0T 204马力 L4"
+          "exteriorImages": [
+            {
+              "name": "英伦绿/黑色",
+              "colors": [
+                "#084337",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75f2256e3d78bdbabed1514025c898b8~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝/黑色",
+              "colors": [
+                "#4F85C5",
+                "#111010"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8d758a058cbc2800219545ad8dc0525~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac2cda36671ffa96449e6a1a99450161~2508x0.webp"
+            },
+            {
+              "name": "辣椒红/黑色",
+              "colors": [
+                "#8E161C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef46c75cb87fd4a023bd7dc649d59eda~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/黑色",
+              "colors": [
+                "#D9F2E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d53445c8357f15905ec2a0dbf347c2a3~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄/黑色",
+              "colors": [
+                "#FFFF00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ccf27e6b27c60962c96aa9c42a1977a~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/黑色",
+              "colors": [
+                "#FFFFF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d719e67b28456d23b2c322fed786e8b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78c8e963cc12427f223e430c2e1a124b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/75f2256e3d78bdbabed1514025c898b8~2508x0.webp"
         },
         {
-          "configName": "MINI 2025款 1.5T COOPER 五门版 经典派",
-          "price": "24.38万",
-          "fuelType": "汽油",
-          "size": "4035x1744x1467",
-          "manufacturer": "MINI",
-          "class": "小型车",
-          "power": "1.5T 156马力 L3"
-        },
-        {
-          "configName": "MINI 2025款 2.0T COOPER S 五门版 艺术家",
+          "configName": "2025款 2.0T COOPER S 五门版 艺术家",
+          "configId": "110231",
+          "index": 4,
           "price": "28.28万",
-          "fuelType": "汽油",
-          "size": "4035x1744x1467",
           "manufacturer": "MINI",
           "class": "小型车",
-          "power": "2.0T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 204马力 L4",
+          "size": "4035x1744x1467",
+          "exteriorImages": [
+            {
+              "name": "魔法蓝/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d17d5f6e28a6aec3bcae2f96acf01a95~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/黑色",
+              "colors": [
+                "#084337",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b15f29dd4b5ad72f1907ce3bc6cbbe49~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/白色",
+              "colors": [
+                "#084337",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e475c260d742c49696a8b184a000958~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝/渐变蓝",
+              "colors": [
+                "#4F85C5",
+                "#2C5E99"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2207afb9a4b5705aaf8842e6014e72d1~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de2ba8066b8c95a6894214eb50283c47~2508x0.webp"
+            },
+            {
+              "name": "辣椒红/黑色",
+              "colors": [
+                "#8E161C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd3eb93e123c3bac942be291d03ce9cd~2508x0.webp"
+            },
+            {
+              "name": "辣椒红/白色",
+              "colors": [
+                "#8E161C",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_10ef33f32fd3749271ea116cc0b4d390~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/黑色",
+              "colors": [
+                "#D9F2E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1574c89a34572d4157c6777dfbc43f79~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/白色",
+              "colors": [
+                "#D9F2E8",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6bfbcc03c4da7b337709da4fe9106001~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄/黑色",
+              "colors": [
+                "#FFFF00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe653ab97022d6f2cb780e2de137f04d~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄/白色",
+              "colors": [
+                "#FFFF00",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8800bdd00cd5a548d1e2a7a5afba5aa~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/黑色",
+              "colors": [
+                "#FFFFF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bae81f6ca13ec89c0246f9c465550e0d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#464674"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b884ae5503b30e21e865697f3b0f234~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F8F5E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74c2b6543ea2006b784308270adf2948~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d17d5f6e28a6aec3bcae2f96acf01a95~2508x0.webp"
         },
         {
-          "configName": "MINI 2025款 2.0T COOPER S CABRIO 艺术家",
+          "configName": "2025款 2.0T COOPER S CABRIO 艺术家",
+          "configId": "246414",
+          "index": 5,
           "price": "30.98万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435",
           "manufacturer": "MINI",
           "class": "小型车",
-          "power": "2.0T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 204马力 L4",
+          "size": "3878x1744x1435",
+          "exteriorImages": [
+            {
+              "name": "英伦绿",
+              "colors": [
+                "#084337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd20032f6feda525551eb574ca432508~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#4B80C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_25fccab17726b40ae14858952e16b4c7~2508x0.webp"
+            },
+            {
+              "name": "风云灰",
+              "colors": [
+                "#818080"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d0f784e22048531038cb5e494f548ed3~2508x0.webp"
+            },
+            {
+              "name": "星尘灰",
+              "colors": [
+                "#86888C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06621cb205cd439102e984180b870747~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿",
+              "colors": [
+                "#D9F2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8f3ebaa93f6983b7a08ff9895f411657~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝灰色",
+              "colors": [
+                "#464674"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1730f808375ba603e0aacfe41fb2b7f7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd20032f6feda525551eb574ca432508~2508x0.webp"
         },
         {
-          "configName": "MINI 2025款 2.0T COOPER S CABRIO 赛车手",
+          "configName": "2025款 2.0T COOPER S CABRIO 赛车手",
+          "configId": "241112",
+          "index": 6,
           "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435",
           "manufacturer": "MINI",
           "class": "小型车",
-          "power": "2.0T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 204马力 L4",
+          "size": "3878x1744x1435",
+          "exteriorImages": [
+            {
+              "name": "英伦绿",
+              "colors": [
+                "#084337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56e75e4526c407c39af1140333728ea3~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#4B80C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f67218a00ea2cd9b77d3a63d506800f2~2508x0.webp"
+            },
+            {
+              "name": "风云灰",
+              "colors": [
+                "#818080"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e4c1ea4d456f2925d2c24d4228e224b4~2508x0.webp"
+            },
+            {
+              "name": "星尘灰",
+              "colors": [
+                "#86888C"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_ddbe3761ebc48851d26bc87e503f6060~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "玻璃海绿",
+              "colors": [
+                "#D9F2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c175723f01ad68d53c4cba127c2beec~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_54ce74b56f848e184608c77f1c5a2910~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "北极熊白",
+              "colors": [
+                "#FFFFF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8c7141d8cecf237460e44c7c0ac37809~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c49627391226a9d69e408d7ee1095631~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56e75e4526c407c39af1140333728ea3~2508x0.webp"
         },
         {
-          "configName": "MINI 2025款 2.0T COOPER S CABRIO 白日星尘 限定配色",
+          "configName": "2025款 2.0T COOPER S CABRIO 白日星尘 限定配色",
+          "configId": "246415",
+          "index": 7,
           "price": "32.48万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435",
           "manufacturer": "MINI",
           "class": "小型车",
-          "power": "2.0T 204马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 204马力 L4",
+          "size": "3878x1744x1435",
+          "exteriorImages": [
+            {
+              "name": "星尘灰",
+              "colors": [
+                "#86888C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_221a60449fc28934a012835c2246201f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#F8F5E6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_738ae119654e28ab314a8c577879e405~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_221a60449fc28934a012835c2246201f~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 44,
       "carName": "JCW",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6e8f314c005e42029a5377cbf91fe7af~1200x0.png",
       "configs": [
         {
-          "configName": "MINI JCW 2025款 JOHN COOPER WORKS",
+          "configName": "2025款 JOHN COOPER WORKS",
+          "configId": "241569",
+          "index": 0,
           "price": "31.08万",
-          "fuelType": "汽油",
-          "size": "3875x1744x1454",
           "manufacturer": "MINI JCW",
           "class": "小型车",
-          "power": "2.0T 231马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 231马力 L4",
+          "size": "3875x1744x1454",
+          "exteriorImages": [
+            {
+              "name": "海盐蓝/红色",
+              "colors": [
+                "#0000FF",
+                "#F80C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b340033c508efbc17d7af6fcc601309d~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/红色",
+              "colors": [
+                "#084337",
+                "#DC0909"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19880772fa86a03f838921001f940438~2508x0.webp"
+            },
+            {
+              "name": "青出于蓝/红色",
+              "colors": [
+                "#1D3F95",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f29d5fe612d8f02fd9b0e3d6bbe55c0~2508x0.webp"
+            },
+            {
+              "name": "流光银/黑色",
+              "colors": [
+                "#6E6A67",
+                "#040404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c904f932becaa4d80286da10a8238179~2508x0.webp"
+            },
+            {
+              "name": "流光银/红色",
+              "colors": [
+                "#6E6A67",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22a82f87e2b167506c266cc4a17dbe9b~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_babf709f6ca618d16492c1f121cc04b9~2508x0.webp"
+            },
+            {
+              "name": "风云灰/红色",
+              "colors": [
+                "#818080",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_989318ea234375d0e1e4779d636115d1~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/黑色",
+              "colors": [
+                "#D9F2E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3f01cc95e5fdccbd44bd12f54aa97c6~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/红色",
+              "colors": [
+                "#D9F2E8",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fed96dce6ae509f2f727fb799056a79e~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄/黑色",
+              "colors": [
+                "#FFFF00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af35d6fa5b0d8f162f690c4b3a1db436~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/黑色",
+              "colors": [
+                "#FFFFF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67766e112fe5b7dc86b73691a356845b~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/红色",
+              "colors": [
+                "#FFFFF7",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d49280811c1fc29c2499fed967a39a23~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70cdb242c776a97d26f41dc470fdb7eb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b340033c508efbc17d7af6fcc601309d~2508x0.webp"
         },
         {
-          "configName": "MINI JCW 2025款 JOHN COOPER WORKS CABRIO",
+          "configName": "2025款 JOHN COOPER WORKS CABRIO",
+          "configId": "241570",
+          "index": 1,
           "price": "34.98万",
-          "fuelType": "汽油",
-          "size": "3878x1744x1435",
           "manufacturer": "MINI JCW",
           "class": "小型车",
-          "power": "2.0T 231马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 231马力 L4",
+          "size": "3878x1744x1435",
+          "exteriorImages": [
+            {
+              "name": "英伦绿",
+              "colors": [
+                "#084337"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1e3150e720fcc906eb192c58a3a02bd~2508x0.webp"
+            },
+            {
+              "name": "海盐蓝",
+              "colors": [
+                "#4B80C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dcb6f6df6fb3fedd595284f829df7ca0~2508x0.webp"
+            },
+            {
+              "name": "星尘灰",
+              "colors": [
+                "#86888C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11a775bc50864ce078c6e2d4a5d34473~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿",
+              "colors": [
+                "#D9F2E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6558452968938267b3b5e4639063db9d~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_916536ec682ab60d13f6cd3625d88f49~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a083390b12a3f20a8bca399b3eec3b9c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1e3150e720fcc906eb192c58a3a02bd~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "电动MINI JCW",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd5aee02e9a54de6b01dcc71f76eb259~1200x0.png",
+      "carId": 9793,
+      "carName": "电动MINI COOPER",
       "configs": [
         {
-          "configName": "电动MINI JCW 2025款 JOHN COOPER WORKS",
-          "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "3858x1756x1458",
+          "configName": "2024款 COOPER SE 艺术家",
+          "configId": "97407",
+          "index": 1,
+          "price": "23.98万",
           "manufacturer": "光束汽车",
           "class": "小型车",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "3858x1756x1458",
+          "exteriorImages": [
+            {
+              "name": "魔法蓝/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad048f6fa1094e9441c4ce9c8e90f2e4~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/黑色",
+              "colors": [
+                "#084337",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14a112aab551da7f5f1e59361c7f0139~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6bdf72e73cece1c4e9c7c384d4aedfb8~2508x0.webp"
+            },
+            {
+              "name": "辣椒红/黑色",
+              "colors": [
+                "#8E161C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fd9d4bcdb4858953b1362e88b630fb7~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/北极熊白",
+              "colors": [
+                "#D9F2E8",
+                "#FFFFF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75057353084847c2b8bf986e020d8c87~2508x0.webp"
+            },
+            {
+              "name": "班尼迪克黄/黑色",
+              "colors": [
+                "#FFFF00",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5ab3e583abcc3afc2d8af377a956c7b~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/黑色",
+              "colors": [
+                "#FFFFF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2fef7845dd4f1983be6325465eefb7f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝黑色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25e2779e890efaba0b7a51e1bc172ea2~2508x0.webp"
+            },
+            {
+              "name": "北极熊白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63f228c11155e4c9409f1d4885eb1e6a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ad048f6fa1094e9441c4ce9c8e90f2e4~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "电动MINI JCW ACEMAN",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f277454649b34edfad95cb77e5a7878d~1200x0.png",
+      "carId": 25281,
+      "carName": "电动MINI JCW",
       "configs": [
         {
-          "configName": "电动MINI JCW ACEMAN 2025款 JOHN COOPER WORKS",
-          "price": "32.09万",
+          "configName": "2025款 JOHN COOPER WORKS",
+          "configId": "245910",
+          "index": 0,
+          "price": "29.98万",
+          "manufacturer": "光束汽车",
+          "class": "小型车",
           "fuelType": "纯电动",
-          "size": "4094x1754x1515",
+          "power": "纯电动 258马力",
+          "size": "3858x1756x1458",
+          "exteriorImages": [
+            {
+              "name": "魔法蓝/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ca7f3612647785706dac4facd3b83c69~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/黑色",
+              "colors": [
+                "#084337",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0cf5245a3aa5294b0e25dad5100d363d~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/红色",
+              "colors": [
+                "#084337",
+                "#DC0909"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14d3a71214ade47f5f3620280aa61b86~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/渐变红黑",
+              "colors": [
+                "#084337",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b751692a9103a94b8d339563b81e8bdc~2508x0.webp"
+            },
+            {
+              "name": "青出于蓝/黑色",
+              "colors": [
+                "#1D3F95",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a80dee4d54d01757882d43e27140e5d2~2508x0.webp"
+            },
+            {
+              "name": "青出于蓝/红色",
+              "colors": [
+                "#1D3F95",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1743169b0d681348fd7192dad2ef89e3~2508x0.webp"
+            },
+            {
+              "name": "流光银/黑色",
+              "colors": [
+                "#6E6A67",
+                "#040404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_177b3d22f0531ff11214cdab17c4e109~2508x0.webp"
+            },
+            {
+              "name": "流光银/红色",
+              "colors": [
+                "#6E6A67",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_19dfd7bda6e696cf72321dfe2d3c5e4a~2508x0.webp"
+            },
+            {
+              "name": "风云灰/红色",
+              "colors": [
+                "#818080",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d3d79b22169a744a9133fe8a88bf2456~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/渐变红黑",
+              "colors": [
+                "#FFFFF7",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9786b68f62b76f27beba0ee3fa5ce9aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_37a9f270e3fb7a188640256ce889d858~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ca7f3612647785706dac4facd3b83c69~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 9945,
+      "carName": "电动MINI ACEMAN",
+      "configs": [
+        {
+          "configName": "2024款 ACEMAN SE 艺术家",
+          "configId": "239487",
+          "index": 1,
+          "price": "25.99万",
           "manufacturer": "光束汽车",
           "class": "小型SUV",
-          "power": "纯电动 258马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4076x1754x1515",
+          "exteriorImages": [
+            {
+              "name": "魔法蓝/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/620a94986f8497f5011965349952d899~2508x0.webp"
+            },
+            {
+              "name": "青出于蓝/黑色",
+              "colors": [
+                "#1D3F95",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97e6a2d5eab8bb5fcaf1c541d882b3b3~2508x0.webp"
+            },
+            {
+              "name": "流光银/黑色",
+              "colors": [
+                "#6E6A67",
+                "#040404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd7dd5da22949ab84801b8d8b30ca2ed~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/931b4899c90f6e5f337519e1f54ea258~2508x0.webp"
+            },
+            {
+              "name": "南红红/黑色",
+              "colors": [
+                "#A32A07",
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/450e635e2d538f39ba41ed94d53c73f4~2508x0.webp"
+            },
+            {
+              "name": "玻璃海绿/黑色",
+              "colors": [
+                "#D9F2E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf1a13dc25579b26e948465bba5a48c8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/蓝色",
+              "colors": [
+                "#000001",
+                "#80A5D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0a85d352508cf628d3d75886d867bfa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/620a94986f8497f5011965349952d899~2508x0.webp"
+        },
+        {
+          "configName": "2024款 ACEMAN SE 赛车手",
+          "configId": "99142",
+          "index": 2,
+          "price": "27.99万",
+          "manufacturer": "光束汽车",
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4094x1754x1515",
+          "exteriorImages": [
+            {
+              "name": "青出于蓝/黑色",
+              "colors": [
+                "#1D3F95",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e365d3d228ff51281d6714553853be65~2508x0.webp"
+            },
+            {
+              "name": "流光银/黑色",
+              "colors": [
+                "#6E6A67",
+                "#040404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b38e377051440242f15213ab8a20160~2508x0.webp"
+            },
+            {
+              "name": "流光银/红色",
+              "colors": [
+                "#6E6A67",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e33c3bd85a0607970f18956dae48b3e0~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac11d978223e64ccab33138890c8afc8~2508x0.webp"
+            },
+            {
+              "name": "风云灰/红色",
+              "colors": [
+                "#818080",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ebdd944929bda4725a5c13cae080395~2508x0.webp"
+            },
+            {
+              "name": "南红红/黑色",
+              "colors": [
+                "#A32A07",
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e890832bbf30227b66e518722dd8f619~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca707cf0cc76d63ecba107b234994caa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e365d3d228ff51281d6714553853be65~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "JCW COUNTRYMAN",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e4b75b5b006345278dca379bb6a2c9d0~1200x0.png",
+      "carId": 25282,
+      "carName": "电动MINI JCW ACEMAN",
       "configs": [
         {
-          "configName": "MINI JCW COUNTRYMAN 2024款 2.0T JOHN COOPER WORKS ALL4",
-          "price": "39.98万",
-          "fuelType": "汽油",
-          "size": "4447x1843x1643",
+          "configName": "2025款 JOHN COOPER WORKS",
+          "configId": "245911",
+          "index": 0,
+          "price": "32.09万",
+          "manufacturer": "光束汽车",
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 258马力",
+          "size": "4094x1754x1515",
+          "exteriorImages": [
+            {
+              "name": "魔法蓝/黑色",
+              "colors": [
+                "#0000FF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4450e6a2951f917f4d6e029e9e44563a~2508x0.webp"
+            },
+            {
+              "name": "青出于蓝/黑色",
+              "colors": [
+                "#1D3F95",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba1a843f94bc13058c1423093efb2840~2508x0.webp"
+            },
+            {
+              "name": "流光银/黑色",
+              "colors": [
+                "#6E6A67",
+                "#040404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4840d7eb6c93fe81d0d78d5f15cd6608~2508x0.webp"
+            },
+            {
+              "name": "流光银/红色",
+              "colors": [
+                "#6E6A67",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c01a0b97a805d1cc841a2f0f5b0c3b0c~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c726feed31941c233a15393f2c53e8d~2508x0.webp"
+            },
+            {
+              "name": "风云灰/红色",
+              "colors": [
+                "#818080",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b2f98e092b93e311fa20feb684647d4a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑红色",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_35d28904490b2dd7763df964544e2289~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4450e6a2951f917f4d6e029e9e44563a~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 47,
+      "carName": "JCW COUNTRYMAN",
+      "configs": [
+        {
+          "configName": "2024款 2.0T JOHN COOPER WORKS ALL4",
+          "configId": "98997",
+          "index": 0,
+          "price": "37.88万",
           "manufacturer": "MINI JCW",
           "class": "紧凑型SUV",
-          "power": "2.0T 300马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 300马力 L4",
+          "size": "4447x1843x1643",
+          "exteriorImages": [
+            {
+              "name": "英伦绿/黑色",
+              "colors": [
+                "#084337",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5538e037812ffdf37371e72db8770a8~2508x0.webp"
+            },
+            {
+              "name": "英伦绿/红色",
+              "colors": [
+                "#084337",
+                "#DC0909"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ee3ccd5bf9999b496392a03d1906481~2508x0.webp"
+            },
+            {
+              "name": "子夜黑",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe55e3e2a6de710666971f4c322b3dac~2508x0.webp"
+            },
+            {
+              "name": "子夜黑/红色",
+              "colors": [
+                "#131313",
+                "#DC0909"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1205a9d84abd274398343fa79e9f9c5~2508x0.webp"
+            },
+            {
+              "name": "流光银/黑色",
+              "colors": [
+                "#6E6A67",
+                "#040404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9344934674dd199cec981bc60b7d359~2508x0.webp"
+            },
+            {
+              "name": "流光银/红色",
+              "colors": [
+                "#6E6A67",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69174a5457834b6c21738a9af308787a~2508x0.webp"
+            },
+            {
+              "name": "风云灰/黑色",
+              "colors": [
+                "#818080",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82582fd912fab3e9da5899cbdc93aac9~2508x0.webp"
+            },
+            {
+              "name": "风云灰/红色",
+              "colors": [
+                "#818080",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0ea8f04c50b5b05d8542b5b775b2363~2508x0.webp"
+            },
+            {
+              "name": "辣椒红/黑色",
+              "colors": [
+                "#8E161C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d53087c9d3b150318b1340606add1df5~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/黑色",
+              "colors": [
+                "#FFFFF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a7143eb26ae7225fe68696b68ca5cff~2508x0.webp"
+            },
+            {
+              "name": "北极熊白/红色",
+              "colors": [
+                "#FFFFF7",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f9caae9d9f6c5949df56181312a2805~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碳黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c9f78fd8a7390f614b1cff7d1262e72~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d5538e037812ffdf37371e72db8770a8~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T07:34:10.014Z",
+  "progress": {
+    "completed": 7,
+    "total": 7,
+    "percentage": 100,
+    "currentIndex": 7
+  }
 }

@@ -3,133 +3,372 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/f85275e1f085c25d14e894c4d17c2795~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "7X",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fb220d02e56bf9f17b550b79e5f67e1~1200x0.png",
+      "carId": 2828,
+      "carName": "8S",
       "configs": [
         {
-          "configName": "海马7X 2023款 改款 1.5T 自动舒适型",
-          "price": "12.98万",
+          "configName": "2020款 1.6TGDI 手动舒适型",
+          "configId": "46099",
+          "index": 0,
+          "price": "7.99万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
-          "size": "4815x1874x1720",
-          "manufacturer": "一汽海马",
-          "class": "紧凑型MPV",
-          "power": "1.5T 165马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "海马7X 2023款 1.5T 自动舒适型",
-          "price": "12.98万",
+          "configName": "2020款 1.6TGDI 手动精英型",
+          "configId": "46100",
+          "index": 1,
+          "price": "8.99万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
-          "size": "4815x1874x1720",
-          "manufacturer": "一汽海马",
-          "class": "紧凑型MPV",
-          "power": "1.5T 165马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [
+            {
+              "name": "量子灰",
+              "colors": [
+                "#9AA0A5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3788f88420a3d46886ae2fee349c1ee5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f09f7cb516aae2220548716aa17d2cd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3788f88420a3d46886ae2fee349c1ee5~2508x0.webp"
         },
         {
-          "configName": "海马7X 2023款 1.6TGDI 自动豪华型",
-          "price": "14.38万",
+          "configName": "2020款 1.6TGDI 自动舒适型",
+          "configId": "46101",
+          "index": 2,
+          "price": "8.99万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
-          "size": "4815x1874x1720",
-          "manufacturer": "一汽海马",
-          "class": "紧凑型MPV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "海马7X 2023款 1.6TGDI 自动旗舰型",
-          "price": "15.38万",
+          "configName": "2020款 1.6TGDI 自动精英型",
+          "configId": "46102",
+          "index": 3,
+          "price": "9.99万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
-          "size": "4815x1874x1720",
-          "manufacturer": "一汽海马",
-          "class": "紧凑型MPV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#C5022F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4125021bad3e98b9f8bd080c7d7e05e8~2508x0.webp"
+            },
+            {
+              "name": "极光白",
+              "colors": [
+                "#F2F2F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b64955132c381bb43b51909894d7dc9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87d1010a3893ac26aac84fdc322becef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4125021bad3e98b9f8bd080c7d7e05e8~2508x0.webp"
         },
         {
-          "configName": "海马7X 2023款 1.6TGDI 自动智能型",
-          "price": "16.38万",
+          "configName": "2020款 1.6TGDI 自动豪华型",
+          "configId": "46103",
+          "index": 4,
+          "price": "10.99万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
-          "size": "4815x1874x1720",
-          "manufacturer": "一汽海马",
-          "class": "紧凑型MPV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [
+            {
+              "name": "量子灰",
+              "colors": [
+                "#9AA0A5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d2e7724a2e91ef15f4ff4b7875bd8ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0cd179598f2662201ec73c68f936c8b6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9d2e7724a2e91ef15f4ff4b7875bd8ef~2508x0.webp"
+        },
+        {
+          "configName": "2020款 1.6TGDI DCT尊贵型",
+          "configId": "49805",
+          "index": 5,
+          "price": "11.99万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2020款 1.6TGDI 自动旗舰型",
+          "configId": "46104",
+          "index": 6,
+          "price": "12.59万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [
+            {
+              "name": "极光白",
+              "colors": [
+                "#F2F2F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85c03fdeae70182c8f58edad7650c8d8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb037a3b1f6e9f273d38e49fc0f295cf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/85c03fdeae70182c8f58edad7650c8d8~2508x0.webp"
+        },
+        {
+          "configName": "2020款 1.6TGDI 自动至尊型",
+          "configId": "49806",
+          "index": 7,
+          "price": "13.69万",
+          "manufacturer": "海马汽车",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.6T 195马力 L4",
+          "size": "4565x1850x1682",
+          "exteriorImages": [
+            {
+              "name": "暗黑骑士",
+              "colors": [
+                "#0D0D13"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f6ebc9a64e60c4be5a487d68f9512e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d35ee8fc5fa3719f1fce0cb19b3dcc38~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9f6ebc9a64e60c4be5a487d68f9512e5~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "8S",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7686539860206c6ca7770cb44eb8584b~1200x0.png",
+      "carId": 4201,
+      "carName": "7X",
       "configs": [
         {
-          "configName": "海马8S 2020款 1.6TGDI 手动舒适型",
-          "price": "7.99万",
+          "configName": "2023款 改款 1.5T 自动舒适型",
+          "configId": "92598",
+          "index": 0,
+          "price": "12.98万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.5T 165马力 L4",
+          "size": "4815x1874x1720",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "海马8S 2020款 1.6TGDI 手动精英型",
-          "price": "8.99万",
+          "configName": "2023款 1.5T 自动舒适型",
+          "configId": "87425",
+          "index": 1,
+          "price": "12.98万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.5T 165马力 L4",
+          "size": "4815x1874x1720",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "海马8S 2020款 1.6TGDI 自动舒适型",
-          "price": "8.99万",
+          "configName": "2023款 1.6TGDI 自动豪华型",
+          "configId": "87426",
+          "index": 2,
+          "price": "14.38万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4815x1874x1720",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "海马8S 2020款 1.6TGDI 自动精英型",
-          "price": "9.99万",
+          "configName": "2023款 1.6TGDI 自动旗舰型",
+          "configId": "87427",
+          "index": 3,
+          "price": "15.38万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4815x1874x1720",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "海马8S 2020款 1.6TGDI 自动豪华型",
-          "price": "10.99万",
+          "configName": "2023款 1.6TGDI 自动智能型",
+          "configId": "87428",
+          "index": 4,
+          "price": "16.38万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
           "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "power": "1.6T 195马力 L4",
+          "size": "4815x1874x1720",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 5934,
+      "carName": "7X-E",
+      "configs": [
+        {
+          "configName": "2022款 舒适型",
+          "configId": "78637",
+          "index": 0,
+          "price": "21.98万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4815x1874x1720",
+          "exteriorImages": [
+            {
+              "name": "礁石灰",
+              "colors": [
+                "#545963"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c94fc11c030b1f653aecddf5427e2cf5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A0522D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f9fd8969ba2c39cbf5931459732e55d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c94fc11c030b1f653aecddf5427e2cf5~2508x0.webp"
         },
         {
-          "configName": "海马8S 2020款 1.6TGDI DCT尊贵型",
-          "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "configName": "2022款 豪华型",
+          "configId": "78638",
+          "index": 1,
+          "price": "23.98万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4815x1874x1720",
+          "exteriorImages": [
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#557692"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e232461e736db6b65a0a1017b5d08f4c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A0522D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fecc3999010df24dded5bdda0814361c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e232461e736db6b65a0a1017b5d08f4c~2508x0.webp"
         },
         {
-          "configName": "海马8S 2020款 1.6TGDI 自动旗舰型",
-          "price": "12.59万",
-          "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
-        },
-        {
-          "configName": "海马8S 2020款 1.6TGDI 自动至尊型",
-          "price": "13.69万",
-          "fuelType": "汽油",
-          "size": "4565x1850x1682",
-          "manufacturer": "海马汽车",
-          "class": "紧凑型SUV",
-          "power": "1.6T 195马力 L4"
+          "configName": "2022款 旗舰型",
+          "configId": "78639",
+          "index": 2,
+          "price": "25.98万",
+          "manufacturer": "一汽海马",
+          "class": "紧凑型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4815x1874x1720",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T05:42:33.793Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }

@@ -3,317 +3,1499 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/17fca7e0dec078194be0cf6248c79706~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "坦克500 Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/18ee743191d544479236fe86fb8effc0~1200x0.png",
-      "configs": [
-        {
-          "configName": "坦克500 Hi4-T 2024款 2.0T Hi4-T",
-          "price": "33.5万",
-          "fuelType": "插电式混合动力",
-          "size": "5078x1934x1905",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 163马力"
-        },
-        {
-          "configName": "坦克500 Hi4-T 2024款 2.0T Hi4-T 黑武士",
-          "price": "34.5万",
-          "fuelType": "插电式混合动力",
-          "size": "5078x1934x1905",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 163马力"
-        }
-      ]
-    },
-    {
-      "carName": "赛博坦克300",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/938dc57d321f46c69d62aef5f4856e79~1200x0.png",
-      "configs": [
-        {
-          "configName": "赛博坦克300 2023款 2.0T 赛博骑士",
-          "price": "33.8万",
-          "fuelType": "汽油",
-          "size": "4679x1967x1958",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 227马力 L4"
-        }
-      ]
-    },
-    {
       "carName": "坦克300 Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/77ed1c178f084c6eb33ffa104aaadd54~1200x0.png",
       "configs": [
         {
-          "configName": "坦克300 Hi4-T 2025款 2.0T 标准型",
+          "configName": "2025款 2.0T 标准型",
+          "configId": "245323",
+          "index": 0,
           "price": "24.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4760x1930x1903",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "4760x1930x1903",
+          "exteriorImages": [
+            {
+              "name": "黑凤梨",
+              "colors": [
+                "#010100"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c3e0fd6293b890843299f60be794b95~2508x0.webp"
+            },
+            {
+              "name": "灰太浪",
+              "colors": [
+                "#858585"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c10ac3fcab5cf3adeb51332692574c5f~2508x0.webp"
+            },
+            {
+              "name": "心想事橙",
+              "colors": [
+                "#F2440E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4e43bbbf3ecf5166ec2e34a719cf5287~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#F5F5D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/462abb4c060e02fed6deaa461ff832e7~2508x0.webp"
+            },
+            {
+              "name": "白富美",
+              "colors": [
+                "#FAFCFB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3667853b4af88090b948517c05c07ef~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#AD4949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_937326b16cbf9dd07fac007629c66c74~2508x0.webp"
+            },
+            {
+              "name": "黑灰",
+              "colors": [
+                "#B3B3B3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_018b2510c6e749be9db02502d1aacfbc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3c3e0fd6293b890843299f60be794b95~2508x0.webp"
         }
       ]
     },
     {
       "carName": "坦克300",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9da16ffafea4416e8ec402492ca9c75a~1200x0.png",
       "configs": [
         {
-          "configName": "坦克300 2025款 2.0T 挑战者",
+          "configName": "2025款 2.0T 挑战者",
+          "configId": "245753",
+          "index": 0,
           "price": "19.98万",
-          "fuelType": "汽油",
-          "size": "4750x1930x1903",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 227马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 227马力 L4",
+          "size": "4750x1930x1903",
+          "exteriorImages": [
+            {
+              "name": "黑凤梨",
+              "colors": [
+                "#010100"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ad748b2a566041b344d172c48d76a9e~2508x0.webp"
+            },
+            {
+              "name": "灰太浪",
+              "colors": [
+                "#858585"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b2ed1c89d0e0df915a2c6fe759f7e7cf~2508x0.webp"
+            },
+            {
+              "name": "心想事橙",
+              "colors": [
+                "#F2440E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5090b4b62330201a9cb5e9ec6e367bde~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#F5F5D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_58f640971e9ad8a99cc7b748d65aac4d~2508x0.webp"
+            },
+            {
+              "name": "白富美",
+              "colors": [
+                "#FAFCFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22c3e1da5381e644a0593ac3d4c1f7b9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8f5cc5a5e62902a58b4544daec38f1e~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#AD4949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_314cb502ad1b6d6807ddb9cffd9f3d94~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1ad748b2a566041b344d172c48d76a9e~2508x0.webp"
         },
         {
-          "configName": "坦克300 2025款 2.0T 征服者",
+          "configName": "2025款 2.0T 征服者",
+          "configId": "241375",
+          "index": 1,
           "price": "21.68万",
-          "fuelType": "汽油",
-          "size": "4750x1930x1903",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "2.0T 227马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 227马力 L4",
+          "size": "4750x1930x1903",
+          "exteriorImages": [
+            {
+              "name": "黑凤梨",
+              "colors": [
+                "#010100"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de8758014b7798b7e01abeef1947c11e~2508x0.webp"
+            },
+            {
+              "name": "灰太浪",
+              "colors": [
+                "#858585"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0775bde71abb096736e1434c59d8a2e1~2508x0.webp"
+            },
+            {
+              "name": "心想事橙",
+              "colors": [
+                "#F2440E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b02404209bbb6c6578da4f223585da3b~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#F5F5D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18d8f76918cf3b90a7d565c4866cf746~2508x0.webp"
+            },
+            {
+              "name": "白富美",
+              "colors": [
+                "#FAFCFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f0b8dbb17fc4eda19da06dd4f346000f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b6533aca3bec3a7850ea8f7a1a85eb8~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#AD4949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01bd3d104862f7db9d6a30c3dfa34762~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/de8758014b7798b7e01abeef1947c11e~2508x0.webp"
         },
         {
-          "configName": "坦克300 2025款 2.4T 柴油版",
+          "configName": "2025款 2.4T 柴油版",
+          "configId": "241330",
+          "index": 2,
           "price": "23.48万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型SUV",
           "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
           "size": "4750x1930x1903",
+          "exteriorImages": [
+            {
+              "name": "黑凤梨",
+              "colors": [
+                "#010100"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/732b09631a98d2ed13d86ad01d87f708~2508x0.webp"
+            },
+            {
+              "name": "灰太浪",
+              "colors": [
+                "#858585"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/192a7062487bb71017c7bfca24404437~2508x0.webp"
+            },
+            {
+              "name": "心想事橙",
+              "colors": [
+                "#F2440E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb051b9d453321cff4d709cda3c2199d~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#F5F5D0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ca6e98aa7dbff48ce8eb47a7e14e770~2508x0.webp"
+            },
+            {
+              "name": "白富美",
+              "colors": [
+                "#FAFCFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba972fa5f91fc9d46b312546c4ccfa2c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b6350874e90cc0a50d1f02238efe49b~2508x0.webp"
+            },
+            {
+              "name": "黑红",
+              "colors": [
+                "#AD4949"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_785246545e7abb46c785e35c077e47f8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/732b09631a98d2ed13d86ad01d87f708~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carName": "赛博坦克300",
+      "configs": [
+        {
+          "configName": "2023款 2.0T 赛博骑士",
+          "configId": "80078",
+          "index": 0,
+          "price": "33.8万",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": ""
-        },
-        {
-          "configName": "坦克300 2024款 2.0T 挑战者",
-          "price": "19.98万",
           "fuelType": "汽油",
-          "size": "4760x1930x1903",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 227马力 L4"
-        },
-        {
-          "configName": "坦克300 2024款 2.0T 征服者",
-          "price": "21.68万",
-          "fuelType": "汽油",
-          "size": "4760x1930x1903",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": "2.0T 227马力 L4"
-        },
-        {
-          "configName": "坦克300 2024款 2.0T 穿越者",
-          "price": "22.68万",
-          "fuelType": "48V轻混系统",
-          "size": "4760x1930x1903",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": ""
-        },
-        {
-          "configName": "坦克300 2024款 330 3.0T V6",
-          "price": "33万",
-          "fuelType": "48V轻混系统",
-          "size": "4772x1970x1960",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型SUV",
-          "power": ""
+          "power": "2.0T 227马力 L4",
+          "size": "4679x1967x1958",
+          "exteriorImages": [
+            {
+              "name": "亮黑",
+              "colors": [
+                "#000014"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/340e0ed64d300243a9791ec4f19fa3a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "脉冲蓝",
+              "colors": [
+                "#0000FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96e0412a472981e3b9f9466525f681a1~2508x0.webp"
+            },
+            {
+              "name": "洛神红",
+              "colors": [
+                "#CE7676"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/161afa28e5de1e4e612a2cf365f87975~2508x0.webp"
+            },
+            {
+              "name": "冰川蓝",
+              "colors": [
+                "#D1E2DF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb283bb6adefcdf951430c0686e13916~2508x0.webp"
+            },
+            {
+              "name": "麒麟黄",
+              "colors": [
+                "#D5D583"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c48614c6372aceaa859d53930f7c1cb~2508x0.webp"
+            },
+            {
+              "name": "耀斑橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f281de1a6d681966e11ef28524cb90b1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/340e0ed64d300243a9791ec4f19fa3a2~2508x0.webp"
         }
       ]
     },
     {
       "carName": "坦克400",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a64a248bc7c64e1d90806966fe429cf8~1200x0.png",
       "configs": [
         {
-          "configName": "坦克400 2025款 2.0T 汽油版",
+          "configName": "2025款 2.0T 汽油版",
+          "configId": "239528",
+          "index": 0,
           "price": "24.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4985x1960x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 252马力 L4 48V轻混系统",
+          "size": "4985x1960x1905",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a92f6ab7746e3cf560504901e0e4b9~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#869296"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43317ab404c880c6f92028a068c1d9c1~2508x0.webp"
+            },
+            {
+              "name": "飞翼银",
+              "colors": [
+                "#C4C4C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2063d421885c17b08f1ed7628be382f1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d773b9f9775827dbda99194d53f84ac~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#901616"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd3cf0c9573d310148531628dc1aac7d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a92f6ab7746e3cf560504901e0e4b9~2508x0.webp"
         },
         {
-          "configName": "坦克400 2025款 2.4T 柴油版",
+          "configName": "2025款 2.4T 柴油版",
+          "configId": "239171",
+          "index": 1,
           "price": "26.48万",
-          "fuelType": "柴油",
-          "size": "4985x1960x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "柴油",
+          "power": "2.4T 186马力 L4",
+          "size": "4985x1960x1905",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1ea94f4f378b492519c058cad97d1f1~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#869296"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9931031a3209faa786afd18c0098ba56~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_053f7070e54d29b4f019b1554991f25b~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#901616"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b6787eea67297e07fdd37873be7cbb5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f1ea94f4f378b492519c058cad97d1f1~2508x0.webp"
         }
       ]
     },
     {
       "carName": "坦克400 Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/30816d7b81bf4815b53dcd24631a07df~1200x0.png",
       "configs": [
         {
-          "configName": "坦克400 Hi4-T 2024款 越野版",
+          "configName": "2024款 越野版",
+          "configId": "99480",
+          "index": 0,
           "price": "28.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4985x1960x1900",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混合动力 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "4985x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0c3a18ebd6ff5a0341549df4366e3ba~2508x0.webp"
+            },
+            {
+              "name": "流光绿",
+              "colors": [
+                "#657965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47d4fa0a7f9e2e0e78c38e829c5a0779~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#869296"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d9682466c3f81ddeefed6178026a5cd~2508x0.webp"
+            },
+            {
+              "name": "飞翼银",
+              "colors": [
+                "#C4C4C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1610c1a29f113726c7edab3b85a0881a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f02ab1bcab3e1f783f364f1e7914359~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fd5024264ba53b02d9fc4fa04fc0f5a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d0c3a18ebd6ff5a0341549df4366e3ba~2508x0.webp"
         },
         {
-          "configName": "坦克400 Hi4-T 2024款 城市版",
+          "configName": "2024款 城市版",
+          "configId": "99481",
+          "index": 1,
           "price": "28.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4985x1960x1900",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混合动力 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "4985x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "幻夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e23d2fee98f9bfb6d2cd28c48aebcd1~2508x0.webp"
+            },
+            {
+              "name": "流光绿",
+              "colors": [
+                "#657965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/981843e5a62931a1a1ef357716a163fb~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#869296"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f8afbb720ec0b50267fba2550f4a450~2508x0.webp"
+            },
+            {
+              "name": "飞翼银",
+              "colors": [
+                "#C4C4C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7b7cb9ba84e5fba181e20f240bc38221~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/daad49e87418b12605f312373ed8ceff~2508x0.webp"
+            },
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb3d49ae5fde7f037fe02ef766f6fd19~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7e23d2fee98f9bfb6d2cd28c48aebcd1~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "坦克500 Hi4-Z",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/57bbe651b5884206afaf429e6099f4c2~1200x0.png",
+      "carName": "坦克500 Hi4-T",
       "configs": [
         {
-          "configName": "坦克500 Hi4-Z 2025款 500 Hi4-Z",
-          "price": "36.38万",
-          "fuelType": "插电式混合动力",
-          "size": "5078x1934x1905",
+          "configName": "2026款 2.0T Hi4-T标准版",
+          "configId": "249996",
+          "index": 0,
+          "price": "33.5万",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混合动力 619马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_33381c9327363812359a53ee1cdcc021~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f91b6652999c579ecd270c2a7af2653f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#8393AD",
+                "#EFEBE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8c5726285353e2cfd478e7d665a015a1~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e5d562b9f1b6ffd477349ae985e609ff~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_33381c9327363812359a53ee1cdcc021~2508x0.webp"
         },
         {
-          "configName": "坦克500 Hi4-Z 2025款 500 Hi4-Z 一定红",
-          "price": "36.38万",
-          "fuelType": "插电式混合动力",
-          "size": "5078x1934x1905",
+          "configName": "2026款 2.0T Hi4-T智享版",
+          "configId": "250108",
+          "index": 1,
+          "price": "35.5万",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混合动力 619马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf0a262eb2ad28d3907531d7ff8a535b~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2a8f183f2043cddd37fdae57acc8bb7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#8393AD",
+                "#EFEBE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95c7901abc8dc04eaca66a2f53d34a8a~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_744dc2555ff6be104721bca1c83a65c5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf0a262eb2ad28d3907531d7ff8a535b~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0T Hi4-T",
+          "configId": "99378",
+          "index": 2,
+          "price": "33.5万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99c69541342d7c4caa103dd3b03df345~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c5cec2d958b46e205749e0df22da52e~2508x0.webp"
+            },
+            {
+              "name": "帕米尔银",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec5ec58f9a9ab84319e066794526d71b~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d10c991f7e00af2724475fce4d51a19b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf1d479c633df71ca65dd4fb024fb1f2~2508x0.webp"
+            },
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#8393AD",
+                "#EFEBE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67bcd404d2013ef692a0e277788a2ebd~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44af37fd5700f56725d8a79458d45e88~2508x0.webp"
+            },
+            {
+              "name": "浅棕",
+              "colors": [
+                "#B6A682"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3640094314d58daad3ae79228d85b56~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/99c69541342d7c4caa103dd3b03df345~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0T Hi4-T 黑武士",
+          "configId": "240131",
+          "index": 3,
+          "price": "34.5万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "黑武士",
+              "colors": [
+                "#030303"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89e42ae6f7fd2c17fa502644f5386c6b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46bc2611847ed8291735cfe344b2a442~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/89e42ae6f7fd2c17fa502644f5386c6b~2508x0.webp"
         }
       ]
     },
     {
       "carName": "坦克500",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6772cda1ca924fb39535f868fd7fc11c~1200x0.png",
       "configs": [
         {
-          "configName": "坦克500 2023款 运动版 登峰 5座",
-          "price": "33.5万",
-          "fuelType": "48V轻混系统",
-          "size": "5070x1934x1905",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": ""
-        },
-        {
-          "configName": "坦克500 2023款 运动版 登峰 7座",
-          "price": "34.3万",
-          "fuelType": "48V轻混系统",
-          "size": "5070x1934x1905",
-          "manufacturer": "长城汽车",
-          "class": "中大型SUV",
-          "power": ""
-        },
-        {
-          "configName": "坦克500 2023款 运动版 造境 5座",
+          "configName": "2026款 3.0T 造境 5座版",
+          "configId": "251123",
+          "index": 0,
           "price": "35.5万",
-          "fuelType": "48V轻混系统",
-          "size": "5070x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "5070x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a80f8a0bbbc7157434dcf0c3b9b4a997~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d1721f7250a424f1dfbf25fefda1741~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a80f8a0bbbc7157434dcf0c3b9b4a997~2508x0.webp"
         },
         {
-          "configName": "坦克500 2023款 运动版 造境 7座",
+          "configName": "2026款 3.0T 造境 7座版",
+          "configId": "251124",
+          "index": 1,
           "price": "36.3万",
-          "fuelType": "48V轻混系统",
-          "size": "5070x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "5070x1934x1905",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "坦克500 2023款 商务版 登峰 5座",
+          "configName": "2023款 运动版 登峰 5座",
+          "configId": "87981",
+          "index": 2,
           "price": "33.5万",
-          "fuelType": "48V轻混系统",
-          "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "5070x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/42a70728b6d2e02889845cc0f5797a10~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc1623e117b8e956ce04f4dd4f74c59b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/42a70728b6d2e02889845cc0f5797a10~2508x0.webp"
         },
         {
-          "configName": "坦克500 2023款 商务版 登峰 7座",
+          "configName": "2023款 运动版 登峰 7座",
+          "configId": "87982",
+          "index": 3,
           "price": "34.3万",
-          "fuelType": "48V轻混系统",
-          "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "5070x1934x1905",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "坦克500 2023款 商务版 造境 5座",
+          "configName": "2023款 运动版 造境 5座",
+          "configId": "87983",
+          "index": 4,
           "price": "35.5万",
-          "fuelType": "48V轻混系统",
-          "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "5070x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f4b8114344464412b42863cd549c5e5~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2634c1cec9c9ba5d73f03e3eab6d92e~2508x0.webp"
+            },
+            {
+              "name": "帕米尔银",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18b3b0901731be1aeca333a99a3a3f07~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2228b815976f90454ff59bb02198523~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31347bd8da5c195e84df2aa3d7e6c083~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82911322e396d25fe64d0e16dbabbd20~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0f4b8114344464412b42863cd549c5e5~2508x0.webp"
         },
         {
-          "configName": "坦克500 2023款 商务版 造境 7座",
+          "configName": "2023款 运动版 造境 7座",
+          "configId": "87984",
+          "index": 5,
           "price": "36.3万",
-          "fuelType": "48V轻混系统",
-          "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "5070x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/101f8cef9055b75eaf7f00023458ec89~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/398cb5b5814a950f14572f42fe1f6255~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/101f8cef9055b75eaf7f00023458ec89~2508x0.webp"
         },
         {
-          "configName": "坦克500 2023款 定制版 5座",
+          "configName": "2023款 商务版 登峰 5座",
+          "configId": "87976",
+          "index": 6,
+          "price": "33.5万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "4878x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec75d03d02eb145407eeaa75f891a4eb~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2da224a62bee684fd4e2b17f26670d02~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82125e3304b9456ff8a47221c72076e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/882019b120e6f94547e8ae47d0a7a3fc~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c489fb9f60eb2c8f59c8d349a997d12~2508x0.webp"
+            },
+            {
+              "name": "浅棕",
+              "colors": [
+                "#B6A682"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/711ee4bbccb01cb4563e6c5343563dea~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec75d03d02eb145407eeaa75f891a4eb~2508x0.webp"
+        },
+        {
+          "configName": "2023款 商务版 登峰 7座",
+          "configId": "87977",
+          "index": 7,
+          "price": "34.3万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "4878x1934x1905",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 商务版 造境 5座",
+          "configId": "87979",
+          "index": 8,
+          "price": "35.5万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "4878x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5714c894d286db1dd63ed822724a7d50~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25ae87130cd824eea4c78c0a3cff2e70~2508x0.webp"
+            },
+            {
+              "name": "帕米尔银",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89e5795be00328dd25a6f3e3b21b41d3~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01f5343f569f43549f9a49bd4bbae184~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e7b969c54d4ed7e437b1356be56adb55~2508x0.webp"
+            },
+            {
+              "name": "蓝色/米色",
+              "colors": [
+                "#8393AD",
+                "#EFEBE8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c516c331f6cec05a30621ca08887e8d5~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb9b1536e27762f39335d46b5d802349~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5714c894d286db1dd63ed822724a7d50~2508x0.webp"
+        },
+        {
+          "configName": "2023款 商务版 造境 7座",
+          "configId": "87980",
+          "index": 9,
+          "price": "36.3万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "4878x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b11c20480b6fa7623be7f3b750aa99a~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9d3bde32e5819f3b200fd7c4162e816~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "浅棕",
+              "colors": [
+                "#B6A682"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a64df9cc59e709d26c8248839d22acc3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2b11c20480b6fa7623be7f3b750aa99a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 定制版 5座",
+          "configId": "87985",
+          "index": 10,
           "price": "39.5万",
-          "fuelType": "48V轻混系统",
-          "size": "4878x1934x1905",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "3.0T 360马力 V6 48V轻混",
+          "size": "4878x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "红色/昆仑金",
+              "colors": [
+                "#78313D",
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa4231c97f71e2a0d591b397bfa8fe79~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑棕",
+              "colors": [
+                "#A57111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c23536f4ab50648b52445cea0344ef1b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa4231c97f71e2a0d591b397bfa8fe79~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carName": "坦克500 Hi4-Z",
+      "configs": [
+        {
+          "configName": "2026款 500 Hi4-Z智享版",
+          "configId": "249997",
+          "index": 0,
+          "price": "37.5万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c07b39698a3c14da1071daa0626ac29~2508x0.webp"
+            },
+            {
+              "name": "敦煌绿",
+              "colors": [
+                "#158651"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d65792661cad8de21c3705dafb46e798~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dcfeea4abb538f194b194bccf0d63b78~2508x0.webp"
+            },
+            {
+              "name": "帕米尔银",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_474c9b8e62b78519739d6abbe67191f4~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cbaadd367ab747d3b3d83fd93b56a186~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_24596155c2f0d69a953c644f7dd19ea5~2508x0.webp"
+            },
+            {
+              "name": "蓝米",
+              "colors": [
+                "#8393AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_caa6e1595cf46de142022da348d10a9b~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_14882d10ceff7d1ba89eae0adf87dfe6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c07b39698a3c14da1071daa0626ac29~2508x0.webp"
+        },
+        {
+          "configName": "2025款 500 Hi4-Z",
+          "configId": "100384",
+          "index": 1,
+          "price": "36.38万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "墨石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bb1571a20f174c025d69e45a739233c~2508x0.webp"
+            },
+            {
+              "name": "昆仑金",
+              "colors": [
+                "#BFBFBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e76293361b3c07fa11a05e1f45072fdb~2508x0.webp"
+            },
+            {
+              "name": "帕米尔银",
+              "colors": [
+                "#D7D7D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/000b18f57889503751459e27030ca754~2508x0.webp"
+            },
+            {
+              "name": "珠峰白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5530d1e36c27ab6de1cd6a503dacff2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb2680e8778de9a41994c51a6e8f9d05~2508x0.webp"
+            },
+            {
+              "name": "蓝米",
+              "colors": [
+                "#8393AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4e9f66b1533da4f64ee71233e720b475~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de4facbf531717c85d1728452028f786~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9bb1571a20f174c025d69e45a739233c~2508x0.webp"
+        },
+        {
+          "configName": "2025款 500 Hi4-Z 一定红",
+          "configId": "244091",
+          "index": 2,
+          "price": "36.38万",
+          "manufacturer": "长城汽车",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 252马力 L4 插电式混动",
+          "size": "5078x1934x1905",
+          "exteriorImages": [
+            {
+              "name": "一定红",
+              "colors": [
+                "#C41111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d77a5fc876b1cc3efa18e54531e2aa03~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝米",
+              "colors": [
+                "#8393AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c3fd2d950ab16ad26814126bb5b4fee~2508x0.webp"
+            },
+            {
+              "name": "双棕",
+              "colors": [
+                "#A57112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5152c9d66af4ccd5b671df1db4d9b2d5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d77a5fc876b1cc3efa18e54531e2aa03~2508x0.webp"
         }
       ]
     },
     {
       "carName": "坦克700 Hi4-T",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dc6c74ee8115447eb4150cfcda1b7f4a~1200x0.png",
       "configs": [
         {
-          "configName": "坦克700 Hi4-T 2024款 极致版",
+          "configName": "2024款 极致版",
+          "configId": "97910",
+          "index": 0,
           "price": "42.8万",
-          "fuelType": "插电式混合动力",
-          "size": "5090x2061x1952",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混动 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 360马力 V6 插电式混动",
+          "size": "5090x2061x1952",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d1922093ee897e8ccba1e2dcc29fe24~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#DBDBE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37816b97f70b9234118bba6bd05e6df5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深咖",
+              "colors": [
+                "#917C6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d457e7eba3238ac4869a8aab2c6c03a~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#DD976A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6cd457fc607cbdb8170741939c2da025~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3d1922093ee897e8ccba1e2dcc29fe24~2508x0.webp"
         },
         {
-          "configName": "坦克700 Hi4-T 2024款 极境版",
+          "configName": "2024款 极境版",
+          "configId": "96635",
+          "index": 1,
           "price": "46.8万",
-          "fuelType": "插电式混合动力",
-          "size": "5090x2061x1952",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混动 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 360马力 V6 插电式混动",
+          "size": "5090x2061x1952",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/370b7d8567457b29338006e8c634d7ed~2508x0.webp"
+            },
+            {
+              "name": "陨石灰",
+              "colors": [
+                "#6C7E91"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59378381974ab329591c521609c24290~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#DBDBE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/408ead4a084230e914e4b241f06fdd96~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "酒红色",
+              "colors": [
+                "#915F5F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25c2514a548a88eef287fb4993b3fc22~2508x0.webp"
+            },
+            {
+              "name": "深咖",
+              "colors": [
+                "#917C6F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4538b1dc2382bfc08addabc6c590155f~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#DD976A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ee26ef1874957e3091544bc48f0dc27~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/370b7d8567457b29338006e8c634d7ed~2508x0.webp"
         },
         {
-          "configName": "坦克700 Hi4-T 2024款 首发限定版",
+          "configName": "2024款 首发限定版",
+          "configId": "95835",
+          "index": 2,
           "price": "70万",
-          "fuelType": "插电式混合动力",
-          "size": "5110x2122x1986",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混动 163马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 360马力 V6 插电式混动",
+          "size": "5110x2122x1986",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#000002"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d1258d2fe60427f73fc8d6f15aa1a08~2508x0.webp"
+            },
+            {
+              "name": "锻灰",
+              "colors": [
+                "#CAD5CA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/cfe0e5b7b39942d3d1fc21009536b74c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b97af43cf2b6b47e437b4f2cf4900b42~2508x0.webp"
+            },
+            {
+              "name": "酒红色",
+              "colors": [
+                "#915F5F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/555ccf1339eb0f73b5e4f6e419c1db46~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4d1258d2fe60427f73fc8d6f15aa1a08~2508x0.webp"
         }
       ]
     }

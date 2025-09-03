@@ -3,52 +3,220 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/f60054392213a036e2df0a462676f86a~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 4831,
       "carName": "迈凯伦Artura",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/56c7073c4f224c80b51f8756f40c2dd4~1200x0.png",
       "configs": [
         {
-          "configName": "迈凯伦Artura 2025款 3.0T Coupe",
+          "configName": "2025款 3.0T Coupe",
+          "configId": "98423",
+          "index": 0,
           "price": "248.8万",
-          "fuelType": "插电式混合动力",
-          "size": "4539x1913x1193",
           "manufacturer": "迈凯伦",
           "class": "跑车",
-          "power": "插电式混动 95马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 585马力 V6 插电式混动",
+          "size": "4539x1913x1193",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "迈凯伦Artura 2025款 3.0T Spider",
+          "configName": "2025款 3.0T Spider",
+          "configId": "98421",
+          "index": 1,
           "price": "278.8万",
-          "fuelType": "插电式混合动力",
-          "size": "4539x1913x1193",
           "manufacturer": "迈凯伦",
           "class": "跑车",
-          "power": "插电式混动 95马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 585马力 V6 插电式混动",
+          "size": "4539x1913x1193",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "迈凯伦Artura 2023款 3.0T PHEV 标准型",
+          "configName": "2023款 3.0T PHEV 标准型",
+          "configId": "76388",
+          "index": 2,
           "price": "238万",
-          "fuelType": "插电式混合动力",
-          "size": "4539x1913x1193",
           "manufacturer": "迈凯伦",
           "class": "跑车",
-          "power": "插电式混动 95马力"
+          "fuelType": "插电式混合动力",
+          "power": "3.0T 585马力 V6 插电式混动",
+          "size": "4539x1913x1193",
+          "exteriorImages": [
+            {
+              "name": "VEGA BLUE",
+              "colors": [
+                "#0505F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec804fd6b1f006ef6f1a145ba0590fae~2508x0.webp"
+            },
+            {
+              "name": "SERPENTINE",
+              "colors": [
+                "#455D62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/991a1711bbb740d61049ab328ff6aec6~2508x0.webp"
+            },
+            {
+              "name": "AMARANTH RED",
+              "colors": [
+                "#670A20"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b86aa2f5f57ae0584ad33279c77fb85f~2508x0.webp"
+            },
+            {
+              "name": "Flux Green",
+              "colors": [
+                "#6C6F1F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/308214e9fcf610be9e072ec470b790ce~2508x0.webp"
+            },
+            {
+              "name": "Anthracite",
+              "colors": [
+                "#B5B5B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c157bc513ad902a06e34ebb32dacbf2a~2508x0.webp"
+            },
+            {
+              "name": "HELIOS ORANGE",
+              "colors": [
+                "#C2531D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f3a6e48b7038b8d316533183ea106b1~2508x0.webp"
+            },
+            {
+              "name": "HELIOS ORANGE/Black",
+              "colors": [
+                "#C2531D",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e33a2fd45984a1d18312fb38cb949c9d~2508x0.webp"
+            },
+            {
+              "name": "MCLAREN ORANGE",
+              "colors": [
+                "#FF8B0D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad7542b308986bb7e3622b8463ac6262~2508x0.webp"
+            },
+            {
+              "name": "ICE SILVER",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ff6dbc80ba54d438e56b2e407b08d9e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "Black",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe3d68f8863ef5863e0d1df1ff212ce5~2508x0.webp"
+            },
+            {
+              "name": "Harissa Red/Black",
+              "colors": [
+                "#AE3434",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34e1358536b741529d2c84af71c2f2e7~2508x0.webp"
+            },
+            {
+              "name": "TechLux-Mojave Tan/Black&TealAccent",
+              "colors": [
+                "#E5DEC6",
+                "#9BA9A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83028fef3b7eb5a2599d5d5ea17cb269~2508x0.webp"
+            },
+            {
+              "name": "纳帕米白",
+              "colors": [
+                "#F7F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d7634cf7f25057e5efc98e0381d77042~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec804fd6b1f006ef6f1a145ba0590fae~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 3758,
       "carName": "迈凯伦GT",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33c6d9fc20a56c635146361d23e715ee~1200x0.png",
       "configs": [
         {
-          "configName": "迈凯伦GT 2023款 4.0T 标准型",
+          "configName": "2023款 4.0T 标准型",
+          "configId": "76389",
+          "index": 0,
           "price": "208.8万",
-          "fuelType": "汽油",
-          "size": "4683x2045x1213",
           "manufacturer": "迈凯伦",
           "class": "跑车",
-          "power": "4.0T 620马力 V8"
+          "fuelType": "汽油",
+          "power": "4.0T 620马力 V8",
+          "size": "4683x2045x1213",
+          "exteriorImages": [
+            {
+              "name": "Tokyo Cyan",
+              "colors": [
+                "#2CA195"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80ac278b7d30c003d85256cc9e6394a3~2508x0.webp"
+            },
+            {
+              "name": "SERPENTINE",
+              "colors": [
+                "#455D62"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51cf6c068e6c96925f1eb7b1e61f0431~2508x0.webp"
+            },
+            {
+              "name": "VERMILLION RED",
+              "colors": [
+                "#52030E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1041df102bba0f4bd84796494e90a0cd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/290e057679e9c757cfdda3bad7a070a9~2508x0.webp"
+            },
+            {
+              "name": "马鞍棕",
+              "colors": [
+                "#C1A510"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e843c47f95d654af07e5bdfce9194b8~2508x0.webp"
+            },
+            {
+              "name": "米色/蓝色",
+              "colors": [
+                "#E4E4C9",
+                "#02285D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d8d4702b692708cb3b6efafe7e24353~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/80ac278b7d30c003d85256cc9e6394a3~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T07:01:10.549Z",
+  "progress": {
+    "completed": 2,
+    "total": 2,
+    "percentage": 100,
+    "currentIndex": 2
+  }
 }

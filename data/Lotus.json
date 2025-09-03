@@ -3,289 +3,1152 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/46343be41125443aac7d0faa9be02eda~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 9275,
       "carName": "Emeya",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/efdaff1491b5410b8f7016776ec0a641~1200x0.png",
       "configs": [
         {
-          "configName": "Emeya 2025款 600 旅行版",
+          "configName": "2025款 600 旅行版",
+          "configId": "245231",
+          "index": 0,
           "price": "52.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1459",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1459",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f790898c4f33a8ca41c3e9b8abe4c2bc~2508x0.webp"
+            }
+          ],
+          "configImage": ""
         },
         {
-          "configName": "Emeya 2025款 600 豪华版",
+          "configName": "2025款 600 豪华版",
+          "configId": "245077",
+          "index": 1,
           "price": "56.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef4fbc3c712cdbaecaa1dc97c707be7d~2508x0.webp"
+            },
+            {
+              "name": "凯姆灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b4b7dfa19ef1873b62b6977fff3cba10~2508x0.webp"
+            },
+            {
+              "name": "极光灰",
+              "colors": [
+                "#D8DCDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94dfdbba0ae862d9447b64d1d66bfefa~2508x0.webp"
+            },
+            {
+              "name": "银月白",
+              "colors": [
+                "#E6E9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06d4aa2e1ccb11bd74d6a48832a0095f~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b4d40a7ef1d72089e1b4abb157953079~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8a64a02818b377c1613abed2d753449~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_52c3a53c49bbe9d34f7280bc8572be52~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef4fbc3c712cdbaecaa1dc97c707be7d~2508x0.webp"
         },
         {
-          "configName": "Emeya 2025款 首发限量版",
+          "configName": "2025款 首发限量版",
+          "configId": "245235",
+          "index": 2,
           "price": "58.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dd3a1e4ab632eb6912d9e20c956b3cb7~2508x0.webp"
+            },
+            {
+              "name": "银月白",
+              "colors": [
+                "#E6E9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_115b7317ed9f93bb82836c5974a832cc~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_400990fe6ead15ca0f424e0f60db8919~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c55e769532777f98c23ab0371bef3c02~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8c182207c4986251359edf421121e6f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dd3a1e4ab632eb6912d9e20c956b3cb7~2508x0.webp"
         },
         {
-          "configName": "Emeya 2025款 600 行政版",
+          "configName": "2025款 600 行政版",
+          "configId": "245232",
+          "index": 3,
           "price": "70.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Emeya 2025款 900 性能版",
+          "configName": "2025款 900 性能版",
+          "configId": "245233",
+          "index": 4,
           "price": "80.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Emeya 2025款 900 行政版",
+          "configName": "2025款 900 行政版",
+          "configId": "245234",
+          "index": 5,
           "price": "100.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1467",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Emeya 2024款 Emeya L+",
+          "configName": "2024款 Emeya L+",
+          "configId": "93675",
+          "index": 6,
           "price": "66.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1459",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1459",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72e14e6610f3ec851bd9e50a15a77d06~2508x0.webp"
+            },
+            {
+              "name": "极光灰",
+              "colors": [
+                "#D8DCDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17034a7fc2ea45d6a9aea61dbf159387~2508x0.webp"
+            },
+            {
+              "name": "绯花橙",
+              "colors": [
+                "#F55229"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56a64771b829974f8ece358f5826f40f~2508x0.webp"
+            },
+            {
+              "name": "欧卡娅白",
+              "colors": [
+                "#FAFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63a49374335b9709d4f034931817cd27~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e7ec98ff0ca96f3170057f82fa167645~2508x0.webp"
+            },
+            {
+              "name": "玛瑙",
+              "colors": [
+                "#FF9A67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb2276afbca11a8c7d7dd1c5bfdc6d2a~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79e8b6e8792e8f15ed268870f8e94ceb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/72e14e6610f3ec851bd9e50a15a77d06~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya L+ 6活塞卡钳白金版",
+          "configName": "2024款 Emeya L+ 6活塞卡钳白金版",
+          "configId": "240057",
+          "index": 7,
           "price": "69.8万",
+          "manufacturer": "路特斯",
+          "class": "大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 612马力",
           "size": "5139x2005x1459",
-          "manufacturer": "路特斯",
-          "class": "大型车",
-          "power": "纯电动 612马力"
+          "exteriorImages": [
+            {
+              "name": "欧卡娅白",
+              "colors": [
+                "#FAFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18cf1c8bccc1bc32d064916ba6e6465a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9b6453c54a71d940f1afba972d96bd0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/18cf1c8bccc1bc32d064916ba6e6465a~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya S+",
+          "configName": "2024款 Emeya S+",
+          "configId": "97502",
+          "index": 8,
           "price": "76.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5ab286acad81d3a86213ea88cf7daf5~2508x0.webp"
+            },
+            {
+              "name": "极光灰",
+              "colors": [
+                "#D8DCDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a5710298cae2d1faff31a9fa481c783~2508x0.webp"
+            },
+            {
+              "name": "绯花橙",
+              "colors": [
+                "#F55229"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b68bb7a653ce231095bb94288b83884e~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64bae45a4a42303a373450ecb997dd11~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d8d87a6da63badc0f9ebd1830a4f42eb~2508x0.webp"
+            },
+            {
+              "name": "烟晶",
+              "colors": [
+                "#A69579"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/9f461e34e04020c287f3fcf44e0cd2bf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "玛瑙",
+              "colors": [
+                "#FF9A67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ac941e6336708286627c47412cff09b~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/cbf2873f7e9e1f4a5879625a345ccb72~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b5ab286acad81d3a86213ea88cf7daf5~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya S+ 6活塞卡钳白金版",
+          "configName": "2024款 Emeya S+ 6活塞卡钳白金版",
+          "configId": "240058",
+          "index": 9,
           "price": "78.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [
+            {
+              "name": "欧卡娅白",
+              "colors": [
+                "#FAFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94f3a4e2e5725aa24f206f6484de5779~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fe3e3048cbb8e0777dbb41bca4b7331~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/94f3a4e2e5725aa24f206f6484de5779~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya S+ 10活塞卡钳白金版",
+          "configName": "2024款 Emeya S+ 10活塞卡钳白金版",
+          "configId": "240060",
+          "index": 10,
           "price": "86.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [
+            {
+              "name": "欧卡娅白",
+              "colors": [
+                "#FAFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1925f12d2034484be8e10ed5e5dfc12d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2bf64b497830f97657f6dbcbbbde5af9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1925f12d2034484be8e10ed5e5dfc12d~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya R+",
+          "configName": "2024款 Emeya R+",
+          "configId": "97503",
+          "index": 11,
           "price": "96.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [
+            {
+              "name": "极光灰",
+              "colors": [
+                "#D8DCDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11e70ae05b9167573f549743ac2d078f~2508x0.webp"
+            },
+            {
+              "name": "绯花橙",
+              "colors": [
+                "#F55229"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/b5efcb576da57c49da467fbf45f0cee4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f00b87dd3b42a3fdcc7a493fb0d81cd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfb3ccb20df668f36d72aee8029c10fb~2508x0.webp"
+            },
+            {
+              "name": "烟晶",
+              "colors": [
+                "#A69579"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5019c2d081b29f9ee1439240eb2cc3f6~2508x0.webp"
+            },
+            {
+              "name": "玛瑙",
+              "colors": [
+                "#FF9A67"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/555b2a839bc20b5ba1826975e9fd901e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/11e70ae05b9167573f549743ac2d078f~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya R+10活塞卡钳白金版",
+          "configName": "2024款 Emeya R+10活塞卡钳白金版",
+          "configId": "240061",
+          "index": 12,
           "price": "106.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1464",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1464",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Emeya 2024款 Emeya R+暗黑版",
+          "configName": "2024款 Emeya R+暗黑版",
+          "configId": "240055",
+          "index": 13,
           "price": "108万",
+          "manufacturer": "路特斯",
+          "class": "大型车",
           "fuelType": "纯电动",
+          "power": "纯电动 918马力",
           "size": "5139x2005x1464",
-          "manufacturer": "路特斯",
-          "class": "大型车",
-          "power": "纯电动 918马力"
+          "exteriorImages": [
+            {
+              "name": "哑光星尘黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f4ab22aaf13934925dae3410e237b326~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#7E7E7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5eedb1b0ccc7ba4d81189e6af1670884~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f4ab22aaf13934925dae3410e237b326~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya R+黑金版",
+          "configName": "2024款 Emeya R+黑金版",
+          "configId": "93026",
+          "index": 14,
           "price": "118万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1467",
+          "exteriorImages": [
+            {
+              "name": "哑光星尘黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28d8f2a376b65d7b7114809662ae8561~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑金",
+              "colors": [
+                "#000024"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6228b0d1df86996d6e17a9e85aed57a9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/28d8f2a376b65d7b7114809662ae8561~2508x0.webp"
         },
         {
-          "configName": "Emeya 2024款 Emeya TYPE79 高级定制版",
+          "configName": "2024款 Emeya TYPE79 高级定制版",
+          "configId": "100854",
+          "index": 15,
           "price": "130.88万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1467",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Emeya 2024款 高级定制限量版",
+          "configName": "2024款 高级定制限量版",
+          "configId": "100424",
+          "index": 16,
           "price": "136.8万",
-          "fuelType": "纯电动",
-          "size": "5139x2005x1467",
           "manufacturer": "路特斯",
           "class": "大型车",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5139x2005x1467",
+          "exteriorImages": [
+            {
+              "name": "春日星叶",
+              "colors": [
+                "#44792C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/697f2023de080e9c4a8e31f5e59e715c~2508x0.webp"
+            },
+            {
+              "name": "繁花绽放",
+              "colors": [
+                "#A53181"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16f2303ad66765dba1008c62ca5b1e23~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "繁花绽放",
+              "colors": [
+                "#9D6B8D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36acd18872a3931fcd8f7c5b23057bcc~2508x0.webp"
+            },
+            {
+              "name": "浅蓝/灰",
+              "colors": [
+                "#ACC7DA",
+                "#9CA9B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/392e8c5f04dbe2551978a3eeea99f72e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/697f2023de080e9c4a8e31f5e59e715c~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "Evija",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b341bc5efb356996440031c148d3f4be~1200x0.png",
-      "configs": [
-        {
-          "configName": "Evija 2024款 FITTIPALDI 高级定制限量版",
-          "price": "2688万",
-          "fuelType": "",
-          "size": "",
-          "manufacturer": "",
-          "class": "",
-          "power": ""
-        }
-      ]
-    },
-    {
+      "carId": 5825,
       "carName": "Eletre",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e2a6a5d3b0204729a7579547e2324713~1200x0.png",
       "configs": [
         {
-          "configName": "Eletre 2025款 600 旅行版",
+          "configName": "2025款 600 旅行版",
+          "configId": "245236",
+          "index": 0,
           "price": "54.8万",
+          "manufacturer": "路特斯",
+          "class": "中大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 612马力",
           "size": "5103x2019x1630",
-          "manufacturer": "路特斯",
-          "class": "中大型SUV",
-          "power": "纯电动 612马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Eletre 2025款 600 豪华版",
+          "configName": "2025款 600 豪华版",
+          "configId": "245078",
+          "index": 1,
           "price": "58.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f94c9f217fbc50508925d9c570767596~2508x0.webp"
+            },
+            {
+              "name": "银月白",
+              "colors": [
+                "#E6E9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d084d0868e0f0fcc9771c2513ddc6d9f~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf4193a7cb868352ed131160758794e5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碧玺",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a72d7301af1e51c23ba890be4a851eb8~2508x0.webp"
+            },
+            {
+              "name": "月石",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed092e91e9c4fbef75d9020d7242095d~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc2599c9fa31e6447dfca97a752c603d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f94c9f217fbc50508925d9c570767596~2508x0.webp"
         },
         {
-          "configName": "Eletre 2025款 首发限量版",
+          "configName": "2025款 首发限量版",
+          "configId": "245241",
+          "index": 2,
           "price": "60.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3bf2d61554c845e8c01aecda8ffea2e8~2508x0.webp"
+            },
+            {
+              "name": "银月白",
+              "colors": [
+                "#E6E9E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_465ffcf539519dfd982a55e7d817c067~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe66e3fc12ad2b87ff22b3fd7fb73543~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月石",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b1585ff2209605755f83585efab307b~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d7f62dfc3d71a3161fa63033aaea215~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3bf2d61554c845e8c01aecda8ffea2e8~2508x0.webp"
         },
         {
-          "configName": "Eletre 2025款 600 行政版",
+          "configName": "2025款 600 行政版",
+          "configId": "245237",
+          "index": 3,
           "price": "71.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Eletre 2025款 900 性能版",
+          "configName": "2025款 900 性能版",
+          "configId": "245238",
+          "index": 4,
           "price": "81.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Eletre 2025款 900 行政版",
+          "configName": "2025款 900 行政版",
+          "configId": "245239",
+          "index": 5,
           "price": "101.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Eletre 2024款 Eletre L+",
+          "configName": "2024款 Eletre L+",
+          "configId": "97513",
+          "index": 6,
           "price": "72.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4523654e34eb94021adf94c7900b6a7e~2508x0.webp"
+            },
+            {
+              "name": "加洛韦绿",
+              "colors": [
+                "#297962"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baa4a04c70b38a4b783268e3fe39fb3a~2508x0.webp"
+            },
+            {
+              "name": "纳特隆红",
+              "colors": [
+                "#C31E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/636ba2475b8d78212b89ed50d2687612~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6340b63fd959592090507f928646fad~2508x0.webp"
+            },
+            {
+              "name": "花绽灰",
+              "colors": [
+                "#FAF3F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94f62edee3320e392efbec981c346d22~2508x0.webp"
+            },
+            {
+              "name": "欧卡娅白",
+              "colors": [
+                "#FAFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e1c7c183641a1628f00d74622d27a83~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碧玺",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/deacb04086a9f0a42f10b92fbd2bb3ac~2508x0.webp"
+            },
+            {
+              "name": "松石",
+              "colors": [
+                "#42B896"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23b3af900b3e308175dd6b42975cc7fe~2508x0.webp"
+            },
+            {
+              "name": "月石",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/587863ca096ae69026aeaef9ff3c7854~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4523654e34eb94021adf94c7900b6a7e~2508x0.webp"
         },
         {
-          "configName": "Eletre 2024款 Eletre TYPE79 高级定制版",
+          "configName": "2024款 Eletre TYPE79 高级定制版",
+          "configId": "100851",
+          "index": 7,
           "price": "123.88万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Eletre 2023款 Eletre S+",
+          "configName": "2023款 Eletre S+",
+          "configId": "71921",
+          "index": 8,
           "price": "82.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 612马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 612马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0b7743495c913853c7e20cc9112c859~2508x0.webp"
+            },
+            {
+              "name": "加洛韦绿",
+              "colors": [
+                "#297962"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d727d1ada868e8cdbd5d6d27fe56c59~2508x0.webp"
+            },
+            {
+              "name": "纳特隆红",
+              "colors": [
+                "#C31E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d5aaac1a9ba1436f96ef92168e28ce7~2508x0.webp"
+            },
+            {
+              "name": "凯姆灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c9e57679ca1afe143467c22ed447dde~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97977b79a0b0b7d6d0f80c11a2a6ca58~2508x0.webp"
+            },
+            {
+              "name": "花绽灰",
+              "colors": [
+                "#FAF3F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/12077829f0b0f57e7fa175b30164f365~2508x0.webp"
+            },
+            {
+              "name": "欧卡娅白",
+              "colors": [
+                "#FAFAFA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f53bf2091ff778d14e7385ad03090001~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碧玺",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99010e2e4cd50cfe4fe46aa1494b49aa~2508x0.webp"
+            },
+            {
+              "name": "松石",
+              "colors": [
+                "#42B896"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da890fea45579a1b4c77ac5cbafd68cf~2508x0.webp"
+            },
+            {
+              "name": "烟晶",
+              "colors": [
+                "#A69579"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c50f712d152dcad2a439022dc7faf2c6~2508x0.webp"
+            },
+            {
+              "name": "月石",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6d641fcf76b863fe42e5d425b9db13fe~2508x0.webp"
+            },
+            {
+              "name": "红翡",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0522704c07fe9a2cc2704b50413da3d2~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33bff9f3d771f4dcb0be1862267fb459~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d0b7743495c913853c7e20cc9112c859~2508x0.webp"
         },
         {
-          "configName": "Eletre 2023款 Eletre R+",
+          "configName": "2023款 Eletre R+",
+          "configId": "74779",
+          "index": 9,
           "price": "102.8万",
-          "fuelType": "纯电动",
-          "size": "5103x2019x1636",
           "manufacturer": "路特斯",
           "class": "中大型SUV",
-          "power": "纯电动 918马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 918马力",
+          "size": "5103x2019x1636",
+          "exteriorImages": [
+            {
+              "name": "星际黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b15093570bb5712bf421ee464cb98eb~2508x0.webp"
+            },
+            {
+              "name": "加洛韦绿",
+              "colors": [
+                "#297962"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f80bdf57f29bcbbacef40eab0fd5dd02~2508x0.webp"
+            },
+            {
+              "name": "纳特隆红",
+              "colors": [
+                "#C31E1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2c5a6db16a60cf14a08ec50792c3886~2508x0.webp"
+            },
+            {
+              "name": "凯姆灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4353028a4c71818a2e260609d9de51d9~2508x0.webp"
+            },
+            {
+              "name": "索拉黄",
+              "colors": [
+                "#F7F702"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec57f387ccdfe4f4c3f26aaa50470e98~2508x0.webp"
+            },
+            {
+              "name": "花绽灰",
+              "colors": [
+                "#FAF3F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5ebf65975c291914628a725bdfe9068c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碧玺",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5d8b6ad4d8e8f0d8c220860659bf6f5~2508x0.webp"
+            },
+            {
+              "name": "松石",
+              "colors": [
+                "#42B896"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9f6b8b6fd048277eba1efeed183eb8b~2508x0.webp"
+            },
+            {
+              "name": "月石",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79d90c043f0615b58475490139ee8c60~2508x0.webp"
+            },
+            {
+              "name": "红翡",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30c61cfa66cc9aff30941605ee549ff5~2508x0.webp"
+            },
+            {
+              "name": "琥珀",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/559a8b85c5bc928311db191fa0c2dbab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b15093570bb5712bf421ee464cb98eb~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4902,
       "carName": "Emira",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/733e5809cbe545f3bc3c9b6deae6cccf~1200x0.png",
       "configs": [
         {
-          "configName": "Emira 2025款 Turbo SE",
+          "configName": "2025款 Turbo SE",
+          "configId": "246462",
+          "index": 0,
           "price": "90.28万",
-          "fuelType": "汽油",
-          "size": "4413x1896x1235",
           "manufacturer": "路特斯（进口）",
           "class": "跑车",
-          "power": "2.0T 405马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 405马力 L4",
+          "size": "4413x1896x1235",
+          "exteriorImages": [
+            {
+              "name": "路特斯绿/黑色",
+              "colors": [
+                "#063A13",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_62dba247dde467720b969267e2564364~2508x0.webp"
+            },
+            {
+              "name": "云霄灰/黑色",
+              "colors": [
+                "#828891",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_e9305961ac8407f025fbc7cfcad22b61~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "海瑟尔黄/黑色",
+              "colors": [
+                "#FFC73B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbd2ea7eb4d721cef6d97eeb393621f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbc7321515729bcd5527b65285047f86~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_62dba247dde467720b969267e2564364~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3760,
+      "carName": "Evija",
+      "configs": [
+        {
+          "configName": "2024款 FITTIPALDI 高级定制限量版",
+          "configId": "79148",
+          "index": 0,
+          "price": "2688万",
+          "manufacturer": "",
+          "class": "",
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T03:43:55.679Z",
+  "progress": {
+    "completed": 4,
+    "total": 4,
+    "percentage": 100,
+    "currentIndex": 4
+  }
 }

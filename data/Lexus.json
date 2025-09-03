@@ -3,526 +3,2604 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/b43814293efa6db10b762da4d351bfe7~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 888,
       "carName": "ES",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ab215cc368e64af783b1fe67e3ea4bae~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯ES 2025款 200 臻享版",
+          "configName": "2025款 200 臻享版",
+          "configId": "241525",
+          "index": 0,
           "price": "29.99万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型车",
           "fuelType": "汽油",
+          "power": "2.0L 173马力 L4",
           "size": "4975x1866x1447",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型车",
-          "power": "2.0L 173马力 L4"
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f682f7e2e5ea56c4f5220601a154a160~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d0e6bb5666d8fa3f52efd93d21b60d5~2508x0.webp"
+            },
+            {
+              "name": "凌波玉色",
+              "colors": [
+                "#566055"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2349c6677965a04c4a6d0a8732ab5058~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc99ffb700982fb51fa260e342e2cfbd~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26501004768bb939bea8a7ee00fcd130~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f32a793fcf4c1514af131390511fd6e3~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9072baed5f87c1ff0c902b4431493817~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "茶珀棕",
+              "colors": [
+                "#8B5E15"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6bca10a003a3ce71127b865d765922f5~2508x0.webp"
+            },
+            {
+              "name": "丹砂红/雪夜白",
+              "colors": [
+                "#9C1041",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc69232cfe3a846ab0005b036d477487~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DCA542"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aedfd3d9438b97b275f8ad6765938ac8~2508x0.webp"
+            },
+            {
+              "name": "雪夜白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49f648b2a639e173a51b192fa0d11699~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f682f7e2e5ea56c4f5220601a154a160~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯ES 2025款 300h 臻享版",
+          "configName": "2025款 300h 臻享版",
+          "configId": "241521",
+          "index": 1,
           "price": "37.99万",
-          "fuelType": "油电混合",
-          "size": "4975x1866x1447",
           "manufacturer": "雷克萨斯",
           "class": "中大型车",
-          "power": "油电式混动 120马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4975x1866x1447",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0f569b9b051128453e9df60fb4c53fe~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51423e1c974b85bcdc065ce7196fcb3e~2508x0.webp"
+            },
+            {
+              "name": "凌波玉色",
+              "colors": [
+                "#566055"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cecc38d89ccaeea4fc0b081cd9c658b~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/981fa34d447c73756d809c10f8808c7c~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6320b29a4eb75306562bb6f6bc7e9d53~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bb72bd827df3975e83dc625b2a18ffe5~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c334e3485391956134158100544abfe9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "茶珀棕",
+              "colors": [
+                "#8B5E15"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3cc454ecedf7bfc275dbbfcb9c08f876~2508x0.webp"
+            },
+            {
+              "name": "丹砂红/雪夜白",
+              "colors": [
+                "#9C1041",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0774fbc333950a9edc809e1af85b1179~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DCA542"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/599d6be1e87309d389a398f3774deaed~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58a08e7436454cd62e6771d10ed16f6f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e0f569b9b051128453e9df60fb4c53fe~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯ES 2025款 300h 尊享版",
+          "configName": "2025款 300h 尊享版",
+          "configId": "241522",
+          "index": 2,
           "price": "43.69万",
-          "fuelType": "油电混合",
-          "size": "4975x1866x1447",
           "manufacturer": "雷克萨斯",
           "class": "中大型车",
-          "power": "油电式混动 120马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4975x1866x1447",
+          "exteriorImages": [
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14ad5c0c9dad0b65cf0b14fb350cf47e~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9723d35534ff93c2130b05058eba78d1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "茶珀棕",
+              "colors": [
+                "#8B5E15"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e722fe196027c632704ef65473f7a91~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DCA542"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1fa6bba8bebb26cc57e7a58caec54d7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/14ad5c0c9dad0b65cf0b14fb350cf47e~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯ES 2025款 300h 行政版",
+          "configName": "2025款 300h 行政版",
+          "configId": "241523",
+          "index": 3,
           "price": "48.89万",
-          "fuelType": "油电混合",
-          "size": "4975x1866x1447",
           "manufacturer": "雷克萨斯",
           "class": "中大型车",
-          "power": "油电式混动 120马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 178马力 L4 油电混动",
+          "size": "4975x1866x1447",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1697220dc0f9849a0f8819403593f30~2508x0.webp"
+            },
+            {
+              "name": "凌波玉色",
+              "colors": [
+                "#566055"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d24ec0730ba046d170cd4530f92e7b2c~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f93b1bb1e3e05ea962f0b350402df272~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5807e2ed6b7bf892a48af4206db8238d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "茶珀棕",
+              "colors": [
+                "#8B5E15"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_45d73f45e4f928eb54e4e5d7b94e35b6~2508x0.webp"
+            },
+            {
+              "name": "丹砂红/雪夜白",
+              "colors": [
+                "#9C1041",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5ba35b226c7b589e23f5b958bbec1d2c~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DCA542"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b0010518b159ee70bef7dc2d3d4a9cc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f1697220dc0f9849a0f8819403593f30~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "UX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d244e4526ec84c7ab4f3bb52c2010769~1200x0.png",
-      "configs": [
-        {
-          "configName": "雷克萨斯UX 2024款 300h 探寻版",
-          "price": "26.88万",
-          "fuelType": "油电混合",
-          "size": "4495x1840x1540",
-          "manufacturer": "雷克萨斯",
-          "class": "紧凑型SUV",
-          "power": "油电混动 113马力"
-        },
-        {
-          "configName": "雷克萨斯UX 2024款 300h 探酷版",
-          "price": "28.88万",
-          "fuelType": "油电混合",
-          "size": "4495x1840x1540",
-          "manufacturer": "雷克萨斯",
-          "class": "紧凑型SUV",
-          "power": "油电混动 113马力"
-        },
-        {
-          "configName": "雷克萨斯UX 2024款 300h 探趣版",
-          "price": "30.88万",
-          "fuelType": "油电混合",
-          "size": "4495x1840x1540",
-          "manufacturer": "雷克萨斯",
-          "class": "紧凑型SUV",
-          "power": "油电混动 113马力"
-        },
-        {
-          "configName": "雷克萨斯UX 2024款 300h F SPORT",
-          "price": "33.98万",
-          "fuelType": "油电混合",
-          "size": "4494x1840x1540",
-          "manufacturer": "雷克萨斯",
-          "class": "紧凑型SUV",
-          "power": "油电混动 113马力"
-        }
-      ]
-    },
-    {
+      "carId": 890,
       "carName": "LS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4e9ab66763bf489e81f07d7688783c25~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯LS 2024款 500h 卓越版",
+          "configName": "2024款 500h 卓越版",
+          "configId": "96353",
+          "index": 0,
           "price": "88.5万",
-          "fuelType": "油电混合",
-          "size": "5235x1900x1450",
           "manufacturer": "雷克萨斯",
           "class": "大型车",
-          "power": "油电混动 178马力"
+          "fuelType": "油电混合",
+          "power": "3.5L 299马力 V6 油电混动",
+          "size": "5235x1900x1450",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90c263eede951996ac1dec90456ffd00~2508x0.webp"
+            },
+            {
+              "name": "超音速玛瑙红色",
+              "colors": [
+                "#412A2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c95e4f3b57c2debfd04b1e34f3da90c6~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fb12180825d6b93c18ab856ea19d721~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a427b999f13e27a163150b5225fcc1dd~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#A7734B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9228dd0defa06f0bfa746358316ec5ee~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/90c263eede951996ac1dec90456ffd00~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LS 2024款 500h 臻越版",
+          "configName": "2024款 500h 臻越版",
+          "configId": "96354",
+          "index": 1,
           "price": "96万",
-          "fuelType": "油电混合",
-          "size": "5235x1900x1450",
           "manufacturer": "雷克萨斯",
           "class": "大型车",
-          "power": "油电混动 178马力"
+          "fuelType": "油电混合",
+          "power": "3.5L 299马力 V6 油电混动",
+          "size": "5235x1900x1450",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4fe4f16dfe26e58004a08d70054d87e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#A7734B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f749b27b61b25b1d01c74900b84daf12~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4fe4f16dfe26e58004a08d70054d87e~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LS 2024款 500h 豪华版",
+          "configName": "2024款 500h 豪华版",
+          "configId": "96355",
+          "index": 2,
           "price": "104万",
-          "fuelType": "油电混合",
-          "size": "5235x1900x1450",
           "manufacturer": "雷克萨斯",
           "class": "大型车",
-          "power": "油电混动 178马力"
+          "fuelType": "油电混合",
+          "power": "3.5L 299马力 V6 油电混动",
+          "size": "5235x1900x1450",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7364630d99a8426b1e35bf11ba7b150~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#A7734B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c76cc4869d4fcc6706bbc1dc60acfab~2508x0.webp"
+            },
+            {
+              "name": "酒堡色",
+              "colors": [
+                "#B1A191"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2dcc5512e679af1e5e399c62ef97d633~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7364630d99a8426b1e35bf11ba7b150~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LS 2024款 500h 行政版",
+          "configName": "2024款 500h 行政版",
+          "configId": "96356",
+          "index": 3,
           "price": "120万",
-          "fuelType": "油电混合",
-          "size": "5235x1900x1450",
           "manufacturer": "雷克萨斯",
           "class": "大型车",
-          "power": "油电混动 178马力"
+          "fuelType": "油电混合",
+          "power": "3.5L 299马力 V6 油电混动",
+          "size": "5235x1900x1450",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afaa65e07874746473b7b620252b36c9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石墨/丹砂",
+              "colors": [
+                "#282828",
+                "#9B3C3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/188920bd0a4c057b5c14b119114246e6~2508x0.webp"
+            },
+            {
+              "name": "赭石晶棕色",
+              "colors": [
+                "#915C3D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5777d361cb0db22608ac1478b903561~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/afaa65e07874746473b7b620252b36c9~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "NX PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/03641c659e67439bab33504c92f2da1a~1200x0.png",
+      "carId": 2203,
+      "carName": "UX",
       "configs": [
         {
-          "configName": "雷克萨斯NX PHEV 2024款 400h+ 畅悦版",
-          "price": "42.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4660x1865x1660",
+          "configName": "2024款 300h 探寻版",
+          "configId": "97196",
+          "index": 0,
+          "price": "26.88万",
           "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "插电式混动 182马力"
+          "class": "紧凑型SUV",
+          "fuelType": "油电混合",
+          "power": "2.0L 152马力 L4 油电混动",
+          "size": "4495x1840x1540",
+          "exteriorImages": [
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2bc3fff3f79c307984f67d92b56801d~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25f2ef5612fec4e4e8b827abbbb36b67~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb3a31c73f7d09f8430d1e483455575d~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色/黑色",
+              "colors": [
+                "#D5B87B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c14a6e8017da1e893303e89c4dd7296b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a2bc3fff3f79c307984f67d92b56801d~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯NX PHEV 2024款 400h+ 畅领版",
-          "price": "50.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4660x1865x1670",
+          "configName": "2024款 300h 探酷版",
+          "configId": "98077",
+          "index": 1,
+          "price": "28.88万",
           "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "插电式混动 182马力"
+          "class": "紧凑型SUV",
+          "fuelType": "油电混合",
+          "power": "2.0L 152马力 L4 油电混动",
+          "size": "4495x1840x1540",
+          "exteriorImages": [
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9fb6b98ca6539fbebd86ddf951189af~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60e2f7c15213126ac8d94a14ed75eed9~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6824eede9f845dac46136b5ad583b864~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90131576f8e7c0e8261ffdeaf36eb1b9~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色/黑色",
+              "colors": [
+                "#D5B87B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a3591a72ff1f80071738486f46fd542~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d9fb6b98ca6539fbebd86ddf951189af~2508x0.webp"
+        },
+        {
+          "configName": "2024款 300h 探趣版",
+          "configId": "98078",
+          "index": 2,
+          "price": "30.88万",
+          "manufacturer": "雷克萨斯",
+          "class": "紧凑型SUV",
+          "fuelType": "油电混合",
+          "power": "2.0L 152马力 L4 油电混动",
+          "size": "4495x1840x1540",
+          "exteriorImages": [
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a7e9fd2a15d5d92e2368fa6e3b64544~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/906dcce7c94d173ed49c1eb7956c7cf8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c247bea9c350d4c2e25e7dacddb954b~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色/黑色",
+              "colors": [
+                "#D5B87B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baf7fc7e8bed9361bd319c304f9f5fb7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6a7e9fd2a15d5d92e2368fa6e3b64544~2508x0.webp"
+        },
+        {
+          "configName": "2024款 300h F SPORT",
+          "configId": "98079",
+          "index": 3,
+          "price": "33.98万",
+          "manufacturer": "雷克萨斯",
+          "class": "紧凑型SUV",
+          "fuelType": "油电混合",
+          "power": "2.0L 152马力 L4 油电混动",
+          "size": "4494x1840x1540",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 891,
       "carName": "NX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6dcbcbd66d824cb480c3a123057938ee~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯NX 2025款 260 前驱 十周年特别限量版",
+          "configName": "2025款 200 前驱 FUN",
+          "configId": "250983",
+          "index": 0,
+          "price": "29.98万",
+          "manufacturer": "雷克萨斯",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 169马力 L4",
+          "size": "4660x1865x1660",
+          "exteriorImages": [
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a60a9513cd2704255f7c06e2491bdcd~2508x0.webp"
+            },
+            {
+              "name": "胭脂荔色",
+              "colors": [
+                "#DD2525"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d0dbe19d6ba3bc7efa0333e6ae626a6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4038fe1f12d03256630893140ef3db31~2508x0.webp"
+            },
+            {
+              "name": "暗玫瑰红",
+              "colors": [
+                "#5C2528"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7f4f131c3eda6d43892ba03232f21000~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#8C644A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_554afbfa9f8f76677978b0da96e628ae~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a60a9513cd2704255f7c06e2491bdcd~2508x0.webp"
+        },
+        {
+          "configName": "2025款 350h 前驱 JOY",
+          "configId": "250984",
+          "index": 1,
           "price": "35.98万",
-          "fuelType": "汽油",
-          "size": "4660x1865x1660",
           "manufacturer": "雷克萨斯",
           "class": "中型SUV",
-          "power": "2.5L 203马力 L4"
-        },
-        {
-          "configName": "雷克萨斯NX 2024款 260 前驱 创驰版",
-          "price": "31.88万",
-          "fuelType": "汽油",
-          "size": "4660x1865x1660",
-          "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "2.5L 203马力 L4"
-        },
-        {
-          "configName": "雷克萨斯NX 2024款 260 前驱 创悦版",
-          "price": "35.68万",
-          "fuelType": "汽油",
-          "size": "4660x1865x1660",
-          "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "2.5L 203马力 L4"
-        },
-        {
-          "configName": "雷克萨斯NX 2024款 350h 前驱 创驰版",
-          "price": "35.58万",
           "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混合",
           "size": "4660x1865x1660",
-          "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "油电混动 182马力"
+          "exteriorImages": [
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_534f2de3402eeef4a3adb201b00ee42c~2508x0.webp"
+            },
+            {
+              "name": "晶亮白色",
+              "colors": [
+                "#ECF1F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7b785b1bcf38c818509ef70b37ee501~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_186786a8f7b0fb508d3882dc11e31dea~2508x0.webp"
+            },
+            {
+              "name": "暗玫瑰红",
+              "colors": [
+                "#5C2528"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_90296f667f2d96b88d81030b40f0f36f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_534f2de3402eeef4a3adb201b00ee42c~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯NX 2024款 350h 前驱 创悦版",
-          "price": "38.78万",
-          "fuelType": "油电混合",
-          "size": "4660x1865x1660",
-          "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "油电混动 182马力"
-        },
-        {
-          "configName": "雷克萨斯NX 2024款 350h 全驱 创游版",
+          "configName": "2025款 350h 全驱 JOY X",
+          "configId": "250985",
+          "index": 2,
           "price": "39.98万",
-          "fuelType": "油电混合",
-          "size": "4660x1865x1660",
           "manufacturer": "雷克萨斯",
           "class": "中型SUV",
-          "power": "油电混动 237马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混合",
+          "size": "4660x1865x1660",
+          "exteriorImages": [
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d991485246d900e45b8a03d71065a3e2~2508x0.webp"
+            },
+            {
+              "name": "晶亮白色",
+              "colors": [
+                "#ECF1F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5414f4faa1673f10799256d3bdf81eaf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗玫瑰红",
+              "colors": [
+                "#5C2528"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_306227684b2a76bc5f582cc47792d187~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#8C644A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a426c628a037533140e22293ee8583cf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d991485246d900e45b8a03d71065a3e2~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯NX 2024款 350h 全驱 OVERTRAIL创界版",
+          "configName": "2025款 350h 全驱 OVERTRAIL",
+          "configId": "250986",
+          "index": 3,
           "price": "42.08万",
+          "manufacturer": "雷克萨斯",
+          "class": "中型SUV",
           "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混合",
           "size": "4660x1865x1660",
-          "manufacturer": "雷克萨斯",
-          "class": "中型SUV",
-          "power": "油电混动 237马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 5215,
+      "carName": "NX PHEV",
+      "configs": [
+        {
+          "configName": "2025款 400h+ PRIME",
+          "configId": "250988",
+          "index": 0,
+          "price": "42.98万",
+          "manufacturer": "雷克萨斯",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.5L 185马力 L4 插电式混动",
+          "size": "4660x1865x1660",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2025款 400h+ ULTRA",
+          "configId": "250989",
+          "index": 1,
+          "price": "50.98万",
+          "manufacturer": "雷克萨斯",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.5L 185马力 L4 插电式混动",
+          "size": "4660x1865x1670",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 5497,
       "carName": "RZ",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4c46a47bd2af41d1b9ce7d9ac4750933~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯RZ 2024款 300e 长续航 纵行版",
+          "configName": "2024款 300e 长续航 纵行版",
+          "configId": "94822",
+          "index": 0,
           "price": "35.59万",
-          "fuelType": "纯电动",
-          "size": "4805x1895x1635",
           "manufacturer": "雷克萨斯",
           "class": "中型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4805x1895x1635",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e43bb6fe74c7d7e8afc7d9821089233~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23040a3145c441964b435c0ed68972b1~2508x0.webp"
+            },
+            {
+              "name": "以太蓝色",
+              "colors": [
+                "#9AB0CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f4f39de833143c99911c574147f8660c~2508x0.webp"
+            },
+            {
+              "name": "超音速暮光铜色",
+              "colors": [
+                "#BA7350"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41deabeb207d8f5c438821a4f93444ba~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07e65d8ed7ae56d5483d771911201f62~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc24c5b94c9ddd3fa533fee74e37460d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "层墨灰",
+              "colors": [
+                "#6F7376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/175dbfa4304607056a3dfb0ec9333958~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4e43bb6fe74c7d7e8afc7d9821089233~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RZ 2024款 300e 长续航 纵享版",
+          "configName": "2024款 300e 长续航 纵享版",
+          "configId": "94823",
+          "index": 1,
           "price": "37.99万",
-          "fuelType": "纯电动",
-          "size": "4805x1895x1635",
           "manufacturer": "雷克萨斯",
           "class": "中型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4805x1895x1635",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ff3e02a7cd3698c92c2f5fc132dfaf1~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/434dba5ce9b37bc62280230b136bb429~2508x0.webp"
+            },
+            {
+              "name": "以太蓝色",
+              "colors": [
+                "#9AB0CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7fe97b99949ae9bc6f498588bb4b6d55~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ea9fa27740ea6c2f65e4c59ef7de08b~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8badb95d240bd7424f22454ff6a02ae~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "层墨灰",
+              "colors": [
+                "#6F7376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/885fcebfae264e34ed4a6c9142ece130~2508x0.webp"
+            },
+            {
+              "name": "风暴蓝",
+              "colors": [
+                "#A2BECC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02b1c418b21e8862b0e10203c897212b~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d73486f0489f5745597099c9c8bb4503~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4ff3e02a7cd3698c92c2f5fc132dfaf1~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RZ 2023款 450e DIRECT4 纵享版",
+          "configName": "2023款 450e DIRECT4 纵享版",
+          "configId": "81309",
+          "index": 2,
           "price": "39.99万",
-          "fuelType": "纯电动",
-          "size": "4805x1895x1635",
           "manufacturer": "雷克萨斯",
           "class": "中型SUV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4805x1895x1635",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ece174ab6db7ddea44ec49e0925e2b77~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/522477a35d344737b0a9aba043fb92ee~2508x0.webp"
+            },
+            {
+              "name": "以太蓝色",
+              "colors": [
+                "#9AB0CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75e334b288cbe09024a2c0aec673c091~2508x0.webp"
+            },
+            {
+              "name": "Bi-Tone寻境以太",
+              "colors": [
+                "#9AB1CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6fb241e68884645e490a77df0716bb5~2508x0.webp"
+            },
+            {
+              "name": "超音速暮光铜色",
+              "colors": [
+                "#BA7350"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/340957b7fd3725203087c7787ffce505~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5dabcc11d4194ad83860e337246a2fcf~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/160a1f748a2b3aa3d83d5ebf5e071730~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "层墨灰",
+              "colors": [
+                "#6F7376"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52f7d505764b74e13d8b5474da3874c2~2508x0.webp"
+            },
+            {
+              "name": "风暴蓝",
+              "colors": [
+                "#A2BECC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b621beb85fb57323b3c1ccc4dcbfee4~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/480b84de28d882552da32c040c956e94~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ece174ab6db7ddea44ec49e0925e2b77~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RZ 2023款 450e DIRECT4 纵领版",
+          "configName": "2023款 450e DIRECT4 纵领版",
+          "configId": "81310",
+          "index": 3,
           "price": "45.99万",
-          "fuelType": "纯电动",
-          "size": "4805x1895x1635",
           "manufacturer": "雷克萨斯",
           "class": "中型SUV",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4805x1895x1635",
+          "exteriorImages": [
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/963a18fda71b5a90833a8c5a5def102c~2508x0.webp"
+            },
+            {
+              "name": "以太蓝色",
+              "colors": [
+                "#9AB0CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2489b8a0c118a95b4e66ea1fbe2817ec~2508x0.webp"
+            },
+            {
+              "name": "Bi-Tone寻境以太",
+              "colors": [
+                "#9AB1CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dee32b9488c719ab1a94255be7ecee03~2508x0.webp"
+            },
+            {
+              "name": "Bi-Tone极境暮光",
+              "colors": [
+                "#BA7351"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0914af28c09cb751f8b9a996d658f54~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be1b296926dff1a58370e733c7792fe9~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb1f7c76b331b414ae273cd3e27b82d3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "风暴蓝",
+              "colors": [
+                "#A2BECC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a86c865416ceeb367e18902e45e2681~2508x0.webp"
+            },
+            {
+              "name": "秋山栗",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77d0a32c265db3ee8d335055ca24e0ed~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/963a18fda71b5a90833a8c5a5def102c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 893,
       "carName": "GX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2b054a8ca82f408fa49831a65ac19fdf~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯GX 2024款 550h 先峰版",
+          "configName": "2024款 550h 先峰版",
+          "configId": "97385",
+          "index": 0,
           "price": "77.8万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型SUV",
           "fuelType": "油电混合",
+          "power": "2.4T 282马力 L4",
           "size": "4960x1980x1925",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型SUV",
-          "power": "油电混动 54马力"
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb7f68aa62dc51a40b031828d93c7185~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3815fcefc2c9f331e4912d3eb434b397~2508x0.webp"
+            },
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#ADABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e40bd9a2d46c946559aca59d3c31982b~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d13e7dc6a7fe422a0db418ca7d02ecce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c195096acff75e9ca9201fd9559c70ad~2508x0.webp"
+            },
+            {
+              "name": "鞍棕色",
+              "colors": [
+                "#CA8F54"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e905d3d79cddf1e8dba0869c38aecb13~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fb7f68aa62dc51a40b031828d93c7185~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯GX 2024款 550h OVERTRAIL远峰版",
+          "configName": "2024款 550h OVERTRAIL远峰版",
+          "configId": "97386",
+          "index": 1,
           "price": "79.8万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型SUV",
           "fuelType": "油电混合",
+          "power": "2.4T 282马力 L4",
           "size": "4970x2000x1935",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型SUV",
-          "power": "油电混动 54马力"
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e0e1456db76db9115af8dee70c733c4~2508x0.webp"
+            },
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7927e1edb2200004b98f1fc8daea4fd~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d4cfc3ff237528fcb6bc99cbbe55df8~2508x0.webp"
+            },
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#ADABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d38b26d6cc3ae40e5fb2db1392996c85~2508x0.webp"
+            },
+            {
+              "name": "月岩灰/黑色",
+              "colors": [
+                "#ADABAB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ecaaf0c2b054a1932c1e66afce44cb4~2508x0.webp"
+            },
+            {
+              "name": "月影沙/黑色",
+              "colors": [
+                "#D9D2C7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2cd79680f5cf432ae8b1f54b097e6ec~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5ac3d140fa3bf532ca8a2f4e5ed60cd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/537a5e4fab003dd8263dc98f0936f8bd~2508x0.webp"
+            },
+            {
+              "name": "酒堡色",
+              "colors": [
+                "#BEB16C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87a3f5b0e7b46a167b4871ebba50e4ac~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8e0e1456db76db9115af8dee70c733c4~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯GX 2024款 550h 凌峰版",
+          "configName": "2024款 550h 凌峰版",
+          "configId": "97387",
+          "index": 2,
           "price": "88.8万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型SUV",
           "fuelType": "油电混合",
+          "power": "2.4T 282马力 L4",
           "size": "4960x1980x1935",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型SUV",
-          "power": "油电混动 54马力"
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e71ecb539f9ae215db6ca4bb7bdac9f~2508x0.webp"
+            },
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d4820daf460056d7388dc6c11c3a611c~2508x0.webp"
+            },
+            {
+              "name": "水银灰云母色",
+              "colors": [
+                "#616B7E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c30f36ebfd55bf35ff586261365f4f41~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6248155dbca6682adbdc8d2178473fb~2508x0.webp"
+            },
+            {
+              "name": "月岩灰",
+              "colors": [
+                "#ADABAB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa5934dc98cc3e017fef7d03177b4e93~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0daadc73760cccdb8eb4b9acc29f02a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d53c26c6ebe36598461c55642a75c35a~2508x0.webp"
+            },
+            {
+              "name": "玄武灰",
+              "colors": [
+                "#B7B7B7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce3e3b024fc9b5d5886c3321c6cf3c2f~2508x0.webp"
+            },
+            {
+              "name": "鞍棕色",
+              "colors": [
+                "#CA8F54"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b5f99e88595cfd6e49984bb5770bd87~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7e71ecb539f9ae215db6ca4bb7bdac9f~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "RX PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a3b7d7de77db4cc3a6a22e5f2541e424~1200x0.png",
-      "configs": [
-        {
-          "configName": "雷克萨斯RX PHEV 2025款 450h+ 四驱畅享版",
-          "price": "54.9万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1920x1695",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 237马力"
-        },
-        {
-          "configName": "雷克萨斯RX PHEV 2023款 450h+ 四驱畅享版",
-          "price": "54.9万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1920x1695",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型SUV",
-          "power": "插电式混合动力 237马力"
-        }
-      ]
-    },
-    {
-      "carName": "LM",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6151e8c554d44a958879904de1f82e77~1200x0.png",
-      "configs": [
-        {
-          "configName": "雷克萨斯LM 2023款 350h E-Four 七座隽雅版",
-          "price": "119.9万",
-          "fuelType": "油电混合",
-          "size": "5125x1890x1940",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型MPV",
-          "power": "油电混合 237马力"
-        },
-        {
-          "configName": "雷克萨斯LM 2023款 500h DIRECT4 六座尊崇版",
-          "price": "125万",
-          "fuelType": "油电混合",
-          "size": "5125x1890x1955",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型MPV",
-          "power": "油电混合 189马力"
-        },
-        {
-          "configName": "雷克萨斯LM 2023款 500h DIRECT4 四座御世版",
-          "price": "155万",
-          "fuelType": "油电混合",
-          "size": "5125x1890x1955",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型MPV",
-          "power": "油电混合 189马力"
-        }
-      ]
-    },
-    {
+      "carId": 894,
       "carName": "RX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d9177b9bf427427cb6a1793e350337fd~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯RX 2025款 350h 两驱悦享版",
+          "configName": "2025款 350h 两驱悦享版",
+          "configId": "241505",
+          "index": 0,
           "price": "40.5万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e59b705cf1285c949ab96843512c60f~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a533485bbafc458b8d7df5edf2deade2~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/052187a89aede7c472a4dfa6e842ee71~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6a40f89c94b0ba8ef9aac2e47f5b7c2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bbedd8273a1849f55c6517317d5a6aee~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36aa4cdfe922ba77b3ea84cc8695cb9c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6e59b705cf1285c949ab96843512c60f~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2025款 350h 两驱舒享版",
+          "configName": "2025款 350h 两驱舒享版",
+          "configId": "241506",
+          "index": 1,
           "price": "44.2万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0739dd0a70b430c5676a56ce29487c5d~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d068bdce2e2b22101abecd159acd3ef~2508x0.webp"
+            },
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bbd68cff842fb955d1a846bce3362b67~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16bd6bb4fa1e13022b5c54bbc4b19031~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7feb92143dd53cd953221f2081edb0f2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f2e8b36955c1761519b232b7106e6b0~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3bca127024cf8936cfc9e6d9cbfe42f2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0739dd0a70b430c5676a56ce29487c5d~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2025款 350h 四驱醇享版",
+          "configName": "2025款 350h 四驱醇享版",
+          "configId": "241507",
+          "index": 2,
           "price": "47.9万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 237马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55cb62ab57ab0dd322fc595706a87413~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/570b9df502a7f35616ca712386feb5e4~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/951faee4fc87c82720b22381470e998d~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb1e8b8d390c0d018e52aa4e6686e077~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f359af0cc31b120bb736378e2029737d~2508x0.webp"
+            },
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5f03297443a78f5652853fb78746c17~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49b609165780bf824dc72af6740af607~2508x0.webp"
+            },
+            {
+              "name": "皓白色",
+              "colors": [
+                "#F1F1EB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53c0b619319f28c40c959a2c6047600d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/55cb62ab57ab0dd322fc595706a87413~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2025款 300 四驱骏享版",
+          "configName": "2025款 300 四驱骏享版",
+          "configId": "240977",
+          "index": 3,
           "price": "38万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 248马力 L4",
           "size": "4890x1920x1695",
-          "manufacturer": "雷克萨斯",
-          "class": "中大型SUV",
-          "power": "2.0T 248马力 L4"
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5005e08591f05894f83efedfa07fa060~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f4922edc87b5288cedb2ee892d403f9~2508x0.webp"
+            },
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f324d5e344b56447708e0e0b9276e027~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f0fb336292065c9b1debb9f68e3a71b6~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2071d9ec97ef9ebc635f5ad01f34df26~2508x0.webp"
+            },
+            {
+              "name": "酒红云母色",
+              "colors": [
+                "#C51A22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1258ae6fe17807c7d9f1b5671afab5a~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2dc6fb2abf801f1b3156d8e705b20bfc~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5610e7512b8fd84537d0813b7e5f8301~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d0346ac7ff3209e28a8066a9ae7d37c3~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1299b48a25e0d72c019ecf807222aaa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5005e08591f05894f83efedfa07fa060~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2025款 350h 四驱智享版",
+          "configName": "2025款 350h 四驱智享版",
+          "configId": "241508",
+          "index": 4,
           "price": "55.9万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 237马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "雷克萨斯RX 2025款 500h F SPORT Performance",
+          "configName": "2025款 500h F SPORT Performance",
+          "configId": "241532",
+          "index": 5,
           "price": "61.9万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 189马力"
+          "fuelType": "油电混合",
+          "power": "2.4T 271马力 L4 油电混合",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "蓝焰色",
+              "colors": [
+                "#003B9C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ccb9f84d1475f94a861996f515583969~2508x0.webp"
+            },
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/945118b3b3313d9daacab34a37b9f95c~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/984c72747d5021a5d52c405239f2d371~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70c520f7e1318e67699b9efd820c1899~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_40ca5087f4092f55d9430db4c62079fb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/月光白",
+              "colors": [
+                "#000000",
+                "#B8BBBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff6ee3a039c3a6d493e38c3814eb2c21~2508x0.webp"
+            },
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/081b40655436ee3e006cafec955d1cc4~2508x0.webp"
+            },
+            {
+              "name": "暗玫瑰红色",
+              "colors": [
+                "#9F3131"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/ae1e016f22853d07f14d49893506edd3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ccb9f84d1475f94a861996f515583969~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2023款 350h 两驱悦享版",
+          "configName": "2023款 350h 两驱悦享版",
+          "configId": "81218",
+          "index": 6,
           "price": "40.5万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85078a1f1b3cb927ad1e16219538b1f0~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6701bf11f7d4fd8bac8cde959aa9e788~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0a0bbdd1cca6e17f252037e66ba7c462~2508x0.webp"
+            },
+            {
+              "name": "酒红云母色",
+              "colors": [
+                "#C51A22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2132572a417a364dc0ca9967e045678c~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f61bf5a0e693281ef22e5d1f5ff94805~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8543b6b21a8faddafafc5f2f853cbda~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/411fc6c622df2c14f4b9be3aad7f4128~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/85078a1f1b3cb927ad1e16219538b1f0~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2023款 350h 两驱舒享版",
+          "configName": "2023款 350h 两驱舒享版",
+          "configId": "81219",
+          "index": 7,
           "price": "44.2万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa302a37d96d31048bcea85e7a7cd20d~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/4e12c1cd5be48798128f2f4ef7a58e88~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2a2e5a8f9b437bffd6b1ec889f269d5~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9018d703d55536aa5d9f53f47901221b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/848fbe363e8c077a9538c5530d7ba0e9~2508x0.webp"
+            },
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74d4e03d2bbcc8b8d32629822eeed295~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68bc543c5e106ad35e2e14cc662be00e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa302a37d96d31048bcea85e7a7cd20d~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2023款 350h 四驱醇享版",
+          "configName": "2023款 350h 四驱醇享版",
+          "configId": "81220",
+          "index": 8,
           "price": "47.9万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 237马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fa581acffbe632b6c1984bbfe51e22f~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac94b4bbe4e68ba72ee4b37d354d3247~2508x0.webp"
+            },
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de57059543202416289dd22925f3c075~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c2b989c25b5224d09c851d43fe9bd61~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90df8bc1b5aab988b0e404f1171a1a58~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4cd8227951ecd7c46c158f4a1f917b6~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/ead9ed7a871269ed99f310a641decdab~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f1178661a01c0205f1782571a190d2f~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f967abd6e3447daf3cdcbff88f817f11~2508x0.webp"
+            },
+            {
+              "name": "皓白色",
+              "colors": [
+                "#F1F1EB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b435eb7ce5b94ae332b1b98d1c02c2f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9fa581acffbe632b6c1984bbfe51e22f~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2023款 350h 四驱智享版",
+          "configName": "2023款 350h 四驱智享版",
+          "configId": "81221",
+          "index": 9,
           "price": "55.9万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 237马力"
+          "fuelType": "油电混合",
+          "power": "2.5L 189马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba7b7d0c31d9ba5767aad9a90978ceb1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3fe71217089d53cdb15059c7f94a9d03~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ba7b7d0c31d9ba5767aad9a90978ceb1~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯RX 2023款 500h DIRECT4 F SPORT Performance",
+          "configName": "2023款 500h DIRECT4 F SPORT Performance",
+          "configId": "81222",
+          "index": 10,
           "price": "61.9万",
-          "fuelType": "油电混合",
-          "size": "4890x1920x1695",
           "manufacturer": "雷克萨斯",
           "class": "中大型SUV",
-          "power": "油电混合 189马力"
+          "fuelType": "油电混合",
+          "power": "2.4T 271马力 L4 油电混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "蓝焰色",
+              "colors": [
+                "#003B9C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b875d609f3405fafea4800870eeadc1~2508x0.webp"
+            },
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed3d322ee091c73a2335645a68e3e147~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/967a695c76897c3cc18baf93f6ac2afd~2508x0.webp"
+            },
+            {
+              "name": "超音速暮光铜色",
+              "colors": [
+                "#BA7350"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/399c298dbc3417688f009db1c3f1a921~2508x0.webp"
+            },
+            {
+              "name": "晶亮白色",
+              "colors": [
+                "#ECF1F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d00c26c585c226d730c69f55913597d0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#151516"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e499812403f32e3647e6ec09893a078d~2508x0.webp"
+            },
+            {
+              "name": "暗玫瑰红色",
+              "colors": [
+                "#9F3131"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/49199b343832a98b6c8100adb48157c2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1b875d609f3405fafea4800870eeadc1~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5965,
+      "carName": "RX PHEV",
+      "configs": [
+        {
+          "configName": "2025款 450h+ 四驱畅享版",
+          "configId": "241533",
+          "index": 0,
+          "price": "54.9万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.5L 185马力 L4 插电式混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/317de7180ac8758481f864890d1dd98f~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6132281690edf8011840fe33dbfa679~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8dbee5114665f60b9c83248ece4e9a85~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/016860951252edf39b989d5fc607f42c~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80aa46b50bf92ce2f751a28060d67987~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/317de7180ac8758481f864890d1dd98f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 450h+ 四驱畅享版",
+          "configId": "81223",
+          "index": 1,
+          "price": "54.9万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "2.5L 185马力 L4 插电式混动",
+          "size": "4890x1920x1695",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db234c9a2b242f697632f5fe6f246bd5~2508x0.webp"
+            },
+            {
+              "name": "宝石蓝色",
+              "colors": [
+                "#222736"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6871970679c74cb4dae0ad5349f6406~2508x0.webp"
+            },
+            {
+              "name": "黛青云母色",
+              "colors": [
+                "#2E362F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50580373fa00b724909061e8a03486ea~2508x0.webp"
+            },
+            {
+              "name": "超音速流光金属色",
+              "colors": [
+                "#58565F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69a5b01131d55022a26fd9a4eb89ac60~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9ff57048fde1ac00b2e7799bc6bfa042~2508x0.webp"
+            },
+            {
+              "name": "超音速暮光铜色",
+              "colors": [
+                "#BA7350"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68ff1758b3f969109c94c7b6f124dac5~2508x0.webp"
+            },
+            {
+              "name": "酒红云母色",
+              "colors": [
+                "#C51A22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3cb4b4d023d424f27cbc02c923cd37c~2508x0.webp"
+            },
+            {
+              "name": "超音速铱泽银色",
+              "colors": [
+                "#DBDBDB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bdd2d3ae686b8a80c7b6f86a3e34b1fb~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a102ab5e3d0e9b5a793d07d110a1a801~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "檀木棕色",
+              "colors": [
+                "#5B544A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0423db6ba4186621ca569f19e1a97dfa~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#DDA870"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c66d5ecf95a124c9aca023429df2fc0~2508x0.webp"
+            },
+            {
+              "name": "皓白色",
+              "colors": [
+                "#E7E7E7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c116ce0769fd0d3c2ff471ea46ecb968~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db234c9a2b242f697632f5fe6f246bd5~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 895,
       "carName": "LX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d7355b247c32409395b2eada37643548~1200x0.png",
       "configs": [
         {
-          "configName": "雷克萨斯LX 2025款 700h 领途版",
+          "configName": "2025款 700h 领途版",
+          "configId": "241144",
+          "index": 0,
           "price": "125万",
+          "manufacturer": "雷克萨斯",
+          "class": "大型SUV",
           "fuelType": "油电混合",
+          "power": "3.5T 408马力 V6 油电混合",
           "size": "5115x1990x1885",
-          "manufacturer": "雷克萨斯",
-          "class": "大型SUV",
-          "power": "油电混合 54马力"
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/202d14b43436ea3e2bba7e0cec63236f~2508x0.webp"
+            },
+            {
+              "name": "至尊灰色",
+              "colors": [
+                "#5C5D63"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6de8cab85656ccdcae6ecfd8389836eb~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baf22a4db9dd48e82290dba457e8c426~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1f6c31c48dee02e6ce693ea26438e21~2508x0.webp"
+            },
+            {
+              "name": "丹砂红色",
+              "colors": [
+                "#9D3D3A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_871c3efb7e512020ecf85557f657a91e~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#D2854F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4f8d7f8a68dbc3af4b6ee1bb8eaf61f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/202d14b43436ea3e2bba7e0cec63236f~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LX 2025款 700h 领界版",
+          "configName": "2025款 700h 领界版",
+          "configId": "242518",
+          "index": 1,
           "price": "132万",
-          "fuelType": "油电混合",
-          "size": "5115x1990x1895",
           "manufacturer": "雷克萨斯",
           "class": "大型SUV",
-          "power": "油电混合 54马力"
+          "fuelType": "油电混合",
+          "power": "3.5T 408马力 V6 油电混合",
+          "size": "5115x1990x1895",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6a189d904a37fd878c98fc7d7087e61~2508x0.webp"
+            },
+            {
+              "name": "至尊灰色",
+              "colors": [
+                "#5C5D63"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3add8c05a4a4ca5822ab11ccd805497e~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1864ac06a43b74470eed83fa426299d~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11fff53d6065700eb77a709d586fe78e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/321951b76569f60973959b7d20a3a84a~2508x0.webp"
+            },
+            {
+              "name": "丹砂红色",
+              "colors": [
+                "#9D3D3A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f8a92492da764ecea6ba24e1366445e~2508x0.webp"
+            },
+            {
+              "name": "秋山栗色",
+              "colors": [
+                "#D2854F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8737baa0d371877deb6deb7c78441805~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d6a189d904a37fd878c98fc7d7087e61~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LX 2025款 700h OVERTRAIL领境版",
+          "configName": "2025款 700h OVERTRAIL领境版",
+          "configId": "242519",
+          "index": 2,
           "price": "135万",
-          "fuelType": "油电混合",
-          "size": "5115x1990x1895",
           "manufacturer": "雷克萨斯",
           "class": "大型SUV",
-          "power": "油电混合 54马力"
+          "fuelType": "油电混合",
+          "power": "3.5T 408马力 V6 油电混合",
+          "size": "5115x1990x1895",
+          "exteriorImages": [
+            {
+              "name": "月影沙",
+              "colors": [
+                "#D9D2C7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7030e3e549c1b2f73a1bdd5119bf15d3~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_90986e0c74c6b5194582ccaae50be602~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "旷野卡其色",
+              "colors": [
+                "#6C6256"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/4d75b5eb39deb8af0d687f3d077dbbe3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7030e3e549c1b2f73a1bdd5119bf15d3~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LX 2025款 700h VIP领世版",
+          "configName": "2025款 700h VIP领世版",
+          "configId": "242520",
+          "index": 3,
           "price": "155万",
-          "fuelType": "油电混合",
-          "size": "5115x1990x1895",
           "manufacturer": "雷克萨斯",
           "class": "大型SUV",
-          "power": "油电混合 54马力"
+          "fuelType": "油电混合",
+          "power": "3.5T 408马力 V6 油电混合",
+          "size": "5115x1990x1895",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_620104faf3476d34f2d9ee50e2ed239e~2508x0.webp"
+            },
+            {
+              "name": "至尊灰色",
+              "colors": [
+                "#5C5D63"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_16a9e203ebd34a3112c48aa5e017c205~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "熠耀琥珀色",
+              "colors": [
+                "#DC7E53"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f3200501412df61ab5816a6bd2986cc6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_620104faf3476d34f2d9ee50e2ed239e~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "LC",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/79bf47fdd4b94e0091fd276c1f4aad23~1200x0.png",
+      "carId": 3354,
+      "carName": "LM",
       "configs": [
         {
-          "configName": "雷克萨斯LC 2023款 500h 运动版",
-          "price": "129.6万",
-          "fuelType": "油电混合",
-          "size": "4770x1920x1345",
+          "configName": "2023款 350h E-Four 七座隽雅版",
+          "configId": "92220",
+          "index": 0,
+          "price": "119.9万",
           "manufacturer": "雷克萨斯",
-          "class": "跑车",
-          "power": "油电混动 178马力"
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.5L 190马力 L4 油电混动",
+          "size": "5125x1890x1940",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cddf01cfd39477c9cd02089fd4a26eac~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1c0e812e817bf71f1e93032cdabd3c3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "峦黛曜石黑灰双色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f07acc65a2a19639361da5dff5a0f34~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cddf01cfd39477c9cd02089fd4a26eac~2508x0.webp"
         },
         {
-          "configName": "雷克萨斯LC 2023款 500h 特别版",
-          "price": "133.6万",
+          "configName": "2023款 500h DIRECT4 六座尊崇版",
+          "configId": "92221",
+          "index": 1,
+          "price": "125万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型MPV",
           "fuelType": "油电混合",
-          "size": "4770x1920x1345",
+          "power": "2.4T 271马力 L4 油电混动",
+          "size": "5125x1890x1955",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19a03fa1708808eb0d41daa42a461fc1~2508x0.webp"
+            },
+            {
+              "name": "超音速玛瑙红色",
+              "colors": [
+                "#412A2C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5703af0cca0d4921d60351920e3c20bc~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c82b59ae1b5370c78a68dbcfd8df271~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/af4d110770cfd757f3040a64415f7ccb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "峦黛曜石黑灰双色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a5e8cf69f4df89fb34b51f2d2ba258e~2508x0.webp"
+            },
+            {
+              "name": "落雪玄砚白金双色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52487d19984dd010cc59faab4624bd6a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/19a03fa1708808eb0d41daa42a461fc1~2508x0.webp"
+        },
+        {
+          "configName": "2023款 500h DIRECT4 四座御世版",
+          "configId": "92222",
+          "index": 2,
+          "price": "155万",
+          "manufacturer": "雷克萨斯",
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.4T 271马力 L4 油电混动",
+          "size": "5125x1890x1955",
+          "exteriorImages": [
+            {
+              "name": "至臻黑色",
+              "colors": [
+                "#161618"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77db720c310a34e1f0137eb9b8b26535~2508x0.webp"
+            },
+            {
+              "name": "超音速钛银色",
+              "colors": [
+                "#A5A9A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7d95982418d6b72a1f06ca05d630c17~2508x0.webp"
+            },
+            {
+              "name": "超音速石英白色",
+              "colors": [
+                "#EEEFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_386364864564a3eb3ec6d66a410badab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "峦黛曜石黑灰双色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f0269fef39fd6648914905d653bf090~2508x0.webp"
+            },
+            {
+              "name": "落雪玄砚白金双色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c8501df7b1417634c1c6a2eb8d25291~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/77db720c310a34e1f0137eb9b8b26535~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1704,
+      "carName": "LC",
+      "configs": [
+        {
+          "configName": "2023款 500h 运动版",
+          "configId": "92554",
+          "index": 0,
+          "price": "129.6万",
           "manufacturer": "雷克萨斯",
           "class": "跑车",
-          "power": "油电混动 178马力"
+          "fuelType": "油电混合",
+          "power": "3.5L 299马力 V6 油电混动",
+          "size": "4770x1920x1345",
+          "exteriorImages": [
+            {
+              "name": "超音速暮光铜色",
+              "colors": [
+                "#BA7350"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0da9b6b86dc60f9bb2fde1fa711cef4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赭石晶棕色",
+              "colors": [
+                "#916158"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98eeb5be20881f14057d4b44da80b0a7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a0da9b6b86dc60f9bb2fde1fa711cef4~2508x0.webp"
+        },
+        {
+          "configName": "2023款 500h 特别版",
+          "configId": "96718",
+          "index": 1,
+          "price": "133.6万",
+          "manufacturer": "雷克萨斯",
+          "class": "跑车",
+          "fuelType": "油电混合",
+          "power": "3.5L 299马力 V6 油电混动",
+          "size": "4770x1920x1345",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T02:45:12.913Z",
+  "progress": {
+    "completed": 12,
+    "total": 12,
+    "percentage": 100,
+    "currentIndex": 12
+  }
 }

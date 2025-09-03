@@ -3,112 +3,541 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/80569b9c40d60aedc2860a4ba3f09afd~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 8798,
       "carName": "917",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b9894a24a2674a2cb39495c1fc798d52~1200x0.png",
       "configs": [
         {
-          "configName": "猛士917 2025款 蛟龙战甲加长版",
+          "configName": "2025款 蛟龙战甲加长版",
+          "configId": "247689",
+          "index": 0,
           "price": "109.8万",
+          "manufacturer": "猛士科技",
+          "class": "大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 816马力",
           "size": "5252x2150x1999",
-          "manufacturer": "猛士科技",
-          "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "exteriorImages": [
+            {
+              "name": "梵净绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_060acd45828466824887af1b3f137c31~2508x0.webp"
+            },
+            {
+              "name": "格宗黑",
+              "colors": [
+                "#080707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5c9a1253ecd1c3675d43b2d97ae11c4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "白色/蓝色",
+              "colors": [
+                "#FFFFFF",
+                "#537893"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed72ce2df75262e4d0526d958b72a3dd~2508x0.webp"
+            },
+            {
+              "name": "白色/绿色",
+              "colors": [
+                "#FFFFFF",
+                "#CBEDCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_59bb38f0d8d11d6d1059e5d0b894f7d6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_060acd45828466824887af1b3f137c31~2508x0.webp"
         },
         {
-          "configName": "猛士917 2024款 蛟龙战甲",
+          "configName": "2024款 蛟龙战甲",
+          "configId": "110376",
+          "index": 1,
           "price": "76.8万",
-          "fuelType": "增程式",
-          "size": "5052x2150x2059",
           "manufacturer": "猛士科技",
-          "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "class": "大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 816马力",
+          "size": "5052x2150x2059",
+          "exteriorImages": [
+            {
+              "name": "梵净绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6f92bccbd4afe635484ac3edc090ec7~2508x0.webp"
+            },
+            {
+              "name": "沙漠风暴黄",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52387589437a9053b82b9f54cc069db1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影灰",
+              "colors": [
+                "#9B9999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8130598967f6b1b27f1f8113c07587e6~2508x0.webp"
+            },
+            {
+              "name": "砂岩橙",
+              "colors": [
+                "#D76C08"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc6deddbe998ae58f879ebb8760c9e10~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a6f92bccbd4afe635484ac3edc090ec7~2508x0.webp"
         },
         {
-          "configName": "猛士917 2024款 蛟龙战甲MAX",
+          "configName": "2024款 蛟龙战甲MAX",
+          "configId": "100933",
+          "index": 2,
           "price": "86.8万",
+          "manufacturer": "猛士科技",
+          "class": "大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 816马力",
           "size": "5052x2150x2059",
-          "manufacturer": "猛士科技",
-          "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "exteriorImages": [
+            {
+              "name": "梵净绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_400dbd5685d5c9fc8661bb8d7d93a55f~2508x0.webp"
+            },
+            {
+              "name": "沙漠风暴黄",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa0639272960dd66fce17de23cd80144~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影灰",
+              "colors": [
+                "#9B9999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe947a52256172cb88f4a4a72c72f8fc~2508x0.webp"
+            },
+            {
+              "name": "GEEA®冰霜",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/002c178f991774903ebd37c6d6653c24~2508x0.webp"
+            },
+            {
+              "name": "砂岩橙",
+              "colors": [
+                "#D76C08"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84aaa9e3b2397457fc240f218aaf3c30~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_400dbd5685d5c9fc8661bb8d7d93a55f~2508x0.webp"
         },
         {
-          "configName": "猛士917 2024款 高地雄狮",
+          "configName": "2024款 高地雄狮",
+          "configId": "100899",
+          "index": 3,
           "price": "69.9万",
+          "manufacturer": "猛士科技",
+          "class": "大型SUV",
           "fuelType": "增程式",
+          "power": "纯电动 816马力",
           "size": "4987x2080x1978",
-          "manufacturer": "猛士科技",
-          "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "exteriorImages": [
+            {
+              "name": "格聂黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea68582f4a689ad30d5929d23a8d4244~2508x0.webp"
+            },
+            {
+              "name": "萨普蓝",
+              "colors": [
+                "#564461"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4921b1118104560634606e73dab7d6d8~2508x0.webp"
+            },
+            {
+              "name": "亚丁灰",
+              "colors": [
+                "#818181"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b7efaa70da00114f8c7d21dfcb117422~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#E1CDB0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c9be653da5d4db08587ce97caac18e45~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影灰",
+              "colors": [
+                "#9B9999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f9889195cf4a06e773f32c6cac9b944d~2508x0.webp"
+            },
+            {
+              "name": "砂岩橙",
+              "colors": [
+                "#D76C08"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20afba8efab8652c49951333991eefcc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea68582f4a689ad30d5929d23a8d4244~2508x0.webp"
         },
         {
-          "configName": "猛士917 2023款 增程版",
+          "configName": "2023款 增程版",
+          "configId": "92841",
+          "index": 4,
           "price": "63.77万",
-          "fuelType": "增程式",
-          "size": "4987x2080x1935",
           "manufacturer": "猛士科技",
-          "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "class": "大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 816马力",
+          "size": "4987x2080x1935",
+          "exteriorImages": [
+            {
+              "name": "格聂黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41dc787ce324380a3c8ad29d22463f60~2508x0.webp"
+            },
+            {
+              "name": "梵净绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8056497033498f53a701e5a95b9f3016~2508x0.webp"
+            },
+            {
+              "name": "格宗黑",
+              "colors": [
+                "#080707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab7ed8180b5fdf06a36b6f8713b4eb48~2508x0.webp"
+            },
+            {
+              "name": "亚丁灰",
+              "colors": [
+                "#818181"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44d618f195523315a72866698c497080~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影灰",
+              "colors": [
+                "#9B9999"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac868e1f6b0d6acb1120905df8a4a7cb~2508x0.webp"
+            },
+            {
+              "name": "砂岩橙",
+              "colors": [
+                "#D76C08"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7a414b1a0cc244b94b9fd376486a4e9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/41dc787ce324380a3c8ad29d22463f60~2508x0.webp"
         },
         {
-          "configName": "猛士917 2023款 纯电版",
+          "configName": "2023款 纯电版",
+          "configId": "92842",
+          "index": 5,
           "price": "69.77万",
+          "manufacturer": "猛士科技",
+          "class": "大型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 1088马力",
           "size": "4987x2080x1935",
-          "manufacturer": "猛士科技",
-          "class": "中大型SUV",
-          "power": "纯电动 1088马力"
+          "exteriorImages": [
+            {
+              "name": "格聂黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6fd66c94aceb8d3fe77a1d1613bac56~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "砂岩橙",
+              "colors": [
+                "#D76C08"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68ef407b1f746a67e7ffb41ec6806bb8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f6fd66c94aceb8d3fe77a1d1613bac56~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "M817",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/93d871a7565f49bd8e7a22ee1812d1af~1200x0.png",
-      "configs": [
-        {
-          "configName": "猛士M817 2025款 Pro版",
-          "price": "31.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5100x1998x1919",
-          "manufacturer": "猛士科技",
-          "class": "大型SUV",
-          "power": "插电式混动 551马力"
-        },
-        {
-          "configName": "猛士M817 2025款 Max版",
-          "price": "34.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5100x1998x1899",
-          "manufacturer": "猛士科技",
-          "class": "大型SUV",
-          "power": "插电式混动 551马力"
-        }
-      ]
-    },
-    {
+      "carId": 9701,
       "carName": "M800",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/56f64b01ea314f2b8a471623a0c188c3~1200x0.png",
       "configs": [
         {
-          "configName": "猛士M800 2024款 平顶版",
+          "configName": "2024款 平顶版",
+          "configId": "240217",
+          "index": 0,
           "price": "87.9万",
-          "fuelType": "增程式",
-          "size": "5136x2172x2063",
           "manufacturer": "猛士科技",
           "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "fuelType": "增程式",
+          "power": "纯电动 816马力",
+          "size": "5136x2172x2063",
+          "exteriorImages": [
+            {
+              "name": "梵净绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_168095697f6a00ca79071b0809022e71~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "莫兰迪绿",
+              "colors": [
+                "#D3D38C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6d80b2eecb67e2db3eadd9cfd330589~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_168095697f6a00ca79071b0809022e71~2508x0.webp"
         },
         {
-          "configName": "猛士M800 2024款 高顶版",
+          "configName": "2024款 高顶版",
+          "configId": "240219",
+          "index": 1,
           "price": "97.9万",
-          "fuelType": "增程式",
-          "size": "5136x2172x2063",
           "manufacturer": "猛士科技",
           "class": "中大型SUV",
-          "power": "增程式 816马力"
+          "fuelType": "增程式",
+          "power": "纯电动 816马力",
+          "size": "5136x2172x2063",
+          "exteriorImages": [
+            {
+              "name": "梵净绿",
+              "colors": [
+                "#045404"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d28ca37e14873417b34112ae6f677fb4~2508x0.webp"
+            },
+            {
+              "name": "亚丁灰",
+              "colors": [
+                "#818181"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8012dc370390bc286d5e3d2962b8c5ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "莫兰迪绿",
+              "colors": [
+                "#D3D38C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/beac5c7bbc6d42264ac45712224afbe0~2508x0.webp"
+            },
+            {
+              "name": "爱马仕橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b83b674a27350260ff4505c9142ea2d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d28ca37e14873417b34112ae6f677fb4~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25412,
+      "carName": "M817",
+      "configs": [
+        {
+          "configName": "2025款 Pro版",
+          "configId": "249700",
+          "index": 0,
+          "price": "31.99万",
+          "manufacturer": "猛士科技",
+          "class": "大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 197马力 L4 插电式混动",
+          "size": "5100x1998x1919",
+          "exteriorImages": [
+            {
+              "name": "格宗黑",
+              "colors": [
+                "#080707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11d1b688e28e97c8a14df49686c00555~2508x0.webp"
+            },
+            {
+              "name": "秦岭绿",
+              "colors": [
+                "#4C7E4C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8b05b372d0fe376a33e860bfecfbf6be~2508x0.webp"
+            },
+            {
+              "name": "茶卡蓝",
+              "colors": [
+                "#C0D6F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_437f5fe95d45d6646233224e3c9ed0bf~2508x0.webp"
+            },
+            {
+              "name": "鸣沙黄",
+              "colors": [
+                "#E6E6C3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eb3ea382340593e7a3f72376f2d6ef75~2508x0.webp"
+            },
+            {
+              "name": "玉龙银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89ba6ff1986ac45408ecd195ee493902~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迎松墨",
+              "colors": [
+                "#3F3737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c8fd54725a9ae91bf613451bde8d576~2508x0.webp"
+            },
+            {
+              "name": "青山黛",
+              "colors": [
+                "#C4DAC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d6c428240576438b78e4be8a9a100f33~2508x0.webp"
+            },
+            {
+              "name": "丹霞棕",
+              "colors": [
+                "#DEC22E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_16c0ec762aadb94d794320023d53f773~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_11d1b688e28e97c8a14df49686c00555~2508x0.webp"
+        },
+        {
+          "configName": "2025款 Max版",
+          "configId": "247601",
+          "index": 1,
+          "price": "34.99万",
+          "manufacturer": "猛士科技",
+          "class": "大型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 197马力 L4 插电式混动",
+          "size": "5100x1998x1899",
+          "exteriorImages": [
+            {
+              "name": "格宗黑",
+              "colors": [
+                "#080707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71571f2aa077c4caa050d564be8e5856~2508x0.webp"
+            },
+            {
+              "name": "秦岭绿",
+              "colors": [
+                "#4C7E4C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d411be594de4ff07016a91a5e0dffa7b~2508x0.webp"
+            },
+            {
+              "name": "茶卡蓝",
+              "colors": [
+                "#C0D6F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8bced9afd16e4e7c55f085ed1b07b544~2508x0.webp"
+            },
+            {
+              "name": "鸣沙黄",
+              "colors": [
+                "#E6E6C3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff76536c51bc69736dcac39ae8908e84~2508x0.webp"
+            },
+            {
+              "name": "玉龙银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9224f6ab900d2603f7457406e93cf29a~2508x0.webp"
+            },
+            {
+              "name": "昆仑白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_77208edaeb2ecda313af740debfab3f4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "迎松墨",
+              "colors": [
+                "#3F3737"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9fda0fac6098222911ba9e9f0fae7e26~2508x0.webp"
+            },
+            {
+              "name": "青山黛",
+              "colors": [
+                "#C4DAC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d6beba9f8f4a3cace96ffb7dd885139~2508x0.webp"
+            },
+            {
+              "name": "丹霞棕",
+              "colors": [
+                "#DEC22E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8596e175184daea97e840554bfe28a8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71571f2aa077c4caa050d564be8e5856~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T07:26:39.768Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }

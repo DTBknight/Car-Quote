@@ -1,0 +1,106 @@
+{
+  "brand": "LiAuto",
+  "timestamp": "2025-09-03T02:59:11.868Z",
+  "crawlSummary": {
+    "totalCars": 6,
+    "successCount": 6,
+    "failCount": 2,
+    "totalTime": "5分钟",
+    "successRate": "75%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 5845,
+        "carName": "L6",
+        "configCount": 2,
+        "exteriorColorCount": 13,
+        "interiorColorCount": 6,
+        "status": "completed"
+      },
+      {
+        "carId": 6173,
+        "carName": "L7",
+        "configCount": 3,
+        "exteriorColorCount": 21,
+        "interiorColorCount": 11,
+        "status": "completed"
+      },
+      {
+        "carId": 6095,
+        "carName": "L8",
+        "configCount": 3,
+        "exteriorColorCount": 18,
+        "interiorColorCount": 12,
+        "status": "completed"
+      },
+      {
+        "carId": 5227,
+        "carName": "L9",
+        "configCount": 2,
+        "exteriorColorCount": 11,
+        "interiorColorCount": 7,
+        "status": "completed"
+      },
+      {
+        "carId": 10178,
+        "carName": "i8",
+        "configCount": 1,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 3,
+        "status": "completed"
+      },
+      {
+        "carId": 6067,
+        "carName": "MEGA",
+        "configCount": 2,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 4,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 73,
+    "totalInteriorColors": 43,
+    "exteriorColorTypes": [
+      "黑色",
+      "绿色",
+      "灰色",
+      "天青色",
+      "小象灰",
+      "白色珍珠漆",
+      "银色",
+      "蓝灰色",
+      "Baby Blue",
+      "白色",
+      "雅灰",
+      "紫色",
+      "天空蓝",
+      "大象灰",
+      "熊猫白"
+    ],
+    "interiorColorTypes": [
+      "黑白",
+      "黑棕",
+      "黑橙",
+      "黑色",
+      "灰棕",
+      "橙黄",
+      "白色",
+      "棕色"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

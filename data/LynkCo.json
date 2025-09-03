@@ -3,669 +3,3370 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/ef40e34ea01b91d1be9f49d71d0cb0b4~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "Z10",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d5a8037bfe0442488349bc4813acf4e2~1200x0.png",
-      "configs": [
-        {
-          "configName": "领克Z10 2025款 95kWh 702km四驱Halo",
-          "price": "22.98万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 789马力"
-        },
-        {
-          "configName": "领克Z10 2024款 71kWh 602km后驱Pro",
-          "price": "18.68万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "领克Z10 2024款 95kWh 766km后驱Max",
-          "price": "20.68万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "领克Z10 2024款 STARBUFF 95kWh 766km后驱",
-          "price": "21.68万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "领克Z10 2024款 95kWh 806km后驱智驾Max",
-          "price": "22.88万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1468",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 422马力"
-        },
-        {
-          "configName": "领克Z10 2024款 95kWh 702km四驱智驾Ultra",
-          "price": "26.28万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1463",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 789马力"
-        },
-        {
-          "configName": "领克Z10 2024款 STARBUFF 95kWh 680km四驱智驾",
-          "price": "28.28万",
-          "fuelType": "纯电动",
-          "size": "5028x1966x1463",
-          "manufacturer": "领克",
-          "class": "中大型车",
-          "power": "纯电动 789马力"
-        }
-      ]
-    },
-    {
-      "carName": "10 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7308e47814214569974cc3b4b871ed6e~1200x0.png",
-      "configs": []
-    },
-    {
-      "carName": "07 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b96a03e7fb3f406b8d0b85f116a9eafd~1200x0.png",
-      "configs": [
-        {
-          "configName": "领克07 EM-P 2024款 126长续航 Pro",
-          "price": "15.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4827x1900x1480",
-          "manufacturer": "领克",
-          "class": "中型车",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克07 EM-P 2024款 126长续航 Halo",
-          "price": "16.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4827x1900x1480",
-          "manufacturer": "领克",
-          "class": "中型车",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克07 EM-P 2024款 126长续航 Ultra",
-          "price": "17.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4827x1900x1480",
-          "manufacturer": "领克",
-          "class": "中型车",
-          "power": "插电式混合动力 218马力"
-        }
-      ]
-    },
-    {
+      "carId": 1623,
       "carName": "03",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/b50a367aad634c2489f4b2ddb1ac53f0~1200x0.png",
       "configs": [
         {
-          "configName": "领克03 2025款 1.5TD DCT冠军版Plus",
+          "configName": "2025款 1.5TD DCT冠军版Plus",
+          "configId": "240010",
+          "index": 0,
           "price": "12.78万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1460",
           "manufacturer": "领克",
           "class": "紧凑型车",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4684x1843x1460",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d697331da35a6fb4d01acbcfaba3d32~2508x0.webp"
+            },
+            {
+              "name": "紫色",
+              "colors": [
+                "#363143"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4876213ab20f53fc52fee457bf923342~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5244fbeb2b2f7142f4f9444a824161a5~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/139da88d94633633c64ce3e79b088eb3~2508x0.webp"
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#FFA500",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07c29021445efb79cdd975f24d46b5b8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb17242e2ba48f9aedbd10bdbf20f2aa~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#131313",
+                "#E79806"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b00f921b2511e44b1ad39e0e30cce62~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8d697331da35a6fb4d01acbcfaba3d32~2508x0.webp"
         },
         {
-          "configName": "领克03 2025款 1.5TD DCT冠军版Pro",
+          "configName": "2025款 1.5TD DCT冠军版Pro",
+          "configId": "239054",
+          "index": 1,
           "price": "13.98万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1460",
           "manufacturer": "领克",
           "class": "紧凑型车",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4684x1843x1460",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c415143094ecd85051029bbe272ab70a~2508x0.webp"
+            },
+            {
+              "name": "紫色",
+              "colors": [
+                "#363143"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6cdbb37948b8d616855365670afb3c96~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da77d9b58bcf87134d2b81eadc34de57~2508x0.webp"
+            },
+            {
+              "name": "沙丘金",
+              "colors": [
+                "#F5C660"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dde67c423fa5136b48fe9193807621b0~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed2bb9433edb8d86732b259c2b0921be~2508x0.webp"
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#FFA500",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78d759548131e79a1b6db60dee45dd65~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f4c7380a236c8ae5dd8a95220634b8a0~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#131313",
+                "#E79806"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87944a049ca420d2a63e1b5e01b6a80f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c415143094ecd85051029bbe272ab70a~2508x0.webp"
         },
         {
-          "configName": "领克03 2025款 2.0TD DCT冠军版Pro",
+          "configName": "2025款 2.0TD DCT冠军版Pro",
+          "configId": "239055",
+          "index": 2,
           "price": "15.68万",
-          "fuelType": "汽油",
-          "size": "4684x1843x1460",
           "manufacturer": "领克",
           "class": "紧凑型车",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4684x1843x1460",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/87b363d29859d57076e4922a098b5f6f~2508x0.webp"
+            },
+            {
+              "name": "紫色",
+              "colors": [
+                "#363143"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b42784143ae12ad26f21969fe7d21767~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72202a5d473d638c0c9f61685b7be313~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/497a35c6953ad271cf249d0d7c1352de~2508x0.webp"
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#FFA500",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc1cb13b85558de31e4e5810f585cc05~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44e50920b3df9463c2323b428522eb59~2508x0.webp"
+            },
+            {
+              "name": "黑色/橙色",
+              "colors": [
+                "#131313",
+                "#E79806"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85af04a42e84656973c340bf5f87a436~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/87b363d29859d57076e4922a098b5f6f~2508x0.webp"
         },
         {
-          "configName": "领克03 2025款 03+ 2.0TD 自动驭风版",
+          "configName": "2025款 03+ 2.0TD 自动驭风版",
+          "configId": "241484",
+          "index": 3,
           "price": "19.88万",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "2.0T 265马力 L4",
           "size": "4684x1843x1448",
-          "manufacturer": "领克",
-          "class": "紧凑型车",
-          "power": "2.0T 265马力 L4"
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d0edacc175c07dcf04d30ef9746b42e~2508x0.webp"
+            },
+            {
+              "name": "炫燃金",
+              "colors": [
+                "#DCB845"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3685d9011fa0b0e0d868eb6dc323e313~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e536d4b802244a6fb4b53fc2f3b2003~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7d0edacc175c07dcf04d30ef9746b42e~2508x0.webp"
         },
         {
-          "configName": "领克03 2025款 03+ 2.0TD 自动性能套装",
+          "configName": "2025款 03+ 2.0TD 自动性能套装",
+          "configId": "241485",
+          "index": 4,
           "price": "21.88万",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "2.0T 265马力 L4",
           "size": "4697x1843x1448",
-          "manufacturer": "领克",
-          "class": "紧凑型车",
-          "power": "2.0T 265马力 L4"
+          "exteriorImages": [
+            {
+              "name": "绿色",
+              "colors": [
+                "#348619"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d080f7332530c02a5d15909cbd71975b~2508x0.webp"
+            },
+            {
+              "name": "炫燃金",
+              "colors": [
+                "#DCB845"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6301e5ac01f47080ba632b68506edf7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6395326049eb15470d14cb794f6beb7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d080f7332530c02a5d15909cbd71975b~2508x0.webp"
         },
         {
-          "configName": "领克03 2025款 03+ 2.0TD 自动性能进阶版",
+          "configName": "2025款 03+ 2.0TD 自动性能进阶版",
+          "configId": "248407",
+          "index": 5,
           "price": "23.88万",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "2.0T 309马力 L4",
           "size": "4679x1843x1456",
-          "manufacturer": "领克",
-          "class": "紧凑型车",
-          "power": "2.0T 309马力 L4"
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5c2050e1f146851b4a31455d3a28fd8~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#348619"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a94e38bc68064754a1f75015bce10a3~2508x0.webp"
+            },
+            {
+              "name": "炫燃金",
+              "colors": [
+                "#DCB845"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e251269fbc09492e51c80353f9d9e339~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_29a6248061b8740cd0e80f716f689e71~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5c2050e1f146851b4a31455d3a28fd8~2508x0.webp"
         },
         {
-          "configName": "领克03 2023款 1.5T EM-F PM",
-          "price": "15.98万",
-          "fuelType": "油电混合",
-          "size": "4684x1843x1460",
-          "manufacturer": "领克",
-          "class": "紧凑型车",
-          "power": "油电混动 136马力"
-        },
-        {
-          "configName": "领克03 2023款 03+ Racing 四驱版",
+          "configName": "2023款 03+ Racing 四驱版",
+          "configId": "89556",
+          "index": 6,
           "price": "28.58万",
+          "manufacturer": "领克",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "2.0T 350马力 L4",
           "size": "4697x1843x1456",
-          "manufacturer": "领克",
-          "class": "紧凑型车",
-          "power": "2.0T 350马力 L4"
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe0d18765e269010f555648a5f585b4f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/142c6e906ee282ca1adad9f248cbab9a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fe0d18765e269010f555648a5f585b4f~2508x0.webp"
         },
         {
-          "configName": "领克03 2023款 03+ TCR Cyan 前驱版",
+          "configName": "2023款 03+ TCR Cyan 前驱版",
+          "configId": "94195",
+          "index": 7,
           "price": "42.03万",
-          "fuelType": "汽油",
-          "size": "4720x1877x1446",
           "manufacturer": "领克",
           "class": "紧凑型车",
-          "power": "2.0T 350马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 350马力 L4",
+          "size": "4720x1877x1446",
+          "exteriorImages": [
+            {
+              "name": "Cyan蓝",
+              "colors": [
+                "#51A0E9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3ef62499b8efde197d1d2ddf0e07aa89~2508x0.webp"
+            },
+            {
+              "name": "炫燃金",
+              "colors": [
+                "#DCB845"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78500ec2d1848874dbd837b9e6e1e7bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cd8d2fa89e4830433141b3805f38e2e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3ef62499b8efde197d1d2ddf0e07aa89~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "Z20",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c75ed0f53976405a824725fcbd4b22f2~1200x0.png",
+      "carId": 4370,
+      "carName": "07 EM-P",
       "configs": [
         {
-          "configName": "领克Z20 2026款 430km 后驱Plus",
-          "price": "10.99万",
-          "fuelType": "纯电动",
-          "size": "4460x1845x1573",
+          "configName": "2024款 126长续航 Pro",
+          "configId": "100092",
+          "index": 0,
+          "price": "15.98万",
           "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "纯电动 238马力"
+          "class": "中型车",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4827x1900x1480",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95c1a4a890914b54d1b3bf298c864f72~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d4d4451549dd4845144352740cd9645~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝",
+              "colors": [
+                "#94AEB2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad80a31b05cb9ce83f7703db7ab119b0~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9b425cce47d138b48ae5ef801505450~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f0a6aaa401df56790d25a58a8176150~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/287e1858252498c146c5b148c52e40d0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/95c1a4a890914b54d1b3bf298c864f72~2508x0.webp"
         },
         {
-          "configName": "领克Z20 2026款 430km 后驱Pro",
-          "price": "12.19万",
-          "fuelType": "纯电动",
-          "size": "4460x1845x1573",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "纯电动 238马力"
-        },
-        {
-          "configName": "领克Z20 2025款 530km 后驱Pro",
-          "price": "13.59万",
-          "fuelType": "纯电动",
-          "size": "4460x1845x1573",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "纯电动 340马力"
-        },
-        {
-          "configName": "领克Z20 2025款 530km 后驱Max",
-          "price": "14.59万",
-          "fuelType": "纯电动",
-          "size": "4460x1845x1573",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "纯电动 340马力"
-        },
-        {
-          "configName": "领克Z20 2025款 530km 后驱Max逐日版",
-          "price": "15.09万",
-          "fuelType": "纯电动",
-          "size": "4460x1845x1573",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "纯电动 340马力"
-        }
-      ]
-    },
-    {
-      "carName": "01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4e874cc635cc45679c7ebb8256294f8f~1200x0.png",
-      "configs": [
-        {
-          "configName": "领克01 2025款 2.0TD 两驱焕新版",
-          "price": "14.98万",
-          "fuelType": "汽油",
-          "size": "4549x1860x1689",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
-        },
-        {
-          "configName": "领克01 2025款 2.0TD 两驱焕新Pro版",
-          "price": "16.58万",
-          "fuelType": "汽油",
-          "size": "4549x1860x1689",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
-        },
-        {
-          "configName": "领克01 2025款 2.0TD 四驱焕新Pro版",
-          "price": "18.18万",
-          "fuelType": "汽油",
-          "size": "4549x1860x1689",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
-        },
-        {
-          "configName": "领克01 2024款 2.0TD 两驱全球版",
-          "price": "15.58万",
-          "fuelType": "汽油",
-          "size": "4549x1860x1689",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
-        },
-        {
-          "configName": "领克01 2024款 2.0TD 两驱全球Pro",
+          "configName": "2024款 126长续航 Halo",
+          "configId": "96122",
+          "index": 1,
           "price": "16.98万",
-          "fuelType": "汽油",
-          "size": "4549x1860x1689",
           "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
+          "class": "中型车",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4827x1900x1480",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6298cfd93a55193a0db86a5b95e1739~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef9c4f78ba00a95ee993e85eb5e3ffb9~2508x0.webp"
+            },
+            {
+              "name": "旷晶绿",
+              "colors": [
+                "#709341"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_621a82b6cf37f55e71dab672d48f7cc1~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝",
+              "colors": [
+                "#94AEB2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69bcc086ac67c0fb353b172073946932~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3c3ce06eaeb1dc4404167bc0af62e89~2508x0.webp"
+            },
+            {
+              "name": "浮光紫",
+              "colors": [
+                "#D7D3E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d343dcf0ad896bf1114bfa194c66e99~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54228de6a7827700d3f3ab1c2b804cc2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2b6e4ac2d3fdb88f72418bc6c30b41e~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13591e545cf6a773ffd3d163b4d65cd0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a6298cfd93a55193a0db86a5b95e1739~2508x0.webp"
         },
         {
-          "configName": "领克01 2024款 2.0TD 四驱劲Halo",
+          "configName": "2024款 126长续航 Ultra",
+          "configId": "100093",
+          "index": 2,
+          "price": "17.98万",
+          "manufacturer": "领克",
+          "class": "中型车",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4827x1900x1480",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61e8d3a500a714a08682288fa7c3cce9~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/956797c02bfcaff6b2bc057589db95f4~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝",
+              "colors": [
+                "#94AEB2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c59d2014c598f786dbb4ecd781f38bd~2508x0.webp"
+            },
+            {
+              "name": "浮光紫",
+              "colors": [
+                "#D7D3E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e0fc8c41b17594f1aa8bf9b761f3c0a~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a69a2d0bdee3b56439dfac769025d1d6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7314e39a60034295507dbfa1effd2438~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e048da21ae204bbfeee7218ca580522~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/61e8d3a500a714a08682288fa7c3cce9~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4666,
+      "carName": "Z10",
+      "configs": [
+        {
+          "configName": "2025款 95kWh 702km四驱Halo",
+          "configId": "242957",
+          "index": 0,
+          "price": "22.98万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 789马力",
+          "size": "5028x1966x1468",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce8442525d9b51a2ce4a51ff60519043~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6161867f758df7b43b5d2337f183421e~2508x0.webp"
+            },
+            {
+              "name": "流体灰",
+              "colors": [
+                "#7E858A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_91ac3ef8969d2904dc11eea57a6119ab~2508x0.webp"
+            },
+            {
+              "name": "曜日银/黑色",
+              "colors": [
+                "#CCCBBA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_77a43db62e19582a7d1d2c76b84b46b6~2508x0.webp"
+            },
+            {
+              "name": "朝霞红/黑色",
+              "colors": [
+                "#CD6262",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_24dc61f0485232a787e1464bb6f6ef64~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "破晓",
+              "colors": [
+                "#B8B7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc41c6222edc3493d049278a39428efe~2508x0.webp"
+            },
+            {
+              "name": "清晨",
+              "colors": [
+                "#F1F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c8f6bf90b49729c39bf640cf0f53841~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ce8442525d9b51a2ce4a51ff60519043~2508x0.webp"
+        },
+        {
+          "configName": "2024款 71kWh 602km后驱Pro",
+          "configId": "110308",
+          "index": 1,
+          "price": "18.68万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5028x1966x1468",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7759b59be18a9670fc99124c4be1ae4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "清晨",
+              "colors": [
+                "#F1F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfc530038b256366c3379c9432d9d6c7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b7759b59be18a9670fc99124c4be1ae4~2508x0.webp"
+        },
+        {
+          "configName": "2024款 95kWh 766km后驱Max",
+          "configId": "239300",
+          "index": 2,
+          "price": "20.68万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5028x1966x1468",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b9288154338f785f732730ebf2e351c~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b807e1154f5bdd46f7b961c3d4951b9~2508x0.webp"
+            },
+            {
+              "name": "流体灰",
+              "colors": [
+                "#7E858A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/211317551251d57d51f005e39e71071a~2508x0.webp"
+            },
+            {
+              "name": "流体灰/黑色",
+              "colors": [
+                "#7E858A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdd2a0cd4065b76add1734a5853ac82f~2508x0.webp"
+            },
+            {
+              "name": "朝霞红/黑色",
+              "colors": [
+                "#CD6262",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96b87afa0c74ec3b2fd855c1c6e82513~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "破晓",
+              "colors": [
+                "#B8B7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e72ec9a588d5114d2b78cae5bd05994~2508x0.webp"
+            },
+            {
+              "name": "清晨",
+              "colors": [
+                "#F1F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6dd723abe1e4520e0f69b90b91047c1b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b9288154338f785f732730ebf2e351c~2508x0.webp"
+        },
+        {
+          "configName": "2024款 STARBUFF 95kWh 766km后驱",
+          "configId": "240552",
+          "index": 3,
+          "price": "21.68万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5028x1966x1468",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 95kWh 806km后驱智驾Max",
+          "configId": "110309",
+          "index": 4,
+          "price": "22.88万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "5028x1966x1468",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a867a3c6927fbf474f6344949ba49a9c~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee349a8abf23d718bf54a06e3f1017f4~2508x0.webp"
+            },
+            {
+              "name": "流体灰",
+              "colors": [
+                "#7E858A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35cd123abe885a87454913dcf427d12e~2508x0.webp"
+            },
+            {
+              "name": "流体灰/黑色",
+              "colors": [
+                "#7E858A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_beacbe4f2a57832aa49fe1814090dae9~2508x0.webp"
+            },
+            {
+              "name": "曜日银/黑色",
+              "colors": [
+                "#CCCBBA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a82072927375f27291bc1224dac3f06~2508x0.webp"
+            },
+            {
+              "name": "朝霞红/黑色",
+              "colors": [
+                "#CD6262",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9e2dead6ad912d8f2c8b71d8791c715~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "破晓",
+              "colors": [
+                "#B8B7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9086eb1948caaed30f29a386badec74~2508x0.webp"
+            },
+            {
+              "name": "清晨",
+              "colors": [
+                "#F1F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb4f7fa66c2fbd84d90db043137069c1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a867a3c6927fbf474f6344949ba49a9c~2508x0.webp"
+        },
+        {
+          "configName": "2024款 95kWh 702km四驱智驾Ultra",
+          "configId": "100988",
+          "index": 5,
+          "price": "26.28万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 789马力",
+          "size": "5028x1966x1463",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a003a22bac7402979b45dfefce17c02~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63865d1721f9054951343fca1ecfa764~2508x0.webp"
+            },
+            {
+              "name": "流体灰",
+              "colors": [
+                "#7E858A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7bc7151fffd1594eb840f3c877584b33~2508x0.webp"
+            },
+            {
+              "name": "流体灰/黑色",
+              "colors": [
+                "#7E858A",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d5c7476490db16da1059a29d82775391~2508x0.webp"
+            },
+            {
+              "name": "曜日银/黑色",
+              "colors": [
+                "#CCCBBA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94b746cddad9389fe7d2f2f51aed4740~2508x0.webp"
+            },
+            {
+              "name": "朝霞红/黑色",
+              "colors": [
+                "#CD6262",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c46f7cacf08b273f4d8f78eb4e551eff~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "破晓",
+              "colors": [
+                "#B8B7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a305dc5783bbe841a9e84a18a59280e0~2508x0.webp"
+            },
+            {
+              "name": "清晨",
+              "colors": [
+                "#F1F7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f05d7180113e12c3ce6296e7ff610d70~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8a003a22bac7402979b45dfefce17c02~2508x0.webp"
+        },
+        {
+          "configName": "2024款 STARBUFF 95kWh 680km四驱智驾",
+          "configId": "240914",
+          "index": 6,
+          "price": "28.28万",
+          "manufacturer": "领克",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 789马力",
+          "size": "5028x1966x1463",
+          "exteriorImages": [
+            {
+              "name": "朝霞红/黑色",
+              "colors": [
+                "#CD6262",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14fac3192080deaf687c013c1116137f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "能量蓝",
+              "colors": [
+                "#3E3EF4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/606cd5cfb877ba8130fd0b2f8fab85c7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/14fac3192080deaf687c013c1116137f~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1622,
+      "carName": "01",
+      "configs": [
+        {
+          "configName": "2025款 2.0TD 两驱焕新版",
+          "configId": "249113",
+          "index": 0,
+          "price": "14.98万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_151afd23c77ffbb409061db430f62d59~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b844b22318bcb2fbf21615572d3e8977~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1076c9f48da242b64b975515748a0141~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e1c7deb2e5274e5902ad2ee3fd4db71~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_151afd23c77ffbb409061db430f62d59~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0TD 两驱焕新Pro版",
+          "configId": "248960",
+          "index": 1,
+          "price": "16.58万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d03a720d6a49af1a98c7cd0d24c0264~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#348619"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_51a6ce258bb754b1b5f2e615c93637f0~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6a993d61b47146961d1cd4a7e6d121fe~2508x0.webp"
+            },
+            {
+              "name": "夜影蓝",
+              "colors": [
+                "#55707A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d4963dd143416cc83226ad5bcf28ba0c~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbbdf8473a73f01813aa1a713cc2769c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1544a8d1d59624807706cd85217703fe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d03a720d6a49af1a98c7cd0d24c0264~2508x0.webp"
+        },
+        {
+          "configName": "2025款 2.0TD 四驱焕新Pro版",
+          "configId": "249114",
+          "index": 2,
+          "price": "18.18万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d984aad2de797bb3bb959750cdffb33~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_08cdc6fab1caaee500b94d694b9f57c5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d984aad2de797bb3bb959750cdffb33~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0TD 两驱全球版",
+          "configId": "100035",
+          "index": 3,
+          "price": "15.58万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61eb19902a885e99ab620f50c3edb680~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e5a14fa940653592593ce6662c18c39~2508x0.webp"
+            },
+            {
+              "name": "趣野绿",
+              "colors": [
+                "#A9B8A9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f1c9ae5962c24413dc4aa5620b4525c~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16336181545b6f8dcfb1fda33ff3b2f1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/034fd1d61224db2e1483b3bbee0cb475~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/61eb19902a885e99ab620f50c3edb680~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0TD 两驱全球Pro",
+          "configId": "100041",
+          "index": 4,
+          "price": "16.98万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4b82e5a34a26189fafbaacc16fae655~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4a091137980a4d4146e5816a3578cb46~2508x0.webp"
+            },
+            {
+              "name": "趣野绿",
+              "colors": [
+                "#A9B8A9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb17a7ba07d2ddeac76516a0e214041a~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c6b4bd931e15c7f447a2acefbf72350~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f41dae12ad4e634c887e7abbc4f0a179~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b4b82e5a34a26189fafbaacc16fae655~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0TD 四驱劲Halo",
+          "configId": "100043",
+          "index": 5,
           "price": "18.98万",
-          "fuelType": "汽油",
-          "size": "4549x1860x1689",
           "manufacturer": "领克",
           "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da14803ed208c33075d4640f52907f4b~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fc57ad36887e9017d15f4619d5bd688~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e9652c83409b41dc5a426fb2b9db377~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/da14803ed208c33075d4640f52907f4b~2508x0.webp"
         },
         {
-          "configName": "领克01 2024款 2.0TD 四驱暗夜版",
+          "configName": "2024款 2.0TD 四驱暗夜版",
+          "configId": "100044",
+          "index": 6,
           "price": "19.68万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
           "size": "4549x1860x1689",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a236b747747c445b816cfc3f360e9fbe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a815e582ea5046a4bb53d761150239f3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a236b747747c445b816cfc3f360e9fbe~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "05",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a0d397940999417bad372d48e8b3231c~1200x0.png",
-      "configs": [
-        {
-          "configName": "领克05 2023款 2.0TD 两驱耀Halo",
-          "price": "18.88万",
-          "fuelType": "汽油",
-          "size": "4592x1879x1628",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
-        },
-        {
-          "configName": "领克05 2023款 2.0TD 四驱劲Halo",
-          "price": "20.28万",
-          "fuelType": "汽油",
-          "size": "4592x1879x1628",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 254马力 L4"
-        },
-        {
-          "configName": "领克05 2023款 05+ 2.0TD 探索版",
-          "price": "22.68万",
-          "fuelType": "汽油",
-          "size": "4614x1879x1628",
-          "manufacturer": "领克",
-          "class": "紧凑型SUV",
-          "power": "2.0T 265马力 L4"
-        }
-      ]
-    },
-    {
+      "carId": 2883,
       "carName": "01 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/79782a91dfba82f7c2e541ea4c565bbc~1200x0.png",
       "configs": [
         {
-          "configName": "领克01 EM-P 2023款 1.5TD EM-P AM",
+          "configName": "2023款 1.5TD EM-P AM",
+          "configId": "76133",
+          "index": 0,
           "price": "19.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4549x1860x1689",
           "manufacturer": "领克",
           "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L3 插电式混动",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47a94a6fd8fbef5d020c907e09e937eb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f4ae1d8befb9a9e13d623d4ea53b4e5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/47a94a6fd8fbef5d020c907e09e937eb~2508x0.webp"
         },
         {
-          "configName": "领克01 EM-P 2023款 1.5TD EM-P PM",
+          "configName": "2023款 1.5TD EM-P PM",
+          "configId": "77290",
+          "index": 1,
           "price": "21.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4549x1860x1689",
           "manufacturer": "领克",
           "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L3 插电式混动",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb25f59b890031fc690b6d2474fabe6f~2508x0.webp"
+            },
+            {
+              "name": "暮云灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df0262f96dd1c17676dafff85e185f0a~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/992abf31cb3393495dadc5f2bcb22ba5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c270d0366c5f1a85f155111f024e3585~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bb25f59b890031fc690b6d2474fabe6f~2508x0.webp"
         },
         {
-          "configName": "领克01 EM-P 2023款 1.5TD EM-P 晨曦版",
+          "configName": "2023款 1.5TD EM-P 晨曦版",
+          "configId": "77291",
+          "index": 2,
           "price": "22.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4549x1860x1689",
           "manufacturer": "领克",
           "class": "紧凑型SUV",
-          "power": "插电式混动 136马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L3 插电式混动",
+          "size": "4549x1860x1689",
+          "exteriorImages": [
+            {
+              "name": "拂晓蓝",
+              "colors": [
+                "#DDE7F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/acdc626ab4671fad8ebd7fea15ba273c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#131313",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4af8e7a8aba6b03593bf3561a58fd61b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/acdc626ab4671fad8ebd7fea15ba273c~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "05 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ce85f9c89ea6402da82629c02a5ef87b~1200x0.png",
+      "carId": 24535,
+      "carName": "Z20",
       "configs": [
         {
-          "configName": "领克05 EM-P 2023款  EM-P 1.5TD PM",
-          "price": "22.38万",
-          "fuelType": "插电式混合动力",
+          "configName": "2026款 430km 后驱Plus",
+          "configId": "250129",
+          "index": 0,
+          "price": "10.99万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4460x1845x1573",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 430km 后驱Pro",
+          "configId": "248716",
+          "index": 1,
+          "price": "12.19万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4460x1845x1573",
+          "exteriorImages": [
+            {
+              "name": "斐济绿",
+              "colors": [
+                "#577269"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7ca1d398bbabde9e767e9351a298d35~2508x0.webp"
+            },
+            {
+              "name": "冰岛灰",
+              "colors": [
+                "#949DA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3408f4db3e6fd07f7c2d642ed7f9c366~2508x0.webp"
+            },
+            {
+              "name": "科莫多粉",
+              "colors": [
+                "#AD939F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8fe821200320fa6627c5f612da7c2da6~2508x0.webp"
+            },
+            {
+              "name": "西西里米",
+              "colors": [
+                "#DCCEC5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9fc2d1a22f85d8ad8025d93299b5f9a3~2508x0.webp"
+            },
+            {
+              "name": "格陵兰白",
+              "colors": [
+                "#E1E1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5103ae6f7ac6e517074014701f0f4721~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#A8A8A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f33ab6d68b7b6e248bf1bada3b1af743~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_917749e554367a20ef076252a841f4d9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7ca1d398bbabde9e767e9351a298d35~2508x0.webp"
+        },
+        {
+          "configName": "2025款 530km 后驱Pro",
+          "configId": "242450",
+          "index": 2,
+          "price": "13.59万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4460x1845x1573",
+          "exteriorImages": [
+            {
+              "name": "东极蓝",
+              "colors": [
+                "#72809A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfd621e79425eb68f02ddbb0d2864eb1~2508x0.webp"
+            },
+            {
+              "name": "波多黎各红",
+              "colors": [
+                "#8A1742"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6497f0ed31c7173d8884094a98b3903a~2508x0.webp"
+            },
+            {
+              "name": "冰岛灰",
+              "colors": [
+                "#949DA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aea76036663e402a34810b5902450bd1~2508x0.webp"
+            },
+            {
+              "name": "科莫多粉",
+              "colors": [
+                "#AD939F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2aba9069f97177e78e852223648f510~2508x0.webp"
+            },
+            {
+              "name": "西西里米",
+              "colors": [
+                "#DCCEC5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de6dd52cae60810a81decb9e9631ef3f~2508x0.webp"
+            },
+            {
+              "name": "格陵兰白",
+              "colors": [
+                "#E1E1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6dfa014e983e55c85f2cffbd740c693b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#A8A8A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8db8524fdcadebf07665590f4734aed~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cd4b6cec63f30726295e65147165f2f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cfd621e79425eb68f02ddbb0d2864eb1~2508x0.webp"
+        },
+        {
+          "configName": "2025款 530km 后驱Max",
+          "configId": "238672",
+          "index": 3,
+          "price": "14.59万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4460x1845x1573",
+          "exteriorImages": [
+            {
+              "name": "东极蓝",
+              "colors": [
+                "#72809A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/056711834cae903da7b18a17941f0593~2508x0.webp"
+            },
+            {
+              "name": "波多黎各红",
+              "colors": [
+                "#8A1742"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf554f6089852a6884d600df24a70780~2508x0.webp"
+            },
+            {
+              "name": "冰岛灰",
+              "colors": [
+                "#949DA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fddd65a2b90f0ccfb534440e635fcf79~2508x0.webp"
+            },
+            {
+              "name": "科莫多粉",
+              "colors": [
+                "#AD939F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9c118dbd5af45f3526007bf2dfc7bca~2508x0.webp"
+            },
+            {
+              "name": "西西里米",
+              "colors": [
+                "#DCCEC5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fe5bc4369a7482513f603145c80eeb6~2508x0.webp"
+            },
+            {
+              "name": "格陵兰白",
+              "colors": [
+                "#E1E1E1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c0efdd6283f4d52812cc80a4495e090~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#A8A8A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2257c558b7b2aa068b05b744b7e8b00e~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#EBEBEB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b75c466ceecf9fb1adc8229d686fc8a9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/056711834cae903da7b18a17941f0593~2508x0.webp"
+        },
+        {
+          "configName": "2025款 530km 后驱Max逐日版",
+          "configId": "242534",
+          "index": 4,
+          "price": "15.09万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4460x1845x1573",
+          "exteriorImages": [
+            {
+              "name": "波多黎各红",
+              "colors": [
+                "#8A1742"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c9f6219f5ed8b47a69570fe52d37684~2508x0.webp"
+            },
+            {
+              "name": "冰岛灰",
+              "colors": [
+                "#949DA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a254059bdca6da64c10bb9496ecb1bb4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#A8A8A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fe26b74f4c7c0e10cdca7e85949a8f57~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3c9f6219f5ed8b47a69570fe52d37684~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3463,
+      "carName": "05",
+      "configs": [
+        {
+          "configName": "2023款 2.0TD 两驱耀Halo",
+          "configId": "87326",
+          "index": 0,
+          "price": "18.88万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
           "size": "4592x1879x1628",
+          "exteriorImages": [
+            {
+              "name": "极地青/黑色",
+              "colors": [
+                "#0F6016",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13b311967fe92503d0235fd415a5b61f~2508x0.webp"
+            },
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18e359e51a9762249bb8c609c4d29760~2508x0.webp"
+            },
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#525E66",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69fb9521d2e8e9fe07f0678495a2dc09~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#FCFBF9",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f409e3903df9573365a444faa6d4ad7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d27003c265a2022f37a9ab4875a670d6~2508x0.webp"
+            },
+            {
+              "name": "黑色/绿色",
+              "colors": [
+                "#131313",
+                "#0C740C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d220c9a536f12eb5f47abdeeaf3f2bf9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/13b311967fe92503d0235fd415a5b61f~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0TD 四驱劲Halo",
+          "configId": "87368",
+          "index": 1,
+          "price": "20.28万",
           "manufacturer": "领克",
           "class": "紧凑型SUV",
-          "power": "插电式混合动力 136马力"
+          "fuelType": "汽油",
+          "power": "2.0T 254马力 L4",
+          "size": "4592x1879x1628",
+          "exteriorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#525E66",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a85c8e76be04a386d914112c95c155e6~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#FCFBF9",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e0d08eea822f5d610ae2c282ffcc39b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e8204f502fd445603dfce08c16c1724~2508x0.webp"
+            },
+            {
+              "name": "黑色/绿色",
+              "colors": [
+                "#131313",
+                "#0C740C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/171e7108f96042a36dc54740d8a3ea0b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a85c8e76be04a386d914112c95c155e6~2508x0.webp"
+        },
+        {
+          "configName": "2023款 05+ 2.0TD 探索版",
+          "configId": "87267",
+          "index": 2,
+          "price": "22.68万",
+          "manufacturer": "领克",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 265马力 L4",
+          "size": "4614x1879x1628",
+          "exteriorImages": [
+            {
+              "name": "绿色/黑色",
+              "colors": [
+                "#116A29",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1cebfa325380c2727c38aa7aca0fcb1f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fd6e085b51df819430b1504b40f6ccc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1cebfa325380c2727c38aa7aca0fcb1f~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "06 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e1608fe950164835ab94176b7669ff0e~1200x0.png",
+      "carId": 4156,
+      "carName": "05 EM-P",
       "configs": [
         {
-          "configName": "领克06 EM-P 2025款 EM-P 126长续航Max",
-          "price": "14.78万",
-          "fuelType": "插电式混合动力",
-          "size": "4350x1820x1625",
+          "configName": "2023款  EM-P 1.5TD PM",
+          "configId": "76134",
+          "index": 0,
+          "price": "22.38万",
           "manufacturer": "领克",
-          "class": "小型SUV",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克06 EM-P 2025款 EM-P 126长续航Halo",
-          "price": "15.68万",
+          "class": "紧凑型SUV",
           "fuelType": "插电式混合动力",
-          "size": "4350x1820x1625",
-          "manufacturer": "领克",
-          "class": "小型SUV",
-          "power": "插电式混合动力 218马力"
+          "power": "1.5T 150马力 L3 插电式混动",
+          "size": "4592x1879x1628",
+          "exteriorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#525E66",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e904f8817b53ad7dd5a8b1207adc6c2d~2508x0.webp"
+            },
+            {
+              "name": "暮光紫",
+              "colors": [
+                "#8B85A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fcc8dc9ed77e1b093014bce6008779d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5890babcf499795acb682b0057898b43~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e904f8817b53ad7dd5a8b1207adc6c2d~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "08 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1f64eece36064d869797d01a638c2b78~1200x0.png",
-      "configs": [
-        {
-          "configName": "领克08 EM-P 2025款 120长续航Plus",
-          "price": "18.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685",
-          "manufacturer": "领克",
-          "class": "中型SUV",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 120长续航Pro",
-          "price": "19.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685",
-          "manufacturer": "领克",
-          "class": "中型SUV",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 120长续航Halo",
-          "price": "20.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685",
-          "manufacturer": "领克",
-          "class": "中型SUV",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 245超长续航Pro",
-          "price": "21.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685",
-          "manufacturer": "领克",
-          "class": "中型SUV",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 245超长续航Halo",
-          "price": "22.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685",
-          "manufacturer": "领克",
-          "class": "中型SUV",
-          "power": "插电式混合动力 218马力"
-        },
-        {
-          "configName": "领克08 EM-P 2025款 220四驱性能Halo",
-          "price": "24.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4820x1915x1685",
-          "manufacturer": "领克",
-          "class": "中型SUV",
-          "power": "插电式混合动力 430马力"
-        }
-      ]
-    },
-    {
+      "carId": 4342,
       "carName": "06",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f33839bbeb914bf48dd61b8624233d63~1200x0.png",
       "configs": [
         {
-          "configName": "领克06 2026款 Relive 1.5T Max",
+          "configName": "2026款 Relive 1.5T Max",
+          "configId": "250467",
+          "index": 0,
           "price": "11.76万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625",
           "manufacturer": "领克",
           "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "极地灰",
+              "colors": [
+                "#D5D5D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4911e2f317ea392390ec7a5bc50f60f5~2508x0.webp"
+            },
+            {
+              "name": "落樱粉",
+              "colors": [
+                "#F0D5E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e4b6df4e253b46b026a8dc62f6fffca7~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#F7F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c5f98c8c772282d5eb29527866541d9~2508x0.webp"
+            },
+            {
+              "name": "沙丘米/黑色",
+              "colors": [
+                "#F7F5F5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_684d0911b8da8854595dadc3ebcc4439~2508x0.webp"
+            },
+            {
+              "name": "银盐白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5e0329beb0dbc09c7fd4e91587b4f5c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_acccce697f909ce7d526c61e8356e3f3~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#FFC0CB",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_08b2376a15d60214c09e3aa8a0f45ea5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4911e2f317ea392390ec7a5bc50f60f5~2508x0.webp"
         },
         {
-          "configName": "领克06 2026款 Relive 1.5T Ultra",
+          "configName": "2026款 Relive 1.5T Ultra",
+          "configId": "250195",
+          "index": 1,
           "price": "12.96万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625",
           "manufacturer": "领克",
           "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "森珀绿/黑色",
+              "colors": [
+                "#7C9181",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_835ce62ec344579e84405921a7040e44~2508x0.webp"
+            },
+            {
+              "name": "Shero紫/黑色",
+              "colors": [
+                "#B591CB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_059d35320abbf01df0355792ddcf237c~2508x0.webp"
+            },
+            {
+              "name": "极地灰/黑色",
+              "colors": [
+                "#D5D5D5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a90822492cc8eff58d76e01aa547129~2508x0.webp"
+            },
+            {
+              "name": "落樱粉/黑色",
+              "colors": [
+                "#F0D5E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_68b77263c0b5df310e8eb34724e5938e~2508x0.webp"
+            },
+            {
+              "name": "沙丘米/黑色",
+              "colors": [
+                "#F7F5F5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d472a862a7ba7b13ac93f82ce17b494a~2508x0.webp"
+            },
+            {
+              "name": "银盐白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1da53588e9c2cf35f97dce76d01aac5d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_076f77fa57e63a518ca262e66acb03d9~2508x0.webp"
+            },
+            {
+              "name": "紫色/蓝色",
+              "colors": [
+                "#9794B7",
+                "#505860"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_74bb41e863004f8197bcbd9c7e76501a~2508x0.webp"
+            },
+            {
+              "name": "灰色/绿色",
+              "colors": [
+                "#B0B2B1",
+                "#6F838F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d0e4f486fd83325bdd3e9620b186845~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#FFC0CB",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5f4e4f8c88b51d141a6652f2edd0eb7e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_835ce62ec344579e84405921a7040e44~2508x0.webp"
         },
         {
-          "configName": "领克06 2025款 Renew 1.5T Plus",
+          "configName": "2025款 Renew 1.5T Plus",
+          "configId": "240943",
+          "index": 2,
           "price": "10.86万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625",
           "manufacturer": "领克",
           "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4350x1820x1625",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "领克06 2025款 Renew 1.5T Pro",
+          "configName": "2025款 Renew 1.5T Pro",
+          "configId": "240944",
+          "index": 3,
           "price": "11.86万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625",
           "manufacturer": "领克",
           "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "极地灰",
+              "colors": [
+                "#D5D5D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/818400a54effb31a298b9d5fb11d19bf~2508x0.webp"
+            },
+            {
+              "name": "极地灰/黑色",
+              "colors": [
+                "#D5D5D5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c805ae5b840278ab26f54e73ca1eb02~2508x0.webp"
+            },
+            {
+              "name": "落樱粉",
+              "colors": [
+                "#F0D5E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ca5a0bdc04ebc34b026c4ed3788f4ee~2508x0.webp"
+            },
+            {
+              "name": "落樱粉/黑色",
+              "colors": [
+                "#F0D5E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c60a426b4e0760c2827f4eeb3450a02~2508x0.webp"
+            },
+            {
+              "name": "沙丘米",
+              "colors": [
+                "#F7F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64e6b400a36a43b1c0b5548ea6a044d1~2508x0.webp"
+            },
+            {
+              "name": "沙丘米/黑色",
+              "colors": [
+                "#F7F5F5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d1944d78435c2dbe0a6de39fc13c9e9~2508x0.webp"
+            },
+            {
+              "name": "银盐白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2a8097b856c0658c31738419b243b70~2508x0.webp"
+            },
+            {
+              "name": "银盐白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1a67f64a093b9f0c1b63dc506f67388~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8db2fe67058dad626860e8e7dcfc468b~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#FFC0CB",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6be5438c51a37cca6a16249a01ca9f6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/818400a54effb31a298b9d5fb11d19bf~2508x0.webp"
         },
         {
-          "configName": "领克06 2025款 Renew 1.5T Halo",
+          "configName": "2025款 Renew 1.5T Halo",
+          "configId": "240945",
+          "index": 4,
           "price": "12.86万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625",
           "manufacturer": "领克",
           "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "极光绿/黑色",
+              "colors": [
+                "#617661",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db6e608e88435ada1836450d66a1c808~2508x0.webp"
+            },
+            {
+              "name": "极地灰/黑色",
+              "colors": [
+                "#D5D5D5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5b23dca19c4aba4ec2b94c94515b7c6~2508x0.webp"
+            },
+            {
+              "name": "落樱粉/黑色",
+              "colors": [
+                "#F0D5E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce9b08f4b7e3ecaeea65529ba243a217~2508x0.webp"
+            },
+            {
+              "name": "沙丘米/黑色",
+              "colors": [
+                "#F7F5F5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/363c80a1b644e3a9fc44c110f75547d5~2508x0.webp"
+            },
+            {
+              "name": "银盐白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1456414162db7860b22a26ef062aade8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/332a2464c1d60b9f55e9eca35fa0ea93~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#FFC0CB",
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/13c371fc3a54cc18fa94a408a57d1d7c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db6e608e88435ada1836450d66a1c808~2508x0.webp"
         },
         {
-          "configName": "领克06 2025款 Renew 1.5T Shero特别版",
+          "configName": "2025款 Renew 1.5T Shero特别版",
+          "configId": "247015",
+          "index": 5,
           "price": "12.98万",
-          "fuelType": "汽油",
-          "size": "4350x1820x1625",
           "manufacturer": "领克",
           "class": "小型SUV",
-          "power": "1.5T 181马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "Shero紫/黑色",
+              "colors": [
+                "#B591CB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_328f28fc00ba349426f3c5fc51274095~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫色/蓝色",
+              "colors": [
+                "#9794B7",
+                "#505860"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_536348f5d1ade898dea397c6cfcc55f3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_328f28fc00ba349426f3c5fc51274095~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4340,
+      "carName": "06 EM-P",
+      "configs": [
+        {
+          "configName": "2025款 EM-P 126长续航Max",
+          "configId": "240946",
+          "index": 0,
+          "price": "14.78万",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 118马力 L4 插电式混动",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "极地灰",
+              "colors": [
+                "#D5D5D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ada7b9d52ba13168a693aa56a75f2353~2508x0.webp"
+            },
+            {
+              "name": "极地灰/黑色",
+              "colors": [
+                "#D5D5D5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/438c30512d4818f22ce81ea20d8031c8~2508x0.webp"
+            },
+            {
+              "name": "落樱粉",
+              "colors": [
+                "#F0D5E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/390af0711c03457c4b2d7d4b6c107b45~2508x0.webp"
+            },
+            {
+              "name": "沙丘米/黑色",
+              "colors": [
+                "#F7F5F5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba42de07ce22d374e3bb826596c2c102~2508x0.webp"
+            },
+            {
+              "name": "银盐白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b99406af740ceb12ec4a8978a05a3821~2508x0.webp"
+            },
+            {
+              "name": "银盐白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bedd855c5160c537a5d91a95fd1dde93~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2139e460bf472aa87eadddd30c8fd863~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#FFC0CB",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/838dc3ea57a3b25eb222bfe17dc7a7d5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ada7b9d52ba13168a693aa56a75f2353~2508x0.webp"
+        },
+        {
+          "configName": "2025款 EM-P 126长续航Halo",
+          "configId": "240947",
+          "index": 1,
+          "price": "15.68万",
+          "manufacturer": "领克",
+          "class": "小型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 118马力 L4 插电式混动",
+          "size": "4350x1820x1625",
+          "exteriorImages": [
+            {
+              "name": "极光绿/黑色",
+              "colors": [
+                "#617661",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0a5b39b082508f39e089c5c3c4f77be~2508x0.webp"
+            },
+            {
+              "name": "极地灰/黑色",
+              "colors": [
+                "#D5D5D5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bdcaf263fdc5c607bbc453b9c3504c3f~2508x0.webp"
+            },
+            {
+              "name": "落樱粉/黑色",
+              "colors": [
+                "#F0D5E8",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e8cdd8ba02b743dddbbdebcc9dd96349~2508x0.webp"
+            },
+            {
+              "name": "沙丘米/黑色",
+              "colors": [
+                "#F7F5F5",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/adae2907282d86cb6fe933bea5277dbe~2508x0.webp"
+            },
+            {
+              "name": "银盐白/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b520ff6f7255cca397c40ace8e34f712~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0cdb6d932195f3f8bc8b081bcdf029f8~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#FFC0CB",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b23be32c3c47a6bbdfde65cd7f4ecd4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e0a5b39b082508f39e089c5c3c4f77be~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 8796,
+      "carName": "08 EM-P",
+      "configs": [
+        {
+          "configName": "2025款 120长续航Plus",
+          "configId": "239165",
+          "index": 0,
+          "price": "18.58万",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4820x1915x1685",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca6c59194a76a630c0783b61ce7e9190~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3efd39d566658bb323ae230ef3c9d405~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4265817ec79352221a9e539ff547de45~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7d8cce8263b5e821e0cce2ef1203a83~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ca6c59194a76a630c0783b61ce7e9190~2508x0.webp"
+        },
+        {
+          "configName": "2025款 120长续航Pro",
+          "configId": "239152",
+          "index": 1,
+          "price": "19.58万",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4820x1915x1685",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4aa2db3b0613a21bacf82a39cc2f6ba3~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3558d5c3d55588b9919096b9c6eafa65~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60dd27314174c5205ab3b7b8dd5f58aa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf47f52e31da81a416fd8d745cb77576~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4aa2db3b0613a21bacf82a39cc2f6ba3~2508x0.webp"
+        },
+        {
+          "configName": "2025款 120长续航Halo",
+          "configId": "239153",
+          "index": 2,
+          "price": "20.58万",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4820x1915x1685",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/196b706599f3dd6b0f14fc6c0dc572a8~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/25ae53e67a0c82aaed2a457b46cfd692~2508x0.webp"
+            },
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#525E66",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84192dac39a161867155282714b85fa3~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba7ac194b066b478a4312d0c7c2ff42b~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de771c39a261f8be23d99702450a436b~2508x0.webp"
+            },
+            {
+              "name": "曜日银/黑色",
+              "colors": [
+                "#CCCBBA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8fa9e8f14b02af268b4103d1dab4bfba~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/835fae72344575a4e7eef3ae8830bd14~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/196b706599f3dd6b0f14fc6c0dc572a8~2508x0.webp"
+        },
+        {
+          "configName": "2025款 245超长续航Pro",
+          "configId": "239166",
+          "index": 3,
+          "price": "21.58万",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4820x1915x1685",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fd65e9b85eae83fdf89ff236a5ceab4f~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36fedb89deb1a4fdcc66324996af1403~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34ffa14c5160f7b031e3e7e7a0de6684~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73bd1f5879f3c09dc32c701bedf2b8c6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fd65e9b85eae83fdf89ff236a5ceab4f~2508x0.webp"
+        },
+        {
+          "configName": "2025款 245超长续航Halo",
+          "configId": "239154",
+          "index": 4,
+          "price": "22.58万",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4820x1915x1685",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8559f5652340f9145dbb332e5dc8f858~2508x0.webp"
+            },
+            {
+              "name": "旷晶绿/黑色",
+              "colors": [
+                "#405A40",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c6fc0c9c0efd8f753554de80f4827c4~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b5143095d1dc9aae29d254642c8bc74~2508x0.webp"
+            },
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#525E66",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/301e60b67c7d77eb7e9f2d312131dbc5~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb085ea6b5ea4a9e33ec09d5a7f781ba~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9e8f3a34a89ccddec460d18bb9106802~2508x0.webp"
+            },
+            {
+              "name": "曜日银/黑色",
+              "colors": [
+                "#CCCBBA",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07f8bd6a685d0dd5ceb92b2a8cbbe303~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5df9648f91cbffbd8f453171bc62b44c~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F9FAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d725db507bf4fbe2e89d4f2040844f16~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8559f5652340f9145dbb332e5dc8f858~2508x0.webp"
+        },
+        {
+          "configName": "2025款 220四驱性能Halo",
+          "configId": "239155",
+          "index": 5,
+          "price": "24.88万",
+          "manufacturer": "领克",
+          "class": "中型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 163马力 L4 插电式混动",
+          "size": "4820x1915x1685",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/901c650086e7bead954758819d1a63fe~2508x0.webp"
+            },
+            {
+              "name": "旷晶绿/黑色",
+              "colors": [
+                "#405A40",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b016cb6c71caaaeb4636dc8f748b689d~2508x0.webp"
+            },
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#525E66",
+                "#131313"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58605bdba487953a38b53340d651cf50~2508x0.webp"
+            },
+            {
+              "name": "晨曦蓝/黑色",
+              "colors": [
+                "#6196C2",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c5432238bbc2dd14eb0828e8565a076e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "曙光棕/黑色",
+              "colors": [
+                "#B34E14",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e59589f47a1a15df9dfa4c2621cd3e5a~2508x0.webp"
+            },
+            {
+              "name": "曜日银/黑色",
+              "colors": [
+                "#CCCBBA",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/45ccebd72db337ac5a9b65756c1e08fe~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2C2C2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86c7668be09384770f81d62201c6f10b~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#F9FAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e85f11114217d28187333e51c69c0598~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/901c650086e7bead954758819d1a63fe~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5081,
       "carName": "09",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/983570e325894c458f5ab0709b05a144~1200x0.png",
       "configs": [
         {
-          "configName": "领克09 2024款 2.0T 四驱运动版",
+          "configName": "2024款 2.0T 四驱运动版",
+          "configId": "240451",
+          "index": 0,
           "price": "25.88万",
-          "fuelType": "48V轻混系统",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 254马力 L4 48V轻混系统",
+          "size": "5042x1977x1780",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d7296517835d2d3db7c8d45a97c6dbd~2508x0.webp"
+            },
+            {
+              "name": "蓝色",
+              "colors": [
+                "#7586A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e25c57731a6c97deb25b8fd3832034d~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96cdc7ce8ffe248ec5049db12cd344bc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d99d243d286abe25d440fd506c042dc7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0d7296517835d2d3db7c8d45a97c6dbd~2508x0.webp"
         },
         {
-          "configName": "领克09 2024款 2.0T 四驱全球版",
+          "configName": "2024款 2.0T 四驱全球版",
+          "configId": "100578",
+          "index": 1,
           "price": "26.58万",
+          "manufacturer": "领克",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "2.0T 254马力 L4 48V轻混系统",
           "size": "5042x1977x1780",
-          "manufacturer": "领克",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7878dd90a11763b0ac24f2a056e70a16~2508x0.webp"
+            },
+            {
+              "name": "蓝色",
+              "colors": [
+                "#7586A4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b892091e84f8787ab7e0b4554c34e3d2~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b252aee8ad3fa7c458ce157cc260fc86~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5502790be693b09396e9cacb49a8ec95~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7878dd90a11763b0ac24f2a056e70a16~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5283,
       "carName": "09 EM-P",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3cc61acfed7443e38f0b198e1eb080e7~1200x0.png",
       "configs": [
         {
-          "configName": "领克09 EM-P 2025款 EM-P 2.0TD 五座MAX",
+          "configName": "2025款 EM-P 2.0TD 五座MAX",
+          "configId": "247035",
+          "index": 0,
           "price": "27.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": "插电式混动 348马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5042x1977x1780",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a1d2779bb7fad81ca5aa38f91600f39~2508x0.webp"
+            },
+            {
+              "name": "绿色",
+              "colors": [
+                "#348619"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01615487a799132b325f42beee44fbdc~2508x0.webp"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#525E66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06b870dc351f550137c093979fd60beb~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b90b36ec88c5558a354f9768d1b1541~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bee7dc8e29b82a817c9953317ad11cee~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a1d2779bb7fad81ca5aa38f91600f39~2508x0.webp"
         },
         {
-          "configName": "领克09 EM-P 2024款 EM-P 2.0TD  七座PLUS",
+          "configName": "2024款 EM-P 2.0TD  七座PLUS",
+          "configId": "96924",
+          "index": 1,
           "price": "30.78万",
-          "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": "插电式混动 348马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5042x1977x1780",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "领克09 EM-P 2024款 EM-P 2.0TD 七座PRO",
+          "configName": "2024款 EM-P 2.0TD 七座PRO",
+          "configId": "96925",
+          "index": 2,
           "price": "31.78万",
-          "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": "插电式混动 348马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5042x1977x1780",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4217207d8a85bca5417b6c81e7853ec~2508x0.webp"
+            },
+            {
+              "name": "松林绿",
+              "colors": [
+                "#265D26"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17488019fd5569b1d9fae2f1baede146~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3102425e39b9c4d8d221272ceb9fea5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e26c2e272a986ca84c89b6c24cba890~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a4217207d8a85bca5417b6c81e7853ec~2508x0.webp"
         },
         {
-          "configName": "领克09 EM-P 2024款 EM-P 2.0TD 六座HALO",
+          "configName": "2024款 EM-P 2.0TD 六座HALO",
+          "configId": "96926",
+          "index": 3,
           "price": "32.78万",
-          "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": "插电式混动 348马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5042x1977x1780",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c6d23b565e7fc4b794130dbecb2e1f4~2508x0.webp"
+            },
+            {
+              "name": "松林绿",
+              "colors": [
+                "#265D26"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26815607b9c808a36608499a78224d48~2508x0.webp"
+            },
+            {
+              "name": "暮光紫",
+              "colors": [
+                "#8B85A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be0907a05fe17637b0c76601accda783~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d1d2dfc4e09106bae269189d7343ece7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9612fe188c1d465a730cda935985f52a~2508x0.webp"
+            },
+            {
+              "name": "象牙米",
+              "colors": [
+                "#E2E2E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/67ca9fb4bc6f96499066a37aae5dda3f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9c6d23b565e7fc4b794130dbecb2e1f4~2508x0.webp"
         },
         {
-          "configName": "领克09 EM-P 2024款 EM-P 2.0TD 六座ULTRA",
+          "configName": "2024款 EM-P 2.0TD 六座ULTRA",
+          "configId": "96927",
+          "index": 4,
           "price": "34.78万",
-          "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": "插电式混动 348马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5042x1977x1780",
+          "exteriorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#131312"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/acebedf41b8a950a6f6846ae9c0af612~2508x0.webp"
+            },
+            {
+              "name": "松林绿",
+              "colors": [
+                "#265D26"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca581b7f7bf6e9973361b67fe50c9d21~2508x0.webp"
+            },
+            {
+              "name": "暮光紫",
+              "colors": [
+                "#8B85A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c4ce51b55ad7caf43e8b7c147ec36c3~2508x0.webp"
+            },
+            {
+              "name": "星辰紫",
+              "colors": [
+                "#A6A1A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3d02cfced4c87736676878c1f3223b9~2508x0.webp"
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FCFBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51f3bf01bffe785ab69d8edc638545b3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/745f81439eb8489a6cf4fea898dece58~2508x0.webp"
+            },
+            {
+              "name": "象牙米",
+              "colors": [
+                "#E2E2E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bf587b88b1c77567f5372ec8e276f7c6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/acebedf41b8a950a6f6846ae9c0af612~2508x0.webp"
         },
         {
-          "configName": "领克09 EM-P 2023款 EM-P 2.0TD 亚运行政版 五座",
+          "configName": "2023款 EM-P 2.0TD 亚运行政版 五座",
+          "configId": "90298",
+          "index": 5,
           "price": "28.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5042x1977x1780",
           "manufacturer": "领克",
           "class": "中大型SUV",
-          "power": "插电式混合动力 177马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混合动力",
+          "size": "5042x1977x1780",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#0606BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c48cfae19eea0056c3b25b739d2c1a16~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#BC875D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b70a4d5853b463358b930fde936dcaa6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c48cfae19eea0056c3b25b739d2c1a16~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 25161,
       "carName": "900",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7c92add77ed3484bbb0c7f319be60373~1200x0.png",
       "configs": [
         {
-          "configName": "领克900 2025款 1.5T Halo",
+          "configName": "2025款 1.5T Halo",
+          "configId": "246332",
+          "index": 0,
           "price": "30.99万",
+          "manufacturer": "领克",
+          "class": "大型SUV",
           "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
           "size": "5240x1999x1800",
-          "manufacturer": "领克",
-          "class": "大型SUV",
-          "power": "插电式混动 530马力"
+          "exteriorImages": [
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_784e704dd1916241b2569502ccd50079~2508x0.webp"
+            },
+            {
+              "name": "拂晓白",
+              "colors": [
+                "#F9F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d66b28afef72ca9d575529e9b2972914~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "赤霞橘",
+              "colors": [
+                "#B2750B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e62d07913cab9428ddbd4859967bd720~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_784e704dd1916241b2569502ccd50079~2508x0.webp"
         },
         {
-          "configName": "领克900 2025款 1.5T Ultra",
+          "configName": "2025款 1.5T Ultra",
+          "configId": "244344",
+          "index": 1,
           "price": "33.69万",
-          "fuelType": "插电式混合动力",
-          "size": "5240x1999x1810",
           "manufacturer": "领克",
           "class": "大型SUV",
-          "power": "插电式混动 530马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 194马力 L4 插电式混动",
+          "size": "5240x1999x1810",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_301cdea07f002168e440dc750786d370~2508x0.webp"
+            },
+            {
+              "name": "晨晖蓝",
+              "colors": [
+                "#445367"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9fda534e6e8eef6f0a28e79b69d5bc1c~2508x0.webp"
+            },
+            {
+              "name": "云晞灰",
+              "colors": [
+                "#777777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1a6fbb51a6e5cda7391a84c7b97b0ba6~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_47788496ffeabeed0088fefefda3799c~2508x0.webp"
+            },
+            {
+              "name": "拂晓白",
+              "colors": [
+                "#F9F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bba7e3e0984f62b574c7044b1112bb59~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#7D98A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d171a8f7fec599253e8933e41722bd7e~2508x0.webp"
+            },
+            {
+              "name": "赤霞橘",
+              "colors": [
+                "#B2750B"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_b39300947c4610a3a95609bed7da9cef~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "日光米",
+              "colors": [
+                "#FBFAF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a234694243c9cb3f3923d3b3d58f793a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_301cdea07f002168e440dc750786d370~2508x0.webp"
         },
         {
-          "configName": "领克900 2025款 2.0T Ultra",
+          "configName": "2025款 2.0T Ultra",
+          "configId": "246392",
+          "index": 2,
           "price": "36.69万",
-          "fuelType": "插电式混合动力",
-          "size": "5240x1999x1810",
           "manufacturer": "领克",
           "class": "大型SUV",
-          "power": "插电式混动 480马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5240x1999x1810",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e2b5e16d41c85c855973dbd470058d9~2508x0.webp"
+            },
+            {
+              "name": "晨晖蓝",
+              "colors": [
+                "#445367"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f769b3d3ee002196466d8804f1e9fdc8~2508x0.webp"
+            },
+            {
+              "name": "云晞灰",
+              "colors": [
+                "#777777"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c04581d948b0df5d084f2db06e8b881~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54f2bcf6c8efb74b2c694d65770b755c~2508x0.webp"
+            },
+            {
+              "name": "拂晓白",
+              "colors": [
+                "#F9F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78121dfda23783ce8b7bc62203921ac6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#7D98A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55e08995fde2020f159ef23fae058199~2508x0.webp"
+            },
+            {
+              "name": "赤霞橘",
+              "colors": [
+                "#B2750B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bc881941406868e2537b2b6d98a8f6c~2508x0.webp"
+            },
+            {
+              "name": "日光米",
+              "colors": [
+                "#FBFAF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0f7bd209f8da4d49a168d2d229b0d249~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6e2b5e16d41c85c855973dbd470058d9~2508x0.webp"
         },
         {
-          "configName": "领克900 2025款 2.0T 探索版",
+          "configName": "2025款 2.0T 探索版",
+          "configId": "246575",
+          "index": 3,
           "price": "41.69万",
-          "fuelType": "插电式混合动力",
-          "size": "5240x1999x1810",
           "manufacturer": "领克",
           "class": "大型SUV",
-          "power": "插电式混动 630马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 254马力 L4 插电式混动",
+          "size": "5240x1999x1810",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a34e5f0da5b659a4e5fb9b8d318b8c8f~2508x0.webp"
+            },
+            {
+              "name": "晨晖蓝",
+              "colors": [
+                "#445367"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_506ff81fe400c6a3a862fdf179c7d81d~2508x0.webp"
+            },
+            {
+              "name": "曜日银",
+              "colors": [
+                "#CCCBBA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_93ee575d327a7a2c00e4c6cfb86ef0b3~2508x0.webp"
+            },
+            {
+              "name": "拂晓白",
+              "colors": [
+                "#F9F8F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e19e4580256a9065bf53d97ac2a4390b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜蓝",
+              "colors": [
+                "#7D98A0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9850afab924592460c0ed46a32b82307~2508x0.webp"
+            },
+            {
+              "name": "赤霞橘",
+              "colors": [
+                "#B2750B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b680ff18dac2630b4b19601735e01fb~2508x0.webp"
+            },
+            {
+              "name": "日光米",
+              "colors": [
+                "#FBFAF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_69f784d759cf5c96ab2f327c8d218fba~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a34e5f0da5b659a4e5fb9b8d318b8c8f~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T04:33:04.807Z",
+  "progress": {
+    "completed": 14,
+    "total": 15,
+    "percentage": 93,
+    "currentIndex": 15
+  }
 }

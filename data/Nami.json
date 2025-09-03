@@ -3,131 +3,849 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/d76ab376af94443997a5ad66699a3dc0~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "纳米01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2b1b5defe4234678b6a433f6c023637f~1200x0.png",
+      "carName": "纳米06",
       "configs": [
         {
-          "configName": "纳米01 2025款 330km 青春版",
-          "price": "6.58万",
-          "fuelType": "纯电动",
-          "size": "4020x1810x1570",
+          "configName": "2025款 401 Air",
+          "configId": "247973",
+          "index": 0,
+          "price": "8.99万",
           "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4306x1868x1645",
+          "exteriorImages": [
+            {
+              "name": "油彩黄",
+              "colors": [
+                "#D9D997"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2803d46918246e400b69064ed39bf41b~2508x0.webp"
+            },
+            {
+              "name": "踏浪白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a7a116ad06d622941d7f53af25a1ecd1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "有智灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9930c44fc8424f5d193a7b1fb8fe8e91~2508x0.webp"
+            },
+            {
+              "name": "好有米",
+              "colors": [
+                "#ECECCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ef5a8996e8a4d6260864e5a45f4dafe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2803d46918246e400b69064ed39bf41b~2508x0.webp"
         },
         {
-          "configName": "纳米01 2024款 焕新版 330 Air",
-          "price": "7.58万",
-          "fuelType": "纯电动",
-          "size": "4020x1810x1570",
+          "configName": "2025款 401 Pro",
+          "configId": "247974",
+          "index": 1,
+          "price": "9.99万",
           "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4306x1868x1645",
+          "exteriorImages": [
+            {
+              "name": "漫野绿",
+              "colors": [
+                "#97A095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c22429e7acc94e74b9d19f2bbe769ba3~2508x0.webp"
+            },
+            {
+              "name": "扶光橙",
+              "colors": [
+                "#D89926"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff985405042454ad64d8f0f9e7d11669~2508x0.webp"
+            },
+            {
+              "name": "油彩黄",
+              "colors": [
+                "#D9D997"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6effceaf7d7a09bdc0e050e4673b215~2508x0.webp"
+            },
+            {
+              "name": "星砂银",
+              "colors": [
+                "#E2E3F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0cf0dc439f7b5d78a1b7026af2c48ed2~2508x0.webp"
+            },
+            {
+              "name": "踏浪白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c4fbf73523a3b6a6a0045b4446d4442~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "放青松",
+              "colors": [
+                "#B5D7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4ef5ba748235075ddb2b0a591c10d18b~2508x0.webp"
+            },
+            {
+              "name": "有智灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7c2ef22c22fcca05291e607653faf942~2508x0.webp"
+            },
+            {
+              "name": "好有米",
+              "colors": [
+                "#ECECCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_64a05d24a6d830a9f1a0884ce3e8dc62~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c22429e7acc94e74b9d19f2bbe769ba3~2508x0.webp"
         },
         {
-          "configName": "纳米01 2024款 焕新版 330 Plus智+",
-          "price": "8.28万",
-          "fuelType": "纯电动",
-          "size": "4020x1810x1570",
+          "configName": "2025款 401 Ultra",
+          "configId": "247975",
+          "index": 2,
+          "price": "10.99万",
           "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4306x1868x1645",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "纳米01 2024款 焕新版 430 Plus智+",
-          "price": "9.28万",
-          "fuelType": "纯电动",
-          "size": "4020x1810x1570",
+          "configName": "2025款 471 Pro",
+          "configId": "247976",
+          "index": 3,
+          "price": "10.99万",
           "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4306x1868x1645",
+          "exteriorImages": [
+            {
+              "name": "漫野绿",
+              "colors": [
+                "#97A095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ddbc3ed436846a9c607ba21fff7a2460~2508x0.webp"
+            },
+            {
+              "name": "扶光橙",
+              "colors": [
+                "#D89926"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_727b02577dc0457f2f456f332a22a22b~2508x0.webp"
+            },
+            {
+              "name": "油彩黄",
+              "colors": [
+                "#D9D997"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a26f4c260ade41abbc5443051cb33bcd~2508x0.webp"
+            },
+            {
+              "name": "星砂银",
+              "colors": [
+                "#E2E3F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ee975ea69a18453e3d3a452b1950146~2508x0.webp"
+            },
+            {
+              "name": "踏浪白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3afb6b03d1a263116d21d5f2b7595ae4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "放青松",
+              "colors": [
+                "#B5D7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7418535c247feff46d9220448ea33857~2508x0.webp"
+            },
+            {
+              "name": "有智灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8e450e2f235202e5eeeeed35029d88b7~2508x0.webp"
+            },
+            {
+              "name": "好有米",
+              "colors": [
+                "#ECECCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71fd5cd676c10ce06f713a412d47fcf2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ddbc3ed436846a9c607ba21fff7a2460~2508x0.webp"
         },
         {
-          "configName": "纳米01 2024款 焕新版 430 Max智+",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "4020x1810x1570",
+          "configName": "2025款 471 Ultra",
+          "configId": "247977",
+          "index": 4,
+          "price": "11.99万",
           "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "纳米01 2024款 共创ME版",
-          "price": "8.58万",
+          "class": "小型SUV",
           "fuelType": "纯电动",
-          "size": "4073x1810x1570",
-          "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "纳米01 2024款 共创YOU版",
-          "price": "9.48万",
-          "fuelType": "纯电动",
-          "size": "4073x1810x1570",
-          "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
-        },
-        {
-          "configName": "纳米01 2024款 共创WE版",
-          "price": "10.18万",
-          "fuelType": "纯电动",
-          "size": "4073x1810x1570",
-          "manufacturer": "东风汽车",
-          "class": "小型车",
-          "power": "纯电动 95马力"
+          "power": "纯电动 184马力",
+          "size": "4306x1868x1645",
+          "exteriorImages": [
+            {
+              "name": "漫野绿",
+              "colors": [
+                "#97A095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea120301b1f96707cea630b4423de906~2508x0.webp"
+            },
+            {
+              "name": "扶光橙",
+              "colors": [
+                "#D89926"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a313224befc688d4607f5dbb913497ce~2508x0.webp"
+            },
+            {
+              "name": "油彩黄",
+              "colors": [
+                "#D9D997"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7ef3d0d792a6de015964dbf1c7b7aee8~2508x0.webp"
+            },
+            {
+              "name": "星砂银",
+              "colors": [
+                "#E2E3F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fe3db852e73490e312487152c7f3b175~2508x0.webp"
+            },
+            {
+              "name": "踏浪白",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05b4c097a5e7f94f00b1e9b8f77d5304~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "放青松",
+              "colors": [
+                "#B5D7B5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a3f760ffd36cdaf85e0786d7b2d5948~2508x0.webp"
+            },
+            {
+              "name": "有智灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f9c3cccd4c10967eff93386291fc525~2508x0.webp"
+            },
+            {
+              "name": "好有米",
+              "colors": [
+                "#ECECCB"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_5626361a7c22ba9908cd040584c5fd74~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea120301b1f96707cea630b4423de906~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "纳米06",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3bdcdd7f1d3347728b383bc0bc8095dd~1200x0.png",
+      "carName": "纳米01",
       "configs": [
         {
-          "configName": "纳米06 2025款 401 Air",
-          "price": "8.99万",
-          "fuelType": "纯电动",
-          "size": "4306x1868x1645",
+          "configName": "2025款 330km 青春版",
+          "configId": "243267",
+          "index": 0,
+          "price": "6.58万",
           "manufacturer": "东风汽车",
-          "class": "小型SUV",
-          "power": "纯电动 184马力"
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4020x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3abbe69d1eed5e01eeef9b1fe8da5a4d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6a17e2fe8d1d94ec64cc39a0da9115a5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3abbe69d1eed5e01eeef9b1fe8da5a4d~2508x0.webp"
         },
         {
-          "configName": "纳米06 2025款 401 Pro",
-          "price": "9.99万",
-          "fuelType": "纯电动",
-          "size": "4306x1868x1645",
+          "configName": "2024款 焕新版 330 Air",
+          "configId": "240048",
+          "index": 1,
+          "price": "7.58万",
           "manufacturer": "东风汽车",
-          "class": "小型SUV",
-          "power": "纯电动 184马力"
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4020x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "悠然蓝",
+              "colors": [
+                "#53C4E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa84466bbb4b94373f9c1387b282e853~2508x0.webp"
+            },
+            {
+              "name": "心悦黄",
+              "colors": [
+                "#B7E640"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9834614518ffefacf06e93b1c36d4396~2508x0.webp"
+            },
+            {
+              "name": "千金粉/无忧白",
+              "colors": [
+                "#CEA2C0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d686d40ad702aadc83f2d3b48d329678~2508x0.webp"
+            },
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3434cfe5711090af03d78b727a6d8f66~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd2010074506f78acd61b6c5f010ebb7~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94eb1ddc1d7888b8d8d1c6b24626ff0b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa84466bbb4b94373f9c1387b282e853~2508x0.webp"
         },
         {
-          "configName": "纳米06 2025款 401 Ultra",
-          "price": "10.99万",
-          "fuelType": "纯电动",
-          "size": "4306x1868x1645",
+          "configName": "2024款 焕新版 330 Plus智+",
+          "configId": "240049",
+          "index": 2,
+          "price": "8.28万",
           "manufacturer": "东风汽车",
-          "class": "小型SUV",
-          "power": "纯电动 184马力"
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4020x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "悠然蓝",
+              "colors": [
+                "#53C4E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec19015c60a7ab0f8377a12011dad7c7~2508x0.webp"
+            },
+            {
+              "name": "悠然蓝/无忧白",
+              "colors": [
+                "#53C4E0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b7f31abf4905ce81999554913e8118f~2508x0.webp"
+            },
+            {
+              "name": "幻想紫/无忧白",
+              "colors": [
+                "#B253ED",
+                "#FFFFFF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/20e515cb17b543a20b4debd45099a783~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "心悦黄",
+              "colors": [
+                "#B7E640"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd5675993c013cee195c46528235091a~2508x0.webp"
+            },
+            {
+              "name": "心悦黄/无忧白",
+              "colors": [
+                "#B7E640",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9927adc1393cf4739f3577adb54f5a71~2508x0.webp"
+            },
+            {
+              "name": "千金粉/无忧白",
+              "colors": [
+                "#CEA2C0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75a2206cc142eba97ce37165004efefa~2508x0.webp"
+            },
+            {
+              "name": "属你红/无忧白",
+              "colors": [
+                "#D05656",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aedf5456ccf70c6af17eca4e41ba7fe2~2508x0.webp"
+            },
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/837ac7ce61a29cf8122752d87bcddaab~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/def0e54d7566996e12a9c78d4e97e63d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/紫色",
+              "colors": [
+                "#000000",
+                "#C88CED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/147e84a110e2fc1c1a428f4c819d620c~2508x0.webp"
+            },
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d771d8001940e8a0200a82fbf8f90316~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6acef4e80e0359921c875b2beec68216~2508x0.webp"
+            },
+            {
+              "name": "红色/米色",
+              "colors": [
+                "#A87272",
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/359717beeb985e1effacb74b2fa8c0c8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec19015c60a7ab0f8377a12011dad7c7~2508x0.webp"
         },
         {
-          "configName": "纳米06 2025款 471 Pro",
-          "price": "10.99万",
-          "fuelType": "纯电动",
-          "size": "4306x1868x1645",
+          "configName": "2024款 焕新版 430 Plus智+",
+          "configId": "240050",
+          "index": 3,
+          "price": "9.28万",
           "manufacturer": "东风汽车",
-          "class": "小型SUV",
-          "power": "纯电动 184马力"
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4020x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "悠然蓝",
+              "colors": [
+                "#53C4E0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c9b1eaff6c701e24d301219eb580a74~2508x0.webp"
+            },
+            {
+              "name": "悠然蓝/无忧白",
+              "colors": [
+                "#53C4E0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5bd8585ce8bf9d0acfbdbf1e441df29c~2508x0.webp"
+            },
+            {
+              "name": "幻想紫/无忧白",
+              "colors": [
+                "#B253ED",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e66750d0e0082be94e41658e2fd6d4fc~2508x0.webp"
+            },
+            {
+              "name": "心悦黄",
+              "colors": [
+                "#B7E640"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd4f1548c9646b29e37f9a727e575f1e~2508x0.webp"
+            },
+            {
+              "name": "心悦黄/无忧白",
+              "colors": [
+                "#B7E640",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c12266e412d6e194919ed3bb949a9e7~2508x0.webp"
+            },
+            {
+              "name": "千金粉/无忧白",
+              "colors": [
+                "#CEA2C0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a9d56893740b2665351b82650a6dc13~2508x0.webp"
+            },
+            {
+              "name": "属你红/无忧白",
+              "colors": [
+                "#D05656",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/038545fe8d5707f899cafa4bb9456c56~2508x0.webp"
+            },
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc86cb5b9d51643c456293e894b49801~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/647bf1c1341d981bf475af5efa87b570~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/紫色",
+              "colors": [
+                "#000000",
+                "#C88CED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/744f89f4fcc1cef0ac0fcf24c55d0585~2508x0.webp"
+            },
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/99f6374f67f684fa81c4c4dd2d7e4783~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d4dedd6a402ddda68e466661fd99f97~2508x0.webp"
+            },
+            {
+              "name": "红色/米色",
+              "colors": [
+                "#A87272",
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5075958cfba902b8a84928d660afb4a5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1c9b1eaff6c701e24d301219eb580a74~2508x0.webp"
         },
         {
-          "configName": "纳米06 2025款 471 Ultra",
-          "price": "11.99万",
-          "fuelType": "纯电动",
-          "size": "4306x1868x1645",
+          "configName": "2024款 焕新版 430 Max智+",
+          "configId": "240051",
+          "index": 4,
+          "price": "9.98万",
           "manufacturer": "东风汽车",
-          "class": "小型SUV",
-          "power": "纯电动 184马力"
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4020x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "悠然蓝/无忧白",
+              "colors": [
+                "#53C4E0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ce064bd8fd8788bc74d7b3766c0d3fb~2508x0.webp"
+            },
+            {
+              "name": "幻想紫/无忧白",
+              "colors": [
+                "#B253ED",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b026bd6c00100711dacce2b3d4cd87f4~2508x0.webp"
+            },
+            {
+              "name": "千金粉/无忧白",
+              "colors": [
+                "#CEA2C0",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fadff804a2f70032da33a83c8bd25b6f~2508x0.webp"
+            },
+            {
+              "name": "属你红/无忧白",
+              "colors": [
+                "#D05656",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a18d7a86d7a7c624ddd8442ba717b846~2508x0.webp"
+            },
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/75dd70ab629eb65b34695ccf95d3aa2e~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/346e2733550373de2a76bf75fc175b3c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/紫色",
+              "colors": [
+                "#000000",
+                "#C88CED"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0de72a3751e2853642258a953dfb8efa~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b454a2b6a96ea1338e2d8a97030f8be9~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/faf061aede3dd3312a82858c8028609b~2508x0.webp"
+            },
+            {
+              "name": "红色/米色",
+              "colors": [
+                "#A87272",
+                "#F2F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5063329d02afed16479f1418dc989d4f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ce064bd8fd8788bc74d7b3766c0d3fb~2508x0.webp"
+        },
+        {
+          "configName": "2024款 共创ME版",
+          "configId": "240052",
+          "index": 5,
+          "price": "8.58万",
+          "manufacturer": "东风汽车",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4073x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/53b73802967c1010c9177cbeb182d52e~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e5febd29b9f3aa6c93452eaa1300515~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0f5f8f25ca2fe75e5fe92b33c5c66038~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83ae035447df37d61450246a1e68530a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/53b73802967c1010c9177cbeb182d52e~2508x0.webp"
+        },
+        {
+          "configName": "2024款 共创YOU版",
+          "configId": "240053",
+          "index": 6,
+          "price": "9.48万",
+          "manufacturer": "东风汽车",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4073x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5cdd1878e054f2692ebfaea12154a287~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/878ef0702b4b2195a57c6c8a9f1229c1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b306770e2a5a8c664dd5f3a74e4e65de~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/844af9574365c2d3b57f9302439205eb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5cdd1878e054f2692ebfaea12154a287~2508x0.webp"
+        },
+        {
+          "configName": "2024款 共创WE版",
+          "configId": "243409",
+          "index": 7,
+          "price": "10.18万",
+          "manufacturer": "东风汽车",
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 95马力",
+          "size": "4073x1810x1570",
+          "exteriorImages": [
+            {
+              "name": "一定银",
+              "colors": [
+                "#E2EDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4b9937ce4d0768594bacdcffe7c6cf1d~2508x0.webp"
+            },
+            {
+              "name": "无忧白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b834516f67ed38379d5d074565fb2872~2508x0.webp"
+            },
+            {
+              "name": "黑色/白色",
+              "colors": [
+                "#000000",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9315d918f4411c712f9ad5e0e779a27e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4b9937ce4d0768594bacdcffe7c6cf1d~2508x0.webp"
         }
       ]
     }

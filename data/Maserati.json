@@ -3,256 +3,916 @@
   "brandImage": "https://p9-dcd.byteimg.com/img/tos-cn-i-dcdx/ad3fe8a317d543a68cb8ab1c5925d283~tplv-resize:0:0.png",
   "cars": [
     {
-      "carName": "总裁",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/47724b5b8d4b6bfd134563540b8e8079~1200x0.png",
-      "configs": [
-        {
-          "configName": "总裁 2022款 3.0T GT",
-          "price": "150.18万",
-          "fuelType": "汽油",
-          "size": "5262x1948x1476",
-          "manufacturer": "玛莎拉蒂",
-          "class": "大型车",
-          "power": "3.0T 350马力 V6"
-        },
-        {
-          "configName": "总裁 2022款 3.0T Modena Q4",
-          "price": "171.08万",
-          "fuelType": "汽油",
-          "size": "5262x1948x1476",
-          "manufacturer": "玛莎拉蒂",
-          "class": "大型车",
-          "power": "3.0T 430马力 V6"
-        },
-        {
-          "configName": "总裁 2021款 3.0T 标准版",
-          "price": "141.75万",
-          "fuelType": "汽油",
-          "size": "5262x1948x1476",
-          "manufacturer": "玛莎拉蒂",
-          "class": "大型车",
-          "power": "3.0T 350马力 V6"
-        },
-        {
-          "configName": "总裁 2021款 3.0T S Q4 豪华版",
-          "price": "162.05万",
-          "fuelType": "汽油",
-          "size": "5262x1948x1476",
-          "manufacturer": "玛莎拉蒂",
-          "class": "大型车",
-          "power": "3.0T 430马力 V6"
-        }
-      ]
-    },
-    {
+      "carId": 1017,
       "carName": "Ghibli",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e41afaf0eb64c01c1a10b32bb0f257aa~1200x0.png",
       "configs": [
         {
-          "configName": "Ghibli 2023款 2.0T GT",
+          "configName": "2023款 2.0T GT",
+          "configId": "78884",
+          "index": 0,
           "price": "86.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4971x1945x1461",
           "manufacturer": "玛莎拉蒂",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 330马力 L4 48V轻混",
+          "size": "4971x1945x1461",
+          "exteriorImages": [
+            {
+              "name": "神情蓝",
+              "colors": [
+                "#1A2D66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9286a876d2af2d57659e79bc4eff1033~2508x0.webp"
+            },
+            {
+              "name": "岩石灰",
+              "colors": [
+                "#696864"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1f9df792cc629da5873823629e631a9b~2508x0.webp"
+            },
+            {
+              "name": "水墨灰",
+              "colors": [
+                "#6C6668"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3527f3271ee6656d84b177ce04ad390~2508x0.webp"
+            },
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b36ba3aeda991ac8ba256ca315710dd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#A65431",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a8afb6adf867b4418d9ff053809ebc2d~2508x0.webp"
+            },
+            {
+              "name": "红色/黑色",
+              "colors": [
+                "#D12427",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d46d06fc0f22fe90ca8c9fbfb8a16319~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9286a876d2af2d57659e79bc4eff1033~2508x0.webp"
         },
         {
-          "configName": "Ghibli 2023款 3.0T Modena",
+          "configName": "2023款 3.0T Modena",
+          "configId": "78885",
+          "index": 1,
           "price": "94.88万",
-          "fuelType": "汽油",
-          "size": "4971x1945x1461",
           "manufacturer": "玛莎拉蒂",
           "class": "中大型车",
-          "power": "3.0T 350马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 350马力 V6",
+          "size": "4971x1945x1461",
+          "exteriorImages": [
+            {
+              "name": "神情蓝",
+              "colors": [
+                "#1A2D66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45c30ede76287b1c1ec87ba1e9e14261~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色/黑色",
+              "colors": [
+                "#D12427",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ac707909b03d53c9338c65fba728501e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/45c30ede76287b1c1ec87ba1e9e14261~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1018,
+      "carName": "总裁",
+      "configs": [
+        {
+          "configName": "2022款 3.0T GT",
+          "configId": "73725",
+          "index": 0,
+          "price": "150.18万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "fuelType": "汽油",
+          "power": "3.0T 350马力 V6",
+          "size": "5262x1948x1476",
+          "exteriorImages": [
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1982c7f453d47b5565156d1e3a025a11~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#D12427"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/41a5c5bb4e72f3ca433d98d99c5ff8af~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1982c7f453d47b5565156d1e3a025a11~2508x0.webp"
+        },
+        {
+          "configName": "2022款 3.0T Modena Q4",
+          "configId": "72074",
+          "index": 1,
+          "price": "171.08万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "fuelType": "汽油",
+          "power": "3.0T 430马力 V6",
+          "size": "5262x1948x1476",
+          "exteriorImages": [
+            {
+              "name": "水银灰",
+              "colors": [
+                "#7C7879"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7703bdb8a8e85cb2e74bab70d02b6dd9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#D12427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b33adc4e19ed6557153316b096a5ca21~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7703bdb8a8e85cb2e74bab70d02b6dd9~2508x0.webp"
+        },
+        {
+          "configName": "2021款 3.0T 标准版",
+          "configId": "50092",
+          "index": 2,
+          "price": "141.75万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "fuelType": "汽油",
+          "power": "3.0T 350马力 V6",
+          "size": "5262x1948x1476",
+          "exteriorImages": [
+            {
+              "name": "激情蓝",
+              "colors": [
+                "#002A93"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28ff5a34321f33bb222c5efb4fcd393b~2508x0.webp"
+            },
+            {
+              "name": "墨砚黑",
+              "colors": [
+                "#151515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/670672df60f2af71c1ab7bdcb54e8c7b~2508x0.webp"
+            },
+            {
+              "name": "酒红",
+              "colors": [
+                "#321522"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dcd430ec9b45ea4bc7f77cc3e218b224~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A65431"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d362d0335d29e12e9c74f3bc69e87b85~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#D12427"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e67704a777af32387819c1589331ccf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/28ff5a34321f33bb222c5efb4fcd393b~2508x0.webp"
+        },
+        {
+          "configName": "2021款 3.0T S Q4 豪华版",
+          "configId": "50100",
+          "index": 3,
+          "price": "162.05万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "大型车",
+          "fuelType": "汽油",
+          "power": "3.0T 430马力 V6",
+          "size": "5262x1948x1476",
+          "exteriorImages": [
+            {
+              "name": "尊贵蓝",
+              "colors": [
+                "#121D2F"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/0a4ed687782aa82548798ed671d90a99~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A65431"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be321d5310960cfb6ec03093d8de77bf~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/0a4ed687782aa82548798ed671d90a99~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 4722,
       "carName": "Grecale",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a1285e253663fca662a37c64a6946f19~1200x0.png",
       "configs": [
         {
-          "configName": "Grecale 2024款 2.0T Modena",
+          "configName": "2024款 2.0T Modena",
+          "configId": "243010",
+          "index": 0,
           "price": "73.58万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
           "fuelType": "48V轻混系统",
+          "power": "2.0T 330马力 L4 48V轻混",
           "size": "4847x1979x1667",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "风暴黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1af0c8e75a933b97ed24eaaa82300c9~2508x0.webp"
+            },
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee1e94187f41c0e584875a4866bca0ba~2508x0.webp"
+            },
+            {
+              "name": "皓空白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94cd6780ecc732adf54b7d0864917dbc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a37ccf71c179bdf57b40a3ba4a70643~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c1af0c8e75a933b97ed24eaaa82300c9~2508x0.webp"
         },
         {
-          "configName": "Grecale 2024款 3.0T Trofeo",
+          "configName": "2024款 3.0T Trofeo",
+          "configId": "243011",
+          "index": 1,
           "price": "103.88万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
           "fuelType": "汽油",
+          "power": "3.0T 530马力 V6",
           "size": "4859x1979x1659",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中型SUV",
-          "power": "3.0T 530马力 V6"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Grecale 2023款 2.0T GT",
+          "configName": "2023款 2.0T GT",
+          "configId": "72856",
+          "index": 2,
           "price": "65.08万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中型SUV",
           "fuelType": "48V轻混系统",
+          "power": "2.0T 300马力 L4 48V轻混",
           "size": "4846x1948x1670",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "风暴黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdb9db67e7fc912d4118d7a16c80cede~2508x0.webp"
+            },
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#0000FF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9fece8749601c31a21908e7fa6c07938~2508x0.webp"
+            },
+            {
+              "name": "熔岩灰",
+              "colors": [
+                "#747278"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f17350934a7428aa7fadc12b84a9caf~2508x0.webp"
+            },
+            {
+              "name": "复古铜",
+              "colors": [
+                "#81711B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae9e8411a9b9cdefb1ace7f9c8d79142~2508x0.webp"
+            },
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/afa8b2e523fc055910322e7c22cbb2ce~2508x0.webp"
+            },
+            {
+              "name": "皓空白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c2e778f1edc44c2d8a00138e4eeee1c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a17506bcf029a2c693966716c3ad3a32~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#AA7605"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9f27f54510850421c9e3f1645db48f3~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f3ee848ba6ffbbf2c7fb5bbb2042279~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fdb9db67e7fc912d4118d7a16c80cede~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5869,
       "carName": "Grecale Folgore",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/071113a36dc1453eb653413ded146a9e~1200x0.png",
       "configs": [
         {
-          "configName": "Grecale Folgore 2025款 Folgore",
+          "configName": "2025款 Folgore",
+          "configId": "243015",
+          "index": 0,
           "price": "89.88万",
-          "fuelType": "纯电动",
-          "size": "4865x1948x1651",
           "manufacturer": "玛莎拉蒂",
           "class": "中型SUV",
-          "power": "纯电动 550马力"
-        }
-      ]
-    },
-    {
-      "carName": "Levante",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7466c214e6928a1769569da1c1a62b0b~1200x0.png",
-      "configs": [
-        {
-          "configName": "Levante 2024款 2.0T GT ULTIMA",
-          "price": "97.18万",
-          "fuelType": "48V轻混系统",
-          "size": "5005x1981x1693",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中大型SUV",
-          "power": ""
-        },
-        {
-          "configName": "Levante 2023款 2.0T GT",
-          "price": "91.78万",
-          "fuelType": "48V轻混系统",
-          "size": "5005x1981x1693",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中大型SUV",
-          "power": ""
-        },
-        {
-          "configName": "Levante 2022款 2.0T GT锋芒版",
-          "price": "86.68万",
-          "fuelType": "48V轻混系统",
-          "size": "5005x1981x1696",
-          "manufacturer": "玛莎拉蒂",
-          "class": "中大型SUV",
-          "power": ""
-        }
-      ]
-    },
-    {
-      "carName": "GranTurismo",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c731a86c09e348cd9a5a14555306a8a7~1200x0.png",
-      "configs": [
-        {
-          "configName": "GranTurismo 2024款 3.0T Modena",
-          "price": "146万",
-          "fuelType": "汽油",
-          "size": "4960x1957x1409",
-          "manufacturer": "玛莎拉蒂",
-          "class": "跑车",
-          "power": "3.0T 490马力 V6"
-        },
-        {
-          "configName": "GranTurismo 2024款 3.0T Trofeo",
-          "price": "229.8万",
-          "fuelType": "汽油",
-          "size": "4966x1957x1410",
-          "manufacturer": "玛莎拉蒂",
-          "class": "跑车",
-          "power": "3.0T 550马力 V6"
-        }
-      ]
-    },
-    {
-      "carName": "GranCabrio",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3bc8dc6fb185482583aca4ff186de884~1200x0.png",
-      "configs": [
-        {
-          "configName": "GranCabrio 2024款 3.0T Trofeo",
-          "price": "243.8万",
-          "fuelType": "汽油",
-          "size": "4966x1957x1365",
-          "manufacturer": "玛莎拉蒂",
-          "class": "跑车",
-          "power": "3.0T 550马力 V6"
-        }
-      ]
-    },
-    {
-      "carName": "GranTurismo Folgore",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9e568207a0584c9e90291a14aadd5f3b~1200x0.png",
-      "configs": [
-        {
-          "configName": "GranTurismo Folgore 2024款 Folgore",
-          "price": "198.8万",
           "fuelType": "纯电动",
-          "size": "4960x1957x1416",
-          "manufacturer": "玛莎拉蒂",
-          "class": "跑车",
-          "power": "纯电动 1224马力"
+          "power": "纯电动 550马力",
+          "size": "4865x1948x1651",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "MC20",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3131d42ef0084fd1b681bcc0e9823286~1200x0.png",
+      "carId": 1023,
+      "carName": "Levante",
       "configs": [
         {
-          "configName": "玛莎拉蒂MC20 2024款 3.0T 标准版",
+          "configName": "2024款 2.0T GT ULTIMA",
+          "configId": "246005",
+          "index": 0,
+          "price": "97.18万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 330马力 L4 48V轻混",
+          "size": "5005x1981x1693",
+          "exteriorImages": [
+            {
+              "name": "极致黑",
+              "colors": [
+                "#181717"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_436f868622fdc5dc288729537f2fcf90~2508x0.webp"
+            },
+            {
+              "name": "神情蓝",
+              "colors": [
+                "#1A2D66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aebf05f794b9e6cd1b635548e207b072~2508x0.webp"
+            },
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8012b0cdfd7f2da52dc316cce8030224~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#B80000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd3fbf5e68898c05628adf8ae7ae06d2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_436f868622fdc5dc288729537f2fcf90~2508x0.webp"
+        },
+        {
+          "configName": "2023款 2.0T GT",
+          "configId": "78886",
+          "index": 1,
+          "price": "91.78万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 330马力 L4 48V轻混",
+          "size": "5005x1981x1693",
+          "exteriorImages": [
+            {
+              "name": "尊贵蓝",
+              "colors": [
+                "#121D2F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f99ddd89d4be54044167c045973f17af~2508x0.webp"
+            },
+            {
+              "name": "金刚黑",
+              "colors": [
+                "#171717"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5945b04dd11a205d318f041fee898f8c~2508x0.webp"
+            },
+            {
+              "name": "神情蓝",
+              "colors": [
+                "#1A2D66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d0c0035ffd2ee539214f1f583752203~2508x0.webp"
+            },
+            {
+              "name": "岩石灰",
+              "colors": [
+                "#696864"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c3b2619d4c2bfdf83b4bd53840590ec~2508x0.webp"
+            },
+            {
+              "name": "水银灰",
+              "colors": [
+                "#7C7879"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5250dbc39959c6203ccd05737ffa6487~2508x0.webp"
+            },
+            {
+              "name": "电光灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8c9f89dbdf7cb1080378f30b8f49d57~2508x0.webp"
+            },
+            {
+              "name": "阿尔卑斯白",
+              "colors": [
+                "#F4F8FB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6df2a45d7a82c887d0c702ebbafb0f83~2508x0.webp"
+            },
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36a45dafe5799d56db8505c85b30d021~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#B80000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91faddf0ac76b36cb82e4f0e02804704~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#C16239",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e22581da0afaec53a6bc867ebbf6f11~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f99ddd89d4be54044167c045973f17af~2508x0.webp"
+        },
+        {
+          "configName": "2022款 2.0T GT锋芒版",
+          "configId": "53397",
+          "index": 2,
+          "price": "86.68万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "中大型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 330马力 L4 48V轻混",
+          "size": "5005x1981x1696",
+          "exteriorImages": [
+            {
+              "name": "金刚黑",
+              "colors": [
+                "#171717"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/74bb16f156ac8d40665cf234eab98539~2508x0.webp"
+            },
+            {
+              "name": "神情蓝",
+              "colors": [
+                "#1A2D66"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea5ba24e371ff36d50774755147a2525~2508x0.webp"
+            },
+            {
+              "name": "古铜色",
+              "colors": [
+                "#AE9662"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_993fd54596315003b871e40898b28f99~2508x0.webp"
+            },
+            {
+              "name": "岩浆红",
+              "colors": [
+                "#CB1B1B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/61a166581c5f46e1ff46461e7435a058~2508x0.webp"
+            },
+            {
+              "name": "电光灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b607c8aab8fffde292efcde42e7ab0df~2508x0.webp"
+            },
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44fcb39722f1351fb7b56cc5307a9d6e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c6871af46fc8e9fb6d01196987b4201~2508x0.webp"
+            },
+            {
+              "name": "红色",
+              "colors": [
+                "#B80000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/605b9e2ee6e53e4a164867c28b04ec30~2508x0.webp"
+            },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#C16239",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f2a19d0a5df55b49f36971667aad457~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/74bb16f156ac8d40665cf234eab98539~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1019,
+      "carName": "GranTurismo",
+      "configs": [
+        {
+          "configName": "2024款 3.0T Modena",
+          "configId": "78818",
+          "index": 0,
+          "price": "146万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "3.0T 490马力 V6",
+          "size": "4960x1957x1409",
+          "exteriorImages": [
+            {
+              "name": "云雾白",
+              "colors": [
+                "#FEFAF5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dec746606dfa32fff8b283cc631232d8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#C6835D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/708873ce4f2b034c1b6574d968ae1f17~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dec746606dfa32fff8b283cc631232d8~2508x0.webp"
+        },
+        {
+          "configName": "2024款 3.0T Trofeo",
+          "configId": "78817",
+          "index": 1,
+          "price": "229.8万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "3.0T 550马力 V6",
+          "size": "4966x1957x1410",
+          "exteriorImages": [
+            {
+              "name": "赛道黄",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55f8df84c7a11797dfdbfe2fca4d8204~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07499ef84a0a080894b435d28351486b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/55f8df84c7a11797dfdbfe2fca4d8204~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5864,
+      "carName": "GranTurismo Folgore",
+      "configs": [
+        {
+          "configName": "2024款 Folgore",
+          "configId": "100358",
+          "index": 0,
+          "price": "198.8万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "fuelType": "纯电动",
+          "power": "纯电动 1224马力",
+          "size": "4960x1957x1416",
+          "exteriorImages": [
+            {
+              "name": "哑光岩石灰",
+              "colors": [
+                "#696865"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b40a08dd7cafd09f4a55a695457c78f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb1d923679fe497f988a1ef5d2fb36b8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b40a08dd7cafd09f4a55a695457c78f~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1020,
+      "carName": "GranCabrio",
+      "configs": [
+        {
+          "configName": "2024款 3.0T Trofeo",
+          "configId": "98579",
+          "index": 0,
+          "price": "243.8万",
+          "manufacturer": "玛莎拉蒂",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "3.0T 550马力 V6",
+          "size": "4966x1957x1365",
+          "exteriorImages": [
+            {
+              "name": "哑光岩石灰",
+              "colors": [
+                "#696865"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52d89326f0eaf940b09fbd7e9251e4cb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0227bf966f21ebb390ca2cae0286f968~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/52d89326f0eaf940b09fbd7e9251e4cb~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 4451,
+      "carName": "MC20",
+      "configs": [
+        {
+          "configName": "2024款 3.0T 标准版",
+          "configId": "95170",
+          "index": 0,
           "price": "253.88万",
-          "fuelType": "汽油",
-          "size": "4669x2178x1224",
           "manufacturer": "玛莎拉蒂",
           "class": "跑车",
-          "power": "3.0T 630马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 630马力 V6",
+          "size": "4669x2178x1224",
+          "exteriorImages": [
+            {
+              "name": "无界曜蓝",
+              "colors": [
+                "#000CAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/88f7788123e093694290e802d82603d7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05939c7e20a16f5f5e163f84fe923679~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/88f7788123e093694290e802d82603d7~2508x0.webp"
         },
         {
-          "configName": "玛莎拉蒂MC20 2024款 3.0T Cielo",
+          "configName": "2024款 3.0T Cielo",
+          "configId": "95169",
+          "index": 1,
           "price": "288.88万",
-          "fuelType": "汽油",
-          "size": "4669x2178x1224",
           "manufacturer": "玛莎拉蒂",
           "class": "跑车",
-          "power": "3.0T 630马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 630马力 V6",
+          "size": "4669x2178x1224",
+          "exteriorImages": [
+            {
+              "name": "隐秘灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_57222c465929dfdb30ec6a2510141b86~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#C2BFB6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_312bdecf9eb5bdff6460d6093c801527~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_57222c465929dfdb30ec6a2510141b86~2508x0.webp"
         },
         {
-          "configName": "玛莎拉蒂MC20 2024款 3.0T Icona",
+          "configName": "2024款 3.0T Icona",
+          "configId": "110468",
+          "index": 2,
           "price": "304.88万",
-          "fuelType": "汽油",
-          "size": "4669x2178x1224",
           "manufacturer": "玛莎拉蒂",
           "class": "跑车",
-          "power": "3.0T 630马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 630马力 V6",
+          "size": "4669x2178x1224",
+          "exteriorImages": [
+            {
+              "name": "Bianco Audace/Blu Stradale",
+              "colors": [
+                "#FFFFFF",
+                "#03285F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea67bbae68fab3ff5f7d4a28f948ea0d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/蓝色",
+              "colors": [
+                "#000000",
+                "#426FAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_696505297deb53ab06ed9da3f1f5b4d1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea67bbae68fab3ff5f7d4a28f948ea0d~2508x0.webp"
         },
         {
-          "configName": "玛莎拉蒂MC20 2024款 3.0T Leggenda",
+          "configName": "2024款 3.0T Leggenda",
+          "configId": "110469",
+          "index": 3,
           "price": "304.88万",
-          "fuelType": "汽油",
-          "size": "4669x2178x1224",
           "manufacturer": "玛莎拉蒂",
           "class": "跑车",
-          "power": "3.0T 630马力 V6"
+          "fuelType": "汽油",
+          "power": "3.0T 630马力 V6",
+          "size": "4669x2178x1224",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "玛莎拉蒂MC20 2024款 GT2 Stradale",
+          "configName": "2024款 GT2 Stradale",
+          "configId": "239259",
+          "index": 4,
           "price": "414.5万",
-          "fuelType": "",
-          "size": "",
           "manufacturer": "",
           "class": "",
-          "power": ""
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [
+            {
+              "name": "幻彩极光蓝",
+              "colors": [
+                "#030384"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_203f3cdbe1d20f61c16d77f4909cbf09~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/蓝色",
+              "colors": [
+                "#000000",
+                "#426FAA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_baaa861aa03f173e0cab4166d3b6b0ed~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_203f3cdbe1d20f61c16d77f4909cbf09~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-03T05:54:27.023Z",
+  "progress": {
+    "completed": 9,
+    "total": 9,
+    "percentage": 100,
+    "currentIndex": 9
+  }
 }
