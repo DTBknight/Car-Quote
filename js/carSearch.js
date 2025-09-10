@@ -786,11 +786,17 @@ export class CarSearch {
     // 设置外观颜色选择器
     if (carData.exteriorImages && carData.exteriorImages.length > 0) {
       this.setupExteriorColorSelector(carData);
+    } else {
+      // 清除外观颜色选择器
+      this.clearExteriorColorSelector();
     }
     
     // 设置内饰颜色选择器
     if (carData.interiorImages && carData.interiorImages.length > 0) {
       this.setupInteriorColorSelector(carData);
+    } else {
+      // 清除内饰颜色选择器
+      this.clearInteriorColorSelector();
     }
   }
   
@@ -1452,9 +1458,8 @@ export class CarSearch {
     
     const exteriorImages = carData.exteriorImages;
     if (!exteriorImages || exteriorImages.length === 0) {
-      colorSwatchesContainer.innerHTML = '';
-      colorNameContainer.textContent = '';
-      colorSwatchesContainer.style.display = 'none'; // 完全隐藏容器
+      // 完全清除外观颜色选择器
+      this.clearExteriorColorSelector();
       return;
     }
     
@@ -1664,9 +1669,8 @@ export class CarSearch {
     
     const interiorImages = carData.interiorImages;
     if (!interiorImages || interiorImages.length === 0) {
-      colorSwatchesContainer.innerHTML = '';
-      colorNameContainer.textContent = '';
-      colorSwatchesContainer.style.display = 'none'; // 完全隐藏容器
+      // 完全清除内饰颜色选择器
+      this.clearInteriorColorSelector();
       return;
     }
     
@@ -2080,5 +2084,37 @@ export class CarSearch {
     
     // 如果没有找到具体配置，返回车型名称
     return carData.name || carData.carName || '';
+  }
+
+  // 清除外观颜色选择器
+  clearExteriorColorSelector() {
+    const colorSwatchesContainer = Utils.getElement('exteriorColorSwatches');
+    const colorNameContainer = Utils.getElement('exteriorColorName');
+    
+    if (colorSwatchesContainer) {
+      colorSwatchesContainer.innerHTML = '';
+      colorSwatchesContainer.style.display = 'none';
+    }
+    
+    if (colorNameContainer) {
+      colorNameContainer.textContent = '';
+      colorNameContainer.style.display = 'none';
+    }
+  }
+
+  // 清除内饰颜色选择器
+  clearInteriorColorSelector() {
+    const colorSwatchesContainer = Utils.getElement('interiorColorSwatches');
+    const colorNameContainer = Utils.getElement('interiorColorName');
+    
+    if (colorSwatchesContainer) {
+      colorSwatchesContainer.innerHTML = '';
+      colorSwatchesContainer.style.display = 'none';
+    }
+    
+    if (colorNameContainer) {
+      colorNameContainer.textContent = '';
+      colorNameContainer.style.display = 'none';
+    }
   }
 } 

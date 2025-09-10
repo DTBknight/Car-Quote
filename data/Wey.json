@@ -63,136 +63,766 @@
       ]
     },
     {
+      "carId": 5335,
       "carName": "拿铁PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c92ad9a57d9b0ec3b5a5f7ea0192342c~1200x0.png",
       "configs": [
         {
-          "configName": "拿铁PHEV 2022款 1.5T 两驱大杯",
+          "configName": "2022款 1.5T 两驱大杯",
+          "configId": "76153",
+          "index": 0,
           "price": "22.9万",
-          "fuelType": "插电式混合动力",
-          "size": "4668x1890x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "177马力 插电式混动"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4668x1890x1730",
+          "exteriorImages": [
+            {
+              "name": "椰风拿铁",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "拿铁PHEV 2022款 1.5T 两驱超大杯",
+          "configName": "2022款 1.5T 两驱超大杯",
+          "configId": "76154",
+          "index": 1,
           "price": "24.3万",
-          "fuelType": "插电式混合动力",
-          "size": "4668x1890x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "177马力 插电式混动"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4668x1890x1730",
+          "exteriorImages": [
+            {
+              "name": "太妃拿铁",
+              "colors": [
+                "#64718A"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "香草拿铁",
+              "colors": [
+                "#ABC0B2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "蓝莓拿铁",
+              "colors": [
+                "#C2D8E6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "咖啡棕",
+              "colors": [
+                "#B2A89D"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "拿铁PHEV 2022款 1.5T 四驱超大杯",
+          "configName": "2022款 1.5T 四驱超大杯",
+          "configId": "76155",
+          "index": 2,
           "price": "26.3万",
-          "fuelType": "插电式混合动力",
-          "size": "4668x1890x1730",
           "manufacturer": "长城汽车",
           "class": "紧凑型SUV",
-          "power": "360马力 插电式混动"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4668x1890x1730",
+          "exteriorImages": [
+            {
+              "name": "陨石拿铁",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "蓝山拿铁",
+              "colors": [
+                "#396693"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "太妃拿铁",
+              "colors": [
+                "#64718A"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "白色",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "动感黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "魅力紫",
+              "colors": [
+                "#52334D"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 6206,
       "carName": "蓝山",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d32b1ebcd3d14250bf44862984dda35a~1200x0.png",
       "configs": [
         {
-          "configName": "蓝山 2025款 四驱 Max",
+          "configName": "2025款 四驱 Max",
+          "configId": "110962",
+          "index": 0,
           "price": "29.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5156x1980x1805",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混动 408马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 170马力 L4 插电式混动",
+          "size": "5156x1980x1805",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漓江蓝",
+              "colors": [
+                "#205B79"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "松柏绿",
+              "colors": [
+                "#5B815B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "薄暮青",
+              "colors": [
+                "#B8C4B6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#B8C4B7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#E3E0D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨光白",
+              "colors": [
+                "#FFFFF6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/棕色",
+              "colors": [
+                "#D9D6D6",
+                "#6E5F5E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#DB981F",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "蓝山 2025款 四驱 Ultra",
+          "configName": "2025款 四驱 Ultra",
+          "configId": "100181",
+          "index": 1,
           "price": "32.68万",
-          "fuelType": "插电式混合动力",
-          "size": "5156x1980x1805",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混动 408马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 170马力 L4 插电式混动",
+          "size": "5156x1980x1805",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漓江蓝",
+              "colors": [
+                "#205B79"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "松柏绿",
+              "colors": [
+                "#5B815B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "薄暮青",
+              "colors": [
+                "#B8C4B6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "沧浪青",
+              "colors": [
+                "#B8C4B7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#E3E0D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨光白",
+              "colors": [
+                "#FFFFF6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/棕色",
+              "colors": [
+                "#D9D6D6",
+                "#6E5F5E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#DB981F",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "蓝山 2025款 四驱 Ultra 黑武士",
+          "configName": "2025款 四驱 Ultra 黑武士",
+          "configId": "248507",
+          "index": 2,
           "price": "32.68万",
-          "fuelType": "插电式混合动力",
-          "size": "5156x1980x1805",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混动 408马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 170马力 L4 插电式混动",
+          "size": "5156x1980x1805",
+          "exteriorImages": [
+            {
+              "name": "暮夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "全黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "蓝山 2023款 四驱超长续航版",
+          "configName": "2023款 四驱超长续航版",
+          "configId": "88575",
+          "index": 3,
           "price": "30.88万",
-          "fuelType": "插电式混合动力",
-          "size": "5156x1980x1805",
           "manufacturer": "长城汽车",
           "class": "中大型SUV",
-          "power": "插电式混合动力 476马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 154马力 L4 插电式混动",
+          "size": "5156x1980x1805",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漓江蓝",
+              "colors": [
+                "#205B79"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "松柏绿",
+              "colors": [
+                "#5B815B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "夏云灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#E3E0D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "全黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#D9D6D6",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#DB981F",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 6303,
       "carName": "高山",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a888d2ec1d324373ab81a83f50ef28a4~1200x0.png",
       "configs": [
         {
-          "configName": "高山 2025款 四驱高山8",
+          "configName": "2025款 四驱高山8",
+          "configId": "245185",
+          "index": 0,
           "price": "30.98万",
+          "manufacturer": "长城汽车",
+          "class": "中大型MPV",
           "fuelType": "插电式混合动力",
+          "power": "1.5T 170马力 L4 插电式混动",
           "size": "5280x1960x1900",
-          "manufacturer": "长城汽车",
-          "class": "中大型MPV",
-          "power": "插电式混动 292马力"
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨空灰",
+              "colors": [
+                "#B6B6B6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "流光金",
+              "colors": [
+                "#E3E0D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云朵白",
+              "colors": [
+                "#F2EFE2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FFA502"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "高山 2025款 四驱高山9",
+          "configName": "2025款 四驱高山9",
+          "configId": "245186",
+          "index": 1,
           "price": "35.38万",
-          "fuelType": "插电式混合动力",
-          "size": "5410x1960x1890",
           "manufacturer": "长城汽车",
           "class": "中大型MPV",
-          "power": "插电式混动 292马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 170马力 L4 插电式混动",
+          "size": "5410x1960x1890",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨夜绿",
+              "colors": [
+                "#405340"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨空灰",
+              "colors": [
+                "#B6B6B6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云朵白",
+              "colors": [
+                "#F2EFE2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "霞光橙",
+              "colors": [
+                "#FFA502"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "高山 2023款 四驱尊贵版",
+          "configName": "2023款 四驱尊贵版",
+          "configId": "94803",
+          "index": 2,
           "price": "33.58万",
-          "fuelType": "插电式混合动力",
-          "size": "5045x1960x1900",
           "manufacturer": "长城汽车",
           "class": "中大型MPV",
-          "power": "插电式混合动力 360马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "5045x1960x1900",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色/蓝色",
+              "colors": [
+                "#F2EFEF",
+                "#083384"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "橙色/黑色",
+              "colors": [
+                "#FFA500",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 4867,
       "carName": "摩卡PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/1c34f86767704427bd720c19ab17342f~1200x0.png",
       "configs": [
         {
-          "configName": "摩卡PHEV 2024款 Hi4 长续航版",
+          "configName": "2024款 Hi4 长续航版",
+          "configId": "99401",
+          "index": 0,
           "price": "23.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4881x1960x1690",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 313马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 170马力 L4 插电式混动",
+          "size": "4881x1960x1690",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漓江蓝",
+              "colors": [
+                "#205B79"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雾凇银",
+              "colors": [
+                "#CBCCCA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#9E7705"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#E8E9E1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "蓝色/灰色",
+              "colors": [
+                "#3838C4",
+                "#E4E4E4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "摩卡PHEV 2023款 DHT 两驱长续航版",
+          "configName": "2023款 DHT 两驱长续航版",
+          "configId": "81359",
+          "index": 1,
           "price": "23.18万",
-          "fuelType": "插电式混合动力",
-          "size": "4881x1960x1690",
           "manufacturer": "长城汽车",
           "class": "中型SUV",
-          "power": "插电式混合动力 177马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 156马力 L4 插电式混动",
+          "size": "4881x1960x1690",
+          "exteriorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漓江蓝",
+              "colors": [
+                "#205B79"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "天水蓝",
+              "colors": [
+                "#7FD0E9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雾凇银",
+              "colors": [
+                "#CBCCCA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云锦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#9E7705"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "黑色/米色",
+              "colors": [
+                "#000000",
+                "#E8E9E1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "蓝色/灰色",
+              "colors": [
+                "#3838C4",
+                "#E4E4E4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-10T05:24:44.728Z",
+  "progress": {
+    "completed": 5,
+    "total": 4,
+    "percentage": 125,
+    "currentIndex": 4
+  }
 }

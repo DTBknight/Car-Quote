@@ -204,15 +204,15 @@ class DataCollector {
       if (config.crawler.timeout > 0) {
         await pTimeout(
           page.goto(brandUrl, { 
-            waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded',
-            timeout: config.crawler.maxWaitTime || 10000
+            waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+            timeout: config.crawler.maxWaitTime || 15000
           }),
           { milliseconds: config.crawler.timeout }
         );
       } else {
         await page.goto(brandUrl, { 
-          waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded',
-          timeout: config.crawler.maxWaitTime || 10000
+          waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+          timeout: config.crawler.maxWaitTime || 15000
         });
       }
       
@@ -754,15 +754,15 @@ class DataCollector {
           if (config.crawler.timeout > 0) {
         await pTimeout(
           page.goto(seriesUrl, { 
-            waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded',
-            timeout: config.crawler.maxWaitTime || 10000
+            waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+            timeout: config.crawler.maxWaitTime || 15000
           }),
           { milliseconds: config.crawler.timeout }
         );
           } else {
         await page.goto(seriesUrl, { 
-          waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded',
-          timeout: config.crawler.maxWaitTime || 10000
+          waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+          timeout: config.crawler.maxWaitTime || 15000
         });
       }
       
@@ -871,21 +871,32 @@ class DataCollector {
     const page = await this.browserManager.createPage(browser);
     
     try {
+      // 添加页面状态监控
+      let pageValid = true;
+      page.on('close', () => {
+        pageValid = false;
+        console.warn(`⚠️ 车型 ${carId} 页面被关闭`);
+      });
+      
+      page.on('crash', () => {
+        pageValid = false;
+        console.warn(`⚠️ 车型 ${carId} 页面崩溃`);
+      });
       // 1. 采集车型基本信息
       const urlSeries = `https://www.dongchedi.com/auto/series/${carId}`;
-      // 更稳健的加载策略：domcontentloaded -> load -> 无 waitUntil
+      // 更稳健的加载策略：networkidle2 -> load -> 无 waitUntil
       try {
               // 如果超时设置为0，则不使用超时
       if (config.crawler.timeout > 0) {
         await pTimeout(
-          page.goto(urlSeries, { waitUntil: 'domcontentloaded' }), 
+          page.goto(urlSeries, { waitUntil: 'networkidle2' }), 
           { milliseconds: config.crawler.timeout }
         );
       } else {
-        await page.goto(urlSeries, { waitUntil: 'domcontentloaded' });
+        await page.goto(urlSeries, { waitUntil: 'networkidle2' });
       }
       } catch (e1) {
-        console.warn(`⚠️ 车型 ${carId} domcontentloaded 超时，回退到 load: ${e1.message}`);
+        console.warn(`⚠️ 车型 ${carId} networkidle2 超时，回退到 load: ${e1.message}`);
         try {
           if (config.crawler.timeout > 0) {
             await pTimeout(
@@ -908,8 +919,21 @@ class DataCollector {
         }
       }
       
+      // 检查页面是否仍然有效
+      if (!pageValid || page.isClosed()) {
+        console.warn(`⚠️ 车型 ${carId} 页面已关闭，跳过采集`);
+        return null;
+      }
+      
       // 采集车型基本信息前延长等待时间，确保页面渲染完成
-      await new Promise(resolve => setTimeout(resolve, 2500));
+      await new Promise(resolve => setTimeout(resolve, 4000));
+      
+      // 再次检查页面状态
+      if (!pageValid || page.isClosed()) {
+        console.warn(`⚠️ 车型 ${carId} 页面在等待后已关闭，跳过采集`);
+        return null;
+      }
+      
       const carBasicInfo = await page.evaluate(() => {
         let carName = '';
         const selectors = [
@@ -939,14 +963,14 @@ class DataCollector {
       try {
         if (config.crawler.timeout > 0) {
           await pTimeout(
-            page.goto(urlParams, { waitUntil: 'domcontentloaded' }), // 更快的加载策略
+            page.goto(urlParams, { waitUntil: 'networkidle2' }), // 更稳定的加载策略
             { milliseconds: config.crawler.timeout }
           );
         } else {
-          await page.goto(urlParams, { waitUntil: 'domcontentloaded' });
+          await page.goto(urlParams, { waitUntil: 'networkidle2' });
         }
       } catch (e3) {
-        console.warn(`⚠️ 车型 ${carId} 参数页 domcontentloaded 超时，回退到 load: ${e3.message}`);
+        console.warn(`⚠️ 车型 ${carId} 参数页 networkidle2 超时，回退到 load: ${e3.message}`);
         if (config.crawler.timeout > 0) {
           await pTimeout(
             page.goto(urlParams, { waitUntil: 'load' }),
@@ -956,7 +980,13 @@ class DataCollector {
           await page.goto(urlParams, { waitUntil: 'load' });
         }
       }
-      await new Promise(resolve => setTimeout(resolve, 2000)); // 增加等待时间，确保异步渲染完成
+      await new Promise(resolve => setTimeout(resolve, 3000)); // 增加等待时间，确保异步渲染完成
+      
+      // 检查页面是否仍然有效
+      if (page.isClosed()) {
+        console.warn(`⚠️ 车型 ${carId} 参数页面已关闭，跳过配置采集`);
+        return null;
+      }
 
       // 采集基础参数信息
       const basicParams = await page.evaluate(() => {
@@ -1039,6 +1069,12 @@ class DataCollector {
         const configData = [];
         
         console.log('🎯 使用懂车帝参数配置页面结构采集');
+        
+        // 检查页面是否仍然有效
+        if (!document.body || document.body.children.length === 0) {
+          console.log('❌ 页面内容为空，可能页面未完全加载');
+          return [];
+        }
         
         // 查找主表格容器
         const tableRoot = document.querySelector('div.table_root__14vH_.table_head__FNAvn');
@@ -1237,14 +1273,85 @@ class DataCollector {
 
       // 验证配置数量
       if (configsWithImages.length === 0) {
-        console.warn(`⚠️ 车型 ${carId} 没有有效配置，跳过抓取`);
-        return null;
+        console.warn(`⚠️ 车型 ${carId} 没有有效配置，尝试备用采集方法`);
+        
+        // 备用采集方法：直接访问车型页面获取基本信息
+        try {
+          const fallbackUrl = `https://www.dongchedi.com/auto/series/${carId}`;
+          console.log(`🔄 尝试备用方法访问: ${fallbackUrl}`);
+          
+          if (config.crawler.timeout > 0) {
+            await pTimeout(
+              page.goto(fallbackUrl, { waitUntil: 'networkidle2' }),
+              { milliseconds: config.crawler.timeout }
+            );
+          } else {
+            await page.goto(fallbackUrl, { waitUntil: 'networkidle2' });
+          }
+          
+          await new Promise(resolve => setTimeout(resolve, 3000));
+          
+          // 检查页面是否仍然有效
+          if (page.isClosed()) {
+            console.warn(`⚠️ 车型 ${carId} 备用页面已关闭`);
+            return null;
+          }
+          
+          // 尝试从车型页面获取基本信息
+          const fallbackInfo = await page.evaluate(() => {
+            const priceElements = document.querySelectorAll('[class*="price"], .price');
+            let hasValidPrice = false;
+            
+            for (const el of priceElements) {
+              const text = el.textContent.trim();
+              if (text.includes('万') && !text.includes('暂无')) {
+                hasValidPrice = true;
+                break;
+              }
+            }
+            
+            return { hasValidPrice };
+          });
+          
+          if (!fallbackInfo.hasValidPrice) {
+            console.warn(`⚠️ 车型 ${carId} 备用方法也未找到有效价格信息，跳过采集`);
+            return null;
+          }
+          
+          // 如果找到有效价格，创建一个基础配置
+          const basicConfig = {
+            configName: `${carBasicInfo.carName} 基础版`,
+            configId: carId.toString(),
+            index: 0,
+            price: '价格待确认',
+            manufacturer: basicParams.manufacturer || '',
+            class: basicParams.class || '',
+            fuelType: basicParams.fuelType || '',
+            power: basicParams.power || '',
+            size: basicParams.size || '',
+            exteriorImages: [],
+            interiorImages: [],
+            configImage: ''
+          };
+          
+          console.log(`✅ 车型 ${carId} 使用备用方法创建基础配置`);
+          return {
+            carId: carId,
+            carName: cleanedCarName,
+            configs: [basicConfig]
+          };
+          
+        } catch (fallbackError) {
+          console.error(`❌ 车型 ${carId} 备用采集方法也失败:`, fallbackError.message);
+          return null;
+        }
       }
 
       // 清理车型名称，如果包含品牌名则只保留车型名称
       const cleanedCarName = this.cleanCarName(carBasicInfo.carName, brand);
       
       return {
+        carId: carId,
         carName: cleanedCarName,
         configs: configsWithImages
       };
@@ -1270,14 +1377,14 @@ class DataCollector {
       try {
       if (pageTimeout > 0) {
         await pTimeout(
-          page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' }),
+          page.goto(imagePageUrl, { waitUntil: 'networkidle2' }),
           { milliseconds: pageTimeout }
         );
       } else {
-        await page.goto(imagePageUrl, { waitUntil: 'domcontentloaded' });
+        await page.goto(imagePageUrl, { waitUntil: 'networkidle2' });
         }
       } catch (timeoutError) {
-        console.log(`⚠️ 车型 ${carId} 参数页 domcontentloaded 超时，回退到 load`);
+        console.log(`⚠️ 车型 ${carId} 参数页 networkidle2 超时，回退到 load`);
         try {
           // 回退到 load 事件，使用更长的超时时间
           const fallbackTimeout = Math.min(pageTimeout * 2, 120000); // 最多2分钟
@@ -1469,11 +1576,11 @@ class DataCollector {
             const colorPageTimeout = Math.min(pageTimeout, configCrawler.colorPageTimeout || 20000);
             if (colorPageTimeout > 0) {
               await pTimeout(
-                colorPage.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
+                colorPage.goto(colorPageUrl, { waitUntil: 'networkidle2' }),
                 { milliseconds: colorPageTimeout }
               );
             } else {
-              await colorPage.goto(colorPageUrl, { waitUntil: 'domcontentloaded' });
+              await colorPage.goto(colorPageUrl, { waitUntil: 'networkidle2' });
             }
             
             // 新增：减少等待时间

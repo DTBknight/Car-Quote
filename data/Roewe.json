@@ -3,661 +3,2592 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/b578788235064cd4a2dec57364384c12~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
-      "carName": "iMAX8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/81c0e5ff02524b388defee3abedc3c3c~1200x0.png",
-      "configs": [
-        {
-          "configName": "荣威iMAX8 2023款 400TGI 舒享版",
-          "price": "18.58万",
-          "fuelType": "汽油",
-          "size": "5016x1909x1788",
-          "manufacturer": "上汽集团",
-          "class": "中大型MPV",
-          "power": "2.0T 234马力 L4"
-        },
-        {
-          "configName": "荣威iMAX8 2023款 400TGI 优享版",
-          "price": "19.58万",
-          "fuelType": "汽油",
-          "size": "5016x1909x1782",
-          "manufacturer": "上汽集团",
-          "class": "中大型MPV",
-          "power": "2.0T 234马力 L4"
-        },
-        {
-          "configName": "荣威iMAX8 2023款 400TGI 越享版",
-          "price": "21.68万",
-          "fuelType": "汽油",
-          "size": "5016x1909x1782",
-          "manufacturer": "上汽集团",
-          "class": "中大型MPV",
-          "power": "2.0T 234马力 L4"
-        },
-        {
-          "configName": "荣威iMAX8 2023款 400TGI 至享版",
-          "price": "23.38万",
-          "fuelType": "汽油",
-          "size": "5016x1909x1782",
-          "manufacturer": "上汽集团",
-          "class": "中大型MPV",
-          "power": "2.0T 234马力 L4"
-        },
-        {
-          "configName": "荣威iMAX8 2023款 400TGI 尊享版",
-          "price": "25.58万",
-          "fuelType": "汽油",
-          "size": "5016x1909x1782",
-          "manufacturer": "上汽集团",
-          "class": "中大型MPV",
-          "power": "2.0T 234马力 L4"
-        }
-      ]
-    },
-    {
-      "carName": "D7 DMH",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6bdaf710c8c24d29adc0ea914f15578a~1200x0.png",
-      "configs": [
-        {
-          "configName": "荣威D7 DMH 2025款 125世界冠军版",
-          "price": "12.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1890x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "插电式混动 186马力"
-        },
-        {
-          "configName": "荣威D7 DMH 2025款 125世界冠军卓越版",
-          "price": "13.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1890x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "插电式混动 186马力"
-        },
-        {
-          "configName": "荣威D7 DMH 2025款 125世界冠军旗舰版",
-          "price": "14.38万",
-          "fuelType": "插电式混合动力",
-          "size": "4890x1890x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "插电式混动 186马力"
-        }
-      ]
-    },
-    {
-      "carName": "D6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/74d4124505794158a82972e3328675c8~1200x0.png",
-      "configs": [
-        {
-          "configName": "荣威D6 2025款 450km 优享版",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "4792x1828x1496",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 129马力"
-        },
-        {
-          "configName": "荣威D6 2025款 450km 尊享版",
-          "price": "10.98万",
-          "fuelType": "纯电动",
-          "size": "4792x1828x1496",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 129马力"
-        },
-        {
-          "configName": "荣威D6 2025款 520km 舒享版",
-          "price": "11.48万",
-          "fuelType": "纯电动",
-          "size": "4792x1828x1496",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 143马力"
-        },
-        {
-          "configName": "荣威D6 2025款 520km 尊享版",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4792x1828x1496",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 143马力"
-        },
-        {
-          "configName": "荣威D6 2025款 520km 智享版",
-          "price": "12.48万",
-          "fuelType": "纯电动",
-          "size": "4792x1828x1496",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 143马力"
-        },
-        {
-          "configName": "荣威D6 2025款 520km 智慧版",
-          "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4792x1828x1496",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 143马力"
-        }
-      ]
-    },
-    {
+      "carId": 3041,
       "carName": "i5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2d5a03ae693c46f59328e4a8e97acf33~1200x0.png",
       "configs": [
         {
-          "configName": "荣威i5 2026款 1.5L CVT行政版",
+          "configName": "2026款 1.5L CVT行政版",
+          "configId": "250519",
+          "index": 0,
           "price": "12.58万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.5L 129马力 L4",
           "size": "4676x1838x1491",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "1.5L 129马力 L4"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "荣威i5 2024款 1.5L CVT尊荣版",
+          "configName": "2024款 1.5L CVT尊荣版",
+          "configId": "240402",
+          "index": 1,
           "price": "8.59万",
-          "fuelType": "汽油",
-          "size": "4676x1838x1498",
           "manufacturer": "上汽集团",
           "class": "紧凑型车",
-          "power": "1.5L 129马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 129马力 L4",
+          "size": "4676x1838x1498",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/0abccf9aecf65a5781a8c471e37eaed1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1a1a6c8affda3c72e7dba14239681bcd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05db5c6176c967ce0a729f19b30fa4ae~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/0abccf9aecf65a5781a8c471e37eaed1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威i5 2023款 1.5L 手动舒享版",
+          "configName": "2023款 1.5L 手动舒享版",
+          "configId": "91389",
+          "index": 2,
           "price": "6.89万",
-          "fuelType": "汽油",
-          "size": "4676x1838x1498",
           "manufacturer": "上汽集团",
           "class": "紧凑型车",
-          "power": "1.5L 129马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 129马力 L4",
+          "size": "4676x1838x1498",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4beca644f958a948eedbae60172611cf~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e0849ae58487dc79c19f9ef22a9d68bb~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "宇宙星雨",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98d099baa1c0e0042d78599176a8acc8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4beca644f958a948eedbae60172611cf~2508x0.webp"
         },
         {
-          "configName": "荣威i5 2023款 1.5L 手动优越版",
+          "configName": "2023款 1.5L 手动优越版",
+          "configId": "91431",
+          "index": 3,
           "price": "7.39万",
-          "fuelType": "汽油",
-          "size": "4676x1838x1498",
           "manufacturer": "上汽集团",
           "class": "紧凑型车",
-          "power": "1.5L 129马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 129马力 L4",
+          "size": "4676x1838x1498",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19452dec316ea2acf29045a100949753~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/33e0bbe6bf92a2eb810ca21b6f083367~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6c831a60c9b680f9e9cc1a1296997d9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/19452dec316ea2acf29045a100949753~2508x0.webp"
         },
         {
-          "configName": "荣威i5 2023款 1.5L CVT豪华版",
+          "configName": "2023款 1.5L CVT豪华版",
+          "configId": "91430",
+          "index": 4,
           "price": "8.09万",
-          "fuelType": "汽油",
-          "size": "4676x1838x1498",
           "manufacturer": "上汽集团",
           "class": "紧凑型车",
-          "power": "1.5L 129马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5L 129马力 L4",
+          "size": "4676x1838x1498",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e83aeaf6bfcf069a99fa370bc841f60c~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c9cd33e0eb6b4f2915107e220a3a310~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f75bb0343143c0721167247f28f09425~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e83aeaf6bfcf069a99fa370bc841f60c~2508x0.webp"
         },
         {
-          "configName": "荣威i5 2023款 1.5L CVT旗舰版",
+          "configName": "2023款 1.5L CVT旗舰版",
+          "configId": "91218",
+          "index": 5,
           "price": "9.09万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.5L 129马力 L4",
           "size": "4676x1838x1498",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "1.5L 129马力 L4"
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c06f3c1c52ddfa2732a1132a1a6af53c~2508x0.webp"
+            },
+            {
+              "name": "早安黄",
+              "colors": [
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cbd5ae534fd2ff1cbcbb144b2a1ae9c0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "经典黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/977ca14f3aaae7e8cb5fd08c8ab7bd60~2508x0.webp"
+            },
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#FF8800"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/265138175cb2fb50ed24df31336d6987~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c06f3c1c52ddfa2732a1132a1a6af53c~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "M7 DMH",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/791bb32227264d5a8af337292ee0d441~1200x0.png",
-      "configs": []
-    },
-    {
-      "carName": "D7 EV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/15c89cf8c5564571a7654cd1152b1e87~1200x0.png",
+      "carId": 9173,
+      "carName": "D7 DMH",
       "configs": [
         {
-          "configName": "荣威D7 EV 2024款 510km 后驱领航版",
-          "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
+          "configName": "2025款 125世界冠军版",
+          "configId": "242296",
+          "index": 0,
+          "price": "12.38万",
           "manufacturer": "上汽集团",
           "class": "中型车",
-          "power": "纯电动 197马力"
-        },
-        {
-          "configName": "荣威D7 EV 2024款 510km 后驱尊荣版",
-          "price": "15.78万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "纯电动 197马力"
-        },
-        {
-          "configName": "荣威D7 EV 2024款 610km 后驱尊荣版",
-          "price": "17.48万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "纯电动 211马力"
-        },
-        {
-          "configName": "荣威D7 EV 2024款 510km 出行版",
-          "price": "20.08万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "纯电动 197马力"
-        },
-        {
-          "configName": "荣威D7 EV 2023款 510后驱卓越版",
-          "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "纯电动 197马力"
-        },
-        {
-          "configName": "荣威D7 EV 2023款 510后驱旗舰版",
-          "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "纯电动 197马力"
-        },
-        {
-          "configName": "荣威D7 EV 2023款 610后驱旗舰版",
-          "price": "17.68万",
-          "fuelType": "纯电动",
-          "size": "4890x1872x1510",
-          "manufacturer": "上汽集团",
-          "class": "中型车",
-          "power": "纯电动 211马力"
-        }
-      ]
-    },
-    {
-      "carName": "Ei5",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c37d483fe465393f8b89e23c4103920~1200x0.png",
-      "configs": [
-        {
-          "configName": "荣威Ei5 2021款 500 倾心版",
-          "price": "15.28万",
-          "fuelType": "纯电动",
-          "size": "4600x1818x1543",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "荣威Ei5 2021款 500 倾慕版",
-          "price": "16.38万",
-          "fuelType": "纯电动",
-          "size": "4600x1818x1543",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "荣威Ei5 2021款 500 倾城版",
-          "price": "16.68万",
-          "fuelType": "纯电动",
-          "size": "4600x1818x1543",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        }
-      ]
-    },
-    {
-      "carName": "i6 MAX EV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/116a0cbf6620852e77e7d53acd8e0f17~1200x0.png",
-      "configs": [
-        {
-          "configName": "荣威i6 MAX EV 2022款 500天幕尊享版",
-          "price": "15.28万",
-          "fuelType": "纯电动",
-          "size": "4722x1835x1493",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "荣威i6 MAX EV 2022款 500天幕旗舰版",
-          "price": "16.38万",
-          "fuelType": "纯电动",
-          "size": "4722x1835x1493",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "荣威i6 MAX EV 2022款 500天幕特别版",
-          "price": "18.18万",
-          "fuelType": "纯电动",
-          "size": "4722x1835x1493",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "荣威i6 MAX EV 2022款 600天幕尊享版",
-          "price": "16.58万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "荣威i6 MAX EV 2022款 600天幕旗舰版",
-          "price": "17.68万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        }
-      ]
-    },
-    {
-      "carName": "D5X DMH",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c2f38c422b644366a6b9548077e21e2e~1200x0.png",
-      "configs": [
-        {
-          "configName": "荣威D5X DMH 2024款 135豪华版",
-          "price": "12.98万",
           "fuelType": "插电式混合动力",
-          "size": "4700x1890x1664",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 197马力"
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4890x1890x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6d8d003eb80c126da37f4ede3620b50f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "安第斯灰",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e600d9eeaf7cbe7720a0b2d19b357a2~2508x0.webp"
+            },
+            {
+              "name": "晨曦金",
+              "colors": [
+                "#D5D5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc573a475eff9cc0d6655378c316ff58~2508x0.webp"
+            },
+            {
+              "name": "光速银",
+              "colors": [
+                "#DCDDDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb93b86b00d41c49a2678228d9f8e60c~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/4e2a7c464aadc93f5392fbb9d3c2de08~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f16c3984a0c6256d232460fc6aee4d10~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6d8d003eb80c126da37f4ede3620b50f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威D5X DMH 2024款 135旗舰版",
+          "configName": "2025款 125世界冠军卓越版",
+          "configId": "242297",
+          "index": 1,
+          "price": "13.38万",
+          "manufacturer": "上汽集团",
+          "class": "中型车",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4890x1890x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_671ea1e7a793b38a610d4b186e73901c~2508x0.webp"
+            },
+            {
+              "name": "安第斯灰",
+              "colors": [
+                "#9E9E9E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_074faa00043e33232eaddc12100bb1ad~2508x0.webp"
+            },
+            {
+              "name": "晨曦金",
+              "colors": [
+                "#D5D5CE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3de4915ba5e39893694f371619bf733f~2508x0.webp"
+            },
+            {
+              "name": "光速银",
+              "colors": [
+                "#DCDDDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7a62e98724f311745eb602772d570461~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f9774db2591dd16f6de0d60f5459fa1f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4211aad2018c8ef677b0c45b78d514dd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_671ea1e7a793b38a610d4b186e73901c~2508x0.webp"
+        },
+        {
+          "configName": "2025款 125世界冠军旗舰版",
+          "configId": "242298",
+          "index": 2,
+          "price": "14.38万",
+          "manufacturer": "上汽集团",
+          "class": "中型车",
+          "fuelType": "插电式混合动力",
+          "power": "1.5L 112马力 L4 插电式混动",
+          "size": "4890x1890x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_727f4d553c219024d5ff3f25ad5cb799~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "晨曦金",
+              "colors": [
+                "#D5D5CE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_4c9d6df5b50178185e8c0a3366c2f57c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "光速银",
+              "colors": [
+                "#DCDDDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c8eb9c368ea6b3c0ece2e1aee054fd7~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_13f078bfe31d1f81a8005a93df28571c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f12971e209f616d6cda89f3309491d73~2508x0.webp"
+            },
+            {
+              "name": "粟米",
+              "colors": [
+                "#F4F2E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d610020315a402fe4dfe3426af445ecd~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_727f4d553c219024d5ff3f25ad5cb799~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 25140,
+      "carName": "D6",
+      "configs": [
+        {
+          "configName": "2025款 450km 优享版",
+          "configId": "247730",
+          "index": 0,
+          "price": "9.98万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 129马力",
+          "size": "4792x1828x1496",
+          "exteriorImages": [
+            {
+              "name": "玄岩灰",
+              "colors": [
+                "#7D7979"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5310c42ba31d2151fac21effc39a53e~2508x0.webp"
+            },
+            {
+              "name": "霞光紫",
+              "colors": [
+                "#877288"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_cafb140f766eb7d27465a18e3059afdc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "沧浪",
+              "colors": [
+                "#A6C6A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f70e05b4aacc743f8392f78b8b438ee8~2508x0.webp"
+            },
+            {
+              "name": "云水白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_619e66cdae84614e8adba0388946ec49~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尊雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_22ba9769945de46e2a6aa96814bd664f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b5310c42ba31d2151fac21effc39a53e~2508x0.webp"
+        },
+        {
+          "configName": "2025款 450km 尊享版",
+          "configId": "247731",
+          "index": 1,
+          "price": "10.98万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 129马力",
+          "size": "4792x1828x1496",
+          "exteriorImages": [
+            {
+              "name": "玄岩灰",
+              "colors": [
+                "#7D7979"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97356f117e2b31c3ff85144d0be6685d~2508x0.webp"
+            },
+            {
+              "name": "霞光紫",
+              "colors": [
+                "#877288"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4d81361f98f04ecdc5ccec8aefdfef22~2508x0.webp"
+            },
+            {
+              "name": "沧浪",
+              "colors": [
+                "#A6C6A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1207b9101e09446651cc94276f9eab83~2508x0.webp"
+            },
+            {
+              "name": "云水白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_99f074cff4c1036a8d1711b89344ade2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿野仙踪",
+              "colors": [
+                "#B9C8C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be3388245fcd612ca1a834999135ecfa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97356f117e2b31c3ff85144d0be6685d~2508x0.webp"
+        },
+        {
+          "configName": "2025款 520km 舒享版",
+          "configId": "247735",
+          "index": 2,
+          "price": "11.48万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 143马力",
+          "size": "4792x1828x1496",
+          "exteriorImages": [
+            {
+              "name": "玄岩灰",
+              "colors": [
+                "#7D7979"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_365133e7fa5b1303fc9b783c41ae9697~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "沧浪",
+              "colors": [
+                "#A6C6A6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_6474673b66252c44176ba4544ce5ab54~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云水白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_827e9148430692e26fbdb7a7ff32a6e9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿野仙踪",
+              "colors": [
+                "#B9C8C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_00701596a82a0f7c78d75a3097261a62~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_365133e7fa5b1303fc9b783c41ae9697~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2025款 520km 尊享版",
+          "configId": "247734",
+          "index": 3,
+          "price": "11.98万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 143马力",
+          "size": "4792x1828x1496",
+          "exteriorImages": [
+            {
+              "name": "玄岩灰",
+              "colors": [
+                "#7D7979"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5e2d27030efd289239059cd7b3ebaaa~2508x0.webp"
+            },
+            {
+              "name": "沧浪",
+              "colors": [
+                "#A6C6A6"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_0a85d89aeaebb186820b5df1007e8867~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云水白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_c09239353027fc6f6cf5656dc8c9eb68~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿野仙踪",
+              "colors": [
+                "#B9C8C5"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_0175c4dca48b4411b0fcfa4aa345bb72~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5e2d27030efd289239059cd7b3ebaaa~2508x0.webp"
+        },
+        {
+          "configName": "2025款 520km 智享版",
+          "configId": "247733",
+          "index": 4,
+          "price": "12.48万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 143马力",
+          "size": "4792x1828x1496",
+          "exteriorImages": [
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#4AA7F2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_a83acefa643c698162bebc3149d99c3a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "玄岩灰",
+              "colors": [
+                "#7D7979"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6ec5f04cc7db3b3ace9860afca2f2854~2508x0.webp"
+            },
+            {
+              "name": "沧浪",
+              "colors": [
+                "#A6C6A6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fc88d7edcbb2ff75534f40780ba2e1b~2508x0.webp"
+            },
+            {
+              "name": "云水白",
+              "colors": [
+                "#FBFBFB"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_b98eec370c05f43aee19a2fe9a496a5c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿野仙踪",
+              "colors": [
+                "#B9C8C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba298186e2dcd8b18e848302b31efb5b~2508x0.webp"
+            },
+            {
+              "name": "碧空云海",
+              "colors": [
+                "#F1F1F1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d399be928d2a34188f61b666d817965~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_a83acefa643c698162bebc3149d99c3a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2025款 520km 智慧版",
+          "configId": "247732",
+          "index": 5,
           "price": "13.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1890x1664",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 197马力"
-        },
-        {
-          "configName": "荣威D5X DMH 2024款 135科技版",
-          "price": "14.68万",
-          "fuelType": "插电式混合动力",
-          "size": "4700x1890x1664",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 197马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 143马力",
+          "size": "4792x1828x1496",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "RX5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3e8272e8363c457a9259c2a52e2a48d5~1200x0.png",
+      "carId": 9125,
+      "carName": "D7 EV",
       "configs": [
         {
-          "configName": "荣威RX5 2025款 PLUS 330TGI 自动领潮智惠版",
-          "price": "10.49万",
-          "fuelType": "汽油",
-          "size": "4571x1855x1719",
+          "configName": "2024款 510km 后驱领航版",
+          "configId": "242340",
+          "index": 0,
+          "price": "14.98万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 197马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/adb1ad46171a65438c3159762b78eda5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "高雅灰",
+              "colors": [
+                "#6F6E6E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_916a297341dc5dfe402e9b8f9bd026c4~2508x0.webp"
+            },
+            {
+              "name": "刀锋银",
+              "colors": [
+                "#E8ECED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60204c4721aff5bf91465f63a6cbc5f2~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09b5840740be12379d2e4d39fe8f0c84~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c235fe126e46e127cd1377ac56a9eebb~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/adb1ad46171a65438c3159762b78eda5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威RX5 2023款 PLUS 330TGI 手动领潮智享版",
-          "price": "9.99万",
-          "fuelType": "汽油",
-          "size": "4571x1855x1719",
+          "configName": "2024款 510km 后驱尊荣版",
+          "configId": "242341",
+          "index": 1,
+          "price": "15.78万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 197马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "荣威RX5 2023款 PLUS 330TGI 自动领潮智惠版",
-          "price": "10.49万",
-          "fuelType": "汽油",
-          "size": "4571x1855x1719",
+          "configName": "2024款 610km 后驱尊荣版",
+          "configId": "242342",
+          "index": 2,
+          "price": "17.48万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 211马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "荣威RX5 2023款 PLUS 330TGI 自动领潮智享版",
-          "price": "11.19万",
-          "fuelType": "汽油",
-          "size": "4571x1855x1719",
+          "configName": "2024款 510km 出行版",
+          "configId": "97292",
+          "index": 3,
+          "price": "20.08万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 197马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "荣威RX5 2023款 PLUS 330TGI 自动领潮智臻版",
-          "price": "11.99万",
-          "fuelType": "汽油",
-          "size": "4571x1855x1719",
+          "configName": "2023款 510后驱卓越版",
+          "configId": "91517",
+          "index": 4,
+          "price": "14.98万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 197马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/34d2e8c860b7de2e61cee3bb2804e712~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "驭光蓝",
+              "colors": [
+                "#2EACEC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e66a59c69969bd81851b9f621855b9a~2508x0.webp"
+            },
+            {
+              "name": "高雅灰",
+              "colors": [
+                "#6F6E6E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82336b93c8b689a6ef3523f145e9c1aa~2508x0.webp"
+            },
+            {
+              "name": "刀锋银",
+              "colors": [
+                "#E8ECED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c19dbcce852f65da8fe28263e8681888~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4523cd107320d928805be944e424408~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/399af9751c6fb6ddaa0a2f01021ab385~2508x0.webp"
+            },
+            {
+              "name": "粟米",
+              "colors": [
+                "#E2DFDF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/1dd2530ba3c5d5d3ddc21b8ce5279f6b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/34d2e8c860b7de2e61cee3bb2804e712~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威RX5 2023款 舒享版",
-          "price": "12.29万",
-          "fuelType": "汽油",
-          "size": "4655x1890x1664",
+          "configName": "2023款 510后驱旗舰版",
+          "configId": "94979",
+          "index": 5,
+          "price": "15.98万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 197马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [
+            {
+              "name": "驭光蓝",
+              "colors": [
+                "#2EACEC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_eb2aebcfce1cc7f71636a40a5acea4ad~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "高雅灰",
+              "colors": [
+                "#6F6E6E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5678393b9db8e9bc27987469f9ffaf75~2508x0.webp"
+            },
+            {
+              "name": "刀锋银",
+              "colors": [
+                "#E8ECED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e3bc4161cb82b3282b916b39a0f0b73b~2508x0.webp"
+            },
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/38972d27c23945f0e21f804236e17345~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4485e85a3cc8438d61576e283e2ef3a0~2508x0.webp"
+            },
+            {
+              "name": "粟米",
+              "colors": [
+                "#E2DFDF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6c09175e7ffd5a03aeeb11f89b28a66~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_eb2aebcfce1cc7f71636a40a5acea4ad~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威RX5 2023款 优越版",
-          "price": "12.79万",
-          "fuelType": "汽油",
-          "size": "4655x1890x1664",
+          "configName": "2023款 610后驱旗舰版",
+          "configId": "90654",
+          "index": 6,
+          "price": "17.68万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
-        },
-        {
-          "configName": "荣威RX5 2023款 豪华滑屏版",
-          "price": "13.29万",
-          "fuelType": "汽油",
-          "size": "4655x1890x1664",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
-        },
-        {
-          "configName": "荣威RX5 2023款 尊荣滑屏版",
-          "price": "13.59万",
-          "fuelType": "汽油",
-          "size": "4655x1890x1664",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
-        },
-        {
-          "configName": "荣威RX5 2023款 旗舰智驾版",
-          "price": "15.59万",
-          "fuelType": "汽油",
-          "size": "4655x1890x1664",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 188马力 L4"
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 211马力",
+          "size": "4890x1872x1510",
+          "exteriorImages": [
+            {
+              "name": "亮白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2888dff5861b53a3c2175fca2e99571~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨染",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/0efa5fd15874e0314ca342694748ed5f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "粟米",
+              "colors": [
+                "#E2DFDF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/20e2a05f9c273cd801d9c4ea36db841f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f2888dff5861b53a3c2175fca2e99571~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "eRX5",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a735b884eeac6060110b387fdfd1ea4~1200x0.png",
+      "carId": 1760,
+      "carName": "Ei5",
       "configs": [
         {
-          "configName": "荣威eRX5 2023款 超混舒享版",
-          "price": "14.79万",
-          "fuelType": "插电式混合动力",
-          "size": "4655x1890x1664",
+          "configName": "2021款 500 倾心版",
+          "configId": "52197",
+          "index": 0,
+          "price": "15.28万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 245马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4600x1818x1543",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d47d5e68ecdb13b901dbe339dcdd4953~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "液态黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c70276a688c7c3f654fb2afde31404a5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d47d5e68ecdb13b901dbe339dcdd4953~2508x0.webp"
         },
         {
-          "configName": "荣威eRX5 2023款 超混优越版",
-          "price": "15.39万",
-          "fuelType": "插电式混合动力",
-          "size": "4655x1890x1664",
+          "configName": "2021款 500 倾慕版",
+          "configId": "52377",
+          "index": 1,
+          "price": "16.38万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 245马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4600x1818x1543",
+          "exteriorImages": [
+            {
+              "name": "苹果绿",
+              "colors": [
+                "#9CC63C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/7cfc5e2b707c32283062de3df21f86f6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4317cf92f469ffc521277d7a807d71c3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "辉夜黑",
+              "colors": [
+                "#0A0A0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46484d1578e032323913695bc13b8139~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/7cfc5e2b707c32283062de3df21f86f6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威eRX5 2023款 超混尊荣版",
-          "price": "15.99万",
-          "fuelType": "插电式混合动力",
-          "size": "4655x1890x1664",
+          "configName": "2021款 500 倾城版",
+          "configId": "52093",
+          "index": 2,
+          "price": "16.68万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "插电式混动 245马力"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4600x1818x1543",
+          "exteriorImages": [
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c818e5944801db69c6648a0c6a29b09~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "辉夜黑",
+              "colors": [
+                "#0A0A0A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/afc9544a3c9d6493c55ada5dd2458f47~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "天青灰",
+              "colors": [
+                "#B9B8BD"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/f49549e61f3e166aa5b44e8e17f23bd3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4c818e5944801db69c6648a0c6a29b09~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "RX5 MAX",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1916ab4c15b9205ec3ebf22116a827d9~1200x0.png",
+      "carId": 4582,
+      "carName": "i6 MAX EV",
       "configs": [
         {
-          "configName": "荣威RX5 MAX 2022款 1.5T 自动有为豪华版",
-          "price": "12.98万",
-          "fuelType": "汽油",
-          "size": "4676x1875x1725",
+          "configName": "2022款 500天幕尊享版",
+          "configId": "73767",
+          "index": 0,
+          "price": "15.28万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4722x1835x1493",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6df01e43b2028ea64ea3a0a60aa0a69f~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/312234e0ec7d6a8e415417cb9dff9226~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/aaa919cef1fad7a8fe6da3a4f784e956~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6df01e43b2028ea64ea3a0a60aa0a69f~2508x0.webp"
         },
         {
-          "configName": "荣威RX5 MAX 2022款 1.5T 自动有为尊贵版",
-          "price": "13.88万",
-          "fuelType": "汽油",
-          "size": "4676x1875x1725",
+          "configName": "2022款 500天幕旗舰版",
+          "configId": "73768",
+          "index": 1,
+          "price": "16.38万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4722x1835x1493",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#272727"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/abf9f9bad6f597cd700411de7cd26a29~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8f87e47afc66eaaa35af99167310974e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/abf9f9bad6f597cd700411de7cd26a29~2508x0.webp"
         },
         {
-          "configName": "荣威RX5 MAX 2022款 1.5T 自动有为旗舰版",
-          "price": "14.88万",
-          "fuelType": "汽油",
-          "size": "4676x1875x1725",
+          "configName": "2022款 500天幕特别版",
+          "configId": "60277",
+          "index": 2,
+          "price": "18.18万",
           "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "1.5T 181马力 L4"
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4722x1835x1493",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e086bbd2dad3719daf7e7324c911c55a~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02f5bf19455cc4a30f65bacb876b576d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2fb5446a598f4b032d9b4802c833bc5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e086bbd2dad3719daf7e7324c911c55a~2508x0.webp"
         },
         {
-          "configName": "荣威RX5 MAX 2022款 2.0T 自动有为尊荣版",
-          "price": "15.58万",
-          "fuelType": "汽油",
-          "size": "4676x1875x1725",
-          "manufacturer": "上汽集团",
-          "class": "紧凑型SUV",
-          "power": "2.0T 231马力 L4"
-        },
-        {
-          "configName": "荣威RX5 MAX 2022款 2.0T 自动有为至尊版",
+          "configName": "2022款 600天幕尊享版",
+          "configId": "73144",
+          "index": 3,
           "price": "16.58万",
-          "fuelType": "汽油",
-          "size": "4676x1875x1725",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4724x1835x1493",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed57d160418faa4b200c593a4cda8c94~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2231f7366871c157375dd6402ae9a52~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ed57d160418faa4b200c593a4cda8c94~2508x0.webp"
+        },
+        {
+          "configName": "2022款 600天幕旗舰版",
+          "configId": "73146",
+          "index": 4,
+          "price": "17.68万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 184马力",
+          "size": "4724x1835x1493",
+          "exteriorImages": [
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/dde14aabb358c8e1959afefacc0e351d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56c5843d761ed1b3b83e05c4049b6d34~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/dde14aabb358c8e1959afefacc0e351d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 9347,
+      "carName": "D5X DMH",
+      "configs": [
+        {
+          "configName": "2024款 135豪华版",
+          "configId": "100803",
+          "index": 0,
+          "price": "12.98万",
           "manufacturer": "上汽集团",
           "class": "紧凑型SUV",
-          "power": "2.0T 231马力 L4"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "4700x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "雾凇银",
+              "colors": [
+                "#AEB2B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_344181cae37a6781f965a126d9c6bfe1~2508x0.webp"
+            },
+            {
+              "name": "皎月白",
+              "colors": [
+                "#E4E5E5"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/6b59ecc5bc6e53b420dc77fb6bf2830a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff5d5f2217bf0881ebe767770fd90f38~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_344181cae37a6781f965a126d9c6bfe1~2508x0.webp"
+        },
+        {
+          "configName": "2024款 135旗舰版",
+          "configId": "100804",
+          "index": 1,
+          "price": "13.98万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "4700x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "沧浪灰",
+              "colors": [
+                "#777676"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/45cd9c90d8617a869a14a9a138c00293~2508x0.webp"
+            },
+            {
+              "name": "雾凇银",
+              "colors": [
+                "#AEB2B4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8638101932d8732fe62820de39d21441~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "皎月白",
+              "colors": [
+                "#E4E5E5"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/c9ab9976424d6f6c707797f5d6a3ca67~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/05a2622e2b3c905d7e64f2c063f2c346~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "粟米白",
+              "colors": [
+                "#ECECD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66f8ab2f5b17b1862078f2a7bac1831a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/45cd9c90d8617a869a14a9a138c00293~2508x0.webp"
+        },
+        {
+          "configName": "2024款 135科技版",
+          "configId": "100805",
+          "index": 2,
+          "price": "14.68万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "4700x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "雾凇银",
+              "colors": [
+                "#AEB2B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c5220cebdc1d8c31f4e2b39c49834a0~2508x0.webp"
+            },
+            {
+              "name": "皎月白",
+              "colors": [
+                "#E4E5E5"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/4c55b0552eb0af4a0b19d622e029af74~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1226e218139d3fa7f8a7dac3f1416bdd~2508x0.webp"
+            },
+            {
+              "name": "粟米白",
+              "colors": [
+                "#ECECD0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c02d4d064c0998065610d1a62294d8e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5c5220cebdc1d8c31f4e2b39c49834a0~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 1182,
+      "carName": "RX5",
+      "configs": [
+        {
+          "configName": "2025款 PLUS 330TGI 自动领潮智惠版",
+          "configId": "248036",
+          "index": 0,
+          "price": "10.49万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4571x1855x1719",
+          "exteriorImages": [
+            {
+              "name": "寰宇灰",
+              "colors": [
+                "#737475"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5ee6e1a09385ee7e229c63d3fdbe3d6~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f57bd3be383f785b86fb0454bc98bd1e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_928396ee1afd70c1efde59fa08f01c35~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5ee6e1a09385ee7e229c63d3fdbe3d6~2508x0.webp"
+        },
+        {
+          "configName": "2023款 PLUS 330TGI 手动领潮智享版",
+          "configId": "77335",
+          "index": 1,
+          "price": "9.99万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4571x1855x1719",
+          "exteriorImages": [
+            {
+              "name": "寰宇灰",
+              "colors": [
+                "#737475"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d7cd025c58010560279076750b435beb~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5aba98e05b44a40643f7fd9e188785a3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8dbeca6972942294a0f20d423e79b5e0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d7cd025c58010560279076750b435beb~2508x0.webp"
+        },
+        {
+          "configName": "2023款 PLUS 330TGI 自动领潮智惠版",
+          "configId": "77336",
+          "index": 2,
+          "price": "10.49万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4571x1855x1719",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#272727"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b1fbd70f8200f77e2f905dab69bad53b~2508x0.webp"
+            },
+            {
+              "name": "寰宇灰",
+              "colors": [
+                "#737475"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_765d9eeb01fea3fcaae3570ab37b18d9~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_72f251aae2efcdcd2db0c2b1f50602cf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ecb9c9ee0b7852bf12e047b1128cee56~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b1fbd70f8200f77e2f905dab69bad53b~2508x0.webp"
+        },
+        {
+          "configName": "2023款 PLUS 330TGI 自动领潮智享版",
+          "configId": "77338",
+          "index": 3,
+          "price": "11.19万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4571x1855x1719",
+          "exteriorImages": [
+            {
+              "name": "玄武黑",
+              "colors": [
+                "#272727"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc96c71af045c6116267b0cfbd490f85~2508x0.webp"
+            },
+            {
+              "name": "寰宇灰",
+              "colors": [
+                "#737475"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7904cc5585d2bee5f09e72a2dbfe2e31~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92b5c1c93d5e8c4ce8af3bb5be4ecdc6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db9f8539563c79f0e470072b3dc2a7d0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bc96c71af045c6116267b0cfbd490f85~2508x0.webp"
+        },
+        {
+          "configName": "2023款 PLUS 330TGI 自动领潮智臻版",
+          "configId": "77340",
+          "index": 4,
+          "price": "11.99万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4571x1855x1719",
+          "exteriorImages": [
+            {
+              "name": "月光白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d447b65ff31329c033e5e8d39256051b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f75acacd8043099515426629d415b636~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d447b65ff31329c033e5e8d39256051b~2508x0.webp"
+        },
+        {
+          "configName": "2023款 舒享版",
+          "configId": "76202",
+          "index": 5,
+          "price": "12.29万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "云锦灰",
+              "colors": [
+                "#9CA3A9"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/1ba2d1537fa8a5ac177e48b925148d87~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8721601300c6c0f1fe4467678c0c798~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/846de92c83bc2eae9b8f6efb8d9907e2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#252525"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0824ac2118e82742abfe350e294d8d6~2508x0.webp"
+            },
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31d89348ff3fcb0fed6e49a08ffb06fe~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/1ba2d1537fa8a5ac177e48b925148d87~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2023款 优越版",
+          "configId": "76203",
+          "index": 6,
+          "price": "12.79万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2af1f6bd87c36167a8ad1c0f5a356f44~2508x0.webp"
+            },
+            {
+              "name": "北极蓝",
+              "colors": [
+                "#56DBEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db324952ae9cf23c74fedf55ac198523~2508x0.webp"
+            },
+            {
+              "name": "云锦灰",
+              "colors": [
+                "#9CA3A9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c333778e99b3bb03534a3825bbffa751~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bab19494717d9f8d74a06a2f9ea506ff~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8086fa40a6219f0e1b2b4bbfdd5dc701~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#252525"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c651e9ed4b0297d7b67546eee6c4cd17~2508x0.webp"
+            },
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b37ec1b659ac3e8c3804cea1a5c0ef14~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2af1f6bd87c36167a8ad1c0f5a356f44~2508x0.webp"
+        },
+        {
+          "configName": "2023款 豪华滑屏版",
+          "configId": "76705",
+          "index": 7,
+          "price": "13.29万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "云锦灰",
+              "colors": [
+                "#9CA3A9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb01252deae1e0e6aae31222ab59f877~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/7801f0f25bcfa411c9113bd1b36dc9f1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d58e208d83bc5ca4212a320334299dc6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#252525"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f150e591e84727e4ca05dc5dc71a909~2508x0.webp"
+            },
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d7847405471b9b552e4f4e745b97a9d7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bb01252deae1e0e6aae31222ab59f877~2508x0.webp"
+        },
+        {
+          "configName": "2023款 尊荣滑屏版",
+          "configId": "76204",
+          "index": 8,
+          "price": "13.59万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/319e289b92dcacfbf5407150b034a2d6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3004f1b0de156a5b8438f03e1c0cebf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#252525"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c8207d93fa7f2eb252b82de799f3553~2508x0.webp"
+            },
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c1128d1cc89b88da23ebe71962e841f~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/319e289b92dcacfbf5407150b034a2d6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2023款 旗舰智驾版",
+          "configId": "75596",
+          "index": 9,
+          "price": "15.59万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7acedaa628756a6e51ca3ff0676ba12a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5cd9720d6295b2402e558a816e02fe5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7acedaa628756a6e51ca3ff0676ba12a~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3381,
+      "carName": "RX5 MAX",
+      "configs": [
+        {
+          "configName": "2022款 1.5T 自动有为豪华版",
+          "configId": "58411",
+          "index": 0,
+          "price": "12.98万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4676x1875x1725",
+          "exteriorImages": [
+            {
+              "name": "五十度灰",
+              "colors": [
+                "#919191"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e25b347e4c56ec0fdeb98b0dc320ff2a~2508x0.webp"
+            },
+            {
+              "name": "一诺千金",
+              "colors": [
+                "#E6E6EA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/154ae13ce6cebeb0e59d373c7f7adcfc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ececb23175bfea28aeb2c89d8bb7719~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e25b347e4c56ec0fdeb98b0dc320ff2a~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.5T 自动有为尊贵版",
+          "configId": "58412",
+          "index": 1,
+          "price": "13.88万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4676x1875x1725",
+          "exteriorImages": [
+            {
+              "name": "五十度灰",
+              "colors": [
+                "#919191"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1d5846315dd5eaa0cc89b2bf973b7a0f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/204c79f6af4290145312d04a1e2f9709~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1d5846315dd5eaa0cc89b2bf973b7a0f~2508x0.webp"
+        },
+        {
+          "configName": "2022款 1.5T 自动有为旗舰版",
+          "configId": "57322",
+          "index": 2,
+          "price": "14.88万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "1.5T 181马力 L4",
+          "size": "4676x1875x1725",
+          "exteriorImages": [
+            {
+              "name": "五十度灰",
+              "colors": [
+                "#919191"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3808d7a7e4afc758baf16e2b685aa15a~2508x0.webp"
+            },
+            {
+              "name": "坦白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3f0a10c1128126a11f535935a5ce07b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb6bfd32545db475a8fe7a93b67f699a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3808d7a7e4afc758baf16e2b685aa15a~2508x0.webp"
+        },
+        {
+          "configName": "2022款 2.0T 自动有为尊荣版",
+          "configId": "58410",
+          "index": 3,
+          "price": "15.58万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 231马力 L4",
+          "size": "4676x1875x1725",
+          "exteriorImages": [
+            {
+              "name": "敢自黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/50b69e21625020eb3ea18939f2f9de1c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨黑",
+              "colors": [
+                "#000003"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/639fcf1ece99aeda28a2fda66d05282e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/50b69e21625020eb3ea18939f2f9de1c~2508x0.webp"
+        },
+        {
+          "configName": "2022款 2.0T 自动有为至尊版",
+          "configId": "55631",
+          "index": 4,
+          "price": "16.58万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 231马力 L4",
+          "size": "4676x1875x1725",
+          "exteriorImages": [
+            {
+              "name": "五十度灰(哑光)",
+              "colors": [
+                "#4D4C4C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fdfa95279ca3a1d25084f0711d4d9c9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5f07344d0c15a4e8f73817369b3047a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2fdfa95279ca3a1d25084f0711d4d9c9~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1183,
+      "carName": "eRX5",
+      "configs": [
+        {
+          "configName": "2023款 超混舒享版",
+          "configId": "76209",
+          "index": 0,
+          "price": "14.79万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "云锦灰",
+              "colors": [
+                "#9CA3A9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/10545e404083221a317e8d93382b491a~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdba3467b785423e30fd0720f37c92a2~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/95e0076874e79a7e3225c4d67c12b9f8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89d869428c881d284c879aca784e53ea~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/10545e404083221a317e8d93382b491a~2508x0.webp"
+        },
+        {
+          "configName": "2023款 超混优越版",
+          "configId": "76210",
+          "index": 1,
+          "price": "15.39万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "云锦灰",
+              "colors": [
+                "#9CA3A9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/16745987d2cf68ce848af36626daf6b8~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/6ea7e96252e495b4391f2002e7c6acbb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d71fcb18d0e3197c5a9d0820a45c586~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ca10607627b8eedcecaa126d4c605a78~2508x0.webp"
+            },
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c7020023665518f89d31dcf7befb4bd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/16745987d2cf68ce848af36626daf6b8~2508x0.webp"
+        },
+        {
+          "configName": "2023款 超混尊荣版",
+          "configId": "76211",
+          "index": 2,
+          "price": "15.99万",
+          "manufacturer": "上汽集团",
+          "class": "紧凑型SUV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 188马力 L4",
+          "size": "4655x1890x1664",
+          "exteriorImages": [
+            {
+              "name": "珠光黑",
+              "colors": [
+                "#18191C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/edbb4d68a508e32597729485965b3c04~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "北极蓝",
+              "colors": [
+                "#56DBEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/170ad855e0dc90d3b96443efc429f68c~2508x0.webp"
+            },
+            {
+              "name": "云锦灰",
+              "colors": [
+                "#9CA3A9"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/9b41fd27943226b0918853709092eb1f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e077aef114a9ef62adce25b8f7987dba~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "幻影黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/e0d87bc0b29b55cced253e000f761f20~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "活力棕",
+              "colors": [
+                "#EAD69C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f768031eac92703db2e0f4e0cbb7b701~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/edbb4d68a508e32597729485965b3c04~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 4535,
+      "carName": "iMAX8",
+      "configs": [
+        {
+          "configName": "2023款 400TGI 舒享版",
+          "configId": "86869",
+          "index": 0,
+          "price": "18.58万",
+          "manufacturer": "上汽集团",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 234马力 L4",
+          "size": "5016x1909x1788",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/973724dff45ffdf11efa992b4e690443~2508x0.webp"
+            },
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5e7988c48451b8dcad2f0decca4845d~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_43744b5540133c306d13847d63eae64c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "金棕色",
+              "colors": [
+                "#FFD700"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43670a81ef4fb9cf8fd4d6dba9f0ec60~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/973724dff45ffdf11efa992b4e690443~2508x0.webp"
+        },
+        {
+          "configName": "2023款 400TGI 优享版",
+          "configId": "86868",
+          "index": 1,
+          "price": "19.58万",
+          "manufacturer": "上汽集团",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 234马力 L4",
+          "size": "5016x1909x1782",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/70d05de64cdf688ebfaecb502db61ef4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/a1e729e7825448e295023a92211acfea~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/590dc0ecf2a1cf43d146f0ff0524e309~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/bc4aea15086f429dd9dbc0e1652e6a03~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大象灰",
+              "colors": [
+                "#CFCFCC"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/30b7c3ab2d9e3f718b21bd9c917ba9a9~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/70d05de64cdf688ebfaecb502db61ef4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2023款 400TGI 越享版",
+          "configId": "86867",
+          "index": 2,
+          "price": "21.68万",
+          "manufacturer": "上汽集团",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 234马力 L4",
+          "size": "5016x1909x1782",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7ec7ba6ebe4a0ca01c8d8751265142b9~2508x0.webp"
+            },
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c93091576248d9aa11a1c781da8e379f~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/93d88c1767f0c812a0395d80f0d1dfff~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/b73e6dd5af18a1913510675b6a0cadb3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大象灰",
+              "colors": [
+                "#CFCFCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f8b22a558a2cd4d0018605572cb95d6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7ec7ba6ebe4a0ca01c8d8751265142b9~2508x0.webp"
+        },
+        {
+          "configName": "2023款 400TGI 至享版",
+          "configId": "86866",
+          "index": 3,
+          "price": "23.38万",
+          "manufacturer": "上汽集团",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 234马力 L4",
+          "size": "5016x1909x1782",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1a0bf04d9afbdbf8e04cd4e4c21f5403~2508x0.webp"
+            },
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e67b08e9d9a35a7b1b045c6d55b2c7f6~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/8d90a72cb7e5c6fdd551ab0f3b11bcdc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/8b08e6a4dea7526311ce56009fad7418~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大象灰",
+              "colors": [
+                "#CFCFCC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed2cf45eaaccd88bfd81f45214e2c743~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1a0bf04d9afbdbf8e04cd4e4c21f5403~2508x0.webp"
+        },
+        {
+          "configName": "2023款 400TGI 尊享版",
+          "configId": "86343",
+          "index": 4,
+          "price": "25.58万",
+          "manufacturer": "上汽集团",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 234马力 L4",
+          "size": "5016x1909x1782",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 10132,
       "carName": "iMAX8 DMH",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5c6ca95e8f5b49359b0a50d900476253~1200x0.png",
       "configs": [
         {
-          "configName": "荣威iMAX8 DMH 2024款 1.5T 陆尊舒享版",
+          "configName": "2024款 1.5T 陆尊舒享版",
+          "configId": "242288",
+          "index": 0,
           "price": "19.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5016x1909x1802",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "插电式混合动力 239马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5016x1909x1802",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "荣威iMAX8 DMH 2024款 1.5T 陆尊至享版",
+          "configName": "2024款 1.5T 陆尊至享版",
+          "configId": "242290",
+          "index": 1,
           "price": "22.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5016x1909x1802",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "插电式混合动力 239马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5016x1909x1802",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/01a62fa905756a4c2cd90b39625078da~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/626f74186633762d62467f218028a306~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/cfd46ad839b7c817049c366f9fb5984b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大象灰",
+              "colors": [
+                "#CACACA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/05621620aba1f1bf42ef772f0d8854c6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/01a62fa905756a4c2cd90b39625078da~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "荣威iMAX8 DMH 2024款 1.5T 陆尊奢享版",
+          "configName": "2024款 1.5T 陆尊奢享版",
+          "configId": "242291",
+          "index": 2,
           "price": "24.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5016x1909x1802",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "插电式混合动力 239马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5016x1909x1802",
+          "exteriorImages": [
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43d01c64a1fe936e9804b7cc9e737a80~2508x0.webp"
+            },
+            {
+              "name": "丝绒银",
+              "colors": [
+                "#C0C0BE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5410558778ab06f53ea5f5ab9d4938ee~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05f2bc260eafdcb7d0403e74a664ffed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "大象灰",
+              "colors": [
+                "#CACACA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f1bfd85909617aec4a08432255c12c42~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/43d01c64a1fe936e9804b7cc9e737a80~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5818,
       "carName": "iMAX8 EV",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fa8563e2d6488194d479aea0b7ae6e9e~1200x0.png",
       "configs": [
         {
-          "configName": "荣威iMAX8 EV 2022款 白银版",
+          "configName": "2022款 白银版",
+          "configId": "73963",
+          "index": 0,
           "price": "25.98万",
-          "fuelType": "纯电动",
-          "size": "5016x1909x1796",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5016x1909x1796",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "荣威iMAX8 EV 2022款 黄金版",
+          "configName": "2022款 黄金版",
+          "configId": "73964",
+          "index": 1,
           "price": "28.98万",
-          "fuelType": "纯电动",
-          "size": "5016x1909x1796",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5016x1909x1796",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0870d76d6750c565f0f5880745b8f57~2508x0.webp"
+            },
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d9f8a190ce2c660cd05c7633a981e5d~2508x0.webp"
+            },
+            {
+              "name": "驭光银",
+              "colors": [
+                "#D0D8E5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e72dbfc4bf2be0a493574a895b49bf4~2508x0.webp"
+            },
+            {
+              "name": "珠光白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e4c13c077f656c8e5dfb9cdd984267d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "金棕",
+              "colors": [
+                "#9C8166"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/6aa1f2df3cf50206cde1bfe6f8d25130~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "大象灰",
+              "colors": [
+                "#B6BABB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f25f7696187320812fe449d28740b9c0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a0870d76d6750c565f0f5880745b8f57~2508x0.webp"
         },
         {
-          "configName": "荣威iMAX8 EV 2022款 头等舱铂金版",
+          "configName": "2022款 头等舱铂金版",
+          "configId": "71660",
+          "index": 2,
           "price": "30.98万",
-          "fuelType": "纯电动",
-          "size": "5016x1909x1796",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5016x1909x1796",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba18f5c10ac47de3cfb06b46416645ec~2508x0.webp"
+            },
+            {
+              "name": "荣麟灰",
+              "colors": [
+                "#8691A3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb1ad0e006490139e3020fa4440c64ce~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "金棕",
+              "colors": [
+                "#9C8166"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f8dedff1cf81ecd41a69f26346dbc1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ba18f5c10ac47de3cfb06b46416645ec~2508x0.webp"
         },
         {
-          "configName": "荣威iMAX8 EV 2022款 头等舱钛金版",
+          "configName": "2022款 头等舱钛金版",
+          "configId": "77145",
+          "index": 3,
           "price": "33.98万",
-          "fuelType": "纯电动",
-          "size": "5016x1909x1796",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5016x1909x1796",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#404563"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c2bd6c56e00e733bce4b600bd6eb54a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "金棕",
+              "colors": [
+                "#9C8166"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2d70ecb2ef9bc8ac42dd33ed229d914a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0c2bd6c56e00e733bce4b600bd6eb54a~2508x0.webp"
         },
         {
-          "configName": "荣威iMAX8 EV 2022款 头等舱钻石版",
+          "configName": "2022款 头等舱钻石版",
+          "configId": "77146",
+          "index": 4,
           "price": "35.98万",
-          "fuelType": "纯电动",
-          "size": "5016x1909x1796",
           "manufacturer": "上汽集团",
           "class": "中大型MPV",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5016x1909x1796",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }

@@ -3,62 +3,342 @@
   "brandImage": "https://p3-dcd.byteimg.com/img/tos-cn-i-dcdx/22c8e7c239c546f9a35b08ae9a4d1ec6~tplv-resize:0:0.png?psm=motor.car_page.go_api",
   "cars": [
     {
+      "carId": 9131,
       "carName": "01",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/ae7a14f1769743849cfcd068986b537b~1200x0.png",
       "configs": [
         {
-          "configName": "极石01 2024款 全能7座标准续航版",
+          "configName": "2024款 全能7座标准续航版",
+          "configId": "239331",
+          "index": 0,
           "price": "29.99万",
-          "fuelType": "增程式",
-          "size": "5050x1980x1869",
           "manufacturer": "北京汽车制造厂",
           "class": "中大型SUV",
-          "power": "增程式 476马力"
+          "fuelType": "增程式",
+          "power": "纯电动 476马力",
+          "size": "5050x1980x1869",
+          "exteriorImages": [
+            {
+              "name": "黑武士特别版",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c236c532d341572e7a345f29e2026584~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "野森绿",
+              "colors": [
+                "#267626"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/34fe30b839b0a215b5825b8a4ec21be5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "雪山白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2847dd629e9fe3e190931d89bd94fad~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "珍珠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/404aba5a4c927ab1ac720f5f81e300dc~2508x0.webp"
+            },
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#C77B0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d701c427edf19a893edda61c923201dc~2508x0.webp"
+            },
+            {
+              "name": "羊脂白",
+              "colors": [
+                "#E7EAD1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ba00d69d6466050a4645591a7f0285b6~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/c236c532d341572e7a345f29e2026584~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "极石01 2024款 尊享6座标准续航版",
+          "configName": "2024款 尊享6座标准续航版",
+          "configId": "239332",
+          "index": 1,
           "price": "30.99万",
-          "fuelType": "增程式",
-          "size": "5050x1980x1869",
           "manufacturer": "北京汽车制造厂",
           "class": "中大型SUV",
-          "power": "增程式 476马力"
+          "fuelType": "增程式",
+          "power": "纯电动 476马力",
+          "size": "5050x1980x1869",
+          "exteriorImages": [
+            {
+              "name": "黑武士特别版",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72477cc5a85448243b1faf25b7ef2b53~2508x0.webp"
+            },
+            {
+              "name": "野森绿",
+              "colors": [
+                "#267626"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43dfb46abaebe40193f9f18f42a2a5e8~2508x0.webp"
+            },
+            {
+              "name": "云幕灰",
+              "colors": [
+                "#868686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e322133898e90377f4d2a935330518a5~2508x0.webp"
+            },
+            {
+              "name": "冰河银",
+              "colors": [
+                "#D0D1D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/01e9f3cf1cd2747ad254a3663c2e9563~2508x0.webp"
+            },
+            {
+              "name": "雪山白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/51b83c20b2d359b0720ae6c939cffe3d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "珍珠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d912fdad9f0788243cfdf59976cec7da~2508x0.webp"
+            },
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#C77B0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e11168ead1b4c87fc20dd80b45325b1~2508x0.webp"
+            },
+            {
+              "name": "羊脂白",
+              "colors": [
+                "#E7EAD1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c56bec351a9b4c108db6d538b4c9b824~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/72477cc5a85448243b1faf25b7ef2b53~2508x0.webp"
         },
         {
-          "configName": "极石01 2024款 全能7座长续航版",
+          "configName": "2024款 全能7座长续航版",
+          "configId": "239333",
+          "index": 2,
           "price": "34.99万",
-          "fuelType": "增程式",
-          "size": "5050x1980x1869",
           "manufacturer": "北京汽车制造厂",
           "class": "中大型SUV",
-          "power": "增程式 476马力"
+          "fuelType": "增程式",
+          "power": "纯电动 476马力",
+          "size": "5050x1980x1869",
+          "exteriorImages": [
+            {
+              "name": "野森绿",
+              "colors": [
+                "#267626"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_00feb2091b0324dc421172aba43566f2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#C77B0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_012678820aa6838c4c461508102d2948~2508x0.webp"
+            },
+            {
+              "name": "羊脂白",
+              "colors": [
+                "#E7EAD1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_afc5f12ba2bfbf36c45ed5aa73de6d1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_00feb2091b0324dc421172aba43566f2~2508x0.webp"
         },
         {
-          "configName": "极石01 2024款 尊享6座长续航版",
+          "configName": "2024款 尊享6座长续航版",
+          "configId": "239334",
+          "index": 3,
           "price": "35.99万",
-          "fuelType": "增程式",
-          "size": "5050x1980x1869",
           "manufacturer": "北京汽车制造厂",
           "class": "中大型SUV",
-          "power": "增程式 476马力"
+          "fuelType": "增程式",
+          "power": "纯电动 476马力",
+          "size": "5050x1980x1869",
+          "exteriorImages": [
+            {
+              "name": "黑武士特别版",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a4b1d0e7c00a3c3f0912c8dbfed94b3~2508x0.webp"
+            },
+            {
+              "name": "野森绿",
+              "colors": [
+                "#267626"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_76d451fbd7aff128488bf79397389474~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云幕灰",
+              "colors": [
+                "#868686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd6530b65fa89b040e3f748ec0a9ba1e~2508x0.webp"
+            },
+            {
+              "name": "雪山白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e6457ac9488f20ade882d4de45aa056~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "珍珠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_edb483ff577ed9e1c7d970c97c162247~2508x0.webp"
+            },
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#C77B0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bae3cc1aa5389817070660570e85cced~2508x0.webp"
+            },
+            {
+              "name": "羊脂白",
+              "colors": [
+                "#E7EAD1"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/c0bbda62e838eca3e51b0ceebdcd5202~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a4b1d0e7c00a3c3f0912c8dbfed94b3~2508x0.webp"
         },
         {
-          "configName": "极石01 2023款 全能7座长续航版",
+          "configName": "2023款 全能7座长续航版",
+          "configId": "91549",
+          "index": 4,
           "price": "34.99万",
-          "fuelType": "增程式",
-          "size": "5050x1980x1869",
           "manufacturer": "北京汽车制造厂",
           "class": "中大型SUV",
-          "power": "增程式 476马力"
+          "fuelType": "增程式",
+          "power": "纯电动 476马力",
+          "size": "5050x1980x1869",
+          "exteriorImages": [
+            {
+              "name": "黑武士特别版",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6903a31455528870fa892027b2387e97~2508x0.webp"
+            },
+            {
+              "name": "野森绿",
+              "colors": [
+                "#267626"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/454a39bab32f826da5246d4ce47fa21e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "云幕灰",
+              "colors": [
+                "#868686"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/3bd8831b53af2302ddb7f49d7277e68a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#C77B0A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/cc06179e6f6d67b5871776f58c90b31e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6903a31455528870fa892027b2387e97~2508x0.webp"
         },
         {
-          "configName": "极石01 2023款 尊享6座长续航版",
+          "configName": "2023款 尊享6座长续航版",
+          "configId": "90700",
+          "index": 5,
           "price": "35.99万",
-          "fuelType": "增程式",
-          "size": "5050x1980x1869",
           "manufacturer": "北京汽车制造厂",
           "class": "中大型SUV",
-          "power": "增程式 476马力"
+          "fuelType": "增程式",
+          "power": "纯电动 476马力",
+          "size": "5050x1980x1869",
+          "exteriorImages": [
+            {
+              "name": "野森绿",
+              "colors": [
+                "#267626"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/22c35ae13fd20654664bfbe7044013da~2508x0.webp"
+            },
+            {
+              "name": "云幕灰",
+              "colors": [
+                "#868686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d9856aa8f0606e2f69acf69d3371b3fa~2508x0.webp"
+            },
+            {
+              "name": "冰河银",
+              "colors": [
+                "#D0D1D8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd1a6685ce4c9f454d4a063cfbac8168~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "珍珠黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a024fecbd7d1306c6deee287697b1158~2508x0.webp"
+            },
+            {
+              "name": "琥珀橙",
+              "colors": [
+                "#C77B0A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b60f12d4bc8d980fece04c222182c5a~2508x0.webp"
+            },
+            {
+              "name": "羊脂白",
+              "colors": [
+                "#E7EAD1"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/4dae5a7335521b1a01e0f4d33378be88~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/22c35ae13fd20654664bfbe7044013da~2508x0.webp"
         }
       ]
     }

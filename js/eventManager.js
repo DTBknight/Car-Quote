@@ -508,13 +508,10 @@ export class EventManager {
     }[formType];
     
     // 设置利润值
-    Utils.setElementValue(profitId, Math.round(foreignProfit));
+    Utils.setElementValue(profitId, Math.round(rmbProfit));        // 人民币利润
+    Utils.setElementValue(profitRateId, Math.round(foreignProfit)); // 外币利润
     
-    // 计算并设置利润率
-    const profitRate = costPrice > 0 ? (foreignProfit / costPrice * 100) : 0;
-    Utils.setElementValue(profitRateId, Math.round(profitRate * 100) / 100);
-    
-    console.log('利润重新计算完成:', { foreignProfit, rmbProfit, profitRate });
+    console.log('利润重新计算完成:', { foreignProfit, rmbProfit });
   }
   
   // 绑定手续费滑块事件

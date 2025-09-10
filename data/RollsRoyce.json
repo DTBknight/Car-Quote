@@ -3,107 +3,385 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/e7357c5b6d10aff66747da83bdb78f99~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 882,
       "carName": "幻影",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f84b198235e54161984d196e954c022c~1200x0.png",
       "configs": [
         {
-          "configName": "幻影 2024款 6.7T 标准轴距版",
+          "configName": "2024款 6.7T 标准轴距版",
+          "configId": "86261",
+          "index": 0,
           "price": "847万",
-          "fuelType": "",
-          "size": "",
           "manufacturer": "",
           "class": "",
-          "power": ""
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "幻影 2024款 6.7T 长轴距版",
+          "configName": "2024款 6.7T 长轴距版",
+          "configId": "86262",
+          "index": 1,
           "price": "986万",
-          "fuelType": "",
-          "size": "",
           "manufacturer": "",
           "class": "",
-          "power": ""
+          "fuelType": "",
+          "power": "",
+          "size": "",
+          "exteriorImages": [
+            {
+              "name": "Black",
+              "colors": [
+                "#202021"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdca947c5e775862adf172836904eeaf~2508x0.webp"
+            },
+            {
+              "name": "月神沙色/卡比拉蓝",
+              "colors": [
+                "#FFFFF4",
+                "#404051"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b57ca3b11de2031f17b64d9b8b6c2955~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "海军蓝/蓝灰色",
+              "colors": [
+                "#40405E",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b736d7ae13148e48cc2417e984b071f~2508x0.webp"
+            },
+            {
+              "name": "橙色",
+              "colors": [
+                "#FFA266"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/7d47d980e4155086cdd205eef397860f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fdca947c5e775862adf172836904eeaf~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 883,
       "carName": "古思特",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/eef4eb367a9146438ebacbdedaeada43~1200x0.png",
       "configs": [
         {
-          "configName": "古思特 2024款 6.7T 标准轴距版",
+          "configName": "2024款 6.7T 标准轴距版",
+          "configId": "86242",
+          "index": 0,
           "price": "503万",
+          "manufacturer": "劳斯莱斯",
+          "class": "大型车",
           "fuelType": "汽油",
+          "power": "6.7T 571马力 V12",
           "size": "5546x2148x1571",
-          "manufacturer": "劳斯莱斯",
-          "class": "大型车",
-          "power": "6.7T 571马力 V12"
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5fc69010124215e82afecbcc92826b79~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "柑橘色",
+              "colors": [
+                "#E8BF45"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a85857e966b418ffce2b4e189756a8e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5fc69010124215e82afecbcc92826b79~2508x0.webp"
         },
         {
-          "configName": "古思特 2024款 6.7T 长轴距版",
+          "configName": "2024款 6.7T 长轴距版",
+          "configId": "86243",
+          "index": 1,
           "price": "577万",
+          "manufacturer": "劳斯莱斯",
+          "class": "大型车",
           "fuelType": "汽油",
+          "power": "6.7T 571马力 V12",
           "size": "5716x2148x1571",
-          "manufacturer": "劳斯莱斯",
-          "class": "大型车",
-          "power": "6.7T 571马力 V12"
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fc4396a6821de70beb8b04142ab1ba9~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "热情红",
+              "colors": [
+                "#C87B6A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/80b65e1458c1251727407479bbe6faf2~2508x0.webp"
+            },
+            {
+              "name": "阿玛尼亚克暗橘/黑色",
+              "colors": [
+                "#EE742C",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a28727590d98538a4362498a84f5d696~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2fc4396a6821de70beb8b04142ab1ba9~2508x0.webp"
         },
         {
-          "configName": "古思特 2024款 6.7T Black Badge",
+          "configName": "2024款 6.7T Black Badge",
+          "configId": "86244",
+          "index": 2,
           "price": "576万",
-          "fuelType": "汽油",
-          "size": "5558x2148x1578",
           "manufacturer": "劳斯莱斯",
           "class": "大型车",
-          "power": "6.7T 600马力 V12"
+          "fuelType": "汽油",
+          "power": "6.7T 600马力 V12",
+          "size": "5558x2148x1578",
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a86a3cc2ebf0da13f3320c7ec118f6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿松石",
+              "colors": [
+                "#97C4C6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c4dbb92c3dfeaedb38fec2cac97f2f05~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e1a86a3cc2ebf0da13f3320c7ec118f6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 2069,
       "carName": "库里南",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d234138afad2428a95cfd7f40dda4d85~1200x0.png",
       "configs": [
         {
-          "configName": "库里南 2024款 四座版",
+          "configName": "2024款 四座版",
+          "configId": "86245",
+          "index": 0,
           "price": "691万",
-          "fuelType": "汽油",
-          "size": "5341x2000x1837",
           "manufacturer": "劳斯莱斯",
           "class": "大型SUV",
-          "power": "6.7T 571马力 V12"
+          "fuelType": "汽油",
+          "power": "6.7T 571马力 V12",
+          "size": "5341x2000x1837",
+          "exteriorImages": [
+            {
+              "name": "绿色",
+              "colors": [
+                "#1D2F2B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0742d77fd07bead5c4961433b0ed4cf1~2508x0.webp"
+            },
+            {
+              "name": "薄荷绿",
+              "colors": [
+                "#CACBC4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d5aa182715590ed21f0691f32fc00d4~2508x0.webp"
+            },
+            {
+              "name": "北极白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5b10d635c521b38ae71235b6494d372~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "北极白/查尔斯蓝",
+              "colors": [
+                "#FFFFFF",
+                "#8B8BD2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48e7bbd6b7c7d615afd03a1b1360135e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0742d77fd07bead5c4961433b0ed4cf1~2508x0.webp"
         },
         {
-          "configName": "库里南 2024款 五座版",
+          "configName": "2024款 五座版",
+          "configId": "86246",
+          "index": 1,
           "price": "691万",
-          "fuelType": "汽油",
-          "size": "5341x2000x1837",
           "manufacturer": "劳斯莱斯",
           "class": "大型SUV",
-          "power": "6.7T 571马力 V12"
+          "fuelType": "汽油",
+          "power": "6.7T 571马力 V12",
+          "size": "5341x2000x1837",
+          "exteriorImages": [
+            {
+              "name": "风暴灰",
+              "colors": [
+                "#A49E8E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb509a18aecf0da0fff962ee33364b30~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "橘色/黑色",
+              "colors": [
+                "#FD8130",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/832dcd5dc4368f11be2bf08359194e12~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/cb509a18aecf0da0fff962ee33364b30~2508x0.webp"
         },
         {
-          "configName": "库里南 2024款 Black Badge",
+          "configName": "2024款 Black Badge",
+          "configId": "86247",
+          "index": 2,
           "price": "745万",
-          "fuelType": "汽油",
-          "size": "5341x2000x1837",
           "manufacturer": "劳斯莱斯",
           "class": "大型SUV",
-          "power": "6.7T 600马力 V12"
+          "fuelType": "汽油",
+          "power": "6.7T 600马力 V12",
+          "size": "5341x2000x1837",
+          "exteriorImages": [
+            {
+              "name": "Black",
+              "colors": [
+                "#202021"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b6a1b90e49cdb8132d2e3c1b2b31ce6~2508x0.webp"
+            },
+            {
+              "name": "北极白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9cce6aeb9846e2fc466c8c9e8c166ecc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "绿松石/黑色",
+              "colors": [
+                "#679486",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27d3b1194398bcc29c21bf263d3648cf~2508x0.webp"
+            },
+            {
+              "name": "橘色/黑色",
+              "colors": [
+                "#FD8130",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e772332eaf5c49b9bf3cc0b71563b0cd~2508x0.webp"
+            },
+            {
+              "name": "北极白/海军蓝",
+              "colors": [
+                "#FFFFFF",
+                "#4C4C4E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8253fe1f489c7edd81088847476d61ab~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8b6a1b90e49cdb8132d2e3c1b2b31ce6~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5374,
       "carName": "闪灵",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8c2d7e493f3b4ffbafbc6f149fe8eea6~1200x0.png",
       "configs": [
         {
-          "configName": "闪灵 2023款 标准型",
+          "configName": "2023款 标准型",
+          "configId": "56820",
+          "index": 0,
           "price": "575万",
-          "fuelType": "纯电动",
-          "size": "5453x2080x1559",
           "manufacturer": "劳斯莱斯",
           "class": "跑车",
-          "power": "纯电动 585马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 585马力",
+          "size": "5453x2080x1559",
+          "exteriorImages": [
+            {
+              "name": "钻石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b5840c176fa3fed4ca0b6bdf5ab5fee~2508x0.webp"
+            },
+            {
+              "name": "摩根石粉/钻石黑",
+              "colors": [
+                "#916182",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c0c74dab674decddf4a419e8558f57e~2508x0.webp"
+            },
+            {
+              "name": "马缨丹红/风暴灰",
+              "colors": [
+                "#D24836",
+                "#A9A08F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70b041f30b0bca0dc9ce661a4e9136cd~2508x0.webp"
+            },
+            {
+              "name": "黄绿色/钻石黑",
+              "colors": [
+                "#D2C540",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1cff526b3dd92b279266bc6fc575e56~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "丝光紫/塞尔比灰",
+              "colors": [
+                "#85728F",
+                "#BFC5C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/948b7cdb5d9fbcaaeb0aa03f47c092a4~2508x0.webp"
+            },
+            {
+              "name": "柑橘色/黑色",
+              "colors": [
+                "#FFA500",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a069d5c96adc760a355a9b4813a47c62~2508x0.webp"
+            },
+            {
+              "name": "白色/红色",
+              "colors": [
+                "#FFFFFF",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/507d96fcf9a2c30654f9dc802713b99f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8b5840c176fa3fed4ca0b6bdf5ab5fee~2508x0.webp"
         }
       ]
     }

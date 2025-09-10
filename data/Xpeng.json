@@ -3,340 +3,2154 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/45643feed53220ec5159662049ecb330~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "P7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6d31e8a9e40447a5997c643eeae7dbe5~1200x0.png",
-      "configs": [
-        {
-          "configName": "小鹏P7 2024款 P7i 702 Max鹏翼版",
-          "price": "28.99万",
-          "fuelType": "纯电动",
-          "size": "4888x1896x1450",
-          "manufacturer": "小鹏汽车",
-          "class": "中型车",
-          "power": "纯电动 276马力"
-        },
-        {
-          "configName": "小鹏P7 2023款 P7i 702 Pro",
-          "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4888x1896x1450",
-          "manufacturer": "小鹏汽车",
-          "class": "中型车",
-          "power": "纯电动 276马力"
-        },
-        {
-          "configName": "小鹏P7 2023款 P7i 702 Max",
-          "price": "26.99万",
-          "fuelType": "纯电动",
-          "size": "4888x1896x1450",
-          "manufacturer": "小鹏汽车",
-          "class": "中型车",
-          "power": "纯电动 276马力"
-        }
-      ]
-    },
-    {
-      "carName": "P5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/2dd8029bfe524432beeb141ae2ecef17~1200x0.png",
-      "configs": [
-        {
-          "configName": "小鹏P5 2024款 500 Plus",
-          "price": "15.69万",
-          "fuelType": "纯电动",
-          "size": "4860x1840x1520",
-          "manufacturer": "小鹏汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 211马力"
-        },
-        {
-          "configName": "小鹏P5 2024款 500 Pro",
-          "price": "17.49万",
-          "fuelType": "纯电动",
-          "size": "4860x1840x1520",
-          "manufacturer": "小鹏汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 211马力"
-        }
-      ]
-    },
-    {
+      "carId": 10170,
       "carName": "MONA M03",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/d5edd9016cf44050b38459054978a094~1200x0.png",
       "configs": [
         {
-          "configName": "小鹏MONA M03 2025款 515 长续航 Plus版",
+          "configName": "2025款 515 长续航 Plus版",
+          "configId": "248801",
+          "index": 0,
           "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1896x1445",
           "manufacturer": "小鹏汽车",
           "class": "紧凑型车",
-          "power": "纯电动 190马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 190马力",
+          "size": "4780x1896x1445",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "微月灰",
+              "colors": [
+                "#BCC0C9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星瀚米",
+              "colors": [
+                "#ECDFD4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜幕灰",
+              "colors": [
+                "#C1C8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "拂晓紫",
+              "colors": [
+                "#C6A2DC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#F7F9FB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏MONA M03 2025款 620 超长续航 Plus版",
+          "configName": "2025款 620 超长续航 Plus版",
+          "configId": "248802",
+          "index": 1,
           "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1896x1445",
           "manufacturer": "小鹏汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 218马力",
+          "size": "4780x1896x1445",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "微月灰",
+              "colors": [
+                "#BCC0C9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星瀚米",
+              "colors": [
+                "#ECDFD4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜幕灰",
+              "colors": [
+                "#C1C8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "拂晓紫",
+              "colors": [
+                "#C6A2DC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#F7F9FB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏MONA M03 2025款 502 长续航 Max版",
+          "configName": "2025款 502 长续航 Max版",
+          "configId": "248523",
+          "index": 2,
           "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1896x1445",
           "manufacturer": "小鹏汽车",
           "class": "紧凑型车",
-          "power": "纯电动 190马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 190马力",
+          "size": "4780x1896x1445",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "微月灰",
+              "colors": [
+                "#BCC0C9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星雨青",
+              "colors": [
+                "#C1DACB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星瀚米",
+              "colors": [
+                "#ECDFD4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜幕灰",
+              "colors": [
+                "#C1C8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "拂晓紫",
+              "colors": [
+                "#C6A2DC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#F7F9FB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏MONA M03 2025款 600 超长续航 Max版",
+          "configName": "2025款 600 超长续航 Max版",
+          "configId": "248480",
+          "index": 3,
           "price": "13.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1896x1445",
           "manufacturer": "小鹏汽车",
           "class": "紧凑型车",
-          "power": "纯电动 218马力"
-        },
-        {
-          "configName": "小鹏MONA M03 2024款 515 长续航版",
-          "price": "11.98万",
           "fuelType": "纯电动",
+          "power": "纯电动 218马力",
           "size": "4780x1896x1445",
-          "manufacturer": "小鹏汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 190马力"
-        },
-        {
-          "configName": "小鹏MONA M03 2024款 620 超长续航版",
-          "price": "12.98万",
-          "fuelType": "纯电动",
-          "size": "4780x1896x1445",
-          "manufacturer": "小鹏汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 218马力"
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "微月灰",
+              "colors": [
+                "#BCC0C9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星雨青",
+              "colors": [
+                "#C1DACB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星瀚米",
+              "colors": [
+                "#ECDFD4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "夜幕灰",
+              "colors": [
+                "#C1C8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "拂晓紫",
+              "colors": [
+                "#C6A2DC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨雾灰",
+              "colors": [
+                "#F7F9FB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 5004,
+      "carName": "P5",
+      "configs": [
+        {
+          "configName": "2024款 500 Plus",
+          "configId": "94101",
+          "index": 0,
+          "price": "15.69万",
+          "manufacturer": "小鹏汽车",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 211马力",
+          "size": "4860x1840x1520",
+          "exteriorImages": [
+            {
+              "name": "星湖灰",
+              "colors": [
+                "#778899"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿/酷黑",
+              "colors": [
+                "#80A1A8",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银/酷黑",
+              "colors": [
+                "#E6E8FB",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白/酷黑",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "酷夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "轻奢棕",
+              "colors": [
+                "#D79E68"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 500 Pro",
+          "configId": "93191",
+          "index": 1,
+          "price": "17.49万",
+          "manufacturer": "小鹏汽车",
+          "class": "紧凑型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 211马力",
+          "size": "4860x1840x1520",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星湖灰",
+              "colors": [
+                "#778899"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿/酷黑",
+              "colors": [
+                "#80A1A8",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白/酷黑",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "轻奢棕",
+              "colors": [
+                "#D79E68"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#DADADA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 3352,
+      "carName": "P7",
+      "configs": [
+        {
+          "configName": "2025款 702 长续航 Ultra",
+          "configId": "250517",
+          "index": 0,
+          "price": "21.98万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 367马力",
+          "size": "5017x1970x1427",
+          "exteriorImages": [
+            {
+              "name": "星瀚绿",
+              "colors": [
+                "#22966C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星芒蓝",
+              "colors": [
+                "#86C8E0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "微星灰",
+              "colors": [
+                "#D7D7D7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "律动黄",
+              "colors": [
+                "#E3ED2C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星球紫",
+              "colors": [
+                "#A97CC5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#AAA3A3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#B4B0B0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 820 超长续航 Ultra",
+          "configId": "248709",
+          "index": 1,
+          "price": "23.98万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 367马力",
+          "size": "5017x1970x1427",
+          "exteriorImages": [
+            {
+              "name": "星瀚绿",
+              "colors": [
+                "#22966C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星芒蓝",
+              "colors": [
+                "#86C8E0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "律动黄",
+              "colors": [
+                "#E3ED2C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#AAA3A3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#B4B0B0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 750 四驱高性能 Ultra",
+          "configId": "248336",
+          "index": 2,
+          "price": "25.98万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 594马力",
+          "size": "5017x1970x1427",
+          "exteriorImages": [
+            {
+              "name": "星瀚绿",
+              "colors": [
+                "#22966C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星芒蓝",
+              "colors": [
+                "#86C8E0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "微星灰",
+              "colors": [
+                "#D7D7D7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "律动黄",
+              "colors": [
+                "#E3ED2C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星球紫",
+              "colors": [
+                "#A97CC5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#AAA3A3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#B4B0B0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 750 四驱鹏翼 Ultra",
+          "configId": "250722",
+          "index": 3,
+          "price": "30.18万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 594马力",
+          "size": "5017x1970x1427",
+          "exteriorImages": [
+            {
+              "name": "哑光新月银",
+              "colors": [
+                "#DDDDDD"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "橙耀灰",
+              "colors": [
+                "#8B8B8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 9761,
       "carName": "P7+",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/9468c4a3873848698023ac54d70fe73b~1200x0.png",
       "configs": [
         {
-          "configName": "小鹏P7+ 2025款 超长续航 Max 旗舰版",
+          "configName": "2025款 超长续航 Max 旗舰版",
+          "configId": "247721",
+          "index": 0,
           "price": "20.88万",
-          "fuelType": "纯电动",
-          "size": "5056x1937x1512",
           "manufacturer": "小鹏汽车",
           "class": "中大型车",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "5056x1937x1512",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星阙灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F8F8F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "胧月米",
+              "colors": [
+                "#F6E7D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏P7+ 2024款 长续航 Max",
+          "configName": "2024款 长续航 Max",
+          "configId": "97942",
+          "index": 1,
           "price": "18.68万",
-          "fuelType": "纯电动",
-          "size": "5056x1937x1512",
           "manufacturer": "小鹏汽车",
           "class": "中大型车",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5056x1937x1512",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星阙灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F8F8F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "胧月米",
+              "colors": [
+                "#F6E7D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏P7+ 2024款 超长续航 Max",
+          "configName": "2024款 超长续航 Max",
+          "configId": "111094",
+          "index": 2,
           "price": "19.88万",
-          "fuelType": "纯电动",
-          "size": "5056x1937x1512",
           "manufacturer": "小鹏汽车",
           "class": "中大型车",
-          "power": "纯电动 313马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "5056x1937x1512",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星阙灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8F8F8F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "胧月米",
+              "colors": [
+                "#F6E7D2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 8895,
       "carName": "G6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a1061a1168af49cd8b72d681ff696c45~1200x0.png",
       "configs": [
         {
-          "configName": "小鹏G6 2025款 625长续航Max科技版",
+          "configName": "2025款 625长续航Max科技版",
+          "configId": "243333",
+          "index": 0,
           "price": "17.68万",
-          "fuelType": "纯电动",
-          "size": "4758x1920x1650",
           "manufacturer": "小鹏汽车",
           "class": "中型SUV",
-          "power": "纯电动 296马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 296马力",
+          "size": "4758x1920x1650",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星阙灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#B2B1B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#FCFBFB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏G6 2025款 625长续航Max旗舰版",
+          "configName": "2025款 625长续航Max旗舰版",
+          "configId": "246142",
+          "index": 1,
           "price": "18.68万",
-          "fuelType": "纯电动",
-          "size": "4758x1920x1650",
           "manufacturer": "小鹏汽车",
           "class": "中型SUV",
-          "power": "纯电动 296马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 296马力",
+          "size": "4758x1920x1650",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星阙灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "扶摇绿",
+              "colors": [
+                "#6C816C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#B2B1B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#FCFBFB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏G6 2025款 725超长续航Max旗舰版",
+          "configName": "2025款 725超长续航Max旗舰版",
+          "configId": "243334",
+          "index": 2,
           "price": "19.88万",
+          "manufacturer": "小鹏汽车",
+          "class": "中型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 296马力",
           "size": "4758x1920x1650",
-          "manufacturer": "小鹏汽车",
-          "class": "中型SUV",
-          "power": "纯电动 296马力"
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星阙灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星暮紫",
+              "colors": [
+                "#9E94A5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "扶摇绿",
+              "colors": [
+                "#6C816C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#B2B1B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#FCFBFB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
-      "carName": "G9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e9d93a0697d14ca38c12e27207acd68e~1200x0.png",
-      "configs": [
-        {
-          "configName": "小鹏G9 2025款 625长续航Max",
-          "price": "24.88万",
-          "fuelType": "纯电动",
-          "size": "4891x1937x1670",
-          "manufacturer": "小鹏汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 351马力"
-        },
-        {
-          "configName": "小鹏G9 2025款 725超长续航Max",
-          "price": "25.88万",
-          "fuelType": "纯电动",
-          "size": "4891x1937x1670",
-          "manufacturer": "小鹏汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 351马力"
-        },
-        {
-          "configName": "小鹏G9 2025款 680超长续航四驱Max",
-          "price": "27.88万",
-          "fuelType": "纯电动",
-          "size": "4891x1937x1670",
-          "manufacturer": "小鹏汽车",
-          "class": "中大型SUV",
-          "power": "纯电动 575马力"
-        }
-      ]
-    },
-    {
+      "carId": 6391,
       "carName": "G7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/182a77b3541d48aab4178f50be8e7378~1200x0.png",
       "configs": [
         {
-          "configName": "小鹏G7 2025款 602 长续航 Max",
+          "configName": "2025款 602 长续航 Max",
+          "configId": "249640",
+          "index": 0,
           "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4892x1925x1655",
           "manufacturer": "小鹏汽车",
           "class": "中型SUV",
-          "power": "纯电动 296马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 296马力",
+          "size": "4892x1925x1655",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿",
+              "colors": [
+                "#80A1A8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星昼灰",
+              "colors": [
+                "#A3A9C1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境蓝",
+              "colors": [
+                "#4F7EB0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8B8B8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏G7 2025款 702 超长续航 Max",
+          "configName": "2025款 702 超长续航 Max",
+          "configId": "249140",
+          "index": 1,
           "price": "20.58万",
-          "fuelType": "纯电动",
-          "size": "4892x1925x1655",
           "manufacturer": "小鹏汽车",
           "class": "中型SUV",
-          "power": "纯电动 296马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 296马力",
+          "size": "4892x1925x1655",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿",
+              "colors": [
+                "#80A1A8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星昼灰",
+              "colors": [
+                "#A3A9C1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境蓝",
+              "colors": [
+                "#4F7EB0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8B8B8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "暖阳橙",
+              "colors": [
+                "#E88A4F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏G7 2025款 702 超长续航 Ultra",
+          "configName": "2025款 702 超长续航 Ultra",
+          "configId": "244302",
+          "index": 2,
           "price": "22.58万",
-          "fuelType": "纯电动",
-          "size": "4892x1925x1655",
           "manufacturer": "小鹏汽车",
           "class": "中型SUV",
-          "power": "纯电动 296马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 296马力",
+          "size": "4892x1925x1655",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿",
+              "colors": [
+                "#80A1A8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星昼灰",
+              "colors": [
+                "#A3A9C1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云贝米",
+              "colors": [
+                "#E7E8DB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "秘境蓝",
+              "colors": [
+                "#4F7EB0"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "深空灰",
+              "colors": [
+                "#8B8B8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#E4E4E4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "暖阳橙",
+              "colors": [
+                "#E88A4F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
-      "carName": "X9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4f24a09cdc91478683cc3c29e9c9511d~1200x0.png",
+      "carId": 5461,
+      "carName": "G9",
       "configs": [
         {
-          "configName": "小鹏X9 2025款 650长续航Max",
+          "configName": "2025款 625长续航Max",
+          "configId": "246133",
+          "index": 0,
+          "price": "24.88万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 351马力",
+          "size": "4891x1937x1670",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星辰蓝",
+              "colors": [
+                "#6E94B4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿",
+              "colors": [
+                "#80A1A8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "霜月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影咖",
+              "colors": [
+                "#DED4B8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨晖棕",
+              "colors": [
+                "#F4A460"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 725超长续航Max",
+          "configId": "243335",
+          "index": 1,
+          "price": "25.88万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 351马力",
+          "size": "4891x1937x1670",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星辰蓝",
+              "colors": [
+                "#6E94B4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿",
+              "colors": [
+                "#80A1A8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#DED4B8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨晖棕",
+              "colors": [
+                "#F4A460"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 680超长续航四驱Max",
+          "configId": "243336",
+          "index": 2,
+          "price": "27.88万",
+          "manufacturer": "小鹏汽车",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 575马力",
+          "size": "4891x1937x1670",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星辰蓝",
+              "colors": [
+                "#6E94B4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星际绿",
+              "colors": [
+                "#80A1A8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#DED4B8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F3F3F3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "晨晖棕",
+              "colors": [
+                "#F4A460"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 6294,
+      "carName": "X9",
+      "configs": [
+        {
+          "configName": "2025款 650长续航Max",
+          "configId": "247297",
+          "index": 0,
           "price": "35.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 320马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星系蓝",
+              "colors": [
+                "#47519D"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云紫",
+              "colors": [
+                "#A57CBF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "哑光星舰灰",
+              "colors": [
+                "#B5B5B5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2025款 740超长续航Max",
+          "configName": "2025款 740超长续航Max",
+          "configId": "247298",
+          "index": 1,
           "price": "37.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 320马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云紫",
+              "colors": [
+                "#A57CBF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "哑光星舰灰",
+              "colors": [
+                "#B5B5B5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2025款 702四驱高性能Max",
+          "configName": "2025款 702四驱高性能Max",
+          "configId": "247299",
+          "index": 2,
           "price": "39.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 503马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 503马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "星系蓝",
+              "colors": [
+                "#47519D"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "哑光星舰灰",
+              "colors": [
+                "#B5B5B5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空灰",
+              "colors": [
+                "#B1B1B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2025款 星舰版",
+          "configName": "2025款 星舰版",
+          "configId": "247300",
+          "index": 3,
           "price": "41.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 503马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 503马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "小鹏X9 2024款 610长续航Pro",
+          "configName": "2024款 610长续航Pro",
+          "configId": "97108",
+          "index": 4,
           "price": "35.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 320马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2024款 610长续航Max",
+          "configName": "2024款 610长续航Max",
+          "configId": "240896",
+          "index": 5,
           "price": "37.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 320马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2024款 702超长续航Pro",
+          "configName": "2024款 702超长续航Pro",
+          "configId": "96871",
+          "index": 6,
           "price": "37.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 320马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#DBCFC7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2024款 702超长续航Max",
+          "configName": "2024款 702超长续航Max",
+          "configId": "93647",
+          "index": 7,
           "price": "39.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 320马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 320马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "小鹏X9 2024款 640四驱高性能Max",
+          "configName": "2024款 640四驱高性能Max",
+          "configId": "80517",
+          "index": 8,
           "price": "41.98万",
-          "fuelType": "纯电动",
-          "size": "5293x1988x1785",
           "manufacturer": "小鹏汽车",
           "class": "中大型MPV",
-          "power": "纯电动 503马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 503马力",
+          "size": "5293x1988x1785",
+          "exteriorImages": [
+            {
+              "name": "暗夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星芒金",
+              "colors": [
+                "#DBCFC7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "新月银",
+              "colors": [
+                "#E5E5E5"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星云白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "月影咖",
+              "colors": [
+                "#CE9B58"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "气宇灰",
+              "colors": [
+                "#F4F4F4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-10T08:10:54.662Z",
+  "progress": {
+    "completed": 8,
+    "total": 8,
+    "percentage": 100,
+    "currentIndex": 8
+  }
 }

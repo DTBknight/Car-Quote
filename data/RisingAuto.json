@@ -3,128 +3,146 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/e480bbf25c481fced2b4004576b39377~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 6137,
       "carName": "F7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/245ed9447bf9421785e4dac230e9826e~1200x0.png",
       "configs": [
         {
-          "configName": "飞凡F7 2025款 都市版",
+          "configName": "2025款 都市版",
+          "configId": "249436",
+          "index": 0,
           "price": "18.29万",
-          "fuelType": "纯电动",
-          "size": "5000x1953x1494",
           "manufacturer": "飞凡汽车",
           "class": "中大型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "5000x1953x1494",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "飞凡F7 2025款 进阶版",
+          "configName": "2025款 进阶版",
+          "configId": "249437",
+          "index": 1,
           "price": "20.69万",
-          "fuelType": "纯电动",
-          "size": "5000x1953x1494",
           "manufacturer": "飞凡汽车",
           "class": "中大型车",
-          "power": "纯电动 245马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 245马力",
+          "size": "5000x1953x1494",
+          "exteriorImages": [
+            {
+              "name": "银河护卫",
+              "colors": [
+                "#505156"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9abf999e9147f46397204652d601426c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "尊雅白",
+              "colors": [
+                "#D5D8D2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_380bcf15e47ed13dceacc845173d842b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9abf999e9147f46397204652d601426c~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 4980,
       "carName": "R7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3b533f854aae4ca4893f594d66dc73da~1200x0.png",
       "configs": [
         {
-          "configName": "飞凡R7 2025款 都市版",
+          "configName": "2025款 都市版",
+          "configId": "249438",
+          "index": 0,
           "price": "17.99万",
-          "fuelType": "纯电动",
-          "size": "4910x1925x1655",
           "manufacturer": "飞凡汽车",
           "class": "中大型SUV",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4910x1925x1655",
+          "exteriorImages": [
+            {
+              "name": "银河护卫",
+              "colors": [
+                "#505156"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_739d56d2b4e565aacdf22f711e7cf110~2508x0.webp"
+            },
+            {
+              "name": "生椰拿铁",
+              "colors": [
+                "#DED0C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_658433c6546776cd216c4b4170be798f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮云棕",
+              "colors": [
+                "#FFA600"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e391dc3084c3e8023e9ba18090211a37~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_739d56d2b4e565aacdf22f711e7cf110~2508x0.webp"
         },
         {
-          "configName": "飞凡R7 2025款 进阶版",
+          "configName": "2025款 进阶版",
+          "configId": "249439",
+          "index": 1,
           "price": "18.99万",
-          "fuelType": "纯电动",
-          "size": "4910x1925x1655",
           "manufacturer": "飞凡汽车",
           "class": "中大型SUV",
-          "power": "纯电动 224马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 224马力",
+          "size": "4910x1925x1655",
+          "exteriorImages": [
+            {
+              "name": "银河护卫",
+              "colors": [
+                "#505156"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e11e77cfa83a0397a70e912b04e46e64~2508x0.webp"
+            },
+            {
+              "name": "生椰拿铁",
+              "colors": [
+                "#DED0C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fcd3842d0d95f11f399fa8cc225f1c5b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮云棕",
+              "colors": [
+                "#FFA600"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9ec2adf8cdaab0409106f3270eaedf1d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e11e77cfa83a0397a70e912b04e46e64~2508x0.webp"
         },
         {
-          "configName": "飞凡R7 2025款 长续版",
+          "configName": "2025款 长续版",
+          "configId": "249440",
+          "index": 2,
           "price": "20.99万",
-          "fuelType": "纯电动",
-          "size": "4910x1925x1655",
           "manufacturer": "飞凡汽车",
           "class": "中大型SUV",
-          "power": "纯电动 245马力"
-        }
-      ]
-    },
-    {
-      "carName": "ER6",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/131da04f77e0c0e2aa488b78c746e7b1~1200x0.png",
-      "configs": [
-        {
-          "configName": "飞凡ER6 2021款 新动版 520km 智领版",
-          "price": "15.98万",
           "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "飞凡ER6 2021款 新动版 620km 智行版",
-          "price": "17.18万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "飞凡ER6 2021款 新动版 620km 智享版",
-          "price": "18.48万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "飞凡ER6 2021款 新动版 620km 智尊版",
-          "price": "20.18万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "飞凡ER6 2020款 620km 智行版",
-          "price": "16.28万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "飞凡ER6 2020款 620km 智享版",
-          "price": "17.58万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
-        },
-        {
-          "configName": "飞凡ER6 2020款 620km 智尊版",
-          "price": "20.08万",
-          "fuelType": "纯电动",
-          "size": "4724x1835x1493",
-          "manufacturer": "飞凡汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 184马力"
+          "power": "纯电动 245马力",
+          "size": "4910x1925x1655",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }

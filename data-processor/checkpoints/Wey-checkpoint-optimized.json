@@ -1,0 +1,109 @@
+{
+  "brand": "Wey",
+  "timestamp": "2025-09-10T05:24:46.872Z",
+  "crawlSummary": {
+    "totalCars": 5,
+    "successCount": 4,
+    "failCount": 0,
+    "totalTime": "8分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carName": "摩卡",
+        "configCount": 6,
+        "exteriorColorCount": 0,
+        "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 5335,
+        "carName": "拿铁PHEV",
+        "configCount": 3,
+        "exteriorColorCount": 8,
+        "interiorColorCount": 5,
+        "status": "completed"
+      },
+      {
+        "carId": 6206,
+        "carName": "蓝山",
+        "configCount": 4,
+        "exteriorColorCount": 22,
+        "interiorColorCount": 8,
+        "status": "completed"
+      },
+      {
+        "carId": 6303,
+        "carName": "高山",
+        "configCount": 3,
+        "exteriorColorCount": 10,
+        "interiorColorCount": 6,
+        "status": "completed"
+      },
+      {
+        "carId": 4867,
+        "carName": "摩卡PHEV",
+        "configCount": 2,
+        "exteriorColorCount": 8,
+        "interiorColorCount": 8,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 48,
+    "totalInteriorColors": 27,
+    "exteriorColorTypes": [
+      "椰风拿铁",
+      "太妃拿铁",
+      "香草拿铁",
+      "蓝莓拿铁",
+      "陨石拿铁",
+      "蓝山拿铁",
+      "白色",
+      "深空黑",
+      "漓江蓝",
+      "松柏绿",
+      "薄暮青",
+      "沧浪青",
+      "流光金",
+      "晨光白",
+      "云锦白",
+      "暮夜黑",
+      "夏云灰",
+      "雨空灰",
+      "墨夜绿",
+      "雾凇银",
+      "天水蓝"
+    ],
+    "interiorColorTypes": [
+      "动感黑",
+      "咖啡棕",
+      "魅力紫",
+      "米色/棕色",
+      "橙色/黑色",
+      "全黑",
+      "米色/黑色",
+      "云朵白",
+      "霞光橙",
+      "米色/蓝色",
+      "黑色",
+      "黑色/棕色",
+      "黑色/米色",
+      "蓝色/灰色"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

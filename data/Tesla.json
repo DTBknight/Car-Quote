@@ -3,148 +3,848 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/222f2748c0d6e9c69c00a304f2ac8da1~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "赛博越野旅行车",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a00ec8f9493b4a5cb8c3a908628fe5ac~1200x0.png",
-      "configs": []
-    },
-    {
+      "carId": 1254,
       "carName": "Model S",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/093f32219d644b6eb7c854db9b5249e2~1200x0.png",
       "configs": [
         {
-          "configName": "Model S 2023款 双电机全轮驱动版",
+          "configName": "2023款 双电机全轮驱动版",
+          "configId": "81240",
+          "index": 0,
           "price": "68.49万",
-          "fuelType": "纯电动",
-          "size": "5021x1987x1431",
           "manufacturer": "特斯拉(进口)",
           "class": "中大型车",
-          "power": "纯电动 670马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 670马力",
+          "size": "5021x1987x1431",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b3064abf676d7387ed3e68edbc62eff~2508x0.webp"
+            },
+            {
+              "name": "纯黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c75877f5e31855e1323f14fe03079aa~2508x0.webp"
+            },
+            {
+              "name": "冷光银",
+              "colors": [
+                "#374046"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/72c67df1bb67b4d793d18eb8a23f9df6~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9b6f69c4ed9d4ce3359a56cda32aaad~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30ea16ff903e09d98e7892cf1b008a91~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f8baec71f6953cba4d843f89f5acb53~2508x0.webp"
+            },
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#E1D8CC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ebf335bb04eab19f529df9ae991a7ead~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F6F6F6",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0792ebebbced02913baec010fc0d3ee~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9b3064abf676d7387ed3e68edbc62eff~2508x0.webp"
         },
         {
-          "configName": "Model S 2023款 Plaid版 三电机全轮驱动版",
+          "configName": "2023款 Plaid版 三电机全轮驱动版",
+          "configId": "81040",
+          "index": 1,
           "price": "81.49万",
-          "fuelType": "纯电动",
-          "size": "5021x1987x1431",
           "manufacturer": "特斯拉(进口)",
           "class": "中大型车",
-          "power": "纯电动 1020马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 1020马力",
+          "size": "5021x1987x1431",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4988a60f20d19157eed3a4236ea0787d~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/52fa1c8820d3e5081cfa4a7d91bbb911~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db08507b563d0b738046509435c2fb92~2508x0.webp"
+            },
+            {
+              "name": "中国红",
+              "colors": [
+                "#E7031E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db767dfa9b8bc969d8387b76be2319e8~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b0f8f6ad1fe1239f4e114194cfca786~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8cef5ca3db7c6fcd2318610b05f68f8d~2508x0.webp"
+            },
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#E1D8CC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/543d9ca044bc0cf4d83156de374c4c61~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F6F6F6",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb036211fe6f6dff1090b79326b61532~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4988a60f20d19157eed3a4236ea0787d~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "Model Y",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/04d08e503fcb48e2828d75ea1bf65eb2~1200x0.png",
-      "configs": [
-        {
-          "configName": "Model Y 2025款 后轮驱动版",
-          "price": "26.35万",
-          "fuelType": "纯电动",
-          "size": "4797x1920x1624",
-          "manufacturer": "特斯拉中国",
-          "class": "中型SUV",
-          "power": "纯电动 299马力"
-        },
-        {
-          "configName": "Model Y 2025款 长续航全轮驱动版",
-          "price": "31.35万",
-          "fuelType": "纯电动",
-          "size": "4797x1920x1624",
-          "manufacturer": "特斯拉中国",
-          "class": "中型SUV",
-          "power": "纯电动 450马力"
-        },
-        {
-          "configName": "Model Y 2025款 改款 长续航全轮驱动版",
-          "price": "31.35万",
-          "fuelType": "纯电动",
-          "size": "4797x1920x1624",
-          "manufacturer": "特斯拉中国",
-          "class": "中型SUV",
-          "power": "纯电动 450马力"
-        }
-      ]
-    },
-    {
+      "carId": 3762,
       "carName": "Model 3",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0cf8bc74c18d4216bad1287d202547f7~1200x0.png",
       "configs": [
         {
-          "configName": "Model 3 2025款 后轮驱动版",
+          "configName": "2025款 后轮驱动版",
+          "configId": "244306",
+          "index": 0,
           "price": "23.55万",
-          "fuelType": "纯电动",
-          "size": "4720x1848x1442",
           "manufacturer": "特斯拉中国",
           "class": "中型车",
-          "power": "纯电动 264马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 264马力",
+          "size": "4720x1848x1442",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a82dfb4678400b5a07842d75563cbdc~2508x0.webp"
+            },
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e142f0dc4e37c5d0b5f86c4b318d8e5~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b77766dfbbde4198563fa04159e96e2c~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d2ad6e4dc2314d36a5195b30230f4d4~2508x0.webp"
+            },
+            {
+              "name": "快银",
+              "colors": [
+                "#D8D7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fe78f5ef2d945e1e6c46c2fd241403c~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a86e7f7efaa39ab0ca1dd2063c7375f3~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深色",
+              "colors": [
+                "#0E0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ad32ac8713d3f8a3bffe7b46dcea9f5~2508x0.webp"
+            },
+            {
+              "name": "浅色",
+              "colors": [
+                "#FBF7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d8dbee9e41c79ba1a09c6402d0c564f2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a82dfb4678400b5a07842d75563cbdc~2508x0.webp"
         },
         {
-          "configName": "Model 3 2025款 长续航后轮驱动版",
-          "price": "26.95万",
-          "fuelType": "纯电动",
-          "size": "4720x1848x1442",
+          "configName": "2025款 长续航后轮驱动版",
+          "configId": "249979",
+          "index": 1,
+          "price": "25.95万",
           "manufacturer": "特斯拉中国",
           "class": "中型车",
-          "power": "纯电动 306马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 306马力",
+          "size": "4720x1848x1442",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Model 3 2025款 长续航全轮驱动版",
+          "configName": "2025款 长续航全轮驱动版",
+          "configId": "249527",
+          "index": 2,
           "price": "28.55万",
+          "manufacturer": "特斯拉中国",
+          "class": "中型车",
           "fuelType": "纯电动",
+          "power": "纯电动 450马力",
           "size": "4720x1848x1442",
-          "manufacturer": "特斯拉中国",
-          "class": "中型车",
-          "power": "纯电动 450马力"
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7efcedd8f61a146e7785fa7c90338490~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ffb335f8e430c8a5bcbd876d30856d62~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_793d2de0e2834bf15a6bfecfc40d0693~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深色",
+              "colors": [
+                "#0E0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a4708ca660eb5aaa44035d63ff8e25b1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7efcedd8f61a146e7785fa7c90338490~2508x0.webp"
         },
         {
-          "configName": "Model 3 2025款 高性能全轮驱动版",
+          "configName": "2025款 高性能全轮驱动版",
+          "configId": "250633",
+          "index": 3,
           "price": "33.95万",
-          "fuelType": "纯电动",
-          "size": "4724x1848x1430",
           "manufacturer": "特斯拉中国",
           "class": "中型车",
-          "power": "纯电动 460马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 460马力",
+          "size": "4724x1848x1430",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Model 3 2024款 高性能全轮驱动版",
+          "configName": "2024款 高性能全轮驱动版",
+          "configId": "100723",
+          "index": 4,
           "price": "33.95万",
-          "fuelType": "纯电动",
-          "size": "4724x1848x1430",
           "manufacturer": "特斯拉中国",
           "class": "中型车",
-          "power": "纯电动 460马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 460马力",
+          "size": "4724x1848x1430",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df6e2843c3856f8defa0a55360a3197f~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3e0e86f8286b94ad957346f6f580418~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/111af5cb37ed340faaa12a2ef278df28~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7feebbab077022da94205a38f064db51~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深色",
+              "colors": [
+                "#0E0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/56d87971ed2c4fb8c98b578f37c4a124~2508x0.webp"
+            },
+            {
+              "name": "浅色",
+              "colors": [
+                "#FBF7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e588cf40a89a853e75000eced43f34dd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/df6e2843c3856f8defa0a55360a3197f~2508x0.webp"
         },
         {
-          "configName": "Model 3 2023款 长续航全轮驱动版",
+          "configName": "2023款 长续航全轮驱动版",
+          "configId": "81276",
+          "index": 5,
           "price": "27.55万",
-          "fuelType": "纯电动",
-          "size": "4720x1848x1442",
           "manufacturer": "特斯拉中国",
           "class": "中型车",
-          "power": "纯电动 450马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 450马力",
+          "size": "4720x1848x1442",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e18eedd587263ead1a302f460a803fa~2508x0.webp"
+            },
+            {
+              "name": "纯黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/093b018e373fda03c38271ecdae07873~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0a3fd331490145aa4d00977d8357aa5~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37b5688d972ec9ecdd317ba6683d023e~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a4315291be1e52f5677b58afb456f90e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深色",
+              "colors": [
+                "#0E0C0C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/640d7795172bf7b7aed42e8b93681c97~2508x0.webp"
+            },
+            {
+              "name": "浅色",
+              "colors": [
+                "#FBF7F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7013666b950880e4b7fd5f67c8b92d10~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2e18eedd587263ead1a302f460a803fa~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "Model X",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7db345b0e83249d599fbe92d073d87ae~1200x0.png",
+      "carId": 4363,
+      "carName": "Model Y",
       "configs": [
         {
-          "configName": "Model X 2023款 双电机全轮驱动版",
-          "price": "72.49万",
+          "configName": "2025款 后轮驱动版",
+          "configId": "244790",
+          "index": 0,
+          "price": "26.35万",
+          "manufacturer": "特斯拉中国",
+          "class": "中型SUV",
           "fuelType": "纯电动",
-          "size": "5057x1999x1680",
-          "manufacturer": "特斯拉(进口)",
-          "class": "中大型SUV",
-          "power": "纯电动 670马力"
+          "power": "纯电动 299马力",
+          "size": "4797x1920x1624",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c6a2650ecaf0f181a09f91d10a268532~2508x0.webp"
+            },
+            {
+              "name": "冰河蓝",
+              "colors": [
+                "#4E73AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/33b34178bd43ec0da16b4915dc13b41c~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8c6309722e25ba85a727945b7c6fd532~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9945e1bf47ebfee8225acd15eb36d836~2508x0.webp"
+            },
+            {
+              "name": "快银",
+              "colors": [
+                "#D8D7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f6951c9eebfab7a64c46f7e785b4ab9b~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3b53d9568e9960e1e315800d7ffaa9f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fcfd51114175453edb57125dbc50ef55~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e94423bdc1b3487dd8e8e0652cc45b3b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c6a2650ecaf0f181a09f91d10a268532~2508x0.webp"
         },
         {
-          "configName": "Model X 2023款 Plaid版 三电机全轮驱动版",
-          "price": "82.49万",
+          "configName": "2025款 长续航全轮驱动版",
+          "configId": "244354",
+          "index": 1,
+          "price": "31.35万",
+          "manufacturer": "特斯拉中国",
+          "class": "中型SUV",
           "fuelType": "纯电动",
-          "size": "5057x1999x1680",
+          "power": "纯电动 450马力",
+          "size": "4797x1920x1624",
+          "exteriorImages": [
+            {
+              "name": "冰河蓝",
+              "colors": [
+                "#4E73AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0e82243143bb090e1ab709e29f3b681~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_265c48159b2f9cd147cb9c845b68c824~2508x0.webp"
+            },
+            {
+              "name": "快银",
+              "colors": [
+                "#D8D7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2247faaaee46e7327ad4724a3fb93b6b~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdc7941aaa4060806db3227bd5bcc9c1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_98efe6e1cf62d4276163d998bb7ccb59~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a0e82243143bb090e1ab709e29f3b681~2508x0.webp"
+        },
+        {
+          "configName": "2025款 改款 长续航全轮驱动版",
+          "configId": "249526",
+          "index": 2,
+          "price": "31.35万",
+          "manufacturer": "特斯拉中国",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 450马力",
+          "size": "4797x1920x1624",
+          "exteriorImages": [
+            {
+              "name": "星钻黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_42be7101b32d97b23ef98aec634fd176~2508x0.webp"
+            },
+            {
+              "name": "冰河蓝",
+              "colors": [
+                "#4E73AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f6e7c09e0bdff49508c3290f372c63a8~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31aed2875d91933ffa382af0c6003273~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_842cfac8416420902728df3815beab43~2508x0.webp"
+            },
+            {
+              "name": "快银",
+              "colors": [
+                "#D8D7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e2cdb2451de7838233a54e478c374324~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5975ce4f9cbb651234435f2903f39aae~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_264dd5821c662f6bc1bdd366bd6961c8~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#FFFFFF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9abcc69ea25961092a4ef9a87bc01351~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_42be7101b32d97b23ef98aec634fd176~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25651,
+      "carName": "Model Y L",
+      "configs": [
+        {
+          "configName": "2026款 标准版",
+          "configId": "249965",
+          "index": 0,
+          "price": "33.9万",
+          "manufacturer": "特斯拉中国",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 462马力",
+          "size": "4976x1920x1668",
+          "exteriorImages": [
+            {
+              "name": "冰河蓝",
+              "colors": [
+                "#4E73AD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e74b54a97d9c783ce5427e897c994c91~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e8f3eadada24d2b1771c12567ca0d35~2508x0.webp"
+            },
+            {
+              "name": "星光金",
+              "colors": [
+                "#DFDABE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_380a4533b8f3f25e727c5bae8b6ccd2f~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3ac497537f60428ebc5e29c81452f97a.jpg~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深色",
+              "colors": [
+                "#181717"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d32f51b3b5ba75ada49e312c5d5c579a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e74b54a97d9c783ce5427e897c994c91~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1255,
+      "carName": "Model X",
+      "configs": [
+        {
+          "configName": "2023款 双电机全轮驱动版",
+          "configId": "81242",
+          "index": 0,
+          "price": "72.49万",
           "manufacturer": "特斯拉(进口)",
           "class": "中大型SUV",
-          "power": "纯电动 1020马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 670马力",
+          "size": "5057x1999x1680",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43e851831ba0a2ea0352a3d6f2484360~2508x0.webp"
+            },
+            {
+              "name": "纯黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f200e6b7bb5bdc2e0828906c2a61df2~2508x0.webp"
+            },
+            {
+              "name": "冷光银",
+              "colors": [
+                "#374046"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c8ce2618059bbe209baf149bde13d1a5~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ef91764516729e077f061bfb7ec54039~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f15ce6aafdedb33699f7303b4163ea51~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a6d71b3a2badfcabb200b30173c91396~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_771795a5a182a6ddcf76dad5302fcee3~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#E3E3C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e75bbc858b7dc837063fc601d56336f6~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F2F2F2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e5e026857deb115a824775d3791afbc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/43e851831ba0a2ea0352a3d6f2484360~2508x0.webp"
+        },
+        {
+          "configName": "2023款 Plaid版 三电机全轮驱动版",
+          "configId": "81041",
+          "index": 1,
+          "price": "82.49万",
+          "manufacturer": "特斯拉(进口)",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 1020马力",
+          "size": "5057x1999x1680",
+          "exteriorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#002F7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2550876dd7ddba7f3680a9e308981e57~2508x0.webp"
+            },
+            {
+              "name": "星空灰",
+              "colors": [
+                "#625858"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b23b28766f118b340ccfaff631236dd1~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#CC0E0E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03f0c55370e1ff30a2d77c48d309cc32~2508x0.webp"
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#FDFDFE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/58fecbd14005ed9744b75254880f9866~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#191A1C"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d9cc7a25df2166652aef148536a3ccc1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#E3E3C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7dee946c67a86c1502e0dda7ded54c98~2508x0.webp"
+            },
+            {
+              "name": "白色/黑色",
+              "colors": [
+                "#F2F2F2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6050e2e52f699daf0adb64c18753fbbb~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2550876dd7ddba7f3680a9e308981e57~2508x0.webp"
         }
       ]
     }

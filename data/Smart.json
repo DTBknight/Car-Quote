@@ -3,182 +3,931 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/8f2f638de644c38c7a228a72abe8e85d~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5322,
       "carName": "smart精灵#1",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/e35b0247749e40a3acbfa88bc4eb4db3~1200x0.png",
       "configs": [
         {
-          "configName": "smart精灵#1 2026款 灵动升级版",
+          "configName": "2026款 灵动升级版",
+          "configId": "248889",
+          "index": 0,
           "price": "15.49万",
-          "fuelType": "纯电动",
-          "size": "4270x1822x1636",
           "manufacturer": "smart",
           "class": "小型SUV",
-          "power": "纯电动 238马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4270x1822x1636",
+          "exteriorImages": [
+            {
+              "name": "量子黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3746ad75abe3200ee931e3197c09d8fb~2508x0.webp"
+            },
+            {
+              "name": "时光绿/月食黑",
+              "colors": [
+                "#727D70",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2f5ba3450a7db5a94adda63c52bd69c3~2508x0.webp"
+            },
+            {
+              "name": "赛博银/月食黑",
+              "colors": [
+                "#7F7F7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3ac1c74e5fcaf55ae0ab9008eac21a40~2508x0.webp"
+            },
+            {
+              "name": "波普粉/月食黑",
+              "colors": [
+                "#C2ADBB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_da654be36330357cd1b75e5bf7070921~2508x0.webp"
+            },
+            {
+              "name": "粒子白/月食黑",
+              "colors": [
+                "#CBCBC9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_01dcdd9c2990809fcb24021ada455889~2508x0.webp"
+            },
+            {
+              "name": "月瓷白/月食黑",
+              "colors": [
+                "#F2F2F2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3c55a5d8d864dce1bd5507c9cf090fa5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a7f6a99297150b5cd627a0ceb4b94d2~2508x0.webp"
+            },
+            {
+              "name": "闪电灰",
+              "colors": [
+                "#D6D5D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6ceb8de2e0b9fa2ec585b9ea3739d7cd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3746ad75abe3200ee931e3197c09d8fb~2508x0.webp"
         },
         {
-          "configName": "smart精灵#1 2026款 灵动长续航版",
+          "configName": "2026款 灵动长续航版",
+          "configId": "248879",
+          "index": 1,
           "price": "17.49万",
-          "fuelType": "纯电动",
-          "size": "4270x1822x1636",
           "manufacturer": "smart",
           "class": "小型SUV",
-          "power": "纯电动 238马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 238马力",
+          "size": "4270x1822x1636",
+          "exteriorImages": [
+            {
+              "name": "时光绿/月食黑",
+              "colors": [
+                "#727D70",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fe9b0877518cacf515b5d9aba031724~2508x0.webp"
+            },
+            {
+              "name": "赛博银/月食黑",
+              "colors": [
+                "#7F7F7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_33f56e00189ad5fdd3817d7f452cc57b~2508x0.webp"
+            },
+            {
+              "name": "波普粉/月食黑",
+              "colors": [
+                "#C2ADBB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6353209cc58dc05e806771d320fe3437~2508x0.webp"
+            },
+            {
+              "name": "粒子白/月食黑",
+              "colors": [
+                "#CBCBC9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fd68f21e88c3a1b2a5020eec1697a951~2508x0.webp"
+            },
+            {
+              "name": "月瓷白/月食黑",
+              "colors": [
+                "#F2F2F2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cd09d874711ece0d4deace41cdfcf274~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深空黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7db0e914383e470dbad699bcbb8a3f80~2508x0.webp"
+            },
+            {
+              "name": "闪电灰",
+              "colors": [
+                "#D6D5D5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d76e2bad5cc59c3dd55d123f25e2fb0b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fe9b0877518cacf515b5d9aba031724~2508x0.webp"
         },
         {
-          "configName": "smart精灵#1 2026款 灵动新奢版",
+          "configName": "2026款 灵动新奢版",
+          "configId": "248880",
+          "index": 2,
           "price": "19.99万",
-          "fuelType": "纯电动",
-          "size": "4270x1822x1636",
           "manufacturer": "smart",
           "class": "小型SUV",
-          "power": "纯电动 340马力"
-        }
-      ]
-    },
-    {
-      "carName": "smart精灵#3",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/741acbd7cb3841deabc772e929d74b77~1200x0.png",
-      "configs": [
-        {
-          "configName": "smart精灵#3 2026款 型动标准版",
-          "price": "16.49万",
           "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 272马力"
+          "power": "纯电动 340马力",
+          "size": "4270x1822x1636",
+          "exteriorImages": [
+            {
+              "name": "星漩蓝/月食黑",
+              "colors": [
+                "#495F96",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bdc3a940212a3e4cdaf8b528324eb14~2508x0.webp"
+            },
+            {
+              "name": "时光绿/月食黑",
+              "colors": [
+                "#727D70",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9f6d15f38fe04b1af7d2dc07b21bb579~2508x0.webp"
+            },
+            {
+              "name": "赛博银/月食黑",
+              "colors": [
+                "#7F7F7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_80bee404843cae00a05286f6596430b5~2508x0.webp"
+            },
+            {
+              "name": "镭射红/月食黑",
+              "colors": [
+                "#9C3830",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_46267e5807295ce249a8c104ed2669b5~2508x0.webp"
+            },
+            {
+              "name": "波普粉/月食黑",
+              "colors": [
+                "#C2ADBB",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1b6049b145522d6c9bcdc39f8baeb01c~2508x0.webp"
+            },
+            {
+              "name": "月瓷白/月食黑",
+              "colors": [
+                "#F2F2F2",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4753903cf506c542a291e6e0b4c7703a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "揽夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ac204a8e92ac3e82696b0f2f096fa26a~2508x0.webp"
+            },
+            {
+              "name": "天宇绿",
+              "colors": [
+                "#A29C86"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05f4a7a8c87f92d5bfc287558b058b05~2508x0.webp"
+            },
+            {
+              "name": "触感金",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_484031e4d33453e665195a2be0c02297~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5bdc3a940212a3e4cdaf8b528324eb14~2508x0.webp"
         },
         {
-          "configName": "smart精灵#3 2026款 型动长续航版",
-          "price": "18.49万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "smart精灵#3 2026款 型动四驱版",
-          "price": "20.99万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 428马力"
-        },
-        {
-          "configName": "smart精灵#3 2026款 BRABUS性能版",
-          "price": "25.99万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 428马力"
-        },
-        {
-          "configName": "smart精灵#3 2024款 型动标准版",
-          "price": "16.49万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "smart精灵#3 2024款 型动长续航版",
-          "price": "18.49万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 272马力"
-        },
-        {
-          "configName": "smart精灵#3 2024款 型动四驱版",
-          "price": "21.99万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 428马力"
-        },
-        {
-          "configName": "smart精灵#3 2024款 BRABUS性能版",
-          "price": "28.99万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
-          "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 428马力"
-        },
-        {
-          "configName": "smart精灵#3 2024款 25周年星空纪念版",
+          "configName": "2026款 BRABUS性能版",
+          "configId": "246360",
+          "index": 3,
           "price": "24.99万",
-          "fuelType": "纯电动",
-          "size": "4400x1844x1556",
           "manufacturer": "smart",
-          "class": "紧凑型SUV",
-          "power": "纯电动 272马力"
+          "class": "小型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 496马力",
+          "size": "4300x1822x1636",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
+      "carId": 10136,
       "carName": "smart精灵#5",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/28b46540000f442386bca0ffa92e073d~1200x0.png",
       "configs": [
         {
-          "configName": "smart精灵#5 2025款 超长续航豪华四驱版",
+          "configName": "2025款 超长续航豪华四驱版",
+          "configId": "246416",
+          "index": 0,
           "price": "31.99万",
-          "fuelType": "纯电动",
-          "size": "4705x1920x1705",
           "manufacturer": "smart",
           "class": "中型SUV",
-          "power": "纯电动 588马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 588马力",
+          "size": "4705x1920x1705",
+          "exteriorImages": [
+            {
+              "name": "琥珀棕/月食黑",
+              "colors": [
+                "#3E1B22",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_adf2577cc820644b26d774a9e91b003d~2508x0.webp"
+            },
+            {
+              "name": "赛博银/月食黑",
+              "colors": [
+                "#7F7F7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0e11daf9b3bdc53f570326ad444ed4eb~2508x0.webp"
+            },
+            {
+              "name": "流沙金/月食黑",
+              "colors": [
+                "#999383",
+                "#1A1818"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d593b7cb1453af0992275228a08b73ef~2508x0.webp"
+            },
+            {
+              "name": "粒子白/月食黑",
+              "colors": [
+                "#CBCBC9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6fc4254d9b009e14c85c1762b67a42be~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮影黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_60216f0efd56c4f681858f7ecfa59773~2508x0.webp"
+            },
+            {
+              "name": "旷漠棕",
+              "colors": [
+                "#88685C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97c1b520cad2b5d0bf502a05bf324efe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_adf2577cc820644b26d774a9e91b003d~2508x0.webp"
         },
         {
-          "configName": "smart精灵#5 2025款 BRABUS超能版",
+          "configName": "2025款 BRABUS超能版",
+          "configId": "246820",
+          "index": 1,
           "price": "37.99万",
-          "fuelType": "纯电动",
-          "size": "4705x1920x1705",
           "manufacturer": "smart",
           "class": "中型SUV",
-          "power": "纯电动 646马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "4705x1920x1705",
+          "exteriorImages": [
+            {
+              "name": "量子黑/能量红",
+              "colors": [
+                "#000005",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_128badc7a159f3c05691a091a585c541~2508x0.webp"
+            },
+            {
+              "name": "哑光灰/能量红",
+              "colors": [
+                "#ABA9A9",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ce31b56eaba42a8c9bdd7108058d008~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "BRABUS黑",
+              "colors": [
+                "#0A0909"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9406c03ef3e6a2c84fff496e93a83ec7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_128badc7a159f3c05691a091a585c541~2508x0.webp"
         },
         {
-          "configName": "smart精灵#5 2024款 长续航奇旅 标准版",
+          "configName": "2024款 长续航奇旅 标准版",
+          "configId": "110321",
+          "index": 2,
           "price": "23.99万",
-          "fuelType": "纯电动",
-          "size": "4705x1920x1705",
           "manufacturer": "smart",
           "class": "中型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4705x1920x1705",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "smart精灵#5 2024款 长续航奇旅 豪华版",
+          "configName": "2024款 长续航奇旅 豪华版",
+          "configId": "241719",
+          "index": 3,
           "price": "26.99万",
-          "fuelType": "纯电动",
-          "size": "4705x1920x1705",
           "manufacturer": "smart",
           "class": "中型SUV",
-          "power": "纯电动 340马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 340马力",
+          "size": "4705x1920x1705",
+          "exteriorImages": [
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#3E1B22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb0c2a47dbd7d173486e9c6d039fa8b0~2508x0.webp"
+            },
+            {
+              "name": "时光绿",
+              "colors": [
+                "#727D70"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66378e5a4c0579bbfc4e685d74c36bd7~2508x0.webp"
+            },
+            {
+              "name": "赛博银",
+              "colors": [
+                "#7F7F7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/570620511b672ecefba69325648c8835~2508x0.webp"
+            },
+            {
+              "name": "流沙金",
+              "colors": [
+                "#999383"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1749f9ae9d8c6a17c3a13ada308c7f22~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f94ae4493551904b5bcdf18c4c253bd7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮影黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5a1dee06f0875359399c585c40b436ab~2508x0.webp"
+            },
+            {
+              "name": "旷漠棕",
+              "colors": [
+                "#88685C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/93616ba075bbbb04673a92b624febb53~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bb0c2a47dbd7d173486e9c6d039fa8b0~2508x0.webp"
         },
         {
-          "configName": "smart精灵#5 2024款 超长续航奇旅 豪华版",
+          "configName": "2024款 超长续航奇旅 豪华版",
+          "configId": "110320",
+          "index": 4,
           "price": "29.99万",
-          "fuelType": "纯电动",
-          "size": "4705x1920x1705",
           "manufacturer": "smart",
           "class": "中型SUV",
-          "power": "纯电动 363马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 363马力",
+          "size": "4705x1920x1705",
+          "exteriorImages": [
+            {
+              "name": "沉寂黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7b42edc0aee6c17cbcae1da45da5b42~2508x0.webp"
+            },
+            {
+              "name": "琥珀棕",
+              "colors": [
+                "#3E1B22"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0119997d1960a4f2d9835c098a7e343b~2508x0.webp"
+            },
+            {
+              "name": "时光绿",
+              "colors": [
+                "#727D70"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c26e2a2031d5ab2226dd4ca98cf81ae1~2508x0.webp"
+            },
+            {
+              "name": "赛博银",
+              "colors": [
+                "#7F7F7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a9ffab54539e2314a7052f7162ec2bc2~2508x0.webp"
+            },
+            {
+              "name": "流沙金",
+              "colors": [
+                "#999383"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a321bec62c53fbdf09c4878941d03fd~2508x0.webp"
+            },
+            {
+              "name": "镭射红",
+              "colors": [
+                "#9C3830"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b92832b77411dbf76366e054823a4ddd~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a50af98129864bdf3f7014c731c79de0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暮影黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/12be3ae05b01fa5eeeacfc9d3eb261a8~2508x0.webp"
+            },
+            {
+              "name": "旷漠棕",
+              "colors": [
+                "#88685C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c241635a37e2f681892198ffc0d46b75~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f7b42edc0aee6c17cbcae1da45da5b42~2508x0.webp"
         },
         {
-          "configName": "smart精灵#5 2024款 丛林之境限量版",
+          "configName": "2024款 丛林之境限量版",
+          "configId": "240011",
+          "index": 5,
           "price": "36.8万",
-          "fuelType": "纯电动",
-          "size": "4705x1945x1830",
           "manufacturer": "smart",
           "class": "中型SUV",
-          "power": "纯电动 646马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "4705x1945x1830",
+          "exteriorImages": [
+            {
+              "name": "秘境绿",
+              "colors": [
+                "#51524A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc0c9b876dbc431e4ccbcd567c9530c7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "山谷绿",
+              "colors": [
+                "#827F6D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6a3eaf6f1b67a5b6abbadb84c78e20b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dc0c9b876dbc431e4ccbcd567c9530c7~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6272,
+      "carName": "smart精灵#3",
+      "configs": [
+        {
+          "configName": "2026款 型动标准版",
+          "configId": "249832",
+          "index": 0,
+          "price": "16.49万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "量子黑",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05af809d2ab3c9ddb84becd5b7b13e77~2508x0.webp"
+            },
+            {
+              "name": "赛博银",
+              "colors": [
+                "#7F7F7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2c2e3e3dd3802f764fbcfb6da670c5f5~2508x0.webp"
+            },
+            {
+              "name": "星尘蓝",
+              "colors": [
+                "#B3E2F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a6468bf9720e088528da85720b8258e7~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_34de60820034e61326ff07b5392a25e1~2508x0.webp"
+            },
+            {
+              "name": "月瓷白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6207ae2d895f7b270aa92d8bc6b5e88a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "无界黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55738db7104d8d947abbf86a26983f9e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_05af809d2ab3c9ddb84becd5b7b13e77~2508x0.webp"
+        },
+        {
+          "configName": "2026款 型动长续航版",
+          "configId": "249833",
+          "index": 1,
+          "price": "18.49万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "星尘蓝",
+              "colors": [
+                "#B3E2F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e2a689c366439fa7f0dcdebf83f8309a~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_89fc82e0d0c3ecaf3ae66d6219a96207~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "无界黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a82b5b8a69285babaa44ad56c366d0dd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e2a689c366439fa7f0dcdebf83f8309a~2508x0.webp"
+        },
+        {
+          "configName": "2026款 型动四驱版",
+          "configId": "249834",
+          "index": 2,
+          "price": "20.99万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 428马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "赛博银/月食黑",
+              "colors": [
+                "#7F7F7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55c71456abeb6e7515c483567ad5a48f~2508x0.webp"
+            },
+            {
+              "name": "星尘蓝",
+              "colors": [
+                "#B3E2F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8f4e705b338c4072cf86b21701e078ad~2508x0.webp"
+            },
+            {
+              "name": "光子橙",
+              "colors": [
+                "#E47105"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eba4c521cdf1dc80081059f1512d8949~2508x0.webp"
+            },
+            {
+              "name": "月瓷白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_220c4f001cd17811b2099fad57e0e374~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑曜棕",
+              "colors": [
+                "#C8966C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b6d28c2be7077b9b9b6bd5482fbb9bf~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_55c71456abeb6e7515c483567ad5a48f~2508x0.webp"
+        },
+        {
+          "configName": "2026款 BRABUS性能版",
+          "configId": "249835",
+          "index": 3,
+          "price": "25.99万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 428马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "光子橙/黑色",
+              "colors": [
+                "#E47105",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8e7ac0bacd380a5d7d9209f2e0331e2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "BRABUS黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ade9ab3789e06218f3b51899ee77dd34~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a8e7ac0bacd380a5d7d9209f2e0331e2~2508x0.webp"
+        },
+        {
+          "configName": "2024款 型动标准版",
+          "configId": "100277",
+          "index": 4,
+          "price": "16.49万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "沉寂黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d57902ea014a532a5d330edba087f389~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd9738839eeecfd03d4eca6fd979e243~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "无界黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fd356e0fb2d6b8cccbd11c6dd558e22~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d57902ea014a532a5d330edba087f389~2508x0.webp"
+        },
+        {
+          "configName": "2024款 型动长续航版",
+          "configId": "100279",
+          "index": 5,
+          "price": "18.49万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "沉寂黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e17bb2069c61e0a14e74c859f0c51e87~2508x0.webp"
+            },
+            {
+              "name": "赛博银",
+              "colors": [
+                "#7F7F7F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a984aba1602bf5e0f2431abf8c01fcb9~2508x0.webp"
+            },
+            {
+              "name": "镭射红",
+              "colors": [
+                "#9C3830"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b0f003b09b5f67004992d1d87338c054~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b37b1dfcbbc419c667235f1fce4b4da~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "无界黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e2ebbc3ff42d850bb2de61626479b5d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e17bb2069c61e0a14e74c859f0c51e87~2508x0.webp"
+        },
+        {
+          "configName": "2024款 型动四驱版",
+          "configId": "100278",
+          "index": 6,
+          "price": "21.99万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 428马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "赛博银/月食黑",
+              "colors": [
+                "#7F7F7F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa2844754a6333060ab4438b951c78b1~2508x0.webp"
+            },
+            {
+              "name": "星尘蓝",
+              "colors": [
+                "#B3E2F4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/392fe1a7333c62e773282b6ece7c5406~2508x0.webp"
+            },
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/00a13e18d6010181d8aabf7890829565~2508x0.webp"
+            },
+            {
+              "name": "光子橙",
+              "colors": [
+                "#E47105"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7bfdeb7a5a681e2a6b4b47ddcdd9f8b~2508x0.webp"
+            },
+            {
+              "name": "月瓷白",
+              "colors": [
+                "#F2F2F2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5369312ff939006fd84afd0d8379f4fa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "无界黑",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ebf1e48d1c86553678b61f0a6f483bd8~2508x0.webp"
+            },
+            {
+              "name": "黑曜棕",
+              "colors": [
+                "#C8966C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/037b2f78e91e90b527bcb8ec6e72eb38~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa2844754a6333060ab4438b951c78b1~2508x0.webp"
+        },
+        {
+          "configName": "2024款 BRABUS性能版",
+          "configId": "100280",
+          "index": 7,
+          "price": "28.99万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 428马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 25周年星空纪念版",
+          "configId": "93196",
+          "index": 8,
+          "price": "24.99万",
+          "manufacturer": "smart",
+          "class": "紧凑型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4400x1844x1556",
+          "exteriorImages": [
+            {
+              "name": "粒子白",
+              "colors": [
+                "#CBCBC9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d7cb859633fc9a9afbe9ad94586508b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云白",
+              "colors": [
+                "#F8F3F3"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/08756f2d91edf364235e944078d2f0ec~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8d7cb859633fc9a9afbe9ad94586508b~2508x0.webp"
         }
       ]
     }

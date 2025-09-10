@@ -1,0 +1,125 @@
+{
+  "brand": "Voyah",
+  "timestamp": "2025-09-10T03:35:25.707Z",
+  "crawlSummary": {
+    "totalCars": 6,
+    "successCount": 6,
+    "failCount": 0,
+    "totalTime": "15分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 5924,
+        "carName": "梦想家 PHEV",
+        "configCount": 6,
+        "exteriorColorCount": 36,
+        "interiorColorCount": 18,
+        "status": "completed"
+      },
+      {
+        "carId": 10177,
+        "carName": "知音",
+        "configCount": 6,
+        "exteriorColorCount": 24,
+        "interiorColorCount": 13,
+        "status": "completed"
+      },
+      {
+        "carId": 6205,
+        "carName": "追光 EV",
+        "configCount": 2,
+        "exteriorColorCount": 6,
+        "interiorColorCount": 5,
+        "status": "completed"
+      },
+      {
+        "carId": 9167,
+        "carName": "追光 PHEV",
+        "configCount": 2,
+        "exteriorColorCount": 6,
+        "interiorColorCount": 4,
+        "status": "completed"
+      },
+      {
+        "carId": 4760,
+        "carName": "FREE",
+        "configCount": 5,
+        "exteriorColorCount": 21,
+        "interiorColorCount": 11,
+        "status": "completed"
+      },
+      {
+        "carId": 5416,
+        "carName": "梦想家 EV",
+        "configCount": 6,
+        "exteriorColorCount": 27,
+        "interiorColorCount": 14,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 120,
+    "totalInteriorColors": 65,
+    "exteriorColorTypes": [
+      "旭日紫",
+      "玄英黑",
+      "辉月青",
+      "玄夜金",
+      "杜若白",
+      "宸星灰",
+      "日夜辉",
+      "海月金",
+      "香槟金",
+      "极夜黑",
+      "曼波绿",
+      "星云灰",
+      "风暴粉",
+      "月光白",
+      "玄墨黑",
+      "晴空蓝",
+      "云光蓝",
+      "琉光金",
+      "日光橙",
+      "琉璃紫",
+      "韶华青",
+      "翡玉绿",
+      "钛晶灰"
+    ],
+    "interiorColorTypes": [
+      "驼棕",
+      "云灰",
+      "棉米",
+      "深海蓝",
+      "旭日红",
+      "皓月白",
+      "暗夜",
+      "辰星",
+      "盖亚",
+      "黑色/灰色",
+      "蓝色/灰色",
+      "黑色/棕色",
+      "灰色/黑色",
+      "棕色/黑色",
+      "极光紫",
+      "琥珀棕",
+      "青锋黑",
+      "幻影灰",
+      "踏浪白"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

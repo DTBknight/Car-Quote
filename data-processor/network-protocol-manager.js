@@ -4,10 +4,10 @@ const logger = require('./logger');
 
 class NetworkProtocolManager {
   constructor() {
-    this.maxRetries = config.crawler.maxNetworkRetries || 5;
-    this.retryDelay = config.crawler.networkRetryDelay || 3000;
-    this.protocolTimeout = config.crawler.protocolTimeout || 120000; // 120秒协议超时
-    this.connectionTimeout = config.crawler.connectionTimeout || 30000; // 30秒连接超时
+    this.maxRetries = config.crawler.maxNetworkRetries || 3; // 减少重试次数
+    this.retryDelay = config.crawler.networkRetryDelay || 2000; // 减少重试延迟
+    this.protocolTimeout = config.crawler.protocolTimeout || 300000; // 减少协议超时到300秒
+    this.connectionTimeout = config.crawler.connectionTimeout || 45000; // 增加连接超时到45秒
     this.protocols = new Map(); // 记录协议状态
   }
 
@@ -34,10 +34,10 @@ class NetworkProtocolManager {
         return false;
       }
 
-      // 使用超时包装Network.enable
+      // 使用更短的超时包装Network.enable
       const networkEnablePromise = page._client().send('Network.enable');
       const timeoutPromise = new Promise((_, reject) => 
-        setTimeout(() => reject(new Error('Network.enable timeout')), this.protocolTimeout)
+        setTimeout(() => reject(new Error('Network.enable timeout')), 30000) // 减少到30秒
       );
       
       await Promise.race([networkEnablePromise, timeoutPromise]);
@@ -122,10 +122,10 @@ class NetworkProtocolManager {
           continue;
         }
 
-        // 使用超时保护
+        // 使用更短的超时保护
         const protocolPromise = page._client().send(protocol.method);
         const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error(`${protocol.name} timeout`)), this.protocolTimeout)
+          setTimeout(() => reject(new Error(`${protocol.name} timeout`)), 20000) // 减少到20秒
         );
         
         await Promise.race([protocolPromise, timeoutPromise]);
@@ -167,7 +167,7 @@ class NetworkProtocolManager {
       }
       
       // 等待一段时间让连接稳定
-      await this.delay(5000);
+      await this.delay(3000); // 减少等待时间
       
       // 重新初始化协议
       const success = await this.initializePageProtocols(page);

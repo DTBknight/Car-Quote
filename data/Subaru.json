@@ -3,224 +3,993 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/b7f695f8d411ad395ebbf4f5bb003914~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 2698,
       "carName": "WRX",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/79d79f97b501412b8e42ccbd2766275c~1200x0.png",
       "configs": [
         {
-          "configName": "斯巴鲁WRX 2026款 2.4T CVT Wagon tS EyeSight",
+          "configName": "2026款 2.4T CVT Wagon tS EyeSight",
+          "configId": "246653",
+          "index": 0,
           "price": "38.98万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "2.4T 275马力 H4",
           "size": "4755x1795x1500",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型车",
-          "power": "2.4T 275马力 H4"
+          "exteriorImages": [
+            {
+              "name": "耀目寒冰银",
+              "colors": [
+                "#D9DDE5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1b72da85f1193ef4ce7e5d1fa3afd5b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_82d975afc702828a10efd2e37a24f238~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b1b72da85f1193ef4ce7e5d1fa3afd5b~2508x0.webp"
         },
         {
-          "configName": "斯巴鲁WRX 2025款 2.4T 手动版EyeSight",
+          "configName": "2025款 2.4T 手动版EyeSight",
+          "configId": "99584",
+          "index": 1,
           "price": "36.98万",
-          "fuelType": "汽油",
-          "size": "4670x1825x1465",
           "manufacturer": "斯巴鲁",
           "class": "紧凑型车",
-          "power": "2.4T 275马力 H4"
+          "fuelType": "汽油",
+          "power": "2.4T 275马力 H4",
+          "size": "4670x1825x1465",
+          "exteriorImages": [
+            {
+              "name": "新拉力蓝",
+              "colors": [
+                "#2A5AC2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e90e9b3434cde2655b76bcb8287da5c4~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0d6716ad15391a5fa1b8b1b4396c8ff~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#474747"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a94d7b241660d459ea15431a34d1eef1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e90e9b3434cde2655b76bcb8287da5c4~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "FORESTER森林人",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/690155f0893045eb909640f6c476ba5d~1200x0.png",
+      "carId": 6155,
+      "carName": "CROSSTREK旭豹",
       "configs": [
         {
-          "configName": "FORESTER森林人 2026款 2.5i AWD尊贵版EyeSight",
-          "price": "24.98万",
-          "fuelType": "汽油",
-          "size": "4670x1830x1730",
+          "configName": "2025款 2.5i AWD精英版EyeSight",
+          "configId": "243233",
+          "index": 0,
+          "price": "19.98万",
           "manufacturer": "斯巴鲁",
           "class": "紧凑型SUV",
-          "power": "2.5L 166马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4495x1800x1600",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "FORESTER森林人 2026款 2.5i AWD旗舰版EyeSight",
-          "price": "26.58万",
-          "fuelType": "汽油",
-          "size": "4670x1830x1730",
+          "configName": "2025款 2.5i AWD豪华版EyeSight",
+          "configId": "243232",
+          "index": 1,
+          "price": "21.58万",
           "manufacturer": "斯巴鲁",
           "class": "紧凑型SUV",
-          "power": "2.5L 166马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4495x1800x1600",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石蓝",
+              "colors": [
+                "#354FBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78402f7cb11ec0417c5c946557af38ad~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d21b295151ab2ef7e599f447c49379b~2508x0.webp"
+            },
+            {
+              "name": "耀目寒冰银",
+              "colors": [
+                "#D9DDE5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a20cea45278e094854bb3a29a58e46e~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5973517c29777c6a20ee27e82ee5d6ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2ccb47aaa48707e940c86170c742388~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78402f7cb11ec0417c5c946557af38ad~2508x0.webp"
         },
         {
-          "configName": "FORESTER森林人 2024款 2.0i AWD豪华版",
-          "price": "22.38万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
+          "configName": "2025款 2.5i AWD旗舰版EyeSight",
+          "configId": "243231",
+          "index": 2,
+          "price": "23.08万",
           "manufacturer": "斯巴鲁",
           "class": "紧凑型SUV",
-          "power": "2.0L 154马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.0i AWD豪华版EyeSight",
-          "price": "23.88万",
           "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.0L 154马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.5i AWD尊贵版EyeSight",
-          "price": "24.98万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.5L 169马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.5i AWD X运动版EyeSight",
-          "price": "25.48万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.5L 169马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.5i AWD旗舰版EyeSight",
-          "price": "26.58万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.5L 169马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.5i STI Sport",
-          "price": "27.58万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.5L 169马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.5i STI Sport Plus",
-          "price": "28.38万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.5L 169马力 H4"
-        },
-        {
-          "configName": "FORESTER森林人 2024款 2.5i STI Sport Plus 特装版",
-          "price": "29.92万",
-          "fuelType": "汽油",
-          "size": "4655x1815x1730",
-          "manufacturer": "斯巴鲁",
-          "class": "紧凑型SUV",
-          "power": "2.5L 169马力 H4"
+          "power": "2.5L 169马力 H4",
+          "size": "4495x1800x1600",
+          "exteriorImages": [],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_561fe7c992e7d1a039f625a0e1a25c5e~2508x0.webp"
+            }
+          ],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "BRZ",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/34d6a3bbd4a14ee48bd839a8bc873082~1200x0.png",
-      "configs": [
-        {
-          "configName": "斯巴鲁BRZ 2025款 2.4L 手动STI Sport typeRS",
-          "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "4280x1775x1310",
-          "manufacturer": "斯巴鲁",
-          "class": "跑车",
-          "power": "2.4L 234马力 H4"
-        },
-        {
-          "configName": "斯巴鲁BRZ 2024款 2.4L 手动STI Sport",
-          "price": "29.98万",
-          "fuelType": "汽油",
-          "size": "4280x1775x1310",
-          "manufacturer": "斯巴鲁",
-          "class": "跑车",
-          "power": "2.4L 234马力 H4"
-        },
-        {
-          "configName": "斯巴鲁BRZ 2024款 2.4L 自动STI Sport",
-          "price": "30.98万",
-          "fuelType": "汽油",
-          "size": "4280x1775x1310",
-          "manufacturer": "斯巴鲁",
-          "class": "跑车",
-          "power": "2.4L 234马力 H4"
-        }
-      ]
-    },
-    {
+      "carId": 1232,
       "carName": "OUTBACK傲虎",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/035ee62d401d4676833577caf53d44e0~1200x0.png",
       "configs": [
         {
-          "configName": "OUTBACK傲虎 2024款 2.5i AWD运动版EyeSight",
+          "configName": "2024款 2.5i AWD运动版EyeSight",
+          "configId": "99900",
+          "index": 0,
           "price": "29.98万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1675",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1675",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/12f5e05010d70deda821d185840a52f0~2508x0.webp"
+            },
+            {
+              "name": "流光铜",
+              "colors": [
+                "#C3B5A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31eb691e83cceee7a2996133d06dd3e1~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/297e496f597dfce4b809d504b9475461~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/651b06e75be068cc5fdceda6eeb24002~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/12f5e05010d70deda821d185840a52f0~2508x0.webp"
         },
         {
-          "configName": "OUTBACK傲虎 2024款 2.5i AWD探享版EyeSight",
+          "configName": "2024款 2.5i AWD探享版EyeSight",
+          "configId": "99902",
+          "index": 1,
           "price": "30.98万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1670",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1670",
+          "exteriorImages": [
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/222b3fd9a7d5577814e387e8b72bf45f~2508x0.webp"
+            },
+            {
+              "name": "清秋绿",
+              "colors": [
+                "#91907D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f7459d271fa74b3eb7891efc7834b01~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#A9B1BC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df57e4b24368cd2555665153f48f8193~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/222b3fd9a7d5577814e387e8b72bf45f~2508x0.webp"
         },
         {
-          "configName": "OUTBACK傲虎 2024款 2.5i AWD旗舰版EyeSight",
+          "configName": "2024款 2.5i AWD旗舰版EyeSight",
+          "configId": "99903",
+          "index": 2,
           "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1675",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1675",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/700d28d637bffda29c093a724537b89b~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65e65d9aa9f3a226b81d09ce9d0eb4d3~2508x0.webp"
+            },
+            {
+              "name": "流光铜",
+              "colors": [
+                "#C3B5A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96762978aa778edff5485aff69e02fa8~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e348dcf945487bda618bc0232cbbd4f0~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#8E6261"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3312361ccb0317abd88081278e94d1b5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/700d28d637bffda29c093a724537b89b~2508x0.webp"
         },
         {
-          "configName": "OUTBACK傲虎 2024款 2.5i AWD旷野限定版EyeSight",
+          "configName": "2024款 2.5i AWD旷野限定版EyeSight",
+          "configId": "95975",
+          "index": 3,
           "price": "32.48万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1670",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1670",
+          "exteriorImages": [
+            {
+              "name": "旷野蓝",
+              "colors": [
+                "#3B6FA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7a83121dede43d546323d7153a2a520~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55e89d9166b3323036ba73c822a22250~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c7a83121dede43d546323d7153a2a520~2508x0.webp"
         },
         {
-          "configName": "OUTBACK傲虎 2023款 2.5i AWD运动版EyeSight",
+          "configName": "2023款 2.5i AWD运动版EyeSight",
+          "configId": "86064",
+          "index": 4,
           "price": "29.98万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1675",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1675",
+          "exteriorImages": [
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a3e59cf7e3e8fcda54763554a791b92~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0062da8c48cf56076cf83780f108c1d9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6a3e59cf7e3e8fcda54763554a791b92~2508x0.webp"
         },
         {
-          "configName": "OUTBACK傲虎 2023款 2.5i AWD探享版EyeSight",
+          "configName": "2023款 2.5i AWD探享版EyeSight",
+          "configId": "86065",
+          "index": 5,
           "price": "31.28万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1670",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1670",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/28e2d08e1bbad10b22bcd90e659fd8d5~2508x0.webp"
+            },
+            {
+              "name": "清秋绿",
+              "colors": [
+                "#91907D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8f1e68e379d38e9eab1f67716729e0c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色/黑色",
+              "colors": [
+                "#A9B1BC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc0dd4cc1bdea7a687507af79627b0ce~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/28e2d08e1bbad10b22bcd90e659fd8d5~2508x0.webp"
         },
         {
-          "configName": "OUTBACK傲虎 2023款 2.5i AWD旗舰版EyeSight",
+          "configName": "2023款 2.5i AWD旗舰版EyeSight",
+          "configId": "86066",
+          "index": 6,
           "price": "33.08万",
-          "fuelType": "汽油",
-          "size": "4880x1875x1675",
           "manufacturer": "斯巴鲁",
           "class": "中型SUV",
-          "power": "2.5L 169马力 H4"
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4880x1875x1675",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石蓝",
+              "colors": [
+                "#354FBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c3a7b0a9c1cfbb7ebf535b586a0a42c7~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c01226ffd46d1777cf12292d25ae502~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#8E6261"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ec92cc395b41801d3d9605ad34b307d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c3a7b0a9c1cfbb7ebf535b586a0a42c7~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1231,
+      "carName": "FORESTER森林人",
+      "configs": [
+        {
+          "configName": "2026款 2.5i AWD尊贵版EyeSight",
+          "configId": "249467",
+          "index": 0,
+          "price": "24.98万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 166马力 H4",
+          "size": "4670x1830x1730",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 2.5i AWD旗舰版EyeSight",
+          "configId": "249444",
+          "index": 1,
+          "price": "26.58万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 166马力 H4",
+          "size": "4670x1830x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ae33ed3e99ed6685179047e09a20c276~2508x0.webp"
+            },
+            {
+              "name": "珠光宝石蓝",
+              "colors": [
+                "#354FBD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f5dd51c2c5a5809125125fa62360731f~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5d789ee8a71e976fd1d43dcb80b5d8bf~2508x0.webp"
+            },
+            {
+              "name": "河岩珠光灰",
+              "colors": [
+                "#93A0A6"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_83fc2020c070a80e659bab389f7a07c4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2717c6642045fb92c4112d7fd6f7031a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_00a00fabc45d9fc43432bee2e3e88b58~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ae33ed3e99ed6685179047e09a20c276~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0i AWD豪华版",
+          "configId": "91353",
+          "index": 2,
+          "price": "22.38万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 154马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "天际珠光蓝",
+              "colors": [
+                "#6280A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0df030247d8d9b8e609214accb42b06~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ccc0536d4b88430718b683de57c65c7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2741ea2fc18577bc08eddb898f39f6e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c0df030247d8d9b8e609214accb42b06~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.0i AWD豪华版EyeSight",
+          "configId": "91354",
+          "index": 3,
+          "price": "23.88万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0L 154马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b5730330fef4fde4f11307bada66ac4~2508x0.webp"
+            },
+            {
+              "name": "天际珠光蓝",
+              "colors": [
+                "#6280A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cd08a7ea3bbd7952120d66755f779c12~2508x0.webp"
+            },
+            {
+              "name": "耀目寒冰银",
+              "colors": [
+                "#D9DDE5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a15469504248a6c85f146f52069533c7~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f48a5cdda3b1214f5262eed5400472e7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fb3299ffe53065c26625844601c044d0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5b5730330fef4fde4f11307bada66ac4~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.5i AWD尊贵版EyeSight",
+          "configId": "90073",
+          "index": 4,
+          "price": "24.98万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b3d7a135bbf4debe81fac1bc0cf676e~2508x0.webp"
+            },
+            {
+              "name": "原野深邃绿",
+              "colors": [
+                "#515D4C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae9cba81376f9ce88b515a4d5045874~2508x0.webp"
+            },
+            {
+              "name": "天际珠光蓝",
+              "colors": [
+                "#6280A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f096b934ae063ccc95826deeea2efeb~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9eb365b81a3395d05d254c596d49814c~2508x0.webp"
+            },
+            {
+              "name": "耀目寒冰银",
+              "colors": [
+                "#D9DDE5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/448c607574ec9a9a7bb194124eb50d1f~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/04670c13e6cd2d2bb6d90f88160a6c97~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/d11d68218b238b80cc2b05ca95a1ecfb~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5b3d7a135bbf4debe81fac1bc0cf676e~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.5i AWD X运动版EyeSight",
+          "configId": "96057",
+          "index": 5,
+          "price": "25.48万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5e7175466a7d998cf09df4dc7717314~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0152ae252f92dc745a748e5e0af88baa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f5e7175466a7d998cf09df4dc7717314~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.5i AWD旗舰版EyeSight",
+          "configId": "90074",
+          "index": 6,
+          "price": "26.58万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f2c981d0efbd27e8954aa06d9e83abda~2508x0.webp"
+            },
+            {
+              "name": "天际珠光蓝",
+              "colors": [
+                "#6280A2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54b83d152103d733e3b7000acc4c05a3~2508x0.webp"
+            },
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1187ed8e5b5c62037f32b5e7b183d312~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9be934c2e88f3ca2bf5c2ee74d199f03~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#AC6E53"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d3018705345ffad85e35e706f310bef~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f2c981d0efbd27e8954aa06d9e83abda~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.5i STI Sport",
+          "configId": "94086",
+          "index": 7,
+          "price": "27.58万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "浅黛矿石灰",
+              "colors": [
+                "#74767F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f941f05dc891de5f9cfb7eaac544d9b~2508x0.webp"
+            },
+            {
+              "name": "耀目寒冰银",
+              "colors": [
+                "#D9DDE5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ce5eb379304f3f7d51232d95e332d12~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f98dad7a1c405fa9da4948bb5152a078~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/波尔多红",
+              "colors": [
+                "#000000",
+                "#A44343"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/85b72b634a2b1781b1163d380e4b9ff4~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/1f941f05dc891de5f9cfb7eaac544d9b~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.5i STI Sport Plus",
+          "configId": "94087",
+          "index": 8,
+          "price": "28.38万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/234b5156ead53a7a7110ecc04dbbedd4~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ab7d10e04e82075b6169b75905da665~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/波尔多红",
+              "colors": [
+                "#000000",
+                "#A44343"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/673c0801a16d8c33b396d8040dc6fb3e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/234b5156ead53a7a7110ecc04dbbedd4~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.5i STI Sport Plus 特装版",
+          "configId": "111047",
+          "index": 9,
+          "price": "29.92万",
+          "manufacturer": "斯巴鲁",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.5L 169马力 H4",
+          "size": "4655x1815x1730",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carId": 1234,
+      "carName": "BRZ",
+      "configs": [
+        {
+          "configName": "2025款 2.4L 手动STI Sport typeRS",
+          "configId": "243472",
+          "index": 0,
+          "price": "31.98万",
+          "manufacturer": "斯巴鲁",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "2.4L 234马力 H4",
+          "size": "4280x1775x1310",
+          "exteriorImages": [
+            {
+              "name": "新拉力蓝",
+              "colors": [
+                "#2A5AC2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31c3683b8db0d1991499bc3d75b6929f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/波尔多红",
+              "colors": [
+                "#000000",
+                "#C27977"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03fd3d14005daf92f5f57e11b4859d55~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_31c3683b8db0d1991499bc3d75b6929f~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.4L 手动STI Sport",
+          "configId": "111048",
+          "index": 1,
+          "price": "29.98万",
+          "manufacturer": "斯巴鲁",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "2.4L 234马力 H4",
+          "size": "4280x1775x1310",
+          "exteriorImages": [
+            {
+              "name": "珠光宝石黑",
+              "colors": [
+                "#161617"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fff29a1d09457d2481fe9b87445a49a9~2508x0.webp"
+            },
+            {
+              "name": "新拉力蓝",
+              "colors": [
+                "#2A5AC2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77bdea83340cba6e17ef58a56b1c92f0~2508x0.webp"
+            },
+            {
+              "name": "耀目寒冰银",
+              "colors": [
+                "#D9DDE5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6ca8532b8b1dfa61792d32e00d1fe668~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e26bad60c7148930e8a10030be828ba8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/波尔多红",
+              "colors": [
+                "#000000",
+                "#C27977"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7937b2aa3b51cfaa93ff97bab42db633~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/fff29a1d09457d2481fe9b87445a49a9~2508x0.webp"
+        },
+        {
+          "configName": "2024款 2.4L 自动STI Sport",
+          "configId": "111049",
+          "index": 2,
+          "price": "30.98万",
+          "manufacturer": "斯巴鲁",
+          "class": "跑车",
+          "fuelType": "汽油",
+          "power": "2.4L 234马力 H4",
+          "size": "4280x1775x1310",
+          "exteriorImages": [
+            {
+              "name": "新拉力蓝",
+              "colors": [
+                "#2A5AC2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c1f10771d556ae9d3cac3465c9ccc4f~2508x0.webp"
+            },
+            {
+              "name": "烈焰红",
+              "colors": [
+                "#C5424C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21ce63620d79971a8b6e864a13899dc2~2508x0.webp"
+            },
+            {
+              "name": "水晶珠光白",
+              "colors": [
+                "#F6F6F6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85a13484a6a0ca3b02edf2ca71f1c3d4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/波尔多红",
+              "colors": [
+                "#000000",
+                "#C27977"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9f2c21fe70b9ee1358bdfd5c8873e1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c1f10771d556ae9d3cac3465c9ccc4f~2508x0.webp"
         }
       ]
     }

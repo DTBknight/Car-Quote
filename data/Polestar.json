@@ -3,74 +3,167 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/bc0b6d995581dc7821541b0d83256f92~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 5832,
       "carName": "Polestar 4",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/928324fd61bf4b82857f357d3ce0af8d~1200x0.png",
       "configs": [
         {
-          "configName": "Polestar 4 2025款 豪华版",
+          "configName": "2025款 豪华版",
+          "configId": "248304",
+          "index": 0,
           "price": "33.8万",
-          "fuelType": "纯电动",
-          "size": "4845x1994x1544",
           "manufacturer": "Polestar",
           "class": "中型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4845x1994x1544",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Polestar 4 2025款 性能版",
+          "configName": "2025款 性能版",
+          "configId": "248305",
+          "index": 1,
           "price": "39.8万",
-          "fuelType": "纯电动",
-          "size": "4845x1994x1544",
           "manufacturer": "Polestar",
           "class": "中型SUV",
-          "power": "纯电动 544马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 544马力",
+          "size": "4845x1994x1544",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
-      "carName": "Polestar 1",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fed9781966349d1fe916cd6fa5368e73~1200x0.png",
-      "configs": [
-        {
-          "configName": "Polestar 1 2020款 标准型",
-          "price": "145万",
-          "fuelType": "插电式混合动力",
-          "size": "4586x2023x1352",
-          "manufacturer": "Polestar",
-          "class": "跑车",
-          "power": "插电式混合动力 232马力"
-        }
-      ]
-    },
-    {
+      "carId": 3166,
       "carName": "Polestar 2",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f5c9d34303f948cf9938d51b5f184985~1200x0.png",
       "configs": [
         {
-          "configName": "Polestar 2 2024款 单电机标准续航",
+          "configName": "2024款 单电机标准续航",
+          "configId": "86920",
+          "index": 0,
           "price": "29.98万",
-          "fuelType": "纯电动",
-          "size": "4606x1859x1482",
           "manufacturer": "Polestar",
           "class": "紧凑型车",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4606x1859x1482",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "Polestar 2 2024款 单电机长续航",
+          "configName": "2024款 单电机长续航",
+          "configId": "88601",
+          "index": 1,
           "price": "32.98万",
-          "fuelType": "纯电动",
-          "size": "4606x1859x1482",
           "manufacturer": "Polestar",
           "class": "紧凑型车",
-          "power": "纯电动 299马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 299马力",
+          "size": "4606x1859x1482",
+          "exteriorImages": [
+            {
+              "name": "星幕金",
+              "colors": [
+                "#D2B48C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff4bc5fd0eda4935dd4cccbf2220073d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碳素黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/078243030681500f38f5c787caa875f0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ff4bc5fd0eda4935dd4cccbf2220073d~2508x0.webp"
         },
         {
-          "configName": "Polestar 2 2024款 双电机长续航",
+          "configName": "2024款 双电机长续航",
+          "configId": "86919",
+          "index": 2,
           "price": "35.88万",
-          "fuelType": "纯电动",
-          "size": "4606x1859x1482",
           "manufacturer": "Polestar",
           "class": "紧凑型车",
-          "power": "纯电动 421马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 421马力",
+          "size": "4606x1859x1482",
+          "exteriorImages": [
+            {
+              "name": "雪晶白",
+              "colors": [
+                "#E1E8E2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/778bd3baed307312de7d05a5a83572c5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "碳素黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/011eb16dbaf313896d331d29c845010f~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/778bd3baed307312de7d05a5a83572c5~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        }
+      ]
+    },
+    {
+      "carId": 5356,
+      "carName": "Polestar 3",
+      "configs": [
+        {
+          "configName": "2024款 双电机长续航",
+          "configId": "79059",
+          "index": 0,
+          "price": "69.8万",
+          "manufacturer": "Polestar",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 489马力",
+          "size": "4900x1968x1627",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 双电机高性能",
+          "configId": "79060",
+          "index": 1,
+          "price": "79.8万",
+          "manufacturer": "Polestar",
+          "class": "中大型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 517马力",
+          "size": "4900x1968x1627",
+          "exteriorImages": [
+            {
+              "name": "雪晶白",
+              "colors": [
+                "#E1E8E2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35c80badbe0a810032ed313fe50837cd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "锌灰色/黑色",
+              "colors": [
+                "#CFCFCF",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7beeadac585fb931c78eee4588c5f548~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/35c80badbe0a810032ed313fe50837cd~2508x0.webp"
         }
       ]
     }

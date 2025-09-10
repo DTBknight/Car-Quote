@@ -3,524 +3,704 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/28d3b85cbc8e1bb2c0e643931ec1baf3~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "好猫",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7e945ae957344c67984ad671bbd708bf~1200x0.png",
-      "configs": [
-        {
-          "configName": "欧拉好猫 2025款 401km 经典型",
-          "price": "8.38万",
-          "fuelType": "纯电动",
-          "size": "4235x1825x1596",
-          "manufacturer": "长城汽车",
-          "class": "小型车",
-          "power": "纯电动 143马力"
-        },
-        {
-          "configName": "欧拉好猫 2025款 430km 豪华型",
-          "price": "9.38万",
-          "fuelType": "纯电动",
-          "size": "4242x1825x1632",
-          "manufacturer": "长城汽车",
-          "class": "小型车",
-          "power": "纯电动 171马力"
-        },
-        {
-          "configName": "欧拉好猫 2025款 430km 尊荣型",
-          "price": "10.38万",
-          "fuelType": "纯电动",
-          "size": "4242x1825x1632",
-          "manufacturer": "长城汽车",
-          "class": "小型车",
-          "power": "纯电动 171马力"
-        }
-      ]
-    },
-    {
+      "carId": 5269,
       "carName": "好猫GT",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5033596d0fbd4728bbe13435ffebecab~1200x0.png",
       "configs": [
         {
-          "configName": "欧拉好猫GT 2025款 木兰版 430km豪华型",
+          "configName": "2025款 木兰版 430km豪华型",
+          "configId": "249038",
+          "index": 0,
           "price": "9.68万",
-          "fuelType": "纯电动",
-          "size": "4254x1848x1632",
           "manufacturer": "长城汽车",
           "class": "小型车",
-          "power": "纯电动 171马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 171马力",
+          "size": "4254x1848x1632",
+          "exteriorImages": [
+            {
+              "name": "远黛黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e4b35a6e26cec50944e3ebb81bb1b3f7~2508x0.webp"
+            },
+            {
+              "name": "铠甲灰",
+              "colors": [
+                "#727F90"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d5268e089b508ec2d792f841d884cd47~2508x0.webp"
+            },
+            {
+              "name": "巾帼红",
+              "colors": [
+                "#8E1011"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_929233804552f6e31ff9e9b0a9788d2b~2508x0.webp"
+            },
+            {
+              "name": "烟冷灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_234aec3b28e8b064a90ed29dfb91e49a~2508x0.webp"
+            },
+            {
+              "name": "战袍白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8defbac7afbe892f36124f8add98863e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "红色/黑色",
+              "colors": [
+                "#A4382B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cc0ddb1bd6928956a74714a62672817f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e4b35a6e26cec50944e3ebb81bb1b3f7~2508x0.webp"
         },
         {
-          "configName": "欧拉好猫GT 2025款 木兰版 430km尊荣型",
+          "configName": "2025款 木兰版 430km尊荣型",
+          "configId": "249175",
+          "index": 1,
           "price": "10.68万",
-          "fuelType": "纯电动",
-          "size": "4254x1848x1632",
           "manufacturer": "长城汽车",
           "class": "小型车",
-          "power": "纯电动 171马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 171马力",
+          "size": "4254x1848x1632",
+          "exteriorImages": [
+            {
+              "name": "远黛黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_79698b3ea96edc951979c0cf053f8fe9~2508x0.webp"
+            },
+            {
+              "name": "铠甲灰",
+              "colors": [
+                "#727F90"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee496ce5f0cf6e09736efe77a243b16c~2508x0.webp"
+            },
+            {
+              "name": "烟冷灰",
+              "colors": [
+                "#9F9F9F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_88ede5a829cfcace9a0b7fe30622e25b~2508x0.webp"
+            },
+            {
+              "name": "战袍白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ed27559abb220f835d48a616abcaaa1b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/黄色",
+              "colors": [
+                "#000000",
+                "#FFFF00"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_afa8bba1b37e98c98b2b25c0ea70caf6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_79698b3ea96edc951979c0cf053f8fe9~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "黑猫",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b7e0a0d6695cd0ec4ce742415d724acc~1200x0.png",
+      "carId": 4635,
+      "carName": "好猫",
       "configs": [
         {
-          "configName": "欧拉黑猫 2022款 301km 基础型 三元锂",
-          "price": "8.48万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
+          "configName": "2025款 430km 豪华型",
+          "configId": "248932",
+          "index": 1,
+          "price": "9.38万",
           "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
+          "class": "小型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 171马力",
+          "size": "4242x1825x1632",
+          "exteriorImages": [
+            {
+              "name": "点翠蓝/黑色",
+              "colors": [
+                "#0698A0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_caf940e52e8ec4e242b5ea8adf8830d3~2508x0.webp"
+            },
+            {
+              "name": "璀璨绿",
+              "colors": [
+                "#07746F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7629197073a7f6b1db2e9d2086480129~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#727986"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_68b435874a0311f6211011fb492639a2~2508x0.webp"
+            },
+            {
+              "name": "碧青玉",
+              "colors": [
+                "#C6E3D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_deb7500a52586ff85d61386f5e30628b~2508x0.webp"
+            },
+            {
+              "name": "粉珊瑚",
+              "colors": [
+                "#ECD9D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_84221a361e2787b17d25d617b118f6cf~2508x0.webp"
+            },
+            {
+              "name": "东珠白",
+              "colors": [
+                "#EDEDF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f02f52a70311e6ea959319fd65d9bbc0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青翠",
+              "colors": [
+                "#155D5D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8a378e30be0142f1e4982df04de75fa1~2508x0.webp"
+            },
+            {
+              "name": "青罗碧",
+              "colors": [
+                "#DFDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e96b280a8c388c292e2dc28c1dcca5a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_caf940e52e8ec4e242b5ea8adf8830d3~2508x0.webp"
         },
         {
-          "configName": "欧拉黑猫 2022款 301km 萌宠版 磷酸铁锂",
-          "price": "8.48万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
+          "configName": "2025款 430km 尊荣型",
+          "configId": "248930",
+          "index": 2,
+          "price": "10.38万",
           "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 301km 萌动版 磷酸铁锂",
-          "price": "8.48万",
+          "class": "小型车",
           "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 标准型 三元锂",
-          "price": "8.88万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 舒适型 三元锂",
-          "price": "9.08万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 舒适型 磷酸铁锂",
-          "price": "9.08万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 舒享型 三元锂",
-          "price": "9.08万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 舒享型 磷酸铁锂",
-          "price": "9.08万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 豪华型 三元锂",
-          "price": "9.48万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km 豪华型 磷酸铁锂",
-          "price": "9.48万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km HelloKitty联名款 三元锂",
-          "price": "9.63万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 351km HelloKitty联名款 磷酸铁锂",
-          "price": "9.63万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2022款 405km 长续航型 三元锂",
-          "price": "9.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 61马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 301km 基础型",
-          "price": "6.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 301km 萌宠版",
-          "price": "6.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 301km 公务版",
-          "price": "8.58万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 351km 标准型",
-          "price": "7.38万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 351km 豪华型",
-          "price": "7.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 351km 公务版",
-          "price": "8.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 405km 长续航型",
-          "price": "8.48万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 61马力"
-        },
-        {
-          "configName": "欧拉黑猫 2021款 405km 公务版",
-          "price": "10.28万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 61马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 301km 标准版",
-          "price": "6.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 351km 亲子版",
-          "price": "7.38万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 351km 女神版",
-          "price": "7.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 351km 灵趣版",
-          "price": "7.18万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 351km 灵智版",
-          "price": "7.68万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 310km 灵动版",
-          "price": "5.98万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1530",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 310km 灵趣版",
-          "price": "6.68万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 310km 灵智版",
-          "price": "7.08万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
-        },
-        {
-          "configName": "欧拉黑猫 2019款 351km 灵睿版",
-          "price": "7.78万",
-          "fuelType": "纯电动",
-          "size": "3495x1660x1560",
-          "manufacturer": "长城汽车",
-          "class": "微型车",
-          "power": "纯电动 48马力"
+          "power": "纯电动 171马力",
+          "size": "4242x1825x1632",
+          "exteriorImages": [
+            {
+              "name": "点翠蓝/黑色",
+              "colors": [
+                "#0698A0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_880079f13ca3dac343d47f8ac321565a~2508x0.webp"
+            },
+            {
+              "name": "璀璨绿",
+              "colors": [
+                "#07746F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1fb06ddeefa64c3652d28f9a2fd66b4b~2508x0.webp"
+            },
+            {
+              "name": "璀璨绿/黑色",
+              "colors": [
+                "#07746F",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_87ec12bce5df2d920b442b3a75a556b6~2508x0.webp"
+            },
+            {
+              "name": "大溪地灰",
+              "colors": [
+                "#727986"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1c66f52eeb8bd2832b9cecb0c4417c54~2508x0.webp"
+            },
+            {
+              "name": "碧青玉",
+              "colors": [
+                "#C6E3D1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_26d7ef87f9b98d8bc63d9a49676dfd06~2508x0.webp"
+            },
+            {
+              "name": "粉珊瑚",
+              "colors": [
+                "#ECD9D3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_360f7e2a506c5067d300c03ea8dfec94~2508x0.webp"
+            },
+            {
+              "name": "粉珊瑚/黑色",
+              "colors": [
+                "#ECD9D3",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eeabf8cc462b8c29361bddd8dbc7380e~2508x0.webp"
+            },
+            {
+              "name": "东珠白",
+              "colors": [
+                "#EDEDF7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d060e84a9c78b99ece5913057b2ef506~2508x0.webp"
+            },
+            {
+              "name": "东珠白/黑色",
+              "colors": [
+                "#EDEDF7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4fc183e575696ddd198fd409d0f19047~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "石青翠",
+              "colors": [
+                "#155D5D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_48a6c872bb305894965b0fd008b31736~2508x0.webp"
+            },
+            {
+              "name": "檀韵棕",
+              "colors": [
+                "#CFCBBE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_28348c1ef6201092da30135ce2864706~2508x0.webp"
+            },
+            {
+              "name": "青罗碧",
+              "colors": [
+                "#DFDED9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ca9539a4854eb147000bb125c40344a0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_880079f13ca3dac343d47f8ac321565a~2508x0.webp"
         }
       ]
     },
     {
+      "carId": 5297,
       "carName": "芭蕾猫",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05101932baef19922e5a47420c9628a1~1200x0.png",
       "configs": [
         {
-          "configName": "欧拉芭蕾猫 2023款 401km 豪华版",
+          "configName": "2023款 401km 豪华版",
+          "configId": "88725",
+          "index": 0,
           "price": "14.98万",
-          "fuelType": "纯电动",
-          "size": "4401x1867x1633",
           "manufacturer": "长城汽车",
           "class": "紧凑型车",
-          "power": "纯电动 171马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 171马力",
+          "size": "4401x1867x1633",
+          "exteriorImages": [
+            {
+              "name": "朝暮青白",
+              "colors": [
+                "#8EA0B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a26f1efcf3996c7310797afab653ce5~2508x0.webp"
+            },
+            {
+              "name": "水墨灰",
+              "colors": [
+                "#E3E3E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/316182e5856d6bbac7accbfe8300d532~2508x0.webp"
+            },
+            {
+              "name": "金风玉露",
+              "colors": [
+                "#F4ECBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/104b776085d1e326e3fa9ae767a33e5b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/米色",
+              "colors": [
+                "#4E4517",
+                "#D9D9BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/525cc2b62fa122f43b09cff3219c8c84~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#DDC9CA",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31c5643e7e3076ba6bd37b03d0aa1dee~2508x0.webp"
+            },
+            {
+              "name": "奶白/咖色",
+              "colors": [
+                "#F7F7F7",
+                "#BBB9B0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ad15ef16e4db05071bd1979407f46dfa~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9a26f1efcf3996c7310797afab653ce5~2508x0.webp"
         },
         {
-          "configName": "欧拉芭蕾猫 2023款 401km 尊贵版",
+          "configName": "2023款 401km 尊贵版",
+          "configId": "88726",
+          "index": 1,
           "price": "15.98万",
-          "fuelType": "纯电动",
-          "size": "4401x1867x1633",
           "manufacturer": "长城汽车",
           "class": "紧凑型车",
-          "power": "纯电动 171马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 171马力",
+          "size": "4401x1867x1633",
+          "exteriorImages": [
+            {
+              "name": "朝暮青白",
+              "colors": [
+                "#8EA0B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3b8ecf9083a93606c93e0f633642ad0e~2508x0.webp"
+            },
+            {
+              "name": "天青",
+              "colors": [
+                "#9AACC1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e90ae99b36e68a7ef7e7298dd7d07f5~2508x0.webp"
+            },
+            {
+              "name": "米釉",
+              "colors": [
+                "#B7AAA0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1046dd599c527e70b7219cadd279c3b7~2508x0.webp"
+            },
+            {
+              "name": "水墨灰",
+              "colors": [
+                "#E3E3E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eeeb23998b3bc82230bcc8da73cbfa77~2508x0.webp"
+            },
+            {
+              "name": "金风玉露",
+              "colors": [
+                "#F4ECBF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2869ffbc4c280fb89ff8b8e340716ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/青色",
+              "colors": [
+                "#0000FF",
+                "#A9B9CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/662630d6cdbf71c48e913535c0f145b8~2508x0.webp"
+            },
+            {
+              "name": "棕色/米色",
+              "colors": [
+                "#4E4517",
+                "#D9D9BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eab7d7e8f633f1bbd03389a0227fe616~2508x0.webp"
+            },
+            {
+              "name": "粉色/白色",
+              "colors": [
+                "#DDC9CA",
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8c90badf0db716e9bc59330a802fa13~2508x0.webp"
+            },
+            {
+              "name": "奶白/咖色",
+              "colors": [
+                "#F7F7F7",
+                "#BBB9B0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9313d7357a6683f7cea38fa3126fe61b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3b8ecf9083a93606c93e0f633642ad0e~2508x0.webp"
         },
         {
-          "configName": "欧拉芭蕾猫 2023款 500km 尊贵版",
+          "configName": "2023款 500km 尊贵版",
+          "configId": "88727",
+          "index": 2,
           "price": "17.98万",
+          "manufacturer": "长城汽车",
+          "class": "紧凑型车",
           "fuelType": "纯电动",
+          "power": "纯电动 171马力",
           "size": "4401x1867x1633",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 171马力"
+          "exteriorImages": [
+            {
+              "name": "朝暮青白",
+              "colors": [
+                "#8EA0B4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ecfbac69b0c29c535860250a1df2fbf3~2508x0.webp"
+            },
+            {
+              "name": "水墨灰",
+              "colors": [
+                "#E3E3E3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de79624da265c628d3f25b6235456bdc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "奶白/咖色",
+              "colors": [
+                "#F7F7F7",
+                "#BBB9B0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b2c109994dc0c8d4da0dc7ec555ecab2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ecfbac69b0c29c535860250a1df2fbf3~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "iQ",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21b07971df39d71d806508c49f0ed1fa~1200x0.png",
-      "configs": [
-        {
-          "configName": "欧拉iQ 2021款 尊享型",
-          "price": "12.73万",
-          "fuelType": "纯电动",
-          "size": "4460x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2021款 尊贵型",
-          "price": "13.23万",
-          "fuelType": "纯电动",
-          "size": "4460x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2021款 无忧版",
-          "price": "14.53万",
-          "fuelType": "纯电动",
-          "size": "4460x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2021款 智行版",
-          "price": "15.03万",
-          "fuelType": "纯电动",
-          "size": "4460x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2019款 出行版",
-          "price": "12万",
-          "fuelType": "纯电动",
-          "size": "4460x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2019款 智尊型",
-          "price": "12.48万",
-          "fuelType": "纯电动",
-          "size": "4460x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2018款 高续航版 进取型",
-          "price": "19.45万",
-          "fuelType": "纯电动",
-          "size": "4445x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2018款 高续航版 智联型",
-          "price": "11.48万",
-          "fuelType": "纯电动",
-          "size": "4445x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2018款 高续航版 智享型",
-          "price": "11.98万",
-          "fuelType": "纯电动",
-          "size": "4445x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2018款 进取型",
-          "price": "18.88万",
-          "fuelType": "纯电动",
-          "size": "4445x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2018款 智联型",
-          "price": "19.58万",
-          "fuelType": "纯电动",
-          "size": "4445x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        },
-        {
-          "configName": "欧拉iQ 2018款 智享型",
-          "price": "20.48万",
-          "fuelType": "纯电动",
-          "size": "4445x1735x1567",
-          "manufacturer": "长城汽车",
-          "class": "紧凑型车",
-          "power": "纯电动 163马力"
-        }
-      ]
-    },
-    {
+      "carId": 5053,
       "carName": "闪电猫",
-      "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/794e6b2ee6283734570a47a17b9d078b~1200x0.png",
       "configs": [
         {
-          "configName": "欧拉闪电猫 2022款 555km 豪华版",
+          "configName": "2022款 555km 豪华版",
+          "configId": "79503",
+          "index": 0,
           "price": "18.98万",
-          "fuelType": "纯电动",
-          "size": "4871x1862x1500",
           "manufacturer": "长城汽车",
           "class": "中型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4871x1862x1500",
+          "exteriorImages": [
+            {
+              "name": "烟紫晶",
+              "colors": [
+                "#A29EAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5e5a74ed0bc1a101148e256d2a151c0~2508x0.webp"
+            },
+            {
+              "name": "碧玺灰",
+              "colors": [
+                "#AEAEAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f9f901720a799d1a2b3928d5a276e8d1~2508x0.webp"
+            },
+            {
+              "name": "白璞玉",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/69cb0b648f959c881eec252cedab0584~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A88B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5a288aa87565570d467f1d45475671a~2508x0.webp"
+            },
+            {
+              "name": "蓝色/灰色",
+              "colors": [
+                "#AACCEF",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f82a00f800ff266c04e338973a43c1b3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/f5e5a74ed0bc1a101148e256d2a151c0~2508x0.webp"
         },
         {
-          "configName": "欧拉闪电猫 2022款 555km 尊贵版",
+          "configName": "2022款 555km 尊贵版",
+          "configId": "72755",
+          "index": 1,
           "price": "20.38万",
-          "fuelType": "纯电动",
-          "size": "4871x1862x1500",
           "manufacturer": "长城汽车",
           "class": "中型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4871x1862x1500",
+          "exteriorImages": [
+            {
+              "name": "哑光暗夜黑",
+              "colors": [
+                "#230000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da230b4d1afc2bd25e3f8d9cc45b8fde~2508x0.webp"
+            },
+            {
+              "name": "烟紫晶",
+              "colors": [
+                "#A29EAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eae554565b8b2be3ad7a77030a05ea64~2508x0.webp"
+            },
+            {
+              "name": "冰钻粉",
+              "colors": [
+                "#AB8185"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/a5ffb89dceca8e79d32cb20fa80440a7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "碧玺灰",
+              "colors": [
+                "#AEAEAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c4337c4822d3e4273d194fbef58a1f5~2508x0.webp"
+            },
+            {
+              "name": "白璞玉",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea284a20d80c075ed0c4c22b67f76b68~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f1fd1df1c3afaa7015e54122f3c1bbc~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#A88B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/553116c6c8c74381c6b7641ab62a1a4d~2508x0.webp"
+            },
+            {
+              "name": "蓝色/灰色",
+              "colors": [
+                "#AACCEF",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5b122beb347581741719e93be4df209a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/da230b4d1afc2bd25e3f8d9cc45b8fde~2508x0.webp"
         },
         {
-          "configName": "欧拉闪电猫 2022款 705km 长续航版",
+          "configName": "2022款 705km 长续航版",
+          "configId": "78690",
+          "index": 2,
           "price": "23.98万",
-          "fuelType": "纯电动",
-          "size": "4871x1862x1500",
           "manufacturer": "长城汽车",
           "class": "中型车",
-          "power": "纯电动 204马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 204马力",
+          "size": "4871x1862x1500",
+          "exteriorImages": [
+            {
+              "name": "哑光暗夜黑",
+              "colors": [
+                "#230000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e919a79782733a473248ca970b797058~2508x0.webp"
+            },
+            {
+              "name": "冰钻粉",
+              "colors": [
+                "#AB8185"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/红色",
+              "colors": [
+                "#000000",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5291adee57ab09d9f88f5f6f4ed57ec3~2508x0.webp"
+            },
+            {
+              "name": "棕色",
+              "colors": [
+                "#A88B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da57600851aa8e4a17890ee22e70f94a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e919a79782733a473248ca970b797058~2508x0.webp"
         },
         {
-          "configName": "欧拉闪电猫 2022款 600km 四驱高性能版",
+          "configName": "2022款 600km 四驱高性能版",
+          "configId": "72756",
+          "index": 3,
           "price": "26.98万",
-          "fuelType": "纯电动",
-          "size": "4871x1862x1500",
           "manufacturer": "长城汽车",
           "class": "中型车",
-          "power": "纯电动 408马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 408马力",
+          "size": "4871x1862x1500",
+          "exteriorImages": [
+            {
+              "name": "烟紫晶",
+              "colors": [
+                "#A29EAF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/480c37bbf6eef45e67100a206f912f8e~2508x0.webp"
+            },
+            {
+              "name": "碧玺灰",
+              "colors": [
+                "#AEAEAE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7c45265f160edf2177d14a23670576d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#A88B75"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0bcbf1d5eb09aec30153ea79d96dc742~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/480c37bbf6eef45e67100a206f912f8e~2508x0.webp"
         }
       ]
     }

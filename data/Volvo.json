@@ -3,606 +3,2487 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/c06fae433bcc4a55d7ef3b519704781c~tplv-resize:100:100.image",
   "cars": [
     {
-      "carName": "XC60",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4cbb08d79f4a40bfb88608be67224ac8~1200x0.png",
-      "configs": [
-        {
-          "configName": "沃尔沃XC60 2026款 B5 四驱智逸豪华版",
-          "price": "39.69万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2026款 B5 四驱智远豪华版",
-          "price": "42.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2026款 B5 四驱智远运动版",
-          "price": "42.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2026款 B5 四驱智远极夜黑版",
-          "price": "42.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1915x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2026款 B5 四驱智雅豪华版",
-          "price": "47.49万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2025款 B5 四驱智逸豪华版",
-          "price": "39.69万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2025款 B5 四驱智远豪华版",
-          "price": "42.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2025款 B5 四驱智远运动版",
-          "price": "42.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        },
-        {
-          "configName": "沃尔沃XC60 2025款 B5 四驱智远极夜黑版",
-          "price": "42.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4708x1902x1660",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": ""
-        }
-      ]
-    },
-    {
       "carName": "S60",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5cb034c6364d4a8e889f2a508b4bc055~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃S60 2026款 B4 智逸豪华版",
+          "configName": "2026款 B4 智逸豪华版",
+          "configId": "249699",
+          "index": 0,
           "price": "30.69万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7eaccebb2dc49f9e5438e37b03cd97c~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ea691c782620e6e413572f11581afe9a~2508x0.webp"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b0c9377b347e24b5fac3995c3a6eafee~2508x0.webp"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_72776739c71f59f220a56826c19044ef~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_43bb917abed3d0a6b234b02e9e385594~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_d13357bb25a4c9bbbcc49e01e7f95ddf~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#846254"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9188d2b6fef83247cdf7cc669feee6ee~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c7eaccebb2dc49f9e5438e37b03cd97c~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S60 2026款 B4 智远豪华版",
+          "configName": "2026款 B4 智远豪华版",
+          "configId": "250232",
+          "index": 1,
           "price": "33.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_32f1322512399d3bba611b672b605b0b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_daa33c2e58a4c03ebb1b5995c65eb72d~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_61cbb0b322862cc4594ab5b626378c92~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_758d2a434a7dc8d481d336d9817b6495~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#846254"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_25879a40810ac1d0ffd84cbe1d93abe3~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_32f1322512399d3bba611b672b605b0b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃S60 2026款 B4 智远运动版",
+          "configName": "2026款 B4 智远运动版",
+          "configId": "249410",
+          "index": 2,
           "price": "33.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_056a68b61d4676839adbcfa049a1e35f~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2d3af8870face6b85e8374c8e1332997~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_13e871f07e3f0f37b9c84e7ce6cfab61~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "灰色",
+              "colors": [
+                "#BAB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c84f0acb152865293fddd1a7ebef60fd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_056a68b61d4676839adbcfa049a1e35f~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S60 2026款 B5 智雅运动版",
+          "configName": "2026款 B5 智雅运动版",
+          "configId": "250234",
+          "index": 3,
           "price": "38.49万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2409a21f0b9042c0e60b5c53c24064d5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#BAB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_48090bffedfda5a2cbc5db3e3677fb65~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2409a21f0b9042c0e60b5c53c24064d5~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S60 2025款 B4 智逸豪华版",
+          "configName": "2025款 B4 智逸豪华版",
+          "configId": "110369",
+          "index": 4,
           "price": "30.69万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/b8c5ce1f9c2710d6707fa31c2fb90961~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/333ec7c06864f9f6b87630ba27099ab1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/294e3d7b1bf5a0e705754aaa3f69569a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/893c6b12c193d292c35495bf61731467~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83187b29575dffce9e908991b6c6b786~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/97b1f564eb6422ee7f70acb3c4ac5c81~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#846254"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a986118820e58db948b9cfa86957ec52~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/b8c5ce1f9c2710d6707fa31c2fb90961~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃S60 2025款 B4 智远豪华版",
+          "configName": "2025款 B4 智远豪华版",
+          "configId": "110370",
+          "index": 5,
           "price": "33.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d117f6d03aba8c52e1b6b5e43509973f~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c39022afbd8339503e38e19c804b637f~2508x0.webp"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/03201a5d1a55d1bb123a63c38c4c8aa6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba9de54e7a98116aa372372f1b41e670~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0e4f9d5b3a499eaaa8e1750f6d12d00~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#846254"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3994df688d6f8ec615f2cb1423542fd8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d117f6d03aba8c52e1b6b5e43509973f~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S60 2025款 B4 智远运动版",
+          "configName": "2025款 B4 智远运动版",
+          "configId": "110371",
+          "index": 6,
           "price": "33.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8e7e23d0be18fe8e7ec3c3e769fc1fba~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#BAB8B8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f95626120b5a415a0e7d6192cbaa074~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8e7e23d0be18fe8e7ec3c3e769fc1fba~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S60 2025款 B5 智雅运动版",
+          "configName": "2025款 B5 智雅运动版",
+          "configId": "110372",
+          "index": 7,
           "price": "38.49万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃亚太",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7d9eaa41c8f098cbe3cf0898ff50a6e0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "灰色",
+              "colors": [
+                "#BAB8B8"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/742c433ae0d8a79a673fa4bc41f09429~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7d9eaa41c8f098cbe3cf0898ff50a6e0~2508x0.webp"
         }
       ]
     },
     {
       "carName": "V60",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/0b11343f49be4b14b5c2614a9ec862b5~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃V60 2025款 B4 智逸豪华版",
+          "configName": "2025款 B4 智逸豪华版",
+          "configId": "242697",
+          "index": 0,
           "price": "33.99万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃(进口)",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4",
+          "size": "4778x1850x1437",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃V60 2025款 B5 智远豪华版",
+          "configName": "2025款 B5 智远豪华版",
+          "configId": "242698",
+          "index": 1,
           "price": "39.19万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃(进口)",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffd8cb030793688b288f116bc1d007b3~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9687925d8f4b97e92fcd56aedd22e3db~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#683219"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/455849c2a684cb41d4efe189454957f1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ffd8cb030793688b288f116bc1d007b3~2508x0.webp"
         },
         {
-          "configName": "沃尔沃V60 2025款 B5 智远运动版",
+          "configName": "2025款 B5 智远运动版",
+          "configId": "242699",
+          "index": 2,
           "price": "39.19万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃(进口)",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4",
+          "size": "4778x1850x1437",
+          "exteriorImages": [
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30b6fc9836301fab15f502299e0e4588~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/3e1e0c0f6a62b41bafe81d7a551e1942~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/30b6fc9836301fab15f502299e0e4588~2508x0.webp"
         },
         {
-          "configName": "沃尔沃V60 2025款 B5 智雅运动版",
+          "configName": "2025款 B5 智雅运动版",
+          "configId": "242700",
+          "index": 3,
           "price": "43.99万",
-          "fuelType": "48V轻混系统",
-          "size": "4778x1850x1437",
           "manufacturer": "沃尔沃(进口)",
           "class": "中型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4",
+          "size": "4778x1850x1437",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
     {
       "carName": "S90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/a31c2998aa594dd8aefde323cc3c2b7c~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃S90 2026款 B5 智逸豪华版",
+          "configName": "2026款 B5 智逸豪华版",
+          "configId": "248830",
+          "index": 0,
           "price": "40.69万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_62d14e3d5a54eddebd2fc7ed2f36b3d6~2508x0.webp"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_78a51feb60e203e508ea22d89d994d28~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#6B4129"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7178611c3b7634ade729cecacfcfa0e4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_62d14e3d5a54eddebd2fc7ed2f36b3d6~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S90 2026款 B5 智远豪华版",
+          "configName": "2026款 B5 智远豪华版",
+          "configId": "248831",
+          "index": 1,
           "price": "45.09万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c52d7e83b871be9fbdf49830540eeb7~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_44957d7dc56dcc614874dff0dd5ecfe2~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4f06594c3cfce5b02d166dc7d500e6c0~2508x0.webp"
+            },
+            {
+              "name": "蝶贝灰",
+              "colors": [
+                "#5F626B"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_407c769b353094674040222298f26e05~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#6B4129"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b88d7ec656043ee733cf65cedd534b39~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c52d7e83b871be9fbdf49830540eeb7~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S90 2026款 B5 智远运动版",
+          "configName": "2026款 B5 智远运动版",
+          "configId": "248833",
+          "index": 2,
           "price": "45.09万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃S90 2026款 B5 智雅豪华版",
+          "configName": "2026款 B5 智雅豪华版",
+          "configId": "248100",
+          "index": 3,
           "price": "50.59万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f786942df0cff0a1cfd244f46cc93de8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#D2D0C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b4a8cbec160d4f4905de2e7fab4e18cc~2508x0.webp"
+            },
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#E1D8A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_adb5c6a0cdd591292eec99608a01fb97~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f786942df0cff0a1cfd244f46cc93de8~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S90 2025款 B5 智逸豪华版",
+          "configName": "2025款 B5 智逸豪华版",
+          "configId": "110386",
+          "index": 4,
           "price": "40.69万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/90194611a3392be968d9d8423e69c919~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab58102a76ca65799ca3261c48d77965~2508x0.webp"
+            },
+            {
+              "name": "蝶贝灰",
+              "colors": [
+                "#5F626B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98f422a2a012f76e881351e6083b63d6~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/e73c4b2c80f6f54230b8142c5754c0dc~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#6B4129"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cac64dabf1dec856149126666aa0122c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/90194611a3392be968d9d8423e69c919~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S90 2025款 B5 智远豪华版",
+          "configName": "2025款 B5 智远豪华版",
+          "configId": "110387",
+          "index": 5,
           "price": "45.09万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0480925bf3e634f974ef5793584c8c34~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c86ca85ab2c64fbbd29ec2335c2b10e8~2508x0.webp"
+            },
+            {
+              "name": "蝶贝灰",
+              "colors": [
+                "#5F626B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be7cf6d8ec722d2e13047853a04d28f8~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0dfe6a1ad9f9a75016d732b9677b5fe8~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e9b31985914e65d3706bb39de020aa9~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd0af4546cc7375a85bba776c22aa608~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#6B4129"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70e9afacdc97304fcb203f2752f356d0~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0480925bf3e634f974ef5793584c8c34~2508x0.webp"
         },
         {
-          "configName": "沃尔沃S90 2025款 B5 智雅豪华版",
+          "configName": "2025款 B5 智雅豪华版",
+          "configId": "110388",
+          "index": 6,
           "price": "50.59万",
-          "fuelType": "48V轻混系统",
-          "size": "5090x1879x1444",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "5090x1879x1444",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2ee642925262b061e931b5926ebb934~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9819a0b415bc9886a6f9b128e2746eb1~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "枫岚棕",
+              "colors": [
+                "#6B4129"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/831a994e9929c28586f31cd7e87a49e4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a2ee642925262b061e931b5926ebb934~2508x0.webp"
         }
       ]
     },
     {
       "carName": "S90 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/402761a184864b8089b585be8e0e1f33~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃S90 PHEV 2026款 T8 四驱长续航智逸豪华版",
+          "configName": "2026款 T8 四驱长续航智逸豪华版",
+          "configId": "248837",
+          "index": 0,
           "price": "49.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5090x1879x1453",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "5090x1879x1453",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃S90 PHEV 2026款 T8 四驱长续航智远豪华版",
+          "configName": "2026款 T8 四驱长续航智远豪华版",
+          "configId": "248838",
+          "index": 1,
           "price": "53.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5090x1879x1453",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "5090x1879x1453",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_352cd11eae852cbafb5f85ca10040390~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_acc11c0401b7932c48a80233adb88810~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "枫岚棕",
+              "colors": [
+                "#6B4126"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67f102c15925a147d7506ff8853023eb~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_352cd11eae852cbafb5f85ca10040390~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃S90 PHEV 2026款 T8 四驱长续航智雅豪华版",
+          "configName": "2026款 T8 四驱长续航智雅豪华版",
+          "configId": "248082",
+          "index": 2,
           "price": "61.39万",
-          "fuelType": "插电式混合动力",
-          "size": "5090x1879x1453",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型车",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "5090x1879x1453",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_2c4806ecf5bf8e37225224b6185b0421~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c4e52a8f880a87a22f32b7a2fb01741~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1475a4b62f5588d5b3f456b68877c880~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_734c3109356f04ba102ef31b8cb277b0~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#D2D0C4"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bcffe9aeffea110e12dad85642905d92~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#E1D8A8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_535a4b7827d9b45693a9d343fec6235d~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_2c4806ecf5bf8e37225224b6185b0421~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
       "carName": "V90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5d22b2573c29432697008dc5188f976a~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃V90 2025款 Cross Country B5 AWD 智远版",
+          "configName": "2025款 Cross Country B5 AWD 智远版",
+          "configId": "242713",
+          "index": 0,
           "price": "44.79万",
-          "fuelType": "48V轻混系统",
-          "size": "4959x1903x1543",
           "manufacturer": "沃尔沃(进口)",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4",
+          "size": "4959x1903x1543",
+          "exteriorImages": [
+            {
+              "name": "蝶贝灰",
+              "colors": [
+                "#5F626B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98ab5ffd5a6b289b8591bfb8f8bb65ab~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62acaedb78dc064e0f011d468b6a6e7c~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c9816cff8077521e8481f19fe513293~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#573E2B"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a1c6605f0796028609f8d9e739306195~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/98ab5ffd5a6b289b8591bfb8f8bb65ab~2508x0.webp"
         },
         {
-          "configName": "沃尔沃V90 2025款 Cross Country B5 AWD 智尊版",
+          "configName": "2025款 Cross Country B5 AWD 智尊版",
+          "configId": "242714",
+          "index": 1,
           "price": "55.69万",
-          "fuelType": "48V轻混系统",
-          "size": "4959x1903x1543",
           "manufacturer": "沃尔沃(进口)",
           "class": "中大型车",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4",
+          "size": "4959x1903x1543",
+          "exteriorImages": [
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4a9b430a5758fe78e5abae4a971f8bd4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色",
+              "colors": [
+                "#573E2B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e17d56e3439eafd291e0f872cb604e7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4a9b430a5758fe78e5abae4a971f8bd4~2508x0.webp"
         }
       ]
     },
     {
       "carName": "EX30",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3451e34b59444f58a5828e77d91fb9aa~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃EX30 2026款 Cross Country双电机四驱高性能版Ultra",
+          "configName": "2026款 Cross Country双电机四驱高性能版Ultra",
+          "configId": "246384",
+          "index": 0,
           "price": "26.38万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "小型SUV",
           "fuelType": "纯电动",
+          "power": "纯电动 428马力",
           "size": "4233x1850x1573",
-          "manufacturer": "沃尔沃亚太",
-          "class": "小型SUV",
-          "power": "纯电动 428马力"
+          "exteriorImages": [
+            {
+              "name": "薄雾灰/黑色",
+              "colors": [
+                "#8F9095",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_69e6918aa91d77e9f98102ecd757c2a3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "松绿",
+              "colors": [
+                "#86A787"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9533e0e7bdd96f276f421309b6968f29~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_69e6918aa91d77e9f98102ecd757c2a3~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃EX30 2025款 后驱Core",
+          "configName": "2025款 后驱Core",
+          "configId": "98998",
+          "index": 1,
           "price": "20.08万",
-          "fuelType": "纯电动",
-          "size": "4233x1838x1555",
           "manufacturer": "沃尔沃亚太",
           "class": "小型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4233x1838x1555",
+          "exteriorImages": [
+            {
+              "name": "海云蓝",
+              "colors": [
+                "#97A5B0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8f4a951bf998ac9fefc237368d546f9a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "槐蓝",
+              "colors": [
+                "#738FB5"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/35a865fbaaf0788a9b33a84f54f2447f~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8f4a951bf998ac9fefc237368d546f9a~2508x0.webp"
         },
         {
-          "configName": "沃尔沃EX30 2025款 后驱长续航版Plus",
+          "configName": "2025款 后驱长续航版Plus",
+          "configId": "101570",
+          "index": 2,
           "price": "21.98万",
-          "fuelType": "纯电动",
-          "size": "4233x1838x1555",
           "manufacturer": "沃尔沃亚太",
           "class": "小型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4233x1838x1555",
+          "exteriorImages": [
+            {
+              "name": "薄雾灰/黑色",
+              "colors": [
+                "#8F9095",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/47a6e0c8c04d3a916e61a6fda6f510c1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "海云蓝/黑色",
+              "colors": [
+                "#97A5B0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d713df5ba795982ce908a981702e0fa~2508x0.webp"
+            },
+            {
+              "name": "萤岩黄/黑色",
+              "colors": [
+                "#D3D383",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c3d44902354f3d932151c214b4fd27a~2508x0.webp"
+            },
+            {
+              "name": "水晶白/黑色",
+              "colors": [
+                "#F4F7F8",
+                "#151515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/19a5196bb8f64edd481e229677a6ff44~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "槐蓝",
+              "colors": [
+                "#738FB5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a32eb4eb6d502617977dee291dc0efef~2508x0.webp"
+            },
+            {
+              "name": "松绿",
+              "colors": [
+                "#86A787"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/03f2123ad4740429a7bd9bdb24bc7059~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/47a6e0c8c04d3a916e61a6fda6f510c1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃EX30 2025款 后驱长续航版Ultra",
+          "configName": "2025款 后驱长续航版Ultra",
+          "configId": "101571",
+          "index": 3,
           "price": "23.28万",
-          "fuelType": "纯电动",
-          "size": "4233x1838x1555",
           "manufacturer": "沃尔沃亚太",
           "class": "小型SUV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "4233x1838x1555",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f49d768f20dea8cb773e0e946c8b189~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰/黑色",
+              "colors": [
+                "#8F9095",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/0e7eddee580209962e84475ef9715368~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "海云蓝/黑色",
+              "colors": [
+                "#97A5B0",
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/c8255e8cb8a11b91f24ad6ce9b8ba262~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "萤岩黄/黑色",
+              "colors": [
+                "#D3D383",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2edb052fb680e50105616773bd2676a~2508x0.webp"
+            },
+            {
+              "name": "水晶白/黑色",
+              "colors": [
+                "#F4F7F8",
+                "#151515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/139a1ea62a32cf23aed76675882ad2ff~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "槐蓝",
+              "colors": [
+                "#738FB5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f4e53b378484632efea7a7a2f75c8a6~2508x0.webp"
+            },
+            {
+              "name": "松绿",
+              "colors": [
+                "#86A787"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd4b5a00ed28c969d0985939b4aee63d~2508x0.webp"
+            },
+            {
+              "name": "雾蓝",
+              "colors": [
+                "#BCCACD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb65dc3fe622f1ead523049888a0025c~2508x0.webp"
+            },
+            {
+              "name": "锌灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a985be426aeb1b586ebef1c3f4820b2~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7f49d768f20dea8cb773e0e946c8b189~2508x0.webp"
         },
         {
-          "configName": "沃尔沃EX30 2025款 双电机四驱高性能版Ultra",
+          "configName": "2025款 双电机四驱高性能版Ultra",
+          "configId": "100711",
+          "index": 4,
           "price": "25.58万",
-          "fuelType": "纯电动",
-          "size": "4233x1838x1555",
           "manufacturer": "沃尔沃亚太",
           "class": "小型SUV",
-          "power": "纯电动 428马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 428马力",
+          "size": "4233x1838x1555",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62d0eacf692f3118ff1cdc5f3781ea6e~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰/黑色",
+              "colors": [
+                "#8F9095",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46474a8c8be1747a3f7ebeadfd5329be~2508x0.webp"
+            },
+            {
+              "name": "海云蓝/黑色",
+              "colors": [
+                "#97A5B0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d11395c53e5ab6c89a2208f6bc356b04~2508x0.webp"
+            },
+            {
+              "name": "萤岩黄/黑色",
+              "colors": [
+                "#D3D383",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/728c1dca1fe9df40d31201c7069f726d~2508x0.webp"
+            },
+            {
+              "name": "水晶白/黑色",
+              "colors": [
+                "#F4F7F8",
+                "#151515"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8a933252c176c95cdfd7a8428b57b57a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "槐蓝",
+              "colors": [
+                "#738FB5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3f7fe0ecce054c618a1913eaf1fbf577~2508x0.webp"
+            },
+            {
+              "name": "雾蓝",
+              "colors": [
+                "#BCCACD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba4f92eb73ed543bec7496879ecd2e3a~2508x0.webp"
+            },
+            {
+              "name": "锌灰",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d2403531128343ac70a145e032965d3~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/62d0eacf692f3118ff1cdc5f3781ea6e~2508x0.webp"
         }
       ]
     },
     {
-      "carName": "XC70",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c25013fc85394fa78b54ab9298eb6c55~1200x0.png",
-      "configs": []
-    },
-    {
       "carName": "XC40",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/6fb713c22a384582ad46bc704957d283~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃XC40 2026款 B3 智行时尚版",
+          "configName": "2026款 B3 智行时尚版",
+          "configId": "249118",
+          "index": 0,
           "price": "26.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 163马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃XC40 2026款 B3 智远豪华版",
+          "configName": "2026款 B3 智远豪华版",
+          "configId": "249119",
+          "index": 1,
           "price": "28.68万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 163马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b9ec312108fca04484ce9d072336dba~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2610de3b2eb0ed03219b3c1c1895ca8a~2508x0.webp"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6c814e546f07c852eb28d418a2b24cb1~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a008a6c43f5b5592524b9c73ca168596~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5ff874b66fce200527a8e14a7f850ce7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b9ec312108fca04484ce9d072336dba~2508x0.webp"
         },
         {
-          "configName": "沃尔沃XC40 2026款 B4 四驱智远豪华版",
+          "configName": "2026款 B4 四驱智远豪华版",
+          "configId": "249121",
+          "index": 2,
           "price": "31.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fcf5deae3c0d557db1735c7f114e3ef~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b167f9eb6fb610d2e3381aa69304408e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fcf5deae3c0d557db1735c7f114e3ef~2508x0.webp"
         },
         {
-          "configName": "沃尔沃XC40 2026款 B4 四驱智远极夜黑版",
+          "configName": "2026款 B4 四驱智远极夜黑版",
+          "configId": "249122",
+          "index": 3,
           "price": "32.08万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃XC40 2026款 B4 四驱智雅运动版",
+          "configName": "2026款 B4 四驱智雅运动版",
+          "configId": "249123",
+          "index": 4,
           "price": "35.48万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃XC40 2025款 B3 智行时尚版",
+          "configName": "2025款 B3 智行时尚版",
+          "configId": "240785",
+          "index": 5,
           "price": "26.98万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 163马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "沃尔沃XC40 2025款 B3 智远豪华版",
+          "configName": "2025款 B3 智远豪华版",
+          "configId": "240786",
+          "index": 6,
           "price": "28.68万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 163马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [
+            {
+              "name": "峡湾蓝",
+              "colors": [
+                "#305C85"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64d8f84ee0b4ed519c1a143dceea2566~2508x0.webp"
+            },
+            {
+              "name": "瀚漠沙",
+              "colors": [
+                "#BFB6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/91dcfc6620ef01f1c2035349d59daa36~2508x0.webp"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07eadd232cf43571196221576c3d49f7~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8474e1648203ad92208b19846de49d9a~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8544430c86ef38f205b9c7727bd891d9~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/64d8f84ee0b4ed519c1a143dceea2566~2508x0.webp"
         },
         {
-          "configName": "沃尔沃XC40 2025款 B3 智远运动版",
+          "configName": "2025款 B3 智远运动版",
+          "configId": "240788",
+          "index": 7,
           "price": "28.68万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 163马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [
+            {
+              "name": "沙漠绿",
+              "colors": [
+                "#A2BCA2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2ee9acde2caa1e7ac2d3e833b6f1d53d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2eaa0d614e0a19cd199dc5317214880~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/2ee9acde2caa1e7ac2d3e833b6f1d53d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃XC40 2025款 B4 四驱智远豪华版",
+          "configName": "2025款 B4 四驱智远豪华版",
+          "configId": "240789",
+          "index": 8,
           "price": "31.88万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [
+            {
+              "name": "沙漠绿",
+              "colors": [
+                "#A2BCA2"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/3302748300743a3d46cadec2d052382d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "瀚漠沙",
+              "colors": [
+                "#BFB6AF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a06639a01d4a0fa0ee3075fcc20613a2~2508x0.webp"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/897990a58511b5f63c726a2ebfeb9225~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3d5d457572d5de309f011c7a3c247fc~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36548f32046c1211c9e4a153e72abc67~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/3302748300743a3d46cadec2d052382d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃XC40 2025款 B4 四驱智远极夜黑版",
+          "configName": "2025款 B4 四驱智远极夜黑版",
+          "configId": "110073",
+          "index": 9,
           "price": "32.08万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd08ad2a7cb3d3bf19fd2242d82a82e4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/898182e3459bcbf3da91d9136766564c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/bd08ad2a7cb3d3bf19fd2242d82a82e4~2508x0.webp"
         },
         {
-          "configName": "沃尔沃XC40 2025款 B4 四驱智雅运动版",
+          "configName": "2025款 B4 四驱智雅运动版",
+          "configId": "240790",
+          "index": 10,
           "price": "35.48万",
-          "fuelType": "48V轻混系统",
-          "size": "4440x1863x1657",
           "manufacturer": "沃尔沃亚太",
           "class": "紧凑型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 197马力 L4 48V轻混",
+          "size": "4440x1863x1657",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        }
+      ]
+    },
+    {
+      "carName": "XC60",
+      "configs": [
+        {
+          "configName": "2026款 B5 四驱智逸豪华版",
+          "configId": "248933",
+          "index": 0,
+          "price": "39.69万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5288b285c9828e8891586cf13c01ee1~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4fc81d175ed456bb0e86066f88586b64~2508x0.webp"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e8881f12236394f7d87823c7b184018~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6db2c929290e2892bb5f5bca7562e446~2508x0.webp"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_179a4bbbf884a8accf048c8407bd717f~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f3bf37a0981994961a9c0be9b472d041~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_51f9c4172982230a1d3c2fbb34a87510~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#D0CCCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f0d3703c2f5e3ca3916899ca85b4fe4c~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a5288b285c9828e8891586cf13c01ee1~2508x0.webp"
+        },
+        {
+          "configName": "2026款 B5 四驱智远豪华版",
+          "configId": "248804",
+          "index": 1,
+          "price": "42.59万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_1adcdda2697207ecc5e8b26baf22760a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_415b298953c7a95614e954275d22e95f~2508x0.webp"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_f6b35ab01c163b92779c025feb72a30e~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_59487641ce15afe30857bee667f62830~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_548ab5cfb1e2b6e770137d266bccc063~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_46a418cfd7e5dd78fe8042eece2363a8~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63eb45cbd58288cdc91bd15e0dcdcd13~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#D0CCCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2e3c7b5ad207751ad157a975fa63a41a~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_1adcdda2697207ecc5e8b26baf22760a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2026款 B5 四驱智远运动版",
+          "configId": "248807",
+          "index": 2,
+          "price": "42.59万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5814cd4fdec8046232e9b28697b0bc5~2508x0.webp"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8aafacab4f80720bb956495739653bdc~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ff4c1652bec05759e8ca24f4255433c4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#161616"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_572f678098c69d295ef08f807393a1e2~2508x0.webp"
+            },
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#D0CCCB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_41b9a4c54ddd865c3023ebcfdea99fa8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c5814cd4fdec8046232e9b28697b0bc5~2508x0.webp"
+        },
+        {
+          "configName": "2026款 B5 四驱智远极夜黑版",
+          "configId": "249031",
+          "index": 3,
+          "price": "42.59万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1915x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_0bc3995e0cda1df6287edb7b6f680274~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_e71c5da361a25a95291463e61d9ef05a~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_0bc3995e0cda1df6287edb7b6f680274~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+        },
+        {
+          "configName": "2026款 B5 四驱智雅豪华版",
+          "configId": "249032",
+          "index": 4,
+          "price": "47.49万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_352e17316fa646716c59e39f642b36ed~2508x0.webp"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/414fa4a3a95846549047cdd2d3f7add3.jpg~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#D2D0C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_794f47c4508e9fbe3ea31904932c8934~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_352e17316fa646716c59e39f642b36ed~2508x0.webp"
+        },
+        {
+          "configName": "2025款 B5 四驱智逸豪华版",
+          "configId": "110373",
+          "index": 5,
+          "price": "39.69万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/30856cad1093bf6fa5f0c5c724bb4b1b~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f04b5e1850647d37cd16a7e3435cb067~2508x0.webp"
+            },
+            {
+              "name": "蝶贝灰",
+              "colors": [
+                "#5F626B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/37a24a202ce21768632f0c2d1a7a1809~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f2017e143f42e532ff18572dc2f27762~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4925d4c0220ca72b86a48c8595a72aab~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3828f9f9c82b79292c27df9c9a76148~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c09abff08519057df110d6a8ce7556e~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#6B4129",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3501e92ba90aa5569153ba6b8289726f~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/30856cad1093bf6fa5f0c5c724bb4b1b~2508x0.webp"
+        },
+        {
+          "configName": "2025款 B5 四驱智远豪华版",
+          "configId": "110374",
+          "index": 6,
+          "price": "42.59万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c56005c7205051f58cbe7d32437f80f~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34e806230707c095acc24f189ed538e3~2508x0.webp"
+            },
+            {
+              "name": "蝶贝灰",
+              "colors": [
+                "#5F626B"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/754e2f12ea19d340d6bc2f471c912635~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4136dbae27eb71e3778c24003a2029f5~2508x0.webp"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a097d05ba5c13c286580315064d1f6d9~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/456c19276deca6cb2e12f89d8f8d8dd3~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/84a616624bbe723d0db03e7d94935784~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#6B4129",
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/d37fdb9e32d5b6339ca1d61d1e7f1ebe~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/9c56005c7205051f58cbe7d32437f80f~2508x0.webp"
+        },
+        {
+          "configName": "2025款 B5 四驱智远运动版",
+          "configId": "110375",
+          "index": 7,
+          "price": "42.59万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c446e3852055bd30ff184e0358ada32~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/2f4a6f7ff1118b0d85ca3cba790a831b~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/ea0a6c50334f761223b66c6a81857423~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2c446e3852055bd30ff184e0358ada32~2508x0.webp"
+        },
+        {
+          "configName": "2025款 B5 四驱智远极夜黑版",
+          "configId": "242439",
+          "index": 8,
+          "price": "42.59万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
+          "size": "4708x1902x1660",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/18e3863fc54887064685dc8223029d75~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd9b9cef7fb35fe57f5eebbf2c42c240~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/18e3863fc54887064685dc8223029d75~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
       "carName": "XC60 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/cd91fce3610d4c1b917aa1211a2eeda8~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃XC60 PHEV 2026款 T8 四驱长续航智远豪华版",
+          "configName": "2026款 T8 四驱长续航智远豪华版",
+          "configId": "249450",
+          "index": 0,
           "price": "52.39万",
-          "fuelType": "插电式混合动力",
-          "size": "4708x1902x1656",
           "manufacturer": "沃尔沃亚太",
           "class": "中型SUV",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "4708x1902x1656",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c63c7783f94ac579b716923127a91b16~2508x0.webp"
+            },
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1bdf5aef72ef5dcb00f42b4765df10fe~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#D0CCCB"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_c9a873b919e477509a054b6c59e7b6c8~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c63c7783f94ac579b716923127a91b16~2508x0.webp"
         },
         {
-          "configName": "沃尔沃XC60 PHEV 2026款 T8 四驱长续航智远极夜黑版",
+          "configName": "2026款 T8 四驱长续航智远极夜黑版",
+          "configId": "248824",
+          "index": 1,
           "price": "52.39万",
+          "manufacturer": "沃尔沃亚太",
+          "class": "中型SUV",
           "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
           "size": "4708x1915x1656",
-          "manufacturer": "沃尔沃亚太",
-          "class": "中型SUV",
-          "power": "插电式混动 145马力"
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_b91d9373253fb8a815efd2af34999d6c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_084f3a28087684e319226cd8054e3683~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_b91d9373253fb8a815efd2af34999d6c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃XC60 PHEV 2026款 T8 四驱长续航智雅豪华版",
+          "configName": "2026款 T8 四驱长续航智雅豪华版",
+          "configId": "249115",
+          "index": 2,
           "price": "60.39万",
-          "fuelType": "插电式混合动力",
-          "size": "4708x1902x1656",
           "manufacturer": "沃尔沃亚太",
           "class": "中型SUV",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "4708x1902x1656",
+          "exteriorImages": [
+            {
+              "name": "松湖绿",
+              "colors": [
+                "#A2ABA2"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bcff0ae853243e56aedb53a55b2bfd07~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "米色",
+              "colors": [
+                "#D2D0C4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_157183e5bfc3005eadcd62b11c580254~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bcff0ae853243e56aedb53a55b2bfd07~2508x0.webp"
         }
       ]
     },
     {
       "carName": "XC90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5a108fdb160c4858aa2dfff3ff5595e7~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃XC90 2025款 改款 B5 智逸豪华版 5座",
+          "configName": "2025款 改款 B5 智逸豪华版 5座",
+          "configId": "245781",
+          "index": 0,
           "price": "63.89万",
+          "manufacturer": "沃尔沃(进口)",
+          "class": "中大型SUV",
           "fuelType": "48V轻混系统",
+          "power": "2.0T 250马力 L4 48V轻混",
           "size": "4953x1958x1778",
-          "manufacturer": "沃尔沃(进口)",
-          "class": "中大型SUV",
-          "power": ""
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6667c2b5ad47b3382fa62a81bebc7b41~2508x0.webp"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b896490f07f447eae5da66601dcec49~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/816f7cd76299d2f79fb2ff41f13fa20c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/d47eddf95cc975c3c04de67ce9c5f4ad~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#DBD6D6"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/2614ccb67f3c59bdbc855caf55ece356~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6667c2b5ad47b3382fa62a81bebc7b41~2508x0.webp"
         },
         {
-          "configName": "沃尔沃XC90 2025款 改款 B6 智远豪华版 6座",
+          "configName": "2025款 改款 B6 智远豪华版 6座",
+          "configId": "246352",
+          "index": 1,
           "price": "69.59万",
-          "fuelType": "48V轻混系统",
-          "size": "4953x1958x1776",
           "manufacturer": "沃尔沃(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 300马力 L4 48V轻混",
+          "size": "4953x1958x1776",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_e5a5ea96acfc87dbe9c9d419cad1c7e1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_bcb35e9d1080d2fe63bad21988ee29d1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e9aeda0d033b9a7f3c54159998ffea1d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#DBD6D6"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18efc05b3d8a988be88263646671c60e~2508x0.webp"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_e5a5ea96acfc87dbe9c9d419cad1c7e1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃XC90 2025款 改款 B6 智雅豪华版 6座",
+          "configName": "2025款 改款 B6 智雅豪华版 6座",
+          "configId": "245782",
+          "index": 2,
           "price": "78.19万",
-          "fuelType": "48V轻混系统",
-          "size": "4953x1958x1776",
           "manufacturer": "沃尔沃(进口)",
           "class": "中大型SUV",
-          "power": ""
+          "fuelType": "48V轻混系统",
+          "power": "2.0T 300马力 L4 48V轻混",
+          "size": "4953x1958x1776",
+          "exteriorImages": [
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/896d94134a8f25d2abb50db877028ca7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5d5a377206086f1b880862b4f428fee9~2508x0.webp"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/6eece483f46751b5562531e9342cf5c1~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/eb1211ccf25d1856df2262afa738d57d~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c0ec0c97cace6d94e21bafa552c269e9~2508x0.webp"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#C0C0C0"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/f478489eec2de365e3ba3c6be7b56854~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p9-dcd.byteimg.com/motor-mis-img/896d94134a8f25d2abb50db877028ca7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
       "carName": "XC90 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/60cd3224fcbc4a4bbfbf346a31210062~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃XC90 PHEV 2025款 改款 E驱混动T8 长续航智远豪华版 7座",
+          "configName": "2025款 改款 E驱混动T8 长续航智远豪华版 7座",
+          "configId": "246354",
+          "index": 0,
           "price": "79.59万",
-          "fuelType": "插电式混合动力",
-          "size": "4953x1958x1772",
           "manufacturer": "沃尔沃(进口)",
           "class": "中大型SUV",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "4953x1958x1772",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_4c902c30d03ffb58c682cc4779016a02~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#DBD6D6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_1e469d8b1fd08a56c4e7dae5a0600d34~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_4c902c30d03ffb58c682cc4779016a02~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         },
         {
-          "configName": "沃尔沃XC90 PHEV 2025款 改款 E驱混动 T8 长续航智尊豪华版 7座",
+          "configName": "2025款 改款 E驱混动 T8 长续航智尊豪华版 7座",
+          "configId": "242722",
+          "index": 1,
           "price": "89.49万",
-          "fuelType": "插电式混合动力",
-          "size": "4953x1958x1772",
           "manufacturer": "沃尔沃(进口)",
           "class": "中大型SUV",
-          "power": "插电式混动 145马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 310马力 L4 插电式混动",
+          "size": "4953x1958x1772",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/a04a96b081c5a05f23b807c0301d4179~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "牛仔蓝",
+              "colors": [
+                "#535D7A"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/d34779a3363c986edeeead2c67301900~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "森莓红",
+              "colors": [
+                "#5C3838"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7c08f7481407460141d0b132b606124~2508x0.webp"
+            },
+            {
+              "name": "薄雾灰",
+              "colors": [
+                "#8F9095"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d7d9a9ff5d66a7c710b42088b665adb4~2508x0.webp"
+            },
+            {
+              "name": "晨光银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/DCP_5336aaf74c2e643e31daa06cfa1656e6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "星耀沙",
+              "colors": [
+                "#EEE1BF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfe2c5a1704d2448a0c9ee95e4c5e022~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9e70f18c3ad5e71270577768935764f4~2508x0.webp"
+            },
+            {
+              "name": "午夜蓝",
+              "colors": [
+                "#5F5F91"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_d5b2308fd9794c3534df5d5abf11524c~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "米色",
+              "colors": [
+                "#C0C0C0"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/6190a998d36fd1ed1e9cc493ae712e11~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            },
+            {
+              "name": "豆蔻褐",
+              "colors": [
+                "#DBD6D6"
+              ],
+              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/93914857b37c905fdd392ce96c865438~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+            }
+          ],
+          "configImage": "http://p3-dcd.byteimg.com/motor-mis-img/a04a96b081c5a05f23b807c0301d4179~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
         }
       ]
     },
     {
-      "carName": "EX90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/dedf8778a1c747d7860e75f2cfc1ce02~1200x0.png",
-      "configs": []
-    },
-    {
       "carName": "EM90",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/912c1f8e6a9b4f7fac8d7df8c7e1dc04~1200x0.png",
       "configs": [
         {
-          "configName": "沃尔沃EM90 2025款 Ultra 六座",
+          "configName": "2025款 Ultra 六座",
+          "configId": "92788",
+          "index": 0,
           "price": "81.8万",
-          "fuelType": "纯电动",
-          "size": "5206x2024x1859",
           "manufacturer": "沃尔沃亚太",
           "class": "中大型MPV",
-          "power": "纯电动 272马力"
+          "fuelType": "纯电动",
+          "power": "纯电动 272马力",
+          "size": "5206x2024x1859",
+          "exteriorImages": [
+            {
+              "name": "玛瑙黑",
+              "colors": [
+                "#111112"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea41a3b8296c66892798d01c52af52b9~2508x0.webp"
+            },
+            {
+              "name": "水晶白",
+              "colors": [
+                "#F4F7F8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b4eee9fed2019779ac11b1e7b7e7c17e~2508x0.webp"
+            },
+            {
+              "name": "鎏金沙",
+              "colors": [
+                "#FCF9EA"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aee93f1d2020b759caeb652676f3d545~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/浅色",
+              "colors": [
+                "#000000",
+                "#F2F2EC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13eb7b01bdf9fc0bcb675b448b0e9001~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ea41a3b8296c66892798d01c52af52b9~2508x0.webp"
         }
       ]
     }

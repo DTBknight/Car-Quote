@@ -5,10 +5,10 @@ const config = {
     concurrency: 1, // 保持单并发，确保稳定性
     maxRetries: 3, // 增加重试次数，提高成功率
     timeout: 60000, // 增加页面超时到60秒，适应复杂页面
-    protocolTimeout: 120000, // 增加协议超时到120秒，解决超时问题
+    protocolTimeout: 300000, // 增加协议超时到5分钟，解决超时问题
     pageWaitTime: 3000, // 增加页面等待时间，确保页面稳定
     imageWaitTime: 2000, // 增加图片等待时间
-    globalTimeout: 1200000, // 增加全局超时到20分钟
+    globalTimeout: 1800000, // 增加全局超时到30分钟
     delays: {
       min: 2000, // 增加最小延迟，减少服务器压力
       max: 4000  // 增加最大延迟
@@ -31,7 +31,7 @@ const config = {
     // 图片采集配置
     imageRetryDelay: 3000, // 增加图片重试延迟
     maxImageRetries: 3, // 增加图片重试次数
-    imageTimeout: 45000, // 增加图片采集超时
+    imageTimeout: 90000, // 增加图片采集超时到90秒
     // 图片采集配置
     imageConcurrency: 1, // 保持单并发，避免资源竞争
     colorConcurrency: 1, // 保持单并发

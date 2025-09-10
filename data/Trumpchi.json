@@ -3,813 +3,3741 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/dfddc97d247ec51e0fa082ebcfd7ad4e~tplv-resize:100:100.image",
   "cars": [
     {
+      "carId": 4787,
       "carName": "影豹",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5d1ae5def02440b194ba7742cd369f65~1200x0.png",
       "configs": [
         {
-          "configName": "影豹 2025款 270T DCT R-Style劲享版",
+          "configName": "2025款 270T DCT R-Style劲享版",
+          "configId": "247289",
+          "index": 0,
           "price": "11.8万",
-          "fuelType": "汽油",
-          "size": "4753x1850x1432",
           "manufacturer": "广汽传祺",
           "class": "紧凑型车",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4753x1850x1432",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#C2C5BB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影豹 2024款 270T DCT S",
+          "configName": "2024款 270T DCT S",
+          "configId": "100349",
+          "index": 1,
           "price": "11.8万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
           "size": "4700x1850x1432",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型车",
-          "power": "1.5T 177马力 L4"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#C2C5BB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影豹 2024款 270T DCT R-Style",
+          "configName": "2024款 270T DCT R-Style",
+          "configId": "100351",
+          "index": 2,
           "price": "12.8万",
-          "fuelType": "汽油",
-          "size": "4753x1850x1432",
           "manufacturer": "广汽传祺",
           "class": "紧凑型车",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4753x1850x1432",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/灰色",
+              "colors": [
+                "#000000",
+                "#C2C5BB"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影豹 2024款 400T 自动 R Pro",
+          "configName": "2024款 400T 自动 R Pro",
+          "configId": "100352",
+          "index": 3,
           "price": "13.8万",
-          "fuelType": "汽油",
-          "size": "4753x1850x1432",
           "manufacturer": "广汽传祺",
           "class": "紧凑型车",
-          "power": "2.0T 265马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 265马力 L4",
+          "size": "4753x1850x1432",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "哑光皓月灰",
+              "colors": [
+                "#676A72"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影豹 2024款 400T 自动 R Max",
+          "configName": "2024款 400T 自动 R Max",
+          "configId": "100353",
+          "index": 4,
           "price": "15.8万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型车",
           "fuelType": "汽油",
+          "power": "2.0T 265马力 L4",
           "size": "4753x1850x1432",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型车",
-          "power": "2.0T 265马力 L4"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "哑光皓月灰",
+              "colors": [
+                "#676A72"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影豹 2023款 2.0L DHT 高能混动版",
+          "configName": "2023款 2.0L DHT 高能混动版",
+          "configId": "78786",
+          "index": 5,
           "price": "12.8万",
-          "fuelType": "油电混合",
-          "size": "4700x1850x1440",
           "manufacturer": "广汽传祺",
           "class": "紧凑型车",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4 油电混动",
+          "size": "4700x1850x1440",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "黑色/黄色",
+              "colors": [
+                "#000000",
+                "#FFFF00"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "科技白蓝",
+              "colors": [
+                "#88CAF4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影豹 2023款 2.0L DHT 智能混动版",
+          "configName": "2023款 2.0L DHT 智能混动版",
+          "configId": "58639",
+          "index": 6,
           "price": "14.8万",
-          "fuelType": "油电混合",
-          "size": "4700x1850x1440",
           "manufacturer": "广汽传祺",
           "class": "紧凑型车",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4 油电混动",
+          "size": "4700x1850x1440",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "黑色/黄色",
+              "colors": [
+                "#000000",
+                "#FFFF00"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "科技白蓝",
+              "colors": [
+                "#88CAF4"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
-      "carName": "传祺M8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8895495a3a114d7e9effdce7b48aec71~1200x0.png",
-      "configs": [
-        {
-          "configName": "传祺M8 2024款 领秀系列 390T 豪华版",
-          "price": "17.98万",
-          "fuelType": "汽油",
-          "size": "5089x1884x1822",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2024款 领秀系列 390T 尊享版",
-          "price": "19.28万",
-          "fuelType": "汽油",
-          "size": "5089x1884x1822",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2024款 大师系列 2.0TGDI 尊贵版",
-          "price": "22.98万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2024款 大师系列 2.0TGDI 至尊版",
-          "price": "24.98万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2024款 大师系列 2.0TM 超级混动版",
-          "price": "26.68万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "油电混合 182马力"
-        },
-        {
-          "configName": "传祺M8 2024款 宗师系列 2.0TGDI 至尊版",
-          "price": "26.98万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2024款 宗师系列 2.0TM 超级混动版",
-          "price": "28.68万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "油电混合 182马力"
-        },
-        {
-          "configName": "传祺M8 2024款 宗师系列 2.0TGDI 先锋版",
-          "price": "29.58万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2024款 宗师系列 2.0TGDI 科技关爱版",
-          "price": "32.68万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2023款 领秀系列 390T 豪华版",
-          "price": "17.98万",
-          "fuelType": "汽油",
-          "size": "5089x1884x1822",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2023款 领秀系列 390T 尊享版",
-          "price": "19.28万",
-          "fuelType": "汽油",
-          "size": "5089x1884x1822",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2023款 宗师系列 2.0TGDI 至尊版",
-          "price": "26.98万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2023款 宗师系列 2.0TGDI 旗舰版",
-          "price": "28.98万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2023款 宗师系列 2.0TGDI 福祉版",
-          "price": "31.98万",
-          "fuelType": "汽油",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺M8 2023款 宗师系列 2.0TM 混动 至尊版",
-          "price": "29.98万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "油电混合 182马力"
-        },
-        {
-          "configName": "传祺M8 2023款 宗师系列 2.0TM 混动 旗舰版",
-          "price": "32.28万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "油电混合 182马力"
-        },
-        {
-          "configName": "传祺M8 2023款 宗师系列 2.0TM 混动 御尊版",
-          "price": "34.28万",
-          "fuelType": "油电混合",
-          "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "油电混合 182马力"
-        }
-      ]
-    },
-    {
+      "carId": 1621,
       "carName": "传祺GS3",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8732330b52304946a811bee104592aba~1200x0.png",
       "configs": [
         {
-          "configName": "传祺GS3 2025款 影速 270T 劲享版-平步青云",
+          "configName": "2025款 影速 270T 劲享版-平步青云",
+          "configId": "247984",
+          "index": 0,
           "price": "9.58万",
-          "fuelType": "汽油",
-          "size": "4410x1850x1600",
           "manufacturer": "广汽传祺",
           "class": "小型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4410x1850x1600",
+          "exteriorImages": [
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "光波蓝",
+              "colors": [
+                "#2163B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS3 2024款 影速 270T 劲智Max",
+          "configName": "2024款 影速 270T 劲智Max",
+          "configId": "239188",
+          "index": 1,
           "price": "10.88万",
-          "fuelType": "汽油",
-          "size": "4410x1850x1600",
           "manufacturer": "广汽传祺",
           "class": "小型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4410x1850x1600",
+          "exteriorImages": [
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "一份紫",
+              "colors": [
+                "#CE9DEC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "光波蓝",
+              "colors": [
+                "#2163B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS3 2023款 影速 270T 劲取版",
+          "configName": "2023款 影速 270T 劲取版",
+          "configId": "86363",
+          "index": 2,
           "price": "8.58万",
-          "fuelType": "汽油",
-          "size": "4410x1850x1600",
           "manufacturer": "广汽传祺",
           "class": "小型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4410x1850x1600",
+          "exteriorImages": [
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "光波蓝",
+              "colors": [
+                "#2163B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS3 2023款 影速 270T 劲享版",
+          "configName": "2023款 影速 270T 劲享版",
+          "configId": "86362",
+          "index": 3,
           "price": "9.58万",
-          "fuelType": "汽油",
-          "size": "4410x1850x1600",
           "manufacturer": "广汽传祺",
           "class": "小型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4410x1850x1600",
+          "exteriorImages": [
+            {
+              "name": "盐湖蓝",
+              "colors": [
+                "#0375B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨烯灰",
+              "colors": [
+                "#8C8C8C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "一份紫",
+              "colors": [
+                "#CE9DEC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "光波蓝",
+              "colors": [
+                "#2163B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#5AA05A"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS3 2023款 影速 270T 劲智版",
+          "configName": "2023款 影速 270T 劲智版",
+          "configId": "86361",
+          "index": 4,
           "price": "10.58万",
-          "fuelType": "汽油",
-          "size": "4410x1850x1600",
           "manufacturer": "广汽传祺",
           "class": "小型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4410x1850x1600",
+          "exteriorImages": [
+            {
+              "name": "盐湖蓝",
+              "colors": [
+                "#0375B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "一份紫",
+              "colors": [
+                "#CE9DEC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "光波蓝",
+              "colors": [
+                "#2163B3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "仙踪绿",
+              "colors": [
+                "#5AA05A"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 5468,
       "carName": "影酷",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4d9605e4fd4342f6a4f40c0df4d4f083~1200x0.png",
       "configs": [
         {
-          "configName": "影酷 2022款 1.5T 超新星Pro版",
+          "configName": "2022款 1.5T 超新星Pro版",
+          "configId": "77053",
+          "index": 0,
           "price": "12.98万",
-          "fuelType": "汽油",
-          "size": "4680x1901x1670",
           "manufacturer": "广汽传祺",
           "class": "紧凑型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4680x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星湖绿",
+              "colors": [
+                "#5F93AA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银翼曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "无境星湖/绿色",
+              "colors": [
+                "#000000",
+                "#508184"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影酷 2022款 混动 2.0ATK 双子星版",
+          "configName": "2022款 混动 2.0ATK 双子星版",
+          "configId": "78589",
+          "index": 1,
           "price": "14.98万",
-          "fuelType": "油电混合",
-          "size": "4680x1901x1670",
           "manufacturer": "广汽传祺",
           "class": "紧凑型SUV",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4",
+          "size": "4680x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星湖绿",
+              "colors": [
+                "#5F93AA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银翼曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "无境星湖/绿色",
+              "colors": [
+                "#000000",
+                "#508184"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漠色幻境/米色",
+              "colors": [
+                "#D58F55",
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影酷 2022款 混动 2.0ATK 双子星Pro版",
+          "configName": "2022款 混动 2.0ATK 双子星Pro版",
+          "configId": "77071",
+          "index": 2,
           "price": "15.98万",
-          "fuelType": "油电混合",
-          "size": "4680x1901x1670",
           "manufacturer": "广汽传祺",
           "class": "紧凑型SUV",
-          "power": "油电混合 182马力"
+          "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4",
+          "size": "4680x1901x1670",
+          "exteriorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星湖绿",
+              "colors": [
+                "#5F93AA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银翼曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "无境星湖/绿色",
+              "colors": [
+                "#000000",
+                "#508184"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漠色幻境/米色",
+              "colors": [
+                "#D58F55",
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "影酷 2022款 混动 2.0ATK 双子星Max版",
+          "configName": "2022款 混动 2.0ATK 双子星Max版",
+          "configId": "77077",
+          "index": 3,
           "price": "16.98万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型SUV",
           "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4",
           "size": "4680x1901x1670",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型SUV",
-          "power": "油电混合 182马力"
+          "exteriorImages": [
+            {
+              "name": "星夜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "银翼曜黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "无境星湖/绿色",
+              "colors": [
+                "#000000",
+                "#508184"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
-      "carName": "传祺GS4 PLUS",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/c699549e46a74e41b51c8383c0f09ee3~1200x0.png",
-      "configs": [
-        {
-          "configName": "传祺GS4 PLUS 2023款 390T 自动星系版",
-          "price": "13.68万",
-          "fuelType": "汽油",
-          "size": "4710x1885x1726",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4"
-        },
-        {
-          "configName": "传祺GS4 PLUS 2023款 390T 自动星云版",
-          "price": "14.28万",
-          "fuelType": "汽油",
-          "size": "4710x1885x1726",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型SUV",
-          "power": "2.0T 252马力 L4"
-        }
-      ]
-    },
-    {
+      "carId": 616,
       "carName": "传祺GS4",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8f2da857d4654d9498e80ea30171e0c7~1200x0.png",
       "configs": [
         {
-          "configName": "传祺GS4 2024款 MAX 1.5TGDI 领航版",
+          "configName": "2024款 MAX 1.5TGDI 领航版",
+          "configId": "100094",
+          "index": 0,
           "price": "11.58万",
-          "fuelType": "汽油",
-          "size": "4685x1901x1690",
           "manufacturer": "广汽传祺",
           "class": "紧凑型SUV",
-          "power": "1.5T 177马力 L4"
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4685x1901x1690",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "栗色胡桃",
+              "colors": [
+                "#AB978F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS4 2024款 MAX 1.5TGDI 旗舰版",
+          "configName": "2024款 MAX 1.5TGDI 旗舰版",
+          "configId": "95925",
+          "index": 1,
           "price": "12.58万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型SUV",
           "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
           "size": "4685x1901x1690",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型SUV",
-          "power": "1.5T 177马力 L4"
-        },
-        {
-          "configName": "传祺GS4 2023款 270T 自动智行领航版",
-          "price": "11.98万",
-          "fuelType": "汽油",
-          "size": "4545x1856x1700",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型SUV",
-          "power": "1.5T 177马力 L4"
-        },
-        {
-          "configName": "传祺GS4 2023款 270T 自动智行科技版",
-          "price": "12.68万",
-          "fuelType": "汽油",
-          "size": "4545x1856x1700",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型SUV",
-          "power": "1.5T 177马力 L4"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雪域白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "栗色胡桃",
+              "colors": [
+                "#AB978F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "清晨奶咖",
+              "colors": [
+                "#D2C1A7"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 5210,
+      "carName": "传祺GS4 PLUS",
+      "configs": [
+        {
+          "configName": "2023款 390T 自动星系版",
+          "configId": "88261",
+          "index": 0,
+          "price": "13.68万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "4710x1885x1726",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "丝绒红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 390T 自动星云版",
+          "configId": "88262",
+          "index": 1,
+          "price": "14.28万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "4710x1885x1726",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "象牙白",
+              "colors": [
+                "#F4F8F9"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "丝绒红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 25071,
       "carName": "传祺向往S7",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/88c2ae5dfbcb4d4fba7ad392a377443a~1200x0.png",
       "configs": [
         {
-          "configName": "传祺向往S7 2025款 115km Pro版",
+          "configName": "2025款 115km Pro版",
+          "configId": "246732",
+          "index": 0,
           "price": "17.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 231马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 160马力 L4 插电式混动",
+          "size": "4900x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "曜晶黑",
+              "colors": [
+                "#0A0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨林绿",
+              "colors": [
+                "#414E41"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#3F484E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "喀什沙漠",
+              "colors": [
+                "#AD6A05"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往S7 2025款 205km Max版",
+          "configName": "2025款 205km Max版",
+          "configId": "246000",
+          "index": 1,
           "price": "19.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 231马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 160马力 L4 插电式混动",
+          "size": "4900x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "黑夜骑士",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "曜晶黑",
+              "colors": [
+                "#0A0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨林绿",
+              "colors": [
+                "#414E41"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#3F484E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "喀什沙漠",
+              "colors": [
+                "#AD6A05"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往S7 2025款 205km Max智驾版",
+          "configName": "2025款 205km Max智驾版",
+          "configId": "245999",
+          "index": 2,
           "price": "20.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 231马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 160马力 L4 插电式混动",
+          "size": "4900x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "刃影白/黑色",
+              "colors": [
+                "#FCFCFC",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "喀什沙漠",
+              "colors": [
+                "#AD6A05"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往S7 2025款 205km Max激光雷达版",
+          "configName": "2025款 205km Max激光雷达版",
+          "configId": "243947",
+          "index": 3,
           "price": "21.58万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 231马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 160马力 L4 插电式混动",
+          "size": "4900x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "黑夜骑士",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "曜晶黑",
+              "colors": [
+                "#0A0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨林绿",
+              "colors": [
+                "#414E41"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "曙光红/黑色",
+              "colors": [
+                "#4A3115",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "磨砂绿",
+              "colors": [
+                "#687568"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "磨砂灰",
+              "colors": [
+                "#BCBCBC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#3F484E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "喀什沙漠",
+              "colors": [
+                "#AD6A05"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漠河雪原",
+              "colors": [
+                "#EDECE3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往S7 2025款 180km Ultra四驱版",
+          "configName": "2025款 180km Ultra四驱版",
+          "configId": "242320",
+          "index": 4,
           "price": "20.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 340马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 160马力 L4 插电式混动",
+          "size": "4900x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "黑夜骑士",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "曜晶黑",
+              "colors": [
+                "#0A0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨林绿",
+              "colors": [
+                "#414E41"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#3F484E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "喀什沙漠",
+              "colors": [
+                "#AD6A05"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漠河雪原",
+              "colors": [
+                "#EDECE3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往S7 2025款 180km Ultra四驱激光雷达版",
+          "configName": "2025款 180km Ultra四驱激光雷达版",
+          "configId": "246002",
+          "index": 5,
           "price": "22.98万",
-          "fuelType": "插电式混合动力",
-          "size": "4900x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 340马力"
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 160马力 L4 插电式混动",
+          "size": "4900x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "黑夜骑士",
+              "colors": [
+                "#000001"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "曜晶黑",
+              "colors": [
+                "#0A0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨林绿",
+              "colors": [
+                "#414E41"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "曙光红",
+              "colors": [
+                "#4A3115"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "皓月灰",
+              "colors": [
+                "#676A73"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "磨砂绿",
+              "colors": [
+                "#687568"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "雨林绿/黑色",
+              "colors": [
+                "#687568",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "磨砂灰",
+              "colors": [
+                "#BCBCBC"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白/黑色",
+              "colors": [
+                "#FCFCFC",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#3F484E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "喀什沙漠",
+              "colors": [
+                "#AD6A05"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "漠河雪原",
+              "colors": [
+                "#EDECE3"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 617,
       "carName": "传祺GS8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/3412890c12e44ea2804bb87fbfa7a240~1200x0.png",
       "configs": [
         {
-          "configName": "传祺GS8 2025款 领航系列 2.0TGDI 两驱5座豪华版",
+          "configName": "2025款 领航系列 2.0TGDI 两驱5座豪华版",
+          "configId": "101800",
+          "index": 0,
           "price": "15.98万",
-          "fuelType": "汽油",
-          "size": "4980x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "4980x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "幻速银",
+              "colors": [
+                "#A6AAAD"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜骑士",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿影",
+              "colors": [
+                "#3F7976"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DAA646"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS8 2025款 领航系列 2.0TGDI 四驱5座豪华版",
+          "configName": "2025款 领航系列 2.0TGDI 四驱5座豪华版",
+          "configId": "242607",
+          "index": 1,
           "price": "17.28万",
-          "fuelType": "汽油",
-          "size": "4980x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "4980x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "幻速银",
+              "colors": [
+                "#A6AAAD"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "子夜骑士",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DAA646"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS8 2024款 领航系列 2.0TGDI 两驱豪华智联版",
+          "configName": "2024款 领航系列 2.0TGDI 两驱豪华智联版",
+          "configId": "90753",
+          "index": 2,
           "price": "18.68万",
-          "fuelType": "汽油",
-          "size": "4980x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "4980x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "幻速银",
+              "colors": [
+                "#A6AAAD"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜凌影",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿影",
+              "colors": [
+                "#3F7976"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DAA646"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS8 2024款 领航系列 2.0TGDI 四驱豪华智联版",
+          "configName": "2024款 领航系列 2.0TGDI 四驱豪华智联版",
+          "configId": "90754",
+          "index": 3,
           "price": "20.58万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型SUV",
           "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
           "size": "4980x1950x1780",
-          "manufacturer": "广汽传祺",
-          "class": "中大型SUV",
-          "power": "2.0T 252马力 L4"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "幻速银",
+              "colors": [
+                "#A6AAAD"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜凌影",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS8 2024款 双擎系列 2.0TM 混动两驱尊贵版",
+          "configName": "2024款 双擎系列 2.0TM 混动两驱尊贵版",
+          "configId": "90755",
+          "index": 4,
           "price": "22.88万",
-          "fuelType": "油电混合",
-          "size": "5015x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "油电混动 182马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4",
+          "size": "5015x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DAA646"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS8 2024款 双擎系列 2.0TM 混动两驱尊贵版+舒适包(豪华6座)",
+          "configName": "2024款 双擎系列 2.0TM 混动两驱尊贵版+舒适包(豪华6座)",
+          "configId": "90759",
+          "index": 5,
           "price": "23.28万",
-          "fuelType": "油电混合",
-          "size": "5015x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "油电混动 182马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4",
+          "size": "5015x1950x1780",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "传祺GS8 2024款 双擎系列 2.0TM 混动四驱尊贵版",
+          "configName": "2024款 双擎系列 2.0TM 混动四驱尊贵版",
+          "configId": "90756",
+          "index": 6,
           "price": "24.68万",
-          "fuelType": "油电混合",
-          "size": "5015x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "油电混动 237马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4",
+          "size": "5015x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "经典之歌",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺GS8 2024款 双擎系列 2.0TM 混动四驱尊贵版+舒适包(豪华6座)",
+          "configName": "2024款 双擎系列 2.0TM 混动四驱尊贵版+舒适包(豪华6座)",
+          "configId": "90760",
+          "index": 7,
           "price": "25.08万",
-          "fuelType": "油电混合",
-          "size": "5015x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "油电混动 237马力"
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4",
+          "size": "5015x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "幻速银",
+              "colors": [
+                "#A6AAAD"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DAA646"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
-      "carName": "传祺向往S9",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/304a269ae29c48c5ac49229f41e6d73c~1200x0.png",
-      "configs": []
-    },
-    {
-      "carName": "传祺M6",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/5f7392fbb49f47f481070fb75d8862b4~1200x0.png",
-      "configs": [
-        {
-          "configName": "传祺M6 2025款 MAX 270T WDCT 豪华版",
-          "price": "13.28万",
-          "fuelType": "汽油",
-          "size": "4793x1837x1730",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型MPV",
-          "power": "1.5T 177马力 L4"
-        },
-        {
-          "configName": "传祺M6 2024款 MAX 270T WDCT 尊荣版",
-          "price": "14.58万",
-          "fuelType": "汽油",
-          "size": "4793x1837x1765",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型MPV",
-          "power": "1.5T 177马力 L4"
-        },
-        {
-          "configName": "传祺M6 2023款 PRO 270T WDCT 精英版",
-          "price": "11.98万",
-          "fuelType": "汽油",
-          "size": "4793x1837x1730",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型MPV",
-          "power": "1.5T 177马力 L4"
-        },
-        {
-          "configName": "传祺M6 2023款 PRO 270T WDCT 豪华版",
-          "price": "12.98万",
-          "fuelType": "汽油",
-          "size": "4793x1837x1730",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型MPV",
-          "power": "1.5T 177马力 L4"
-        },
-        {
-          "configName": "传祺M6 2023款 PRO 270T WDCT 尊享版",
-          "price": "13.98万",
-          "fuelType": "汽油",
-          "size": "4793x1837x1765",
-          "manufacturer": "广汽传祺",
-          "class": "紧凑型MPV",
-          "power": "1.5T 177马力 L4"
-        }
-      ]
-    },
-    {
+      "carId": 9187,
       "carName": "传祺ES9 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/7ec7bbf1b8c340cc8a09d29aba96fe71~1200x0.png",
       "configs": [
         {
-          "configName": "传祺ES9 PHEV 2024款 143km PRO+",
+          "configName": "2024款 143km PRO+",
+          "configId": "110362",
+          "index": 0,
           "price": "22.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5015x1950x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5015x1950x1780",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜凌影",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DEB972"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺ES9 PHEV 2024款 143km MAX+",
+          "configName": "2024款 143km MAX+",
+          "configId": "110363",
+          "index": 1,
           "price": "24.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型SUV",
           "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
           "size": "5015x1950x1780",
-          "manufacturer": "广汽传祺",
-          "class": "中大型SUV",
-          "power": "插电式混动 182马力"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜凌影",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DEB972"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺ES9 PHEV 2024款 143km 旅行者 Pro",
+          "configName": "2024款 143km 旅行者 Pro",
+          "configId": "94162",
+          "index": 2,
           "price": "25.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5110x1976x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5110x1976x1780",
+          "exteriorImages": [
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜凌影",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DEB972"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺ES9 PHEV 2024款 143km 旅行者 Max",
+          "configName": "2024款 143km 旅行者 Max",
+          "configId": "94163",
+          "index": 3,
           "price": "26.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5110x1976x1780",
           "manufacturer": "广汽传祺",
           "class": "中大型SUV",
-          "power": "插电式混动 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5110x1976x1780",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜凌影",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星露谷宇",
+              "colors": [
+                "#DEB972"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 2832,
+      "carName": "传祺M6",
+      "configs": [
+        {
+          "configName": "2025款 MAX 270T WDCT 豪华版",
+          "configId": "249770",
+          "index": 0,
+          "price": "13.28万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4793x1837x1730",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑/玄紫",
+              "colors": [
+                "#000000",
+                "#831DC2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 MAX 270T WDCT 尊荣版",
+          "configId": "100644",
+          "index": 1,
+          "price": "14.58万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4793x1837x1765",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#366A8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "雅黑/玄紫",
+              "colors": [
+                "#000000",
+                "#831DC2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 PRO 270T WDCT 精英版",
+          "configId": "80642",
+          "index": 2,
+          "price": "11.98万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4793x1837x1730",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#366A8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#A58B8F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 PRO 270T WDCT 豪华版",
+          "configId": "80643",
+          "index": 3,
+          "price": "12.98万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4793x1837x1730",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#366A8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#A58B8F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 PRO 270T WDCT 尊享版",
+          "configId": "80644",
+          "index": 4,
+          "price": "13.98万",
+          "manufacturer": "广汽传祺",
+          "class": "紧凑型MPV",
+          "fuelType": "汽油",
+          "power": "1.5T 177马力 L4",
+          "size": "4793x1837x1765",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "孔雀蓝",
+              "colors": [
+                "#366A8B"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "珍珠白",
+              "colors": [
+                "#F8F8F8"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#A58B8F"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 20078,
       "carName": "传祺E8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/f696e908d7b845c3bd8a781a3bd8703f~1200x0.png",
       "configs": [
         {
-          "configName": "传祺E8 2024款 荣耀系列 2.0ATK 智在版",
+          "configName": "2024款 荣耀系列 2.0ATK 智在版",
+          "configId": "110846",
+          "index": 0,
           "price": "16.68万",
-          "fuelType": "油电混合",
-          "size": "4920x1900x1760",
           "manufacturer": "广汽传祺",
           "class": "中型MPV",
-          "power": "油电混合"
+          "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4 油电混合",
+          "size": "4920x1900x1760",
+          "exteriorImages": [
+            {
+              "name": "锦衣紫",
+              "colors": [
+                "#452E92"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E8 2024款 荣耀系列 2.0ATK 荣耀版",
+          "configName": "2024款 荣耀系列 2.0ATK 荣耀版",
+          "configId": "110848",
+          "index": 1,
           "price": "17.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中型MPV",
           "fuelType": "油电混合",
+          "power": "2.0L 140马力 L4 油电混合",
           "size": "4920x1900x1760",
-          "manufacturer": "广汽传祺",
-          "class": "中型MPV",
-          "power": "油电混合"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "锦衣紫",
+              "colors": [
+                "#452E92"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "都市平墅",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "假日别院",
+              "colors": [
+                "#E0A24C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
+      "carId": 9184,
       "carName": "传祺E8 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/fd1db3918a83418d9f27691466e6be86~1200x0.png",
       "configs": [
         {
-          "configName": "传祺E8 PHEV 2025款 2.0ATK 150km PRO+",
+          "configName": "2025款 2.0ATK 150km PRO+",
+          "configId": "245023",
+          "index": 0,
           "price": "21.68万",
-          "fuelType": "插电式混合动力",
-          "size": "4920x1900x1760",
           "manufacturer": "广汽传祺",
           "class": "中型MPV",
-          "power": "插电式混合动力 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0L 140马力 L4 插电式混动",
+          "size": "4920x1900x1760",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨色朱砂",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "假日别院",
+              "colors": [
+                "#E0A24C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E8 PHEV 2024款 2.0ATK 150km MAX+",
+          "configName": "2024款 2.0ATK 150km MAX+",
+          "configId": "240020",
+          "index": 1,
           "price": "23.28万",
-          "fuelType": "插电式混合动力",
-          "size": "4920x1900x1760",
           "manufacturer": "广汽传祺",
           "class": "中型MPV",
-          "power": "插电式混合动力 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0L 140马力 L4 插电式混动",
+          "size": "4920x1900x1760",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "锦衣紫",
+              "colors": [
+                "#452E92"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨色朱砂",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "假日别院",
+              "colors": [
+                "#E0A24C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E8 PHEV 2024款 2.0ATK 150km 龙腾光辉+",
+          "configName": "2024款 2.0ATK 150km 龙腾光辉+",
+          "configId": "239410",
+          "index": 2,
           "price": "23.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4920x1900x1760",
           "manufacturer": "广汽传祺",
           "class": "中型MPV",
-          "power": "插电式混合动力 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0L 140马力 L4 插电式混动",
+          "size": "4920x1900x1760",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨色朱砂",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "假日别院",
+              "colors": [
+                "#E0A24C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E8 PHEV 2024款 2.0ATK  150km 龙腾星夜+",
+          "configName": "2024款 2.0ATK  150km 龙腾星夜+",
+          "configId": "240018",
+          "index": 3,
           "price": "23.88万",
-          "fuelType": "插电式混合动力",
-          "size": "4920x1900x1760",
           "manufacturer": "广汽传祺",
           "class": "中型MPV",
-          "power": "插电式混合动力 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0L 140马力 L4 插电式混动",
+          "size": "4920x1900x1760",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "超星银",
+              "colors": [
+                "#E6E8FA"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "墨色朱砂",
+              "colors": [
+                "#000005"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "假日别院",
+              "colors": [
+                "#E0A24C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         }
       ]
     },
     {
-      "carName": "传祺向往M8",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/4a8fe3f10c754d51a939dd6d836044f8~1200x0.png",
+      "carId": 1794,
+      "carName": "传祺M8",
       "configs": [
         {
-          "configName": "传祺向往M8 2025款 鸿蒙座舱版",
-          "price": "32.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5217x1893x1823",
+          "configName": "2024款 领秀系列 390T 豪华版",
+          "configId": "101897",
+          "index": 0,
+          "price": "17.98万",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 218马力"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5089x1884x1822",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#3D3D44",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往M8 2025款 乾崑 Pro 舒享舱",
-          "price": "35.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5251x1893x1823",
+          "configName": "2024款 领秀系列 390T 尊享版",
+          "configId": "101896",
+          "index": 1,
+          "price": "19.28万",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 218马力"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5089x1884x1822",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "鞍棕（黑色/棕色）",
+              "colors": [
+                "#000000",
+                "#958567"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#3D3D44",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺向往M8 2025款 乾崑 Max 奢享舱",
-          "price": "37.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5251x1893x1823",
+          "configName": "2024款 大师系列 2.0TGDI 尊贵版",
+          "configId": "91027",
+          "index": 2,
+          "price": "22.98万",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 218马力"
-        },
-        {
-          "configName": "传祺向往M8 2025款 乾崑 Ultra 头等舱",
-          "price": "40.99万",
-          "fuelType": "插电式混合动力",
-          "size": "5251x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "插电式混动 218马力"
-        }
-      ]
-    },
-    {
-      "carName": "传祺E9 PHEV",
-      "mainImage": "https://p3.dcarimg.com/img/tos-cn-i-dcdx/8b579187ef28473c89eb96ff90d9773a~1200x0.png",
-      "configs": [
-        {
-          "configName": "传祺E9 PHEV 2025款 2.0TM 超级快充尊享版",
-          "price": "32.28万",
-          "fuelType": "插电式混合动力",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
           "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月下紫禁",
+              "colors": [
+                "#4A2E2E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E9 PHEV 2025款 2.0TM 超级快充冠军版",
-          "price": "35.28万",
-          "fuelType": "插电式混合动力",
+          "configName": "2024款 大师系列 2.0TGDI 至尊版",
+          "configId": "91028",
+          "index": 3,
+          "price": "24.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
           "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "殿藏金",
+              "colors": [
+                "#D2B48C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月下紫禁",
+              "colors": [
+                "#4A2E2E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "罗马假日",
+              "colors": [
+                "#D3AC48"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E9 PHEV 2025款 2.0TM 超级快充宗师版",
-          "price": "39.28万",
-          "fuelType": "插电式混合动力",
+          "configName": "2024款 大师系列 2.0TM 超级混动版",
+          "configId": "101902",
+          "index": 4,
+          "price": "26.68万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4 油电混合",
           "size": "5212x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "月下紫禁",
+              "colors": [
+                "#4A2E2E"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E9 PHEV 2024款 2.0TM 尊享版",
+          "configName": "2024款 宗师系列 2.0TGDI 至尊版",
+          "configId": "101901",
+          "index": 5,
+          "price": "26.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂（黑色/红色）",
+              "colors": [
+                "#000000",
+                "#7B0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "马会庄园（黑色/棕色）",
+              "colors": [
+                "#000000",
+                "#E19F23"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 宗师系列 2.0TM 超级混动版",
+          "configId": "242317",
+          "index": 6,
+          "price": "28.68万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4 油电混合",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂（黑色/红色）",
+              "colors": [
+                "#000000",
+                "#7B0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 宗师系列 2.0TGDI 先锋版",
+          "configId": "98221",
+          "index": 7,
+          "price": "29.58万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂（黑色/红色）",
+              "colors": [
+                "#000000",
+                "#7B0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 宗师系列 2.0TGDI 科技关爱版",
+          "configId": "240658",
+          "index": 8,
+          "price": "32.68万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5212x1893x1823",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2023款 领秀系列 390T 豪华版",
+          "configId": "75722",
+          "index": 9,
+          "price": "17.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5089x1884x1822",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#3D3D44",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 领秀系列 390T 尊享版",
+          "configId": "75723",
+          "index": 10,
+          "price": "19.28万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5089x1884x1822",
+          "exteriorImages": [
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "蓝色/黑色",
+              "colors": [
+                "#3D3D44",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 宗师系列 2.0TGDI 至尊版",
+          "configId": "79202",
+          "index": 11,
+          "price": "26.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂（黑色/红色）",
+              "colors": [
+                "#000000",
+                "#7B0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 宗师系列 2.0TGDI 旗舰版",
+          "configId": "79203",
+          "index": 12,
+          "price": "28.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云山珠水（黑色/灰色）",
+              "colors": [
+                "#000000",
+                "#DFDFDF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "米色/黑色",
+              "colors": [
+                "#DDDDCD",
+                "#000000"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 宗师系列 2.0TGDI 福祉版",
+          "configId": "92920",
+          "index": 13,
           "price": "31.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5212x1893x1823",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "fuelType": "汽油",
+          "power": "2.0T 252马力 L4",
+          "size": "5212x1893x1823",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         },
         {
-          "configName": "传祺E9 PHEV 2024款 2.0TM 冠军版",
+          "configName": "2023款 宗师系列 2.0TM 混动 至尊版",
+          "configId": "79199",
+          "index": 14,
+          "price": "29.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4 油电混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 宗师系列 2.0TM 混动 旗舰版",
+          "configId": "79200",
+          "index": 15,
+          "price": "32.28万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4 油电混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂（黑色/红色）",
+              "colors": [
+                "#000000",
+                "#7B0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "云山珠水（黑色/灰色）",
+              "colors": [
+                "#000000",
+                "#DFDFDF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2023款 宗师系列 2.0TM 混动 御尊版",
+          "configId": "79201",
+          "index": 16,
+          "price": "34.28万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "油电混合",
+          "power": "2.0T 190马力 L4 油电混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "墨玺绿",
+              "colors": [
+                "#286365"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "殿藏金",
+              "colors": [
+                "#D2B48C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂（黑色/红色）",
+              "colors": [
+                "#000000",
+                "#7B0909"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 24787,
+      "carName": "传祺向往M8",
+      "configs": [
+        {
+          "configName": "2025款 鸿蒙座舱版",
+          "configId": "250317",
+          "index": 0,
+          "price": "32.99万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5217x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星川蓝",
+              "colors": [
+                "#3659B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨丹青",
+              "colors": [
+                "#2C4971"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "马会庄园",
+              "colors": [
+                "#D67E2C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 乾崑 Pro 舒享舱",
+          "configId": "248610",
+          "index": 1,
+          "price": "35.99万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5251x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 乾崑 Max 奢享舱",
+          "configId": "248611",
+          "index": 2,
+          "price": "37.99万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5251x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星川蓝",
+              "colors": [
+                "#3659B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨丹青",
+              "colors": [
+                "#2C4971"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "烟波浩渺",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "马会庄园",
+              "colors": [
+                "#D67E2C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 乾崑 Ultra 头等舱",
+          "configId": "248612",
+          "index": 3,
+          "price": "40.99万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5251x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "典雅黑/幻速银",
+              "colors": [
+                "#101010",
+                "#DDDFE1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "星川蓝",
+              "colors": [
+                "#3659B1"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "水墨丹青",
+              "colors": [
+                "#2C4971"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "烟波浩渺",
+              "colors": [
+                "#CFCFCF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "马会庄园",
+              "colors": [
+                "#D67E2C"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        }
+      ]
+    },
+    {
+      "carId": 6087,
+      "carName": "传祺E9 PHEV",
+      "configs": [
+        {
+          "configName": "2025款 2.0TM 超级快充尊享版",
+          "configId": "242408",
+          "index": 0,
+          "price": "32.28万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "马会庄园",
+              "colors": [
+                "#C56104"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 2.0TM 超级快充冠军版",
+          "configId": "242409",
+          "index": 1,
+          "price": "35.28万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂",
+              "colors": [
+                "#740B35"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "马会庄园",
+              "colors": [
+                "#C56104"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2025款 2.0TM 超级快充宗师版",
+          "configId": "242410",
+          "index": 2,
+          "price": "39.28万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂",
+              "colors": [
+                "#740B35"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "马会庄园",
+              "colors": [
+                "#C56104"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 2.0TM 尊享版",
+          "configId": "100690",
+          "index": 3,
+          "price": "31.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+        },
+        {
+          "configName": "2024款 2.0TM 冠军版",
+          "configId": "100689",
+          "index": 4,
           "price": "34.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5212x1893x1823",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂",
+              "colors": [
+                "#740B35"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E9 PHEV 2024款 2.0TM 宗师版",
+          "configName": "2024款 2.0TM 宗师版",
+          "configId": "100692",
+          "index": 5,
           "price": "38.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5212x1893x1823",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            },
+            {
+              "name": "刃影白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "歌剧殿堂",
+              "colors": [
+                "#740B35"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E9 PHEV 2024款 2.0TM 国宾定制版",
+          "configName": "2024款 2.0TM 国宾定制版",
+          "configId": "100691",
+          "index": 6,
           "price": "40.98万",
-          "fuelType": "插电式混合动力",
-          "size": "5212x1893x1823",
           "manufacturer": "广汽传祺",
           "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
+          "size": "5212x1893x1823",
+          "exteriorImages": [
+            {
+              "name": "典雅黑",
+              "colors": [
+                "#101010"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "云山珠水",
+              "colors": [
+                "#E7E6E2"
+              ],
+              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+            }
+          ],
+          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
         },
         {
-          "configName": "传祺E9 PHEV 2024款 2.0TM 科技关爱版",
+          "configName": "2024款 2.0TM 科技关爱版",
+          "configId": "99669",
+          "index": 7,
           "price": "40.98万",
+          "manufacturer": "广汽传祺",
+          "class": "中大型MPV",
           "fuelType": "插电式混合动力",
+          "power": "2.0T 190马力 L4 插电式混动",
           "size": "5193x1893x1823",
-          "manufacturer": "广汽传祺",
-          "class": "中大型MPV",
-          "power": "插电式混动 182马力"
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-10T02:43:44.151Z",
+  "progress": {
+    "completed": 14,
+    "total": 15,
+    "percentage": 93,
+    "currentIndex": 15
+  }
 }

@@ -1,0 +1,118 @@
+name: 每日新车采集
+
+on:
+  schedule:
+    # 每天北京时间上午9点执行
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  daily-crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+      
+    - name: 设置Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: 安装依赖
+      run: |
+        cd data-processor
+        npm install puppeteer
+        
+    - name: 运行每日采集
+      run: |
+        cd data-processor
+        node daily-crawler.js
+        
+    - name: 检查变更
+      id: check-changes
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "has-changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "has-changes=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: 提交变更
+      if: steps.check-changes.outputs.has-changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git add data-processor/daily-report-*.json
+        git commit -m "🔄 每日新车采集更新 $(date '+%Y-%m-%d')"
+        git push
+        
+    - name: 创建Issue报告
+      if: steps.check-changes.outputs.has-changes == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const path = require('path');
+          
+          // 读取最新的报告文件
+          const reportFiles = fs.readdirSync('data-processor')
+            .filter(file => file.startsWith('daily-report-'))
+            .sort()
+            .reverse();
+            
+          if (reportFiles.length === 0) {
+            console.log('未找到报告文件');
+            return;
+          }
+          
+          const reportPath = path.join('data-processor', reportFiles[0]);
+          const report = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+          
+          // 生成Issue内容
+          let issueBody = `# 📊 每日新车采集报告 - ${report.timestamp.split('T')[0]}\n\n`;
+          
+          issueBody += `## 📈 采集统计\n`;
+          issueBody += `- 🆕 新车型: ${report.summary.newCars}\n`;
+          issueBody += `- 📝 更新车型: ${report.summary.updatedCars}\n`;
+          issueBody += `- ❌ 错误: ${report.summary.errors}\n\n`;
+          
+          if (report.newCars.length > 0) {
+            issueBody += `## 🆕 新车型列表\n`;
+            report.newCars.forEach(car => {
+              issueBody += `- **${car.name}** (ID: ${car.carId}) - 品牌: ${car.brand}\n`;
+            });
+            issueBody += '\n';
+          }
+          
+          if (report.updatedCars.length > 0) {
+            issueBody += `## 📝 更新车型列表\n`;
+            report.updatedCars.forEach(car => {
+              issueBody += `- **${car.name}** (ID: ${car.carId}) - 品牌: ${car.brand}\n`;
+            });
+            issueBody += '\n';
+          }
+          
+          if (report.errors.length > 0) {
+            issueBody += `## ❌ 错误信息\n`;
+            report.errors.forEach(error => {
+              issueBody += `- ${error.type}: ${error.message}\n`;
+            });
+            issueBody += '\n';
+          }
+          
+          issueBody += `---\n`;
+          issueBody += `*此报告由GitHub Actions自动生成*`;
+          
+          // 创建Issue
+          const issue = await github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: `📊 每日新车采集报告 - ${report.timestamp.split('T')[0]}`,
+            body: issueBody,
+            labels: ['automated', 'daily-report']
+          });
+          
+          console.log(`已创建Issue: ${issue.data.html_url}`);

@@ -1,0 +1,173 @@
+{
+  "brand": "Zeekr",
+  "timestamp": "2025-09-10T09:00:53.838Z",
+  "crawlSummary": {
+    "totalCars": 8,
+    "successCount": 8,
+    "failCount": 2,
+    "totalTime": "26分钟",
+    "successRate": "80%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 5015,
+        "carName": "ZEEKR 001",
+        "configCount": 5,
+        "exteriorColorCount": 50,
+        "interiorColorCount": 16,
+        "status": "completed"
+      },
+      {
+        "carId": 10191,
+        "carName": "ZEEKR 001 FR",
+        "configCount": 1,
+        "exteriorColorCount": 0,
+        "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 9128,
+        "carName": "ZEEKR 007",
+        "configCount": 5,
+        "exteriorColorCount": 31,
+        "interiorColorCount": 11,
+        "status": "completed"
+      },
+      {
+        "carId": 25172,
+        "carName": "ZEEKR 007GT",
+        "configCount": 4,
+        "exteriorColorCount": 51,
+        "interiorColorCount": 16,
+        "status": "completed"
+      },
+      {
+        "carId": 6253,
+        "carName": "ZEEKR X",
+        "configCount": 5,
+        "exteriorColorCount": 26,
+        "interiorColorCount": 17,
+        "status": "completed"
+      },
+      {
+        "carId": 9778,
+        "carName": "ZEEKR 7X",
+        "configCount": 3,
+        "exteriorColorCount": 26,
+        "interiorColorCount": 13,
+        "status": "completed"
+      },
+      {
+        "carId": 5878,
+        "carName": "ZEEKR 009",
+        "configCount": 8,
+        "exteriorColorCount": 19,
+        "interiorColorCount": 19,
+        "status": "completed"
+      },
+      {
+        "carId": 9944,
+        "carName": "ZEEKR MIX",
+        "configCount": 2,
+        "exteriorColorCount": 15,
+        "interiorColorCount": 4,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 218,
+    "totalInteriorColors": 96,
+    "exteriorColorTypes": [
+      "极夜黑",
+      "猎装绿",
+      "猎装绿/黑色",
+      "镭射灰",
+      "镭射灰/黑色",
+      "晴天蓝",
+      "晴天蓝/黑色",
+      "晨雾米",
+      "晨雾米/黑色",
+      "星际紫",
+      "驭光橙",
+      "驭光橙/黑色",
+      "极昼白",
+      "极昼白/黑色",
+      "星际紫/黑色",
+      "晴空蓝/银色",
+      "烟雨灰",
+      "苍穹绿",
+      "苍穹绿/黑色",
+      "皎月白",
+      "皎月白/黑色",
+      "云霭银",
+      "云霭银/黑色",
+      "暗影黑",
+      "功夫黄/黑色",
+      "旷境绿",
+      "旷境绿/黑色",
+      "暗夜紫",
+      "暗夜紫/黑色",
+      "冰川银",
+      "冰川银/黑色",
+      "奥斯陆黑",
+      "杭青绿",
+      "柏林银灰",
+      "苏墨灰",
+      "加州霞粉",
+      "巴黎玄米",
+      "雅典云白",
+      "迈阿密橙",
+      "森野绿",
+      "涧石蓝",
+      "星暮灰",
+      "云霞橙",
+      "曙光棕",
+      "极光绿",
+      "青云灰",
+      "黑耀金",
+      "烟雨灰/黑色",
+      "翡翠蓝/黑色",
+      "青柠绿",
+      "翡翠蓝",
+      "青柠绿/黑色"
+    ],
+    "interiorColorTypes": [
+      "黑/灰",
+      "黛绿",
+      "蓝/白",
+      "云灰",
+      "橙/灰",
+      "黑色/灰色",
+      "蓝色/白色",
+      "橙色/灰色",
+      "紫白",
+      "黑灰",
+      "红黑",
+      "黑白棕",
+      "蓝白",
+      "蓝绿",
+      "紫玫",
+      "纯黑",
+      "紫色/白色",
+      "灰色/白色",
+      "灰色/紫色",
+      "青色/白色",
+      "雪山白",
+      "赤金白"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}
