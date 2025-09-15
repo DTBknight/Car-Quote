@@ -31,7 +31,7 @@ class BrowserManager {
       headless: config.crawler.headless,
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || executablePath,
       ignoreHTTPSErrors: true,
-      protocolTimeout: config.crawler.protocolTimeout || 180000, // 增加协议超时到3分钟
+      protocolTimeout: config.crawler.protocolTimeout || 1800000, // 增加协议超时到30分钟
       defaultViewport: { width: 1280, height: 800 },
       args: [
         '--no-sandbox',

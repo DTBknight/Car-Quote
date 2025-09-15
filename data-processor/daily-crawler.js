@@ -340,7 +340,8 @@ class DailyCarCrawler {
               '讴歌': 'Acura',
               '现代': 'Hyundai',
               '起亚': 'Kia',
-              '捷尼赛思': 'Genesis'
+              '捷尼赛思': 'Genesis',
+              '星途': 'Exceed'
             };
             
             return brandMapping[brandText] || brandText;

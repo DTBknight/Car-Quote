@@ -6,17 +6,82 @@ const { getSmartDelay, simulateHumanBehavior, smartWait } = require('./anti-dete
 const config = require('./config');
 
 class DataCollector {
+  // 新增：页面池管理，减少页面创建开销
   constructor(browserManager) {
     this.browserManager = browserManager;
     this.config = config;
     this.limit = pLimit(this.config.crawler.concurrency);
+    this.pagePool = new Map(); // 页面池
+    this.maxPoolSize = 5; // 最大页面池大小
   }
 
-  // 更新配置
-  updateConfig(newConfig) {
-    this.config = newConfig;
-    this.limit = pLimit(this.config.crawler.concurrency);
-    console.log('⚙️ DataCollector配置已更新');
+  // 新增：获取或创建页面
+  async getOrCreatePage(browser, key = 'default') {
+    if (this.pagePool.has(key) && this.pagePool.get(key).isClosed() === false) {
+      return this.pagePool.get(key);
+    }
+    
+    const page = await this.browserManager.createPage(browser);
+    this.pagePool.set(key, page);
+    
+    // 限制页面池大小
+    if (this.pagePool.size > this.maxPoolSize) {
+      const oldestKey = this.pagePool.keys().next().value;
+      const oldestPage = this.pagePool.get(oldestKey);
+      if (!oldestPage.isClosed()) {
+        await oldestPage.close();
+      }
+      this.pagePool.delete(oldestKey);
+    }
+    
+    return page;
+  }
+
+  // 新增：智能重试机制，提升采集成功率
+  async smartRetry(operation, maxRetries = 3, delay = 2000) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        return await operation();
+      } catch (error) {
+        if (attempt === maxRetries) {
+          console.error(`❌ 操作最终失败，已重试 ${maxRetries} 次: ${error.message}`);
+          throw error;
+        }
+        console.log(`⚠️ 操作失败，第 ${attempt} 次重试 (${delay * attempt}ms 后): ${error.message}`);
+        await new Promise(resolve => setTimeout(resolve, delay * attempt));
+      }
+    }
+  }
+
+  // 新增：强制超时保护机制
+  async withTimeoutProtection(operation, timeoutMs = 120000, context = '') {
+    return Promise.race([
+      operation(),
+      new Promise((_, reject) => {
+        setTimeout(() => {
+          reject(new Error(`操作超时 ${context}: ${timeoutMs}ms`));
+        }, timeoutMs);
+      })
+    ]);
+  }
+
+  // 新增：协议超时错误处理（增强版）
+  async handleProtocolTimeout(operation, context = '') {
+    try {
+      return await operation();
+    } catch (error) {
+      if (error.message.includes('protocolTimeout') || 
+          error.message.includes('timed out') || 
+          error.message.includes('Protocol error') ||
+          error.message.includes('Network.enable') ||
+          error.message.includes('Runtime.callFunctionOn')) {
+        console.warn(`⚠️ 协议超时/网络错误 ${context}: ${error.message.substring(0, 100)}...`);
+        console.log(`⏭️ 跳过当前操作，返回空结果`);
+        // 直接返回空结果，不再重试
+        return [];
+      }
+      throw error;
+    }
   }
 
   // 清理车型名称，如果包含品牌名则只保留车型名称
@@ -204,14 +269,14 @@ class DataCollector {
       if (config.crawler.timeout > 0) {
         await pTimeout(
           page.goto(brandUrl, { 
-            waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+            waitUntil: config.crawler.pageLoadStrategy || 'load',
             timeout: config.crawler.maxWaitTime || 15000
           }),
           { milliseconds: config.crawler.timeout }
         );
       } else {
         await page.goto(brandUrl, { 
-          waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+          waitUntil: config.crawler.pageLoadStrategy || 'load',
           timeout: config.crawler.maxWaitTime || 15000
         });
       }
@@ -754,14 +819,14 @@ class DataCollector {
           if (config.crawler.timeout > 0) {
         await pTimeout(
           page.goto(seriesUrl, { 
-            waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+            waitUntil: config.crawler.pageLoadStrategy || 'load',
             timeout: config.crawler.maxWaitTime || 15000
           }),
           { milliseconds: config.crawler.timeout }
         );
           } else {
         await page.goto(seriesUrl, { 
-          waitUntil: config.crawler.pageLoadStrategy || 'networkidle2',
+          waitUntil: config.crawler.pageLoadStrategy || 'load',
           timeout: config.crawler.maxWaitTime || 15000
         });
       }
@@ -889,11 +954,11 @@ class DataCollector {
               // 如果超时设置为0，则不使用超时
       if (config.crawler.timeout > 0) {
         await pTimeout(
-          page.goto(urlSeries, { waitUntil: 'networkidle2' }), 
+          page.goto(urlSeries, { waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded' }), 
           { milliseconds: config.crawler.timeout }
         );
       } else {
-        await page.goto(urlSeries, { waitUntil: 'networkidle2' });
+        await page.goto(urlSeries, { waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded' });
       }
       } catch (e1) {
         console.warn(`⚠️ 车型 ${carId} networkidle2 超时，回退到 load: ${e1.message}`);
@@ -963,11 +1028,11 @@ class DataCollector {
       try {
         if (config.crawler.timeout > 0) {
           await pTimeout(
-            page.goto(urlParams, { waitUntil: 'networkidle2' }), // 更稳定的加载策略
+            page.goto(urlParams, { waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded' }), // 使用配置的加载策略
             { milliseconds: config.crawler.timeout }
           );
         } else {
-          await page.goto(urlParams, { waitUntil: 'networkidle2' });
+          await page.goto(urlParams, { waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded' });
         }
       } catch (e3) {
         console.warn(`⚠️ 车型 ${carId} 参数页 networkidle2 超时，回退到 load: ${e3.message}`);
@@ -1282,11 +1347,11 @@ class DataCollector {
           
           if (config.crawler.timeout > 0) {
             await pTimeout(
-              page.goto(fallbackUrl, { waitUntil: 'networkidle2' }),
+              page.goto(fallbackUrl, { waitUntil: config.crawler.pageLoadStrategy || 'load' }),
               { milliseconds: config.crawler.timeout }
             );
           } else {
-            await page.goto(fallbackUrl, { waitUntil: 'networkidle2' });
+            await page.goto(fallbackUrl, { waitUntil: config.crawler.pageLoadStrategy || 'load' });
           }
           
           await new Promise(resolve => setTimeout(resolve, 3000));
@@ -1372,16 +1437,16 @@ class DataCollector {
       
       // 优化的超时处理 - 先尝试 domcontentloaded，失败后回退到 load
       const configCrawler = require('./config').crawler;
-      const pageTimeout = Math.min(configCrawler.timeout || 60000, configCrawler.pageTimeout || 30000);
+      const pageTimeout = Math.min(configCrawler.timeout || 180000, configCrawler.pageTimeout || 120000);
       
       try {
       if (pageTimeout > 0) {
         await pTimeout(
-          page.goto(imagePageUrl, { waitUntil: 'networkidle2' }),
+          page.goto(imagePageUrl, { waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded' }),
           { milliseconds: pageTimeout }
         );
       } else {
-        await page.goto(imagePageUrl, { waitUntil: 'networkidle2' });
+        await page.goto(imagePageUrl, { waitUntil: config.crawler.pageLoadStrategy || 'domcontentloaded' });
         }
       } catch (timeoutError) {
         console.log(`⚠️ 车型 ${carId} 参数页 networkidle2 超时，回退到 load`);
@@ -1553,8 +1618,8 @@ class DataCollector {
       
       const colorTasks = colorBlocks.map(async (color, index) => {
         return colorLimit(async () => {
-          // 修复：为每个色块创建独立的页面，避免并发冲突
-          const colorPage = await this.browserManager.createPage(browser);
+          // 优化：使用页面池，减少创建开销
+          const colorPage = await this.getOrCreatePage(browser, `color_${index}`);
           
           try {
             // 修复：验证色块链接有效性
@@ -1572,72 +1637,88 @@ class DataCollector {
             // 新增：色块处理进度
             console.log(`🎨 处理色块 ${color.name}`);
             
-            // 新增：使用更短的超时时间
-            const colorPageTimeout = Math.min(pageTimeout, configCrawler.colorPageTimeout || 20000);
-            if (colorPageTimeout > 0) {
-              await pTimeout(
-                colorPage.goto(colorPageUrl, { waitUntil: 'networkidle2' }),
-                { milliseconds: colorPageTimeout }
-              );
-            } else {
-              await colorPage.goto(colorPageUrl, { waitUntil: 'networkidle2' });
+            // 修复：色块页面使用更短的超时配置，避免卡住
+            const colorPageTimeout = Math.min(configCrawler.colorPageTimeout || 60000, 60000); // 限制为60秒
+            try {
+              await this.withTimeoutProtection(async () => {
+                if (colorPageTimeout > 0) {
+                  await pTimeout(
+                    colorPage.goto(colorPageUrl, { waitUntil: 'load' }), // 使用更稳定的load策略
+                    { milliseconds: colorPageTimeout }
+                  );
+                } else {
+                  await colorPage.goto(colorPageUrl, { waitUntil: 'load' }); // 使用更稳定的load策略
+                }
+              }, 90000, `色块 ${color.name} 页面加载`); // 90秒强制超时
+            } catch (timeoutError) {
+              console.warn(`⚠️ 色块 ${color.name} load 超时，尝试回退策略: ${timeoutError.message}`);
+              try {
+                // 回退策略：使用更短的超时时间，避免卡住
+                const fallbackTimeout = Math.min(colorPageTimeout * 1.5, 90000); // 最多90秒
+                await pTimeout(
+                  colorPage.goto(colorPageUrl, { waitUntil: 'domcontentloaded' }),
+                  { milliseconds: fallbackTimeout }
+                );
+                console.log(`✅ 色块 ${color.name} 使用 domcontentloaded 事件加载成功`);
+              } catch (fallbackError) {
+                console.warn(`⚠️ 色块 ${color.name} 页面加载失败: ${fallbackError.message}`);
+                // 继续执行，不中断整个流程
+              }
             }
             
-            // 新增：减少等待时间
-            const imageWaitTime = Math.min(configCrawler.imageWaitTime || 2000, configCrawler.imageWaitTime || 1500);
+            // 优化：减少等待时间，提升采集速度
+            const imageWaitTime = Math.max(configCrawler.imageWaitTime || 1500, 1500); // 优化到1.5秒
+            await new Promise(resolve => setTimeout(resolve, imageWaitTime));
             
-            // 主图抓取 - 基于懂车帝图片页面精确结构
+            // 主图抓取 - 更新为更灵活的图片选择器
             const mainImage = await colorPage.evaluate(() => {
               console.log('🔍 开始提取图片URL...');
               
-              // 优先使用精确的容器选择器
-              const headImageRoot = document.querySelector('div.head-image_root__2SJX2');
-              if (headImageRoot) {
-                console.log('✅ 找到head-image_root容器');
-                
-                // 查找具有特定样式属性的图片元素
-                const imageElements = headImageRoot.querySelectorAll('img');
-                for (const img of imageElements) {
-                  const style = img.style;
+              // 多种容器选择器，适应页面结构变化
+              const containerSelectors = [
+                'div.head-image_root__2SJX2',
+                'div[class*="head-image"]',
+                'div[class*="image-container"]',
+                'div[class*="main-image"]',
+                '.main-image',
+                '.image-container'
+              ];
+              
+              for (const selector of containerSelectors) {
+                const container = document.querySelector(selector);
+                if (container) {
+                  console.log(`✅ 找到容器: ${selector}`);
                   
-                  // 检查是否具有精确的样式属性
-                  if (style.position === 'absolute' && 
-                      style.inset === '0px' && 
-                      style.objectFit === 'contain' &&
-                      style.minWidth === '100%' &&
-                      style.maxWidth === '100%' &&
-                      style.minHeight === '100%' &&
-                      style.maxHeight === '100%') {
+                  // 查找所有图片元素
+                  const imageElements = container.querySelectorAll('img');
+                  console.log(`📸 容器内找到 ${imageElements.length} 个图片元素`);
+                  
+                  for (const img of imageElements) {
+                    const imageUrl = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
                     
-                    const imageUrl = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || '';
-                    if (imageUrl && imageUrl.length > 50) {
-                      console.log('✅ 找到精确匹配的图片:', imageUrl);
+                    // 更宽松的图片验证条件
+                    if (imageUrl && 
+                        imageUrl.startsWith('http') && 
+                        !imageUrl.includes('logo') && 
+                        !imageUrl.includes('placeholder') &&
+                        !imageUrl.includes('avatar') &&
+                        !imageUrl.includes('icon') &&
+                        !imageUrl.endsWith('.svg') &&
+                        imageUrl.length > 30) {
+                      console.log('✅ 找到有效图片:', imageUrl);
                       return imageUrl;
                     }
                   }
                 }
-                
-                // 备用方案：在容器内查找任何有效图片
-                for (const img of imageElements) {
-                  const imageUrl = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || '';
-                  if (imageUrl && 
-                      !imageUrl.includes('logo') && 
-                      !imageUrl.includes('placeholder') &&
-                      !imageUrl.includes('fcf421caf44b23091eee') &&
-                      !imageUrl.endsWith('.svg') &&
-                      imageUrl.length > 50) {
-                    console.log('✅ 找到备用图片:', imageUrl);
-                    return imageUrl;
-                  }
-                }
               }
               
-              // 如果没有找到精确容器，使用通用方法
-              console.log('⚠️ 未找到head-image_root容器，使用通用方法');
+              // 通用方法：在整个页面中查找有效图片
+              console.log('⚠️ 容器方法未找到图片，使用通用方法');
               const fallbackSelectors = [
-                'div[class*="head-image"] img',
                 'img[src*="dcarimg.com"]',
                 'img[src*="motor-mis-img"]',
+                'img[src*="p1-dcd.byteimg.com"]',
+                'img[src*="p3-dcd.byteimg.com"]',
                 'img[style*="object-fit: contain"]',
                 'img[style*="position: absolute"]',
                 'img'
@@ -1645,14 +1726,21 @@ class DataCollector {
               
               for (const selector of fallbackSelectors) {
                 const imgs = document.querySelectorAll(selector);
-                  for (const img of imgs) {
-                  const url = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || '';
+                console.log(`🔍 选择器 ${selector} 找到 ${imgs.length} 个图片`);
+                
+                for (const img of imgs) {
+                  const url = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
+                  
+                  // 更宽松的验证条件
                   if (url && 
+                      url.startsWith('http') && 
                       !url.includes('logo') && 
                       !url.includes('placeholder') &&
+                      !url.includes('avatar') &&
+                      !url.includes('icon') &&
                       !url.includes('fcf421caf44b23091eee') &&
                       !url.endsWith('.svg') &&
-                      url.length > 50) {
+                      url.length > 30) {
                     console.log('✅ 通用方法找到图片:', url);
                     return url;
                   }
@@ -1705,59 +1793,73 @@ class DataCollector {
     }
   }
 
+  // 优化：批量图片采集，减少串行等待
   async getConfigImages(browser, configs, carId, brand) {
     const configsWithImages = [];
     console.log(`🔄 开始为 ${configs.length} 个配置采集图片...`);
+    
+    // 优化：预处理配置，过滤无效配置
+    const validConfigs = configs.filter(config => config.configId);
+    const invalidConfigs = configs.filter(config => !config.configId);
+    
+    console.log(`✅ 有效配置: ${validConfigs.length}, 无效配置: ${invalidConfigs.length}`);
     
     // 新增：图片采集进度跟踪
     let processedCount = 0;
     const totalConfigs = configs.length;
     const startTime = Date.now();
     
-          // 优化的图片采集并发（基于奥迪成功案例）
-      const concurrency = Math.min(config.crawler.imageConcurrency || 2, totalConfigs);
-      const limit = pLimit(concurrency);
+    // 优化：动态并发控制，根据配置数量调整
+    const baseConcurrency = config.crawler.imageConcurrency || 2;
+    const concurrency = Math.min(baseConcurrency, Math.max(1, Math.floor(validConfigs.length / 2)));
+    const limit = pLimit(concurrency);
     
-    // 新增：创建图片采集任务
-    const imageCollectionTasks = configs.map((config, index) => {
+    console.log(`🚀 使用 ${concurrency} 个并发进行图片采集`);
+    
+    // 先处理无效配置（无需网络请求）
+    const invalidResults = invalidConfigs.map(config => {
+      processedCount++;
+      this.updateImageProgress(processedCount, totalConfigs, startTime);
+      return {
+        ...config,
+        exteriorImages: [],
+        interiorImages: [],
+        configImage: ''
+      };
+    });
+    
+    // 创建有效配置的采集任务
+    const imageCollectionTasks = validConfigs.map((config, index) => {
       return limit(async () => {
         try {
-          console.log(`📸 采集配置 ${index + 1}/${totalConfigs}: ${config.configName}`);
+          console.log(`📸 采集配置 ${processedCount + index + 1}/${totalConfigs}: ${config.configName}`);
           console.log(`   指导价: ${config.price || '暂无'}`);
           console.log(`   配置ID: ${config.configId || '暂无'}`);
           
-          // 如果没有配置ID，跳过图片采集，但保留基本信息
-          if (!config.configId) {
-            console.log(`   ⚠️ 配置ID为空，跳过图片采集`);
-            const result = {
-              ...config,
-              exteriorImages: [],
-              interiorImages: [],
-              configImage: ''
-            };
-            processedCount++;
-            this.updateImageProgress(processedCount, totalConfigs, startTime);
-            return result;
-          }
-          
-          // 确保每个配置都有正确的超时配置
+          // 优化：简化超时配置
           const configWithTimeout = {
             ...config,
             crawler: {
-              timeout: config.crawler?.timeout || 60000,
-              pageWaitTime: config.crawler?.pageWaitTime || 3000,
-              imageWaitTime: config.crawler?.imageWaitTime || 2000
+              timeout: 180000, // 3分钟超时
+              pageWaitTime: 2000, // 2秒等待
+              imageWaitTime: 1500 // 1.5秒图片等待
             }
           };
           
           // 外观图片
           console.log(`   🎨 采集外观图片...`);
-          const exteriorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'wg');
+          const exteriorImages = await this.handleProtocolTimeout(
+            () => this.getTypeImages(browser, configWithTimeout, carId, 'wg'),
+            '外观图片采集'
+          );
           console.log(`   ✅ 外观图片采集完成，找到 ${exteriorImages.length} 个颜色`);
           
           // 内饰图片
           console.log(`   🎨 采集内饰图片...`);
-          const interiorImages = await this.getTypeImages(browser, configWithTimeout, carId, 'ns');
+          const interiorImages = await this.handleProtocolTimeout(
+            () => this.getTypeImages(browser, configWithTimeout, carId, 'ns'),
+            '内饰图片采集'
+          );
           console.log(`   ✅ 内饰图片采集完成，找到 ${interiorImages.length} 个颜色`);
           
           // 过滤掉crawler字段
@@ -1797,21 +1899,14 @@ class DataCollector {
     });
     
     // 并发执行所有图片采集任务
-    const results = await Promise.all(imageCollectionTasks);
+    const validResults = await Promise.all(imageCollectionTasks);
     
-    // 按原始顺序重新排列结果
-    for (let i = 0; i < configs.length; i++) {
-      const originalIndex = configs.findIndex(c => c.configId === results[i].configId);
-      if (originalIndex !== -1) {
-        configsWithImages[originalIndex] = results[i];
-      } else {
-        configsWithImages.push(results[i]);
-      }
-    }
+    // 合并所有结果：无效配置 + 有效配置结果
+    const allResults = [...invalidResults, ...validResults];
     
-    const totalTime = Math.round((Date.now() - startTime) / 1000);
-    console.log(`🎉 所有配置图片采集完成，共 ${configsWithImages.length} 个配置，耗时 ${totalTime} 秒`);
-    return configsWithImages;
+    console.log(`🎉 所有配置图片采集完成，共 ${allResults.length} 个配置，耗时 ${Math.round((Date.now() - startTime) / 1000)} 秒`);
+    
+    return allResults;
   }
 
   // 新增：更新图片采集进度

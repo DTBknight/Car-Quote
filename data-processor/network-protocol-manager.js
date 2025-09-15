@@ -207,8 +207,8 @@ class NetworkProtocolManager {
       console.log('🔧 优化页面配置...');
       
       // 设置页面超时
-      page.setDefaultTimeout(30000);
-      page.setDefaultNavigationTimeout(30000);
+      page.setDefaultTimeout(120000);
+      page.setDefaultNavigationTimeout(120000);
       
       // 设置页面视口
       await page.setViewport({ width: 1280, height: 800 });

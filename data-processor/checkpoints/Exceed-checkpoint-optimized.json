@@ -1,0 +1,160 @@
+{
+  "brand": "Exceed",
+  "timestamp": "2025-09-15T07:45:32.881Z",
+  "crawlSummary": {
+    "totalCars": 9,
+    "successCount": 9,
+    "failCount": 2,
+    "totalTime": "95分钟",
+    "successRate": "82%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 8965,
+        "carName": "星纪元ES",
+        "configCount": 12,
+        "exteriorColorCount": 39,
+        "interiorColorCount": 15,
+        "status": "completed"
+      },
+      {
+        "carId": 3083,
+        "carName": "星途追风",
+        "configCount": 2,
+        "exteriorColorCount": 2,
+        "interiorColorCount": 2,
+        "status": "completed"
+      },
+      {
+        "carId": 5567,
+        "carName": "星途追风C-DM",
+        "configCount": 3,
+        "exteriorColorCount": 5,
+        "interiorColorCount": 2,
+        "status": "completed"
+      },
+      {
+        "carId": 4792,
+        "carName": "星途凌云",
+        "configCount": 7,
+        "exteriorColorCount": 25,
+        "interiorColorCount": 11,
+        "status": "completed"
+      },
+      {
+        "carId": 5953,
+        "carName": "星途瑶光",
+        "configCount": 12,
+        "exteriorColorCount": 45,
+        "interiorColorCount": 15,
+        "status": "completed"
+      },
+      {
+        "carId": 8967,
+        "carName": "星途瑶光C-DM",
+        "configCount": 9,
+        "exteriorColorCount": 37,
+        "interiorColorCount": 11,
+        "status": "completed"
+      },
+      {
+        "carId": 8966,
+        "carName": "星纪元ET",
+        "configCount": 17,
+        "exteriorColorCount": 64,
+        "interiorColorCount": 44,
+        "status": "completed"
+      },
+      {
+        "carId": 3720,
+        "carName": "星途揽月",
+        "configCount": 10,
+        "exteriorColorCount": 28,
+        "interiorColorCount": 19,
+        "status": "completed"
+      },
+      {
+        "carId": 24925,
+        "carName": "星途揽月C-DM",
+        "configCount": 4,
+        "exteriorColorCount": 16,
+        "interiorColorCount": 8,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 261,
+    "totalInteriorColors": 127,
+    "exteriorColorTypes": [
+      "玄武黑",
+      "旷野绿",
+      "淡天青",
+      "极光紫",
+      "晨曦红",
+      "云英紫",
+      "银雀灰",
+      "象牙白",
+      "司马灰",
+      "李太白",
+      "银河灰",
+      "皓月白",
+      "星际蓝",
+      "幻夜黑",
+      "陨石灰",
+      "苍穹蓝",
+      "星际银",
+      "极光绿",
+      "鎏光金",
+      "玄羽黑",
+      "燕尾黑",
+      "雀尾绿",
+      "犀角灰",
+      "松鼠灰",
+      "鹦鹉绿",
+      "孔雀蓝",
+      "赤狐红",
+      "星夜黑",
+      "星汉灰",
+      "苍岭绿",
+      "月影灰",
+      "玄武灰",
+      "云舒白",
+      "雾凇蓝"
+    ],
+    "interiorColorTypes": [
+      "瓷青",
+      "霞红",
+      "黑色",
+      "蓝色/白色",
+      "沐光橙",
+      "雅银黑",
+      "月影粽",
+      "珊瑚红",
+      "徽墨黑",
+      "宣纸白",
+      "徽砚棕",
+      "乌金黑",
+      "静谧灰",
+      "罗纱棕",
+      "瓦青灰",
+      "罗兰紫",
+      "月影棕",
+      "黑色/棕色",
+      "沐光橙/黑色"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}

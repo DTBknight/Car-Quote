@@ -4,8 +4,8 @@ const config = {
   crawler: {
     concurrency: 2, // 并发数 - 提升到2，平衡速度和稳定性
     maxRetries: 3, // 最大重试次数 - 减少到3次，避免过度重试
-    timeout: 180000, // 单次页面超时 (ms) - 增加到180秒，适应复杂页面
-    protocolTimeout: 600000, // 协议层超时 (ms) - 增加到600秒，适应复杂网络
+    timeout: 300000, // 单次页面超时 (ms) - 增加到300秒，解决页面超时问题
+    protocolTimeout: 1800000, // 协议层超时 (ms) - 增加到30分钟，彻底解决超时
     pageWaitTime: 4000, // 页面加载后等待时间 (ms) - 增加等待时间确保稳定
     imageWaitTime: 3000, // 图片加载后等待时间 (ms) - 增加等待时间
     globalTimeout: 1800000, // 全局超时 (30分钟) - 增加全局超时
@@ -33,10 +33,10 @@ const config = {
     maxImageRetries: 3, // 最大图片重试次数 - 减少重试次数
     imageTimeout: 120000, // 图片采集超时 - 增加到120秒，适应复杂页面
       // 图片采集配置（平衡速度和稳定性）
-  imageConcurrency: 2, // 配置级并发数 - 提升到2，平衡速度和稳定性
-  colorConcurrency: 2, // 颜色级并发数 - 提升到2，平衡速度和稳定性
-  pageTimeout: 180000, // 页面加载超时（图片采集专用）- 增加到180秒
-  colorPageTimeout: 120000, // 颜色页面超时 - 增加到120秒
+  imageConcurrency: 1, // 配置级并发数 - 降低到1，避免协议冲突
+  colorConcurrency: 1, // 颜色级并发数 - 降低到1，避免协议冲突
+  pageTimeout: 300000, // 页面加载超时（图片采集专用）- 增加到300秒
+  colorPageTimeout: 60000, // 颜色页面超时 - 减少到60秒，避免卡住
   pageWaitTime: 4000, // 页面等待时间（图片采集专用）- 确保页面稳定
   imageWaitTime: 3000, // 图片等待时间（图片采集专用）- 确保图片加载
     

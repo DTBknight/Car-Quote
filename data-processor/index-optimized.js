@@ -132,6 +132,7 @@ const brandIdsMap = {
   FAW: 67, // 一汽
   Denza: 159, // 腾势
   Deepal: 515, // 深蓝
+  Exceed: 251, // 星途
 };
 
 // 主处理器
@@ -238,9 +239,9 @@ class CarDataProcessor {
         failCount++;
       }
 
-      // 品牌间延迟 - 大幅减少延迟时间
+      // 优化：减少品牌间延迟，提升整体速度
       if (idx < total - 1) {
-        const delay = getSmartDelay(1000, 2000); // 从3-5秒减少到1-2秒
+        const delay = getSmartDelay(500, 1000); // 从1-2秒减少到0.5-1秒
         console.log(`⏳ 等待 ${delay/1000} 秒后处理下一个品牌...`);
         await new Promise(resolve => setTimeout(resolve, delay));
       }
