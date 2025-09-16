@@ -1670,84 +1670,92 @@ class DataCollector {
             const imageWaitTime = Math.max(configCrawler.imageWaitTime || 1500, 1500); // 优化到1.5秒
             await new Promise(resolve => setTimeout(resolve, imageWaitTime));
             
-            // 主图抓取 - 更新为更灵活的图片选择器
+            // 主图抓取 - 优化图片选择器，确保采集主图
             const mainImage = await colorPage.evaluate(() => {
-              console.log('🔍 开始提取图片URL...');
+              console.log('🔍 开始提取主图URL...');
               
-              // 多种容器选择器，适应页面结构变化
-              const containerSelectors = [
-                'div.head-image_root__2SJX2',
-                'div[class*="head-image"]',
-                'div[class*="image-container"]',
-                'div[class*="main-image"]',
-                '.main-image',
-                '.image-container'
+              // 最高优先级：查找主图显示区域
+              const primarySelectors = [
+                'div.head-image_root__2SJX2 img', // 懂车帝主图容器中的图片
+                'div[class*="head-image"] img',
+                'div[class*="image-container"] img[style*="position: absolute"]', // 主图通常使用绝对定位
+                'div[class*="main-image"] img',
+                '.main-image img',
+                '.image-container img'
               ];
               
-              for (const selector of containerSelectors) {
-                const container = document.querySelector(selector);
-                if (container) {
-                  console.log(`✅ 找到容器: ${selector}`);
+              // 优先查找主图容器中的第一张大图
+              for (const selector of primarySelectors) {
+                const imgs = document.querySelectorAll(selector);
+                console.log(`🎯 主图选择器 ${selector} 找到 ${imgs.length} 个图片`);
+                
+                for (const img of imgs) {
+                  const imageUrl = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
                   
-                  // 查找所有图片元素
-                  const imageElements = container.querySelectorAll('img');
-                  console.log(`📸 容器内找到 ${imageElements.length} 个图片元素`);
-                  
-                  for (const img of imageElements) {
-                    const imageUrl = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
+                  // 严格的主图验证条件
+                  if (imageUrl && 
+                      imageUrl.startsWith('http') && 
+                      (imageUrl.includes('dcarimg.com') || imageUrl.includes('motor-mis-img') || 
+                       imageUrl.includes('p1-dcd.byteimg.com') || imageUrl.includes('p3-dcd.byteimg.com')) &&
+                      !imageUrl.includes('logo') && 
+                      !imageUrl.includes('placeholder') &&
+                      !imageUrl.includes('avatar') &&
+                      !imageUrl.includes('icon') &&
+                      !imageUrl.includes('thumbnail') &&
+                      !imageUrl.endsWith('.svg') &&
+                      imageUrl.length > 50) { // 主图URL通常较长
                     
-                    // 更宽松的图片验证条件
-                    if (imageUrl && 
-                        imageUrl.startsWith('http') && 
-                        !imageUrl.includes('logo') && 
-                        !imageUrl.includes('placeholder') &&
-                        !imageUrl.includes('avatar') &&
-                        !imageUrl.includes('icon') &&
-                        !imageUrl.endsWith('.svg') &&
-                        imageUrl.length > 30) {
-                      console.log('✅ 找到有效图片:', imageUrl);
+                    // 额外检查：确保图片尺寸合理（主图通常较大）
+                    const width = img.naturalWidth || img.width || 0;
+                    const height = img.naturalHeight || img.height || 0;
+                    
+                    if (width >= 400 || height >= 300) { // 主图尺寸阈值
+                      console.log('✅ 找到主图:', imageUrl, `尺寸: ${width}x${height}`);
                       return imageUrl;
                     }
                   }
                 }
               }
               
-              // 通用方法：在整个页面中查找有效图片
-              console.log('⚠️ 容器方法未找到图片，使用通用方法');
-              const fallbackSelectors = [
-                'img[src*="dcarimg.com"]',
-                'img[src*="motor-mis-img"]',
-                'img[src*="p1-dcd.byteimg.com"]',
-                'img[src*="p3-dcd.byteimg.com"]',
-                'img[style*="object-fit: contain"]',
-                'img[style*="position: absolute"]',
-                'img'
-              ];
+              // 次优选择：查找页面中最大的车型图片
+              console.log('⚠️ 主图选择器未找到，使用尺寸优先策略');
+              const allImages = document.querySelectorAll('img[src*="dcarimg.com"], img[src*="motor-mis-img"], img[src*="p1-dcd.byteimg.com"], img[src*="p3-dcd.byteimg.com"]');
               
-              for (const selector of fallbackSelectors) {
-                const imgs = document.querySelectorAll(selector);
-                console.log(`🔍 选择器 ${selector} 找到 ${imgs.length} 个图片`);
+              let bestImage = null;
+              let maxSize = 0;
+              
+              for (const img of allImages) {
+                const url = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
                 
-                for (const img of imgs) {
-                  const url = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
+                if (url && 
+                    url.startsWith('http') && 
+                    !url.includes('logo') && 
+                    !url.includes('placeholder') &&
+                    !url.includes('avatar') &&
+                    !url.includes('icon') &&
+                    !url.includes('thumbnail') &&
+                    !url.includes('fcf421caf44b23091eee') &&
+                    !url.endsWith('.svg') &&
+                    url.length > 50) {
                   
-                  // 更宽松的验证条件
-                  if (url && 
-                      url.startsWith('http') && 
-                      !url.includes('logo') && 
-                      !url.includes('placeholder') &&
-                      !url.includes('avatar') &&
-                      !url.includes('icon') &&
-                      !url.includes('fcf421caf44b23091eee') &&
-                      !url.endsWith('.svg') &&
-                      url.length > 30) {
-                    console.log('✅ 通用方法找到图片:', url);
-                    return url;
+                  const width = img.naturalWidth || img.width || 0;
+                  const height = img.naturalHeight || img.height || 0;
+                  const size = width * height;
+                  
+                  if (size > maxSize && size >= 120000) { // 最小面积阈值 (400x300)
+                    maxSize = size;
+                    bestImage = url;
+                    console.log(`🔍 发现更大图片: ${url}, 尺寸: ${width}x${height}`);
                   }
                 }
               }
               
-              console.log('❌ 未能找到有效图片');
+              if (bestImage) {
+                console.log('✅ 使用最大尺寸图片:', bestImage);
+                return bestImage;
+              }
+              
+              console.log('❌ 未找到任何有效的主图');
               return '';
             });
             
