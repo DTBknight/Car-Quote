@@ -1634,6 +1634,13 @@ class DataCollector {
             
             let colorPageUrl = color.link;
             
+            // 修复：确保访问的URL使用正确的索引(-0)，而不是其他索引
+            if (colorPageUrl && colorPageUrl.includes('dongchedi.com/series-')) {
+              // 强制将URL中的索引重写为-0，确保访问第一张图片
+              colorPageUrl = colorPageUrl.replace(/-\d+$/, '-0');
+              console.log(`🔧 修正色块URL: ${color.link} → ${colorPageUrl}`);
+            }
+            
             // 新增：色块处理进度
             console.log(`🎨 处理色块 ${color.name}`);
             

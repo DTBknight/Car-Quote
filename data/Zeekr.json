@@ -3,586 +3,6 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/f44eceb65e1590ab7aaab48a698feeed~tplv-resize:100:100.image",
   "cars": [
     {
-      "carId": 5015,
-      "carName": "ZEEKR 001",
-      "configs": [
-        {
-          "configName": "2025款 WE版 95kWh 后驱",
-          "configId": "239265",
-          "index": 0,
-          "price": "25.9万",
-          "manufacturer": "极氪",
-          "class": "中大型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 422马力",
-          "size": "4977x1999x1545",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑/灰",
-              "colors": [
-                "#292929",
-                "#898989"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 WE版 100kWh 后驱",
-          "configId": "239198",
-          "index": 1,
-          "price": "26.9万",
-          "manufacturer": "极氪",
-          "class": "中大型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 422马力",
-          "size": "4977x1999x1545",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿",
-              "colors": [
-                "#517951"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿/黑色",
-              "colors": [
-                "#517951",
-                "#111111"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰/黑色",
-              "colors": [
-                "#7A7B7B",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝/黑色",
-              "colors": [
-                "#7A90B1",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫",
-              "colors": [
-                "#D2CCE0"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "驭光橙",
-              "colors": [
-                "#F17748"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "驭光橙/黑色",
-              "colors": [
-                "#F17748",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白",
-              "colors": [
-                "#F2F3F7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑/灰",
-              "colors": [
-                "#292929",
-                "#898989"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黛绿",
-              "colors": [
-                "#2D692D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "蓝/白",
-              "colors": [
-                "#334863",
-                "#E8E8E8"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#DCD9D9"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 WE版 95kWh 四驱",
-          "configId": "239268",
-          "index": 2,
-          "price": "26.9万",
-          "manufacturer": "极氪",
-          "class": "中大型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 789马力",
-          "size": "4977x1999x1545",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿",
-              "colors": [
-                "#517951"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿/黑色",
-              "colors": [
-                "#517951",
-                "#111111"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰/黑色",
-              "colors": [
-                "#7A7B7B",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝/黑色",
-              "colors": [
-                "#7A90B1",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫",
-              "colors": [
-                "#D2CCE0"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫/黑色",
-              "colors": [
-                "#D2CCE0",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "驭光橙",
-              "colors": [
-                "#F17748"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "驭光橙/黑色",
-              "colors": [
-                "#F17748",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白",
-              "colors": [
-                "#F2F3F7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑/灰",
-              "colors": [
-                "#292929",
-                "#898989"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黛绿",
-              "colors": [
-                "#2D692D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "蓝/白",
-              "colors": [
-                "#334863",
-                "#E8E8E8"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#DCD9D9"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 ME版 100kWh 四驱",
-          "configId": "239213",
-          "index": 3,
-          "price": "29.9万",
-          "manufacturer": "极氪",
-          "class": "中大型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 789马力",
-          "size": "4977x1999x1533",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿",
-              "colors": [
-                "#517951"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿/黑色",
-              "colors": [
-                "#517951",
-                "#111111"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑/灰",
-              "colors": [
-                "#292929",
-                "#898989"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黛绿",
-              "colors": [
-                "#2D692D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "蓝/白",
-              "colors": [
-                "#334863",
-                "#E8E8E8"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 YOU版 100kWh 四驱",
-          "configId": "239214",
-          "index": 4,
-          "price": "32.9万",
-          "manufacturer": "极氪",
-          "class": "中大型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 789马力",
-          "size": "4977x1999x1533",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿",
-              "colors": [
-                "#517951"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "猎装绿/黑色",
-              "colors": [
-                "#517951",
-                "#111111"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰/黑色",
-              "colors": [
-                "#7A7B7B",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝/黑色",
-              "colors": [
-                "#7A90B1",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "驭光橙",
-              "colors": [
-                "#F17748"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "驭光橙/黑色",
-              "colors": [
-                "#F17748",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白",
-              "colors": [
-                "#F2F3F7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑/灰",
-              "colors": [
-                "#292929",
-                "#898989"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黛绿",
-              "colors": [
-                "#2D692D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "蓝/白",
-              "colors": [
-                "#334863",
-                "#E8E8E8"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "橙/灰",
-              "colors": [
-                "#DEB887",
-                "#B9B9B9"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        }
-      ]
-    },
-    {
       "carId": 10191,
       "carName": "ZEEKR 001 FR",
       "configs": [
@@ -622,7 +42,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65934728c5c9e14aa2ca6964b78c0f59~2508x0.webp"
             },
             {
               "name": "晴空蓝/银色",
@@ -630,21 +50,21 @@
                 "#879FD3",
                 "#8E95A3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f6ea1b8a2c0243f1f0d0f008bfc4337~2508x0.webp"
             },
             {
               "name": "烟雨灰",
               "colors": [
                 "#A9B1B4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/674194afe8c754c3654fda267bb8242a~2508x0.webp"
             },
             {
               "name": "苍穹绿",
               "colors": [
                 "#B0C5B0"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/495dfdde5aaa57c9f6ffa06cd84aec65~2508x0.webp"
             },
             {
               "name": "苍穹绿/黑色",
@@ -652,14 +72,14 @@
                 "#B0C5B0",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fab960c80b742db7cf6321a3e35bf76~2508x0.webp"
             },
             {
               "name": "星际紫",
               "colors": [
                 "#D2CCE0"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/96ce1345c47dd43af9de7ba214c15123~2508x0.webp"
             },
             {
               "name": "星际紫/黑色",
@@ -667,14 +87,14 @@
                 "#D2CCE0",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a3de6175268d525c8e1c13faa576211~2508x0.webp"
             },
             {
               "name": "皎月白",
               "colors": [
                 "#F4F4F4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a67c17b27e416196ff6036105de421c9~2508x0.webp"
             },
             {
               "name": "皎月白/黑色",
@@ -682,14 +102,14 @@
                 "#F4F4F4",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d6c3d8bf54e21ab91d2d4619508aace~2508x0.webp"
             },
             {
               "name": "云霭银",
               "colors": [
                 "#FEFBF4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/295b996c033c4e8d436efb9c7d52c826~2508x0.webp"
             },
             {
               "name": "云霭银/黑色",
@@ -697,7 +117,7 @@
                 "#FEFBF4",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ccb1ff79eec67878ade45ab8200b6260~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -707,7 +127,7 @@
                 "#000000",
                 "#A0A59C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1dee22e78aef5ca6ea7dd7ae4ac5599a~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -715,17 +135,17 @@
                 "#205A98",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0cc75f7e17a3e0f0273506d0b6df626a~2508x0.webp"
             },
             {
               "name": "黛绿",
               "colors": [
                 "#D4F4D4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c01227c07fe1b1c9a0a67317c8fa799b~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/65934728c5c9e14aa2ca6964b78c0f59~2508x0.webp"
         },
         {
           "configName": "2025款 长续航后驱智驾版 100kWh",
@@ -743,7 +163,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a92e8c7f21825e314040ba0aaca6040~2508x0.webp"
             },
             {
               "name": "晴空蓝/银色",
@@ -751,21 +171,21 @@
                 "#879FD3",
                 "#8E95A3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dc20ef452c1ab7cd4b488cf221c26494~2508x0.webp"
             },
             {
               "name": "烟雨灰",
               "colors": [
                 "#A9B1B4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_53d438bea1cf5c17c3628a3fad77aba3~2508x0.webp"
             },
             {
               "name": "苍穹绿",
               "colors": [
                 "#B0C5B0"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78440e9145049fd6f444d7fd17fef9ba~2508x0.webp"
             },
             {
               "name": "苍穹绿/黑色",
@@ -773,21 +193,21 @@
                 "#B0C5B0",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5886fc36cf8dc2d2bd81016a85b4e123~2508x0.webp"
             },
             {
               "name": "星际紫",
               "colors": [
                 "#D2CCE0"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/448f458d15645094ff8e8d0053e128f5~2508x0.webp"
             },
             {
               "name": "皎月白",
               "colors": [
                 "#F4F4F4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5ba775ae2c92fff06552d287dd64e60d~2508x0.webp"
             },
             {
               "name": "皎月白/黑色",
@@ -795,7 +215,7 @@
                 "#F4F4F4",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e52064827eaced8cf47877eab4cc98f~2508x0.webp"
             },
             {
               "name": "云霭银/黑色",
@@ -803,7 +223,7 @@
                 "#FEFBF4",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7cb5313ab52e95278e182b6d4867291b~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -813,7 +233,7 @@
                 "#000000",
                 "#A0A59C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e996af428e0c32a5863f09b6ed416e4b~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -821,10 +241,10 @@
                 "#205A98",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63e441680cf453c5dae6f129965fab40~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3a92e8c7f21825e314040ba0aaca6040~2508x0.webp"
         },
         {
           "configName": "2025款 四驱智驾版 75kWh",
@@ -842,7 +262,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e6a9b30f28139e0017c04f87939648ea~2508x0.webp"
             },
             {
               "name": "晴空蓝/银色",
@@ -850,14 +270,14 @@
                 "#879FD3",
                 "#8E95A3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fee19a5dc05fb053f87f1a87adc375e~2508x0.webp"
             },
             {
               "name": "皎月白",
               "colors": [
                 "#F4F4F4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8626cd3c06762fff20964bc3fc891a4b~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -867,7 +287,7 @@
                 "#000000",
                 "#A0A59C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de0688eea4a60f079a07de68cb805667~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -875,10 +295,10 @@
                 "#205A98",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3d55e61893a7c90b67d50d4ddda4cc1e~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e6a9b30f28139e0017c04f87939648ea~2508x0.webp"
         },
         {
           "configName": "2025款 长续航四驱智驾版 100kWh",
@@ -896,7 +316,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b443f866f84e3ee992151a9832caa3d1~2508x0.webp"
             },
             {
               "name": "晴空蓝/银色",
@@ -904,7 +324,7 @@
                 "#879FD3",
                 "#8E95A3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f51ef4e2a51488b89c514feed5c66e20~2508x0.webp"
             },
             {
               "name": "苍穹绿/黑色",
@@ -912,7 +332,7 @@
                 "#B0C5B0",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c5e5c02e2d35f1f11b393a321d0f8b6~2508x0.webp"
             },
             {
               "name": "星际紫/黑色",
@@ -920,14 +340,14 @@
                 "#D2CCE0",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb9b1bced1f4c063af55831d9a792a32~2508x0.webp"
             },
             {
               "name": "皎月白",
               "colors": [
                 "#F4F4F4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/07a46f53a99bc9dd6b0c57012fa5667c~2508x0.webp"
             },
             {
               "name": "皎月白/黑色",
@@ -935,7 +355,7 @@
                 "#F4F4F4",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/926e5d1f2eb3849490cb28ac9b9756b0~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -945,7 +365,7 @@
                 "#000000",
                 "#A0A59C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11d1f7b0e78d782fee84fa538802f9f2~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -953,17 +373,17 @@
                 "#205A98",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/192a3548f84115f0048b10ab376ee58b~2508x0.webp"
             },
             {
               "name": "黛绿",
               "colors": [
                 "#D4F4D4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02c6bc0d0c21080119b6d2754feb3570~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b443f866f84e3ee992151a9832caa3d1~2508x0.webp"
         },
         {
           "configName": "2025款 四驱性能版 100kWh",
@@ -981,7 +401,7 @@
               "colors": [
                 "#000003"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a61296c1d2ae954ae434e1f3b1b592db~2508x0.webp"
             },
             {
               "name": "功夫黄/黑色",
@@ -989,7 +409,7 @@
                 "#F4D10E",
                 "#070707"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/81b28300f7a673007270fe34c7697005~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -999,567 +419,10 @@
                 "#CE672B",
                 "#989DA4"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b9336aba03dd499b02530c7e5f8bed0a~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        }
-      ]
-    },
-    {
-      "carId": 25172,
-      "carName": "ZEEKR 007GT",
-      "configs": [
-        {
-          "configName": "2025款 后驱智驾版 75kWh",
-          "configId": "244368",
-          "index": 0,
-          "price": "20.29万",
-          "manufacturer": "极氪",
-          "class": "中型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 422马力",
-          "size": "4864x1900x1460",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旷境绿",
-              "colors": [
-                "#668266"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旷境绿/黑色",
-              "colors": [
-                "#668266",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫",
-              "colors": [
-                "#6A5497"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫/黑色",
-              "colors": [
-                "#6A5497",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰/黑色",
-              "colors": [
-                "#7A7B7B",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝/黑色",
-              "colors": [
-                "#7A90B1",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫",
-              "colors": [
-                "#D2CCE0"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫/黑色",
-              "colors": [
-                "#D2CCE0",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银",
-              "colors": [
-                "#DADADC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银/黑色",
-              "colors": [
-                "#DADADC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白",
-              "colors": [
-                "#F2F3F7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "紫白",
-              "colors": [
-                "#CECDCF"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑灰",
-              "colors": [
-                "#EEEDED"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "红黑",
-              "colors": [
-                "#F26262"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑白棕",
-              "colors": [
-                "#FCFCFC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 长续航后驱智驾版 100kWh",
-          "configId": "244367",
-          "index": 1,
-          "price": "22.29万",
-          "manufacturer": "极氪",
-          "class": "中型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 422马力",
-          "size": "4864x1900x1460",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旷境绿",
-              "colors": [
-                "#668266"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫",
-              "colors": [
-                "#6A5497"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫",
-              "colors": [
-                "#D2CCE0"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银",
-              "colors": [
-                "#DADADC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银/黑色",
-              "colors": [
-                "#DADADC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白",
-              "colors": [
-                "#F2F3F7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "紫白",
-              "colors": [
-                "#CECDCF"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑灰",
-              "colors": [
-                "#EEEDED"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "红黑",
-              "colors": [
-                "#F26262"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑白棕",
-              "colors": [
-                "#FCFCFC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱智驾版 75kWh",
-          "configId": "244366",
-          "index": 2,
-          "price": "23.29万",
-          "manufacturer": "极氪",
-          "class": "中型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 646马力",
-          "size": "4864x1900x1445",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旷境绿/黑色",
-              "colors": [
-                "#668266",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫",
-              "colors": [
-                "#6A5497"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫/黑色",
-              "colors": [
-                "#6A5497",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫",
-              "colors": [
-                "#D2CCE0"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银",
-              "colors": [
-                "#DADADC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银/黑色",
-              "colors": [
-                "#DADADC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "紫白",
-              "colors": [
-                "#CECDCF"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑灰",
-              "colors": [
-                "#EEEDED"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "红黑",
-              "colors": [
-                "#F26262"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑白棕",
-              "colors": [
-                "#FCFCFC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 长续航四驱智驾版 100kWh",
-          "configId": "244205",
-          "index": 3,
-          "price": "26.29万",
-          "manufacturer": "极氪",
-          "class": "中型车",
-          "fuelType": "纯电动",
-          "power": "纯电动 646马力",
-          "size": "4864x1900x1445",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#010101"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旷境绿",
-              "colors": [
-                "#668266"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫",
-              "colors": [
-                "#6A5497"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "暗夜紫/黑色",
-              "colors": [
-                "#6A5497",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "镭射灰",
-              "colors": [
-                "#7A7B7B"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴天蓝",
-              "colors": [
-                "#7A90B1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫",
-              "colors": [
-                "#D2CCE0"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星际紫/黑色",
-              "colors": [
-                "#D2CCE0",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银",
-              "colors": [
-                "#DADADC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "冰川银/黑色",
-              "colors": [
-                "#DADADC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "紫白",
-              "colors": [
-                "#CECDCF"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑灰",
-              "colors": [
-                "#EEEDED"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "红黑",
-              "colors": [
-                "#F26262"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "黑白棕",
-              "colors": [
-                "#FCFCFC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a61296c1d2ae954ae434e1f3b1b592db~2508x0.webp"
         }
       ]
     },
@@ -1583,49 +446,49 @@
               "colors": [
                 "#0E0E0E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa033ccd74d20ab6042b92779c2e920f~2508x0.webp"
             },
             {
               "name": "杭青绿",
               "colors": [
                 "#7DB0B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35e7bed15bd7d68b3331a96f3ccd8b71~2508x0.webp"
             },
             {
               "name": "柏林银灰",
               "colors": [
                 "#A7ABAE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6306c93928408ef463665cefe4b6b09b~2508x0.webp"
             },
             {
               "name": "苏墨灰",
               "colors": [
                 "#B1B1B1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3a8afef0f7cbfc4da07821af0841a859~2508x0.webp"
             },
             {
               "name": "加州霞粉",
               "colors": [
                 "#C8A8B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ff952432d9a72769fe92ff8ea30762c3~2508x0.webp"
             },
             {
               "name": "巴黎玄米",
               "colors": [
                 "#D8D2C6"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5272e9746b31aed077a66db899b2ca0c~2508x0.webp"
             },
             {
               "name": "雅典云白",
               "colors": [
                 "#FAFAFB"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/aa01003b2835de5641d02fa350d10e70~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1634,31 +497,31 @@
               "colors": [
                 "#124C5E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31fa3adfe1c8b8e0b8d16d7d83102681~2508x0.webp"
             },
             {
               "name": "蓝绿",
               "colors": [
                 "#459862"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3aed884bb4e75ed3786eeffd4769d3b2~2508x0.webp"
             },
             {
               "name": "紫玫",
               "colors": [
                 "#841556"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fc625ecf82d2f5c9febd3495b3976b24~2508x0.webp"
             },
             {
               "name": "黑灰",
               "colors": [
                 "#9FA7AD"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2cb49641c5c7e35d8bd1c9eba3cb7e20~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/aa033ccd74d20ab6042b92779c2e920f~2508x0.webp"
         },
         {
           "configName": "2025款 五座后驱长续航版",
@@ -1676,49 +539,49 @@
               "colors": [
                 "#7DB0B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0fe7dd91223fff33432a9b0beba0899f~2508x0.webp"
             },
             {
               "name": "柏林银灰",
               "colors": [
                 "#A7ABAE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d826eb49255f68a964a7ce04db913faa~2508x0.webp"
             },
             {
               "name": "苏墨灰",
               "colors": [
                 "#B1B1B1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/edfd8cc530f011b7d9a7dc163669497c~2508x0.webp"
             },
             {
               "name": "加州霞粉",
               "colors": [
                 "#C8A8B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9bdc01a0ca49c0b24a4ec99a302f4d30~2508x0.webp"
             },
             {
               "name": "迈阿密橙",
               "colors": [
                 "#D26135"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/64402bf76882f46f36ee842670da7bdc~2508x0.webp"
             },
             {
               "name": "巴黎玄米",
               "colors": [
                 "#D8D2C6"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d7b9eeb8b0580c5dfcbe1d83920b736~2508x0.webp"
             },
             {
               "name": "雅典云白",
               "colors": [
                 "#FAFAFB"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3c90caafbda602ee49404b715d58510~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1727,31 +590,31 @@
               "colors": [
                 "#124C5E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fce063c3c63d1dc6ef2c4be2d6269b7b~2508x0.webp"
             },
             {
               "name": "蓝绿",
               "colors": [
                 "#459862"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78c5734f8db5d4de631855b52e9f56a2~2508x0.webp"
             },
             {
               "name": "紫玫",
               "colors": [
                 "#841556"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce6834247f1c871c7469d6693bcf262b~2508x0.webp"
             },
             {
               "name": "黑灰",
               "colors": [
                 "#9FA7AD"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ccd8f211fdfa369bfbc4def12de925c9~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0fe7dd91223fff33432a9b0beba0899f~2508x0.webp"
         },
         {
           "configName": "2025款 五座四驱运动版",
@@ -1769,35 +632,35 @@
               "colors": [
                 "#7DB0B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b8beab86a80e70060dcbbc1c3ac22f6c~2508x0.webp"
             },
             {
               "name": "柏林银灰",
               "colors": [
                 "#A7ABAE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/750003df3857bfe0cd982b4a243559e8~2508x0.webp"
             },
             {
               "name": "苏墨灰",
               "colors": [
                 "#B1B1B1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a78790d99c6c3e578544a50fc16cfd9e~2508x0.webp"
             },
             {
               "name": "迈阿密橙",
               "colors": [
                 "#D26135"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2eefeca621a62b58da25f196a609722d~2508x0.webp"
             },
             {
               "name": "巴黎玄米",
               "colors": [
                 "#D8D2C6"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85552e622079c38f2d0216ca19fa92dd~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1806,31 +669,31 @@
               "colors": [
                 "#124C5E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1f7e7a978f69061794930a6102d1cddd~2508x0.webp"
             },
             {
               "name": "蓝绿",
               "colors": [
                 "#459862"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e7836cdb81c12e79af29bcf001002778~2508x0.webp"
             },
             {
               "name": "紫玫",
               "colors": [
                 "#841556"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_46af8a3800050435137e6f59ff09fde4~2508x0.webp"
             },
             {
               "name": "黑灰",
               "colors": [
                 "#9FA7AD"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/43e1726b25fc1daed6bf53f9941c47dc~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/b8beab86a80e70060dcbbc1c3ac22f6c~2508x0.webp"
         },
         {
           "configName": "2025款 四座后驱魔方版",
@@ -1848,42 +711,42 @@
               "colors": [
                 "#7DB0B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6f94f70a89b46a58255eeb4330a91e36~2508x0.webp"
             },
             {
               "name": "苏墨灰",
               "colors": [
                 "#B1B1B1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/46924612feacb5eda0493b4c34383cb8~2508x0.webp"
             },
             {
               "name": "加州霞粉",
               "colors": [
                 "#C8A8B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b31c3008b9a07914e26bc30d6165a781~2508x0.webp"
             },
             {
               "name": "迈阿密橙",
               "colors": [
                 "#D26135"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/899ed0b955dc12d9189085dc3e44adfc~2508x0.webp"
             },
             {
               "name": "巴黎玄米",
               "colors": [
                 "#D8D2C6"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/60697889350a6a98d3452a9ea246b865~2508x0.webp"
             },
             {
               "name": "雅典云白",
               "colors": [
                 "#FAFAFB"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c7851339065dc46c1fb6d38379f4b060~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1892,31 +755,31 @@
               "colors": [
                 "#124C5E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d751ebe3aeb320dd342a495d8bef3683~2508x0.webp"
             },
             {
               "name": "蓝绿",
               "colors": [
                 "#459862"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/65ab4db26891c47760ff57c21db117bf~2508x0.webp"
             },
             {
               "name": "紫玫",
               "colors": [
                 "#841556"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5588ea834a88765e261ee2b41c2337a~2508x0.webp"
             },
             {
               "name": "黑灰",
               "colors": [
                 "#9FA7AD"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/de2c8517e9520a1617332888b912788a~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6f94f70a89b46a58255eeb4330a91e36~2508x0.webp"
         },
         {
           "configName": "2025款 四座四驱魔方版",
@@ -1934,7 +797,7 @@
               "colors": [
                 "#C8A8B3"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4da0815330303a9da3b979be58afae0d~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1943,10 +806,1147 @@
               "colors": [
                 "#841556"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ea2d483bdf8fc2f99bcb3a40aa722283~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/4da0815330303a9da3b979be58afae0d~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5015,
+      "carName": "ZEEKR 001",
+      "configs": [
+        {
+          "configName": "2025款 WE版 95kWh 后驱",
+          "configId": "239265",
+          "index": 0,
+          "price": "25.9万",
+          "manufacturer": "极氪",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4977x1999x1545",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22b1d4b40dba156678f009569a9cd9f0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑/灰",
+              "colors": [
+                "#292929",
+                "#898989"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2b8068b7b72cea763e420539b2d55e49~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_22b1d4b40dba156678f009569a9cd9f0~2508x0.webp"
+        },
+        {
+          "configName": "2025款 WE版 100kWh 后驱",
+          "configId": "239198",
+          "index": 1,
+          "price": "26.9万",
+          "manufacturer": "极氪",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4977x1999x1545",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/809f542444407e21c8dcb1ebbe6e52a5~2508x0.webp"
+            },
+            {
+              "name": "猎装绿",
+              "colors": [
+                "#517951"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/57e92d72695cf98240c71a40749d03f2~2508x0.webp"
+            },
+            {
+              "name": "猎装绿/黑色",
+              "colors": [
+                "#517951",
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c72587fc3aec8c4d1040db68a8c4bc35~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d05b83d402808003dfabc23b55e3b25d~2508x0.webp"
+            },
+            {
+              "name": "镭射灰/黑色",
+              "colors": [
+                "#7A7B7B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8d6a0f78bda40213dbfa64cc906989f5~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ae199bea9126cf42d90e21aadd4efefa~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝/黑色",
+              "colors": [
+                "#7A90B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09f6001605f3cdc6009c1d040022e3db~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9184ffe6bef33c0401148fda035ea63d~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/669fc4dd3a7452683cd2ef22a6aeea87~2508x0.webp"
+            },
+            {
+              "name": "星际紫",
+              "colors": [
+                "#D2CCE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3bc90459397906e72424b9ff6bdd2e42~2508x0.webp"
+            },
+            {
+              "name": "驭光橙",
+              "colors": [
+                "#F17748"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59a658f550824555873d7ac788d80e42~2508x0.webp"
+            },
+            {
+              "name": "驭光橙/黑色",
+              "colors": [
+                "#F17748",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2ba85aa1ab1a94ebd8d60a9ece5272f~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#F2F3F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9d34ab2e287d12a454c127589fa2c631~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ee5da04b3a5879ee05d4b3b58b42baa0~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑/灰",
+              "colors": [
+                "#292929",
+                "#898989"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/68c0cc6fee61767a328029f127790e56~2508x0.webp"
+            },
+            {
+              "name": "黛绿",
+              "colors": [
+                "#2D692D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8375d2b564e6aca35dbc2639606a0f6b~2508x0.webp"
+            },
+            {
+              "name": "蓝/白",
+              "colors": [
+                "#334863",
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c1f24544c0b9155759207521f8933da9~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#DCD9D9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_235563c6f0c99891a35eb64881c724d8~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/809f542444407e21c8dcb1ebbe6e52a5~2508x0.webp"
+        },
+        {
+          "configName": "2025款 WE版 95kWh 四驱",
+          "configId": "239268",
+          "index": 2,
+          "price": "26.9万",
+          "manufacturer": "极氪",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 789马力",
+          "size": "4977x1999x1545",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/21931ff65df801a799b1f234e85cd343~2508x0.webp"
+            },
+            {
+              "name": "猎装绿",
+              "colors": [
+                "#517951"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/62ae1a38cef8c43c37e799ba94e98b03~2508x0.webp"
+            },
+            {
+              "name": "猎装绿/黑色",
+              "colors": [
+                "#517951",
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1c60157c80dcb61c370daa214a257f94~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/733bb7433f401e6dfd385f8810a28c0a~2508x0.webp"
+            },
+            {
+              "name": "镭射灰/黑色",
+              "colors": [
+                "#7A7B7B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc2b20749697b3b784d247a784ac719f~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/70db9c62ac962c111dfd0f12314ee589~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝/黑色",
+              "colors": [
+                "#7A90B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b78bcd038b03cd8ba1a1ac67c39daf4d~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5732547b4dbe434a1643f6c7c82d131~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e67793305569ae2c1492960694c14f82~2508x0.webp"
+            },
+            {
+              "name": "星际紫",
+              "colors": [
+                "#D2CCE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56be6c4d31f1a02d77a80e95f12f137a~2508x0.webp"
+            },
+            {
+              "name": "星际紫/黑色",
+              "colors": [
+                "#D2CCE0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_57d159ee07398c06ad333b121e2b51ab~2508x0.webp"
+            },
+            {
+              "name": "驭光橙",
+              "colors": [
+                "#F17748"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d560e1b6e7fd3dae0991fa876e7383ad~2508x0.webp"
+            },
+            {
+              "name": "驭光橙/黑色",
+              "colors": [
+                "#F17748",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2e2a7aee4bb06785d0f7eacd8ee59c96~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#F2F3F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf435e30842981ce17b99abff24afd3c~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a889fa35032abf86a48a6780991c82e7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑/灰",
+              "colors": [
+                "#292929",
+                "#898989"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a83892b30b1694b8629f2b3023207f2d~2508x0.webp"
+            },
+            {
+              "name": "黛绿",
+              "colors": [
+                "#2D692D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27901df82fc3a113217bbbb6c156db81~2508x0.webp"
+            },
+            {
+              "name": "蓝/白",
+              "colors": [
+                "#334863",
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/92da72885cbbaec24beefc35243e9974~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#DCD9D9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab672f3bf32228940ee216de4485fd63~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/21931ff65df801a799b1f234e85cd343~2508x0.webp"
+        },
+        {
+          "configName": "2025款 ME版 100kWh 四驱",
+          "configId": "239213",
+          "index": 3,
+          "price": "29.9万",
+          "manufacturer": "极氪",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 789马力",
+          "size": "4977x1999x1533",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4fe00531d836e171f6773804b092582c~2508x0.webp"
+            },
+            {
+              "name": "猎装绿",
+              "colors": [
+                "#517951"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eae4b645fd5b2d6c30de9644b7d8b420~2508x0.webp"
+            },
+            {
+              "name": "猎装绿/黑色",
+              "colors": [
+                "#517951",
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13b1b0bdbc427b8a1f0c3c25d9498b62~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ee9057dd10991ab5fa43c19ecda5e864~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdd29394a092838861aa760b94b0cf0d~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df2263779b01ce0767cdb8e80f324fc2~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c33fdc1542466c731a86afe517339e45~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑/灰",
+              "colors": [
+                "#292929",
+                "#898989"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d7e126710443eee3d3aede325d356c11~2508x0.webp"
+            },
+            {
+              "name": "黛绿",
+              "colors": [
+                "#2D692D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f7cf6d5709026735425a2b929e560621~2508x0.webp"
+            },
+            {
+              "name": "蓝/白",
+              "colors": [
+                "#334863",
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6e057c6b6c51922ad59f10139aa33371~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4fe00531d836e171f6773804b092582c~2508x0.webp"
+        },
+        {
+          "configName": "2025款 YOU版 100kWh 四驱",
+          "configId": "239214",
+          "index": 4,
+          "price": "32.9万",
+          "manufacturer": "极氪",
+          "class": "中大型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 789马力",
+          "size": "4977x1999x1533",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/219035b9124a61cfd1b619daf985fd1d~2508x0.webp"
+            },
+            {
+              "name": "猎装绿",
+              "colors": [
+                "#517951"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/31d0b2e484200292ef940c2971860801~2508x0.webp"
+            },
+            {
+              "name": "猎装绿/黑色",
+              "colors": [
+                "#517951",
+                "#111111"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/805833cab3ef76cedd4174fa26bb1bb8~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9eeb9fe712b8129e7818dc17a6940e5a~2508x0.webp"
+            },
+            {
+              "name": "镭射灰/黑色",
+              "colors": [
+                "#7A7B7B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3a433ae7431eec9f3872b044b70f6a50~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/425cc739b717b368fa5418cdbc740110~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝/黑色",
+              "colors": [
+                "#7A90B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b8540654166cec5ba256ea003023eac7~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d6d9826e32a0404179984d961b9150b7~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f0e797b58d2b2fb0ac1720acc3b55e4b~2508x0.webp"
+            },
+            {
+              "name": "驭光橙",
+              "colors": [
+                "#F17748"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/98810608f3ab5a3d80f7122f67c2e511~2508x0.webp"
+            },
+            {
+              "name": "驭光橙/黑色",
+              "colors": [
+                "#F17748",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9b5195e4f529661b12d98d8a9bbcbd9c~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#F2F3F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f8b66a85467d87d5bc4a43e2abb1ede~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cb37ca26d9077c3f1767e16fe4ad69e6~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑/灰",
+              "colors": [
+                "#292929",
+                "#898989"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/14af44877024e7ec50b0dc96cd1e87c3~2508x0.webp"
+            },
+            {
+              "name": "黛绿",
+              "colors": [
+                "#2D692D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66c220bf7d2d02c9c61510140f063eed~2508x0.webp"
+            },
+            {
+              "name": "蓝/白",
+              "colors": [
+                "#334863",
+                "#E8E8E8"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/20415a0bc813be1b37e23a8ea2fe913c~2508x0.webp"
+            },
+            {
+              "name": "橙/灰",
+              "colors": [
+                "#DEB887",
+                "#B9B9B9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_414223011df20e1960e99d455475dac5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/219035b9124a61cfd1b619daf985fd1d~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 25172,
+      "carName": "ZEEKR 007GT",
+      "configs": [
+        {
+          "configName": "2025款 后驱智驾版 75kWh",
+          "configId": "244368",
+          "index": 0,
+          "price": "20.29万",
+          "manufacturer": "极氪",
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4864x1900x1460",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ee3d486606b067fab31585b2b682645~2508x0.webp"
+            },
+            {
+              "name": "旷境绿",
+              "colors": [
+                "#668266"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_10f8aa10a2cef7e4b201d6670f12eec4~2508x0.webp"
+            },
+            {
+              "name": "旷境绿/黑色",
+              "colors": [
+                "#668266",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8f84e16f3d524c53089d9cf6c24a456e~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫",
+              "colors": [
+                "#6A5497"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7a31cd0aa46ba4e45c5e8d9b0f72eecb~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫/黑色",
+              "colors": [
+                "#6A5497",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbdf6efb6b02f35083841db7964795b9~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9c8e32e8df479b88f0523ba3ac216351~2508x0.webp"
+            },
+            {
+              "name": "镭射灰/黑色",
+              "colors": [
+                "#7A7B7B",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf848213948f9528a78abcd806707600~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_92fa6e9685390157ff050c18a71b7941~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝/黑色",
+              "colors": [
+                "#7A90B1",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b946ca64972edde641e5175ae6ec817c~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5765de9978fe878ac019aa5640f7b0a0~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2ed2de6ee43d84981921e3ee059eea82~2508x0.webp"
+            },
+            {
+              "name": "星际紫",
+              "colors": [
+                "#D2CCE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_60b7e7e0489486af0b31e9594cdef5ba~2508x0.webp"
+            },
+            {
+              "name": "星际紫/黑色",
+              "colors": [
+                "#D2CCE0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ddbe3d735d923a8deca4208881a32c09~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#DADADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7712b1bbc95ef2c34355b3364c123500~2508x0.webp"
+            },
+            {
+              "name": "冰川银/黑色",
+              "colors": [
+                "#DADADC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3d010aec2d749d5c2b621fd540c97140~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#F2F3F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_798f12016f90c114f146f5e381cc4a18~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a02cc2facdae82627f69db85e07278b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫白",
+              "colors": [
+                "#CECDCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_88391dbf2ebbbbc3acdc9d3debb51afa~2508x0.webp"
+            },
+            {
+              "name": "黑灰",
+              "colors": [
+                "#EEEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_90c5a566b4708fff54627660bef872d9~2508x0.webp"
+            },
+            {
+              "name": "红黑",
+              "colors": [
+                "#F26262"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6d3675429a6be02c7be7bb381b39a86a~2508x0.webp"
+            },
+            {
+              "name": "黑白棕",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_76cd8600ab9b48b447d48c7eb87a8906~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8ee3d486606b067fab31585b2b682645~2508x0.webp"
+        },
+        {
+          "configName": "2025款 长续航后驱智驾版 100kWh",
+          "configId": "244367",
+          "index": 1,
+          "price": "22.29万",
+          "manufacturer": "极氪",
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4864x1900x1460",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bf8835fb53aba0184ee8ca94f01ecdac~2508x0.webp"
+            },
+            {
+              "name": "旷境绿",
+              "colors": [
+                "#668266"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_56184fc38889ec6ae2502206348b60d3~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫",
+              "colors": [
+                "#6A5497"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_12f6a54f7979ab2cac935229da8d6bd1~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_71f24641485eb40b52d32367cf6f9907~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_63f6925acca47fda003f850ff5ec3c1c~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8313ffdf3bb65af8e6f919ab7dbfd5cf~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d4e2626ab2c38918e607f4e751ce50e~2508x0.webp"
+            },
+            {
+              "name": "星际紫",
+              "colors": [
+                "#D2CCE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af85ca51ff56dfecd0fc3c2a8c3f3de7~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#DADADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c9e9229ed675e04d93c99177e38ac8d~2508x0.webp"
+            },
+            {
+              "name": "冰川银/黑色",
+              "colors": [
+                "#DADADC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_edd653b3926e16f8c7314efca639646b~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#F2F3F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f68db39c52b1a649841f46501950f572~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫白",
+              "colors": [
+                "#CECDCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3702a10ccc8350c20667e125951d11ab~2508x0.webp"
+            },
+            {
+              "name": "黑灰",
+              "colors": [
+                "#EEEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1048cfbee3a4cf6b3db13fe06fc3d5d7~2508x0.webp"
+            },
+            {
+              "name": "红黑",
+              "colors": [
+                "#F26262"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_915e79df599bfbac1688c7f37132e860~2508x0.webp"
+            },
+            {
+              "name": "黑白棕",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0ff8311ff2cfb070ef17a7e4bca96ed4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bf8835fb53aba0184ee8ca94f01ecdac~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱智驾版 75kWh",
+          "configId": "244366",
+          "index": 2,
+          "price": "23.29万",
+          "manufacturer": "极氪",
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "4864x1900x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e623967ce14897cfb7b5028a2cbf1754~2508x0.webp"
+            },
+            {
+              "name": "旷境绿/黑色",
+              "colors": [
+                "#668266",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8b70a0b9589cafd58640c652432d420~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫",
+              "colors": [
+                "#6A5497"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c4b3fce087460d4bf323a43d6c9f86d3~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫/黑色",
+              "colors": [
+                "#6A5497",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_530c51cbe825572481002488d24cab0b~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_54d18f077f56e12fc8c4699cf78c2534~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0d36f58598fe36b638bcae1781f160f4~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_656d1128b36838fef32a196e5f3767ef~2508x0.webp"
+            },
+            {
+              "name": "星际紫",
+              "colors": [
+                "#D2CCE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_752ac83aa33b4b95c3232599a1e68a99~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#DADADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef2775f54cb2b256f137ada6e876fe24~2508x0.webp"
+            },
+            {
+              "name": "冰川银/黑色",
+              "colors": [
+                "#DADADC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6775a3061a934c2f48837435531a4848~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫白",
+              "colors": [
+                "#CECDCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a9018babb1c03839aee0d97331a204c7~2508x0.webp"
+            },
+            {
+              "name": "黑灰",
+              "colors": [
+                "#EEEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0a9bf7800bd2cc10380cac7dc40dcd10~2508x0.webp"
+            },
+            {
+              "name": "红黑",
+              "colors": [
+                "#F26262"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f95837b390b4d75c42903105b96b99b6~2508x0.webp"
+            },
+            {
+              "name": "黑白棕",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_117bc8e8126302083dd1b6433271decc~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e623967ce14897cfb7b5028a2cbf1754~2508x0.webp"
+        },
+        {
+          "configName": "2025款 长续航四驱智驾版 100kWh",
+          "configId": "244205",
+          "index": 3,
+          "price": "26.29万",
+          "manufacturer": "极氪",
+          "class": "中型车",
+          "fuelType": "纯电动",
+          "power": "纯电动 646马力",
+          "size": "4864x1900x1445",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#010101"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c4a25db34639767905254805844f574~2508x0.webp"
+            },
+            {
+              "name": "旷境绿",
+              "colors": [
+                "#668266"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_64e85a4ddcb6db0627e2d172f8401319~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫",
+              "colors": [
+                "#6A5497"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ab4c9d5866063eff3d844bb474ddd75d~2508x0.webp"
+            },
+            {
+              "name": "暗夜紫/黑色",
+              "colors": [
+                "#6A5497",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e18842d0d887ee60f70417a09154ccf4~2508x0.webp"
+            },
+            {
+              "name": "镭射灰",
+              "colors": [
+                "#7A7B7B"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_94c79bd95547ed30ac275f823f2637ab~2508x0.webp"
+            },
+            {
+              "name": "晴天蓝",
+              "colors": [
+                "#7A90B1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf45bda110da44556984715416444c7d~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d6e6351c576f77513c2194c53b72dcb1~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1456f3b30ce98ab8fd5d48d8328267ed~2508x0.webp"
+            },
+            {
+              "name": "星际紫",
+              "colors": [
+                "#D2CCE0"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dbcb4ad9850ee326e5a36f6a506c8b3f~2508x0.webp"
+            },
+            {
+              "name": "星际紫/黑色",
+              "colors": [
+                "#D2CCE0",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_990f613edca902774923bb1d26dcfd1d~2508x0.webp"
+            },
+            {
+              "name": "冰川银",
+              "colors": [
+                "#DADADC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4af1055a2e27bf6645630d7c433d89e1~2508x0.webp"
+            },
+            {
+              "name": "冰川银/黑色",
+              "colors": [
+                "#DADADC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9858936cd23fe101e045fb01107c70c7~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7e0bcb6fc0134fe233af99f8e9a3bcc5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫白",
+              "colors": [
+                "#CECDCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1bf2b7989c7f8ea4d1d7902f290f5c69~2508x0.webp"
+            },
+            {
+              "name": "黑灰",
+              "colors": [
+                "#EEEDED"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_849d8b851aec56968679bb928445d5e0~2508x0.webp"
+            },
+            {
+              "name": "红黑",
+              "colors": [
+                "#F26262"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2b093813fc8b53ca9627c494e80ddb9f~2508x0.webp"
+            },
+            {
+              "name": "黑白棕",
+              "colors": [
+                "#FCFCFC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18c17ecd3c9eef9689f2a7720328fe51~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c4a25db34639767905254805844f574~2508x0.webp"
         }
       ]
     },
@@ -1970,56 +1970,56 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec1decc81a752f49e0aa5d0509fe7123~2508x0.webp"
             },
             {
               "name": "森野绿",
               "colors": [
                 "#246C61"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9c3024fa7871816c57bafcb65830a469~2508x0.webp"
             },
             {
               "name": "涧石蓝",
               "colors": [
                 "#4779A1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e2f588758d70aad254ab86fb0bfde894~2508x0.webp"
             },
             {
               "name": "星暮灰",
               "colors": [
                 "#647481"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0970cb62279bde570915bd98d548d248~2508x0.webp"
             },
             {
               "name": "暗夜紫",
               "colors": [
                 "#6A5497"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c017b3a4be1fd4c191769def77814e2f~2508x0.webp"
             },
             {
               "name": "冰川银",
               "colors": [
                 "#DADADC"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f3f372d3d5f451cbf0553c1c094c6a08~2508x0.webp"
             },
             {
               "name": "云霞橙",
               "colors": [
                 "#E78B38"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/511f41350fc211a724779068cc1e2820~2508x0.webp"
             },
             {
               "name": "极昼白",
               "colors": [
                 "#F2F3F7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/39352e413cc11d531f8da4285d176ef7~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2028,7 +2028,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5299c113c272a19080e23758a06496ee~2508x0.webp"
             },
             {
               "name": "黑色/灰色",
@@ -2036,7 +2036,7 @@
                 "#000000",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb26e396af9d93c8aa095c1240fd87b4~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2044,7 +2044,7 @@
                 "#0F3C91",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bee50a1d9aa8231e80b74ceaeb15921b~2508x0.webp"
             },
             {
               "name": "紫色/白色",
@@ -2052,10 +2052,10 @@
                 "#A19A95",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3486fb79d1a028f194d30f495f200ac9~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ec1decc81a752f49e0aa5d0509fe7123~2508x0.webp"
         },
         {
           "configName": "2025款 100kWh 长续航后驱智驾版",
@@ -2073,63 +2073,63 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db15c31de4f798913d9ba63ca6bb1362~2508x0.webp"
             },
             {
               "name": "森野绿",
               "colors": [
                 "#246C61"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4c26d94bef59985e2e8fb66573b1dd1a~2508x0.webp"
             },
             {
               "name": "涧石蓝",
               "colors": [
                 "#4779A1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1fb90ab6bc90e4ea62cb222e1e7e43e7~2508x0.webp"
             },
             {
               "name": "星暮灰",
               "colors": [
                 "#647481"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1addfcf5a7dabea29707b7de43c67216~2508x0.webp"
             },
             {
               "name": "暗夜紫",
               "colors": [
                 "#6A5497"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b6f7c852ede256047678ae2b6d4a1b85~2508x0.webp"
             },
             {
               "name": "曙光棕",
               "colors": [
                 "#AC9F90"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a0f6188533ea04e5d2f7666cead3a1be~2508x0.webp"
             },
             {
               "name": "冰川银",
               "colors": [
                 "#DADADC"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f8abb8b6e2a6ba2701c4d8d534a9577~2508x0.webp"
             },
             {
               "name": "云霞橙",
               "colors": [
                 "#E78B38"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bff15aa98a8ddc9a2e92139efac101a9~2508x0.webp"
             },
             {
               "name": "极昼白",
               "colors": [
                 "#F2F3F7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/680e16446edfd9af2038777ac479e96e~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2138,7 +2138,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b9393ae133f837308f830752eacc7df~2508x0.webp"
             },
             {
               "name": "黑色/灰色",
@@ -2146,7 +2146,7 @@
                 "#000000",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d27168b3a6e8f0a893be8ded312ff4c~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2154,7 +2154,7 @@
                 "#0F3C91",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bd0b9fc5e42392096548fa4fe794c58b~2508x0.webp"
             },
             {
               "name": "紫色/白色",
@@ -2162,10 +2162,10 @@
                 "#A19A95",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6cd40dfd5d08cc7e6719ac7612d17cb1~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/db15c31de4f798913d9ba63ca6bb1362~2508x0.webp"
         },
         {
           "configName": "2025款 100kWh 长续航四驱智驾版",
@@ -2183,63 +2183,63 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09ec1bae5818bf7d4d83105e5f0bb8ea~2508x0.webp"
             },
             {
               "name": "森野绿",
               "colors": [
                 "#246C61"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5aaa90cff03bb5f51be7fb19b9ab915f~2508x0.webp"
             },
             {
               "name": "涧石蓝",
               "colors": [
                 "#4779A1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cfd64a6427c6fccc7146bcd3d994c7d5~2508x0.webp"
             },
             {
               "name": "星暮灰",
               "colors": [
                 "#647481"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bc8e68b6a8dd37f3144a139c4a64fa0d~2508x0.webp"
             },
             {
               "name": "暗夜紫",
               "colors": [
                 "#6A5497"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_33238e7ad26351cddb371ba26af314e8~2508x0.webp"
             },
             {
               "name": "曙光棕",
               "colors": [
                 "#AC9F90"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e95f8b32db80a19673fb814b3f05c66f~2508x0.webp"
             },
             {
               "name": "冰川银",
               "colors": [
                 "#DADADC"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4c2c6d7ef57e23efa31e54326555a5eb~2508x0.webp"
             },
             {
               "name": "云霞橙",
               "colors": [
                 "#E78B38"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c33c83fe4295441898dd8f971c02fb6~2508x0.webp"
             },
             {
               "name": "极昼白",
               "colors": [
                 "#F2F3F7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73ea8406a703b980d430fffe567bda71~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2248,7 +2248,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c506f41842ee514c9cbe47cd750a1bc1~2508x0.webp"
             },
             {
               "name": "黑色/灰色",
@@ -2256,7 +2256,7 @@
                 "#000000",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a5f35381ef73c6bbd369a31eec2f1a40~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2264,7 +2264,7 @@
                 "#0F3C91",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ef3052ba2e2be88b58ca1e31cc6029f6~2508x0.webp"
             },
             {
               "name": "紫色/白色",
@@ -2272,7 +2272,7 @@
                 "#A19A95",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5f0e1593cb47d6abf5a55c852222afa2~2508x0.webp"
             },
             {
               "name": "灰色/白色",
@@ -2280,10 +2280,190 @@
                 "#CFCFCF",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/38ddff231612750d226ed5affa700723~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/09ec1bae5818bf7d4d83105e5f0bb8ea~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 9944,
+      "carName": "ZEEKR MIX",
+      "configs": [
+        {
+          "configName": "2025款 76kWh 智驾版",
+          "configId": "100387",
+          "index": 0,
+          "price": "27.99万",
+          "manufacturer": "极氪",
+          "class": "中型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4688x1995x1755",
+          "exteriorImages": [
+            {
+              "name": "烟雨灰/黑色",
+              "colors": [
+                "#677478",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e1d2074f799a496539cc7a39fbf3767f~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9a96b687d16629f9d36b702468d454ce~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a34ed506183737a7bcc0c350720eba10~2508x0.webp"
+            },
+            {
+              "name": "翡翠蓝/黑色",
+              "colors": [
+                "#D2FBF9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2361adf1712c4eede5137608581bb5fc~2508x0.webp"
+            },
+            {
+              "name": "青柠绿",
+              "colors": [
+                "#E9F7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0c62de39e45b99c51f04bc8f7c0ba259~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d45c9d713fbbb3d642d2904231d2477~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/214645af13ba2b572c609793f391e16e~2508x0.webp"
+            },
+            {
+              "name": "蓝白",
+              "colors": [
+                "#718097"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dffc5d82375c910e805a4b2fc8bff426~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e1d2074f799a496539cc7a39fbf3767f~2508x0.webp"
+        },
+        {
+          "configName": "2025款 102kWh 长续航智驾版",
+          "configId": "99211",
+          "index": 1,
+          "price": "29.99万",
+          "manufacturer": "极氪",
+          "class": "中型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 422马力",
+          "size": "4688x1995x1755",
+          "exteriorImages": [
+            {
+              "name": "烟雨灰/黑色",
+              "colors": [
+                "#677478",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2c7c4f5437c3b778dfbbd298204613f~2508x0.webp"
+            },
+            {
+              "name": "晨雾米",
+              "colors": [
+                "#CECABC"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82fb583c3dd3db8b3e4760d617173a0c~2508x0.webp"
+            },
+            {
+              "name": "晨雾米/黑色",
+              "colors": [
+                "#CECABC",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bd28dc49fb7f09e294090b3bfed302b6~2508x0.webp"
+            },
+            {
+              "name": "翡翠蓝",
+              "colors": [
+                "#D2FBF9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2df50f9ef9cb4d2bf0eac130a0dbf7a5~2508x0.webp"
+            },
+            {
+              "name": "翡翠蓝/黑色",
+              "colors": [
+                "#D2FBF9",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c059ed2d476cd50b3028198c5a5ef435~2508x0.webp"
+            },
+            {
+              "name": "青柠绿",
+              "colors": [
+                "#E9F7D7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/94d812d2747e9b1e3f026d3c54c62151~2508x0.webp"
+            },
+            {
+              "name": "青柠绿/黑色",
+              "colors": [
+                "#E9F7D7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/171f94b245b1f45a15748540e5262985~2508x0.webp"
+            },
+            {
+              "name": "极昼白",
+              "colors": [
+                "#F2F3F7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f353da1e2540738a331e37c191358c4f~2508x0.webp"
+            },
+            {
+              "name": "极昼白/黑色",
+              "colors": [
+                "#F2F3F7",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3d0520237fcb5d64322aa2f892a79d33~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑灰",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c6c647e28219f067d42d5fbeb43ec85a~2508x0.webp"
+            },
+            {
+              "name": "蓝白",
+              "colors": [
+                "#718097"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/807b98a0eea50738442aea991009363a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a2c7c4f5437c3b778dfbbd298204613f~2508x0.webp"
         }
       ]
     },
@@ -2307,35 +2487,35 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/719875c7e8955265910c886529c869fa~2508x0.webp"
             },
             {
               "name": "暗夜紫",
               "colors": [
                 "#6A5497"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_90807610257098dfcb0286153b3663c0~2508x0.webp"
             },
             {
               "name": "极光绿",
               "colors": [
                 "#91988F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b3a507debbd9c0ada8ce570e2e9dc707~2508x0.webp"
             },
             {
               "name": "青云灰",
               "colors": [
                 "#BFC6CC"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/acecaf6b2f27bc05f6e8bc161a7c20e2~2508x0.webp"
             },
             {
               "name": "极昼白",
               "colors": [
                 "#F2F3F7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4205b1a6595aceb887b14c4fb296524f~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2344,7 +2524,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/27a80f7313f7b612b8ec1c0c652723dd~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2352,7 +2532,7 @@
                 "#2758B3",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1733bf9e4fe3d5e8a91eb0fa5ae71d9c~2508x0.webp"
             },
             {
               "name": "灰色/紫色",
@@ -2360,7 +2540,7 @@
                 "#969696",
                 "#74325B"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_606a119357318f6eb74bf2e2145c185a~2508x0.webp"
             },
             {
               "name": "灰色/白色",
@@ -2368,10 +2548,10 @@
                 "#969696",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/35814fe0dc0304f1f7d6d7f160c22c2f~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/719875c7e8955265910c886529c869fa~2508x0.webp"
         },
         {
           "configName": "2024款 七座过道版 四驱 108kWh",
@@ -2389,35 +2569,35 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5e5cf1cb27db1af27cfa86bd3bcfb3ed~2508x0.webp"
             },
             {
               "name": "暗夜紫",
               "colors": [
                 "#6A5497"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_88b5eee6682342c1d10fb87478a1ed63~2508x0.webp"
             },
             {
               "name": "极光绿",
               "colors": [
                 "#91988F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0793c8744e371d8c526c113b76bbd0c2~2508x0.webp"
             },
             {
               "name": "青云灰",
               "colors": [
                 "#BFC6CC"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/41387acb0dc4bed89f1e213e1d9bf40b~2508x0.webp"
             },
             {
               "name": "极昼白",
               "colors": [
                 "#F2F3F7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/108360706d56973f2cef3ffde4ae6f38~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2426,7 +2606,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0d3d45c8d99e75af994ac55c7e936d62~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2434,7 +2614,7 @@
                 "#2758B3",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a2975a3662820f453f7725b5889ff276~2508x0.webp"
             },
             {
               "name": "青色/白色",
@@ -2442,7 +2622,7 @@
                 "#93AA85",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_67393bd4ed5664bb5108bdd6ab44525a~2508x0.webp"
             },
             {
               "name": "灰色/紫色",
@@ -2450,7 +2630,7 @@
                 "#969696",
                 "#74325B"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_27f525d32ae0db74d420f4690683350a~2508x0.webp"
             },
             {
               "name": "灰色/白色",
@@ -2458,10 +2638,10 @@
                 "#969696",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8ded52d24814f8fcd193946e5c59cafb~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5e5cf1cb27db1af27cfa86bd3bcfb3ed~2508x0.webp"
         },
         {
           "configName": "2024款 六座行政版 四驱 108kWh",
@@ -2479,35 +2659,35 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/843a61c6b9aaa5ad550bd2a5ba23706a~2508x0.webp"
             },
             {
               "name": "暗夜紫",
               "colors": [
                 "#6A5497"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_812594513c40c0a8e3ac88904dd0699d~2508x0.webp"
             },
             {
               "name": "极光绿",
               "colors": [
                 "#91988F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a65c6249a7fed9eb953f9a4848b1d147~2508x0.webp"
             },
             {
               "name": "青云灰",
               "colors": [
                 "#BFC6CC"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/158d0be929fe448d258a8a54c86426bf~2508x0.webp"
             },
             {
               "name": "极昼白",
               "colors": [
                 "#F2F3F7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/093b2b7d210caa4c3fe7e8b5fccd83d0~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2516,7 +2696,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2a6cb53483d1b8562419c4db2f98fc13~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2524,7 +2704,7 @@
                 "#2758B3",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9584ae06b05240bd40fe53308275806e~2508x0.webp"
             },
             {
               "name": "青色/白色",
@@ -2532,7 +2712,7 @@
                 "#93AA85",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2fef3e46b05de277128490b6d2704738~2508x0.webp"
             },
             {
               "name": "灰色/紫色",
@@ -2540,7 +2720,7 @@
                 "#969696",
                 "#74325B"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4314a0fb6906bef07988a8b473ee8254~2508x0.webp"
             },
             {
               "name": "灰色/白色",
@@ -2548,10 +2728,10 @@
                 "#969696",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a47a899054eeee96e681e18078711b36~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/843a61c6b9aaa5ad550bd2a5ba23706a~2508x0.webp"
         },
         {
           "configName": "2024款 七座过道版 两驱 140kWh",
@@ -2569,7 +2749,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c5423d862f97ed792e2ff7890a2ed982~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2579,10 +2759,10 @@
                 "#969696",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fd4cfe7eec7513d207f43259772943e~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c5423d862f97ed792e2ff7890a2ed982~2508x0.webp"
         },
         {
           "configName": "2024款 七座过道版 四驱 140kWh",
@@ -2614,7 +2794,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6bf160d04d8a4ca979c73b4eb33fef51~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2623,7 +2803,7 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d9a139bf035bb487061842089d8c6209~2508x0.webp"
             },
             {
               "name": "蓝色/白色",
@@ -2631,10 +2811,10 @@
                 "#2758B3",
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8d020b957c802562aa202fb4a544d057~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/6bf160d04d8a4ca979c73b4eb33fef51~2508x0.webp"
         },
         {
           "configName": "2024款 光辉 四驱 108kWh",
@@ -2652,7 +2832,7 @@
               "colors": [
                 "#010101"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd8215b2b3ff3b45a5d5c6b84a9ea688~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2661,10 +2841,10 @@
               "colors": [
                 "#FFFFFF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/725079ae87e5510b0a4dc2a38e31525e~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/dd8215b2b3ff3b45a5d5c6b84a9ea688~2508x0.webp"
         },
         {
           "configName": "2024款 光辉 典藏版 四驱 108kWh",
@@ -2682,7 +2862,7 @@
               "colors": [
                 "#171616"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_53204159e6ecf1cec8827115fe4ded6d~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -2691,199 +2871,19 @@
               "colors": [
                 "#F7F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aeeb5a32bed58cf249e81bbfaa446d99~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        }
-      ]
-    },
-    {
-      "carId": 9944,
-      "carName": "ZEEKR MIX",
-      "configs": [
-        {
-          "configName": "2025款 76kWh 智驾版",
-          "configId": "100387",
-          "index": 0,
-          "price": "27.99万",
-          "manufacturer": "极氪",
-          "class": "中型MPV",
-          "fuelType": "纯电动",
-          "power": "纯电动 422马力",
-          "size": "4688x1995x1755",
-          "exteriorImages": [
-            {
-              "name": "烟雨灰/黑色",
-              "colors": [
-                "#677478",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "翡翠蓝/黑色",
-              "colors": [
-                "#D2FBF9",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "青柠绿",
-              "colors": [
-                "#E9F7D7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑灰",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "蓝白",
-              "colors": [
-                "#718097"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 102kWh 长续航智驾版",
-          "configId": "99211",
-          "index": 1,
-          "price": "29.99万",
-          "manufacturer": "极氪",
-          "class": "中型MPV",
-          "fuelType": "纯电动",
-          "power": "纯电动 422马力",
-          "size": "4688x1995x1755",
-          "exteriorImages": [
-            {
-              "name": "烟雨灰/黑色",
-              "colors": [
-                "#677478",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米",
-              "colors": [
-                "#CECABC"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晨雾米/黑色",
-              "colors": [
-                "#CECABC",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "翡翠蓝",
-              "colors": [
-                "#D2FBF9"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "翡翠蓝/黑色",
-              "colors": [
-                "#D2FBF9",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "青柠绿",
-              "colors": [
-                "#E9F7D7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "青柠绿/黑色",
-              "colors": [
-                "#E9F7D7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白",
-              "colors": [
-                "#F2F3F7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "极昼白/黑色",
-              "colors": [
-                "#F2F3F7",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑灰",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "蓝白",
-              "colors": [
-                "#718097"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_53204159e6ecf1cec8827115fe4ded6d~2508x0.webp"
         }
       ]
     }
   ],
-  "lastUpdated": "2025-09-10T09:00:51.696Z",
+  "lastUpdated": "2025-09-17T05:08:43.907Z",
   "progress": {
     "completed": 8,
-    "total": 9,
-    "percentage": 89,
-    "currentIndex": 9
+    "total": 8,
+    "percentage": 100,
+    "currentIndex": 8
   }
 }

@@ -3,841 +3,114 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/986dac13d0d128da9aabb3df683e9b34~tplv-resize:100:100.image",
   "cars": [
     {
-      "carId": 5924,
-      "carName": "梦想家 PHEV",
+      "carId": 9167,
+      "carName": "追光 PHEV",
       "configs": [
         {
-          "configName": "2025款 四驱卓越鲲鹏版",
-          "configId": "240682",
+          "configName": "2024款 超长续航四驱行政版",
+          "configId": "96523",
           "index": 0,
-          "price": "32.99万",
+          "price": "25.28万",
           "manufacturer": "岚图汽车",
-          "class": "中大型MPV",
+          "class": "中大型车",
           "fuelType": "插电式混合动力",
-          "power": "1.5T 150马力 L4 插电式混合动力",
-          "size": "5315x1985x1820",
+          "power": "1.5T 136马力 L4 插电式混动",
+          "size": "5088x1970x1515",
           "exteriorImages": [
             {
               "name": "旭日紫",
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a32b0b2747e7abe43640e605953c69cd~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄夜金",
-              "colors": [
-                "#64635F"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f09d6166144973cf73ea5b368e6554d6~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/05785a665e7c76d936efb53c89517f24~2508x0.webp"
             }
           ],
           "interiorImages": [
             {
-              "name": "驼棕",
+              "name": "灰色/黑色",
               "colors": [
-                "#967B4D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#EEEEEE"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棉米",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱卓越乾崑版",
-          "configId": "245342",
-          "index": 1,
-          "price": "35.99万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型MPV",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 150马力 L4 插电式混合动力",
-          "size": "5315x1998x1820",
-          "exteriorImages": [
-            {
-              "name": "旭日紫",
-              "colors": [
-                "#2B1C56"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄夜金",
-              "colors": [
-                "#64635F"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "宸星灰",
-              "colors": [
-                "#A7A7A7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "驼棕",
-              "colors": [
-                "#967B4D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#EEEEEE"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棉米",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱尊贵鲲鹏版",
-          "configId": "240683",
-          "index": 2,
-          "price": "35.99万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型MPV",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 150马力 L4 插电式混合动力",
-          "size": "5315x1985x1820",
-          "exteriorImages": [
-            {
-              "name": "旭日紫",
-              "colors": [
-                "#2B1C56"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄夜金",
-              "colors": [
-                "#64635F"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "宸星灰",
-              "colors": [
-                "#A7A7A7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "驼棕",
-              "colors": [
-                "#967B4D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#EEEEEE"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棉米",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱尊贵乾崑版",
-          "configId": "245343",
-          "index": 3,
-          "price": "38.99万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型MPV",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 150马力 L4 插电式混合动力",
-          "size": "5315x1998x1820",
-          "exteriorImages": [
-            {
-              "name": "旭日紫",
-              "colors": [
-                "#2B1C56"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄夜金",
-              "colors": [
-                "#64635F"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "宸星灰",
-              "colors": [
-                "#A7A7A7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "驼棕",
-              "colors": [
-                "#967B4D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#EEEEEE"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棉米",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱旗舰鲲鹏版",
-          "configId": "240684",
-          "index": 4,
-          "price": "39.99万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型MPV",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 150马力 L4 插电式混合动力",
-          "size": "5315x1985x1800",
-          "exteriorImages": [
-            {
-              "name": "旭日紫",
-              "colors": [
-                "#2B1C56"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄夜金",
-              "colors": [
-                "#64635F"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "宸星灰",
-              "colors": [
-                "#A7A7A7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "驼棕",
-              "colors": [
-                "#967B4D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "云灰",
-              "colors": [
-                "#EEEEEE"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棉米",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱旗舰乾崑版",
-          "configId": "240685",
-          "index": 5,
-          "price": "42.99万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型MPV",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 150马力 L4 插电式混合动力",
-          "size": "5315x1998x1800",
-          "exteriorImages": [
-            {
-              "name": "日夜辉",
-              "colors": [
+                "#CFCFCF",
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcdc8a9a16777de70284c9a61a09430b~2508x0.webp"
             },
+            {
+              "name": "棕色/黑色",
+              "colors": [
+                "#EAA122",
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a7040c0d97e8a27718a8d65dee538e80~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/a32b0b2747e7abe43640e605953c69cd~2508x0.webp"
+        },
+        {
+          "configName": "2024款 超长续航四驱旗舰版",
+          "configId": "91328",
+          "index": 1,
+          "price": "27.78万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型车",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 136马力 L4 插电式混动",
+          "size": "5088x1970x1505",
+          "exteriorImages": [
             {
               "name": "旭日紫",
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7176d41c2cbcf6213f3b7077ced45bca~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "海月金",
-              "colors": [
-                "#4A738D"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄夜金",
-              "colors": [
-                "#64635F"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "宸星灰",
-              "colors": [
-                "#A7A7A7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ce3fa93d323e5d774b40063095b2cc89~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d003331c323a197e84fa0501aeb97911~2508x0.webp"
             }
           ],
           "interiorImages": [
             {
-              "name": "驼棕",
+              "name": "灰色/黑色",
               "colors": [
-                "#967B4D"
+                "#CFCFCF",
+                "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dd161720ca9f754e538d0310cd60563d~2508x0.webp"
             },
             {
-              "name": "云灰",
+              "name": "棕色/黑色",
               "colors": [
-                "#EEEEEE"
+                "#EAA122",
+                "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棉米",
-              "colors": [
-                "#FFFFF1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8977de30521de53f3675bba906584687~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        }
-      ]
-    },
-    {
-      "carId": 10177,
-      "carName": "知音",
-      "configs": [
-        {
-          "configName": "2025款 后驱乾崑版",
-          "configId": "248755",
-          "index": 0,
-          "price": "20.29万",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 313马力",
-          "size": "4810x1900x1636",
-          "exteriorImages": [
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辉月青",
-              "colors": [
-                "#305980"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "香槟金",
-              "colors": [
-                "#95928C"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "宸星灰",
-              "colors": [
-                "#A7A7A7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "深海蓝",
-              "colors": [
-                "#4BA1C1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旭日红",
-              "colors": [
-                "#987A81"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "皓月白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 四驱乾崑版",
-          "configId": "251209",
-          "index": 1,
-          "price": "22.29万",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 551马力",
-          "size": "4810x1900x1636",
-          "exteriorImages": [
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "香槟金",
-              "colors": [
-                "#95928C"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "深海蓝",
-              "colors": [
-                "#4BA1C1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "旭日红",
-              "colors": [
-                "#987A81"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2025款 超长续航乾崑版",
-          "configId": "251189",
-          "index": 2,
-          "price": "24.29万",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 313马力",
-          "size": "4810x1900x1636",
-          "exteriorImages": [],
-          "interiorImages": [],
-          "configImage": ""
-        },
-        {
-          "configName": "2024款 长续航智享版",
-          "configId": "240107",
-          "index": 3,
-          "price": "19.69万",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 292马力",
-          "size": "4725x1900x1636",
-          "exteriorImages": [
-            {
-              "name": "极夜黑",
-              "colors": [
-                "#070707"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "曼波绿",
-              "colors": [
-                "#90A686"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星云灰",
-              "colors": [
-                "#B6C3CD"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "风暴粉",
-              "colors": [
-                "#C4B7BB"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "月光白",
-              "colors": [
-                "#E9EDF3"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "暗夜",
-              "colors": [
-                "#5E5757"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辰星",
-              "colors": [
-                "#C6C1C1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2024款 长续航超充版",
-          "configId": "240108",
-          "index": 4,
-          "price": "20.29万",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 313马力",
-          "size": "4725x1900x1636",
-          "exteriorImages": [
-            {
-              "name": "玄墨黑",
-              "colors": [
-                "#070707"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "晴空蓝",
-              "colors": [
-                "#64A1CF"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "曼波绿",
-              "colors": [
-                "#90A686"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星云灰",
-              "colors": [
-                "#B6C3CD"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "风暴粉",
-              "colors": [
-                "#C4B7BB"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "月光白",
-              "colors": [
-                "#E9EDF3"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "暗夜",
-              "colors": [
-                "#5E5757"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "盖亚",
-              "colors": [
-                "#88AED7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辰星",
-              "colors": [
-                "#C6C1C1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2024款 超长续航智享版",
-          "configId": "240109",
-          "index": 5,
-          "price": "23.69万",
-          "manufacturer": "岚图汽车",
-          "class": "中型SUV",
-          "fuelType": "纯电动",
-          "power": "纯电动 313马力",
-          "size": "4725x1900x1636",
-          "exteriorImages": [
-            {
-              "name": "玄墨黑",
-              "colors": [
-                "#070707"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "曼波绿",
-              "colors": [
-                "#90A686"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "星云灰",
-              "colors": [
-                "#B6C3CD"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "风暴粉",
-              "colors": [
-                "#C4B7BB"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "月光白",
-              "colors": [
-                "#E9EDF3"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "暗夜",
-              "colors": [
-                "#5E5757"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "盖亚",
-              "colors": [
-                "#88AED7"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "辰星",
-              "colors": [
-                "#C6C1C1"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/7176d41c2cbcf6213f3b7077ced45bca~2508x0.webp"
         }
       ]
     },
@@ -861,14 +134,14 @@
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/17b819eac6bfbef156c1353538250c7a~2508x0.webp"
             },
             {
               "name": "云光蓝",
               "colors": [
                 "#ACBDD9"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e2d92c32ac05ed40a3be127eb81b6fd~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -878,7 +151,7 @@
                 "#000000",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/949e7d5a22c2cb2ac86ece6555b4e460~2508x0.webp"
             },
             {
               "name": "蓝色/灰色",
@@ -886,10 +159,10 @@
                 "#9090B0",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f3d3ea096ee003249c8d2cd45016638e~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/17b819eac6bfbef156c1353538250c7a~2508x0.webp"
         },
         {
           "configName": "2023款 730km 长续航版",
@@ -907,28 +180,28 @@
               "colors": [
                 "#ACBDD9"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4525c86e5d4994528a6a174ea4f85cd~2508x0.webp"
             },
             {
               "name": "琉光金",
               "colors": [
                 "#D1C5BA"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5c60dcc4730924f34778c12c40e898be~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1e6dfbf79dec7b8a7894b4970e1ef8c9~2508x0.webp"
             },
             {
               "name": "日光橙",
               "colors": [
                 "#FFA500"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/582777900c7d29c417850049a65372d0~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -938,7 +211,7 @@
                 "#000000",
                 "#ABA47A"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/585c59ff33c90b141d7fa71c8323d8ec~2508x0.webp"
             },
             {
               "name": "黑色/灰色",
@@ -946,7 +219,7 @@
                 "#000000",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b53f42abb14b0f7ebf6968ade5d8c4f1~2508x0.webp"
             },
             {
               "name": "蓝色/灰色",
@@ -954,122 +227,10 @@
                 "#9090B0",
                 "#CFCFCF"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/985fdc15ab68600b077cba770d9b11f9~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        }
-      ]
-    },
-    {
-      "carId": 9167,
-      "carName": "追光 PHEV",
-      "configs": [
-        {
-          "configName": "2024款 超长续航四驱行政版",
-          "configId": "96523",
-          "index": 0,
-          "price": "25.28万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型车",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 136马力 L4 插电式混动",
-          "size": "5088x1970x1515",
-          "exteriorImages": [
-            {
-              "name": "旭日紫",
-              "colors": [
-                "#2B1C56"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "灰色/黑色",
-              "colors": [
-                "#CFCFCF",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棕色/黑色",
-              "colors": [
-                "#EAA122",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-        },
-        {
-          "configName": "2024款 超长续航四驱旗舰版",
-          "configId": "91328",
-          "index": 1,
-          "price": "27.78万",
-          "manufacturer": "岚图汽车",
-          "class": "中大型车",
-          "fuelType": "插电式混合动力",
-          "power": "1.5T 136马力 L4 插电式混动",
-          "size": "5088x1970x1505",
-          "exteriorImages": [
-            {
-              "name": "旭日紫",
-              "colors": [
-                "#2B1C56"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "玄英黑",
-              "colors": [
-                "#2E2E33"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "杜若白",
-              "colors": [
-                "#F5F5F5"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "灰色/黑色",
-              "colors": [
-                "#CFCFCF",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            },
-            {
-              "name": "棕色/黑色",
-              "colors": [
-                "#EAA122",
-                "#000000"
-              ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
-            }
-          ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e4525c86e5d4994528a6a174ea4f85cd~2508x0.webp"
         }
       ]
     },
@@ -1093,35 +254,42 @@
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f85accf16562027b0515609efb482719~2508x0.webp"
             },
             {
               "name": "琉璃紫",
               "colors": [
                 "#524C63"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_caa4a1c181450607d0110d59846ec532~2508x0.webp"
+            },
+            {
+              "name": "香槟金",
+              "colors": [
+                "#95928C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4e036a05f09f9c75389c4c771a8feb20~2508x0.webp"
             },
             {
               "name": "宸星灰",
               "colors": [
                 "#A7A7A7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f2855a093bf1507727b0fc4ba7c2866f~2508x0.webp"
             },
             {
               "name": "韶华青",
               "colors": [
                 "#B4C1BE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6099ca5fd4bfc060b58aea189226086d~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_92968abdd3aa09dbeed35c6a2dea7cca~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1130,24 +298,24 @@
               "colors": [
                 "#727295"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_595634f03b878b24e8a9704089593179~2508x0.webp"
             },
             {
               "name": "极光紫",
               "colors": [
                 "#C69E9C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_be374c9c278c0edc1b99a7cefb6abc3d~2508x0.webp"
             },
             {
               "name": "琥珀棕",
               "colors": [
                 "#DCC1A7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b2f3a7c97efd609293c10dbbedada597~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f85accf16562027b0515609efb482719~2508x0.webp"
         },
         {
           "configName": "2025款 FREE+ 四驱乾崑版",
@@ -1165,42 +333,42 @@
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d4fbefd656c8fe8275e49e6c26ba560a~2508x0.webp"
             },
             {
               "name": "琉璃紫",
               "colors": [
                 "#524C63"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d69bd1d505e663d2914a3f70942e45ad~2508x0.webp"
             },
             {
               "name": "香槟金",
               "colors": [
                 "#95928C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5a32545acc1ef04f15048a453a3cb2bf~2508x0.webp"
             },
             {
               "name": "宸星灰",
               "colors": [
                 "#A7A7A7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eaaaf5d105ee72a42128276e57f52ed0~2508x0.webp"
             },
             {
               "name": "韶华青",
               "colors": [
                 "#B4C1BE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_50b9101c98085a3f04b5f7bd8b282d76~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e7c67b56c4d80b7a0fa0d87732ee2f13~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1209,24 +377,24 @@
               "colors": [
                 "#727295"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e28e0e51a1a2a9c050b964beb79e0130~2508x0.webp"
             },
             {
               "name": "极光紫",
               "colors": [
                 "#C69E9C"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0c761c995aa1e4fa44517f726883643b~2508x0.webp"
             },
             {
               "name": "琥珀棕",
               "colors": [
                 "#DCC1A7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dc5bbab638cda438bdbf686251b9a578~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d4fbefd656c8fe8275e49e6c26ba560a~2508x0.webp"
         },
         {
           "configName": "2025款 FREE+ 四驱运动定制版",
@@ -1258,35 +426,35 @@
               "colors": [
                 "#1D681D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/59ef8dc63e8f6fbbe9f19a261e3043e7~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f537444eba0f26e7d327f4f432b58ac1~2508x0.webp"
             },
             {
               "name": "钛晶灰",
               "colors": [
                 "#79808E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d58fe7564c601a9170c76e2362743647~2508x0.webp"
             },
             {
               "name": "韶华青",
               "colors": [
                 "#B4C1BE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/981eb0516fd5427693ec7421c78ec1ac~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6b87bab4f879c29c7b7d7628ea43f4a~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1295,17 +463,17 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3edebe5c58428850ed4b162a0276c678~2508x0.webp"
             },
             {
               "name": "幻影灰",
               "colors": [
                 "#F9F9F9"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36dfa52aee3af20119ff95e2249b9a2d~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/59ef8dc63e8f6fbbe9f19a261e3043e7~2508x0.webp"
         },
         {
           "configName": "2025款 318 四驱探索版",
@@ -1323,35 +491,35 @@
               "colors": [
                 "#1D681D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/89bc39db4bee01b7c80b72496bb543fe~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/71526fb0e9c621db3638db928b114c4f~2508x0.webp"
             },
             {
               "name": "钛晶灰",
               "colors": [
                 "#79808E"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a3ee201dc4e5c8af61215af6ec408554~2508x0.webp"
             },
             {
               "name": "韶华青",
               "colors": [
                 "#B4C1BE"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/78ed84c72cb3f6849a27f14cff7b9a7d~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f82f1b880dccf611a07015dc5c89a5ea~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1360,24 +528,390 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4f4e12219116aadf23451d5a9b257a35~2508x0.webp"
             },
             {
               "name": "幻影灰",
               "colors": [
                 "#F9F9F9"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/82c38589962cc3365ad4a07256cb96a3~2508x0.webp"
             },
             {
               "name": "踏浪白",
               "colors": [
                 "#FAFAFA"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d73dc124ac7d60c87c0d6d0037ca5eac~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/89bc39db4bee01b7c80b72496bb543fe~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 10177,
+      "carName": "知音",
+      "configs": [
+        {
+          "configName": "2025款 后驱乾崑版",
+          "configId": "248755",
+          "index": 0,
+          "price": "20.29万",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4810x1900x1636",
+          "exteriorImages": [
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_98d0a7e85779915b44c915e9fc8dac7f~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4133dc1d0f6033e20f4c4547a5a6ee0b~2508x0.webp"
+            },
+            {
+              "name": "香槟金",
+              "colors": [
+                "#95928C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_54e716c4498de1f286bce8f695ca1a10~2508x0.webp"
+            },
+            {
+              "name": "宸星灰",
+              "colors": [
+                "#A7A7A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3e8354771241c07684afa930b2cbbb20~2508x0.webp"
+            },
+            {
+              "name": "风暴粉",
+              "colors": [
+                "#C4B7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f89918ea5ddf46943ad93460c567320~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_95bb907bb6d52639d52f8361031d0f40~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#4BA1C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_cf0306938cd4f7ba73c9356839a0de9c~2508x0.webp"
+            },
+            {
+              "name": "旭日红",
+              "colors": [
+                "#987A81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_053b3b32b23b9b60184c1fdb4aadeaf3~2508x0.webp"
+            },
+            {
+              "name": "皓月白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ce7c13b03180452fc5ae5ff14950783a~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_98d0a7e85779915b44c915e9fc8dac7f~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱乾崑版",
+          "configId": "251209",
+          "index": 1,
+          "price": "22.29万",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 551马力",
+          "size": "4810x1900x1636",
+          "exteriorImages": [
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc4d7441d8f1e4d11837e69601126d04~2508x0.webp"
+            },
+            {
+              "name": "香槟金",
+              "colors": [
+                "#95928C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b8424b9d7a501c84318b22dd7f5f29ed~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6edaf55f911c293d71fc5ecedc9aa02f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "深海蓝",
+              "colors": [
+                "#4BA1C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_439746dc55751866e406bd6391b6ceda~2508x0.webp"
+            },
+            {
+              "name": "旭日红",
+              "colors": [
+                "#987A81"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d752ecfb340f1725fb94e74f66e39828~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_fc4d7441d8f1e4d11837e69601126d04~2508x0.webp"
+        },
+        {
+          "configName": "2025款 超长续航乾崑版",
+          "configId": "251189",
+          "index": 2,
+          "price": "24.29万",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4810x1900x1636",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2024款 长续航智享版",
+          "configId": "240107",
+          "index": 3,
+          "price": "19.69万",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 292马力",
+          "size": "4725x1900x1636",
+          "exteriorImages": [
+            {
+              "name": "玄墨黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0e757239348d684035576c22503a9e8f~2508x0.webp"
+            },
+            {
+              "name": "曼波绿",
+              "colors": [
+                "#90A686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/09ef1dbaa82c09accd33d59a4aeea3c2~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#B6C3CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f8a9e1dfafd9bd18a4845ffbdd20f85~2508x0.webp"
+            },
+            {
+              "name": "风暴粉",
+              "colors": [
+                "#C4B7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cc630dc82a3a14f923c562f1183bedaa~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#E9EDF3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/331aab192e35057bf2a957a98356ffab~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜",
+              "colors": [
+                "#5E5757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f86d417a81906c66699cf0e51f3aebf7~2508x0.webp"
+            },
+            {
+              "name": "辰星",
+              "colors": [
+                "#C6C1C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/575c45fdd76a68db5aadea97ed6684c4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/0e757239348d684035576c22503a9e8f~2508x0.webp"
+        },
+        {
+          "configName": "2024款 长续航超充版",
+          "configId": "240108",
+          "index": 4,
+          "price": "20.29万",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4725x1900x1636",
+          "exteriorImages": [
+            {
+              "name": "极夜黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77b41aa8d57f98004e5ae0540974fa1d~2508x0.webp"
+            },
+            {
+              "name": "晴空蓝",
+              "colors": [
+                "#64A1CF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cf5d44e02617d69d709fe541d05df031~2508x0.webp"
+            },
+            {
+              "name": "曼波绿",
+              "colors": [
+                "#90A686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/63a66cf5390b0422e7108036990d7513~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#B6C3CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/495b4ee6325653974a808501f31cff17~2508x0.webp"
+            },
+            {
+              "name": "风暴粉",
+              "colors": [
+                "#C4B7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/36f8d482a30811f717618caf485cb3a1~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#E9EDF3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fbe7418f1578fae94bb8318cc3838e6b~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜",
+              "colors": [
+                "#5E5757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/093a06927be0cf1ec9ba32411f11e05b~2508x0.webp"
+            },
+            {
+              "name": "盖亚",
+              "colors": [
+                "#88AED7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c2ae8955b33ed1c0e16b302315ee0f73~2508x0.webp"
+            },
+            {
+              "name": "辰星",
+              "colors": [
+                "#C6C1C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/216fdb212c1d51adaa9c8791724a848d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/77b41aa8d57f98004e5ae0540974fa1d~2508x0.webp"
+        },
+        {
+          "configName": "2024款 超长续航智享版",
+          "configId": "240109",
+          "index": 5,
+          "price": "23.69万",
+          "manufacturer": "岚图汽车",
+          "class": "中型SUV",
+          "fuelType": "纯电动",
+          "power": "纯电动 313马力",
+          "size": "4725x1900x1636",
+          "exteriorImages": [
+            {
+              "name": "玄墨黑",
+              "colors": [
+                "#070707"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ba8c1c36cb2f73bfb7a0e15c9aca247f~2508x0.webp"
+            },
+            {
+              "name": "曼波绿",
+              "colors": [
+                "#90A686"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6a212ea06c490560848914f718053dc9~2508x0.webp"
+            },
+            {
+              "name": "星云灰",
+              "colors": [
+                "#B6C3CD"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3c0b0f6b5eb20e338871e71d6d967118~2508x0.webp"
+            },
+            {
+              "name": "风暴粉",
+              "colors": [
+                "#C4B7BB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/77a9f0e9869f127091ea1b614c97bea7~2508x0.webp"
+            },
+            {
+              "name": "月光白",
+              "colors": [
+                "#E9EDF3"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/24cf5828deb07efa93220d4041680efa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "暗夜",
+              "colors": [
+                "#5E5757"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d560448f4b1d2e1cd3c3f10ee9b2bf7~2508x0.webp"
+            },
+            {
+              "name": "盖亚",
+              "colors": [
+                "#88AED7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8afdc36376fd9e4868288b5e7693c2f3~2508x0.webp"
+            },
+            {
+              "name": "辰星",
+              "colors": [
+                "#C6C1C1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e38bed64abd0b7213313a8cfee8dac15~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ba8c1c36cb2f73bfb7a0e15c9aca247f~2508x0.webp"
         }
       ]
     },
@@ -1386,9 +920,51 @@
       "carName": "梦想家 EV",
       "configs": [
         {
+          "configName": "2026款 鲲鹏Max",
+          "configId": "251923",
+          "index": 0,
+          "price": "36.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 551马力",
+          "size": "5315x1985x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 乾崑Max",
+          "configId": "251924",
+          "index": 1,
+          "price": "39.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 551马力",
+          "size": "5315x1985x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 乾崑Ultra",
+          "configId": "251925",
+          "index": 2,
+          "price": "43.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "纯电动",
+          "power": "纯电动 551马力",
+          "size": "5315x1998x1800",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
           "configName": "2025款 四驱卓越鲲鹏版",
           "configId": "240678",
-          "index": 0,
+          "index": 3,
           "price": "34.99万",
           "manufacturer": "岚图汽车",
           "class": "中大型MPV",
@@ -1401,35 +977,35 @@
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03ce359691e11bf7029b553710c00048~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ffd1f540d40daa61c59ccd9189a47afe~2508x0.webp"
             },
             {
               "name": "辉月青",
               "colors": [
                 "#305980"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5cf9bd138484ee62dc73055f1eadc008~2508x0.webp"
             },
             {
               "name": "玄夜金",
               "colors": [
                 "#64635F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eaec7a7b4193f59e72ba81baaa615d07~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1b859d0f5a118e8a293a3f79f65c6c01~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1438,29 +1014,29 @@
               "colors": [
                 "#967B4D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/317597d3e650648cf408bd46232fdfdc~2508x0.webp"
             },
             {
               "name": "云灰",
               "colors": [
                 "#C2C2C2"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/83e0d0860007bbbb014e9d26421b2bf8~2508x0.webp"
             },
             {
               "name": "棉米",
               "colors": [
                 "#FFFFF1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/488131a7cce31c101d9513a95d7ac1b1~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_03ce359691e11bf7029b553710c00048~2508x0.webp"
         },
         {
           "configName": "2025款 四驱卓越乾崑版",
           "configId": "245344",
-          "index": 1,
+          "index": 4,
           "price": "37.99万",
           "manufacturer": "岚图汽车",
           "class": "中大型MPV",
@@ -1473,28 +1049,28 @@
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d51f4390d6e54709785609b15973226~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_4b933522b0c8e7843cfbbc52d24323e1~2508x0.webp"
             },
             {
               "name": "辉月青",
               "colors": [
                 "#305980"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5c366272ab45805bf2207f444b149a2f~2508x0.webp"
             },
             {
               "name": "玄夜金",
               "colors": [
                 "#64635F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_8673c30f9d31eee25f45ea1db95ca090~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1503,22 +1079,22 @@
               "colors": [
                 "#967B4D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2cdf91dc301007ffa2d110482409a99e~2508x0.webp"
             },
             {
               "name": "云灰",
               "colors": [
                 "#C2C2C2"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_702e114dfe2a70cd9ef37f6acc3a24c6~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_9d51f4390d6e54709785609b15973226~2508x0.webp"
         },
         {
           "configName": "2025款 四驱尊贵鲲鹏版",
           "configId": "240679",
-          "index": 2,
+          "index": 5,
           "price": "37.99万",
           "manufacturer": "岚图汽车",
           "class": "中大型MPV",
@@ -1531,42 +1107,42 @@
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e3c9c57b62522eecc9eb0e88a9f1aaf~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/18156aef1b08caf95a62715b97bc0d67~2508x0.webp"
             },
             {
               "name": "辉月青",
               "colors": [
                 "#305980"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_635700f1c031d0e27d9d3b86a47b25af~2508x0.webp"
             },
             {
               "name": "玄夜金",
               "colors": [
                 "#64635F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fda43cd750fee55cf6c6d6e98aef6ba8~2508x0.webp"
             },
             {
               "name": "宸星灰",
               "colors": [
                 "#A7A7A7"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_826dde865c9a5108d6cbada2dcc1947c~2508x0.webp"
             },
             {
               "name": "杜若白",
               "colors": [
                 "#F5F5F5"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_522b92008242f620262eef965c0ac2d5~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1575,22 +1151,22 @@
               "colors": [
                 "#967B4D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/baef2764a460264d3a7760ea85855e3f~2508x0.webp"
             },
             {
               "name": "云灰",
               "colors": [
                 "#C2C2C2"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/be79730952f524241d3c340981a99005~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5e3c9c57b62522eecc9eb0e88a9f1aaf~2508x0.webp"
         },
         {
           "configName": "2025款 四驱尊贵乾崑版",
           "configId": "245345",
-          "index": 3,
+          "index": 6,
           "price": "40.99万",
           "manufacturer": "岚图汽车",
           "class": "中大型MPV",
@@ -1603,28 +1179,28 @@
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8143e18d4363752d803383ec81b025a~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7deb8e014fb066f82b2c3ca13e7e4b35~2508x0.webp"
             },
             {
               "name": "辉月青",
               "colors": [
                 "#305980"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_93c22877a7ad5bcc9f8bc49984a1aaee~2508x0.webp"
             },
             {
               "name": "玄夜金",
               "colors": [
                 "#64635F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_adfde5471ac8b67e5aafe2c561348079~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1633,22 +1209,22 @@
               "colors": [
                 "#967B4D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_bd5d7ccd170dcbaa84dd0a502e38de70~2508x0.webp"
             },
             {
               "name": "云灰",
               "colors": [
                 "#C2C2C2"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3daf87b51c9fe0aa7cb181c2781dc6e8~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e8143e18d4363752d803383ec81b025a~2508x0.webp"
         },
         {
           "configName": "2025款 四驱旗舰鲲鹏版",
           "configId": "240680",
-          "index": 4,
+          "index": 7,
           "price": "41.99万",
           "manufacturer": "岚图汽车",
           "class": "中大型MPV",
@@ -1661,28 +1237,28 @@
               "colors": [
                 "#2B1C56"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/356e4d8d4122317adaa5cba8fe5af5e8~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5559498f51231c6d4cded439ab0076be~2508x0.webp"
             },
             {
               "name": "辉月青",
               "colors": [
                 "#305980"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e76337410f7732890343e4ed1066bb2c~2508x0.webp"
             },
             {
               "name": "玄夜金",
               "colors": [
                 "#64635F"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/9f3bca19de037fc928fe7ea09503b9c2~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1691,29 +1267,29 @@
               "colors": [
                 "#967B4D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bcfd9048f65e6aa6c1f4a9704214598b~2508x0.webp"
             },
             {
               "name": "云灰",
               "colors": [
                 "#C2C2C2"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d2dbd71a409bbc0188c7482d72b810bd~2508x0.webp"
             },
             {
               "name": "棉米",
               "colors": [
                 "#FFFFF1"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4fc9a0bf4e23fc81ecfc28262be97f13~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/356e4d8d4122317adaa5cba8fe5af5e8~2508x0.webp"
         },
         {
           "configName": "2025款 四驱旗舰乾崑版",
           "configId": "240681",
-          "index": 5,
+          "index": 8,
           "price": "44.99万",
           "manufacturer": "岚图汽车",
           "class": "中大型MPV",
@@ -1726,28 +1302,28 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5ae34905f1f108a486c24e3c0f43b3ec~2508x0.webp"
             },
             {
               "name": "玄英黑",
               "colors": [
                 "#2E2E33"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eceb9e26edf43e05057201b11b408a82~2508x0.webp"
             },
             {
               "name": "辉月青",
               "colors": [
                 "#305980"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3763b1f3bd77ad953b0ccf4c5d978a8d~2508x0.webp"
             },
             {
               "name": "海月金",
               "colors": [
                 "#4A738D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e383d76b9b1fed6f9aeddf54c17f9187~2508x0.webp"
             }
           ],
           "interiorImages": [
@@ -1756,22 +1332,682 @@
               "colors": [
                 "#967B4D"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/279482a363b902e3e15c45a0eca09abd~2508x0.webp"
             },
             {
               "name": "云灰",
               "colors": [
                 "#C2C2C2"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/596f70e62ffd1d6758539784f388fe05~2508x0.webp"
             }
           ],
-          "configImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5ae34905f1f108a486c24e3c0f43b3ec~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 5924,
+      "carName": "梦想家 PHEV",
+      "configs": [
+        {
+          "configName": "2026款 鲲鹏Pro",
+          "configId": "251908",
+          "index": 0,
+          "price": "32.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5315x1985x1820",
+          "exteriorImages": [
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_48278ea47f60eaeffa4d6eb2d278e14f~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_aa83bf3f3480904f824e36a4888d3693~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_48278ea47f60eaeffa4d6eb2d278e14f~2508x0.webp"
+        },
+        {
+          "configName": "2026款 鲲鹏Max",
+          "configId": "251909",
+          "index": 1,
+          "price": "35.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5315x1985x1820",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
+        },
+        {
+          "configName": "2026款 乾崑Pro",
+          "configId": "251910",
+          "index": 2,
+          "price": "35.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5315x1998x1820",
+          "exteriorImages": [
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b4b7bf4b40962c8b5127019cc6aa036~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5b4b7bf4b40962c8b5127019cc6aa036~2508x0.webp"
+        },
+        {
+          "configName": "2026款 乾崑Max",
+          "configId": "251911",
+          "index": 3,
+          "price": "38.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5315x1998x1820",
+          "exteriorImages": [
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_84b5fe3e1ab3cfa164c7f933f1ba56ee~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7dbb0251f976cce2b5303167fe70eafa~2508x0.webp"
+            }
+          ],
+          "interiorImages": [],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_84b5fe3e1ab3cfa164c7f933f1ba56ee~2508x0.webp"
+        },
+        {
+          "configName": "2026款 乾崑Ultra",
+          "configId": "251912",
+          "index": 4,
+          "price": "42.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混动",
+          "size": "5315x1998x1800",
+          "exteriorImages": [
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18903c3c695ce725fff7e64e54bd1ad6~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_6f5e3e78987573995abbf8d3d57664af~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_06212619342ce6b193ae62125f5769df~2508x0.webp"
+            },
+            {
+              "name": "海月金",
+              "colors": [
+                "#4A738D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7b06bad261a53786c4ae1ca172aa45cf~2508x0.webp"
+            },
+            {
+              "name": "金銮红",
+              "colors": [
+                "#933932"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_199799df332fb70c3d45feb8d37d04f8~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e02dda3f4a77f0cfd60164f702ab430c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "紫米",
+              "colors": [
+                "#4A4754"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_e14c70e3dcbf55fcf8deed7b6657f452~2508x0.webp"
+            },
+            {
+              "name": "玄青",
+              "colors": [
+                "#55697C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_eb711084302eff5719843b95bee84d26~2508x0.webp"
+            },
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3f5c9722f780fe467a19936ef45c6e5f~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_87934749512f3ce48069693b0b03480b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_18903c3c695ce725fff7e64e54bd1ad6~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱卓越鲲鹏版",
+          "configId": "240682",
+          "index": 5,
+          "price": "32.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混合动力",
+          "size": "5315x1985x1820",
+          "exteriorImages": [
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2f12daaf34daa9d3e177a53dd1024aa8~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c20b0ddfd80c4bc3f8cf86fd7c2bb56~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c9b340fa10de370220dbfb05d1551466~2508x0.webp"
+            },
+            {
+              "name": "玄夜金",
+              "colors": [
+                "#64635F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_2fde11656cf5dd4dc97880ed12cbe5a1~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2469915d91fec960ab8cf43f16f1a5dd~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed1bc521ae229dd128c4639a94785308~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/fdcd3701dcaebb4523a6e6d190e67b37~2508x0.webp"
+            },
+            {
+              "name": "棉米",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/32ec492024252030a7aeaed4149714fe~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2f12daaf34daa9d3e177a53dd1024aa8~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱卓越乾崑版",
+          "configId": "245342",
+          "index": 6,
+          "price": "35.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混合动力",
+          "size": "5315x1998x1820",
+          "exteriorImages": [
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0336cd0bb8bcef799197194a52a8ef93~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_572448cd101cdce7a7c2d6e1cdfaa845~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/48df536f38f93396f4c5ac4e13dd661c~2508x0.webp"
+            },
+            {
+              "name": "玄夜金",
+              "colors": [
+                "#64635F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_475d519388857a4935f8e79c550ce3a9~2508x0.webp"
+            },
+            {
+              "name": "宸星灰",
+              "colors": [
+                "#A7A7A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ed00d413f59cd925cca2e59ecd643a6~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5eeda271545879231a5c43673696e437~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1d63099c71bbcb65f4ffac34aeff27bd~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a904341abe90cbf2f7863d6e4fa996c2~2508x0.webp"
+            },
+            {
+              "name": "棉米",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_af6d0f635e3fefbd2a9f703ae093aa4d~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0336cd0bb8bcef799197194a52a8ef93~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱尊贵鲲鹏版",
+          "configId": "240683",
+          "index": 7,
+          "price": "35.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混合动力",
+          "size": "5315x1985x1820",
+          "exteriorImages": [
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3010ee12c186c29bcaf570cbc18a83d8~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7e76d73bd4a0e6ab54d07fff782dfa1c~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/3e0a459a64c5ac97a18eb5c95ef93836~2508x0.webp"
+            },
+            {
+              "name": "玄夜金",
+              "colors": [
+                "#64635F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4d402ed4d185739a6742d43d8b07da03~2508x0.webp"
+            },
+            {
+              "name": "宸星灰",
+              "colors": [
+                "#A7A7A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_3b6d45e9e43d7782538540b59785fd51~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/86f6d5e4aac1c0469823da5235e71bd7~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/386a2bc48bdb5897085730bec6387c77~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/df694d537b30aaf425b15aec98612166~2508x0.webp"
+            },
+            {
+              "name": "棉米",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b34ef33b6f685a48860c5019d67723ff~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/3010ee12c186c29bcaf570cbc18a83d8~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱尊贵乾崑版",
+          "configId": "245343",
+          "index": 8,
+          "price": "38.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混合动力",
+          "size": "5315x1998x1820",
+          "exteriorImages": [
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b32a7dbf9696c85457fc10634a1fd10c~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7f6eaf05fcb80efef1ecc27cb887d3b5~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f5414c45290437913d8577d844c15e63~2508x0.webp"
+            },
+            {
+              "name": "玄夜金",
+              "colors": [
+                "#64635F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/44cebe5c67b9621b0c7f1ff7c6b7297c~2508x0.webp"
+            },
+            {
+              "name": "宸星灰",
+              "colors": [
+                "#A7A7A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f13c131037bdeeac714194a39b286df5~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/db721d5e73ca86221aeddd3467712f67~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6fd2dc7e2176aa8ebcbef133d0dea423~2508x0.webp"
+            },
+            {
+              "name": "棉米",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c00940b6e746f3dda1705c128ebb6460~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b32a7dbf9696c85457fc10634a1fd10c~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱旗舰鲲鹏版",
+          "configId": "240684",
+          "index": 9,
+          "price": "39.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混合动力",
+          "size": "5315x1985x1800",
+          "exteriorImages": [
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/c39af0f9eeb55cf2927d50b757050750~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/bb8fe988f2233a0a6dfe264bb09aacb2~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0ab16c213f89d9b86395916c002093d4~2508x0.webp"
+            },
+            {
+              "name": "玄夜金",
+              "colors": [
+                "#64635F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/34d7b5bf3a3a3b668e323b3a497e8db5~2508x0.webp"
+            },
+            {
+              "name": "宸星灰",
+              "colors": [
+                "#A7A7A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_051b5270f63b978cce6ac70674c44d8a~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/067c8b0926efe666262f035cc707f7d8~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ec6d3b8e6e52558a9c40fa62c4e5ebf~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4e34dcfc18ac0792ee8e76e06166e7e2~2508x0.webp"
+            },
+            {
+              "name": "棉米",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a713f734293561be16d47c01bc62e068~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/c39af0f9eeb55cf2927d50b757050750~2508x0.webp"
+        },
+        {
+          "configName": "2025款 四驱旗舰乾崑版",
+          "configId": "240685",
+          "index": 10,
+          "price": "42.99万",
+          "manufacturer": "岚图汽车",
+          "class": "中大型MPV",
+          "fuelType": "插电式混合动力",
+          "power": "1.5T 150马力 L4 插电式混合动力",
+          "size": "5315x1998x1800",
+          "exteriorImages": [
+            {
+              "name": "日夜辉",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e9d7f64d86f384e8a0624818f315b4d1~2508x0.webp"
+            },
+            {
+              "name": "旭日紫",
+              "colors": [
+                "#2B1C56"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/11a3203bd57090bd43799d35ceb7a848~2508x0.webp"
+            },
+            {
+              "name": "玄英黑",
+              "colors": [
+                "#2E2E33"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f8e1d46f2621a17132454c0601106f1c~2508x0.webp"
+            },
+            {
+              "name": "辉月青",
+              "colors": [
+                "#305980"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab70a9d5ff241ac375e679ed4dae8056~2508x0.webp"
+            },
+            {
+              "name": "海月金",
+              "colors": [
+                "#4A738D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/da64b13aa8078f9553cd10fed3aeb497~2508x0.webp"
+            },
+            {
+              "name": "玄夜金",
+              "colors": [
+                "#64635F"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/1ed9162daa9af5fd5cccc21c9fbaa3bf~2508x0.webp"
+            },
+            {
+              "name": "宸星灰",
+              "colors": [
+                "#A7A7A7"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_dad76c0ecc75249f1eb5d98d9453b086~2508x0.webp"
+            },
+            {
+              "name": "杜若白",
+              "colors": [
+                "#F5F5F5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b82a40864bac369836cd46b679866973~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "驼棕",
+              "colors": [
+                "#967B4D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/13106bd3522b5116e4d52c51d9e75502~2508x0.webp"
+            },
+            {
+              "name": "云灰",
+              "colors": [
+                "#EEEEEE"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/cdda9ae4f8783ede4ddc3944926003e0~2508x0.webp"
+            },
+            {
+              "name": "棉米",
+              "colors": [
+                "#FFFFF1"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b5e8cc209afb21dc62f86596d44c3cb1~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e9d7f64d86f384e8a0624818f315b4d1~2508x0.webp"
         }
       ]
     }
   ],
-  "lastUpdated": "2025-09-10T03:35:23.540Z",
+  "lastUpdated": "2025-09-17T08:47:31.708Z",
   "progress": {
     "completed": 6,
     "total": 6,

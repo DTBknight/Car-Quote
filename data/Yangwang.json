@@ -3,6 +3,74 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/tos-cn-i-dcdx/6e4a8cc4cdc842b6b2b94d24f18a4c8c~tplv-resize:0:0.png",
   "cars": [
     {
+      "carId": 25717,
+      "carName": "U8L",
+      "configs": [
+        {
+          "configName": "2025款 鼎世版",
+          "configId": "239234",
+          "index": 0,
+          "price": "128万",
+          "manufacturer": "仰望",
+          "class": "大型SUV",
+          "fuelType": "增程式",
+          "power": "纯电动 1197马力",
+          "size": "5400x2049x1921",
+          "exteriorImages": [
+            {
+              "name": "曜石黑/日曜金",
+              "colors": [
+                "#000000",
+                "#A18D77"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_326efd8d646a68c7c4bdc80a39cbba30~2508x0.webp"
+            },
+            {
+              "name": "曜石黑/日珥金",
+              "colors": [
+                "#000000",
+                "#BE9960"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_68ce47ad942e8a06ba133815ec035e96~2508x0.webp"
+            },
+            {
+              "name": "曜石黑",
+              "colors": [
+                "#1B1A1A"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_073a355892f48059bb44618b22b31b57~2508x0.webp"
+            },
+            {
+              "name": "萤石白",
+              "colors": [
+                "#F9F9F9"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_f007a195ac21606fdd97013f3476179d~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色/棕色",
+              "colors": [
+                "#000000",
+                "#90694C"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_c410eb6595ddbdcf6e6c615378a0b525~2508x0.webp"
+            },
+            {
+              "name": "紫色/灰色",
+              "colors": [
+                "#A020F0",
+                "#CFCFCF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_23e13028d0749b62881e8be5513d3393~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_326efd8d646a68c7c4bdc80a39cbba30~2508x0.webp"
+        }
+      ]
+    },
+    {
       "carId": 25095,
       "carName": "U7 PHEV",
       "configs": [
@@ -75,74 +143,10 @@
               "colors": [
                 "#862020"
               ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/DCP_7d7404e875d007f5bd66aab1c094a335~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_7d7404e875d007f5bd66aab1c094a335~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0259f4623ece4a4f5cd7b2fcfd0f0dce~2508x0.webp"
-        }
-      ]
-    },
-    {
-      "carId": 6346,
-      "carName": "U9",
-      "configs": [
-        {
-          "configName": "2024款 标准版",
-          "configId": "81234",
-          "index": 0,
-          "price": "168万",
-          "manufacturer": "仰望",
-          "class": "跑车",
-          "fuelType": "纯电动",
-          "power": "纯电动 1306马力",
-          "size": "4966x2029x1311",
-          "exteriorImages": [
-            {
-              "name": "阿盖尔紫",
-              "colors": [
-                "#7991C5"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae1098db67709cf0a83dae101af54b6~2508x0.webp"
-            },
-            {
-              "name": "月耀银",
-              "colors": [
-                "#E3E3E4"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/916a79b6b33e255b7dce30d5f196d397~2508x0.webp"
-            },
-            {
-              "name": "赤霞丹朱",
-              "colors": [
-                "#FF0000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/134bc1d493e6cca41c1117355d0c5d91~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "星云紫",
-              "colors": [
-                "#79598E"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02ba171c3575ae5c50fbc80ce75d9f8d~2508x0.webp"
-            },
-            {
-              "name": "赤曜红",
-              "colors": [
-                "#FF0000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cc933121fda6caa3f6e1651aa911f75~2508x0.webp"
-            },
-            {
-              "name": "日珥橙",
-              "colors": [
-                "#FFA500"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f71c6a53475f154db829a06372bf39f5~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae1098db67709cf0a83dae101af54b6~2508x0.webp"
         }
       ]
     },
@@ -223,6 +227,70 @@
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/82499aa89c0f5dcb35deb4080587c78f~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 6346,
+      "carName": "U9",
+      "configs": [
+        {
+          "configName": "2024款 标准版",
+          "configId": "81234",
+          "index": 0,
+          "price": "168万",
+          "manufacturer": "仰望",
+          "class": "跑车",
+          "fuelType": "纯电动",
+          "power": "纯电动 1306马力",
+          "size": "4966x2029x1311",
+          "exteriorImages": [
+            {
+              "name": "阿盖尔紫",
+              "colors": [
+                "#7991C5"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae1098db67709cf0a83dae101af54b6~2508x0.webp"
+            },
+            {
+              "name": "月耀银",
+              "colors": [
+                "#E3E3E4"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/916a79b6b33e255b7dce30d5f196d397~2508x0.webp"
+            },
+            {
+              "name": "赤霞丹朱",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/134bc1d493e6cca41c1117355d0c5d91~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "星云紫",
+              "colors": [
+                "#79598E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/02ba171c3575ae5c50fbc80ce75d9f8d~2508x0.webp"
+            },
+            {
+              "name": "赤曜红",
+              "colors": [
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4cc933121fda6caa3f6e1651aa911f75~2508x0.webp"
+            },
+            {
+              "name": "日珥橙",
+              "colors": [
+                "#FFA500"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/f71c6a53475f154db829a06372bf39f5~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/2ae1098db67709cf0a83dae101af54b6~2508x0.webp"
         }
       ]
     },
@@ -321,6 +389,13 @@
                 "#862020"
               ],
               "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ec88ac2e1d71cb09952a75dd922acb8e~2508x0.webp"
+            },
+            {
+              "name": "珠缎白",
+              "colors": [
+                "#EFEFEF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_a93c36c902dfdb3ebd1ea15ae8026fe3~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_0be0201f0b694c681a8be2d5e42b4404~2508x0.webp"
@@ -328,11 +403,11 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-22T10:55:02.072Z",
+  "lastUpdated": "2025-09-17T04:30:16.107Z",
   "progress": {
-    "completed": 4,
-    "total": 4,
+    "completed": 5,
+    "total": 5,
     "percentage": 100,
-    "currentIndex": 4
+    "currentIndex": 5
   }
 }
