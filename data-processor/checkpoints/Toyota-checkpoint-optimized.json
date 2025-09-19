@@ -1,12 +1,12 @@
 {
   "brand": "Toyota",
-  "timestamp": "2025-09-03T05:39:07.116Z",
+  "timestamp": "2025-09-19T06:21:19.172Z",
   "crawlSummary": {
     "totalCars": 34,
-    "successCount": 34,
-    "failCount": 0,
-    "totalTime": "53分钟",
-    "successRate": "100%"
+    "successCount": 24,
+    "failCount": 20,
+    "totalTime": "242分钟",
+    "successRate": "55%"
   },
   "carStatus": {
     "completed": [
@@ -15,7 +15,7 @@
         "carName": "GR YARIS",
         "configCount": 1,
         "exteriorColorCount": 2,
-        "interiorColorCount": 1,
+        "interiorColorCount": 2,
         "status": "completed"
       },
       {
@@ -24,14 +24,6 @@
         "configCount": 6,
         "exteriorColorCount": 21,
         "interiorColorCount": 5,
-        "status": "completed"
-      },
-      {
-        "carId": 534,
-        "carName": "雷凌",
-        "configCount": 15,
-        "exteriorColorCount": 56,
-        "interiorColorCount": 17,
         "status": "completed"
       },
       {
@@ -51,19 +43,11 @@
         "status": "completed"
       },
       {
-        "carId": 535,
-        "carName": "凯美瑞",
-        "configCount": 31,
-        "exteriorColorCount": 115,
-        "interiorColorCount": 44,
-        "status": "completed"
-      },
-      {
-        "carId": 3068,
-        "carName": "亚洲龙",
-        "configCount": 9,
-        "exteriorColorCount": 35,
-        "interiorColorCount": 19,
+        "carId": 534,
+        "carName": "雷凌",
+        "configCount": 15,
+        "exteriorColorCount": 56,
+        "interiorColorCount": 17,
         "status": "completed"
       },
       {
@@ -83,11 +67,11 @@
         "status": "completed"
       },
       {
-        "carId": 6237,
-        "carName": "皇冠SportCross",
-        "configCount": 2,
-        "exteriorColorCount": 9,
-        "interiorColorCount": 3,
+        "carId": 535,
+        "carName": "凯美瑞",
+        "configCount": 19,
+        "exteriorColorCount": 51,
+        "interiorColorCount": 22,
         "status": "completed"
       },
       {
@@ -96,6 +80,22 @@
         "configCount": 1,
         "exteriorColorCount": 0,
         "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 6237,
+        "carName": "皇冠SportCross",
+        "configCount": 2,
+        "exteriorColorCount": 9,
+        "interiorColorCount": 3,
+        "status": "completed"
+      },
+      {
+        "carId": 3068,
+        "carName": "亚洲龙",
+        "configCount": 9,
+        "exteriorColorCount": 35,
+        "interiorColorCount": 19,
         "status": "completed"
       },
       {
@@ -147,14 +147,6 @@
         "status": "completed"
       },
       {
-        "carId": 4172,
-        "carName": "威兰达",
-        "configCount": 11,
-        "exteriorColorCount": 25,
-        "interiorColorCount": 8,
-        "status": "completed"
-      },
-      {
         "carId": 4813,
         "carName": "威兰达PHEV",
         "configCount": 6,
@@ -171,19 +163,27 @@
         "status": "completed"
       },
       {
-        "carId": 5339,
-        "carName": "威飒",
-        "configCount": 18,
-        "exteriorColorCount": 42,
-        "interiorColorCount": 25,
+        "carId": 4172,
+        "carName": "威兰达",
+        "configCount": 11,
+        "exteriorColorCount": 25,
+        "interiorColorCount": 8,
         "status": "completed"
       },
       {
         "carId": 8987,
         "carName": "广汽丰田铂智3X",
         "configCount": 7,
-        "exteriorColorCount": 39,
+        "exteriorColorCount": 40,
         "interiorColorCount": 17,
+        "status": "completed"
+      },
+      {
+        "carId": 5339,
+        "carName": "威飒",
+        "configCount": 18,
+        "exteriorColorCount": 42,
+        "interiorColorCount": 25,
         "status": "completed"
       },
       {
@@ -211,19 +211,19 @@
         "status": "completed"
       },
       {
-        "carId": 536,
-        "carName": "汉兰达",
-        "configCount": 18,
-        "exteriorColorCount": 42,
-        "interiorColorCount": 25,
-        "status": "completed"
-      },
-      {
         "carId": 4840,
         "carName": "皇冠陆放",
         "configCount": 6,
         "exteriorColorCount": 16,
         "interiorColorCount": 7,
+        "status": "completed"
+      },
+      {
+        "carId": 5223,
+        "carName": "赛那",
+        "configCount": 10,
+        "exteriorColorCount": 17,
+        "interiorColorCount": 11,
         "status": "completed"
       },
       {
@@ -235,34 +235,10 @@
         "status": "completed"
       },
       {
-        "carId": 5223,
-        "carName": "赛那",
-        "configCount": 9,
-        "exteriorColorCount": 32,
-        "interiorColorCount": 15,
-        "status": "completed"
-      },
-      {
-        "carId": 5858,
-        "carName": "格瑞维亚",
-        "configCount": 13,
-        "exteriorColorCount": 29,
-        "interiorColorCount": 14,
-        "status": "completed"
-      },
-      {
         "carId": 525,
         "carName": "埃尔法",
         "configCount": 4,
         "exteriorColorCount": 7,
-        "interiorColorCount": 5,
-        "status": "completed"
-      },
-      {
-        "carId": 2163,
-        "carName": "威尔法",
-        "configCount": 4,
-        "exteriorColorCount": 6,
         "interiorColorCount": 5,
         "status": "completed"
       },
@@ -275,11 +251,35 @@
         "status": "completed"
       },
       {
+        "carId": 2163,
+        "carName": "威尔法",
+        "configCount": 4,
+        "exteriorColorCount": 6,
+        "interiorColorCount": 5,
+        "status": "completed"
+      },
+      {
         "carId": 549,
         "carName": "柯斯达",
         "configCount": 7,
         "exteriorColorCount": 1,
         "interiorColorCount": 0,
+        "status": "completed"
+      },
+      {
+        "carId": 536,
+        "carName": "汉兰达",
+        "configCount": 18,
+        "exteriorColorCount": 41,
+        "interiorColorCount": 24,
+        "status": "completed"
+      },
+      {
+        "carId": 5858,
+        "carName": "格瑞维亚",
+        "configCount": 13,
+        "exteriorColorCount": 29,
+        "interiorColorCount": 14,
         "status": "completed"
       }
     ],
@@ -287,51 +287,48 @@
     "missing": []
   },
   "imageCollectionSummary": {
-    "totalExteriorColors": 724,
-    "totalInteriorColors": 320,
+    "totalExteriorColors": 645,
+    "totalInteriorColors": 294,
     "exteriorColorTypes": [
-      "黑色",
-      "红色",
+      "玄天",
+      "朱樱",
       "黑云母",
       "铂青铜",
       "魅力银",
       "超级白",
       "铂金白",
       "天青石",
-      "墨晶黑",
-      "钛金灰",
-      "欧泊银",
-      "天际白",
+      "珍珠黑",
       "铂金珍珠白",
+      "墨晶黑",
+      "欧泊银",
+      "沙漠金",
+      "钛金灰",
+      "天际白",
       "珊瑚红",
       "星云紫",
       "金色",
       "白色",
-      "珍珠黑",
-      "沙漠金",
-      "钛辉银",
-      "赛博灰",
-      "磨砂灰",
-      "铂金珍珠白/黑色",
-      "耀动红",
-      "赛博灰/黑色",
-      "耀动红/黑色",
       "墨渊黑",
       "晶焠灰",
-      "流光银",
-      "晶石绿",
-      "碳晶棕",
       "绢珀棕",
+      "流光银",
       "绢珀棕/墨渊黑",
       "晶焠黑",
       "晶焠银",
       "晶焠白",
       "晶焠棕",
       "晶岩灰",
+      "钛辉银",
+      "赛博灰",
+      "磨砂灰",
+      "铂金珍珠白/黑色",
       "至臻黑",
       "晶焠灰/至臻黑",
       "晶焠棕/至臻黑",
       "晶焠白/至臻黑",
+      "晶石绿",
+      "碳晶棕",
       "铂金珍珠白/墨晶黑",
       "炫风黄/墨晶黑",
       "珊瑚红/墨晶黑",
@@ -352,6 +349,7 @@
       "赛博金",
       "粹雪白",
       "粹雪白/黑色",
+      "耀动红",
       "墨青蓝",
       "玫瑰棕",
       "魅力银/墨渊黑",
@@ -363,33 +361,32 @@
       "竞速黄",
       "摩登红/墨渊黑",
       "竞速黄/墨渊黑",
-      "宝石蓝",
       "极地灰",
-      "翡冷翠",
       "紫钻黑",
       "鎏金灰",
       "深空灰",
       "大漠黄",
-      "米黄"
+      "米黄",
+      "宝石蓝"
     ],
     "interiorColorTypes": [
       "黑色",
+      "红色",
       "黑橙",
-      "棕色",
       "藏蓝/白色",
       "浅棕色",
-      "星空黑",
-      "琥珀棕",
-      "象牙白",
-      "极光红",
-      "干邑棕",
-      "凝霜灰",
+      "棕色",
       "耀金灰",
       "金砂棕",
       "昼夜黑",
       "火山棕",
+      "星空黑",
+      "琥珀棕",
+      "象牙白",
       "黑色/秋栗棕",
       "黑色/琥珀棕",
+      "干邑棕",
+      "凝霜灰",
       "星幻蓝/黑色",
       "黑色/深蓝色",
       "黑色/蓝色",
@@ -410,18 +407,19 @@
       "皎月白",
       "炽焰红",
       "红色/黑色",
-      "栗棕色",
+      "格调灰",
+      "静谧黑",
+      "醇厚棕",
       "米色",
+      "栗棕色",
       "黑色/米色",
       "黑色/棕色",
-      "静谧黑",
-      "格调灰",
+      "余晖棕",
+      "新月米",
       "时尚灰",
       "至尊棕",
       "华贵米",
-      "谦和米",
-      "余晖棕",
-      "新月米"
+      "谦和米"
     ],
     "imageQuality": "完整",
     "notes": "所有车型的外观色块和内饰色块图片均已采集完成"

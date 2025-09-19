@@ -20,7 +20,7 @@ class UniversalTurboCrawler {
     this.dataCollector = new DataCollector(this.browserManager);
     this.checkpointManager = new CheckpointManager(brandName);
     this.outputFile = path.join(__dirname, '..', '..', 'data', `${brandName}.json`);
-    this.checkpointFile = path.join(__dirname, 'checkpoints', `${brandName}-checkpoint.json`);
+    this.checkpointFile = path.join(__dirname, '..', 'checkpoints', `${brandName}-checkpoint.json`);
     
     // 多浏览器实例管理
     this.browserPool = [];

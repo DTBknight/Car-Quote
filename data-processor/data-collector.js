@@ -2,8 +2,8 @@ const pLimit = require('p-limit').default;
 const pRetry = require('p-retry').default;
 const pTimeout = require('p-timeout').default;
 const cliProgress = require('cli-progress');
-const { getSmartDelay, simulateHumanBehavior, smartWait } = require('./anti-detection');
-const config = require('./config');
+const { getSmartDelay, simulateHumanBehavior, smartWait } = require('./utils/anti-detection');
+const config = require('./configs/config');
 
 class DataCollector {
   // 新增：页面池管理，减少页面创建开销
@@ -15,27 +15,7 @@ class DataCollector {
     this.maxPoolSize = 5; // 最大页面池大小
   }
 
-  // 新增：获取或创建页面
-  async getOrCreatePage(browser, key = 'default') {
-    if (this.pagePool.has(key) && this.pagePool.get(key).isClosed() === false) {
-      return this.pagePool.get(key);
-    }
-    
-    const page = await this.browserManager.createPage(browser);
-    this.pagePool.set(key, page);
-    
-    // 限制页面池大小
-    if (this.pagePool.size > this.maxPoolSize) {
-      const oldestKey = this.pagePool.keys().next().value;
-      const oldestPage = this.pagePool.get(oldestKey);
-      if (!oldestPage.isClosed()) {
-        await oldestPage.close();
-      }
-      this.pagePool.delete(oldestKey);
-    }
-    
-    return page;
-  }
+  // 已移除页面池复用机制，确保连接稳定性
 
   // 新增：智能重试机制，提升采集成功率
   async smartRetry(operation, maxRetries = 3, delay = 2000) {
@@ -1436,7 +1416,7 @@ class DataCollector {
       console.log(`📸 访问${type === 'wg' ? '外观' : '内饰'}图片页面: ${imagePageUrl} (配置ID: ${config.configId})`);
       
       // 优化的超时处理 - 先尝试 domcontentloaded，失败后回退到 load
-      const configCrawler = require('./config').crawler;
+      const configCrawler = require('./configs/config').crawler;
       const pageTimeout = Math.min(configCrawler.timeout || 180000, configCrawler.pageTimeout || 120000);
       
       try {
@@ -1618,8 +1598,23 @@ class DataCollector {
       
       const colorTasks = colorBlocks.map(async (color, index) => {
         return colorLimit(async () => {
-          // 优化：使用页面池，减少创建开销
-          const colorPage = await this.getOrCreatePage(browser, `color_${index}`);
+          // 修复：创建独立页面，避免detached Frame错误
+          let colorPage;
+          try {
+            colorPage = await this.browserManager.createPage(browser);
+            
+            // 验证页面是否有效
+            if (!colorPage || colorPage.isClosed()) {
+              throw new Error('页面创建失败或已关闭');
+            }
+          } catch (pageCreateError) {
+            console.warn(`⚠️ 色块 ${color.name} 页面创建失败: ${pageCreateError.message}`);
+            return {
+              name: color.name,
+              colors: color.colors,
+              mainImage: ''
+            };
+          }
           
           try {
             // 修复：验证色块链接有效性
@@ -1638,7 +1633,7 @@ class DataCollector {
             if (colorPageUrl && colorPageUrl.includes('dongchedi.com/series-')) {
               // 强制将URL中的索引重写为-0，确保访问第一张图片
               colorPageUrl = colorPageUrl.replace(/-\d+$/, '-0');
-              console.log(`🔧 修正色块URL: ${color.link} → ${colorPageUrl}`);
+              // 不再显示URL修正信息，减少日志噪音
             }
             
             // 新增：色块处理进度
@@ -1647,6 +1642,11 @@ class DataCollector {
             // 修复：色块页面使用更短的超时配置，避免卡住
             const colorPageTimeout = Math.min(configCrawler.colorPageTimeout || 60000, 60000); // 限制为60秒
             try {
+              // 验证页面在导航前仍然有效
+              if (colorPage.isClosed()) {
+                throw new Error('页面在导航前已关闭');
+              }
+              
               await this.withTimeoutProtection(async () => {
                 if (colorPageTimeout > 0) {
                   await pTimeout(
@@ -1655,6 +1655,11 @@ class DataCollector {
                   );
                 } else {
                   await colorPage.goto(colorPageUrl, { waitUntil: 'load' }); // 使用更稳定的load策略
+                }
+                
+                // 验证导航后页面仍然有效
+                if (colorPage.isClosed()) {
+                  throw new Error('页面在导航后已关闭');
                 }
               }, 90000, `色块 ${color.name} 页面加载`); // 90秒强制超时
             } catch (timeoutError) {
@@ -1680,15 +1685,26 @@ class DataCollector {
             // 主图抓取 - 优化图片选择器，确保采集主图
             const mainImage = await colorPage.evaluate(() => {
               console.log('🔍 开始提取主图URL...');
+              console.log('📍 当前页面URL:', window.location.href);
               
-              // 最高优先级：查找主图显示区域
+              // 调试：先查看页面上所有的图片元素
+              const allImgs = document.querySelectorAll('img');
+              console.log(`📊 页面总图片数量: ${allImgs.length}`);
+              
+              // 最高优先级：基于用户提供的HTML结构精确定位
               const primarySelectors = [
-                'div.head-image_root__2SJX2 img', // 懂车帝主图容器中的图片
+                // 用户提供的精确HTML结构：div.head-image_image__2b9RI 下的img
+                'div.head-image_image__2b9RI img[src*="dcarimg.com"]',
+                'div.head-image_image__2b9RI img',
+                'div[class*="head-image_image"] img[src*="dcarimg.com"]',
+                'div[class*="head-image_image"] img',
+                // 基于用户HTML，主图尺寸是1254x836
+                'img[width="1254"][height="836"]',
+                'img[width="1254"]',
+                // 备用选择器
+                'div.head-image_root__2SJX2 img',
                 'div[class*="head-image"] img',
-                'div[class*="image-container"] img[style*="position: absolute"]', // 主图通常使用绝对定位
-                'div[class*="main-image"] img',
-                '.main-image img',
-                '.image-container img'
+                'img[width][height][src*="dcarimg.com"]'
               ];
               
               // 优先查找主图容器中的第一张大图
@@ -1698,8 +1714,9 @@ class DataCollector {
                 
                 for (const img of imgs) {
                   const imageUrl = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
+                  console.log(`🔍 检查图片: ${imageUrl.substring(0, 100)}...`);
                   
-                  // 严格的主图验证条件
+                  // 严格的主图验证条件 - 排除SVG占位符
                   if (imageUrl && 
                       imageUrl.startsWith('http') && 
                       (imageUrl.includes('dcarimg.com') || imageUrl.includes('motor-mis-img') || 
@@ -1709,6 +1726,7 @@ class DataCollector {
                       !imageUrl.includes('avatar') &&
                       !imageUrl.includes('icon') &&
                       !imageUrl.includes('thumbnail') &&
+                      !imageUrl.includes('data:image/svg') && // 排除SVG占位符
                       !imageUrl.endsWith('.svg') &&
                       imageUrl.length > 50) { // 主图URL通常较长
                     
@@ -1716,20 +1734,26 @@ class DataCollector {
                     const width = img.naturalWidth || img.width || 0;
                     const height = img.naturalHeight || img.height || 0;
                     
+                    console.log(`📏 图片尺寸检查: ${imageUrl.substring(0, 80)}... → ${width}x${height}`);
+                    
                     if (width >= 400 || height >= 300) { // 主图尺寸阈值
                       console.log('✅ 找到主图:', imageUrl, `尺寸: ${width}x${height}`);
                       return imageUrl;
+                    } else {
+                      console.log(`❌ 图片尺寸不符合要求: ${width}x${height} (需要>=400x300)`);
                     }
+                  } else {
+                    console.log('❌ 图片URL不符合条件');
                   }
                 }
               }
               
-              // 次优选择：查找页面中最大的车型图片
-              console.log('⚠️ 主图选择器未找到，使用尺寸优先策略');
+              // 次优选择：智能尺寸和位置分析 - 基于截图优化
+              console.log('⚠️ 主图选择器未找到，使用智能分析策略');
               const allImages = document.querySelectorAll('img[src*="dcarimg.com"], img[src*="motor-mis-img"], img[src*="p1-dcd.byteimg.com"], img[src*="p3-dcd.byteimg.com"]');
               
               let bestImage = null;
-              let maxSize = 0;
+              let maxScore = 0;
               
               for (const img of allImages) {
                 const url = img.src || img.getAttribute('data-src') || img.getAttribute('data-original') || img.getAttribute('data-lazy') || '';
@@ -1742,6 +1766,7 @@ class DataCollector {
                     !url.includes('icon') &&
                     !url.includes('thumbnail') &&
                     !url.includes('fcf421caf44b23091eee') &&
+                    !url.includes('data:image/svg') && // 排除SVG占位符
                     !url.endsWith('.svg') &&
                     url.length > 50) {
                   
@@ -1749,10 +1774,32 @@ class DataCollector {
                   const height = img.naturalHeight || img.height || 0;
                   const size = width * height;
                   
-                  if (size > maxSize && size >= 120000) { // 最小面积阈值 (400x300)
-                    maxSize = size;
+                  // 智能评分系统 - 基于用户提供的HTML结构优化
+                  let score = 0;
+                  
+                  // 尺寸评分 - 优先考虑用户提供的1254x836尺寸
+                  if (width === 1254 && height === 836) score += 200; // 完全匹配用户提供的尺寸
+                  else if (width >= 1200 && height >= 800) score += 150; // 接近目标尺寸
+                  else if (width >= 1000 && height >= 600) score += 100; // 大尺寸主图
+                  else if (width >= 800 && height >= 500) score += 80;
+                  else if (width >= 600 && height >= 400) score += 60;
+                  else if (width >= 400 && height >= 300) score += 40;
+                  
+                  // 位置评分 (左上角图片通常是主图)
+                  const rect = img.getBoundingClientRect();
+                  if (rect.left < 500 && rect.top < 500) score += 30; // 靠近左上角
+                  
+                  // 宽高比评分 - 基于1254/836≈1.5的比例
+                  const ratio = width / height;
+                  if (ratio >= 1.4 && ratio <= 1.6) score += 25; // 用户HTML结构的宽高比
+                  else if (ratio >= 1.2 && ratio <= 2.0) score += 20; // 合理的宽高比
+                  
+                  console.log(`📊 图片评分: ${url.substring(0, 80)}... → 尺寸:${width}x${height}, 位置:(${Math.round(rect.left)},${Math.round(rect.top)}), 评分:${score}`);
+                  
+                  if (score > maxScore && size >= 120000) { // 最小面积阈值
+                    maxScore = score;
                     bestImage = url;
-                    console.log(`🔍 发现更大图片: ${url}, 尺寸: ${width}x${height}`);
+                    console.log(`🏆 发现更优图片: ${url}, 尺寸: ${width}x${height}, 评分: ${score}`);
                   }
                 }
               }
@@ -1769,6 +1816,13 @@ class DataCollector {
             // 新增：更新心跳活动时间
             if (typeof global !== 'undefined' && global.lastActivityTime) {
               global.lastActivityTime = Date.now();
+            }
+            
+            // 显示采集到的图片URL
+            if (mainImage) {
+              console.log(`✅ 采集到图片: ${color.name} → ${mainImage}`);
+            } else {
+              console.log(`❌ 未采集到图片: ${color.name}`);
             }
             
             return {

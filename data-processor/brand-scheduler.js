@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const { spawn } = require('child_process');
-const config = require('./config');
+const config = require('./configs/config');
 const BrandCrawler = require('./brand-crawler-template');
 
 // 从原系统导入品牌映射
@@ -204,6 +204,10 @@ class BrandScheduler {
     console.log(`📊 本次处理 ${brands.length} 个品牌`);
     console.log(`⚙️ 最大并发数: ${this.schedulerConfig.maxConcurrent}`);
     
+    // 显示品牌级别的初始进度
+    logger.title('品牌调度器启动');
+    logger.brandCollectionProgress(0, brands.length, '准备中...', brands.length);
+    
     // 初始化队列
     this.crawlerQueue = [...brands];
     
@@ -252,7 +256,14 @@ class BrandScheduler {
    * 启动单个品牌爬虫
    */
   async startBrandCrawler(brand) {
-    console.log(`🚗 启动品牌爬虫: ${brand.name}`);
+    logger.dataCollection(`启动品牌爬虫: ${brand.name}`);
+    
+    // 显示当前品牌级别进度
+    const totalBrands = this.completedCrawlers.size + this.failedCrawlers.size + this.runningCrawlers.size + this.crawlerQueue.length + 1;
+    const completedBrands = this.completedCrawlers.size + this.failedCrawlers.size;
+    const remainingBrands = totalBrands - completedBrands - 1; // -1是当前正在启动的品牌
+    
+    logger.brandCollectionProgress(completedBrands + 1, totalBrands, brand.name, remainingBrands);
     
     try {
       const crawler = new BrandCrawler(brand.name, brand.id);
@@ -276,7 +287,7 @@ class BrandScheduler {
         });
         
     } catch (error) {
-      console.error(`❌ 启动品牌爬虫失败: ${brand.name} - ${error.message}`);
+      logger.error(`启动品牌爬虫失败: ${brand.name} - ${error.message}`);
       this.handleCrawlerFailure(brand.name, error);
     }
   }
@@ -285,7 +296,7 @@ class BrandScheduler {
    * 处理爬虫成功
    */
   async handleCrawlerSuccess(brandName, result) {
-    console.log(`✅ 品牌爬虫完成: ${brandName}`);
+    logger.success(`品牌爬虫完成: ${brandName}`);
     
     const crawlerInfo = this.runningCrawlers.get(brandName);
     if (crawlerInfo) {
@@ -297,6 +308,21 @@ class BrandScheduler {
       });
       
       this.runningCrawlers.delete(brandName);
+      
+      // 显示更新后的品牌进度
+      const totalBrands = this.completedCrawlers.size + this.failedCrawlers.size + this.runningCrawlers.size + this.crawlerQueue.length;
+      const completedBrands = this.completedCrawlers.size + this.failedCrawlers.size;
+      const remainingBrands = this.crawlerQueue.length + this.runningCrawlers.size;
+      
+      logger.brandCollectionProgress(completedBrands, totalBrands, `${brandName}(完成)`, remainingBrands);
+      logger.liveCollectionStatus({
+        successCount: this.completedCrawlers.size,
+        failCount: this.failedCrawlers.size,
+        totalProcessed: completedBrands,
+        totalTarget: totalBrands,
+        currentItem: `${brandName}(完成)`,
+        estimatedRemaining: 0
+      });
     }
     
     await this.saveSchedulerStatus();
@@ -387,7 +413,22 @@ class BrandScheduler {
   async performHealthCheck() {
     const status = this.getSchedulerStatus();
     
-    console.log(`💓 调度器状态 - 运行中: ${status.running}, 队列: ${status.queued}, 完成: ${status.completed}, 失败: ${status.failed}`);
+    // 使用新的进度显示方法
+    const totalBrands = status.running + status.queued + status.completed + status.failed;
+    const completedBrands = status.completed + status.failed;
+    const remainingBrands = status.running + status.queued;
+    
+    if (totalBrands > 0) {
+      logger.brandCollectionProgress(completedBrands, totalBrands, '健康检查', remainingBrands);
+      logger.liveCollectionStatus({
+        successCount: status.completed,
+        failCount: status.failed,
+        totalProcessed: completedBrands,
+        totalTarget: totalBrands,
+        currentItem: '健康检查中...',
+        estimatedRemaining: 0
+      });
+    }
     
     // 保存状态到文件
     await this.saveSchedulerStatus();
