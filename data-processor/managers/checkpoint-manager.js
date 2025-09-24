@@ -157,39 +157,6 @@ class CheckpointManager {
   }
 
   // 保存断点（增强版，包含完整的车型ID追踪）
-  // 获取剩余待采集的车型ID
-  getRemainingCarIds(carIdTracking) {
-    if (!carIdTracking) {
-      return [];
-    }
-    
-    // 优先使用remainingCarIds字段
-    if (carIdTracking.remainingCarIds && Array.isArray(carIdTracking.remainingCarIds)) {
-      return carIdTracking.remainingCarIds;
-    }
-    
-    // 从carIdMapping中筛选pending状态的车型
-    if (carIdTracking.carIdMapping && Array.isArray(carIdTracking.carIdMapping)) {
-      const remainingIds = carIdTracking.carIdMapping
-        .filter(car => car.status === 'pending' || car.status === 'failed')
-        .map(car => car.carId);
-      return remainingIds;
-    }
-    
-    // 从状态跟踪中筛选出待处理的车型ID
-    if (carIdTracking.carIdStatus) {
-      const remainingIds = [];
-      Object.keys(carIdTracking.carIdStatus).forEach(carId => {
-        const status = carIdTracking.carIdStatus[carId].status;
-        if (status === 'pending' || status === 'failed') {
-          remainingIds.push(parseInt(carId));
-        }
-      });
-      return remainingIds;
-    }
-    
-    return [];
-  }
   
   // 更新车型状态
   updateCarIdStatus(carIdTracking, carId, status, error = null) {

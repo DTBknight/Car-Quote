@@ -218,17 +218,36 @@ class UniversalTurboCrawler {
           console.warn(`⚠️ 读取现有数据失败: ${error.message}`);
         }
         
-        // 智能计算剩余车型：根据现有数据文件计算
-        const existingCarIds = allCarData.map(car => car.carId);
-        const allCarIds = [2928, 733, 3476, 24937, 2880, 2975, 741, 6025, 6211, 9492, 4857, 2167, 25121, 25469, 6020, 25554];
-        carIds = allCarIds.filter(id => !existingCarIds.includes(id));
-        
-        console.log(`🔍 智能计算剩余车型:`);
-        console.log(`📊 已完成车型: ${existingCarIds.length} 个`, existingCarIds);
-        console.log(`🎯 剩余车型: ${carIds.length} 个`, carIds);
+        // 从断点中获取车型ID跟踪信息
+        if (checkpoint.data.carIdTracking && checkpoint.data.carIdTracking.carIdStatus) {
+          // 使用断点中的车型ID跟踪信息
+          carIds = this.checkpointManager.getRemainingCarIds(checkpoint.data.carIdTracking);
+          console.log(`🔍 从断点恢复车型ID跟踪:`);
+          console.log(`📊 已完成车型: ${allCarData.length} 个`);
+          console.log(`🎯 剩余车型: ${carIds.length} 个`, carIds);
+        } else {
+          // 回退到智能计算（兼容旧断点）
+          const existingCarIds = allCarData.map(car => car.carId);
+          const allCarIds = checkpoint.data.remainingCarIds || [];
+          carIds = allCarIds.filter(id => !existingCarIds.includes(id));
+          
+          console.log(`🔍 智能计算剩余车型（兼容模式）:`);
+          console.log(`📊 已完成车型: ${existingCarIds.length} 个`, existingCarIds);
+          console.log(`🎯 剩余车型: ${carIds.length} 个`, carIds);
+        }
         
         brandLogo = checkpoint.data.brandLogo || '';
         this.stats.successCount = allCarData.length;
+        
+        // 设置车型ID跟踪状态
+        if (checkpoint.data.carIdTracking) {
+          this.currentCarIdTracking = checkpoint.data.carIdTracking;
+        } else {
+          // 兼容旧断点，创建新的车型ID跟踪
+          const allCarIds = checkpoint.data.remainingCarIds || carIds;
+          this.currentCarIdTracking = this.checkpointManager.createCarIdTracking(allCarIds, []);
+        }
+        
         console.log(`📊 断点信息: 剩余 ${carIds.length} 个车型，已完成 ${allCarData.length} 个车型`);
         
         if (carIds.length === 0) {
@@ -258,6 +277,9 @@ class UniversalTurboCrawler {
           totalCars: carIds.length,
           carIdTracking: carIdTracking
         });
+        
+        // 设置当前状态供定时保存和优雅退出使用
+        this.currentCarIdTracking = carIdTracking;
       }
 
       // 设置当前状态供定时保存和优雅退出使用
