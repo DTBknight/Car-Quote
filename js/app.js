@@ -450,11 +450,17 @@ let app;
 // 页面加载完成后初始化应用
 document.addEventListener('DOMContentLoaded', async () => {
   try {
+    console.log('🚀 开始初始化应用...');
     app = CarQuoteApp.getInstance();
+    console.log('✅ 应用实例创建成功:', app);
+    
     await app.initialize();
+    console.log('✅ 应用初始化完成');
     
     // 将应用实例挂载到全局对象（用于调试）
     window.carQuoteApp = app;
+    console.log('✅ 应用实例已挂载到 window.carQuoteApp:', window.carQuoteApp);
+    console.log('🔍 重置方法存在:', !!(window.carQuoteApp && window.carQuoteApp.resetAllInputs));
     
     // 确保重置按钮事件绑定成功
     setTimeout(() => {

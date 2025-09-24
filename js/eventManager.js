@@ -1031,6 +1031,32 @@ export class EventManager {
       console.error('❌ 无法找到应用实例或重置方法');
       console.log('🔍 应用实例存在:', !!window.carQuoteApp);
       console.log('🔍 重置方法存在:', !!(window.carQuoteApp && window.carQuoteApp.resetAllInputs));
+      
+      // 尝试等待应用实例初始化
+      console.log('⏳ 等待应用实例初始化...');
+      this.waitForAppInstance();
     }
+  }
+  
+  // 等待应用实例初始化
+  waitForAppInstance() {
+    let attempts = 0;
+    const maxAttempts = 50; // 最多等待5秒
+    
+    const checkApp = () => {
+      attempts++;
+      console.log(`🔍 第 ${attempts} 次检查应用实例...`);
+      
+      if (window.carQuoteApp && window.carQuoteApp.resetAllInputs) {
+        console.log('✅ 应用实例已就绪，执行重置');
+        window.carQuoteApp.resetAllInputs();
+      } else if (attempts < maxAttempts) {
+        setTimeout(checkApp, 100);
+      } else {
+        console.error('❌ 等待应用实例超时，重置失败');
+      }
+    };
+    
+    checkApp();
   }
 } 
