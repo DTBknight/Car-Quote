@@ -979,35 +979,43 @@ export class EventManager {
   
   // 绑定重置按钮事件
   bindResetButtonEvents() {
-    // 使用延迟绑定确保DOM完全加载
-    setTimeout(() => {
-      const resetButton = Utils.getElement('resetButton');
+    // 使用多种方式确保事件绑定成功
+    const bindResetEvent = () => {
+      const resetButton = document.getElementById('resetButton');
       console.log('🔍 查找重置按钮:', resetButton);
+      
       if (resetButton) {
         console.log('✅ 重置按钮找到，绑定点击事件');
+        
+        // 移除可能存在的旧事件监听器
+        resetButton.removeEventListener('click', this.handleResetButtonClick);
+        
+        // 添加新的事件监听器
         resetButton.addEventListener('click', (e) => {
           e.preventDefault();
           console.log('🖱️ 重置按钮被点击');
           this.handleResetButtonClick();
         });
+        
+        console.log('✅ 重置按钮事件绑定完成');
+        return true;
       } else {
         console.error('❌ 重置按钮未找到');
-        // 尝试再次查找
-        setTimeout(() => {
-          const retryButton = Utils.getElement('resetButton');
-          if (retryButton) {
-            console.log('✅ 重试找到重置按钮，绑定点击事件');
-            retryButton.addEventListener('click', (e) => {
-              e.preventDefault();
-              console.log('🖱️ 重置按钮被点击');
-              this.handleResetButtonClick();
-            });
-          } else {
-            console.error('❌ 重试后仍未找到重置按钮');
-          }
-        }, 1000);
+        return false;
       }
-    }, 100);
+    };
+    
+    // 立即尝试绑定
+    if (!bindResetEvent()) {
+      // 如果失败，延迟重试
+      setTimeout(() => {
+        if (!bindResetEvent()) {
+          setTimeout(() => {
+            bindResetEvent();
+          }, 1000);
+        }
+      }, 100);
+    }
   }
   
   // 处理重置按钮点击

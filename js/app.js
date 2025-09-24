@@ -426,6 +426,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 将应用实例挂载到全局对象（用于调试）
     window.carQuoteApp = app;
     
+    // 确保重置按钮事件绑定成功
+    setTimeout(() => {
+      console.log('🔧 重新绑定重置按钮事件...');
+      app.eventManager.bindResetButtonEvents();
+    }, 500);
+    
     console.log('🎉 汽车报价系统已就绪');
     
     // 输出性能指标
