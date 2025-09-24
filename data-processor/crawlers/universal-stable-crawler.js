@@ -4,7 +4,7 @@ const BrowserManager = require('../managers/browser-manager');
 const CheckpointManager = require('../managers/checkpoint-manager');
 const logger = require('../utils/logger');
 // 使用统一的品牌映射
-const { getBrandId, getBrandChineseName, isValidBrand } = require('../configs/brand-mapping');
+const { getBrandId, getBrandChineseName, isValidBrand, getAllBrands } = require('../configs/brand-mapping');
 const fs = require('fs');
 const path = require('path');
 
@@ -530,15 +530,35 @@ module.exports = UniversalStableCrawler;
 // 如果直接运行此文件
 if (require.main === module) {
   const brandName = process.argv[2];
-  const brandId = process.argv[3];
+  const manualBrandId = process.argv[3]; // 可选的手动ID覆盖
   
-  if (!brandName || !brandId) {
-    console.log('用法: node universal-stable-crawler.js <品牌名> <品牌ID>');
-    console.log('例如: node universal-stable-crawler.js Audi 2');
-    console.log('     node universal-stable-crawler.js BMW 21');
+  if (!brandName) {
+    console.error('❌ 请提供品牌名称');
+    console.log('📋 用法: node universal-stable-crawler.js <品牌名> [可选:品牌ID覆盖]');
+    console.log('🔍 支持的品牌:', getAllBrands().join(', '));
     process.exit(1);
   }
   
-  const crawler = new UniversalStableCrawler(brandName, parseInt(brandId));
+  // 优先使用映射配置中的ID，允许手动覆盖
+  let brandId;
+  if (manualBrandId) {
+    brandId = parseInt(manualBrandId);
+    console.log(`⚠️  使用手动指定的品牌ID: ${brandId}`);
+  } else if (isValidBrand(brandName)) {
+    brandId = getBrandId(brandName);
+    console.log(`✅ 使用映射配置中的品牌ID: ${brandId}`);
+  } else {
+    console.error(`❌ 未知品牌: ${brandName}`);
+    console.log('🔍 支持的品牌:', getAllBrands().join(', '));
+    process.exit(1);
+  }
+  
+  // 处理多ID品牌（如奥迪、奇瑞等）
+  if (Array.isArray(brandId)) {
+    console.log(`🔄 品牌 ${brandName} 有多个ID: ${brandId.join(', ')}, 使用第一个: ${brandId[0]}`);
+    brandId = brandId[0];
+  }
+  
+  const crawler = new UniversalStableCrawler(brandName, brandId);
   crawler.crawlBrand().catch(console.error);
 }

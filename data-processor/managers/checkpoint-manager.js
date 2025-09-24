@@ -66,6 +66,46 @@ class CheckpointManager {
     };
   }
 
+  // 获取剩余待采集的车型ID
+  getRemainingCarIds(carIdTracking) {
+    if (!carIdTracking || !carIdTracking.carIdStatus) {
+      return [];
+    }
+    
+    const remainingIds = [];
+    for (const [carId, status] of Object.entries(carIdTracking.carIdStatus)) {
+      if (status.status === 'pending' || status.status === 'failed' || status.status === 'inProgress') {
+        remainingIds.push(parseInt(carId));
+      }
+    }
+    
+    console.log(`🔍 getRemainingCarIds 调试: 找到 ${remainingIds.length} 个待采集车型:`, remainingIds);
+    return remainingIds;
+  }
+
+  // 更新车型ID状态
+  updateCarIdStatus(carIdTracking, carId, status, errorMessage = null) {
+    if (!carIdTracking || !carIdTracking.carIdStatus) {
+      return carIdTracking;
+    }
+    
+    const carIdStr = carId.toString();
+    if (carIdTracking.carIdStatus[carIdStr]) {
+      carIdTracking.carIdStatus[carIdStr].status = status;
+      carIdTracking.carIdStatus[carIdStr].lastError = errorMessage;
+      
+      if (status === 'completed') {
+        carIdTracking.carIdStatus[carIdStr].completedAt = new Date().toISOString();
+      }
+      
+      if (status === 'inProgress') {
+        carIdTracking.carIdStatus[carIdStr].attempts = (carIdTracking.carIdStatus[carIdStr].attempts || 0) + 1;
+      }
+    }
+    
+    return carIdTracking;
+  }
+
   // 更新车型采集状态
   updateCarStatus(carId, status, additionalData = {}) {
     try {

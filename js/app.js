@@ -185,6 +185,126 @@ export class CarQuoteApp {
     }
   }
   
+  // 重置所有输入值
+  resetAllInputs() {
+    try {
+      console.log('🔄 开始重置所有输入值...');
+      
+      // 重置搜索输入
+      const searchInput = Utils.getElement('searchCarInput');
+      if (searchInput) {
+        searchInput.value = '';
+      }
+      
+      // 隐藏基础信息部分
+      Utils.toggleElement('baseInfoSection', false);
+      
+      // 重置所有表单输入
+      this.resetFormInputs('new');
+      this.resetFormInputs('used');
+      this.resetFormInputs('newEnergy');
+      
+      // 重置出口类型为新车
+      this.setDefaultFormType();
+      
+      // 重置报价类型为EXW
+      const exwRadio = Utils.getElement('globalQuoteType');
+      if (exwRadio) {
+        exwRadio.value = 'EXW';
+        // 触发报价类型变化事件
+        const event = new Event('change', { bubbles: true });
+        exwRadio.dispatchEvent(event);
+      }
+      
+      // 重置手续费滑块
+      const serviceFeeRate = Utils.getElement('serviceFeeRate');
+      const serviceFeeRateValue = Utils.getElement('serviceFeeRateValue');
+      if (serviceFeeRate && serviceFeeRateValue) {
+        serviceFeeRate.value = CONFIG.DEFAULTS.SERVICE_FEE_RATE;
+        serviceFeeRateValue.textContent = CONFIG.DEFAULTS.SERVICE_FEE_RATE;
+      }
+      
+      // 重置货币选择
+      const currencySelects = ['currency', 'currencyUsed', 'currencyNewEnergy'];
+      currencySelects.forEach(currencyId => {
+        const select = Utils.getElement(currencyId);
+        if (select) {
+          select.value = CONFIG.DEFAULTS.CURRENCY;
+        }
+      });
+      
+      // 清除计算结果
+      this.calculationEngine.clearCache();
+      
+      // 重新计算当前表单
+      this.calculationEngine.calculateNewCarAll();
+      
+      console.log('✅ 所有输入值重置完成');
+      
+      // 显示成功提示
+      this.showResetSuccessMessage();
+      
+    } catch (error) {
+      console.error('❌ 重置输入值失败:', error);
+    }
+  }
+  
+  // 重置指定表单的输入
+  resetFormInputs(formType) {
+    const formSelectors = {
+      'new': [
+        'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
+        'domesticShipping', 'portCharges', 'portChargesFob', 'internationalShipping',
+        'exchangeRate', 'finalQuote'
+      ],
+      'used': [
+        'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance', 
+        'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
+        'usedPortCharges', 'usedPortChargesFob', 'usedInternationalShipping', 'usedMarkup',
+        'exchangeRateUsed', 'finalQuoteUsed'
+      ],
+      'newEnergy': [
+        'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment', 
+        'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee', 
+        'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges', 
+        'newEnergyPortChargesFob', 'newEnergyInternationalShipping', 'newEnergyMarkup',
+        'exchangeRateNewEnergy', 'finalQuoteNewEnergy'
+      ]
+    };
+    
+    const selectors = formSelectors[formType] || [];
+    selectors.forEach(selector => {
+      const element = Utils.getElement(selector);
+      if (element && !element.readOnly) {
+        element.value = '';
+        // 触发input事件以更新计算
+        const event = new Event('input', { bubbles: true });
+        element.dispatchEvent(event);
+      }
+    });
+  }
+  
+  // 显示重置成功消息
+  showResetSuccessMessage() {
+    // 创建临时提示消息
+    const message = document.createElement('div');
+    message.className = 'fixed top-20 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg z-50 transition-all duration-300';
+    message.innerHTML = '<i class="fa-solid fa-check mr-2"></i>重置成功';
+    
+    document.body.appendChild(message);
+    
+    // 3秒后移除消息
+    setTimeout(() => {
+      message.style.opacity = '0';
+      message.style.transform = 'translateX(100%)';
+      setTimeout(() => {
+        if (message.parentNode) {
+          message.parentNode.removeChild(message);
+        }
+      }, 300);
+    }, 3000);
+  }
+  
   // 初始化卡片悬浮效果
   initCardHoverEffects() {
     if (CONFIG.APP.DEBUG) console.log('🎨 初始化卡片悬浮效果...');

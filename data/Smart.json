@@ -95,6 +95,14 @@
           "size": "4270x1822x1636",
           "exteriorImages": [
             {
+              "name": "量子黑/流明黄",
+              "colors": [
+                "#000005",
+                "#FFFF00"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b20eee6f15d9c445490bb470d44f3614~2508x0.webp"
+            },
+            {
               "name": "时光绿/月食黑",
               "colors": [
                 "#727D70",
@@ -151,7 +159,7 @@
               "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_d76e2bad5cc59c3dd55d123f25e2fb0b~2508x0.webp"
             }
           ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5fe9b0877518cacf515b5d9aba031724~2508x0.webp"
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_b20eee6f15d9c445490bb470d44f3614~2508x0.webp"
         },
         {
           "configName": "2026款 灵动新奢版",
@@ -215,7 +223,7 @@
           ],
           "interiorImages": [
             {
-              "name": "揽夜黑",
+              "name": "暗物质黑",
               "colors": [
                 "#000000"
               ],
@@ -248,9 +256,34 @@
           "fuelType": "纯电动",
           "power": "纯电动 496马力",
           "size": "4300x1822x1636",
-          "exteriorImages": [],
-          "interiorImages": [],
-          "configImage": ""
+          "exteriorImages": [
+            {
+              "name": "哑光黑/能量红",
+              "colors": [
+                "#222224",
+                "#C5382D"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_520919b355000b14e0e176c39e7bcc7a~2508x0.webp"
+            },
+            {
+              "name": "哑光灰/能量红",
+              "colors": [
+                "#ABA9A9",
+                "#FF0000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_1ea66a31dd0c37dfec1b592e889dd191~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "BRABUS黑",
+              "colors": [
+                "#000006"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_ecfd07800eb6bad2e4d1ce9569e72e1e~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_520919b355000b14e0e176c39e7bcc7a~2508x0.webp"
         }
       ]
     },
@@ -924,12 +957,19 @@
               "colors": [
                 "#F8F3F3"
               ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/08756f2d91edf364235e944078d2f0ec~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/08756f2d91edf364235e944078d2f0ec~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/8d7cb859633fc9a9afbe9ad94586508b~2508x0.webp"
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-22T03:28:46.470Z",
+  "progress": {
+    "completed": 3,
+    "total": 3,
+    "percentage": 100,
+    "currentIndex": 3
+  }
 }

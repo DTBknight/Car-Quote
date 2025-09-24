@@ -3,356 +3,6 @@
   "brandImage": "https://p1-dcd.byteimg.com/img/motor-mis-img/3ec788e28d2647bec8fc7b6f0f551a69~tplv-resize:100:100.image",
   "cars": [
     {
-      "carId": 1241,
-      "carName": "明锐",
-      "configs": [
-        {
-          "configName": "2025款 PRO TSI280 DSG尊享版",
-          "configId": "241043",
-          "index": 0,
-          "price": "14.39万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "紧凑型车",
-          "fuelType": "汽油",
-          "power": "1.4T 150马力 L4",
-          "size": "4753x1832x1469",
-          "exteriorImages": [
-            {
-              "name": "光子白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5903f056493301da36694b465c20e90~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/66e0adb65d4614860583eb6d9c25fba6~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e5903f056493301da36694b465c20e90~2508x0.webp"
-        },
-        {
-          "configName": "2025款 PRO TSI280 DSG奢享版",
-          "configId": "241044",
-          "index": 1,
-          "price": "15.49万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "紧凑型车",
-          "fuelType": "汽油",
-          "power": "1.4T 150马力 L4",
-          "size": "4753x1832x1469",
-          "exteriorImages": [
-            {
-              "name": "星云蓝",
-              "colors": [
-                "#272965"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23fccf71df74dbf01bd670d2f13a4961~2508x0.webp"
-            },
-            {
-              "name": "糖果白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97619e23f20c2e6533f2ec420c59099c~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/faa65d02ff035f77eb889f1afab21cad~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/23fccf71df74dbf01bd670d2f13a4961~2508x0.webp"
-        },
-        {
-          "configName": "2024款 PRO TSI280 DSG尊享版",
-          "configId": "97157",
-          "index": 2,
-          "price": "14.39万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "紧凑型车",
-          "fuelType": "汽油",
-          "power": "1.4T 150马力 L4",
-          "size": "4753x1832x1469",
-          "exteriorImages": [
-            {
-              "name": "星云蓝",
-              "colors": [
-                "#272965"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed0aade57e5e77b3fa5c4944a518081a~2508x0.webp"
-            },
-            {
-              "name": "量子灰",
-              "colors": [
-                "#716F70"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b9ab0c4f01a4cb51457a13ca8159579~2508x0.webp"
-            },
-            {
-              "name": "光子白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85be0c74cfcbd74a836d1e92f72c9164~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b58141213dcbbb9b8876f4f734412dd~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ed0aade57e5e77b3fa5c4944a518081a~2508x0.webp"
-        },
-        {
-          "configName": "2024款 PRO TSI280 DSG奢享版",
-          "configId": "97199",
-          "index": 3,
-          "price": "15.49万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "紧凑型车",
-          "fuelType": "汽油",
-          "power": "1.4T 150马力 L4",
-          "size": "4753x1832x1469",
-          "exteriorImages": [
-            {
-              "name": "星云蓝",
-              "colors": [
-                "#272965"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3de6622e1500c6048240167946f3751~2508x0.webp"
-            },
-            {
-              "name": "量子灰",
-              "colors": [
-                "#716F70"
-              ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/73ac227911a777b742feaf4f47726af7~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
-            },
-            {
-              "name": "极地白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6b946eb0ddaace99d8c1b225fb4d6d4~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c769d8f3214da509cdb48c75770c4d4~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d3de6622e1500c6048240167946f3751~2508x0.webp"
-        }
-      ]
-    },
-    {
-      "carId": 1243,
-      "carName": "速派",
-      "configs": [
-        {
-          "configName": "2025款 TSI280 DSG尊享版",
-          "configId": "241147",
-          "index": 0,
-          "price": "17.49万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型车",
-          "fuelType": "汽油",
-          "power": "1.4T 150马力 L4",
-          "size": "4869x1865x1489",
-          "exteriorImages": [
-            {
-              "name": "哥特黑",
-              "colors": [
-                "#0F1A1E"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5fd2f485ba15081ef2ea79ca9343d215~2508x0.webp"
-            },
-            {
-              "name": "圣像灰",
-              "colors": [
-                "#CBD4DB"
-              ],
-              "mainImage": "http://p3-dcd.byteimg.com/motor-mis-img/10abd48b041f808688ef0f23ff7c8f03~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
-            },
-            {
-              "name": "云石白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c1afb5a8816ff483e7af1b40f0503a2~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b3fbb3526c5c0ba981d5202ef659fec~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5fd2f485ba15081ef2ea79ca9343d215~2508x0.webp"
-        },
-        {
-          "configName": "2025款 TSI330 DSG奢享版",
-          "configId": "241148",
-          "index": 1,
-          "price": "19.49万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型车",
-          "fuelType": "汽油",
-          "power": "2.0T 186马力 L4",
-          "size": "4869x1865x1489",
-          "exteriorImages": [
-            {
-              "name": "哥特黑",
-              "colors": [
-                "#0F1A1E"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26d8e77a1725b93dd329dbb40d905ffa~2508x0.webp"
-            },
-            {
-              "name": "圣像灰",
-              "colors": [
-                "#CBD4DB"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfcc6a7ed40f43c0b52614b5f94d727e~2508x0.webp"
-            },
-            {
-              "name": "云石白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ab19bf0ce70b7c4bb8b1e657ddc41ed~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/793ada4be5a86cb6d87b56ff5e842c14~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/26d8e77a1725b93dd329dbb40d905ffa~2508x0.webp"
-        },
-        {
-          "configName": "2024款 TSI280 DSG尊享版",
-          "configId": "96163",
-          "index": 2,
-          "price": "17.49万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型车",
-          "fuelType": "汽油",
-          "power": "1.4T 150马力 L4",
-          "size": "4869x1865x1489",
-          "exteriorImages": [
-            {
-              "name": "哥特黑",
-              "colors": [
-                "#0F1A1E"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab88a5044a58aabe20f29e9ba278b2d6~2508x0.webp"
-            },
-            {
-              "name": "穹顶金",
-              "colors": [
-                "#665C50"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/569e5074e8c8b0721983cb630eb4eff3~2508x0.webp"
-            },
-            {
-              "name": "圣像灰",
-              "colors": [
-                "#CBD4DB"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54187613abb1c449adc88feba3ea5b09~2508x0.webp"
-            },
-            {
-              "name": "云石白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55c3b007c1372d0e9d25c2c8022e016f~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "http://p9-dcd.byteimg.com/motor-mis-img/b3399908757ca02d3d96b840671dbe49~tplv-f042mdwyw7-original:2048:0.jpg?psm=motor.pc_car.api"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ab88a5044a58aabe20f29e9ba278b2d6~2508x0.webp"
-        },
-        {
-          "configName": "2024款 TSI330 DSG奢享版",
-          "configId": "96164",
-          "index": 3,
-          "price": "19.49万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型车",
-          "fuelType": "汽油",
-          "power": "2.0T 186马力 L4",
-          "size": "4869x1865x1489",
-          "exteriorImages": [
-            {
-              "name": "哥特黑",
-              "colors": [
-                "#0F1A1E"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb751f4743360a8eb52bdab94b241be1~2508x0.webp"
-            },
-            {
-              "name": "圣像灰",
-              "colors": [
-                "#CBD4DB"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c8c8d60c8fbacb0f802887a06acb9de~2508x0.webp"
-            },
-            {
-              "name": "云石白",
-              "colors": [
-                "#FFFFFF"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed407c0c8c4cd6a5e2ecb15e41bb1b90~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e53c1eab9c920cc3f8045eb62be1e76b~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eb751f4743360a8eb52bdab94b241be1~2508x0.webp"
-        }
-      ]
-    },
-    {
       "carId": 2826,
       "carName": "柯米克",
       "configs": [
@@ -462,6 +112,356 @@
       ]
     },
     {
+      "carId": 1241,
+      "carName": "明锐",
+      "configs": [
+        {
+          "configName": "2025款 PRO TSI280 DSG尊享版",
+          "configId": "241043",
+          "index": 0,
+          "price": "14.39万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.4T 150马力 L4",
+          "size": "4753x1832x1469",
+          "exteriorImages": [
+            {
+              "name": "光子白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e5903f056493301da36694b465c20e90~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/66e0adb65d4614860583eb6d9c25fba6~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e5903f056493301da36694b465c20e90~2508x0.webp"
+        },
+        {
+          "configName": "2025款 PRO TSI280 DSG奢享版",
+          "configId": "241044",
+          "index": 1,
+          "price": "15.49万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.4T 150马力 L4",
+          "size": "4753x1832x1469",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#272965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/23fccf71df74dbf01bd670d2f13a4961~2508x0.webp"
+            },
+            {
+              "name": "糖果白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_97619e23f20c2e6533f2ec420c59099c~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/faa65d02ff035f77eb889f1afab21cad~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/23fccf71df74dbf01bd670d2f13a4961~2508x0.webp"
+        },
+        {
+          "configName": "2024款 PRO TSI280 DSG尊享版",
+          "configId": "97157",
+          "index": 2,
+          "price": "14.39万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.4T 150马力 L4",
+          "size": "4753x1832x1469",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#272965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed0aade57e5e77b3fa5c4944a518081a~2508x0.webp"
+            },
+            {
+              "name": "量子灰",
+              "colors": [
+                "#716F70"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2b9ab0c4f01a4cb51457a13ca8159579~2508x0.webp"
+            },
+            {
+              "name": "光子白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/85be0c74cfcbd74a836d1e92f72c9164~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/0b58141213dcbbb9b8876f4f734412dd~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ed0aade57e5e77b3fa5c4944a518081a~2508x0.webp"
+        },
+        {
+          "configName": "2024款 PRO TSI280 DSG奢享版",
+          "configId": "97199",
+          "index": 3,
+          "price": "15.49万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "紧凑型车",
+          "fuelType": "汽油",
+          "power": "1.4T 150马力 L4",
+          "size": "4753x1832x1469",
+          "exteriorImages": [
+            {
+              "name": "星云蓝",
+              "colors": [
+                "#272965"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/d3de6622e1500c6048240167946f3751~2508x0.webp"
+            },
+            {
+              "name": "量子灰",
+              "colors": [
+                "#716F70"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/73ac227911a777b742feaf4f47726af7~2508x0.webp"
+            },
+            {
+              "name": "光子白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b6b946eb0ddaace99d8c1b225fb4d6d4~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/6c769d8f3214da509cdb48c75770c4d4~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/d3de6622e1500c6048240167946f3751~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 1243,
+      "carName": "速派",
+      "configs": [
+        {
+          "configName": "2025款 TSI280 DSG尊享版",
+          "configId": "241147",
+          "index": 0,
+          "price": "17.49万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "中型车",
+          "fuelType": "汽油",
+          "power": "1.4T 150马力 L4",
+          "size": "4869x1865x1489",
+          "exteriorImages": [
+            {
+              "name": "哥特黑",
+              "colors": [
+                "#0F1A1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/5fd2f485ba15081ef2ea79ca9343d215~2508x0.webp"
+            },
+            {
+              "name": "圣像灰",
+              "colors": [
+                "#CBD4DB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/10abd48b041f808688ef0f23ff7c8f03~2508x0.webp"
+            },
+            {
+              "name": "云石白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/7c1afb5a8816ff483e7af1b40f0503a2~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/8b3fbb3526c5c0ba981d5202ef659fec~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/5fd2f485ba15081ef2ea79ca9343d215~2508x0.webp"
+        },
+        {
+          "configName": "2025款 TSI330 DSG奢享版",
+          "configId": "241148",
+          "index": 1,
+          "price": "19.49万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "中型车",
+          "fuelType": "汽油",
+          "power": "2.0T 186马力 L4",
+          "size": "4869x1865x1489",
+          "exteriorImages": [
+            {
+              "name": "哥特黑",
+              "colors": [
+                "#0F1A1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/26d8e77a1725b93dd329dbb40d905ffa~2508x0.webp"
+            },
+            {
+              "name": "圣像灰",
+              "colors": [
+                "#CBD4DB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/dfcc6a7ed40f43c0b52614b5f94d727e~2508x0.webp"
+            },
+            {
+              "name": "云石白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/4ab19bf0ce70b7c4bb8b1e657ddc41ed~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/793ada4be5a86cb6d87b56ff5e842c14~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/26d8e77a1725b93dd329dbb40d905ffa~2508x0.webp"
+        },
+        {
+          "configName": "2024款 TSI280 DSG尊享版",
+          "configId": "96163",
+          "index": 2,
+          "price": "17.49万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "中型车",
+          "fuelType": "汽油",
+          "power": "1.4T 150马力 L4",
+          "size": "4869x1865x1489",
+          "exteriorImages": [
+            {
+              "name": "哥特黑",
+              "colors": [
+                "#0F1A1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ab88a5044a58aabe20f29e9ba278b2d6~2508x0.webp"
+            },
+            {
+              "name": "穹顶金",
+              "colors": [
+                "#665C50"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/569e5074e8c8b0721983cb630eb4eff3~2508x0.webp"
+            },
+            {
+              "name": "圣像灰",
+              "colors": [
+                "#CBD4DB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/54187613abb1c449adc88feba3ea5b09~2508x0.webp"
+            },
+            {
+              "name": "云石白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/55c3b007c1372d0e9d25c2c8022e016f~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/b3399908757ca02d3d96b840671dbe49~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/ab88a5044a58aabe20f29e9ba278b2d6~2508x0.webp"
+        },
+        {
+          "configName": "2024款 TSI330 DSG奢享版",
+          "configId": "96164",
+          "index": 3,
+          "price": "19.49万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "中型车",
+          "fuelType": "汽油",
+          "power": "2.0T 186马力 L4",
+          "size": "4869x1865x1489",
+          "exteriorImages": [
+            {
+              "name": "哥特黑",
+              "colors": [
+                "#0F1A1E"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/eb751f4743360a8eb52bdab94b241be1~2508x0.webp"
+            },
+            {
+              "name": "圣像灰",
+              "colors": [
+                "#CBD4DB"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/2c8c8d60c8fbacb0f802887a06acb9de~2508x0.webp"
+            },
+            {
+              "name": "云石白",
+              "colors": [
+                "#FFFFFF"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/ed407c0c8c4cd6a5e2ecb15e41bb1b90~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e53c1eab9c920cc3f8045eb62be1e76b~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/eb751f4743360a8eb52bdab94b241be1~2508x0.webp"
+        }
+      ]
+    },
+    {
       "carId": 1661,
       "carName": "柯珞克",
       "configs": [
@@ -534,10 +534,61 @@
               "colors": [
                 "#000000"
               ],
-              "mainImage": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg=="
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/a548eac4eaabcaf94caa049f041c2cda~2508x0.webp"
             }
           ],
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/553fe13913f5c2dd50df4527910230de~2508x0.webp"
+        }
+      ]
+    },
+    {
+      "carId": 3061,
+      "carName": "柯迪亚克GT",
+      "configs": [
+        {
+          "configName": "2024款 TSI330 两驱奢享版",
+          "configId": "95398",
+          "index": 0,
+          "price": "20.89万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 186马力 L4",
+          "size": "4634x1883x1649",
+          "exteriorImages": [
+            {
+              "name": "星夜灰/沉静黑",
+              "colors": [
+                "#5F5F5F",
+                "#101010"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4b84b828e8fbfd97e2b32df9c112faf~2508x0.webp"
+            }
+          ],
+          "interiorImages": [
+            {
+              "name": "黑色",
+              "colors": [
+                "#000000"
+              ],
+              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/164a9b8057aa6b3e609335bbf98dfac7~2508x0.webp"
+            }
+          ],
+          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e4b84b828e8fbfd97e2b32df9c112faf~2508x0.webp"
+        },
+        {
+          "configName": "2024款 TSI380 四驱旗舰版",
+          "configId": "95399",
+          "index": 1,
+          "price": "24.39万",
+          "manufacturer": "上汽大众斯柯达",
+          "class": "中型SUV",
+          "fuelType": "汽油",
+          "power": "2.0T 220马力 L4",
+          "size": "4634x1883x1649",
+          "exteriorImages": [],
+          "interiorImages": [],
+          "configImage": ""
         }
       ]
     },
@@ -723,57 +774,13 @@
           "configImage": "https://p3.dcarimg.com/img/motor-mis-img/DCP_5614fc1ff47f0f6aaa6a9110cb2dc7a5~2508x0.webp"
         }
       ]
-    },
-    {
-      "carId": 3061,
-      "carName": "柯迪亚克GT",
-      "configs": [
-        {
-          "configName": "2024款 TSI330 两驱奢享版",
-          "configId": "95398",
-          "index": 0,
-          "price": "20.89万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "fuelType": "汽油",
-          "power": "2.0T 186马力 L4",
-          "size": "4634x1883x1649",
-          "exteriorImages": [
-            {
-              "name": "星夜灰/沉静黑",
-              "colors": [
-                "#5F5F5F",
-                "#101010"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/e4b84b828e8fbfd97e2b32df9c112faf~2508x0.webp"
-            }
-          ],
-          "interiorImages": [
-            {
-              "name": "黑色",
-              "colors": [
-                "#000000"
-              ],
-              "mainImage": "https://p3.dcarimg.com/img/motor-mis-img/164a9b8057aa6b3e609335bbf98dfac7~2508x0.webp"
-            }
-          ],
-          "configImage": "https://p3.dcarimg.com/img/motor-mis-img/e4b84b828e8fbfd97e2b32df9c112faf~2508x0.webp"
-        },
-        {
-          "configName": "2024款 TSI380 四驱旗舰版",
-          "configId": "95399",
-          "index": 1,
-          "price": "24.39万",
-          "manufacturer": "上汽大众斯柯达",
-          "class": "中型SUV",
-          "fuelType": "汽油",
-          "power": "2.0T 220马力 L4",
-          "size": "4634x1883x1649",
-          "exteriorImages": [],
-          "interiorImages": [],
-          "configImage": ""
-        }
-      ]
     }
-  ]
+  ],
+  "lastUpdated": "2025-09-22T04:26:13.159Z",
+  "progress": {
+    "completed": 7,
+    "total": 7,
+    "percentage": 100,
+    "currentIndex": 7
+  }
 }

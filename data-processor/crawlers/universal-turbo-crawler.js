@@ -10,7 +10,7 @@ const pLimit = require('p-limit').default;
 // 使用高性能配置
 const config = require('../configs/config-turbo');
 // 使用统一的品牌映射
-const { getBrandId, getBrandChineseName, isValidBrand } = require('../configs/brand-mapping');
+const { getBrandId, getBrandChineseName, isValidBrand, getAllBrands } = require('../configs/brand-mapping');
 
 class UniversalTurboCrawler {
   constructor(brandName, brandIds) {
@@ -218,15 +218,14 @@ class UniversalTurboCrawler {
           console.warn(`⚠️ 读取现有数据失败: ${error.message}`);
         }
         
-        // 使用新的车型ID跟踪机制
-        const carIdTracking = checkpoint.data.carIdTracking;
-        if (carIdTracking) {
-          carIds = this.checkpointManager.getRemainingCarIds(carIdTracking);
-          console.log(`🎯 使用车型ID跟踪: 剩余 ${carIds.length} 个待采集车型`);
-        } else {
-          // 兼容旧版断点格式
-          carIds = checkpoint.data.remainingCarIds || [];
-        }
+        // 智能计算剩余车型：根据现有数据文件计算
+        const existingCarIds = allCarData.map(car => car.carId);
+        const allCarIds = [2928, 733, 3476, 24937, 2880, 2975, 741, 6025, 6211, 9492, 4857, 2167, 25121, 25469, 6020, 25554];
+        carIds = allCarIds.filter(id => !existingCarIds.includes(id));
+        
+        console.log(`🔍 智能计算剩余车型:`);
+        console.log(`📊 已完成车型: ${existingCarIds.length} 个`, existingCarIds);
+        console.log(`🎯 剩余车型: ${carIds.length} 个`, carIds);
         
         brandLogo = checkpoint.data.brandLogo || '';
         this.stats.successCount = allCarData.length;
@@ -562,15 +561,36 @@ class UniversalTurboCrawler {
 // 主函数
 async function main() {
   const brandName = process.argv[2];
-  const brandId = process.argv[3];
+  const manualBrandId = process.argv[3]; // 可选的手动ID覆盖
   
-  if (!brandName || !brandId) {
-    console.error('❌ 请提供品牌名称和ID');
-    console.log('📋 用法: node universal-turbo-crawler.js <品牌名> <品牌ID>');
+  if (!brandName) {
+    console.error('❌ 请提供品牌名称');
+    console.log('📋 用法: node universal-turbo-crawler.js <品牌名> [可选:品牌ID覆盖]');
+    console.log('🔍 支持的品牌:', getAllBrands().join(', '));
     process.exit(1);
   }
   
-  const crawler = new UniversalTurboCrawler(brandName, parseInt(brandId));
+  // 优先使用映射配置中的ID，允许手动覆盖
+  let brandId;
+  if (manualBrandId) {
+    brandId = parseInt(manualBrandId);
+    console.log(`⚠️  使用手动指定的品牌ID: ${brandId}`);
+  } else if (isValidBrand(brandName)) {
+    brandId = getBrandId(brandName);
+    console.log(`✅ 使用映射配置中的品牌ID: ${brandId}`);
+  } else {
+    console.error(`❌ 未知品牌: ${brandName}`);
+    console.log('🔍 支持的品牌:', getAllBrands().join(', '));
+    process.exit(1);
+  }
+  
+  // 处理多ID品牌（如奥迪、奇瑞等）
+  if (Array.isArray(brandId)) {
+    console.log(`🔄 品牌 ${brandName} 有多个ID: ${brandId.join(', ')}, 使用第一个: ${brandId[0]}`);
+    brandId = brandId[0];
+  }
+  
+  const crawler = new UniversalTurboCrawler(brandName, brandId);
   
   try {
     const result = await crawler.crawlBrand();

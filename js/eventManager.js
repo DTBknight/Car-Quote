@@ -77,6 +77,7 @@ export class EventManager {
     this.bindCalculateButtonEvents();
     this.bindCurrencyEvents();
     this.bindCarSelectionEvents();
+    this.bindResetButtonEvents();
   }
   
   // 绑定表单类型切换事件
@@ -974,5 +975,31 @@ export class EventManager {
     }
     
     console.log('✅ 所有表单字段已重置');
+  }
+  
+  // 绑定重置按钮事件
+  bindResetButtonEvents() {
+    const resetButton = Utils.getElement('resetButton');
+    if (resetButton) {
+      resetButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.handleResetButtonClick();
+      });
+    }
+  }
+  
+  // 处理重置按钮点击
+  handleResetButtonClick() {
+    // 显示确认对话框
+    const confirmed = confirm('确定要重置所有输入值吗？此操作将清除所有已填写的数据。');
+    
+    if (confirmed) {
+      // 调用应用实例的重置方法
+      if (window.carQuoteApp && window.carQuoteApp.resetAllInputs) {
+        window.carQuoteApp.resetAllInputs();
+      } else {
+        console.error('❌ 无法找到应用实例或重置方法');
+      }
+    }
   }
 } 

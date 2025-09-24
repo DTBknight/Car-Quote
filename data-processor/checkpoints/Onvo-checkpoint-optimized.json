@@ -1,0 +1,70 @@
+{
+  "brand": "Onvo",
+  "timestamp": "2025-09-23T02:26:22.764Z",
+  "crawlSummary": {
+    "totalCars": 2,
+    "successCount": 2,
+    "failCount": 0,
+    "totalTime": "22分钟",
+    "successRate": "100%"
+  },
+  "carStatus": {
+    "completed": [
+      {
+        "carId": 9833,
+        "carName": "L60",
+        "configCount": 8,
+        "exteriorColorCount": 26,
+        "interiorColorCount": 17,
+        "status": "completed"
+      },
+      {
+        "carId": 25234,
+        "carName": "L90",
+        "configCount": 6,
+        "exteriorColorCount": 18,
+        "interiorColorCount": 10,
+        "status": "completed"
+      }
+    ],
+    "failed": [],
+    "missing": []
+  },
+  "imageCollectionSummary": {
+    "totalExteriorColors": 44,
+    "totalInteriorColors": 27,
+    "exteriorColorTypes": [
+      "曙光金",
+      "星空黑",
+      "云霞紫",
+      "极地银",
+      "雪峰白",
+      "海岸蓝",
+      "远山青",
+      "晨曦橙",
+      "岩脊棕",
+      "云曦金",
+      "辰辉银",
+      "静岳黑"
+    ],
+    "interiorColorTypes": [
+      "月榕棕",
+      "云缦米",
+      "丁香紫",
+      "雅黑",
+      "暖棕",
+      "柔白",
+      "曜夜黑"
+    ],
+    "imageQuality": "完整",
+    "notes": "所有车型的外观色块和内饰色块图片均已采集完成"
+  },
+  "dataIntegrity": {
+    "isComplete": true,
+    "completeness": "100%",
+    "missingData": [],
+    "notes": "所有车型数据采集完整"
+  },
+  "issues": [],
+  "recommendations": "数据完整，无需补采集"
+}
