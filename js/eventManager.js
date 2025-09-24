@@ -1032,31 +1032,44 @@ export class EventManager {
       console.log('🔍 应用实例存在:', !!window.carQuoteApp);
       console.log('🔍 重置方法存在:', !!(window.carQuoteApp && window.carQuoteApp.resetAllInputs));
       
-      // 尝试等待应用实例初始化
-      console.log('⏳ 等待应用实例初始化...');
-      this.waitForAppInstance();
+      // 备用方案：尝试直接重置表单字段
+      console.log('🔄 尝试备用重置方案...');
+      this.fallbackReset();
     }
   }
   
-  // 等待应用实例初始化
-  waitForAppInstance() {
-    let attempts = 0;
-    const maxAttempts = 50; // 最多等待5秒
-    
-    const checkApp = () => {
-      attempts++;
-      console.log(`🔍 第 ${attempts} 次检查应用实例...`);
+  // 备用重置方案
+  fallbackReset() {
+    try {
+      console.log('🔄 开始备用重置...');
       
-      if (window.carQuoteApp && window.carQuoteApp.resetAllInputs) {
-        console.log('✅ 应用实例已就绪，执行重置');
-        window.carQuoteApp.resetAllInputs();
-      } else if (attempts < maxAttempts) {
-        setTimeout(checkApp, 100);
-      } else {
-        console.error('❌ 等待应用实例超时，重置失败');
+      // 重置搜索输入
+      const searchInput = document.getElementById('searchCarInput');
+      if (searchInput) {
+        searchInput.value = '';
+        console.log('✅ 搜索输入已重置');
       }
-    };
-    
-    checkApp();
+      
+      // 重置新车表单字段
+      const newCarFields = [
+        'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
+        'domesticShipping', 'portCharges', 'portChargesFob', 'internationalShipping',
+        'exchangeRate', 'finalQuote'
+      ];
+      
+      let resetCount = 0;
+      newCarFields.forEach(fieldId => {
+        const element = document.getElementById(fieldId);
+        if (element && !element.readOnly) {
+          element.value = '';
+          resetCount++;
+        }
+      });
+      
+      console.log(`✅ 备用重置完成，共重置 ${resetCount} 个字段`);
+      
+    } catch (error) {
+      console.error('❌ 备用重置失败:', error);
+    }
   }
 } 

@@ -451,6 +451,7 @@ let app;
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     console.log('🚀 开始初始化应用...');
+    
     app = CarQuoteApp.getInstance();
     console.log('✅ 应用实例创建成功:', app);
     
@@ -478,6 +479,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     
   } catch (error) {
     console.error('❌ 应用启动失败:', error);
+    console.error('❌ 错误详情:', error.stack);
+    
+    // 即使初始化失败，也尝试设置应用实例
+    if (app) {
+      window.carQuoteApp = app;
+      console.log('⚠️ 应用实例已设置（初始化失败）:', window.carQuoteApp);
+    } else {
+      console.error('❌ 应用实例创建失败，无法设置 window.carQuoteApp');
+    }
   }
 });
 
