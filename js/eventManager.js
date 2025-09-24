@@ -990,16 +990,11 @@ export class EventManager {
   
   // 处理重置按钮点击
   handleResetButtonClick() {
-    // 显示确认对话框
-    const confirmed = confirm('确定要重置所有输入值吗？此操作将清除所有已填写的数据。');
-    
-    if (confirmed) {
-      // 调用应用实例的重置方法
-      if (window.carQuoteApp && window.carQuoteApp.resetAllInputs) {
-        window.carQuoteApp.resetAllInputs();
-      } else {
-        console.error('❌ 无法找到应用实例或重置方法');
-      }
+    // 直接调用应用实例的重置方法，无需确认对话框
+    if (window.carQuoteApp && window.carQuoteApp.resetAllInputs) {
+      window.carQuoteApp.resetAllInputs();
+    } else {
+      console.error('❌ 无法找到应用实例或重置方法');
     }
   }
 } 

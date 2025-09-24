@@ -241,9 +241,6 @@ export class CarQuoteApp {
       
       console.log('✅ 所有输入值重置完成');
       
-      // 显示成功提示
-      this.showResetSuccessMessage();
-      
     } catch (error) {
       console.error('❌ 重置输入值失败:', error);
     }
@@ -282,27 +279,6 @@ export class CarQuoteApp {
         element.dispatchEvent(event);
       }
     });
-  }
-  
-  // 显示重置成功消息
-  showResetSuccessMessage() {
-    // 创建临时提示消息
-    const message = document.createElement('div');
-    message.className = 'fixed top-20 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg z-50 transition-all duration-300';
-    message.innerHTML = '<i class="fa-solid fa-check mr-2"></i>重置成功';
-    
-    document.body.appendChild(message);
-    
-    // 3秒后移除消息
-    setTimeout(() => {
-      message.style.opacity = '0';
-      message.style.transform = 'translateX(100%)';
-      setTimeout(() => {
-        if (message.parentNode) {
-          message.parentNode.removeChild(message);
-        }
-      }, 300);
-    }, 3000);
   }
   
   // 初始化卡片悬浮效果
