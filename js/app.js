@@ -189,39 +189,50 @@ export class CarQuoteApp {
   resetAllInputs() {
     try {
       console.log('🔄 开始重置所有输入值...');
+      console.log('🔍 当前应用实例:', this);
       
       // 重置搜索输入
       const searchInput = Utils.getElement('searchCarInput');
+      console.log('🔍 搜索输入框:', searchInput);
       if (searchInput) {
         searchInput.value = '';
+        console.log('✅ 搜索输入框已清空');
       }
       
       // 隐藏基础信息部分
       Utils.toggleElement('baseInfoSection', false);
+      console.log('✅ 基础信息部分已隐藏');
       
       // 重置所有表单输入
+      console.log('🔄 开始重置表单输入...');
       this.resetFormInputs('new');
       this.resetFormInputs('used');
       this.resetFormInputs('newEnergy');
+      console.log('✅ 表单输入重置完成');
       
       // 重置出口类型为新车
       this.setDefaultFormType();
+      console.log('✅ 表单类型重置为新车');
       
       // 重置报价类型为EXW
       const exwRadio = Utils.getElement('globalQuoteType');
+      console.log('🔍 报价类型单选按钮:', exwRadio);
       if (exwRadio) {
         exwRadio.value = 'EXW';
         // 触发报价类型变化事件
         const event = new Event('change', { bubbles: true });
         exwRadio.dispatchEvent(event);
+        console.log('✅ 报价类型重置为EXW');
       }
       
       // 重置手续费滑块
       const serviceFeeRate = Utils.getElement('serviceFeeRate');
       const serviceFeeRateValue = Utils.getElement('serviceFeeRateValue');
+      console.log('🔍 手续费滑块:', serviceFeeRate, serviceFeeRateValue);
       if (serviceFeeRate && serviceFeeRateValue) {
         serviceFeeRate.value = CONFIG.DEFAULTS.SERVICE_FEE_RATE;
         serviceFeeRateValue.textContent = CONFIG.DEFAULTS.SERVICE_FEE_RATE;
+        console.log('✅ 手续费滑块重置完成');
       }
       
       // 重置货币选择
@@ -232,12 +243,15 @@ export class CarQuoteApp {
           select.value = CONFIG.DEFAULTS.CURRENCY;
         }
       });
+      console.log('✅ 货币选择重置完成');
       
       // 清除计算结果
       this.calculationEngine.clearCache();
+      console.log('✅ 计算结果缓存已清除');
       
       // 重新计算当前表单
       this.calculationEngine.calculateNewCarAll();
+      console.log('✅ 重新计算完成');
       
       console.log('✅ 所有输入值重置完成');
       
@@ -248,6 +262,8 @@ export class CarQuoteApp {
   
   // 重置指定表单的输入
   resetFormInputs(formType) {
+    console.log(`🔄 开始重置 ${formType} 表单输入...`);
+    
     const formSelectors = {
       'new': [
         'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
@@ -270,15 +286,29 @@ export class CarQuoteApp {
     };
     
     const selectors = formSelectors[formType] || [];
+    console.log(`🔍 ${formType} 表单选择器:`, selectors);
+    
+    let resetCount = 0;
     selectors.forEach(selector => {
       const element = Utils.getElement(selector);
+      console.log(`🔍 查找元素 ${selector}:`, element);
       if (element && !element.readOnly) {
+        const oldValue = element.value;
         element.value = '';
+        console.log(`✅ ${selector} 已重置: "${oldValue}" -> ""`);
+        resetCount++;
+        
         // 触发input事件以更新计算
         const event = new Event('input', { bubbles: true });
         element.dispatchEvent(event);
+      } else if (element && element.readOnly) {
+        console.log(`⚠️ ${selector} 是只读的，跳过重置`);
+      } else {
+        console.log(`❌ ${selector} 元素未找到`);
       }
     });
+    
+    console.log(`✅ ${formType} 表单重置完成，共重置 ${resetCount} 个字段`);
   }
   
   // 初始化卡片悬浮效果
