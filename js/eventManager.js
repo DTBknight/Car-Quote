@@ -979,22 +979,50 @@ export class EventManager {
   
   // 绑定重置按钮事件
   bindResetButtonEvents() {
-    const resetButton = Utils.getElement('resetButton');
-    if (resetButton) {
-      resetButton.addEventListener('click', (e) => {
-        e.preventDefault();
-        this.handleResetButtonClick();
-      });
-    }
+    // 使用延迟绑定确保DOM完全加载
+    setTimeout(() => {
+      const resetButton = Utils.getElement('resetButton');
+      console.log('🔍 查找重置按钮:', resetButton);
+      if (resetButton) {
+        console.log('✅ 重置按钮找到，绑定点击事件');
+        resetButton.addEventListener('click', (e) => {
+          e.preventDefault();
+          console.log('🖱️ 重置按钮被点击');
+          this.handleResetButtonClick();
+        });
+      } else {
+        console.error('❌ 重置按钮未找到');
+        // 尝试再次查找
+        setTimeout(() => {
+          const retryButton = Utils.getElement('resetButton');
+          if (retryButton) {
+            console.log('✅ 重试找到重置按钮，绑定点击事件');
+            retryButton.addEventListener('click', (e) => {
+              e.preventDefault();
+              console.log('🖱️ 重置按钮被点击');
+              this.handleResetButtonClick();
+            });
+          } else {
+            console.error('❌ 重试后仍未找到重置按钮');
+          }
+        }, 1000);
+      }
+    }, 100);
   }
   
   // 处理重置按钮点击
   handleResetButtonClick() {
+    console.log('🔄 开始处理重置按钮点击');
+    console.log('🔍 检查应用实例:', window.carQuoteApp);
+    
     // 直接调用应用实例的重置方法，无需确认对话框
     if (window.carQuoteApp && window.carQuoteApp.resetAllInputs) {
+      console.log('✅ 调用应用实例的重置方法');
       window.carQuoteApp.resetAllInputs();
     } else {
       console.error('❌ 无法找到应用实例或重置方法');
+      console.log('🔍 应用实例存在:', !!window.carQuoteApp);
+      console.log('🔍 重置方法存在:', !!(window.carQuoteApp && window.carQuoteApp.resetAllInputs));
     }
   }
 } 
