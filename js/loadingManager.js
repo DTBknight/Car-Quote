@@ -11,7 +11,6 @@ export class LoadingManager {
       { text: 'Initializing exchange rates...', progress: 38, status: 1 },
       { text: 'Setting up calculation engine...', progress: 50, status: 1 },
       { text: 'Configuring user interface...', progress: 62, status: 2 },
-      { text: 'Initializing contract management...', progress: 75, status: 2 },
       { text: 'System ready!', progress: 100, status: 2 }
     ];
     this.currentStep = 0;

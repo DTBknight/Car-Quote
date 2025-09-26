@@ -6,7 +6,6 @@ const CONFIG = {
     DEVELOPMENT: {
       BASE_URL: 'http://localhost:5001',
       ENDPOINTS: {
-        GENERATE_CONTRACT: '/generate-contract',
         HEALTH: '/health'
       }
     },
@@ -14,7 +13,6 @@ const CONFIG = {
     PRODUCTION: {
       BASE_URL: 'https://dbtknight-production.up.railway.app', // Railway后端域名
       ENDPOINTS: {
-        GENERATE_CONTRACT: '/api/generate-contract',
         HEALTH: '/health'
       }
     },
@@ -22,7 +20,6 @@ const CONFIG = {
     RAILWAY: {
       BASE_URL: 'https://dbtknight-production.up.railway.app', // Railway后端域名
       ENDPOINTS: {
-        GENERATE_CONTRACT: '/api/generate-contract',
         HEALTH: '/health'
       }
     },
