@@ -181,7 +181,7 @@ export class CarQuoteApp {
   }
   
   // 重置所有输入值
-  resetAllInputs() {
+  async resetAllInputs() {
     try {
       console.log('🔄 开始重置所有输入值...');
       console.log('🔍 当前应用实例:', this);
