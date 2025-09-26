@@ -213,6 +213,14 @@ export class CarQuoteApp {
       this.resetFormInputs('newEnergy');
       console.log('✅ 表单输入重置完成');
       
+      // 重置车型显示
+      this.carSearch.resetCarDisplay();
+      console.log('✅ 车型显示已重置');
+      
+      // 隐藏结果卡片
+      Utils.toggleElement('resultCard', false);
+      console.log('✅ 结果卡片已隐藏');
+      
       // 重置出口类型为新车
       this.setDefaultFormType();
       console.log('✅ 表单类型重置为新车');
@@ -330,8 +338,15 @@ export class CarQuoteApp {
       console.log(`🔍 查找元素 ${selector}:`, element);
       if (element && !element.readOnly) {
         const oldValue = element.value;
-        element.value = '';
-        console.log(`✅ ${selector} 已重置: "${oldValue}" -> ""`);
+        // 检查是否有默认值，如果有则重置为默认值，否则清空
+        const defaultValue = element.getAttribute('value');
+        if (defaultValue !== null) {
+          element.value = defaultValue;
+          console.log(`✅ ${selector} 已重置为默认值: "${oldValue}" -> "${defaultValue}"`);
+        } else {
+          element.value = '';
+          console.log(`✅ ${selector} 已重置: "${oldValue}" -> ""`);
+        }
         resetCount++;
         
         // 触发input事件以更新计算
