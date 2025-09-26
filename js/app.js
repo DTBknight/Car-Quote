@@ -191,6 +191,14 @@ export class CarQuoteApp {
       console.log('🔄 开始重置所有输入值...');
       console.log('🔍 当前应用实例:', this);
       
+      // 保存当前汇率数值，防止被重置
+      const savedExchangeRates = {
+        new: Utils.getElementValue('exchangeRate'),
+        used: Utils.getElementValue('exchangeRateUsed'),
+        newEnergy: Utils.getElementValue('exchangeRateNewEnergy')
+      };
+      console.log('💾 保存的汇率数值:', savedExchangeRates);
+      
       // 重置搜索输入
       const searchInput = Utils.getElement('searchCarInput');
       console.log('🔍 搜索输入框:', searchInput);
@@ -253,6 +261,39 @@ export class CarQuoteApp {
       this.calculationEngine.calculateNewCarAll();
       console.log('✅ 重新计算完成');
       
+      // 恢复汇率数值（防止被重置清空）
+      console.log('🔄 恢复汇率数值...');
+      if (savedExchangeRates.new) {
+        Utils.setElementValue('exchangeRate', savedExchangeRates.new);
+        console.log('✅ 新车汇率已恢复:', savedExchangeRates.new);
+      }
+      if (savedExchangeRates.used) {
+        Utils.setElementValue('exchangeRateUsed', savedExchangeRates.used);
+        console.log('✅ 二手车汇率已恢复:', savedExchangeRates.used);
+      }
+      if (savedExchangeRates.newEnergy) {
+        Utils.setElementValue('exchangeRateNewEnergy', savedExchangeRates.newEnergy);
+        console.log('✅ 新能源车汇率已恢复:', savedExchangeRates.newEnergy);
+      }
+      
+      // 如果汇率为空，则重新获取
+      const currentCurrency = CONFIG.DEFAULTS.CURRENCY;
+      if (!savedExchangeRates.new || !savedExchangeRates.used || !savedExchangeRates.newEnergy) {
+        console.log('🔄 部分汇率为空，重新获取...');
+        try {
+          await this.exchangeRateManager.fetchExchangeRate(currentCurrency, 'new');
+          await this.exchangeRateManager.fetchExchangeRate(currentCurrency, 'used');
+          await this.exchangeRateManager.fetchExchangeRate(currentCurrency, 'newEnergy');
+          console.log('✅ 汇率重新获取完成');
+        } catch (error) {
+          console.warn('⚠️ 汇率获取失败，使用降级汇率:', error);
+          const fallbackRate = this.exchangeRateManager.getFallbackRate(currentCurrency);
+          this.exchangeRateManager.updateUI(currentCurrency, fallbackRate, 'new', true);
+          this.exchangeRateManager.updateUI(currentCurrency, fallbackRate, 'used', true);
+          this.exchangeRateManager.updateUI(currentCurrency, fallbackRate, 'newEnergy', true);
+        }
+      }
+      
       console.log('✅ 所有输入值重置完成');
       
     } catch (error) {
@@ -268,20 +309,20 @@ export class CarQuoteApp {
       'new': [
         'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
         'domesticShipping', 'portCharges', 'portChargesFob', 'internationalShipping',
-        'exchangeRate', 'finalQuote'
+        'finalQuote'
       ],
       'used': [
         'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance', 
         'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
         'usedPortCharges', 'usedPortChargesFob', 'usedInternationalShipping', 'usedMarkup',
-        'exchangeRateUsed', 'finalQuoteUsed'
+        'finalQuoteUsed'
       ],
       'newEnergy': [
         'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment', 
         'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee', 
         'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges', 
         'newEnergyPortChargesFob', 'newEnergyInternationalShipping', 'newEnergyMarkup',
-        'exchangeRateNewEnergy', 'finalQuoteNewEnergy'
+        'finalQuoteNewEnergy'
       ]
     };
     

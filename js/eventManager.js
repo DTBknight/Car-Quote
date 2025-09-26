@@ -1050,15 +1050,27 @@ export class EventManager {
         console.log('✅ 搜索输入已重置');
       }
       
-      // 重置新车表单字段
-      const newCarFields = [
+      // 重置所有表单字段（不包括汇率）
+      const allFormFields = [
+        // 新车表单
         'guidePrice', 'discount', 'optionalEquipment', 'compulsoryInsurance', 'otherExpenses',
         'domesticShipping', 'portCharges', 'portChargesFob', 'internationalShipping',
-        'exchangeRate', 'finalQuote'
+        'finalQuote',
+        // 二手车表单
+        'usedGuidePrice', 'usedDiscount', 'usedOptionalEquipment', 'usedCompulsoryInsurance', 
+        'usedOtherExpenses', 'usedQualificationFee', 'usedAgencyFee', 'usedDomesticShipping',
+        'usedPortCharges', 'usedPortChargesFob', 'usedInternationalShipping', 'usedMarkup',
+        'finalQuoteUsed',
+        // 新能源车表单
+        'newEnergyGuidePrice', 'newEnergyDiscount', 'newEnergyOptionalEquipment', 
+        'newEnergyCompulsoryInsurance', 'newEnergyOtherExpenses', 'newEnergyQualificationFee', 
+        'newEnergyAgencyFee', 'newEnergyDomesticShipping', 'newEnergyPortCharges', 
+        'newEnergyPortChargesFob', 'newEnergyInternationalShipping', 'newEnergyMarkup',
+        'finalQuoteNewEnergy'
       ];
       
       let resetCount = 0;
-      newCarFields.forEach(fieldId => {
+      allFormFields.forEach(fieldId => {
         const element = document.getElementById(fieldId);
         if (element && !element.readOnly) {
           element.value = '';
